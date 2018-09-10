@@ -4,7 +4,7 @@ title: "_MIDL_STUB_DESC"
 author: windows-sdk-content
 description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
 old-location: rpc\midl_stub_desc.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIDL_STUB_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIDL_STUB_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MIDL_STUB_DESC
+req.redist: 
 ---
 
 # _MIDL_STUB_DESC structure
@@ -67,7 +65,7 @@ For a nonobject RPC interface on the server-side, it points to an RPC server int
 
 ### -field pfnAllocate
 
-Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
 
 
 ### -field pfnFree
@@ -147,12 +145,12 @@ Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/"
 
 ### -field aUserMarshalQuadruple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/">user_marshal</a> and <a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>  types.
+Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/">user_marshal</a> and <a href="https://msdn.microsoft.com/">wire_marshal</a>  types.
 
 
 ### -field NotifyRoutineTable
 
-Array of notification function pointers for methods with the <a href="https://msdn.microsoft.com/24f9887b-04b7-491a-ab6e-7c078b967fbc">notify</a> or <a href="https://msdn.microsoft.com/a40b7114-d2e3-40c1-a0b1-599428188611">notify_flag</a> attribute specified.
+Array of notification function pointers for methods with the <a href="https://msdn.microsoft.com/">notify</a> or <a href="https://msdn.microsoft.com/a40b7114-d2e3-40c1-a0b1-599428188611">notify_flag</a> attribute specified.
 
 
 ### -field mFlags

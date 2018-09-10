@@ -4,17 +4,16 @@ title: IReconcilableObject::GetProgressFeedbackMaxEstimate
 author: windows-sdk-content
 description: Retrieves an estimated measurement of the amount of work required to complete a reconciliation.
 old-location: lwef\ireconcilableobject_getprogressfeedbackmaxestimate.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: fdaa7f59-3aba-4a9e-b394-a76029ddab13
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProgressFeedbackMaxEstimate, GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features], GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features],IReconcilableObject interface, IReconcilableObject interface [Legacy Windows Environment Features],GetProgressFeedbackMaxEstimate method, IReconcilableObject.GetProgressFeedbackMaxEstimate, IReconcilableObject::GetProgressFeedbackMaxEstimate, _win32_IReconcilableObject_GetProgressFeedbackMaxEstimate, lwef.ireconcilableobject_getprogressfeedbackmaxestimate, reconcil/IReconcilableObject::GetProgressFeedbackMaxEstimate, shell.ireconcilableobject_getprogressfeedbackmaxestimate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: reconcil.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReconcilableObject.GetProgressFeedbackMaxEstimate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IReconcilableObject::GetProgressFeedbackMaxEstimate

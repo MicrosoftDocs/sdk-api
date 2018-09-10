@@ -4,17 +4,16 @@ title: IGuideData::GetServiceProperties
 author: windows-sdk-content
 description: The GetServiceProperties method retrieves the properties for a specified service.
 old-location: mstv\iguidedata_getserviceproperties.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 28be3bb7-b76a-44a3-892c-2aade5dbe255
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetServiceProperties, GetServiceProperties method [Microsoft TV Technologies], GetServiceProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServiceProperties method, IGuideData.GetServiceProperties, IGuideData::GetServiceProperties, IGuideDataGetServiceProperties, bdatif/IGuideData::GetServiceProperties, mstv.iguidedata_getserviceproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetServiceProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetServiceProperties

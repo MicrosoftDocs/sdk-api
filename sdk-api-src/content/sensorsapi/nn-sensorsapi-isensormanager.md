@@ -4,7 +4,7 @@ title: ISensorManager
 author: windows-sdk-content
 description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.
 old-location: winsensors\isensormanager.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorManager
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorManager interface

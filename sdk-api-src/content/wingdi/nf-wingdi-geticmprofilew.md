@@ -4,17 +4,16 @@ title: GetICMProfileW function
 author: windows-sdk-content
 description: The GetICMProfile function retrieves the file name of the current output color profile for a specified device context.
 old-location: wcs\geticmprofile.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 1e16771a-80c5-47bb-9c98-14169d4dd773
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetICMProfile, GetICMProfile function [Windows Color System], GetICMProfileA, GetICMProfileW, _color_GetICMProfile, wcs.geticmprofile, wingdi/GetICMProfile, wingdi/GetICMProfileA, wingdi/GetICMProfileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetICMProfileW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetICMProfileW function

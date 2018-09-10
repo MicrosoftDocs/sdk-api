@@ -4,17 +4,16 @@ title: TUISPI_providerInstall function
 author: windows-sdk-content
 description: Implementation of the TUISPI_providerInstall function is the service provider's opportunity to install any additional &#0034;pieces&#0034; of the provider into the right directories and set up registry entries the provider needs.
 old-location: tspi\tuispi_providerinstall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TUISPI_providerInstall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TUISPI_providerInstall function

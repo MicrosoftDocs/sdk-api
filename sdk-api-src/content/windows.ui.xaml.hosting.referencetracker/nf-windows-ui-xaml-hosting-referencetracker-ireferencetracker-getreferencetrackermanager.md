@@ -4,17 +4,16 @@ title: IReferenceTracker::xaml
 author: windows-sdk-content
 description: Gets an IReferenceTrackerManager interface from a XAML object.
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetReferenceTrackerManager, GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],GetReferenceTrackerManager method, IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker.xaml, IReferenceTracker::GetReferenceTrackerManager, IReferenceTracker::xaml, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTracker.GetReferenceTrackerManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTracker::xaml

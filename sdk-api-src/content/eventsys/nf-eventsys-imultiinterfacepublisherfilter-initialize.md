@@ -4,17 +4,16 @@ title: IMultiInterfacePublisherFilter::Initialize
 author: windows-sdk-content
 description: Associates an event class with a publisher filter.
 old-location: cos\imultiinterfacepublisherfilter_initialize.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiInterfacePublisherFilter.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiInterfacePublisherFilter::Initialize
@@ -62,7 +60,7 @@ Associates an event class with a publisher filter.
 
 ### -param pEIC
 
-
+TBD
 
 
 

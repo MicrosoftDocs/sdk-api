@@ -4,17 +4,16 @@ title: IBrowserService::RegisterWindow
 author: windows-sdk-content
 description: Deprecated. Registers the browser in the list of browser windows.
 old-location: shell\IBrowserService_RegisterWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 39d4c31b-bbe4-4b45-b335-c4ae299b1ae3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FALSE, IBrowserService interface [Windows Shell],RegisterWindow method, IBrowserService.RegisterWindow, IBrowserService::RegisterWindow, RegisterWindow, RegisterWindow method [Windows Shell], RegisterWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::RegisterWindow, shell.IBrowserService_RegisterWindow, zone_IBrowserService_RegisterWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.RegisterWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

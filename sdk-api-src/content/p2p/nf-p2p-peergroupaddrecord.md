@@ -4,17 +4,16 @@ title: PeerGroupAddRecord function
 author: windows-sdk-content
 description: The PeerGroupAddRecord function adds a new record to the peer group, which is propagated to all participating peers.
 old-location: p2p\peergroupaddrecord.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupAddRecord
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupAddRecord function

@@ -4,17 +4,16 @@ title: IInitializeWithStream::Initialize
 author: windows-sdk-content
 description: Initializes a handler with a stream.
 old-location: shell\IInitializeWithStream_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, IInitializeWithStream.Initialize, IInitializeWithStream::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithStream interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeWithStream.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeWithStream::Initialize

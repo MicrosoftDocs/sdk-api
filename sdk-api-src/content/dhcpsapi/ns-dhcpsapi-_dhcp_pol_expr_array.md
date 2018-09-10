@@ -4,7 +4,7 @@ title: "_DHCP_POL_EXPR_ARRAY"
 author: windows-sdk-content
 description: The DHCP_POL_EXPR_ARRAY structure defines an array of DHCP server policy expressions.
 old-location: dhcp\dhcp_pol_expr_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: F6EDFFAC-ECBD-4B0E-A929-3DB67D8366AC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, *LPDHCP_POL_EXPR_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_EXPR_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, *LPDHCP_POL_EXPR_ARRAY
+req.redist: 
 ---
 
 # _DHCP_POL_EXPR_ARRAY structure

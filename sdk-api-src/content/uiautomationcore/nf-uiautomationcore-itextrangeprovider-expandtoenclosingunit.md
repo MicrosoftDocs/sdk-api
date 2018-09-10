@@ -4,17 +4,16 @@ title: ITextRangeProvider::ExpandToEnclosingUnit
 author: windows-sdk-content
 description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 old-location: winauto\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6128b0ef-e78d-4f87-bc70-ab5ac0d055cf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],ExpandToEnclosingUnit method, ITextRangeProvider.ExpandToEnclosingUnit, ITextRangeProvider::ExpandToEnclosingUnit, uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiauto_ITextRangeProvider_ExpandToEnclosingUnit, uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit, winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.ExpandToEnclosingUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::ExpandToEnclosingUnit

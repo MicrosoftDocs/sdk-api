@@ -4,17 +4,16 @@ title: RevokeScaleChangeNotifications function
 author: windows-sdk-content
 description: Revokes the registration of a window, preventing it from receiving callbacks when scaling information changes.
 old-location: shell\RevokeScaleChangeNotifications.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RevokeScaleChangeNotifications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shcore.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RevokeScaleChangeNotifications function

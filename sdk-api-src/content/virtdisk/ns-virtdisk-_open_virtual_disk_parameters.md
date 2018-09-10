@@ -4,7 +4,7 @@ title: "_OPEN_VIRTUAL_DISK_PARAMETERS"
 author: windows-sdk-content
 description: Contains virtual disk open request parameters.
 old-location: vhd\open_virtual_disk_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - OPEN_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
+req.redist: 
 ---
 
 # _OPEN_VIRTUAL_DISK_PARAMETERS structure

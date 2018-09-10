@@ -4,17 +4,16 @@ title: IWSDUdpMessageParameters::GetRetransmitParams
 author: windows-sdk-content
 description: Retrieves the values that WSD uses to determine how often to repeat the message transmission.
 old-location: ncd\iwsdudpmessageparameters_getretransmitparams.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: c34d6320-c70b-410e-ae21-fba849dac62f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParams method,IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,GetRetransmitParams method, IWSDUdpMessageParameters.GetRetransmitParams, IWSDUdpMessageParameters::GetRetransmitParams, ncd.iwsdudpmessageparameters_getretransmitparams, wsdbase/IWSDUdpMessageParameters::GetRetransmitParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDUdpMessageParameters.GetRetransmitParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDUdpMessageParameters::GetRetransmitParams

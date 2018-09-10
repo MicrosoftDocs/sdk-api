@@ -4,17 +4,16 @@ title: ITfLangBarItem::GetTooltipString
 author: windows-sdk-content
 description: ITfLangBarItem::GetTooltipString method
 old-location: tsf\itflangbaritem_gettooltipstring.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItem.GetTooltipString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItem::GetTooltipString

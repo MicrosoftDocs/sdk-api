@@ -4,7 +4,7 @@ title: IWbemQualifierSet
 author: windows-sdk-content
 description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).
 old-location: wmi\iwbemqualifierset.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8b36bd32-4931-4641-a019-cbaa3547edd0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet interface

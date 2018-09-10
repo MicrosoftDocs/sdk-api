@@ -4,7 +4,7 @@ title: "_DD_GETDRIVERINFODATA"
 author: windows-sdk-content
 description: The DD_GETDRIVERINFODATA structure is used to pass data to and from the DdGetDriverInfo callback routine.
 old-location: display\dd_getdriverinfodata.htm
-old-project: display
+tech.root: display
 ms.assetid: 15a4e80d-2186-4683-a05f-405ca75044e5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETDRIVERINFODATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA"
+req.redist: 
 ---
 
 # _DD_GETDRIVERINFODATA structure

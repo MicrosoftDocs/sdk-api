@@ -4,17 +4,16 @@ title: ISurfaceImageSourceNativeWithD2D::xaml
 author: windows-sdk-content
 description: Resume the drawing operation.
 old-location: winrt\isurfaceimagesourcenativewithd2d_resumedraw.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 0A1FD29B-6340-49F5-BBF3-2E621FB16925
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],ResumeDraw method, ISurfaceImageSourceNativeWithD2D.ResumeDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::ResumeDraw, ISurfaceImageSourceNativeWithD2D::xaml, ResumeDraw, ResumeDraw method [Windows Runtime], ResumeDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::ResumeDraw, winrt.isurfaceimagesourcenativewithd2d_resumedraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceNativeWithD2D.ResumeDraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml

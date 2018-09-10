@@ -4,7 +4,7 @@ title: "_POINTL"
 author: windows-sdk-content
 description: The POINTL structure defines the x- and y-coordinates of a point.
 old-location: display\pointl.htm
-old-project: display
+tech.root: display
 ms.assetid: 68cd23d7-7898-4132-abfe-4dda527889b9
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTL, *PPOINTL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: POINTL, *PPOINTL
+req.redist: 
 ---
 
 # _POINTL structure

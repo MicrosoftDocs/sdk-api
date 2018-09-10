@@ -4,7 +4,7 @@ title: "_RPC_IF_ID"
 author: windows-sdk-content
 description: The RPC_IF_ID structure contains the interface UUID and major and minor version numbers of an interface.
 old-location: rpc\rpc_if_id.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_IF_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_IF_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_IF_ID
+req.redist: 
 ---
 
 # _RPC_IF_ID structure
@@ -64,7 +62,7 @@ The
 ### -field Uuid
 
 Specifies the interface 
-<a href="https://msdn.microsoft.com/">UUID</a>.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>.
 
 
 ### -field VersMajor

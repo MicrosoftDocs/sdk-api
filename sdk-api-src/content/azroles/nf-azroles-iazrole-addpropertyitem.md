@@ -4,17 +4,16 @@ title: IAzRole::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazrole_addpropertyitem.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3d9cb227-a3e8-4cd3-806a-5b7a38661b71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzRole object, AddPropertyItem method [Security],IAzRole interface, AzRole object [Security],AddPropertyItem method, IAzRole interface [Security],AddPropertyItem method, IAzRole.AddPropertyItem, IAzRole::AddPropertyItem, azroles/IAzRole::AddPropertyItem, security.iazrole_addpropertyitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.AddPropertyItem
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::AddPropertyItem

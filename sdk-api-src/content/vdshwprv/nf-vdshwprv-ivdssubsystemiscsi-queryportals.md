@@ -4,17 +4,16 @@ title: IVdsSubSystemIscsi::QueryPortals
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI portals of the subsystem.
 old-location: base\ivdssubsystemiscsi_queryportals.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystemIscsi.QueryPortals
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsSubSystemIscsi::QueryPortals

@@ -4,17 +4,16 @@ title: IWMPControls::playItem
 author: windows-sdk-content
 description: The playItem method plays the specified media item.
 old-location: wmp\iwmpcontrols_playitem.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],playItem method, IWMPControls.playItem, IWMPControls::playItem, IWMPControlsplayItem, playItem, playItem method [Windows Media Player], playItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.playItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::playItem

@@ -4,17 +4,16 @@ title: SaslIdentifyPackageA function
 author: windows-sdk-content
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer.
 old-location: security\saslidentifypackage.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SaslIdentifyPackageW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SaslIdentifyPackageA function

@@ -4,17 +4,16 @@ title: CreateFileMappingNumaA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm
-old-project: memory
+tech.root: memory
 ms.assetid: d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMappingNumaA, CreateFileMappingNumaW, NUMA_NO_PREFERRED_NODE, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingnuma, winbase/CreateFileMappingNuma, winbase/CreateFileMappingNumaA, winbase/CreateFileMappingNumaW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - CreateFileMappingNumaW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateFileMappingNumaA function

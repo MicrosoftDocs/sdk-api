@@ -4,17 +4,16 @@ title: ImportNtmsDatabase function
 author: windows-sdk-content
 description: The ImportNtmsDatabase function causes RSM to import the database files from the database Export directory at the next restart of the RSM.
 old-location: fs\importntmsdatabase.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 9bb41109-6548-4d22-92c8-0d8ed960f119
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_importntmsdatabase, base.importntmsdatabase, fs.importntmsdatabase, ntmsapi/ImportNtmsDatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ImportNtmsDatabase
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ImportNtmsDatabase function

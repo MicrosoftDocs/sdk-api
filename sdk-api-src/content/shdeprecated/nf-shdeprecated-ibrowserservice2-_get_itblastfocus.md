@@ -4,17 +4,16 @@ title: IBrowserService2::_get_itbLastFocus
 author: windows-sdk-content
 description: Deprecated. Gets the ID of the last toolbar or view that had focus.
 old-location: shell\IBrowserService2__get_itbLastFocus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 411c55ca-f9c3-4ecc-ac9d-96f23dcf3e39
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_get_itbLastFocus method, IBrowserService2._get_itbLastFocus, IBrowserService2::_get_itbLastFocus, _get_itbLastFocus, _get_itbLastFocus method [Windows Shell], _get_itbLastFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_get_itbLastFocus, shell.IBrowserService2__get_itbLastFocus, zone_IBrowserService2__get_itbLastFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._get_itbLastFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

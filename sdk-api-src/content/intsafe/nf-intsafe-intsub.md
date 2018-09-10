@@ -4,17 +4,16 @@ title: IntSub function
 author: windows-sdk-content
 description: Subtracts one value of type INT from another.
 old-location: shell\IntSub.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ee083a68-27fd-4c94-93e0-7e662c48d5cf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntSub, IntSub function [Windows Shell], intsafe/IntSub, shell.IntSub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntSub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntSub function

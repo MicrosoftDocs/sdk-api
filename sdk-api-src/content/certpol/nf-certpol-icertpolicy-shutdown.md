@@ -4,17 +4,16 @@ title: ICertPolicy::ShutDown
 author: windows-sdk-content
 description: Called by the server engine before the server is terminated.
 old-location: security\icertpolicy2_shutdown.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertPolicy object [Security],ShutDown method, ICertPolicy interface [Security],ShutDown method, ICertPolicy.ShutDown, ICertPolicy2 interface [Security],ShutDown method, ICertPolicy2::ShutDown, ICertPolicy::ShutDown, ShutDown, ShutDown method [Security], ShutDown method [Security],CCertPolicy object, ShutDown method [Security],ICertPolicy interface, ShutDown method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_shutdown, certpol/ICertPolicy2::ShutDown, certpol/ICertPolicy::ShutDown, security.icertpolicy2_shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CCertPolicy.ShutDown
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPolicy::ShutDown

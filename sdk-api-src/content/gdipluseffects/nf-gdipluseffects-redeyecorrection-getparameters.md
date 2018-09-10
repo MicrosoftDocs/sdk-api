@@ -4,17 +4,16 @@ title: RedEyeCorrection::GetParameters
 author: windows-sdk-content
 description: The RedEyeCorrection::GetParameters method gets the current values of the parameters of this RedEyeCorrection object.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_GetParameters_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\getparameters.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],RedEyeCorrection class, RedEyeCorrection class [GDI+],GetParameters method, RedEyeCorrection.GetParameters, RedEyeCorrection::GetParameters, _gdiplus_CLASS_RedEyeCorrection_GetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_GetParameters_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RedEyeCorrection.GetParameters
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

@@ -4,17 +4,16 @@ title: CertVerifyCTLUsage function
 author: windows-sdk-content
 description: Verifies that a subject is trusted for a specified usage by finding a signed and time-valid certificate trust list (CTL) with the usage identifiers that contain the subject.
 old-location: security\certverifyctlusage.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertVerifyCTLUsage
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertVerifyCTLUsage function

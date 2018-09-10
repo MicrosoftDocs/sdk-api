@@ -4,17 +4,16 @@ title: IWMWriterFileSink2::IsClosed
 author: windows-sdk-content
 description: The IsClosed method ascertains whether the file sink has been closed.
 old-location: wmformat\iwmwriterfilesink2_isclosed.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMWriterFileSink2.IsClosed
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMWriterFileSink2::IsClosed

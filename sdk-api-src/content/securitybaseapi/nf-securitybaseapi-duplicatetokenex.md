@@ -4,17 +4,16 @@ title: DuplicateTokenEx function
 author: windows-sdk-content
 description: Creates a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
 old-location: security\duplicatetokenex.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - DuplicateTokenEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DuplicateTokenEx function

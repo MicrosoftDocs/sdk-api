@@ -4,17 +4,16 @@ title: EcClose function
 author: windows-sdk-content
 description: Closes a handle received from other Event Collector functions.
 old-location: wec\ecclose.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: a2dc71e3-7580-4484-9a08-4e3ee2139921
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcClose
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcClose function

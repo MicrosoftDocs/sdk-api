@@ -4,17 +4,16 @@ title: GetExtendedTcpTable function
 author: windows-sdk-content
 description: Retrieves a table that contains a list of TCP endpoints available to the application.
 old-location: iphlp\getextendedtcptable.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetExtendedTcpTable
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetExtendedTcpTable function

@@ -4,7 +4,7 @@ title: D2D1_SIMPLE_COLOR_PROFILE
 author: windows-sdk-content
 description: Simple description of a color space.
 old-location: direct2d\d2d1_simple_color_profile.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: B48A7333-AC8B-4965-9D78-6FFC3B0F01A9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SIMPLE_COLOR_PROFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SIMPLE_COLOR_PROFILE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_SIMPLE_COLOR_PROFILE
+req.redist: 
 ---
 
 # D2D1_SIMPLE_COLOR_PROFILE structure

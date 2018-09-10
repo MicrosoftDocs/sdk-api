@@ -4,17 +4,16 @@ title: MsiUseFeatureA function
 author: windows-sdk-content
 description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeature.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiUseFeatureW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiUseFeatureA function

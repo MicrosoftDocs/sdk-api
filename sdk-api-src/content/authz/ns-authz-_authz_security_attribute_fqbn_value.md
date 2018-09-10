@@ -4,7 +4,7 @@ title: "_AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE"
 author: windows-sdk-content
 description: Specifies a fully qualified binary name value associated with a security attribute.
 old-location: security\authz_security_attribute_fqbn_value.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 05b4bf7d-a0d9-473c-b215-9cf566b2a996
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, *PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE, *PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
+req.redist: 
 ---
 
 # _AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure

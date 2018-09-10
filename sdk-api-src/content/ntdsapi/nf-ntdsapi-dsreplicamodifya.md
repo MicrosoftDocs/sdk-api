@@ -4,17 +4,16 @@ title: DsReplicaModifyA function
 author: windows-sdk-content
 description: Modifies an existing replication source reference for a destination naming context.
 old-location: ad\dsreplicamodify.htm
-old-project: ad
+tech.root: ad
 ms.assetid: aad20527-1211-41bc-b0e9-02e4ab28ae2e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPMOD_ASYNCHRONOUS_OPERATION, DS_REPMOD_UPDATE_ADDRESS, DS_REPMOD_UPDATE_FLAGS, DS_REPMOD_UPDATE_RESULT, DS_REPMOD_UPDATE_SCHEDULE, DS_REPMOD_UPDATE_TRANSPORT, DS_REPMOD_WRITEABLE, DsReplicaModify, DsReplicaModify function [Active Directory], DsReplicaModifyA, DsReplicaModifyW, _glines_dsreplicamodify, ad.dsreplicamodify, ntdsapi/DsReplicaModify, ntdsapi/DsReplicaModifyA, ntdsapi/DsReplicaModifyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsReplicaModifyW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaModifyA function

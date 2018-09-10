@@ -4,7 +4,7 @@ title: "_SHChangeUpdateImageIDList"
 author: windows-sdk-content
 description: SHChangeUpdateImageIDList may be altered or unavailable.
 old-location: shell\SHChangeUpdateImageIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHChangeUpdateImageIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
+req.redist: 
 ---
 
 # _SHChangeUpdateImageIDList structure

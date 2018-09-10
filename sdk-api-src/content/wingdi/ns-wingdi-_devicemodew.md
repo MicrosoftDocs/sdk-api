@@ -4,7 +4,7 @@ title: "_devicemodeW"
 author: windows-sdk-content
 description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
 old-location: display\devmodew.htm
-old-project: display
+tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Wingdi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVMODEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
+req.redist: 
 ---
 
 # _devicemodeW structure

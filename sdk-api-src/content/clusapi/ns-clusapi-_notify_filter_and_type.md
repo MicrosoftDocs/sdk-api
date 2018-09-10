@@ -4,7 +4,7 @@ title: "_NOTIFY_FILTER_AND_TYPE"
 author: windows-sdk-content
 description: Represents a filter for a notification port that was created by the CreateClusterNotifyPortV2 function. A filter specifies that a notification port accept notifications for the specified type of cluster object during the specified event.
 old-location: mscs\notify_filter_and_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: E173F5D8-955B-44FF-980E-CEF536A87AF5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - NOTIFY_FILTER_AND_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
+req.redist: 
 ---
 
 # _NOTIFY_FILTER_AND_TYPE structure

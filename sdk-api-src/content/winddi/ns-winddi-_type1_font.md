@@ -4,7 +4,7 @@ title: "_TYPE1_FONT"
 author: windows-sdk-content
 description: The TYPE1_FONT structure contains the information necessary for a PostScript driver to access a Type1 font through GDI.
 old-location: display\type1_font.htm
-old-project: display
+tech.root: display
 ms.assetid: c852a814-3ebc-4688-aa42-c99b0ee63918
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TYPE1_FONT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TYPE1_FONT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TYPE1_FONT
+req.redist: 
 ---
 
 # _TYPE1_FONT structure

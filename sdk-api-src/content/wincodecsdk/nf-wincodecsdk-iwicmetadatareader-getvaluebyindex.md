@@ -4,17 +4,16 @@ title: IWICMetadataReader::GetValueByIndex
 author: windows-sdk-content
 description: Gets the metadata item at the given index.
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
-old-project: wic
+tech.root: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataReader.GetValueByIndex
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataReader::GetValueByIndex

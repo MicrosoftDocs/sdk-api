@@ -4,17 +4,16 @@ title: INetFwMgr::IsIcmpTypeAllowed
 author: windows-sdk-content
 description: Determines whether the specified ICMP type is allowed.
 old-location: ics\inetfwmgr_isicmptypeallowed.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - INetFwMgr.IsIcmpTypeAllowed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwMgr::IsIcmpTypeAllowed

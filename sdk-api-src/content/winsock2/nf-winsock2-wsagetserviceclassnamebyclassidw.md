@@ -4,17 +4,16 @@ title: WSAGetServiceClassNameByClassIdW function
 author: windows-sdk-content
 description: The WSAGetServiceClassNameByClassId function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service.
 old-location: winsock\wsagetserviceclassnamebyclassid_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAGetServiceClassNameByClassId, WSAGetServiceClassNameByClassId function [Winsock], WSAGetServiceClassNameByClassIdA, WSAGetServiceClassNameByClassIdW, _win32_wsagetserviceclassnamebyclassid_2, winsock.wsagetserviceclassnamebyclassid_2, winsock2/WSAGetServiceClassNameByClassId, winsock2/WSAGetServiceClassNameByClassIdA, winsock2/WSAGetServiceClassNameByClassIdW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAGetServiceClassNameByClassIdW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAGetServiceClassNameByClassIdW function

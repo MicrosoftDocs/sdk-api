@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProvider::LocateLuns
 author: windows-sdk-content
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProvider.LocateLuns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProvider::LocateLuns

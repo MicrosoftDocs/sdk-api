@@ -4,17 +4,16 @@ title: MprAdminConnectionRemoveQuarantine function
 author: windows-sdk-content
 description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.
 old-location: rras\mpradminconnectionremovequarantine.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminConnectionRemoveQuarantine
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminConnectionRemoveQuarantine function

@@ -4,17 +4,16 @@ title: IMbnVendorSpecificOperation::SetVendorSpecific
 author: windows-sdk-content
 description: Sends a request to the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificoperation_setvendorspecific.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: adae9d6c-3fd4-42f6-8f6a-0047f3e0aad0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],SetVendorSpecific method, IMbnVendorSpecificOperation.SetVendorSpecific, IMbnVendorSpecificOperation::SetVendorSpecific, SetVendorSpecific, SetVendorSpecific method [Microsoft Broadband Networks], SetVendorSpecific method [Microsoft Broadband Networks],IMbnVendorSpecificOperation interface, mbn.imbnvendorspecificoperation_setvendorspecific, mbnapi/IMbnVendorSpecificOperation::SetVendorSpecific
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnVendorSpecificOperation.SetVendorSpecific
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnVendorSpecificOperation::SetVendorSpecific

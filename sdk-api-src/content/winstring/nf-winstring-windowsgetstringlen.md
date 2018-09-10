@@ -4,17 +4,16 @@ title: WindowsGetStringLen function
 author: windows-sdk-content
 description: Gets the length, in Unicode characters, of the specified string.
 old-location: winrt\windowsgetstringlen.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 80B659DF-C760-4D9E-B779-144A5B8FEA59
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime], winrt.windowsgetstringlen, winstring/WindowsGetStringLen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WindowsGetStringLen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WindowsGetStringLen function

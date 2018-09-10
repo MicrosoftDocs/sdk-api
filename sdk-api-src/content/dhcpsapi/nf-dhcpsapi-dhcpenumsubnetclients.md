@@ -4,17 +4,16 @@ title: DhcpEnumSubnetClients function
 author: windows-sdk-content
 description: The DhcpEnumSubnetClients function returns an enumerated list of clients with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclients.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumSubnetClients
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumSubnetClients function

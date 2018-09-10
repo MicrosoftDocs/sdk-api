@@ -4,17 +4,16 @@ title: IRawCDImageCreator::get_MediaCatalogNumber
 author: windows-sdk-content
 description: Sets the Media Catalog Number (MCN) for the entire audio disc.
 old-location: imapi\irawcdimagecreator_get_mediacatalognumber.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: db6f46b7-9965-4b06-a437-bdfdac7d5efa
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_MediaCatalogNumber method, IRawCDImageCreator.get_MediaCatalogNumber, IRawCDImageCreator::get_MediaCatalogNumber, get_MediaCatalogNumber, get_MediaCatalogNumber method [IMAPI], get_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_mediacatalognumber, imapi2/IRawCDImageCreator::get_MediaCatalogNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.get_MediaCatalogNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::get_MediaCatalogNumber

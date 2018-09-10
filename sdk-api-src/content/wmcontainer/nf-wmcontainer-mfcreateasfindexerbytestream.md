@@ -4,17 +4,16 @@ title: MFCreateASFIndexerByteStream function
 author: windows-sdk-content
 description: Creates a byte stream to access the index in an ASF stream.
 old-location: mf\mfcreateasfindexerbytestream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateASFIndexerByteStream
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateASFIndexerByteStream function

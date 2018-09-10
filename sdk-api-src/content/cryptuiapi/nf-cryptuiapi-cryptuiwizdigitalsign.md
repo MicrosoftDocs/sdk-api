@@ -4,17 +4,16 @@ title: CryptUIWizDigitalSign function
 author: windows-sdk-content
 description: Digitally signs a document or BLOB.
 old-location: security\cryptuiwizdigitalsign.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUIWizDigitalSign
 product: Windows
 targetos: Windows
-req.lib: Cryptui.lib
-req.dll: Cryptui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUIWizDigitalSign function

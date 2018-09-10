@@ -4,17 +4,16 @@ title: ISimpleAudioVolume::GetMute
 author: windows-sdk-content
 description: The GetMute method retrieves the current muting state for the audio session.
 old-location: coreaudio\isimpleaudiovolume_getmute.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 35890423-2aac-473b-a820-ba7cb1b5e05e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMute method, ISimpleAudioVolume.GetMute, ISimpleAudioVolume::GetMute, ISimpleAudioVolumeGetMute, audioclient/ISimpleAudioVolume::GetMute, coreaudio.isimpleaudiovolume_getmute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISimpleAudioVolume.GetMute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleAudioVolume::GetMute

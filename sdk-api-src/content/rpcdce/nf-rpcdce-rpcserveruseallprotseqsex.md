@@ -4,17 +4,16 @@ title: RpcServerUseAllProtseqsEx function
 author: windows-sdk-content
 description: The RpcServerUseAllProtseqsEx function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsex.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 4fc2ccbe-1b01-4157-b3e7-2c61397d78f7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerUseAllProtseqsEx
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerUseAllProtseqsEx function
@@ -181,7 +179,7 @@ For each protocol sequence registered by a server, the RPC run-time library crea
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
+<a href="https://msdn.microsoft.com/">ncacn_http</a>
 </li>
 </ul>
 </div>

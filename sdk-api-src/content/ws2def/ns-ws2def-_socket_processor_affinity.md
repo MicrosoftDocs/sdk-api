@@ -4,7 +4,7 @@ title: "_SOCKET_PROCESSOR_AFFINITY"
 author: windows-sdk-content
 description: Contains the association between a socket and an RSS processor core and NUMA node.
 old-location: winsock\socket_processor_affinity.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: CB1E9F79-C6BD-40C2-8D0F-36B24B1BBBF4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_PROCESSOR_AFFINITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
+req.redist: 
 ---
 
 # _SOCKET_PROCESSOR_AFFINITY structure

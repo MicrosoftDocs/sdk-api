@@ -4,17 +4,16 @@ title: ResUtilDupParameterBlock function
 author: windows-sdk-content
 description: Performs a member-wise copy of the data from one parameter block to another.
 old-location: mscs\resutildupparameterblock.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK function [Failover Cluster], ResUtilDupParameterBlock, ResUtilDupParameterBlock function [Failover Cluster], _wolf_resutildupparameterblock, mscs.resutildupparameterblock, resapi/PRESUTIL_DUP_PARAMETER_BLOCK, resapi/ResUtilDupParameterBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilDupParameterBlock
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilDupParameterBlock function

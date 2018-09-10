@@ -4,17 +4,16 @@ title: IDWriteFactory3::CreateFontSetBuilder
 author: windows-sdk-content
 description: Creates an empty font set builder to add font face references and create a custom font set.
 old-location: directwrite\idwritefactory3_createfontsetbuilder.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 8021f934-af83-ccd0-e142-455df88bf936
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory3.CreateFontSetBuilder, IDWriteFactory3::CreateFontSetBuilder, directwrite.idwritefactory3_createfontsetbuilder, dwrite_3/IDWriteFactory3::CreateFontSetBuilder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory3.CreateFontSetBuilder
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory3::CreateFontSetBuilder

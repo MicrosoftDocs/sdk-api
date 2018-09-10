@@ -4,7 +4,7 @@ title: "_PROVIDER_EVENT_INFO"
 author: windows-sdk-content
 description: Defines an array of events in a provider manifest.
 old-location: etw\provider_event_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROVIDER_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROVIDER_EVENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROVIDER_EVENT_INFO
+req.redist: 
 ---
 
 # _PROVIDER_EVENT_INFO structure

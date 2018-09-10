@@ -4,17 +4,16 @@ title: IDWriteFactory2::TranslateColorGlyphRun
 author: windows-sdk-content
 description: This method is called on a glyph run to translate it in to multiple color glyph runs.
 old-location: directwrite\idwritefactory2_translatecolorglyphrun.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1D31F807-C3F2-466F-9723-E6F12B13BFA1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDWriteFactory2 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory2.TranslateColorGlyphRun, IDWriteFactory2::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory2 interface, directwrite.idwritefactory2_translatecolorglyphrun, dwrite_2/IDWriteFactory2::TranslateColorGlyphRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory2.TranslateColorGlyphRun
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory2::TranslateColorGlyphRun

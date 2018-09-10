@@ -4,17 +4,16 @@ title: DsAddressToSiteNamesW function
 author: windows-sdk-content
 description: Obtains the site names corresponding to the specified addresses.
 old-location: ad\dsaddresstositenames.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsAddressToSiteNames, DsAddressToSiteNames function [Active Directory], DsAddressToSiteNamesA, DsAddressToSiteNamesW, _glines_dsaddresstositenames, ad.dsaddresstositenames, dsgetdc/DsAddressToSiteNames, dsgetdc/DsAddressToSiteNamesA, dsgetdc/DsAddressToSiteNamesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsAddressToSiteNamesW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsAddressToSiteNamesW function

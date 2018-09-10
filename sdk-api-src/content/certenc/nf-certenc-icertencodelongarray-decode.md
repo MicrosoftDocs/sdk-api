@@ -4,17 +4,16 @@ title: ICertEncodeLongArray::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
 old-location: security\icertencodelongarray_decode.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeLongArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeLongArray object, Decode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Decode method, ICertEncodeLongArray.Decode, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeLongArray.Decode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray::Decode

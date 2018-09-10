@@ -4,17 +4,16 @@ title: ID2D1SvgAttribute::Clone
 author: windows-sdk-content
 description: Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
 old-location: direct2d\id2d1svgattribute_clone.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 85A16E88-5010-403F-B6B9-EBA6A4321463
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Direct2D], Clone method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],Clone method, ID2D1SvgAttribute.Clone, ID2D1SvgAttribute::Clone, d2d1svg/ID2D1SvgAttribute::Clone, direct2d.id2d1svgattribute_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgAttribute.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgAttribute::Clone

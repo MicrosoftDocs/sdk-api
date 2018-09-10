@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0006"
 author: windows-sdk-content
 description: Specifies the preferred direction of the In-Place Input Panel relative to the text entry field.
 old-location: tablet\inplacedirection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 798ad6d8-de1c-49dc-87a1-86bb4f73603a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InPlaceDirection
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InPlaceDirection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: InPlaceDirection
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0006 enumeration

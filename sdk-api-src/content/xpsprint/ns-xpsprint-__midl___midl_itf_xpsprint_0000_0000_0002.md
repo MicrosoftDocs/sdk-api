@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsprint_0000_0000_0002"
 author: windows-sdk-content
 description: Contains a snapshot of job status.
 old-location: gdi\xps_job_status.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XPS_JOB_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XPS_JOB_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_xpsprint_0000_0000_0002 structure

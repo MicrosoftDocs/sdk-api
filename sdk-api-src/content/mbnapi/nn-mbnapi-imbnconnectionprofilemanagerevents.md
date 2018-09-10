@@ -4,7 +4,7 @@ title: IMbnConnectionProfileManagerEvents
 author: windows-sdk-content
 description: This notification interface signals an application about the arrival and removal of IMbnConnectionProfile interfaces in the system.
 old-location: mbn\imbnconnectionprofilemanagerevents.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 08ec0bff-898f-4a54-b711-ceae80e7329d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfileManagerEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfileManagerEvents interface

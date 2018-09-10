@@ -4,17 +4,16 @@ title: CreateUpDownControl function
 author: windows-sdk-content
 description: Creates an up-down control. Note:\_This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.
 old-location: controls\CreateUpDownControl.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateUpDownControl
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateUpDownControl function

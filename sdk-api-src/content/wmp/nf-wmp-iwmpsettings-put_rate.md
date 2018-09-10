@@ -4,17 +4,16 @@ title: IWMPSettings::put_rate
 author: windows-sdk-content
 description: The put_rate method specifies the current playback rate for video.
 old-location: wmp\iwmpsettings_put_rate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_rate method, IWMPSettings.put_rate, IWMPSettings::put_rate, IWMPSettingsput_rate, put_rate, put_rate method [Windows Media Player], put_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_rate, wmp/IWMPSettings::put_rate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.put_rate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::put_rate

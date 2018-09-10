@@ -4,7 +4,7 @@ title: SpatialAudioClientActivationParams
 author: windows-sdk-content
 description: Represents optional activation parameters for a spatial audio render stream. Pass this structure to ActivateAudioInterfaceAsync when activating an ISpatialAudioClient interface.
 old-location: coreaudio\spatialaudioclientactivationparams.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioClientActivationParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioClientActivationParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioClientActivationParams
+req.redist: 
 ---
 
 # SpatialAudioClientActivationParams structure

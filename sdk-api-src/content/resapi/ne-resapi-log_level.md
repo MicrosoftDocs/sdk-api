@@ -4,7 +4,7 @@ title: LOG_LEVEL
 author: windows-sdk-content
 description: Represents the severity of the log event passed to the LogEvent callback function.
 old-location: mscs\log_level.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 976251d5-6619-47f7-9b6e-2031768100b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_LEVEL, *PLOG_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOG_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LOG_LEVEL, *PLOG_LEVEL
+req.redist: 
 ---
 
 # LOG_LEVEL enumeration

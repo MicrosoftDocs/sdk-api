@@ -4,17 +4,16 @@ title: IUPnPDeviceFinder::CreateAsyncFind
 author: windows-sdk-content
 description: The CreateAsyncFind method creates an asynchronous search operation.
 old-location: upnp\iupnpdevicefinder_createasyncfind.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 4461b53f-b630-4b4a-bc68-0cc48ef70594
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateAsyncFind, CreateAsyncFind method [UPnP APIs], CreateAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],CreateAsyncFind method, IUPnPDeviceFinder.CreateAsyncFind, IUPnPDeviceFinder::CreateAsyncFind, _upnp_iupnpdevicefinder_createasyncfind, upnp.iupnpdevicefinder_createasyncfind, upnp/IUPnPDeviceFinder::CreateAsyncFind
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceFinder.CreateAsyncFind
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceFinder::CreateAsyncFind
@@ -73,7 +71,7 @@ Specify zero. This parameter is reserved for future use.
 
 ### -param punkDeviceFinderCallback
 
-
+TBD
 
 
 ### -param plFindData [out]

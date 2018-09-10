@@ -4,17 +4,16 @@ title: IAudioAutoGainControl::GetEnabled
 author: windows-sdk-content
 description: The GetEnabled method gets the current state (enabled or disabled) of the AGC.
 old-location: coreaudio\iaudioautogaincontrol_getenabled.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9af85f6e-26b0-45bb-9694-a7578477b456
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioAutoGainControl interface, IAudioAutoGainControl interface [Core Audio],GetEnabled method, IAudioAutoGainControl.GetEnabled, IAudioAutoGainControl::GetEnabled, IAudioAutoGainControlGetEnabled, coreaudio.iaudioautogaincontrol_getenabled, devicetopology/IAudioAutoGainControl::GetEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioAutoGainControl.GetEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioAutoGainControl::GetEnabled

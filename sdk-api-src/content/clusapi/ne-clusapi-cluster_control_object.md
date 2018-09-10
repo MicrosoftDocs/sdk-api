@@ -4,7 +4,7 @@ title: CLUSTER_CONTROL_OBJECT
 author: windows-sdk-content
 description: The 8-bit object component of a control code that indicates the type of cluster object to which the control code applies. For more information, see Control Code Architecture.
 old-location: mscs\cluster_control_object.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 63719776-0b3a-470a-a732-40e62064c6fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CONTROL_OBJECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_CONTROL_OBJECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_CONTROL_OBJECT
+req.redist: 
 ---
 
 # CLUSTER_CONTROL_OBJECT enumeration

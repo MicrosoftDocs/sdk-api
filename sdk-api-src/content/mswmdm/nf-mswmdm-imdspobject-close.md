@@ -4,17 +4,16 @@ title: IMDSPObject::Close
 author: windows-sdk-content
 description: The Close method closes a file on a storage medium of a media device.
 old-location: wmdm\imdspobject_close.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 453dbf9e-4b71-4ceb-80e2-eaa0cf4cd29d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Close, Close method [windows Media Device Manager], Close method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Close method, IMDSPObject.Close, IMDSPObject::Close, IMDSPObjectClose, mswmdm/IMDSPObject::Close, wmdm.imdspobject_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Close
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Close

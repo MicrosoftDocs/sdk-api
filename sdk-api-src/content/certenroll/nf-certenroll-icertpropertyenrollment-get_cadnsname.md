@@ -4,17 +4,16 @@ title: ICertPropertyEnrollment::get_CADnsName
 author: windows-sdk-content
 description: Retrieves the Domain Naming System (DNS) name of the certification authority (CA).
 old-location: security\icertpropertyenrollment_cadnsname_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 5b388cfe-e0b1-4b57-bf6c-81f9ab65ffcf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CADnsName property [Security], CADnsName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CADnsName property, ICertPropertyEnrollment.CADnsName, ICertPropertyEnrollment.get_CADnsName, ICertPropertyEnrollment::CADnsName, ICertPropertyEnrollment::get_CADnsName, certenroll/ICertPropertyEnrollment::CADnsName, certenroll/ICertPropertyEnrollment::get_CADnsName, get_CADnsName, security.icertpropertyenrollment_cadnsname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyEnrollment.get_CADnsName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyEnrollment::get_CADnsName

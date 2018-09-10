@@ -4,17 +4,16 @@ title: IAccessibleEx::ConvertReturnedElement
 author: windows-sdk-content
 description: Retrieves the IAccessibleEx interface of an element returned as a property value.
 old-location: winauto\uiauto_IAccessibleEx_ConvertReturnedElement.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: eafda7ed-b18c-4d52-9d1c-a9d1a2d5dfd1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConvertReturnedElement, ConvertReturnedElement method [Windows Accessibility], ConvertReturnedElement method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],ConvertReturnedElement method, IAccessibleEx.ConvertReturnedElement, IAccessibleEx::ConvertReturnedElement, uiauto.uiauto_IAccessibleEx_ConvertReturnedElement, uiauto_IAccessibleEx_ConvertReturnedElement, uiautomationcore/IAccessibleEx::ConvertReturnedElement, winauto.uiauto_IAccessibleEx_ConvertReturnedElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibleEx.ConvertReturnedElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibleEx::ConvertReturnedElement

@@ -4,17 +4,16 @@ title: CertGetNameStringW function
 author: windows-sdk-content
 description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string.
 old-location: security\certgetnamestring.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CERT_NAME_ATTR_TYPE, CERT_NAME_DISABLE_IE4_UTF8_FLAG, CERT_NAME_DNS_TYPE, CERT_NAME_EMAIL_TYPE, CERT_NAME_FRIENDLY_DISPLAY_TYPE, CERT_NAME_ISSUER_FLAG, CERT_NAME_RDN_TYPE, CERT_NAME_SEARCH_ALL_NAMES_FLAG, CERT_NAME_SIMPLE_DISPLAY_TYPE, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_UPN_TYPE, CERT_NAME_URL_TYPE, CertGetNameString, CertGetNameString function [Security], CertGetNameStringA, CertGetNameStringW, _crypto2_certgetnamestring, security.certgetnamestring, wincrypt/CertGetNameString, wincrypt/CertGetNameStringA, wincrypt/CertGetNameStringW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CertGetNameStringW
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertGetNameStringW function

@@ -4,7 +4,7 @@ title: lineinitializeexparams_tag
 author: windows-sdk-content
 description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.
 old-location: tapi2\lineinitializeexparams_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEINITIALIZEEXPARAMS, *LPLINEINITIALIZEEXPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEINITIALIZEEXPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEINITIALIZEEXPARAMS, *LPLINEINITIALIZEEXPARAMS
+req.redist: 
 ---
 
 # lineinitializeexparams_tag structure

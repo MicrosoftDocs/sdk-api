@@ -4,17 +4,16 @@ title: ID3D11Device1::GetImmediateContext1
 author: windows-sdk-content
 description: Gets an immediate context, which can play back command lists.
 old-location: direct3d11\id3d11device1_getimmediatecontext1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: E66CDC7E-21B5-4675-A7A1-6F94940A4C13
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetImmediateContext1, GetImmediateContext1 method [Direct3D 11], GetImmediateContext1 method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],GetImmediateContext1 method, ID3D11Device1.GetImmediateContext1, ID3D11Device1::GetImmediateContext1, d3d11_1/ID3D11Device1::GetImmediateContext1, direct3d11.id3d11device1_getimmediatecontext1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device1.GetImmediateContext1
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device1::GetImmediateContext1

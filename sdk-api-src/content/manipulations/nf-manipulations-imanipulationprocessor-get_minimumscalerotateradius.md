@@ -4,17 +4,16 @@ title: IManipulationProcessor::get_MinimumScaleRotateRadius
 author: windows-sdk-content
 description: Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
 old-location: wintouch\imanipulationprocessor_minimumscalerotateradius.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: b4c49f41-c5ea-4c6a-872b-2d982e588b09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],MinimumScaleRotateRadius property, IManipulationProcessor.MinimumScaleRotateRadius, IManipulationProcessor.get_MinimumScaleRotateRadius, IManipulationProcessor::MinimumScaleRotateRadius, IManipulationProcessor::get_MinimumScaleRotateRadius, IManipulationProcessor::put_MinimumScaleRotateRadius, MinimumScaleRotateRadius property [Windows Touch], MinimumScaleRotateRadius property [Windows Touch],IManipulationProcessor interface, get_MinimumScaleRotateRadius, manipulations/IManipulationProcessor::MinimumScaleRotateRadius, manipulations/IManipulationProcessor::get_MinimumScaleRotateRadius, manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius, wintouch.imanipulationprocessor_minimumscalerotateradius
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IManipulationProcessor.put_MinimumScaleRotateRadius
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::get_MinimumScaleRotateRadius

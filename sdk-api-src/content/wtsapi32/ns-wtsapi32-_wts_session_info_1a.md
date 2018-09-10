@@ -4,7 +4,7 @@ title: "_WTS_SESSION_INFO_1A"
 author: windows-sdk-content
 description: Contains extended information about a client session on a Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wts_session_info_1.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 29d76033-d61d-4bc5-b47a-f7dea9543f23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_SESSION_INFO_1A, *PWTS_SESSION_INFO_1A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTS_SESSION_INFO_1W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_SESSION_INFO_1A, *PWTS_SESSION_INFO_1A
+req.redist: 
 ---
 
 # _WTS_SESSION_INFO_1A structure

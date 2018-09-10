@@ -4,7 +4,7 @@ title: IAudioStreamVolume
 author: windows-sdk-content
 description: The IAudioStreamVolume interface enables a client to control and monitor the volume levels for all of the channels in an audio stream.
 old-location: coreaudio\iaudiostreamvolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 92cc127b-77ac-4fc7-ac3c-319e5d6368d3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioStreamVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioStreamVolume interface

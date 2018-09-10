@@ -4,17 +4,16 @@ title: Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitma
 author: windows-sdk-content
 description: This topic lists the ApplyEffect methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_ApplyEffect_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapapplyeffectmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ApplyEffect, ApplyEffect methods [GDI+], Bitmap.ApplyEffect, Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), Bitmap::ApplyEffect, Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap), _gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Methods, gdiplusheaders/ApplyEffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Bitmap.ApplyEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap)

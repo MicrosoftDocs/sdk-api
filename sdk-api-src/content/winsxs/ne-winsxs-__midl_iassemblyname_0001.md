@@ -4,7 +4,7 @@ title: "__MIDL_IAssemblyName_0001"
 author: windows-sdk-content
 description: The values of the ASM_NAME enumeration are the property IDs for the name-value pairs included in a side-by-side assembly name.
 old-location: setup\asm_name_.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: 5e13e90e-68b0-4842-97de-4f179d4c9ad7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASM_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASM_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASM_NAME
+req.redist: 
 ---
 
 # __MIDL_IAssemblyName_0001 enumeration

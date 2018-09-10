@@ -4,17 +4,16 @@ title: GetClusterResourceDependencyExpression function
 author: windows-sdk-content
 description: Retrieves the dependency expression associated with the specified resource.
 old-location: mscs\getclusterresourcedependencyexpression.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 16071086-66fe-428e-9bd5-dd0b31cf7b15
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterResourceDependencyExpression, GetClusterResourceDependencyExpression function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION function [Failover Cluster], clusapi/GetClusterResourceDependencyExpression, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.getclusterresourcedependencyexpression
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetClusterResourceDependencyExpression
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterResourceDependencyExpression function

@@ -4,7 +4,7 @@ title: "_CMC_STATUS_INFO"
 author: windows-sdk-content
 description: Contains status information about Certificate Management Messages over CMS.
 old-location: security\cmc_status_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
+req.redist: 
 ---
 
 # _CMC_STATUS_INFO structure

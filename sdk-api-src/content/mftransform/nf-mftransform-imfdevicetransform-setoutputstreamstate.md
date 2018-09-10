@@ -4,17 +4,16 @@ title: IMFDeviceTransform::SetOutputStreamState
 author: windows-sdk-content
 description: The SetOutputStreamState method sets the Device MFT output stream state and media type.
 old-location: stream\imfdevicetransform_setoutputstreamstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: E44A5D0C-440A-4929-9640-AD2F7AA7D19F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetOutputStreamState method, IMFDeviceTransform.SetOutputStreamState, IMFDeviceTransform::SetOutputStreamState, SetOutputStreamState, SetOutputStreamState method [Streaming Media Devices], SetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetOutputStreamState, stream.imfdevicetransform_setoutputstreamstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.SetOutputStreamState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::SetOutputStreamState
@@ -72,7 +70,7 @@ Preferred media type for the input stream is passed in through this parameter. D
 
 ### -param value
 
-
+TBD
 
 
 ### -param dwFlags [in]

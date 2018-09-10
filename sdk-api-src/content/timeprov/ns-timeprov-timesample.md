@@ -4,7 +4,7 @@ title: TimeSample
 author: windows-sdk-content
 description: Represents a time sample.
 old-location: base\timesample_str.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimeSample
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TimeSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TimeSample
+req.redist: 
 ---
 
 # TimeSample structure

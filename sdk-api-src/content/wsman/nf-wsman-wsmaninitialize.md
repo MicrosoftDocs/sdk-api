@@ -4,17 +4,16 @@ title: WSManInitialize function
 author: windows-sdk-content
 description: Initializes the Windows Remote Management Client API.
 old-location: winrm\wsmaninitialize.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: 5aa1f451-0d12-4079-9477-1971fc084df2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Management], winrm.wsmaninitialize, wsman/WSManInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManSessionOption
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSManInitialize
 product: Windows
 targetos: Windows
-req.lib: WsmSvc.lib
-req.dll: WsmSvc.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # WSManInitialize function

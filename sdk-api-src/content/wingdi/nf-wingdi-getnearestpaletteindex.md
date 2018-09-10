@@ -4,17 +4,16 @@ title: GetNearestPaletteIndex function
 author: windows-sdk-content
 description: The GetNearestPaletteIndex function retrieves the index for the entry in the specified logical palette most closely matching a specified color value.
 old-location: gdi\getnearestpaletteindex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: df54532d-dcdb-4927-8f48-c9c92a7e0121
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNearestPaletteIndex, GetNearestPaletteIndex function [Windows GDI], _win32_GetNearestPaletteIndex, gdi.getnearestpaletteindex, wingdi/GetNearestPaletteIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetNearestPaletteIndex
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNearestPaletteIndex function

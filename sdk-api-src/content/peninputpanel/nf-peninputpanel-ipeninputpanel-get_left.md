@@ -4,17 +4,16 @@ title: IPenInputPanel::get_Left
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the horizontal, or x-axis, location of the left edge of the PenInputPanel object, in screen coordinates.
 old-location: tablet\peninputpanel_left.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 99af3767-5bc9-43e3-9413-5886f057cb85
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 99af3767-5bc9-43e3-9413-5886f057cb85, IPenInputPanel interface [Tablet PC],Left property, IPenInputPanel.Left, IPenInputPanel.get_Left, IPenInputPanel::Left, IPenInputPanel::get_Left, Left property [Tablet PC], Left property [Tablet PC],IPenInputPanel interface, PenInputPanel.get_Left, get_Left, peninputpanel/IPenInputPanel::Left, peninputpanel/IPenInputPanel::get_Left, tablet.peninputpanel_left
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PenInputPanel.get_Left
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::get_Left

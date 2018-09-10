@@ -4,17 +4,16 @@ title: IPlaybackControl::FinalClientRetry
 author: windows-sdk-content
 description: Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
 old-location: cos\iplaybackcontrol_finalclientretry.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPlaybackControl.FinalClientRetry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPlaybackControl::FinalClientRetry

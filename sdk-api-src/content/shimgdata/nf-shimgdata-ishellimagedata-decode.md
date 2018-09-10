@@ -4,17 +4,16 @@ title: IShellImageData::Decode
 author: windows-sdk-content
 description: Decodes the image file, setting state.
 old-location: shell\IShellImageData_Decode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Decode, Decode method [Windows Shell], Decode method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Decode method, IShellImageData.Decode, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.Decode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::Decode

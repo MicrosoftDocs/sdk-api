@@ -4,17 +4,16 @@ title: IFileDialogCustomize::GetEditBoxText
 author: windows-sdk-content
 description: Gets the current text in an edit box control.
 old-location: shell\IFileDialogCustomize_GetEditBoxText.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7c3db511-d357-48b4-9ac3-07f6b3d23a5f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEditBoxText, GetEditBoxText method [Windows Shell], GetEditBoxText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetEditBoxText method, IFileDialogCustomize.GetEditBoxText, IFileDialogCustomize::GetEditBoxText, shell.IFileDialogCustomize_GetEditBoxText, shell_IFileDialogCustomize_GetEditBoxText, shobjidl_core/IFileDialogCustomize::GetEditBoxText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.GetEditBoxText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::GetEditBoxText

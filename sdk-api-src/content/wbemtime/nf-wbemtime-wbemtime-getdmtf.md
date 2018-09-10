@@ -4,17 +4,16 @@ title: WBEMTime::GetDMTF
 author: windows-sdk-content
 description: The GetDMTF method converts a BSTR value to CIM Date and Time Format.
 old-location: wmi\wbemtime_getdmtf.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetDMTF@WBEMTime@@QEBAPEAGH@Z
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::GetDMTF

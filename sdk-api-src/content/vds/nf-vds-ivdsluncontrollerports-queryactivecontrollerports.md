@@ -4,17 +4,16 @@ title: IVdsLunControllerPorts::QueryActiveControllerPorts
 author: windows-sdk-content
 description: Returns an enumeration of currently active controller ports.
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunControllerPorts.QueryActiveControllerPorts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsLunControllerPorts::QueryActiveControllerPorts

@@ -4,7 +4,7 @@ title: "_INSTALLDATA"
 author: windows-sdk-content
 description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.
 old-location: policy\installdata_str.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 0c0570c6-f8f5-41e1-a1d2-d4e8c450f73c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INSTALLDATA, *PINSTALLDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - INSTALLDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: INSTALLDATA, *PINSTALLDATA
+req.redist: 
 ---
 
 # _INSTALLDATA structure

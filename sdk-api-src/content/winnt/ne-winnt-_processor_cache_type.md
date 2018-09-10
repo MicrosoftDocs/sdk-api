@@ -4,7 +4,7 @@ title: "_PROCESSOR_CACHE_TYPE"
 author: windows-sdk-content
 description: Represents the type of processor cache identified in the corresponding CACHE_DESCRIPTOR structure.
 old-location: base\processor_cache_type.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 23044f67-e944-43c2-8c75-3d2fba87cb3c
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESSOR_CACHE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESSOR_CACHE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PROCESSOR_CACHE_TYPE
+req.redist: 
 ---
 
 # _PROCESSOR_CACHE_TYPE enumeration

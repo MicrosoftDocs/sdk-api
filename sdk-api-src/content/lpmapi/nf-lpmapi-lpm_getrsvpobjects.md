@@ -4,17 +4,16 @@ title: LPM_GetRsvpObjects function
 author: windows-sdk-content
 description: The LPM_GetRsvpObjects function allows the PCM to query LPMs for policy data.
 old-location: qos\lpm_getrsvpobjects.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 1ae417e9-3180-4fd4-90f6-6e91c12d523b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPM_GetRsvpObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LPM_GetRsvpObjects function

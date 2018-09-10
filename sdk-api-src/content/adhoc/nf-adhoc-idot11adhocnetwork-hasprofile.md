@@ -4,17 +4,16 @@ title: IDot11AdHocNetwork::HasProfile
 author: windows-sdk-content
 description: Returns a boolean value that specifies whether there is a saved profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_hasprofile.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 252f32ef-0a54-445f-94ca-113a67a3e6dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HasProfile, HasProfile method [NativeWIFI], HasProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],HasProfile method, IDot11AdHocNetwork.HasProfile, IDot11AdHocNetwork::HasProfile, adhoc/IDot11AdHocNetwork::HasProfile, nwifi.idot11adhocnetwork_hasprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetwork.HasProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetwork::HasProfile

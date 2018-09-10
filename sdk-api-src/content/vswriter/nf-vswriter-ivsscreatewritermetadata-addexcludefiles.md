@@ -4,17 +4,16 @@ title: IVssCreateWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateWriterMetadata.AddExcludeFiles
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateWriterMetadata::AddExcludeFiles

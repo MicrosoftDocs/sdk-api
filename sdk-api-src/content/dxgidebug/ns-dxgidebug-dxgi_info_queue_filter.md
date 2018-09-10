@@ -4,7 +4,7 @@ title: DXGI_INFO_QUEUE_FILTER
 author: windows-sdk-content
 description: Describes a debug message filter, which contains lists of message types to allow and deny.
 old-location: direct3ddxgi\dxgi_info_queue_filter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 95E68ECE-39D2-4D16-9A8F-FE6E527A83E3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_INFO_QUEUE_FILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_INFO_QUEUE_FILTER
+req.redist: 
 ---
 
 # DXGI_INFO_QUEUE_FILTER structure

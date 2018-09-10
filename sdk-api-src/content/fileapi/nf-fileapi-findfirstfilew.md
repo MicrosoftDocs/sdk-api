@@ -4,17 +4,16 @@ title: FindFirstFileW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - FindFirstFileW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstFileW function

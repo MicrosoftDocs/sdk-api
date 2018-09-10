@@ -4,17 +4,16 @@ title: IMFMediaEngineSrcElements::GetLength
 author: windows-sdk-content
 description: Gets the number of source elements in the list.
 old-location: mf\imfmediaenginesrcelements_getlength.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 212883A5-5613-4BCC-8713-9CD5E6480136
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetLength method, IMFMediaEngineSrcElements.GetLength, IMFMediaEngineSrcElements::GetLength, mf.imfmediaenginesrcelements_getlength, mfmediaengine/IMFMediaEngineSrcElements::GetLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineSrcElements.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineSrcElements::GetLength

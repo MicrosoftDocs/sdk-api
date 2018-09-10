@@ -4,17 +4,16 @@ title: IDesktopGadget::RunGadget
 author: windows-sdk-content
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDesktopGadget.RunGadget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IDesktopGadget::RunGadget

@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable
 author: windows-sdk-content
 description: Sets a descriptor table into the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootdescriptortable.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: AF182E9D-6A85-42B2-ADE4-490756AEDCE7
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootDescriptorTable method, ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable, ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, SetGraphicsRootDescriptorTable, SetGraphicsRootDescriptorTable method, SetGraphicsRootDescriptorTable method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setgraphicsrootdescriptortable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable

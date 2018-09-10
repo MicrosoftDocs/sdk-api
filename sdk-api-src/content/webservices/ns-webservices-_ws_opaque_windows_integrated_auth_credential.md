@@ -4,7 +4,7 @@ title: "_WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL"
 author: windows-sdk-content
 description: Type for supplying a Windows Integrated Authentication credential as an opaque handle created by SspiPromptForCredentials and the related family of APIs. This feature is available only on Windows 7 and later.
 old-location: wsw\ws_opaque_windows_integrated_auth_credential.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+req.redist: 
 ---
 
 # _WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure

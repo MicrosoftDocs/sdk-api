@@ -4,7 +4,7 @@ title: "_VMR9VideoStreamInfo"
 author: windows-sdk-content
 description: The VMR9VideoStreamInfo structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the IVMRImageCompositor9::CompositeImage method.
 old-location: dshow\vmr9videostreaminfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e2da0c1e-d592-49ce-937c-0d75ce270282
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9VideoStreamInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9VideoStreamInfo
+req.redist: 
 ---
 
 # _VMR9VideoStreamInfo structure

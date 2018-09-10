@@ -4,17 +4,16 @@ title: IUPnPService::AddCallback
 author: windows-sdk-content
 description: The AddCallback method registers an application's callback with the UPnP framework.
 old-location: upnp\iupnpservice_addcallback.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPService.AddCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPService::AddCallback

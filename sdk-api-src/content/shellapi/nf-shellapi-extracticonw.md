@@ -4,17 +4,16 @@ title: ExtractIconW function
 author: windows-sdk-content
 description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
 old-location: shell\ExtractIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ExtractIconW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ExtractIconW function

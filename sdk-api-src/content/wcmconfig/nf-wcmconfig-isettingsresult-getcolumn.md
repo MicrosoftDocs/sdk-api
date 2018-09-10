@@ -4,17 +4,16 @@ title: ISettingsResult::GetColumn
 author: windows-sdk-content
 description: Returns the column number where the error occurred.
 old-location: smi\isettingsresult_getcolumn.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumn, GetColumn method [SMI], GetColumn method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetColumn method, ISettingsResult.GetColumn, ISettingsResult::GetColumn, smi.isettingsresult_getcolumn, wcmconfig/ISettingsResult::GetColumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsResult.GetColumn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsResult::GetColumn

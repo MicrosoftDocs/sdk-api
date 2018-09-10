@@ -4,17 +4,16 @@ title: TraceSetInformation function
 author: windows-sdk-content
 description: Enables or disables event tracing session settings for the specified information class.
 old-location: etw\tracesetinformation.htm
-old-project: etw
+tech.root: etw
 ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TraceSetInformation, TraceSetInformation function [ETW], etw.tracesetinformation, evntrace/TraceSetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
+req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - TraceSetInformation
 product: Windows
 targetos: Windows
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceSetInformation function

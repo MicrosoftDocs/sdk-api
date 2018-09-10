@@ -4,17 +4,16 @@ title: INameSpaceTreeControl::InsertRoot
 author: windows-sdk-content
 description: Inserts a Shell item on a root item in a tree.
 old-location: shell\INameSpaceTreeControl_InsertRoot.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d487896-a2ee-4bf3-82d8-90f23a4ff213
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],InsertRoot method, INameSpaceTreeControl.InsertRoot, INameSpaceTreeControl::InsertRoot, InsertRoot, InsertRoot method [Windows Shell], InsertRoot method [Windows Shell],INameSpaceTreeControl interface, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_InsertRoot, shell.INameSpaceTreeControl_InsertRoot, shobjidl_core/INameSpaceTreeControl::InsertRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl.InsertRoot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl::InsertRoot

@@ -4,17 +4,16 @@ title: IIsdbEventGroupDescriptor::GetGroupType
 author: windows-sdk-content
 description: Gets a code that describes the event group type from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getgrouptype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 152bae4a-f4e6-4e9e-a1ed-19240cf8108c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetGroupType, GetGroupType method [Microsoft TV Technologies], GetGroupType method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetGroupType method, IIsdbEventGroupDescriptor.GetGroupType, IIsdbEventGroupDescriptor::GetGroupType, dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType, mstv.iisdbeventgroupdescriptor_getgrouptype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEventGroupDescriptor.GetGroupType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEventGroupDescriptor::GetGroupType

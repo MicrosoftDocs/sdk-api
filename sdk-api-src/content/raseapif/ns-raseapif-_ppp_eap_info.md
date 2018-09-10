@@ -4,7 +4,7 @@ title: "_PPP_EAP_INFO"
 author: windows-sdk-content
 description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.
 old-location: eap\ppp_eap_info.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_EAP_INFO, *PPPP_EAP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_EAP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PPP_EAP_INFO, *PPPP_EAP_INFO
+req.redist: 
 ---
 
 # _PPP_EAP_INFO structure

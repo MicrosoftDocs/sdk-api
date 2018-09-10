@@ -4,7 +4,7 @@ title: IBDA_AUX
 author: windows-sdk-content
 description: Gets the capabilities of a device's auxiliary input connectors. This interface provides access to a device's Aux Service.
 old-location: mstv\ibda_aux.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8397a04f-5d40-4fa3-ac02-79c764abd174
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_AUX
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_AUX interface

@@ -4,7 +4,7 @@ title: IXpsPrintJob
 author: windows-sdk-content
 description: Provides access to a print job that is currently in progress.
 old-location: gdi\ixpsprintjob.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: aa17e059-6208-4348-87f3-556a3818f2b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_COMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsPrintJob
 product: Windows
 targetos: Windows
-req.lib: XpsPrint.lib
-req.dll: XpsPrint.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsPrintJob interface

@@ -4,17 +4,16 @@ title: SLGetLicense function
 author: windows-sdk-content
 description: Returns the license file BLOB.
 old-location: security\slgetlicense.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLGetLicense
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLGetLicense function

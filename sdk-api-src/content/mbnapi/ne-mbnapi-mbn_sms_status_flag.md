@@ -4,7 +4,7 @@ title: MBN_SMS_STATUS_FLAG
 author: windows-sdk-content
 description: The MBN_SMS_STATUS_FLAG enumerated type indicates the status of a device's SMS message store.
 old-location: mbn\mbn_sms_status_flag.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 835cfdfa-face-4779-8bbf-e35076b85521
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_STATUS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_STATUS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_STATUS_FLAG
+req.redist: 
 ---
 
 # MBN_SMS_STATUS_FLAG enumeration

@@ -4,17 +4,16 @@ title: UalInstrument function
 author: windows-sdk-content
 description: Records the specified data to the User Access Logging (UAL) framework by using information from a UAL_DATA_BLOB structure.
 old-location: ual\ualinstrument.htm
-old-project: ual
+tech.root: ual
 ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ual.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: Ualapi.lib
+req.dll: Ualapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UalInstrument
 product: Windows
 targetos: Windows
-req.lib: Ualapi.lib
-req.dll: Ualapi.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UalInstrument function

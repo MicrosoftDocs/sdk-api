@@ -4,17 +4,16 @@ title: IMbnConnectionManager::GetConnection
 author: windows-sdk-content
 description: Gets a connection.
 old-location: mbn\imbnconnectionmanager_getconnection.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: fbeac057-77e3-438e-a7a9-b6f223a09dbe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnection method, IMbnConnectionManager.GetConnection, IMbnConnectionManager::GetConnection, mbn.imbnconnectionmanager_getconnection, mbnapi/IMbnConnectionManager::GetConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionManager.GetConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionManager::GetConnection

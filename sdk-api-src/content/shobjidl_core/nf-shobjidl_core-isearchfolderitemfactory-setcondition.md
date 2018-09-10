@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetCondition
 author: windows-sdk-content
 description: Sets the ICondition of the search. When this method is not called, the resulting search will have no filters applied.
 old-location: shell\ISearchFolderItemFactory_SetCondition.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetCondition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetCondition

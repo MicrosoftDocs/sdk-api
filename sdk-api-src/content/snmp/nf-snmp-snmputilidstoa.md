@@ -4,17 +4,16 @@ title: SnmpUtilIdsToA function
 author: windows-sdk-content
 description: The SnmpUtilIdsToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilidstoa.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpUtilIdsToA
 product: Windows
 targetos: Windows
-req.lib: Snmpapi.lib
-req.dll: Snmpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpUtilIdsToA function

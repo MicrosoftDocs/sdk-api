@@ -4,17 +4,16 @@ title: IDsBrowseDomainTree::BrowseTo
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::BrowseTo method displays a dialog box used to browse for a domain.
 old-location: ad\idsbrowsedomaintree_browseto.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 22b719fc-bd46-44c6-a690-af6e9767f9ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BrowseTo, BrowseTo method [Active Directory], BrowseTo method [Active Directory],IDsBrowseDomainTree interface, DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, IDsBrowseDomainTree interface [Active Directory],BrowseTo method, IDsBrowseDomainTree.BrowseTo, IDsBrowseDomainTree::BrowseTo, _glines_idsbrowsedomaintree_browseto, ad.idsbrowsedomaintree__browseto, ad.idsbrowsedomaintree_browseto, dsclient/IDsBrowseDomainTree::BrowseTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsBrowseDomainTree.BrowseTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsBrowseDomainTree::BrowseTo

@@ -4,17 +4,16 @@ title: IApplicationDesignModeSettings::SetApplicationViewState
 author: windows-sdk-content
 description: Sets a spoofed application view state (full-screen landscape, full-screen portrait, filled, or snapped) to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetApplicationViewState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 37e1845c-a58a-4da3-b259-bbf5bbf5ff6d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetApplicationViewState method, IApplicationDesignModeSettings.SetApplicationViewState, IApplicationDesignModeSettings::SetApplicationViewState, SetApplicationViewState, SetApplicationViewState method [Windows Shell], SetApplicationViewState method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetApplicationViewState, shobjidl_core/IApplicationDesignModeSettings::SetApplicationViewState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Twinapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDesignModeSettings.SetApplicationViewState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Twinapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDesignModeSettings::SetApplicationViewState

@@ -4,7 +4,7 @@ title: tag_SCRIPT_JUSTIFY
 author: windows-sdk-content
 description: Defines glyph characteristic information that an application needs to implement justification.
 old-location: intl\script_justify.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c2de8482-cca9-4ee3-b81a-8367fbe9130b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_JUSTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_JUSTIFY
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ---
 
 # tag_SCRIPT_JUSTIFY enumeration

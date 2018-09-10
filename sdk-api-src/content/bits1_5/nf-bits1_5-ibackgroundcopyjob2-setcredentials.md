@@ -4,17 +4,16 @@ title: IBackgroundCopyJob2::SetCredentials
 author: windows-sdk-content
 description: Specifies the credentials to use for a proxy or remote server user authentication request.
 old-location: bits\ibackgroundcopyjob2_setcredentials.htm
-old-project: bits
+tech.root: bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_SCHEME
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob2.SetCredentials
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx2.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBackgroundCopyJob2::SetCredentials
@@ -61,7 +60,7 @@ Specifies the credentials to use for a proxy or remote server user authenticatio
 
 ### -param credentials
 
-
+TBD
 
 
 

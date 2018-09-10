@@ -4,7 +4,7 @@ title: CVssWriterEx2
 author: windows-sdk-content
 description: The CVssWriterEx2 class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriterex2.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriterEx2
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriterEx2 class

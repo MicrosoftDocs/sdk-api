@@ -4,17 +4,16 @@ title: IInkStrokeDisp::NearestPoint
 author: windows-sdk-content
 description: Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.
 old-location: tablet\iinkstrokedisp_nearestpoint.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 87c01f9d-b48a-459c-99f8-9634e1693fa0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 87c01f9d-b48a-459c-99f8-9634e1693fa0, IInkStrokeDisp interface [Tablet PC],NearestPoint method, IInkStrokeDisp.NearestPoint, IInkStrokeDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::NearestPoint, tablet.iinkstrokedisp_nearestpoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokeDisp.NearestPoint
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::NearestPoint

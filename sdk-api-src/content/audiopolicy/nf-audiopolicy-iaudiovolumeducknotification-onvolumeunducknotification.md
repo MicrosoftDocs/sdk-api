@@ -4,17 +4,16 @@ title: IAudioVolumeDuckNotification::OnVolumeUnduckNotification
 author: windows-sdk-content
 description: The OnVolumeUnduckNotification method sends a notification about a pending system unducking event.
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeunducknotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioVolumeDuckNotification::OnVolumeUnduckNotification

@@ -4,17 +4,16 @@ title: ntohl function
 author: windows-sdk-content
 description: The ntohl function converts a u_long from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohl_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ntohl
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ntohl function

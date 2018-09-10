@@ -4,17 +4,16 @@ title: TraceLoggingWriteStart macro
 author: windows-sdk-content
 description: Starts an activity and logs the start event.
 old-location: tracelogging\traceloggingwritestart.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingWriteStart, TraceLoggingWriteStart macro, tracelogging.traceloggingwritestart, traceloggingactivity/TraceLoggingWriteStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingWriteStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingWriteStart macro

@@ -4,7 +4,7 @@ title: PRADIUS_EXTENSION_INIT
 author: windows-sdk-content
 description: The RadiusExtensionInit function is an application-defined function and is called by NPS while the service is starting up. Use RadiusExtensionInit to perform any initialization operations for the Extension DLL.
 old-location: nps\IAS_radiusextensioninit.htm
-old-project: nps
+tech.root: nps
 ms.assetid: a463927f-550d-4078-8c0f-35c8742d887a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PRADIUS_EXTENSION_INIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PRADIUS_EXTENSION_INIT callback function

@@ -4,17 +4,16 @@ title: IAMExtendedSeeking::get_PlaybackSpeed
 author: windows-sdk-content
 description: The get_PlaybackSpeed method retrieves the playback speed.
 old-location: dshow\iamextendedseeking_get_playbackspeed.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a92309fb-185a-4d6c-81c2-9613634c7170
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_PlaybackSpeed method, IAMExtendedSeeking.get_PlaybackSpeed, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedSeeking.get_PlaybackSpeed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedSeeking::get_PlaybackSpeed

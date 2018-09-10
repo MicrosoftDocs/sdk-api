@@ -4,7 +4,7 @@ title: "_RPC_PROTSEQ_VECTOR"
 author: windows-sdk-content
 description: The RPC_PROTSEQ_VECTOR structure contains a list of protocol sequences the RPC run-time library uses to send and receive remote procedure calls.
 old-location: rpc\rpc_protseq_vector.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 535ffce0-54e2-483c-8b74-006b6f5e05f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_PROTSEQ_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_PROTSEQ_VECTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_PROTSEQ_VECTOR
+req.redist: 
 ---
 
 # _RPC_PROTSEQ_VECTOR structure

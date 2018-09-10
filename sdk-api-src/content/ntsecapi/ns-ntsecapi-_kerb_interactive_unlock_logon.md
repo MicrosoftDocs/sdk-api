@@ -4,7 +4,7 @@ title: "_KERB_INTERACTIVE_UNLOCK_LOGON"
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during an interactive logon session.
 old-location: security\kerb_interactive_unlock_logon.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 211d89e9-36a6-4177-8eea-d01eca320718
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_INTERACTIVE_UNLOCK_LOGON, *PKERB_INTERACTIVE_UNLOCK_LOGON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_INTERACTIVE_UNLOCK_LOGON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_INTERACTIVE_UNLOCK_LOGON, *PKERB_INTERACTIVE_UNLOCK_LOGON
+req.redist: 
 ---
 
 # _KERB_INTERACTIVE_UNLOCK_LOGON structure

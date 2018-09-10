@@ -4,17 +4,16 @@ title: IShellBrowser::TranslateAcceleratorSB
 author: windows-sdk-content
 description: Translates accelerator keystrokes intended for the browser's frame while the view is active.
 old-location: shell\IShellBrowser_TranslateAcceleratorSB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dda5c085-7199-4b83-b03e-e4c715665157
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],TranslateAcceleratorSB method, IShellBrowser.TranslateAcceleratorSB, IShellBrowser::TranslateAcceleratorSB, TranslateAcceleratorSB, TranslateAcceleratorSB method [Windows Shell], TranslateAcceleratorSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_TranslateAcceleratorSB, shell.IShellBrowser_TranslateAcceleratorSB, shobjidl_core/IShellBrowser::TranslateAcceleratorSB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.TranslateAcceleratorSB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::TranslateAcceleratorSB
@@ -62,7 +60,7 @@ Translates accelerator keystrokes intended for the browser's frame while the vie
 
 ### -param pmsg
 
-
+TBD
 
 
 ### -param wID

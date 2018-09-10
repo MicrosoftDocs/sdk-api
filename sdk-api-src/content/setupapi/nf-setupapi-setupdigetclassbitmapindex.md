@@ -4,17 +4,16 @@ title: SetupDiGetClassBitmapIndex function
 author: windows-sdk-content
 description: The SetupDiGetClassBitmapIndex function retrieves the index of the mini-icon supplied for the specified class.
 old-location: devinst\setupdigetclassbitmapindex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5e64d387-701c-42eb-87a8-ba2f51c8552d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiGetClassBitmapIndex
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassBitmapIndex function

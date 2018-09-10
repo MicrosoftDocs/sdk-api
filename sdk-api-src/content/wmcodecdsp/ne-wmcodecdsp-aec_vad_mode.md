@@ -4,7 +4,7 @@ title: AEC_VAD_MODE
 author: windows-sdk-content
 description: Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_VAD property.
 old-location: mf\aec_vad_modeenumeration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 01e2ba9e-1396-471e-a2bf-38dfcc7cac32
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AEC_VAD_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AEC_VAD_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: AEC_VAD_MODE
+req.redist: 
 ---
 
 # AEC_VAD_MODE enumeration

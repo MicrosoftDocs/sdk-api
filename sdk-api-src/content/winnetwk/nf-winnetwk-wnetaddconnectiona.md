@@ -4,17 +4,16 @@ title: WNetAddConnectionA function
 author: windows-sdk-content
 description: The WNetAddConnection function enables the calling application to connect a local device to a network resource. A successful connection is persistent, meaning that the system automatically restores the connection during subsequent logon operations.
 old-location: wnet\wnetaddconnection.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetAddConnectionW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetAddConnectionA function

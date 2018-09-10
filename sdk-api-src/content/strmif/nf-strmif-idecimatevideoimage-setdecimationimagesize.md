@@ -4,17 +4,16 @@ title: IDecimateVideoImage::SetDecimationImageSize
 author: windows-sdk-content
 description: The SetDecimationImageSize method specifies the dimensions to which the decoder should decimate its output image.
 old-location: dshow\idecimatevideoimage_setdecimationimagesize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3f165e74-768f-48e3-be0f-887962ea9bfb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],SetDecimationImageSize method, IDecimateVideoImage.SetDecimationImageSize, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDecimateVideoImage.SetDecimationImageSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDecimateVideoImage::SetDecimationImageSize

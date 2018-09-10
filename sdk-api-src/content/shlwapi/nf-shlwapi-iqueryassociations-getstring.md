@@ -4,17 +4,16 @@ title: IQueryAssociations::GetString
 author: windows-sdk-content
 description: Searches for and retrieves a file or protocol association-related string from the registry.
 old-location: shell\IQueryAssociations_GetString.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetString method, IQueryAssociations.GetString, IQueryAssociations::GetString, _win32_IQueryAssociations_GetString, shell.IQueryAssociations_GetString, shlwapi/IQueryAssociations::GetString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryAssociations.GetString
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryAssociations::GetString
@@ -98,12 +96,12 @@ An <a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASS
 
 ### -param pszExtra
 
-
+TBD
 
 
 ### -param pszOut
 
-
+TBD
 
 
 ### -param pcchOut [in, out]

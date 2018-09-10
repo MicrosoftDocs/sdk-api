@@ -4,17 +4,16 @@ title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a client connection.
 old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatechangeex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifyClientConnectionStateChangeEx method, ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx, ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx method [Remote Desktop Services], NotifyClientConnectionStateChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx

@@ -4,7 +4,7 @@ title: IWTSBitmapRenderService
 author: windows-sdk-content
 description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.
 old-location: termserv\iwtsbitmaprenderservice.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSBitmapRenderService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSBitmapRenderService interface

@@ -4,17 +4,16 @@ title: IContextMenu::QueryContextMenu
 author: windows-sdk-content
 description: Adds commands to a shortcut menu.
 old-location: shell\IContextMenu_QueryContextMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 329fe15b-c1c1-4ffd-812e-9e74451bad6e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, IContextMenu interface [Windows Shell],QueryContextMenu method, IContextMenu.QueryContextMenu, IContextMenu::QueryContextMenu, QueryContextMenu, QueryContextMenu method [Windows Shell], QueryContextMenu method [Windows Shell],IContextMenu interface, _win32_IContextMenu_QueryContextMenu, _win32_icontextmenu_win32_icontextmenu_querycontextmenu_cpp, shell.IContextMenu_QueryContextMenu, shobjidl_core/IContextMenu::QueryContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenu.QueryContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenu::QueryContextMenu

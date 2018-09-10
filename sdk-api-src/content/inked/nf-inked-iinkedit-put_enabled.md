@@ -4,17 +4,16 @@ title: IInkEdit::put_Enabled
 author: windows-sdk-content
 description: Gets or sets a value that determines whether the InkEdit control can respond to user-generated events.
 old-location: tablet\inkedit_enabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e3a143ed-82e4-46ba-9745-066eaa08bf7f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Enabled property, IInkEdit.Enabled, IInkEdit.put_Enabled, IInkEdit::Enabled, IInkEdit::get_Enabled, IInkEdit::put_Enabled, InkEdit.get_Enabled, InkEdit.put_Enabled, get_Enabled, inked/IInkEdit::Enabled, inked/IInkEdit::get_Enabled, inked/IInkEdit::put_Enabled, put_Enabled, tablet.inkedit_enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_Enabled

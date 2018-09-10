@@ -4,17 +4,16 @@ title: IMDSPObjectInfo::GetPlayLength
 author: windows-sdk-content
 description: The GetPlayLength method retrieves the play length of the object in units pertinent to the object. This is the remaining length that the object can play, not its total length.
 old-location: wmdm\imdspobjectinfo_getplaylength.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: d5f2188f-f813-4c42-9878-52836ec8ebdc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayLength method, IMDSPObjectInfo.GetPlayLength, IMDSPObjectInfo::GetPlayLength, IMDSPObjectInfoGetPlayLength, mswmdm/IMDSPObjectInfo::GetPlayLength, wmdm.imdspobjectinfo_getplaylength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObjectInfo.GetPlayLength
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObjectInfo::GetPlayLength

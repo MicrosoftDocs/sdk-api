@@ -4,17 +4,16 @@ title: IWriteSpeedDescriptor::get_MediaType
 author: windows-sdk-content
 description: Retrieves type of media in the current drive.
 old-location: imapi\iwritespeeddescriptor_get_mediatype.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 4608fb27-8d8c-4ccc-9838-bdbe9dadee83
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_MediaType method, IWriteSpeedDescriptor.get_MediaType, IWriteSpeedDescriptor::get_MediaType, get_MediaType, get_MediaType method [IMAPI], get_MediaType method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_mediatype, imapi2/IWriteSpeedDescriptor::get_MediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteSpeedDescriptor.get_MediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteSpeedDescriptor::get_MediaType

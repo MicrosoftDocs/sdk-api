@@ -4,17 +4,16 @@ title: RasClearConnectionStatistics function
 author: windows-sdk-content
 description: The RasClearConnectionStatistics functions clears any accumulated statistics for the specified RAS connection.
 old-location: rras\rasclearconnectionstatistics.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: b5c87ecd-4f21-46b5-91a3-41706907157a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasClearConnectionStatistics
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasClearConnectionStatistics function

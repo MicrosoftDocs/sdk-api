@@ -4,7 +4,7 @@ title: "_MEMORY_BASIC_INFORMATION"
 author: windows-sdk-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: base\memory_basic_information_str.htm
-old-project: memory
+tech.root: memory
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
+req.redist: 
 ---
 
 # _MEMORY_BASIC_INFORMATION structure

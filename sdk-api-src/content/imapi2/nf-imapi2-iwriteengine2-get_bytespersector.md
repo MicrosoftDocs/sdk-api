@@ -4,17 +4,16 @@ title: IWriteEngine2::get_BytesPerSector
 author: windows-sdk-content
 description: Retrieves the number of bytes to use for each sector during writing. The returned value indicates what the value previously set with IWriteEngine2::put_BytesPerSector, and does not return a current bytes per sector value for media.
 old-location: imapi\iwriteengine2_get_bytespersector.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: ee48368c-e9bc-4ac7-97cf-a2bdc2a05d22
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_BytesPerSector method, IWriteEngine2.get_BytesPerSector, IWriteEngine2::get_BytesPerSector, get_BytesPerSector, get_BytesPerSector method [IMAPI], get_BytesPerSector method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_bytespersector, imapi2/IWriteEngine2::get_BytesPerSector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2.get_BytesPerSector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2::get_BytesPerSector

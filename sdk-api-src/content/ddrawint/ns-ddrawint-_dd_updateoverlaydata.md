@@ -4,7 +4,7 @@ title: "_DD_UPDATEOVERLAYDATA"
 author: windows-sdk-content
 description: The DD_UPDATEOVERLAYDATA structure contains information necessary for updating an overlay surface.
 old-location: display\dd_updateoverlaydata.htm
-old-project: display
+tech.root: display
 ms.assetid: f9dd3fe3-1295-40c8-83d9-74861945921e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_UPDATEOVERLAYDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA"
+req.redist: 
 ---
 
 # _DD_UPDATEOVERLAYDATA structure

@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_CoverpageSubject
 title: IFaxDoc::put_CoverpageSubject
 author: windows-sdk-content
 description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_coverpagesubject_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6svo.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageSubject property, FaxDoc.CoverpageSubject, IFaxDoc.put_CoverpageSubject, IFaxDoc::put_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject_vb, put_CoverpageSubject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CoverpageSubject property [Fax Service], CoverpageSubject property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageSubject property, IFaxDoc.CoverpageSubject, IFaxDoc.put_CoverpageSubject, IFaxDoc::CoverpageSubject, IFaxDoc::get_CoverpageSubject, IFaxDoc::put_CoverpageSubject, _mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_get_coverpagesubject, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp, faxcom/IFaxDoc::CoverpageSubject, faxcom/IFaxDoc::get_CoverpageSubject, faxcom/IFaxDoc::put_CoverpageSubject, put_CoverpageSubject
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.CoverpageSubject
+ - IFaxDoc.CoverpageSubject
+ - IFaxDoc.get_CoverpageSubject
+ - IFaxDoc.put_CoverpageSubject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_CoverpageSubject
@@ -81,10 +81,6 @@ The <b>get_CoverpageSubject</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

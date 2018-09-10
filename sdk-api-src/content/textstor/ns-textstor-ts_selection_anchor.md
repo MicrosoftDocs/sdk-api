@@ -4,7 +4,7 @@ title: TS_SELECTION_ANCHOR
 author: windows-sdk-content
 description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
 old-location: tsf\ts_selection_anchor.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SELECTION_ANCHOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TS_SELECTION_ANCHOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TS_SELECTION_ANCHOR
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TS_SELECTION_ANCHOR structure

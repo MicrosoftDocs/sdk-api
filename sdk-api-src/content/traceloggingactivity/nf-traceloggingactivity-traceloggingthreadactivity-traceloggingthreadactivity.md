@@ -4,17 +4,16 @@ title: TraceLoggingThreadActivity::TraceLoggingThreadActivity
 author: windows-sdk-content
 description: Initializes a new instance of the TraceLoggingThreadActivity class.
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,TraceLoggingThreadActivity method, TraceLoggingThreadActivity method, TraceLoggingThreadActivity method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity.TraceLoggingThreadActivity, TraceLoggingThreadActivity::TraceLoggingThreadActivity, tracelogging.traceloggingthreadactivity_traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingThreadActivity.TraceLoggingThreadActivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingThreadActivity::TraceLoggingThreadActivity

@@ -4,17 +4,16 @@ title: AVIStreamNextSampleTime macro
 author: windows-sdk-content
 description: The AVIStreamNextSampleTime macro returns the time that a sample changes to the next sample in the stream. This macro finds the next interesting time in a stream.
 old-location: multimedia\avistreamnextsampletime.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamNextSampleTime, AVIStreamNextSampleTime macro [Windows Multimedia], _win32_AVIStreamNextSampleTime, multimedia.avistreamnextsampletime, vfw/AVIStreamNextSampleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamNextSampleTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamNextSampleTime macro

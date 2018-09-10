@@ -4,17 +4,16 @@ title: IVssBackupComponents::DisableWriterInstances
 author: windows-sdk-content
 description: The DisableWriterInstances method disables a specified writer instance or instances.
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisableWriterInstances, DisableWriterInstances method [VSS], DisableWriterInstances method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterInstances method, IVssBackupComponents.DisableWriterInstances, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.DisableWriterInstances
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::DisableWriterInstances

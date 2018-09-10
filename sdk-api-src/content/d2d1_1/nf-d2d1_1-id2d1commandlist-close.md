@@ -4,17 +4,16 @@ title: ID2D1CommandList::Close
 author: windows-sdk-content
 description: Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to ID2D1DeviceContext::DrawImage.
 old-location: direct2d\id2d1commandlist_close.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 161A8E33-25C7-4007-8397-D86EBA777D4D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1CommandList interface, ID2D1CommandList interface [Direct2D],Close method, ID2D1CommandList.Close, ID2D1CommandList::Close, d2d1_1/ID2D1CommandList::Close, direct2d.id2d1commandlist_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandList.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandList::Close

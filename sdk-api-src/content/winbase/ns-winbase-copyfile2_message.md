@@ -4,7 +4,7 @@ title: COPYFILE2_MESSAGE
 author: windows-sdk-content
 description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.
 old-location: fs\copyfile2_message.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ab841bee-90a0-4beb-99d3-764e608c3872
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPYFILE2_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPYFILE2_MESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COPYFILE2_MESSAGE
+req.redist: 
 ---
 
 # COPYFILE2_MESSAGE structure

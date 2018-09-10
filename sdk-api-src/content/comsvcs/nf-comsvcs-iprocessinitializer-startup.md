@@ -4,17 +4,16 @@ title: IProcessInitializer::Startup
 author: windows-sdk-content
 description: Called when Dllhost.exe starts.
 old-location: cos\iprocessinitializer_startup.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0ba8844e-a1ef-4a1a-aef6-abd828ec59b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IProcessInitializer interface [COM+],Startup method, IProcessInitializer.Startup, IProcessInitializer::Startup, Startup, Startup method [COM+], Startup method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Startup, comsvcs/IProcessInitializer::Startup, cos.iprocessinitializer_startup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IProcessInitializer.Startup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IProcessInitializer::Startup

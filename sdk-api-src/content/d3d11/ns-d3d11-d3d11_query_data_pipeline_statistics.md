@@ -4,7 +4,7 @@ title: D3D11_QUERY_DATA_PIPELINE_STATISTICS
 author: windows-sdk-content
 description: Query information about graphics-pipeline activity in between calls to ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.
 old-location: direct3d11\d3d11_query_data_pipeline_statistics.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: c8a2813e-56db-421b-ad37-d353c327a457
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_QUERY_DATA_PIPELINE_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_QUERY_DATA_PIPELINE_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_QUERY_DATA_PIPELINE_STATISTICS
+req.redist: 
 ---
 
 # D3D11_QUERY_DATA_PIPELINE_STATISTICS structure

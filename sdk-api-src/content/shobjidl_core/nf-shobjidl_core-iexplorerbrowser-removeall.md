@@ -4,17 +4,16 @@ title: IExplorerBrowser::RemoveAll
 author: windows-sdk-content
 description: Removes all items from the results folder.
 old-location: shell\IExplorerBrowser_RemoveAll.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4447d3f4-659f-4ec1-8a6f-91031c85b704
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],RemoveAll method, IExplorerBrowser.RemoveAll, IExplorerBrowser::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_RemoveAll, shell.IExplorerBrowser_RemoveAll, shobjidl_core/IExplorerBrowser::RemoveAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerBrowser.RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerBrowser::RemoveAll

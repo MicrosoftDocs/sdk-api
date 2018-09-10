@@ -4,7 +4,7 @@ title: "_KERB_TICKET_CACHE_INFO"
 author: windows-sdk-content
 description: Contains information about a cached Kerberos ticket. The Kerberos ticket is defined in Internet RFC 4120. For more information, see http://www.ietf.org.
 old-location: security\kerb_ticket_cache_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_TICKET_CACHE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
+req.redist: 
 ---
 
 # _KERB_TICKET_CACHE_INFO structure

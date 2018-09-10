@@ -4,17 +4,16 @@ title: IVssProviderNotifications::OnLoad
 author: windows-sdk-content
 description: Notifies a provider that it was loaded.
 old-location: base\ivssprovidernotifications_onload.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderNotifications.OnLoad
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderNotifications::OnLoad

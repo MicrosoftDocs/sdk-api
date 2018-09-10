@@ -4,17 +4,16 @@ title: IGetFrame::Begin
 author: windows-sdk-content
 description: The Begin method prepares to extract and decompress copies of frames from a stream. Called when an application uses the AVIStreamGetFrameOpen function.
 old-location: multimedia\igetframe_begin.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 2d2c1872-e0c3-4fea-bfb9-45b814973072
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],Begin method, IGetFrame.Begin, IGetFrame::Begin, _win32_IGetFrame_Begin, multimedia.igetframe_begin, vfw/IGetFrame::Begin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGetFrame.Begin
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IGetFrame::Begin

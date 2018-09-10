@@ -4,17 +4,16 @@ title: IWMDMStorage::GetDate
 author: windows-sdk-content
 description: The GetDate method retrieves the date when the storage was last modified.
 old-location: wmdm\iwmdmstorage_getdate.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 53693e2f-f6d2-42cc-9387-798f8dc10556
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetDate method, IWMDMStorage.GetDate, IWMDMStorage::GetDate, IWMDMStorageGetDate, mswmdm/IWMDMStorage::GetDate, wmdm.iwmdmstorage_getdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorage.GetDate
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorage::GetDate

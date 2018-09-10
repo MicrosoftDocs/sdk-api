@@ -4,7 +4,7 @@ title: WS_SECURITY_BINDING_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies the properties used to specify security binding settings. Security binding settings are present in security bindingsthat are used, in turn, in a security description.
 old-location: wsw\ws_security_binding_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6c8b3277-3f49-469b-9783-c552a4c44558
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_BINDING_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_BINDING_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_BINDING_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_SECURITY_BINDING_PROPERTY_ID enumeration

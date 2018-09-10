@@ -4,7 +4,7 @@ title: SmartCardApplication
 author: windows-sdk-content
 description: The SmartCardApplication structure identifies a smart card application.
 old-location: mstv\smartcardapplication.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bdaiface.h
 req.include-header: Bdaiface.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SmartCardApplication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SmartCardApplication
+req.redist: 
 ---
 
 # SmartCardApplication structure

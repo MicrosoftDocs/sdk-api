@@ -4,7 +4,7 @@ title: TF_SELECTIONSTYLE
 author: windows-sdk-content
 description: The TF_SELECTIONSTYLE structure represents the style of a selection.
 old-location: tsf\tf_selectionstyle.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 3a38172b-611b-445f-be24-ea2a19178255
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_SELECTIONSTYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TF_SELECTIONSTYLE
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_SELECTIONSTYLE structure

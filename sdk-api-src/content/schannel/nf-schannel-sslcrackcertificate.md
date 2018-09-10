@@ -4,17 +4,16 @@ title: SslCrackCertificate function
 author: windows-sdk-content
 description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.
 old-location: security\sslcrackcertificate.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+req.lib: 
+req.dll: Schannel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SslCrackCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Schannel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SslCrackCertificate function

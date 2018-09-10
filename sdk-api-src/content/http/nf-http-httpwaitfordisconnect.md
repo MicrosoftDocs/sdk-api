@@ -4,17 +4,16 @@ title: HttpWaitForDisconnect function
 author: windows-sdk-content
 description: Notifies the application when the connection to an HTTP client is broken for any reason.
 old-location: http\httpwaitfordisconnect.htm
-old-project: http
+tech.root: http
 ms.assetid: 1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpWaitForDisconnect, HttpWaitForDisconnect function [HTTP], _http_httpwaitfordisconnect, http.httpwaitfordisconnect, http/HttpWaitForDisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpWaitForDisconnect
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpWaitForDisconnect function

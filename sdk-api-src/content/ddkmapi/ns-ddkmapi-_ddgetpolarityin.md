@@ -4,7 +4,7 @@ title: "_DDGETPOLARITYIN"
 author: windows-sdk-content
 description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.
 old-location: display\ddgetpolarityin.htm
-old-project: display
+tech.root: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETPOLARITYIN, *LPDDGETPOLARITYIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETPOLARITYIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETPOLARITYIN, *LPDDGETPOLARITYIN
+req.redist: 
 ---
 
 # _DDGETPOLARITYIN structure

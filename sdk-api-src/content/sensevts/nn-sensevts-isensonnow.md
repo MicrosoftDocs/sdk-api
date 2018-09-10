@@ -4,7 +4,7 @@ title: ISensOnNow
 author: windows-sdk-content
 description: The ISensOnNow interface handles AC and battery power events fired by the System Event Notification Service (SENS).
 old-location: sens\isensonnow.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 39d483be-8dbd-41f9-9804-af9dc4535c05
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensOnNow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensOnNow interface

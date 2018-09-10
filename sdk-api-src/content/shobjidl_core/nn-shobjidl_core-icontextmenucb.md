@@ -4,7 +4,7 @@ title: IContextMenuCB
 author: windows-sdk-content
 description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.
 old-location: shell\IContextMenuCB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 6.0.6000 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenuCB
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 6.0.6000 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenuCB interface

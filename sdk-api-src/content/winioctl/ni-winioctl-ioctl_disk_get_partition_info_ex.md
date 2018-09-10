@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Retrieves extended information about the type, size, and nature of a disk partition.
 old-location: fs\ioctl_disk_get_partition_info_ex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f84f8be6-2b01-4a20-8669-cb1a55c32907
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_DISK_GET_PARTITION_INFO_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_DISK_GET_PARTITION_INFO_EX IOCTL

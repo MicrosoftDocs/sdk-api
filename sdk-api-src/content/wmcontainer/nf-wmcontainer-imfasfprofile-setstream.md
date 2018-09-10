@@ -4,17 +4,16 @@ title: IMFASFProfile::SetStream
 author: windows-sdk-content
 description: Adds a stream to the profile or reconfigures an existing stream.
 old-location: mf\imfasfprofile_setstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c2272260-74ab-42ff-bff3-d6c6d5b322f3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],SetStream method, IMFASFProfile.SetStream, IMFASFProfile::SetStream, SetStream, SetStream method [Media Foundation], SetStream method [Media Foundation],IMFASFProfile interface, c2272260-74ab-42ff-bff3-d6c6d5b322f3, mf.imfasfprofile_setstream, wmcontainer/IMFASFProfile::SetStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFProfile.SetStream
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFProfile::SetStream

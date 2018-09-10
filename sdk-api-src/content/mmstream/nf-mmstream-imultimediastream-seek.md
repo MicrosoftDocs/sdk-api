@@ -4,17 +4,16 @@ title: IMultiMediaStream::Seek
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Seek method seeks all of the media streams to a new position.
 old-location: dshow\imultimediastream_seek.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ac65613f-3fca-4043-83ad-740ebd7687a4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaStream.Seek, IMultiMediaStream::Seek, IMultiMediaStreamSeek, Seek, Seek method [DirectShow], Seek method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_seek, mmstream/IMultiMediaStream::Seek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiMediaStream.Seek
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiMediaStream::Seek

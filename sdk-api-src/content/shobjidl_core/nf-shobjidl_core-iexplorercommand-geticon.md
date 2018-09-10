@@ -4,17 +4,16 @@ title: IExplorerCommand::GetIcon
 author: windows-sdk-content
 description: Gets an icon resource string of the icon associated with the specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e71b6748-84fc-4944-90b8-a5b0bf97079d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetIcon method, IExplorerCommand.GetIcon, IExplorerCommand::GetIcon, _shell_IExplorerCommand_GetIcon, shell.IExplorerCommand_GetIcon, shobjidl_core/IExplorerCommand::GetIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommand.GetIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommand::GetIcon

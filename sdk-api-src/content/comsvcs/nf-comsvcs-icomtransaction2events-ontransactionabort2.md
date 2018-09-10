@@ -4,17 +4,16 @@ title: IComTransaction2Events::OnTransactionAbort2
 author: windows-sdk-content
 description: Generated when a transaction aborts.
 old-location: cos\icomtransaction2events_ontransactionabort2.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8c74410c-c9a0-4115-876b-4b4db798e54f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionAbort2 method, IComTransaction2Events.OnTransactionAbort2, IComTransaction2Events::OnTransactionAbort2, OnTransactionAbort2, OnTransactionAbort2 method [COM+], OnTransactionAbort2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactionabort2, comsvcs/IComTransaction2Events::OnTransactionAbort2, cos.icomtransaction2events_ontransactionabort2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTransaction2Events.OnTransactionAbort2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTransaction2Events::OnTransactionAbort2

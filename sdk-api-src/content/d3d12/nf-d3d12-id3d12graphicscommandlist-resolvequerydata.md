@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::ResolveQueryData
 author: windows-sdk-content
 description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .
 old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveQueryData method, ID3D12GraphicsCommandList.ResolveQueryData, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData, ResolveQueryData method, ResolveQueryData method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.ResolveQueryData
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::ResolveQueryData

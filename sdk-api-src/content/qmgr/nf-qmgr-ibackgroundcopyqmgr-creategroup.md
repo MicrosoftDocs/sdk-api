@@ -4,17 +4,16 @@ title: IBackgroundCopyQMgr::CreateGroup
 author: windows-sdk-content
 description: Use the CreateGroup method to create a new group and add it to the download queue.
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
-old-project: bits
+tech.root: bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyQMgr.CreateGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyQMgr::CreateGroup
@@ -64,7 +62,7 @@ Use the <b>CreateGroup</b> method to create a new group and add it to the downlo
 
 ### -param guidGroupID
 
-
+TBD
 
 
 ### -param ppGroup [out]

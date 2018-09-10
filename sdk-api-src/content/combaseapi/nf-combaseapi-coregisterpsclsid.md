@@ -4,17 +4,16 @@ title: CoRegisterPSClsid function
 author: windows-sdk-content
 description: Enables a downloaded DLL to register its custom interfaces within its running process so that the marshaling code will be able to marshal those interfaces.
 old-location: com\coregisterpsclsid.htm
-old-project: com
+tech.root: com
 ms.assetid: a73dbd6d-d3f2-48d7-b053-b62f2f18f2d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoRegisterPSClsid, CoRegisterPSClsid function [COM], _com_CoRegisterPSClsid, com.coregisterpsclsid, combaseapi/CoRegisterPSClsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoRegisterPSClsid
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoRegisterPSClsid function

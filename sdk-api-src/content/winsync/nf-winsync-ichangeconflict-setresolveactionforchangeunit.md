@@ -4,17 +4,16 @@ title: IChangeConflict::SetResolveActionForChangeUnit
 author: windows-sdk-content
 description: Sets a conflict resolution action for the conflicting change unit change.
 old-location: winsync\ichangeconflict_setresolveactionforchangeunit.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChangeUnit method, IChangeConflict.SetResolveActionForChangeUnit, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChangeConflict.SetResolveActionForChangeUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IChangeConflict::SetResolveActionForChangeUnit

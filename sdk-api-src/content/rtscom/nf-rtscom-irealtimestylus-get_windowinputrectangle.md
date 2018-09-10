@@ -4,17 +4,16 @@ title: IRealTimeStylus::get_WindowInputRectangle
 author: windows-sdk-content
 description: Gets or sets the window input rectangle for the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_windowinputrectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e202be43-48c7-4fa4-b049-efdda3ef2ada
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC],IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, get_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IRealTimeStylus.put_WindowInputRectangle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::get_WindowInputRectangle

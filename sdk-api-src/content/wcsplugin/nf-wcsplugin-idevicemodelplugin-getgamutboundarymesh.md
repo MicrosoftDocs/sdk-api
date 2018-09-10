@@ -4,17 +4,16 @@ title: IDeviceModelPlugIn::GetGamutBoundaryMesh
 author: windows-sdk-content
 description: Returns the triangular mesh from the plug-in. This function is used to compute the GamutBoundaryDescription.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMesh.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 275269d3-e542-41b3-80d6-e1c90f296456
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetGamutBoundaryMesh, GetGamutBoundaryMesh method [Windows Color System], GetGamutBoundaryMesh method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMesh method, IDeviceModelPlugIn.GetGamutBoundaryMesh, IDeviceModelPlugIn::GetGamutBoundaryMesh, _color_IDeviceModelPlugIn::GetGamutBoundaryMesh, wcs.IDeviceModelPlugIn_GetGamutBoundaryMesh, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMesh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeviceModelPlugIn.GetGamutBoundaryMesh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceModelPlugIn::GetGamutBoundaryMesh

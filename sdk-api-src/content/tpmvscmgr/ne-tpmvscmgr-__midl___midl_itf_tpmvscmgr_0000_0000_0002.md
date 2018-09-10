@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002"
 author: windows-sdk-content
 description: Provides predefined error codes to represent the contexts of errors from the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_error.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0B8A5703-DA7C-4FD6-A39E-BA2CE172ADF9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tpmvscmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Vscmgr.lib
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TPMVSCMGR_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TPMVSCMGR_ERROR
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002 enumeration

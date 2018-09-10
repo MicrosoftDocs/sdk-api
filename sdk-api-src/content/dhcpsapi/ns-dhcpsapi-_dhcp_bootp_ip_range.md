@@ -4,7 +4,7 @@ title: "_DHCP_BOOTP_IP_RANGE"
 author: windows-sdk-content
 description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
 old-location: dhcp\dhcp_bootp_ip_range.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_BOOTP_IP_RANGE, *LPDHCP_BOOT_IP_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_BOOTP_IP_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_BOOTP_IP_RANGE, *LPDHCP_BOOT_IP_RANGE
+req.redist: 
 ---
 
 # _DHCP_BOOTP_IP_RANGE structure

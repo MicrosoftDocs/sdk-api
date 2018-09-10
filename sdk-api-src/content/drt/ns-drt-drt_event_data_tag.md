@@ -4,7 +4,7 @@ title: drt_event_data_tag
 author: windows-sdk-content
 description: DRT_EVENT_DATA.
 old-location: p2p\drt_event_data.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: b52bf815-d962-4f72-8876-a80769bc3d3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_EVENT_DATA, *PDRT_EVENT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_EVENT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_EVENT_DATA, *PDRT_EVENT_DATA
+req.redist: 
 ---
 
 # drt_event_data_tag structure

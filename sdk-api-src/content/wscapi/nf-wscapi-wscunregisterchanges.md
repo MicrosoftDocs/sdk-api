@@ -4,17 +4,16 @@ title: WscUnRegisterChanges function
 author: windows-sdk-content
 description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
 old-location: winprog\wscunregisterchanges.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WscUnRegisterChanges
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WscUnRegisterChanges function

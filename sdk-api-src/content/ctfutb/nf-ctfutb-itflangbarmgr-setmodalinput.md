@@ -4,17 +4,16 @@ title: ITfLangBarMgr::SetModalInput
 author: windows-sdk-content
 description: ITfLangBarMgr::SetModalInput method
 old-location: tsf\itflangbarmgr_setmodalinput.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput method, ITfLangBarMgr.SetModalInput, ITfLangBarMgr::SetModalInput, SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarMgr.SetModalInput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarMgr::SetModalInput

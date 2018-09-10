@@ -4,17 +4,16 @@ title: RectF::Union
 author: windows-sdk-content
 description: The RectF::Union method determines the union of two rectangles and stores the result in a RectF object.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Union_c_a_b_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\union_81c_a_b.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: RectF class [GDI+],Union method, RectF.Union, RectF::Union, Union, Union method [GDI+], Union method [GDI+],RectF class, _gdiplus_CLASS_RectF_Union_c_a_b_, gdiplus._gdiplus_CLASS_RectF_Union_c_a_b_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RectF.Union
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

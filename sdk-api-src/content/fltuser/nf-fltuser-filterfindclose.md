@@ -4,17 +4,16 @@ title: FilterFindClose function
 author: windows-sdk-content
 description: The FilterFindClose function closes the specified minifilter search handle. The FilterFindFirst and FilterFindNext functions use this search handle to locate minifilters.
 old-location: ifsk\filterfindclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 053c06b0-3bfd-436c-ab98-14c55e66da53
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterFindClose, FilterFindClose function [Installable File System Drivers], FltWin32ApiRef_37b77edb-bee8-40ca-803f-4091417ef714.xml, fltuser/FilterFindClose, ifsk.filterfindclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterFindClose
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterFindClose function

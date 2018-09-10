@@ -4,7 +4,7 @@ title: IColumnMapperCreator
 author: windows-sdk-content
 description: Contains a method to retrieves a column mapper object.
 old-location: search\icolumnmappercreator.htm
-old-project: search
+tech.root: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnMapperCreator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnMapperCreator interface

@@ -4,17 +4,16 @@ title: lineInitializeExA function
 author: windows-sdk-content
 description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
 old-location: tapi2\lineinitializeex.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineInitializeExW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineInitializeExA function

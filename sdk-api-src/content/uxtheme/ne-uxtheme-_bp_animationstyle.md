@@ -4,7 +4,7 @@ title: "_BP_ANIMATIONSTYLE"
 author: windows-sdk-content
 description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
 old-location: controls\BP_ANIMATIONSTYLE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_ANIMATIONSTYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BP_ANIMATIONSTYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: BP_ANIMATIONSTYLE
+req.redist: 
 ---
 
 # _BP_ANIMATIONSTYLE enumeration

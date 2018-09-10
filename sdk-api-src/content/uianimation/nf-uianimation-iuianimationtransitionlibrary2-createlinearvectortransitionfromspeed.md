@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 author: windows-sdk-content
 description: Creates a linear-speed vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 5CFA1E23-26A7-4139-B533-8BD325E9F1B9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateLinearVectorTransitionFromSpeed, CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed

@@ -4,17 +4,16 @@ title: OleCreateLinkFromDataEx function
 author: windows-sdk-content
 description: Extends OleCreateLinkFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkFromData.
 old-location: com\olecreatelinkfromdataex.htm
-old-project: com
+tech.root: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreateLinkFromDataEx, OleCreateLinkFromDataEx function [COM], _ole_OleCreateLinkFromDataEx, com.olecreatelinkfromdataex, ole2/OleCreateLinkFromDataEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateLinkFromDataEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateLinkFromDataEx function

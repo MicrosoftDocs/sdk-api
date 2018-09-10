@@ -4,17 +4,16 @@ title: FreeMemoryJobObject function
 author: windows-sdk-content
 description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.
 old-location: base\freememoryjobobject.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 8EA45FC6-A8CC-4786-8CF2-4FC868B974F2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: FreeMemoryJobObject, FreeMemoryJobObject function, base.freememoryjobobject, jobapi2/FreeMemoryJobObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FreeMemoryJobObject
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # FreeMemoryJobObject function

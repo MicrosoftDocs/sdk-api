@@ -4,17 +4,16 @@ title: DrvQueryPerBandInfo function
 author: windows-sdk-content
 description: A printer graphics DLL's DrvQueryPerBandInfo function is called by GDI before it begins drawing a band for a physical page, so the driver can supply GDI with band-specific information.
 old-location: display\drvqueryperbandinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 2e2c1aa7-9ba4-4bf9-acfb-43212d3d4899
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvQueryPerBandInfo, DrvQueryPerBandInfo function [Display Devices], ddifncs_8a5e262c-23e5-4e49-bd36-6674efe7090f.xml, display.drvqueryperbandinfo, winddi/DrvQueryPerBandInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvQueryPerBandInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvQueryPerBandInfo function

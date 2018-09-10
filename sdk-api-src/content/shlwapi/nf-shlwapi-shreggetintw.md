@@ -4,17 +4,16 @@ title: SHRegGetIntW function
 author: windows-sdk-content
 description: Reads a numeric string value from the registry and converts it to an integer.
 old-location: shell\SHRegGetInt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SHRegGetIntW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegGetIntW function

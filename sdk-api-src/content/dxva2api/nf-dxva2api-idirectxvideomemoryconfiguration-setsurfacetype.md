@@ -4,17 +4,16 @@ title: IDirectXVideoMemoryConfiguration::SetSurfaceType
 author: windows-sdk-content
 description: Sets the video surface type that a decoder will use for DirectX Video Acceleration (DVXA) 2.0.
 old-location: mf\idirectxvideomemoryconfiguration_setsurfacetype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7, IDirectXVideoMemoryConfiguration interface [Media Foundation],SetSurfaceType method, IDirectXVideoMemoryConfiguration.SetSurfaceType, IDirectXVideoMemoryConfiguration::SetSurfaceType, SetSurfaceType, SetSurfaceType method [Media Foundation], SetSurfaceType method [Media Foundation],IDirectXVideoMemoryConfiguration interface, dxva2api/IDirectXVideoMemoryConfiguration::SetSurfaceType, mf.idirectxvideomemoryconfiguration_setsurfacetype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoMemoryConfiguration.SetSurfaceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoMemoryConfiguration::SetSurfaceType

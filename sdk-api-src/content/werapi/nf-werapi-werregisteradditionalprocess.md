@@ -4,17 +4,16 @@ title: WerRegisterAdditionalProcess function
 author: windows-sdk-content
 description: Registers a process to be included in the error report along with the main application process. Optionally specifies a thread within that registered process to get additional data from.
 old-location: wer\werregisteradditionalprocess.htm
-old-project: wer
+tech.root: wer
 ms.assetid: F4E44C22-6BE1-4512-80F6-1B6741E3ADBB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerRegisterAdditionalProcess
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerRegisterAdditionalProcess function

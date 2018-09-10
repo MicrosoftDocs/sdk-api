@@ -4,17 +4,16 @@ title: IMFSourceOpenMonitor::OnSourceEvent
 author: windows-sdk-content
 description: Called by the network source when the open operation begins or ends.
 old-location: mf\imfsourceopenmonitor_onsourceevent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 19b9a891-5116-41b3-8750-85f2c23d3d7f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 19b9a891-5116-41b3-8750-85f2c23d3d7f, IMFSourceOpenMonitor interface [Media Foundation],OnSourceEvent method, IMFSourceOpenMonitor.OnSourceEvent, IMFSourceOpenMonitor::OnSourceEvent, OnSourceEvent, OnSourceEvent method [Media Foundation], OnSourceEvent method [Media Foundation],IMFSourceOpenMonitor interface, mf.imfsourceopenmonitor_onsourceevent, mfidl/IMFSourceOpenMonitor::OnSourceEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSourceOpenMonitor.OnSourceEvent
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceOpenMonitor::OnSourceEvent

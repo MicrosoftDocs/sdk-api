@@ -4,17 +4,16 @@ title: MprAdminInterfaceDeviceGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceDeviceGetInfo retrieves information about a device that is used in a router demand-dial interface.
 old-location: rras\mpradmininterfacedevicegetinfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo function [RAS], _mpr_mpradmininterfacedevicegetinfo, mprapi/MprAdminInterfaceDeviceGetInfo, rras.mpradmininterfacedevicegetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceDeviceGetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceDeviceGetInfo function

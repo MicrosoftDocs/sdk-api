@@ -4,7 +4,7 @@ title: "_SECURITY_STRING"
 author: windows-sdk-content
 description: Used as the string interface for kernel operations and is a clone of the UNICODE_STRING structure.
 old-location: security\security_string.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 4E03761C-8199-4D9F-B9DA-8941F0CC6700
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_STRING, *PSECURITY_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SECURITY_STRING, *PSECURITY_STRING
+req.redist: 
 ---
 
 # _SECURITY_STRING structure

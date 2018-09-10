@@ -4,17 +4,16 @@ title: AllocateAndInitializeSid function
 author: windows-sdk-content
 description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.
 old-location: security\allocateandinitializesid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AllocateAndInitializeSid
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AllocateAndInitializeSid function

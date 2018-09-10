@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::CreateFontFaceWithSimulations
 author: windows-sdk-content
 description: Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
 old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method [Direct Write], CreateFontFaceWithSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFaceWithSimulations method, IDWriteFontFaceReference.CreateFontFaceWithSimulations, IDWriteFontFaceReference::CreateFontFaceWithSimulations, directwrite.idwritefontfacereference_createfontfacewithsimulations, dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.CreateFontFaceWithSimulations
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::CreateFontFaceWithSimulations

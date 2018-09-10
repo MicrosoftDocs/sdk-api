@@ -4,17 +4,16 @@ title: IBrowserService2::_PauseOrResumeView
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request the base class to either pause (such as before a minimize operation) or resume the browser view.
 old-location: shell\IBrowserService2__PauseOrResumeView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cc6884c8-222c-4990-b178-ea5665d30d57
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_PauseOrResumeView method, IBrowserService2._PauseOrResumeView, IBrowserService2::_PauseOrResumeView, _PauseOrResumeView, _PauseOrResumeView method [Windows Shell], _PauseOrResumeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_PauseOrResumeView, shell.IBrowserService2__PauseOrResumeView, zone_IBrowserService2__PauseOrResumeView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._PauseOrResumeView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

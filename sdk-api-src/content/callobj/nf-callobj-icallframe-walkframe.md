@@ -4,17 +4,16 @@ title: ICallFrame::WalkFrame
 author: windows-sdk-content
 description: Searches for interface pointers that are reachable from [in], [in, out], or [out] parameters of the frame.
 old-location: com\icallframe_walkframe.htm
-old-project: com
+tech.root: com
 ms.assetid: 64e4967b-6b54-4416-ae10-04987f13d39a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICallFrame interface [COM],WalkFrame method, ICallFrame.WalkFrame, ICallFrame::WalkFrame, WalkFrame, WalkFrame method [COM], WalkFrame method [COM],ICallFrame interface, _com_icallframe_walkframe, callobj/ICallFrame::WalkFrame, com.icallframe_walkframe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.WalkFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::WalkFrame

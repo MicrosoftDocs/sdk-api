@@ -4,17 +4,16 @@ title: IDeviceTopology::GetConnector
 author: windows-sdk-content
 description: The GetConnector method gets the connector that is specified by a connector number.
 old-location: coreaudio\idevicetopology_getconnector.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a2da5d1e-ecd3-411e-8428-f529569cc11d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetConnector, GetConnector method [Core Audio], GetConnector method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnector method, IDeviceTopology.GetConnector, IDeviceTopology::GetConnector, IDeviceTopologyGetConnector, coreaudio.idevicetopology_getconnector, devicetopology/IDeviceTopology::GetConnector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceTopology.GetConnector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceTopology::GetConnector

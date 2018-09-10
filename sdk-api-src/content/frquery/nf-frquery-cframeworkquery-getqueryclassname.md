@@ -4,17 +4,16 @@ title: CFrameworkQuery::GetQueryClassName
 author: windows-sdk-content
 description: The GetQueryClassName method retrieves the class name from the query.
 old-location: wmi\cframeworkquery_getqueryclassname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 6cb3da43-dab1-4049-9793-d62f027efe1c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQueryClassName method, CFrameworkQuery.GetQueryClassName, CFrameworkQuery::GetQueryClassName, GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CFrameworkQuery.GetQueryClassName
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CFrameworkQuery::GetQueryClassName

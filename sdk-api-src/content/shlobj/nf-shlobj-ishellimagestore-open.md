@@ -4,17 +4,16 @@ title: IShellImageStore::Open
 author: windows-sdk-content
 description: Opens the store and returns a lock.
 old-location: shell\IShellImageStore_Open.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2aebf791-7681-42b3-8ffe-46e103e7c036
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellImageStore interface [Windows Shell],Open method, IShellImageStore.Open, IShellImageStore::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_Open, shell.IShellImageStore_Open, shlobj/IShellImageStore::Open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageStore.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageStore::Open

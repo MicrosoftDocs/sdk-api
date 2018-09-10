@@ -4,17 +4,16 @@ title: IAttachmentExecute::SetLocalPath
 author: windows-sdk-content
 description: Sets and stores the path to the file.
 old-location: shell\IAttachmentExecute_SetLocalPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 763ce5a7-bbad-4dd8-a416-86a96f466510
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetLocalPath method, IAttachmentExecute.SetLocalPath, IAttachmentExecute::SetLocalPath, SetLocalPath, SetLocalPath method [Windows Shell], SetLocalPath method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetLocalPath, shell.IAttachmentExecute_SetLocalPath, shobjidl_core/IAttachmentExecute::SetLocalPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shdocvw.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAttachmentExecute.SetLocalPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 6.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAttachmentExecute::SetLocalPath

@@ -4,17 +4,16 @@ title: IPortableDevice::Advise
 author: windows-sdk-content
 description: The Advise method registers an application-defined callback that receives device events.
 old-location: wpdsdk\iportabledevice_advise.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Advise, Advise method [Windows Portable Devices SDK], Advise method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Advise method, IPortableDevice.Advise, IPortableDevice::Advise, IPortableDeviceAdvise, portabledeviceapi/IPortableDevice::Advise, wpdsdk.iportabledevice_advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevice.Advise
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevice::Advise

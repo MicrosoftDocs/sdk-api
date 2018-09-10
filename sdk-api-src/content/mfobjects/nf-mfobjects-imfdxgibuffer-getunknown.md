@@ -4,17 +4,16 @@ title: IMFDXGIBuffer::GetUnknown
 author: windows-sdk-content
 description: Gets an IUnknown pointer that was previously stored in the media buffer object.
 old-location: mf\imfdxgibuffer_getunknown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetUnknown method, IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDXGIBuffer.GetUnknown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDXGIBuffer::GetUnknown

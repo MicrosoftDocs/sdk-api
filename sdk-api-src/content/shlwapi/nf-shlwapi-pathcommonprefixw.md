@@ -4,17 +4,16 @@ title: PathCommonPrefixW function
 author: windows-sdk-content
 description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
 old-location: shell\PathCommonPrefix.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCommonPrefix, PathCommonPrefix function [Windows Shell], PathCommonPrefixA, PathCommonPrefixW, _win32_PathCommonPrefix, shell.PathCommonPrefix, shlwapi/PathCommonPrefix, shlwapi/PathCommonPrefixA, shlwapi/PathCommonPrefixW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathCommonPrefixW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathCommonPrefixW function

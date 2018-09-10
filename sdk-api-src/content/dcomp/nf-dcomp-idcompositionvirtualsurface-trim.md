@@ -4,17 +4,16 @@ title: IDCompositionVirtualSurface::Trim
 author: windows-sdk-content
 description: Discards pixels that fall outside of the specified trim rectangles.
 old-location: directcomp\idcompositionvirtualsurface_trim.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5A4F516F-B031-47E6-9A3D-068CF2C3D53A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Trim method, IDCompositionVirtualSurface.Trim, IDCompositionVirtualSurface::Trim, Trim, Trim method [DirectComposition], Trim method [DirectComposition],IDCompositionVirtualSurface interface, dcomp/IDCompositionVirtualSurface::Trim, directcomp.idcompositionvirtualsurface_trim
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVirtualSurface.Trim
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVirtualSurface::Trim

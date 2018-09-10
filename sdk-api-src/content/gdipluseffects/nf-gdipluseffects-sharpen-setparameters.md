@@ -4,17 +4,16 @@ title: Sharpen::SetParameters
 author: windows-sdk-content
 description: The Sharpen::SetParameters method sets the parameters of this Sharpen object.
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_SetParameters_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenmethods\setparameters.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Sharpen class, Sharpen class [GDI+],SetParameters method, Sharpen.SetParameters, Sharpen::SetParameters, _gdiplus_CLASS_Sharpen_SetParameters_, gdiplus._gdiplus_CLASS_Sharpen_SetParameters_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Sharpen.SetParameters
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

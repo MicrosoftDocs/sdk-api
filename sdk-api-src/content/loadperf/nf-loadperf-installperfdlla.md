@@ -4,17 +4,16 @@ title: InstallPerfDllA function
 author: windows-sdk-content
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: loadperf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.lib: 
+req.dll: Loadperf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InstallPerfDll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Loadperf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # InstallPerfDllA function

@@ -4,7 +4,7 @@ title: MBN_VOICE_CALL_STATE
 author: windows-sdk-content
 description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
 old-location: mbn\mbn_voice_call_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CALL_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_VOICE_CALL_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_VOICE_CALL_STATE
+req.redist: 
 ---
 
 # MBN_VOICE_CALL_STATE enumeration

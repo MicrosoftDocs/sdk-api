@@ -4,17 +4,16 @@ title: IMSVidCtl::Decompose
 author: windows-sdk-content
 description: The Decompose method tears down the filter graph.
 old-location: mstv\imsvidctl_decompose.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e67bf380-dc2c-42c9-a995-17951c65fbda
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Decompose, Decompose method [Microsoft TV Technologies], Decompose method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Decompose method, IMSVidCtl.Decompose, IMSVidCtl::Decompose, IMSVidCtlDecompose, mstv.imsvidctl_decompose, msvidctl/IMSVidCtl::Decompose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.Decompose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::Decompose

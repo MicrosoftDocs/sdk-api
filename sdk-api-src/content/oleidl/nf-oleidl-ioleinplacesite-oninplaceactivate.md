@@ -4,17 +4,16 @@ title: IOleInPlaceSite::OnInPlaceActivate
 author: windows-sdk-content
 description: Notifies the container that one of its objects is being activated in place.
 old-location: com\ioleinplacesite_oninplaceactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: e5744911-1ea6-4482-988d-8def16229f4c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceActivate method, IOleInPlaceSite.OnInPlaceActivate, IOleInPlaceSite::OnInPlaceActivate, OnInPlaceActivate, OnInPlaceActivate method [COM], OnInPlaceActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplaceactivate, com.ioleinplacesite_oninplaceactivate, oleidl/IOleInPlaceSite::OnInPlaceActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSite.OnInPlaceActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::OnInPlaceActivate

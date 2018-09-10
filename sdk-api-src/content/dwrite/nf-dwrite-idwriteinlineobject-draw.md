@@ -4,17 +4,16 @@ title: IDWriteInlineObject::Draw
 author: windows-sdk-content
 description: The application implemented rendering callback (IDWriteTextRenderer::DrawInlineObject) can use this to draw the inline object without needing to cast or query the object type. The text layout does not call this method directly.
 old-location: directwrite\IDWriteInlineObject_Draw.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: cbaa3341-e43a-4d3f-89c7-dda758a63e7d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],Draw method, IDWriteInlineObject.Draw, IDWriteInlineObject::Draw, directwrite.IDWriteInlineObject_Draw, dwrite/IDWriteInlineObject::Draw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteInlineObject.Draw
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteInlineObject::Draw

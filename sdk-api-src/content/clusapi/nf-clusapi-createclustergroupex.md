@@ -4,17 +4,16 @@ title: CreateClusterGroupEx function
 author: windows-sdk-content
 description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
 old-location: mscs\createclustergroupex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CreateClusterGroupEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateClusterGroupEx function

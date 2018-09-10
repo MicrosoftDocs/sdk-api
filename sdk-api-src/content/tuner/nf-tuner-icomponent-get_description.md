@@ -4,17 +4,16 @@ title: IComponent::get_Description
 author: windows-sdk-content
 description: The get_Description method retrieves the description of the component.
 old-location: mstv\icomponent_get_description.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ef7d1308-27ff-4d4d-b88d-58a9f89abc7f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Description method, IComponent.get_Description, IComponent::get_Description, IComponentget_Description, get_Description, get_Description method [Microsoft TV Technologies], get_Description method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_description, tuner/IComponent::get_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.get_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::get_Description
@@ -65,7 +63,7 @@ The <b>get_Description</b> method retrieves the description of the component.
 
 ### -param Description
 
-
+TBD
 
 
 

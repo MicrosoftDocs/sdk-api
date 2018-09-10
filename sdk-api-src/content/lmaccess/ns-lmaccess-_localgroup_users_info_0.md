@@ -4,7 +4,7 @@ title: "_LOCALGROUP_USERS_INFO_0"
 author: windows-sdk-content
 description: The LOCALGROUP_USERS_INFO_0 structure contains local group member information.
 old-location: netmgmt\localgroup_users_info_0_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: e9358f19-ec8f-4454-896c-c9fadb848378
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCALGROUP_USERS_INFO_0, *PLOCALGROUP_USERS_INFO_0, *LPLOCALGROUP_USERS_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCALGROUP_USERS_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LOCALGROUP_USERS_INFO_0, *PLOCALGROUP_USERS_INFO_0, *LPLOCALGROUP_USERS_INFO_0
+req.redist: 
 ---
 
 # _LOCALGROUP_USERS_INFO_0 structure

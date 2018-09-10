@@ -4,17 +4,16 @@ title: IMFByteStream::Read
 author: windows-sdk-content
 description: Reads data from the stream.
 old-location: mf\imfbytestream_read.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6e0d5363-f2c2-4334-86ca-71fac61073d3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6e0d5363-f2c2-4334-86ca-71fac61073d3, IMFByteStream interface [Media Foundation],Read method, IMFByteStream.Read, IMFByteStream::Read, Read, Read method [Media Foundation], Read method [Media Foundation],IMFByteStream interface, mf.imfbytestream_read, mfobjects/IMFByteStream::Read
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFByteStream.Read
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStream::Read

@@ -4,17 +4,16 @@ title: IDVBTLocator::get_LPInnerFEC
 author: windows-sdk-content
 description: The get_LPInnerFEC method retrieves the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfec.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 069904ad-5faa-4ac4-bf30-538284de2de8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC method, IDVBTLocator.get_LPInnerFEC, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBTLocator.get_LPInnerFEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBTLocator::get_LPInnerFEC
@@ -65,7 +63,7 @@ The <b>get_LPInnerFEC</b> method retrieves the inner FEC type of the low-priorit
 
 ### -param FEC
 
-
+TBD
 
 
 

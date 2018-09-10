@@ -4,17 +4,16 @@ title: IColumnManager::GetColumnInfo
 author: windows-sdk-content
 description: Gets information about each column:\_width, visibility, display name, and state.
 old-location: shell\IColumnManager_GetColumnInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnInfo method, IColumnManager.GetColumnInfo, IColumnManager::GetColumnInfo, shell.IColumnManager_GetColumnInfo, shell_IColumnManager_GetColumnInfo, shobjidl_core/IColumnManager::GetColumnInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnManager.GetColumnInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnManager::GetColumnInfo

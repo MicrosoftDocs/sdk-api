@@ -4,7 +4,7 @@ title: ID3D12Debug2
 author: windows-sdk-content
 description: Adds configurable levels of GPU-Based Validation to the debug layer.
 old-location: direct3d12\id3d12debug2.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 7FC7A17B-9DD3-4B6C-998E-F958AA1C56FC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Debug2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Debug2 interface

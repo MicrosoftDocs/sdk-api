@@ -4,17 +4,16 @@ title: ICEnroll4::addBlobPropertyToCertificate
 author: windows-sdk-content
 description: Adds a BLOB property to a certificate.
 old-location: security\icenroll4_addblobpropertytocertificate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CEnroll object [Security],addBlobPropertyToCertificate method, ICEnroll4 interface [Security],addBlobPropertyToCertificate method, ICEnroll4.addBlobPropertyToCertificate, ICEnroll4::addBlobPropertyToCertificate, addBlobPropertyToCertificate, addBlobPropertyToCertificate method [Security], addBlobPropertyToCertificate method [Security],CEnroll object, addBlobPropertyToCertificate method [Security],ICEnroll4 interface, security.icenroll4_addblobpropertytocertificate, xenroll/ICEnroll4::addBlobPropertyToCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CEnroll.addBlobPropertyToCertificate
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::addBlobPropertyToCertificate

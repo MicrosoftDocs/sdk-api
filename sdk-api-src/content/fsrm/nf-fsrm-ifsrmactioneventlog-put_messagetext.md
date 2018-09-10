@@ -4,17 +4,16 @@ title: IFsrmActionEventLog::put_MessageText
 author: windows-sdk-content
 description: Retrieves or sets the event text that is logged when the action runs.
 old-location: fsrm\ifsrmactioneventlog_messagetext.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3a883032-808a-47f9-845e-50bad5424304
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionEventLog interface [File Server Resource Manager],MessageText property, IFsrmActionEventLog.MessageText, IFsrmActionEventLog.put_MessageText, IFsrmActionEventLog::MessageText, IFsrmActionEventLog::get_MessageText, IFsrmActionEventLog::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEventLog interface, fs.ifsrmactioneventlog_messagetext, fsrm.ifsrmactioneventlog_messagetext, fsrm/IFsrmActionEventLog::MessageText, fsrm/IFsrmActionEventLog::get_MessageText, fsrm/IFsrmActionEventLog::put_MessageText, put_MessageText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionEventLog.put_MessageText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEventLog::put_MessageText

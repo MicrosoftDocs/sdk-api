@@ -4,17 +4,16 @@ title: IVdsSubSystemImportTarget::GetImportTarget
 author: windows-sdk-content
 description: Returns the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
 old-location: base\ivdssubsystemimporttarget_getimporttarget.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 1fff1400-61d9-494f-857d-53626b80c2d2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetImportTarget, GetImportTarget method [VDS], GetImportTarget method [VDS],IVdsSubSystemImportTarget interface, IVdsSubSystemImportTarget interface [VDS],GetImportTarget method, IVdsSubSystemImportTarget.GetImportTarget, IVdsSubSystemImportTarget::GetImportTarget, base.ivdssubsystemimporttarget_getimporttarget, vds/IVdsSubSystemImportTarget::GetImportTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystemImportTarget.GetImportTarget
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsSubSystemImportTarget::GetImportTarget

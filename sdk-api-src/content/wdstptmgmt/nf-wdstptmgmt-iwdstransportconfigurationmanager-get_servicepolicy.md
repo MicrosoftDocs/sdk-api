@@ -4,17 +4,16 @@ title: IWdsTransportConfigurationManager::get_ServicePolicy
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager's Service Policy object. This object can be used to configure service parameters such as the multicast IP address source and the active network profile.
 old-location: wds\iwdstransportconfigurationmanager_servicepolicy.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 3ee3abe8-3ac4-409c-b994-023b0c4c6f72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],ServicePolicy property, IWdsTransportConfigurationManager.ServicePolicy, IWdsTransportConfigurationManager.get_ServicePolicy, IWdsTransportConfigurationManager::ServicePolicy, IWdsTransportConfigurationManager::get_ServicePolicy, ServicePolicy property [Windows Deployment Services], ServicePolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_ServicePolicy, wds.iwdstransportconfigurationmanager_servicepolicy, wdstptmgmt/IWdsTransportConfigurationManager::ServicePolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_ServicePolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWdsTransportConfigurationManager.get_ServicePolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportConfigurationManager::get_ServicePolicy

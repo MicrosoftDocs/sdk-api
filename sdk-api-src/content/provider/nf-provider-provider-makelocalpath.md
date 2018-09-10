@@ -4,17 +4,16 @@ title: Provider::MakeLocalPath
 author: windows-sdk-content
 description: The MakeLocalPath method builds a full instance path from a relative path.
 old-location: wmi\provider_makelocalpath.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8a2476c0-73c0-4a95-8973-e6da451116af
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumentation], MakeLocalPath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],MakeLocalPath method, Provider.MakeLocalPath, Provider::MakeLocalPath, _hmm_provider_makelocalpath, provider/Provider::MakeLocalPath, wmi.provider_makelocalpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Provider.MakeLocalPath
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::MakeLocalPath

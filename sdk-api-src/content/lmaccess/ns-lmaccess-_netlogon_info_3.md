@@ -4,7 +4,7 @@ title: "_NETLOGON_INFO_3"
 author: windows-sdk-content
 description: Defines a level-3 control query response from a domain controller.
 old-location: winprog\netlogon_info_3.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 6498c4b2-523a-4050-acbd-5088b9e0eaae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETLOGON_INFO_3, *PNETLOGON_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETLOGON_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NETLOGON_INFO_3, *PNETLOGON_INFO_3
+req.redist: 
 ---
 
 # _NETLOGON_INFO_3 structure

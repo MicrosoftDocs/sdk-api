@@ -4,17 +4,16 @@ title: CertDuplicateCTLContext function
 author: windows-sdk-content
 description: The CertDuplicateCTLContext function duplicates a certificate trust list (CTL) context by incrementing its reference count.
 old-location: security\certduplicatectlcontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertDuplicateCTLContext
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertDuplicateCTLContext function

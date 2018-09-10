@@ -4,17 +4,16 @@ title: RegQueryMultipleValuesA function
 author: windows-sdk-content
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 old-location: base\regquerymultiplevalues.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - RegQueryMultipleValuesW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegQueryMultipleValuesA function

@@ -4,17 +4,16 @@ title: IsWindows8OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 8 version.
 old-location: base\iswindows8orgreater.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: D11971C8-2E8F-4AD2-BE0B-FEFEC8949125
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsWindows8OrGreater, IsWindows8OrGreater function, base.iswindows8orgreater, versionhelpers/IsWindows8OrGreater
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Kernel32.lib; Ntdll.lib
+req.dll: Kernel32.dll; Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IsWindows8OrGreater
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; Ntdll.lib
-req.dll: Kernel32.dll; Ntdll.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsWindows8OrGreater function

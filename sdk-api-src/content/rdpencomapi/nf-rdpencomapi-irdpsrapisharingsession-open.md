@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::Open
 author: windows-sdk-content
 description: Puts the session in an active state.
 old-location: rdp\irdpsrapisharingsession_open.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 2c97a37d-5862-4ad3-9029-481ea0a789e0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Open method, IRDPSRAPISharingSession.Open, IRDPSRAPISharingSession2 interface [RDP],Open method, IRDPSRAPISharingSession2::Open, IRDPSRAPISharingSession::Open, Open, Open method [RDP], Open method [RDP],IRDPSRAPISharingSession interface, Open method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_open, rdpencomapi/IRDPSRAPISharingSession2::Open, rdpencomapi/IRDPSRAPISharingSession::Open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRDPSRAPISharingSession.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::Open

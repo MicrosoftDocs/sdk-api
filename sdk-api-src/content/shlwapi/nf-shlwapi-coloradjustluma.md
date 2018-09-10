@@ -4,17 +4,16 @@ title: ColorAdjustLuma function
 author: windows-sdk-content
 description: Changes the luminance of a RGB value. Hue and saturation are not affected.
 old-location: shell\ColorAdjustLuma.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d113ad59-cde4-4f11-b7f1-53b3fb69ec10
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ColorAdjustLuma, ColorAdjustLuma function [Windows Shell], _win32_ColorAdjustLuma, shell.ColorAdjustLuma, shlwapi/ColorAdjustLuma
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ColorAdjustLuma
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ColorAdjustLuma function

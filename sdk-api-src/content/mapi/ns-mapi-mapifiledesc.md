@@ -4,7 +4,7 @@ title: MapiFileDesc
 author: windows-sdk-content
 description: A MapiFileDesc structure contains information about a file containing a message attachment stored as a temporary file.
 old-location: mapi\mapifiledesc.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: c2193551-85c3-4293-b632-d6c8ab84800a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MapiFileDesc, *lpMapiFileDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MapiFileDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MapiFileDesc, *lpMapiFileDesc
+req.redist: 
 ---
 
 # MapiFileDesc structure

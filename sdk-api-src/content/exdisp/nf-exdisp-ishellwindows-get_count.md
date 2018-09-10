@@ -4,17 +4,16 @@ title: IShellWindows::get_Count
 author: windows-sdk-content
 description: Gets the number of windows in the Shell windows collection.
 old-location: shell\IShellWindows_get_Count.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50781569-4c80-4304-96f3-8a135cea3b20
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],get_Count method, IShellWindows.get_Count, IShellWindows::get_Count, _win32_IShellWindows_get_Count, exdisp/IShellWindows::get_Count, get_Count, get_Count method [Windows Shell], get_Count method [Windows Shell],IShellWindows interface, shell.IShellWindows_get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

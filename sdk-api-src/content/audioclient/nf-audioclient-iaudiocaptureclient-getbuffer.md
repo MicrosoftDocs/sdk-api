@@ -4,17 +4,16 @@ title: IAudioCaptureClient::GetBuffer
 author: windows-sdk-content
 description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetBuffer method, IAudioCaptureClient.GetBuffer, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioCaptureClient.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioCaptureClient::GetBuffer

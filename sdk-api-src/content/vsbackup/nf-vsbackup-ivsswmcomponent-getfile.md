@@ -4,17 +4,16 @@ title: IVssWMComponent::GetFile
 author: windows-sdk-content
 description: The GetFile method obtains a file descriptor associated with a file group.
 old-location: base\ivsswmcomponent_getfile.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 55956a05-59b8-4197-8496-03903b6e0faa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFile, GetFile method [VSS], GetFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetFile method, IVssWMComponent.GetFile, IVssWMComponent::GetFile, _win32_ivsswmcomponent_getfile, base.ivsswmcomponent_getfile, vsbackup/IVssWMComponent::GetFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMComponent.GetFile
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMComponent::GetFile

@@ -4,17 +4,16 @@ title: RpcMgmtEpEltInqNext function
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
 old-location: rpc\rpcmgmtepeltinqnext.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcMgmtEpEltInqNext, RpcMgmtEpEltInqNext function [RPC], RpcMgmtEpEltInqNextA, RpcMgmtEpEltInqNextW, _rpc_rpcmgmtepeltinqnext, rpc.rpcmgmtepeltinqnext, rpcdce/RpcMgmtEpEltInqNext, rpcdce/RpcMgmtEpEltInqNextA, rpcdce/RpcMgmtEpEltInqNextW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcMgmtEpEltInqNextW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcMgmtEpEltInqNext function

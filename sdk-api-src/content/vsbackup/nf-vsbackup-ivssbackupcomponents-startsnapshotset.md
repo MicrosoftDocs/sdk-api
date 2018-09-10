@@ -4,17 +4,16 @@ title: IVssBackupComponents::StartSnapshotSet
 author: windows-sdk-content
 description: The StartSnapshotSet method creates a new, empty shadow copy set.
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.StartSnapshotSet
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::StartSnapshotSet

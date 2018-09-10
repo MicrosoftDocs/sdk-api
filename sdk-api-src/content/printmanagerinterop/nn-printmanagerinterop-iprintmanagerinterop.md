@@ -4,7 +4,7 @@ title: IPrintManagerInterop
 author: windows-sdk-content
 description: Enables access to PrintManager methods in a Windows Store app that manages multiple windows.
 old-location: winrt\iprintmanagerinterop.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1786fda1-37e4-4ec5-94de-a1fc5b6732a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: printmanagerinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrintManagerInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintManagerInterop interface

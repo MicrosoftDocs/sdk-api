@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0006"
 author: windows-sdk-content
 description: Describes an array of RdcNeed structures.
 old-location: rdc\rdcneedpointer.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 92a1fae7-5ada-4f7d-a736-c93bc404a418
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcNeedPointer
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RdcNeedPointer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RdcNeedPointer
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0006 structure

@@ -4,7 +4,7 @@ title: WS_FAULT_DISCLOSURE
 author: windows-sdk-content
 description: Controls how much error information is included in a fault. Since the error object may contain sensitive data as part of the error string, it is not always appropriate to include the error strings information in all faults.
 old-location: wsw\ws_fault_disclosure.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1dca9074-b329-4293-8a44-d0ced00ae59e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FAULT_DISCLOSURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FAULT_DISCLOSURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FAULT_DISCLOSURE
+req.redist: 
 ---
 
 # WS_FAULT_DISCLOSURE enumeration

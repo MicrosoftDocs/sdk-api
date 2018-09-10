@@ -4,17 +4,16 @@ title: IShellImageDataFactory::CreateImageFromStream
 author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface based on a given file stream.
 old-location: shell\IShellImageDataFactory_CreateImageFromStream.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 009c4b46-0f2c-43ee-84be-017bf12b28e5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateImageFromStream, CreateImageFromStream method [Windows Shell], CreateImageFromStream method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromStream method, IShellImageDataFactory.CreateImageFromStream, IShellImageDataFactory::CreateImageFromStream, _shell_IShellImageDataFactory_CreateImageFromStream, shell.IShellImageDataFactory_CreateImageFromStream, shimgdata/IShellImageDataFactory::CreateImageFromStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageDataFactory.CreateImageFromStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageDataFactory::CreateImageFromStream

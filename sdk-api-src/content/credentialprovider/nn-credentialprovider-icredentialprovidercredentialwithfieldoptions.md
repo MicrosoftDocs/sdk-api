@@ -4,7 +4,7 @@ title: ICredentialProviderCredentialWithFieldOptions
 author: windows-sdk-content
 description: Provides a method that enables the credential provider framework to determine whether you've made a customization to a field's option in a logon or credential UI.
 old-location: shell\ICredentialProviderCredentialWithFieldOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 37C391D7-23C2-4053-BC7F-62F8AFD50DA3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredentialWithFieldOptions
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredentialWithFieldOptions interface

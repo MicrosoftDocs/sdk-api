@@ -4,17 +4,16 @@ title: IPerChannelDbLevel::SetLevel
 author: windows-sdk-content
 description: The SetLevel method sets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_setlevel.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 103efe46-bca5-40a7-815b-d2a1f6e29cbc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevel method, IPerChannelDbLevel.SetLevel, IPerChannelDbLevel::SetLevel, IPerChannelDbLevelSetLevel, SetLevel, SetLevel method [Core Audio], SetLevel method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevel, devicetopology/IPerChannelDbLevel::SetLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPerChannelDbLevel.SetLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPerChannelDbLevel::SetLevel

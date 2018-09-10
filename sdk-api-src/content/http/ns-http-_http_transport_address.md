@@ -4,7 +4,7 @@ title: "_HTTP_TRANSPORT_ADDRESS"
 author: windows-sdk-content
 description: Specifies the addresses (local and remote) used for a particular HTTP connection.
 old-location: http\http_transport_address.htm
-old-project: http
+tech.root: http
 ms.assetid: 2dac2817-c911-4ca1-afb1-32147a16ad4c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_TRANSPORT_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
+req.redist: 
 ---
 
 # _HTTP_TRANSPORT_ADDRESS structure

@@ -4,7 +4,7 @@ title: icmp_echo_reply
 author: windows-sdk-content
 description: Describes the data returned in response to an IPv4 echo request.
 old-location: iphlp\icmp_echo_reply.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: e6d43c35-1009-4df1-bc39-aec97178cae6
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICMP_ECHO_REPLY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY
+req.redist: 
 ---
 
 # icmp_echo_reply structure

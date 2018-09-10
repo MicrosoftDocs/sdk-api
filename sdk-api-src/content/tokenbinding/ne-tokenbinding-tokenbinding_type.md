@@ -4,7 +4,7 @@ title: TOKENBINDING_TYPE
 author: windows-sdk-content
 description: Specifies the possible types for a token binding.
 old-location: security\tokenbinding_type.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 7F126B3E-1033-4C0A-AD5F-0FAD951C85C6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Tlogstg.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKENBINDING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TOKENBINDING_TYPE
+req.redist: 
 ---
 
 # TOKENBINDING_TYPE enumeration

@@ -4,17 +4,16 @@ title: ICspInformations::GetHashAlgorithms
 author: windows-sdk-content
 description: Retrieves the collection of hash algorithms supported by a provider.
 old-location: security\icspinformations_gethashalgorithms_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetHashAlgorithms method, ICspInformations.GetHashAlgorithms, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspInformations.GetHashAlgorithms
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformations::GetHashAlgorithms

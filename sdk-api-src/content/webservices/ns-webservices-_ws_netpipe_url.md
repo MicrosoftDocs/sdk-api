@@ -4,7 +4,7 @@ title: "_WS_NETPIPE_URL"
 author: windows-sdk-content
 description: The URL subtype for specifying an net.pipe URL.
 old-location: wsw\ws_netpipe_url.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: A9B2C098-4420-490A-BB28-F8F1D3136225
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_NETPIPE_URL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _WS_NETPIPE_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_NETPIPE_URL
+req.redist: 
 ---
 
 # _WS_NETPIPE_URL structure

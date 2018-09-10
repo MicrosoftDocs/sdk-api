@@ -4,7 +4,7 @@ title: DXGI_ADAPTER_FLAG3
 author: windows-sdk-content
 description: Identifies the type of DXGI adapter.
 old-location: direct3ddxgi\DXGI_ADAPTER_FLAG3.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 3CD83EEB-2F13-4B32-9E27-CF8456FB3E39
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_ADAPTER_FLAG3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_ADAPTER_FLAG3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_ADAPTER_FLAG3
+req.redist: 
 ---
 
 # DXGI_ADAPTER_FLAG3 enumeration

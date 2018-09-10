@@ -4,17 +4,16 @@ title: IIsoImageManager::get_Stream
 author: windows-sdk-content
 description: Retrieves the IStream object associated with the .iso image.
 old-location: imapi\iisoimagemanager_get_stream.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0655edb2-5dce-4428-b883-984ef53712cd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Stream method, IIsoImageManager.get_Stream, IIsoImageManager::get_Stream, get_Stream, get_Stream method [IMAPI], get_Stream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_stream, imapi2fs/IIsoImageManager::get_Stream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsoImageManager.get_Stream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIsoImageManager::get_Stream

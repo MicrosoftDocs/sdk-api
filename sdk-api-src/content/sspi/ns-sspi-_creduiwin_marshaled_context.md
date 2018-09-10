@@ -4,7 +4,7 @@ title: "_CREDUIWIN_MARSHALED_CONTEXT"
 author: windows-sdk-content
 description: Specifies credential information that has been serialized by using the ICredentialProvider::SetSerialization method.
 old-location: security\creduiwin_marshaled_context.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 61e0c9c8-f484-42a9-95c2-5ab77fb20c6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDUIWIN_MARSHALED_CONTEXT, *PCREDUIWIN_MARSHALED_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREDUIWIN_MARSHALED_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CREDUIWIN_MARSHALED_CONTEXT, *PCREDUIWIN_MARSHALED_CONTEXT
+req.redist: 
 ---
 
 # _CREDUIWIN_MARSHALED_CONTEXT structure

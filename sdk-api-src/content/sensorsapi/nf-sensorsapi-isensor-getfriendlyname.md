@@ -4,17 +4,16 @@ title: ISensor::GetFriendlyName
 author: windows-sdk-content
 description: Retrieves the sensor name that is intended to be seen by the user.
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetFriendlyName

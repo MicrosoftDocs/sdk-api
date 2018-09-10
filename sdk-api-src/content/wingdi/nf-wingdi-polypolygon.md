@@ -4,17 +4,16 @@ title: PolyPolygon function
 author: windows-sdk-content
 description: The PolyPolygon function draws a series of closed polygons. Each polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode. The polygons drawn by this function can overlap.
 old-location: gdi\polypolygon.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PolyPolygon
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PolyPolygon function

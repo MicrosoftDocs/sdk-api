@@ -4,7 +4,7 @@ title: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 author: windows-sdk-content
 description: Set a desired duty cycle percentage value for the controller pin or channel. The control code specifies the percentage as a PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure.
 old-location: base\ioctl_pwm_pin_set_active_duty_cycle_percentage.htm
-old-project: devio
+tech.root: devio
 ms.assetid: A6B29913-5F91-46BD-8B96-DB00B7B1D3FF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE IOCTL

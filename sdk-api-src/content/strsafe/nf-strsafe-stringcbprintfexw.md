@@ -4,17 +4,16 @@ title: StringCbPrintfExW function
 author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintfex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintfex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintfEx, StringCbPrintfEx function [Menus and Other Resources], StringCbPrintfExA, StringCbPrintfExW, _shell_StringCbPrintfEx, _shell_stringcbprintfex_cpp, menurc.stringcbprintfex, strsafe/StringCbPrintfEx, strsafe/StringCbPrintfExA, strsafe/StringCbPrintfExW, winui._shell_stringcbprintfex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCbPrintfExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCbPrintfExW function

@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::PushCopyOfRetrievalFilter
 author: windows-sdk-content
 description: Pushes a copy of the retrieval filter that is currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofretrievalfilter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: D1F82073-14DB-47B5-AB61-C1AFE5C50C42
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfRetrievalFilter method, IDXGIInfoQueue.PushCopyOfRetrievalFilter, IDXGIInfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [DXGI], PushCopyOfRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofretrievalfilter, dxgidebug/IDXGIInfoQueue::PushCopyOfRetrievalFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.PushCopyOfRetrievalFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::PushCopyOfRetrievalFilter

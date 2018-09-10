@@ -4,7 +4,7 @@ title: SHGLOBALCOUNTER
 author: windows-sdk-content
 description: Identifiers for various global counters, or shared variables. Each global counter can be incremented or decremented using SHGlobalCounterIncrement and SHGlobalCounterDecrement.
 old-location: shell\SHGLOBALCOUNTER.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e96f40fb-3a95-41d2-a45f-a8d91fb544d3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHGLOBALCOUNTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGLOBALCOUNTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHGLOBALCOUNTER
+req.redist: 
 ---
 
 # SHGLOBALCOUNTER enumeration

@@ -4,7 +4,7 @@ title: WBEMTimeSpan
 author: windows-sdk-content
 description: The WBEMTimeSpan class holds time spans in nanoseconds.
 old-location: wmi\wbemtimespan.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: bcec87c1-32ba-451b-92bb-80c8a5007adb
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan class

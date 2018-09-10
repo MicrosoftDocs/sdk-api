@@ -4,17 +4,16 @@ title: IWscProduct::get_SignatureStatus
 author: windows-sdk-content
 description: Returns the current status of the signature data for the security product.
 old-location: winprog\iwscproduct_signaturestatus.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 07F7EADE-44E9-472F-BA30-7B7EDEF48192
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWscProduct interface [Windows API],get_SignatureStatus method, IWscProduct.get_SignatureStatus, IWscProduct::get_SignatureStatus, get_SignatureStatus, get_SignatureStatus method [Windows API], get_SignatureStatus method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_SignatureStatus, winprog.iwscproduct_signaturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWscProduct.get_SignatureStatus
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWscProduct::get_SignatureStatus

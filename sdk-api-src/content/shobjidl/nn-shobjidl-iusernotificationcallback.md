@@ -4,7 +4,7 @@ title: IUserNotificationCallback
 author: windows-sdk-content
 description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.
 old-location: shell\IUserNotificationCallback.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotificationCallback
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Shell32.dll (version 6.0.6 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotificationCallback interface

@@ -4,17 +4,16 @@ title: INetFwPolicy2::EnableRuleGroup
 author: windows-sdk-content
 description: Enables or disables a specified group of firewall rules.
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
-old-project: ics
+tech.root: ics
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],EnableRuleGroup method, INetFwPolicy2.EnableRuleGroup, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwPolicy2.EnableRuleGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::EnableRuleGroup

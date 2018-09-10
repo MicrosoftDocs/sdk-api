@@ -4,17 +4,16 @@ title: ICertEncodeAltName::GetName
 author: windows-sdk-content
 description: Returns the specified name from the alternate name array.
 old-location: security\icertencodealtname_getname.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 25a3f36b-1c09-4b2e-84b7-a725d366fd77
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeAltName object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeAltName object, GetName method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetName method, ICertEncodeAltName.GetName, ICertEncodeAltName::GetName, _certsrv_icertencodealtname_getname, certenc/ICertEncodeAltName::GetName, security.icertencodealtname_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeAltName.GetName
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeAltName::GetName
@@ -69,7 +68,7 @@ To retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671
 
 ### -param pstrName
 
-
+TBD
 
 
 

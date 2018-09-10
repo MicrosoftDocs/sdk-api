@@ -4,17 +4,16 @@ title: IMsmMerge::ExtractCAB
 author: windows-sdk-content
 description: The ExtractCAB method extracts the embedded .cab file from a module and saves it as the specified file.
 old-location: setup\imsmmerge_extractcab.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 3f794dac-6eeb-4c1e-8c23-c9d7384f650f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ExtractCAB, ExtractCAB method, ExtractCAB method,IMsmMerge interface, IMsmMerge interface,ExtractCAB method, IMsmMerge.ExtractCAB, IMsmMerge::ExtractCAB, _msi_extractcab_function, mergemod/IMsmMerge::ExtractCAB, setup.imsmmerge_extractcab
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.ExtractCAB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::ExtractCAB

@@ -4,17 +4,16 @@ title: IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)
 author: windows-sdk-content
 description: Sets the angle to rotate the hue.
 old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionHueRotationEffect.SetAngle
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Sets the angle to rotate the hue.
 
 ### -param animation
 
-
+TBD
 
 
 

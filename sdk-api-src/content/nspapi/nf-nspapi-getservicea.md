@@ -4,17 +4,16 @@ title: GetServiceA function
 author: windows-sdk-content
 description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
 old-location: winsock\getservice_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetServiceW
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetServiceA function

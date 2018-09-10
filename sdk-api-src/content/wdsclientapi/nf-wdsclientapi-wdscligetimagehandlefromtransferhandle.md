@@ -4,17 +4,16 @@ title: WdsCliGetImageHandleFromTransferHandle function
 author: windows-sdk-content
 description: Returns an image handle from a completed transfer handle. The handle is to the local copy of the image that's been transferred from the server to the client.
 old-location: wds\wdscligetimagehandlefromtransferhandle.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliGetImageHandleFromTransferHandle
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliGetImageHandleFromTransferHandle function

@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 author: windows-sdk-content
 description: For stereo 3D video, specifies whether the data in frame 0 or frame 1 is flipped, either horizontally or vertically.
 old-location: mf\d3d11_video_processor_stereo_flip_mode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2BCC3190-BD27-465D-B9D6-346FAD5E01AF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: D3d11.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration

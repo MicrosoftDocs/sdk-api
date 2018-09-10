@@ -4,17 +4,16 @@ title: IWICJpegFrameDecode::GetAcHuffmanTable
 author: windows-sdk-content
 description: Retrieves a copy of the AC Huffman table for the specified scan and table.
 old-location: wic\iwicjpegframedecode_getachuffmantable.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 6063E147-70A4-46F8-940E-42DBD87A500F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICJpegFrameDecode.GetAcHuffmanTable
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICJpegFrameDecode::GetAcHuffmanTable

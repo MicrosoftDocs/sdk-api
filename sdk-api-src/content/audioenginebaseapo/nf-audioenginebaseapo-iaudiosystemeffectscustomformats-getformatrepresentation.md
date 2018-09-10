@@ -4,17 +4,16 @@ title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 author: windows-sdk-content
 description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
 old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: All levels.
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatRepresentation

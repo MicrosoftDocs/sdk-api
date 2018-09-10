@@ -4,7 +4,7 @@ title: "_RTM_ENTITY_METHOD_INPUT"
 author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
 old-location: rras\rtm_entity_method_input.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_ENTITY_METHOD_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
+req.redist: 
 ---
 
 # _RTM_ENTITY_METHOD_INPUT structure

@@ -4,17 +4,16 @@ title: CHString::FormatMessageW(UINT,
 author: windows-sdk-content
 description: The overloaded FormatMessageW method formats a message string.
 old-location: wmi\chstring_formatmessagew.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CHString.FormatMessageW, CHString.FormatMessageW(UINT,, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], CHString::FormatMessageW(UINT,, FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString::FormatMessageW
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::FormatMessageW(UINT,

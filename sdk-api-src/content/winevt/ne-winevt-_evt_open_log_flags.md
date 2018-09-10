@@ -4,7 +4,7 @@ title: "_EVT_OPEN_LOG_FLAGS"
 author: windows-sdk-content
 description: Defines the values that specify whether to open a channel or exported log file.
 old-location: wes\evt_open_log_flags.htm
-old-project: WES
+tech.root: WES
 ms.assetid: c5badaee-4b3b-448a-9a91-df58be1ec884
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_OPEN_LOG_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_OPEN_LOG_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_OPEN_LOG_FLAGS
+req.redist: 
 ---
 
 # _EVT_OPEN_LOG_FLAGS enumeration

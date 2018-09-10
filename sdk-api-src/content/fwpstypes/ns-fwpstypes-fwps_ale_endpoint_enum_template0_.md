@@ -4,7 +4,7 @@ title: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: The FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 structure specifies a template for application layer enforcement (ALE) endpoints to be enumerated.Note  FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 is a specific version of FWPS_ALE_ENDPOINT_ENUM_TEMPLATE.
 old-location: netvista\fwps_ale_endpoint_enum_template0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 7875bf42-4510-4af1-8f24-4b9f1d945100
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
+req.redist: 
 ---
 
 # FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_ structure

@@ -4,7 +4,7 @@ title: tagAPPLETIDLIST
 author: windows-sdk-content
 description: Specifies an IImePadApplet IID list.
 old-location: intl\appletidlist.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPLETIDLIST, *LPAPPLETIDLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APPLETIDLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: APPLETIDLIST, *LPAPPLETIDLIST
+req.redist: 
 ---
 
 # tagAPPLETIDLIST structure

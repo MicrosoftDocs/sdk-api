@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::EndReceiveResponse
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to complete the asynchronous operation started by BeginReceiveResponse.
 old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], EndReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReceiveResponse method, IMFHttpDownloadRequest.EndReceiveResponse, IMFHttpDownloadRequest::EndReceiveResponse, mf.imfhttpdownloadrequest_endreceiveresponse, mfidl/IMFHttpDownloadRequest::EndReceiveResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.EndReceiveResponse
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::EndReceiveResponse

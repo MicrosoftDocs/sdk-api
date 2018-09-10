@@ -4,7 +4,7 @@ title: "_ads_class_def"
 author: windows-sdk-content
 description: The ADS_CLASS_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface. The information that follows is provided for legacy purposes only. The ADS_CLASS_DEF structure holds the definitions of an object class.
 old-location: adsi\ads_class_def.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 8151977a-bd98-439f-91ae-6052970ea47c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_CLASS_DEF, *PADS_CLASS_DEF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_CLASS_DEF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_CLASS_DEF, *PADS_CLASS_DEF
+req.redist: 
 ---
 
 # _ads_class_def structure

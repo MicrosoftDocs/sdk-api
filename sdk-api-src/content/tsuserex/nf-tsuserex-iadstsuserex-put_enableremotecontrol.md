@@ -4,17 +4,16 @@ title: IADsTSUserEx::put_EnableRemoteControl
 author: windows-sdk-content
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.put_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, put_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_EnableRemoteControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::put_EnableRemoteControl

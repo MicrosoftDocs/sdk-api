@@ -4,7 +4,7 @@ title: PFNRASGETBUFFER
 author: windows-sdk-content
 description: The custom-scripting DLL calls RasGetBuffer to allocate memory for sending or receiving data over the port connected to the server.
 old-location: rras\rasgetbuffer.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasGetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PFNRASGETBUFFER callback function

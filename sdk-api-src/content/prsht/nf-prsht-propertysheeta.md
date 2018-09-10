@@ -4,17 +4,16 @@ title: PropertySheetA function
 author: windows-sdk-content
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 old-location: controls\PropertySheet.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PropertySheetW
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropertySheetA function

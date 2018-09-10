@@ -4,7 +4,7 @@ title: IActivateAudioInterfaceAsyncOperation
 author: windows-sdk-content
 description: Represents an asynchronous operation activating a WASAPI interface and provides a method to retrieve the results of the activation.
 old-location: coreaudio\iactivateaudiointerfaceasyncoperation.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 43b25a67-d9a8-4749-a654-c7310039c553
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: Mmdevapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActivateAudioInterfaceAsyncOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmdevapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IActivateAudioInterfaceAsyncOperation interface

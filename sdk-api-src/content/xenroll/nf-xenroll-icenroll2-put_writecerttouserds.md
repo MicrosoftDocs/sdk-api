@@ -4,17 +4,16 @@ title: ICEnroll2::put_WriteCertToUserDS
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\icenroll4_writecerttouserds.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 interface [Security],WriteCertToUserDS property, ICEnroll2.WriteCertToUserDS, ICEnroll2.put_WriteCertToUserDS, ICEnroll2::get_WriteCertToUserDS, ICEnroll2::put_WriteCertToUserDS, ICEnroll3 interface [Security],WriteCertToUserDS property, ICEnroll3.WriteCertToUserDS, ICEnroll3::get_WriteCertToUserDS, ICEnroll3::put_WriteCertToUserDS, ICEnroll4 interface [Security],WriteCertToUserDS property, ICEnroll4.WriteCertToUserDS, ICEnroll4::WriteCertToUserDS, ICEnroll4::get_WriteCertToUserDS, ICEnroll4::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],CEnroll object, WriteCertToUserDS property [Security],ICEnroll2 interface, WriteCertToUserDS property [Security],ICEnroll3 interface, WriteCertToUserDS property [Security],ICEnroll4 interface, put_WriteCertToUserDS, security.icenroll4_writecerttouserds, xenroll/ICEnroll2::WriteCertToUserDS, xenroll/ICEnroll2::get_WriteCertToUserDS, xenroll/ICEnroll2::put_WriteCertToUserDS, xenroll/ICEnroll3::WriteCertToUserDS, xenroll/ICEnroll3::get_WriteCertToUserDS, xenroll/ICEnroll3::put_WriteCertToUserDS, xenroll/ICEnroll4::WriteCertToUserDS, xenroll/ICEnroll4::get_WriteCertToUserDS, xenroll/ICEnroll4::put_WriteCertToUserDS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - CEnroll.WriteCertToUserDS
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll2::put_WriteCertToUserDS

@@ -4,17 +4,16 @@ title: IShellWindows::Revoke
 author: windows-sdk-content
 description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
 old-location: shell\IShellWindows_Revoke.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.Revoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 
@@ -62,7 +61,7 @@ Revokes a Shell window's registration and removes the window from the Shell wind
 
 ### -param lCookie
 
-
+TBD
 
 
 

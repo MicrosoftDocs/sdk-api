@@ -4,17 +4,16 @@ title: IOCSPPropertyCollection::get_ItemByName
 author: windows-sdk-content
 description: Gets the property identified by name in a property set.
 old-location: security\iocsppropertycollection_itembyname_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],ItemByName property, IOCSPPropertyCollection.ItemByName, IOCSPPropertyCollection.get_ItemByName, IOCSPPropertyCollection::ItemByName, IOCSPPropertyCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::ItemByName, certadm/IOCSPPropertyCollection::get_ItemByName, get_ItemByName, security.iocsppropertycollection_itembyname_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPPropertyCollection.get_ItemByName
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPPropertyCollection::get_ItemByName

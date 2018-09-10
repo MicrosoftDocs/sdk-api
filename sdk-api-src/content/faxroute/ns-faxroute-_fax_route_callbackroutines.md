@@ -4,7 +4,7 @@ title: "_FAX_ROUTE_CALLBACKROUTINES"
 author: windows-sdk-content
 description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.
 old-location: fax\_mfax_fax_route_callbackroutines_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxroute.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_ROUTE_CALLBACKROUTINES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.redist: 
 ---
 
 # _FAX_ROUTE_CALLBACKROUTINES structure

@@ -4,7 +4,7 @@ title: "_NSTCITEMSTATE"
 author: windows-sdk-content
 description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControl interface.
 old-location: shell\NSTCITEMSTATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1f3fd526-c044-41ff-9e05-c6d91d386b42
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSTCITEMSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # _NSTCITEMSTATE enumeration

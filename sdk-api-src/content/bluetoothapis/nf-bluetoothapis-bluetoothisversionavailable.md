@@ -4,17 +4,16 @@ title: BluetoothIsVersionAvailable function
 author: windows-sdk-content
 description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.
 old-location: bluetooth\bluetoothisversionavailable.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.cpl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothIsVersionAvailable
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.cpl
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothIsVersionAvailable function

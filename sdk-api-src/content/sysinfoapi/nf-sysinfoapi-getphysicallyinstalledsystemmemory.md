@@ -4,17 +4,16 @@ title: GetPhysicallyInstalledSystemMemory function
 author: windows-sdk-content
 description: Retrieves the amount of RAM that is physically installed on the computer.
 old-location: base\getphysicallyinstalledsystemmemory.htm
-old-project: memory
+tech.root: memory
 ms.assetid: b9ac1174-399d-4962-a00c-6f2e3fb0c573
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetPhysicallyInstalledSystemMemory, GetPhysicallyInstalledSystemMemory function, base.getphysicallyinstalledsystemmemory, sysinfoapi/GetPhysicallyInstalledSystemMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetPhysicallyInstalledSystemMemory
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetPhysicallyInstalledSystemMemory function

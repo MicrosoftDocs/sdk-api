@@ -4,17 +4,16 @@ title: ILockBytes::UnlockRegion
 author: windows-sdk-content
 description: The UnlockRegion method removes the access restriction on a previously locked range of bytes.
 old-location: stg\ilockbytes_unlockregion.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILockBytes.UnlockRegion
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILockBytes::UnlockRegion

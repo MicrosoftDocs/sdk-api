@@ -4,17 +4,16 @@ title: IUserNotification2::SetIconInfo
 author: windows-sdk-content
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification2_SetIconInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9A7B5891-6A0C-4302-89F7-07D985B0F185
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetIconInfo method, IUserNotification2.SetIconInfo, IUserNotification2::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetIconInfo, shell.IUserNotification2_SetIconInfo, shobjidl/IUserNotification2::SetIconInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification2.SetIconInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification2::SetIconInfo

@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorGetAttributes function
 author: windows-sdk-content
 description: Obtains an array of EAP authentication attributes from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetattributes.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 531a95c9-b804-4151-b571-163f870672bb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorGetAttributes, EapMethodAuthenticatorGetAttributes function [EAPHost], eaphost.eapmethodauthenticatorgetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorGetAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorGetAttributes function

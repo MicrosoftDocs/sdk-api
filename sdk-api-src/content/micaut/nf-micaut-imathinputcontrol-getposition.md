@@ -4,17 +4,16 @@ title: IMathInputControl::GetPosition
 author: windows-sdk-content
 description: Retrieves the position and size of the control.
 old-location: tablet\imathinputcontrol_getposition.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPosition method, IMathInputControl.GetPosition, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMathInputControl.GetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMathInputControl::GetPosition

@@ -4,7 +4,7 @@ title: ContextInfo2
 author: windows-sdk-content
 description: Provides additional information about an object's context, supplementing the information that is available through the ContextInfo interface.
 old-location: cos\contextinfo2.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 06954cc5-19a7-4bae-ac30-94dcdc35d15d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ContextInfo2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ContextInfo2 interface

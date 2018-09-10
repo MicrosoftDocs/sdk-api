@@ -4,17 +4,16 @@ title: IAzClientContext3::AccessCheck2
 author: windows-sdk-content
 description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
 old-location: security\iazclientcontext3_accesscheck2_method.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 042d1f51-5eb8-4c32-97f1-bb76546e6624
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AccessCheck2, AccessCheck2 method [Security], AccessCheck2 method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],AccessCheck2 method, IAzClientContext3.AccessCheck2, IAzClientContext3::AccessCheck2, azroles/IAzClientContext3::AccessCheck2, security.iazclientcontext3_accesscheck2_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzClientContext3.AccessCheck2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzClientContext3::AccessCheck2

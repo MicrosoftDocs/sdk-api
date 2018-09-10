@@ -4,17 +4,16 @@ title: CryptCATOpen function
 author: windows-sdk-content
 description: Opens a catalog and returns a context handle to the open catalog.
 old-location: security\cryptcatopen.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, CRYPTCAT_VERSION_2, CryptCATOpen, CryptCATOpen function [Security], mscat/CryptCATOpen, security.cryptcatopen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATOpen
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATOpen function

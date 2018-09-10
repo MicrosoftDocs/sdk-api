@@ -4,17 +4,16 @@ title: IVdsIscsiTarget::QueryAssociatedLuns
 author: windows-sdk-content
 description: Returns a enumeration of the LUNs associated with the target.
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiTarget.QueryAssociatedLuns
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiTarget::QueryAssociatedLuns

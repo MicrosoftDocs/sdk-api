@@ -4,17 +4,16 @@ title: IUICollection::GetItem
 author: windows-sdk-content
 description: Retrieves an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getitem.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetItem method, IUICollection.GetItem, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUICollection.GetItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

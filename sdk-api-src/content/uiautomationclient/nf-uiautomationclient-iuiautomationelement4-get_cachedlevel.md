@@ -4,17 +4,16 @@ title: IUIAutomationElement4::get_CachedLevel
 author: windows-sdk-content
 description: Returns the cached 1-based integer for the level (hierarchy) for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedLevel.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: FDFF6A11-4B96-4C6F-A488-FEC2E4C4C310
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedLevel property, IUIAutomationElement4.CachedLevel, IUIAutomationElement4.get_CachedLevel, IUIAutomationElement4::CachedLevel, IUIAutomationElement4::get_CachedLevel, get_CachedLevel, uiautomationclient/IUIAutomationElement4::CachedLevel, uiautomationclient/IUIAutomationElement4::get_CachedLevel, winauto.uiauto_IUIAutomationElement4_CachedLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement4.get_CachedLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement4::get_CachedLevel

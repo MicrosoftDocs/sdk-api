@@ -4,17 +4,16 @@ title: PrintMessageFromModule function
 author: windows-sdk-content
 description: Displays localized output to the NetShell console.
 old-location: netshell\printmessagefrommodule.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_REQS
+req.lib: Netsh.lib
+req.dll: Netsh.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrintMessageFromModule
 product: Windows
 targetos: Windows
-req.lib: Netsh.lib
-req.dll: Netsh.exe
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # PrintMessageFromModule function

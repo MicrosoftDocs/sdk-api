@@ -4,17 +4,16 @@ title: ITsSbSession::put_State
 author: windows-sdk-content
 description: Retrieves or specifies the session state.
 old-location: termserv\itssbsession_state.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.put_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, put_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_State
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::put_State

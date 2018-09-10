@@ -4,7 +4,7 @@ title: "_MARGINS"
 author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MARGINS, *PMARGINS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MARGINS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: MARGINS, *PMARGINS
+req.redist: 
 ---
 
 # _MARGINS structure

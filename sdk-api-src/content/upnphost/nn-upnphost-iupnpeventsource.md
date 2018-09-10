@@ -4,7 +4,7 @@ title: IUPnPEventSource
 author: windows-sdk-content
 description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.
 old-location: upnp\iupnpeventsource.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: f20dfcaa-b8fe-43c8-b353-067dad4cf2b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPEventSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPEventSource interface

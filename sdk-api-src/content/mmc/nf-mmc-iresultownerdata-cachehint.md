@@ -4,17 +4,16 @@ title: IResultOwnerData::CacheHint
 author: windows-sdk-content
 description: Called when a virtual list is about to request display information for a range of items, allowing the snap-in to collect the information ahead of time in cases where an optimization can be made.
 old-location: mmc\iresultownerdata_cachehint.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8d63e5d7-f342-409a-abea-0305129ba060
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: CacheHint, CacheHint method [MMC], CacheHint method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],CacheHint method, IResultOwnerData.CacheHint, IResultOwnerData::CacheHint, _slate_iresultownerdata_cachehint, mmc.iresultownerdata_cachehint, mmc/IResultOwnerData::CacheHint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultOwnerData.CacheHint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultOwnerData::CacheHint

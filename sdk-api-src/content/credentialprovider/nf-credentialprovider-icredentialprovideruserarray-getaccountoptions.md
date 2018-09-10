@@ -4,17 +4,16 @@ title: ICredentialProviderUserArray::GetAccountOptions
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the &#0034;Other user&#0034; tile for local or Microsoft accounts is shown in the logon or credential UI.
 old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: A274F799-FB0C-40a7-AB9E-9525F6079C9A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAccountOptions, GetAccountOptions method [Windows Shell], GetAccountOptions method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAccountOptions method, ICredentialProviderUserArray.GetAccountOptions, ICredentialProviderUserArray::GetAccountOptions, credentialprovider/ICredentialProviderUserArray::GetAccountOptions, shell.ICredentialProviderUserArray_GetAccountOptions, shell.ICredentialProviderUserArray_GetUserEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: CredentialProvider.lib
+req.dll: Authui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderUserArray.GetAccountOptions
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderUserArray::GetAccountOptions

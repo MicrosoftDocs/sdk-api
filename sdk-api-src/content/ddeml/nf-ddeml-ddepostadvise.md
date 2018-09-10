@@ -4,17 +4,16 @@ title: DdePostAdvise function
 author: windows-sdk-content
 description: Causes the system to send an XTYP_ADVREQ transaction to the calling (server) application's Dynamic Data Exchange (DDE) callback function for each client with an active advise loop on the specified topic and item.
 old-location: dataxchg\ddepostadvise.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddepostadvise.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdePostAdvise, DdePostAdvise function [Data Exchange], _win32_DdePostAdvise, _win32_ddepostadvise_cpp, dataxchg.ddepostadvise, ddeml/DdePostAdvise, winui._win32_ddepostadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdePostAdvise
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdePostAdvise function

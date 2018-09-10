@@ -4,17 +4,16 @@ title: IDTFilterConfig::GetSecureChannelObject
 author: windows-sdk-content
 description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IDTFilterConfig interface, IDTFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IDTFilterConfig.GetSecureChannelObject, IDTFilterConfig::GetSecureChannelObject, IDTFilterConfigGetSecureChannelObject, encdec/IDTFilterConfig::GetSecureChannelObject, mstv.idtfilterconfig_getsecurechannelobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilterConfig.GetSecureChannelObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilterConfig::GetSecureChannelObject

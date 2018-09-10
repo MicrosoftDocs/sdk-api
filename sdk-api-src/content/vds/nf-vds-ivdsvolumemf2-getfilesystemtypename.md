@@ -4,17 +4,16 @@ title: IVdsVolumeMF2::GetFileSystemTypeName
 author: windows-sdk-content
 description: Retrieves the name of the file system on a volume.
 old-location: base\ivdsvolumemf2_getfilesystemtypename.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFileSystemTypeName, GetFileSystemTypeName method, GetFileSystemTypeName method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,GetFileSystemTypeName method, IVdsVolumeMF2.GetFileSystemTypeName, IVdsVolumeMF2::GetFileSystemTypeName, base.ivdsvolumemf2_getfilesystemtypename, vds/IVdsVolumeMF2::GetFileSystemTypeName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF2.GetFileSystemTypeName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF2::GetFileSystemTypeName

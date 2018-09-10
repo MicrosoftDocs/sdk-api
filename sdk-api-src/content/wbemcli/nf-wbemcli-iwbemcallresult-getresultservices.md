@@ -4,17 +4,16 @@ title: IWbemCallResult::GetResultServices
 author: windows-sdk-content
 description: Retrieves the IWbemServices pointer, which results from a semisynchronous call to IWbemServices::OpenNamespace when it becomes available.
 old-location: wmi\iwbemcallresult_getresultservices.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemCallResult.GetResultServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemCallResult::GetResultServices

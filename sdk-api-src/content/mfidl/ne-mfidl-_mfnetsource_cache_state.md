@@ -4,7 +4,7 @@ title: "_MFNETSOURCE_CACHE_STATE"
 author: windows-sdk-content
 description: Defines the status of the cache for a media file or entry.
 old-location: mf\mfnetsource_cache_state.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fc7f2f66-02a3-455a-820b-304a53494ef1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNETSOURCE_CACHE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNETSOURCE_CACHE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNETSOURCE_CACHE_STATE
+req.redist: 
 ---
 
 # _MFNETSOURCE_CACHE_STATE enumeration

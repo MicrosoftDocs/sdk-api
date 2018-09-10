@@ -4,7 +4,7 @@ title: NtmsObjectsTypes
 author: windows-sdk-content
 description: The NtmsObjectsTypes enumeration type specifies the types of RSM objects.
 old-location: fs\ntmsobjectstypes.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 598e7cb1-f463-4252-9bdf-ccb98f36f4da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NtmsObjectsTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NtmsObjectsTypes enumeration

@@ -4,7 +4,7 @@ title: CLUS_RESOURCE_CLASS_INFO
 author: windows-sdk-content
 description: Contains resource class data. It is used as the data member of a CLUSPROP_RESOURCE_CLASS_INFO structure and as the return value of some control code operations.
 old-location: mscs\clus_resource_class_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b8b6c479-2e35-4cc9-b864-d495c3bded25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_RESOURCE_CLASS_INFO, *PCLUS_RESOURCE_CLASS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_RESOURCE_CLASS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_RESOURCE_CLASS_INFO, *PCLUS_RESOURCE_CLASS_INFO
+req.redist: 
 ---
 
 # CLUS_RESOURCE_CLASS_INFO structure

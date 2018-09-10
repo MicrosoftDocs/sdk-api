@@ -4,17 +4,16 @@ title: ITextRangeProvider::CompareEndpoints
 author: windows-sdk-content
 description: Returns a value that specifies whether two text ranges have identical endpoints.
 old-location: winauto\uiauto_ITextRangeProvider_CompareEndpoints.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 88a59d93-f31b-40d5-a8d9-ef114224019b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],CompareEndpoints method, ITextRangeProvider.CompareEndpoints, ITextRangeProvider::CompareEndpoints, uiauto.uiauto_ITextRangeProvider_CompareEndpoints, uiauto_ITextRangeProvider_CompareEndpoints, uiautomationcore/ITextRangeProvider::CompareEndpoints, winauto.uiauto_ITextRangeProvider_CompareEndpoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.CompareEndpoints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::CompareEndpoints
@@ -61,9 +59,9 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param targetRange [in]
@@ -71,6 +69,11 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 Type: <b><a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fda">ITextRangeProvider</a>*</b>
 
 The text range to be compared.
+
+
+### -param arg2
+
+TBD
 
 
 ### -param pRetVal [out, retval]

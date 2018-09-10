@@ -4,17 +4,16 @@ title: RtlUnicodeStringToAnsiString function
 author: windows-sdk-content
 description: Converts the specified Unicode source string into an ANSI string.
 old-location: winprog\rtlunicodestringtoansistring.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtoansistring.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: NtosKrnl.lib
+req.dll: Ntdll.dll; NtosKrnl.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RtlUnicodeStringToAnsiString
 product: Windows
 targetos: Windows
-req.lib: NtosKrnl.lib
-req.dll: Ntdll.dll; NtosKrnl.exe
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlUnicodeStringToAnsiString function

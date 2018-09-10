@@ -4,17 +4,16 @@ title: DrvStretchBlt function
 author: windows-sdk-content
 description: The DrvStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.
 old-location: display\drvstretchblt.htm
-old-project: display
+tech.root: display
 ms.assetid: 3520533d-4e42-4abc-bc10-557c674caa33
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvStretchBlt, DrvStretchBlt function [Display Devices], ddifncs_7df09cb9-b2df-4ec9-a207-0f1cc8f74536.xml, display.drvstretchblt, winddi/DrvStretchBlt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvStretchBlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvStretchBlt function

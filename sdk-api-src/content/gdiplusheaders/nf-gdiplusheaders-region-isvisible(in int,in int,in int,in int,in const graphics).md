@@ -4,17 +4,16 @@ title: Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics)
 author: windows-sdk-content
 description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), Region::IsVisible, Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Region.IsVisible
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics)

@@ -4,17 +4,16 @@ title: IAudioStreamVolume::GetChannelCount
 author: windows-sdk-content
 description: The GetChannelCount method retrieves the number of channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: caaa8233-c995-4ba9-b973-f1b8737e7218
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelCount method, IAudioStreamVolume.GetChannelCount, IAudioStreamVolume::GetChannelCount, IAudioStreamVolumeGetChannelCount, audioclient/IAudioStreamVolume::GetChannelCount, coreaudio.iaudiostreamvolume_getchannelcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioStreamVolume.GetChannelCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioStreamVolume::GetChannelCount

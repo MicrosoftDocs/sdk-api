@@ -4,7 +4,7 @@ title: tagRECT
 author: windows-sdk-content
 description: The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rect.htm
-old-project: display
+tech.root: display
 ms.assetid: a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECT, *PRECT, *NPRECT, *LPRECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: RECT, *PRECT, *NPRECT, *LPRECT
+req.redist: 
 ---
 
 # tagRECT structure

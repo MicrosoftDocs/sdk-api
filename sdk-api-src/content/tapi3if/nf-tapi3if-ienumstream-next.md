@@ -4,17 +4,16 @@ title: IEnumStream::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumstream_next.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 96399092-88fa-4b3c-aede-ee61c7c0320a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Next method, IEnumStream.Next, IEnumStream::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_next, tapi3.ienumstream_next, tapi3if/IEnumStream::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumStream.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStream::Next

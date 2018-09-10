@@ -4,17 +4,16 @@ title: WriteLogRestartArea function
 author: windows-sdk-content
 description: Appends a new client restart area to a log, and optionally advances the base log sequence number (LSN) of the log.
 old-location: fs\writelogrestartarea.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: deb5fd90-e987-4e5b-9740-6ecef8705557
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WriteLogRestartArea
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # WriteLogRestartArea function

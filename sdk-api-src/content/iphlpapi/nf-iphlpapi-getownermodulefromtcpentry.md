@@ -4,17 +4,16 @@ title: GetOwnerModuleFromTcpEntry function
 author: windows-sdk-content
 description: Retrieves data about the module that issued the context bind for a specific IPv4 TCP endpoint in a MIB table row.
 old-location: iphlp\getownermodulefromtcpentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 12162f0a-56c1-4f81-a1f5-3cd5ad975d0d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetOwnerModuleFromTcpEntry, GetOwnerModuleFromTcpEntry function [IP Helper], iphlp.getownermodulefromtcpentry, iphlpapi/GetOwnerModuleFromTcpEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetOwnerModuleFromTcpEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetOwnerModuleFromTcpEntry function

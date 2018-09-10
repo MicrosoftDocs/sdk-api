@@ -4,17 +4,16 @@ title: IWSDiscoveredService::GetMetadataVersion
 author: windows-sdk-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveredService.GetMetadataVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveredService::GetMetadataVersion

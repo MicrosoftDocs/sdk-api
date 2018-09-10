@@ -4,7 +4,7 @@ title: enumALT_BREAKS
 author: windows-sdk-content
 description: Specifiers how to create alternates from a best result string.
 old-location: tablet\alt_breaks.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: bca0466c-4262-41b9-b3bc-cec25df6e654
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ALT_BREAKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ALT_BREAKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: ALT_BREAKS
+req.redist: 
 ---
 
 # enumALT_BREAKS enumeration

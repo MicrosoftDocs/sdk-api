@@ -4,17 +4,16 @@ title: SetProcessPriorityBoost function
 author: windows-sdk-content
 description: Disables or enables the ability of the system to temporarily boost the priority of the threads of the specified process.
 old-location: base\setprocesspriorityboost.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetProcessPriorityBoost
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetProcessPriorityBoost function

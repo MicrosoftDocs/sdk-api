@@ -4,7 +4,7 @@ title: IntServMainHdr
 author: windows-sdk-content
 description: The IntServMainHdr structure is a header for Integrated Services RSVP objects.
 old-location: qos\intservmainhdr.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: b67fdf53-322b-4a70-ae83-63d4365e9b57
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IntServMainHdr
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntServMainHdr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IntServMainHdr
+req.redist: 
 ---
 
 # IntServMainHdr structure

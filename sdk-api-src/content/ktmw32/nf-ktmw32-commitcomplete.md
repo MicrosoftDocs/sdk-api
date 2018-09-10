@@ -4,17 +4,16 @@ title: CommitComplete function
 author: windows-sdk-content
 description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
 old-location: fs\commitcomplete.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: Ktmw32.lib
+req.dll: Ktmw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CommitComplete
 product: Windows
 targetos: Windows
-req.lib: Ktmw32.lib
-req.dll: Ktmw32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CommitComplete function

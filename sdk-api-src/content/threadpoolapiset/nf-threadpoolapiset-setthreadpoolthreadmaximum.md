@@ -4,17 +4,16 @@ title: SetThreadpoolThreadMaximum function
 author: windows-sdk-content
 description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.
 old-location: base\setthreadpoolthreadmaximum.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetThreadpoolThreadMaximum
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadpoolThreadMaximum function

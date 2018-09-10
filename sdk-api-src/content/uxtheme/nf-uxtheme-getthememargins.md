@@ -4,17 +4,16 @@ title: GetThemeMargins function
 author: windows-sdk-content
 description: Retrieves the value of a MARGINS property.
 old-location: controls\GetThemeMargins.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeMargins, GetThemeMargins function [Windows Controls], controls.GetThemeMargins, controls.inet_GetThemeMargins, inet_GetThemeMargins, inet_GetThemeMargins_cpp, uxtheme/GetThemeMargins
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetThemeMargins
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeMargins function

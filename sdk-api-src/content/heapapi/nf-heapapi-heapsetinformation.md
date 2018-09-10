@@ -4,17 +4,16 @@ title: HeapSetInformation function
 author: windows-sdk-content
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapSetInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapSetInformation function

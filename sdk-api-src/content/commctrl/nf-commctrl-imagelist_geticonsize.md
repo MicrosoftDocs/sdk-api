@@ -4,17 +4,16 @@ title: ImageList_GetIconSize function
 author: windows-sdk-content
 description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\ImageList_GetIconSize.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticonsize.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ImageList_GetIconSize, ImageList_GetIconSize function [Windows Controls], _win32_ImageList_GetIconSize, _win32_ImageList_GetIconSize_cpp, commctrl/ImageList_GetIconSize, controls.ImageList_GetIconSize, controls._win32_ImageList_GetIconSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageList_GetIconSize
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ImageList_GetIconSize function

@@ -4,17 +4,16 @@ title: ICertServerExit::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.GetCertificateExtensionFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::GetCertificateExtensionFlags

@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::EnumFiles
 author: windows-sdk-content
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm
-old-project: bits
+tech.root: bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],EnumFiles method, IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.EnumFiles
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::EnumFiles
@@ -63,7 +62,7 @@ Retrieves an
 
 ### -param pEnum
 
-
+TBD
 
 
 

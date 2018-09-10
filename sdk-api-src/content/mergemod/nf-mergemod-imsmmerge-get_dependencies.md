@@ -4,17 +4,16 @@ title: IMsmMerge::get_Dependencies
 author: windows-sdk-content
 description: The get_Dependencies method retrieves the Dependencies property of the Merge object.
 old-location: setup\imsmmerge_get_dependencies.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMsmMerge interface,get_Dependencies method, IMsmMerge.get_Dependencies, IMsmMerge::get_Dependencies, _msi_get_dependencies_function, get_Dependencies, get_Dependencies method, get_Dependencies method,IMsmMerge interface, mergemod/IMsmMerge::get_Dependencies, setup.imsmmerge_get_dependencies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.get_Dependencies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::get_Dependencies

@@ -4,17 +4,16 @@ title: IWbemServices::PutClassAsync
 author: windows-sdk-content
 description: The IWbemServices::PutClassAsync method creates a new class, or updates an existing one.
 old-location: wmi\iwbemservices_putclassasync.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 957f5646-86e7-4632-9012-b1fb281b65fb
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClassAsync method, IWbemServices.PutClassAsync, IWbemServices::PutClassAsync, PutClassAsync, PutClassAsync method [Windows Management Instrumentation], PutClassAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclassasync, wbemcli/IWbemServices::PutClassAsync, wmi.iwbemservices_putclassasync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,10 +54,8 @@ api_name:
  - IWbemServices.PutClassAsync
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemServices::PutClassAsync

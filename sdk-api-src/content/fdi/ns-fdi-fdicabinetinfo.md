@@ -4,7 +4,7 @@ title: FDICABINETINFO
 author: windows-sdk-content
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 old-location: winprog\fdicabinetinfo.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDICABINETINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDICABINETINFO FAR *PFDICABINETINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FDICABINETINFO
+req.redist: 
 ---
 
 # FDICABINETINFO structure

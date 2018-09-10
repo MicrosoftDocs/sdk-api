@@ -4,17 +4,16 @@ title: IWICBitmapLock::GetStride
 author: windows-sdk-content
 description: Provides access to the stride value for the memory.
 old-location: wic\_wic_codec_iwicbitmaplock_getstride.htm
-old-project: wic
+tech.root: wic
 ms.assetid: f4bde79d-29a1-46bf-b7e4-91c39c2f0690
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStride, GetStride method [Windows Imaging Component], GetStride method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetStride method, IWICBitmapLock.GetStride, IWICBitmapLock::GetStride, _wic_codec_iwicbitmaplock_getstride, wic._wic_codec_iwicbitmaplock_getstride, wincodec/IWICBitmapLock::GetStride
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapLock.GetStride
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapLock::GetStride

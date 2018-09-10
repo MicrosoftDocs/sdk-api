@@ -4,7 +4,7 @@ title: DPI_AWARENESS
 author: windows-sdk-content
 description: Identifies the dots per inch (dpi) setting for a thread, process, or window.
 old-location: hidpi\dpi_awareness.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 0E7EB331-7D72-4853-8785-03F30263C323
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DPI_AWARENESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DPI_AWARENESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DPI_AWARENESS
+req.redist: 
 ---
 
 # DPI_AWARENESS enumeration

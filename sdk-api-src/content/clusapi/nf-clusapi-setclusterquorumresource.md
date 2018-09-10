@@ -4,17 +4,16 @@ title: SetClusterQuorumResource function
 author: windows-sdk-content
 description: Establishes a resource as the quorum resource for a cluster.
 old-location: mscs\setclusterquorumresource.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], SetClusterQuorumResource, SetClusterQuorumResource function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, clusapi/SetClusterQuorumResource, mscs.setclusterquorumresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetClusterQuorumResource
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetClusterQuorumResource function

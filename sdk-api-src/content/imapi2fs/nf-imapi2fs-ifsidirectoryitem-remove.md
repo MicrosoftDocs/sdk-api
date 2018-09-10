@@ -4,17 +4,16 @@ title: IFsiDirectoryItem::Remove
 author: windows-sdk-content
 description: Removes the specified item from the file system image.
 old-location: imapi\ifsidirectoryitem_remove.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiDirectoryItem.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiDirectoryItem::Remove

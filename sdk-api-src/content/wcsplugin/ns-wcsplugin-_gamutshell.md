@@ -4,7 +4,7 @@ title: "_GamutShell"
 author: windows-sdk-content
 description: Contains information that defines a gamut shell, which is represented by a list of indexed triangles. The vertex buffer contains the vertices data.
 old-location: wcs\gamutshell.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 1cec9fa3-4395-4047-a866-47c3bae9d875
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GamutShell
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GamutShell
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GamutShell
+req.redist: 
 ---
 
 # _GamutShell structure

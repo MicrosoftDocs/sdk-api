@@ -4,7 +4,7 @@ title: tagCONDITION_TYPE
 author: windows-sdk-content
 description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.
 old-location: search\_search_CONDITION_TYPE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquerycondition.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONDITION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONDITION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CONDITION_TYPE
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # tagCONDITION_TYPE enumeration

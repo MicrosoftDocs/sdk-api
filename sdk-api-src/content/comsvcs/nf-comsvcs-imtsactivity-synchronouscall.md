@@ -4,17 +4,16 @@ title: IMTSActivity::SynchronousCall
 author: windows-sdk-content
 description: Performs the user-defined work synchronously.
 old-location: cos\imtsactivity_synchronouscall.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4f69956b-fdb3-47c4-9a19-e9f39a8d5e06
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMTSActivity interface [COM+],SynchronousCall method, IMTSActivity.SynchronousCall, IMTSActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IMTSActivity interface, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMTSActivity.SynchronousCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMTSActivity::SynchronousCall

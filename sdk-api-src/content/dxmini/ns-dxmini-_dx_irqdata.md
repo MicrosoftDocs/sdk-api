@@ -4,7 +4,7 @@ title: "_DX_IRQDATA"
 author: windows-sdk-content
 description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.
 old-location: display\dx_irqdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DX_IRQDATA, *PDX_IRQDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DX_IRQDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DX_IRQDATA, *PDX_IRQDATA
+req.redist: 
 ---
 
 # _DX_IRQDATA structure

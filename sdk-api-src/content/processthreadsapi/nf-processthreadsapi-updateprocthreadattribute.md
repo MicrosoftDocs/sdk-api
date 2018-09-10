@@ -4,17 +4,16 @@ title: UpdateProcThreadAttribute function
 author: windows-sdk-content
 description: Updates the specified attribute in a list of attributes for process and thread creation.
 old-location: base\updateprocthreadattribute.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - UpdateProcThreadAttribute
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateProcThreadAttribute function

@@ -4,17 +4,16 @@ title: IWbemClassObject::GetPropertyQualifierSet
 author: windows-sdk-content
 description: The IWbemClassObject::GetPropertyQualifierSet method gets the qualifier set for a particular property in the class object. You can use this method with properties that are a member of an instance or a class definition.
 old-location: wmi\iwbemclassobject_getpropertyqualifierset.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 4bfca42e-7688-42e1-afa3-24b7eaaad9fe
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetPropertyQualifierSet, GetPropertyQualifierSet method [Windows Management Instrumentation], GetPropertyQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetPropertyQualifierSet method, IWbemClassObject.GetPropertyQualifierSet, IWbemClassObject::GetPropertyQualifierSet, _hmm_iwbemclassobject_getpropertyqualifierset, wbemcli/IWbemClassObject::GetPropertyQualifierSet, wmi.iwbemclassobject_getpropertyqualifierset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - IWbemClassObject.GetPropertyQualifierSet
 product: Windows
 targetos: Windows
-req.lib: WbemUuid.lib
-req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemClassObject::GetPropertyQualifierSet

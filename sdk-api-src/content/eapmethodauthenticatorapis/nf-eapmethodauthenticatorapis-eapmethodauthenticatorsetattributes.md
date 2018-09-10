@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorSetAttributes function
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to set on the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorsetattributes.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorSetAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorSetAttributes function

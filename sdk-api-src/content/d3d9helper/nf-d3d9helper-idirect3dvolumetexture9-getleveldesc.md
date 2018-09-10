@@ -4,17 +4,16 @@ title: IDirect3DVolumeTexture9::GetLevelDesc
 author: windows-sdk-content
 description: Retrieves a level description of a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9__getleveldesc.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getleveldesc.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 6c5724cb-a5d1-ccdb-bcca-67000d91dacf, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DVolumeTexture9.GetLevelDesc, IDirect3DVolumeTexture9::GetLevelDesc, d3d9helper/IDirect3DVolumeTexture9::GetLevelDesc, direct3d9.idirect3dvolumetexture9__getleveldesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DVolumeTexture9.GetLevelDesc
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DVolumeTexture9::GetLevelDesc

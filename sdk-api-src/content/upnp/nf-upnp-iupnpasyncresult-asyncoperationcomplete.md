@@ -4,17 +4,16 @@ title: IUPnPAsyncResult::AsyncOperationComplete
 author: windows-sdk-content
 description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPAsyncResult.AsyncOperationComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPAsyncResult::AsyncOperationComplete
@@ -62,7 +60,7 @@ The <b>AsyncOperationComplete</b> callback method provides notification of the c
 
 ### -param ullRequestID
 
-
+TBD
 
 
 

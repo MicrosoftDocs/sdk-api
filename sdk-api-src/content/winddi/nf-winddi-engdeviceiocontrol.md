@@ -4,17 +4,16 @@ title: EngDeviceIoControl function
 author: windows-sdk-content
 description: The EngDeviceIoControl function sends a control code to the specified video miniport driver, causing the device to perform the specified operation.
 old-location: display\engdeviceiocontrol.htm
-old-project: display
+tech.root: display
 ms.assetid: a38186b6-4b27-4360-8721-49c95dd94806
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], display.engdeviceiocontrol, gdifncs_735d205a-99e3-4397-a5ac-31312ac734e7.xml, winddi/EngDeviceIoControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngDeviceIoControl
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngDeviceIoControl function

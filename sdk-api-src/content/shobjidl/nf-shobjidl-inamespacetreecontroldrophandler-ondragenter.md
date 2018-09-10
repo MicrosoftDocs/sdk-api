@@ -4,17 +4,16 @@ title: INameSpaceTreeControlDropHandler::OnDragEnter
 author: windows-sdk-content
 description: Called on drag enter to set drag effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragEnter.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b9a87024-d62e-4006-a716-c1461d9c9ffe
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragEnter method, INameSpaceTreeControlDropHandler.OnDragEnter, INameSpaceTreeControlDropHandler::OnDragEnter, OnDragEnter, OnDragEnter method [Windows Shell], OnDragEnter method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragEnter, shell.INameSpaceTreeControlDropHandler_OnDragEnter, shobjidl/INameSpaceTreeControlDropHandler::OnDragEnter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlDropHandler.OnDragEnter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlDropHandler::OnDragEnter

@@ -4,7 +4,7 @@ title: XAUDIO2_DEBUG_CONFIGURATION
 author: windows-sdk-content
 description: Contains the new global debug configuration for XAudio2. Used with the SetDebugConfiguration function.
 old-location: xaudio2\xaudio2_debug_configuration.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_DEBUG_CONFIGURATION
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_DEBUG_CONFIGURATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAUDIO2_DEBUG_CONFIGURATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAUDIO2_DEBUG_CONFIGURATION
+req.redist: 
 ---
 
 # XAUDIO2_DEBUG_CONFIGURATION structure

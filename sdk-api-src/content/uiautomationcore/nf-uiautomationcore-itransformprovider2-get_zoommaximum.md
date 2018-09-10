@@ -4,17 +4,16 @@ title: ITransformProvider2::get_ZoomMaximum
 author: windows-sdk-content
 description: Retrieves the maximum zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoommaximum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 92C36184-ACFB-4120-B0E6-A0E615855567
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomMaximum property, ITransformProvider2.ZoomMaximum, ITransformProvider2.get_ZoomMaximum, ITransformProvider2::ZoomMaximum, ITransformProvider2::get_ZoomMaximum, ZoomMaximum property [Windows Accessibility], ZoomMaximum property [Windows Accessibility],ITransformProvider2 interface, get_ZoomMaximum, uiautomationcore/ITransformProvider2::ZoomMaximum, uiautomationcore/ITransformProvider2::get_ZoomMaximum, winauto.uiauto_itransformprovider2_zoommaximum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITransformProvider2.get_ZoomMaximum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITransformProvider2::get_ZoomMaximum

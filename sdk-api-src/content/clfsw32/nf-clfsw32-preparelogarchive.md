@@ -4,17 +4,16 @@ title: PrepareLogArchive function
 author: windows-sdk-content
 description: Prepares a physical log for archival.
 old-location: fs\preparelogarchive.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PrepareLogArchive
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PrepareLogArchive function

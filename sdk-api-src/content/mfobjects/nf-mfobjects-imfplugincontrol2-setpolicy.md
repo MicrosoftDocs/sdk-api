@@ -4,17 +4,16 @@ title: IMFPluginControl2::SetPolicy
 author: windows-sdk-content
 description: Sets the policy for which media sources and transforms are enumerated.
 old-location: mf\imfplugincontrol2_setpolicy.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1B078EB2-D87E-46A4-B2E1-A850C4E543A8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPluginControl2 interface [Media Foundation],SetPolicy method, IMFPluginControl2.SetPolicy, IMFPluginControl2::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFPluginControl2 interface, mf.imfplugincontrol2_setpolicy, mfobjects/IMFPluginControl2::SetPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPluginControl2.SetPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPluginControl2::SetPolicy

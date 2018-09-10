@@ -4,7 +4,7 @@ title: X509CertificateTemplateSubjectNameFlag
 author: windows-sdk-content
 description: Contains values that specify server and client actions concerning subject names.
 old-location: security\x509certificatetemplatesubjectnameflag.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 0880bb94-d26f-49a7-9749-f8be272fa4f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509CertificateTemplateSubjectNameFlag
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509CertificateTemplateSubjectNameFlag
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509CertificateTemplateSubjectNameFlag
+req.redist: 
 ---
 
 # X509CertificateTemplateSubjectNameFlag enumeration

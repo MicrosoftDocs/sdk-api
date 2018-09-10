@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0014"
 author: windows-sdk-content
 description: The ADS_EMAIL structure is an ADSI representation of the EMail Address attribute syntax.
 old-location: adsi\ads_email.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 72d9ed78-1ae8-456c-9f06-4284446a3234
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_EMAIL, *PADS_EMAIL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_EMAIL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_EMAIL, *PADS_EMAIL
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0014 structure

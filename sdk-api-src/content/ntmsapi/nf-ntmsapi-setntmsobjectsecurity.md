@@ -4,17 +4,16 @@ title: SetNtmsObjectSecurity function
 author: windows-sdk-content
 description: The SetNtmsObjectSecurity function writes the security descriptor for the specified RSM object.
 old-location: fs\setntmsobjectsecurity.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: ea6be316-6188-46a2-b12a-fe8426bc5fac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetNtmsObjectSecurity
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetNtmsObjectSecurity function

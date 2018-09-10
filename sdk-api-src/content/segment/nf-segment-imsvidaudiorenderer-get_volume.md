@@ -4,17 +4,16 @@ title: IMSVidAudioRenderer::get_Volume
 author: windows-sdk-content
 description: The get_Volume method retrieves the audio renderer's volume level.
 old-location: mstv\imsvidaudiorenderer_get_volume.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volume method, IMSVidAudioRenderer.get_Volume, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAudioRenderer.get_Volume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAudioRenderer::get_Volume
@@ -62,7 +60,7 @@ The <b>get_Volume</b> method retrieves the audio renderer's volume level.
 
 ### -param lVol
 
-
+TBD
 
 
 

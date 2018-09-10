@@ -4,7 +4,7 @@ title: "_MIB_TCPTABLE2"
 author: windows-sdk-content
 description: Contains a table of IPv4 TCP connections on the local computer.
 old-location: mib\mib_tcptable2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPTABLE2, *PMIB_TCPTABLE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_TCPTABLE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPTABLE2, *PMIB_TCPTABLE2
+req.redist: 
 ---
 
 # _MIB_TCPTABLE2 structure

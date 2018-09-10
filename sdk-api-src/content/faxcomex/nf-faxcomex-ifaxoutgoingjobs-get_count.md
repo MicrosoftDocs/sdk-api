@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingJobs.get_Count
 title: IFaxOutgoingJobs::get_Count
 author: windows-sdk-content
-description: The Count property represents the number of objects in the FaxOutgoingJobs collection. This is the total number of outgoing jobs for the fax server.
-old-location: fax\_mfax_faxoutgoingjobs_count_vb.htm
-old-project: Fax
+description: The IFaxOutgoingJobs::get_Count property represents the number of objects in the FaxOutgoingJobs collection. This is the total number of outgoing jobs for the fax server.
+old-location: fax\_mfax_faxoutgoingjobs_cpp_mfax_faxoutgoingjobs_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6b5g.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutgoingJobs object, FaxOutgoingJobs object [Fax Service],Count property, FaxOutgoingJobs.Count, IFaxOutgoingJobs.get_Count, IFaxOutgoingJobs::get_Count, _mfax_faxoutgoingjobs.count, fax._mfax_faxoutgoingjobs_count, fax._mfax_faxoutgoingjobs_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutgoingJobs interface, IFaxOutgoingJobs interface [Fax Service],Count property, IFaxOutgoingJobs.Count, IFaxOutgoingJobs.get_Count, IFaxOutgoingJobs::Count, IFaxOutgoingJobs::get_Count, _mfax_faxoutgoingjobs.count, fax._mfax_faxoutgoingjobs_count, fax._mfax_faxoutgoingjobs_cpp_mfax_faxoutgoingjobs_count_cpp, faxcomex/IFaxOutgoingJobs::Count, faxcomex/IFaxOutgoingJobs::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingJobs.Count
+ - IFaxOutgoingJobs.Count
+ - IFaxOutgoingJobs.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingJobs::get_Count
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
+The <b>IFaxOutgoingJobs::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
 
 This property is read-only.
 

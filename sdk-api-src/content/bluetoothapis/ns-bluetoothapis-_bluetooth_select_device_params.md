@@ -4,7 +4,7 @@ title: "_BLUETOOTH_SELECT_DEVICE_PARAMS"
 author: windows-sdk-content
 description: Facilitates and manages the visibility, authentication, and selection of Bluetooth devices and services.
 old-location: bluetooth\bluetooth_select_device_params.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 34ab348b-ce5d-422a-9bec-adbefa4a5ea0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_SELECT_DEVICE_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_SELECT_DEVICE_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_SELECT_DEVICE_PARAMS
+req.redist: 
 ---
 
 # _BLUETOOTH_SELECT_DEVICE_PARAMS structure

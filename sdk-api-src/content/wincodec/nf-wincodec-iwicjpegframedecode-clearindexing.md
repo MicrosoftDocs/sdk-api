@@ -4,17 +4,16 @@ title: IWICJpegFrameDecode::ClearIndexing
 author: windows-sdk-content
 description: Removes the indexing from a JPEG that has been indexed using IWICJpegFrameDecode::SetIndexing.
 old-location: wic\iwicjpegframedecode_clearindexing.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 467E0100-F00B-4D2D-BF2A-8138765C787E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ClearIndexing, ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],ClearIndexing method, IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICJpegFrameDecode.ClearIndexing
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICJpegFrameDecode::ClearIndexing

@@ -4,17 +4,16 @@ title: IMbnConnectionProfile::Delete
 author: windows-sdk-content
 description: Deletes the profile from the system.
 old-location: mbn\imbnconnectionprofile_delete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4de7da76-c873-4a57-a021-17436d1a64a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [Microsoft Broadband Networks], Delete method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],Delete method, IMbnConnectionProfile.Delete, IMbnConnectionProfile::Delete, mbn.imbnconnectionprofile_delete, mbnapi/IMbnConnectionProfile::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfile.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfile::Delete

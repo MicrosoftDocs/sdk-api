@@ -4,7 +4,7 @@ title: "_WS_CUSTOM_LISTENER_CALLBACKS"
 author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom listener.
 old-location: wsw\ws_custom_listener_callbacks.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: b0be530f-5eff-4daa-90be-f9be648dfad7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CUSTOM_LISTENER_CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CUSTOM_LISTENER_CALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CUSTOM_LISTENER_CALLBACKS
+req.redist: 
 ---
 
 # _WS_CUSTOM_LISTENER_CALLBACKS structure

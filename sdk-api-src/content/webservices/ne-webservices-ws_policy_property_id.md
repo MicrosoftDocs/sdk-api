@@ -4,7 +4,7 @@ title: WS_POLICY_PROPERTY_ID
 author: windows-sdk-content
 description: Identifies each policy property and its associated value.
 old-location: wsw\ws_policy_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 503d39c0-7546-429d-b8e3-66e80c76b7c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_POLICY_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_POLICY_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_POLICY_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_POLICY_PROPERTY_ID enumeration

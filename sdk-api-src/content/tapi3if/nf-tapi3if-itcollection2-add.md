@@ -4,17 +4,16 @@ title: ITCollection2::Add
 author: windows-sdk-content
 description: The Add method inserts a new item into the collection at the specified index.
 old-location: tapi3\itcollection2_add.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITCollection2 interface, ITCollection2 interface [TAPI 2.2],Add method, ITCollection2.Add, ITCollection2::Add, _tapi3_itcollection2_add, tapi3.itcollection2_add, tapi3if/ITCollection2::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCollection2.Add
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCollection2::Add

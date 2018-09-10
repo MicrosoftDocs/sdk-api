@@ -4,17 +4,16 @@ title: TSPI_phoneSetVolume function
 author: windows-sdk-content
 description: The TSPI_phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 old-location: tspi\tspi_phonesetvolume.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c9aa2a3a-71ef-4214-b165-00a9620bb7e9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_phoneSetVolume, TSPI_phoneSetVolume function [TAPI 2.2], _tspi_tspi_phonesetvolume, tspi.tspi_phonesetvolume, tspi/TSPI_phoneSetVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_phoneSetVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_phoneSetVolume function

@@ -4,17 +4,16 @@ title: IDeviceRequestCompletionCallback::RequestCompletion
 author: windows-sdk-content
 description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback_requestcompletion.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 5cc7bd36-3b8f-40af-badc-e8fc16d4a4c5
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDeviceRequestCompletionCallback interface [Device Access Broker API],RequestCompletion method, IDeviceRequestCompletionCallback.RequestCompletion, IDeviceRequestCompletionCallback::RequestCompletion, RequestCompletion, RequestCompletion method [Device Access Broker API], RequestCompletion method [Device Access Broker API],IDeviceRequestCompletionCallback interface, deviceaccess.idevicerequestcompletioncallback_requestcompletion, deviceaccess/IDeviceRequestCompletionCallback::RequestCompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceRequestCompletionCallback.RequestCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceRequestCompletionCallback::RequestCompletion

@@ -4,17 +4,16 @@ title: IMDSPObject::Read
 author: windows-sdk-content
 description: The Read method reads data from the object at the current position. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_read.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 1acf4112-0cb8-47e4-b8dc-3e820c0ef72f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Read method, IMDSPObject.Read, IMDSPObject::Read, IMDSPObjectRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Read, wmdm.imdspobject_read
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Read
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Read
@@ -76,7 +74,7 @@ Pointer to a <b>DWORD</b> specifying the number of bytes of data to read. Upon r
 
 ### -param abMac
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ITextStoreACP::GetStatus
 author: windows-sdk-content
 description: The ITextStoreACP::GetStatus method obtains the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreacp_getstatus.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 6ed040ac-8584-4f09-9af8-218b5cd33765
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetStatus method, ITextStoreACP.GetStatus, ITextStoreACP::GetStatus, _tsf_itextstoreacp_getstatus_ref, textstor/ITextStoreACP::GetStatus, tsf.itextstoreacp_getstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetStatus

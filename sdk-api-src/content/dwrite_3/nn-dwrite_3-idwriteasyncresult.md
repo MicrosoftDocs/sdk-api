@@ -4,7 +4,7 @@ title: IDWriteAsyncResult
 author: windows-sdk-content
 description: Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete and to get the result.
 old-location: directwrite\idwriteasyncresult.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 8F267213-EB98-4AD9-826A-7D4E34FEB3E4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteAsyncResult
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteAsyncResult interface

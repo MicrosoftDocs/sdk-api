@@ -4,7 +4,7 @@ title: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 author: windows-sdk-content
 description: Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the ReverbConvertI3DL2ToNative function.
 old-location: xaudio2\xaudio2fx_reverb_i3dl2_parameters.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2fx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAUDIO2FX_REVERB_I3DL2_PARAMETERS
+req.redist: 
 ---
 
 # XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure

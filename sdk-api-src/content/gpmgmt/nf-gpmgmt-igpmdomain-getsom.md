@@ -4,17 +4,16 @@ title: IGPMDomain::GetSOM
 author: windows-sdk-content
 description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.
 old-location: gpmc\igpmdomain_getsom.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC], GetSOM method [GPMC],GPMDomain class, GetSOM method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetSOM method, IGPMDomain.GetSOM, IGPMDomain::GetSOM, _win32_igpmdomain_getsom, gpmc.igpmdomain_getsom, gpmgmt/IGPMDomain::GetSOM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMDomain.GetSOM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain::GetSOM

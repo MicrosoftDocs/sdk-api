@@ -4,7 +4,7 @@ title: RTWQ_WORKQUEUE_TYPE
 author: windows-sdk-content
 description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.
 old-location: base\rtwq_workqueue_type.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTWQ_WORKQUEUE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTWQ_WORKQUEUE_TYPE
+req.redist: 
 ---
 
 # RTWQ_WORKQUEUE_TYPE enumeration

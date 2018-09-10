@@ -4,7 +4,7 @@ title: "_ETW_PROCESS_HANDLE_INFO_TYPE"
 author: windows-sdk-content
 description: Specifies what kind of operation will be done on a handle.
 old-location: etw\etw_process_handle_info_type.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ETW_PROCESS_HANDLE_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ETW_PROCESS_HANDLE_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: ETW_PROCESS_HANDLE_INFO_TYPE
+req.redist: 
 ---
 
 # _ETW_PROCESS_HANDLE_INFO_TYPE enumeration

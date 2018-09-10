@@ -4,17 +4,16 @@ title: IBDA_PinControl::GetPinType
 author: windows-sdk-content
 description: The GetPinType method retrieves the type of the pin.
 old-location: mstv\ibda_pincontrol_getpintype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 97ab3873-be75-48a5-b854-303aec3d7058
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPinType, GetPinType method [Microsoft TV Technologies], GetPinType method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinType method, IBDA_PinControl.GetPinType, IBDA_PinControl::GetPinType, IBDA_PinControlGetPinType, bdaiface/IBDA_PinControl::GetPinType, mstv.ibda_pincontrol_getpintype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_PinControl.GetPinType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_PinControl::GetPinType

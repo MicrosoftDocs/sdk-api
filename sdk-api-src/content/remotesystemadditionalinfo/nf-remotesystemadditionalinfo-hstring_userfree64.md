@@ -4,17 +4,16 @@ title: HSTRING_UserFree64 function
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: winrt\hstring_userfree64.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 11285260-6AF3-4047-92D4-958B1BFA18E7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HSTRING_UserFree64, HSTRING_UserFree64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree64, winrt.hstring_userfree64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_RECORD, *PEVENT_RECORD
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HSTRING_UserFree64
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # HSTRING_UserFree64 function

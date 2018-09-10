@@ -4,17 +4,16 @@ title: IWMDRMMessageParser::ParseRegistrationReqMsg
 author: windows-sdk-content
 description: The ParseRegistrationReqMsg method extracts the device certificate and identifier from a registration message sent by a device.
 old-location: wmformat\iwmdrmmessageparser_parseregistrationreqmsg.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: d2d142bf-0fed-42c8-a2f1-b539a40ac074
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrationReqMsg method, IWMDRMMessageParser.ParseRegistrationReqMsg, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMMessageParser.ParseRegistrationReqMsg
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMMessageParser::ParseRegistrationReqMsg

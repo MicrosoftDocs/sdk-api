@@ -4,17 +4,16 @@ title: IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent
 author: windows-sdk-content
 description: Retrieves the vertical scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 45b45faa-a147-4c05-82ca-878d46c71af0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentVerticalScrollPercent property [Windows Accessibility], CurrentVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalScrollPercent property, IUIAutomationScrollPattern.CurrentVerticalScrollPercent, IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent, IUIAutomationScrollPattern::CurrentVerticalScrollPercent, IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, get_CurrentVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalScrollPercent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationScrollPattern.get_CurrentVerticalScrollPercent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationScrollPattern::get_CurrentVerticalScrollPercent

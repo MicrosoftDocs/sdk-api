@@ -4,7 +4,7 @@ title: "_NCRYPT_KEY_BLOB_HEADER"
 author: windows-sdk-content
 description: Contains a key BLOB.
 old-location: security\ncrypt_key_blob_header.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 387F05A3-C6E2-48EE-8FD0-C0A45E752300
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCRYPT_KEY_BLOB_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER
+req.redist: 
 ---
 
 # _NCRYPT_KEY_BLOB_HEADER structure

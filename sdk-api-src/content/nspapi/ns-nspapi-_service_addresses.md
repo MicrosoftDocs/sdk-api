@@ -4,7 +4,7 @@ title: "_SERVICE_ADDRESSES"
 author: windows-sdk-content
 description: The SERVICE_ADDRESSES structure contains an array of SERVICE_ADDRESS data structures.
 old-location: winsock\service_addresses_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 1ed0c634-4f09-49c1-8fbf-9182d6a4bd51
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_ADDRESSES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
+req.redist: 
 ---
 
 # _SERVICE_ADDRESSES structure

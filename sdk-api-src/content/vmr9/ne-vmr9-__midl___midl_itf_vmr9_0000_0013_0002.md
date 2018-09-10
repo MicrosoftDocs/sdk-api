@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_vmr9_0000_0013_0002"
 author: windows-sdk-content
 description: The VMR9DeinterlaceTech enumeration type describes the algorithm used for deinterlacing a video stream. The flags are not mutually exclusive; drivers can set a combination of flags.
 old-location: dshow\vmr9deinterlacetech.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2b0b56b7-bab3-4184-a453-2da880aa38c9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9DeinterlaceTech
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9DeinterlaceTech
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0013_0002 enumeration

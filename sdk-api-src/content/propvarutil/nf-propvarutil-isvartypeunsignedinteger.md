@@ -4,17 +4,16 @@ title: IsVarTypeUnsignedInteger function
 author: windows-sdk-content
 description: Returns whether a VARTYPE is an unsigned integer.
 old-location: properties\IsVarTypeUnsignedInteger.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e3af20d4-be61-446e-90be-765f1e84178a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsVarTypeUnsignedInteger, IsVarTypeUnsignedInteger function [Windows Properties], _shell_IsVarTypeUnsignedInteger, properties.IsVarTypeUnsignedInteger, propvarutil/IsVarTypeUnsignedInteger, shell.IsVarTypeUnsignedInteger
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsVarTypeUnsignedInteger
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IsVarTypeUnsignedInteger function

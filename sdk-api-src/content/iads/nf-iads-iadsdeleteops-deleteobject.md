@@ -4,17 +4,16 @@ title: IADsDeleteOps::DeleteObject
 author: windows-sdk-content
 description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.
 old-location: adsi\iadsdeleteops_deleteobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI],IADsDeleteOps interface, IADsDeleteOps interface [ADSI],DeleteObject method, IADsDeleteOps.DeleteObject, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsDeleteOps.DeleteObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsDeleteOps::DeleteObject

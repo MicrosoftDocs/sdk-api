@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::PostDeleteItem
 author: windows-sdk-content
 description: Performs caller-implemented actions after the delete process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostDeleteItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6bd69585-3801-4029-9f60-ab1e6fe5108c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostDeleteItem method, IFileOperationProgressSink.PostDeleteItem, IFileOperationProgressSink::PostDeleteItem, PostDeleteItem, PostDeleteItem method [Windows Shell], PostDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostDeleteItem, shell.IFileOperationProgressSink_PostDeleteItem, shobjidl_core/IFileOperationProgressSink::PostDeleteItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.PostDeleteItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::PostDeleteItem

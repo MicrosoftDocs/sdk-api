@@ -4,17 +4,16 @@ title: GridPattern_GetItem function
 author: windows-sdk-content
 description: Gets the node for an item in a grid.
 old-location: winauto\uiauto_GridPattern_GetItemConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 776b704b-479b-4b01-8522-b50500bf1c84
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessibility], uiauto.uiauto_GridPattern_GetItemConPat, uiauto_GridPattern_GetItemConPat, uiautomationcoreapi/GridPattern_GetItem, winauto.uiauto_GridPattern_GetItemConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GridPattern_GetItem
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GridPattern_GetItem function

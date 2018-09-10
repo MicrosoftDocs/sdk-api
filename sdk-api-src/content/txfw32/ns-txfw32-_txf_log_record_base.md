@@ -4,7 +4,7 @@ title: "_TXF_LOG_RECORD_BASE"
 author: windows-sdk-content
 description: Contains the basic record information.
 old-location: fs\txf_log_record_base.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: b891f763-13dd-4b40-aff3-3fccb693d76a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXF_LOG_RECORD_BASE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
+req.redist: 
 ---
 
 # _TXF_LOG_RECORD_BASE structure

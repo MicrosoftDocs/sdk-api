@@ -4,17 +4,16 @@ title: IEventObjectCollection::get_Count
 author: windows-sdk-content
 description: The number of objects in the collection.
 old-location: cos\ieventobjectcollection_count.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: eb4558e3-60bb-4fcb-b998-b812e76bd8d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Count property [COM+], Count property [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Count property, IEventObjectCollection.Count, IEventObjectCollection.get_Count, IEventObjectCollection::Count, IEventObjectCollection::get_Count, cos.ieventobjectcollection_count, eventsys/IEventObjectCollection::Count, eventsys/IEventObjectCollection::get_Count, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEventObjectCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectCollection::get_Count

@@ -4,7 +4,7 @@ title: CLUS_RESSUBCLASS
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared resource.
 old-location: mscs\clus_ressubclass.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_RESSUBCLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUS_RESSUBCLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUS_RESSUBCLASS
+req.redist: 
 ---
 
 # CLUS_RESSUBCLASS enumeration

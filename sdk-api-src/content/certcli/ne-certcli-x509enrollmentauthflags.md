@@ -4,7 +4,7 @@ title: X509EnrollmentAuthFlags
 author: windows-sdk-content
 description: Specifies the authentication type.
 old-location: security\x509enrollmentauthflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CertSrvServerControlW (Unicode)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509EnrollmentAuthFlags
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: X509EnrollmentAuthFlags
+req.redist: 
 ---
 
 # X509EnrollmentAuthFlags enumeration

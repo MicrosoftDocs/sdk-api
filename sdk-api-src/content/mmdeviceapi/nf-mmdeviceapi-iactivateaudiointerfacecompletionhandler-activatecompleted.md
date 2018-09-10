@@ -4,17 +4,16 @@ title: IActivateAudioInterfaceCompletionHandler::ActivateCompleted
 author: windows-sdk-content
 description: Indicates that activation of a WASAPI interface is complete and results are available.
 old-location: coreaudio\iactivateaudiointerfacecompletionhandler_activatecompleted.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f434db12-ab8e-40ca-8a55-b02f28ea5575
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateCompleted, ActivateCompleted method [Core Audio], ActivateCompleted method [Core Audio],IActivateAudioInterfaceCompletionHandler interface, IActivateAudioInterfaceCompletionHandler interface [Core Audio],ActivateCompleted method, IActivateAudioInterfaceCompletionHandler.ActivateCompleted, IActivateAudioInterfaceCompletionHandler::ActivateCompleted, coreaudio.iactivateaudiointerfacecompletionhandler_activatecompleted, mmdeviceapi/IActivateAudioInterfaceCompletionHandler::ActivateCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IActivateAudioInterfaceCompletionHandler::ActivateCompleted

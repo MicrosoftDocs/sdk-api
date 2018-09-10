@@ -4,17 +4,16 @@ title: ITCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method gets an enumerator for the collection.
 old-location: tapi3\itcollection_get__newenum.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4b84298f-f114-4171-a2ad-d14122cb4bc8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCollection interface [TAPI 2.2],get__NewEnum method, ITCollection.get__NewEnum, ITCollection::get__NewEnum, _tapi3_itcollection_get__newenum, get__NewEnum, get__NewEnum method [TAPI 2.2], get__NewEnum method [TAPI 2.2],ITCollection interface, tapi3.itcollection_get__newenum, tapi3if/ITCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCollection::get__NewEnum

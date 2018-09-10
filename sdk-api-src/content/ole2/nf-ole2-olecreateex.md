@@ -4,17 +4,16 @@ title: OleCreateEx function
 author: windows-sdk-content
 description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.
 old-location: com\olecreateex.htm
-old-project: com
+tech.root: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreateEx, OleCreateEx function [COM], _ole_OleCreateEx, com.olecreateex, ole2/OleCreateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateEx function

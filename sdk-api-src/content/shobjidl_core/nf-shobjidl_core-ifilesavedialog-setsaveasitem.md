@@ -4,17 +4,16 @@ title: IFileSaveDialog::SetSaveAsItem
 author: windows-sdk-content
 description: Sets an item to be used as the initial entry in a Save As dialog.
 old-location: shell\IFileSaveDialog_SetSaveAsItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: aa313685-1334-4899-a55a-6549b48e1464
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetSaveAsItem method, IFileSaveDialog.SetSaveAsItem, IFileSaveDialog::SetSaveAsItem, SetSaveAsItem, SetSaveAsItem method [Windows Shell], SetSaveAsItem method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetSaveAsItem, shell_IFileSaveDialog_SetSaveAsItem, shobjidl_core/IFileSaveDialog::SetSaveAsItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSaveDialog.SetSaveAsItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSaveDialog::SetSaveAsItem

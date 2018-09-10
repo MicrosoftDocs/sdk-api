@@ -4,7 +4,7 @@ title: "_CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
 author: windows-sdk-content
 description: Contains optional extra information that can be passed to the CryptGetTimeValidObject function in the pExtraInfo parameter.
 old-location: security\crypt_get_time_valid_object_extra_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 3de595f9-c922-4c8f-8328-819e91a2997c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+req.redist: 
 ---
 
 # _CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure

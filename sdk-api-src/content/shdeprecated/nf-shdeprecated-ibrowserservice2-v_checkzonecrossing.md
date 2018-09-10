@@ -4,17 +4,16 @@ title: IBrowserService2::v_CheckZoneCrossing
 author: windows-sdk-content
 description: Deprecated. Called by the base class to validate a zone crossing when navigating from one page to another.
 old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_CheckZoneCrossing method, IBrowserService2.v_CheckZoneCrossing, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_CheckZoneCrossing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.v_CheckZoneCrossing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

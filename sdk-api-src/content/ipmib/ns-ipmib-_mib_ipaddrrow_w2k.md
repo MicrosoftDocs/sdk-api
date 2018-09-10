@@ -4,7 +4,7 @@ title: "_MIB_IPADDRROW_W2K"
 author: windows-sdk-content
 description: Specifies information for a particular IPv4 address in the MIB_IPADDRTABLE structure.
 old-location: mib\mib_ipaddrrow.htm
-old-project: mib
+tech.root: mib
 ms.assetid: ed1777bd-4c02-43e0-9bbb-6bb02702e1a4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPADDRROW_W2K, *PMIB_IPADDRROW_W2K
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_IPADDRROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IPADDRROW_W2K, *PMIB_IPADDRROW_W2K
+req.redist: 
 ---
 
 # _MIB_IPADDRROW_W2K structure

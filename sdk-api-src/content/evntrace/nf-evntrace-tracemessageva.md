@@ -4,17 +4,16 @@ title: TraceMessageVa function
 author: windows-sdk-content
 description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
 old-location: etw\tracemessageva.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PVOID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessageVa, TraceMessageVa function [ETW], _evt_tracemessageva, base.tracemessageva, etw.tracemessageva, evntrace/TraceMessageVa, size_t
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - TraceMessageVa
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceMessageVa function

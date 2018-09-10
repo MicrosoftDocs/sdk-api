@@ -4,7 +4,7 @@ title: "_MAP_FLAGS"
 author: windows-sdk-content
 description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 old-location: etw\map_flags_enum.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAP_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAP_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MAP_FLAGS
+req.redist: 
 ---
 
 # _MAP_FLAGS enumeration

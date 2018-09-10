@@ -4,17 +4,16 @@ title: IVdsHwProviderPrivate::QueryIfCreatedLun
 author: windows-sdk-content
 description: Enables VDS to determine whether the hardware provider manages the specified LUN.
 old-location: base\ivdshwproviderprivate_queryifcreatedlun.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 06ba3486-9381-4898-b639-3d94b83be857
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVdsHwProviderPrivate.QueryIfCreatedLun, IVdsHwProviderPrivate::QueryIfCreatedLun, QueryIfCreatedLun, QueryIfCreatedLun method [VDS], QueryIfCreatedLun method [VDS],IVdsHwProviderPrivate interface, base.ivdshwproviderprivate_queryifcreatedlun, vdshwprv/IVdsHwProviderPrivate::QueryIfCreatedLun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProviderPrivate.QueryIfCreatedLun
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProviderPrivate::QueryIfCreatedLun

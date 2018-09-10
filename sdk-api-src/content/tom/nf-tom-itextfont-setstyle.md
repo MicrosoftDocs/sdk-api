@@ -4,17 +4,16 @@ title: ITextFont::SetStyle
 author: windows-sdk-content
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetStyle

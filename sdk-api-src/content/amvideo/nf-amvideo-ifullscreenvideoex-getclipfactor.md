@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::GetClipFactor
 author: windows-sdk-content
 description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
 old-location: dshow\ifullscreenvideoex_getclipfactor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.GetClipFactor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::GetClipFactor

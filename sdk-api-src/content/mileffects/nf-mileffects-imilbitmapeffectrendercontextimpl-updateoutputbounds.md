@@ -4,17 +4,16 @@ title: IMILBitmapEffectRenderContextImpl::UpdateOutputBounds
 author: windows-sdk-content
 description: Updates the output bounds with the given region.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updateoutputbounds.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateOutputBounds method, IMILBitmapEffectRenderContextImpl.UpdateOutputBounds, IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, UpdateOutputBounds, UpdateOutputBounds method [WPF Bitmap Effects], UpdateOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: Mileffects.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectRenderContextImpl.UpdateOutputBounds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mileffects.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectRenderContextImpl::UpdateOutputBounds

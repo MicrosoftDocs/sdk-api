@@ -4,7 +4,7 @@ title: tagGUIDKIND
 author: windows-sdk-content
 description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.
 old-location: com\guidkind.htm
-old-project: com
+tech.root: com
 ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GUIDKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GUIDKIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GUIDKIND
+req.redist: 
 ---
 
 # tagGUIDKIND enumeration

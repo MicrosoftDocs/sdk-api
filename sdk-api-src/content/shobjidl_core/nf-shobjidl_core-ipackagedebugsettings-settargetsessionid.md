@@ -4,17 +4,16 @@ title: IPackageDebugSettings::SetTargetSessionId
 author: windows-sdk-content
 description: Sets the session identifier.
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.SetTargetSessionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::SetTargetSessionId

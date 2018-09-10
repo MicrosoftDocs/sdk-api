@@ -4,7 +4,7 @@ title: "_USB_BUS_STATISTICS_0"
 author: windows-sdk-content
 description: The USB_BUS_STATISTICS_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve bus statistics.
 old-location: buses\usb_bus_statistics_0.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d9673718-c39c-4f26-8d59-553366b8bd0a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_BUS_STATISTICS_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
+req.redist: 
 ---
 
 # _USB_BUS_STATISTICS_0 structure

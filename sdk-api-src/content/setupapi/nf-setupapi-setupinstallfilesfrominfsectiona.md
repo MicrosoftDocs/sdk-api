@@ -4,17 +4,16 @@ title: SetupInstallFilesFromInfSectionA function
 author: windows-sdk-content
 description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section.
 old-location: setup\setupinstallfilesfrominfsection.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupInstallFilesFromInfSection, SetupInstallFilesFromInfSection function [Setup API], SetupInstallFilesFromInfSectionA, SetupInstallFilesFromInfSectionW, _setupapi_setupinstallfilesfrominfsection, setup.setupinstallfilesfrominfsection, setupapi/SetupInstallFilesFromInfSection, setupapi/SetupInstallFilesFromInfSectionA, setupapi/SetupInstallFilesFromInfSectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupInstallFilesFromInfSectionW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupInstallFilesFromInfSectionA function

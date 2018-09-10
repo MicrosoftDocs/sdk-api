@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory::CreateImageResource
 author: windows-sdk-content
 description: Creates an IXpsOMImageResource interface, which is used to access an image resource stream.
 old-location: xps\ixpsomobjectfactory_createimageresource.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageResource method, IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMObjectFactory.CreateImageResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory::CreateImageResource

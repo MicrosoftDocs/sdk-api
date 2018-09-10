@@ -4,17 +4,16 @@ title: ICrmLogControl::WriteLogRecord
 author: windows-sdk-content
 description: The CRM Worker and CRM Compensator use this method to write unstructured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecord.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b2cbd9dc-5451-4aae-b2ce-28b2b93fd465
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecord method, ICrmLogControl.WriteLogRecord, ICrmLogControl::WriteLogRecord, WriteLogRecord, WriteLogRecord method [COM+], WriteLogRecord method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecord, comsvcs/ICrmLogControl::WriteLogRecord, cos.icrmlogcontrol_writelogrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.WriteLogRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::WriteLogRecord

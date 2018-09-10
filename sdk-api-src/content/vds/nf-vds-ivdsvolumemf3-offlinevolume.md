@@ -4,17 +4,16 @@ title: IVdsVolumeMF3::OfflineVolume
 author: windows-sdk-content
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 old-location: base\ivdsvolumemf3_offlinevolume.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF3.OfflineVolume
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF3::OfflineVolume

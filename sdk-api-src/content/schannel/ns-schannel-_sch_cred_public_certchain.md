@@ -4,7 +4,7 @@ title: "_SCH_CRED_PUBLIC_CERTCHAIN"
 author: windows-sdk-content
 description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
 old-location: security\sch_cred_public_certchain.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b6019f43-df94-4d30-9acf-a94772901e6e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCH_CRED_PUBLIC_CERTCHAIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
+req.redist: 
 ---
 
 # _SCH_CRED_PUBLIC_CERTCHAIN structure

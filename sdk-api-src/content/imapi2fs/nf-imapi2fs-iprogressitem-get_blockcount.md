@@ -4,17 +4,16 @@ title: IProgressItem::get_BlockCount
 author: windows-sdk-content
 description: Retrieves the number of blocks in the progress item.
 old-location: imapi\iprogressitem_get_blockcount.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6960fecb-f202-4a10-9abb-fc945217a314
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressItem.get_BlockCount, IProgressItem::get_BlockCount, get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressItem.get_BlockCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressItem::get_BlockCount

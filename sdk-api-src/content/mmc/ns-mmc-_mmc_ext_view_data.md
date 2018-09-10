@@ -4,7 +4,7 @@ title: "_MMC_EXT_VIEW_DATA"
 author: windows-sdk-content
 description: The MMC_EXT_VIEW_DATA structure is introduced in MMC 2.0.
 old-location: mmc\mmc_ext_view_data.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8396e786-a0ea-4ff8-b899-a23e6552aa92
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_EXT_VIEW_DATA, *PMMC_EXT_VIEW_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_EXT_VIEW_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_EXT_VIEW_DATA, *PMMC_EXT_VIEW_DATA
+req.redist: 
 ---
 
 # _MMC_EXT_VIEW_DATA structure

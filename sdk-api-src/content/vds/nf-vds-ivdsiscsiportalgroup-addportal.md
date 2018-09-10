@@ -4,17 +4,16 @@ title: IVdsIscsiPortalGroup::AddPortal
 author: windows-sdk-content
 description: Adds a portal to a portal group.
 old-location: base\ivdsiscsiportalgroup_addportal.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortalGroup.AddPortal
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortalGroup::AddPortal

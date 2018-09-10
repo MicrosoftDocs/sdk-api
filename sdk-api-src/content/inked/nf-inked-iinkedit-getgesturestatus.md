@@ -4,17 +4,16 @@ title: IInkEdit::GetGestureStatus
 author: windows-sdk-content
 description: Indicates whether the InkEdit control is interested in a particular application gesture.
 old-location: tablet\inkedit_getgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkEdit.GetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::GetGestureStatus

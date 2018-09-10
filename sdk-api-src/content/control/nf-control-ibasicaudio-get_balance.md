@@ -4,17 +4,16 @@ title: IBasicAudio::get_Balance
 author: windows-sdk-content
 description: The get_Balance method retrieves the balance for the audio signal.
 old-location: dshow\ibasicaudio_get_balance.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicAudio.get_Balance
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicAudio::get_Balance

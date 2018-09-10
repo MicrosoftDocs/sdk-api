@@ -4,17 +4,16 @@ title: WinHttpGetProxyForUrl function
 author: windows-sdk-content
 description: Retrieves the proxy data for the specified URL.
 old-location: http\winhttpgetproxyforurl.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpGetProxyForUrl
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpGetProxyForUrl function

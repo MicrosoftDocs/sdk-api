@@ -4,17 +4,16 @@ title: WriteTapemark function
 author: windows-sdk-content
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
 old-location: backup\writetapemark.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WriteTapemark
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WriteTapemark function

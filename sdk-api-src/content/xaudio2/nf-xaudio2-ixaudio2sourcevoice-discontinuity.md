@@ -4,17 +4,16 @@ title: IXAudio2SourceVoice::Discontinuity
 author: windows-sdk-content
 description: Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_discontinuity_.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Discontinuity
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Discontinuity, Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Discontinuity method, IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2SourceVoice.Discontinuity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2SourceVoice::Discontinuity

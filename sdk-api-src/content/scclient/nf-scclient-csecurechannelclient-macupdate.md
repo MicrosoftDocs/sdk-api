@@ -4,17 +4,16 @@ title: CSecureChannelClient::MACUpdate
 author: windows-sdk-content
 description: The MACUpdate method adds a value to a message authentication code (MAC).
 old-location: wmdm\csecurechannelclient_macupdate.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.MACUpdate
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::MACUpdate

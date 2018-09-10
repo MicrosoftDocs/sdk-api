@@ -4,17 +4,16 @@ title: IInkEdit::put_SelItalic
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).
 old-location: tablet\inkedit_selitalic.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ea6f6495-d740-4aad-8310-7ce43f36cd93
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelItalic property, IInkEdit.SelItalic, IInkEdit.put_SelItalic, IInkEdit::SelItalic, IInkEdit::get_SelItalic, IInkEdit::put_SelItalic, InkEdit.get_SelItalic, InkEdit.put_SelItalic, SelItalic property [Tablet PC], SelItalic property [Tablet PC],IInkEdit interface, get_SelItalic, inked/IInkEdit::SelItalic, inked/IInkEdit::get_SelItalic, inked/IInkEdit::put_SelItalic, put_SelItalic, tablet.inkedit_selitalic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_SelItalic
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_SelItalic

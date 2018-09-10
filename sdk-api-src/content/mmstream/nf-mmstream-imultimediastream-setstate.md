@@ -4,17 +4,16 @@ title: IMultiMediaStream::SetState
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.
 old-location: dshow\imultimediastream_setstate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiMediaStream.SetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiMediaStream::SetState

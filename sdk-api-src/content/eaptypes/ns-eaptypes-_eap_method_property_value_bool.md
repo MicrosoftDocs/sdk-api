@@ -4,7 +4,7 @@ title: "_EAP_METHOD_PROPERTY_VALUE_BOOL"
 author: windows-sdk-content
 description: Contains a Boolean value of an EAP method property.
 old-location: eaphost\eap_method_property_value_bool.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_PROPERTY_VALUE_BOOL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_PROPERTY_VALUE_BOOL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_PROPERTY_VALUE_BOOL
+req.redist: 
 ---
 
 # _EAP_METHOD_PROPERTY_VALUE_BOOL structure

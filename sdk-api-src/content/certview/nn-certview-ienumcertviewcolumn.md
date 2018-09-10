@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN
 author: windows-sdk-content
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 old-location: security\ienumcertviewcolumn.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN interface

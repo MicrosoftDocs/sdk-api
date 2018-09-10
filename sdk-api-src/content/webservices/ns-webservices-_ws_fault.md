@@ -4,7 +4,7 @@ title: "_WS_FAULT"
 author: windows-sdk-content
 description: A Fault is a value carried in the body of a message which conveys a processing failure. Faults are modeled using the WS_FAULT structure.
 old-location: wsw\ws_fault.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FAULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FAULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FAULT
+req.redist: 
 ---
 
 # _WS_FAULT structure

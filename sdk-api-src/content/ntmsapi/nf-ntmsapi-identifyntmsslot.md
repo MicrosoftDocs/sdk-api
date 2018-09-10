@@ -4,17 +4,16 @@ title: IdentifyNtmsSlot function
 author: windows-sdk-content
 description: The IdentifyNtmsSlot function identifies the media in the specified slot in a library. The command returns when the identification is complete.
 old-location: fs\identifyntmsslot.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IdentifyNtmsSlot
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IdentifyNtmsSlot function

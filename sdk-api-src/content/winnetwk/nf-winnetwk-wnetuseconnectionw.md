@@ -4,17 +4,16 @@ title: WNetUseConnectionW function
 author: windows-sdk-content
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
 old-location: wnet\wnetuseconnection.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_LOCALDRIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetUseConnection, WNetUseConnection function [Windows Networking (WNet)], WNetUseConnectionA, WNetUseConnectionW, _win32_wnetuseconnection, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetUseConnection, winnetwk/WNetUseConnectionA, winnetwk/WNetUseConnectionW, wnet.wnetuseconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetUseConnectionW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetUseConnectionW function

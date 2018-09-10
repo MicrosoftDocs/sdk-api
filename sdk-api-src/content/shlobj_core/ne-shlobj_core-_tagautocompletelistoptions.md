@@ -4,7 +4,7 @@ title: "_tagAUTOCOMPLETELISTOPTIONS"
 author: windows-sdk-content
 description: Specifies which objects are enumerated for autocompletion lists.
 old-location: shell\AUTOCOMPLETELISTOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9bcd031c-afcd-4e3d-97d0-fb2095f9d0fc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTOCOMPLETELISTOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AUTOCOMPLETELISTOPTIONS
+req.redist: 
 ---
 
 # _tagAUTOCOMPLETELISTOPTIONS enumeration

@@ -4,7 +4,7 @@ title: "_WS_XML_READER_ENCODING"
 author: windows-sdk-content
 description: This structure is the base type for all the different kinds of reader encodings.
 old-location: wsw\ws_xml_reader_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 54d9683e-c2d1-4e18-92a2-a68558999e28
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_ENCODING
+req.redist: 
 ---
 
 # _WS_XML_READER_ENCODING structure

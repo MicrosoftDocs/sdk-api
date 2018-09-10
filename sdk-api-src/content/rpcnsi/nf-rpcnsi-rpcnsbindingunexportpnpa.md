@@ -4,17 +4,16 @@ title: RpcNsBindingUnexportPnPA function
 author: windows-sdk-content
 description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexportpnp.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsBindingUnexportPnPW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingUnexportPnPA function

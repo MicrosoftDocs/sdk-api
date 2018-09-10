@@ -4,17 +4,16 @@ title: IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface
 author: windows-sdk-content
 description: The SetXlcModeDDObjAndPrimarySurface method informs the VMR of the DirectDraw object and primary surface that were created by the application.
 old-location: dshow\ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3af69975-fe3c-45e6-b1f5-ce2dbda9a4dc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRImagePresenterExclModeConfig interface [DirectShow],SetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface, SetXlcModeDDObjAndPrimarySurface method [DirectShow], SetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, dshow.ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface

@@ -4,17 +4,16 @@ title: IMediaObjectImpl::CheckTypesSet
 author: windows-sdk-content
 description: The CheckTypesSet method determines whether the media type has been set on all of the streams.
 old-location: dshow\imediaobjectimpl_checktypesset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4dfbd638-00d6-410b-bf81-e343d7ca75d5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CheckTypesSet, CheckTypesSet method [DirectShow], CheckTypesSet method [DirectShow],IMediaObjectImpl interface, IMediaObjectImpl interface [DirectShow],CheckTypesSet method, IMediaObjectImpl.CheckTypesSet, IMediaObjectImpl::CheckTypesSet, IMediaObjectImplCheckTypesSet, dmoimpl/IMediaObjectImpl::CheckTypesSet, dshow.imediaobjectimpl_checktypesset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib; Msdmo.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMediaObjectImpl.CheckTypesSet
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib; Msdmo.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectImpl::CheckTypesSet

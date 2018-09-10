@@ -4,17 +4,16 @@ title: IDCompositionDevice3::CreateBlendEffect
 author: windows-sdk-content
 description: Creates an instance of IDCompositionBlendEffect.
 old-location: directcomp\idcompositiondevice3_createblendeffect.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 20E05261-E5B6-4F48-B595-F2AD8B96AB2E
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateBlendEffect, CreateBlendEffect method [DirectComposition], CreateBlendEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBlendEffect method, IDCompositionDevice3.CreateBlendEffect, IDCompositionDevice3::CreateBlendEffect, dcomp/IDCompositionDevice3::CreateBlendEffect, directcomp.idcompositiondevice3_createblendeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice3.CreateBlendEffect
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice3::CreateBlendEffect

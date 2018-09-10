@@ -4,7 +4,7 @@ title: "_FILE_ID_BOTH_DIR_INFO"
 author: windows-sdk-content
 description: Contains information about files in the specified directory.
 old-location: fs\file_id_both_dir_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d7011ea4-e70a-4c03-a715-6144ce0c7029
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ID_BOTH_DIR_INFO, *PFILE_ID_BOTH_DIR_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_ID_BOTH_DIR_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_ID_BOTH_DIR_INFO, *PFILE_ID_BOTH_DIR_INFO
+req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 ---
 
 # _FILE_ID_BOTH_DIR_INFO structure

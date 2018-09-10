@@ -4,7 +4,7 @@ title: "_tagCOMPONENT"
 author: windows-sdk-content
 description: Used by Windows 2000 to hold information about a component. This structure replaces the IE4COMPONENT structure.
 old-location: shell\COMPONENT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2692a2d6-1d33-410f-987c-8388c636cae6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPONENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPONENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: COMPONENT
+req.redist: 
 ---
 
 # _tagCOMPONENT structure

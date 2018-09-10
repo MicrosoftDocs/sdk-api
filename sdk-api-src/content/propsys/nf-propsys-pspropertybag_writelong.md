@@ -4,17 +4,16 @@ title: PSPropertyBag_WriteLONG function
 author: windows-sdk-content
 description: Sets the LONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteLONG.htm
-old-project: properties
+tech.root: properties
 ms.assetid: A623D097-FEF8-4864-A80A-C6EF824EC245
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_WriteLONG, PSPropertyBag_WriteLONG function [Windows Properties], properties.PSPropertyBag_WriteLONG, propsys/PSPropertyBag_WriteLONG, shell.PSPropertyBag_WriteLONG, shell_PSPropertyBag_WriteLONG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_WriteLONG
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_WriteLONG function

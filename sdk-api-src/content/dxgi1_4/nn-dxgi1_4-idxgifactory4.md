@@ -4,7 +4,7 @@ title: IDXGIFactory4
 author: windows-sdk-content
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory4.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory4
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory4 interface

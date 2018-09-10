@@ -4,17 +4,16 @@ title: RtlEncryptMemory function
 author: windows-sdk-content
 description: Encrypts memory contents.
 old-location: security\rtlencryptmemory.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: 
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlEncryptMemory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtlEncryptMemory function

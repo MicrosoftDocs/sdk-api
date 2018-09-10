@@ -4,17 +4,16 @@ title: IBandHost::DestroyBand
 author: windows-sdk-content
 description: Destroys a specified band.
 old-location: shell\IBandHost_DestroyBand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandHost.DestroyBand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IBandHost::DestroyBand

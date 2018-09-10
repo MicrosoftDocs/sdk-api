@@ -4,17 +4,16 @@ title: INetFwProduct::put_DisplayName
 author: windows-sdk-content
 description: Indicates the display name for a third-party firewall product registration.
 old-location: ics\inetfwproduct_displayname.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.put_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName, put_DisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwProduct.put_DisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwProduct::put_DisplayName

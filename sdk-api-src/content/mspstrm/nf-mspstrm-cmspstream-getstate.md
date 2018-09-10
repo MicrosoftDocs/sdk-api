@@ -4,17 +4,16 @@ title: CMSPStream::GetState
 author: windows-sdk-content
 description: The GetState method is called by the MSPCall object. It returns the current status of the stream. The default implementation returns E_NOTIMPL.
 old-location: tapi3\cmspstream_getstate.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 03fc3801-8bd4-432a-b0ca-f6506bd8c788
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],GetState method, CMSPStream.GetState, CMSPStream::GetState, GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspstrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPStream.GetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPStream::GetState

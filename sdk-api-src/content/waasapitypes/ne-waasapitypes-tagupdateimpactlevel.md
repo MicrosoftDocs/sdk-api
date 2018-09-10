@@ -4,7 +4,7 @@ title: tagUpdateImpactLevel
 author: windows-sdk-content
 description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 old-location: base\updateimpactlevel.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: waasapitypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateImpactLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UpdateImpactLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: UpdateImpactLevel
+req.redist: 
 ---
 
 # tagUpdateImpactLevel enumeration

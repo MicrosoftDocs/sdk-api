@@ -4,17 +4,16 @@ title: MAKEDLLVERULL macro
 author: windows-sdk-content
 description: Used to pack DLL version information into a ULONGLONG value.
 old-location: shell\MAKEDLLVERULL.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAKEDLLVERULL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # MAKEDLLVERULL macro

@@ -4,7 +4,7 @@ title: "_CERT_ALT_NAME_INFO"
 author: windows-sdk-content
 description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).
 old-location: security\cert_alt_name_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f9a20827-3333-4ce2-b074-2e8ce903fad2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_ALT_NAME_INFO, *PCERT_ALT_NAME_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_ALT_NAME_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_ALT_NAME_INFO, *PCERT_ALT_NAME_INFO
+req.redist: 
 ---
 
 # _CERT_ALT_NAME_INFO structure

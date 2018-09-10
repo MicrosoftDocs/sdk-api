@@ -4,17 +4,16 @@ title: GetComputerObjectNameW function
 author: windows-sdk-content
 description: Retrieves the local computer's name in a specified format.
 old-location: base\getcomputerobjectname.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetComputerObjectName, GetComputerObjectName function, GetComputerObjectNameA, GetComputerObjectNameW, _win32_getcomputerobjectname, base.getcomputerobjectname, secext/GetComputerObjectName, secext/GetComputerObjectNameA, secext/GetComputerObjectNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetComputerObjectNameW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetComputerObjectNameW function

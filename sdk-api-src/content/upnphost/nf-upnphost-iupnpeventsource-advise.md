@@ -4,17 +4,16 @@ title: IUPnPEventSource::Advise
 author: windows-sdk-content
 description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
 old-location: upnp\iupnpeventsource_advise.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPEventSource.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPEventSource::Advise
@@ -64,7 +62,7 @@ The
 
 ### -param pesSubscriber
 
-
+TBD
 
 
 

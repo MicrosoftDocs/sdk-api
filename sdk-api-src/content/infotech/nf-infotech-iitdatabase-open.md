@@ -4,17 +4,16 @@ title: IITDatabase::Open
 author: windows-sdk-content
 description: Opens a database.
 old-location: htmlhelp\iitdatabase_open.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseopen.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IITDatabase interface [HTML Help Workshop],Open method, IITDatabase.Open, IITDatabase::Open, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITDatabase interface, htmlhelp.iitdatabase_open, infotech/IITDatabase::Open, refIITDatabaseOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITDatabase.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITDatabase::Open

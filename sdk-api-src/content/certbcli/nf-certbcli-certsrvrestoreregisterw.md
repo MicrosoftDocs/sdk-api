@@ -4,17 +4,16 @@ title: CertSrvRestoreRegisterW function
 author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregister.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CertSrvRestoreRegisterW
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvRestoreRegisterW function

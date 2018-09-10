@@ -4,7 +4,7 @@ title: MFVP_MESSAGE_TYPE
 author: windows-sdk-content
 description: Defines messages for an enhanced video renderer (EVR) presenter.
 old-location: mf\mfvp_message_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 71b92702-79a0-4c18-bb56-5e7c9e49cad2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVP_MESSAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVP_MESSAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MFVP_MESSAGE_TYPE
+req.redist: 
 ---
 
 # MFVP_MESSAGE_TYPE enumeration

@@ -4,17 +4,16 @@ title: IOleUIObjInfoA::ConvertObject
 author: windows-sdk-content
 description: Converts the object to the type of the specified CLSID.
 old-location: com\ioleuiobjinfo_convertobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 44611ed3-35de-4b20-adae-d3a28aa11944
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConvertObject, ConvertObject method [COM], ConvertObject method [COM],IOleUIObjInfo interface, ConvertObject method [COM],IOleUIObjInfoA interface, ConvertObject method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],ConvertObject method, IOleUIObjInfo::ConvertObject, IOleUIObjInfoA interface [COM],ConvertObject method, IOleUIObjInfoA.ConvertObject, IOleUIObjInfoA::ConvertObject, IOleUIObjInfoW interface [COM],ConvertObject method, IOleUIObjInfoW::ConvertObject, _ole_IOleUIObjInfo_ConvertObject, com.ioleuiobjinfo_convertobject, oledlg/IOleUIObjInfo::ConvertObject, oledlg/IOleUIObjInfoA::ConvertObject, oledlg/IOleUIObjInfoW::ConvertObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUIObjInfoA.ConvertObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUIObjInfoA::ConvertObject

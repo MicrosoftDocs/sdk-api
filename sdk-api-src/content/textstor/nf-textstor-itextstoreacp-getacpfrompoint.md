@@ -4,17 +4,16 @@ title: ITextStoreACP::GetACPFromPoint
 author: windows-sdk-content
 description: The ITextStoreACP::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itextstoreacp_getacpfrompoint.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b6489391-a19e-405a-a129-f68054088860
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP.GetACPFromPoint, ITextStoreACP::GetACPFromPoint, _tsf_itextstoreacp_getacpfrompoint_ref, textstor/ITextStoreACP::GetACPFromPoint, tsf.itextstoreacp_getacpfrompoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetACPFromPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetACPFromPoint

@@ -4,17 +4,16 @@ title: ICspAlgorithm::get_Valid
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the algorithm object is valid.
 old-location: security\icspalgorithm_valid_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 8f8e9f23-f857-49d3-9519-061ccce27514
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],Valid property, ICspAlgorithm.Valid, ICspAlgorithm.get_Valid, ICspAlgorithm::Valid, ICspAlgorithm::get_Valid, Valid property [Security], Valid property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Valid, certenroll/ICspAlgorithm::get_Valid, get_Valid, security.icspalgorithm_valid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithm.get_Valid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::get_Valid

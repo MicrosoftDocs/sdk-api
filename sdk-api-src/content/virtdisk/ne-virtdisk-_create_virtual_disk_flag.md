@@ -4,7 +4,7 @@ title: "_CREATE_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) creation flags.
 old-location: vhd\create_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 35dba6c6-2825-425a-b432-a6ac8ad4ea4b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CREATE_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CREATE_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _CREATE_VIRTUAL_DISK_FLAG enumeration

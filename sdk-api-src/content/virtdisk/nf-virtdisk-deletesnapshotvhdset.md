@@ -4,17 +4,16 @@ title: DeleteSnapshotVhdSet function
 author: windows-sdk-content
 description: Deletes a snapshot from a VHD Set file.
 old-location: vhd\deletesnapshotvhdset.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteSnapshotVhdSet
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteSnapshotVhdSet function

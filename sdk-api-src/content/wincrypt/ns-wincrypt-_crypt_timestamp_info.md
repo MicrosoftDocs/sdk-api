@@ -4,7 +4,7 @@ title: "_CRYPT_TIMESTAMP_INFO"
 author: windows-sdk-content
 description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.
 old-location: security\crypt_timestamp_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_INFO, *PCRYPT_TIMESTAMP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_INFO, *PCRYPT_TIMESTAMP_INFO
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_INFO structure

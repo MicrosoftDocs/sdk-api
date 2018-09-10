@@ -4,7 +4,7 @@ title: "_tagSL_NONGENUINE_UI_OPTIONS"
 author: windows-sdk-content
 description: Specifies an application that displays a dialog box when the SLIsGenuineLocal function indicates that an installation is not genuine.
 old-location: security\sl_nongenuine_ui_options.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 5e793f09-1d12-4b69-8ba6-6c45421df533
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SL_NONGENUINE_UI_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.redist: 
 ---
 
 # _tagSL_NONGENUINE_UI_OPTIONS structure

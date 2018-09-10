@@ -4,7 +4,7 @@ title: IServiceInheritanceConfig
 author: windows-sdk-content
 description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.
 old-location: cos\iserviceinheritanceconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceInheritanceConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceInheritanceConfig interface

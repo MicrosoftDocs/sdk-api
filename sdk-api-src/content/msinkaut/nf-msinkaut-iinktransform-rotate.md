@@ -4,17 +4,16 @@ title: IInkTransform::Rotate
 author: windows-sdk-content
 description: Changes the amount, measured in degrees, to change the rotation factor of the InkTransform object and optionally the center point of the rotation.
 old-location: tablet\inktransform_rotate.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e, IInkTransform interface [Tablet PC],Rotate method, IInkTransform.Rotate, IInkTransform::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Rotate, tablet.inktransform_rotate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.Rotate
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::Rotate

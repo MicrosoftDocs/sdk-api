@@ -4,17 +4,16 @@ title: DdeSetUserHandle function
 author: windows-sdk-content
 description: Associates an application-defined value with a conversation handle or a transaction identifier. This is useful for simplifying the processing of asynchronous transactions. An application can use the DdeQueryConvInfo function to retrieve this value.
 old-location: dataxchg\ddesetuserhandle.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddesetuserhandle.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdeSetUserHandle, DdeSetUserHandle function [Data Exchange], _win32_DdeSetUserHandle, _win32_ddesetuserhandle_cpp, dataxchg.ddesetuserhandle, ddeml/DdeSetUserHandle, winui._win32_ddesetuserhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdeSetUserHandle
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdeSetUserHandle function

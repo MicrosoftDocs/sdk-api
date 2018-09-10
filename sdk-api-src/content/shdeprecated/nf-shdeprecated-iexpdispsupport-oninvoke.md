@@ -4,17 +4,16 @@ title: IExpDispSupport::OnInvoke
 author: windows-sdk-content
 description: Deprecated. Gets ambient properties.
 old-location: shell\IExpDispSupport_OnInvoke.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport interface [Windows Shell],OnInvoke method, IExpDispSupport.OnInvoke, IExpDispSupport::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExpDispSupport.OnInvoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

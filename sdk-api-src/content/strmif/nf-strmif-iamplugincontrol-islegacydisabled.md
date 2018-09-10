@@ -4,17 +4,16 @@ title: IAMPluginControl::IsLegacyDisabled
 author: windows-sdk-content
 description: Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
 old-location: dshow\iamplugincontrol_islegacydisabled.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IAMPluginControl.IsLegacyDisabled, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMPluginControl.IsLegacyDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMPluginControl::IsLegacyDisabled

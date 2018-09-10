@@ -4,17 +4,16 @@ title: IAudioChannelConfig::SetChannelConfig
 author: windows-sdk-content
 description: The SetChannelConfig method sets the channel-configuration mask in a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_setchannelconfig.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a63b92ab-8abf-4582-b408-6c3e94a6bd3c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioChannelConfig interface [Core Audio],SetChannelConfig method, IAudioChannelConfig.SetChannelConfig, IAudioChannelConfig::SetChannelConfig, IAudioChannelConfigSetChannelConfig, SetChannelConfig, SetChannelConfig method [Core Audio], SetChannelConfig method [Core Audio],IAudioChannelConfig interface, coreaudio.iaudiochannelconfig_setchannelconfig, devicetopology/IAudioChannelConfig::SetChannelConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioChannelConfig.SetChannelConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioChannelConfig::SetChannelConfig

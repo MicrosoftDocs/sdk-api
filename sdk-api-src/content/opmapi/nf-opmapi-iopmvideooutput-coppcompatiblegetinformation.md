@@ -4,17 +4,16 @@ title: IOPMVideoOutput::COPPCompatibleGetInformation
 author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver. Use this method when OPM is emulating Certified Output Protection Manager (COPP).
 old-location: mf\iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 46c0c426-9730-4a0e-ab95-03b240bd55f0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOPMVideoOutput.COPPCompatibleGetInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOPMVideoOutput::COPPCompatibleGetInformation

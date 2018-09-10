@@ -4,7 +4,7 @@ title: D3D_FEATURE_LEVEL
 author: windows-sdk-content
 description: Describes the set of features targeted by a Direct3D device.
 old-location: direct3d11\d3d_feature_level.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: afbc1a02-1730-4502-af15-b668412d664c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_FEATURE_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_FEATURE_LEVEL
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_FEATURE_LEVEL
+req.redist: 
 ---
 
 # D3D_FEATURE_LEVEL enumeration

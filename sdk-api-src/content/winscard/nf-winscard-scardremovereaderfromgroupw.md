@@ -4,17 +4,16 @@ title: SCardRemoveReaderFromGroupW function
 author: windows-sdk-content
 description: Removes a reader from an existing reader group. This function has no effect on the reader.
 old-location: security\scardremovereaderfromgroup.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardRemoveReaderFromGroupW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardRemoveReaderFromGroupW function

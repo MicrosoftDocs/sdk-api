@@ -4,7 +4,7 @@ title: IXAPOHrtfParameters
 author: windows-sdk-content
 description: The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.
 old-location: xaudio2\ixapohrtfparameters.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: EDA29173-84B5-4D2F-90B0-546EEEC49539
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfEnvironment
+req.lib: 
+req.dll: HrtfApo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAPOHrtfParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: HrtfApo.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IXAPOHrtfParameters interface

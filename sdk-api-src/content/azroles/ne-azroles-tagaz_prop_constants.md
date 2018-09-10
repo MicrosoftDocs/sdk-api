@@ -4,7 +4,7 @@ title: tagAZ_PROP_CONSTANTS
 author: windows-sdk-content
 description: Defines constants used by Authorization Manager.
 old-location: security\az_prop_constants.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 4d84389d-91cf-476e-b10e-fb339b4fddcb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AZ_PROP_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: AZ_PROP_CONSTANTS
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # tagAZ_PROP_CONSTANTS enumeration

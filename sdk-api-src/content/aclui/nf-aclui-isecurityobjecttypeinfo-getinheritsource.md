@@ -4,17 +4,16 @@ title: ISecurityObjectTypeInfo::GetInheritSource
 author: windows-sdk-content
 description: The ISecurityObjectTypeInfo::GetInheritSource method provides a means of determining the source of inherited access control entries in discretionary access control lists and system access control lists.
 old-location: security\isecurityobjecttypeinfo_getinheritsource.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e058ca98-08dc-4a3f-9521-adcc5990eae7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSource method [Security],ISecurityObjectTypeInfo interface, ISecurityObjectTypeInfo interface [Security],GetInheritSource method, ISecurityObjectTypeInfo.GetInheritSource, ISecurityObjectTypeInfo::GetInheritSource, aclui/ISecurityObjectTypeInfo::GetInheritSource, security.isecurityobjecttypeinfo_getinheritsource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityObjectTypeInfo.GetInheritSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityObjectTypeInfo::GetInheritSource

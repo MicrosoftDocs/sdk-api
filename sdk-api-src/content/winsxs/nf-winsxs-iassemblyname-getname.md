@@ -4,17 +4,16 @@ title: IAssemblyName::GetName
 author: windows-sdk-content
 description: The GetName method returns the name portion of the assembly name.
 old-location: setup\iassemblyname_getname.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetName, GetName method [Side-by-side Assemblies], GetName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetName method, IAssemblyName.GetName, IAssemblyName::GetName, setup.iassemblyname_getname, winsxs/IAssemblyName::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyName.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyName::GetName

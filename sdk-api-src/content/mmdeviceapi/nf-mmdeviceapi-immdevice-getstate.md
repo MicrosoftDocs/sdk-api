@@ -4,17 +4,16 @@ title: IMMDevice::GetState
 author: windows-sdk-content
 description: The GetState method retrieves the current device state.
 old-location: coreaudio\immdevice_getstate.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9b50773b-241c-4a32-8ab6-85adb3f885e1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],GetState method, IMMDevice.GetState, IMMDevice::GetState, IMMDeviceGetState, coreaudio.immdevice_getstate, mmdeviceapi/IMMDevice::GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDevice.GetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMDevice::GetState

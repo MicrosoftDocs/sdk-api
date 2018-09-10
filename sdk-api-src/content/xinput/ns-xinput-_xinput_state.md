@@ -4,7 +4,7 @@ title: "_XINPUT_STATE"
 author: windows-sdk-content
 description: Represents the state of a controller.
 old-location: xinput\xinput_state.htm
-old-project: xinput
+tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_STATE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XINPUT_STATE, *PXINPUT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XINPUT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XINPUT_STATE, *PXINPUT_STATE
+req.redist: 
 ---
 
 # _XINPUT_STATE structure

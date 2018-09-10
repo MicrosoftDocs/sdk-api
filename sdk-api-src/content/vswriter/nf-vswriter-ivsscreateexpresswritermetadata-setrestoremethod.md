@@ -4,17 +4,16 @@ title: IVssCreateExpressWriterMetadata::SetRestoreMethod
 author: windows-sdk-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateExpressWriterMetadata.SetRestoreMethod
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateExpressWriterMetadata::SetRestoreMethod
@@ -83,7 +81,7 @@ Reserved for future use. The value of this parameter should always be set to <b>
 
 ### -param writerRestore
 
-
+TBD
 
 
 ### -param bRebootRequired [in]

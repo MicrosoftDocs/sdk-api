@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetDeviceCaps
 author: windows-sdk-content
 description: Retrieves the capabilities of the rendering device.
 old-location: direct3d9\idirect3ddevice9__getdevicecaps.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getdevicecaps.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 1ca27ef9-f4c4-dcea-6966-4bbfcf987b8e, GetDeviceCaps, GetDeviceCaps method [Direct3D 9], GetDeviceCaps method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetDeviceCaps method, IDirect3DDevice9.GetDeviceCaps, IDirect3DDevice9::GetDeviceCaps, d3d9helper/IDirect3DDevice9::GetDeviceCaps, direct3d9.idirect3ddevice9__getdevicecaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetDeviceCaps
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetDeviceCaps

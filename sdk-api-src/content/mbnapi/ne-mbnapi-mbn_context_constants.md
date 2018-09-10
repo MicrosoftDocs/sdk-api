@@ -4,7 +4,7 @@ title: MBN_CONTEXT_CONSTANTS
 author: windows-sdk-content
 description: The MBN_CONTEXT_CONSTANTS enumerated type specifies the maximum string lengths supported by members of the MBN_CONTEXT structure.
 old-location: mbn\mbn_context_constants.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 064ff090-eb45-4cfa-99bd-d92db8397fc3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CONTEXT_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CONTEXT_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CONTEXT_CONSTANTS
+req.redist: 
 ---
 
 # MBN_CONTEXT_CONSTANTS enumeration

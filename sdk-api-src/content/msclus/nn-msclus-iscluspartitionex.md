@@ -4,7 +4,7 @@ title: ISClusPartitionEx
 author: windows-sdk-content
 description: Provides extended information about a partition on a Physical Disk resource.
 old-location: mscs\cluspartitionex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: CLUS_GROUP_START_SETTING
+req.lib: 
+req.dll: MsClus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISClusPartitionEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsClus.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISClusPartitionEx interface

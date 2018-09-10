@@ -4,7 +4,7 @@ title: MBN_INTERFACE_CAPS
 author: windows-sdk-content
 description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
 old-location: mbn\mbn_interface_caps.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: faee7f53-b465-4240-b163-ce88fae764df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_INTERFACE_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_INTERFACE_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_INTERFACE_CAPS
+req.redist: 
 ---
 
 # MBN_INTERFACE_CAPS structure

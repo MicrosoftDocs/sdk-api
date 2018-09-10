@@ -4,17 +4,16 @@ title: ITfEditRecord::GetTextAndPropertyUpdates
 author: windows-sdk-content
 description: ITfEditRecord::GetTextAndPropertyUpdates method
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 0, GetTextAndPropertyUpdates, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetTextAndPropertyUpdates method, ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfEditRecord.GetTextAndPropertyUpdates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfEditRecord::GetTextAndPropertyUpdates

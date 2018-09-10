@@ -4,17 +4,16 @@ title: IXpsOMVisualBrush::GetVisual
 author: windows-sdk-content
 description: Gets a pointer to the interface of the resolved visual to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisual.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: b8fb6698-8ce7-42a1-bad6-bde3d5dbbbf8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVisual, GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisual method, IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMVisualBrush.GetVisual
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMVisualBrush::GetVisual

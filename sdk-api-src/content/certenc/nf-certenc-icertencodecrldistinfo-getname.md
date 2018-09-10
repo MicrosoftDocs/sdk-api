@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo::GetName
 author: windows-sdk-content
 description: Returns the name at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getname.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeCRLDistInfo object, GetName method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetName method, ICertEncodeCRLDistInfo.GetName, ICertEncodeCRLDistInfo::GetName, _certsrv_icertencodecrldistinfo_getname, certenc/ICertEncodeCRLDistInfo::GetName, security.icertencodecrldistinfo_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeCRLDistInfo.GetName
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo::GetName
@@ -72,7 +71,7 @@ Specifies the index of the name entry to get. The first value is at index zero.
 
 ### -param pstrName
 
-
+TBD
 
 
 

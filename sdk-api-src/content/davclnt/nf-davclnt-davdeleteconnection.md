@@ -4,17 +4,16 @@ title: DavDeleteConnection function
 author: windows-sdk-content
 description: Closes a connection that was created by using the DavAddConnection function.
 old-location: webdav\davdeleteconnection.htm
-old-project: WebDAV
+tech.root: WebDAV
 ms.assetid: 736b8a16-30db-410e-8295-97730297d04b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DavDeleteConnection, DavDeleteConnection function [WebDAV], davclnt/DavDeleteConnection, webdav.davdeleteconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHNEXTSTEP
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DavDeleteConnection
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DavDeleteConnection function

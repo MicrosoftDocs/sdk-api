@@ -4,17 +4,16 @@ title: IMSCEPSetup::PostUnInstall
 author: windows-sdk-content
 description: Is not implemented. It is reserved for future use.
 old-location: security\imscepsetup_postuninstall.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMSCEPSetup.PostUnInstall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMSCEPSetup::PostUnInstall

@@ -4,7 +4,7 @@ title: RenderTargetBitmapOptions
 author: windows-sdk-content
 description: Defines constants that specify what parts of the visual tree should be rendered.
 old-location: xaml_diagnostics\rendertargetbitmapoptions.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 02A22436-A11B-4417-9832-1AB0B0FB1FA3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RenderTargetBitmapOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RenderTargetBitmapOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: RenderTargetBitmapOptions
+req.redist: 
 ---
 
 # RenderTargetBitmapOptions enumeration

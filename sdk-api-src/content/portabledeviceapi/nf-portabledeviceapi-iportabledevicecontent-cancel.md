@@ -4,17 +4,16 @@ title: IPortableDeviceContent::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels a pending operation called on this interface.
 old-location: wpdsdk\iportabledevicecontent_cancel.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: adc63916-5d41-4772-9c78-72fdd8dcf1a8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceContent.Cancel, IPortableDeviceContent::Cancel, IPortableDeviceContentCancel, portabledeviceapi/IPortableDeviceContent::Cancel, wpdsdk.iportabledevicecontent_cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceContent.Cancel
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent::Cancel

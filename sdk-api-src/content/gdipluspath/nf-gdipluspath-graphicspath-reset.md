@@ -4,17 +4,16 @@ title: GraphicsPath::Reset
 author: windows-sdk-content
 description: The GraphicsPath::Reset method empties the path and sets the fill mode to FillModeAlternate.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reset_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reset.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GraphicsPath class [GDI+],Reset method, GraphicsPath.Reset, GraphicsPath::Reset, Reset, Reset method [GDI+], Reset method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reset_, gdiplus._gdiplus_CLASS_GraphicsPath_Reset_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GraphicsPath.Reset
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

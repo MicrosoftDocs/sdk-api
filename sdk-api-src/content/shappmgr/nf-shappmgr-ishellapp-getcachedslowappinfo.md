@@ -4,17 +4,16 @@ title: IShellApp::GetCachedSlowAppInfo
 author: windows-sdk-content
 description: Returns information to the application that originates from a slow source. Unlike IShellApp::GetSlowAppInfo, this method can return information that has been cached. This method is not applicable to published applications.
 old-location: shell\IShellApp_GetCachedSlowAppInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 655edc51-0967-4b94-9eef-da213e735e0a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCachedSlowAppInfo, GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetCachedSlowAppInfo method, IShellApp.GetCachedSlowAppInfo, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellApp.GetCachedSlowAppInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IShellApp::GetCachedSlowAppInfo

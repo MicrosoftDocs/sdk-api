@@ -4,17 +4,16 @@ title: IVdsDrive2::GetProperties2
 author: windows-sdk-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive2_getproperties2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive2.GetProperties2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive2::GetProperties2

@@ -4,17 +4,16 @@ title: TraceLoggingStruct macro
 author: windows-sdk-content
 description: Wrapper macro for defining a group of related fields in an event.
 old-location: tracelogging\traceloggingstruct.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingStruct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingStruct macro

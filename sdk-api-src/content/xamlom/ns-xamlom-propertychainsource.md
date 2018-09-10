@@ -4,7 +4,7 @@ title: PropertyChainSource
 author: windows-sdk-content
 description: Represents the source object (a Style) of a target type.
 old-location: xaml_diagnostics\propertychainsource.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: B9A506D5-5F7B-429C-AA62-52B4C5BF78E0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyChainSource
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropertyChainSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: PropertyChainSource
+req.redist: 
 ---
 
 # PropertyChainSource structure

@@ -4,17 +4,16 @@ title: IRecordInfo::RecordInit
 author: windows-sdk-content
 description: Initializes a new instance of a record.
 old-location: automat\irecordinfo_recordinit.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.RecordInit, IRecordInfo::RecordInit, RecordInit, RecordInit method [Automation], RecordInit method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.RecordInit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::RecordInit

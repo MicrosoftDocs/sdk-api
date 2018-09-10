@@ -4,7 +4,7 @@ title: IStorageProviderHandler
 author: windows-sdk-content
 description: Retrieves the IStorageProviderPropertyHandler associated with a specific file or folder.
 old-location: shell\istorageproviderhandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageProviderHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageProviderHandler interface

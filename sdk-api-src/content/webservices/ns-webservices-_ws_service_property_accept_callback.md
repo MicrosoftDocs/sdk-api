@@ -4,7 +4,7 @@ title: "_WS_SERVICE_PROPERTY_ACCEPT_CALLBACK"
 author: windows-sdk-content
 description: Specifies the callback which is called when a channel is successfully accepted.
 old-location: wsw\ws_service_property_accept_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c0e08fbe-1552-4f0c-abd6-35cc33531123
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
+req.redist: 
 ---
 
 # _WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure

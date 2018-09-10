@@ -4,7 +4,7 @@ title: "_IPXWAN_IF_INFO"
 author: windows-sdk-content
 description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.
 old-location: rras\ipxwan_if_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipxrtdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPXWAN_IF_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
+req.redist: 
 ---
 
 # _IPXWAN_IF_INFO structure

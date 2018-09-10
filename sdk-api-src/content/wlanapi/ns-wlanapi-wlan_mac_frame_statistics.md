@@ -4,7 +4,7 @@ title: WLAN_MAC_FRAME_STATISTICS
 author: windows-sdk-content
 description: Contains information about sent and received MAC frames.
 old-location: nwifi\wlan_mac_frame_statistics.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: b5bb4ec9-aeec-4a64-977d-e875c3835196
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_MAC_FRAME_STATISTICS, *PWLAN_MAC_FRAME_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_MAC_FRAME_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_MAC_FRAME_STATISTICS, *PWLAN_MAC_FRAME_STATISTICS
+req.redist: 
 ---
 
 # WLAN_MAC_FRAME_STATISTICS structure

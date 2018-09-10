@@ -4,7 +4,7 @@ title: IWMPSubscriptionService
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: cb9d0f20-d5ca-4db9-adcc-0a803f97f196
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSubscriptionServiceEvent
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSubscriptionService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSubscriptionService interface

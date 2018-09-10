@@ -4,17 +4,16 @@ title: InterlockedDecrement64 function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockeddecrement64.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedDecrement64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedDecrement64 function

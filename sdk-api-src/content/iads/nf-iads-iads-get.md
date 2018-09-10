@@ -4,17 +4,16 @@ title: IADs::Get
 author: windows-sdk-content
 description: Retrieves a property of a given name from the property cache.
 old-location: adsi\iads_get.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADs.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADs::Get

@@ -4,7 +4,7 @@ title: "_VDS_DRIVE_PROP"
 author: windows-sdk-content
 description: Defines the properties of a drive object.
 old-location: base\vds_drive_prop.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c17f13f6-ccea-4370-84d1-b422efb63e73
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_PROP, *PVDS_DRIVE_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_PROP, *PVDS_DRIVE_PROP
+req.redist: 
 ---
 
 # _VDS_DRIVE_PROP structure

@@ -4,7 +4,7 @@ title: D3D12_INFO_QUEUE_FILTER
 author: windows-sdk-content
 description: Debug message filter; contains a lists of message types to allow or deny.
 old-location: direct3d12\d3d12_info_queue_filter.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 5CD64E71-8530-43FB-B441-25C61ED6F317
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_INFO_QUEUE_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_INFO_QUEUE_FILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_INFO_QUEUE_FILTER
+req.redist: 
 ---
 
 # D3D12_INFO_QUEUE_FILTER structure

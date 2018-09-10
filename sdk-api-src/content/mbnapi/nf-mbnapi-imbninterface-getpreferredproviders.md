@@ -4,17 +4,16 @@ title: IMbnInterface::GetPreferredProviders
 author: windows-sdk-content
 description: Gets the list of preferred providers.
 old-location: mbn\imbninterface_getpreferredproviders.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnInterface.GetPreferredProviders, IMbnInterface::GetPreferredProviders, mbn.imbninterface_getpreferredproviders, mbnapi/IMbnInterface::GetPreferredProviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterface.GetPreferredProviders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterface::GetPreferredProviders

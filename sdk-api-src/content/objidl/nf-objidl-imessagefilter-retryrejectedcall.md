@@ -4,17 +4,16 @@ title: IMessageFilter::RetryRejectedCall
 author: windows-sdk-content
 description: Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
 old-location: com\imessagefilter_retryrejectedcall.htm
-old-project: com
+tech.root: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageFilter.RetryRejectedCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageFilter::RetryRejectedCall

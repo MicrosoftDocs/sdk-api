@@ -4,17 +4,16 @@ title: IFsrmCollection::GetById
 author: windows-sdk-content
 description: Retrieves the specified object from the collection.
 old-location: fsrm\ifsrmcollection_getbyid.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6d6be809-bfe6-46ad-9156-288da834ff13
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: GetById, GetById method [File Server Resource Manager], GetById method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],GetById method, IFsrmCollection.GetById, IFsrmCollection::GetById, fs.ifsrmcollection_getbyid, fsrm.ifsrmcollection_getbyid, fsrm/IFsrmCollection::GetById
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmCollection.GetById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmCollection::GetById

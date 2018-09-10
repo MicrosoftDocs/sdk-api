@@ -4,17 +4,16 @@ title: IInkEdit::get_Recognizer
 author: windows-sdk-content
 description: Gets or sets the IInkRecognizer object to use for recognition.
 old-location: tablet\inkedit_recognizer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e, IInkEdit interface [Tablet PC],Recognizer property, IInkEdit.Recognizer, IInkEdit.get_Recognizer, IInkEdit::Recognizer, IInkEdit::get_Recognizer, IInkEdit::put_Recognizer, InkEdit.get_Recognizer, InkEdit.putref_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkEdit interface, get_Recognizer, inked/IInkEdit::Recognizer, inked/IInkEdit::get_Recognizer, inked/IInkEdit::put_Recognizer, putref_Recognizer, tablet.inkedit_recognizer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.putref_Recognizer
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_Recognizer

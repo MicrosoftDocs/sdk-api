@@ -4,7 +4,7 @@ title: WS_POLICY_EXTENSION_TYPE
 author: windows-sdk-content
 description: The values in this enumeration are used to identify the sub-types of WS_POLICY_EXTENSION.
 old-location: wsw\ws_policy_extension_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e656ec20-6df0-4929-8257-bfbfb98567fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_POLICY_EXTENSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_POLICY_EXTENSION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_POLICY_EXTENSION_TYPE
+req.redist: 
 ---
 
 # WS_POLICY_EXTENSION_TYPE enumeration

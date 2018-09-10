@@ -4,7 +4,7 @@ title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 author: windows-sdk-content
 description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_key_dictation_check0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 0B91B57C-6943-4702-8926-8ED2B7B3E48D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 callback function

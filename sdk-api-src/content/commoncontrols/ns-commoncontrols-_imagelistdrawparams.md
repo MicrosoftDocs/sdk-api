@@ -4,7 +4,7 @@ title: "_IMAGELISTDRAWPARAMS"
 author: windows-sdk-content
 description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
 old-location: controls\IMAGELISTDRAWPARAMS.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commoncontrols.h
 req.include-header: Commctrl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Commoncontrols.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGELISTDRAWPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGELISTDRAWPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGELISTDRAWPARAMS
+req.redist: 
 ---
 
 # _IMAGELISTDRAWPARAMS structure

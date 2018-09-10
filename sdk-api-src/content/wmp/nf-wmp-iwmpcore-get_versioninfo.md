@@ -4,17 +4,16 @@ title: IWMPCore::get_versionInfo
 author: windows-sdk-content
 description: The get_versionInfo method retrieves a String value specifying the version of Windows Media Player.
 old-location: wmp\iwmpcore_get_versioninfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8c8bb30b-8f8e-4f49-9506-d4735bccf847
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_versionInfo method, IWMPCore.get_versionInfo, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_versionInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_versionInfo

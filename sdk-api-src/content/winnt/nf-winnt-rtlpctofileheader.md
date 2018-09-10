@@ -4,17 +4,16 @@ title: RtlPcToFileHeader function
 author: windows-sdk-content
 description: Retrieves the base address of the image that contains the specified PC value.
 old-location: base\rtlpctofileheader.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - RtlPcToFileHeader
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of Windows Server 2003
 ---
 

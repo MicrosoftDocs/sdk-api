@@ -4,7 +4,7 @@ title: IPlayToControlWithCapabilities
 author: windows-sdk-content
 description: Provides functionality for the IPlayToSource to determine the capabilities of the content.
 old-location: mf\iplaytocontrolwithcapabilities.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToControlWithCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToControlWithCapabilities interface

@@ -4,17 +4,16 @@ title: IEvalRat::put_BlockedRatingAttributes
 author: windows-sdk-content
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
 old-location: mstv\ievalrat_put_blockedratingattributes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7c6919f0-1270-4dcd-8180-a9af4763c580
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IEvalRat.put_BlockedRatingAttributes, IEvalRat::put_BlockedRatingAttributes, IEvalRatput_BlockedRatingAttributes, mstv.ievalrat_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockedRatingAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tvratings.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEvalRat.put_BlockedRatingAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEvalRat::put_BlockedRatingAttributes

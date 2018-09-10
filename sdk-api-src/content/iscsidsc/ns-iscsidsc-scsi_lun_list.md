@@ -4,7 +4,7 @@ title: SCSI_LUN_LIST
 author: windows-sdk-content
 description: SCSI_LUN_LIST structure is used to construct a list of logical unit numbers (LUNs) associated with target devices.
 old-location: iscsidisc\scsi_lun_list.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: b0ff4b28-887c-42bf-bb7b-da23c231ff4e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCSI_LUN_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
+req.redist: 
 ---
 
 # SCSI_LUN_LIST structure

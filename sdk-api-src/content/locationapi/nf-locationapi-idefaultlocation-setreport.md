@@ -4,17 +4,16 @@ title: IDefaultLocation::SetReport
 author: windows-sdk-content
 description: Sets the default location.
 old-location: winlocation_com_ref\idefaultlocation_setreport.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultLocation.SetReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultLocation::SetReport

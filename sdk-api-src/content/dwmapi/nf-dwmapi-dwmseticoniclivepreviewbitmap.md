@@ -4,17 +4,16 @@ title: DwmSetIconicLivePreviewBitmap function
 author: windows-sdk-content
 description: Sets a static, iconic bitmap to display a live preview (also known as a Peek preview) of a window or tab. The taskbar can use this bitmap to show a full-sized preview of a window or tab.
 old-location: dwm\dwmseticoniclivepreviewbitmap.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLivePreviewBitmap function [Desktop Window Manager], _udwm_dwmseticoniclivepreviewbitmap, _udwm_dwmseticoniclivepreviewbitmap_cpp, dwm.dwmseticoniclivepreviewbitmap, dwmapi/DwmSetIconicLivePreviewBitmap, winui._udwm_dwmseticoniclivepreviewbitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll; Uxtheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DwmSetIconicLivePreviewBitmap
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll; Uxtheme.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmSetIconicLivePreviewBitmap function

@@ -4,7 +4,7 @@ title: PSC_STATE
 author: windows-sdk-content
 description: Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache.
 old-location: properties\PSC_STATE.htm
-old-project: properties
+tech.root: properties
 ms.assetid: f6a09b32-e642-4c11-ae89-fed787b4913c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSC_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSC_STATE
+req.redist: 
 ---
 
 # PSC_STATE enumeration

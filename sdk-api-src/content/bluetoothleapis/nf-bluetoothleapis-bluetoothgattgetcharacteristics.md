@@ -4,17 +4,16 @@ title: BluetoothGATTGetCharacteristics function
 author: windows-sdk-content
 description: Gets all the characteristics available for the specified service.
 old-location: bltooth\bluetoothgattgetcharacteristics.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 974270EE-6319-45E3-BAB8-3A57665591EA
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTGetCharacteristics, BluetoothGATTGetCharacteristics function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristics, bluetoothleapis/BluetoothGATTGetCharacteristics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothApis.lib
+req.dll: BluetoothApis.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTGetCharacteristics
 product: Windows
 targetos: Windows
-req.lib: BluetoothApis.lib
-req.dll: BluetoothApis.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTGetCharacteristics function

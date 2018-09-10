@@ -4,17 +4,16 @@ title: ISimilarityTraitsMappedView::Unmap
 author: windows-sdk-content
 description: Unmaps a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_unmap.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 37739164-eefd-4336-99bc-2074c8f2f294
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityTraitsMappedView interface [Remote Differential Compression],Unmap method, ISimilarityTraitsMappedView.Unmap, ISimilarityTraitsMappedView::Unmap, Unmap, Unmap method [Remote Differential Compression], Unmap method [Remote Differential Compression],ISimilarityTraitsMappedView interface, fs.isimilaritytraitsmappedview_unmap, msrdc/ISimilarityTraitsMappedView::Unmap, rdc.isimilaritytraitsmappedview_unmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMappedView.Unmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMappedView::Unmap

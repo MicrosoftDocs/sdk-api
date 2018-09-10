@@ -4,7 +4,7 @@ title: HANDLE_OPTIONS
 author: windows-sdk-content
 description: Defines the flags of the file handle.
 old-location: winrt\handle_options.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 3FB2731B-53D1-4216-9149-7D8BDE8D3F12
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HANDLE_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MpClient.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HANDLE_OPTIONS
+req.redist: 
 ---
 
 # HANDLE_OPTIONS enumeration

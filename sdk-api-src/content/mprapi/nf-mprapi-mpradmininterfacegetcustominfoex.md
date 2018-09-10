@@ -4,17 +4,16 @@ title: MprAdminInterfaceGetCustomInfoEx function
 author: windows-sdk-content
 description: Retrieves tunnel-specific configuration for a specified demand dial interface on a specified server.
 old-location: rras\mpradmininterfacegetcustominfoex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 01974ac8-dffc-4564-bac1-68ac0437d22b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceGetCustomInfoEx, MprAdminInterfaceGetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceGetCustomInfoEx, rras.mpradmininterfacegetcustominfoex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceGetCustomInfoEx
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceGetCustomInfoEx function

@@ -4,17 +4,16 @@ title: IMFDeviceTransform::ProcessOutput
 author: windows-sdk-content
 description: The ProcessOutput method gets the processed output from the Device MFT output streams.
 old-location: stream\imfdevicetransform_processoutput.htm
-old-project: stream
+tech.root: stream
 ms.assetid: A99242D6-5225-493C-A5A8-CFDBB49D01A0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutput method, IMFDeviceTransform.ProcessOutput, IMFDeviceTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Streaming Media Devices], ProcessOutput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessOutput, stream.imfdevicetransform_processoutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.ProcessOutput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::ProcessOutput
@@ -72,7 +70,7 @@ Number of elements in the <i>pOutputSamples</i> array. The value must be at leas
 
 ### -param pOutputSample
 
-
+TBD
 
 
 ### -param pdwStatus [in]

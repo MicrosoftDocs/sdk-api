@@ -4,17 +4,16 @@ title: DhcpHlprIsV4PolicyWellFormed function
 author: windows-sdk-content
 description: Verifies that a DHCP server policy structure is well formed.
 old-location: dhcp\dhcphlprisv4policywellformed.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 820b45f6-aa09-4e15-bf77-caa2723f4ea8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprIsV4PolicyWellFormed, DhcpHlprIsV4PolicyWellFormed function [DHCP], dhcp.dhcphlprisv4policywellformed, dhcpsapi/DhcpHlprIsV4PolicyWellFormed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprIsV4PolicyWellFormed
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprIsV4PolicyWellFormed function

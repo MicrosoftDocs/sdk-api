@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_VALUE_ARRAY"
 author: windows-sdk-content
 description: The DHCP_OPTION_VALUE_ARRAY structure defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_value_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: c68b9543-0d7a-46ab-babd-3868c1338d67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_VALUE_ARRAY, *LPDHCP_OPTION_VALUE_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_VALUE_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_VALUE_ARRAY, *LPDHCP_OPTION_VALUE_ARRAY
+req.redist: 
 ---
 
 # _DHCP_OPTION_VALUE_ARRAY structure

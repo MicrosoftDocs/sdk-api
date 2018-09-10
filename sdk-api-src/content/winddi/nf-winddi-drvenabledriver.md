@@ -4,17 +4,16 @@ title: DrvEnableDriver function
 author: windows-sdk-content
 description: The DrvEnableDriver function is the initial driver entry point exported by the driver DLL.
 old-location: display\drvenabledriver.htm
-old-project: display
+tech.root: display
 ms.assetid: b7aa5442-bbf5-4f9e-ad39-bf8a2d01c50e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvEnableDriver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvEnableDriver function

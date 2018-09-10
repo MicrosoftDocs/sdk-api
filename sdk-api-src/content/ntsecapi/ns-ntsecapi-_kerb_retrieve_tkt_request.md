@@ -4,7 +4,7 @@ title: "_KERB_RETRIEVE_TKT_REQUEST"
 author: windows-sdk-content
 description: Contains information used to retrieve a ticket.
 old-location: security\kerb_retrieve_tkt_request.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3b088c94-810b-44c7-887a-58e8dbd13603
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_RETRIEVE_TKT_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
+req.redist: 
 ---
 
 # _KERB_RETRIEVE_TKT_REQUEST structure

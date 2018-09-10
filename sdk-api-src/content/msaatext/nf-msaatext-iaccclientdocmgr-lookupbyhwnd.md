@@ -4,17 +4,16 @@ title: IAccClientDocMgr::LookupByHWND
 author: windows-sdk-content
 description: Clients call IAccClientDocMgr::LookupByHWND to get a document by providing the HWND for the document.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fb67c208-b79b-4219-ba5b-2235ae4a1dcf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByHWND method, IAccClientDocMgr.LookupByHWND, IAccClientDocMgr::LookupByHWND, LookupByHWND, LookupByHWND method [Windows Accessibility], LookupByHWND method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByHWND, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd, msaatext/IAccClientDocMgr::LookupByHWND, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccClientDocMgr.LookupByHWND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msaatext.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccClientDocMgr::LookupByHWND

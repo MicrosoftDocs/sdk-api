@@ -4,7 +4,7 @@ title: "_currencyfmtA"
 author: windows-sdk-content
 description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
 old-location: intl\currencyfmt.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 026ac9e0-1f5b-4a42-9c7b-07a127422994
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CURRENCYFMTA, *LPCURRENCYFMTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CURRENCYFMT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CURRENCYFMTA, *LPCURRENCYFMTA
+req.redist: 
 ---
 
 # _currencyfmtA structure

@@ -4,17 +4,16 @@ title: IGPMStarterGPO::GetSecurityInfo
 author: windows-sdk-content
 description: Retrieves the set of permissions for the Starter GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmstartergpo_getsecurityinfo.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 5c411851-0902-454a-9b44-383ea572ab78
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GetSecurityInfo method, IGPMStarterGPO.GetSecurityInfo, IGPMStarterGPO::GetSecurityInfo, gpmc.igpmstartergpo_getsecurityinfo, gpmgmt/IGPMStarterGPO::GetSecurityInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMStarterGPO.GetSecurityInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStarterGPO::GetSecurityInfo

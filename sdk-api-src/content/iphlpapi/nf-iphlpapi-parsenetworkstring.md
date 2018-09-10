@@ -4,17 +4,16 @@ title: ParseNetworkString function
 author: windows-sdk-content
 description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
 old-location: iphlp\parsenetworkstring.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING_ANY_SERVICE, NET_STRING_ANY_SERVICE_NO_SCOPE, NET_STRING_IPV4_ADDRESS, NET_STRING_IPV4_NETWORK, NET_STRING_IPV4_SERVICE, NET_STRING_IPV6_ADDRESS, NET_STRING_IPV6_ADDRESS_NO_SCOPE, NET_STRING_IPV6_NETWORK, NET_STRING_IPV6_SERVICE, NET_STRING_IPV6_SERVICE_NO_SCOPE, NET_STRING_IP_ADDRESS, NET_STRING_IP_ADDRESS_NO_SCOPE, NET_STRING_IP_NETWORK, NET_STRING_IP_SERVICE, NET_STRING_IP_SERVICE_NO_SCOPE, NET_STRING_NAMED_ADDRESS, NET_STRING_NAMED_SERVICE, ParseNetworkString, ParseNetworkString function [IP Helper], iphlp.parsenetworkstring, iphlpapi/ParseNetworkString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ParseNetworkString
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ParseNetworkString function

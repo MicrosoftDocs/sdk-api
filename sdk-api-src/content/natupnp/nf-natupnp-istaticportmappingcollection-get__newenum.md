@@ -4,17 +4,16 @@ title: IStaticPortMappingCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.
 old-location: ics\istaticportmappingcollection_get__newenum.htm
-old-project: ics
+tech.root: ics
 ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get__NewEnum method, IStaticPortMappingCollection.get__NewEnum, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMappingCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMappingCollection::get__NewEnum

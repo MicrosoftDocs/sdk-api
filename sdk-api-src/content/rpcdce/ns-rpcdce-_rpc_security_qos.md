@@ -4,7 +4,7 @@ title: "_RPC_SECURITY_QOS"
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS structure defines security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_SECURITY_QOS, *PRPC_SECURITY_QOS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_SECURITY_QOS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_SECURITY_QOS, *PRPC_SECURITY_QOS
+req.redist: 
 ---
 
 # _RPC_SECURITY_QOS structure

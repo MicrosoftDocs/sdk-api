@@ -4,7 +4,7 @@ title: NDK_VERSION
 author: windows-sdk-content
 description: The NDK_VERSION structure specifies major and minor versions in the NDK interface.
 old-location: netvista\ndk_version.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 10A5A3E6-7257-4560-8452-607EC7C54397
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndkinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ndhelper.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDK_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NDK_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NDK_VERSION
+req.redist: 
 ---
 
 # NDK_VERSION structure

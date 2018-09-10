@@ -4,17 +4,16 @@ title: SCardReleaseContext function
 author: windows-sdk-content
 description: Closes an established resource manager context, freeing any resources allocated under that context, including SCARDHANDLE objects and memory allocated using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardreleasecontext.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: aa17cf94-ca66-4b5e-b1cd-00319f496b09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCardReleaseContext, SCardReleaseContext function [Security], _smart_scardreleasecontext, security.scardreleasecontext, winscard/SCardReleaseContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardReleaseContext
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardReleaseContext function

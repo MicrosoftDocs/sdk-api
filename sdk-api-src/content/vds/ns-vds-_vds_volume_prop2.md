@@ -4,7 +4,7 @@ title: "_VDS_VOLUME_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_PROP2, *PVDS_VOLUME_PROP2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VOLUME_PROP2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VOLUME_PROP2, *PVDS_VOLUME_PROP2
+req.redist: 
 ---
 
 # _VDS_VOLUME_PROP2 structure

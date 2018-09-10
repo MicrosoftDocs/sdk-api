@@ -4,17 +4,16 @@ title: ULongPtrToUInt function
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type UINT.
 old-location: shell\ULongPtrToUInt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8b0c5cd0-cb8d-40c2-9a8d-0299074aa8a8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DWordPtrToUInt, SIZETToUInt, ULongPtrToUInt, ULongPtrToUInt function [Windows Shell], _shell_ULongPtrToUInt, intsafe/ULongPtrToUInt, shell.ULongPtrToUInt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ULongPtrToUInt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ULongPtrToUInt function

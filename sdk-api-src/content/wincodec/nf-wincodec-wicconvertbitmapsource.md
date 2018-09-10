@@ -4,17 +4,16 @@ title: WICConvertBitmapSource function
 author: windows-sdk-content
 description: Obtains a IWICBitmapSource in the desired pixel format from a given IWICBitmapSource.
 old-location: wic\_wic_codec_wicconvertbitmapsource.htm
-old-project: wic
+tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: Windowscodecs.dll; Wincodec.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WICConvertBitmapSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WICConvertBitmapSource function

@@ -4,17 +4,16 @@ title: IDiscMaster::SetActiveDiscMasterFormat
 author: windows-sdk-content
 description: Sets the currently active disc recorder format. The active format specifies both the structure of the staged image file content (audio/data) and the COM interface that must be used to manipulate that staged image.
 old-location: imapi\idiscmaster_setactivediscmasterformat.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fcc2840b-d302-4cd6-b576-1826c83b711e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscMasterFormat method, IDiscMaster.SetActiveDiscMasterFormat, IDiscMaster::SetActiveDiscMasterFormat, SetActiveDiscMasterFormat, SetActiveDiscMasterFormat method [IMAPI], SetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscmasterformat, base.idiscmaster_setactivediscmasterformat, imapi.idiscmaster_setactivediscmasterformat, imapi/IDiscMaster::SetActiveDiscMasterFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMaster.SetActiveDiscMasterFormat
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMaster::SetActiveDiscMasterFormat

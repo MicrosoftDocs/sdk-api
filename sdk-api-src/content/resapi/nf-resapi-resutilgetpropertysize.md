@@ -4,17 +4,16 @@ title: ResUtilGetPropertySize function
 author: windows-sdk-content
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster], ResUtilGetPropertySize, ResUtilGetPropertySize function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE, resapi/ResUtilGetPropertySize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetPropertySize
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetPropertySize function

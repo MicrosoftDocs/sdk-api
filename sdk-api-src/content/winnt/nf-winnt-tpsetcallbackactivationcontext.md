@@ -4,17 +4,16 @@ title: TpSetCallbackActivationContext function
 author: windows-sdk-content
 description: Assigns an activation context to the callback environment.
 old-location: base\tpsetcallbackactivationcontext.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TpSetCallbackActivationContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TpSetCallbackActivationContext function

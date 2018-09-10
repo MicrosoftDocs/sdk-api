@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetCanonicalizationMethod
 author: windows-sdk-content
 description: Gets the canonicalization method that was applied to the SignedInfo element of the serialized signature.
 old-location: opc\iopcdigitalsignature_getcanonicalizationmethod.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 59c89909-6e35-4210-b76c-c820a9bb0d8e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCanonicalizationMethod, GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCanonicalizationMethod method, IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetCanonicalizationMethod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetCanonicalizationMethod

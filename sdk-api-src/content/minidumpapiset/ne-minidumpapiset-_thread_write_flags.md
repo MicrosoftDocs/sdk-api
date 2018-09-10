@@ -4,7 +4,7 @@ title: "_THREAD_WRITE_FLAGS"
 author: windows-sdk-content
 description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\thread_write_flags.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THREAD_WRITE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - THREAD_WRITE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: THREAD_WRITE_FLAGS
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _THREAD_WRITE_FLAGS enumeration

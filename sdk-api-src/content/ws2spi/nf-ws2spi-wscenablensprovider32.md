@@ -4,17 +4,16 @@ title: WSCEnableNSProvider32 function
 author: windows-sdk-content
 description: Enables or disables a specified 32-bit namespace provider.
 old-location: winsock\wscenablensprovider32.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 5ab4f8bd-d32d-4962-aac7-2d92847d0e03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSCEnableNSProvider32, WSCEnableNSProvider32 function [Winsock], winsock.wscenablensprovider32, ws2spi/WSCEnableNSProvider32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 x64 Edition [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCEnableNSProvider32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCEnableNSProvider32 function

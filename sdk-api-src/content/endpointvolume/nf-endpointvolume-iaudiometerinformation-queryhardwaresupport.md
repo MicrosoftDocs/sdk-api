@@ -4,17 +4,16 @@ title: IAudioMeterInformation::QueryHardwareSupport
 author: windows-sdk-content
 description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
 old-location: coreaudio\iaudiometerinformation_queryhardwaresupport.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3f68a459-8c10-46f5-be5c-67b693d65b8b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioMeterInformation interface [Core Audio],QueryHardwareSupport method, IAudioMeterInformation.QueryHardwareSupport, IAudioMeterInformation::QueryHardwareSupport, IAudioMeterInformationQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioMeterInformation interface, coreaudio.iaudiometerinformation_queryhardwaresupport, endpointvolume/IAudioMeterInformation::QueryHardwareSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioMeterInformation.QueryHardwareSupport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioMeterInformation::QueryHardwareSupport

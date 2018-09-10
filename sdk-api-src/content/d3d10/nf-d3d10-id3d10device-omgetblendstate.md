@@ -4,17 +4,16 @@ title: ID3D10Device::OMGetBlendState
 author: windows-sdk-content
 description: Get the blend state of the output-merger stage.
 old-location: direct3d10\id3d10device_omgetblendstate.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetblendstate.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetBlendState method, ID3D10Device.OMGetBlendState, ID3D10Device::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 10], OMGetBlendState method [Direct3D 10],ID3D10Device interface, b8350c99-7325-98c2-8067-e749ec016907, d3d10/ID3D10Device::OMGetBlendState, direct3d10.id3d10device_omgetblendstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Device.OMGetBlendState
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::OMGetBlendState
@@ -69,7 +68,7 @@ Address of a pointer to a blend-state interface (see <a href="https://msdn.micro
 
 ### -param BlendFactor
 
-
+TBD
 
 
 ### -param pSampleMask [out]

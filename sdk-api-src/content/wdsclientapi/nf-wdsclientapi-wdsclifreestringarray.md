@@ -4,17 +4,16 @@ title: WdsCliFreeStringArray function
 author: windows-sdk-content
 description: This function can be used to free the array of string values that gets allocated by the WdsCliObtainDriverPackages function.
 old-location: wds\wdsclifreestringarray.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 37d96077-d3f0-4372-955d-f8c071d82230
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Deployment Services], wds.wdsclifreestringarray, wdsclientapi/WdsCliFreeStringArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliFreeStringArray
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliFreeStringArray function

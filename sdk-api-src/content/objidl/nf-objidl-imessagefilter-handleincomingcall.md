@@ -4,17 +4,16 @@ title: IMessageFilter::HandleInComingCall
 author: windows-sdk-content
 description: Provides a single entry point for incoming calls.
 old-location: com\imessagefilter_handleincomingcall.htm
-old-project: com
+tech.root: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageFilter.HandleInComingCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageFilter::HandleInComingCall

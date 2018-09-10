@@ -4,7 +4,7 @@ title: PHONE_HOOK_SWITCH_DEVICE
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
 old-location: tapi3\phone_hook_switch_device.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONE_HOOK_SWITCH_DEVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONE_HOOK_SWITCH_DEVICE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONE_HOOK_SWITCH_DEVICE
+req.redist: 
 ---
 
 # PHONE_HOOK_SWITCH_DEVICE enumeration

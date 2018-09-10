@@ -4,17 +4,16 @@ title: PTCloseProvider function
 author: windows-sdk-content
 description: Closes a print ticket provider handle.
 old-location: gdi\ptcloseprovider.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PTCloseProvider
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PTCloseProvider function

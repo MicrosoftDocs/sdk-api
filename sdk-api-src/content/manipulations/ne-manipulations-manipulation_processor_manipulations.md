@@ -4,7 +4,7 @@ title: MANIPULATION_PROCESSOR_MANIPULATIONS
 author: windows-sdk-content
 description: The MANIPULATION_PROCESSOR_MANIPULATIONS enumeration different kinds of manipulation which can be applied on a target object.
 old-location: wintouch\manipulation_processor_manipulations.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MANIPULATION_PROCESSOR_MANIPULATIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.redist: 
 ---
 
 # MANIPULATION_PROCESSOR_MANIPULATIONS enumeration

@@ -4,7 +4,7 @@ title: MANIPULATION_TRANSFORM
 author: windows-sdk-content
 description: Defines the transformation data for a manipulation.
 old-location: input_intcontext\manipulation_transform.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_TRANSFORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MANIPULATION_TRANSFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MANIPULATION_TRANSFORM
+req.redist: 
 ---
 
 # MANIPULATION_TRANSFORM structure

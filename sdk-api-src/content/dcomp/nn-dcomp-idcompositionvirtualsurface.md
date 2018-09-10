@@ -4,7 +4,7 @@ title: IDCompositionVirtualSurface
 author: windows-sdk-content
 description: Represents a sparsely allocated bitmap that can be associated with a visual for composition in a visual tree.
 old-location: directcomp\idcompositionvirtualsurface.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionVirtualSurface
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionVirtualSurface interface

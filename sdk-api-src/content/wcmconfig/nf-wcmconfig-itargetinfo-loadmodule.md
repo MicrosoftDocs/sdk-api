@@ -4,17 +4,16 @@ title: ITargetInfo::LoadModule
 author: windows-sdk-content
 description: Loads the module from the offline installation location.
 old-location: smi\itargetinfo_loadmodule.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 863aefc6-d777-4af9-b310-adadef993bcd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],LoadModule method, ITargetInfo.LoadModule, ITargetInfo::LoadModule, LoadModule, LoadModule method [SMI], LoadModule method [SMI],ITargetInfo interface, smi.itargetinfo_loadmodule, wcmconfig/ITargetInfo::LoadModule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.LoadModule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::LoadModule

@@ -4,17 +4,16 @@ title: IWICComponentFactory::CreateMetadataReader
 author: windows-sdk-content
 description: Creates an IWICMetadataReader based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareader.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICComponentFactory.CreateMetadataReader
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICComponentFactory::CreateMetadataReader

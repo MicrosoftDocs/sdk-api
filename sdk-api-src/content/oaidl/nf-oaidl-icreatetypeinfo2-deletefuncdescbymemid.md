@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::DeleteFuncDescByMemId
 author: windows-sdk-content
 description: Deletes the specified function description (FUNCDESC).
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteFuncDescByMemId, DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDescByMemId method, ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.DeleteFuncDescByMemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::DeleteFuncDescByMemId

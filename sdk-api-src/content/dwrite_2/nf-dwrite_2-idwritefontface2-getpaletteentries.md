@@ -4,17 +4,16 @@ title: IDWriteFontFace2::GetPaletteEntries
 author: windows-sdk-content
 description: Gets color values from the font's color palette.
 old-location: directwrite\idwritefontface2_getpaletteentries.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4678E96C-A5E6-4294-8927-B71F55149342
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct Write], GetPaletteEntries method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntries method, IDWriteFontFace2.GetPaletteEntries, IDWriteFontFace2::GetPaletteEntries, directwrite.idwritefontface2_getpaletteentries, dwrite_2/IDWriteFontFace2::GetPaletteEntries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace2.GetPaletteEntries
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace2::GetPaletteEntries

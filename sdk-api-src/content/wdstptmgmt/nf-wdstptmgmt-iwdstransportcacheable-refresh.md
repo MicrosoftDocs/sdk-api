@@ -4,17 +4,16 @@ title: IWdsTransportCacheable::Refresh
 author: windows-sdk-content
 description: Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's IWdsTransportCacheable::Dirty property has been set.
 old-location: wds\iwdstransportcacheable_refresh.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportCacheable.Refresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportCacheable::Refresh

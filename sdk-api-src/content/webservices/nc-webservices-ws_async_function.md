@@ -4,7 +4,7 @@ title: WS_ASYNC_FUNCTION
 author: windows-sdk-content
 description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
 old-location: wsw\ws_async_function.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: v.1.0
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ASYNC_FUNCTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_ASYNC_FUNCTION callback function

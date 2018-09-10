@@ -4,7 +4,7 @@ title: ITfFnGetPreferredTouchKeyboardLayout
 author: windows-sdk-content
 description: The ITfFnGetPreferredTouchKeyboardLayout interface is implemented by a text service to specify the use of a particular keyboard layout supported by the inbox Windows 8 touch keyboard.
 old-location: tsf\itffngetpreferredtouchkeyboardlayout.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 1BC4A446-AEDC-44AA-9BD7-786917AD2556
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnGetPreferredTouchKeyboardLayout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfFnGetPreferredTouchKeyboardLayout interface

@@ -4,17 +4,16 @@ title: ITDirectoryObject::EnumerateDialableAddrs
 author: windows-sdk-content
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObject.EnumerateDialableAddrs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObject::EnumerateDialableAddrs

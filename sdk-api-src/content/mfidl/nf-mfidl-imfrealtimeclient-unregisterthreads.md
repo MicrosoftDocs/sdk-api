@@ -4,17 +4,16 @@ title: IMFRealTimeClient::UnregisterThreads
 author: windows-sdk-content
 description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclient_unregisterthreads.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9bd65ff1-c283-47b8-8299-383b2b773c18
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9bd65ff1-c283-47b8-8299-383b2b773c18, IMFRealTimeClient interface [Media Foundation],UnregisterThreads method, IMFRealTimeClient.UnregisterThreads, IMFRealTimeClient::UnregisterThreads, UnregisterThreads, UnregisterThreads method [Media Foundation], UnregisterThreads method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_unregisterthreads, mfidl/IMFRealTimeClient::UnregisterThreads
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFRealTimeClient.UnregisterThreads
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFRealTimeClient::UnregisterThreads

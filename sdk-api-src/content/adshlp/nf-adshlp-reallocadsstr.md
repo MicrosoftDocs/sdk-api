@@ -4,17 +4,16 @@ title: ReallocADsStr function
 author: windows-sdk-content
 description: Creates a copy of a Unicode string.
 old-location: adsi\reallocadsstr.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 805d45dc-8da4-4c15-a6d1-8967a4da9c24
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ReallocADsStr, ReallocADsStr function [ADSI], _ds_reallocadsstr, adshlp/ReallocADsStr, adsi.reallocadsstr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ReallocADsStr
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReallocADsStr function

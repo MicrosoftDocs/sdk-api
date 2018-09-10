@@ -4,17 +4,16 @@ title: ClusterResourceOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, ClusterResourceOpenEnum, ClusterResourceOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/ClusterResourceOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ClusterResourceOpenEnum
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterResourceOpenEnum function

@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::SetSurfaceDesc
 author: windows-sdk-content
 description: Sets the characteristics of an existing surface.
 old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 541bd833-20c4-4b47-a3ed-c29f228a0626
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetSurfaceDesc method, IDirectDrawSurface7.SetSurfaceDesc, IDirectDrawSurface7::SetSurfaceDesc, SetSurfaceDesc, SetSurfaceDesc method [DirectDraw], SetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetSurfaceDesc, directdraw.idirectdrawsurface7_setsurfacedesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.SetSurfaceDesc
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::SetSurfaceDesc
@@ -59,9 +58,14 @@ Sets the characteristics of an existing surface.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

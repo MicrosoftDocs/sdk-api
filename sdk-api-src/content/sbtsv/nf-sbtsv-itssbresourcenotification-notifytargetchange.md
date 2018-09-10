@@ -4,17 +4,16 @@ title: ITsSbResourceNotification::NotifyTargetChange
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourceNotification.NotifyTargetChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourceNotification::NotifyTargetChange

@@ -4,17 +4,16 @@ title: RpcBindingSetOption function
 author: windows-sdk-content
 description: The RpcBindingSetOption function enables client applications to specify message-queuing options on a binding handle.
 old-location: rpc\rpcbindingsetoption.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcBindingSetOption, RpcBindingSetOption function [RPC], _rpc_rpcbindingsetoption, rpc.rpcbindingsetoption, rpcdce/RpcBindingSetOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcBindingSetOption
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingSetOption function

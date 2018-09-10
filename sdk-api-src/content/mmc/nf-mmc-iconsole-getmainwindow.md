@@ -4,17 +4,16 @@ title: IConsole::GetMainWindow
 author: windows-sdk-content
 description: Retrieves a handle to the main frame window.
 old-location: mmc\iconsole_getmainwindow.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsole.GetMainWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsole::GetMainWindow

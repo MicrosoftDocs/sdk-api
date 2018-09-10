@@ -4,7 +4,7 @@ title: "_TASK_COMPATIBILITY"
 author: windows-sdk-content
 description: Defines what versions of Task Scheduler or the AT command that the task is compatible with.
 old-location: taskschd\task_compatibility.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: a842ab84-26e1-49bd-bf57-1a1073a17183
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_COMPATIBILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_COMPATIBILITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_COMPATIBILITY
+req.redist: 
 ---
 
 # _TASK_COMPATIBILITY enumeration

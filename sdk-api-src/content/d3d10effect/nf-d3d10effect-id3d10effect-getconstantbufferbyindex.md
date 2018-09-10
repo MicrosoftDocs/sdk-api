@@ -4,17 +4,16 @@ title: ID3D10Effect::GetConstantBufferByIndex
 author: windows-sdk-content
 description: Get a constant buffer by index.
 old-location: direct3d10\id3d10effect_getconstantbufferbyindex.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyindex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 6e59189f-e563-27f9-5003-f6af77fe5eb9, GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10Effect.GetConstantBufferByIndex, ID3D10Effect::GetConstantBufferByIndex, d3d10effect/ID3D10Effect::GetConstantBufferByIndex, direct3d10.id3d10effect_getconstantbufferbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Effect.GetConstantBufferByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Effect::GetConstantBufferByIndex

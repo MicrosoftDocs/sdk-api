@@ -4,17 +4,16 @@ title: InternetSetPerSiteCookieDecisionW function
 author: windows-sdk-content
 description: Sets a decision on cookies for a given domain.
 old-location: wininet\internetsetpersitecookiedecision.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: c25699b9-f79a-443b-b9a4-461c379fa8e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetSetPerSiteCookieDecision, InternetSetPerSiteCookieDecision function [WinINet], InternetSetPerSiteCookieDecisionA, InternetSetPerSiteCookieDecisionW, wininet.internetsetpersitecookiedecision, wininet/InternetSetPerSiteCookieDecision, wininet/InternetSetPerSiteCookieDecisionA, wininet/InternetSetPerSiteCookieDecisionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetSetPerSiteCookieDecisionW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetSetPerSiteCookieDecisionW function

@@ -4,17 +4,16 @@ title: IDataManager::get_MinFreeDisk
 author: windows-sdk-content
 description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins.
 old-location: pla\idatamanager_minfreedisk.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e5f4f752-ae96-4a1b-99a4-ff3b73fe3743
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager.get_MinFreeDisk, IDataManager::MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA],IDataManager interface, base.idatamanager_minfreedisk, get_MinFreeDisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataManager.put_MinFreeDisk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::get_MinFreeDisk

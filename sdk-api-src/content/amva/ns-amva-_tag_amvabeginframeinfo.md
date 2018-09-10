@@ -4,7 +4,7 @@ title: "_tag_AMVABeginFrameInfo"
 author: windows-sdk-content
 description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
 old-location: dshow\amvabeginframeinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVABeginFrameInfo, *LPAMVABeginFrameInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVABeginFrameInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVABeginFrameInfo, *LPAMVABeginFrameInfo
+req.redist: 
 ---
 
 # _tag_AMVABeginFrameInfo structure

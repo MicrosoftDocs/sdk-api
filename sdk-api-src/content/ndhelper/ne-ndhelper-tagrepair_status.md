@@ -4,7 +4,7 @@ title: tagREPAIR_STATUS
 author: windows-sdk-content
 description: The REPAIR_STATUS enumeration describes the result of a helper class attempting a repair option.
 old-location: ndf\repair_status.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: efc3b64f-d3f3-41da-ae43-c7d8df9bf8e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REPAIR_STATUS
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: REPAIR_STATUS
+req.redist: 
 ---
 
 # tagREPAIR_STATUS enumeration

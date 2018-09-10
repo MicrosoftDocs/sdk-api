@@ -4,17 +4,16 @@ title: PeerGroupClose function
 author: windows-sdk-content
 description: The PeerGroupClose function invalidates the peer group handle obtained by a previous call to the PeerGroupCreate, PeerGroupJoin, or PeerGroupOpen function.
 old-location: p2p\peergroupclose.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4438e6c1-8c25-4656-bac5-dda43421ee43
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGroupClose, PeerGroupClose function [Peer Networking], p2p.peergroupclose, p2p/PeerGroupClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupClose
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupClose function

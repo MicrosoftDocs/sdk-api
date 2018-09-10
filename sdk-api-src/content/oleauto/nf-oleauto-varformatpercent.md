@@ -4,17 +4,16 @@ title: VarFormatPercent function
 author: windows-sdk-content
 description: Formats a variant containing percentages into a string form.
 old-location: automat\varformatpercent.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 3b0e4f05-6ca4-4685-bdaa-dd44a6a7d89e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarFormatPercent, VarFormatPercent function [Automation], _oa96_VarFormatPercent, automat.varformatpercent, oleauto/VarFormatPercent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarFormatPercent
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarFormatPercent function

@@ -4,17 +4,16 @@ title: IADsAccessControlList::RemoveAce
 author: windows-sdk-content
 description: Removes an access-control entry (ACE) from the access-control list (ACL).
 old-location: adsi\iadsaccesscontrollist_removeace.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 29c1ffcc-5a66-4ee3-889a-747953c604a4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccessControlList.RemoveAce, IADsAccessControlList::RemoveAce, RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI],IADsAccessControlList interface, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsAccessControlList.RemoveAce
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsAccessControlList::RemoveAce

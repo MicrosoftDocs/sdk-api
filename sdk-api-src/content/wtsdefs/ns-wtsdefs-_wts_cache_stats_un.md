@@ -4,7 +4,7 @@ title: "_WTS_CACHE_STATS_UN"
 author: windows-sdk-content
 description: Contains cache statistics.
 old-location: termserv\wts_cache_stats_un.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e6abb47e-248b-482d-9206-936092c391ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_CACHE_STATS_UN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_CACHE_STATS_UN, *PWTS_CACHE_STATS_UN
+req.redist: 
 ---
 
 # _WTS_CACHE_STATS_UN structure

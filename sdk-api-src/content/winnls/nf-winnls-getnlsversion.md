@@ -4,17 +4,16 @@ title: GetNLSVersion function
 author: windows-sdk-content
 description: Retrieves information about the current version of a specified NLS capability for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the GetNLSVersionEx function to GetNLSVersion because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, for which GetNLSVersionEx retrieves enough information to determine if sort behavior has changed. Any application that runs only on Windows Vista and later should use GetNLSVersionEx or at least pass the NLSVERSIONINFOEX structure when calling GetNLSVersion to obtain additional sorting versioning data.
 old-location: intl\getnlsversion.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 09bc53e1-69f4-4a71-82b3-1b1b84a1b84f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetNLSVersion, GetNLSVersion function [Internationalization for Windows Applications], _win32_GetNLSVersion, intl.getnlsversion, winnls/GetNLSVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetNLSVersion
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNLSVersion function

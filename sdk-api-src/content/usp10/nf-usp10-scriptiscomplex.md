@@ -4,17 +4,16 @@ title: ScriptIsComplex function
 author: windows-sdk-content
 description: Determines whether a Unicode string requires complex script processing.
 old-location: intl\scriptiscomplex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: SIC_ASCIIDIGIT, SIC_COMPLEX, SIC_NEUTRAL, ScriptIsComplex, ScriptIsComplex function [Internationalization for Windows Applications], _win32_ScriptIsComplex, intl.scriptiscomplex, usp10/ScriptIsComplex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later on Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptIsComplex
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ---
 
 # ScriptIsComplex function

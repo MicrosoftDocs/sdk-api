@@ -4,17 +4,16 @@ title: IDXGIOutputDuplication::GetFrameDirtyRects
 author: windows-sdk-content
 description: Gets information about dirty rectangles for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframedirtyrects.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F242E7C8-6A39-4B39-A811-243E17408577
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirtyRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameDirtyRects method, IDXGIOutputDuplication.GetFrameDirtyRects, IDXGIOutputDuplication::GetFrameDirtyRects, direct3ddxgi.idxgioutputduplication_getframedirtyrects, dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutputDuplication.GetFrameDirtyRects
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutputDuplication::GetFrameDirtyRects

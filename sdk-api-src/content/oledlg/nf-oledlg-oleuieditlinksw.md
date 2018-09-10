@@ -4,17 +4,16 @@ title: OleUIEditLinksW function
 author: windows-sdk-content
 description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
 old-location: com\oleuieditlinks.htm
-old-project: com
+tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIEditLinksW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIEditLinksW function

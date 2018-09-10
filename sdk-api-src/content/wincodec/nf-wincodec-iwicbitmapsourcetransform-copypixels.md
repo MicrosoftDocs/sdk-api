@@ -4,17 +4,16 @@ title: IWICBitmapSourceTransform::CopyPixels
 author: windows-sdk-content
 description: Copies pixel data using the supplied input parameters.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICBitmapSourceTransform.CopyPixels
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapSourceTransform::CopyPixels

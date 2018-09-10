@@ -4,7 +4,7 @@ title: IPSEC_V4_UDP_ENCAPSULATION0_
 author: windows-sdk-content
 description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.
 old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_V4_UDP_ENCAPSULATION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_V4_UDP_ENCAPSULATION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_V4_UDP_ENCAPSULATION0
+req.redist: 
 ---
 
 # IPSEC_V4_UDP_ENCAPSULATION0_ structure

@@ -4,7 +4,7 @@ title: D3DX11_FFT_CREATE_FLAG
 author: windows-sdk-content
 description: FFT creation flags.
 old-location: direct3d11\d3dx11_fft_create_flag.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 0e7eab8d-bbc5-4704-aa92-35de4a1eda28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_FFT_CREATE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DX11_FFT_CREATE_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DX11_FFT_CREATE_FLAG
+req.redist: 
 ---
 
 # D3DX11_FFT_CREATE_FLAG enumeration

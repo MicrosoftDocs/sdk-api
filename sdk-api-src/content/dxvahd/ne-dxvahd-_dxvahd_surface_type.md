@@ -4,7 +4,7 @@ title: "_DXVAHD_SURFACE_TYPE"
 author: windows-sdk-content
 description: Specifies the type of video surface created by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_surface_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 06df2d2f-9163-4672-8ea4-57f1942320c5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_SURFACE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_SURFACE_TYPE
+req.redist: 
 ---
 
 # _DXVAHD_SURFACE_TYPE enumeration

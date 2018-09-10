@@ -4,7 +4,7 @@ title: MF_TRANSFER_VIDEO_FRAME_FLAGS
 author: windows-sdk-content
 description: "."
 old-location: stream\mf_transfer_video_frame_flags.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0F4006D0-11B7-48F3-8ED4-00B09EFA67D1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TRANSFER_VIDEO_FRAME_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TRANSFER_VIDEO_FRAME_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TRANSFER_VIDEO_FRAME_FLAGS
+req.redist: 
 ---
 
 # MF_TRANSFER_VIDEO_FRAME_FLAGS enumeration

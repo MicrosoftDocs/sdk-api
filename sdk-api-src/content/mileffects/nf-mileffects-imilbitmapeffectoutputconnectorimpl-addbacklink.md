@@ -4,17 +4,16 @@ title: IMILBitmapEffectOutputConnectorImpl::AddBackLink
 author: windows-sdk-content
 description: IMILBitmapEffectOutputConnectorImpl::AddBackLink method
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\addbacklink.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],AddBackLink method, IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectOutputConnectorImpl.AddBackLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectOutputConnectorImpl::AddBackLink

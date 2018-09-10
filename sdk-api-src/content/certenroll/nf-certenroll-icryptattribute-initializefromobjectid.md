@@ -4,17 +4,16 @@ title: ICryptAttribute::InitializeFromObjectId
 author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an object identifier.
 old-location: security\icryptattribute_initializefromobjectid_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICryptAttribute.InitializeFromObjectId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttribute::InitializeFromObjectId

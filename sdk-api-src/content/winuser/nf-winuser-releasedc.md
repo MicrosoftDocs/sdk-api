@@ -4,17 +4,16 @@ title: ReleaseDC function
 author: windows-sdk-content
 description: The ReleaseDC function releases a device context (DC), freeing it for use by other applications. The effect of the ReleaseDC function depends on the type of DC. It frees only common and window DCs. It has no effect on class or private DCs.
 old-location: gdi\releasedc.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ReleaseDC
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ReleaseDC function

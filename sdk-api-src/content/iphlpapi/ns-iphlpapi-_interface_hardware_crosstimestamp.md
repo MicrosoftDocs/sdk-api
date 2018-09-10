@@ -4,7 +4,7 @@ title: "_INTERFACE_HARDWARE_CROSSTIMESTAMP"
 author: windows-sdk-content
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_hardware_crosstimestamp.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: DAEA7430-85C1-4FF5-8F85-C58EDF27BF3D
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERFACE_HARDWARE_CROSSTIMESTAMP, *PINTERFACE_HARDWARE_CROSSTIMESTAMP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERFACE_HARDWARE_CROSSTIMESTAMP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERFACE_HARDWARE_CROSSTIMESTAMP, *PINTERFACE_HARDWARE_CROSSTIMESTAMP
+req.redist: 
 ---
 
 # _INTERFACE_HARDWARE_CROSSTIMESTAMP structure

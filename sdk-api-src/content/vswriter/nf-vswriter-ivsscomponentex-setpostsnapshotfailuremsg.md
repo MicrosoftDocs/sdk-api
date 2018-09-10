@@ -4,17 +4,16 @@ title: IVssComponentEx::SetPostSnapshotFailureMsg
 author: windows-sdk-content
 description: Sets a PostSnapshot failure message string for a component.
 old-location: base\ivsscomponentex_setpostsnapshotfailuremsg.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 7cf4e512-d557-4187-b489-5cca76c0560f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssComponentEx interface,SetPostSnapshotFailureMsg method, IVssComponentEx.SetPostSnapshotFailureMsg, IVssComponentEx::SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg method, SetPostSnapshotFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setpostsnapshotfailuremsg, vswriter/IVssComponentEx::SetPostSnapshotFailureMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponentEx.SetPostSnapshotFailureMsg
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponentEx::SetPostSnapshotFailureMsg

@@ -4,17 +4,16 @@ title: IBackgroundCopyJob2::GetNotifyCmdLine
 author: windows-sdk-content
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 62978315-e893-4617-8e6d-63bab8204913
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetNotifyCmdLine, GetNotifyCmdLine method [BITS], GetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetNotifyCmdLine method, IBackgroundCopyJob2.GetNotifyCmdLine, IBackgroundCopyJob2::GetNotifyCmdLine, _drz_ibackgroundcopyjob2_getnotifycmdline, bits.ibackgroundcopyjob2_getnotifycmdline, bits1_5/IBackgroundCopyJob2::GetNotifyCmdLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_SCHEME
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob2.GetNotifyCmdLine
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx2.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBackgroundCopyJob2::GetNotifyCmdLine

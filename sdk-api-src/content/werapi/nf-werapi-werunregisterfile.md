@@ -4,17 +4,16 @@ title: WerUnregisterFile function
 author: windows-sdk-content
 description: Removes a file from the list of files to be added to reports generated for the current process.
 old-location: wer\werunregisterfile.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerUnregisterFile
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerUnregisterFile function

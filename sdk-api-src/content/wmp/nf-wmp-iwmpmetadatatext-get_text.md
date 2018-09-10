@@ -4,17 +4,16 @@ title: IWMPMetadataText::get_text
 author: windows-sdk-content
 description: The get_text method retrieves the metadata text.
 old-location: wmp\iwmpmetadatatext_get_text.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMetadataText.get_text
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMetadataText::get_text

@@ -4,17 +4,16 @@ title: SHQueryInfoKeyW function
 author: windows-sdk-content
 description: Retrieves information about a specified registry key.
 old-location: shell\SHQueryInfoKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dea535e7-5e61-4587-aa22-b1d62b76943a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHQueryInfoKey, SHQueryInfoKey function [Windows Shell], SHQueryInfoKeyA, SHQueryInfoKeyW, _win32_SHQueryInfoKey, shell.SHQueryInfoKey, shlwapi/SHQueryInfoKey, shlwapi/SHQueryInfoKeyA, shlwapi/SHQueryInfoKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHQueryInfoKeyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHQueryInfoKeyW function

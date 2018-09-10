@@ -4,7 +4,7 @@ title: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
 author: windows-sdk-content
 description: Describes flags that are used to create a device context state object (ID3DDeviceContextState) with the ID3D11Device1::CreateDeviceContextState method.
 old-location: direct3d11\d3d11_1_create_device_context_state_flag.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 45F1C268-AA8A-44D5-BE9E-0C185738EB69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
+req.redist: 
 ---
 
 # D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG enumeration

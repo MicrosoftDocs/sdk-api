@@ -4,17 +4,16 @@ title: CreateStdDispatch function
 author: windows-sdk-content
 description: Creates a standard implementation of the IDispatch interface through a single function call. This simplifies exposing objects through Automation.
 old-location: automat\createstddispatch.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateStdDispatch
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateStdDispatch function

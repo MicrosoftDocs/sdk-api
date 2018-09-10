@@ -4,17 +4,16 @@ title: WBEMTime::GetDMTFNonNtfs
 author: windows-sdk-content
 description: The GetDMTFNonNtfs method gets a DMTF date in a CIM Date and Time Format from a FAT that does not have time zones.
 old-location: wmi\wbemtime_getdmtfnonntfs.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::GetDMTFNonNtfs

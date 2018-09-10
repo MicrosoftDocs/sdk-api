@@ -4,17 +4,16 @@ title: IPNPXDeviceAssociation::Delete
 author: windows-sdk-content
 description: Removes an entry from the association database and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_delete.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPNPXDeviceAssociation.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPNPXDeviceAssociation::Delete

@@ -4,7 +4,7 @@ title: "_VDS_SUB_SYSTEM_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a subsystem object.
 old-location: base\vds_sub_system_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 17a07d21-a10a-4f18-a975-def6db073256
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SUB_SYSTEM_FLAG, *PVDS_SUB_SYSTEM_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_SUB_SYSTEM_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SUB_SYSTEM_FLAG, *PVDS_SUB_SYSTEM_FLAG
+req.redist: 
 ---
 
 # _VDS_SUB_SYSTEM_FLAG enumeration

@@ -4,17 +4,16 @@ title: IEnumWorkItems::Clone
 author: windows-sdk-content
 description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
 old-location: taskschd\ienumworkitems_clone.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumWorkItems.Clone
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # IEnumWorkItems::Clone

@@ -4,17 +4,16 @@ title: GetShortPathNameA function
 author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNameA, GetShortPathNameW, _win32_getshortpathname, base.getshortpathname, fileapi/GetShortPathName, fileapi/GetShortPathNameA, fileapi/GetShortPathNameW, fs.getshortpathname, winbase/GetShortPathName, winbase/GetShortPathNameA, winbase/GetShortPathNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -57,10 +57,8 @@ api_name:
  - GetShortPathNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetShortPathNameA function

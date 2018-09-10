@@ -4,7 +4,7 @@ title: INTERNET_DIAGNOSTIC_SOCKET_INFO
 author: windows-sdk-content
 description: The INTERNET_DIAGNOSTIC_SOCKET_INFO structure is returned by the InternetQueryOption function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request.
 old-location: wininet\internet_diagnostic_socket_info.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: a659fcfd-49c4-4d2b-8b1d-62deb033bf8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_DIAGNOSTIC_SOCKET_INFO, *LPINTERNET_DIAGNOSTIC_SOCKET_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_DIAGNOSTIC_SOCKET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_DIAGNOSTIC_SOCKET_INFO, *LPINTERNET_DIAGNOSTIC_SOCKET_INFO
+req.redist: 
 ---
 
 # INTERNET_DIAGNOSTIC_SOCKET_INFO structure

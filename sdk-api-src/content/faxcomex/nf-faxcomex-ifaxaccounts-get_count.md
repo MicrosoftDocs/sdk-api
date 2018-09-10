@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxAccounts.get_Count
 title: IFaxAccounts::get_Count
 author: windows-sdk-content
 description: Holds the number of items in the IFaxAccounts collection.
-old-location: fax\_mfax_faxaccounts_count_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxAccounts object, FaxAccounts object [Fax Service],Count property, FaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxAccounts interface, IFaxAccounts interface [Fax Service],Count property, IFaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp, faxcomex/IFaxAccounts::Count, faxcomex/IFaxAccounts::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxAccounts.Count
+ - IFaxAccounts.Count
+ - IFaxAccounts.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxAccounts::get_Count

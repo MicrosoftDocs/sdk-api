@@ -4,17 +4,16 @@ title: ITsSbGenericNotifySink::GetWaitTimeout
 author: windows-sdk-content
 description: Retrieves the wait timeout.
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbGenericNotifySink.GetWaitTimeout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbGenericNotifySink::GetWaitTimeout

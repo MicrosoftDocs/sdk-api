@@ -4,7 +4,7 @@ title: "_LARGE_INTEGER"
 author: windows-sdk-content
 description: Represents a 64-bit signed integer value.
 old-location: winprog\large_integer_str.htm
-old-project: WinProg
+tech.root: WinProg
 ms.assetid: 6a2985b6-5baf-49ab-af28-67c1374557ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LARGE_INTEGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LARGE_INTEGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: LARGE_INTEGER
+req.redist: 
 ---
 
 # _LARGE_INTEGER structure

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0002"
 author: windows-sdk-content
 description: Specifies the ID of the property for the BITS job.
 old-location: bits\bits_job_property_id.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits5_0.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_JOB_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BITS_JOB_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BITS_JOB_PROPERTY_ID
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0002 enumeration

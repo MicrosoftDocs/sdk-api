@@ -4,17 +4,16 @@ title: ICertEncodeStringArray::GetStringType
 author: windows-sdk-content
 description: Returns the type of string values that the string array contains.
 old-location: security\icertencodestringarray_getstringtype.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetStringType, GetStringType method [Security], GetStringType method [Security],CCertEncodeStringArray object, GetStringType method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetStringType method, ICertEncodeStringArray.GetStringType, ICertEncodeStringArray::GetStringType, _certsrv_icertencodestringarray_getstringtype, certenc/ICertEncodeStringArray::GetStringType, security.icertencodestringarray_getstringtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeStringArray.GetStringType
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeStringArray::GetStringType

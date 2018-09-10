@@ -4,17 +4,16 @@ title: IMFMediaSourceExtension::SetDuration
 author: windows-sdk-content
 description: Sets the duration of the media source in 100-nanosecond units.
 old-location: mf\imfmediasourceextension_setduration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetDuration method, IMFMediaSourceExtension.SetDuration, IMFMediaSourceExtension::SetDuration, SetDuration, SetDuration method [Media Foundation], SetDuration method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setduration, mfmediaengine/IMFMediaSourceExtension::SetDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceExtension.SetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceExtension::SetDuration

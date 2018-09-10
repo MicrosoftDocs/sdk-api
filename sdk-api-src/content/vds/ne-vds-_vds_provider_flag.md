@@ -4,7 +4,7 @@ title: "_VDS_PROVIDER_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a provider object.
 old-location: base\vds_provider_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 610e11a8-6670-4e76-baa6-58dd78f7611b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PROVIDER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PROVIDER_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PROVIDER_FLAG
+req.redist: 
 ---
 
 # _VDS_PROVIDER_FLAG enumeration

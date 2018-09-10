@@ -4,17 +4,16 @@ title: ICreateProcessInputs::GetCreateFlags
 author: windows-sdk-content
 description: Gets the additional flags that will be passed to CreateProcess.
 old-location: shell\icreateprocessinputs_getcreateflags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6884E7A0-17E8-4F5F-B0A4-85BD3745ED12
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCreateFlags, GetCreateFlags method [Windows Shell], GetCreateFlags method [Windows Shell],ICreateProcessInputs interface, ICreateProcessInputs interface [Windows Shell],GetCreateFlags method, ICreateProcessInputs.GetCreateFlags, ICreateProcessInputs::GetCreateFlags, shell.icreateprocessinputs_getcreateflags, shobjidl_core/ICreateProcessInputs::GetCreateFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateProcessInputs.GetCreateFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateProcessInputs::GetCreateFlags

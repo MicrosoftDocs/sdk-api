@@ -4,7 +4,7 @@ title: IDXGIDecodeSwapChain
 author: windows-sdk-content
 description: Represents a swap chain that is used by desktop media apps to decode video data and show it on a DirectComposition surface.
 old-location: direct3ddxgi\idxgidecodeswapchain.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDecodeSwapChain
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDecodeSwapChain interface

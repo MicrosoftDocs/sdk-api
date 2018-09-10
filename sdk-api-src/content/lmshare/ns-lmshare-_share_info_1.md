@@ -4,7 +4,7 @@ title: "_SHARE_INFO_1"
 author: windows-sdk-content
 description: Contains information about the shared resource, including the name and type of the resource, and a comment associated with the resource.
 old-location: fs\share_info_1_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 9bc69340-4ea5-4180-ae5c-667c0a245b66
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_INFO_1, *PSHARE_INFO_1, *LPSHARE_INFO_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARE_INFO_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SHARE_INFO_1, *PSHARE_INFO_1, *LPSHARE_INFO_1
+req.redist: 
 ---
 
 # _SHARE_INFO_1 structure

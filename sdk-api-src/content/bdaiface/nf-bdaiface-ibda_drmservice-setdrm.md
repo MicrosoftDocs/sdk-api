@@ -4,17 +4,16 @@ title: IBDA_DRMService::SetDRM
 author: windows-sdk-content
 description: Activates a digital rights management (DRM) system on the media transform device (MTD).
 old-location: mstv\ibda_drmservice_setdrm.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 89da348f-c79c-4c77-8270-51a71b0a1a89
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DRMService interface [Microsoft TV Technologies],SetDRM method, IBDA_DRMService.SetDRM, IBDA_DRMService::SetDRM, SetDRM, SetDRM method [Microsoft TV Technologies], SetDRM method [Microsoft TV Technologies],IBDA_DRMService interface, bdaiface/IBDA_DRMService::SetDRM, mstv.ibda_drmservice_setdrm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DRMService.SetDRM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DRMService::SetDRM

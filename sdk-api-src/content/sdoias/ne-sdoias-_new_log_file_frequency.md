@@ -4,7 +4,7 @@ title: "_NEW_LOG_FILE_FREQUENCY"
 author: windows-sdk-content
 description: The values of the NEW_LOG_FILE_FREQUENCY enumeration type specify how frequently new log files are created.
 old-location: nps\SDO_new_log_file_frequency.htm
-old-project: nps
+tech.root: nps
 ms.assetid: d051ff06-f425-49e5-ac29-6d7873174eb7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NEW_LOG_FILE_FREQUENCY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NEW_LOG_FILE_FREQUENCY
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: NEW_LOG_FILE_FREQUENCY
+req.redist: 
 ---
 
 # _NEW_LOG_FILE_FREQUENCY enumeration

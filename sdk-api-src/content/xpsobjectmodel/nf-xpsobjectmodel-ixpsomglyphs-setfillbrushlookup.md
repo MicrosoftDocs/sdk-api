@@ -4,17 +4,16 @@ title: IXpsOMGlyphs::SetFillBrushLookup
 author: windows-sdk-content
 description: Sets the lookup key name of a shared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlookup.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: a983583b-8698-48aa-af24-2e71d87d30c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMGlyphs.SetFillBrushLookup, IXpsOMGlyphs::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLookup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMGlyphs.SetFillBrushLookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMGlyphs::SetFillBrushLookup

@@ -4,7 +4,7 @@ title: "_CRYPT_RETRIEVE_AUX_INFO"
 author: windows-sdk-content
 description: Contains optional information to pass to the CryptRetrieveObjectByUrl function.
 old-location: security\crypt_retrieve_aux_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 33ea51e7-c3e3-4cf8-ade0-099cb8b2e651
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_RETRIEVE_AUX_INFO, *PCRYPT_RETRIEVE_AUX_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_RETRIEVE_AUX_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_RETRIEVE_AUX_INFO, *PCRYPT_RETRIEVE_AUX_INFO
+req.redist: 
 ---
 
 # _CRYPT_RETRIEVE_AUX_INFO structure

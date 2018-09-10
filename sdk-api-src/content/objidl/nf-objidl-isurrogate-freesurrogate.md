@@ -4,17 +4,16 @@ title: ISurrogate::FreeSurrogate
 author: windows-sdk-content
 description: Unloads a DLL server.
 old-location: com\isurrogate_freesurrogate.htm
-old-project: com
+tech.root: com
 ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeSurrogate, FreeSurrogate method [COM], FreeSurrogate method [COM],ISurrogate interface, ISurrogate interface [COM],FreeSurrogate method, ISurrogate.FreeSurrogate, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurrogate.FreeSurrogate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISurrogate::FreeSurrogate

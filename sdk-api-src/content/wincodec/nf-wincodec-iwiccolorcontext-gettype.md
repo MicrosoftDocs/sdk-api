@@ -4,17 +4,16 @@ title: IWICColorContext::GetType
 author: windows-sdk-content
 description: Retrieves the color context type.
 old-location: wic\_wic_codec_iwiccolorcontext_gettype.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 34b23e94-bf6a-4440-825f-3997658e0095
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetType method, IWICColorContext.GetType, IWICColorContext::GetType, _wic_codec_iwiccolorcontext_gettype, wic._wic_codec_iwiccolorcontext_gettype, wincodec/IWICColorContext::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICColorContext.GetType
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICColorContext::GetType

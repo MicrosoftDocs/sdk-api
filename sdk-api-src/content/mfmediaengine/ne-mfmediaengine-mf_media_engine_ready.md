@@ -4,7 +4,7 @@ title: MF_MEDIA_ENGINE_READY
 author: windows-sdk-content
 description: Defines ready-state values for the Media Engine.
 old-location: mf\mf_media_engine_ready.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ADA5BBD6-B831-4C19-8770-318F0C5FDD6F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfmediaengine.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_READY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_MEDIA_ENGINE_READY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_MEDIA_ENGINE_READY
+req.redist: 
 ---
 
 # MF_MEDIA_ENGINE_READY enumeration

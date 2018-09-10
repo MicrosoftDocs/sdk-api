@@ -4,17 +4,16 @@ title: RpcRevertToSelf function
 author: windows-sdk-content
 description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.
 old-location: rpc\rpcreverttoself.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 07bbf6fa-f1df-4d9c-ae67-e79e2ccc12c8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcRevertToSelf, RpcRevertToSelf function [RPC], _rpc_rpcreverttoself, rpc.rpcreverttoself, rpcdce/RpcRevertToSelf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcRevertToSelf
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcRevertToSelf function

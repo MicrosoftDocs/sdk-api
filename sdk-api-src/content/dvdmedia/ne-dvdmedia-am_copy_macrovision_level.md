@@ -4,7 +4,7 @@ title: AM_COPY_MACROVISION_LEVEL
 author: windows-sdk-content
 description: Identifies the analog copy protection level.
 old-location: dshow\am_copy_macrovision_level.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d71f78f4-1107-46ba-afa8-7de87e20d814
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_COPY_MACROVISION_LEVEL, *PAM_COPY_MACROVISION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_COPY_MACROVISION_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_COPY_MACROVISION_LEVEL, *PAM_COPY_MACROVISION_LEVEL
+req.redist: 
 ---
 
 # AM_COPY_MACROVISION_LEVEL enumeration

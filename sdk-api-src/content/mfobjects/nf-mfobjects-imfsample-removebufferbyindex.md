@@ -4,17 +4,16 @@ title: IMFSample::RemoveBufferByIndex
 author: windows-sdk-content
 description: Removes a buffer at a specified index from the sample.
 old-location: mf\imfsample_removebufferbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fc7b5a46-a127-4d75-a9a5-382d9d65a426
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveBufferByIndex method, IMFSample.RemoveBufferByIndex, IMFSample::RemoveBufferByIndex, RemoveBufferByIndex, RemoveBufferByIndex method [Media Foundation], RemoveBufferByIndex method [Media Foundation],IMFSample interface, fc7b5a46-a127-4d75-a9a5-382d9d65a426, mf.imfsample_removebufferbyindex, mfobjects/IMFSample::RemoveBufferByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.RemoveBufferByIndex
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::RemoveBufferByIndex

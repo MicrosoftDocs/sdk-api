@@ -4,7 +4,7 @@ title: ITfFnConfigureRegisterEudc
 author: windows-sdk-content
 description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
 old-location: tsf\itffnconfigureregistereudc.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: Msctf.h
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnConfigureRegisterEudc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Imekrcic.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnConfigureRegisterEudc interface

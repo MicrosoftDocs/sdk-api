@@ -4,17 +4,16 @@ title: BatteryClassUnload function
 author: windows-sdk-content
 description: BatteryClassUnload frees resources for a battery device that is no longer in use.
 old-location: battery\batteryclassunload.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 6825a798-f7b3-49bc-91b3-69d05c0eef26
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BatteryClassUnload, BatteryClassUnload function [Battery Devices], bat-rtn_d99ad46b-2f22-4e88-9f26-f86fb6b09bee.xml, batclass/BatteryClassUnload, battery.batteryclassunload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BatteryClassUnload
 product: Windows
 targetos: Windows
-req.lib: Battc.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BatteryClassUnload function

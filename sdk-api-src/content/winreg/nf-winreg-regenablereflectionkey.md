@@ -4,17 +4,16 @@ title: RegEnableReflectionKey function
 author: windows-sdk-content
 description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.
 old-location: base\regenablereflectionkey.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegEnableReflectionKey
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegEnableReflectionKey function

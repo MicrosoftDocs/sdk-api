@@ -4,17 +4,16 @@ title: IXAudio2SourceVoice::SubmitSourceBuffer
 author: windows-sdk-content
 description: Adds a new audio buffer to the voice queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_submitsourcebuffer.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2SourceVoice.SubmitSourceBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2SourceVoice::SubmitSourceBuffer
@@ -68,7 +66,7 @@ Pointer to an <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

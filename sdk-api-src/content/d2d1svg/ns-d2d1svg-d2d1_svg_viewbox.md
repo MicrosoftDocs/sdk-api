@@ -4,7 +4,7 @@ title: D2D1_SVG_VIEWBOX
 author: windows-sdk-content
 description: Represents an SVG viewBox.
 old-location: direct2d\d2d1_svg_viewbox.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 35D576E1-18E1-4A3B-A1E9-7A6A55AA2872
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VIEWBOX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_VIEWBOX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_SVG_VIEWBOX
+req.redist: 
 ---
 
 # D2D1_SVG_VIEWBOX structure

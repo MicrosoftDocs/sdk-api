@@ -4,17 +4,16 @@ title: SymRegisterFunctionEntryCallback function
 author: windows-sdk-content
 description: Registers a callback function for use by the stack walking procedure on Alpha computers.
 old-location: base\symregisterfunctionentrycallback64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymRegisterFunctionEntryCallback, SymRegisterFunctionEntryCallback function, SymRegisterFunctionEntryCallback64, SymRegisterFunctionEntryCallback64 function, _win32_symregisterfunctionentrycallback64, base.symregisterfunctionentrycallback64, dbghelp/SymRegisterFunctionEntryCallback, dbghelp/SymRegisterFunctionEntryCallback64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymRegisterFunctionEntryCallback
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymRegisterFunctionEntryCallback function

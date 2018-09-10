@@ -4,7 +4,7 @@ title: "_FH_PROTECTED_ITEM_CATEGORY"
 author: windows-sdk-content
 description: Specifies the type of an inclusion or exclusion list.
 old-location: winprog\fh_protected_item_category.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 40AE4FB7-B81D-4CC1-B1A2-53952AE538DD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FH_PROTECTED_ITEM_CATEGORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
+req.redist: 
 ---
 
 # _FH_PROTECTED_ITEM_CATEGORY enumeration

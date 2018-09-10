@@ -4,17 +4,16 @@ title: IX509PrivateKey::put_CspStatus
 author: windows-sdk-content
 description: Specifies or retrieves an ICspStatus object that contains information about the cryptographic provider and algorithm pair associated with the private key.
 old-location: security\ix509privatekey_cspstatus.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 8bf6e62d-9ecf-4eee-9652-f04d2010b4f7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CspStatus property [Security], CspStatus property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],CspStatus property, IX509PrivateKey.CspStatus, IX509PrivateKey.put_CspStatus, IX509PrivateKey::CspStatus, IX509PrivateKey::get_CspStatus, IX509PrivateKey::put_CspStatus, certenroll/IX509PrivateKey::CspStatus, certenroll/IX509PrivateKey::get_CspStatus, certenroll/IX509PrivateKey::put_CspStatus, put_CspStatus, security.ix509privatekey_cspstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PrivateKey.put_CspStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PrivateKey::put_CspStatus

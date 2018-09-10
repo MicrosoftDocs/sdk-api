@@ -4,7 +4,7 @@ title: "_KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST"
 author: windows-sdk-content
 description: Allows the user to bind to a specific domain controller (DC), overriding the Kerberos domain binding cache.
 old-location: security\kerb_add_binding_cache_entry_ex_request.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: B1E58228-59B3-471D-A90C-DAAC17BA7937
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+req.redist: 
 ---
 
 # _KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure

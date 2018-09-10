@@ -4,17 +4,16 @@ title: CryptCATPersistStore function
 author: windows-sdk-content
 description: Saves the information in the specified catalog store to an unsigned catalog file.
 old-location: security\cryptcatpersiststore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2a564b0e-fcc6-4702-8173-d18df7064e53
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptCATPersistStore, CryptCATPersistStore function [Security], mscat/CryptCATPersistStore, security.cryptcatpersiststore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATPersistStore
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATPersistStore function

@@ -4,17 +4,16 @@ title: GetModuleFileNameExA function
 author: windows-sdk-content
 description: Retrieves the fully qualified path for the file containing the specified module.
 old-location: psapi\getmodulefilenameex.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetModuleFileNameEx, GetModuleFileNameEx function [PSAPI], GetModuleFileNameExA, GetModuleFileNameExW, K32GetModuleFileNameEx, K32GetModuleFileNameExA, K32GetModuleFileNameExW, _win32_getmodulefilenameex, base.getmodulefilenameex, psapi.getmodulefilenameex, psapi/GetModuleFileNameEx, psapi/GetModuleFileNameExA, psapi/GetModuleFileNameExW, psapi/K32GetModuleFileNameEx, psapi/K32GetModuleFileNameExA, psapi/K32GetModuleFileNameExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - K32GetModuleFileNameExA
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetModuleFileNameExA function

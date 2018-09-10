@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tom_0000_0000_0001"
 author: windows-sdk-content
 description: Defines values that are used with the Text Object Model (TOM)&#32;API.
 old-location: controls\tomconstants.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 041b0f07-3a7c-4ed9-9d1c-8373eacfb2ec
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: tomConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - tomConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: tomConstants
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tom_0000_0000_0001 enumeration

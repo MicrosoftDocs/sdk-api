@@ -4,17 +4,16 @@ title: SaferGetPolicyInformation function
 author: windows-sdk-content
 description: Gets information about a policy.
 old-location: security\safergetpolicyinformation.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 1c69d3c1-87e6-42cd-9acb-4c3d06801401
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferGetPolicyInformation, SaferGetPolicyInformation function [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safergetpolicyinformation, security.safergetpolicyinformation, winsafer/SaferGetPolicyInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_POLICY_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SaferGetPolicyInformation
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SaferGetPolicyInformation function

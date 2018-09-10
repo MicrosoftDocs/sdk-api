@@ -4,17 +4,16 @@ title: RegGetValueW function
 author: windows-sdk-content
 description: Retrieves the type and data for the specified registry value.
 old-location: base\reggetvalue.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegGetValueW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegGetValueW function

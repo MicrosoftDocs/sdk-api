@@ -4,17 +4,16 @@ title: IEventTrigger::put_Subscription
 author: windows-sdk-content
 description: Gets or sets a query string that identifies the event that fires the trigger.
 old-location: taskschd\ieventtrigger_subscription.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 884b98cd-f782-44af-9534-067198a7f48d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],Subscription property, IEventTrigger.Subscription, IEventTrigger.put_Subscription, IEventTrigger::Subscription, IEventTrigger::get_Subscription, IEventTrigger::put_Subscription, Subscription property [Task Scheduler], Subscription property [Task Scheduler],IEventTrigger interface, put_Subscription, taskschd.ieventtrigger_subscription, taskschd/IEventTrigger::Subscription, taskschd/IEventTrigger::get_Subscription, taskschd/IEventTrigger::put_Subscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventTrigger.put_Subscription
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventTrigger::put_Subscription

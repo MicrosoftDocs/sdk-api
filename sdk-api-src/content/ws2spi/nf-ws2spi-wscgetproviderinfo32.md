@@ -4,17 +4,16 @@ title: WSCGetProviderInfo32 function
 author: windows-sdk-content
 description: Retrieves the data associated with an information class for a 32-bit layered service provider (LSP).Note  This call is a strictly 32-bit version of WSCGetProviderInfo for use on 64-bit platforms.
 old-location: winsock\wscgetproviderinfo32.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 91686b38-3cde-4979-8bf6-45e805dd37ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCGetProviderInfo32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCGetProviderInfo32 function

@@ -4,7 +4,7 @@ title: "__MIDL_ICallFrame_0004"
 author: windows-sdk-content
 description: Provides information about the context in which marshalling should be carried out.
 old-location: com\callframe_marshalcontext.htm
-old-project: com
+tech.root: com
 ms.assetid: 4ecc4646-db3f-4d0e-9c45-b78a288156e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Callobj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_MARSHALCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CALLFRAME_MARSHALCONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CALLFRAME_MARSHALCONTEXT
+req.redist: 
 ---
 
 # __MIDL_ICallFrame_0004 structure

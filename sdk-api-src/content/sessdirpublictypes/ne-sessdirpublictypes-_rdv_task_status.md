@@ -4,7 +4,7 @@ title: "_RDV_TASK_STATUS"
 author: windows-sdk-content
 description: Used with the IRDVTaskPluginNotifySink::OnTaskStateChange method to indicate the status of a task.
 old-location: termserv\rdv_task_status.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 69278A29-9100-4855-B5B3-C790563B8B72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDV_TASK_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDV_TASK_STATUS
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RDV_TASK_STATUS
+req.redist: 
 ---
 
 # _RDV_TASK_STATUS enumeration

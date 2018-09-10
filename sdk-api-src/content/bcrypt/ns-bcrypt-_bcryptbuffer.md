@@ -4,7 +4,7 @@ title: "_BCryptBuffer"
 author: windows-sdk-content
 description: Is used to identify a variable-length memory buffer.
 old-location: security\ncryptbuffer_struct.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 474d3c0d-ae14-448a-a56d-25abc7e5de88
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCryptBuffer, *PBCryptBuffer
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NCryptBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCryptBuffer, *PBCryptBuffer
+req.redist: 
 ---
 
 # _BCryptBuffer structure

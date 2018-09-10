@@ -4,17 +4,16 @@ title: ISecurityCallContext::IsCallerInRole
 author: windows-sdk-content
 description: Determines whether the direct caller is in the specified role.
 old-location: cos\isecuritycallcontext_iscallerinrole.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecurityCallContext.IsCallerInRole, ISecurityCallContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityCallContext.IsCallerInRole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityCallContext::IsCallerInRole

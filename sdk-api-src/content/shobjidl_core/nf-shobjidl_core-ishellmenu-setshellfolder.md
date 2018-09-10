@@ -4,17 +4,16 @@ title: IShellMenu::SetShellFolder
 author: windows-sdk-content
 description: Specifies the folder for the menu band to browse.
 old-location: shell\IShellMenu_SetShellFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b442f64a-c8ab-4431-87d9-481befb51af7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetShellFolder method, IShellMenu.SetShellFolder, IShellMenu::SetShellFolder, SMSET_BOTTOM, SMSET_COLLAPSEONEMPTY, SMSET_HASEXPANDABLEFOLDERS, SMSET_USEBKICONEXTRACTION, SetShellFolder, SetShellFolder method [Windows Shell], SetShellFolder method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetShellFolder, shell.IShellMenu_SetShellFolder, shobjidl_core/IShellMenu::SetShellFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.SetShellFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::SetShellFolder

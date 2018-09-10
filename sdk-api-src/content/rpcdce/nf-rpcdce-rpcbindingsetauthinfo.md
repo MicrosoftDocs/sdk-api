@@ -4,17 +4,16 @@ title: RpcBindingSetAuthInfo function
 author: windows-sdk-content
 description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
 old-location: rpc\rpcbindingsetauthinfo.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcBindingSetAuthInfoW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingSetAuthInfo function

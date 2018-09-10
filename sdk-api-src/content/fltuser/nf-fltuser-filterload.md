@@ -4,17 +4,16 @@ title: FilterLoad function
 author: windows-sdk-content
 description: The FilterLoad function dynamically loads a minifilter driver into the system.
 old-location: ifsk\filterload.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterLoad
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterLoad function

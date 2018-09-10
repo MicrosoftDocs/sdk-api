@@ -4,7 +4,7 @@ title: "_SERVICE_REQUIRED_PRIVILEGES_INFOW"
 author: windows-sdk-content
 description: Represents the required privileges for a service.
 old-location: base\service_required_privileges_info.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOW, *LPSERVICE_REQUIRED_PRIVILEGES_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_REQUIRED_PRIVILEGES_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOW, *LPSERVICE_REQUIRED_PRIVILEGES_INFOW
+req.redist: 
 ---
 
 # _SERVICE_REQUIRED_PRIVILEGES_INFOW structure

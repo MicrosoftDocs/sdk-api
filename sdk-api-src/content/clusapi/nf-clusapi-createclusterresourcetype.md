@@ -4,17 +4,16 @@ title: CreateClusterResourceType function
 author: windows-sdk-content
 description: Creates a resource type in a cluster.
 old-location: mscs\createclusterresourcetype.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateClusterResourceType, CreateClusterResourceType function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE function [Failover Cluster], _wolf_createclusterresourcetype, clusapi/CreateClusterResourceType, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, mscs.createclusterresourcetype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateClusterResourceType
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateClusterResourceType function

@@ -4,17 +4,16 @@ title: IPropertySetStorage::Enum
 author: windows-sdk-content
 description: The Enum method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the IEnumSTATPROPSETSTG pointer on the enumerator object.
 old-location: stg\ipropertysetstorage_enum.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 979ee86b-fabc-428c-8134-f16c2a33270f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Enum, Enum method [Structured Storage], Enum method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage [Strctd Stg],Enum, IPropertySetStorage interface [Structured Storage],Enum method, IPropertySetStorage.Enum, IPropertySetStorage::Enum, _stg_ipropertysetstorage_enum, propidl/IPropertySetStorage::Enum, stg.ipropertysetstorage_enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySetStorage.Enum
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertySetStorage::Enum

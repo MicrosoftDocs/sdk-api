@@ -4,7 +4,7 @@ title: "_AUTHZ_INIT_INFO"
 author: windows-sdk-content
 description: Defines the initialization information for the resource manager.
 old-location: security\authz_init_info.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 30489BE7-5B95-413E-8134-039AD3220A50
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_INIT_INFO, *PAUTHZ_INIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_INIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_INIT_INFO, *PAUTHZ_INIT_INFO
+req.redist: 
 ---
 
 # _AUTHZ_INIT_INFO structure

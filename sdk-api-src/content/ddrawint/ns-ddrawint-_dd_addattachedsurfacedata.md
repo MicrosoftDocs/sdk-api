@@ -4,7 +4,7 @@ title: "_DD_ADDATTACHEDSURFACEDATA"
 author: windows-sdk-content
 description: The DD_ADDATTACHEDSURFACEDATA structure contains information necessary to attach a surface to another surface.
 old-location: display\dd_addattachedsurfacedata.htm
-old-project: display
+tech.root: display
 ms.assetid: d00120d9-5825-4998-a1ef-ccc5654b91b9
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_ADDATTACHEDSURFACEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA"
+req.redist: 
 ---
 
 # _DD_ADDATTACHEDSURFACEDATA structure

@@ -4,7 +4,7 @@ title: SpatialAudioObjectRenderStreamActivationParams
 author: windows-sdk-content
 description: Represents activation parameters for a spatial audio render stream. Pass this structure to ISpatialAudioClient::ActivateSpatialAudioStream when activating a stream.
 old-location: coreaudio\spatialaudioobjectrenderstreamactivationparams_.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: DD27FDE1-3B4B-4C11-A980-15AF60A3A75B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioObjectRenderStreamActivationParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioObjectRenderStreamActivationParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioObjectRenderStreamActivationParams
+req.redist: 
 ---
 
 # SpatialAudioObjectRenderStreamActivationParams structure

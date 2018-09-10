@@ -4,17 +4,16 @@ title: FindOrCreateNameCache function
 author: windows-sdk-content
 description: Finds or creates a name cache.
 old-location: winprog\_findorcreatenamecache.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FindOrCreateNameCache
 product: Windows
 targetos: Windows
-req.lib: Fcachdll.lib
-req.dll: Fcachdll.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindOrCreateNameCache function

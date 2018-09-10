@@ -4,17 +4,16 @@ title: IHardwareAudioEngineBase::SetEngineDeviceFormat
 author: windows-sdk-content
 description: The SetEngineDeviceFormat method sets the waveform audio format for the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase_setenginedeviceformat.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: BE4644E7-DBC7-4B30-AD26-483889425195
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetEngineDeviceFormat method, IHardwareAudioEngineBase.SetEngineDeviceFormat, IHardwareAudioEngineBase::SetEngineDeviceFormat, SetEngineDeviceFormat, SetEngineDeviceFormat method [Core Audio], SetEngineDeviceFormat method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat, coreaudio.ihardwareaudioenginebase_setenginedeviceformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHardwareAudioEngineBase.SetEngineDeviceFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHardwareAudioEngineBase::SetEngineDeviceFormat

@@ -4,17 +4,16 @@ title: IMbnRegistrationEvents::OnSetRegisterModeComplete
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that it has completed a set registration operation.
 old-location: mbn\imbnregistrationevents_onsetregistermodecomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: a5ca0776-bd1d-48a0-970a-39c8da69b394
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: E_FAIL, E_INVALIDARG, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_SERVICE_NOT_ACTIVATED, HRESULT_FROM_WIN32(ERROR_INVALID_STATE), HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnSetRegisterModeComplete method, IMbnRegistrationEvents.OnSetRegisterModeComplete, IMbnRegistrationEvents::OnSetRegisterModeComplete, OnSetRegisterModeComplete, OnSetRegisterModeComplete method [Microsoft Broadband Networks], OnSetRegisterModeComplete method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, S_OK, mbn.imbnregistrationevents_onsetregistermodecomplete, mbnapi/IMbnRegistrationEvents::OnSetRegisterModeComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRegistrationEvents.OnSetRegisterModeComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRegistrationEvents::OnSetRegisterModeComplete

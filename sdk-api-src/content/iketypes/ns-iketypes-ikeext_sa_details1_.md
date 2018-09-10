@@ -4,7 +4,7 @@ title: IKEEXT_SA_DETAILS1_
 author: windows-sdk-content
 description: Is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
 old-location: fwp\ikeext_sa_details1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: b4b8767b-399a-49f0-91fd-59c2206742de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_SA_DETAILS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_SA_DETAILS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_SA_DETAILS1
+req.redist: 
 ---
 
 # IKEEXT_SA_DETAILS1_ structure

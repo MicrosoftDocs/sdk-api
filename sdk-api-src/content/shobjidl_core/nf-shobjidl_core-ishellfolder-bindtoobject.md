@@ -4,17 +4,16 @@ title: IShellFolder::BindToObject
 author: windows-sdk-content
 description: Retrieves a handler, typically the Shell folder object that implements IShellFolder for a particular item. Optional parameters that control the construction of the handler are passed in the bind context.
 old-location: shell\IShellFolder_BindToObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5e699494-1974-4b9b-8324-9394f7b96fe4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BindToObject, BindToObject method [Windows Shell], BindToObject method [Windows Shell],IShellFolder interface, BindToObject method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToObject method, IShellFolder.BindToObject, IShellFolder2 interface [Windows Shell],BindToObject method, IShellFolder2::BindToObject, IShellFolder::BindToObject, _win32_IShellFolder_BindToObject, shell.IShellFolder_BindToObject, shobjidl_core/IShellFolder2::BindToObject, shobjidl_core/IShellFolder::BindToObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.BindToObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::BindToObject
@@ -88,7 +86,7 @@ The identifier of the interface to return. This may be <b>IID_IShellFolder</b>, 
 
 ### -param ppv
 
-
+TBD
 
 
 

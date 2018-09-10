@@ -4,17 +4,16 @@ title: IDCompositionSurfaceFactory::CreateSurface
 author: windows-sdk-content
 description: Creates a surface object that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositionsurfacefactory_createsurface.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C65CD072-C00E-409B-B508-C12CE4ACE73F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionSurfaceFactory.CreateSurface
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionSurfaceFactory::CreateSurface

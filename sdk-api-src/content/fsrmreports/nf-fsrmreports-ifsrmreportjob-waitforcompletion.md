@@ -4,17 +4,16 @@ title: IFsrmReportJob::WaitForCompletion
 author: windows-sdk-content
 description: Waits for the reports in the job to complete.
 old-location: fsrm\ifsrmreportjob_waitforcompletion.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 127027a0-7f05-4de4-a3be-8e3c3ec30910
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmReportJob.WaitForCompletion, IFsrmReportJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_waitforcompletion, fsrm.ifsrmreportjob_waitforcompletion, fsrmreports/IFsrmReportJob::WaitForCompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmReportJob.WaitForCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob::WaitForCompletion

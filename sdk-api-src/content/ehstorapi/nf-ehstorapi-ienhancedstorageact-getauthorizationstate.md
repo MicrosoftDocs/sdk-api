@@ -4,17 +4,16 @@ title: IEnhancedStorageACT::GetAuthorizationState
 author: windows-sdk-content
 description: Returns the current authorization state of the ACT.
 old-location: enstor\ienhancedstorageact_getauthorizationstate.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageACT.GetAuthorizationState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageACT::GetAuthorizationState

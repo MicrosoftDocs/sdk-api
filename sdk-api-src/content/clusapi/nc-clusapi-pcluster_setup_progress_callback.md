@@ -4,7 +4,7 @@ title: PCLUSTER_SETUP_PROGRESS_CALLBACK
 author: windows-sdk-content
 description: Callback function that receives regular updates on the progression of the setup of the cluster.
 old-location: mscs\pcluster_setup_progress_callback.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: fb7a6991-576c-4c03-aef0-89811fbc1a0d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - ClusterSetupProgressCallback callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PCLUSTER_SETUP_PROGRESS_CALLBACK callback function

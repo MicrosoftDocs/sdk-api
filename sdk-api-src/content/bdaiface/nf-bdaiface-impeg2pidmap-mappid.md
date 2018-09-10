@@ -4,17 +4,16 @@ title: IMPEG2PIDMap::MapPID
 author: windows-sdk-content
 description: The MapPID method maps one or more PIDs to the pin.
 old-location: dshow\impeg2pidmap_mappid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 22784e4a-2b02-4fc9-ba55-8c918ea38892
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMPEG2PIDMap interface [DirectShow],MapPID method, IMPEG2PIDMap.MapPID, IMPEG2PIDMap::MapPID, IMPEG2PIDMapMapPID, MapPID, MapPID method [DirectShow], MapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::MapPID, dshow.impeg2pidmap_mappid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMPEG2PIDMap.MapPID
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2PIDMap::MapPID

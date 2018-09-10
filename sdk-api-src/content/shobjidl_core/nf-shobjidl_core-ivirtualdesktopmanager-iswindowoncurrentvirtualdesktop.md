@@ -4,17 +4,16 @@ title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
 author: windows-sdk-content
 description: Indicates whether the provided window is on the currently active virtual desktop.
 old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm
-old-project: shell
+tech.root: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop

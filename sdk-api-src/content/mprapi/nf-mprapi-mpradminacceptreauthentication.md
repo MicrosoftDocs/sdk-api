@@ -4,17 +4,16 @@ title: MprAdminAcceptReauthentication function
 author: windows-sdk-content
 description: Remote Access Service calls the MprAdminAcceptReauthentication function whenever the quarantine state of the client changes.
 old-location: rras\mpradminacceptreauthentication.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 58fea0ca-b7c1-4d32-bcfc-10b41e101f30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminAcceptReauthentication, MprAdminAcceptReauthentication callback, MprAdminAcceptReauthentication callback function [RAS], mprapi/MprAdminAcceptReauthentication, rras.mpradminacceptreauthentication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminAcceptReauthentication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminAcceptReauthentication function

@@ -4,17 +4,16 @@ title: IDropTarget::DragOver
 author: windows-sdk-content
 description: Provides target feedback to the user and communicates the drop's effect to the DoDragDrop function so it can communicate the effect of the drop back to the source.
 old-location: com\idroptarget_dragover.htm
-old-project: com
+tech.root: com
 ms.assetid: 31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget interface, IDropTarget interface [COM],DragOver method, IDropTarget.DragOver, IDropTarget::DragOver, _ole_idroptarget_dragover, com.idroptarget_dragover, oleidl/IDropTarget::DragOver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropTarget.DragOver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTarget::DragOver

@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage
 author: windows-sdk-content
 description: Retrieve a previously issued certificate.
 old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateRetrieveCertificateMessage, CreateRetrieveCertificateMessage method [Security], CreateRetrieveCertificateMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrieveCertificateMessage method, IX509SCEPEnrollment.CreateRetrieveCertificateMessage, IX509SCEPEnrollment::CreateRetrieveCertificateMessage, certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage, security.ix509scepenrollment_createretrievecertificatemessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509SCEPEnrollment.CreateRetrieveCertificateMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::CreateRetrieveCertificateMessage

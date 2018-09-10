@@ -4,7 +4,7 @@ title: D3DX11_FFT_DIM_MASK
 author: windows-sdk-content
 description: Number of dimensions for FFT data.
 old-location: direct3d11\d3dx11_fft_dim_mask.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 5623b0e6-73f0-4d89-bf3e-a116409b369e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_FFT_DIM_MASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DX11_FFT_DIM_MASK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DX11_FFT_DIM_MASK
+req.redist: 
 ---
 
 # D3DX11_FFT_DIM_MASK enumeration

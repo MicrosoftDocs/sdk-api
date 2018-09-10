@@ -4,17 +4,16 @@ title: IProvideWinSATAssessmentInfo::get_Title
 author: windows-sdk-content
 description: Retrieves the title of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: 11c9c59f-97d6-41d1-ab0e-7901e126b07c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Title property, IProvideWinSATAssessmentInfo.Title, IProvideWinSATAssessmentInfo.get_Title, IProvideWinSATAssessmentInfo::Title, IProvideWinSATAssessmentInfo::get_Title, Title property [WinSAT], Title property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Title, winsat.iprovidewinsatassessmentinfo_title, winsatcominterfacei/IProvideWinSATAssessmentInfo::Title, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Title
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IProvideWinSATAssessmentInfo.get_Title
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideWinSATAssessmentInfo::get_Title

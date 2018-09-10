@@ -4,7 +4,7 @@ title: tag_WBEMSTATUS
 author: windows-sdk-content
 description: Contains error and status codes returned by methods in the WMI API.
 old-location: wmi\wbemstatus.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 97796D1A-99A5-4EC8-9CDF-481FA2850CCD
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEMSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEMSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEMSTATUS
+req.redist: 
 ---
 
 # tag_WBEMSTATUS enumeration

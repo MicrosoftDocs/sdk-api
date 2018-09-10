@@ -4,17 +4,16 @@ title: IMediaControl::Stop
 author: windows-sdk-content
 description: The Stop method stops all the filters in the graph.
 old-location: dshow\imediacontrol_stop.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 89e48d43-a31f-4912-98ff-36ba2069812d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaControl interface [DirectShow],Stop method, IMediaControl.Stop, IMediaControl::Stop, IMediaControlStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaControl interface, control/IMediaControl::Stop, dshow.imediacontrol_stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaControl.Stop
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaControl::Stop

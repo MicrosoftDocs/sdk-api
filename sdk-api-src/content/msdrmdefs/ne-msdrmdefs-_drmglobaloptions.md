@@ -4,7 +4,7 @@ title: "_DRMGLOBALOPTIONS"
 author: windows-sdk-content
 description: Defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the DRMSetGlobalOptions function.
 old-location: rm\drmglobaloptions.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 57debd49-ec1e-432d-baac-2f828aeb4412
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMGLOBALOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMGLOBALOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRMGLOBALOPTIONS
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

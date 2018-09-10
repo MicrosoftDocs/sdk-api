@@ -4,17 +4,16 @@ title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BI
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 407529D4-6FA3-4C09-876C-03A8A8D1390D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext3.DrawSpriteBatch
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)

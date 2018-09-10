@@ -4,17 +4,16 @@ title: IMbnDeviceServicesContext::get_MaxCommandSize
 author: windows-sdk-content
 description: The maximum length, in bytes, of data that can be associated with a device service SET or QUERY command.
 old-location: mbn\imbndeviceservicescontext_maxcommandsize.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: FCCE3CA1-ECD2-4964-952F-D4A077959519
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxCommandSize property, IMbnDeviceServicesContext.MaxCommandSize, IMbnDeviceServicesContext.get_MaxCommandSize, IMbnDeviceServicesContext::MaxCommandSize, IMbnDeviceServicesContext::get_MaxCommandSize, MaxCommandSize property [Microsoft Broadband Networks], MaxCommandSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxCommandSize, mbn.imbndeviceservicescontext_maxcommandsize, mbnapi/IMbnDeviceServicesContext::MaxCommandSize, mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnDeviceServicesContext.get_MaxCommandSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceServicesContext::get_MaxCommandSize

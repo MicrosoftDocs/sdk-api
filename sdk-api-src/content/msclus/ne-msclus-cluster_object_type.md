@@ -4,7 +4,7 @@ title: CLUSTER_OBJECT_TYPE
 author: windows-sdk-content
 description: Defines the type of object for which a notification is requested or generated.
 old-location: mscs\cluster_object_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 714C0EF1-7397-4227-B4B1-AFC5E61E08C2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_OBJECT_TYPE
+req.redist: 
 ---
 
 # CLUSTER_OBJECT_TYPE enumeration

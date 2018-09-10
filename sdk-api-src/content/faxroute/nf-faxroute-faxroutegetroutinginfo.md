@@ -4,17 +4,16 @@ title: FaxRouteGetRoutingInfo function
 author: windows-sdk-content
 description: The FaxRouteGetRoutingInfo function queries the fax routing extension DLL to obtain routing configuration data for a specific fax device. Each fax routing extension DLL must export the FaxRouteGetRoutingInfo function.
 old-location: fax\_mfax_faxroutegetroutinginfo.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3t2n.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: FaxRouteGetRoutingInfo, FaxRouteGetRoutingInfo function [Fax Service], _mfax_faxroutegetroutinginfo, fax._mfax_faxroutegetroutinginfo, faxroute/FaxRouteGetRoutingInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SEND, *PFAX_SEND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FaxRouteGetRoutingInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FaxRouteGetRoutingInfo function

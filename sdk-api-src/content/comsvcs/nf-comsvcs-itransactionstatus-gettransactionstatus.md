@@ -4,17 +4,16 @@ title: ITransactionStatus::GetTransactionStatus
 author: windows-sdk-content
 description: Retrieves the transaction status.
 old-location: cos\itransactionstatus_gettransactionstatus.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionStatus.GetTransactionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionStatus::GetTransactionStatus

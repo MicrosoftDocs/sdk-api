@@ -4,17 +4,16 @@ title: IDirectManipulationManager::Activate
 author: windows-sdk-content
 description: Activates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_activate.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 49a5eccd-16a9-4dca-af78-224fd5acb611
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: Activate, Activate method [Direct Manipulation], Activate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Activate method, IDirectManipulationManager.Activate, IDirectManipulationManager::Activate, directmanipulation.idirectmanipulationmanager_activate, directmanipulation/IDirectManipulationManager::Activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationManager.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationManager::Activate

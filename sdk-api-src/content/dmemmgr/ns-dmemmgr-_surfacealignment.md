@@ -4,7 +4,7 @@ title: "_SURFACEALIGNMENT"
 author: windows-sdk-content
 description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
 old-location: display\surfacealignment.htm
-old-project: display
+tech.root: display
 ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SURFACEALIGNMENT, *LPSURFACEALIGNMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SURFACEALIGNMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SURFACEALIGNMENT, *LPSURFACEALIGNMENT
+req.redist: 
 ---
 
 # _SURFACEALIGNMENT structure

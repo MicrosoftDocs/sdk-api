@@ -4,7 +4,7 @@ title: "_DD_SETEXCLUSIVEMODEDATA"
 author: windows-sdk-content
 description: The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification information.
 old-location: display\dd_setexclusivemodedata.htm
-old-project: display
+tech.root: display
 ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_SETEXCLUSIVEMODEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA"
+req.redist: 
 ---
 
 # _DD_SETEXCLUSIVEMODEDATA structure

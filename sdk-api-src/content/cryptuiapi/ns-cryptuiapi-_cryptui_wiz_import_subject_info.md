@@ -4,7 +4,7 @@ title: "_CRYPTUI_WIZ_IMPORT_SUBJECT_INFO"
 author: windows-sdk-content
 description: Contains the subject to import into the CryptUIWizImport function.
 old-location: security\cryptui_wiz_import_src_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 17d932e3-05ea-4ed0-9f88-fbb674b6b070
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_WIZ_IMPORT_SRC_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+req.redist: 
 ---
 
 # _CRYPTUI_WIZ_IMPORT_SUBJECT_INFO structure

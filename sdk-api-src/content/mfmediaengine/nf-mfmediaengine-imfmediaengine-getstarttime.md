@@ -4,17 +4,16 @@ title: IMFMediaEngine::GetStartTime
 author: windows-sdk-content
 description: Gets the initial playback position.
 old-location: mf\imfmediaengine_getstarttime.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetStartTime method, IMFMediaEngine.GetStartTime, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.GetStartTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::GetStartTime

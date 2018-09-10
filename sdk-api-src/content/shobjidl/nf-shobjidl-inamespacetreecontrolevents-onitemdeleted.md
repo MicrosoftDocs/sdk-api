@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnItemDeleted
 author: windows-sdk-content
 description: Called after an IShellItem has been deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm
-old-project: shell
+tech.root: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnItemDeleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnItemDeleted

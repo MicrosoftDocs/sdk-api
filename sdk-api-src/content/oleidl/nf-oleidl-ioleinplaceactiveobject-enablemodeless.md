@@ -4,17 +4,16 @@ title: IOleInPlaceActiveObject::EnableModeless
 author: windows-sdk-content
 description: Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
 old-location: com\ioleinplaceactiveobject_enablemodeless.htm
-old-project: com
+tech.root: com
 ms.assetid: 2fc45490-b3fe-48fd-a41c-2b7f35b09edc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceActiveObject interface, IOleInPlaceActiveObject interface [COM],EnableModeless method, IOleInPlaceActiveObject.EnableModeless, IOleInPlaceActiveObject::EnableModeless, _ole_ioleinplaceactiveobject_enablemodeless, com.ioleinplaceactiveobject_enablemodeless, oleidl/IOleInPlaceActiveObject::EnableModeless
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceActiveObject.EnableModeless
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceActiveObject::EnableModeless

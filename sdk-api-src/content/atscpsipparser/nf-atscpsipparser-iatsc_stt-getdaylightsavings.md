@@ -4,17 +4,16 @@ title: IATSC_STT::GetDaylightSavings
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_getdaylightsavings.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5c605ef2-a928-4c78-a2e4-c70142db66ac
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDaylightSavings, GetDaylightSavings method [Microsoft TV Technologies], GetDaylightSavings method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetDaylightSavings method, IATSC_STT.GetDaylightSavings, IATSC_STT::GetDaylightSavings, IATSC_STTGetDaylightSavings, atscpsipparser/IATSC_STT::GetDaylightSavings, mstv.iatsc_stt_getdaylightsavings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_STT.GetDaylightSavings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_STT::GetDaylightSavings

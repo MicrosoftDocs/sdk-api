@@ -4,17 +4,16 @@ title: SetUserGeoName function
 author: windows-sdk-content
 description: Sets the geographic location for the current user to the specified two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
 old-location: intl\setusergeoname.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 0E5934DE-F526-45B4-9DAF-C8941F00C162
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetUserGeoName
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetUserGeoName function

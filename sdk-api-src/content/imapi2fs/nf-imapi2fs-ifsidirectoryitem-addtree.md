@@ -4,17 +4,16 @@ title: IFsiDirectoryItem::AddTree
 author: windows-sdk-content
 description: Adds the contents of a directory tree to the file system image.
 old-location: imapi\ifsidirectoryitem_addtree.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddTree, AddTree method [IMAPI], AddTree method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddTree method, IFsiDirectoryItem.AddTree, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiDirectoryItem.AddTree
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiDirectoryItem::AddTree

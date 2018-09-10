@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_LIST"
 author: windows-sdk-content
 description: Defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_list.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: ffe9ed82-1aec-4e09-8258-399099c87b5a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_LIST, *LPDHCP_OPTION_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_LIST, *LPDHCP_OPTION_LIST
+req.redist: 
 ---
 
 # _DHCP_OPTION_LIST structure

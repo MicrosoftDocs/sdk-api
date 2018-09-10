@@ -4,17 +4,16 @@ title: IInkDivider::Divide
 author: windows-sdk-content
 description: Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object.
 old-location: tablet\inkdivider_divide.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDivider.Divide
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivider::Divide

@@ -4,17 +4,16 @@ title: IEnumShellItems::Reset
 author: windows-sdk-content
 description: Resets the internal count of retrieved IShellItem interfaces in the enumeration.
 old-location: shell\IEnumShellItems_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0208a68-0513-4fa9-88ae-2147cf61bcb5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Reset method, IEnumShellItems.Reset, IEnumShellItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Reset, shell.IEnumShellItems_Reset, shobjidl_core/IEnumShellItems::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumShellItems.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumShellItems::Reset

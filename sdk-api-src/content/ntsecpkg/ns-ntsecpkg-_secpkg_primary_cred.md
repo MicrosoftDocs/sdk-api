@@ -4,7 +4,7 @@ title: "_SECPKG_PRIMARY_CRED"
 author: windows-sdk-content
 description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.
 old-location: security\secpkg_primary_cred.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_PRIMARY_CRED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED
+req.redist: 
 ---
 
 # _SECPKG_PRIMARY_CRED structure

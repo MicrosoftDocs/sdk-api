@@ -4,17 +4,16 @@ title: IMixerPinConfig::GetBlendingParameter
 author: windows-sdk-content
 description: The GetBlendingParameter method retrieves the value of the blending parameter that defines how a secondary stream is blended with a primary stream.
 old-location: dshow\imixerpinconfig_getblendingparameter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bcd54b8d-d742-4ac0-bcea-8de77b7f0074
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetBlendingParameter, GetBlendingParameter method [DirectShow], GetBlendingParameter method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetBlendingParameter method, IMixerPinConfig.GetBlendingParameter, IMixerPinConfig::GetBlendingParameter, IMixerPinConfigGetBlendingParameter, dshow.imixerpinconfig_getblendingparameter, mpconfig/IMixerPinConfig::GetBlendingParameter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_ASPECT_RATIO_MODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMixerPinConfig.GetBlendingParameter
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMixerPinConfig::GetBlendingParameter

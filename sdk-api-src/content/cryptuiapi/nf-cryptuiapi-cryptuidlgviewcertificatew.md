@@ -4,17 +4,16 @@ title: CryptUIDlgViewCertificateW function
 author: windows-sdk-content
 description: Presents a dialog box that displays a specified certificate.
 old-location: security\cryptuidlgviewcertificate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CryptUIDlgViewCertificateW
 product: Windows
 targetos: Windows
-req.lib: Cryptui.lib
-req.dll: Cryptui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUIDlgViewCertificateW function

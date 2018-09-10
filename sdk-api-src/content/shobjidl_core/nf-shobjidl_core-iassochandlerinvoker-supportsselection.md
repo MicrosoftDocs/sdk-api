@@ -4,17 +4,16 @@ title: IAssocHandlerInvoker::SupportsSelection
 author: windows-sdk-content
 description: Determines whether an invoker supports its selection.
 old-location: shell\IAssocHandlerInvoker_SupportsSelection.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a4000557-2a89-494c-8b0e-c67a2e2c4445
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],SupportsSelection method, IAssocHandlerInvoker.SupportsSelection, IAssocHandlerInvoker::SupportsSelection, SupportsSelection, SupportsSelection method [Windows Shell], SupportsSelection method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_SupportsSelection, shell.IAssocHandlerInvoker_SupportsSelection, shobjidl_core/IAssocHandlerInvoker::SupportsSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandlerInvoker.SupportsSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandlerInvoker::SupportsSelection

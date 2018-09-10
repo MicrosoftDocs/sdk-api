@@ -4,7 +4,7 @@ title: "_RPC_NOTIFICATION_TYPES"
 author: windows-sdk-content
 description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.
 old-location: rpc\rpc_notification_types.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 3c6fcba5-ea74-47ee-8fb9-6393d1ea62fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_NOTIFICATION_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_NOTIFICATION_TYPES
+req.redist: 
 ---
 
 # _RPC_NOTIFICATION_TYPES enumeration

@@ -4,17 +4,16 @@ title: CryptMsgOpenToDecode function
 author: windows-sdk-content
 description: Opens a cryptographic message for decoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentodecode.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b3df6312-c866-4faa-8b89-bda67c697631
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptMsgOpenToDecode
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptMsgOpenToDecode function

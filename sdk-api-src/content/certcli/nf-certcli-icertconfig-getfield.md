@@ -4,17 +4,16 @@ title: ICertConfig::GetField
 author: windows-sdk-content
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getfield.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertConfig.GetField
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertConfig::GetField
@@ -251,7 +250,7 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
 
 ### -param pstrOut
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: INetConnection::Connect
 author: windows-sdk-content
 description: The Connect method connects, or establishes, this network connection.
 old-location: ics\inetconnection_connect.htm
-old-project: ics
+tech.root: ics
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Connect method, INetConnection.Connect, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnection.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnection::Connect

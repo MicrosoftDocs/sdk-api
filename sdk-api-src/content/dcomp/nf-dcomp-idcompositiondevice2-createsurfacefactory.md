@@ -4,17 +4,16 @@ title: IDCompositionDevice2::CreateSurfaceFactory
 author: windows-sdk-content
 description: Creates a Microsoft DirectComposition surface factory object, which can be used to create other DirectComposition surface or virtual surface objects.
 old-location: directcomp\idcompositiondevice2_createsurfacefactory.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 20E60EAE-68CB-45B8-BC50-3D12F449AA6E
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSurfaceFactory, CreateSurfaceFactory method [DirectComposition], CreateSurfaceFactory method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSurfaceFactory method, IDCompositionDevice2.CreateSurfaceFactory, IDCompositionDevice2::CreateSurfaceFactory, dcomp/IDCompositionDevice2::CreateSurfaceFactory, directcomp.idcompositiondevice2_createsurfacefactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice2.CreateSurfaceFactory
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice2::CreateSurfaceFactory

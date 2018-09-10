@@ -4,17 +4,16 @@ title: ID3D11Device::CheckMultisampleQualityLevels
 author: windows-sdk-content
 description: Get the number of quality levels available during multisampling.
 old-location: direct3d11\id3d11device_checkmultisamplequalitylevels.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 346f5dae-3ce2-4c03-ab17-1c46e18efc64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 11], CheckMultisampleQualityLevels method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckMultisampleQualityLevels method, ID3D11Device.CheckMultisampleQualityLevels, ID3D11Device::CheckMultisampleQualityLevels, cc99aa72-2da0-c091-e4b1-047fa6f80bfa, d3d11/ID3D11Device::CheckMultisampleQualityLevels, direct3d11.id3d11device_checkmultisamplequalitylevels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CheckMultisampleQualityLevels

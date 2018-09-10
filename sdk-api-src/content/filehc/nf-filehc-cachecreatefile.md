@@ -4,17 +4,16 @@ title: CacheCreateFile function
 author: windows-sdk-content
 description: Creates a file in the cache or finds an existing file.
 old-location: winprog\_cachecreatefile.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CacheCreateFile
 product: Windows
 targetos: Windows
-req.lib: Fcachdll.lib
-req.dll: Fcachdll.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CacheCreateFile function

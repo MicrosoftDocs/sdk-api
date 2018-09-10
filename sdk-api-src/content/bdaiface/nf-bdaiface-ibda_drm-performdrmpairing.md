@@ -4,17 +4,16 @@ title: IBDA_DRM::PerformDRMPairing
 author: windows-sdk-content
 description: The PerformDRMPairing method requests the tuner to perform a DRM handshake with the user's computer.
 old-location: mstv\ibda_drm_performdrmpairing.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DRM interface [Microsoft TV Technologies],PerformDRMPairing method, IBDA_DRM.PerformDRMPairing, IBDA_DRM::PerformDRMPairing, IBDA_DRMPerformDRMPairing, PerformDRMPairing, PerformDRMPairing method [Microsoft TV Technologies], PerformDRMPairing method [Microsoft TV Technologies],IBDA_DRM interface, bdaiface/IBDA_DRM::PerformDRMPairing, mstv.ibda_drm_performdrmpairing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DRM.PerformDRMPairing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DRM::PerformDRMPairing

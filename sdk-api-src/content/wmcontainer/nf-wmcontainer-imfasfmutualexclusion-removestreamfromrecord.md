@@ -4,17 +4,16 @@ title: IMFASFMutualExclusion::RemoveStreamFromRecord
 author: windows-sdk-content
 description: Removes a stream number from a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removestreamfromrecord.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d92c022c-3241-4296-9572-62b43c6e79cb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveStreamFromRecord method, IMFASFMutualExclusion.RemoveStreamFromRecord, IMFASFMutualExclusion::RemoveStreamFromRecord, RemoveStreamFromRecord, RemoveStreamFromRecord method [Media Foundation], RemoveStreamFromRecord method [Media Foundation],IMFASFMutualExclusion interface, d92c022c-3241-4296-9572-62b43c6e79cb, mf.imfasfmutualexclusion_removestreamfromrecord, wmcontainer/IMFASFMutualExclusion::RemoveStreamFromRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFMutualExclusion.RemoveStreamFromRecord
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFMutualExclusion::RemoveStreamFromRecord

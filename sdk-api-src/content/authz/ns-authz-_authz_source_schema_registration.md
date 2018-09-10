@@ -4,7 +4,7 @@ title: "_AUTHZ_SOURCE_SCHEMA_REGISTRATION"
 author: windows-sdk-content
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SOURCE_SCHEMA_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # _AUTHZ_SOURCE_SCHEMA_REGISTRATION structure

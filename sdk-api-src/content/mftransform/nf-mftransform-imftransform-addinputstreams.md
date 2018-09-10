@@ -4,17 +4,16 @@ title: IMFTransform::AddInputStreams
 author: windows-sdk-content
 description: Adds one or more new input streams to this Media Foundation transform (MFT).
 old-location: mf\imftransform_addinputstreams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.AddInputStreams
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::AddInputStreams

@@ -4,7 +4,7 @@ title: "_CRYPT_XML_TRANSFORM_CHAIN_CONFIG"
 author: windows-sdk-content
 description: Contains application defined transforms that are allowed for use in the XML digital signature.
 old-location: security\crypt_xml_transform_chain_config.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ad18ee99-685d-4a79-bd91-492df20edb8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_TRANSFORM_CHAIN_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
+req.redist: 
 ---
 
 # _CRYPT_XML_TRANSFORM_CHAIN_CONFIG structure

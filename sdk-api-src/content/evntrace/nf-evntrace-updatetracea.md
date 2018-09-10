@@ -4,17 +4,16 @@ title: UpdateTraceA function
 author: windows-sdk-content
 description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\updatetrace.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UpdateTraceW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateTraceA function

@@ -4,17 +4,16 @@ title: WSAGetQOSByName function
 author: windows-sdk-content
 description: The WSAGetQOSByName function initializes a QOS structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
 old-location: winsock\wsagetqosbyname_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 9b586856-5441-414b-8b91-298c952c351b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAGetQOSByName, WSAGetQOSByName function [Winsock], _win32_wsagetqosbyname_2, winsock.wsagetqosbyname_2, winsock2/WSAGetQOSByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAGetQOSByName
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAGetQOSByName function

@@ -4,17 +4,16 @@ title: IPhotoProgressDialog::GetUserInput
 author: windows-sdk-content
 description: Retrieves descriptive information entered by the user, such as the tag name of the images to store.
 old-location: picacq\iphotoprogressdialog_getuserinput.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 1f797e68-f87d-4f90-853b-60c6c9309f58
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetUserInput method, IPhotoProgressDialog.GetUserInput, IPhotoProgressDialog::GetUserInput, IPhotoProgressDialogGetUserInput, photoacquire/IPhotoProgressDialog::GetUserInput, picacq.iphotoprogressdialog_getuserinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoProgressDialog.GetUserInput
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoProgressDialog::GetUserInput

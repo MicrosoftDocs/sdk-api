@@ -4,17 +4,16 @@ title: INetworkListManager::GetConnectivity
 author: windows-sdk-content
 description: The GetConnectivity method returns the overall connectivity state of the machine.
 old-location: nla\inetworklistmanager_getconnectivity.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkListManager.GetConnectivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkListManager::GetConnectivity

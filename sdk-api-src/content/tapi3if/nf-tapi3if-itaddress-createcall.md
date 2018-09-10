@@ -4,17 +4,16 @@ title: ITAddress::CreateCall
 author: windows-sdk-content
 description: The CreateCall method creates a new Call object that can be used to make an outgoing call and returns a pointer to the object's ITBasicCallControl interface. The newly created call is in the CS_IDLE state and has no media or terminals selected.
 old-location: tapi3\itaddress_createcall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateCall, CreateCall method [TAPI 2.2], CreateCall method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateCall method, ITAddress.CreateCall, ITAddress::CreateCall, _tapi3_itaddress_createcall, tapi3.itaddress_createcall, tapi3if/ITAddress::CreateCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.CreateCall
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::CreateCall

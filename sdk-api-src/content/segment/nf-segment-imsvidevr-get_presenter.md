@@ -4,17 +4,16 @@ title: IMSVidEVR::get_Presenter
 author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidevr_get_presenter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d3b5e272-8c71-4e84-b08f-b277eec643c4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_Presenter method, IMSVidEVR.get_Presenter, IMSVidEVR::get_Presenter, IMSVidEVRget_Presenter, get_Presenter, get_Presenter method [Microsoft TV Technologies], get_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_presenter, segment/IMSVidEVR::get_Presenter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidEVR.get_Presenter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidEVR::get_Presenter

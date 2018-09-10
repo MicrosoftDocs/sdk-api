@@ -4,17 +4,16 @@ title: ADsFreeEnumerator function
 author: windows-sdk-content
 description: Frees an enumerator object created with the ADsBuildEnumerator function.
 old-location: adsi\adsfreeenumerator.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsFreeEnumerator
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsFreeEnumerator function

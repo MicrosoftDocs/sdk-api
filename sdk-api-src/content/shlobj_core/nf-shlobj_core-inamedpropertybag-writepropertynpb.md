@@ -4,17 +4,16 @@ title: INamedPropertyBag::WritePropertyNPB
 author: windows-sdk-content
 description: Saves a property to the named property bag.
 old-location: shell\INamedPropertyBag_WritePropertyNPB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f91764ee-85eb-47ec-b983-49ec410b8c2c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],WritePropertyNPB method, INamedPropertyBag.WritePropertyNPB, INamedPropertyBag::WritePropertyNPB, WritePropertyNPB, WritePropertyNPB method [Windows Shell], WritePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_WritePropertyNPB, shell.INamedPropertyBag_WritePropertyNPB, shlobj_core/INamedPropertyBag::WritePropertyNPB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shdocvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedPropertyBag.WritePropertyNPB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # INamedPropertyBag::WritePropertyNPB
@@ -62,7 +60,7 @@ Saves a property to the named property bag.
 
 ### -param pszBagname
 
-
+TBD
 
 
 ### -param pszPropName [in]

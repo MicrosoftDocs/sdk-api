@@ -4,17 +4,16 @@ title: IMetaDataImport::GetRVA
 author: windows-sdk-content
 description: Gets the relative virtual address (RVA) and the implementation flags of the method or field represented by the specified token.
 old-location: winrt\imetadataimport_getrva.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 125f7891-0ffe-48f9-a9de-4b4d2f50fc25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRVA, GetRVA method [Windows Runtime], GetRVA method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetRVA method, IMetaDataImport.GetRVA, IMetaDataImport::GetRVA, rometadataapi/IMetaDataImport::GetRVA, winrt.imetadataimport_getrva
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetRVA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetRVA

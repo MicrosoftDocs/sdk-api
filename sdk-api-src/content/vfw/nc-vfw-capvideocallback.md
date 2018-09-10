@@ -4,7 +4,7 @@ title: CAPVIDEOCALLBACK
 author: windows-sdk-content
 description: The capVideoStreamCallback function is the callback function used with streaming capture to optionally process a frame of captured video. The name capVideoStreamCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capvideostreamcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: e21d7563-0ca8-4777-9fb0-de7c1c4ae618
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capVideoStreamCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CAPVIDEOCALLBACK callback function

@@ -4,17 +4,16 @@ title: IXAudio2EngineCallback::OnProcessingPassStart
 author: windows-sdk-content
 description: Called by XAudio2 just before an audio processing pass begins.
 old-location: xaudio2\ixaudio2enginecallback_onprocessingpassstart.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnProcessingPassStart
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnProcessingPassStart method, IXAudio2EngineCallback.OnProcessingPassStart, IXAudio2EngineCallback::OnProcessingPassStart, OnProcessingPassStart, OnProcessingPassStart method [XAudio2 Audio Mixing APIs], OnProcessingPassStart method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_onprocessingpassstart, xaudio2/IXAudio2EngineCallback::OnProcessingPassStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2EngineCallback.OnProcessingPassStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2EngineCallback::OnProcessingPassStart

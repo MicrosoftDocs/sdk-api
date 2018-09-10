@@ -4,17 +4,16 @@ title: IPolicyQualifier::InitializeEncode
 author: windows-sdk-content
 description: Initializes the object from a string and a value that identifies the qualifier type.
 old-location: security\ipolicyqualifier_initializeencode_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPolicyQualifier interface [Security],InitializeEncode method, IPolicyQualifier.InitializeEncode, IPolicyQualifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IPolicyQualifier interface, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPolicyQualifier.InitializeEncode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPolicyQualifier::InitializeEncode

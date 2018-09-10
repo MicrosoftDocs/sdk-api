@@ -4,17 +4,16 @@ title: CommConfigDialogW function
 author: windows-sdk-content
 description: Displays a driver-supplied configuration dialog box.
 old-location: base\commconfigdialog.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 6c7a3833-1d40-40c5-bfa7-14523bc73ab0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CommConfigDialogW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CommConfigDialogW function

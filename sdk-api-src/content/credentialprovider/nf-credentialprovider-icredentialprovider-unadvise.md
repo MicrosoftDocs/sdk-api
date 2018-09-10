@@ -4,17 +4,16 @@ title: ICredentialProvider::UnAdvise
 author: windows-sdk-content
 description: Used by the Logon UI or Credential UI to advise the credential provider that event callbacks are no longer accepted.
 old-location: shell\ICredentialProvider_UnAdvise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProvider.UnAdvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProvider::UnAdvise

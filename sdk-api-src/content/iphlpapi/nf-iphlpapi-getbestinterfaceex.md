@@ -4,17 +4,16 @@ title: GetBestInterfaceEx function
 author: windows-sdk-content
 description: The GetBestInterfaceEx function retrieves the index of the interface that has the best route to the specified IPv4 or IPv6 address.
 old-location: iphlp\getbestinterfaceex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetBestInterfaceEx
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetBestInterfaceEx function

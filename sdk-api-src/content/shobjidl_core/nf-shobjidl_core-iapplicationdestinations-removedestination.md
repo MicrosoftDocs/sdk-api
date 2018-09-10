@@ -4,17 +4,16 @@ title: IApplicationDestinations::RemoveDestination
 author: windows-sdk-content
 description: Removes a single destination from the Recent and Frequent categories in a Jump List.
 old-location: shell\IApplicationDestinations_RemoveDestination.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d1c33908-8450-4baf-8598-535a1941820c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDestinations.RemoveDestination
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDestinations::RemoveDestination

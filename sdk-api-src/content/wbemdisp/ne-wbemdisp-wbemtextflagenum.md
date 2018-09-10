@@ -4,7 +4,7 @@ title: WbemTextFlagEnum
 author: windows-sdk-content
 description: Defines the content of generated object text and is used by SWbemObject.GetObjectText_.
 old-location: wmi\wbemtextflagenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 81384e65-5ea0-420a-b92f-e93d5e545252
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTextFlagEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemTextFlagEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemTextFlagEnum
+req.redist: 
 ---
 
 # WbemTextFlagEnum enumeration

@@ -4,17 +4,16 @@ title: DriveType function
 author: windows-sdk-content
 description: DriveType may be altered or unavailable.
 old-location: shell\DriveType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DriveType
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DriveType function

@@ -4,7 +4,7 @@ title: D3D10_TEX1D_SRV
 author: windows-sdk-content
 description: Specifies the subresource from a 1D texture to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex1d_srv.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_srv.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_TEX1D_SRV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_TEX1D_SRV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_TEX1D_SRV
+req.redist: 
 ---
 
 # D3D10_TEX1D_SRV structure

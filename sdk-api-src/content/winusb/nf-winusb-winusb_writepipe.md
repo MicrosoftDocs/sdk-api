@@ -4,17 +4,16 @@ title: WinUsb_WritePipe function
 author: windows-sdk-content
 description: The WinUsb_WritePipe function writes data to a pipe.
 old-location: buses\winusb_writepipe.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 995b1d1b-8c08-4e67-8ba5-155231fe37f4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_WritePipe
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_WritePipe function

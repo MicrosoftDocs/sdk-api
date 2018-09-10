@@ -4,7 +4,7 @@ title: "_TPM_DEVICE_INFO"
 author: windows-sdk-content
 description: Provides information about the version of the TPM.
 old-location: tbs\tpm_device_info.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: 59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TPM_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
+req.redist: 
 ---
 
 # _TPM_DEVICE_INFO structure

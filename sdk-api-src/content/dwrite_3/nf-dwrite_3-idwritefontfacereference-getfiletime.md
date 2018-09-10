@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::GetFileTime
 author: windows-sdk-content
 description: Get the last modified date.
 old-location: directwrite\idwritefontfacereference_getfiletime.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileTime method, IDWriteFontFaceReference.GetFileTime, IDWriteFontFaceReference::GetFileTime, directwrite.idwritefontfacereference_getfiletime, dwrite_3/IDWriteFontFaceReference::GetFileTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.GetFileTime
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::GetFileTime

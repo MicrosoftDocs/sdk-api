@@ -4,17 +4,16 @@ title: IShellTaskScheduler::Status
 author: windows-sdk-content
 description: Sets the release status and background thread timeout for the current task.
 old-location: shell\IShellTaskScheduler_Status.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 378a2ae1-520a-48a7-a2e5-fa1ad25e2380
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],Status method, IShellTaskScheduler.Status, IShellTaskScheduler::Status, ITSSFLAG_KILL_ON_DESTROY, Status, Status method [Windows Shell], Status method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_Status, shell.IShellTaskScheduler_Status, shobjidl_core/IShellTaskScheduler::Status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellTaskScheduler.Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellTaskScheduler::Status

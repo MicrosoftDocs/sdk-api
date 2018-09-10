@@ -4,7 +4,7 @@ title: "_VMRDeinterlaceCaps"
 author: windows-sdk-content
 description: The VMRDeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmrdeinterlacecaps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRDeinterlaceCaps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRDeinterlaceCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMRDeinterlaceCaps
+req.redist: 
 req.product: Windows XP with SP1 and later
 ---
 

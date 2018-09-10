@@ -4,17 +4,16 @@ title: IStreamBufferRecordingAttribute::GetAttributeByIndex
 author: windows-sdk-content
 description: The GetAttributeByIndex method retrieves an attribute, specified by index number.
 old-location: mstv\istreambufferrecordingattribute_getattributebyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a4d9d25f-1e21-40e5-80c4-a8fe15dbc216
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [Microsoft TV Technologies], GetAttributeByIndex method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByIndex method, IStreamBufferRecordingAttribute.GetAttributeByIndex, IStreamBufferRecordingAttribute::GetAttributeByIndex, IStreamBufferRecordingAttributeGetAttributeByIndex, mstv.istreambufferrecordingattribute_getattributebyindex, sbe/IStreamBufferRecordingAttribute::GetAttributeByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferRecordingAttribute.GetAttributeByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferRecordingAttribute::GetAttributeByIndex

@@ -4,7 +4,7 @@ title: WS_XML_READER_ENCODING_TYPE
 author: windows-sdk-content
 description: The type of WS_XML_READER_ENCODING structure.
 old-location: wsw\ws_xml_reader_encoding_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3dfeb712-9867-49d5-b1f0-1abd836a4746
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_ENCODING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_ENCODING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_ENCODING_TYPE
+req.redist: 
 ---
 
 # WS_XML_READER_ENCODING_TYPE enumeration

@@ -4,17 +4,16 @@ title: ICertServerPolicy::GetRequestProperty
 author: windows-sdk-content
 description: Retrieves a specific property from a request.
 old-location: security\icertserverpolicy_getrequestproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestProperty method, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerPolicy object, GetRequestProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestProperty method, ICertServerPolicy.GetRequestProperty, ICertServerPolicy::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, SubmittedWhen, _certsrv_icertserverpolicy_getrequestproperty, certif/ICertServerPolicy::GetRequestProperty, security.icertserverpolicy_getrequestproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerPolicy.GetRequestProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerPolicy::GetRequestProperty

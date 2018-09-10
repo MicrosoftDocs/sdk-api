@@ -4,7 +4,7 @@ title: WS_SECURE_CONVERSATION_VERSION
 author: windows-sdk-content
 description: Defines the WS-SecureConversation specification version to be used with message security and mixed-mode security.
 old-location: wsw\ws_secure_conversation_version.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURE_CONVERSATION_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURE_CONVERSATION_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURE_CONVERSATION_VERSION
+req.redist: 
 ---
 
 # WS_SECURE_CONVERSATION_VERSION enumeration

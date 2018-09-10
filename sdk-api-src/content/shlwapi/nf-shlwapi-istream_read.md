@@ -4,17 +4,16 @@ title: IStream_Read function
 author: windows-sdk-content
 description: Reads bytes from a specified stream and returns a value that indicates whether all bytes were successfully read.
 old-location: shell\IStream_Read.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 07a3a500-babb-458b-ba98-9344c63ea014
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream_Read, shell.IStream_Read, shlwapi/IStream_Read
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IStream_Read
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStream_Read function

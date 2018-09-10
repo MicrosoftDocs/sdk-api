@@ -4,7 +4,7 @@ title: "_VDS_LOADBALANCE_POLICY_ENUM"
 author: windows-sdk-content
 description: Defines a set of valid load balance policies for a path.
 old-location: base\vds_loadbalance_policy_enum.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0391c605-3808-4c24-8638-77b1fe3342bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LOADBALANCE_POLICY_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_LOADBALANCE_POLICY_ENUM
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LOADBALANCE_POLICY_ENUM
+req.redist: 
 ---
 
 # _VDS_LOADBALANCE_POLICY_ENUM enumeration

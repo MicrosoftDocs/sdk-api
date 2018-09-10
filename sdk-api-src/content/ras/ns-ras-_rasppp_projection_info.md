@@ -4,7 +4,7 @@ title: "_RASPPP_PROJECTION_INFO"
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
 old-location: rras\rasppp_projection_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASPPP_PROJECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO
+req.redist: 
 ---
 
 # _RASPPP_PROJECTION_INFO structure

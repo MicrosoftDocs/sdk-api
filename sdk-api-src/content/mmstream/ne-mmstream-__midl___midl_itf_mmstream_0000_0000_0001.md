@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mmstream_0000_0000_0001"
 author: windows-sdk-content
 description: Note  This API is deprecated. New applications should not use it. Defines the direction of data flow for the stream.
 old-location: dshow\stream_type.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 07ab5ded-28b8-4cac-b4da-76f07ad351ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: STREAM_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mmstream_0000_0000_0001 enumeration

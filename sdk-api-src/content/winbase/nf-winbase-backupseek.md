@@ -4,17 +4,16 @@ title: BackupSeek function
 author: windows-sdk-content
 description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
 old-location: backup\backupseek.htm
-old-project: backup
+tech.root: backup
 ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup.backupseek, base.backupseek, winbase/BackupSeek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BackupSeek
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # BackupSeek function

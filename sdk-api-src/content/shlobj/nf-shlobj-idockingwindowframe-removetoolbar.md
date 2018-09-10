@@ -4,17 +4,16 @@ title: IDockingWindowFrame::RemoveToolbar
 author: windows-sdk-content
 description: Removes the specified IDockingWindow from the toolbar frame.
 old-location: shell\IDockingWindowFrame_RemoveToolbar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4ebc4561-a7fe-4fa4-ae2a-88030ede02e7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DWFRF_DELETECONFIGDATA, DWFRF_NORMAL, IDockingWindowFrame interface [Windows Shell],RemoveToolbar method, IDockingWindowFrame.RemoveToolbar, IDockingWindowFrame::RemoveToolbar, RemoveToolbar, RemoveToolbar method [Windows Shell], RemoveToolbar method [Windows Shell],IDockingWindowFrame interface, _win32_IDockingWindowFrame_RemoveToolbar, shell.IDockingWindowFrame_RemoveToolbar, shlobj/IDockingWindowFrame::RemoveToolbar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDockingWindowFrame.RemoveToolbar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDockingWindowFrame::RemoveToolbar

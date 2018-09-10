@@ -4,7 +4,7 @@ title: "_DOMAIN_PASSWORD_INFORMATION"
 author: windows-sdk-content
 description: Contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
 old-location: security\domain_password_information.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 7dceaf70-d8de-47c0-b940-f0d6a0cca101
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DOMAIN_PASSWORD_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
+req.redist: 
 ---
 
 # _DOMAIN_PASSWORD_INFORMATION structure

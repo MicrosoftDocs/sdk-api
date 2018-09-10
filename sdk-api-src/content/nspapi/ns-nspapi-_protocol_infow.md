@@ -4,7 +4,7 @@ title: "_PROTOCOL_INFOW"
 author: windows-sdk-content
 description: Contains information about a protocol.
 old-location: winsock\protocol_info_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 0cbddf17-41a8-4e61-b3b0-080ef50dc5de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROTOCOL_INFOW, *PPROTOCOL_INFOW, *LPPROTOCOL_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PROTOCOL_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PROTOCOL_INFOW, *PPROTOCOL_INFOW, *LPPROTOCOL_INFOW
+req.redist: 
 ---
 
 # _PROTOCOL_INFOW structure

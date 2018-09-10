@@ -4,17 +4,16 @@ title: SymSetContext function
 author: windows-sdk-content
 description: Sets context information used by the SymEnumSymbols function. This function only works with PDB symbols.
 old-location: base\symsetcontext.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymSetContext
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymSetContext function

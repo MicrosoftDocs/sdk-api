@@ -4,17 +4,16 @@ title: ISearchCatalogManager::GetParameter
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_GetParameter.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getparameter.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetParameter method, ISearchCatalogManager.GetParameter, ISearchCatalogManager::GetParameter, _search_ISearchCatalogManager_GetParameter, search._search_ISearchCatalogManager_GetParameter, searchapi/ISearchCatalogManager::GetParameter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCatalogManager.GetParameter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchCatalogManager::GetParameter

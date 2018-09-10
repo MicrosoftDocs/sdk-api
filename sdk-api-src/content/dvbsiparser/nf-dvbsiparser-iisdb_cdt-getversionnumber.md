@@ -4,17 +4,16 @@ title: IISDB_CDT::GetVersionNumber
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getversionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4c88ecdb-8e01-4fec-96f2-c67331b6d071
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_CDT.GetVersionNumber, IISDB_CDT::GetVersionNumber, dvbsiparser/IISDB_CDT::GetVersionNumber, mstv.iisdb_cdt_getversionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_CDT.GetVersionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_CDT::GetVersionNumber

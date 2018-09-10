@@ -4,7 +4,7 @@ title: FIND_BY_SID_OUTPUT
 author: windows-sdk-content
 description: Represents a file name.
 old-location: fs\find_by_sid_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FIND_BY_SID_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT
+req.redist: 
 ---
 
 # FIND_BY_SID_OUTPUT structure

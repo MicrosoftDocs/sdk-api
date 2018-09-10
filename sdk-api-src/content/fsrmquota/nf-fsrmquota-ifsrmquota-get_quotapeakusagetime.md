@@ -4,17 +4,16 @@ title: IFsrmQuota::get_QuotaPeakUsageTime
 author: windows-sdk-content
 description: Retrieves the date and time that the IFsrmQuota::QuotaPeakUsage property was set.
 old-location: fsrm\ifsrmquota_quotapeakusagetime.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 08b7c438-6bcf-4323-ac27-7e3c79c062da
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsageTime property, IFsrmQuota.QuotaPeakUsageTime, IFsrmQuota.get_QuotaPeakUsageTime, IFsrmQuota::QuotaPeakUsageTime, IFsrmQuota::get_QuotaPeakUsageTime, QuotaPeakUsageTime property [File Server Resource Manager], QuotaPeakUsageTime property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusagetime, fsrm.ifsrmquota_quotapeakusagetime, fsrmquota/IFsrmQuota::QuotaPeakUsageTime, fsrmquota/IFsrmQuota::get_QuotaPeakUsageTime, get_QuotaPeakUsageTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmQuota.get_QuotaPeakUsageTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuota::get_QuotaPeakUsageTime

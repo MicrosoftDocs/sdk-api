@@ -4,17 +4,16 @@ title: IBitsPeer::IsAvailable
 author: windows-sdk-content
 description: Determines whether the peer is available (online) to serve content.
 old-location: bits\ibitspeer_isavailable.htm
-old-project: bits
+tech.root: bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeer.IsAvailable
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeer::IsAvailable
@@ -62,7 +61,7 @@ Determines whether the peer is available (online) to serve content.
 
 ### -param pOnline
 
-
+TBD
 
 
 

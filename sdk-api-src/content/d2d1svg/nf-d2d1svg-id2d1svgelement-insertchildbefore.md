@@ -4,17 +4,16 @@ title: ID2D1SvgElement::InsertChildBefore
 author: windows-sdk-content
 description: Inserts newChild as a child of this element, before the referenceChild element.
 old-location: direct2d\id2d1svgelement_insertchildbefore.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 09BBABC1-0644-473E-A751-C84437941A2B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],InsertChildBefore method, ID2D1SvgElement.InsertChildBefore, ID2D1SvgElement::InsertChildBefore, InsertChildBefore, InsertChildBefore method [Direct2D], InsertChildBefore method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::InsertChildBefore, direct2d.id2d1svgelement_insertchildbefore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgElement.InsertChildBefore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgElement::InsertChildBefore

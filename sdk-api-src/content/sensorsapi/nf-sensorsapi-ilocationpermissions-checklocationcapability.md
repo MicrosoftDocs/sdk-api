@@ -4,17 +4,16 @@ title: ILocationPermissions::CheckLocationCapability
 author: windows-sdk-content
 description: Gets the location capability of the Windows Store app of the given thread.
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocationPermissions.CheckLocationCapability
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILocationPermissions::CheckLocationCapability

@@ -4,17 +4,16 @@ title: ISharingConfigurationManager::StopSharingPrinters
 author: windows-sdk-content
 description: Stops sharing all local, shared printers connected to a computer.
 old-location: shell\ISharingConfigurationManager_StopSharingPrinters.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dfb5a6a6-3530-4925-bbe8-d67c2537ef4e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],StopSharingPrinters method, ISharingConfigurationManager.StopSharingPrinters, ISharingConfigurationManager::StopSharingPrinters, StopSharingPrinters, StopSharingPrinters method [Windows Shell], StopSharingPrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_StopSharingPrinters, shell.ISharingConfigurationManager_StopSharingPrinters, shobjidl_core/ISharingConfigurationManager::StopSharingPrinters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISharingConfigurationManager.StopSharingPrinters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISharingConfigurationManager::StopSharingPrinters

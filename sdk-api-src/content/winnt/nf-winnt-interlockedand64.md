@@ -4,17 +4,16 @@ title: InterlockedAnd64 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified LONGLONG values.
 old-location: base\interlockedand64.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 544b0710-3394-4123-88e1-0621de5fe7b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedAnd64, InterlockedAnd64 function, base.interlockedand64, winnt/InterlockedAnd64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedAnd64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedAnd64 function

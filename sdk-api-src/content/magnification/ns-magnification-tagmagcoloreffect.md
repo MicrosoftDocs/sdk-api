@@ -4,7 +4,7 @@ title: tagMAGCOLOREFFECT
 author: windows-sdk-content
 description: Describes a color transformation matrix that a magnifier control uses to apply a color effect to magnified screen content.
 old-location: magapi\magapi_magcoloreffect.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magcoloreffectstruct.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAGCOLOREFFECT, *PMAGCOLOREFFECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAGCOLOREFFECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MAGCOLOREFFECT, *PMAGCOLOREFFECT
+req.redist: 
 ---
 
 # tagMAGCOLOREFFECT structure

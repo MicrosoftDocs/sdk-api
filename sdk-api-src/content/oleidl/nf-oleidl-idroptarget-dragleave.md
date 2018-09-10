@@ -4,17 +4,16 @@ title: IDropTarget::DragLeave
 author: windows-sdk-content
 description: Removes target feedback and releases the data object.
 old-location: com\idroptarget_dragleave.htm
-old-project: com
+tech.root: com
 ms.assetid: 2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DragLeave, DragLeave method [COM], DragLeave method [COM],IDropTarget interface, IDropTarget interface [COM],DragLeave method, IDropTarget.DragLeave, IDropTarget::DragLeave, _ole_idroptarget_dragleave, com.idroptarget_dragleave, oleidl/IDropTarget::DragLeave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropTarget.DragLeave
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTarget::DragLeave

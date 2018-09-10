@@ -4,17 +4,16 @@ title: IEnumWiaItem::Next
 author: windows-sdk-content
 description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.
 old-location: wia\_wia_IEnumWiaItem_Next.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: Wiaguid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumWiaItem.Next
 product: Windows
 targetos: Windows
-req.lib: Wiaguid.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWiaItem::Next

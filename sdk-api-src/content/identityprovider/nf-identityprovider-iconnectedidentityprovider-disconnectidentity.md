@@ -4,17 +4,16 @@ title: IConnectedIdentityProvider::DisconnectIdentity
 author: windows-sdk-content
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectedIdentityProvider.DisconnectIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectedIdentityProvider::DisconnectIdentity

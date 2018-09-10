@@ -4,17 +4,16 @@ title: IMcastScope::get_InterfaceID
 author: windows-sdk-content
 description: The get_InterfaceID method obtains an interface identifier of this scope, which identifies the interface on which the server that published this scope resides. This is normally the network address of the interface.
 old-location: tapi3\imcastscope_get_interfaceid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 376ccbe4-ad83-4eef-88bd-11ed95d14359
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_InterfaceID method, IMcastScope.get_InterfaceID, IMcastScope::get_InterfaceID, _tapi3_imcastscope_get_interfaceid, get_InterfaceID, get_InterfaceID method [TAPI 2.2], get_InterfaceID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_InterfaceID, tapi3.imcastscope_get_interfaceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastScope.get_InterfaceID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastScope::get_InterfaceID

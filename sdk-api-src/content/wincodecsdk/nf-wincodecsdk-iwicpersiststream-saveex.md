@@ -4,17 +4,16 @@ title: IWICPersistStream::SaveEx
 author: windows-sdk-content
 description: Saves the IWICPersistStream to the given input IStream using the given parameters.
 old-location: wic\_wic_codec_iwicpersiststream_saveex.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 8820ad87-a808-48db-91d8-c76bca1c832c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICPersistStream interface [Windows Imaging Component],SaveEx method, IWICPersistStream.SaveEx, IWICPersistStream::SaveEx, SaveEx, SaveEx method [Windows Imaging Component], SaveEx method [Windows Imaging Component],IWICPersistStream interface, _wic_codec_iwicpersiststream_saveex, wic._wic_codec_iwicpersiststream_saveex, wincodecsdk/IWICPersistStream::SaveEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICPersistStream.SaveEx
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPersistStream::SaveEx

@@ -4,17 +4,16 @@ title: GetDpiForSystem function
 author: windows-sdk-content
 description: Returns the system DPI.
 old-location: hidpi\getdpiforsystem.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetDpiForSystem
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetDpiForSystem function

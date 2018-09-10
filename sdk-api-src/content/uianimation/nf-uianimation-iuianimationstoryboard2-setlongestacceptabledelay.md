@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::SetLongestAcceptableDelay
 author: windows-sdk-content
 description: Sets the longest acceptable delay before the scheduled storyboard begins.
 old-location: uianimation\iuianimationstoryboard2_setlongestacceptabledelay.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: D23F4833-413C-470B-8572-2DCB051576A3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetLongestAcceptableDelay method, IUIAnimationStoryboard2.SetLongestAcceptableDelay, IUIAnimationStoryboard2::SetLongestAcceptableDelay, SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard2::SetLongestAcceptableDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.SetLongestAcceptableDelay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::SetLongestAcceptableDelay

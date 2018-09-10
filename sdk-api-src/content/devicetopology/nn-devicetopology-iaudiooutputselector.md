@@ -4,7 +4,7 @@ title: IAudioOutputSelector
 author: windows-sdk-content
 description: The IAudioOutputSelector interface provides access to a hardware demultiplexer control (output selector).
 old-location: coreaudio\iaudiooutputselector.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 571a44b6-972f-4d75-a31f-0e02cf728764
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioOutputSelector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioOutputSelector interface

@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::DeleteServiceForApplication
 author: windows-sdk-content
 description: Deletes the Windows service associated with the specified COM+ application.
 old-location: cos\icomadmincatalog2_deleteserviceforapplication.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8bc4a72e-79a1-4780-a143-1ba1ec66812b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteServiceForApplication, DeleteServiceForApplication method [COM+], DeleteServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DeleteServiceForApplication method, ICOMAdminCatalog2.DeleteServiceForApplication, ICOMAdminCatalog2::DeleteServiceForApplication, _cos_icomadmincatalog2_DeleteServiceForApplication, comadmin/ICOMAdminCatalog2::DeleteServiceForApplication, cos.icomadmincatalog2_deleteserviceforapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.DeleteServiceForApplication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::DeleteServiceForApplication

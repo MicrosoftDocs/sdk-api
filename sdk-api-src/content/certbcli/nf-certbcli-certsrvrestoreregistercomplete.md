@@ -4,17 +4,16 @@ title: CertSrvRestoreRegisterComplete function
 author: windows-sdk-content
 description: Completes a registered Certificate Services restore operation.
 old-location: security\certsrvrestoreregistercomplete.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CertSrvRestoreRegisterComplete
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvRestoreRegisterComplete function

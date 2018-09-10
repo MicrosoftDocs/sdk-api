@@ -4,17 +4,16 @@ title: BCryptDecrypt function
 author: windows-sdk-content
 description: Decrypts a block of data.
 old-location: security\bcryptdecrypt_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 62286f6b-0d57-4691-83fc-2b9a9740af71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptDecrypt, BCryptDecrypt function [Security], bcrypt/BCryptDecrypt, security.bcryptdecrypt_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptDecrypt
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDecrypt function

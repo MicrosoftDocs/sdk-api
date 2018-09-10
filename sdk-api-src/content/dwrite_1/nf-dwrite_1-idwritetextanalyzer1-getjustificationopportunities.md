@@ -4,17 +4,16 @@ title: IDWriteTextAnalyzer1::GetJustificationOpportunities
 author: windows-sdk-content
 description: Retrieves justification opportunity information for each of the glyphs given the text and shaping glyph properties.
 old-location: directwrite\idwritetextanalyzer1_getjustificationopportunities.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 85D3841F-FA2B-4636-B786-DCD68C72209A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetJustificationOpportunities, GetJustificationOpportunities method [Direct Write], GetJustificationOpportunities method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetJustificationOpportunities method, IDWriteTextAnalyzer1.GetJustificationOpportunities, IDWriteTextAnalyzer1::GetJustificationOpportunities, directwrite.idwritetextanalyzer1_getjustificationopportunities, dwrite_1/IDWriteTextAnalyzer1::GetJustificationOpportunities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalyzer1.GetJustificationOpportunities
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalyzer1::GetJustificationOpportunities

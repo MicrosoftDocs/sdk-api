@@ -4,17 +4,16 @@ title: IOpcPartSet::GetEnumerator
 author: windows-sdk-content
 description: Gets an enumerator of IOpcPart interface pointers in the set.
 old-location: opc\iopcpartset_getenumerator.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcPartSet.GetEnumerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcPartSet::GetEnumerator

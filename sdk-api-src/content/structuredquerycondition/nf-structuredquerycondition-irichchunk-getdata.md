@@ -4,17 +4,16 @@ title: IRichChunk::GetData
 author: windows-sdk-content
 description: Retrieves the PROPVARIANT and input string that represents a chunk of data.
 old-location: search\_search_IRichChunk_GetData.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONDITION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichChunk.GetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IRichChunk::GetData

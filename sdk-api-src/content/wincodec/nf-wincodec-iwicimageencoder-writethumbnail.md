@@ -4,17 +4,16 @@ title: IWICImageEncoder::WriteThumbnail
 author: windows-sdk-content
 description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 old-location: wic\iwicimageencoder_writethumbnail.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 322AD13D-E755-45BD-A31D-D603DBD7FA81
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteThumbnail method, IWICImageEncoder.WriteThumbnail, IWICImageEncoder::WriteThumbnail, WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImageEncoder.WriteThumbnail
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImageEncoder::WriteThumbnail

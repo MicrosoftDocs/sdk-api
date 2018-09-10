@@ -4,17 +4,16 @@ title: DsGetSpnW function
 author: windows-sdk-content
 description: The DsGetSpn function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the DsWriteAccountSpn function.
 old-location: ad\dsgetspn.htm
-old-project: ad
+tech.root: ad
 ms.assetid: cbd53850-9b05-4f74-ab07-30dcad583fc5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_SPN_DNS_HOST,DS_SPN_DN_HOST,DS_SPN_NB_HOST, DS_SPN_DOMAIN,DS_SPN_NB_DOMAIN, DS_SPN_SERVICE, DsGetSpn, DsGetSpn function [Active Directory], DsGetSpnA, DsGetSpnW, _glines_dsgetspn, ad.dsgetspn, ntdsapi/DsGetSpn, ntdsapi/DsGetSpnA, ntdsapi/DsGetSpnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsGetSpnW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetSpnW function

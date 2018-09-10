@@ -4,17 +4,16 @@ title: IFsrmFileScreenException::get_Path
 author: windows-sdk-content
 description: Retrieves the path that is associated with this file screen exception.
 old-location: fsrm\ifsrmfilescreenexception_path.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ac447042-b87b-4387-bb8f-2e69df9e7f8f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileScreenException interface [File Server Resource Manager],Path property, IFsrmFileScreenException.Path, IFsrmFileScreenException.get_Path, IFsrmFileScreenException::Path, IFsrmFileScreenException::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreenException interface, fs.ifsrmfilescreenexception_path, fsrm.ifsrmfilescreenexception_path, fsrmscreen/IFsrmFileScreenException::Path, fsrmscreen/IFsrmFileScreenException::get_Path, get_Path
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileScreenException.get_Path
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenException::get_Path

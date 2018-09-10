@@ -4,17 +4,16 @@ title: ResUtilGetEnvironmentWithNetName function
 author: windows-sdk-content
 description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
 old-location: mscs\resutilgetenvironmentwithnetname.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster], ResUtilGetEnvironmentWithNetName, ResUtilGetEnvironmentWithNetName function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, resapi/ResUtilGetEnvironmentWithNetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetEnvironmentWithNetName
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetEnvironmentWithNetName function

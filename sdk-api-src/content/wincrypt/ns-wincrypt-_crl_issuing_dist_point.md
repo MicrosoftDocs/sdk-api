@@ -4,7 +4,7 @@ title: "_CRL_ISSUING_DIST_POINT"
 author: windows-sdk-content
 description: Contains information about the kinds of certificates listed in a certificate revocation list (CRL).
 old-location: security\crl_issuing_dist_point.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_ISSUING_DIST_POINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
+req.redist: 
 ---
 
 # _CRL_ISSUING_DIST_POINT structure

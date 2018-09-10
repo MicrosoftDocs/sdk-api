@@ -4,17 +4,16 @@ title: BluetoothRegisterForAuthentication function
 author: windows-sdk-content
 description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.
 old-location: bluetooth\bluetoothregisterforauthentication.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothRegisterForAuthentication, BluetoothRegisterForAuthentication function [Bluetooth], bluetooth.bluetoothregisterforauthentication, bluetoothapis/BluetoothRegisterForAuthentication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothRegisterForAuthentication
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothRegisterForAuthentication function

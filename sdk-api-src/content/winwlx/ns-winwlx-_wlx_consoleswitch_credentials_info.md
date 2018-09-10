@@ -4,7 +4,7 @@ title: "_WLX_CONSOLESWITCH_CREDENTIALS_INFO"
 author: windows-sdk-content
 description: Contains the client credentials returned by a call to WlxGetConsoleSwitchCredentials.
 old-location: security\wlx_consoleswitch_credentials_info_v1_0.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: f72f3dd3-42a3-4f2b-be36-13c496c396fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, *PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, *PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
+req.redist: 
 ---
 
 # _WLX_CONSOLESWITCH_CREDENTIALS_INFO structure

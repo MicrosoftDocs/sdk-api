@@ -4,17 +4,16 @@ title: IX509ExtensionTemplate::InitializeDecode
 author: windows-sdk-content
 description: Initializes the extension from a DER-encoded byte array that contains the extension value.
 old-location: security\ix509extensiontemplate_initializedecode_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: c35a6108-9f5e-4876-9ea1-ce8b568abfde
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeDecode method, IX509ExtensionTemplate.InitializeDecode, IX509ExtensionTemplate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeDecode, security.ix509extensiontemplate_initializedecode_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509ExtensionTemplate.InitializeDecode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionTemplate::InitializeDecode

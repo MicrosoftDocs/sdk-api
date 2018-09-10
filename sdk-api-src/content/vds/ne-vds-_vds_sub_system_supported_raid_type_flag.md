@@ -4,7 +4,7 @@ title: "_VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG"
 author: windows-sdk-content
 description: Defines the set of RAID levels that can be supported by subsystems.
 old-location: base\vds_sub_system_supported_raid_type_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0ee75959-f55c-43c9-b58c-a62b0544dcda
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, *PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, *PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+req.redist: 
 ---
 
 # _VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG enumeration

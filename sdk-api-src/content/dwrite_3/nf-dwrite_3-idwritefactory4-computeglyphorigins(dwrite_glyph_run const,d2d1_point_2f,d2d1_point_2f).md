@@ -4,17 +4,16 @@ title: IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F
 author: windows-sdk-content
 description: Converts glyph run placements to glyph origins.
 old-location: directwrite\idwritefactory4_computeglyphorigins.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0AA609E2-28C3-4D0C-A627-0648FB0D126A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ComputeGlyphOrigins, ComputeGlyphOrigins method [Direct Write], ComputeGlyphOrigins method [Direct Write],IDWriteFactory4 interface, IDWriteFactory4 interface [Direct Write],ComputeGlyphOrigins method, IDWriteFactory4.ComputeGlyphOrigins, IDWriteFactory4.ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F), IDWriteFactory4::ComputeGlyphOrigins, IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F), directwrite.idwritefactory4_computeglyphorigins, dwrite_3/IDWriteFactory4::ComputeGlyphOrigins
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteFactory4.ComputeGlyphOrigins
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory4::ComputeGlyphOrigins(DWRITE_GLYPH_RUN const,D2D1_POINT_2F,D2D1_POINT_2F)

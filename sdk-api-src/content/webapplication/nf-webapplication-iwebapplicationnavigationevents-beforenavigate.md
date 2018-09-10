@@ -4,17 +4,16 @@ title: IWebApplicationNavigationEvents::BeforeNavigate
 author: windows-sdk-content
 description: Fired before navigate occurs in the given host (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm
-old-project: debug_wwahost
+tech.root: debug_wwahost
 ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
 ms.author: windowssdkdev
 ms.date: 06/05/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebApplicationNavigationEvents.BeforeNavigate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWebApplicationNavigationEvents::BeforeNavigate

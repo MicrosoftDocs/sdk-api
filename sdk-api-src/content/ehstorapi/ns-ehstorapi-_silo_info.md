@@ -4,7 +4,7 @@ title: "_SILO_INFO"
 author: windows-sdk-content
 description: SILO_INFO structure contains information that identifies and describes the silo.
 old-location: enstor\silo_info.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 8bfe7c31-61e0-420b-8b6b-6b014cd5e243
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SILO_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SILO_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: SILO_INFO
+req.redist: 
 ---
 
 # _SILO_INFO structure

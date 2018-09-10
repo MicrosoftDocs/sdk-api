@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetQuotaLimitText
 author: windows-sdk-content
 description: Retrieves the user's quota limit for the volume.
 old-location: fs\idiskquotauser_getquotalimittext.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2c200aae-dbc5-487c-a3a4-e8dcf50bc0f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuotaLimitText, GetQuotaLimitText method [Files], GetQuotaLimitText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimitText method, IDiskQuotaUser.GetQuotaLimitText, IDiskQuotaUser::GetQuotaLimitText, _win32_idiskquotauser_getquotalimittext, base.idiskquotauser_getquotalimittext, dskquota/IDiskQuotaUser::GetQuotaLimitText, fs.idiskquotauser_getquotalimittext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetQuotaLimitText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetQuotaLimitText

@@ -4,17 +4,16 @@ title: IInkTablets::Item
 author: windows-sdk-content
 description: Retrieves the IInkTablet object at the specified index within the InkTablets collection.
 old-location: tablet\inktablets_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6, IInkTablets interface [Tablet PC],Item method, IInkTablets.Item, IInkTablets::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::Item, tablet.inktablets_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTablets.Item
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablets::Item

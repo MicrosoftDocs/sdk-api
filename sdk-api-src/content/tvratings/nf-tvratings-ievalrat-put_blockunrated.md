@@ -4,17 +4,16 @@ title: IEvalRat::put_BlockUnRated
 author: windows-sdk-content
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\ievalrat_put_blockunrated.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 22f6bc32-3f41-45d4-83e5-f501cbeb772e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockUnRated method, IEvalRat.put_BlockUnRated, IEvalRat::put_BlockUnRated, IEvalRatput_BlockUnRated, mstv.ievalrat_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockUnRated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tvratings.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEvalRat.put_BlockUnRated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEvalRat::put_BlockUnRated

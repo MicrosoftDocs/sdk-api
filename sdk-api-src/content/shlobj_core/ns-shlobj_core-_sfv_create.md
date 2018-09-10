@@ -4,7 +4,7 @@ title: "_SFV_CREATE"
 author: windows-sdk-content
 description: This structure is used with the SHCreateShellFolderView function.
 old-location: shell\SFV_CREATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c6f3d9a6-5f39-4124-9340-78352f6be117
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SFV_CREATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SFV_CREATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SFV_CREATE
+req.redist: 
 ---
 
 # _SFV_CREATE structure

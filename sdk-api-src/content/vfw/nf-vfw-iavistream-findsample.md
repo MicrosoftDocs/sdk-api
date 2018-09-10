@@ -4,17 +4,16 @@ title: IAVIStream::FindSample
 author: windows-sdk-content
 description: The FindSample method obtains the position in a stream of a key frame or a nonempty frame. Called when an application uses the AVIStreamFindSample function.
 old-location: multimedia\iavistream_findsample.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 77927e6c-beee-4774-b727-5cd608cefb3d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],FindSample method, IAVIStream.FindSample, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStream.FindSample
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStream::FindSample

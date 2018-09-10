@@ -4,7 +4,7 @@ title: "_SECPKG_EVENT_NOTIFY"
 author: windows-sdk-content
 description: The SECPKG_EVENT_NOTIFY structure contains information about security events. This structure is passed to a function registered to receive event notifications. Event notification functions are registered by calling the RegisterNotification function.
 old-location: security\secpkg_event_notify.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 68516a5a-940f-48be-ba9c-5e72d23bc737
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_EVENT_NOTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
+req.redist: 
 ---
 
 # _SECPKG_EVENT_NOTIFY structure

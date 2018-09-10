@@ -4,17 +4,16 @@ title: SHGetSpecialFolderLocation function
 author: windows-sdk-content
 description: SHGetSpecialFolderLocation is not supported and may be altered or unavailable in the future. Instead, use SHGetFolderLocation.
 old-location: shell\SHGetSpecialFolderLocation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHGetSpecialFolderLocation
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetSpecialFolderLocation function

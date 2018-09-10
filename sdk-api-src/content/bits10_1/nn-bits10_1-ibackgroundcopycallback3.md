@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback3
 author: windows-sdk-content
 description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.
 old-location: bits\ibackgroundcopycallback3.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits10_1.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyCallback3
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyCallback3 interface

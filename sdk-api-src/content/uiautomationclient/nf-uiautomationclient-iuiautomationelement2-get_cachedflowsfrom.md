@@ -4,17 +4,16 @@ title: IUIAutomationElement2::get_CachedFlowsFrom
 author: windows-sdk-content
 description: Retrieves a cached array of elements that indicate the reading order before the current element.
 old-location: winauto\uiauto_iuiautomationelement2_cachedflowsfrom.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: CC53C7CE-79D9-4158-8BE2-01B8268CB6C3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedFlowsFrom property [Windows Accessibility], CachedFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedFlowsFrom property, IUIAutomationElement2.CachedFlowsFrom, IUIAutomationElement2.get_CachedFlowsFrom, IUIAutomationElement2::CachedFlowsFrom, IUIAutomationElement2::get_CachedFlowsFrom, IUIAutomationElement2::put_CachedFlowsFrom, get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CachedFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CachedFlowsFrom, winauto.uiauto_iuiautomationelement2_cachedflowsfrom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUIAutomationElement2.put_CachedFlowsFrom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement2::get_CachedFlowsFrom

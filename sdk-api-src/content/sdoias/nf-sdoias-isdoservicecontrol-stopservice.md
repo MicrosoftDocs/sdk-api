@@ -4,17 +4,16 @@ title: ISdoServiceControl::StopService
 author: windows-sdk-content
 description: The StopService method shuts down the service administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_stopservice.htm
-old-project: nps
+tech.root: nps
 ms.assetid: a90e4d12-589b-4d28-89e6-6c0ec6900b0a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StopService method, ISdoServiceControl.StopService, ISdoServiceControl::StopService, StopService, StopService method [Network Policy Server], StopService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_stopservice, nps.SDO_isdoservicecontrol_stopservice, sdo.isdoservicecontrol_stopservice, sdoias/ISdoServiceControl::StopService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoServiceControl.StopService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoServiceControl::StopService

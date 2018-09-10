@@ -4,7 +4,7 @@ title: tagMEASUREITEMSTRUCT
 author: windows-sdk-content
 description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.
 old-location: controls\MEASUREITEMSTRUCT.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, *LPMEASUREITEMSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MEASUREITEMSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, *LPMEASUREITEMSTRUCT
+req.redist: 
 ---
 
 # tagMEASUREITEMSTRUCT structure

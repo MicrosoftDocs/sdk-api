@@ -4,17 +4,16 @@ title: ICodecAPI::SetAllSettingsWithNotify
 author: windows-sdk-content
 description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
 old-location: dshow\icodecapi_setallsettingswithnotify.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.SetAllSettingsWithNotify
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::SetAllSettingsWithNotify
@@ -66,7 +64,7 @@ The <b>SetAllSettingsWithNotify</b> method reads codec properties from a stream,
 
 ### -param __MIDL__ICodecAPI0002
 
-
+TBD
 
 
 ### -param ChangedParam [out]

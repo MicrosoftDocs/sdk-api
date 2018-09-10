@@ -4,17 +4,16 @@ title: IMbnSmsEvents::OnSmsNewClass0Message
 author: windows-sdk-content
 description: Notification method signaling the arrival of a new class 0/flash message.
 old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: e6d13393-557c-462c-a640-2228ab0c9c17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsNewClass0Message method, IMbnSmsEvents.OnSmsNewClass0Message, IMbnSmsEvents::OnSmsNewClass0Message, OnSmsNewClass0Message, OnSmsNewClass0Message method [Microsoft Broadband Networks], OnSmsNewClass0Message method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsnewclass0message, mbnapi/IMbnSmsEvents::OnSmsNewClass0Message
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSmsEvents.OnSmsNewClass0Message
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsEvents::OnSmsNewClass0Message

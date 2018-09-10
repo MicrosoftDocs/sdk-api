@@ -4,17 +4,16 @@ title: IComponentType::put__MediaSubType
 author: windows-sdk-content
 description: The put__MediaSubType method sets the DirectShow media subtype.
 old-location: mstv\icomponenttype_put__mediasubtype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 80b5e1d5-72e2-4523-86dd-88aff71a54db
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaSubType method, IComponentType.put__MediaSubType, IComponentType::put__MediaSubType, IComponentTypeput__MediaSubType, mstv.icomponenttype_put__mediasubtype, put__MediaSubType, put__MediaSubType method [Microsoft TV Technologies], put__MediaSubType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaSubType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.put__MediaSubType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::put__MediaSubType
@@ -65,7 +63,7 @@ The <b>put__MediaSubType</b> method sets the DirectShow media subtype.
 
 ### -param MediaSubTypeGuid
 
-
+TBD
 
 
 

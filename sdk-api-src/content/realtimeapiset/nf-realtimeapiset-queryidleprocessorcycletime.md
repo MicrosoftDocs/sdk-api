@@ -4,17 +4,16 @@ title: QueryIdleProcessorCycleTime function
 author: windows-sdk-content
 description: Retrieves the cycle time for the idle thread of each processor in the system.
 old-location: base\queryidleprocessorcycletime.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - QueryIdleProcessorCycleTime
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QueryIdleProcessorCycleTime function

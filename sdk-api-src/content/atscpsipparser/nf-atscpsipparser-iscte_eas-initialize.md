@@ -4,17 +4,16 @@ title: ISCTE_EAS::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes the object using captured table section data. This method is called internally by the IAtscPsipParser::GetEAS method, so applications typically should not call it.
 old-location: mstv\iscte_eas_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f40e89f4-6a33-44a9-933c-bf38978f1cb2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ISCTE_EAS interface [Microsoft TV Technologies],Initialize method, ISCTE_EAS.Initialize, ISCTE_EAS::Initialize, ISCTE_EASInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISCTE_EAS interface, atscpsipparser/ISCTE_EAS::Initialize, mstv.iscte_eas_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::Initialize

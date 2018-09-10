@@ -4,7 +4,7 @@ title: "_CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA"
 author: windows-sdk-content
 description: Used to add an unauthenticated attribute to a signer of a signed message.
 old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5e347a50-942e-4278-a9ae-ad4c30c55c6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, *PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, *PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
+req.redist: 
 ---
 
 # _CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA structure

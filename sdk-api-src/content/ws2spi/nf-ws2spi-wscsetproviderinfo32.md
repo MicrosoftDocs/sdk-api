@@ -4,17 +4,16 @@ title: WSCSetProviderInfo32 function
 author: windows-sdk-content
 description: Sets the data value for specified information class for a layered service provider (LSP).
 old-location: winsock\wscsetproviderinfo32.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: adb2737f-5327-4306-bd57-f165f339f911
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSCSetProviderInfo32, WSCSetProviderInfo32 function [Winsock], winsock.wscsetproviderinfo32, ws2spi/WSCSetProviderInfo32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCSetProviderInfo32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCSetProviderInfo32 function

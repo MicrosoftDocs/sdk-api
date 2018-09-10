@@ -4,17 +4,16 @@ title: ITextRange::MoveEndUntil
 author: windows-sdk-content
 description: Moves the range's end to the character position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the range's end.
 old-location: controls\ITextRange_MoveEndUntil.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveenduntil.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveEndUntil method, ITextRange.MoveEndUntil, ITextRange::MoveEndUntil, MoveEndUntil, MoveEndUntil method [Windows Controls], MoveEndUntil method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEndUntil, _win32_ITextRange_MoveEndUntil_cpp, controls.ITextRange_MoveEndUntil, controls._win32_ITextRange_MoveEndUntil, tom/ITextRange::MoveEndUntil
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.MoveEndUntil
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::MoveEndUntil

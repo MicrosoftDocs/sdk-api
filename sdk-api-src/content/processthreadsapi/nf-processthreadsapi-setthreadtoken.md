@@ -4,17 +4,16 @@ title: SetThreadToken function
 author: windows-sdk-content
 description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.
 old-location: security\setthreadtoken.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetThreadToken, SetThreadToken function [Security], _win32_setthreadtoken, processthreadsapi/SetThreadToken, security.setthreadtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - SetThreadToken
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadToken function

@@ -4,7 +4,7 @@ title: DVDSPExt
 author: windows-sdk-content
 description: The DVDSPExt enumeration type holds a value indicating the default DVD subpicture language extension.
 old-location: mstv\dvdspext.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cc33083a-1281-4863-937c-bd4688989a6c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVDSPExt
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVDSPExt
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: DVDSPExt
+req.redist: 
 ---
 
 # DVDSPExt enumeration

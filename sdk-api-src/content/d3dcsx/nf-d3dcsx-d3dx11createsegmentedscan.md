@@ -4,17 +4,16 @@ title: D3DX11CreateSegmentedScan function
 author: windows-sdk-content
 description: Creates a segmented scan context.
 old-location: direct3d11\d3dx11createsegmentedscan.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3DX11CreateSegmentedScan function [Direct3D 11], d3dcsx/D3DX11CreateSegmentedScan, direct3d11.d3dx11createsegmentedscan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D3DX11CreateSegmentedScan
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DX11CreateSegmentedScan function

@@ -4,17 +4,16 @@ title: IMbnRadioEvents::OnRadioStateChange
 author: windows-sdk-content
 description: A notification signaling that the radio state of the device has changed.
 old-location: mbn\imbnradioevents_onradiostatechange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: ae7bf0d0-333b-429d-9dd1-9580745aad35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioStateChange method, IMbnRadioEvents.OnRadioStateChange, IMbnRadioEvents::OnRadioStateChange, OnRadioStateChange, OnRadioStateChange method [Microsoft Broadband Networks], OnRadioStateChange method [Microsoft Broadband Networks],IMbnRadioEvents interface, mbn.imbnradioevents_onradiostatechange, mbnapi/IMbnRadioEvents::OnRadioStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRadioEvents.OnRadioStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRadioEvents::OnRadioStateChange

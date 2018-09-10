@@ -4,7 +4,7 @@ title: "_FILE_INFO_2"
 author: windows-sdk-content
 description: Contains the identification number for a file, device, or pipe.
 old-location: fs\file_info_2_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: c80090d5-7064-4809-9185-02116f7ac2ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_INFO_2, *PFILE_INFO_2, *LPFILE_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FILE_INFO_2, *PFILE_INFO_2, *LPFILE_INFO_2
+req.redist: 
 ---
 
 # _FILE_INFO_2 structure

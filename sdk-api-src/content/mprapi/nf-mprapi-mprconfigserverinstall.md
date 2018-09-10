@@ -4,17 +4,16 @@ title: MprConfigServerInstall function
 author: windows-sdk-content
 description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
 old-location: rras\mprconfigserverinstall.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigServerInstall
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigServerInstall function

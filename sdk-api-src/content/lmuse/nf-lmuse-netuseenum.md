@@ -4,17 +4,16 @@ title: NetUseEnum function
 author: windows-sdk-content
 description: The NetUseEnum function lists all current connections between the local computer and resources on remote servers.
 old-location: netmgmt\netuseenum.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: fb527f85-baea-48e8-b837-967870834ec5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetUseEnum, NetUseEnum function [Network Management], _win32_netuseenum, lmuse/NetUseEnum, netmgmt.netuseenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmuse.h
 req.include-header: Lm.h, Lmcons.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, *LPSTAT_WORKSTATION_0
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetUseEnum
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetUseEnum function

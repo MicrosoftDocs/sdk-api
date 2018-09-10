@@ -4,17 +4,16 @@ title: InternetOpenUrlW function
 author: windows-sdk-content
 description: Opens a resource specified by a complete FTP or HTTP URL.
 old-location: wininet\internetopenurl.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetOpenUrlW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetOpenUrlW function

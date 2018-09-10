@@ -4,7 +4,7 @@ title: IUIAutomationTextEditTextChangedEventHandler
 author: windows-sdk-content
 description: Exposes a method to handle events that occur when Microsoft UI Automation reports a text-changed event from text edit controls.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1308F513-5458-900C-A494-9AC9131C2D1E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextEditTextChangedEventHandler interface

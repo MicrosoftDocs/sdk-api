@@ -4,17 +4,16 @@ title: IUPnPServices::get_Item
 author: windows-sdk-content
 description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.
 old-location: upnp\iupnpservices_item.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: e59e9b9c-986d-46de-9ce7-19eaad824953
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Item method, IUPnPServices.get_Item, IUPnPServices::get_Item, _upnp_iupnpservices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_item, upnp/IUPnPServices::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServices.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServices::get_Item
@@ -64,7 +62,7 @@ The
 
 ### -param bstrServiceId
 
-
+TBD
 
 
 ### -param ppService [out]

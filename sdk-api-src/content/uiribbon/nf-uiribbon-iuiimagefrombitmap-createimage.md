@@ -4,17 +4,16 @@ title: IUIImageFromBitmap::CreateImage
 author: windows-sdk-content
 description: Creates an IUIImage object from a bitmap image.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIImageFromBitmap.CreateImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

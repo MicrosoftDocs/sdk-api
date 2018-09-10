@@ -4,7 +4,7 @@ title: X509KeyUsageFlags
 author: windows-sdk-content
 description: Specifies the purpose of a key contained in a certificate.
 old-location: security\x509keyusageflags_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 3fcb91a3-ffcd-419f-a686-3fd2d1e795b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509KeyUsageFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509KeyUsageFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509KeyUsageFlags
+req.redist: 
 ---
 
 # X509KeyUsageFlags enumeration

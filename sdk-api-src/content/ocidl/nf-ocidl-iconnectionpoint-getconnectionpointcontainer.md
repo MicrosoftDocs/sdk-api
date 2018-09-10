@@ -4,17 +4,16 @@ title: IConnectionPoint::GetConnectionPointContainer
 author: windows-sdk-content
 description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.
 old-location: com\iconnectionpoint_getconnectionpointcontainer.htm
-old-project: com
+tech.root: com
 ms.assetid: 12c0c777-27ce-4e6d-8e9a-f6333e4112bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConnectionPointContainer, GetConnectionPointContainer method [COM], GetConnectionPointContainer method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionPointContainer method, IConnectionPoint.GetConnectionPointContainer, IConnectionPoint::GetConnectionPointContainer, _com_iconnectionpoint_getconnectionpointcontainer, com.iconnectionpoint_getconnectionpointcontainer, ocidl/IConnectionPoint::GetConnectionPointContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectionPoint.GetConnectionPointContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectionPoint::GetConnectionPointContainer

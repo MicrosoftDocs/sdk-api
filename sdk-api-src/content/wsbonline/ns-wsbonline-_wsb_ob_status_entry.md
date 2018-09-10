@@ -4,7 +4,7 @@ title: "_WSB_OB_STATUS_ENTRY"
 author: windows-sdk-content
 description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_entry.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSB_OB_STATUS_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSB_OB_STATUS_ENTRY
+req.redist: 
 ---
 
 # _WSB_OB_STATUS_ENTRY structure

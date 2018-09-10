@@ -4,7 +4,7 @@ title: DXGI_OUTDUPL_MOVE_RECT
 author: windows-sdk-content
 description: The DXGI_OUTDUPL_MOVE_RECT structure describes the movement of a rectangle.
 old-location: direct3ddxgi\dxgi_outdupl_move_rect.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: B19DB70A-83B4-4683-9E9B-3DA5D33AB564
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OUTDUPL_MOVE_RECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OUTDUPL_MOVE_RECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OUTDUPL_MOVE_RECT
+req.redist: 
 ---
 
 # DXGI_OUTDUPL_MOVE_RECT structure

@@ -4,17 +4,16 @@ title: ITextRange2::GetCch
 author: windows-sdk-content
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm
-old-project: controls
+tech.root: controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange2.GetCch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange2::GetCch

@@ -4,17 +4,16 @@ title: IDWriteTextAnalyzer::GetGlyphPlacements
 author: windows-sdk-content
 description: Places glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphPlacements.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 72e9af97-6fd2-4dd0-befc-2e9f809c12a2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetGlyphPlacements, GetGlyphPlacements method [Direct Write], GetGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphPlacements method, IDWriteTextAnalyzer.GetGlyphPlacements, IDWriteTextAnalyzer::GetGlyphPlacements, directwrite.IDWriteTextAnalyzer_GetGlyphPlacements, dwrite/IDWriteTextAnalyzer::GetGlyphPlacements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalyzer.GetGlyphPlacements
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalyzer::GetGlyphPlacements

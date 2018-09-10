@@ -4,17 +4,16 @@ title: GetClusterNotifyV2 function
 author: windows-sdk-content
 description: Retrieves information about the next notification event for a notification port.
 old-location: mscs\getclusternotifyv2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 function [Failover Cluster], clusapi/GetClusterNotifyV2, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - GetClusterNotifyV2
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterNotifyV2 function

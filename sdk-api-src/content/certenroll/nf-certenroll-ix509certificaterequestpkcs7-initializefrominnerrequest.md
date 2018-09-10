@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs7::InitializeFromInnerRequest
 author: windows-sdk-content
 description: Initializes the certificate request from the inner PKCS #10 object.
 old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromInnerRequest method, IX509CertificateRequestPkcs7.InitializeFromInnerRequest, IX509CertificateRequestPkcs7::InitializeFromInnerRequest, InitializeFromInnerRequest, InitializeFromInnerRequest method [Security], InitializeFromInnerRequest method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest, security.ix509certificaterequestpkcs7_initializefrominnerrequest_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs7.InitializeFromInnerRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs7::InitializeFromInnerRequest

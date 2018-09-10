@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0058_0001"
 author: windows-sdk-content
 description: Specifies a range of bytes.
 old-location: mf\mf_byte_stream_cache_range.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BE684626-32AC-4BF1-8CF1-D68F8A0ABB9E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_BYTE_STREAM_CACHE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_BYTE_STREAM_CACHE_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_BYTE_STREAM_CACHE_RANGE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0058_0001 structure

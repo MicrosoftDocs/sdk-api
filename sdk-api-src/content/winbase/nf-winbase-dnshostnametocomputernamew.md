@@ -4,17 +4,16 @@ title: DnsHostnameToComputerNameW function
 author: windows-sdk-content
 description: Converts a DNS-style host name to a NetBIOS-style computer name.
 old-location: base\dnshostnametocomputername.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - DnsHostnameToComputerNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsHostnameToComputerNameW function

@@ -4,17 +4,16 @@ title: ListView_SetCallbackMask macro
 author: windows-sdk-content
 description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.
 old-location: controls\ListView_SetCallbackMask.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_SetCallbackMask, ListView_SetCallbackMask macro [Windows Controls], _win32_ListView_SetCallbackMask, _win32_ListView_SetCallbackMask_cpp, commctrl/ListView_SetCallbackMask, controls.ListView_SetCallbackMask, controls._win32_ListView_SetCallbackMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_SetCallbackMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_SetCallbackMask macro

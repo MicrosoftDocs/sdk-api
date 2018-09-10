@@ -4,7 +4,7 @@ title: "_WINBIO_ASYNC_RESULT"
 author: windows-sdk-content
 description: Contains the results of an asynchronous operation.
 old-location: secbiomet\winbio_async_result.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 1C8A4557-3851-4AB2-BB9B-AE199EB9D024
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_ASYNC_RESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.redist: 
 ---
 
 # _WINBIO_ASYNC_RESULT structure

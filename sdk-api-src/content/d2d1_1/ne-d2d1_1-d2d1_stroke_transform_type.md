@@ -4,7 +4,7 @@ title: D2D1_STROKE_TRANSFORM_TYPE
 author: windows-sdk-content
 description: Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.
 old-location: direct2d\__d2d1_stroke_transform_type.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 99c2c5c8-49ce-4865-befa-e9f92905a260
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_STROKE_TRANSFORM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_STROKE_TRANSFORM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_STROKE_TRANSFORM_TYPE
+req.redist: 
 ---
 
 # D2D1_STROKE_TRANSFORM_TYPE enumeration

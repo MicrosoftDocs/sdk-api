@@ -4,17 +4,16 @@ title: IMetaDataImport::GetPermissionSetProps
 author: windows-sdk-content
 description: Gets the metadata associated with the System.Security.PermissionSet represented by the specified Permission token.
 old-location: winrt\imetadataimport_getpermissionsetprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: db10bdb6-3150-4eb9-872a-3f56089812fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPermissionSetProps method, IMetaDataImport.GetPermissionSetProps, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetPermissionSetProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetPermissionSetProps
@@ -72,7 +70,7 @@ A pointer to the permission set.
 
 ### -param ppvPermission
 
-
+TBD
 
 
 ### -param pcbPermission [out]

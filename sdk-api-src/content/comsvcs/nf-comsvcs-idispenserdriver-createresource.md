@@ -4,17 +4,16 @@ title: IDispenserDriver::CreateResource
 author: windows-sdk-content
 description: Creates a resource.
 old-location: cos\idispenserdriver_createresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 97b49069-3428-48da-a818-737f3bc342d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],CreateResource method, IDispenserDriver.CreateResource, IDispenserDriver::CreateResource, _dtc_IDispenserDriver_CreateResource, comsvcs/IDispenserDriver::CreateResource, cos.idispenserdriver_createresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDispenserDriver.CreateResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDispenserDriver::CreateResource

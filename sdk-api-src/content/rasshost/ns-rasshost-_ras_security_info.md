@@ -4,7 +4,7 @@ title: "_RAS_SECURITY_INFO"
 author: windows-sdk-content
 description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.
 old-location: rras\ras_security_info_str.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 4bf5e0b8-087c-483b-a472-eab36840f554
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_SECURITY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
+req.redist: 
 ---
 
 # _RAS_SECURITY_INFO structure

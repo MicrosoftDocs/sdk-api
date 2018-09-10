@@ -4,17 +4,16 @@ title: AddISNSServerW function
 author: windows-sdk-content
 description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\addisnsserver.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddISNSServerW, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AddIsnsServerW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AddISNSServerW function

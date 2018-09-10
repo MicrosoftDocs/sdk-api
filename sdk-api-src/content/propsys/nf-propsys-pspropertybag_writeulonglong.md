@@ -4,17 +4,16 @@ title: PSPropertyBag_WriteULONGLONG function
 author: windows-sdk-content
 description: Sets the ULONGLONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteULONGLONG.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 37854C80-00B9-465c-88D9-619695D418CD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSPropertyBag_WriteULONGLONG
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSPropertyBag_WriteULONGLONG function

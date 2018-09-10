@@ -4,7 +4,7 @@ title: IOleUIObjInfoA
 author: windows-sdk-content
 description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
 old-location: com\ioleuiobjinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUIObjInfoA
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUIObjInfoA interface

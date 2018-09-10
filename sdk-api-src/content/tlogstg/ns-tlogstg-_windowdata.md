@@ -4,7 +4,7 @@ title: "_WINDOWDATA"
 author: windows-sdk-content
 description: Stores window data.
 old-location: shell\WINDOWDATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef83bd02-cde9-41a8-b5ad-a26794663ac2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlogstg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINDOWDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINDOWDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WINDOWDATA
+req.redist: 
 ---
 
 # _WINDOWDATA structure

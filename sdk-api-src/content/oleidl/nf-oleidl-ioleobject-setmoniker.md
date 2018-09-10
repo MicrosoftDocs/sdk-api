@@ -4,17 +4,16 @@ title: IOleObject::SetMoniker
 author: windows-sdk-content
 description: Notifies an object of its container's moniker, the object's own moniker relative to the container, or the object's full moniker.
 old-location: com\ioleobject_setmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 1313cd9a-757d-4716-abac-027cff9fee03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],SetMoniker method, IOleObject.SetMoniker, IOleObject::SetMoniker, SetMoniker, SetMoniker method [COM], SetMoniker method [COM],IOleObject interface, _ole_ioleobject_setmoniker, com.ioleobject_setmoniker, oleidl/IOleObject::SetMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.SetMoniker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::SetMoniker

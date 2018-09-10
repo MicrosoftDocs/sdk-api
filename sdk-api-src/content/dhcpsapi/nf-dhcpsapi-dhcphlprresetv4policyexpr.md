@@ -4,17 +4,16 @@ title: DhcpHlprResetV4PolicyExpr function
 author: windows-sdk-content
 description: Resets the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprresetv4policyexpr.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5f252840-d474-405e-8b32-50e6efe35f62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprResetV4PolicyExpr, DhcpHlprResetV4PolicyExpr function [DHCP], dhcp.dhcphlprresetv4policyexpr, dhcpsapi/DhcpHlprResetV4PolicyExpr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprResetV4PolicyExpr
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprResetV4PolicyExpr function

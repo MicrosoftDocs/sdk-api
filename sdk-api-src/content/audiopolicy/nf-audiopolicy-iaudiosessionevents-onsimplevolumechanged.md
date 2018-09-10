@@ -4,17 +4,16 @@ title: IAudioSessionEvents::OnSimpleVolumeChanged
 author: windows-sdk-content
 description: The OnSimpleVolumeChanged method notifies the client that the volume level or muting state of the audio session has changed.
 old-location: coreaudio\iaudiosessionevents_onsimplevolumechanged.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: e60e8996-3c01-4458-88f2-cd6cb118bd76
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSimpleVolumeChanged method, IAudioSessionEvents.OnSimpleVolumeChanged, IAudioSessionEvents::OnSimpleVolumeChanged, IAudioSessionEventsOnSimpleVolumeChanged, OnSimpleVolumeChanged, OnSimpleVolumeChanged method [Core Audio], OnSimpleVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSimpleVolumeChanged, coreaudio.iaudiosessionevents_onsimplevolumechanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEvents.OnSimpleVolumeChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEvents::OnSimpleVolumeChanged

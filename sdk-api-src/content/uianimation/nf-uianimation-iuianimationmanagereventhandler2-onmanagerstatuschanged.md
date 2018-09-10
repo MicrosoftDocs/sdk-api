@@ -4,17 +4,16 @@ title: IUIAnimationManagerEventHandler2::OnManagerStatusChanged
 author: windows-sdk-content
 description: Handles status changes to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler2_onmanagerstatuschanged.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 398A52B3-E7FA-466E-BCED-0A6E91633CF7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationManagerEventHandler2 interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler2.OnManagerStatusChanged, IUIAnimationManagerEventHandler2::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler2 interface, uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManagerEventHandler2::OnManagerStatusChanged

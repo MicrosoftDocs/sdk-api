@@ -4,17 +4,16 @@ title: DsReplicaUpdateRefsW function
 author: windows-sdk-content
 description: Adds or removes a replication reference for a destination from a source naming context.
 old-location: ad\dsreplicaupdaterefs.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 158c7e73-0e6c-4b71-a87f-2f60f3db91cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_REPUPD_ADD_REFERENCE, DS_REPUPD_ASYNCHRONOUS_OPERATION, DS_REPUPD_DELETE_REFERENCE, DS_REPUPD_WRITEABLE, DsReplicaUpdateRefs, DsReplicaUpdateRefs function [Active Directory], DsReplicaUpdateRefsA, DsReplicaUpdateRefsW, _glines_dsreplicaupdaterefs, ad.dsreplicaupdaterefs, ntdsapi/DsReplicaUpdateRefs, ntdsapi/DsReplicaUpdateRefsA, ntdsapi/DsReplicaUpdateRefsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsReplicaUpdateRefsW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaUpdateRefsW function

@@ -4,17 +4,16 @@ title: ITextRange::StartOf
 author: windows-sdk-content
 description: Moves the range ends to the start of the first overlapping Unit in the range.
 old-location: controls\ITextRange_StartOf.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],StartOf method, ITextRange.StartOf, ITextRange::StartOf, StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls],ITextRange interface, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.StartOf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::StartOf

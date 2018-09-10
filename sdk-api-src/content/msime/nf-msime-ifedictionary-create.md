@@ -4,17 +4,16 @@ title: IFEDictionary::Create
 author: windows-sdk-content
 description: Creates a new dictionary file.
 old-location: intl\ifedictionary_create.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 218DEE1C-945A-4CD8-BAD5-12F904FAB2DD
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Create, Create method [Internationalization for Windows Applications], Create method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Create method, IFEDictionary.Create, IFEDictionary::Create, intl.ifedictionary_create, msime/IFEDictionary::Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::Create

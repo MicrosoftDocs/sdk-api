@@ -4,7 +4,7 @@ title: "_SecBuffer"
 author: windows-sdk-content
 description: Describes a buffer allocated by a transport application to pass to a security package.
 old-location: security\secbuffer.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecBuffer, *PSecBuffer
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecBuffer, *PSecBuffer
+req.redist: 
 ---
 
 # _SecBuffer structure

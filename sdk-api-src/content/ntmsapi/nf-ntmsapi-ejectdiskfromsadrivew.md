@@ -4,17 +4,16 @@ title: EjectDiskFromSADriveW function
 author: windows-sdk-content
 description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
 old-location: fs\ejectdiskfromsadrive.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EjectDiskFromSADrive, EjectDiskFromSADrive function [Files], EjectDiskFromSADriveA, EjectDiskFromSADriveW, NTMS_EJECT_ASK_USER, NTMS_EJECT_FORCE, NTMS_EJECT_IMMEDIATE, NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, base.ejectdiskfromsadrive, fs.ejectdiskfromsadrive, ntmsapi/EjectDiskFromSADrive, ntmsapi/EjectDiskFromSADriveA, ntmsapi/EjectDiskFromSADriveW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EjectDiskFromSADriveW
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EjectDiskFromSADriveW function

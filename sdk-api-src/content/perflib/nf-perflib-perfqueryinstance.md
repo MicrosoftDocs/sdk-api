@@ -4,17 +4,16 @@ title: PerfQueryInstance function
 author: windows-sdk-content
 description: Retrieves a pointer to the specified counter set instance. Providers use this function.
 old-location: perf\perfqueryinstance.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfQueryInstance
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfQueryInstance function

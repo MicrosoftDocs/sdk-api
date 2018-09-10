@@ -4,17 +4,16 @@ title: ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray
 author: windows-sdk-content
 description: Get an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: D3d10
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray

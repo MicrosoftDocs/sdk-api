@@ -4,17 +4,16 @@ title: IDWriteFontFace::GetRecommendedRenderingMode
 author: windows-sdk-content
 description: Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
 old-location: directwrite\IDWriteFontFace_GetRecommendedRenderingMode.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 54504bcb-b05c-4b63-8704-8d718cf2ee16
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace.GetRecommendedRenderingMode, IDWriteFontFace::GetRecommendedRenderingMode, directwrite.IDWriteFontFace_GetRecommendedRenderingMode, dwrite/IDWriteFontFace::GetRecommendedRenderingMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace.GetRecommendedRenderingMode
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace::GetRecommendedRenderingMode

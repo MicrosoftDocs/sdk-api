@@ -4,7 +4,7 @@ title: FWPM_CONNECTION_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for limiting connection object enumerations.
 old-location: fwp\fwpm_connection_enum_template0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 1939e4ae-9ff8-4ee7-895b-2ed992204b5c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_CONNECTION_ENUM_TEMPLATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_CONNECTION_ENUM_TEMPLATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_CONNECTION_ENUM_TEMPLATE0
+req.redist: 
 ---
 
 # FWPM_CONNECTION_ENUM_TEMPLATE0_ structure

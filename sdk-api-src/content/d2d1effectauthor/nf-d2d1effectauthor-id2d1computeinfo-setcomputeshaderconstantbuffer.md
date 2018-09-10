@@ -4,17 +4,16 @@ title: ID2D1ComputeInfo::SetComputeShaderConstantBuffer
 author: windows-sdk-content
 description: Establishes or changes the constant buffer data for this transform.
 old-location: direct2d\id2d1computeinfo_setcomputeshaderconstantbuffer.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: E7443E72-F8F6-48C4-A9BD-5EF132E8C090
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetComputeShaderConstantBuffer method, ID2D1ComputeInfo.SetComputeShaderConstantBuffer, ID2D1ComputeInfo::SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer method [Direct2D], SetComputeShaderConstantBuffer method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetComputeShaderConstantBuffer, direct2d.id2d1computeinfo_setcomputeshaderconstantbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ComputeInfo.SetComputeShaderConstantBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ComputeInfo::SetComputeShaderConstantBuffer

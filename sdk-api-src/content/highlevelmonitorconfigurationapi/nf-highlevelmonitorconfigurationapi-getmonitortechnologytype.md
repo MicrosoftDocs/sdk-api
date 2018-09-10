@@ -4,17 +4,16 @@ title: GetMonitorTechnologyType function
 author: windows-sdk-content
 description: Retrieves the type of technology used by a monitor.
 old-location: monitor\getmonitortechnologytype.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMonitorTechnologyType
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetMonitorTechnologyType function

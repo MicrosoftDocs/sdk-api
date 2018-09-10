@@ -4,17 +4,16 @@ title: CfSetCorrelationVector function
 author: windows-sdk-content
 description: Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.
 old-location: cloudapi\cfsetcorrelationvector.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: B9B05D24-BEE5-4BE6-95D5-C28466D69543
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfSetCorrelationVector
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfSetCorrelationVector function

@@ -4,17 +4,16 @@ title: ICertRequest3::SetCredential
 author: windows-sdk-content
 description: Sets the credential used to contact the Certificate Enrollment Web Service.
 old-location: security\icertrequest3_setcredential.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertRequest.SetCredential
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest3::SetCredential

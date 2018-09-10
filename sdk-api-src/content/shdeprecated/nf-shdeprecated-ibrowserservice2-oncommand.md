@@ -4,17 +4,16 @@ title: IBrowserService2::OnCommand
 author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_COMMAND message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnCommand.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2bffddc0-9e29-4d38-ae02-c9b1e5dc2c36
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCommand method, IBrowserService2.OnCommand, IBrowserService2::OnCommand, OnCommand, OnCommand method [Windows Shell], OnCommand method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCommand, shell.IBrowserService2_OnCommand, zone_IBrowserService2_OnCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.OnCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

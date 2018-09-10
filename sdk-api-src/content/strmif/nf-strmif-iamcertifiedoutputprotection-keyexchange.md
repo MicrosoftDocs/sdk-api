@@ -4,17 +4,16 @@ title: IAMCertifiedOutputProtection::KeyExchange
 author: windows-sdk-content
 description: The KeyExchange method returns the graphics driver's certificate.
 old-location: dshow\iamcertifiedoutputprotection_keyexchange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 163164a2-e2a2-447d-b443-f92972197aff
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],KeyExchange method, IAMCertifiedOutputProtection.KeyExchange, IAMCertifiedOutputProtection::KeyExchange, IAMCertifiedOutputProtectionKeyExchange, KeyExchange, KeyExchange method [DirectShow], KeyExchange method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_keyexchange, strmif/IAMCertifiedOutputProtection::KeyExchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMCertifiedOutputProtection.KeyExchange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMCertifiedOutputProtection::KeyExchange

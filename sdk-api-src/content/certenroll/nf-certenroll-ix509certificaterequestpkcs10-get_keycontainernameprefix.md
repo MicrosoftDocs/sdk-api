@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix
 author: windows-sdk-content
 description: Specifies or retrieves a prefix used to create the container name for a new private key.
 old-location: security\ix509certificaterequestpkcs10_keycontainernameprefix_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: d4a99b08-5616-4c75-b99f-680f55288baa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],KeyContainerNamePrefix property, IX509CertificateRequestPkcs10.KeyContainerNamePrefix, IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::KeyContainerNamePrefix, IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, KeyContainerNamePrefix property [Security], KeyContainerNamePrefix property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, get_KeyContainerNamePrefix, security.ix509certificaterequestpkcs10_keycontainernameprefix_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix

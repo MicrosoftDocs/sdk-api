@@ -4,17 +4,16 @@ title: IVssBackupComponents::AddRestoreSubcomponent
 author: windows-sdk-content
 description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
 old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.AddRestoreSubcomponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::AddRestoreSubcomponent

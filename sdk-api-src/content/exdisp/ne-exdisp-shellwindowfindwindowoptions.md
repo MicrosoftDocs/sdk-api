@@ -4,7 +4,7 @@ title: ShellWindowFindWindowOptions
 author: windows-sdk-content
 description: Specifies options for finding window in the Shell windows collection.
 old-location: shell\ShellWindowFindWindowOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2459ab16-56c0-4812-bc61-4a17978b04f3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowFindWindowOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ShellWindowFindWindowOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ShellWindowFindWindowOptions
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

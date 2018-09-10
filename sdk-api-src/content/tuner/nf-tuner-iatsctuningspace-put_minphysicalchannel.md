@@ -4,17 +4,16 @@ title: IATSCTuningSpace::put_MinPhysicalChannel
 author: windows-sdk-content
 description: The put_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_put_minphysicalchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 57192470-8013-4812-af95-cb6ce92bea83
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinPhysicalChannel method, IATSCTuningSpace.put_MinPhysicalChannel, IATSCTuningSpace::put_MinPhysicalChannel, IATSCTuningSpaceput_MinPhysicalChannel, mstv.iatsctuningspace_put_minphysicalchannel, put_MinPhysicalChannel, put_MinPhysicalChannel method [Microsoft TV Technologies], put_MinPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinPhysicalChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCTuningSpace.put_MinPhysicalChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCTuningSpace::put_MinPhysicalChannel

@@ -4,17 +4,16 @@ title: CoDecodeProxy function
 author: windows-sdk-content
 description: Locates the implementation of a Component Object Model (COM) interface in a server process given an interface to a proxied object.
 old-location: winrt\codecodeproxy.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CoDecodeProxy
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: ComBase.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoDecodeProxy function

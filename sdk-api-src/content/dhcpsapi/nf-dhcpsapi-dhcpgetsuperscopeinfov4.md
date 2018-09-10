@@ -4,17 +4,16 @@ title: DhcpGetSuperScopeInfoV4 function
 author: windows-sdk-content
 description: Returns information on the superscope of a DHCP server.
 old-location: dhcp\dhcpgetsuperscopeinfov4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetSuperScopeInfoV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetSuperScopeInfoV4 function

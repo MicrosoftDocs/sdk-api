@@ -4,17 +4,16 @@ title: IDsAdminNewObjExt::SetObject
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
 old-location: ad\idsadminnewobjext_setobject.htm
-old-project: ad
+tech.root: ad
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt.SetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt::SetObject

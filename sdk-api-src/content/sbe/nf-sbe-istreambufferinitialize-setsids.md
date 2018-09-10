@@ -4,17 +4,16 @@ title: IStreamBufferInitialize::SetSIDs
 author: windows-sdk-content
 description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
 old-location: mstv\istreambufferinitialize_setsids.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSIDs method, IStreamBufferInitialize.SetSIDs, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferInitialize.SetSIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferInitialize::SetSIDs

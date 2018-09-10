@@ -4,17 +4,16 @@ title: IATSC_VCT::GetProtocolVersion
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getprotocolversion.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 51bfc546-9150-4063-b8a4-2dc1238070d0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_VCT.GetProtocolVersion, IATSC_VCT::GetProtocolVersion, IATSC_VCTGetProtocolVersion, atscpsipparser/IATSC_VCT::GetProtocolVersion, mstv.iatsc_vct_getprotocolversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_VCT.GetProtocolVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_VCT::GetProtocolVersion

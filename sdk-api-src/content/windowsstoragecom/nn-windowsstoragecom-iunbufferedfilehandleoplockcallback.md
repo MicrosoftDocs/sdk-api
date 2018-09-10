@@ -4,7 +4,7 @@ title: IUnbufferedFileHandleOplockCallback
 author: windows-sdk-content
 description: Defines a callback method that you want to run when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnbufferedFileHandleOplockCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUnbufferedFileHandleOplockCallback interface

@@ -4,17 +4,16 @@ title: IPropertySetStorage::Open
 author: windows-sdk-content
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySetStorage.Open
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertySetStorage::Open
@@ -62,7 +60,7 @@ The <b>Open</b> method opens a property set contained in the property set storag
 
 ### -param rfmtid
 
-
+TBD
 
 
 ### -param grfMode [in]
@@ -72,7 +70,7 @@ The access mode in which the newly created property set is to be opened. These f
 
 ### -param ppprstg
 
-
+TBD
 
 
 

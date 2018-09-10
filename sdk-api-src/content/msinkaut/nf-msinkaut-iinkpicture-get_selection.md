@@ -4,17 +4,16 @@ title: IInkPicture::get_Selection
 author: windows-sdk-content
 description: Gets or sets theInkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
 old-location: tablet\inkpicture_selection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 29d54781-b83b-4733-95fe-86577958e0d1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 29d54781-b83b-4733-95fe-86577958e0d1, IInkPicture interface [Tablet PC],Selection property, IInkPicture.Selection, IInkPicture.get_Selection, IInkPicture::Selection, IInkPicture::get_Selection, IInkPicture::put_Selection, InkPicture.get_Selection, InkPicture.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkPicture interface, get_Selection, msinkaut/IInkPicture::Selection, msinkaut/IInkPicture::get_Selection, msinkaut/IInkPicture::put_Selection, tablet.inkpicture_selection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_Selection
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_Selection

@@ -4,17 +4,16 @@ title: RegCreateKeyTransactedW function
 author: windows-sdk-content
 description: Creates the specified registry key and associates it with a transaction.
 old-location: base\regcreatekeytransacted.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - RegCreateKeyTransactedW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegCreateKeyTransactedW function

@@ -4,7 +4,7 @@ title: tag_WBEM_PATH_STATUS_FLAG
 author: windows-sdk-content
 description: Contains flags used to describe a path.
 old-location: wmi\tag_wbem_path_status_flag.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 5dcc4432-e441-4e5a-b3f6-d90762b0d8f5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: tag_WBEM_PATH_STATUS_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - tag_WBEM_PATH_STATUS_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: tag_WBEM_PATH_STATUS_FLAG
+req.redist: 
 ---
 
 # tag_WBEM_PATH_STATUS_FLAG enumeration

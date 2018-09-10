@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msopc_0001_0076_0003"
 author: windows-sdk-content
 description: Describes whether a reference represented by the IOpcSignatureRelationshipReference interface refers to all or a subset of relationships represented as relationship objects in a relationship set object.
 old-location: opc\opc_relationships_signing_option.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: b6a83730-459a-4119-a013-7d670e659c32
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_RELATIONSHIPS_SIGNING_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPC_RELATIONSHIPS_SIGNING_OPTION
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: OPC_RELATIONSHIPS_SIGNING_OPTION
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msopc_0001_0076_0003 enumeration

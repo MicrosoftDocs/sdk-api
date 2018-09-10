@@ -4,17 +4,16 @@ title: MprAdminInitializeDll function
 author: windows-sdk-content
 description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 old-location: rras\mpradmininitializedll.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInitializeDll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInitializeDll function

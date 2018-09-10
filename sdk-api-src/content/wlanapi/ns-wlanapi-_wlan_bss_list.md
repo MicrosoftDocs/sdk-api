@@ -4,7 +4,7 @@ title: "_WLAN_BSS_LIST"
 author: windows-sdk-content
 description: Contains a list of basic service set (BSS) entries.
 old-location: nwifi\wlan_bss_list.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: aeb68835-31ce-4fa7-980a-91a328fbcbc3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_BSS_LIST, *PWLAN_BSS_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_BSS_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_BSS_LIST, *PWLAN_BSS_LIST
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _WLAN_BSS_LIST structure

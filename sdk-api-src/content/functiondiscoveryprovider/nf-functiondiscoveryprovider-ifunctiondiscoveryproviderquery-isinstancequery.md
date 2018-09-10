@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProviderQuery::IsInstanceQuery
 author: windows-sdk-content
 description: Determines whether a query is for a single function instance or multiple function instances.
 old-location: ncd\ifunctiondiscoveryproviderquery_isinstancequery.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 5cd4288f-8cb8-451b-b982-4b9dcf31f66a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsInstanceQuery method, IFunctionDiscoveryProviderQuery.IsInstanceQuery, IFunctionDiscoveryProviderQuery::IsInstanceQuery, IsInstanceQuery, IsInstanceQuery method, IsInstanceQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsInstanceQuery, ncd.ifunctiondiscoveryproviderquery_isinstancequery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProviderQuery.IsInstanceQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProviderQuery::IsInstanceQuery

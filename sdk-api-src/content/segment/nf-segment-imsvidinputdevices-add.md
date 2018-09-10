@@ -4,17 +4,16 @@ title: IMSVidInputDevices::Add
 author: windows-sdk-content
 description: The Add method adds an input device to the collection.
 old-location: mstv\imsvidinputdevices_add.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidInputDevices.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidInputDevices::Add

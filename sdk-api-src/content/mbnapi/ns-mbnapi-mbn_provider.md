@@ -4,7 +4,7 @@ title: MBN_PROVIDER
 author: windows-sdk-content
 description: The MBN_PROVIDER structure represents a network service provider.
 old-location: mbn\mbn_provider.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_PROVIDER
+req.redist: 
 ---
 
 # MBN_PROVIDER structure

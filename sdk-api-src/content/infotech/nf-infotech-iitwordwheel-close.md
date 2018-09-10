@@ -4,17 +4,16 @@ title: IITWordWheel::Close
 author: windows-sdk-content
 description: Closes a word wheel.
 old-location: htmlhelp\iitwordwheel_close.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITWordWheel.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITWordWheel::Close

@@ -4,17 +4,16 @@ title: DevicePowerClose function
 author: windows-sdk-content
 description: Frees all nodes in the device list and destroys the device list.
 old-location: base\devicepowerclose.htm
-old-project: power
+tech.root: power
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DevicePowerClose
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DevicePowerClose function

@@ -4,7 +4,7 @@ title: CLUSPROP_SECURITY_DESCRIPTOR
 author: windows-sdk-content
 description: Describes a security descriptor.
 old-location: mscs\clusprop_security_descriptor.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b19358cf-1cf9-4d91-85df-ed7fa804a7f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
+req.redist: 
 ---
 
 # CLUSPROP_SECURITY_DESCRIPTOR structure

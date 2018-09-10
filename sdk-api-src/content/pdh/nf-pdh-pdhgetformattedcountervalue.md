@@ -4,17 +4,16 @@ title: PdhGetFormattedCounterValue function
 author: windows-sdk-content
 description: Computes a displayable value for the specified counter.
 old-location: perf\pdhgetformattedcountervalue.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdhGetFormattedCounterValue
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetFormattedCounterValue function

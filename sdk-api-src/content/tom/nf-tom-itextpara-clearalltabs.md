@@ -4,17 +4,16 @@ title: ITextPara::ClearAllTabs
 author: windows-sdk-content
 description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 old-location: controls\ITextPara_ClearAllTabs.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],ClearAllTabs method, ITextPara.ClearAllTabs, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.ClearAllTabs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::ClearAllTabs

@@ -4,17 +4,16 @@ title: IPin::QueryInternalConnections
 author: windows-sdk-content
 description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
 old-location: dshow\ipin_queryinternalconnections.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPin.QueryInternalConnections
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IPin::QueryInternalConnections

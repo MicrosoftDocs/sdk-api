@@ -4,17 +4,16 @@ title: IAzScope::get_PolicyReaders
 author: windows-sdk-content
 description: The PolicyReaders property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy readers.
 old-location: security\iazscope_policyreaders.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 7576997c-a585-4f0d-bec5-c616d39633f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzScope object [Security],PolicyReaders property, IAzScope interface [Security],PolicyReaders property, IAzScope.PolicyReaders, IAzScope.get_PolicyReaders, IAzScope::PolicyReaders, IAzScope::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzScope object, PolicyReaders property [Security],IAzScope interface, azroles/IAzScope::PolicyReaders, azroles/IAzScope::get_PolicyReaders, get_PolicyReaders, security.iazscope_policyreaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzScope.PolicyReaders
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::get_PolicyReaders

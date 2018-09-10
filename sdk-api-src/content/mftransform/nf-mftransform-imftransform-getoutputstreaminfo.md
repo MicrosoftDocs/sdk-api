@@ -4,17 +4,16 @@ title: IMFTransform::GetOutputStreamInfo
 author: windows-sdk-content
 description: Gets the buffer requirements and other information for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreaminfo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamInfo method, IMFTransform.GetOutputStreamInfo, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetOutputStreamInfo
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetOutputStreamInfo

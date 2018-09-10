@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::GetPrimitiveInterpolation
 author: windows-sdk-content
 description: Generates a primitive interpolation of the specified animation curve.
 old-location: uianimation\iuianimationinterpolator2_getprimitiveinterpolation.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: E3CE4D97-08C8-46F4-B8B0-42CA4212DF50
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPrimitiveInterpolation, GetPrimitiveInterpolation method [Windows Animation], GetPrimitiveInterpolation method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetPrimitiveInterpolation method, IUIAnimationInterpolator2.GetPrimitiveInterpolation, IUIAnimationInterpolator2::GetPrimitiveInterpolation, uianimation.iuianimationinterpolator2_getprimitiveinterpolation, uianimation/IUIAnimationInterpolator2::GetPrimitiveInterpolation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.GetPrimitiveInterpolation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::GetPrimitiveInterpolation

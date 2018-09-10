@@ -4,7 +4,7 @@ title: WS_WRITE_OPTION
 author: windows-sdk-content
 description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.
 old-location: wsw\ws_write_option.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_WRITE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_WRITE_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_WRITE_OPTION
+req.redist: 
 ---
 
 # WS_WRITE_OPTION enumeration

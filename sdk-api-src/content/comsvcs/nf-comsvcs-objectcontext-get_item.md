@@ -4,17 +4,16 @@ title: ObjectContext::get_Item
 author: windows-sdk-content
 description: Retrieves a named property.
 old-location: cos\objectcontext_get_item.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: fc39d63b-a210-4760-9027-eb315f63924d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ObjectContext interface [COM+],get_Item method, ObjectContext.get_Item, ObjectContext::get_Item, _cos_ObjectContext_get_Item, comsvcs/ObjectContext::get_Item, cos.objectcontext_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ObjectContext interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectContext.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectContext::get_Item

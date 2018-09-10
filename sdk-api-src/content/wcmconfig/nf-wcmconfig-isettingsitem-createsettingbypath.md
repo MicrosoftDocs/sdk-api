@@ -4,17 +4,16 @@ title: ISettingsItem::CreateSettingByPath
 author: windows-sdk-content
 description: Creates a setting object specified by the path.
 old-location: smi\isettingsitem_createsettingbypath.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsItem.CreateSettingByPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsItem::CreateSettingByPath

@@ -4,7 +4,7 @@ title: tagLOGFONTW
 author: windows-sdk-content
 description: The LOGFONT structure defines the attributes of a font.
 old-location: gdi\logfont.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGFONTW, *PLOGFONTW, *NPLOGFONTW, *LPLOGFONTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LOGFONTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOGFONTW, *PLOGFONTW, *NPLOGFONTW, *LPLOGFONTW
+req.redist: 
 ---
 
 # tagLOGFONTW structure

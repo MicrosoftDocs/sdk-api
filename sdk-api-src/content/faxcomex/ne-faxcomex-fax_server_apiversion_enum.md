@@ -4,7 +4,7 @@ title: FAX_SERVER_APIVERSION_ENUM
 author: windows-sdk-content
 description: The FAX_SERVER_APIVERSION_ENUM enumeration defines the version of the fax API. No value below is supported on any version of the fax service earlier than the one it designates.
 old-location: fax\_mfax_fax_server_apiversion_enum.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0pbh.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
-req.redist: the value used)
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SERVER_APIVERSION_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_SERVER_APIVERSION_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_SERVER_APIVERSION_ENUM
+req.redist: the value used)
 ---
 
 # FAX_SERVER_APIVERSION_ENUM enumeration

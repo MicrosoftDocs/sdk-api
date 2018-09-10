@@ -4,17 +4,16 @@ title: IFsrmQuotaTemplateManager::CreateTemplate
 author: windows-sdk-content
 description: Creates a quota template object.
 old-location: fsrm\ifsrmquotatemplatemanager_createtemplate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d8dbc0fb-de02-4491-94f5-e845a2338251
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager.CreateTemplate, IFsrmQuotaTemplateManager::CreateTemplate, fs.ifsrmquotatemplatemanager_createtemplate, fsrm.ifsrmquotatemplatemanager_createtemplate, fsrmquota/IFsrmQuotaTemplateManager::CreateTemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmQuotaTemplateManager.CreateTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaTemplateManager::CreateTemplate

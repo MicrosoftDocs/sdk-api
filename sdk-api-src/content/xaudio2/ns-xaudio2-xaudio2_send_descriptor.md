@@ -4,7 +4,7 @@ title: XAUDIO2_SEND_DESCRIPTOR
 author: windows-sdk-content
 description: Defines a destination voice that is the target of a send from another voice and specifies whether a filter should be used.
 old-location: xaudio2\xaudio2_send_descriptor.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_SEND_DESCRIPTOR
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_SEND_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAUDIO2_SEND_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XAUDIO2_SEND_DESCRIPTOR
+req.redist: 
 ---
 
 # XAUDIO2_SEND_DESCRIPTOR structure

@@ -4,17 +4,16 @@ title: IDefaultExtractIconInit::SetFlags
 author: windows-sdk-content
 description: Sets GIL_XXX flags.
 old-location: shell\IDefaultExtractIconInit_SetFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d16a7c14-c9b9-474b-82ce-0c8e890271b7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetFlags method, IDefaultExtractIconInit.SetFlags, IDefaultExtractIconInit::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetFlags, shell.IDefaultExtractIconInit_SetFlags, shobjidl_core/IDefaultExtractIconInit::SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultExtractIconInit.SetFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultExtractIconInit::SetFlags

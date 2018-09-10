@@ -4,7 +4,7 @@ title: ICertificateAttestationChallenge
 author: windows-sdk-content
 description: Allows applications to decrypt a key attestation challenge received from a server.
 old-location: security\icertificateattestationchallenge.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateAttestationChallenge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateAttestationChallenge interface

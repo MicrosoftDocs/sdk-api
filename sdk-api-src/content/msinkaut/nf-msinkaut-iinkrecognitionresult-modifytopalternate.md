@@ -4,17 +4,16 @@ title: IInkRecognitionResult::ModifyTopAlternate
 author: windows-sdk-content
 description: Changes the top alternate of a recognition result by using the specified alternate.
 old-location: tablet\iinkrecognitionresult_modifytopalternate.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognitionResult.ModifyTopAlternate
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionResult::ModifyTopAlternate
@@ -66,7 +64,7 @@ Changes the top alternate of a recognition result by using the specified alterna
 
 ### -param Alternate
 
-
+TBD
 
 
 

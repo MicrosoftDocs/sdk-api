@@ -4,7 +4,7 @@ title: tagMAGIMAGEHEADER
 author: windows-sdk-content
 description: Describes an image format.
 old-location: magapi\magapi_magimageheader.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magimageheaderstruct.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAGIMAGEHEADER, *PMAGIMAGEHEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAGIMAGEHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MAGIMAGEHEADER, *PMAGIMAGEHEADER
+req.redist: 
 ---
 
 # tagMAGIMAGEHEADER structure

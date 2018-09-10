@@ -4,17 +4,16 @@ title: MgmGroupEnumerationEnd function
 author: windows-sdk-content
 description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
 old-location: rras\mgmgroupenumerationend.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmGroupEnumerationEnd
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmGroupEnumerationEnd function

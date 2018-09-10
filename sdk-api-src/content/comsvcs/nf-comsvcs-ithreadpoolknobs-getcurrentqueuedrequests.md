@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::GetCurrentQueuedRequests
 author: windows-sdk-content
 description: Retrieves the number of asynchronous execution requests that are currently queued.
 old-location: cos\ithreadpoolknobs_getcurrentqueuedrequests.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2ff8ffce-2e53-4e33-bf1d-7d46c5ae12bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCurrentQueuedRequests, GetCurrentQueuedRequests method [COM+], GetCurrentQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentQueuedRequests method, IThreadPoolKnobs.GetCurrentQueuedRequests, IThreadPoolKnobs::GetCurrentQueuedRequests, _cos_IThreadPoolKnobs_GetCurrentQueuedRequests, comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests, cos.ithreadpoolknobs_getcurrentqueuedrequests
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.GetCurrentQueuedRequests
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::GetCurrentQueuedRequests

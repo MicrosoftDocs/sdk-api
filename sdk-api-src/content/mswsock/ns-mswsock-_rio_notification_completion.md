@@ -4,7 +4,7 @@ title: "_RIO_NOTIFICATION_COMPLETION"
 author: windows-sdk-content
 description: Specifies the method for I/O completion to be used with a RIONotify function for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_notification_completion.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RIO_NOTIFICATION_COMPLETION, *PRIO_NOTIFICATION_COMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RIO_NOTIFICATION_COMPLETION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RIO_NOTIFICATION_COMPLETION, *PRIO_NOTIFICATION_COMPLETION
+req.redist: 
 ---
 
 # _RIO_NOTIFICATION_COMPLETION structure

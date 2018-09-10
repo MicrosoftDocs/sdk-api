@@ -4,7 +4,7 @@ title: "_CRYPT_INTERFACE_REG"
 author: windows-sdk-content
 description: Used to contain information about the type of interface supported by a CNG provider.
 old-location: security\crypt_interface_reg.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_INTERFACE_REG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
+req.redist: 
 ---
 
 # _CRYPT_INTERFACE_REG structure

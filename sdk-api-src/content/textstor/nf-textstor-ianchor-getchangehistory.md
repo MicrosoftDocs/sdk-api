@@ -4,17 +4,16 @@ title: IAnchor::GetChangeHistory
 author: windows-sdk-content
 description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
 old-location: tsf\ianchor_getchangehistory.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.GetChangeHistory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::GetChangeHistory

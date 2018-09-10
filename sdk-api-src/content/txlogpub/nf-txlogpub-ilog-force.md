@@ -4,17 +4,16 @@ title: ILog::Force
 author: windows-sdk-content
 description: Forces the contents of the log to disk, at least up through the specified LSN.
 old-location: com\ilog_force.htm
-old-project: com
+tech.root: com
 ms.assetid: 91df6049-37ce-4a46-b401-9af7d9c09f14
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Force, Force method [COM], Force method [COM],ILog interface, ILog interface [COM],Force method, ILog.Force, ILog::Force, _com_ilog_force, com.ilog_force, txlogpub/ILog::Force
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILog.Force
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILog::Force

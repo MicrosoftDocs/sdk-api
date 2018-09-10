@@ -4,7 +4,7 @@ title: IFsrmReportScheduler
 author: windows-sdk-content
 description: Used to manage scheduled tasks for report jobs and file management jobs.
 old-location: fsrm\ifsrmreportscheduler.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmReportScheduler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportScheduler interface

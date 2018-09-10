@@ -4,7 +4,7 @@ title: "_AT_ENUM"
 author: windows-sdk-content
 description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 old-location: netmgmt\at_enum_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: ed7c5171-b8aa-4a9a-8f31-4d914bcad0b1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmat.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AT_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
+req.redist: 
 ---
 
 # _AT_ENUM structure

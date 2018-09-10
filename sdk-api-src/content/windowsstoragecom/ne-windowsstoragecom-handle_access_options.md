@@ -4,7 +4,7 @@ title: HANDLE_ACCESS_OPTIONS
 author: windows-sdk-content
 description: Defines the level of access that a handle has on files.
 old-location: winrt\handle_access_options.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: C0B140E6-B950-45A9-97BF-5A069BED31FD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_ACCESS_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HANDLE_ACCESS_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MpClient.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HANDLE_ACCESS_OPTIONS
+req.redist: 
 ---
 
 # HANDLE_ACCESS_OPTIONS enumeration

@@ -4,17 +4,16 @@ title: IWICMetadataQueryWriter::SetMetadataByName
 author: windows-sdk-content
 description: Sets a metadata item to a specific location.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
-old-project: wic
+tech.root: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataQueryWriter.SetMetadataByName
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataQueryWriter::SetMetadataByName

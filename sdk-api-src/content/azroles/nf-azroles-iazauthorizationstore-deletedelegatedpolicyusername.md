@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::DeleteDelegatedPolicyUserName
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyusername.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: a2e7523a-41d3-4fb5-b455-588e0618f51f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUserName method, IAzAuthorizationStore.DeleteDelegatedPolicyUserName, IAzAuthorizationStore::DeleteDelegatedPolicyUserName, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUserName, security.azauthorizationstore_deletedelegatedpolicyusername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzAuthorizationStore.DeleteDelegatedPolicyUserName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::DeleteDelegatedPolicyUserName

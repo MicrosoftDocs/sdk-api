@@ -4,17 +4,16 @@ title: IFsrmActionReport::put_ReportTypes
 author: windows-sdk-content
 description: Retrieves or sets the types of reports to generate.
 old-location: fsrm\ifsrmactionreport_reporttypes.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 942b9a7f-06b2-45bf-8398-b4c68a168a73
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],ReportTypes property, IFsrmActionReport.ReportTypes, IFsrmActionReport.put_ReportTypes, IFsrmActionReport::ReportTypes, IFsrmActionReport::get_ReportTypes, IFsrmActionReport::put_ReportTypes, ReportTypes property [File Server Resource Manager], ReportTypes property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_reporttypes, fsrm.ifsrmactionreport_reporttypes, fsrm/IFsrmActionReport::ReportTypes, fsrm/IFsrmActionReport::get_ReportTypes, fsrm/IFsrmActionReport::put_ReportTypes, put_ReportTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionReport.put_ReportTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionReport::put_ReportTypes

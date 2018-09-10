@@ -4,7 +4,7 @@ title: COMAdminTxIsolationLevelOptions
 author: windows-sdk-content
 description: Indicates the isolation level that is to be used for transactions.
 old-location: cos\comadmintxisolationleveloptions.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5e407423-b116-48c5-a99c-2551eca379b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - COMAdminTxIsolationLevelOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: COMAdminTxIsolationLevelOptions
+req.redist: 
 ---
 
 # COMAdminTxIsolationLevelOptions enumeration

@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnGetToolTip
 author: windows-sdk-content
 description: Enables you to provide a tooltip.
 old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 57970b8d-2461-43af-8959-c51f27679407
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnGetToolTip method, INameSpaceTreeControlEvents.OnGetToolTip, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnGetToolTip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnGetToolTip

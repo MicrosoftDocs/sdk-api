@@ -4,17 +4,16 @@ title: IFsrmActionEmail::put_MessageText
 author: windows-sdk-content
 description: Retrieves or sets the message text of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_messagetext.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 5d4aef81-2be3-41c6-8639-8a0c5402615a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MessageText property, IFsrmActionEmail.MessageText, IFsrmActionEmail.put_MessageText, IFsrmActionEmail2 interface [File Server Resource Manager],MessageText property, IFsrmActionEmail2.MessageText, IFsrmActionEmail2::MessageText, IFsrmActionEmail2::get_MessageText, IFsrmActionEmail2::put_MessageText, IFsrmActionEmail::get_MessageText, IFsrmActionEmail::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEmail interface, MessageText property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_messagetext, fsrm.ifsrmactionemail_messagetext, fsrm/IFsrmActionEmail2::MessageText, fsrm/IFsrmActionEmail2::get_MessageText, fsrm/IFsrmActionEmail2::put_MessageText, fsrm/IFsrmActionEmail::MessageText, fsrm/IFsrmActionEmail::get_MessageText, fsrm/IFsrmActionEmail::put_MessageText, put_MessageText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IFsrmActionEmail.put_MessageText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEmail::put_MessageText

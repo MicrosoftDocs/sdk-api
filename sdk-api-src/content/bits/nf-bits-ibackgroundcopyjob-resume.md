@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::Resume
 author: windows-sdk-content
 description: Activates a new job or restarts a job that has been suspended.
 old-location: bits\ibackgroundcopyjob_resume.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a9e6f057-0a51-4f2d-810b-edbb3e019370
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Resume method, IBackgroundCopyJob.Resume, IBackgroundCopyJob::Resume, Resume, Resume method [BITS], Resume method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_resume, bits.ibackgroundcopyjob_resume, bits/IBackgroundCopyJob::Resume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.Resume
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::Resume

@@ -4,17 +4,16 @@ title: UninstallApplication function
 author: windows-sdk-content
 description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
 old-location: policy\uninstallapplication.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INSTALLSPECTYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - UninstallApplication
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # UninstallApplication function

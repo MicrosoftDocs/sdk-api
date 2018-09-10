@@ -4,7 +4,7 @@ title: DHCPV6_STATELESS_PARAM_TYPE
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
 old-location: dhcp\dhcpv6_stateless_param_type.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 8670c69b-1fc0-4b60-b5cc-a616d56c9319
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6_STATELESS_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6_STATELESS_PARAM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6_STATELESS_PARAM_TYPE
+req.redist: 
 ---
 
 # DHCPV6_STATELESS_PARAM_TYPE enumeration

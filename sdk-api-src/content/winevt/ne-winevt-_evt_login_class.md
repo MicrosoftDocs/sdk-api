@@ -4,7 +4,7 @@ title: "_EVT_LOGIN_CLASS"
 author: windows-sdk-content
 description: Defines the types of connection methods you can use to connect to the remote computer.
 old-location: wes\evt_login_class.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 8d53402b-2d2c-4f93-8e98-4449701052b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_LOGIN_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_LOGIN_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_LOGIN_CLASS
+req.redist: 
 ---
 
 # _EVT_LOGIN_CLASS enumeration

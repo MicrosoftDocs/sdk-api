@@ -4,17 +4,16 @@ title: IOpcUri::CombinePartUri
 author: windows-sdk-content
 description: Forms the part name of the part that is referenced by the specified relative URI.
 old-location: opc\iopcuri_combineparturi.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcUri.CombinePartUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcUri::CombinePartUri

@@ -4,17 +4,16 @@ title: ClusterRegGetBatchNotification function
 author: windows-sdk-content
 description: Fetches the batch notification.
 old-location: mscs\clusterreggetbatchnotification.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster], clusapi/ClusterRegGetBatchNotification, clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterreggetbatchnotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterRegGetBatchNotification
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegGetBatchNotification function

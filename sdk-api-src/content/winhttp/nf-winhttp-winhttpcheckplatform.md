@@ -4,17 +4,16 @@ title: WinHttpCheckPlatform function
 author: windows-sdk-content
 description: The WinHttpCheckPlatform function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 old-location: http\winhttpcheckplatform.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpCheckPlatform
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpCheckPlatform function

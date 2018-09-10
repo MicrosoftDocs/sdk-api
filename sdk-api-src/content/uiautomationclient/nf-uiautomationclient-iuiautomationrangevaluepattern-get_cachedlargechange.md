@@ -4,17 +4,16 @@ title: IUIAutomationRangeValuePattern::get_CachedLargeChange
 author: windows-sdk-content
 description: Retrieves, from the cache, the value that is added to or subtracted from the value of the control when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedLargeChange.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d97addfd-53ae-4445-9f77-d24d97644bfc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedLargeChange property [Windows Accessibility], CachedLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedLargeChange property, IUIAutomationRangeValuePattern.CachedLargeChange, IUIAutomationRangeValuePattern.get_CachedLargeChange, IUIAutomationRangeValuePattern::CachedLargeChange, IUIAutomationRangeValuePattern::get_CachedLargeChange, get_CachedLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiauto_IUIAutomationRangeValuePattern_CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedLargeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationRangeValuePattern.get_CachedLargeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedLargeChange

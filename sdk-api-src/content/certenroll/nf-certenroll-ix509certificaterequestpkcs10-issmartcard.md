@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::IsSmartCard
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether any of the cryptographic providers associated with the request object is a smart card provider.
 old-location: security\ix509certificaterequestpkcs10_issmartcard_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 663ca7dd-f108-46bf-9564-cd2d7ec2bb1f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],IsSmartCard method, IX509CertificateRequestPkcs10.IsSmartCard, IX509CertificateRequestPkcs10::IsSmartCard, IsSmartCard, IsSmartCard method [Security], IsSmartCard method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::IsSmartCard, security.ix509certificaterequestpkcs10_issmartcard_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs10.IsSmartCard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::IsSmartCard

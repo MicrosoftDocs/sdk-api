@@ -4,17 +4,16 @@ title: IVdsService::Advise
 author: windows-sdk-content
 description: Registers the caller's IVdsAdviseSink interface with VDS so that the caller receives notifications from the VDS service.
 old-location: base\ivdsservice_advise.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: be1d5385-6c72-4847-9ed7-4d2309a3e9ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsService.Advise
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsService::Advise

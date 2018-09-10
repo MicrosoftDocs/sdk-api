@@ -4,7 +4,7 @@ title: CLUS_NETNAME_IP_INFO_ENTRY
 author: windows-sdk-content
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_NETNAME_IP_INFO_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
+req.redist: 
 ---
 
 # CLUS_NETNAME_IP_INFO_ENTRY structure

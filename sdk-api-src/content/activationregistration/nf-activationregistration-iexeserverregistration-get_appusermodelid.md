@@ -4,17 +4,16 @@ title: IExeServerRegistration::get_AppUserModelId
 author: windows-sdk-content
 description: Gets the identifier for the app's user model.
 old-location: winrt\iexeserverregistration_appusermodelid.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: DC0E3542-662F-43B8-968B-9F565D9D9278
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_AppUserModelId method, IExeServerRegistration.get_AppUserModelId, IExeServerRegistration::get_AppUserModelId, activationregistration/IExeServerRegistration::get_AppUserModelId, get_AppUserModeId, get_AppUserModelId, get_AppUserModelId method [Windows Runtime], get_AppUserModelId method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_appusermodelid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerRegistration.get_AppUserModelId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerRegistration::get_AppUserModelId

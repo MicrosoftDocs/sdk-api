@@ -4,17 +4,16 @@ title: SHCopyKeyA function
 author: windows-sdk-content
 description: Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys.
 old-location: shell\SHCopyKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52521ef4-fe59-4766-8828-acb557b0e968
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCopyKey, SHCopyKey function [Windows Shell], SHCopyKeyA, SHCopyKeyW, _win32_SHCopyKey, shell.SHCopyKey, shlwapi/SHCopyKey, shlwapi/SHCopyKeyA, shlwapi/SHCopyKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHCopyKeyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHCopyKeyA function

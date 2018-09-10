@@ -2,19 +2,18 @@
 UID: NF:instance.CInstance.SetCHString(LPCWSTR,const CHString &)
 title: CInstance::SetCHString(LPCWSTR,const CHString &)
 author: windows-sdk-content
-description: The CInstance::SetCHString method sets a string property.
-old-location: wmi\cinstance_setchstring.htm
-old-project: WmiSdk
-ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
+description: The SetCHString(LPCWSTR, const CHString&) method sets a string property.
+old-location: wmi\cinstance_setchstring_lpcwstr__const_chstring__.htm
+tech.root: WmiSdk
+ms.assetid: 590df94c-3992-49eb-a043-c5d8e1e72455
 ms.author: windowssdkdev
 ms.date: 08/28/2018
-ms.keywords: CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], CInstance::SetCHString(LPCWSTR,const CHString &), SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: "?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z, ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString(LPCWSTR,const CHString&), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__const_chstring__"
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,24 +26,25 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - DllExport
+ - COM
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetCHString
+ - CInstance.SetCHString
+ - ?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z
+ - ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetCHString(LPCWSTR,const CHString &)
@@ -58,33 +58,32 @@ req.product: GDI+ 1.1
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
-<span>The <b>CInstance::SetCHString</b> method sets a string property.
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5a7a7ab-d187-4eff-a2b9-bd87229c83d1">SetCHString(LPCWSTR, LPCSTR)</a>
-</td>
-<td align="left" width="63%">
-Sets a string property.
 
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/590df94c-3992-49eb-a043-c5d8e1e72455">SetCHString(LPCWSTR, const CHString&)</a>
-</td>
-<td align="left" width="63%">
-Sets a string property.
+The <b>SetCHString(LPCWSTR, const CHString&amp;)</b> method sets a string property.
 
-</td>
-</tr>
-</table>
 
 ## -parameters
+
+
+
+
+### -param name
+
+Name of the string property that is set.
+
+
+### -param str [ref]
+
+Value assigned to the string property.
+
+
+## -returns
+
+
+
+Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent or non-string property.  More information is available in the log file, Framework.log.
+
+
 
 
 ## -see-also
@@ -93,6 +92,10 @@ Sets a string property.
 
 
 <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a>
+
+
+
+<a href="https://msdn.microsoft.com/a75b574d-9ee7-4930-a003-5d71c5f1d687">CInstance::SetCHString</a>
  
 
  

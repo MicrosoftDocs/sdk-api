@@ -4,7 +4,7 @@ title: "_POINTFLOAT"
 author: windows-sdk-content
 description: The POINTFLOAT structure contains the x and y coordinates of a point.
 old-location: opengl\pointfloat.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: 9cb57d32-386a-4554-9f47-62d5c4e2ee4e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTFLOAT, *PPOINTFLOAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTFLOAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: POINTFLOAT, *PPOINTFLOAT
+req.redist: 
 ---
 
 # _POINTFLOAT structure

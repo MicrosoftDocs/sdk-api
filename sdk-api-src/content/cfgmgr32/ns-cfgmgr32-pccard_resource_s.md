@@ -4,7 +4,7 @@ title: PcCard_Resource_s
 author: windows-sdk-content
 description: The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance.
 old-location: devinst\pccard_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 41f88d8f-2e1d-447d-90e2-6a2a5f7bef6f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PCCARD_RESOURCE, *PPCCARD_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PCCARD_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PCCARD_RESOURCE, *PPCCARD_RESOURCE
+req.redist: 
 ---
 
 # PcCard_Resource_s structure

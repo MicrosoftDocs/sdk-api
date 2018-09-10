@@ -4,17 +4,16 @@ title: IPropertyStorage::ReadMultiple
 author: windows-sdk-content
 description: Reads specified properties from the current property set.
 old-location: stg\ipropertystorage_readmultiple.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: a3d708fe-53af-4f1b-94ac-edc40d59a034
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertyStorage [Strctd Stg],ReadMultiple, IPropertyStorage interface [Structured Storage],ReadMultiple method, IPropertyStorage.ReadMultiple, IPropertyStorage::ReadMultiple, ReadMultiple, ReadMultiple method [Structured Storage], ReadMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readmultiple, propidl/IPropertyStorage::ReadMultiple, stg.ipropertystorage_readmultiple
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStorage.ReadMultiple
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStorage::ReadMultiple

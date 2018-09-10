@@ -4,17 +4,16 @@ title: ICertificatePolicy::Initialize
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID).
 old-location: security\icertificatepolicy_initialize_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificatePolicy.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificatePolicy::Initialize

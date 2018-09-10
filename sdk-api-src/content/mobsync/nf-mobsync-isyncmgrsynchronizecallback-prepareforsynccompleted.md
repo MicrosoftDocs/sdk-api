@@ -4,17 +4,16 @@ title: ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
 author: windows-sdk-content
 description: Called by a registered handler of an application after the PrepareForSync method is complete.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2ba73e09-c01b-44af-8979-8aae450c9c0b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],PrepareForSyncCompleted method, ISyncMgrSynchronizeCallback.PrepareForSyncCompleted, ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, PrepareForSyncCompleted, PrepareForSyncCompleted method [Windows Shell], PrepareForSyncCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::PrepareForSyncCompleted, shell.syncmgr_isyncmgrsynchronizecallback_prepareforsynccompleted, syncmgr.isyncmgrsynchronizecallback_prepareforsynccompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronizeCallback.PrepareForSyncCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronizeCallback::PrepareForSyncCompleted

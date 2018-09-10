@@ -4,17 +4,16 @@ title: IMFMediaSession::GetClock
 author: windows-sdk-content
 description: Retrieves the Media Session's presentation clock.
 old-location: mf\imfmediasession_getclock.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 16444da2-68f2-4d94-8c6f-9e512d51e5e9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock, GetClock method [Media Foundation], GetClock method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetClock method, IMFMediaSession.GetClock, IMFMediaSession::GetClock, mf.imfmediasession_getclock, mfidl/IMFMediaSession::GetClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.GetClock
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::GetClock

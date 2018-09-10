@@ -4,17 +4,16 @@ title: IAMNetShowConfig::get_HTTPProxyHost
 author: windows-sdk-content
 description: The get_HTTPProxyHost method retrieves the HTTP address of the proxy host.
 old-location: dshow\iamnetshowconfig_get_httpproxyhost.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d73aefda-2c51-466a-b590-c8f189db4719
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyHost method, IAMNetShowConfig.get_HTTPProxyHost, IAMNetShowConfig::get_HTTPProxyHost, IAMNetShowConfigget_HTTPProxyHost, dshow.iamnetshowconfig_get_httpproxyhost, get_HTTPProxyHost, get_HTTPProxyHost method [DirectShow], get_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyHost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.get_HTTPProxyHost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::get_HTTPProxyHost

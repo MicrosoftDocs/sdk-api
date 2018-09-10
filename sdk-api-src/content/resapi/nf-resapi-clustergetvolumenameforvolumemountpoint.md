@@ -4,17 +4,16 @@ title: ClusterGetVolumeNameForVolumeMountPoint function
 author: windows-sdk-content
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.Lib
+req.dll: ResUtils.Dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ClusterGetVolumeNameForVolumeMountPoint
 product: Windows
 targetos: Windows
-req.lib: ResUtils.Lib
-req.dll: ResUtils.Dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterGetVolumeNameForVolumeMountPoint function

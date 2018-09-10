@@ -4,17 +4,16 @@ title: ID3D12FunctionReflection::GetConstantBufferByName
 author: windows-sdk-content
 description: Gets a constant buffer by name for a function.
 old-location: direct3d12\id3d12functionreflection_getconstantbufferbyname.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: AB781E44-2FCE-4E20-955C-C6F9F6F3064B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method, GetConstantBufferByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByName method, ID3D12FunctionReflection.GetConstantBufferByName, ID3D12FunctionReflection::GetConstantBufferByName, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByName, direct3d12.id3d12functionreflection_getconstantbufferbyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12FunctionReflection.GetConstantBufferByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12FunctionReflection::GetConstantBufferByName

@@ -4,17 +4,16 @@ title: IPropertyPageSite::TranslateAccelerator
 author: windows-sdk-content
 description: Passes a keystroke to the property frame for processing.
 old-location: com\ipropertypagesite_translateaccelerator.htm
-old-project: com
+tech.root: com
 ms.assetid: d2233022-e66e-448c-a921-92948c05016f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertyPageSite interface [COM],TranslateAccelerator method, IPropertyPageSite.TranslateAccelerator, IPropertyPageSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPageSite interface, _ctrl_ipropertypagesite_translateaccelerator, com.ipropertypagesite_translateaccelerator, ocidl/IPropertyPageSite::TranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPageSite.TranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPageSite::TranslateAccelerator

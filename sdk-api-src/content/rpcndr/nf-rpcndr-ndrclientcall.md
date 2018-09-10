@@ -4,17 +4,16 @@ title: NdrClientCall function
 author: windows-sdk-content
 description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrClientCall, NdrClientCall function [RPC], rpc.ndrclientcall, rpcndr/NdrClientCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrClientCall
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrClientCall function
@@ -52,7 +50,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
+The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -97,7 +95,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft.com/">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 
@@ -107,7 +105,7 @@ The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a>
+<a href="https://msdn.microsoft.com/">/Oicf</a>
 
 
 

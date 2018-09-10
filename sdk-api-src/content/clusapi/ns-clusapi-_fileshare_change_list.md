@@ -4,7 +4,7 @@ title: "_FILESHARE_CHANGE_LIST"
 author: windows-sdk-content
 description: Describes an event notification list for file shares managed by the File Server resource.
 old-location: mscs\fileshare_change_list.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7bc77f09-8984-497c-9d86-d8e8d4b55b94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILESHARE_CHANGE_LIST, *PFILESHARE_CHANGE_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FILESHARE_CHANGE_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: FILESHARE_CHANGE_LIST, *PFILESHARE_CHANGE_LIST
+req.redist: 
 ---
 
 # _FILESHARE_CHANGE_LIST structure

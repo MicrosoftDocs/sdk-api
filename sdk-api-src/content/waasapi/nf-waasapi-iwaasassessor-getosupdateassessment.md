@@ -4,17 +4,16 @@ title: IWaaSAssessor::GetOSUpdateAssessment
 author: windows-sdk-content
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 old-location: base\iwaasassessor_getosupdateassessment.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: waasapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWaaSAssessor.GetOSUpdateAssessment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IWaaSAssessor::GetOSUpdateAssessment

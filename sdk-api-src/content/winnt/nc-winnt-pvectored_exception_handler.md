@@ -4,7 +4,7 @@ title: PVECTORED_EXCEPTION_HANDLER
 author: windows-sdk-content
 description: An application-defined function that serves as a vectored exception handler.
 old-location: base\vectoredhandler.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a00f0e8d-a10b-48d4-b918-57b2ff9cb984
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NUMBERFMTW, *LPNUMBERFMTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VectoredHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PVECTORED_EXCEPTION_HANDLER callback function

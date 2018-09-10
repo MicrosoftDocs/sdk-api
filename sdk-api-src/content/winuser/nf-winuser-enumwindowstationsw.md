@@ -4,17 +4,16 @@ title: EnumWindowStationsW function
 author: windows-sdk-content
 description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function.
 old-location: winstation\enumwindowstations.htm
-old-project: winstation
+tech.root: winstation
 ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumWindowStations, EnumWindowStations function [Windows Stations and Desktops], EnumWindowStationsA, EnumWindowStationsW, _win32_enumwindowstations, base.enumwindowstations, winstation.enumwindowstations, winuser/EnumWindowStations, winuser/EnumWindowStationsA, winuser/EnumWindowStationsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EnumWindowStationsW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # EnumWindowStationsW function

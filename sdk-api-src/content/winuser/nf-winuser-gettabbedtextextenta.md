@@ -4,17 +4,16 @@ title: GetTabbedTextExtentA function
 author: windows-sdk-content
 description: The GetTabbedTextExtent function computes the width and height of a character string.
 old-location: gdi\gettabbedtextextent.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetTabbedTextExtentW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetTabbedTextExtentA function

@@ -4,7 +4,7 @@ title: tACMFILTERDETAILS
 author: windows-sdk-content
 description: The ACMFILTERDETAILS structure details a waveform-audio filter for a specific filter tag for an ACM driver.
 old-location: multimedia\acmfilterdetails_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c0423701-b957-4f77-a565-f6f761614389
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACMFILTERDETAILS, *PACMFILTERDETAILS, *LPACMFILTERDETAILS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACMFILTERDETAILS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ACMFILTERDETAILS, *PACMFILTERDETAILS, *LPACMFILTERDETAILS
+req.redist: 
 ---
 
 # tACMFILTERDETAILS structure

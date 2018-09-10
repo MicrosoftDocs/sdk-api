@@ -4,17 +4,16 @@ title: CoUninitialize function
 author: windows-sdk-content
 description: Closes the COM library on the current thread, unloads all DLLs loaded by the thread, frees any other resources that the thread maintains, and forces all RPC connections on the thread to close.
 old-location: com\couninitialize.htm
-old-project: com
+tech.root: com
 ms.assetid: 9411cbed-fa3b-46f7-b677-6ada53324edc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoUninitialize, CoUninitialize function [COM], _com_CoUninitialize, com.couninitialize, combaseapi/CoUninitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoUninitialize
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoUninitialize function

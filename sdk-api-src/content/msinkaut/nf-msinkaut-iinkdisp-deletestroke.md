@@ -4,17 +4,16 @@ title: IInkDisp::DeleteStroke
 author: windows-sdk-content
 description: Deletes a IInkStrokeDisp object from the InkDisp object.
 old-location: tablet\inkdisp_deletestroke.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ac6579ec-20f7-4a20-8cb8-5f3a6119959d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method [Tablet PC],IInkDisp interface, IInkDisp, IInkDisp interface [Tablet PC],DeleteStroke method, IInkDisp.DeleteStroke, IInkDisp::DeleteStroke, ac6579ec-20f7-4a20-8cb8-5f3a6119959d, msinkaut/IInkDisp::DeleteStroke, tablet.inkdisp_deletestroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.DeleteStroke
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::DeleteStroke
@@ -66,7 +64,7 @@ Deletes a <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcc
 
 ### -param Stroke
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: "_RESULT_VIEW_TYPE_INFO"
 author: windows-sdk-content
 description: The RESULT_VIEW_TYPE_INFO structure is introduced in MMC 2.0.
 old-location: mmc\result_view_type_info.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 50357902-6999-4d65-8e12-81277b66d5ee
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESULT_VIEW_TYPE_INFO, *PRESULT_VIEW_TYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESULT_VIEW_TYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RESULT_VIEW_TYPE_INFO, *PRESULT_VIEW_TYPE_INFO
+req.redist: 
 ---
 
 # _RESULT_VIEW_TYPE_INFO structure

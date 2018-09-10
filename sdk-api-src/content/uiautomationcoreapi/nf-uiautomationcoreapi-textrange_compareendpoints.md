@@ -4,17 +4,16 @@ title: TextRange_CompareEndpoints function
 author: windows-sdk-content
 description: Returns a value indicating whether two text ranges have identical endpoints.
 old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_CompareEndpoints
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_CompareEndpoints function

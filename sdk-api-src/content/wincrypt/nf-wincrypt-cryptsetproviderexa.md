@@ -4,17 +4,16 @@ title: CryptSetProviderExA function
 author: windows-sdk-content
 description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptsetproviderex.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CryptSetProviderExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSetProviderExA function

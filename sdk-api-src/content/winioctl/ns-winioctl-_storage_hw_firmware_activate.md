@@ -4,7 +4,7 @@ title: "_STORAGE_HW_FIRMWARE_ACTIVATE"
 author: windows-sdk-content
 description: This structure contains information about the downloaded firmware to activate.
 old-location: fs\storage_hw_firmware_activate.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_HW_FIRMWARE_ACTIVATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
+req.redist: 
 ---
 
 # _STORAGE_HW_FIRMWARE_ACTIVATE structure

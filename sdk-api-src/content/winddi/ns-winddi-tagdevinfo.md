@@ -4,7 +4,7 @@ title: tagDEVINFO
 author: windows-sdk-content
 description: The DEVINFO structure provides information about the driver and its private PDEV to the graphics engine.
 old-location: display\devinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 5ba3e521-2e70-4a5b-979d-30a061275d42
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVINFO, *PDEVINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVINFO, *PDEVINFO
+req.redist: 
 ---
 
 # tagDEVINFO structure

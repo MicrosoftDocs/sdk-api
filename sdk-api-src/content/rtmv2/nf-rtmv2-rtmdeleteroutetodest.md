@@ -4,17 +4,16 @@ title: RtmDeleteRouteToDest function
 author: windows-sdk-content
 description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
 old-location: rras\rtmdeleteroutetodest.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmDeleteRouteToDest, RtmDeleteRouteToDest function [RAS], _rtmv2ref_rtmdeleteroutetodest, rras.rtmdeleteroutetodest, rtmv2/RtmDeleteRouteToDest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmDeleteRouteToDest
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmDeleteRouteToDest function

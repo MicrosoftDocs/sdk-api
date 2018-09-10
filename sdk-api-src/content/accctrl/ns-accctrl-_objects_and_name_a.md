@@ -4,7 +4,7 @@ title: "_OBJECTS_AND_NAME_A"
 author: windows-sdk-content
 description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_name.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OBJECTS_AND_NAME_A, *POBJECTS_AND_NAME_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - OBJECTS_AND_NAME_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: OBJECTS_AND_NAME_A, *POBJECTS_AND_NAME_A
+req.redist: 
 ---
 
 # _OBJECTS_AND_NAME_A structure

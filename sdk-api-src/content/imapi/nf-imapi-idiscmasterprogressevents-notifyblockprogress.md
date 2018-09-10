@@ -4,17 +4,16 @@ title: IDiscMasterProgressEvents::NotifyBlockProgress
 author: windows-sdk-content
 description: Notifies an application of its progress in burning a disc on the active recorder. Notifications are sent for the first and last blocks, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyblockprogress.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6c156be7-5ba4-48e7-a0d1-b0b8d69b30e2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBlockProgress method, IDiscMasterProgressEvents.NotifyBlockProgress, IDiscMasterProgressEvents::NotifyBlockProgress, NotifyBlockProgress, NotifyBlockProgress method [IMAPI], NotifyBlockProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyblockprogress, base.idiscmasterprogressevents_notifyblockprogress, imapi.idiscmasterprogressevents_notifyblockprogress, imapi/IDiscMasterProgressEvents::NotifyBlockProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscMasterProgressEvents.NotifyBlockProgress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscMasterProgressEvents::NotifyBlockProgress

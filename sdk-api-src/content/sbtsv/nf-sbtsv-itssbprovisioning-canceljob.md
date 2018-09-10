@@ -4,17 +4,16 @@ title: ITsSbProvisioning::CancelJob
 author: windows-sdk-content
 description: Cancels a provisioning job.
 old-location: termserv\itssbprovisioning_canceljob.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CancelJob, CancelJob method [Remote Desktop Services], CancelJob method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CancelJob method, ITsSbProvisioning.CancelJob, ITsSbProvisioning::CancelJob, sbtsv/ITsSbProvisioning::CancelJob, termserv.itssbprovisioning_canceljob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbProvisioning.CancelJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbProvisioning::CancelJob

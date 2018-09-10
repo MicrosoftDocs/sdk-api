@@ -4,17 +4,16 @@ title: EnclaveUnsealData function
 author: windows-sdk-content
 description: Decrypts an encrypted binary large object (blob).
 old-location: base\enclaveunsealdata.htm
-old-project: memory
+tech.root: memory
 ms.assetid: DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+req.lib: Vertdll.lib
+req.dll: Vertdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnclaveUnsealData
 product: Windows
 targetos: Windows
-req.lib: Vertdll.lib
-req.dll: Vertdll.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnclaveUnsealData function

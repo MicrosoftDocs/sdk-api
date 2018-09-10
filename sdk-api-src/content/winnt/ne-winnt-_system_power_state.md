@@ -4,7 +4,7 @@ title: "_SYSTEM_POWER_STATE"
 author: windows-sdk-content
 description: Defines values that are used to specify system power states.
 old-location: base\system_power_state.htm
-old-project: power
+tech.root: power
 ms.assetid: 57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
+req.redist: 
 ---
 
 # _SYSTEM_POWER_STATE enumeration

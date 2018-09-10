@@ -4,17 +4,16 @@ title: IOleControlSite::GetExtendedControl
 author: windows-sdk-content
 description: Retrieves an IDispatch pointer to the extended control that the container uses to wrap the real control.
 old-location: com\iolecontrolsite_getextendedcontrol.htm
-old-project: com
+tech.root: com
 ms.assetid: 66cfdf22-db2b-41d2-9854-d6bf70fbe146
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExtendedControl, GetExtendedControl method [COM], GetExtendedControl method [COM],IOleControlSite interface, IOleControlSite interface [COM],GetExtendedControl method, IOleControlSite.GetExtendedControl, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.GetExtendedControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::GetExtendedControl

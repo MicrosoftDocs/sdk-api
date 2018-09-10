@@ -4,7 +4,7 @@ title: VDS_IPADDRESS_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for an IP address.
 old-location: base\vds_ipaddress_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 9121957f-1626-4d52-9749-0a769fece5fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_IPADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_IPADDRESS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_IPADDRESS_TYPE
+req.redist: VDS 1.1
 ---
 
 # VDS_IPADDRESS_TYPE enumeration

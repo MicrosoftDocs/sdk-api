@@ -4,7 +4,7 @@ title: RESPONSEBODY_SubscriptionEnd
 author: windows-sdk-content
 description: Represents a WS-Eventing SubscriptionEnd response message.
 old-location: ncd\responsebody_subscriptionend.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 84faf4b7-6bdc-4ecc-92c0-c27e36bbe912
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESPONSEBODY_SubscriptionEnd
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESPONSEBODY_SubscriptionEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RESPONSEBODY_SubscriptionEnd
+req.redist: 
 ---
 
 # RESPONSEBODY_SubscriptionEnd structure

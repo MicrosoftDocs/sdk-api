@@ -4,17 +4,16 @@ title: IVdsIscsiPortal::SetIpsecTunnelAddress
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiPortal.SetIpsecTunnelAddress, IVdsIscsiPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsectunneladdress, vds/IVdsIscsiPortal::SetIpsecTunnelAddress, vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortal.SetIpsecTunnelAddress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortal::SetIpsecTunnelAddress

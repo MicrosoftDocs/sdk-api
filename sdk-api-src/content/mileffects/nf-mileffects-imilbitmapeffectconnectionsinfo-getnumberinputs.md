@@ -4,17 +4,16 @@ title: IMILBitmapEffectConnectionsInfo::GetNumberInputs
 author: windows-sdk-content
 description: Retrieves the number of input pins the bitmap effect implements.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberinputs.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNumberInputs, GetNumberInputs method [WPF Bitmap Effects], GetNumberInputs method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetNumberInputs method, IMILBitmapEffectConnectionsInfo.GetNumberInputs, IMILBitmapEffectConnectionsInfo::GetNumberInputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberinputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectConnectionsInfo.GetNumberInputs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectConnectionsInfo::GetNumberInputs

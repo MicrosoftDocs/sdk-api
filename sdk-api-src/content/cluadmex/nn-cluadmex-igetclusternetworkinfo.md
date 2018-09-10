@@ -4,7 +4,7 @@ title: IGetClusterNetworkInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
 old-location: mscs\igetclusternetworkinfo.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterNetworkInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterNetworkInfo interface

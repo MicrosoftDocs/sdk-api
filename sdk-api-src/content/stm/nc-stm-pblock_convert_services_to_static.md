@@ -4,7 +4,7 @@ title: PBLOCK_CONVERT_SERVICES_TO_STATIC
 author: windows-sdk-content
 description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
 old-location: rras\blockconvertservicestostatic.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BlockConvertServicesToStatic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # PBLOCK_CONVERT_SERVICES_TO_STATIC callback function

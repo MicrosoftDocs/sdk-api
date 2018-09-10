@@ -4,17 +4,16 @@ title: RtmGetRegisteredEntities function
 author: windows-sdk-content
 description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
 old-location: rras\rtmgetregisteredentities.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetRegisteredEntities
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetRegisteredEntities function

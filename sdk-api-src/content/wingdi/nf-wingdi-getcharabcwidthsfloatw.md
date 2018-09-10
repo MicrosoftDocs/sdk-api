@@ -4,17 +4,16 @@ title: GetCharABCWidthsFloatW function
 author: windows-sdk-content
 description: The GetCharABCWidthsFloat function retrieves the widths, in logical units, of consecutive characters in a specified range from the current font.
 old-location: gdi\getcharabcwidthsfloat.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 552942c9-e2a6-43f9-901f-3aba1e2523e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCharABCWidthsFloat, GetCharABCWidthsFloat function [Windows GDI], GetCharABCWidthsFloatA, GetCharABCWidthsFloatW, _win32_GetCharABCWidthsFloat, gdi.getcharabcwidthsfloat, wingdi/GetCharABCWidthsFloat, wingdi/GetCharABCWidthsFloatA, wingdi/GetCharABCWidthsFloatW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetCharABCWidthsFloatW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCharABCWidthsFloatW function

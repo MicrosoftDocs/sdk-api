@@ -4,17 +4,16 @@ title: IEnroll2::InstallPKCS7Blob
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7Blob method in that InstallPKCS7Blob does not receive a request certificate.
 old-location: security\ienroll4_installpkcs7blob.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fa704c5e-f6ec-4187-b787-7b15cc7d4eb4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.InstallPKCS7Blob, IEnroll2::InstallPKCS7Blob, InstallPKCS7Blob, InstallPKCS7Blob method [Security], InstallPKCS7Blob method [Security],IEnroll2 interface, security.ienroll4_installpkcs7blob, xenroll/IEnroll2::InstallPKCS7Blob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll2.InstallPKCS7Blob
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll2::InstallPKCS7Blob

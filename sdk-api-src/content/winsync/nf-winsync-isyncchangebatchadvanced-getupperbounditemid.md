@@ -4,17 +4,16 @@ title: ISyncChangeBatchAdvanced::GetUpperBoundItemId
 author: windows-sdk-content
 description: Gets the highest item ID that is represented in the knowledge of any group in the change batch.
 old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4aa472b1-7dfb-4159-8f50-cc8e5de34dd3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetUpperBoundItemId method, ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchAdvanced.GetUpperBoundItemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchAdvanced::GetUpperBoundItemId

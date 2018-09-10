@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::SetCapture
 author: windows-sdk-content
 description: Enables an in-place active, windowless object to capture all mouse messages.
 old-location: com\ioleinplacesitewindowless_setcapture.htm
-old-project: com
+tech.root: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetCapture method, IOleInPlaceSiteWindowless.SetCapture, IOleInPlaceSiteWindowless::SetCapture, SetCapture, SetCapture method [COM], SetCapture method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.SetCapture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::SetCapture

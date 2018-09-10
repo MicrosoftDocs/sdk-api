@@ -4,17 +4,16 @@ title: IAppPublisher::EnumApps
 author: windows-sdk-content
 description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.
 old-location: shell\IAppPublisher_EnumApps.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAppPublisher.EnumApps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAppPublisher::EnumApps
@@ -62,12 +60,12 @@ Creates an enumerator for enumerating all applications published by an applicati
 
 ### -param pAppCategoryId
 
-
+TBD
 
 
 ### -param ppepa
 
-
+TBD
 
 
 

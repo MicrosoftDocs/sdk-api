@@ -4,7 +4,7 @@ title: "_ROUTER_INTERFACE_TYPE"
 author: windows-sdk-content
 description: The ROUTER_INTERFACE_TYPE type enumerates the different kinds of interfaces on a router.
 old-location: rras\router_interface_type.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 9b957ab0-0c5d-4478-914a-4837e6bbd56a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROUTER_INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ROUTER_INTERFACE_TYPE
+req.redist: 
 ---
 
 # _ROUTER_INTERFACE_TYPE enumeration

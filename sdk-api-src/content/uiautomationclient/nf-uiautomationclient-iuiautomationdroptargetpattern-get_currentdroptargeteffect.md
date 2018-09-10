@@ -4,17 +4,16 @@ title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect
 author: windows-sdk-content
 description: Retrieves a localized string that describes what happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: C7A2C62B-D61B-4884-BEF0-E4EB1088D1AB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentDropTargetEffect property [Windows Accessibility], CurrentDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffect property, IUIAutomationDropTargetPattern.CurrentDropTargetEffect, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect, IUIAutomationDropTargetPattern::CurrentDropTargetEffect, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, get_CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationDropTargetPattern.get_CurrentDropTargetEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationDropTargetPattern::get_CurrentDropTargetEffect

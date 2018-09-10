@@ -4,7 +4,7 @@ title: ISecurityInformation
 author: windows-sdk-content
 description: Enables the access control editor to communicate with the caller of the CreateSecurityPage and EditSecurity functions.
 old-location: security\isecurityinformation.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation interface

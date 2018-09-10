@@ -4,17 +4,16 @@ title: ISecurityInformation2::LookupSids
 author: windows-sdk-content
 description: The LookupSids method returns the common names corresponding to each of the elements in the specified list of SIDs.
 old-location: security\isecurityinformation2_lookupsids.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 9a4056c6-6a21-4051-b4a6-c77351fce983
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISecurityInformation2 interface [Security],LookupSids method, ISecurityInformation2.LookupSids, ISecurityInformation2::LookupSids, LookupSids, LookupSids method [Security], LookupSids method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_lookupsids, aclui/ISecurityInformation2::LookupSids, security.isecurityinformation2_lookupsids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation2.LookupSids
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation2::LookupSids

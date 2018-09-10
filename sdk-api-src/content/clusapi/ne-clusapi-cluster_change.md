@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE
 author: windows-sdk-content
 description: Describes the type of notification returned.
 old-location: mscs\cluster_change.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d396d490-84d0-4bf8-9c0d-8597b3baf0ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_CHANGE
+req.redist: 
 ---
 
 # CLUSTER_CHANGE enumeration

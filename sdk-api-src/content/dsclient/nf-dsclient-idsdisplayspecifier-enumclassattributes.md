@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::EnumClassAttributes
 author: windows-sdk-content
 description: Enumerates the attributes for a given object class.
 old-location: ad\idsdisplayspecifier_enumclassattributes.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 78b8e280-454c-4db7-9037-ea7e42798323
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumClassAttributes, EnumClassAttributes method [Active Directory], EnumClassAttributes method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],EnumClassAttributes method, IDsDisplaySpecifier.EnumClassAttributes, IDsDisplaySpecifier::EnumClassAttributes, _glines_idsdisplayspecifier_enumclassattributes, ad.idsdisplayspecifier__enumclassattributes, ad.idsdisplayspecifier_enumclassattributes, dsclient/IDsDisplaySpecifier::EnumClassAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.EnumClassAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::EnumClassAttributes

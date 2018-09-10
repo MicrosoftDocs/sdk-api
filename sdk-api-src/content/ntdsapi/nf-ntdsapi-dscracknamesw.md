@@ -4,17 +4,16 @@ title: DsCrackNamesW function
 author: windows-sdk-content
 description: Converts an array of directory service object names from one format to another.
 old-location: ad\dscracknames.htm
-old-project: ad
+tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackNamesA, DsCrackNamesW, _glines_dscracknames, ad.dscracknames, ntdsapi/DsCrackNames, ntdsapi/DsCrackNamesA, ntdsapi/DsCrackNamesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - DsCrackNamesW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsCrackNamesW function

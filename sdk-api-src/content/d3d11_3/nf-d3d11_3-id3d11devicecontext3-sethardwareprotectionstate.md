@@ -4,17 +4,16 @@ title: ID3D11DeviceContext3::SetHardwareProtectionState
 author: windows-sdk-content
 description: Sets the hardware protection state.
 old-location: direct3d11\id3d11devicecontext3_sethardwareprotectionstate.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: C1B927EC-32A2-4526-9F30-739D21C7E4A6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11DeviceContext3 interface [Direct3D 11],SetHardwareProtectionState method, ID3D11DeviceContext3.SetHardwareProtectionState, ID3D11DeviceContext3::SetHardwareProtectionState, SetHardwareProtectionState, SetHardwareProtectionState method [Direct3D 11], SetHardwareProtectionState method [Direct3D 11],ID3D11DeviceContext3 interface, d3d11_3/ID3D11DeviceContext3::SetHardwareProtectionState, direct3d11.id3d11devicecontext3_sethardwareprotectionstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext3.SetHardwareProtectionState
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext3::SetHardwareProtectionState

@@ -4,17 +4,16 @@ title: ICspInformation::InitializeFromType
 author: windows-sdk-content
 description: Initializes the object from the default cryptographic provider.
 old-location: security\icspinformation_initializefromtype_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspInformation.InitializeFromType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::InitializeFromType

@@ -4,17 +4,16 @@ title: ITfFnReconversion::QueryRange
 author: windows-sdk-content
 description: The ITfFnReconversion::QueryRange method obtains the range of text that the reconversion applies to.
 old-location: tsf\itffnreconversion_queryrange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 022d0ad7-5359-48df-b83b-2319eb1a84bf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange method, ITfFnReconversion.QueryRange, ITfFnReconversion::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_queryrange_ref, ctffunc/ITfFnReconversion::QueryRange, tsf.itffnreconversion_queryrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnReconversion.QueryRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnReconversion::QueryRange

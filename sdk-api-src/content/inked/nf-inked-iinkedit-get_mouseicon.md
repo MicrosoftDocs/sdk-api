@@ -4,17 +4,16 @@ title: IInkEdit::get_MouseIcon
 author: windows-sdk-content
 description: Gets or sets the custom mouse icon for the InkEdit control.
 old-location: tablet\inkedit_mouseicon.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 11e7cf2d-e671-471f-9a13-1f55b62b4dfa
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],MouseIcon property, IInkEdit.MouseIcon, IInkEdit.get_MouseIcon, IInkEdit::MouseIcon, IInkEdit::get_MouseIcon, IInkEdit::put_MouseIcon, InkEdit.get_MouseIcon, InkEdit.put_MouseIcon, InkEdit.putref_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkEdit interface, get_MouseIcon, inked/IInkEdit::MouseIcon, inked/IInkEdit::get_MouseIcon, inked/IInkEdit::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkedit_mouseicon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - InkEdit.putref_MouseIcon
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_MouseIcon

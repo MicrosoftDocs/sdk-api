@@ -4,17 +4,16 @@ title: IBackgroundCopyError::GetErrorContextDescription
 author: windows-sdk-content
 description: Retrieves the description of the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterrorcontextdescription.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 87f5ae62-c171-4637-bebb-3a5c5aa546b3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyError.GetErrorContextDescription
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyError::GetErrorContextDescription
@@ -76,7 +75,7 @@ To retrieve the system's default user language identifier, use the following cal
 
 ### -param pContextDescription
 
-
+TBD
 
 
 

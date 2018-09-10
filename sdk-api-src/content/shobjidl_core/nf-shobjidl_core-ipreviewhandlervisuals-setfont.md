@@ -4,17 +4,16 @@ title: IPreviewHandlerVisuals::SetFont
 author: windows-sdk-content
 description: Sets the font attributes to be used for text within the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetFont.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetFont method, IPreviewHandlerVisuals.SetFont, IPreviewHandlerVisuals::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetFont, shell.IPreviewHandlerVisuals_SetFont, shobjidl_core/IPreviewHandlerVisuals::SetFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandlerVisuals.SetFont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandlerVisuals::SetFont

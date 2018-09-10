@@ -4,7 +4,7 @@ title: "_WS_XML_WRITER_TEXT_ENCODING"
 author: windows-sdk-content
 description: Indicates that the reader should emit bytes as textual xml.
 old-location: wsw\ws_xml_writer_text_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 916e693b-9804-4c93-869d-0c3b576e5b61
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_WRITER_TEXT_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_WRITER_TEXT_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_WRITER_TEXT_ENCODING
+req.redist: 
 ---
 
 # _WS_XML_WRITER_TEXT_ENCODING structure

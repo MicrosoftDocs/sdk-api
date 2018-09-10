@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumPermissionSets
 author: windows-sdk-content
 description: Enumerates permissions for the objects in a specified metadata scope.
 old-location: winrt\imetadataimport_enumpermissionsets.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 20fec6e8-02f8-4158-8d61-550653e99dad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumPermissionSets, EnumPermissionSets method [Windows Runtime], EnumPermissionSets method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumPermissionSets method, IMetaDataImport.EnumPermissionSets, IMetaDataImport::EnumPermissionSets, rometadataapi/IMetaDataImport::EnumPermissionSets, winrt.imetadataimport_enumpermissionsets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumPermissionSets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumPermissionSets

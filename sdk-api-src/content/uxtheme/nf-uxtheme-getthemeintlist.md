@@ -4,17 +4,16 @@ title: GetThemeIntList function
 author: windows-sdk-content
 description: Retrieves a list of int data from a visual style.
 old-location: controls\GetThemeIntList.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeintlist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], controls.GetThemeIntList, controls.inet_GetThemeIntList, inet_GetThemeIntList, inet_GetThemeIntList_cpp, uxtheme/GetThemeIntList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll (version 1.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetThemeIntList
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll (version 1.0 or later)
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeIntList function

@@ -4,7 +4,7 @@ title: FIND_BY_SID_DATA
 author: windows-sdk-content
 description: Contains data for the FSCTL_FIND_FILES_BY_SID control code.
 old-location: fs\find_by_sid_data.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: fd0294a1-be43-4353-8edc-dff8bf0b0787
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FIND_BY_SID_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
+req.redist: 
 ---
 
 # FIND_BY_SID_DATA structure

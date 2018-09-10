@@ -4,17 +4,16 @@ title: NdfCancelIncident function
 author: windows-sdk-content
 description: Used to cancel unneeded functions which have been previously called on an existing incident.
 old-location: ndf\ndfcancelincident.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NdfCancelIncident, NdfCancelIncident function [NDF], ndf.ndfcancelincident, ndfapi/NdfCancelIncident
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfCancelIncident
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfCancelIncident function

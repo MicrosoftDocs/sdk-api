@@ -4,7 +4,7 @@ title: "_WSD_METADATA_SECTION"
 author: windows-sdk-content
 description: Represents a section of metadata in a generic form.
 old-location: ncd\wsd_metadata_section_struct.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: e3e39d0a-6fb1-4cb9-b399-6ffe0e73ba91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_METADATA_SECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_METADATA_SECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_METADATA_SECTION
+req.redist: 
 ---
 
 # _WSD_METADATA_SECTION structure

@@ -4,7 +4,7 @@ title: "_OPM_ACTUAL_OUTPUT_FORMAT"
 author: windows-sdk-content
 description: Contains the result of an OPM_GET_ACTUAL_OUTPUT_FORMAT query in Output Protection Manager (OPM).
 old-location: mf\opm_actual_output_format.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_ACTUAL_OUTPUT_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_ACTUAL_OUTPUT_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_ACTUAL_OUTPUT_FORMAT
+req.redist: 
 ---
 
 # _OPM_ACTUAL_OUTPUT_FORMAT structure

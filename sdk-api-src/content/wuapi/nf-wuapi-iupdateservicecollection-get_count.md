@@ -4,17 +4,16 @@ title: IUpdateServiceCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateservicecollection_count.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: c52afc93-ac73-46d5-9f32-9d2bb8e65176
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateServiceCollection interface, IUpdateServiceCollection interface [Windows Update Agent],Count property, IUpdateServiceCollection.Count, IUpdateServiceCollection.get_Count, IUpdateServiceCollection::Count, IUpdateServiceCollection::get_Count, get_Count, wua.iupdateservicecollection_count, wuapi/IUpdateServiceCollection::Count, wuapi/IUpdateServiceCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdateServiceCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateServiceCollection::get_Count

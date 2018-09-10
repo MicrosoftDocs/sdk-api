@@ -4,17 +4,16 @@ title: RpcSmSwapClientAllocFree function
 author: windows-sdk-content
 description: The RpcSmSwapClientAllocFree function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 old-location: rpc\rpcsmswapclientallocfree.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcSmSwapClientAllocFree
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcSmSwapClientAllocFree function

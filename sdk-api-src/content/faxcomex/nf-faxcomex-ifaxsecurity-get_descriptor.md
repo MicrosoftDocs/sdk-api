@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxSecurity.get_Descriptor
 title: IFaxSecurity::get_Descriptor
 author: windows-sdk-content
-description: The Descriptor property represents the security descriptor for a FaxServer object.
-old-location: fax\_mfax_faxsecurity_descriptor.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxsecurity\faxinto_z_6ab6.htm
+description: The Descriptor property represents the security descriptor for a IFaxServer object.
+old-location: fax\_mfax_faxsecurity_descriptor_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\descriptor.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],FaxSecurity object, FaxSecurity object [Fax Service],Descriptor property, FaxSecurity.Descriptor, IFaxSecurity.get_Descriptor, IFaxSecurity.put_Descriptor, IFaxSecurity::get_Descriptor, _mfax_faxsecurity.descriptor, fax._mfax_faxsecurity_descriptor, get_Descriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity interface, IFaxSecurity interface [Fax Service],Descriptor property, IFaxSecurity.Descriptor, IFaxSecurity.get_Descriptor, IFaxSecurity::Descriptor, IFaxSecurity::get_Descriptor, IFaxSecurity::put_Descriptor, _mfax_faxsecurity.descriptor_cpp, fax._mfax_faxsecurity_descriptor_cpp, faxcomex/IFaxSecurity::Descriptor, faxcomex/IFaxSecurity::get_Descriptor, faxcomex/IFaxSecurity::put_Descriptor, get_Descriptor
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,15 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxSecurity.Descriptor
+ - IFaxSecurity.Descriptor
  - IFaxSecurity.get_Descriptor
  - IFaxSecurity.put_Descriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxSecurity::get_Descriptor
@@ -54,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Descriptor</b> property represents the security descriptor for a <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object.
+The <b>Descriptor</b> property  represents the security descriptor for a <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a> object.
 
 This property is read/write.
 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-The <b>Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/7fd4d1c0-3980-410a-8150-34461cbff59c">GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
+The <b>IFaxSecurity::Descriptor</b> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The <a href="https://msdn.microsoft.com/329c4bd1-6b92-4dbf-aaf9-2e8c89192fd6">IFaxSecurity::get_GrantedRights</a> property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_HIGH</a>, the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_NORMAL</a>, the user can send normal-priority and low-priority faxes.
 
 To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
@@ -78,11 +76,11 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a>
+<a href="https://msdn.microsoft.com/66911dcd-2c46-4ef3-ae77-cb94249e92e3">FaxSecurity.Descriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::Descriptor</a>
+<a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a>
  
 
  

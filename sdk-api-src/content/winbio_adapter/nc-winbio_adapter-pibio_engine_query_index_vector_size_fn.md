@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
 author: windows-sdk-content
 description: Retrieves the size of the index vector used by the engine adapter.
 old-location: secbiomet\engineadapterqueryindexvectorsize.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 07e9f956-1bae-4011-92a0-6c5ed0d105a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterQueryIndexVectorSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback function

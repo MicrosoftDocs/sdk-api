@@ -4,17 +4,16 @@ title: IAzApplication::put_ApplyStoreSacl
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\iazapplication_applystoresacl.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 722b0693-a11f-434a-a278-780619b0077a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzApplication object, ApplyStoreSacl property [Security],IAzApplication interface, AzApplication object [Security],ApplyStoreSacl property, IAzApplication interface [Security],ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication.put_ApplyStoreSacl, IAzApplication::ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, put_ApplyStoreSacl, security.iazapplication_applystoresacl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzApplication.ApplyStoreSacl
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::put_ApplyStoreSacl

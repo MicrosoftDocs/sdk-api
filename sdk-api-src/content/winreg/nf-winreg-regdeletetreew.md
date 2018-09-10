@@ -4,17 +4,16 @@ title: RegDeleteTreeW function
 author: windows-sdk-content
 description: Deletes the subkeys and values of the specified key recursively.
 old-location: base\regdeletetree.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 984813a9-e191-498f-8288-b8a4c567112b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RegDeleteTree, RegDeleteTree function, RegDeleteTreeA, RegDeleteTreeW, base.regdeletetree, winreg/RegDeleteTree, winreg/RegDeleteTreeA, winreg/RegDeleteTreeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegDeleteTreeW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegDeleteTreeW function

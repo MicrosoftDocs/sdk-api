@@ -4,17 +4,16 @@ title: IWMPCore::get_error
 author: windows-sdk-content
 description: The get_error method retrieves a pointer to an IWMPError interface.
 old-location: wmp\iwmpcore_get_error.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: db00797b-989f-4f92-8fac-aaa147e37383
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_error method, IWMPCore.get_error, IWMPCore::get_error, IWMPCoreget_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_error, wmp/IWMPCore::get_error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_error
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_error

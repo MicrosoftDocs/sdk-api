@@ -4,7 +4,7 @@ title: DEFAULT_FOLDER_MENU_RESTRICTIONS
 author: windows-sdk-content
 description: "."
 old-location: shell\DEFAULT_FOLDER_MENU_RESTRICTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E33EB02B-11FC-4c1f-AF38-0E5382CC8B5F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEFAULT_FOLDER_MENU_RESTRICTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DEFAULT_FOLDER_MENU_RESTRICTIONS
+req.redist: 
 ---
 
 # DEFAULT_FOLDER_MENU_RESTRICTIONS enumeration

@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::GetPolicyServerId
 author: windows-sdk-content
 description: Retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverid.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: daff74e8-a124-4194-95f6-5837598c352f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.GetPolicyServerId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::GetPolicyServerId

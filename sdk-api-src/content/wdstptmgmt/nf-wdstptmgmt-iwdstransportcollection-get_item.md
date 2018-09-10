@@ -4,17 +4,16 @@ title: IWdsTransportCollection::get_Item
 author: windows-sdk-content
 description: Receives a pointer to the object that matches the specified index.
 old-location: wds\iwdstransportcollection_item.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 4849923f-7463-46ee-9ec8-d2d5bcefd5ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Item property, IWdsTransportCollection.Item, IWdsTransportCollection.get_Item, IWdsTransportCollection::Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services],IWdsTransportCollection interface, get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportCollection.put_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportCollection::get_Item

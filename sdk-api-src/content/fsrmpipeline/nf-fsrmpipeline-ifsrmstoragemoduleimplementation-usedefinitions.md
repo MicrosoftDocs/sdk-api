@@ -4,17 +4,16 @@ title: IFsrmStorageModuleImplementation::UseDefinitions
 author: windows-sdk-content
 description: Specifies the property definitions FSRM recognizes.
 old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d5683668-18c2-405b-aa56-8e7a9a1d5a9e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],UseDefinitions method, IFsrmStorageModuleImplementation.UseDefinitions, IFsrmStorageModuleImplementation::UseDefinitions, UseDefinitions, UseDefinitions method [File Server Resource Manager], UseDefinitions method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_usedefinitions, fsrm.ifsrmstoragemoduleimplementation_usedefinitions, fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmStorageModuleImplementation.UseDefinitions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmStorageModuleImplementation::UseDefinitions

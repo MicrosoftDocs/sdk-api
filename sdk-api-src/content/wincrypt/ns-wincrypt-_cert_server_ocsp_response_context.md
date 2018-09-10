@@ -4,7 +4,7 @@ title: "_CERT_SERVER_OCSP_RESPONSE_CONTEXT"
 author: windows-sdk-content
 description: Contains an encoded OCSP response.
 old-location: security\cert_server_ocsp_response_context.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 732e91a3-dcd2-491a-ba4f-e22b75b5a71e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_SERVER_OCSP_RESPONSE_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_SERVER_OCSP_RESPONSE_CONTEXT, *PCERT_SERVER_OCSP_RESPONSE_CONTEXT
+req.redist: 
 ---
 
 # _CERT_SERVER_OCSP_RESPONSE_CONTEXT structure

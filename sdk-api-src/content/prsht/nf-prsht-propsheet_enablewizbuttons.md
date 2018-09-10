@@ -4,17 +4,16 @@ title: PropSheet_EnableWizButtons macro
 author: windows-sdk-content
 description: Enables or disables buttons in an Aero wizard. You can use this macro or send the PSM_ENABLEWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_EnableWizButtons.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_EnableWizButtons, PropSheet_EnableWizButtons macro [Windows Controls], _win32_PropSheet_EnableWizButtons, _win32_PropSheet_EnableWizButtons_cpp, controls.PropSheet_EnableWizButtons, controls._win32_PropSheet_EnableWizButtons, prsht/PropSheet_EnableWizButtons
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_EnableWizButtons
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_EnableWizButtons macro

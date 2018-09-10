@@ -4,17 +4,16 @@ title: ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 author: windows-sdk-content
 description: Returns knowledge about the knowledge fragments that are specified by the template knowledge, when the template knowledge contains the prerequisite knowledge for the specified fragments.
 old-location: winsync\isyncknowledge2_projectontoknowledgewithprerequisite.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 71794c37-fea2-466b-a8dd-8a502b178f1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoKnowledgeWithPrerequisite method, ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite, ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontoknowledgewithprerequisite, winsync/ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite

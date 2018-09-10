@@ -4,17 +4,16 @@ title: IDragSourceHelper::InitializeFromBitmap
 author: windows-sdk-content
 description: Initializes the drag-image manager for a windowless control.
 old-location: shell\IDragSourceHelper_InitializeFromBitmap.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d50be9c9-f407-4386-bb8f-04c849205359
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromBitmap method, IDragSourceHelper.InitializeFromBitmap, IDragSourceHelper::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Shell], InitializeFromBitmap method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromBitmap, shell.IDragSourceHelper_InitializeFromBitmap, shobjidl_core/IDragSourceHelper::InitializeFromBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDragSourceHelper.InitializeFromBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDragSourceHelper::InitializeFromBitmap

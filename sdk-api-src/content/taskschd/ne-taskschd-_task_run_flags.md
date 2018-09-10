@@ -4,7 +4,7 @@ title: "_TASK_RUN_FLAGS"
 author: windows-sdk-content
 description: Defines how a task is run.
 old-location: taskschd\task_run_flags.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 6c5a4ab6-b3ca-4d60-918d-82797782d66a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_RUN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_RUN_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_RUN_FLAGS
+req.redist: 
 ---
 
 # _TASK_RUN_FLAGS enumeration

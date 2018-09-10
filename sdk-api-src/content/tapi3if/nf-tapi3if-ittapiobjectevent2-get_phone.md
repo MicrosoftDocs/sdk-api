@@ -4,17 +4,16 @@ title: ITTAPIObjectEvent2::get_Phone
 author: windows-sdk-content
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that caused this TAPI object event to be fired.
 old-location: tapi3\ittapiobjectevent2_get_phone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 76e316f6-536b-4531-a4a6-397e258678cc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPIObjectEvent2 interface [TAPI 2.2],get_Phone method, ITTAPIObjectEvent2.get_Phone, ITTAPIObjectEvent2::get_Phone, _tapi3_ittapiobjectevent2_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITTAPIObjectEvent2 interface, tapi3.ittapiobjectevent2_get_phone, tapi3if/ITTAPIObjectEvent2::get_Phone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPIObjectEvent2.get_Phone
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPIObjectEvent2::get_Phone

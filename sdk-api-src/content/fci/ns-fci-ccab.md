@@ -4,7 +4,7 @@ title: CCAB
 author: windows-sdk-content
 description: The CCAB structure contains cabinet information.
 old-location: winprog\ccab.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CCAB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: CCAB
+req.redist: 
 ---
 
 # CCAB structure

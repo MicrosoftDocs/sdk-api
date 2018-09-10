@@ -4,17 +4,16 @@ title: PeerDistGetStatus function
 author: windows-sdk-content
 description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
 old-location: p2p\peerdistgetstatus.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+req.lib: PeerDist.lib
+req.dll: PeerDist.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerDistGetStatus
 product: Windows
 targetos: Windows
-req.lib: PeerDist.lib
-req.dll: PeerDist.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerDistGetStatus function

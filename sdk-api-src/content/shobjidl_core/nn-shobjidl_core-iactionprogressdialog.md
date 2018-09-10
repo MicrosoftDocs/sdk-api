@@ -4,7 +4,7 @@ title: IActionProgressDialog
 author: windows-sdk-content
 description: Exposes methods that initialize and stop a progress dialog.
 old-location: shell\IActionProgressDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Browseui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgressDialog
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Browseui.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgressDialog interface

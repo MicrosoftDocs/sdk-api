@@ -4,17 +4,16 @@ title: IMFMediaSession::SetTopology
 author: windows-sdk-content
 description: Sets a topology on the Media Session.
 old-location: mf\imfmediasession_settopology.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],SetTopology method, IMFMediaSession.SetTopology, IMFMediaSession::SetTopology, SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation],IMFMediaSession interface, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.SetTopology
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::SetTopology

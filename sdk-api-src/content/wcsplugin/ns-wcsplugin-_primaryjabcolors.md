@@ -4,7 +4,7 @@ title: "_PrimaryJabColors"
 author: windows-sdk-content
 description: This structure contains eight primary colors in Jab coordinates.
 old-location: wcs\primaryjabcolors.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrimaryJabColors
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrimaryJabColors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PrimaryJabColors
+req.redist: 
 ---
 
 # _PrimaryJabColors structure

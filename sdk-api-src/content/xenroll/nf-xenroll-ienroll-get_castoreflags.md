@@ -4,17 +4,16 @@ title: IEnroll::get_CAStoreFlags
 author: windows-sdk-content
 description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\ienroll4_castoreflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 294a8a38-9c76-4e5c-ac11-2fcb8b81727e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security],IEnroll interface, IEnroll interface [Security],CAStoreFlags property, IEnroll.CAStoreFlags, IEnroll.get_CAStoreFlags, IEnroll::CAStoreFlags, IEnroll::get_CAStoreFlags, IEnroll::put_CAStoreFlags, get_CAStoreFlags, security.ienroll4_castoreflags, xenroll/IEnroll::CAStoreFlags, xenroll/IEnroll::get_CAStoreFlags, xenroll/IEnroll::put_CAStoreFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_CAStoreFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::get_CAStoreFlags

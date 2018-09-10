@@ -4,17 +4,16 @@ title: SHParseDisplayName function
 author: windows-sdk-content
 description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).
 old-location: shell\SHParseDisplayName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHParseDisplayName
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHParseDisplayName function

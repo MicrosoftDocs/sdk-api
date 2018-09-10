@@ -4,17 +4,16 @@ title: MulDiv function
 author: windows-sdk-content
 description: Multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: winprog\muldiv.htm
-old-project: WinProg
+tech.root: WinProg
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - MulDiv
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MulDiv function

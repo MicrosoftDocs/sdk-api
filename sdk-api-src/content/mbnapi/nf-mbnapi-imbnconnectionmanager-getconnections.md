@@ -4,17 +4,16 @@ title: IMbnConnectionManager::GetConnections
 author: windows-sdk-content
 description: Gets a list of available connections.
 old-location: mbn\imbnconnectionmanager_getconnections.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnections method, IMbnConnectionManager.GetConnections, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionManager.GetConnections
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionManager::GetConnections

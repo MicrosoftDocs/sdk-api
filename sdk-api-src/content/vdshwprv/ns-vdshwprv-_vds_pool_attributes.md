@@ -4,7 +4,7 @@ title: "_VDS_POOL_ATTRIBUTES"
 author: windows-sdk-content
 description: Defines the attributes of a storage pool.
 old-location: base\vds_pool_attributes.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3dfbd3d9-ec2e-44ac-9d0f-7aa6c530db18
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_POOL_ATTRIBUTES, *PVDS_POOL_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_POOL_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_POOL_ATTRIBUTES, *PVDS_POOL_ATTRIBUTES
+req.redist: 
 ---
 
 # _VDS_POOL_ATTRIBUTES structure

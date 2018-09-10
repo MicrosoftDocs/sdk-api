@@ -4,17 +4,16 @@ title: IPortableDeviceService::GetServiceObjectID
 author: windows-sdk-content
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceService.GetServiceObjectID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceService::GetServiceObjectID

@@ -4,7 +4,7 @@ title: "_QOS_TRAFFIC_TYPE"
 author: windows-sdk-content
 description: The QOS_TRAFFIC_TYPE enumeration defines the various traffic types. Each flow has a single traffic type. This allows the QOS subsystem to apply user-specified policies to each type.
 old-location: qos\qos_traffic_type.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 89145c7f-0b67-4eff-b462-049b047e6602
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_TRAFFIC_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.redist: 
 ---
 
 # _QOS_TRAFFIC_TYPE enumeration

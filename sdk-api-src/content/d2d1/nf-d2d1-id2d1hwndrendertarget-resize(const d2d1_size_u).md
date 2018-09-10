@@ -4,17 +4,16 @@ title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U)
 author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\id2d1hwndrendertarget_resize.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U), Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1HwndRenderTarget::Resize
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U)

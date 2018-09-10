@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
 author: windows-sdk-content
 description: This IOCTL code is nevtot supported.
 old-location: buses\ioctl_genericusbfn_deactivate_usb_bus.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 07F56732-590F-42B8-9939-5E02ED2A3EF0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS IOCTL

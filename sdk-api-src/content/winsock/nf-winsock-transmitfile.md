@@ -4,17 +4,16 @@ title: TransmitFile function
 author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Mswsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TransmitFile
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TransmitFile function

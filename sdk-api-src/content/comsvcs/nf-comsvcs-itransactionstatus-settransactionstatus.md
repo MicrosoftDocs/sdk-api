@@ -4,17 +4,16 @@ title: ITransactionStatus::SetTransactionStatus
 author: windows-sdk-content
 description: Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
 old-location: cos\itransactionstatus_settransactionstatus.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0e69758a-8dc7-489c-8e78-ba35749beb01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITransactionStatus interface [COM+],SetTransactionStatus method, ITransactionStatus.SetTransactionStatus, ITransactionStatus::SetTransactionStatus, SetTransactionStatus, SetTransactionStatus method [COM+], SetTransactionStatus method [COM+],ITransactionStatus interface, _cos_ITransactionStatus_SetTransactionStatus, comsvcs/ITransactionStatus::SetTransactionStatus, cos.itransactionstatus_settransactionstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITransactionStatus.SetTransactionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITransactionStatus::SetTransactionStatus

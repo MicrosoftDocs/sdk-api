@@ -4,17 +4,16 @@ title: IVssEnumObject::Clone
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
 old-location: base\ivssenumobject_clone.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssEnumObject.Clone
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumObject::Clone
@@ -65,7 +63,7 @@ The <b>Clone</b> method creates a copy of the
 
 ### -param ppenum
 
-
+TBD
 
 
 

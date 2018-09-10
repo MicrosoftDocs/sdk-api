@@ -4,17 +4,16 @@ title: IPipeDouble::Pull
 author: windows-sdk-content
 description: Retrieves data of the double integer type from the pipe source.
 old-location: com\ipipedouble_pull.htm
-old-project: com
+tech.root: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPipeDouble.Pull
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPipeDouble::Pull

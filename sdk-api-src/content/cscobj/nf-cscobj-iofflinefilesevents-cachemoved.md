@@ -4,17 +4,16 @@ title: IOfflineFilesEvents::CacheMoved
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_cachemoved.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 73d9bb7b-4844-4d7c-9e50-8d63727f5309
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CacheMoved, CacheMoved method [Offline Files], CacheMoved method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheMoved method, IOfflineFilesEvents.CacheMoved, IOfflineFilesEvents::CacheMoved, cscobj/IOfflineFilesEvents::CacheMoved, of.iofflinefilesevents_cachemoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents.CacheMoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents::CacheMoved

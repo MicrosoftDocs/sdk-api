@@ -4,7 +4,7 @@ title: PMGM_WRONG_IF_CALLBACK
 author: windows-sdk-content
 description: The PMGM_WRONG_IF_CALLBACK is a call into a routing protocol to notify the protocol that a packet has been received from the specified source and for the specified group on the wrong interface.
 old-location: rras\pmgm_wrong_if_callback.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: d74f6984-35a0-42f4-8460-b7ad2fbba1b8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PMGM_WRONG_IF_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # PMGM_WRONG_IF_CALLBACK callback function

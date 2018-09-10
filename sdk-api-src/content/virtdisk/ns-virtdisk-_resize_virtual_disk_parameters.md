@@ -4,7 +4,7 @@ title: "_RESIZE_VIRTUAL_DISK_PARAMETERS"
 author: windows-sdk-content
 description: Contains the parameters for a ResizeVirtualDisk function.
 old-location: vstor\resize_virtual_disk_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESIZE_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS
+req.redist: 
 ---
 
 # _RESIZE_VIRTUAL_DISK_PARAMETERS structure

@@ -4,17 +4,16 @@ title: SafeArrayReleaseDescriptor function
 author: windows-sdk-content
 description: Decreases the pinning reference count for the descriptor of the specified safe array by one. When that count reaches 0, the memory for that descriptor is no longer prevented from being freed.
 old-location: automat\safearrayreleasedescriptor.htm
-old-project: automat
+tech.root: automat
 ms.assetid: D6678B17-B537-46CF-AC64-4D0C0DC4CDF3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayReleaseDescriptor, SafeArrayReleaseDescriptor function [Automation], automat.safearrayreleasedescriptor, oleauto/SafeArrayReleaseDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: Mincore.lib
+req.dll: Oleaut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayReleaseDescriptor
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Oleaut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayReleaseDescriptor function

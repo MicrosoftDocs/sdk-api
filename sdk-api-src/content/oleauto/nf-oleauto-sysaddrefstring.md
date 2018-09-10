@@ -4,17 +4,16 @@ title: SysAddRefString function
 author: windows-sdk-content
 description: Increases the pinning reference count for the specified string by one.
 old-location: automat\sysaddrefstring.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: Mincore.lib
+req.dll: Oleaut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SysAddRefString
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Oleaut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SysAddRefString function

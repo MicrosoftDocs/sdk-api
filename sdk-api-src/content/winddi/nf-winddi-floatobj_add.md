@@ -4,17 +4,16 @@ title: FLOATOBJ_Add function
 author: windows-sdk-content
 description: The FLOATOBJ_Add function adds the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_add.htm
-old-project: display
+tech.root: display
 ms.assetid: 6502d863-ab3e-46d2-8da4-c2f1b01fe344
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_Add, FLOATOBJ_Add function [Display Devices], display.floatobj_add, gdifncs_484fa853-6c4e-4bc1-95a3-7f7b40828fcc.xml, winddi/FLOATOBJ_Add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_Add
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_Add function

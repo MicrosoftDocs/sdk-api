@@ -4,7 +4,7 @@ title: CFP_ALLOCPROC
 author: windows-sdk-content
 description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to allocate memory.
 old-location: gdi\cfp_allocproc.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f6a98721-ebd1-4d83-bc9d-adde2e3ce525
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fontsub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CFP_ALLOCPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CFP_ALLOCPROC callback function

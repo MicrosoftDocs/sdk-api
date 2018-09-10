@@ -4,17 +4,16 @@ title: IAlertDataCollector::get_TriggerDataCollectorSet
 author: windows-sdk-content
 description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_triggerdatacollectorset.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IAlertDataCollector interface [PLA],TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector.get_TriggerDataCollectorSet, IAlertDataCollector::TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA],IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, get_TriggerDataCollectorSet, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IAlertDataCollector.put_TriggerDataCollectorSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAlertDataCollector::get_TriggerDataCollectorSet

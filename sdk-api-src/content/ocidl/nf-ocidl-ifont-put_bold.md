@@ -4,17 +4,16 @@ title: IFont::put_Bold
 author: windows-sdk-content
 description: Sets the font's Bold property.
 old-location: com\ifont_put_bold.htm
-old-project: com
+tech.root: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Bold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Bold

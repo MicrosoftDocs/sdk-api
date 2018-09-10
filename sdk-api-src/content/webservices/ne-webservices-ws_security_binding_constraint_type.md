@@ -4,7 +4,7 @@ title: WS_SECURITY_BINDING_CONSTRAINT_TYPE
 author: windows-sdk-content
 description: The values in this enumeration are used to identify the sub-types of WS_SECURITY_BINDING_CONSTRAINT.
 old-location: wsw\ws_security_binding_constraint_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 198869b4-0f25-4f10-8740-e4d501f6791b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_BINDING_CONSTRAINT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_BINDING_CONSTRAINT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_BINDING_CONSTRAINT_TYPE
+req.redist: 
 ---
 
 # WS_SECURITY_BINDING_CONSTRAINT_TYPE enumeration

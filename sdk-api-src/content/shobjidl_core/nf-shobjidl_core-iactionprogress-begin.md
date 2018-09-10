@@ -4,17 +4,16 @@ title: IActionProgress::Begin
 author: windows-sdk-content
 description: Called when an action has begun that requires its progress be displayed to the user.
 old-location: shell\IActionProgress_Begin.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c26dd072-6d59-4c6c-a273-682ded994612
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],Begin method, IActionProgress.Begin, IActionProgress::Begin, shell.IActionProgress_Begin, shell_IActionProgress_Begin, shobjidl_core/IActionProgress::Begin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgress.Begin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shobjidl.idl
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgress::Begin

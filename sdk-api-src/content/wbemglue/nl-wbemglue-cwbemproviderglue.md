@@ -4,7 +4,7 @@ title: CWbemProviderGlue
 author: windows-sdk-content
 description: CWbemProviderGlue ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the Provider class, and supplies methods for providers to use to query each other.
 old-location: wmi\cwbemproviderglue.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 493027c2-e54d-4fad-9e33-98d1ceab8860
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CWbemProviderGlue
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue class

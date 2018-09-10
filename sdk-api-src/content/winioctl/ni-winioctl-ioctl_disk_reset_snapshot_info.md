@@ -4,7 +4,7 @@ title: IOCTL_DISK_RESET_SNAPSHOT_INFO
 author: windows-sdk-content
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &#0034;snapshot&#0034;) information from the disk.
 old-location: fs\ioctl_disk_reset_snapshot_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_DISK_RESET_SNAPSHOT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL

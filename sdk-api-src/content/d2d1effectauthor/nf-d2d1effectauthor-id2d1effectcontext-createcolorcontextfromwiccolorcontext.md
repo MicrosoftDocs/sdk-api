@@ -4,17 +4,16 @@ title: ID2D1EffectContext::CreateColorContextFromWicColorContext
 author: windows-sdk-content
 description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromwiccolorcontext.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 4A269666-28A1-4A03-823B-60C6A1A9D73E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateColorContextFromWicColorContext, CreateColorContextFromWicColorContext method [Direct2D], CreateColorContextFromWicColorContext method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContextFromWicColorContext method, ID2D1EffectContext.CreateColorContextFromWicColorContext, ID2D1EffectContext::CreateColorContextFromWicColorContext, d2d1effectauthor/ID2D1EffectContext::CreateColorContextFromWicColorContext, direct2d.id2d1contextinternal_createcolorcontextfromwiccolorcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1EffectContext.CreateColorContextFromWicColorContext
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectContext::CreateColorContextFromWicColorContext

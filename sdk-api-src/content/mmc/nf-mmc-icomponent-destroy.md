@@ -4,17 +4,16 @@ title: IComponent::Destroy
 author: windows-sdk-content
 description: The IComponent::Destroy method releases all references to the console that are held by this component.
 old-location: mmc\icomponent_destroy.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: ec4ec242-6376-44e7-bd82-09456789c4c9
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponent interface, IComponent interface [MMC],Destroy method, IComponent.Destroy, IComponent::Destroy, _slate_icomponent_destroy, mmc.icomponent_destroy, mmc/IComponent::Destroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.Destroy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::Destroy

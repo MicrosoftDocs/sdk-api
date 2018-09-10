@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxDeviceProviders.get_Count
 title: IFaxDeviceProviders::get_Count
 author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.
-old-location: fax\_mfax_faxdeviceproviders_count_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1th0.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxDeviceProviders object, FaxDeviceProviders object [Fax Service],Count property, FaxDeviceProviders.Count, IFaxDeviceProviders.get_Count, IFaxDeviceProviders::get_Count, _mfax_faxdeviceproviders.count, fax._mfax_faxdeviceproviders_count, fax._mfax_faxdeviceproviders_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDeviceProviders interface, IFaxDeviceProviders interface [Fax Service],Count property, IFaxDeviceProviders.Count, IFaxDeviceProviders.get_Count, IFaxDeviceProviders::Count, IFaxDeviceProviders::get_Count, _mfax_faxdeviceproviders.count, fax._mfax_faxdeviceproviders_count, fax._mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp, faxcomex/IFaxDeviceProviders::Count, faxcomex/IFaxDeviceProviders::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDeviceProviders.Count
+ - IFaxDeviceProviders.Count
+ - IFaxDeviceProviders.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDeviceProviders::get_Count
@@ -69,11 +68,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a>
-
-
-
 <a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a>
 
 
 

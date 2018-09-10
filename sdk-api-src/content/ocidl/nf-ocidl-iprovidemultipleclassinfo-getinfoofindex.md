@@ -4,17 +4,16 @@ title: IProvideMultipleClassInfo::GetInfoOfIndex
 author: windows-sdk-content
 description: Retrieves the type information from the specified index.
 old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
-old-project: com
+tech.root: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProvideMultipleClassInfo.GetInfoOfIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideMultipleClassInfo::GetInfoOfIndex

@@ -4,7 +4,7 @@ title: tag_WBEM_QUERY_FLAG_TYPE
 author: windows-sdk-content
 description: Contains flags used to define a query or enumerator.
 old-location: wmi\wbem_query_flag_type.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: D0F53F94-682A-432D-8FBA-8EC05C6B69BF
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_QUERY_FLAG_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_QUERY_FLAG_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_QUERY_FLAG_TYPE
+req.redist: 
 ---
 
 # tag_WBEM_QUERY_FLAG_TYPE enumeration

@@ -4,17 +4,16 @@ title: Metafile::ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN Emf
 author: windows-sdk-content
 description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafileconverttoemfplusmethods\converttoemfplus_graphicsrefgraphics_bool.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_BOOL_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Metafile.ConvertToEmfPlus
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 
@@ -69,12 +68,12 @@ Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b1
 
 ### -param stream
 
-
+TBD
 
 
 ### -param conversionFailureFlag
 
-
+TBD
 
 
 ### -param emfType [in]

@@ -4,7 +4,7 @@ title: "_EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"
 author: windows-sdk-content
 description: The EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration specifies the values used to get the status of a subscription or the status of a particular event source with respect to a subscription.
 old-location: wec\ec_subscription_runtime_status_info_id.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: cc4e58d5-22cf-4823-be5d-e056f6690a45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration

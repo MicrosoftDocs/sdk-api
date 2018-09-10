@@ -4,17 +4,16 @@ title: ICommDlgBrowser3::OnPreViewCreated
 author: windows-sdk-content
 description: Called after a specified preview is created in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser3.OnPreViewCreated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser3::OnPreViewCreated

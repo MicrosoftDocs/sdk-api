@@ -4,17 +4,16 @@ title: WSDCreateDeviceHost function
 author: windows-sdk-content
 description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDCreateDeviceHost
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSDCreateDeviceHost function

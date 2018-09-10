@@ -4,17 +4,16 @@ title: DdReenableDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdReenableDirectDrawObject function.
 old-location: winprog\_dxgkernel_ddreenabledirectdrawobject.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreenabledirectdrawobject.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DdReenableDirectDrawObject, DdReenableDirectDrawObject function [Windows API], GdiEntry10, _dxgkernel_ddreenabledirectdrawobject, ddrawgdi/DdReenableDirectDrawObject, ddrawgdi/GdiEntry10, winprog._dxgkernel_ddreenabledirectdrawobject, winui._dxgkernel_ddreenabledirectdrawobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDPIXELFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - GdiEntry10
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdReenableDirectDrawObject function

@@ -4,17 +4,16 @@ title: IAlternativeName::get_Type
 author: windows-sdk-content
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAlternativeName.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAlternativeName::get_Type

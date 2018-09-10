@@ -4,7 +4,7 @@ title: tagEMRSETWORLDTRANSFORM
 author: windows-sdk-content
 description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.
 old-location: gdi\emrsetworldtransform.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRSETWORLDTRANSFORM, *PEMRSETWORLDTRANSFORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRSETWORLDTRANSFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRSETWORLDTRANSFORM, *PEMRSETWORLDTRANSFORM
+req.redist: 
 ---
 
 # tagEMRSETWORLDTRANSFORM structure

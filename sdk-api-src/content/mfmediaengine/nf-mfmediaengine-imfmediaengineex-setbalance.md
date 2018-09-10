@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::SetBalance
 author: windows-sdk-content
 description: Sets the audio balance.
 old-location: mf\imfmediaengineex_setbalance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 11187826-B873-4182-A77B-FD9CCECFBAE5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetBalance method, IMFMediaEngineEx.SetBalance, IMFMediaEngineEx::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.SetBalance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::SetBalance

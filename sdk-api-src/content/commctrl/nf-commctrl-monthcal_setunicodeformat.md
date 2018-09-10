@@ -4,17 +4,16 @@ title: MonthCal_SetUnicodeFormat macro
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\MonthCal_SetUnicodeFormat.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MonthCal_SetUnicodeFormat, MonthCal_SetUnicodeFormat macro [Windows Controls], _win32_MonthCal_SetUnicodeFormat, _win32_MonthCal_SetUnicodeFormat_cpp, commctrl/MonthCal_SetUnicodeFormat, controls.MonthCal_SetUnicodeFormat, controls._win32_MonthCal_SetUnicodeFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MonthCal_SetUnicodeFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MonthCal_SetUnicodeFormat macro

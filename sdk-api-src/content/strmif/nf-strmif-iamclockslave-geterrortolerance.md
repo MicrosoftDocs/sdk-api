@@ -4,17 +4,16 @@ title: IAMClockSlave::GetErrorTolerance
 author: windows-sdk-content
 description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_geterrortolerance.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow],IAMClockSlave interface, IAMClockSlave interface [DirectShow],GetErrorTolerance method, IAMClockSlave.GetErrorTolerance, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMClockSlave.GetErrorTolerance
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMClockSlave::GetErrorTolerance

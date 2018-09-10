@@ -4,17 +4,16 @@ title: WslIsDistributionRegistered function
 author: windows-sdk-content
 description: Determines if a distribution is registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslisdistributionregistered.htm
-old-project: wsl
+tech.root: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WslIsDistributionRegistered
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WslIsDistributionRegistered function

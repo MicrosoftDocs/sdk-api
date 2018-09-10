@@ -4,17 +4,16 @@ title: IOleObject::GetClipboardData
 author: windows-sdk-content
 description: Retrieves a data object containing the current contents of the embedded object on which this method is called. Using the pointer to this data object, it is possible to create a new embedded object with the same data as the original.
 old-location: com\ioleobject_getclipboarddata.htm
-old-project: com
+tech.root: com
 ms.assetid: 49f6b26c-76e1-4519-920b-e05279f23112
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClipboardData, GetClipboardData method [COM], GetClipboardData method [COM],IOleObject interface, IOleObject interface [COM],GetClipboardData method, IOleObject.GetClipboardData, IOleObject::GetClipboardData, _ole_ioleobject_getclipboarddata, com.ioleobject_getclipboarddata, oleidl/IOleObject::GetClipboardData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.GetClipboardData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::GetClipboardData

@@ -4,17 +4,16 @@ title: IDXGISwapChain1::GetDesc1
 author: windows-sdk-content
 description: Gets a description of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getdesc1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetDesc1 method, IDXGISwapChain1.GetDesc1, IDXGISwapChain1::GetDesc1, direct3ddxgi.idxgiswapchain1_getdesc1, dxgi1_2/IDXGISwapChain1::GetDesc1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain1.GetDesc1
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain1::GetDesc1

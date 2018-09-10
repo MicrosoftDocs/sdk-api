@@ -4,7 +4,7 @@ title: "_DRT_ADDRESS_LIST"
 author: windows-sdk-content
 description: DRT_ADDRESS_LIST structure contains a set of DRT_ADDRESS structures that represent the nodes contacted during a search for a key.
 old-location: p2p\drt_address_list.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: a795dff7-4182-42ad-b14b-142a6c1312c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_ADDRESS_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.redist: 
 ---
 
 # _DRT_ADDRESS_LIST structure

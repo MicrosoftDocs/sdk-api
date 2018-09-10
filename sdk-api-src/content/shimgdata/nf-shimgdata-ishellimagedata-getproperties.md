@@ -4,17 +4,16 @@ title: IShellImageData::GetProperties
 author: windows-sdk-content
 description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
 old-location: shell\IShellImageData_GetProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.GetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::GetProperties

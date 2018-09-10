@@ -4,17 +4,16 @@ title: wglUseFontBitmapsW function
 author: windows-sdk-content
 description: The wglUseFontBitmaps function creates a set of bitmap display lists for use in the current OpenGL rendering context.
 old-location: opengl\wglusefontbitmaps.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - wglUseFontBitmapsW
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglUseFontBitmapsW function

@@ -4,7 +4,7 @@ title: "_KERB_QUERY_BINDING_CACHE_REQUEST"
 author: windows-sdk-content
 description: Contains information used to query the binding cache.
 old-location: security\kerb_query_binding_cache_request.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 45DAA909-8D5D-4522-803B-E42EA8E09CE8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_QUERY_BINDING_CACHE_REQUEST, *PKERB_QUERY_BINDING_CACHE_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_QUERY_BINDING_CACHE_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_QUERY_BINDING_CACHE_REQUEST, *PKERB_QUERY_BINDING_CACHE_REQUEST
+req.redist: 
 ---
 
 # _KERB_QUERY_BINDING_CACHE_REQUEST structure

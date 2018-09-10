@@ -4,7 +4,7 @@ title: "_D3D_SHADER_VARIABLE_TYPE"
 author: windows-sdk-content
 description: Values that identify various data, texture, and buffer types that can be assigned to a shader variable.
 old-location: direct3d11\d3d_shader_variable_type.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: ef07a68c-d944-4dbb-8cb1-c50403c6c8e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_VARIABLE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_VARIABLE_TYPE
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_VARIABLE_TYPE
+req.redist: 
 ---
 
 # _D3D_SHADER_VARIABLE_TYPE enumeration

@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetLight
 author: windows-sdk-content
 description: Retrieves a set of lighting properties that this device uses.
 old-location: direct3d9\idirect3ddevice9__getlight.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getlight.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 63c42786-98b1-2b46-00cc-ad05ab2594f4, GetLight, GetLight method [Direct3D 9], GetLight method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetLight method, IDirect3DDevice9.GetLight, IDirect3DDevice9::GetLight, d3d9helper/IDirect3DDevice9::GetLight, direct3d9.idirect3ddevice9__getlight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetLight
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetLight
@@ -67,9 +66,9 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Zero-based index of the lighting property set to retrieve. This method will fail if a lighting property has not been set for this index by calling the <a href="https://msdn.microsoft.com/e1f07ba6-8a9f-4bac-8dad-16160559fa4c">IDirect3DDevice9::SetLight</a> method. 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

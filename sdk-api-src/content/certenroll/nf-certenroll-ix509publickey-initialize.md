@@ -4,17 +4,16 @@ title: IX509PublicKey::Initialize
 author: windows-sdk-content
 description: Initializes the object from a public key algorithm object identifier (OID) and from byte arrays that contain a public key and the associated parameters, if any.
 old-location: security\ix509publickey_initialize_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b6db46b2-95f5-4ba9-829d-97bf83fd9806
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509PublicKey interface [Security],Initialize method, IX509PublicKey.Initialize, IX509PublicKey::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Initialize, security.ix509publickey_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PublicKey.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PublicKey::Initialize

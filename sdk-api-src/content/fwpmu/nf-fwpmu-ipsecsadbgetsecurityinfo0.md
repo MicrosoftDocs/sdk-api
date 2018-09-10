@@ -4,17 +4,16 @@ title: IPsecSaDbGetSecurityInfo0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the IPsec security association (SA) database.
 old-location: fwp\ipsecsadbgetsecurityinfo0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaDbGetSecurityInfo0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaDbGetSecurityInfo0 function

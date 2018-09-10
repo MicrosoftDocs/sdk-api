@@ -4,7 +4,7 @@ title: "__MIDL_IAnchor_0001"
 author: windows-sdk-content
 description: Elements of the TsGravity enumeration specify the gravity type associated with an IAnchor object.
 old-location: tsf\tsgravity.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 12ec85b9-e65f-485d-8e42-164d2a988356
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsGravity
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TsGravity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TsGravity
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_IAnchor_0001 enumeration

@@ -4,17 +4,16 @@ title: WdsTransportProviderCloseContent function
 author: windows-sdk-content
 description: Closes a content stream specified by a handle.
 old-location: wds\wdstransportproviderclosecontent.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 358fdf14-b57b-4c07-b0a5-d8f49aa96c21
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderCloseContent, WdsTransportProviderCloseContent callback, WdsTransportProviderCloseContent callback function [Windows Deployment Services], wds.wdstransportproviderclosecontent, wdstpdi/WdsTransportProviderCloseContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderCloseContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderCloseContent function

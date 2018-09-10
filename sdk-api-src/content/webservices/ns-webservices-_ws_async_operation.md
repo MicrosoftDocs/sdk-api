@@ -4,7 +4,7 @@ title: "_WS_ASYNC_OPERATION"
 author: windows-sdk-content
 description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
 old-location: wsw\ws_async_operation.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7a6311f0-4beb-4827-b754-68ef4bde093c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: v.1.0
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ASYNC_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ASYNC_OPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ASYNC_OPERATION
+req.redist: 
 ---
 
 # _WS_ASYNC_OPERATION structure

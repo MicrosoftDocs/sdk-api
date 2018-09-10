@@ -4,17 +4,16 @@ title: Tbsi_Context_Create function
 author: windows-sdk-content
 description: Creates a context handle that can be used to pass commands to TBS.
 old-location: tbs\_tbsi_context_create.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_Context_Create
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_Context_Create function

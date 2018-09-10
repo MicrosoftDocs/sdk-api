@@ -4,7 +4,7 @@ title: "_AdrClientFlags"
 author: windows-sdk-content
 description: Enumerates flags for indicating why an access denied remediation (ADR) client operation could not be performed.
 old-location: fsrm\adrclientflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 8475e157-8757-4ace-909b-2e9030af6ad7
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AdrClientFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AdrClientFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: AdrClientFlags
+req.redist: 
 ---
 
 # _AdrClientFlags enumeration

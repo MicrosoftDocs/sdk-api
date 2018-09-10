@@ -4,17 +4,16 @@ title: IUIAnimationManager2::Pause
 author: windows-sdk-content
 description: Pauses all animations.
 old-location: uianimation\iuianimationmanager2_pause.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: AA8EEFD5-A386-4DF1-BCBE-12A92D235E98
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Pause method, IUIAnimationManager2.Pause, IUIAnimationManager2::Pause, Pause, Pause method [Windows Animation], Pause method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_pause, uianimation/IUIAnimationManager2::Pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManager2.Pause
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManager2::Pause

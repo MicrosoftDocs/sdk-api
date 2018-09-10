@@ -4,17 +4,16 @@ title: MFMapDXGIFormatToDX9Format function
 author: windows-sdk-content
 description: Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to a Microsoft Direct3D 9 format identifier.
 old-location: mf\mfmapdxgiformattodx9format.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFMapDXGIFormatToDX9Format
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFMapDXGIFormatToDX9Format function

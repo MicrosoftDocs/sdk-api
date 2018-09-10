@@ -4,17 +4,16 @@ title: NdrSimpleStructUnmarshall function
 author: windows-sdk-content
 description: The NdrSimpleStructUnmarshall function unmarshals the simple structure from the network buffer to memory.
 old-location: winprog\ndrsimplestructunmarshall.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 6b4a28a3-3d0f-43c5-b59a-58c14435e28f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrSimpleStructUnmarshall
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrSimpleStructUnmarshall function

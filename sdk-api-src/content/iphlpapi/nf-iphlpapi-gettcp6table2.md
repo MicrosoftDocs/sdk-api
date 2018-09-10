@@ -4,17 +4,16 @@ title: GetTcp6Table2 function
 author: windows-sdk-content
 description: Retrieves the TCP connection table for IPv6.
 old-location: iphlp\gettcp6table2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 435b9198-b921-407c-9441-31cfe77c03f1
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetTcp6Table2, GetTcp6Table2 function [IP Helper], iphlp.gettcp6table2, iphlpapi/GetTcp6Table2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetTcp6Table2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetTcp6Table2 function

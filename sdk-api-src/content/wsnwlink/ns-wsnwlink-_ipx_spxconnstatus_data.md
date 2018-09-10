@@ -4,7 +4,7 @@ title: "_IPX_SPXCONNSTATUS_DATA"
 author: windows-sdk-content
 description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
 old-location: winsock\ipx_spxconnstatus_data_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 741fdb22-a92c-4159-bde6-e3d18a222b9e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsnwlink.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WSManDisp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPX_SPXCONNSTATUS_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA
+req.redist: 
 ---
 
 # _IPX_SPXCONNSTATUS_DATA structure

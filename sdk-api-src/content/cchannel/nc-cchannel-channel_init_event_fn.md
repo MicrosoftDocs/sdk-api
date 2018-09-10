@@ -4,7 +4,7 @@ title: CHANNEL_INIT_EVENT_FN
 author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.
 old-location: termserv\virtualchannelinitevent.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CHANNEL_INIT_EVENT_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHANNEL_INIT_EVENT_FN callback function

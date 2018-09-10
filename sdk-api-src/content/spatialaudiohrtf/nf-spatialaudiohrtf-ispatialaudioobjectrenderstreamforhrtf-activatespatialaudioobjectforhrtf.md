@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf
 author: windows-sdk-content
 description: Activates an ISpatialAudioObjectForHrtf for audio rendering.
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3E26D14B-5F69-4EBD-A48D-D63E24520D59
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateSpatialAudioObjectForHrtf, ActivateSpatialAudioObjectForHrtf method [Core Audio], ActivateSpatialAudioObjectForHrtf method [Core Audio],ISpatialAudioObjectRenderStreamForHrtf interface, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],ActivateSpatialAudioObjectForHrtf method, ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf, ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf, coreaudio.ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf

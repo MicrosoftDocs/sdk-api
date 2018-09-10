@@ -4,7 +4,7 @@ title: "_TSSESSION_STATE"
 author: windows-sdk-content
 description: Indicates the state of a session.
 old-location: termserv\tssession_state.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 2780e704-72f1-44a9-ad54-ab3d2b19befe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSESSION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSSESSION_STATE
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: TSSESSION_STATE
+req.redist: 
 ---
 
 # _TSSESSION_STATE enumeration

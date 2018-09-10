@@ -4,17 +4,16 @@ title: GetMediaExtensionCommunicationFactory function
 author: windows-sdk-content
 description: Creates a communication factory for registering a media extension.
 old-location: winprog\getmediaextensioncommunicationfactory.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 79186891-FD54-4498-AF2A-D79D30F859A2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGELISTDRAWPARAMS
+req.lib: Comppkgsup.lib
+req.dll: CompPkgSup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetMediaExtensionCommunicationFactory
 product: Windows
 targetos: Windows
-req.lib: Comppkgsup.lib
-req.dll: CompPkgSup.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetMediaExtensionCommunicationFactory function

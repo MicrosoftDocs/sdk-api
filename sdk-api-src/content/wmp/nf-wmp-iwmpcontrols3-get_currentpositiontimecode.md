@@ -4,17 +4,16 @@ title: IWMPControls3::get_currentPositionTimecode
 author: windows-sdk-content
 description: The get_currentPositionTimecode method retrieves the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 old-location: wmp\iwmpcontrols3_get_currentpositiontimecode.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: dbf981d7-1787-462c-b0d2-fd705f07ee23
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentPositionTimecode method, IWMPControls3.get_currentPositionTimecode, IWMPControls3::get_currentPositionTimecode, IWMPControls3get_currentPositionTimecode, get_currentPositionTimecode, get_currentPositionTimecode method [Windows Media Player], get_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentpositiontimecode, wmp/IWMPControls3::get_currentPositionTimecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls3.get_currentPositionTimecode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls3::get_currentPositionTimecode

@@ -4,17 +4,16 @@ title: IShellFolder2::GetDetailsEx
 author: windows-sdk-content
 description: Gets detailed information, identified by a property set identifier (FMTID) and a property identifier (PID), on an item in a Shell folder.
 old-location: shell\IShellFolder2_GetDetailsEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f006828c-980d-4e36-be68-3b3c238cd884
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDetailsEx, GetDetailsEx method [Windows Shell], GetDetailsEx method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDetailsEx method, IShellFolder2.GetDetailsEx, IShellFolder2::GetDetailsEx, _win32_IShellFolder2_GetDetailsEx, shell.IShellFolder2_GetDetailsEx, shobjidl_core/IShellFolder2::GetDetailsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolder2.GetDetailsEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder2::GetDetailsEx

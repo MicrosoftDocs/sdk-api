@@ -4,17 +4,16 @@ title: CertControlStore function
 author: windows-sdk-content
 description: Allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage.
 old-location: security\certcontrolstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 04cd9349-50c1-44b4-b080-631a24a80d70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CERT_STORE_CTRL_AUTO_RESYNC, CERT_STORE_CTRL_CANCEL_NOTIFY, CERT_STORE_CTRL_COMMIT, CERT_STORE_CTRL_COMMIT_CLEAR_FLAG, CERT_STORE_CTRL_COMMIT_FORCE_FLAG, CERT_STORE_CTRL_INHIBIT_DUPLICATE_HANDLE_FLAG, CERT_STORE_CTRL_NOTIFY_CHANGE, CERT_STORE_CTRL_RESYNC, CertControlStore, CertControlStore function [Security], _crypto2_certcontrolstore, security.certcontrolstore, wincrypt/CertControlStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertControlStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertControlStore function

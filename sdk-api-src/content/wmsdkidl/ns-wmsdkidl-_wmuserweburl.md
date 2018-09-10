@@ -4,7 +4,7 @@ title: "_WMUserWebURL"
 author: windows-sdk-content
 description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.
 old-location: wmformat\wm_user_web_url.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_USER_WEB_URL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WM_USER_WEB_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WM_USER_WEB_URL
+req.redist: 
 ---
 
 # _WMUserWebURL structure

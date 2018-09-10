@@ -4,17 +4,16 @@ title: WsReadXmlBufferFromBytes function
 author: windows-sdk-content
 description: Uses a reader to convert a set of encoded bytes to a WS_XML_BUFFER.
 old-location: wsw\wsreadxmlbufferfrombytes.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7ab68738-add0-4e2a-a036-5c6ecdd1f236
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadXmlBufferFromBytes, WsReadXmlBufferFromBytes function [Web Services for Windows], webservices/WsReadXmlBufferFromBytes, wsw.wsreadxmlbufferfrombytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadXmlBufferFromBytes
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadXmlBufferFromBytes function

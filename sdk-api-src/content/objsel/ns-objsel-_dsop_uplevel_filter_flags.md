@@ -4,7 +4,7 @@ title: "_DSOP_UPLEVEL_FILTER_FLAGS"
 author: windows-sdk-content
 description: The DSOP_UPLEVEL_FILTER_FLAGS structure contains flags that indicate the filters to use for an up-level scope.
 old-location: ad\dsop_uplevel_filter_flags.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 54a0046a-7a20-4306-a32f-93e449280574
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSOP_UPLEVEL_FILTER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSOP_UPLEVEL_FILTER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DSOP_UPLEVEL_FILTER_FLAGS
+req.redist: 
 ---
 
 # _DSOP_UPLEVEL_FILTER_FLAGS structure

@@ -4,17 +4,16 @@ title: DeleteUrlCacheEntryA function
 author: windows-sdk-content
 description: Removes the file associated with the source name from the cache, if the file exists.
 old-location: wininet\deleteurlcacheentry.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DeleteUrlCacheEntryW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteUrlCacheEntryA function

@@ -4,17 +4,16 @@ title: ID3D12SharingContract::Present
 author: windows-sdk-content
 description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract_present.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 878442E3-417A-46CE-B91A-698CA3CA60BE
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12SharingContract interface,Present method, ID3D12SharingContract.Present, ID3D12SharingContract::Present, Present, Present method, Present method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12SharingContract.Present
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12SharingContract::Present
@@ -75,7 +74,7 @@ An unsigned 32bit subresource id.
 
 ### -param window
 
-
+TBD
 
 
 

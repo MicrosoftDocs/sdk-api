@@ -4,7 +4,7 @@ title: "_VDS_INTERCONNECT"
 author: windows-sdk-content
 description: Defines the address data of a physical interconnect.
 old-location: base\vds_interconnect.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_INTERCONNECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_INTERCONNECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_INTERCONNECT
+req.redist: 
 ---
 
 # _VDS_INTERCONNECT structure

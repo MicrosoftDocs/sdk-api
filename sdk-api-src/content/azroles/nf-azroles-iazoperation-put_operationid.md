@@ -4,17 +4,16 @@ title: IAzOperation::put_OperationID
 author: windows-sdk-content
 description: Sets or retrieves an application-specific value that uniquely identifies the operation within the application.
 old-location: security\iazoperation_operationid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3466dea1-b005-40fc-87d1-29b5e033f6a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzOperation object [Security],OperationID property, IAzOperation interface [Security],OperationID property, IAzOperation.OperationID, IAzOperation.put_OperationID, IAzOperation::OperationID, IAzOperation::get_OperationID, IAzOperation::put_OperationID, OperationID property [Security], OperationID property [Security],AzOperation object, OperationID property [Security],IAzOperation interface, azroles/IAzOperation::OperationID, azroles/IAzOperation::get_OperationID, azroles/IAzOperation::put_OperationID, put_OperationID, security.iazoperation_operationid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzOperation.OperationID
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzOperation::put_OperationID

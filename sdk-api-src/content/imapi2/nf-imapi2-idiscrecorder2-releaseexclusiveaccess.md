@@ -4,17 +4,16 @@ title: IDiscRecorder2::ReleaseExclusiveAccess
 author: windows-sdk-content
 description: Releases exclusive access to the device.
 old-location: imapi\idiscrecorder2_releaseexclusiveaccess.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 940929d7-7940-448e-9554-3e3691772eb8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],ReleaseExclusiveAccess method, IDiscRecorder2.ReleaseExclusiveAccess, IDiscRecorder2::ReleaseExclusiveAccess, ReleaseExclusiveAccess, ReleaseExclusiveAccess method [IMAPI], ReleaseExclusiveAccess method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_releaseexclusiveaccess, imapi2/IDiscRecorder2::ReleaseExclusiveAccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2.ReleaseExclusiveAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2::ReleaseExclusiveAccess

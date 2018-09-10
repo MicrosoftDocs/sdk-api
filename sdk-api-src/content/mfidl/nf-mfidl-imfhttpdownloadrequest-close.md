@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::Close
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.
 old-location: mf\imfhttpdownloadrequest_close.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BA560323-EE64-4423-B63A-F2B6FDE608DC
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],Close method, IMFHttpDownloadRequest.Close, IMFHttpDownloadRequest::Close, mf.imfhttpdownloadrequest_close, mfidl/IMFHttpDownloadRequest::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.Close
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::Close

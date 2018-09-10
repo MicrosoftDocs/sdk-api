@@ -4,7 +4,7 @@ title: VisualElementState
 author: windows-sdk-content
 description: Defines constants that specify the state of an element in the visual tree.
 old-location: xaml_diagnostics\visualelementstate.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 6D2AA4D0-4EB6-419F-AA9F-1B2404E0ED42
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualElementState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VisualElementState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: VisualElementState
+req.redist: 
 ---
 
 # VisualElementState enumeration

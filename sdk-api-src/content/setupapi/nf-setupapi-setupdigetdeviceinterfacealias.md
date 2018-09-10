@@ -4,17 +4,16 @@ title: SetupDiGetDeviceInterfaceAlias function
 author: windows-sdk-content
 description: The SetupDiGetDeviceInterfaceAlias function returns an alias of a specified device interface.
 old-location: devinst\setupdigetdeviceinterfacealias.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: eb36da2a-4ff1-4f2b-abc6-9bdaf491252f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation], devinst.setupdigetdeviceinterfacealias, di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml, setupapi/SetupDiGetDeviceInterfaceAlias
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiGetDeviceInterfaceAlias
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDeviceInterfaceAlias function

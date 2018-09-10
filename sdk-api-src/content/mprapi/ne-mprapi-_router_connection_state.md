@@ -4,7 +4,7 @@ title: "_ROUTER_CONNECTION_STATE"
 author: windows-sdk-content
 description: Enumerates the possible states of an interface on a router.
 old-location: rras\router_connection_state.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: e98f9843-c5a2-4714-8e22-58f24256d08f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_CONNECTION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROUTER_CONNECTION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ROUTER_CONNECTION_STATE
+req.redist: 
 ---
 
 # _ROUTER_CONNECTION_STATE enumeration

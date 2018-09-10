@@ -4,17 +4,16 @@ title: CM_Request_Eject_PC function
 author: windows-sdk-content
 description: The CM_Request_Eject_PC function requests that a portable PC, which is inserted in a local docking station, be ejected.
 old-location: devinst\cm_request_eject_pc.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 45d8151a-67d0-4cb1-8593-4cfb271a3411
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Request_Eject_PC, CM_Request_Eject_PC function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC, cfgmgrfn_b5855f88-c1d1-432e-bac2-ffe6a728418e.xml, devinst.cm_request_eject_pc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Request_Eject_PC
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Request_Eject_PC function

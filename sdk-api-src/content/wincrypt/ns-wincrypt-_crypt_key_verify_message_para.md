@@ -4,7 +4,7 @@ title: "_CRYPT_KEY_VERIFY_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains information needed to verify signed messages without a certificate for the signer.
 old-location: security\crypt_key_verify_message_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4e0178fb-1f9f-4ee4-9a83-f37cf71d35ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_KEY_VERIFY_MESSAGE_PARA, *PCRYPT_KEY_VERIFY_MESSAGE_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_KEY_VERIFY_MESSAGE_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_KEY_VERIFY_MESSAGE_PARA, *PCRYPT_KEY_VERIFY_MESSAGE_PARA
+req.redist: 
 ---
 
 # _CRYPT_KEY_VERIFY_MESSAGE_PARA structure

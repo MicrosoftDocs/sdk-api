@@ -4,7 +4,7 @@ title: WICDdsParameters
 author: windows-sdk-content
 description: Specifies the DDS image dimension, DXGI_FORMAT and alpha mode of contained data.
 old-location: wic\wicddsparameters.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2E5755B4-E8DC-40B2-8DA1-B053A261079B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICDdsParameters
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICDdsParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICDdsParameters
+req.redist: 
 ---
 
 # WICDdsParameters structure

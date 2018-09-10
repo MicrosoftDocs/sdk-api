@@ -4,17 +4,16 @@ title: IXblIdpAuthTokenResult::GetSignature
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getsignature.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: 15E426B6-38D8-4626-A6C8-8EB2A8980EE1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSignature method, IXblIdpAuthTokenResult.GetSignature, IXblIdpAuthTokenResult::GetSignature, xblidp.ixblidpauthtokenresult_getsignature, xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthTokenResult.GetSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthTokenResult::GetSignature

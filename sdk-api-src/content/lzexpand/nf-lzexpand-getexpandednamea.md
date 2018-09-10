@@ -4,17 +4,16 @@ title: GetExpandedNameA function
 author: windows-sdk-content
 description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
 old-location: fs\getexpandedname.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Lz32.lib
+req.dll: Lz32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetExpandedNameW
 product: Windows
 targetos: Windows
-req.lib: Lz32.lib
-req.dll: Lz32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetExpandedNameA function

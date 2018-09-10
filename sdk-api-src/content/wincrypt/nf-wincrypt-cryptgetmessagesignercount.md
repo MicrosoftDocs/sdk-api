@@ -4,17 +4,16 @@ title: CryptGetMessageSignerCount function
 author: windows-sdk-content
 description: The CryptGetMessageSignerCount function returns the number of signers of a signed message.
 old-location: security\cryptgetmessagesignercount.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptGetMessageSignerCount
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptGetMessageSignerCount function

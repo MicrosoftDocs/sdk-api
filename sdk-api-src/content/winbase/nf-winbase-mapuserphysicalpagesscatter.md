@@ -4,17 +4,16 @@ title: MapUserPhysicalPagesScatter function
 author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpagesscatter.htm
-old-project: memory
+tech.root: memory
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MapUserPhysicalPagesScatter
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MapUserPhysicalPagesScatter function

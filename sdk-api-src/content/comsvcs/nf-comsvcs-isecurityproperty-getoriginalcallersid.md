@@ -4,17 +4,16 @@ title: ISecurityProperty::GetOriginalCallerSID
 author: windows-sdk-content
 description: Retrieves the security identifier of the base process that initiated the call sequence from which the current method was called.
 old-location: cos\isecurityproperty_getoriginalcallersid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e8700635-94cb-4d1a-9325-f93d00c5181f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOriginalCallerSID, GetOriginalCallerSID method [COM+], GetOriginalCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCallerSID method, ISecurityProperty.GetOriginalCallerSID, ISecurityProperty::GetOriginalCallerSID, _cos_ISecurityProperty_GetOriginalCallerSID, comsvcs/ISecurityProperty::GetOriginalCallerSID, cos.isecurityproperty_getoriginalcallersid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityProperty.GetOriginalCallerSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityProperty::GetOriginalCallerSID

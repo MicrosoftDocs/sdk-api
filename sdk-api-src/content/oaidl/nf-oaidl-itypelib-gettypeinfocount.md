@@ -4,17 +4,16 @@ title: ITypeLib::GetTypeInfoCount
 author: windows-sdk-content
 description: Provides the number of type descriptions that are in a type library.
 old-location: automat\itypelib_gettypeinfocount.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib.GetTypeInfoCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib::GetTypeInfoCount

@@ -4,17 +4,16 @@ title: IViewObject2::GetExtent
 author: windows-sdk-content
 description: Retrieves the size that the specified view object will be drawn on the specified target device.
 old-location: com\iviewobject2_getextent.htm
-old-project: com
+tech.root: com
 ms.assetid: 66eedee0-58b5-4676-93db-599ed19a02b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IViewObject2 interface, IViewObject2 interface [COM],GetExtent method, IViewObject2.GetExtent, IViewObject2::GetExtent, _ole_iviewobject2_getextent, com.iviewobject2_getextent, oleidl/IViewObject2::GetExtent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: Adhocreportingexcelclient.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObject2.GetExtent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Adhocreportingexcelclient.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObject2::GetExtent

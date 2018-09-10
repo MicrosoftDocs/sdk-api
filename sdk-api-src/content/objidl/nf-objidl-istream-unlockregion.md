@@ -4,17 +4,16 @@ title: IStream::UnlockRegion
 author: windows-sdk-content
 description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.
 old-location: stg\istream_unlockregion.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStream.UnlockRegion
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStream::UnlockRegion

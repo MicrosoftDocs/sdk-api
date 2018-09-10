@@ -4,17 +4,16 @@ title: IRealTimeStylus::get_Enabled
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data.
 old-location: tablet\irealtimestylus_enabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e96e27d7-b453-49a7-b684-b3dd5f94c378
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],Enabled property, IRealTimeStylus.Enabled, IRealTimeStylus.get_Enabled, IRealTimeStylus.put_Enabled, IRealTimeStylus::Enabled, IRealTimeStylus::get_Enabled, IRealTimeStylus::put_Enabled, e96e27d7-b453-49a7-b684-b3dd5f94c378, get_Enabled, rtscom/IRealTimeStylus::Enabled, rtscom/IRealTimeStylus::get_Enabled, rtscom/IRealTimeStylus::put_Enabled, tablet.irealtimestylus_enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IRealTimeStylus.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::get_Enabled

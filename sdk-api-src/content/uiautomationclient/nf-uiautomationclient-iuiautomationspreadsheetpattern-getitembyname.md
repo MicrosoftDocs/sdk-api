@@ -4,17 +4,16 @@ title: IUIAutomationSpreadsheetPattern::GetItemByName
 author: windows-sdk-content
 description: Retrieves a UI Automation element that represents the spreadsheet cell that has the specified name.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern_GetItemByName.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 4CDE57FA-1B94-408E-B1E6-3CD3CFC5AB82
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],IUIAutomationSpreadsheetPattern interface, IUIAutomationSpreadsheetPattern interface [Windows Accessibility],GetItemByName method, IUIAutomationSpreadsheetPattern.GetItemByName, IUIAutomationSpreadsheetPattern::GetItemByName, uiautomationclient/IUIAutomationSpreadsheetPattern::GetItemByName, winauto.uiauto_IUIAutomationSpreadsheetPattern_GetItemByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSpreadsheetPattern.GetItemByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSpreadsheetPattern::GetItemByName

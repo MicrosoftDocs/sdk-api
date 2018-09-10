@@ -4,7 +4,7 @@ title: CLUSTERVERSIONINFO_NT4
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusterversioninfo_nt4.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTERVERSIONINFO_NT4, *PCLUSTERVERSIONINFO_NT4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTERVERSIONINFO_NT4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTERVERSIONINFO_NT4, *PCLUSTERVERSIONINFO_NT4
+req.redist: 
 ---
 
 # CLUSTERVERSIONINFO_NT4 structure

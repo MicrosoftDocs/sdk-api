@@ -4,17 +4,16 @@ title: ITextPara::GetTab
 author: windows-sdk-content
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTab, GetTab method [Windows Controls], GetTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTab method, ITextPara.GetTab, ITextPara::GetTab, _win32_ITextPara_GetTab, _win32_ITextPara_GetTab_cpp, controls.ITextPara_GetTab, controls._win32_ITextPara_GetTab, tom/ITextPara::GetTab
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetTab
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetTab

@@ -4,17 +4,16 @@ title: VarUI1FromR4 function
 author: windows-sdk-content
 description: Converts a float value to an unsigned char value.
 old-location: automat\varui1fromr4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 66457140-68a1-4ec6-a9df-829cd94f127b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromR4, VarUI1FromR4 function [Automation], _oa96_VarUI1FromR4, automat.varui1fromr4, oleauto/VarUI1FromR4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromR4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromR4 function

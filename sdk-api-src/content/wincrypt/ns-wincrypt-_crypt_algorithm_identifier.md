@@ -4,7 +4,7 @@ title: "_CRYPT_ALGORITHM_IDENTIFIER"
 author: windows-sdk-content
 description: Specifies an algorithm used to encrypt a private key.
 old-location: security\crypt_algorithm_identifier.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ef0d3aa6-6b36-426f-a14c-2fdf7543deb9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_ALGORITHM_IDENTIFIER, *PCRYPT_ALGORITHM_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ALGORITHM_IDENTIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_ALGORITHM_IDENTIFIER, *PCRYPT_ALGORITHM_IDENTIFIER
+req.redist: 
 ---
 
 # _CRYPT_ALGORITHM_IDENTIFIER structure

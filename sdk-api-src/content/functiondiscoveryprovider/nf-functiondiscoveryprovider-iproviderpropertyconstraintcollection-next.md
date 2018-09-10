@@ -4,17 +4,16 @@ title: IProviderPropertyConstraintCollection::Next
 author: windows-sdk-content
 description: Gets the name and value of the next property constraint in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_next.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: ddf9f2b9-92f6-4a1f-86d8-0d9e8c0c4855
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Next method, IProviderPropertyConstraintCollection.Next, IProviderPropertyConstraintCollection::Next, Next, Next method, Next method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Next, ncd.iproviderpropertyconstraintcollection_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderPropertyConstraintCollection.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderPropertyConstraintCollection::Next
@@ -64,7 +62,7 @@ Gets the name and value of the next property constraint in the collection.
 
 ### -param pKey
 
-
+TBD
 
 
 ### -param pPropVar [out]

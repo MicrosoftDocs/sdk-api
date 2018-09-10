@@ -4,17 +4,16 @@ title: ResUtilPropertyListFromParameterBlock function
 author: windows-sdk-content
 description: Constructs a property list from a property table and a parameter block.
 old-location: mscs\resutilpropertylistfromparameterblock.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ResUtilPropertyListFromParameterBlock
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilPropertyListFromParameterBlock function

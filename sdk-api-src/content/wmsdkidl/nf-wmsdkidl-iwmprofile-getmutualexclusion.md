@@ -4,17 +4,16 @@ title: IWMProfile::GetMutualExclusion
 author: windows-sdk-content
 description: The GetMutualExclusion method retrieves a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_getmutualexclusion.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 949bb57f-8656-420e-b317-8ca7eb977a4e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMutualExclusion, GetMutualExclusion method [windows Media Format], GetMutualExclusion method [windows Media Format],IWMProfile interface, GetMutualExclusion method [windows Media Format],IWMProfile2 interface, GetMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusion method, IWMProfile.GetMutualExclusion, IWMProfile2 interface [windows Media Format],GetMutualExclusion method, IWMProfile2::GetMutualExclusion, IWMProfile3 interface [windows Media Format],GetMutualExclusion method, IWMProfile3::GetMutualExclusion, IWMProfile::GetMutualExclusion, IWMProfileGetMutualExclusion, wmformat.iwmprofile_getmutualexclusion, wmsdkidl/IWMProfile2::GetMutualExclusion, wmsdkidl/IWMProfile3::GetMutualExclusion, wmsdkidl/IWMProfile::GetMutualExclusion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.GetMutualExclusion
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::GetMutualExclusion

@@ -4,7 +4,7 @@ title: DXGI_HDR_METADATA_HDR10
 author: windows-sdk-content
 description: Describes the metadata for HDR10, used when video is compressed using High Efficiency Video Coding (HEVC).
 old-location: direct3ddxgi\dxgi_hdr_metadata_hdr10.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HDR_METADATA_HDR10
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_HDR_METADATA_HDR10
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_HDR_METADATA_HDR10
+req.redist: 
 ---
 
 # DXGI_HDR_METADATA_HDR10 structure

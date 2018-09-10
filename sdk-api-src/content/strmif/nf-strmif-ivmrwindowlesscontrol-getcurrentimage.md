@@ -4,17 +4,16 @@ title: IVMRWindowlessControl::GetCurrentImage
 author: windows-sdk-content
 description: The GetCurrentImage method retrieves a copy of the current image being displayed by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getcurrentimage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 515e252d-4ac4-49ec-8d94-bf850dd4783f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl.GetCurrentImage, IVMRWindowlessControl::GetCurrentImage, IVMRWindowlessControlGetCurrentImage, dshow.ivmrwindowlesscontrol_getcurrentimage, strmif/IVMRWindowlessControl::GetCurrentImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRWindowlessControl.GetCurrentImage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRWindowlessControl::GetCurrentImage

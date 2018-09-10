@@ -4,17 +4,16 @@ title: CryptSIPPutSignedDataMsg function
 author: windows-sdk-content
 description: Stores an Authenticode signature in the target file.
 old-location: security\cryptsipputsigneddatamsg.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptSIPPutSignedDataMsg, CryptSIPPutSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPPutSignedDataMsg, security.cryptsipputsigneddatamsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityFileId
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSIPPutSignedDataMsg
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSIPPutSignedDataMsg function

@@ -4,7 +4,7 @@ title: PEVENT_CALLBACK
 author: windows-sdk-content
 description: Consumers implement this function to receive events from a session. The PEVENT_CALLBACK type defines a pointer to this callback function. EventCallback is a placeholder for the application-defined function name.
 old-location: etw\eventcallback.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PEVENT_CALLBACK callback function

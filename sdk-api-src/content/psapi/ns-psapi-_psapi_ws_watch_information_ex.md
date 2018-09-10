@@ -4,7 +4,7 @@ title: "_PSAPI_WS_WATCH_INFORMATION_EX"
 author: windows-sdk-content
 description: Contains extended information about a page added to a process working set.
 old-location: psapi\psapi_ws_watch_information_ex.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: fb0429b1-ec93-401c-aeb1-f7e9d9acfa47
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSAPI_WS_WATCH_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
+req.redist: 
 ---
 
 # _PSAPI_WS_WATCH_INFORMATION_EX structure

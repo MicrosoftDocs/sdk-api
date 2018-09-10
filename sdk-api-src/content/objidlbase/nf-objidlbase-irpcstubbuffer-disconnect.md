@@ -4,17 +4,16 @@ title: IRpcStubBuffer::Disconnect
 author: windows-sdk-content
 description: Disconnects a server stub from any interface to which it is connected.
 old-location: com\irpcstubbuffer_disconnect.htm
-old-project: com
+tech.root: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Disconnect method, IRpcStubBuffer.Disconnect, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcStubBuffer.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcStubBuffer::Disconnect

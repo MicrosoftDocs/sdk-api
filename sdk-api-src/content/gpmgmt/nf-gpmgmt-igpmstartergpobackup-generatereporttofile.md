@@ -4,17 +4,16 @@ title: IGPMStarterGPOBackup::GenerateReportToFile
 author: windows-sdk-content
 description: The GenerateReportToFile gets the report for the backup Starter GPO and saves it to a file at a specified path.
 old-location: gpmc\igpmstartergpobackup_generatereporttofile.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: d7d05436-acd7-4b80-93e4-ea80e3eb1fff
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],GenerateReportToFile method, IGPMStarterGPOBackup.GenerateReportToFile, IGPMStarterGPOBackup::GenerateReportToFile, gpmc.igpmstartergpobackup_generatereporttofile, gpmgmt/IGPMStarterGPOBackup::GenerateReportToFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMStarterGPOBackup.GenerateReportToFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStarterGPOBackup::GenerateReportToFile

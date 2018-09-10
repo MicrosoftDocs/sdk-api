@@ -4,17 +4,16 @@ title: ICreateTypeInfo2::SetFuncCustData
 author: windows-sdk-content
 description: Sets a value for custom data for the specified function.
 old-location: automat\icreatetypeinfo2_setfunccustdata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 553e872f-0620-4b36-a01d-86088bd12f80
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncCustData method, ICreateTypeInfo2.SetFuncCustData, ICreateTypeInfo2::SetFuncCustData, SetFuncCustData, SetFuncCustData method [Automation], SetFuncCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncCustData, automat.icreatetypeinfo2_setfunccustdata, oaidl/ICreateTypeInfo2::SetFuncCustData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo2.SetFuncCustData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo2::SetFuncCustData

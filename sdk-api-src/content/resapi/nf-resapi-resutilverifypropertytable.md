@@ -4,17 +4,16 @@ title: ResUtilVerifyPropertyTable function
 author: windows-sdk-content
 description: Uses a property table to verify that a property list is correctly formatted.
 old-location: mscs\resutilverifypropertytable.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE function [Failover Cluster], ResUtilVerifyPropertyTable, ResUtilVerifyPropertyTable function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE, resapi/ResUtilVerifyPropertyTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ResUtilVerifyPropertyTable
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilVerifyPropertyTable function

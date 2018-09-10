@@ -4,7 +4,7 @@ title: "_CLUS_DISK_NUMBER_INFO"
 author: windows-sdk-content
 description: Represents information about the disk number of a physical disk.
 old-location: mscs\clus_disk_number_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_DISK_NUMBER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO
+req.redist: 
 ---
 
 # _CLUS_DISK_NUMBER_INFO structure

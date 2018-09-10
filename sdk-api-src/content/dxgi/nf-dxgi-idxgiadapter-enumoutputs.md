@@ -4,17 +4,16 @@ title: IDXGIAdapter::EnumOutputs
 author: windows-sdk-content
 description: Enumerate adapter (video card) outputs.
 old-location: direct3ddxgi\idxgiadapter_enumoutputs.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_enumoutputs.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs method [DXGI], EnumOutputs method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],EnumOutputs method, IDXGIAdapter.EnumOutputs, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIAdapter.EnumOutputs
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIAdapter::EnumOutputs

@@ -4,17 +4,16 @@ title: CreateNtmsMediaA function
 author: windows-sdk-content
 description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia.
 old-location: fs\createntmsmedia.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: a44c51c3-13d7-490e-9b6f-4d4c82d5a8f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateNtmsMedia, CreateNtmsMedia function [Files], CreateNtmsMediaA, CreateNtmsMediaW, NTMS_ERROR_ON_DUPLICATE, _zaw_createntmsmedia, base.createntmsmedia, fs.createntmsmedia, ntmsapi/CreateNtmsMedia, ntmsapi/CreateNtmsMediaA, ntmsapi/CreateNtmsMediaW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CreateNtmsMediaW
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateNtmsMediaA function

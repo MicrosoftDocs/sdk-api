@@ -4,17 +4,16 @@ title: IDiscFormat2RawCD::ReleaseMedia
 author: windows-sdk-content
 description: Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.
 old-location: imapi\idiscformat2rawcd_releasemedia.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5f60c16f-ef40-4bb5-8df2-fa4ae91541b6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],ReleaseMedia method, IDiscFormat2RawCD.ReleaseMedia, IDiscFormat2RawCD::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_releasemedia, imapi2/IDiscFormat2RawCD::ReleaseMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2RawCD.ReleaseMedia
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2RawCD::ReleaseMedia

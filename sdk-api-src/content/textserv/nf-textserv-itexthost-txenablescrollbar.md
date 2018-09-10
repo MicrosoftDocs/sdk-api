@@ -4,17 +4,16 @@ title: ITextHost::TxEnableScrollBar
 author: windows-sdk-content
 description: Enables or disables one or both scroll bar arrows in the text host window.
 old-location: controls\ITextHost_TxEnableScrollBar.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, ITextHost interface [Windows Controls],TxEnableScrollBar method, ITextHost.TxEnableScrollBar, ITextHost::TxEnableScrollBar, SB_BOTH, SB_HORZ, SB_VERT, TxEnableScrollBar, TxEnableScrollBar method [Windows Controls], TxEnableScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxEnableScrollBar, _win32_ITextHost_TxEnableScrollBar_cpp, controls.ITextHost_TxEnableScrollBar, controls._win32_ITextHost_TxEnableScrollBar, textserv/ITextHost::TxEnableScrollBar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxEnableScrollBar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxEnableScrollBar

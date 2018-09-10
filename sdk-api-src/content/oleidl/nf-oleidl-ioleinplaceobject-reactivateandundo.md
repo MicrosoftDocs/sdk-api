@@ -4,17 +4,16 @@ title: IOleInPlaceObject::ReactivateAndUndo
 author: windows-sdk-content
 description: Reactivates a previously deactivated object, undoing the last state of the object.
 old-location: com\ioleinplaceobject_reactivateandundo.htm
-old-project: com
+tech.root: com
 ms.assetid: b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceObject interface [COM],ReactivateAndUndo method, IOleInPlaceObject.ReactivateAndUndo, IOleInPlaceObject::ReactivateAndUndo, ReactivateAndUndo, ReactivateAndUndo method [COM], ReactivateAndUndo method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_reactivateandundo, com.ioleinplaceobject_reactivateandundo, oleidl/IOleInPlaceObject::ReactivateAndUndo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceObject.ReactivateAndUndo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceObject::ReactivateAndUndo

@@ -4,17 +4,16 @@ title: IVdsPack::RemoveMissingDisk
 author: windows-sdk-content
 description: Removes a disk that is missing from the pack. This method applies to software provider objects only.
 old-location: base\ivdspack_removemissingdisk.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f7bdd5b9-430b-49c8-8476-be15eb3948c6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsPack interface [VDS],RemoveMissingDisk method, IVdsPack.RemoveMissingDisk, IVdsPack::RemoveMissingDisk, RemoveMissingDisk, RemoveMissingDisk method [VDS], RemoveMissingDisk method [VDS],IVdsPack interface, base.ivdspack_removemissingdisk, vds/IVdsPack::RemoveMissingDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.RemoveMissingDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::RemoveMissingDisk

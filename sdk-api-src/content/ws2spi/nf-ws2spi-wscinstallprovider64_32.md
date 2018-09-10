@@ -4,17 +4,16 @@ title: WSCInstallProvider64_32 function
 author: windows-sdk-content
 description: Installs the specified transport service provider into the 32-bit and 64-bit system configuration databases on a 64-bit computer.
 old-location: winsock\wscinstallprovider64_32.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 50d3a5d1-18f2-439e-a16c-6f31becb1e65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock], winsock.wscinstallprovider64_32, ws2spi/WSCInstallProvider64_32
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 x64 Edition [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCInstallProvider64_32
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCInstallProvider64_32 function

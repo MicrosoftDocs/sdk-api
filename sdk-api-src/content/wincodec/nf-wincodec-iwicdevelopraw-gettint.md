@@ -4,17 +4,16 @@ title: IWICDevelopRaw::GetTint
 author: windows-sdk-content
 description: Gets the tint value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_gettint.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 12b7ecbe-efa9-47f4-b3b5-5ae1e1a66c3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTint, GetTint method [Windows Imaging Component], GetTint method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetTint method, IWICDevelopRaw.GetTint, IWICDevelopRaw::GetTint, _wic_codec_iwicdevelopraw_gettint, wic._wic_codec_iwicdevelopraw_gettint, wincodec/IWICDevelopRaw::GetTint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDevelopRaw.GetTint
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::GetTint

@@ -4,17 +4,16 @@ title: TRACELOGGING_DEFINE_PROVIDER_STORAGE macro
 author: windows-sdk-content
 description: Allocates storage for a TraceLogging provider. This macro should only be used for advanced scenarios.
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: C7244C95-5F02-4336-ADFF-876514665C87
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER_STORAGE, TRACELOGGING_DEFINE_PROVIDER_STORAGE macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE, tracelogging.traceloggingproviderstorage, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACELOGGING_DEFINE_PROVIDER_STORAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TRACELOGGING_DEFINE_PROVIDER_STORAGE macro

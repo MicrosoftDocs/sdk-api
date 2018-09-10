@@ -4,17 +4,16 @@ title: GetSecurityDescriptorOwner function
 author: windows-sdk-content
 description: Retrieves the owner information from a security descriptor.
 old-location: security\getsecuritydescriptorowner.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSecurityDescriptorOwner, GetSecurityDescriptorOwner function [Security], _win32_getsecuritydescriptorowner, security.getsecuritydescriptorowner, securitybaseapi/GetSecurityDescriptorOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetSecurityDescriptorOwner
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetSecurityDescriptorOwner function

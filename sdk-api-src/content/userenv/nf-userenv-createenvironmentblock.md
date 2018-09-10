@@ -4,17 +4,16 @@ title: CreateEnvironmentBlock function
 author: windows-sdk-content
 description: Retrieves the environment variables for the specified user. This block can then be passed to the CreateProcessAsUser function.
 old-location: shell\CreateEnvironmentBlock.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateEnvironmentBlock
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CreateEnvironmentBlock function

@@ -4,17 +4,16 @@ title: ID3D10Asynchronous::End
 author: windows-sdk-content
 description: Ends the collection of GPU data.
 old-location: direct3d10\id3d10asynchronous_end.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_end.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 453b6ede-999a-d914-5698-e6749585c82e, End, End method [Direct3D 10], End method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],End method, ID3D10Asynchronous.End, ID3D10Asynchronous::End, d3d10/ID3D10Asynchronous::End, direct3d10.id3d10asynchronous_end
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Asynchronous.End
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Asynchronous::End

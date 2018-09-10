@@ -4,7 +4,7 @@ title: DXGI_ALPHA_MODE
 author: windows-sdk-content
 description: Identifies the alpha value, transparency behavior, of a surface.
 old-location: direct3ddxgi\dxgi_alpha_mode.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: DD3D1E49-06D2-4FB9-A41B-86453D8E566F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_ALPHA_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_ALPHA_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_ALPHA_MODE
+req.redist: 
 ---
 
 # DXGI_ALPHA_MODE enumeration

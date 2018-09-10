@@ -4,7 +4,7 @@ title: tagPROGRESS_DIALOG_CHECKBOX_ID
 author: windows-sdk-content
 description: The PROGRESS_DIALOG_CHECKBOX_ID enumeration type indicates the check box on the IPhotoProgressDialog object.
 old-location: picacq\progress_dialog_checkbox_id.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: f6a66b39-e530-4c14-ab21-123aacfbd035
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROGRESS_DIALOG_CHECKBOX_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
+req.redist: 
 ---
 
 # tagPROGRESS_DIALOG_CHECKBOX_ID enumeration

@@ -4,17 +4,16 @@ title: IMetaDataImport2::GetGenericParamProps
 author: windows-sdk-content
 description: Gets the metadata associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_getgenericparamprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 3967e82c-64e3-4d05-b10a-e4e86f9f60ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.GetGenericParamProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::GetGenericParamProps

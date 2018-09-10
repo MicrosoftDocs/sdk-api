@@ -4,7 +4,7 @@ title: CACHE_DESTROY_CALLBACK
 author: windows-sdk-content
 description: A function that is called whenever an entry in the name cache is destroyed.
 old-location: winprog\cache_destroy_callback.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CACHE_DESTROY_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CACHE_DESTROY_CALLBACK callback function

@@ -4,7 +4,7 @@ title: peer_member_change_type_tag
 author: windows-sdk-content
 description: The PEER_MEMBER_CHANGE_TYPE enumeration defines the set of possible peer group membership and presence states for a peer.
 old-location: p2p\peer_member_change_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ecebec4f-1dc6-481c-a2d4-cf0043729a8c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_MEMBER_CHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_MEMBER_CHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_MEMBER_CHANGE_TYPE
+req.redist: 
 ---
 
 # peer_member_change_type_tag enumeration

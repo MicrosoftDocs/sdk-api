@@ -4,7 +4,7 @@ title: "_OPM_OUTPUT_ID_DATA"
 author: windows-sdk-content
 description: Contains the result from an OPM_GET_OUTPUT_ID status request.
 old-location: mf\opm_output_id_data.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3fb56b5d-470c-4ca2-bf8b-5c3761c7cf06
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_OUTPUT_ID_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPM_OUTPUT_ID_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OPM_OUTPUT_ID_DATA
+req.redist: 
 ---
 
 # _OPM_OUTPUT_ID_DATA structure

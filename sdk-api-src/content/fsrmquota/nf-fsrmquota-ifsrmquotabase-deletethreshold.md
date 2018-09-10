@@ -4,17 +4,16 @@ title: IFsrmQuotaBase::DeleteThreshold
 author: windows-sdk-content
 description: Deletes a threshold from the quota object.
 old-location: fsrm\ifsrmquotabase_deletethreshold.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6f6ace15-05aa-4276-88eb-3a4315b3b51c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: DeleteThreshold, DeleteThreshold method [File Server Resource Manager], DeleteThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],DeleteThreshold method, IFsrmQuotaBase.DeleteThreshold, IFsrmQuotaBase::DeleteThreshold, fs.ifsrmquotabase_deletethreshold, fsrm.ifsrmquotabase_deletethreshold, fsrmquota/IFsrmQuotaBase::DeleteThreshold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmQuotaBase.DeleteThreshold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaBase::DeleteThreshold

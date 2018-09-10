@@ -4,7 +4,7 @@ title: DD_MOTIONCOMPCALLBACKS
 author: windows-sdk-content
 description: The DD_MOTIONCOMPCALLBACKS structure contains entry pointers to the motion compensation callback functions that a device driver supports.
 old-location: display\dd_motioncompcallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: db707fd8-2190-4c4f-89fd-ab46d97f66a2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_MOTIONCOMPCALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_MOTIONCOMPCALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_MOTIONCOMPCALLBACKS
+req.redist: 
 ---
 
 # DD_MOTIONCOMPCALLBACKS structure

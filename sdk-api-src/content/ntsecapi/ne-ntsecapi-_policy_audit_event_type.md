@@ -4,7 +4,7 @@ title: "_POLICY_AUDIT_EVENT_TYPE"
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENT_TYPE enumeration defines values that indicate the types of events the system can audit.
 old-location: security\policy_audit_event_type.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_AUDIT_EVENT_TYPE, *PPOLICY_AUDIT_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_AUDIT_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_AUDIT_EVENT_TYPE, *PPOLICY_AUDIT_EVENT_TYPE
+req.redist: 
 ---
 
 # _POLICY_AUDIT_EVENT_TYPE enumeration

@@ -4,7 +4,7 @@ title: OLECMDID
 author: windows-sdk-content
 description: Specifies which standard command is to be executed. A single value from this enumeration is passed in the nCmdID argument of IOleCommandTarget::Exec.
 old-location: com\olecmdid.htm
-old-project: com
+tech.root: com
 ms.assetid: ae1592b6-2afd-4379-a18e-d46b226bc9e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLECMDID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OLECMDID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OLECMDID
+req.redist: 
 ---
 
 # OLECMDID enumeration

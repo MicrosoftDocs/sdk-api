@@ -4,17 +4,16 @@ title: IITResultSet::Add(PROPID,LPCWSTR,PRIORITY)
 author: windows-sdk-content
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add3.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddstring.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPCWSTR,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPCWSTR,PRIORITY), htmlhelp.iitresultset_add3, infotech/IITResultSet::Add, refIITResultSetAddString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITResultSet.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITResultSet::Add(PROPID,LPCWSTR,PRIORITY)

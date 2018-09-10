@@ -4,17 +4,16 @@ title: ICertPropertyBackedUp::InitializeFromCurrentTime
 author: windows-sdk-content
 description: Initializes the property from a Boolean value and the current system date and time.
 old-location: security\icertpropertybackedup_initializefromcurrenttime_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 2033c947-661c-4a52-b24f-82fa71ba7868
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTime method, ICertPropertyBackedUp.InitializeFromCurrentTime, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyBackedUp.InitializeFromCurrentTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyBackedUp::InitializeFromCurrentTime

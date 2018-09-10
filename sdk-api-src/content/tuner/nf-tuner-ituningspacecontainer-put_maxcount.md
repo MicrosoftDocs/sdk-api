@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::put_MaxCount
 author: windows-sdk-content
 description: The put_MaxCount method sets the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_put_maxcount.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a469557b-c01a-4922-99ad-641c74130cc9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_MaxCount method, ITuningSpaceContainer.put_MaxCount, ITuningSpaceContainer::put_MaxCount, ITuningSpaceContainerput_MaxCount, mstv.ituningspacecontainer_put_maxcount, put_MaxCount, put_MaxCount method [Microsoft TV Technologies], put_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_MaxCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.put_MaxCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::put_MaxCount

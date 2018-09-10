@@ -4,17 +4,16 @@ title: IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisx_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C31C84EC-40D1-4DB0-AA7E-70E611F6AF62
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisX method, IDCompositionRotateTransform3D.SetAxisX, IDCompositionRotateTransform3D.SetAxisX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisX, IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisX(float), SetAxisX, SetAxisX method [DirectComposition], SetAxisX method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisX, directcomp.idcompositionrotatetransform3d_setaxisx_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRotateTransform3D.SetAxisX
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the AxisX property of a 3D rotation transform. The AxisX pr
 
 ### -param animation
 
-
+TBD
 
 
 

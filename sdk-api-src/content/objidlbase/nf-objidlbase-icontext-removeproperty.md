@@ -4,17 +4,16 @@ title: IContext::RemoveProperty
 author: windows-sdk-content
 description: Removes the specified context property from the context.
 old-location: com\icontext_removeproperty.htm
-old-project: com
+tech.root: com
 ms.assetid: bb5b282a-d337-4371-b1c2-1b429a5bf135
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContext.RemoveProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IContext::RemoveProperty

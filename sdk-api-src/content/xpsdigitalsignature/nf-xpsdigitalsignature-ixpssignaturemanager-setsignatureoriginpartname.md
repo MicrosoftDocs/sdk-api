@@ -4,17 +4,16 @@ title: IXpsSignatureManager::SetSignatureOriginPartName
 author: windows-sdk-content
 description: Sets the part name of the signature origin part.
 old-location: xps\ixpssignaturemanager_setsignatureoriginpartname.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 686f31e1-3c61-449d-91f7-67f72d88a4b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SetSignatureOriginPartName method, IXpsSignatureManager.SetSignatureOriginPartName, IXpsSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [XPS Documents and Packaging], SetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_setsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureManager.SetSignatureOriginPartName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureManager::SetSignatureOriginPartName

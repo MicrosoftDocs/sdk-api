@@ -4,17 +4,16 @@ title: IMcastLeaseInfo::get_TTL
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live (TTL) value associated with this lease.
 old-location: tapi3\imcastleaseinfo_get_ttl.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_TTL method, IMcastLeaseInfo.get_TTL, IMcastLeaseInfo::get_TTL, _tapi3_imcastleaseinfo_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_TTL, tapi3.imcastleaseinfo_get_ttl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo.get_TTL
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo::get_TTL

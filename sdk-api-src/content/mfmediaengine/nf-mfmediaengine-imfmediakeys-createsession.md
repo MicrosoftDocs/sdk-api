@@ -4,17 +4,16 @@ title: IMFMediaKeys::CreateSession
 author: windows-sdk-content
 description: Creates a media key session object using the specified initialization data and custom data. .
 old-location: mf\imfmediakeys_createsession.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateSession, CreateSession method [Media Foundation], CreateSession method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],CreateSession method, IMFMediaKeys.CreateSession, IMFMediaKeys::CreateSession, mf.imfmediakeys_createsession, mfmediaengine/IMFMediaKeys::CreateSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaKeys.CreateSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaKeys::CreateSession

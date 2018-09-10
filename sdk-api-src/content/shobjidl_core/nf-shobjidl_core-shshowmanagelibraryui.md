@@ -4,17 +4,16 @@ title: SHShowManageLibraryUI function
 author: windows-sdk-content
 description: Shows the library management dialog box, which enables users to manage the library folders and default save location.
 old-location: shell\SHShowManageLibraryUI.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHShowManageLibraryUI, SHShowManageLibraryUI function [Windows Shell], _shell_SHShowManageLibraryUI, shell.SHShowManageLibraryUI, shobjidl_core/SHShowManageLibraryUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHShowManageLibraryUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHShowManageLibraryUI function

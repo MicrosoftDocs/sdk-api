@@ -4,17 +4,16 @@ title: IOleObject::GetMoniker
 author: windows-sdk-content
 description: Retrieves an embedded object's moniker, which the caller can use to link to the object.
 old-location: com\ioleobject_getmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.GetMoniker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::GetMoniker

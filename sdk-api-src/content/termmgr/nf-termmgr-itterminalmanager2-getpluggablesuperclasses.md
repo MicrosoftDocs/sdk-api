@@ -4,17 +4,16 @@ title: ITTerminalManager2::GetPluggableSuperclasses
 author: windows-sdk-content
 description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.
 old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a3db1979-0ba5-416a-bb14-0ac4b61eb425
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetPluggableSuperclasses, GetPluggableSuperclasses method [TAPI 2.2], GetPluggableSuperclasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableSuperclasses method, ITTerminalManager2.GetPluggableSuperclasses, ITTerminalManager2::GetPluggableSuperclasses, _tapi3_itterminalmanager2_getpluggablesuperclasses, tapi3.itterminalmanager2_getpluggablesuperclasses, termmgr/ITTerminalManager2::GetPluggableSuperclasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalManager2.GetPluggableSuperclasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalManager2::GetPluggableSuperclasses

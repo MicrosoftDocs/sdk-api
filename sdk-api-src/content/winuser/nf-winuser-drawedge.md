@@ -4,17 +4,16 @@ title: DrawEdge function
 author: windows-sdk-content
 description: The DrawEdge function draws one or more edges of rectangle.
 old-location: gdi\drawedge.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 07d5216e-b577-4ff3-9e3f-eefb486b1ebd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BDR_RAISEDINNER, BDR_RAISEDOUTER, BDR_SUNKENINNER, BDR_SUNKENOUTER, BF_ADJUST, BF_BOTTOM, BF_BOTTOMLEFT, BF_BOTTOMRIGHT, BF_DIAGONAL, BF_DIAGONAL_ENDBOTTOMLEFT, BF_DIAGONAL_ENDBOTTOMRIGHT, BF_DIAGONAL_ENDTOPLEFT, BF_DIAGONAL_ENDTOPRIGHT, BF_FLAT, BF_LEFT, BF_MIDDLE, BF_MONO, BF_RECT, BF_RIGHT, BF_SOFT, BF_TOP, BF_TOPLEFT, BF_TOPRIGHT, DrawEdge, DrawEdge function [Windows GDI], EDGE_BUMP, EDGE_ETCHED, EDGE_RAISED, EDGE_SUNKEN, _win32_DrawEdge, gdi.drawedge, winuser/DrawEdge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DrawEdge
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DrawEdge function

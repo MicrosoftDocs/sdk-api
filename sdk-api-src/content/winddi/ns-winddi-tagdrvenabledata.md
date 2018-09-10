@@ -4,7 +4,7 @@ title: tagDRVENABLEDATA
 author: windows-sdk-content
 description: The DRVENABLEDATA structure contains a pointer to an array of DRVFN structures and the graphics DDI version number of an NT-based operating system.
 old-location: display\drvenabledata.htm
-old-project: display
+tech.root: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRVENABLEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
+req.redist: 
 ---
 
 # tagDRVENABLEDATA structure

@@ -4,17 +4,16 @@ title: IATSCLocator::get_TSID
 author: windows-sdk-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\iatsclocator_get_tsid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e7cde550-742c-426c-a350-1d05b74f824d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],get_TSID method, IATSCLocator.get_TSID, IATSCLocator::get_TSID, IATSCLocatorget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IATSCLocator interface, mstv.iatsclocator_get_tsid, tuner/IATSCLocator::get_TSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IATSCLocator.get_TSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IATSCLocator::get_TSID
@@ -65,7 +63,7 @@ The <b>get_TSID</b> method retrieves the transport stream ID.
 
 ### -param TSID
 
-
+TBD
 
 
 

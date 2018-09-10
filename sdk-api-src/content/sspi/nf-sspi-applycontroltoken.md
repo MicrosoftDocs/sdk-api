@@ -4,17 +4,16 @@ title: ApplyControlToken function
 author: windows-sdk-content
 description: Provides a way to apply a control token to a security context.
 old-location: security\applycontroltoken.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ApplyControlToken
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ApplyControlToken function

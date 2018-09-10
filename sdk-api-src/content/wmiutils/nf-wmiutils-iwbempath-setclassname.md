@@ -4,17 +4,16 @@ title: IWbemPath::SetClassName
 author: windows-sdk-content
 description: The IWbemPath::SetClassName method sets the class name portion of the path.
 old-location: wmi\iwbempath_setclassname.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 77c51bb7-2868-4d9f-b48c-60b152e18cac
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetClassName method, IWbemPath.SetClassName, IWbemPath::SetClassName, SetClassName, SetClassName method [Windows Management Instrumentation], SetClassName method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setclassname, wmi.iwbempath_setclassname, wmiutils/IWbemPath::SetClassName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.SetClassName
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::SetClassName
@@ -63,7 +61,7 @@ The
 
 ### -param Name
 
-
+TBD
 
 
 

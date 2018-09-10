@@ -4,17 +4,16 @@ title: D2D1IsMatrixInvertible function
 author: windows-sdk-content
 description: Indicates whether the specified matrix is invertible.
 old-location: direct2d\d2d1ismatrixinvertible.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: D2D1IsMatrixInvertible, D2D1IsMatrixInvertible function [Direct2D], d2d1/D2D1IsMatrixInvertible, direct2d.d2d1ismatrixinvertible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1IsMatrixInvertible
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D2D1IsMatrixInvertible function

@@ -4,17 +4,16 @@ title: IWMProfile::AddMutualExclusion
 author: windows-sdk-content
 description: The AddMutualExclusion method adds a mutual exclusion object to the profile. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_addmutualexclusion.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: efd751cf-d34d-4e74-9a00-444ec31ebef0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddMutualExclusion, AddMutualExclusion method [windows Media Format], AddMutualExclusion method [windows Media Format],IWMProfile interface, AddMutualExclusion method [windows Media Format],IWMProfile2 interface, AddMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],AddMutualExclusion method, IWMProfile.AddMutualExclusion, IWMProfile2 interface [windows Media Format],AddMutualExclusion method, IWMProfile2::AddMutualExclusion, IWMProfile3 interface [windows Media Format],AddMutualExclusion method, IWMProfile3::AddMutualExclusion, IWMProfile::AddMutualExclusion, IWMProfileAddMutualExclusion, wmformat.iwmprofile_addmutualexclusion, wmsdkidl/IWMProfile2::AddMutualExclusion, wmsdkidl/IWMProfile3::AddMutualExclusion, wmsdkidl/IWMProfile::AddMutualExclusion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.AddMutualExclusion
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::AddMutualExclusion

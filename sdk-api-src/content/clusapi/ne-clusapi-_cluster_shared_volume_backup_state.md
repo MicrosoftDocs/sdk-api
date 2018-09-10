@@ -4,7 +4,7 @@ title: "_CLUSTER_SHARED_VOLUME_BACKUP_STATE"
 author: windows-sdk-content
 description: Describes the CSV backup state.
 old-location: mscs\cluster_shared_volume_backup_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f83a7dfe-ad48-41e2-983e-75dfd921c137
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_SHARED_VOLUME_BACKUP_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE
+req.redist: 
 ---
 
 # _CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration

@@ -4,7 +4,7 @@ title: tagDVD_PREFERRED_DISPLAY_MODE
 author: windows-sdk-content
 description: Indicates the user's preferred window aspect ratio and conversion method.
 old-location: dshow\dvd_preferred_display_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: afb235ae-ba60-491f-8b88-7fe824f00f77
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_PREFERRED_DISPLAY_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_PREFERRED_DISPLAY_MODE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_PREFERRED_DISPLAY_MODE
+req.redist: 
 ---
 
 # tagDVD_PREFERRED_DISPLAY_MODE enumeration

@@ -4,7 +4,7 @@ title: "_SR_REPLICATED_DISK_TYPE"
 author: windows-sdk-content
 description: Specifies the replicated disk types for the SR_RESOURCE_TYPE_REPLICATED_DISK structure.
 old-location: mscs\sr_replicated_disk_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 913367E0-B3C2-40D0-B516-6C2F834152BB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SR_REPLICATED_DISK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.redist: 
 ---
 
 # _SR_REPLICATED_DISK_TYPE enumeration

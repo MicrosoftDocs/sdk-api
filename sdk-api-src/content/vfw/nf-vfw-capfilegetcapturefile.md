@@ -4,17 +4,16 @@ title: capFileGetCaptureFile macro
 author: windows-sdk-content
 description: The capFileGetCaptureFile macro returns the name of the current capture file. You can use this macro or explicitly call the WM_CAP_FILE_GET_CAPTURE_FILE message.
 old-location: multimedia\capfilegetcapturefile.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capFileGetCaptureFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capFileGetCaptureFile macro

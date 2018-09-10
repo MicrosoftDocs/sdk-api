@@ -4,17 +4,16 @@ title: IFEDictionary::NextWords
 author: windows-sdk-content
 description: Gets the next word entry from a dictionary.
 old-location: intl\ifedictionary_nextwords.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 551925ED-B05C-433F-91A9-D2BAC795E783
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.NextWords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::NextWords

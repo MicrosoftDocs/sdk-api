@@ -4,17 +4,16 @@ title: IMetaDataImport2::GetMethodSpecProps
 author: windows-sdk-content
 description: Gets the metadata signature of the method referenced by the specified MethodSpec token.
 old-location: winrt\imetadataimport2_getmethodspecprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 498ee212-000d-4204-ae7a-de553bf3ea45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMethodSpecProps, GetMethodSpecProps method [Windows Runtime], GetMethodSpecProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetMethodSpecProps method, IMetaDataImport2.GetMethodSpecProps, IMetaDataImport2::GetMethodSpecProps, rometadataapi/IMetaDataImport2::GetMethodSpecProps, winrt.imetadataimport2_getmethodspecprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport2.GetMethodSpecProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport2::GetMethodSpecProps

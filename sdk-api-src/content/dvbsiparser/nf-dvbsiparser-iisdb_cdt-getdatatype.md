@@ -4,17 +4,16 @@ title: IISDB_CDT::GetDataType
 author: windows-sdk-content
 description: Receives the data type value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getdatatype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 843e1a0a-b4bb-487e-aa21-1bd6c32cceae
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDataType, GetDataType method [Microsoft TV Technologies], GetDataType method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataType method, IISDB_CDT.GetDataType, IISDB_CDT::GetDataType, dvbsiparser/IISDB_CDT::GetDataType, mstv.iisdb_cdt_getdatatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_CDT.GetDataType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_CDT::GetDataType

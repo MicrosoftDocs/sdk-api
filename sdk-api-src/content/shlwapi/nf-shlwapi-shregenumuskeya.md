@@ -4,17 +4,16 @@ title: SHRegEnumUSKeyA function
 author: windows-sdk-content
 description: Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegEnumUSKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHRegEnumUSKeyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegEnumUSKeyA function

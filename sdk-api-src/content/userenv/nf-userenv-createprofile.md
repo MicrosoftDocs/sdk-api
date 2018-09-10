@@ -4,17 +4,16 @@ title: CreateProfile function
 author: windows-sdk-content
 description: Creates a new user profile.
 old-location: shell\CreateProfile.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateProfile
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CreateProfile function

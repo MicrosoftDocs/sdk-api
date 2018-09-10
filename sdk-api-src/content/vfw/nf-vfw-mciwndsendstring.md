@@ -4,17 +4,16 @@ title: MCIWndSendString macro
 author: windows-sdk-content
 description: The MCIWndSendString macro sends an MCI command in string form to the device associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SENDSTRING message.
 old-location: multimedia\mciwndsendstring.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: d73b087b-c697-470b-aa19-ca14d18ac430
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndSendString, MCIWndSendString macro [Windows Multimedia], _win32_MCIWndSendString, multimedia.mciwndsendstring, vfw/MCIWndSendString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndSendString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndSendString macro

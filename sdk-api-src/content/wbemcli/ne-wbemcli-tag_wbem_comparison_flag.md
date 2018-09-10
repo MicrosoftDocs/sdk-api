@@ -4,7 +4,7 @@ title: tag_WBEM_COMPARISON_FLAG
 author: windows-sdk-content
 description: Contains flags that define the comparison to perform when using the IWbemClassObject::CompareTo method.
 old-location: wmi\wbem_comparison_flag.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: B32685D3-C096-4E1F-BF59-EB68ED497FEC
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_COMPARISON_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_COMPARISON_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_COMPARISON_FLAG
+req.redist: 
 ---
 
 # tag_WBEM_COMPARISON_FLAG enumeration

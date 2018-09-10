@@ -4,17 +4,16 @@ title: ITsSbTaskPluginNotifySink::OnUpdateTaskStatus
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a task has changed.
 old-location: termserv\itssbtaskpluginnotifysink_onupdatetaskstatus.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5fc22173-12b2-41a4-a487-8092088ecfe9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnUpdateTaskStatus method, ITsSbTaskPluginNotifySink.OnUpdateTaskStatus, ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, OnUpdateTaskStatus, OnUpdateTaskStatus method [Remote Desktop Services], OnUpdateTaskStatus method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, termserv.itssbtaskpluginnotifysink_onupdatetaskstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbTaskPluginNotifySink.OnUpdateTaskStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskPluginNotifySink::OnUpdateTaskStatus

@@ -4,17 +4,16 @@ title: IDragSourceHelper2::SetFlags
 author: windows-sdk-content
 description: Sets the characteristics of a drag-and-drop operation over an IDragSourceHelper object.
 old-location: shell\IDragSourceHelper2_SetFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1fe9b753-5ac1-4b6f-9538-5259870404ec
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2 interface [Windows Shell],SetFlags method, IDragSourceHelper2.SetFlags, IDragSourceHelper2::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDragSourceHelper2 interface, _shell_IDragSourceHelper2_SetFlags, shell.IDragSourceHelper2_SetFlags, shobjidl/IDragSourceHelper2::SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDragSourceHelper2.SetFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IDragSourceHelper2::SetFlags

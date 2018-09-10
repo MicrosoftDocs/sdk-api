@@ -4,17 +4,16 @@ title: HttpCloseUrlGroup function
 author: windows-sdk-content
 description: Closes the URL Group identified by the URL Group ID.
 old-location: http\httpcloseurlgroup.htm
-old-project: http
+tech.root: http
 ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpCloseUrlGroup
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpCloseUrlGroup function

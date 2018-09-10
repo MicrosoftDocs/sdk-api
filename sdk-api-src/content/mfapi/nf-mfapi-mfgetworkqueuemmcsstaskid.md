@@ -4,17 +4,16 @@ title: MFGetWorkQueueMMCSSTaskId function
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier currently associated with this work queue.
 old-location: mf\mfgetworkqueuemmcsstaskid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetWorkQueueMMCSSTaskId, MFGetWorkQueueMMCSSTaskId function [Media Foundation], e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4, mf.mfgetworkqueuemmcsstaskid, mfapi/MFGetWorkQueueMMCSSTaskId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetWorkQueueMMCSSTaskId
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetWorkQueueMMCSSTaskId function

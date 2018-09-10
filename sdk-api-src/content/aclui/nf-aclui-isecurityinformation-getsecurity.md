@@ -4,17 +4,16 @@ title: ISecurityInformation::GetSecurity
 author: windows-sdk-content
 description: The GetSecurity method requests a security descriptor for the securable object whose security descriptor is being edited. The access control editor calls this method to retrieve the object's current or default security descriptor.
 old-location: security\isecurityinformation_getsecurity.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 4c9e05fd-0b58-4d6d-b33e-067d9e8e2915
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, GetSecurity, GetSecurity method [Security], GetSecurity method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetSecurity method, ISecurityInformation.GetSecurity, ISecurityInformation::GetSecurity, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, _win32_isecurityinformation_getsecurity, aclui/ISecurityInformation::GetSecurity, security.isecurityinformation_getsecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation.GetSecurity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation::GetSecurity

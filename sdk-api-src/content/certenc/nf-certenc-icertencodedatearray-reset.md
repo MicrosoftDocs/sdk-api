@@ -4,17 +4,16 @@ title: ICertEncodeDateArray::Reset
 author: windows-sdk-content
 description: Specifies the size of DATE array in this object.
 old-location: security\icertencodedatearray_reset.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f09087aa-ae10-4a59-9b59-5f8b72254ce6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeDateArray object [Security],Reset method, ICertEncodeDateArray interface [Security],Reset method, ICertEncodeDateArray.Reset, ICertEncodeDateArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeDateArray object, Reset method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_reset, certenc/ICertEncodeDateArray::Reset, security.icertencodedatearray_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeDateArray.Reset
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeDateArray::Reset

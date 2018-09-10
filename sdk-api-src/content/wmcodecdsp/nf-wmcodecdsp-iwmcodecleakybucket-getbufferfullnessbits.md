@@ -4,17 +4,16 @@ title: IWMCodecLeakyBucket::GetBufferFullnessBits
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/IWMCodecLeakyBucket::GetBufferFullnessBits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMCodecLeakyBucket.GetBufferFullnessBits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMCodecLeakyBucket::GetBufferFullnessBits

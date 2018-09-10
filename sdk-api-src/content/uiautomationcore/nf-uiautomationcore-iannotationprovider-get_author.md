@@ -4,17 +4,16 @@ title: IAnnotationProvider::get_Author
 author: windows-sdk-content
 description: The name of the annotation author.
 old-location: winauto\uiauto_IAnnotationProvider_Author.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7A5DB431-FCB8-4AE6-AA55-EC0A5DE64470
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],Author property, IAnnotationProvider.Author, IAnnotationProvider.get_Author, IAnnotationProvider::Author, IAnnotationProvider::get_Author, get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAnnotationProvider.get_Author
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnnotationProvider::get_Author

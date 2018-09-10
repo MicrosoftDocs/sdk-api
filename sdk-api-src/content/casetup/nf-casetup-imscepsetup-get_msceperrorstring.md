@@ -4,17 +4,16 @@ title: IMSCEPSetup::get_MSCEPErrorString
 author: windows-sdk-content
 description: Contains the string data for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
 old-location: security\imscepsetup_msceperrorstring.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5da4d9ac-ba59-499e-a062-381349b411a8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMSCEPSetup interface [Security],MSCEPErrorString property, IMSCEPSetup.MSCEPErrorString, IMSCEPSetup.get_MSCEPErrorString, IMSCEPSetup::MSCEPErrorString, IMSCEPSetup::get_MSCEPErrorString, MSCEPErrorString property [Security], MSCEPErrorString property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorString, casetup/IMSCEPSetup::get_MSCEPErrorString, get_MSCEPErrorString, security.imscepsetup_msceperrorstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMSCEPSetup.get_MSCEPErrorString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMSCEPSetup::get_MSCEPErrorString

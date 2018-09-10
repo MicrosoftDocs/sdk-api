@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::GetChange
 author: windows-sdk-content
 description: Gets an ISyncRegistrationChange object that represents a new registration event.
 old-location: winsync\isyncproviderregistration_getchange.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 6a65ba8b-b9cb-4d8c-8d18-9627547f9982
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetChange, GetChange method [Windows Sync], GetChange method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetChange method, ISyncProviderRegistration.GetChange, ISyncProviderRegistration::GetChange, syncregistration/ISyncProviderRegistration::GetChange, winsync.isyncproviderregistration_getchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.GetChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::GetChange

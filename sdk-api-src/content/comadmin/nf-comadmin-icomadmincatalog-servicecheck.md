@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::ServiceCheck
 author: windows-sdk-content
 description: Retrieves the current status of the specified COM+ service.
 old-location: cos\icomadmincatalog_servicecheck.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d7d41691-30ab-450c-b93b-b7b02f408eb1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: COMAdminServiceContinuePending, COMAdminServicePausePending, COMAdminServicePaused, COMAdminServiceRunning, COMAdminServiceStartPending, COMAdminServiceStopPending, COMAdminServiceStopped, COMAdminServiceUnknownState, ICOMAdminCatalog interface [COM+],ServiceCheck method, ICOMAdminCatalog.ServiceCheck, ICOMAdminCatalog::ServiceCheck, ServiceCheck, ServiceCheck method [COM+], ServiceCheck method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ServiceCheck, comadmin/ICOMAdminCatalog::ServiceCheck, cos.icomadmincatalog_servicecheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.ServiceCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::ServiceCheck

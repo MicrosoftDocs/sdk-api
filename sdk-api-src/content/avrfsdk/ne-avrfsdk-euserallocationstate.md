@@ -4,7 +4,7 @@ title: eUserAllocationState
 author: windows-sdk-content
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eUserAllocationState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eUserAllocationState enumeration

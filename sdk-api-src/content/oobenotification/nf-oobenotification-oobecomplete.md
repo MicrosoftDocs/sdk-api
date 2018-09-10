@@ -4,17 +4,16 @@ title: OOBEComplete function
 author: windows-sdk-content
 description: Determines whether OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\oobecomplete.htm
-old-project: WNF
+tech.root: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oobenotification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_INTERFACE_CONTEXT_TABLE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - isOOBEComplete
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OOBEComplete function

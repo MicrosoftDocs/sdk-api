@@ -4,17 +4,16 @@ title: IPBDA_EIT::GetCountOfRecords
 author: windows-sdk-content
 description: Receives the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getcountofrecords.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7f09421d-ae19-4c8e-93a2-31fa8697742a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetCountOfRecords method, IPBDA_EIT.GetCountOfRecords, IPBDA_EIT::GetCountOfRecords, dvbsiparser/IPBDA_EIT::GetCountOfRecords, mstv.ipbda_eit_getcountofrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPBDA_EIT.GetCountOfRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPBDA_EIT::GetCountOfRecords

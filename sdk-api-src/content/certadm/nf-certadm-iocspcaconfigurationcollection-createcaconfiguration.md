@@ -4,17 +4,16 @@ title: IOCSPCAConfigurationCollection::CreateCAConfiguration
 author: windows-sdk-content
 description: Creates a new certification authority (CA) configuration and adds it to the configuration set.
 old-location: security\iocspcaconfigurationcollection_createcaconfiguration_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateCAConfiguration, CreateCAConfiguration method [Security], CreateCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],CreateCAConfiguration method, IOCSPCAConfigurationCollection.CreateCAConfiguration, IOCSPCAConfigurationCollection::CreateCAConfiguration, certadm/IOCSPCAConfigurationCollection::CreateCAConfiguration, security.iocspcaconfigurationcollection_createcaconfiguration_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPCAConfigurationCollection.CreateCAConfiguration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfigurationCollection::CreateCAConfiguration

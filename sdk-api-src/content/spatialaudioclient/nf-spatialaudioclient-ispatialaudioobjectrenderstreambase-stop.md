@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamBase::Stop
 author: windows-sdk-content
 description: Stops a running audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop method, ISpatialAudioObjectRenderStreamBase.Stop, ISpatialAudioObjectRenderStreamBase::Stop, Stop, Stop method [Core Audio], Stop method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_stop, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamBase.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Stop

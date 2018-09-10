@@ -4,17 +4,16 @@ title: IDirectInputJoyConfig8::GetConfig
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.
 old-location: hid\idirectinputjoyconfig8_getconfig.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d8e2a702-d33e-48d2-8e1c-49e09e8f560f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetConfig method, IDirectInputJoyConfig8.GetConfig, IDirectInputJoyConfig8::GetConfig, di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml, dinputd/IDirectInputJoyConfig8::GetConfig, hid.idirectinputjoyconfig8_getconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputJoyConfig8.GetConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputJoyConfig8::GetConfig
@@ -59,9 +58,19 @@ The <b>IDirectInputJoyConfig8::GetConfig </b>method obtains information about a 
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
 
 
 

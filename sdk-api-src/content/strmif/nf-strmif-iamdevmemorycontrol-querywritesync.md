@@ -4,17 +4,16 @@ title: IAMDevMemoryControl::QueryWriteSync
 author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.
 old-location: dshow\iamdevmemorycontrol_querywritesync.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],QueryWriteSync method, IAMDevMemoryControl.QueryWriteSync, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMDevMemoryControl.QueryWriteSync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDevMemoryControl::QueryWriteSync

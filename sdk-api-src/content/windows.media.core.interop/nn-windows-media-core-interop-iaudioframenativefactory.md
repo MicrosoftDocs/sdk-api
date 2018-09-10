@@ -4,7 +4,7 @@ title: IAudioFrameNativeFactory
 author: windows-sdk-content
 description: Creates instances of IAudioFrameNative.
 old-location: winrt\iaudioframenativefactory.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 8416020D-8CBA-4E70-B77C-55057E6212BA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.media.core.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioFrameNativeFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioFrameNativeFactory interface

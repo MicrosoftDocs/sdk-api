@@ -4,17 +4,16 @@ title: IOleInPlaceActiveObject::OnDocWindowActivate
 author: windows-sdk-content
 description: Notifies the active in-place object when the container's document window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnDocWindowActivate method, IOleInPlaceActiveObject.OnDocWindowActivate, IOleInPlaceActiveObject::OnDocWindowActivate, OnDocWindowActivate, OnDocWindowActivate method [COM], OnDocWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_ondocwindowactivate, com.ioleinplaceactiveobject_ondocwindowactivate, oleidl/IOleInPlaceActiveObject::OnDocWindowActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceActiveObject.OnDocWindowActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceActiveObject::OnDocWindowActivate

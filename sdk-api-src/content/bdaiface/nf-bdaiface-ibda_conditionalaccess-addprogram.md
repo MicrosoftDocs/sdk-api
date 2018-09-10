@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::AddProgram
 author: windows-sdk-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_addprogram.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.AddProgram
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::AddProgram

@@ -4,17 +4,16 @@ title: StrDupA function
 author: windows-sdk-content
 description: Duplicates a string.
 old-location: shell\StrDup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrDupW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrDupA function

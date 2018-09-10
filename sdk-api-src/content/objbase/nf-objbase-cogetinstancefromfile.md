@@ -4,17 +4,16 @@ title: CoGetInstanceFromFile function
 author: windows-sdk-content
 description: Creates a new object and initializes it from a file using IPersistFile::Load.
 old-location: com\cogetinstancefromfile.htm
-old-project: com
+tech.root: com
 ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CoGetInstanceFromFile
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetInstanceFromFile function

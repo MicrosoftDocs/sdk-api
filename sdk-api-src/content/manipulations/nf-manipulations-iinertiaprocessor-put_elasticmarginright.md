@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_ElasticMarginRight
 author: windows-sdk-content
 description: The ElasticMarginRight property specifies the rightmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginright.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 081dd9d4-d190-4a44-bcd8-d5d0d99d7fd2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor.put_ElasticMarginRight, IInertiaProcessor::ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_ElasticMarginRight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_ElasticMarginRight

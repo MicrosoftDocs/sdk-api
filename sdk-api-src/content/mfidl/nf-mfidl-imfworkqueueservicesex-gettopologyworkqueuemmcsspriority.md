@@ -4,17 +4,16 @@ title: IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) string associated with the given topology work queue.
 old-location: mf\imfworkqueueservicesex_gettopologyworkqueuemmcsspriority.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d5550e53-cbe9-4956-a079-d2a825fd17ef
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTopologyWorkQueueMMCSSPriority, GetTopologyWorkQueueMMCSSPriority method [Media Foundation], GetTopologyWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetTopologyWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority

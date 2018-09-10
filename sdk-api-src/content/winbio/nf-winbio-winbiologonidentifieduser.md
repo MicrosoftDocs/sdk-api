@@ -4,17 +4,16 @@ title: WinBioLogonIdentifiedUser function
 author: windows-sdk-content
 description: Causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
 old-location: secbiomet\winbiologonidentifieduser.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WinBioLogonIdentifiedUser
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioLogonIdentifiedUser function

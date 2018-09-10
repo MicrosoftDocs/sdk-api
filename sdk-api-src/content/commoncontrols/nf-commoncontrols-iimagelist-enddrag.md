@@ -4,17 +4,16 @@ title: IImageList::EndDrag
 author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\IImageList_EndDrag.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\enddrag.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EndDrag, EndDrag method [Windows Controls], EndDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],EndDrag method, IImageList.EndDrag, IImageList::EndDrag, comctl_IImageList_EndDrag, comctl_IImageList_EndDrag_cpp, commoncontrols/IImageList::EndDrag, controls.IImageList_EndDrag, controls.comctl_IImageList_EndDrag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.EndDrag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::EndDrag

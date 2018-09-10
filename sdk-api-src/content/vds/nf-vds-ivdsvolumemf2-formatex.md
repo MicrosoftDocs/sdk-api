@@ -4,17 +4,16 @@ title: IVdsVolumeMF2::FormatEx
 author: windows-sdk-content
 description: Formats a file system volume on a partition.
 old-location: base\ivdsvolumemf2_formatex.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c1d08018-4e9b-466a-b8dd-074b2ce0c8fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FormatEx, FormatEx method, FormatEx method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,FormatEx method, IVdsVolumeMF2.FormatEx, IVdsVolumeMF2::FormatEx, base.ivdsvolumemf2_formatex, vds/IVdsVolumeMF2::FormatEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF2.FormatEx
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF2::FormatEx

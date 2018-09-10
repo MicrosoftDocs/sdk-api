@@ -4,17 +4,16 @@ title: PeerCollabRegisterEvent function
 author: windows-sdk-content
 description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
 old-location: p2p\peercollabregisterevent.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabRegisterEvent
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabRegisterEvent function

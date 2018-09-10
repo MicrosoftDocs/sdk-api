@@ -4,7 +4,7 @@ title: "_tagCOMPSTATEINFO"
 author: windows-sdk-content
 description: Used by Windows 2000 to hold information about a component's state.
 old-location: shell\COMPSTATEINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0087e868-0bdd-4ad2-a93f-84ff55b2cb06
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPSTATEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPSTATEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: COMPSTATEINFO
+req.redist: 
 ---
 
 # _tagCOMPSTATEINFO structure

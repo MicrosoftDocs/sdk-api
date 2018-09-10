@@ -4,17 +4,16 @@ title: ICallFrame::Invoke
 author: windows-sdk-content
 description: Applies this activation record to an object. In a marshalling situation, typically this is carried out on the server side, and is the means by which the work of the actual object is accomplished.
 old-location: com\icallframe_invoke.htm
-old-project: com
+tech.root: com
 ms.assetid: 75cb7b96-55c9-4aee-b507-a549e2af38bc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallFrame::Invoke, Invoke, Invoke method [COM], Invoke method [COM],ICallFrame interface, _com_icallframe_invoke, callobj/ICallFrame::Invoke, com.icallframe_invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::Invoke
@@ -65,9 +64,9 @@ In a marshalling situation, typically this is carried out on the server side, an
 The interface on which the invocation is to occur. The caller is responsible for ensuring that this interface is of the appropriate IID; the implementation will simply do a cast and assume that is the case.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

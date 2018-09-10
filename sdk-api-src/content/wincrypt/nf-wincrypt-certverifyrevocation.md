@@ -4,17 +4,16 @@ title: CertVerifyRevocation function
 author: windows-sdk-content
 description: Checks the revocation status of the certificates contained in the rgpvContext array. If a certificate in the list is found to be revoked, no further checking is done.
 old-location: security\certverifyrevocation.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertVerifyRevocation
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertVerifyRevocation function

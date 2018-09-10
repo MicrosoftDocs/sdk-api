@@ -4,17 +4,16 @@ title: IPicture::SaveAsFile
 author: windows-sdk-content
 description: Saves the picture's data into a stream in the same format that it would save itself into a file. Bitmaps use the BMP file format, metafiles the WMF format, and icons the ICO format.
 old-location: com\ipicture_saveasfile.htm
-old-project: com
+tech.root: com
 ms.assetid: fa949064-d1cf-4056-9990-ae9ea88fae86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],SaveAsFile method, IPicture.SaveAsFile, IPicture::SaveAsFile, SaveAsFile, SaveAsFile method [COM], SaveAsFile method [COM],IPicture interface, _ctrl_ipicture_saveasfile, com.ipicture_saveasfile, ocidl/IPicture::SaveAsFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.SaveAsFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::SaveAsFile

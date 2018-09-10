@@ -4,17 +4,16 @@ title: FreeKnownFolderDefinitionFields function
 author: windows-sdk-content
 description: Frees the allocated fields in the result from IKnownFolder::GetFolderDefinition.
 old-location: shell\FreeKnownFolderDefinitionFields.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeKnownFolderDefinitionFields
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # FreeKnownFolderDefinitionFields function

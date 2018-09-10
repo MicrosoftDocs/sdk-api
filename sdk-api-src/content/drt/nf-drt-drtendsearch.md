@@ -4,17 +4,16 @@ title: DrtEndSearch function
 author: windows-sdk-content
 description: DrtEndSearch function cancels a search for a key in a DRT.
 old-location: p2p\drtendsearch.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1a99476f-69ee-4aeb-8c9b-e06315ec095d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSearch, p2p.drtendsearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtEndSearch
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtEndSearch function

@@ -4,7 +4,7 @@ title: "_SHARE_INFO_1501"
 author: windows-sdk-content
 description: Contains the security descriptor associated with the specified share. For more information, see Security Descriptors.
 old-location: fs\share_info_1501_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: ef5d4936-8c0b-4a3c-b2b9-34868eb01a2e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_INFO_1501, *PSHARE_INFO_1501, *LPSHARE_INFO_1501
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARE_INFO_1501
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SHARE_INFO_1501, *PSHARE_INFO_1501, *LPSHARE_INFO_1501
+req.redist: 
 ---
 
 # _SHARE_INFO_1501 structure

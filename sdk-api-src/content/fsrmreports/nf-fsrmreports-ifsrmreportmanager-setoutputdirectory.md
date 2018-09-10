@@ -4,17 +4,16 @@ title: IFsrmReportManager::SetOutputDirectory
 author: windows-sdk-content
 description: Sets the local directory path where reports are stored.
 old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager interface [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager.SetOutputDirectory, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.SetOutputDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::SetOutputDirectory

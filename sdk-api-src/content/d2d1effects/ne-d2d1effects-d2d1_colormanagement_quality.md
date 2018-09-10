@@ -4,7 +4,7 @@ title: D2D1_COLORMANAGEMENT_QUALITY
 author: windows-sdk-content
 description: The quality level of the transform for the Color management effect.
 old-location: direct2d\d2d1_colormanagement_quality.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_COLORMANAGEMENT_QUALITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_COLORMANAGEMENT_QUALITY
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_COLORMANAGEMENT_QUALITY
+req.redist: 
 ---
 
 # D2D1_COLORMANAGEMENT_QUALITY enumeration

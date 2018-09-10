@@ -4,7 +4,7 @@ title: "_VSS_BACKUP_TYPE"
 author: windows-sdk-content
 description: Indicates the type of backup to be performed.
 old-location: base\vss_backup_type.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 82934737-0d80-4b5d-a1fa-1ba38e446504
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_BACKUP_TYPE, *PVSS_BACKUP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_BACKUP_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_BACKUP_TYPE, *PVSS_BACKUP_TYPE
+req.redist: 
 ---
 
 # _VSS_BACKUP_TYPE enumeration

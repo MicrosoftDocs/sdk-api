@@ -4,17 +4,16 @@ title: IValueMap::Clear
 author: windows-sdk-content
 description: Removes all items from the collection
 old-location: pla\ivaluemap_clear.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 41c80954-efc2-47ff-87e2-f33d7123cb40
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IValueMap interface, IValueMap interface [PLA],Clear method, IValueMap.Clear, IValueMap::Clear, base.ivaluemap_clear, pla.ivaluemap_clear, pla/IValueMap::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValueMap.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::Clear

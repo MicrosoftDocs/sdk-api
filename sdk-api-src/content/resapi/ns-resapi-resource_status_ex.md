@@ -4,7 +4,7 @@ title: RESOURCE_STATUS_EX
 author: windows-sdk-content
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatusEx.
 old-location: mscs\resource_status_ex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: CBEBF870-B413-400C-A485-FD093358FB67
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - RESOURCE_STATUS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
+req.redist: 
 ---
 
 # RESOURCE_STATUS_EX structure

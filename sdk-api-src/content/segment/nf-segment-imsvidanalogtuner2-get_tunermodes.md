@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner2::get_TunerModes
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tunermodes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TunerModes method, IMSVidAnalogTuner2.get_TunerModes, IMSVidAnalogTuner2::get_TunerModes, IMSVidAnalogTuner2getTunerModes, get_TunerModes, get_TunerModes method [Microsoft TV Technologies], get_TunerModes method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tunermodes, segment/IMSVidAnalogTuner2::get_TunerModes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner2.get_TunerModes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner2::get_TunerModes

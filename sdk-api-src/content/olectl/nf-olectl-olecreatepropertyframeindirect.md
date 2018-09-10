@@ -4,17 +4,16 @@ title: OleCreatePropertyFrameIndirect function
 author: windows-sdk-content
 description: Creates a property frame, that is, a property sheet dialog box, based on a structure (OCPFIPARAMS) that contains the parameters, rather than specifying separate parameters as when calling OleCreatePropertyFrame.
 old-location: com\olecreatepropertyframeindirect.htm
-old-project: com
+tech.root: com
 ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreatePropertyFrameIndirect
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreatePropertyFrameIndirect function

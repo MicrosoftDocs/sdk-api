@@ -4,17 +4,16 @@ title: IShellFolderViewDual::get_Folder
 author: windows-sdk-content
 description: Gets the Folder object that represents the view.
 old-location: shell\IShellFolderViewDual_get_Folder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Folder method, IShellFolderViewDual.get_Folder, IShellFolderViewDual::get_Folder, _shell_IShellFolderViewDual_get_Folder, get_Folder, get_Folder method [Windows Shell], get_Folder method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Folder, shldisp/IShellFolderViewDual::get_Folder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.get_Folder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::get_Folder

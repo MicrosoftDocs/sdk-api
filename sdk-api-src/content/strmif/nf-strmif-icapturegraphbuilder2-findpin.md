@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder2::FindPin
 author: windows-sdk-content
 description: The FindPin method retrieves a particular pin on a filter, or determines whether a given pin matches the specified criteria.
 old-location: dshow\icapturegraphbuilder2_findpin.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f74e55d4-2d51-47a9-aca8-dd4e616a6253
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindPin method, ICaptureGraphBuilder2.FindPin, ICaptureGraphBuilder2::FindPin, ICaptureGraphBuilder2FindPin, dshow.icapturegraphbuilder2_findpin, strmif/ICaptureGraphBuilder2::FindPin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICaptureGraphBuilder2.FindPin
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder2::FindPin

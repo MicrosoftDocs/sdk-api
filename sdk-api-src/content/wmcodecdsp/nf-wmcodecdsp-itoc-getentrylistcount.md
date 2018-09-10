@@ -4,17 +4,16 @@ title: IToc::GetEntryListCount
 author: windows-sdk-content
 description: The GetEntryListCount method retrieves the number of entry lists in the table of contents.
 old-location: mf\itoc_getentrylistcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 38348080-e188-4d58-8d46-dc954da398e6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetEntryListCount, GetEntryListCount method [Media Foundation], GetEntryListCount method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListCount method, IToc.GetEntryListCount, IToc::GetEntryListCount, codecapi.itoc_getentrylistcount, mf.itoc_getentrylistcount, wmcodecdsp/IToc::GetEntryListCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToc.GetEntryListCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IToc::GetEntryListCount

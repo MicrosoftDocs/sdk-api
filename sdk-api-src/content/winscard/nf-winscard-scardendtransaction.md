@@ -4,17 +4,16 @@ title: SCardEndTransaction function
 author: windows-sdk-content
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
 old-location: security\scardendtransaction.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SCardEndTransaction
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardEndTransaction function

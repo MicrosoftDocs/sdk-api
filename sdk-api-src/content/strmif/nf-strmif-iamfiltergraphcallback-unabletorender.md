@@ -4,17 +4,16 @@ title: IAMFilterGraphCallback::UnableToRender
 author: windows-sdk-content
 description: The UnableToRender method is called by the Filter Graph Manager if it cannot find any combination of filters to render the specified pin.
 old-location: dshow\iamfiltergraphcallback_unabletorender.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMFilterGraphCallback.UnableToRender
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMFilterGraphCallback::UnableToRender

@@ -4,7 +4,7 @@ title: "_CERT_CRL_CONTEXT_PAIR"
 author: windows-sdk-content
 description: The CERT_CRL_CONTEXT_PAIR structure contains a certificate context and an associated CRL context.
 old-location: security\cert_crl_context_pair.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: e88781f0-8474-47d3-8218-de95f7eadf04
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_CRL_CONTEXT_PAIR, *PCERT_CRL_CONTEXT_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_CRL_CONTEXT_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_CRL_CONTEXT_PAIR, *PCERT_CRL_CONTEXT_PAIR
+req.redist: 
 ---
 
 # _CERT_CRL_CONTEXT_PAIR structure

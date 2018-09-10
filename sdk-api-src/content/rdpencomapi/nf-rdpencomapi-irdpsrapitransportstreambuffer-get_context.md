@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStreamBuffer::get_Context
 author: windows-sdk-content
 description: This property is reserved for use by the Remote Desktop Protocol (RDP) stack. Do not modify it.
 old-location: rdp\irdpsrapitransportstreambuffer_context.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 64307c9a-65c6-4a6d-b400-188d22bec996
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Context property [RDP], Context property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Context property, IRDPSRAPITransportStreamBuffer.Context, IRDPSRAPITransportStreamBuffer.get_Context, IRDPSRAPITransportStreamBuffer::Context, IRDPSRAPITransportStreamBuffer::get_Context, IRDPSRAPITransportStreamBuffer::put_Context, get_Context, rdp.irdpsrapitransportstreambuffer_context, rdpencomapi/IRDPSRAPITransportStreamBuffer::Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Context
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRDPSRAPITransportStreamBuffer.put_Context
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_Context

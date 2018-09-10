@@ -4,17 +4,16 @@ title: IBrowserService::GetBrowserByIndex
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser with the given index.
 old-location: shell\IBrowserService_GetBrowserByIndex.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 190bd99d-3921-4d7b-8cf3-c91067d3e1f8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBrowserByIndex, GetBrowserByIndex method [Windows Shell], GetBrowserByIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserByIndex method, IBrowserService.GetBrowserByIndex, IBrowserService::GetBrowserByIndex, shdeprecated/IBrowserService::GetBrowserByIndex, shell.IBrowserService_GetBrowserByIndex, zone_IBrowserService_GetBrowserByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.GetBrowserByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

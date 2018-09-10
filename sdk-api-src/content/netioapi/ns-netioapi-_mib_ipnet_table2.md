@@ -4,7 +4,7 @@ title: "_MIB_IPNET_TABLE2"
 author: windows-sdk-content
 description: Contains a table of neighbor IP address entries.
 old-location: mib\mib_ipnet_table2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 39b87d81-69ce-4f9b-8af6-5e0c5051657c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPNET_TABLE2, *PMIB_IPNET_TABLE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IPNET_TABLE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IPNET_TABLE2, *PMIB_IPNET_TABLE2
+req.redist: 
 ---
 
 # _MIB_IPNET_TABLE2 structure

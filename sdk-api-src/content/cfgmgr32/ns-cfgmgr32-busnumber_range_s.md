@@ -4,7 +4,7 @@ title: BusNumber_Range_s
 author: windows-sdk-content
 description: The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\busnumber_range.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BUSNUMBER_RANGE, *PBUSNUMBER_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BUSNUMBER_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BUSNUMBER_RANGE, *PBUSNUMBER_RANGE
+req.redist: 
 ---
 
 # BusNumber_Range_s structure

@@ -4,17 +4,16 @@ title: GetPointerInfoHistory function
 author: windows-sdk-content
 description: Gets the information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer.
 old-location: inputmsg\getpointerinfohistory.htm
-old-project: InputMsg
+tech.root: InputMsg
 ms.assetid: 92173197-45e8-4ee7-8959-2f14f90c2d21
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPointerInfoHistory, GetPointerInfoHistory function [Input Messages and Notifications], inputmsg.getpointerinfohistory, winuser/GetPointerInfoHistory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetPointerInfoHistory
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerInfoHistory function

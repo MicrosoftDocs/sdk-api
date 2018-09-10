@@ -4,17 +4,16 @@ title: IOleLink::SetSourceMoniker
 author: windows-sdk-content
 description: Sets the moniker for the link source.
 old-location: com\iolelink_setsourcemoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 85fe1d28-d9c6-46b4-abff-6afce9ff3cd0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleLink interface [COM],SetSourceMoniker method, IOleLink.SetSourceMoniker, IOleLink::SetSourceMoniker, SetSourceMoniker, SetSourceMoniker method [COM], SetSourceMoniker method [COM],IOleLink interface, _ole_iolelink_setsourcemoniker, com.iolelink_setsourcemoniker, oleidl/IOleLink::SetSourceMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.SetSourceMoniker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::SetSourceMoniker

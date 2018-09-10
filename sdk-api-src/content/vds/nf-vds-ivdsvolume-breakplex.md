@@ -4,17 +4,16 @@ title: IVdsVolume::BreakPlex
 author: windows-sdk-content
 description: Removes a specified plex from the current volume.
 old-location: base\ivdsvolume_breakplex.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],BreakPlex method, IVdsVolume.BreakPlex, IVdsVolume::BreakPlex, base.ivdsvolume_breakplex, vds/IVdsVolume::BreakPlex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.BreakPlex
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::BreakPlex

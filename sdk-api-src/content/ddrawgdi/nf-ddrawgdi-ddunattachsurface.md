@@ -4,17 +4,16 @@ title: DdUnattachSurface function
 author: windows-sdk-content
 description: The DdUnattachSurface function removes an attachment, created with DdAttachSurface, between two kernel-mode surface objects.
 old-location: winprog\_dxgkernel_ddunattachsurface.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddunattachsurface.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DdUnattachSurface, DdUnattachSurface function [Windows API], GdiEntry12, _dxgkernel_ddunattachsurface, ddrawgdi/DdUnattachSurface, ddrawgdi/GdiEntry12, winprog._dxgkernel_ddunattachsurface, winui._dxgkernel_ddunattachsurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDPIXELFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - GdiEntry12
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdUnattachSurface function

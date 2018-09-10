@@ -4,17 +4,16 @@ title: ITfInputProcessorProfileMgr::UnregisterProfile
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::UnregisterProfile method unregisters the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_unregisterprofile.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 7b05beea-991a-406f-a08d-28cdd87c9d7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],UnregisterProfile method, ITfInputProcessorProfileMgr.UnregisterProfile, ITfInputProcessorProfileMgr::UnregisterProfile, TF_URP_ALLPROFILES, TF_URP_LOCALPROCESS, TF_URP_LOCALTHREAD, UnregisterProfile, UnregisterProfile method [Text Services Framework], UnregisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, msctf/ITfInputProcessorProfileMgr::UnregisterProfile, tsf.itfinputprocessorprofilemgr_unregisterprofile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputProcessorProfileMgr.UnregisterProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputProcessorProfileMgr::UnregisterProfile

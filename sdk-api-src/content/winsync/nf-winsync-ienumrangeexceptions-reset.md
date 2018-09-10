@@ -4,17 +4,16 @@ title: IEnumRangeExceptions::Reset
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the range exception set.
 old-location: winsync\ienumrangeexceptions_reset.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: d4056703-8218-4b0b-9ed6-4c1584f0b751
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRangeExceptions.Reset, IEnumRangeExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_reset, winsync/IEnumRangeExceptions::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumRangeExceptions.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumRangeExceptions::Reset

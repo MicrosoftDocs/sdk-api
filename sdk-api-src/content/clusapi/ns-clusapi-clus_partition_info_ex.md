@@ -4,7 +4,7 @@ title: CLUS_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_PARTITION_INFO_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
+req.redist: 
 ---
 
 # CLUS_PARTITION_INFO_EX structure

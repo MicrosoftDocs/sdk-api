@@ -4,17 +4,16 @@ title: IPersistIDList::SetIDList
 author: windows-sdk-content
 description: Sets a persisted item identifier list.
 old-location: shell\IPersistIDList_SetIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0f509a36-e9be-46ab-8c01-067e44379615
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPersistIDList interface [Windows Shell],SetIDList method, IPersistIDList.SetIDList, IPersistIDList::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IPersistIDList interface, inet_IPersistIDList_SetIDList, shell.IPersistIDList_SetIDList, shobjidl_core/IPersistIDList::SetIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistIDList.SetIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistIDList::SetIDList

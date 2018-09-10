@@ -4,7 +4,7 @@ title: IMFTimecodeTranslate
 author: windows-sdk-content
 description: Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.
 old-location: mf\imftimecodetranslate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 935ec6b3-12e6-4458-b8a1-ffeb4159d957
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimecodeTranslate
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimecodeTranslate interface

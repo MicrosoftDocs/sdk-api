@@ -4,17 +4,16 @@ title: ImmSetCompositionStringA function
 author: windows-sdk-content
 description: Sets the characters, attributes, and clauses of the composition and reading strings.
 old-location: intl\immsetcompositionstring.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ImmSetCompositionStringW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmSetCompositionStringA function

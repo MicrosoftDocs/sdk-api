@@ -4,17 +4,16 @@ title: MprAdminInterfaceTransportRemove function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportRemove function removes a transport (for example, IP or IPX) from a specified interface.
 old-location: rras\mpradmininterfacetransportremove.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceTransportRemove
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceTransportRemove function

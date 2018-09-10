@@ -4,17 +4,16 @@ title: CertFreeCertificateChainEngine function
 author: windows-sdk-content
 description: The CertFreeCertificateChainEngine function frees a certificate trust engine.
 old-location: security\certfreecertificatechainengine.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertFreeCertificateChainEngine
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertFreeCertificateChainEngine function

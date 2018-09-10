@@ -4,17 +4,16 @@ title: IObjectContext::IsCallerInRole
 author: windows-sdk-content
 description: Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
 old-location: cos\iobjectcontext_iscallerinrole.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8e545cc5-ad4e-43b9-a834-c9d470df24dd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IObjectContext interface [COM+],IsCallerInRole method, IObjectContext.IsCallerInRole, IObjectContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],IObjectContext interface, _cos_IObjectContext_IsCallerInRole, comsvcs/IObjectContext::IsCallerInRole, cos.iobjectcontext_iscallerinrole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContext.IsCallerInRole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContext::IsCallerInRole

@@ -4,17 +4,16 @@ title: ILaunchSourceViewSizePreference::GetSourceViewToPosition
 author: windows-sdk-content
 description: Retrieves the position of the source application window.
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewToPosition.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5B2D9CC9-D332-474E-A655-FBFC5E54AAE9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSourceViewToPosition, GetSourceViewToPosition method [Windows Shell], GetSourceViewToPosition method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewToPosition method, ILaunchSourceViewSizePreference.GetSourceViewToPosition, ILaunchSourceViewSizePreference::GetSourceViewToPosition, shell.ILaunchSourceViewSizePreference_GetSourceViewToPosition, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILaunchSourceViewSizePreference.GetSourceViewToPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILaunchSourceViewSizePreference::GetSourceViewToPosition

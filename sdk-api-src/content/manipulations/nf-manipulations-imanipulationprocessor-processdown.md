@@ -4,17 +4,16 @@ title: IManipulationProcessor::ProcessDown
 author: windows-sdk-content
 description: The ProcessDown method feeds touch down data to the manipulation processor associated with a target.
 old-location: wintouch\imanipulationprocessor_processdown.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 2c192bc4-6922-4c70-961d-1f8684ad792b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDown method, IManipulationProcessor.ProcessDown, IManipulationProcessor::ProcessDown, ProcessDown, ProcessDown method [Windows Touch], ProcessDown method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDown, wintouch.imanipulationprocessor_processdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.ProcessDown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::ProcessDown

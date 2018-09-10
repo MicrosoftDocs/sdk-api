@@ -4,17 +4,16 @@ title: SHOpenWithDialog function
 author: windows-sdk-content
 description: Displays the Open With dialog box.
 old-location: shell\SHOpenWithDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHOpenWithDialog
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHOpenWithDialog function

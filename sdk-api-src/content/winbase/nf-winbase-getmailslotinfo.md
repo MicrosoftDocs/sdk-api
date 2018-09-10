@@ -4,17 +4,16 @@ title: GetMailslotInfo function
 author: windows-sdk-content
 description: Retrieves information about the specified mailslot.
 old-location: base\getmailslotinfo.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: 873b4dbe-f808-4731-9314-a595ef7ef3c5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetMailslotInfo, GetMailslotInfo function, MAILSLOT_NO_MESSAGE, _win32_getmailslotinfo, base.getmailslotinfo, winbase/GetMailslotInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetMailslotInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetMailslotInfo function

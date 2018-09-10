@@ -4,7 +4,7 @@ title: "_WSABUF"
 author: windows-sdk-content
 description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.
 old-location: winsock\wsabuf_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSABUF, *LPWSABUF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSABUF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSABUF, *LPWSABUF
+req.redist: 
 ---
 
 # _WSABUF structure

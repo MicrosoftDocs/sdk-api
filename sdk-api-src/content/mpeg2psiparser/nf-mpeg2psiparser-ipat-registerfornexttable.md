@@ -4,17 +4,16 @@ title: IPAT::RegisterForNextTable
 author: windows-sdk-content
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipat_registerfornexttable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 347d8c6f-0934-4ea0-9914-9b4ac47a9306
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForNextTable method, IPAT.RegisterForNextTable, IPAT::RegisterForNextTable, IPATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForNextTable, mstv.ipat_registerfornexttable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPAT.RegisterForNextTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPAT::RegisterForNextTable

@@ -4,17 +4,16 @@ title: HSTRING_UserMarshal64 function
 author: windows-sdk-content
 description: Marshals an HSTRING object into the RPC buffer.
 old-location: winrt\hstring_usermarshal64.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 31B9885A-FE5B-4375-883E-F8DBD5F2F4D1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HSTRING_UserMarshal64, HSTRING_UserMarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal64, winrt.hstring_usermarshal64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_RECORD, *PEVENT_RECORD
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HSTRING_UserMarshal64
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # HSTRING_UserMarshal64 function

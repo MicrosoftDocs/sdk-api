@@ -4,17 +4,16 @@ title: IMessageFilter::MessagePending
 author: windows-sdk-content
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
 old-location: com\imessagefilter_messagepending.htm
-old-project: com
+tech.root: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageFilter.MessagePending
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageFilter::MessagePending

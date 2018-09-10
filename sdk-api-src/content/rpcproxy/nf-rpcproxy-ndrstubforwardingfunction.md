@@ -4,17 +4,16 @@ title: NdrStubForwardingFunction function
 author: windows-sdk-content
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
 old-location: rpc\ndrstubforwardingfunction.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrStubForwardingFunction
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrStubForwardingFunction function

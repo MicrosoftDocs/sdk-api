@@ -4,17 +4,16 @@ title: IUPnPServices::get_Count
 author: windows-sdk-content
 description: The Count property specifies the number of services in the collection.
 old-location: upnp\iupnpservices_count.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Count method, IUPnPServices.get_Count, IUPnPServices::get_Count, _upnp_iupnpservices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_count, upnp/IUPnPServices::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServices.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServices::get_Count

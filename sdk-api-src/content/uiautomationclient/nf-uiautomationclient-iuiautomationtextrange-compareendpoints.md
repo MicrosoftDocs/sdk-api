@@ -4,17 +4,16 @@ title: IUIAutomationTextRange::CompareEndpoints
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the start or end endpoint of this text range is the same as the start or end endpoint of another text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextRange.CompareEndpoints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextRange::CompareEndpoints
@@ -60,9 +58,9 @@ Retrieves a value that specifies whether the start or end endpoint of this text 
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param range [in]
@@ -70,6 +68,11 @@ Retrieves a value that specifies whether the start or end endpoint of this text 
 Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c92145">IUIAutomationTextRange</a>*</b>
 
 A pointer to the text range to compare.
+
+
+### -param arg2
+
+TBD
 
 
 ### -param compValue [out, retval]

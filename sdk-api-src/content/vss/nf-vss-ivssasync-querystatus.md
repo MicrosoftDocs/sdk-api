@@ -4,17 +4,16 @@ title: IVssAsync::QueryStatus
 author: windows-sdk-content
 description: The QueryStatus method queries the status of an asynchronous operation.
 old-location: base\ivssasync_querystatus.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus, IVssAsync::QueryStatus, QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS],IVssAsync interface, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssAsync.QueryStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssAsync::QueryStatus

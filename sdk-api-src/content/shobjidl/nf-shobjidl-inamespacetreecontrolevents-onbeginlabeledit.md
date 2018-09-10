@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnBeginLabelEdit
 author: windows-sdk-content
 description: Called before the IShellItem goes into edit mode.
 old-location: shell\INameSpaceTreeControlEvents_OnBeginLabelEdit.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cf97e4e9-cd4c-48c0-8230-2152c9767ef2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeginLabelEdit method, INameSpaceTreeControlEvents.OnBeginLabelEdit, INameSpaceTreeControlEvents::OnBeginLabelEdit, OnBeginLabelEdit, OnBeginLabelEdit method [Windows Shell], OnBeginLabelEdit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeginLabelEdit, shell.INameSpaceTreeControlEvents_OnBeginLabelEdit, shobjidl/INameSpaceTreeControlEvents::OnBeginLabelEdit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnBeginLabelEdit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnBeginLabelEdit

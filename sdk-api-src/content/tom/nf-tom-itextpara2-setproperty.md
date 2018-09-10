@@ -4,17 +4,16 @@ title: ITextPara2::SetProperty
 author: windows-sdk-content
 description: Sets the property value.
 old-location: controls\itextpara2_setproperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 5a95c055-5118-4c2a-8f63-3a2a3114451e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetProperty method, ITextPara2.SetProperty, ITextPara2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextPara2 interface, controls.itextpara2_setproperty, tom/ITextPara2::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara2.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara2::SetProperty

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxReceiptOptions.get_AuthenticationType
 title: IFaxReceiptOptions::get_AuthenticationType
 author: windows-sdk-content
-description: The AuthenticationType property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server.
-old-location: fax\_mfax_faxreceiptoptions_authenticationtype_vb.htm
-old-project: Fax
+description: The IFaxReceiptOptions::get_AuthenticationType property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server.
+old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AuthenticationType property, FaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.get_AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype_vb, get_AuthenticationType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],IFaxReceiptOptions interface, IFaxReceiptOptions interface [Fax Service],AuthenticationType property, IFaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.get_AuthenticationType, IFaxReceiptOptions::AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, IFaxReceiptOptions::put_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_authenticationtype_cpp, faxcomex/IFaxReceiptOptions::AuthenticationType, faxcomex/IFaxReceiptOptions::get_AuthenticationType, faxcomex/IFaxReceiptOptions::put_AuthenticationType, get_AuthenticationType
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxReceiptOptions.AuthenticationType
+ - IFaxReceiptOptions.AuthenticationType
+ - IFaxReceiptOptions.get_AuthenticationType
+ - IFaxReceiptOptions.put_AuthenticationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxReceiptOptions::get_AuthenticationType
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AuthenticationType</b> property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server. 
+The <b>IFaxReceiptOptions::get_AuthenticationType</b> property specifies the type of authentication the fax service uses when connecting to an Simple Mail Transport Protocol (SMTP) server. 
 
 This property is read/write.
 

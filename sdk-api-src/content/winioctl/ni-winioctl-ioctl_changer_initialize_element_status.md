@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 author: windows-sdk-content
 description: Initializes the status of all elements or the specified elements of a particular type.
 old-location: base\ioctl_changer_initialize_element_status.htm
-old-project: devio
+tech.root: devio
 ms.assetid: be054a22-cde4-4efd-bd66-eb67b007fd19
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL

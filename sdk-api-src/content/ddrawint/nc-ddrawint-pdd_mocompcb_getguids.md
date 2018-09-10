@@ -4,7 +4,7 @@ title: PDD_MOCOMPCB_GETGUIDS
 author: windows-sdk-content
 description: The DdMoCompGetGuids callback function retrieves the number of GUIDs the driver supports.
 old-location: display\ddmocompgetguids.htm
-old-project: display
+tech.root: display
 ms.assetid: 22c6a3f2-4a27-4a4b-a021-8f2be04e4f87
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdMoCompGetGuids
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_MOCOMPCB_GETGUIDS callback function

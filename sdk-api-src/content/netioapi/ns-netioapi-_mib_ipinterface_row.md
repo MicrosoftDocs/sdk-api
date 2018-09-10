@@ -4,7 +4,7 @@ title: "_MIB_IPINTERFACE_ROW"
 author: windows-sdk-content
 description: Stores interface management information for a particular IP address family on a network interface.
 old-location: mib\mib_ipinterface_row.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IPINTERFACE_ROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
+req.redist: 
 ---
 
 # _MIB_IPINTERFACE_ROW structure

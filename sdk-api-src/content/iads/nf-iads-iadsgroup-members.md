@@ -4,17 +4,16 @@ title: IADsGroup::Members
 author: windows-sdk-content
 description: Retrieves a collection of the immediate members of the group.
 old-location: adsi\iadsgroup_members.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c909f779-ee27-4eb3-aee2-892ccc2a196e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsGroup interface [ADSI],Members method, IADsGroup.Members, IADsGroup::Members, Members, Members method [ADSI], Members method [ADSI],IADsGroup interface, _ds_iadsgroup_members, adsi.iadsgroup__members, adsi.iadsgroup_members, iads/IADsGroup::Members
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsGroup.Members
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsGroup::Members

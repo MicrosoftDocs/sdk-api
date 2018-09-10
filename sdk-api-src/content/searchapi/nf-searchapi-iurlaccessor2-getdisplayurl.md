@@ -4,17 +4,16 @@ title: IUrlAccessor2::GetDisplayUrl
 author: windows-sdk-content
 description: Gets the user-friendly path for the URL item.
 old-location: search\_search_IUrlAccessor2_GetDisplayUrl.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getdisplayurl.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDisplayUrl, GetDisplayUrl method [search], GetDisplayUrl method [search],IUrlAccessor2 interface, GetDisplayUrl method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetDisplayUrl method, IUrlAccessor2.GetDisplayUrl, IUrlAccessor2::GetDisplayUrl, IUrlAccessor4 interface [search],GetDisplayUrl method, IUrlAccessor4::GetDisplayUrl, _search_IUrlAccessor2_GetDisplayUrl, search._search_IUrlAccessor2_GetDisplayUrl, searchapi/IUrlAccessor2::GetDisplayUrl, searchapi/IUrlAccessor4::GetDisplayUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUrlAccessor4.GetDisplayUrl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IUrlAccessor2::GetDisplayUrl

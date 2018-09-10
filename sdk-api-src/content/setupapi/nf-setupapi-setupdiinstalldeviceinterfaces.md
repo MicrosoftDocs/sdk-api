@@ -4,17 +4,16 @@ title: SetupDiInstallDeviceInterfaces function
 author: windows-sdk-content
 description: The SetupDiInstallDeviceInterfaces function is the default handler for the DIF_INSTALLINTERFACES installation request.
 old-location: devinst\setupdiinstalldeviceinterfaces.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: c47d83f6-9ae5-43a9-a6ed-b0441b490e8d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiInstallDeviceInterfaces
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiInstallDeviceInterfaces function

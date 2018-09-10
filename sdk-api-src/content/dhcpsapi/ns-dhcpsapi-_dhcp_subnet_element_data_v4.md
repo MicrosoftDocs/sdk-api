@@ -4,7 +4,7 @@ title: "_DHCP_SUBNET_ELEMENT_DATA_V4"
 author: windows-sdk-content
 description: Defines an element that describes a feature or restriction of a subnet.
 old-location: dhcp\dhcp_subnet_element_data_v4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: d17725da-516b-4be6-839e-9876653e63c4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SUBNET_ELEMENT_DATA_V4, *LPDHCP_SUBNET_ELEMENT_DATA_V4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SUBNET_ELEMENT_DATA_V4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SUBNET_ELEMENT_DATA_V4, *LPDHCP_SUBNET_ELEMENT_DATA_V4
+req.redist: 
 ---
 
 # _DHCP_SUBNET_ELEMENT_DATA_V4 structure

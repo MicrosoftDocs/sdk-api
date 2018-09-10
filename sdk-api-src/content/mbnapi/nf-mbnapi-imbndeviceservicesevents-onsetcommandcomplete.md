@@ -4,17 +4,16 @@ title: IMbnDeviceServicesEvents::OnSetCommandComplete
 author: windows-sdk-content
 description: Notification method indicating that a device service SET request has completed.
 old-location: mbn\imbndeviceservicesevents_onsetcommandcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: A388F548-453B-4DAB-8AD8-ABC26B22F20E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnSetCommandComplete method, IMbnDeviceServicesEvents.OnSetCommandComplete, IMbnDeviceServicesEvents::OnSetCommandComplete, OnSetCommandComplete, OnSetCommandComplete method [Microsoft Broadband Networks], OnSetCommandComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onsetcommandcomplete, mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceServicesEvents.OnSetCommandComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceServicesEvents::OnSetCommandComplete

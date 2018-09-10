@@ -4,17 +4,16 @@ title: IAnchor::Clone
 author: windows-sdk-content
 description: The IAnchor::Clone method produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
 old-location: tsf\ianchor_clone.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 2c5e767a-5f66-4ecf-89f1-b27ed38e887b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Clone method, IAnchor.Clone, IAnchor::Clone, textstor/IAnchor::Clone, tsf.ianchor_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::Clone

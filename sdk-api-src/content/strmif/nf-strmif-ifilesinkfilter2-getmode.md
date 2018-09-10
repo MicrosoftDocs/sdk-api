@@ -4,17 +4,16 @@ title: IFileSinkFilter2::GetMode
 author: windows-sdk-content
 description: The GetMode method retrieves whether the file writer destroys the file when it creates the new one.
 old-location: dshow\ifilesinkfilter2_getmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b2a8e34e-a6c1-448b-be6e-31fba9d64f6e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IFileSinkFilter2 interface, IFileSinkFilter2 interface [DirectShow],GetMode method, IFileSinkFilter2.GetMode, IFileSinkFilter2::GetMode, IFileSinkFilter2GetMode, dshow.ifilesinkfilter2_getmode, strmif/IFileSinkFilter2::GetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFileSinkFilter2.GetMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSinkFilter2::GetMode
@@ -66,7 +64,7 @@ The <code>GetMode</code> method retrieves whether the file writer destroys the f
 
 ### -param pdwFlags
 
-
+TBD
 
 
 

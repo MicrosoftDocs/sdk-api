@@ -4,7 +4,7 @@ title: DXGI_SCALING
 author: windows-sdk-content
 description: Identifies resize behavior when the back-buffer size does not match the size of the target output.
 old-location: direct3ddxgi\dxgi_scaling.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SCALING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_SCALING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_SCALING
+req.redist: 
 ---
 
 # DXGI_SCALING enumeration

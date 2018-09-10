@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetTime
 author: windows-sdk-content
 description: Gets the creation time.
 old-location: shell\ISyncMgrEvent_GetTime.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1cfe8555-4c63-443a-b3da-e671f8e343d4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetTime, GetTime method [Windows Shell], GetTime method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetTime method, ISyncMgrEvent.GetTime, ISyncMgrEvent::GetTime, _shell_ISyncMgrEvent_GetTime, shell.ISyncMgrEvent_GetTime, syncmgr/ISyncMgrEvent::GetTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetTime

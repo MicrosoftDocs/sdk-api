@@ -4,7 +4,7 @@ title: SCNRT_STATUS
 author: windows-sdk-content
 description: Indicates whether to enable or disable Async Register and Deregister for SHChangeNotifyRegisterThread.
 old-location: shell\SCNRT_STATUS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 31fd993b-d8cb-40cc-9f31-15711dba1b10
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCNRT_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCNRT_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SCNRT_STATUS
+req.redist: 
 ---
 
 # SCNRT_STATUS enumeration

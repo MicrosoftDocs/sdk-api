@@ -4,7 +4,7 @@ title: IActivationFactory
 author: windows-sdk-content
 description: Enables classes to be activated by the Windows Runtime.
 old-location: winrt\iactivationfactory.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: activation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IActivationFactory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IActivationFactory interface

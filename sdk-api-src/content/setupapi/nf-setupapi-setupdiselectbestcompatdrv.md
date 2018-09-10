@@ -4,17 +4,16 @@ title: SetupDiSelectBestCompatDrv function
 author: windows-sdk-content
 description: The SetupDiSelectBestCompatDrv function is the default handler for the DIF_SELECTBESTCOMPATDRV installation request.
 old-location: devinst\setupdiselectbestcompatdrv.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: fef435a6-b6cd-47be-bf63-358478ec3cb6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSelectBestCompatDrv, SetupDiSelectBestCompatDrv function [Device and Driver Installation], devinst.setupdiselectbestcompatdrv, di-rtns_3dee9465-1e0f-4efc-beb2-280c6b2621e9.xml, setupapi/SetupDiSelectBestCompatDrv
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiSelectBestCompatDrv
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSelectBestCompatDrv function

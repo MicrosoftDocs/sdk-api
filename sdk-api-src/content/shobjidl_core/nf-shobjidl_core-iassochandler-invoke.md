@@ -4,17 +4,16 @@ title: IAssocHandler::Invoke
 author: windows-sdk-content
 description: Directly invokes the associated handler.
 old-location: shell\IAssocHandler_Invoke.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d22c987-3a25-4a36-8411-eaed921d066e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAssocHandler interface [Windows Shell],Invoke method, IAssocHandler.Invoke, IAssocHandler::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_Invoke, shell.IAssocHandler_Invoke, shobjidl_core/IAssocHandler::Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::Invoke

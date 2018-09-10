@@ -4,17 +4,16 @@ title: PathCchRemoveFileSpec function
 author: windows-sdk-content
 description: Removes the last element in a path string, whether that element is a file name or a directory name.
 old-location: shell\PathCchRemoveFileSpec.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathCchRemoveFileSpec
 product: Windows
 targetos: Windows
-req.lib: Pathcch.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PathCchRemoveFileSpec function

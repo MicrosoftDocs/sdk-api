@@ -4,17 +4,16 @@ title: IDWriteFontFile::GetReferenceKey
 author: windows-sdk-content
 description: Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released.
 old-location: directwrite\IDWriteFontFile_GetReferenceKey.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 2f76f0a0-2b4a-4983-88b9-0f1f2b7a7027
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetReferenceKey, GetReferenceKey method [Direct Write], GetReferenceKey method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetReferenceKey method, IDWriteFontFile.GetReferenceKey, IDWriteFontFile::GetReferenceKey, directwrite.IDWriteFontFile_GetReferenceKey, dwrite/IDWriteFontFile::GetReferenceKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFile.GetReferenceKey
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFile::GetReferenceKey

@@ -4,7 +4,7 @@ title: "_BrowseDlgConfig_HW"
 author: windows-sdk-content
 description: The PDH_BROWSE_DLG_CONFIG_H structure is used by the PdhBrowseCountersH function to configure the Browse Performance Counters dialog box.
 old-location: perf\pdh_browse_dlg_config_h_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: db30ff94-3238-45a0-a78e-8b3cd00ec79c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_BROWSE_DLG_CONFIG_HW, *PPDH_BROWSE_DLG_CONFIG_HW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PDH_BROWSE_DLG_CONFIG_HW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_BROWSE_DLG_CONFIG_HW, *PPDH_BROWSE_DLG_CONFIG_HW
+req.redist: 
 ---
 
 # _BrowseDlgConfig_HW structure

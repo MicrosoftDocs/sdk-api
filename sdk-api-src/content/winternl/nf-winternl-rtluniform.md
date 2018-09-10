@@ -4,17 +4,16 @@ title: RtlUniform function
 author: windows-sdk-content
 description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.
 old-location: winprog\rtluniform.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlUniform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlUniform function

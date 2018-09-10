@@ -4,17 +4,16 @@ title: RmCancelCurrentTask function
 author: windows-sdk-content
 description: Cancels the current RmShutdown or RmRestart operation. This function must be called from the application that has started the session by calling the RmStartSession function.
 old-location: rstmgr\rmcancelcurrenttask.htm
-old-project: RstMgr
+tech.root: RstMgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_SHUTDOWN_TYPE
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RmCancelCurrentTask
 product: Windows
 targetos: Windows
-req.lib: Rstrtmgr.lib
-req.dll: Rstrtmgr.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RmCancelCurrentTask function

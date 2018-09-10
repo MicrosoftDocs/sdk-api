@@ -4,17 +4,16 @@ title: AuthzInitializeResourceManager function
 author: windows-sdk-content
 description: Uses Authz to verify that clients have access to various resources.
 old-location: security\authzinitializeresourcemanager.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AuthzInitializeResourceManager
 product: Windows
 targetos: Windows
-req.lib: Authz.lib
-req.dll: Authz.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # AuthzInitializeResourceManager function

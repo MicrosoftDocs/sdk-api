@@ -4,17 +4,16 @@ title: SetupDiSetDeviceInterfaceDefault function
 author: windows-sdk-content
 description: The SetupDiSetDeviceInterfaceDefault function sets a device interface as the default interface for a device interface class.
 old-location: devinst\setupdisetdeviceinterfacedefault.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1be4dd1e-6bef-4ef6-9db3-6725c27ec16d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSetDeviceInterfaceDefault, SetupDiSetDeviceInterfaceDefault function [Device and Driver Installation], devinst.setupdisetdeviceinterfacedefault, di-rtns_3c21b60f-d837-4c08-8e1c-816bd88e9ba7.xml, setupapi/SetupDiSetDeviceInterfaceDefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiSetDeviceInterfaceDefault
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetDeviceInterfaceDefault function

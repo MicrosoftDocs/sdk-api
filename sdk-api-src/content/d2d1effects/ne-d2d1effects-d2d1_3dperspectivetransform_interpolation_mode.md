@@ -4,7 +4,7 @@ title: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the 3D perspective transform effect uses on the image. There are 5 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_3dperspectivetransform_interpolation_mode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3B78FAD2-C4C1-4093-8314-8C079D01A4B8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
+req.redist: 
 ---
 
 # D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE enumeration

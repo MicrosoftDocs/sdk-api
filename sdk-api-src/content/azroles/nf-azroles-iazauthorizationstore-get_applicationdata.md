@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_ApplicationData
 author: windows-sdk-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\azauthorizationstore_applicationdata.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 21a76185-6bcf-405a-a2c5-5509b51ed16e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzAuthorizationStore object, ApplicationData property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationData property, IAzAuthorizationStore interface [Security],ApplicationData property, IAzAuthorizationStore.ApplicationData, IAzAuthorizationStore.get_ApplicationData, IAzAuthorizationStore::ApplicationData, IAzAuthorizationStore::get_ApplicationData, IAzAuthorizationStore::put_ApplicationData, azroles/IAzAuthorizationStore::ApplicationData, azroles/IAzAuthorizationStore::get_ApplicationData, azroles/IAzAuthorizationStore::put_ApplicationData, get_ApplicationData, security.azadminmanager_applicationdata, security.azauthorizationstore_applicationdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzAuthorizationStore.ApplicationData
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_ApplicationData

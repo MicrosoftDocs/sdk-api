@@ -4,7 +4,7 @@ title: "_WSDUdpRetransmitParams"
 author: windows-sdk-content
 description: Defines the parameters for repeating a message transimission.
 old-location: ncd\wsdupdretransmitparams.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSDUdpRetransmitParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDUdpRetransmitParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSDUdpRetransmitParams
+req.redist: 
 ---
 
 # _WSDUdpRetransmitParams structure

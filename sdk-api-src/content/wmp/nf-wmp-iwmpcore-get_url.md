@@ -4,17 +4,16 @@ title: IWMPCore::get_URL
 author: windows-sdk-content
 description: The get_URL method retrieves the name of the clip to play.
 old-location: wmp\iwmpcore_get_url.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 54d43a1c-807a-40a5-a703-262d75f88ca0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_URL method, IWMPCore.get_URL, IWMPCore::get_URL, IWMPCoreget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_url, wmp/IWMPCore::get_URL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.get_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::get_URL

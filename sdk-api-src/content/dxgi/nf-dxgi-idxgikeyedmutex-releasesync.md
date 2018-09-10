@@ -4,17 +4,16 @@ title: IDXGIKeyedMutex::ReleaseSync
 author: windows-sdk-content
 description: Using a key, releases exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIKeyedMutex.ReleaseSync
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIKeyedMutex::ReleaseSync

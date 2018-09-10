@@ -4,17 +4,16 @@ title: IEnumVdsObject::Skip
 author: windows-sdk-content
 description: Skips a specified number of objects in the enumeration.
 old-location: base\ienumvdsobject_skip.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumVdsObject interface [VDS],Skip method, IEnumVdsObject.Skip, IEnumVdsObject::Skip, Skip, Skip method [VDS], Skip method [VDS],IEnumVdsObject interface, base.ienumvdsobject_skip, vds/IEnumVdsObject::Skip, vdshwprv/IEnumVdsObject::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumVdsObject.Skip
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumVdsObject::Skip

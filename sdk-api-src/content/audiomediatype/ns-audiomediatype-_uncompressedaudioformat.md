@@ -4,7 +4,7 @@ title: "_UNCOMPRESSEDAUDIOFORMAT"
 author: windows-sdk-content
 description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.
 old-location: audio\uncompressedauudioformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - UNCOMPRESSEDAUDIOFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.redist: 
 ---
 
 # _UNCOMPRESSEDAUDIOFORMAT structure

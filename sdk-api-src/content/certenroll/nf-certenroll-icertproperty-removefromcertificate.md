@@ -4,17 +4,16 @@ title: ICertProperty::RemoveFromCertificate
 author: windows-sdk-content
 description: Disassociates a property from a certificate.
 old-location: security\icertproperty_removefromcertificate_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperty.RemoveFromCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperty::RemoveFromCertificate

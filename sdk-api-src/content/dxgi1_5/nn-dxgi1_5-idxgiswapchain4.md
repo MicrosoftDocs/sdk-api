@@ -4,7 +4,7 @@ title: IDXGISwapChain4
 author: windows-sdk-content
 description: This interface exposes a single method for setting video metadata.
 old-location: direct3ddxgi\idxgiswapchain4.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.lib: Dxgi1_5.lib
+req.dll: Dxgi1_5.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGISwapChain4
 product: Windows
 targetos: Windows
-req.lib: Dxgi1_5.lib
-req.dll: Dxgi1_5.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain4 interface

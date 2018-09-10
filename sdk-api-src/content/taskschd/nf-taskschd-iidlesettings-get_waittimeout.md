@@ -4,17 +4,16 @@ title: IIdleSettings::get_WaitTimeout
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.
 old-location: taskschd\iidlesettings_waittimeout.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: fff7f954-4e57-42bf-ad86-5ddede94279c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],WaitTimeout property, IIdleSettings.WaitTimeout, IIdleSettings.get_WaitTimeout, IIdleSettings::WaitTimeout, IIdleSettings::get_WaitTimeout, IIdleSettings::put_WaitTimeout, WaitTimeout property [Task Scheduler], WaitTimeout property [Task Scheduler],IIdleSettings interface, get_WaitTimeout, taskschd.iidlesettings_waittimeout, taskschd/IIdleSettings::WaitTimeout, taskschd/IIdleSettings::get_WaitTimeout, taskschd/IIdleSettings::put_WaitTimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IIdleSettings.put_WaitTimeout
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IIdleSettings::get_WaitTimeout

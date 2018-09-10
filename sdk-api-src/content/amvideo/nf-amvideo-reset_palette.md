@@ -4,17 +4,16 @@ title: RESET_PALETTE macro
 author: windows-sdk-content
 description: The RESET_PALETTE macro fills the palette entries in a VIDEOINFO structure with zeroes.
 old-location: dshow\reset_palette.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RESET_PALETTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RESET_PALETTE macro

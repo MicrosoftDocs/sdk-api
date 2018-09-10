@@ -4,17 +4,16 @@ title: GetClusterQuorumResource function
 author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterQuorumResource, GetClusterQuorumResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/GetClusterQuorumResource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetClusterQuorumResource
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterQuorumResource function

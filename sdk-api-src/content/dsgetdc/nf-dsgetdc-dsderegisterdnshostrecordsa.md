@@ -4,17 +4,16 @@ title: DsDeregisterDnsHostRecordsA function
 author: windows-sdk-content
 description: The DsDeregisterDnsHostRecords function deletes DNS entries, except for type A records registered by a domain controller. Only an administrator, account operator, or server operator may call this function.
 old-location: ad\dsderegisterdnshostrecords.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 18ab6455-dab2-42d9-b68e-a8f0ad2d8091
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsDeregisterDnsHostRecords, DsDeregisterDnsHostRecords function [Active Directory], DsDeregisterDnsHostRecordsA, DsDeregisterDnsHostRecordsW, _glines_dsderegisterdnshostrecords, ad.dsderegisterdnshostrecords, dsgetdc/DsDeregisterDnsHostRecords, dsgetdc/DsDeregisterDnsHostRecordsA, dsgetdc/DsDeregisterDnsHostRecordsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsDeregisterDnsHostRecordsW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsDeregisterDnsHostRecordsA function

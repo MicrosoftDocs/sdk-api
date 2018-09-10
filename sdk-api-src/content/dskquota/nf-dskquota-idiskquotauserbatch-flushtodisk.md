@@ -4,17 +4,16 @@ title: IDiskQuotaUserBatch::FlushToDisk
 author: windows-sdk-content
 description: Writes user object changes to disk in a single call to the underlying file system.
 old-location: fs\idiskquotauserbatch_flushtodisk.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],FlushToDisk method, IDiskQuotaUserBatch.FlushToDisk, IDiskQuotaUserBatch::FlushToDisk, _win32_idiskquotauserbatch_flushtodisk, base.idiskquotauserbatch_flushtodisk, dskquota/IDiskQuotaUserBatch::FlushToDisk, fs.idiskquotauserbatch_flushtodisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUserBatch.FlushToDisk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUserBatch::FlushToDisk

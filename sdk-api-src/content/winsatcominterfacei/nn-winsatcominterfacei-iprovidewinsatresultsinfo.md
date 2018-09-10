@@ -4,7 +4,7 @@ title: IProvideWinSATResultsInfo
 author: windows-sdk-content
 description: Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
 old-location: winsat\iprovidewinsatresultsinfo.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: bd15bc63-a918-43a7-9864-4206a0b6af84
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProvideWinSATResultsInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideWinSATResultsInfo interface

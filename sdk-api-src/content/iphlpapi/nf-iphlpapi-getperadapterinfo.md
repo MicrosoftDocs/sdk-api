@@ -4,17 +4,16 @@ title: GetPerAdapterInfo function
 author: windows-sdk-content
 description: The GetPerAdapterInfo function retrieves information about the adapter corresponding to the specified interface.
 old-location: iphlp\getperadapterinfo.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: fc1ae7e4-f856-4b48-8ab4-56cd511ed161
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetPerAdapterInfo, GetPerAdapterInfo function [IP Helper], _iphlp_getperadapterinfo, iphlp.getperadapterinfo, iphlpapi/GetPerAdapterInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetPerAdapterInfo
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetPerAdapterInfo function

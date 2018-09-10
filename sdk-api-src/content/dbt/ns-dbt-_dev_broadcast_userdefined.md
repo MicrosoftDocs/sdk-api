@@ -4,7 +4,7 @@ title: "_DEV_BROADCAST_USERDEFINED"
 author: windows-sdk-content
 description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.
 old-location: base\_dev_broadcast_userdefined_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: e90fbce2-cae7-4e78-b6f5-82b200390cb7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - _DEV_BROADCAST_USERDEFINED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # _DEV_BROADCAST_USERDEFINED structure

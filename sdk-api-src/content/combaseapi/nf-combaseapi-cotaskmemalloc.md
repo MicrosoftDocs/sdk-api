@@ -4,17 +4,16 @@ title: CoTaskMemAlloc function
 author: windows-sdk-content
 description: Allocates a block of task memory in the same way that IMalloc::Alloc does.
 old-location: com\cotaskmemalloc.htm
-old-project: com
+tech.root: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc, com.cotaskmemalloc, combaseapi/CoTaskMemAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoTaskMemAlloc
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoTaskMemAlloc function

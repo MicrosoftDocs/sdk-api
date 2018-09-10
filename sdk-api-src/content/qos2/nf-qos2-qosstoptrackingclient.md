@@ -4,17 +4,16 @@ title: QOSStopTrackingClient function
 author: windows-sdk-content
 description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
 old-location: qos\qosstoptrackingclient.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSStopTrackingClient
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSStopTrackingClient function

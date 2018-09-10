@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::GetSyncProviderState
 author: windows-sdk-content
 description: Returns the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4e2e2e17-e435-4def-9aee-9109e0e06a8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSyncProviderState, GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderState method, ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.GetSyncProviderState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::GetSyncProviderState

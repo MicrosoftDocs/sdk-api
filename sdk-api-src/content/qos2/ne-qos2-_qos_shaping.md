@@ -4,7 +4,7 @@ title: "_QOS_SHAPING"
 author: windows-sdk-content
 description: The QOS_SHAPING enumeration defines the shaping behavior of a flow.
 old-location: qos\qos_shaping.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 8cd40e29-3af4-440c-8c44-3aeb5291e9c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_SHAPING, *PQOS_SHAPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_SHAPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_SHAPING, *PQOS_SHAPING
+req.redist: 
 ---
 
 # _QOS_SHAPING enumeration

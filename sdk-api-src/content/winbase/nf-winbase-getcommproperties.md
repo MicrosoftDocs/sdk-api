@@ -4,17 +4,16 @@ title: GetCommProperties function
 author: windows-sdk-content
 description: Retrieves information about the communications properties for a specified communications device.
 old-location: base\getcommproperties.htm
-old-project: devio
+tech.root: devio
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproperties, base.getcommproperties, winbase/GetCommProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetCommProperties
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCommProperties function

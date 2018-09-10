@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0005"
 author: windows-sdk-content
 description: Provides the property value of a BITS file.
 old-location: bits\bits_file_property_value.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits5_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BITS_FILE_PROPERTY_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BITS_FILE_PROPERTY_VALUE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0005 structure

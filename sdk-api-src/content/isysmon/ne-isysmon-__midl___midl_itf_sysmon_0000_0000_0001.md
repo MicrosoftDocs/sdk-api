@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_sysmon_0000_0000_0001"
 author: windows-sdk-content
 description: Determines the format in which the counter data is saved to a file.
 old-location: sysmon\sysmonfiletype.htm
-old-project: SysMon
+tech.root: SysMon
 ms.assetid: a3db8565-6316-445e-8fb2-b0bfb08bf72c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: isysmon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SysmonFileType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SysmonFileType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SysmonFileType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sysmon_0000_0000_0001 enumeration

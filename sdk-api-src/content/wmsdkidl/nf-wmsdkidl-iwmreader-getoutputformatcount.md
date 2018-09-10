@@ -4,17 +4,16 @@ title: IWMReader::GetOutputFormatCount
 author: windows-sdk-content
 description: The GetOutputFormatCount method is used for determining all possible format types supported by this output media stream on the reader.
 old-location: wmformat\iwmreader_getoutputformatcount.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 282c5fb6-6b8a-4a13-8a20-4926c6f68800
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputFormatCount method, IWMReader.GetOutputFormatCount, IWMReader::GetOutputFormatCount, IWMReaderGetOutputFormatCount, wmformat.iwmreader_getoutputformatcount, wmsdkidl/IWMReader::GetOutputFormatCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReader.GetOutputFormatCount
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReader::GetOutputFormatCount

@@ -4,17 +4,16 @@ title: IShellFolderView::ArrangeGrid
 author: windows-sdk-content
 description: Arranges moved icons so that they align to an invisible grid.
 old-location: shell\IShellFolderView_ArrangeGrid.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3cb77a02-82da-42d3-97a3-ff47a9ce1831
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ArrangeGrid, ArrangeGrid method [Windows Shell], ArrangeGrid method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],ArrangeGrid method, IShellFolderView.ArrangeGrid, IShellFolderView::ArrangeGrid, _shell_IShellFolderView_ArrangeGrid, shell.IShellFolderView_ArrangeGrid, shlobj_core/IShellFolderView::ArrangeGrid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.ArrangeGrid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::ArrangeGrid

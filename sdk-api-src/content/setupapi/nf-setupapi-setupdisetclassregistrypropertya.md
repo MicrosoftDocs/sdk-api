@@ -4,17 +4,16 @@ title: SetupDiSetClassRegistryPropertyA function
 author: windows-sdk-content
 description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry.
 old-location: devinst\setupdisetclassregistryproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiSetClassRegistryProperty
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetClassRegistryPropertyA function

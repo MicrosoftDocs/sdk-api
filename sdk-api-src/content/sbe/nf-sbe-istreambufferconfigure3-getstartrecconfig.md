@@ -4,17 +4,16 @@ title: IStreamBufferConfigure3::GetStartRecConfig
 author: windows-sdk-content
 description: The GetStartRecConfig method queries whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
 old-location: mstv\istreambufferconfigure3_getstartrecconfig.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: caf50c08-5247-4229-8952-9d538362b33d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStartRecConfig, GetStartRecConfig method [Microsoft TV Technologies], GetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetStartRecConfig method, IStreamBufferConfigure3.GetStartRecConfig, IStreamBufferConfigure3::GetStartRecConfig, IStreamBufferConfigure3GetStartRecConfig, mstv.istreambufferconfigure3_getstartrecconfig, sbe/IStreamBufferConfigure3::GetStartRecConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure3.GetStartRecConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure3::GetStartRecConfig

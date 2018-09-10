@@ -4,17 +4,16 @@ title: IWMDMDevice2::GetSpecifyPropertyPages
 author: windows-sdk-content
 description: The GetSpecifyPropertyPages method retrieves the property page for the device. Property pages can be used to report device-specific properties and branding information.
 old-location: wmdm\iwmdmdevice2_getspecifypropertypages.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: bc46af60-5d74-4ac6-b680-c47b55c444e0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSpecifyPropertyPages, GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetSpecifyPropertyPages method, IWMDMDevice2.GetSpecifyPropertyPages, IWMDMDevice2::GetSpecifyPropertyPages, IWMDMDevice2GetSpecifyPropertyPages, mswmdm/IWMDMDevice2::GetSpecifyPropertyPages, wmdm.iwmdmdevice2_getspecifypropertypages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice2.GetSpecifyPropertyPages
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice2::GetSpecifyPropertyPages

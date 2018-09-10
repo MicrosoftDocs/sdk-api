@@ -4,7 +4,7 @@ title: tagCALPOLESTR
 author: windows-sdk-content
 description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
 old-location: com\calpolestr.htm
-old-project: com
+tech.root: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OCIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALPOLESTR, *LPCALPOLESTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALPOLESTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CALPOLESTR, *LPCALPOLESTR
+req.redist: 
 ---
 
 # tagCALPOLESTR structure

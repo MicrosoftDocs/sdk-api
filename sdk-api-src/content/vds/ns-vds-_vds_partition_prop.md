@@ -4,7 +4,7 @@ title: "_VDS_PARTITION_PROP"
 author: windows-sdk-content
 description: Defines the properties of a partition.
 old-location: base\vds_partition_prop.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PARTITION_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_PROP
+req.redist: 
 ---
 
 # _VDS_PARTITION_PROP structure

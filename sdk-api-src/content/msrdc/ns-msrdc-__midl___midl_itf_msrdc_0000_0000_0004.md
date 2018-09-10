@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0004"
 author: windows-sdk-content
 description: Contains information about a chunk that is required to synchronize two sets of data.
 old-location: rdc\rdcneed.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcNeed
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RdcNeed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RdcNeed
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0004 structure

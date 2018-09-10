@@ -4,17 +4,16 @@ title: IDirectMusicSynth::GetLatencyClock
 author: windows-sdk-content
 description: The GetLatencyClock method retrieves a reference to the IReferenceClock interface (described in the Microsoft Windows SDK documentation) of the reference-clock object that tracks the current mix time.
 old-location: audio\idirectmusicsynth_getlatencyclock.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 36690d54-dc88-4e31-8f66-8a0b48be2712
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetLatencyClock method, IDirectMusicSynth.GetLatencyClock, IDirectMusicSynth::GetLatencyClock, audio.idirectmusicsynth_getlatencyclock, audmp-routines_79ca400b-e04b-4381-aacb-79a3f9415683.xml, dmusics/IDirectMusicSynth::GetLatencyClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.GetLatencyClock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::GetLatencyClock

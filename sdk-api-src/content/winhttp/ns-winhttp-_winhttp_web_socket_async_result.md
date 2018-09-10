@@ -4,7 +4,7 @@ title: "_WINHTTP_WEB_SOCKET_ASYNC_RESULT"
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_ASYNC_RESULT includes the result status of a WebSocket operation.
 old-location: http\winhttp_web_socket_async_result.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 90424980-9e30-465d-b948-820251c05357
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_WEB_SOCKET_ASYNC_RESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_WEB_SOCKET_ASYNC_RESULT
+req.redist: 
 ---
 
 # _WINHTTP_WEB_SOCKET_ASYNC_RESULT structure

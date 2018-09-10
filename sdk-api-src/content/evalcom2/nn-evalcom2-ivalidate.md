@@ -4,7 +4,7 @@ title: IValidate
 author: windows-sdk-content
 description: The IValidate interface enables authoring tools to validate a Windows Installer package against a set of Internal Consistency Evaluators.
 old-location: setup\ivalidate.htm
-old-project: msi
+tech.root: msi
 ms.assetid: b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValidate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Evalcom2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IValidate interface

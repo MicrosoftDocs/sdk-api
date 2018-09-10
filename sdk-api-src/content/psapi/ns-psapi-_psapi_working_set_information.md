@@ -4,7 +4,7 @@ title: "_PSAPI_WORKING_SET_INFORMATION"
 author: windows-sdk-content
 description: Contains working set information for a process.
 old-location: psapi\psapi_working_set_information.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 59ca42c0-ca88-4153-b061-980d961a8ca2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSAPI_WORKING_SET_INFORMATION, *PPSAPI_WORKING_SET_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSAPI_WORKING_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSAPI_WORKING_SET_INFORMATION, *PPSAPI_WORKING_SET_INFORMATION
+req.redist: 
 ---
 
 # _PSAPI_WORKING_SET_INFORMATION structure

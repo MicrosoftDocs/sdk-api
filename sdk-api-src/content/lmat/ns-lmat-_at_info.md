@@ -4,7 +4,7 @@ title: "_AT_INFO"
 author: windows-sdk-content
 description: The AT_INFO structure contains information about a job.
 old-location: netmgmt\at_info_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmat.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
+req.redist: 
 ---
 
 # _AT_INFO structure

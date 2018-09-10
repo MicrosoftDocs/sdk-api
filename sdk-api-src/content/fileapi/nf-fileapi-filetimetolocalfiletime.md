@@ -4,17 +4,16 @@ title: FileTimeToLocalFileTime function
 author: windows-sdk-content
 description: Converts a file time to a local file time.
 old-location: base\filetimetolocalfiletime.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 58dfce16-2d7f-4db5-9f84-5dd651d26745
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FileTimeToLocalFileTime, FileTimeToLocalFileTime function, _win32_filetimetolocalfiletime, base.filetimetolocalfiletime, fileapi/FileTimeToLocalFileTime, winbase/FileTimeToLocalFileTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - FileTimeToLocalFileTime
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FileTimeToLocalFileTime function

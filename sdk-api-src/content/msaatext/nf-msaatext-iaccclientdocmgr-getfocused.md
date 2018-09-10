@@ -4,17 +4,16 @@ title: IAccClientDocMgr::GetFocused
 author: windows-sdk-content
 description: Clients call the IAccClientDocMgr::GetFocused method to access a pointer for the document that has focus.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__getfocused.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 102a511b-43ad-48c1-8953-647482fa452b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFocused, GetFocused method [Windows Accessibility], GetFocused method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetFocused method, IAccClientDocMgr.GetFocused, IAccClientDocMgr::GetFocused, _msaa_IAccClientDocMgr_GetFocused, msaa.iaccclientdocmgr_iaccclientdocmgr__getfocused, msaatext/IAccClientDocMgr::GetFocused, winauto.iaccclientdocmgr_iaccclientdocmgr__getfocused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccClientDocMgr.GetFocused
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msaatext.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0Windows 98
 ---
 
 # IAccClientDocMgr::GetFocused

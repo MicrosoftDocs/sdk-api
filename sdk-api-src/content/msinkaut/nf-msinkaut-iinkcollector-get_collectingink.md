@@ -4,17 +4,16 @@ title: IInkCollector::get_CollectingInk
 author: windows-sdk-content
 description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
 old-location: tablet\inkcollector_collectingink.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c0ac36a8-e36e-45a7-b047-14d7f7c8ce14
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],CollectingInk property, IInkCollector.CollectingInk, IInkCollector.get_CollectingInk, IInkCollector::CollectingInk, IInkCollector::get_CollectingInk, InkCollector.get_CollectingInk, c0ac36a8-e36e-45a7-b047-14d7f7c8ce14, get_CollectingInk, msinkaut/IInkCollector::CollectingInk, msinkaut/IInkCollector::get_CollectingInk, tablet.inkcollector_collectingink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkCollector.get_CollectingInk
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::get_CollectingInk

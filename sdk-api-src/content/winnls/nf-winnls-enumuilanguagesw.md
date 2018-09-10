@@ -4,17 +4,16 @@ title: EnumUILanguagesW function
 author: windows-sdk-content
 description: Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list.
 old-location: intl\enumuilanguages.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: f97df853-fc40-4529-b8a5-27069863a9b9
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumUILanguages, EnumUILanguages function [Internationalization for Windows Applications], EnumUILanguagesA, EnumUILanguagesW, MUI_ALL_INSTALLED_LANGUAGES, MUI_GROUP_POLICY, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LICENSED_LANGUAGES, _win32_EnumUILanguages, intl.enumuilanguages, winnls/EnumUILanguages, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - EnumUILanguagesW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumUILanguagesW function

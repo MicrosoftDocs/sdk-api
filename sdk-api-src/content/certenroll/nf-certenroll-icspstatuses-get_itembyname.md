@@ -4,17 +4,16 @@ title: ICspStatuses::get_ItemByName
 author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by provider and algorithm name.
 old-location: security\icspstatuses_itembyname_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: c8b37240-33e6-4982-94f5-c0b937bdce45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspStatuses.get_ItemByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatuses::get_ItemByName

@@ -4,17 +4,16 @@ title: CalculatePopupWindowPosition function
 author: windows-sdk-content
 description: Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle.
 old-location: winmsg\calculatepopupwindowposition.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CalculatePopupWindowPosition, CalculatePopupWindowPosition function [Windows and Messages], TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_LEFTALIGN, TPM_RIGHTALIGN, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERTICAL, TPM_WORKAREA, _win32_CalculatePopupWindowPosition, _win32_calculatepopupwindowposition_cpp, winmsg.calculatepopupwindowposition, winui._win32_calculatepopupwindowposition, winuser/CalculatePopupWindowPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CalculatePopupWindowPosition
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # CalculatePopupWindowPosition function

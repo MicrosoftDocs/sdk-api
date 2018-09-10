@@ -4,7 +4,7 @@ title: "_EVT_RENDER_CONTEXT_FLAGS"
 author: windows-sdk-content
 description: Defines the values that specify the type of information to access from the event.
 old-location: wes\evt_render_context_flags.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 1c933266-28d9-4ef2-b156-eedf4ccb189b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_RENDER_CONTEXT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_RENDER_CONTEXT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_RENDER_CONTEXT_FLAGS
+req.redist: 
 ---
 
 # _EVT_RENDER_CONTEXT_FLAGS enumeration

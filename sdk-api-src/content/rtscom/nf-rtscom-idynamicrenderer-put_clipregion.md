@@ -4,17 +4,16 @@ title: IDynamicRenderer::put_ClipRegion
 author: windows-sdk-content
 description: Gets or sets the clipping region for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_clipregion.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cf11d03d-8f60-44aa-a296-cc44ddc3930a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, put_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IDynamicRenderer.put_ClipRegion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer::put_ClipRegion

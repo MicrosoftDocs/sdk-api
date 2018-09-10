@@ -4,17 +4,16 @@ title: ITextInputPanel::put_DefaultInputArea
 author: windows-sdk-content
 description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_defaultinputarea.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3e221516-631a-4d15-a9ef-bd05c6928067
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Tablet PC], DefaultInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInputArea property, ITextInputPanel.DefaultInputArea, ITextInputPanel.get_DefaultInputArea, ITextInputPanel.put_DefaultInputArea, ITextInputPanel::DefaultInputArea, ITextInputPanel::get_DefaultInputArea, ITextInputPanel::put_DefaultInputArea, peninputpanel/ITextInputPanel::DefaultInputArea, peninputpanel/ITextInputPanel::get_DefaultInputArea, peninputpanel/ITextInputPanel::put_DefaultInputArea, put_DefaultInputArea, tablet.itextinputpanel_defaultinputarea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ITextInputPanel.put_DefaultInputArea
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::put_DefaultInputArea

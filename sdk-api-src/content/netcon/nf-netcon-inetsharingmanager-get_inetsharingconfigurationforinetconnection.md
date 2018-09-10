@@ -4,17 +4,16 @@ title: INetSharingManager::get_INetSharingConfigurationForINetConnection
 author: windows-sdk-content
 description: The get_INetSharingConfigurationForINetConnection method retrieves an INetSharingConfiguration interface for the specified connection.
 old-location: ics\inetsharingmanager_get_inetsharingconfigurationforinetconnection.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 8f774509-0efb-49e5-bf56-61f4810631bd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_INetSharingConfigurationForINetConnection method, INetSharingManager.get_INetSharingConfigurationForINetConnection, INetSharingManager::get_INetSharingConfigurationForINetConnection, _ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection, get_INetSharingConfigurationForINetConnection, get_INetSharingConfigurationForINetConnection method [ICS/ICF], get_INetSharingConfigurationForINetConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection, netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingManager.get_INetSharingConfigurationForINetConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingManager::get_INetSharingConfigurationForINetConnection

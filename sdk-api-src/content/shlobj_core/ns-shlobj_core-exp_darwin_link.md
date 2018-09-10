@@ -4,7 +4,7 @@ title: EXP_DARWIN_LINK
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.
 old-location: shell\EXP_DARWIN_LINK_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 016c539e-6035-4752-99b6-71e2d7199bf0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EXP_DARWIN_LINK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
+req.redist: 
 ---
 
 # EXP_DARWIN_LINK structure

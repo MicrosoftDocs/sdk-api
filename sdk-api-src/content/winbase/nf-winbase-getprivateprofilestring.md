@@ -4,17 +4,16 @@ title: GetPrivateProfileString function
 author: windows-sdk-content
 description: Retrieves a string from the specified section in an initialization file.
 old-location: base\getprivateprofilestring.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetPrivateProfileStringW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetPrivateProfileString function

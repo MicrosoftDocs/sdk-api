@@ -4,17 +4,16 @@ title: UpdatePanningFeedback function
 author: windows-sdk-content
 description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.
 old-location: controls\UpdatePanningFeedback.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UpdatePanningFeedback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # UpdatePanningFeedback function

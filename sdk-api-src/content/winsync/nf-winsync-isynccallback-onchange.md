@@ -4,17 +4,16 @@ title: ISyncCallback::OnChange
 author: windows-sdk-content
 description: Occurs before a change is applied.
 old-location: winsync\isynccallback_onchange.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncCallback.OnChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncCallback::OnChange

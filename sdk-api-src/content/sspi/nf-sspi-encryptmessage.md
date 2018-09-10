@@ -4,17 +4,16 @@ title: EncryptMessage function
 author: windows-sdk-content
 description: Encrypts a message to provide privacy by using Digest.
 old-location: security\encryptmessage__digest_.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - EncryptMessage
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # EncryptMessage function

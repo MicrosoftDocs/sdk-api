@@ -4,17 +4,16 @@ title: ITfRangeBackup::Restore
 author: windows-sdk-content
 description: ITfRangeBackup::Restore method
 old-location: tsf\itfrangebackup_restore.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfRangeBackup.Restore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfRangeBackup::Restore

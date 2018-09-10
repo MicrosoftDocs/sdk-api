@@ -4,17 +4,16 @@ title: IMbnSmsEvents::OnSmsReadComplete
 author: windows-sdk-content
 description: Notification method indicating the completion of a message read operation.
 old-location: mbn\imbnsmsevents_onsmsreadcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 58478c9d-6df2-466b-85bc-1c571f4429ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_FILTER_NOT_SUPPORTED, E_MBN_SMS_INVALID_MEMORY_INDEX, E_MBN_SMS_MEMORY_FAILURE, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsReadComplete method, IMbnSmsEvents.OnSmsReadComplete, IMbnSmsEvents::OnSmsReadComplete, OnSmsReadComplete, OnSmsReadComplete method [Microsoft Broadband Networks], OnSmsReadComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmsreadcomplete, mbnapi/IMbnSmsEvents::OnSmsReadComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSmsEvents.OnSmsReadComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsEvents::OnSmsReadComplete

@@ -4,17 +4,16 @@ title: IWMDMStorageGlobals::GetTotalFree
 author: windows-sdk-content
 description: The GetTotalFree method retrieves the total amount of free space on the storage medium, in bytes.
 old-location: wmdm\iwmdmstorageglobals_gettotalfree.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a97c2d92-dc54-4987-b2b4-e4de2e546a1f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IWMDMStorageGlobals.GetTotalFree, IWMDMStorageGlobals::GetTotalFree, IWMDMStorageGlobalsGetTotalFree, mswmdm/IWMDMStorageGlobals::GetTotalFree, wmdm.iwmdmstorageglobals_gettotalfree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageGlobals.GetTotalFree
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageGlobals::GetTotalFree

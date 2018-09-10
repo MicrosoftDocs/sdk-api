@@ -4,17 +4,16 @@ title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW
 author: windows-sdk-content
 description: Gets the service provider name in string format from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e07ebe5c-b5b3-4604-91c3-3e75042ad074
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordServiceProviderNameW, GetRecordServiceProviderNameW method [Microsoft TV Technologies], GetRecordServiceProviderNameW method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordServiceProviderNameW method, IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW, IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW

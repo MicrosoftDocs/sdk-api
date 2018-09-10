@@ -4,17 +4,16 @@ title: IAMExtendedErrorInfo::get_HasError
 author: windows-sdk-content
 description: The get_HasError method queries whether an error occurred.
 old-location: dshow\iamextendederrorinfo_get_haserror.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedErrorInfo.get_HasError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedErrorInfo::get_HasError

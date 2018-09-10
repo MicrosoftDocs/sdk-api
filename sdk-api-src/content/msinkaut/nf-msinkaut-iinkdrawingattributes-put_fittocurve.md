@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::put_FitToCurve
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether Bezier smoothing is used to render ink.
 old-location: tablet\inkdrawingattributes_fittocurve.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 93b11903-84dd-4f7a-a47c-555d19fede8d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 93b11903-84dd-4f7a-a47c-555d19fede8d, FitToCurve property [Tablet PC], FitToCurve property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],FitToCurve property, IInkDrawingAttributes.FitToCurve, IInkDrawingAttributes.put_FitToCurve, IInkDrawingAttributes::FitToCurve, IInkDrawingAttributes::get_FitToCurve, IInkDrawingAttributes::put_FitToCurve, InkDrawingAttributes.get_FitToCurve, InkDrawingAttributes.put_FitToCurve, msinkaut/IInkDrawingAttributes::FitToCurve, msinkaut/IInkDrawingAttributes::get_FitToCurve, msinkaut/IInkDrawingAttributes::put_FitToCurve, put_FitToCurve, tablet.inkdrawingattributes_fittocurve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_FitToCurve
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::put_FitToCurve

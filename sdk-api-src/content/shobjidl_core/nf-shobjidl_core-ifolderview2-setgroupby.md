@@ -4,17 +4,16 @@ title: IFolderView2::SetGroupBy
 author: windows-sdk-content
 description: Groups the view by the given property key and direction.
 old-location: shell\IFolderView2_SetGroupBy.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d0761cb-7c81-48f7-994d-6dd61062d848
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupBy method, IFolderView2.SetGroupBy, IFolderView2::SetGroupBy, SetGroupBy, SetGroupBy method [Windows Shell], SetGroupBy method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupBy, shell.IFolderView2_SetGroupBy, shobjidl_core/IFolderView2::SetGroupBy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.SetGroupBy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::SetGroupBy

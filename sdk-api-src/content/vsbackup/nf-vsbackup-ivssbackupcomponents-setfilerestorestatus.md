@@ -4,17 +4,16 @@ title: IVssBackupComponents::SetFileRestoreStatus
 author: windows-sdk-content
 description: The SetFileRestoreStatus method indicates whether some, all, or no files were successfully restored.
 old-location: base\ivssbackupcomponents_setfilerestorestatus.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 669d61cc-c586-4dcc-a936-5343a393d371
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetFileRestoreStatus method, IVssBackupComponents.SetFileRestoreStatus, IVssBackupComponents::SetFileRestoreStatus, SetFileRestoreStatus, SetFileRestoreStatus method [VSS], SetFileRestoreStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setfilerestorestatus, base.ivssbackupcomponents_setfilerestorestatus, vsbackup/IVssBackupComponents::SetFileRestoreStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.SetFileRestoreStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::SetFileRestoreStatus
@@ -69,7 +67,7 @@ Writer identifier.
 
 ### -param ct
 
-
+TBD
 
 
 ### -param wszLogicalPath [in]

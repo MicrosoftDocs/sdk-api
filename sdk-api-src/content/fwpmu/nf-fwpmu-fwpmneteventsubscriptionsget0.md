@@ -4,17 +4,16 @@ title: FwpmNetEventSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current net event notification subscriptions.
 old-location: fwp\fwpmneteventsubscriptionsget0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmNetEventSubscriptionsGet0, FwpmNetEventSubscriptionsGet0 function [Filtering], fwp.fwpmneteventsubscriptionsget0, fwpmu/FwpmNetEventSubscriptionsGet0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmNetEventSubscriptionsGet0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmNetEventSubscriptionsGet0 function

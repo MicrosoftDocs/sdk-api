@@ -4,7 +4,7 @@ title: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_
 author: windows-sdk-content
 description: The FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure contains information that describes an IKE Extended mode (EM) failure.Note  FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows 7 and later.
 old-location: fwp\fwpm_net_event_ikeext_em_failure1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 42348e1d-e3b3-4f8c-9fef-15e2e4ebf580
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
+req.redist: 
 ---
 
 # FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_ structure

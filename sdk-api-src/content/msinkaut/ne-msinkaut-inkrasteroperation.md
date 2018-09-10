@@ -4,7 +4,7 @@ title: InkRasterOperation
 author: windows-sdk-content
 description: Defines values for performing raster operations on drawn ink.
 old-location: tablet\inkrasteroperation.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 34403724-b883-4c03-8784-fe8f205d3da6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRasterOperation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkRasterOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkRasterOperation
+req.redist: 
 ---
 
 # InkRasterOperation enumeration

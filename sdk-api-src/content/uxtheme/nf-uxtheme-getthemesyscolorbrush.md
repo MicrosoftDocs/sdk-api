@@ -4,17 +4,16 @@ title: GetThemeSysColorBrush function
 author: windows-sdk-content
 description: Retrieves a system color brush.
 old-location: controls\GetThemeSysColorBrush.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolorbrush.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeSysColorBrush, GetThemeSysColorBrush function [Windows Controls], TMT_ACTIVEBORDER, TMT_ACTIVECAPTION, TMT_APPWORKSPACE, TMT_BACKGROUND, TMT_BTNFACE, TMT_BTNHIGHLIGHT, TMT_BTNSHADOW, TMT_BTNTEXT, TMT_BUTTONALTERNATEFACE, TMT_CAPTIONTEXT, TMT_DKSHADOW3D, TMT_GRADIENTACTIVECAPTION, TMT_GRADIENTINACTIVECAPTION, TMT_GRAYTEXT, TMT_HIGHLIGHT, TMT_HIGHLIGHTTEXT, TMT_HOTTRACKING, TMT_INACTIVEBORDER, TMT_INACTIVECAPTION, TMT_INACTIVECAPTIONTEXT, TMT_INFOBK, TMT_INFOTEXT, TMT_LIGHT3D, TMT_MENUBAR, TMT_MENUHILIGHT, TMT_MENUTEXT, TMT_SCROLLBAR, TMT_WINDOW, TMT_WINDOWFRAME, TMT_WINDOWTEXT, controls.GetThemeSysColorBrush, controls.inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush_cpp, uxtheme/GetThemeSysColorBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetThemeSysColorBrush
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeSysColorBrush function

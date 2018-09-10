@@ -4,17 +4,16 @@ title: IVisualTreeServiceCallback::OnVisualTreeChange
 author: windows-sdk-content
 description: Communicates the state of the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback_onvisualtreechange.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 91D128E7-ECCA-426D-A6D6-773672302C6C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVisualTreeServiceCallback.OnVisualTreeChange, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method,IVisualTreeServiceCallback interface, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeServiceCallback.OnVisualTreeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeServiceCallback::OnVisualTreeChange

@@ -4,17 +4,16 @@ title: SetFilePointerEx function
 author: windows-sdk-content
 description: Moves the file pointer of the specified file.
 old-location: fs\setfilepointerex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a6fdfa00-626d-425d-b00e-c174b19ea4b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetFilePointerEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # SetFilePointerEx function

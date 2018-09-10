@@ -4,7 +4,7 @@ title: IQueryRecentWinSATAssessment
 author: windows-sdk-content
 description: Retrieves details about the results of the most recent formal WinSAT assessment.
 old-location: winsat\iqueryrecentwinsatassessment.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryRecentWinSATAssessment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryRecentWinSATAssessment interface

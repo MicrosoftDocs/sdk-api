@@ -4,17 +4,16 @@ title: FCIFlushCabinet function
 author: windows-sdk-content
 description: The FCIFlushCabinet function completes the current cabinet.
 old-location: winprog\fciflushcabinet.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FCIFlushCabinet
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FCIFlushCabinet function

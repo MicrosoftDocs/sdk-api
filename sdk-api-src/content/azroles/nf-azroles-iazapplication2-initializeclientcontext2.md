@@ -4,17 +4,16 @@ title: IAzApplication2::InitializeClientContext2
 author: windows-sdk-content
 description: Retrieves an IAzClientContext2 object pointer.
 old-location: security\iazapplication2_initializeclientcontext2.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8790ebb0-97eb-47a0-b975-87e0524dcc1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContext2 method, IAzApplication2.InitializeClientContext2, IAzApplication2::InitializeClientContext2, InitializeClientContext2, InitializeClientContext2 method [Security], InitializeClientContext2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContext2, security.iazapplication2_initializeclientcontext2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication2.InitializeClientContext2
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication2::InitializeClientContext2
@@ -71,7 +70,7 @@ Reserved for future use.
 
 ### -param ppClientContext
 
-
+TBD
 
 
 

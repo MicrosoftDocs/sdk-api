@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetName
 author: windows-sdk-content
 description: Retrieves the name strings associated with a disk quota user.
 old-location: fs\idiskquotauser_getname.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d47e064a-d121-41c3-b713-f81ff7052abf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetName, GetName method [Files], GetName method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetName method, IDiskQuotaUser.GetName, IDiskQuotaUser::GetName, _win32_idiskquotauser_getname, base.idiskquotauser_getname, dskquota/IDiskQuotaUser::GetName, fs.idiskquotauser_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetName

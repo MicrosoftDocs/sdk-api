@@ -4,7 +4,7 @@ title: "_WNV_NOTIFICATION_PARAM"
 author: windows-sdk-content
 description: Specifies the version, notification type, and the buffer location in a WnvRequestNotification function call.
 old-location: wnv\wnv_notification_param.htm
-old-project: wnv
+tech.root: wnv
 ms.assetid: C8A27B21-462A-4D70-AA19-743023FD1810
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNV_NOTIFICATION_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
+req.redist: 
 ---
 
 # _WNV_NOTIFICATION_PARAM structure

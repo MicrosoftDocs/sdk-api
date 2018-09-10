@@ -4,17 +4,16 @@ title: QueryThreadpoolStackInformation function
 author: windows-sdk-content
 description: Retrieves the stack reserve and commit sizes for threads in the specified thread pool.
 old-location: base\querythreadpoolstackinformation.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - QueryThreadpoolStackInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # QueryThreadpoolStackInformation function

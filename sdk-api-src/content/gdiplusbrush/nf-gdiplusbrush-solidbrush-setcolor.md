@@ -4,17 +4,16 @@ title: SolidBrush::SetColor
 author: windows-sdk-content
 description: The SolidBrush::SetColor method sets the color of this solid brush.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_SetColor_color_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\setcolor_9color.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: SetColor, SetColor method [GDI+], SetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],SetColor method, SolidBrush.SetColor, SolidBrush::SetColor, _gdiplus_CLASS_SolidBrush_SetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_SetColor_color_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SolidBrush.SetColor
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

@@ -4,7 +4,7 @@ title: "_tagKSJACK_DESCRIPTION2"
 author: windows-sdk-content
 description: The KSJACK_DESCRIPTION2 structure describes an audio jack.To get the description of an audio jack of a connector, call IKsJackDescription2::GetJackDescription2.
 old-location: coreaudio\ksjack_description2.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 67714767-24b8-4838-953a-d6aca0c55bbb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - KSJACK_DESCRIPTION2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
+req.redist: 
 ---
 
 # _tagKSJACK_DESCRIPTION2 structure

@@ -4,17 +4,16 @@ title: IShellImageDataAbort::QueryAbort
 author: windows-sdk-content
 description: Aborts an IShellImageData process such as Decode, Draw, or Scale. This is a callback method.
 old-location: shell\IShellImageDataAbort_QueryAbort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 88823fe3-efde-4ee1-9b4f-685f8df03b29
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellImageDataAbort interface [Windows Shell],QueryAbort method, IShellImageDataAbort.QueryAbort, IShellImageDataAbort::QueryAbort, QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell],IShellImageDataAbort interface, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageDataAbort.QueryAbort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageDataAbort::QueryAbort

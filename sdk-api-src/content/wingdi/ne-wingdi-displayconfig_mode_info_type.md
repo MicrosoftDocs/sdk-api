@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_MODE_INFO_TYPE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the DISPLAYCONFIG_MODE_INFO structure is either source or target mode.
 old-location: display\displayconfig_mode_info_type.htm
-old-project: display
+tech.root: display
 ms.assetid: d5ddb1d5-6b74-471f-86f0-fee72f30b648
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Windows Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_MODE_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_MODE_INFO_TYPE enumeration

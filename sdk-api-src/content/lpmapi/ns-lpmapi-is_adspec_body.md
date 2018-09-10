@@ -4,7 +4,7 @@ title: IS_ADSPEC_BODY
 author: windows-sdk-content
 description: The IS_ADSPEC_BODY structure contains Integrated Services Adspec information.
 old-location: qos\is_adspec_body.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: f788e094-0b50-4104-be15-3593f53120c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IS_ADSPEC_BODY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IS_ADSPEC_BODY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IS_ADSPEC_BODY
+req.redist: 
 ---
 
 # IS_ADSPEC_BODY structure

@@ -4,7 +4,7 @@ title: "_VDS_CONTROLLER_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a controller.
 old-location: base\vds_controller_status.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a888fcb7-83f5-40c1-9f24-efa929aa9f6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_CONTROLLER_STATUS, *PVDS_CONTROLLER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_CONTROLLER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_CONTROLLER_STATUS, *PVDS_CONTROLLER_STATUS
+req.redist: 
 ---
 
 # _VDS_CONTROLLER_STATUS enumeration

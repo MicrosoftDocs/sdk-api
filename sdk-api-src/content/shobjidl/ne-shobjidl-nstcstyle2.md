@@ -4,7 +4,7 @@ title: NSTCSTYLE2
 author: windows-sdk-content
 description: Used by methods of the INameSpaceTreeControl2 to specify extended display styles in a Shell namespace treeview.
 old-location: shell\NSTCSTYLE2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0bfa6900-71c0-44b7-8157-662bee58e6c9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NSTCSTYLE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSTCSTYLE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: NSTCSTYLE2
+req.redist: 
 ---
 
 # NSTCSTYLE2 enumeration

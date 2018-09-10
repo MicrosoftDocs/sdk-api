@@ -4,17 +4,16 @@ title: IVMRMixerControl::SetOutputRect
 author: windows-sdk-content
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 old-location: dshow\ivmrmixercontrol_setoutputrect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e7e1689c-03b4-457e-8d4c-6d59a70c42af
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetOutputRect method, IVMRMixerControl.SetOutputRect, IVMRMixerControl::SetOutputRect, IVMRMixerControlSetMixingPrefs, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setoutputrect, strmif/IVMRMixerControl::SetOutputRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerControl.SetOutputRect
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerControl::SetOutputRect

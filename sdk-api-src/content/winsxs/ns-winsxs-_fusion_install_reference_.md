@@ -4,7 +4,7 @@ title: "_FUSION_INSTALL_REFERENCE_"
 author: windows-sdk-content
 description: The FUSION_INSTALL_REFERENCE structure contains information about the application which references the side-by-side assembly.
 old-location: setup\fusion_install_reference_.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: daa2b625-1522-4239-9c62-65f09b50f74c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FUSION_INSTALL_REFERENCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
+req.redist: 
 ---
 
 # _FUSION_INSTALL_REFERENCE_ structure

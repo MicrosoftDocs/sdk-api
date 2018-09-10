@@ -4,7 +4,7 @@ title: tagBUTTON_SPLITINFO
 author: windows-sdk-content
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
 old-location: controls\BUTTON_SPLITINFO.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BUTTON_SPLITINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
+req.redist: 
 ---
 
 # tagBUTTON_SPLITINFO structure

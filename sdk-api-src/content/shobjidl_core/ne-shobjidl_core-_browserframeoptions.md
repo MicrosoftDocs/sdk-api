@@ -4,7 +4,7 @@ title: "_BROWSERFRAMEOPTIONS"
 author: windows-sdk-content
 description: Used with method IBrowserFrameOptions::GetFrameOptions.
 old-location: shell\BROWSERFRAMEOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e1c75a00-304f-44ca-98a0-a6c76a1ef95f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BROWSERFRAMEOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # _BROWSERFRAMEOPTIONS enumeration

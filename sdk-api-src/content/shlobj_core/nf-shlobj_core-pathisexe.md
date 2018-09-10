@@ -4,17 +4,16 @@ title: PathIsExe function
 author: windows-sdk-content
 description: PathIsExe may be altered or unavailable.
 old-location: shell\PathIsExe.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 54e9dae7-f9c4-48b8-9b91-32ed21365fb7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathIsExe, PathIsExe function [Windows Shell], _win32_PathIsExe, shell.PathIsExe, shlobj_core/PathIsExe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PathIsExe
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PathIsExe function

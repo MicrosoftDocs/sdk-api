@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_ACTIVATE_FN
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any work needed to bring the sensor component out of an idle state.
 old-location: secbiomet\engineadapteractivate.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 0E98D887-A974-4B86-934E-939DEB1946DF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_ACTIVATE_FN callback function

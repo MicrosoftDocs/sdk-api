@@ -4,17 +4,16 @@ title: ITypeInfo::GetMops
 author: windows-sdk-content
 description: Retrieves marshaling information.
 old-location: automat\itypeinfo_getmops.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 6f8f4d4a-c51d-46d3-ad0f-1ee357bb7104
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetMops method, ITypeInfo.GetMops, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetMops
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetMops

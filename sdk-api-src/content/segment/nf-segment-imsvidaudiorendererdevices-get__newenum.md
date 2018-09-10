@@ -4,17 +4,16 @@ title: IMSVidAudioRendererDevices::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidaudiorendererdevices_get__newenum.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: afc8efc7-7e1f-4900-be6b-f41871ad4ebe
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidAudioRendererDevices.get__NewEnum, IMSVidAudioRendererDevices::get__NewEnum, IMSVidAudioRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get__newenum, segment/IMSVidAudioRendererDevices::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAudioRendererDevices.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAudioRendererDevices::get__NewEnum
@@ -62,7 +60,7 @@ The <b>get__NewEnum</b> method retrieves an enumerator for the collection.
 
 ### -param pD
 
-
+TBD
 
 
 

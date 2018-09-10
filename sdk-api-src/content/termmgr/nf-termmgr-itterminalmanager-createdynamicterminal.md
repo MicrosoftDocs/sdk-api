@@ -4,17 +4,16 @@ title: ITTerminalManager::CreateDynamicTerminal
 author: windows-sdk-content
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateDynamicTerminal, CreateDynamicTerminal method [TAPI 2.2], CreateDynamicTerminal method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],CreateDynamicTerminal method, ITTerminalManager.CreateDynamicTerminal, ITTerminalManager::CreateDynamicTerminal, _tapi3_itterminalmanager_createdynamicterminal, tapi3.itterminalmanager_createdynamicterminal, termmgr/ITTerminalManager::CreateDynamicTerminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalManager.CreateDynamicTerminal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalManager::CreateDynamicTerminal

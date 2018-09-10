@@ -4,7 +4,7 @@ title: "_SEC_CHANNEL_BINDINGS"
 author: windows-sdk-content
 description: Specifies channel binding information for a security context.
 old-location: security\sec_channel_bindings.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 1cdbe53f-3fa0-46b1-9449-8fd3db6cddce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_CHANNEL_BINDINGS, *PSEC_CHANNEL_BINDINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_CHANNEL_BINDINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_CHANNEL_BINDINGS, *PSEC_CHANNEL_BINDINGS
+req.redist: 
 ---
 
 # _SEC_CHANNEL_BINDINGS structure

@@ -4,17 +4,16 @@ title: IMFClock::GetProperties
 author: windows-sdk-content
 description: Retrieves the properties of the clock.
 old-location: mf\imfclock_getproperties.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties, GetProperties method [Media Foundation], GetProperties method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetProperties method, IMFClock.GetProperties, IMFClock::GetProperties, mf.imfclock_getproperties, mfidl/IMFClock::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFClock.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFClock::GetProperties

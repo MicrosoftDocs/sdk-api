@@ -4,17 +4,16 @@ title: IMediaObject::ProcessInput
 author: windows-sdk-content
 description: The ProcessInput method delivers a buffer to the specified input stream.
 old-location: dshow\imediaobject_processinput.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f52e9586-f65d-418f-8c1a-c97c0a81d253
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessInput method, IMediaObject.ProcessInput, IMediaObject::ProcessInput, IMediaObjectProcessInput, ProcessInput, ProcessInput method [DirectShow], ProcessInput method [DirectShow],IMediaObject interface, dshow.imediaobject_processinput, mediaobj/IMediaObject::ProcessInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.ProcessInput
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::ProcessInput

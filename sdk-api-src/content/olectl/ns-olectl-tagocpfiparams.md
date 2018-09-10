@@ -4,7 +4,7 @@ title: tagOCPFIPARAMS
 author: windows-sdk-content
 description: Contains parameters used to invoke a property sheet dialog box through the OleCreatePropertyFrameIndirect function.
 old-location: com\ocpfiparams.htm
-old-project: com
+tech.root: com
 ms.assetid: d65d8239-495c-4eee-bd9c-8e803fd09a06
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCPFIPARAMS, *LPOCPFIPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCPFIPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OCPFIPARAMS, *LPOCPFIPARAMS
+req.redist: 
 ---
 
 # tagOCPFIPARAMS structure

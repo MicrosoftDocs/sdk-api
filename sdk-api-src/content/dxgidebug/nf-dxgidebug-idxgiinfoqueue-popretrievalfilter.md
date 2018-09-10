@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::PopRetrievalFilter
 author: windows-sdk-content
 description: Pops a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popretrievalfilter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: E766B599-1168-4E8C-9433-0200D34CD38D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopRetrievalFilter method, IDXGIInfoQueue.PopRetrievalFilter, IDXGIInfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [DXGI], PopRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popretrievalfilter, dxgidebug/IDXGIInfoQueue::PopRetrievalFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.PopRetrievalFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::PopRetrievalFilter

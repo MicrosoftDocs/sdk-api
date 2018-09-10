@@ -4,17 +4,16 @@ title: IRDPSRAPIAttendee::get_Flags
 author: windows-sdk-content
 description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
 old-location: rdp\irdpsrapiattendee_flags.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIAttendee interface, Flags property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee.get_Flags, IRDPSRAPIAttendee::Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP],Flags property, get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIAttendee.Flags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIAttendee::get_Flags

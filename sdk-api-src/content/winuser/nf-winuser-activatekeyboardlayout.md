@@ -4,17 +4,16 @@ title: ActivateKeyboardLayout function
 author: windows-sdk-content
 description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
 old-location: inputdev\activatekeyboardlayout.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\activatekeyboardlayout.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard and Mouse Input], HKL_NEXT, HKL_PREV, KLF_REORDER, KLF_RESET, KLF_SETFORPROCESS, KLF_SHIFTLOCK, KLF_UNLOADPREVIOUS, _win32_ActivateKeyboardLayout, _win32_activatekeyboardlayout_cpp, inputdev.activatekeyboardlayout, winui._win32_activatekeyboardlayout, winuser/ActivateKeyboardLayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - ActivateKeyboardLayout
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ActivateKeyboardLayout function

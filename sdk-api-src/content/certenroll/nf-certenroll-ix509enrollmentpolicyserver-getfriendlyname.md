@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::GetFriendlyName
 author: windows-sdk-content
 description: Retrieves a display name for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.GetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::GetFriendlyName

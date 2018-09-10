@@ -4,17 +4,16 @@ title: IAzApplication::get_GenerateAudits
 author: windows-sdk-content
 description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\iazapplication_generateaudits.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzApplication object, GenerateAudits property [Security],IAzApplication interface, IAzApplication interface [Security],GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication.get_GenerateAudits, IAzApplication::GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, get_GenerateAudits, security.iazapplication_generateaudits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzApplication.GenerateAudits
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_GenerateAudits

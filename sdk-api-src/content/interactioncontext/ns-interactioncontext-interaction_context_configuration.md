@@ -4,7 +4,7 @@ title: INTERACTION_CONTEXT_CONFIGURATION
 author: windows-sdk-content
 description: Defines the configuration of an Interaction Context object that enables, disables, or modifies the behavior of an interaction.
 old-location: input_intcontext\interaction_context_configuration.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERACTION_CONTEXT_CONFIGURATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERACTION_CONTEXT_CONFIGURATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERACTION_CONTEXT_CONFIGURATION
+req.redist: 
 ---
 
 # INTERACTION_CONTEXT_CONFIGURATION structure

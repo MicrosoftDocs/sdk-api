@@ -4,17 +4,16 @@ title: IFileIsInUse::GetSwitchToHWND
 author: windows-sdk-content
 description: Retrieves the handle of the top-level window of the application that is using the file.
 old-location: shell\IFileIsInUse_GetSwitchToHWND.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b4223cb0-2027-4073-9558-99ae27f4e52a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSwitchToHWND, GetSwitchToHWND method [Windows Shell], GetSwitchToHWND method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetSwitchToHWND method, IFileIsInUse.GetSwitchToHWND, IFileIsInUse::GetSwitchToHWND, _shell_IFileIsInUse_GetSwitchToHWND, shell.IFileIsInUse_GetSwitchToHWND, shobjidl_core/IFileIsInUse::GetSwitchToHWND
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileIsInUse.GetSwitchToHWND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileIsInUse::GetSwitchToHWND

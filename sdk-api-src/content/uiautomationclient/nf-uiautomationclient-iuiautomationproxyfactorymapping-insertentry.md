@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactoryMapping::InsertEntry
 author: windows-sdk-content
 description: Insert an entry into the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_InsertEntry.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fe737909-0331-4c5f-8d38-8dce09bd2e44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],InsertEntry method, IUIAutomationProxyFactoryMapping.InsertEntry, IUIAutomationProxyFactoryMapping::InsertEntry, InsertEntry, InsertEntry method [Windows Accessibility], InsertEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntry, uiauto_IUIAutomationProxyFactoryMapping_InsertEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::InsertEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationProxyFactoryMapping.InsertEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactoryMapping::InsertEntry

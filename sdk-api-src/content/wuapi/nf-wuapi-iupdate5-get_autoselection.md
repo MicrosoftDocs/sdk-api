@@ -4,17 +4,16 @@ title: IUpdate5::get_AutoSelection
 author: windows-sdk-content
 description: Gets a value indicating the automatic selection mode of update in the Control Panel of Windows Update.
 old-location: wua\iupdate5_autoselection.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 5b5fdec6-04b3-40ad-b1a6-e5a69f215e39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoSelection property, IUpdate5.AutoSelection, IUpdate5.get_AutoSelection, IUpdate5::AutoSelection, IUpdate5::get_AutoSelection, get_AutoSelection, wua.iupdate5_autoselection, wuapi/IUpdate5::AutoSelection, wuapi/IUpdate5::get_AutoSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdate5.get_AutoSelection
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate5::get_AutoSelection

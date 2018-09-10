@@ -4,17 +4,16 @@ title: CreateResourceIndexer function
 author: windows-sdk-content
 description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.
 old-location: menurc\createresourceindexer.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WitnessTagUpdateHelper
+req.lib: Mrmsupport.lib
+req.dll: Mrmsupport.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateResourceIndexer
 product: Windows
 targetos: Windows
-req.lib: Mrmsupport.lib
-req.dll: Mrmsupport.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateResourceIndexer function

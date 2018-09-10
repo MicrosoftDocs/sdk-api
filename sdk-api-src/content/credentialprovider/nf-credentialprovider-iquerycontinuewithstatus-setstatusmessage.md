@@ -4,17 +4,16 @@ title: IQueryContinueWithStatus::SetStatusMessage
 author: windows-sdk-content
 description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IQueryContinueWithStatus.SetStatusMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryContinueWithStatus::SetStatusMessage

@@ -4,17 +4,16 @@ title: IServerSecurity::RevertToSelf
 author: windows-sdk-content
 description: Restores the authentication information of a thread to what it was before impersonation began.
 old-location: com\iserversecurity_reverttoself.htm
-old-project: com
+tech.root: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurity.RevertToSelf, IServerSecurity::RevertToSelf, RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM],IServerSecurity interface, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IServerSecurity.RevertToSelf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IServerSecurity::RevertToSelf

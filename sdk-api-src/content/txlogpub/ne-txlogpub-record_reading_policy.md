@@ -4,7 +4,7 @@ title: RECORD_READING_POLICY
 author: windows-sdk-content
 description: Specifies a hint about the order in which records are to be read from a log.
 old-location: com\record_reading_policy.htm
-old-project: com
+tech.root: com
 ms.assetid: 79ffd37a-ffeb-46f8-8743-aa3e85648e34
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: txlogpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECORD_READING_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: RECORD_READING_POLICY
+req.redist: 
 ---
 
 # RECORD_READING_POLICY enumeration

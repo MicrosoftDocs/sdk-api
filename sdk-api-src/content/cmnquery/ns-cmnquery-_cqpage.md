@@ -4,7 +4,7 @@ title: "_cqpage"
 author: windows-sdk-content
 description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.
 old-location: ad\cqpage.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CQPAGE, *LPCQPAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CQPAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CQPAGE, *LPCQPAGE
+req.redist: 
 ---
 
 # _cqpage structure

@@ -4,7 +4,7 @@ title: "_tagSOFTDISTINFO"
 author: windows-sdk-content
 description: Contains information about a software update.
 old-location: shell\SOFTDISTINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e113967a-e52c-41d7-961a-2c305790543e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: urlmon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOFTDISTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SOFTDISTINFO, *LPSOFTDISTINFO
+req.redist: 
 ---
 
 # _tagSOFTDISTINFO structure

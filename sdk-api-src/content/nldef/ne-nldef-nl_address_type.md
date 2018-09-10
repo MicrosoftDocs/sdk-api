@@ -4,7 +4,7 @@ title: NL_ADDRESS_TYPE
 author: windows-sdk-content
 description: The NL_ADDRESS_TYPE enumeration type specifies the IP address type of the network layer.
 old-location: netvista\nl_address_type.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fc91bebc-e023-4f6a-a588-c4f1fbecd200
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NL_ADDRESS_TYPE
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
+req.redist: 
 ---
 
 # NL_ADDRESS_TYPE enumeration

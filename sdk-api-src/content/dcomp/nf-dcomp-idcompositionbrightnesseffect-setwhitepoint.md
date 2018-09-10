@@ -4,17 +4,16 @@ title: IDCompositionBrightnessEffect::SetWhitePoint
 author: windows-sdk-content
 description: Sets the upper portion of the brightness transfer curve.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepoint.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C06DFD2A-9B97-4254-BFB5-058FB0ED3F83
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePoint method, IDCompositionBrightnessEffect.SetWhitePoint, IDCompositionBrightnessEffect::SetWhitePoint, SetWhitePoint, SetWhitePoint method [DirectComposition], SetWhitePoint method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePoint, directcomp.idcompositionbrightnesseffect_setwhitepoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionBrightnessEffect.SetWhitePoint
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionBrightnessEffect::SetWhitePoint

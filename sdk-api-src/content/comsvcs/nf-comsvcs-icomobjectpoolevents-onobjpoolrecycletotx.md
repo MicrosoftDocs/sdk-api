@@ -4,17 +4,16 @@ title: IComObjectPoolEvents::OnObjPoolRecycleToTx
 author: windows-sdk-content
 description: Generated when a transactional object is returned to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolrecycletotx.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6acae10b-9fda-4c73-b781-62a480271fd1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolRecycleToTx method, IComObjectPoolEvents.OnObjPoolRecycleToTx, IComObjectPoolEvents::OnObjPoolRecycleToTx, OnObjPoolRecycleToTx, OnObjPoolRecycleToTx method [COM+], OnObjPoolRecycleToTx method [COM+],IComObjectPoolEvents interface, _dtc_icomobjectpoolevents_onobjpoolrecycletotx, comsvcs/IComObjectPoolEvents::OnObjPoolRecycleToTx, cos.icomobjectpoolevents_onobjpoolrecycletotx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectPoolEvents.OnObjPoolRecycleToTx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectPoolEvents::OnObjPoolRecycleToTx

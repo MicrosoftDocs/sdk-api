@@ -4,17 +4,16 @@ title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetPreferredProviders operation.
 old-location: mbn\imbninterfaceevents_onsetpreferredproviderscomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 9cd5d185-ff0f-45f4-91fc-da601d256914
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSetPreferredProvidersComplete method, IMbnInterfaceEvents.OnSetPreferredProvidersComplete, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceEvents::OnSetPreferredProvidersComplete

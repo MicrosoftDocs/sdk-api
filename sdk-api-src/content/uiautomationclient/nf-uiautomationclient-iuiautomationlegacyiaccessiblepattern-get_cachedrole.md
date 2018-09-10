@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::get_CachedRole
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility role of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: efa5ff74-1322-49ab-a7b9-f4394b3c6e64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedRole property, IUIAutomationLegacyIAccessiblePattern.CachedRole, IUIAutomationLegacyIAccessiblePattern.get_CachedRole, IUIAutomationLegacyIAccessiblePattern::CachedRole, IUIAutomationLegacyIAccessiblePattern::get_CachedRole, get_CachedRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.get_CachedRole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedRole

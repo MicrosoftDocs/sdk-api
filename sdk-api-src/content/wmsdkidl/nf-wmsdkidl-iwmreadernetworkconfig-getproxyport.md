@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig::GetProxyPort
 author: windows-sdk-content
 description: The GetProxyPort method retrieves the port number of the proxy server.
 old-location: wmformat\iwmreadernetworkconfig_getproxyport.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 042d702e-b4a1-43f6-b2c4-c81922d7c3f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProxyPort, GetProxyPort method [windows Media Format], GetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyPort method, IWMReaderNetworkConfig.GetProxyPort, IWMReaderNetworkConfig::GetProxyPort, IWMReaderNetworkConfigGetProxyPort, wmformat.iwmreadernetworkconfig_getproxyport, wmsdkidl/IWMReaderNetworkConfig::GetProxyPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig.GetProxyPort
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig::GetProxyPort

@@ -4,17 +4,16 @@ title: ICredentialProvider::SetUsageScenario
 author: windows-sdk-content
 description: Defines the scenarios for which the credential provider is valid. Called whenever the credential provider is initialized.
 old-location: shell\ICredentialProvider_SetUsageScenario.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 62577b41-e115-45df-9f9b-c5c282365a3e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_SECURE_PROMPT, ICredentialProvider interface [Windows Shell],SetUsageScenario method, ICredentialProvider.SetUsageScenario, ICredentialProvider::SetUsageScenario, SetUsageScenario, SetUsageScenario method [Windows Shell], SetUsageScenario method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::SetUsageScenario, shell.ICredentialProvider_SetUsageScenario, shell_ICredentialProvider_SetUsageScenario
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProvider.SetUsageScenario
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProvider::SetUsageScenario

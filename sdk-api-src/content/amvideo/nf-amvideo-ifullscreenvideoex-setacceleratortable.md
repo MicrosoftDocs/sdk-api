@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::SetAcceleratorTable
 author: windows-sdk-content
 description: The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.
 old-location: dshow\ifullscreenvideoex_setacceleratortable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aff393e8-e0a5-418d-8706-3fde96dbcfd9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.SetAcceleratorTable
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::SetAcceleratorTable

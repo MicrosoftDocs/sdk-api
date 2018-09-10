@@ -4,17 +4,16 @@ title: NPCancelConnection function
 author: windows-sdk-content
 description: Disconnects a network connection.
 old-location: security\npcancelconnection.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPCancelConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPCancelConnection function

@@ -4,17 +4,16 @@ title: IPart::RegisterControlChangeCallback
 author: windows-sdk-content
 description: The RegisterControlChangeCallback method registers the IControlChangeNotify interface, which the client implements to receive notifications of status changes in this part.
 old-location: coreaudio\ipart_registercontrolchangecallback.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 58cf52c9-20ee-46c4-926e-c374a4f42240
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPart interface [Core Audio],RegisterControlChangeCallback method, IPart.RegisterControlChangeCallback, IPart::RegisterControlChangeCallback, IPartRegisterControlChangeCallback, RegisterControlChangeCallback, RegisterControlChangeCallback method [Core Audio], RegisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_registercontrolchangecallback, devicetopology/IPart::RegisterControlChangeCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPart.RegisterControlChangeCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPart::RegisterControlChangeCallback

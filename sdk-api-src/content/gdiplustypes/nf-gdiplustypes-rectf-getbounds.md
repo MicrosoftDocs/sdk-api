@@ -4,17 +4,16 @@ title: RectF::GetBounds
 author: windows-sdk-content
 description: The RectF::GetBounds method makes a copy of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetBounds_rect_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getbounds_74rect.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],RectF class, RectF class [GDI+],GetBounds method, RectF.GetBounds, RectF::GetBounds, _gdiplus_CLASS_RectF_GetBounds_rect_, gdiplus._gdiplus_CLASS_RectF_GetBounds_rect_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RectF.GetBounds
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

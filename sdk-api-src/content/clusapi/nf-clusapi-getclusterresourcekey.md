@@ -4,17 +4,16 @@ title: GetClusterResourceKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a resource.
 old-location: mscs\getclusterresourcekey.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 841f28a1-1415-41bb-b8ac-cf17c6d7c6f3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterResourceKey, GetClusterResourceKey function [Failover Cluster], _wolf_getclusterresourcekey, clusapi/GetClusterResourceKey, mscs.getclusterresourcekey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetClusterResourceKey
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterResourceKey function

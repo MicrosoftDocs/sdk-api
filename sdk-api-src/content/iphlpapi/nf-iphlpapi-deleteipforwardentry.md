@@ -4,17 +4,16 @@ title: DeleteIpForwardEntry function
 author: windows-sdk-content
 description: Deletes an existing route in the local computer's IPv4 routing table.
 old-location: iphlp\deleteipforwardentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 70bcfd71-34dd-465d-890b-1dd829632fb0
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteIpForwardEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteIpForwardEntry function

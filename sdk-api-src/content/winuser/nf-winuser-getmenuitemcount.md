@@ -4,17 +4,16 @@ title: GetMenuItemCount function
 author: windows-sdk-content
 description: Determines the number of items in the specified menu.
 old-location: menurc\getmenuitemcount.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemcount.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMenuItemCount, GetMenuItemCount function [Menus and Other Resources], _win32_GetMenuItemCount, _win32_getmenuitemcount_cpp, menurc.getmenuitemcount, winui._win32_getmenuitemcount, winuser/GetMenuItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetMenuItemCount
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetMenuItemCount function

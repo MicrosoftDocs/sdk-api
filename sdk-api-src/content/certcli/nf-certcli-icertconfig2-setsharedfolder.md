@@ -4,17 +4,16 @@ title: ICertConfig2::SetSharedFolder
 author: windows-sdk-content
 description: Specifies the path to be used as the certification authority's (CA) shared folder.
 old-location: security\icertconfig2_setsharedfolder.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertConfig object [Security],SetSharedFolder method, ICertConfig2 interface [Security],SetSharedFolder method, ICertConfig2.SetSharedFolder, ICertConfig2::SetSharedFolder, SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security],CCertConfig object, SetSharedFolder method [Security],ICertConfig2 interface, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertConfig.SetSharedFolder
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertConfig2::SetSharedFolder

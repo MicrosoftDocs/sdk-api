@@ -4,17 +4,16 @@ title: WlanScan function
 author: windows-sdk-content
 description: Requests a scan for available networks on the indicated interface.
 old-location: nwifi\wlanscan.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: cf30b285-9694-4ab0-ad13-c1ec4d8cb6e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanScan, WlanScan function [NativeWIFI], nwifi.wlanscan, wlanapi/WlanScan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlanScan
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # WlanScan function

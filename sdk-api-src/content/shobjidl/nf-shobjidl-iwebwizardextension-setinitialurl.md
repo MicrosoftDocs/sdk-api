@@ -4,17 +4,16 @@ title: IWebWizardExtension::SetInitialURL
 author: windows-sdk-content
 description: Sets the URL of the initial server-provided HTML page in a hosted wizard.
 old-location: shell\IWebWizardExtension_SetInitialURL.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3fd0979f-2f45-4281-80df-72a4322ee219
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method, IWebWizardExtension.SetInitialURL, IWebWizardExtension::SetInitialURL, SetInitialURL, SetInitialURL method [Windows Shell], SetInitialURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetInitialURL, shell.IWebWizardExtension_SetInitialURL, shobjidl/IWebWizardExtension::SetInitialURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebWizardExtension.SetInitialURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IWebWizardExtension::SetInitialURL

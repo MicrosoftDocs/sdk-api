@@ -4,17 +4,16 @@ title: IUnknown::AddRef
 author: windows-sdk-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 old-location: com\iunknown_addref.htm
-old-project: com
+tech.root: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwnbase/IUnknown::AddRef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: unknwn.h
 req.include-header: Unknwn.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnknown.AddRef
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUnknown::AddRef

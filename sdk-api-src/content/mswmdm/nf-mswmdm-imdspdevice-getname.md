@@ -4,17 +4,16 @@ title: IMDSPDevice::GetName
 author: windows-sdk-content
 description: The GetName method retrieves the name of the device.
 old-location: wmdm\imdspdevice_getname.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: bc4fef6e-8faf-4114-a68d-bbc30bc18130
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetName method, IMDSPDevice.GetName, IMDSPDevice::GetName, IMDSPDeviceGetName, mswmdm/IMDSPDevice::GetName, wmdm.imdspdevice_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice.GetName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice::GetName

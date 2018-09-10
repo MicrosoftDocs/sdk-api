@@ -4,17 +4,16 @@ title: IStaticPortMapping::get_InternalPort
 author: windows-sdk-content
 description: The get_InternalPort method retrieves the internal port on the client computer for this port mapping.
 old-location: ics\istaticportmapping_get_internalport.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 21b07be3-a838-4e7c-b521-100e2422f8b1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, IStaticPortMapping.get_InternalPort, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMapping.get_InternalPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMapping::get_InternalPort

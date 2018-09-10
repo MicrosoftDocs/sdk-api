@@ -4,17 +4,16 @@ title: CreateFontPackage function
 author: windows-sdk-content
 description: The CreateFontPackage function creates a subset version of a specified TrueType font, typically in order to pass it to a printer.
 old-location: gdi\createfontpackage.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: aeea47c7-af55-46c4-b701-e00ec7540d24
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateFontPackage, CreateFontPackage function [Windows GDI], TTFCFP_APPLE_PLATFORMID, TTFCFP_DELTA, TTFCFP_DONT_CARE, TTFCFP_FLAGS_COMPRESS, TTFCFP_FLAGS_GLYPHLIST, TTFCFP_FLAGS_SUBSET, TTFCFP_FLAGS_TTC, TTFCFP_ISO_PLATFORMID, TTFCFP_MS_PLATFORMID, TTFCFP_STD_MAC_CHAR_SET, TTFCFP_SUBSET, TTFCFP_SUBSET1, TTFCFP_SYMBOL_CHAR_SET, TTFCFP_UNICODE_CHAR_SET, TTFCFP_UNICODE_PLATFORMID, _win32_CreateFontPackage, fontsub/CreateFontPackage, gdi.createfontpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fontsub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FontSub.lib
+req.dll: FontSub.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateFontPackage
 product: Windows
 targetos: Windows
-req.lib: FontSub.lib
-req.dll: FontSub.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CreateFontPackage function

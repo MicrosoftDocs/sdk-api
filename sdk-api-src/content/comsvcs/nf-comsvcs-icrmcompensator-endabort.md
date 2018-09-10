@@ -4,17 +4,16 @@ title: ICrmCompensator::EndAbort
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
 old-location: cos\icrmcompensator_endabort.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 009209fe-0910-4db1-b5c2-accd7239c3e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EndAbort, EndAbort method [COM+], EndAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndAbort method, ICrmCompensator.EndAbort, ICrmCompensator::EndAbort, _dtc_ICrmCompensator_EndAbort, comsvcs/ICrmCompensator::EndAbort, cos.icrmcompensator_endabort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.EndAbort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::EndAbort

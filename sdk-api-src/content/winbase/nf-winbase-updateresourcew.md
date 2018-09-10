@@ -4,17 +4,16 @@ title: UpdateResourceW function
 author: windows-sdk-content
 description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
 old-location: menurc\updateresource.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - UpdateResourceW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateResourceW function

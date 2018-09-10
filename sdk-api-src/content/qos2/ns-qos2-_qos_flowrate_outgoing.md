@@ -4,7 +4,7 @@ title: "_QOS_FLOWRATE_OUTGOING"
 author: windows-sdk-content
 description: The QOS_FLOWRATE_OUTGOING structure is used to set flow rate information in the QOSSetFlow function.
 old-location: qos\qos_flowrate_outgoing.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 6f0408fa-842c-4c6c-954b-cdc8a77b4bd3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_FLOWRATE_OUTGOING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
+req.redist: 
 ---
 
 # _QOS_FLOWRATE_OUTGOING structure

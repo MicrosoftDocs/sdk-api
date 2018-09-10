@@ -4,17 +4,16 @@ title: LocateXStateFeature function
 author: windows-sdk-content
 description: Retrieves a pointer to the processor state for an XState feature within a CONTEXT structure.
 old-location: base\locatexstatefeature.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LocateXStateFeature
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LocateXStateFeature function

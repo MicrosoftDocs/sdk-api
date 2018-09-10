@@ -4,7 +4,7 @@ title: "_CRYPT_URL_INFO"
 author: windows-sdk-content
 description: Contains information about groupings of URLs.
 old-location: security\crypt_url_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 58289a66-6580-468c-b001-5da08cf6d4a9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_URL_INFO, *PCRYPT_URL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_URL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_URL_INFO, *PCRYPT_URL_INFO
+req.redist: 
 ---
 
 # _CRYPT_URL_INFO structure

@@ -4,17 +4,16 @@ title: IManagedActivationEvents::DestroyManagedStub
 author: windows-sdk-content
 description: Destroys a stub that was created by CreateManagedStub.
 old-location: cos\imanagedactivationevents_destroymanagedstub.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: aabc8192-d499-441e-be5d-9a51108bd344
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],DestroyManagedStub method, IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IManagedActivationEvents.DestroyManagedStub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IManagedActivationEvents::DestroyManagedStub

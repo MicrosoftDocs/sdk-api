@@ -4,17 +4,16 @@ title: CM_MapCrToWin32Err function
 author: windows-sdk-content
 description: Converts a specified CONFIGRET code to its equivalent system error code.
 old-location: devinst\cm_mapcrtowin32err.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 7FC862D9-124D-413A-9082-F524E172FBDC
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver Installation], cfgmgr32/CM_MapCrToWin32Err, devinst.cm_mapcrtowin32err
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: CfgMgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CM_MapCrToWin32Err
 product: Windows
 targetos: Windows
-req.lib: CfgMgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_MapCrToWin32Err function

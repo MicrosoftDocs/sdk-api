@@ -4,17 +4,16 @@ title: IInkTransform::Reset
 author: windows-sdk-content
 description: Resets the transform to its default state, the identity transform.
 old-location: tablet\inktransform_reset.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ea593b1c-0986-4969-8f6f-726987b7c4a6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Reset, IInkTransform::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IInkTransform interface, ea593b1c-0986-4969-8f6f-726987b7c4a6, msinkaut/IInkTransform::Reset, tablet.inktransform_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.Reset
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::Reset

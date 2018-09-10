@@ -4,17 +4,16 @@ title: IWMDeviceManager::EnumDevices
 author: windows-sdk-content
 description: The EnumDevices method retrieves a pointer to the IWMDMEnumDevice interface that can be used to enumerate portable devices connected to the computer.
 old-location: wmdm\iwmdevicemanager_enumdevices.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 1daa6d36-9858-4504-a9a2-c0341031829b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],EnumDevices method, IWMDeviceManager.EnumDevices, IWMDeviceManager::EnumDevices, IWMDeviceManagerEnumDevices, mswmdm/IWMDeviceManager::EnumDevices, wmdm.iwmdevicemanager_enumdevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDeviceManager.EnumDevices
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDeviceManager::EnumDevices

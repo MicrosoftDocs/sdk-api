@@ -4,7 +4,7 @@ title: tagAMTunerModeType
 author: windows-sdk-content
 description: Specifies the frequency of a TV tuner (cable or antenna).
 old-location: dshow\amtunermodetype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ce5e6f6d-da79-4a86-abd4-bb28e66d5947
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMTunerModeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMTunerModeType
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: AMTunerModeType
+req.redist: 
 ---
 
 # tagAMTunerModeType enumeration

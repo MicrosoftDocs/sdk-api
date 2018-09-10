@@ -4,17 +4,16 @@ title: ITextStrings::DeleteRange
 author: windows-sdk-content
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeleteRange, DeleteRange method [Windows Controls], DeleteRange method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],DeleteRange method, ITextStrings.DeleteRange, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.DeleteRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::DeleteRange

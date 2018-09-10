@@ -4,17 +4,16 @@ title: IInkCursorButtons::Item
 author: windows-sdk-content
 description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.
 old-location: tablet\iinkcursorbuttons_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkCursorButtons.Item
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCursorButtons::Item
@@ -66,7 +64,7 @@ Retrieves the <a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da8
 
 ### -param Identifier
 
-
+TBD
 
 
 ### -param Button [out, retval]

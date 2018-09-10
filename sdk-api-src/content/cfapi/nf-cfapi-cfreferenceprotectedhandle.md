@@ -4,17 +4,16 @@ title: CfReferenceProtectedHandle function
 author: windows-sdk-content
 description: Allows the caller to reference a protected handle to a Win32 handle which can be used with non-CfApi Win32 APIs.
 old-location: cloudapi\cfreferenceprotectedhandle.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfReferenceProtectedHandle
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfReferenceProtectedHandle function

@@ -4,7 +4,7 @@ title: StylusInfo
 author: windows-sdk-content
 description: Provides information about the stylus.
 old-location: tablet\stylusinfo.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StylusInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: StylusInfo
+req.redist: 
 ---
 
 # StylusInfo structure

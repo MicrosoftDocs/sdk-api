@@ -4,7 +4,7 @@ title: "_SFV_SETITEMPOS"
 author: windows-sdk-content
 description: Stores position information for an item. Used with message SFVM_SETITEMPOS.
 old-location: shell\SFV_SETITEMPOS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SFV_SETITEMPOS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SFV_SETITEMPOS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SFV_SETITEMPOS
+req.redist: 
 ---
 
 # _SFV_SETITEMPOS structure

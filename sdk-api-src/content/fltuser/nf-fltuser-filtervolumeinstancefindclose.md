@@ -4,17 +4,16 @@ title: FilterVolumeInstanceFindClose function
 author: windows-sdk-content
 description: The FilterVolumeInstanceFindClose function closes the specified volume instance search handle. FilterVolumeInstanceFindFirst and FilterVolumeInstanceFindNext use this search handle to locate instances on a volume.
 old-location: ifsk\filtervolumeinstancefindclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4c56bcea-c027-4607-8531-da971e43e763
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterVolumeInstanceFindClose, FilterVolumeInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_5cdcef76-2a6d-4d64-9af6-09b050073573.xml, fltuser/FilterVolumeInstanceFindClose, ifsk.filtervolumeinstancefindclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterVolumeInstanceFindClose
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterVolumeInstanceFindClose function

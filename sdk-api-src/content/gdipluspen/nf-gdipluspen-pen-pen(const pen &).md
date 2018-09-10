@@ -4,17 +4,16 @@ title: Pen::Pen(const Pen &)
 author: windows-sdk-content
 description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(const Pen &), Pen::Pen, Pen::Pen(const Pen &), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Pen.Pen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Pen::Pen(const Pen &)

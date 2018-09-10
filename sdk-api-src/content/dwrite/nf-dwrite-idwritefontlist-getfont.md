@@ -4,17 +4,16 @@ title: IDWriteFontList::GetFont
 author: windows-sdk-content
 description: Gets a font given its zero-based index.
 old-location: directwrite\IDWriteFontList_GetFont.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: b2262707-b5d5-4697-9634-72fd2a72000a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList interface, IDWriteFontList interface [Direct Write],GetFont method, IDWriteFontList.GetFont, IDWriteFontList::GetFont, directwrite.IDWriteFontList_GetFont, dwrite/IDWriteFontList::GetFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontList.GetFont
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontList::GetFont

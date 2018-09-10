@@ -4,17 +4,16 @@ title: MMCFreeNotifyHandle function
 author: windows-sdk-content
 description: Called by a snap-in to free the handle to an MMCN_PROPERTY_CHANGE notification message sent to the snap-in by MMC in response to an MMCPropertyChangeNotify call made by a property sheet.
 old-location: mmc\mmcfreenotifyhandle.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHandle callback function [MMC], _slate_mmcfreenotifyhandle, mmc.mmcfreenotifyhandle, mmc/MMCFreeNotifyHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMCFreeNotifyHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MMCFreeNotifyHandle function

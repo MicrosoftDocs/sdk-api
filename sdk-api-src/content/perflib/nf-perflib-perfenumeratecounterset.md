@@ -4,17 +4,16 @@ title: PerfEnumerateCounterSet function
 author: windows-sdk-content
 description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
 old-location: perf\perfenumeratecounterset.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PerfEnumerateCounterSet
 product: Windows
 targetos: Windows
-req.lib: AdvAPI32.lib
-req.dll: AdvAPI32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfEnumerateCounterSet function

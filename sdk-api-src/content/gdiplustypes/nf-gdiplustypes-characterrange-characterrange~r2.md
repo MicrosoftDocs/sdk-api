@@ -4,17 +4,16 @@ title: CharacterRange::CharacterRange~r2
 author: windows-sdk-content
 description: Creates a CharacterRange::CharacterRange object with the data members set to zero.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(), CharacterRange.CharacterRange~r2, CharacterRange::CharacterRange, CharacterRange::CharacterRange~r2, _gdiplus_CLASS_CharacterRange_CharacterRange_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CharacterRange.CharacterRange
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

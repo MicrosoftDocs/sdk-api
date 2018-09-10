@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProvider::EndQuery
 author: windows-sdk-content
 description: Terminates a query being executed by a provider.
 old-location: ncd\ifunctiondiscoveryprovider_endquery_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: be19f2ac-037c-443b-b36f-68b9c9f132f8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EndQuery, EndQuery method, EndQuery method,IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,EndQuery method, IFunctionDiscoveryProvider.EndQuery, IFunctionDiscoveryProvider::EndQuery, functiondiscoveryprovider/IFunctionDiscoveryProvider::EndQuery, ncd.ifunctiondiscoveryprovider_endquery_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProvider.EndQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProvider::EndQuery

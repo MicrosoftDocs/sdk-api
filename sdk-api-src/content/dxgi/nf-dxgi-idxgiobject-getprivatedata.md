@@ -4,17 +4,16 @@ title: IDXGIObject::GetPrivateData
 author: windows-sdk-content
 description: Get a pointer to the object's data.
 old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateData method [DXGI], GetPrivateData method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetPrivateData method, IDXGIObject.GetPrivateData, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIObject.GetPrivateData
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIObject::GetPrivateData

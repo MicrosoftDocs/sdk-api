@@ -4,7 +4,7 @@ title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 author: windows-sdk-content
 description: Input structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_manage_data_set_attributes.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 328902b7-97e3-40dc-9771-f5e64ccf3364
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
+req.redist: 
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure

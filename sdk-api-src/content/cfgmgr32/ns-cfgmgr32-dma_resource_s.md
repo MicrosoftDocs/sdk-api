@@ -4,7 +4,7 @@ title: DMA_Resource_s
 author: windows-sdk-content
 description: The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance.
 old-location: devinst\dma_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 226a5ca1-10e1-47a7-8bd9-b153a0784ccb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMA_RESOURCE, *PDMA_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMA_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DMA_RESOURCE, *PDMA_RESOURCE
+req.redist: 
 ---
 
 # DMA_Resource_s structure

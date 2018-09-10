@@ -4,17 +4,16 @@ title: Wow64GetThreadSelectorEntry function
 author: windows-sdk-content
 description: Retrieves a descriptor table entry for the specified selector and WOW64 thread.
 old-location: base\wow64getthreadselectorentry.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Wow64GetThreadSelectorEntry
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Wow64GetThreadSelectorEntry function

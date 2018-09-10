@@ -4,17 +4,16 @@ title: IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName
 author: windows-sdk-content
 description: Retrieves the cached localized name of this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeName.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: C3F7F20A-DBDD-4CB9-87CB-6765FDD238CB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedAnnotationTypeName property [Windows Accessibility], CachedAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedAnnotationTypeName property, IUIAutomationAnnotationPattern.CachedAnnotationTypeName, IUIAutomationAnnotationPattern.get_CachedAnnotationTypeName, IUIAutomationAnnotationPattern::CachedAnnotationTypeName, IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, get_CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CachedAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAnnotationTypeName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationAnnotationPattern.get_CachedAnnotationTypeName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CachedAnnotationTypeName

@@ -4,7 +4,7 @@ title: "_DHCP_ALL_OPTION_VALUES_PB"
 author: windows-sdk-content
 description: The DHCP_ALL_OPTION_VALUES_PB structure defines the set of all option values for a DHCP server within a scope.
 old-location: dhcp\dhcp_all_option_values_pb.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5b43263a-fea1-452b-9981-a0f2cf1c8cf0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_ALL_OPTION_VALUES_PB, *LPDHCP_ALL_OPTION_VALUES_PB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_ALL_OPTION_VALUES_PB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_ALL_OPTION_VALUES_PB, *LPDHCP_ALL_OPTION_VALUES_PB
+req.redist: 
 ---
 
 # _DHCP_ALL_OPTION_VALUES_PB structure

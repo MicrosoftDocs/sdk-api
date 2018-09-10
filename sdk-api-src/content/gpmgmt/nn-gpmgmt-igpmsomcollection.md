@@ -4,7 +4,7 @@ title: IGPMSOMCollection
 author: windows-sdk-content
 description: The IGPMSOMCollection interface represents a collection of GPMSOM objects.
 old-location: gpmc\igpmsomcollection.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GPMSOMCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSOMCollection interface

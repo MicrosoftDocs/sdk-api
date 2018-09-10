@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateVisual
 author: windows-sdk-content
 description: Creates a new visual object.
 old-location: directcomp\idcompositiondevice_createvisual.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 3b4fefe0-772e-42bd-8e81-37d0b128c418
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateVisual, CreateVisual method [DirectComposition], CreateVisual method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateVisual method, IDCompositionDevice.CreateVisual, IDCompositionDevice::CreateVisual, dcomp/IDCompositionDevice::CreateVisual, directcomp.idcompositiondevice_createvisual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateVisual
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateVisual

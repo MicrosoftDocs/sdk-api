@@ -4,17 +4,16 @@ title: CertSelectCertificateW function
 author: windows-sdk-content
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria.
 old-location: security\certselectcertificate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
+req.lib: 
+req.dll: CryptDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CertSelectCertificateW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CryptDlg.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSelectCertificateW function

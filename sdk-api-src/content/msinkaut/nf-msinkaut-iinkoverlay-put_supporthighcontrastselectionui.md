@@ -4,17 +4,16 @@ title: IInkOverlay::put_SupportHighContrastSelectionUI
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether all selection user interface (UI) elements are drawn in high contrast when the system is in High Contrast mode.
 old-location: tablet\inkoverlay_supporthighcontrastselectionui.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a8837657-6eb0-44d3-8c39-11a5524fe9db
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC],SupportHighContrastSelectionUI property, IInkOverlay.SupportHighContrastSelectionUI, IInkOverlay.put_SupportHighContrastSelectionUI, IInkOverlay::SupportHighContrastSelectionUI, IInkOverlay::get_SupportHighContrastSelectionUI, IInkOverlay::put_SupportHighContrastSelectionUI, InkOverlay.get_SupportHighContrastSelectionUI, InkOverlay.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkOverlay interface, a8837657-6eb0-44d3-8c39-11a5524fe9db, msinkaut/IInkOverlay::SupportHighContrastSelectionUI, msinkaut/IInkOverlay::get_SupportHighContrastSelectionUI, msinkaut/IInkOverlay::put_SupportHighContrastSelectionUI, put_SupportHighContrastSelectionUI, tablet.inkoverlay_supporthighcontrastselectionui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_SupportHighContrastSelectionUI
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_SupportHighContrastSelectionUI

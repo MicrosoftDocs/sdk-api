@@ -4,17 +4,16 @@ title: ResUtilResourceTypesEqual function
 author: windows-sdk-content
 description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcetypesequal.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL function [Failover Cluster], ResUtilResourceTypesEqual, ResUtilResourceTypesEqual function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL, resapi/ResUtilResourceTypesEqual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilResourceTypesEqual
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilResourceTypesEqual function

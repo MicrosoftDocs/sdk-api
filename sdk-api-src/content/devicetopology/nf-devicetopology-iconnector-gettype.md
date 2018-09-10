@@ -4,17 +4,16 @@ title: IConnector::GetType
 author: windows-sdk-content
 description: The GetType method gets the type of this connector.
 old-location: coreaudio\iconnector_gettype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnector.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnector::GetType

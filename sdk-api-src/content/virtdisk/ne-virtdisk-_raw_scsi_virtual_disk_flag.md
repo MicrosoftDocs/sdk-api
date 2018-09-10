@@ -4,7 +4,7 @@ title: "_RAW_SCSI_VIRTUAL_DISK_FLAG"
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the RawSCSIVirtualDisk function.
 old-location: vhd\raw_scsi_virtual_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 7E90EA65-F0A1-44C5-9254-ABE89E1F35A5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAW_SCSI_VIRTUAL_DISK_FLAG, *PRAW_SCSI_VIRTUAL_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RAW_SCSI_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: RAW_SCSI_VIRTUAL_DISK_FLAG, *PRAW_SCSI_VIRTUAL_DISK_FLAG
+req.redist: 
 ---
 
 # _RAW_SCSI_VIRTUAL_DISK_FLAG enumeration

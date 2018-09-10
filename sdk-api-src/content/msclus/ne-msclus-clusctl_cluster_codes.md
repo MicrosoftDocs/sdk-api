@@ -4,7 +4,7 @@ title: CLUSCTL_CLUSTER_CODES
 author: windows-sdk-content
 description: Enumerates cluster control codes used by the ClusterControl function.
 old-location: mscs\clusctl_cluster_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b5ce8c3c-3a5d-4785-a3ce-b8b37c6c5dc8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_CLUSTER_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSCTL_CLUSTER_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSCTL_CLUSTER_CODES
+req.redist: 
 ---
 
 # CLUSCTL_CLUSTER_CODES enumeration

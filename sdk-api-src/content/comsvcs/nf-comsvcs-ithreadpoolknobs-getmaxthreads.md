@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::GetMaxThreads
 author: windows-sdk-content
 description: Retrieves the maximum number of threads that are allowed in the pool.
 old-location: cos\ithreadpoolknobs_getmaxthreads.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: cf99a8f3-fe48-41f3-9162-8550981520a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMaxThreads, GetMaxThreads method [COM+], GetMaxThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetMaxThreads method, IThreadPoolKnobs.GetMaxThreads, IThreadPoolKnobs::GetMaxThreads, _cos_IThreadPoolKnobs_GetMaxThreads, comsvcs/IThreadPoolKnobs::GetMaxThreads, cos.ithreadpoolknobs_getmaxthreads
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.GetMaxThreads
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::GetMaxThreads

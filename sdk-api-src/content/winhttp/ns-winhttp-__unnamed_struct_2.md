@@ -4,7 +4,7 @@ title: URL_COMPONENTS
 author: windows-sdk-content
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_COMPONENTS, *LPURL_COMPONENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - URL_COMPONENTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: URL_COMPONENTS, *LPURL_COMPONENTS
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # URL_COMPONENTS structure

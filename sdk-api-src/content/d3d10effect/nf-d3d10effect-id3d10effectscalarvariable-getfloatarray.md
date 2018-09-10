@@ -4,17 +4,16 @@ title: ID3D10EffectScalarVariable::GetFloatArray
 author: windows-sdk-content
 description: Get an array of floating-point variables.
 old-location: direct3d10\id3d10effectscalarvariable_getfloatarray.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getfloatarray.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFloatArray, GetFloatArray method [Direct3D 10], GetFloatArray method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetFloatArray method, ID3D10EffectScalarVariable.GetFloatArray, ID3D10EffectScalarVariable::GetFloatArray, d3d10effect/ID3D10EffectScalarVariable::GetFloatArray, direct3d10.id3d10effectscalarvariable_getfloatarray, e8606cb9-74af-2b45-f488-1115ae3ccba4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectScalarVariable.GetFloatArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectScalarVariable::GetFloatArray

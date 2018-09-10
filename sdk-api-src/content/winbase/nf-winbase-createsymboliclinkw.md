@@ -4,17 +4,16 @@ title: CreateSymbolicLinkW function
 author: windows-sdk-content
 description: Creates a symbolic link.
 old-location: fs\createsymboliclink.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - CreateSymbolicLinkW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateSymbolicLinkW function

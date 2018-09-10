@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::get_SignerCertificate
 author: windows-sdk-content
 description: Gets or sets the signer certificate for the request.
 old-location: security\ix509scepenrollment_signercertificate.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment.get_SignerCertificate, IX509SCEPEnrollment::SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, get_SignerCertificate, security.ix509scepenrollment_signercertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509SCEPEnrollment.put_SignerCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::get_SignerCertificate

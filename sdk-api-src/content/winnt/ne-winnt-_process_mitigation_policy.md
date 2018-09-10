@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_POLICY"
 author: windows-sdk-content
 description: Represents the different process mitigation policies.
 old-location: base\process_mitigation_policy.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b9636a0f-3123-499d-8663-72ed4d4993f0
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESS_MITIGATION_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
+req.redist: 
 ---
 
 # _PROCESS_MITIGATION_POLICY enumeration

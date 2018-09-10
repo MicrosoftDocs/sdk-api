@@ -4,7 +4,7 @@ title: "_MONTHLYDOW"
 author: windows-sdk-content
 description: Defines the date(s) that the task runs by month, week, and day of the week.
 old-location: taskschd\monthlydow.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 1f353611-0542-4534-91bf-4a76f41c9c9d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONTHLYDOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MONTHLYDOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MONTHLYDOW
+req.redist: 
 ---
 
 # _MONTHLYDOW structure

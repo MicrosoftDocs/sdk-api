@@ -4,7 +4,7 @@ title: "_tagSYNCMGRLOGERRORINFO"
 author: windows-sdk-content
 description: Provides error information for use in the ISyncMgrSynchronizeCallback::LogError method.
 old-location: shell\syncmgr_syncmgrlogerrorinfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0220792c-90e7-4802-9ba3-3fc6ce01e4de
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRLOGERRORINFO, *LPSYNCMGRLOGERRORINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRLOGERRORINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRLOGERRORINFO, *LPSYNCMGRLOGERRORINFO
+req.redist: 
 ---
 
 # _tagSYNCMGRLOGERRORINFO structure

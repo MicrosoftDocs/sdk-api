@@ -4,7 +4,7 @@ title: "_RAS_CONNECTION_3"
 author: windows-sdk-content
 description: The RAS_CONNECTION_3 structure contains information for the connection, including the Globally Unique Identifier (GUID) that identifies the connection and the quarantine state of the connection.
 old-location: rras\ras_connection_3.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: f474563e-01c5-4f2a-aec4-477e0ffc7ab2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_CONNECTION_3, *PRAS_CONNECTION_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_CONNECTION_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_CONNECTION_3, *PRAS_CONNECTION_3
+req.redist: 
 ---
 
 # _RAS_CONNECTION_3 structure

@@ -4,17 +4,16 @@ title: IWindowProvider::get_CanMaximize
 author: windows-sdk-content
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IWindowProvider_CanMaximize.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d3ff456a-c17d-4500-a141-87e9dd3fbfd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanMaximize property [Windows Accessibility], CanMaximize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMaximize property, IWindowProvider.CanMaximize, IWindowProvider.get_CanMaximize, IWindowProvider::CanMaximize, IWindowProvider::get_CanMaximize, get_CanMaximize, uiauto.uiauto_IWindowProvider_CanMaximize, uiauto_IWindowProvider_CanMaximize, uiautomationcore/IWindowProvider::CanMaximize, uiautomationcore/IWindowProvider::get_CanMaximize, winauto.uiauto_IWindowProvider_CanMaximize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWindowProvider.get_CanMaximize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowProvider::get_CanMaximize

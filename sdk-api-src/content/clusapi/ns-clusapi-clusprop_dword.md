@@ -4,7 +4,7 @@ title: CLUSPROP_DWORD
 author: windows-sdk-content
 description: Describes a numeric value identifying the physical drive of a disk.
 old-location: mscs\clusprop_disk_number.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8230d356-0d5a-4859-ae03-c25d078684b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_DISK_NUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD
+req.redist: 
 ---
 
 # CLUSPROP_DWORD structure

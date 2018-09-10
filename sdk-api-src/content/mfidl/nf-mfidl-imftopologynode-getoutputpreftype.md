@@ -4,17 +4,16 @@ title: IMFTopologyNode::GetOutputPrefType
 author: windows-sdk-content
 description: Retrieves the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_getoutputpreftype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.GetOutputPrefType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::GetOutputPrefType

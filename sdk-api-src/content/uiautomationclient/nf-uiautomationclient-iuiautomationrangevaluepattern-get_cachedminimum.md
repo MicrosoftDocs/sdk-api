@@ -4,17 +4,16 @@ title: IUIAutomationRangeValuePattern::get_CachedMinimum
 author: windows-sdk-content
 description: Retrieves the cached minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMinimum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 40fe6309-8648-49b2-990c-78e7a65ef5ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedMinimum property [Windows Accessibility], CachedMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMinimum property, IUIAutomationRangeValuePattern.CachedMinimum, IUIAutomationRangeValuePattern.get_CachedMinimum, IUIAutomationRangeValuePattern::CachedMinimum, IUIAutomationRangeValuePattern::get_CachedMinimum, get_CachedMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationRangeValuePattern.get_CachedMinimum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedMinimum

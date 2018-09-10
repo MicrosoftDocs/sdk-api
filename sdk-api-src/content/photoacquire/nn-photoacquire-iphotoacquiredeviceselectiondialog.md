@@ -4,7 +4,7 @@ title: IPhotoAcquireDeviceSelectionDialog
 author: windows-sdk-content
 description: Provides a dialog box for selecting the device to acquire images from.
 old-location: picacq\iphotoacquiredeviceselectiondialog.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPhotoAcquireDeviceSelectionDialog
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireDeviceSelectionDialog interface

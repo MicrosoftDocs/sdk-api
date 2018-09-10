@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetFolderTypeID
 author: windows-sdk-content
 description: Sets a search folder type ID, as specified.
 old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a9b09dc6-751e-4d5f-b016-0b26c15c68f6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderTypeID method, ISearchFolderItemFactory.SetFolderTypeID, ISearchFolderItemFactory::SetFolderTypeID, SetFolderTypeID, SetFolderTypeID method [Windows Shell], SetFolderTypeID method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderTypeID, shell.ISearchFolderItemFactory_SetFolderTypeID, shobjidl_core/ISearchFolderItemFactory::SetFolderTypeID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetFolderTypeID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetFolderTypeID

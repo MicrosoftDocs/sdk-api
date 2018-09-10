@@ -4,7 +4,7 @@ title: "_WS_ENDPOINT_POLICY_EXTENSION"
 author: windows-sdk-content
 description: This structure is used to specify an endpoint policy extension.
 old-location: wsw\ws_endpoint_policy_extension.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ENDPOINT_POLICY_EXTENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ENDPOINT_POLICY_EXTENSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ENDPOINT_POLICY_EXTENSION
+req.redist: 
 ---
 
 # _WS_ENDPOINT_POLICY_EXTENSION structure

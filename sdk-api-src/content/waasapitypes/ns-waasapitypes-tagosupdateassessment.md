@@ -4,7 +4,7 @@ title: tagOSUpdateAssessment
 author: windows-sdk-content
 description: The OSUpdateAssessment structure defines how up-to-date the OS on a targeted device is.
 old-location: base\osupdateassessment.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: D76D0587-E31E-48D2-9DF6-33444E4CA325
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: waasapitypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OSUpdateAssessment
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OSUpdateAssessment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: OSUpdateAssessment
+req.redist: 
 ---
 
 # tagOSUpdateAssessment structure

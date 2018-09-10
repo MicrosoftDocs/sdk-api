@@ -4,17 +4,16 @@ title: WdsTransportClientShutdown function
 author: windows-sdk-content
 description: Shuts down the multicast client.
 old-location: wds\wdstransportclientshutdown.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 39898f71-9a88-4651-ab23-cd54dc16fb91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportClientShutdown, WdsTransportClientShutdown function [Windows Deployment Services], wds.wdstransportclientshutdown, wdstci/WdsTransportClientShutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.lib: Wdstptc.lib
+req.dll: Wdstptc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportClientShutdown
 product: Windows
 targetos: Windows
-req.lib: Wdstptc.lib
-req.dll: Wdstptc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportClientShutdown function

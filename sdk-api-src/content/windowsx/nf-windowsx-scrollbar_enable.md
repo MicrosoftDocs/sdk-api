@@ -4,17 +4,16 @@ title: ScrollBar_Enable macro
 author: windows-sdk-content
 description: Enables or disables a scroll bar control.
 old-location: controls\ScrollBar_Enable.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_enable.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ScrollBar_Enable, ScrollBar_Enable macro [Windows Controls], _win32_ScrollBar_Enable, _win32_ScrollBar_Enable_cpp, controls.ScrollBar_Enable, controls._win32_ScrollBar_Enable, windowsx/ScrollBar_Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ScrollBar_Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ScrollBar_Enable macro

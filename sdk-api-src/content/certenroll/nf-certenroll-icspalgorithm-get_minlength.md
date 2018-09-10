@@ -4,17 +4,16 @@ title: ICspAlgorithm::get_MinLength
 author: windows-sdk-content
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithm.get_MinLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::get_MinLength

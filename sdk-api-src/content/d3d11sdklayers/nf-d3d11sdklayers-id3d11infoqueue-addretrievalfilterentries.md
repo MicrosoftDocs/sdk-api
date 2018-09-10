@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::AddRetrievalFilterEntries
 author: windows-sdk-content
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d11\id3d11infoqueue_addretrievalfilterentries.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 638d6af7-d425-4865-8124-dd7cd0dc6927
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 9da78ed8-cfc3-47cd-e2a8-318199bba80d, AddRetrievalFilterEntries, AddRetrievalFilterEntries method [Direct3D 11], AddRetrievalFilterEntries method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],AddRetrievalFilterEntries method, ID3D11InfoQueue.AddRetrievalFilterEntries, ID3D11InfoQueue::AddRetrievalFilterEntries, d3d11sdklayers/ID3D11InfoQueue::AddRetrievalFilterEntries, direct3d11.id3d11infoqueue_addretrievalfilterentries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.AddRetrievalFilterEntries
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::AddRetrievalFilterEntries

@@ -4,7 +4,7 @@ title: eAVEncH264PictureType
 author: windows-sdk-content
 description: Specifies the type of picture that is output by a video encoder.
 old-location: mf\eavench264picturetype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D73E2F87-EED3-4655-BB39-EB4C8E0B0058
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVEncH264PictureType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVEncH264PictureType enumeration

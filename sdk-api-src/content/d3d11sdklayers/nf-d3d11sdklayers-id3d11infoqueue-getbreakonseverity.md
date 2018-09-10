@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::GetBreakOnSeverity
 author: windows-sdk-content
 description: Get a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d11\id3d11infoqueue_getbreakonseverity.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 4023ddb7-006f-46bc-8be8-34ee2bdd9062
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [Direct3D 11], GetBreakOnSeverity method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetBreakOnSeverity method, ID3D11InfoQueue.GetBreakOnSeverity, ID3D11InfoQueue::GetBreakOnSeverity, d3d11sdklayers/ID3D11InfoQueue::GetBreakOnSeverity, direct3d11.id3d11infoqueue_getbreakonseverity, feb5cad2-8611-d97c-995e-3501a69206d6
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.GetBreakOnSeverity
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::GetBreakOnSeverity

@@ -4,7 +4,7 @@ title: "_SID_IDENTIFIER_AUTHORITY"
 author: windows-sdk-content
 description: Represents the top-level authority of a security identifier (SID).
 old-location: security\sid_identifier_authority.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SID_IDENTIFIER_AUTHORITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
+req.redist: 
 ---
 
 # _SID_IDENTIFIER_AUTHORITY structure

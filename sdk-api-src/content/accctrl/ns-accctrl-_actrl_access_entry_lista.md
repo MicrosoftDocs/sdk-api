@@ -4,7 +4,7 @@ title: "_ACTRL_ACCESS_ENTRY_LISTA"
 author: windows-sdk-content
 description: Contains a list of access entries.
 old-location: com\actrl_access_entry_list.htm
-old-project: com
+tech.root: com
 ms.assetid: d0e71756-0247-4c6b-b8b5-a343121b7406
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTRL_ACCESS_ENTRY_LISTA, *PACTRL_ACCESS_ENTRY_LISTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - ACTRL_ACCESS_ENTRY_LISTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: ACTRL_ACCESS_ENTRY_LISTA, *PACTRL_ACCESS_ENTRY_LISTA
+req.redist: 
 ---
 
 # _ACTRL_ACCESS_ENTRY_LISTA structure

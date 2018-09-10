@@ -4,17 +4,16 @@ title: IRunnableObject::IsRunning
 author: windows-sdk-content
 description: Determines whether an object is currently in the running state.
 old-location: com\irunnableobject_isrunning.htm
-old-project: com
+tech.root: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunnableObject.IsRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRunnableObject::IsRunning

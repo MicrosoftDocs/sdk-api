@@ -4,17 +4,16 @@ title: MFCreateStreamOnMFByteStream function
 author: windows-sdk-content
 description: Returns an IStream pointer that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 97C72B89-2E57-494E-AEB8-41125B3D740E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateStreamOnMFByteStream
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateStreamOnMFByteStream function

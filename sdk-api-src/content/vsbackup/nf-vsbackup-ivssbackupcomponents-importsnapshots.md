@@ -4,17 +4,16 @@ title: IVssBackupComponents::ImportSnapshots
 author: windows-sdk-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1, Windows Server 2003 Datacenter, Windows Server 2003 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.ImportSnapshots
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::ImportSnapshots

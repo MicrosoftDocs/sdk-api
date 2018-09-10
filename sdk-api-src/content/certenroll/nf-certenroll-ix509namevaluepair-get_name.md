@@ -4,17 +4,16 @@ title: IX509NameValuePair::get_Name
 author: windows-sdk-content
 description: Retrieves the name portion of the name-value pair.
 old-location: security\ix509namevaluepair_name_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 2a124fe7-7f28-4911-b5fe-2c98b4187723
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509NameValuePair interface [Security],Name property, IX509NameValuePair.Name, IX509NameValuePair.get_Name, IX509NameValuePair::Name, IX509NameValuePair::get_Name, Name property [Security], Name property [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Name, certenroll/IX509NameValuePair::get_Name, get_Name, security.ix509namevaluepair_name_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509NameValuePair.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509NameValuePair::get_Name

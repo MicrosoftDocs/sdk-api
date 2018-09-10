@@ -4,17 +4,16 @@ title: IMFTransform::GetStreamIDs
 author: windows-sdk-content
 description: Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamids.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetStreamIDs
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetStreamIDs

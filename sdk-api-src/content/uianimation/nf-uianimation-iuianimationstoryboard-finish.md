@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard::Finish
 author: windows-sdk-content
 description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.
 old-location: uianimation\iuianimationstoryboard_finish.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 45d0872a-dbcf-4151-a880-80b2c6fb884c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Finish method, IUIAnimationStoryboard.Finish, IUIAnimationStoryboard::Finish, uianimation.iuianimationstoryboard_finish, uianimation/IUIAnimationStoryboard::Finish
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard.Finish
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard::Finish

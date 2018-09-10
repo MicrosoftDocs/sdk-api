@@ -4,17 +4,16 @@ title: ISecurityInformation2::IsDaclCanonical
 author: windows-sdk-content
 description: The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.
 old-location: security\isecurityinformation2_isdaclcanonical.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 54b83592-0cfb-45db-9788-05459c9ec35c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISecurityInformation2 interface [Security],IsDaclCanonical method, ISecurityInformation2.IsDaclCanonical, ISecurityInformation2::IsDaclCanonical, IsDaclCanonical, IsDaclCanonical method [Security], IsDaclCanonical method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_isdaclcanonical, aclui/ISecurityInformation2::IsDaclCanonical, security.isecurityinformation2_isdaclcanonical
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation2.IsDaclCanonical
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation2::IsDaclCanonical

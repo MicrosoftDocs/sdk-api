@@ -4,7 +4,7 @@ title: CLUSCTL_GROUPSET_CODES
 author: windows-sdk-content
 description: Enumerates groupset control codes used by the ClusterGroupSetControl function.
 old-location: mscs\clusctl_collection_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2c160770-5ced-4914-bcca-c8f7405ad0b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: Clusapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_GROUPSET_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSCTL_GROUPSET_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSCTL_GROUPSET_CODES
+req.redist: 
 ---
 
 # CLUSCTL_GROUPSET_CODES enumeration

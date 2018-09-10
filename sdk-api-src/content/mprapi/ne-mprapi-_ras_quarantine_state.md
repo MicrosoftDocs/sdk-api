@@ -4,7 +4,7 @@ title: "_RAS_QUARANTINE_STATE"
 author: windows-sdk-content
 description: The RAS_QUARANTINE_STATE enumerated type indicates the quarantine state of a client connection.
 old-location: rras\ras_quarantine_state.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: df0193c0-a40b-464f-8c82-08d1fe66fdf9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_QUARANTINE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_QUARANTINE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_QUARANTINE_STATE
+req.redist: 
 ---
 
 # _RAS_QUARANTINE_STATE enumeration

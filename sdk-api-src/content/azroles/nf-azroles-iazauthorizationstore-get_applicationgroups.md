@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_ApplicationGroups
 author: windows-sdk-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\azauthorizationstore_applicationgroups.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 02bab92b-b234-4755-a4d3-f787fe46252d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzAuthorizationStore object, ApplicationGroups property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationGroups property, IAzAuthorizationStore interface [Security],ApplicationGroups property, IAzAuthorizationStore.ApplicationGroups, IAzAuthorizationStore.get_ApplicationGroups, IAzAuthorizationStore::ApplicationGroups, IAzAuthorizationStore::get_ApplicationGroups, azroles/IAzAuthorizationStore::ApplicationGroups, azroles/IAzAuthorizationStore::get_ApplicationGroups, get_ApplicationGroups, security.azauthorizationstore_applicationgroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.ApplicationGroups
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_ApplicationGroups

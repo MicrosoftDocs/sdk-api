@@ -4,17 +4,16 @@ title: ISearchRoot::put_ProvidesNotifications
 author: windows-sdk-content
 description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
 old-location: search\_search_ISearchRoot_put_ProvidesNotifications.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_providesnotifications.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchRoot interface [search],put_ProvidesNotifications method, ISearchRoot.put_ProvidesNotifications, ISearchRoot::put_ProvidesNotifications, _search_ISearchRoot_put_ProvidesNotifications, put_ProvidesNotifications, put_ProvidesNotifications method [search], put_ProvidesNotifications method [search],ISearchRoot interface, search._search_ISearchRoot_put_ProvidesNotifications, searchapi/ISearchRoot::put_ProvidesNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchRoot.put_ProvidesNotifications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchRoot::put_ProvidesNotifications

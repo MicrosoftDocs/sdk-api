@@ -4,17 +4,16 @@ title: ApplySnapshotVhdSet function
 author: windows-sdk-content
 description: Applies a snapshot of the current virtual disk for VHD Set files.
 old-location: vhd\applysnapshotvhdset.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vdssys/ApplySnapshotVhdSet, vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ApplySnapshotVhdSet
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ApplySnapshotVhdSet function

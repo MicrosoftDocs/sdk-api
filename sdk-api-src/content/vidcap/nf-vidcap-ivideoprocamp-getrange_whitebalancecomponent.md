@@ -4,17 +4,16 @@ title: IVideoProcAmp::getRange_WhiteBalanceComponent
 author: windows-sdk-content
 description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.
 old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalanceComponent method, IVideoProcAmp.getRange_WhiteBalanceComponent, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.getRange_WhiteBalanceComponent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::getRange_WhiteBalanceComponent

@@ -4,17 +4,16 @@ title: CfOpenFileWithOplock function
 author: windows-sdk-content
 description: Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.
 old-location: cloudapi\cfopenfilewithoplock.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfOpenFileWithOplock
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfOpenFileWithOplock function

@@ -4,7 +4,7 @@ title: "_WNV_NOTIFICATION_TYPE"
 author: windows-sdk-content
 description: Specifies the type of a given Windows Network Virtualization (WNV) notification.
 old-location: wnv\wnv_notification_type.htm
-old-project: wnv
+tech.root: wnv
 ms.assetid: 70BE564E-A054-4991-ADCD-79E4D219307B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wnvapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNV_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
+req.redist: 
 ---
 
 # _WNV_NOTIFICATION_TYPE enumeration

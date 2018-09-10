@@ -4,17 +4,16 @@ title: IVssCreateExpressWriterMetadata::AddComponentDependency
 author: windows-sdk-content
 description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
 old-location: base\ivsscreateexpresswritermetadata_addcomponentdependency.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateExpressWriterMetadata.AddComponentDependency
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateExpressWriterMetadata::AddComponentDependency

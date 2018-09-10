@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStreamBuffer::get_StorageSize
 author: windows-sdk-content
 description: The size, in bytes, of the internal storage buffer for the stream.
 old-location: rdp\irdpsrapitransportstreambuffer_storagesize.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: e422febe-6b7f-4ce5-af5c-214200b6723e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],StorageSize property, IRDPSRAPITransportStreamBuffer.StorageSize, IRDPSRAPITransportStreamBuffer.get_StorageSize, IRDPSRAPITransportStreamBuffer::StorageSize, IRDPSRAPITransportStreamBuffer::get_StorageSize, StorageSize property [RDP], StorageSize property [RDP],IRDPSRAPITransportStreamBuffer interface, get_StorageSize, rdp.irdpsrapitransportstreambuffer_storagesize, rdpencomapi/IRDPSRAPITransportStreamBuffer::StorageSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_StorageSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - IRDPSRAPITransportStreamBuffer::StorageSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_StorageSize

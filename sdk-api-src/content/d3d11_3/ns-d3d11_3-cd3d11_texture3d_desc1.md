@@ -4,7 +4,7 @@ title: CD3D11_TEXTURE3D_DESC1
 author: windows-sdk-content
 description: Describes a 3D texture.
 old-location: direct3d11\d3d11_texture3d_desc1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: DC20371E-6675-4AAC-A7F6-DC523BB8DBF6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEXTURE3D_DESC1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CD3D11_TEXTURE3D_DESC1 structure

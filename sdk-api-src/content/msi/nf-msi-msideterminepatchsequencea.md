@@ -4,17 +4,16 @@ title: MsiDeterminePatchSequenceA function
 author: windows-sdk-content
 description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
 old-location: setup\msideterminepatchsequence.htm
-old-project: msi
+tech.root: msi
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiDeterminePatchSequence, MsiDeterminePatchSequence function, MsiDeterminePatchSequenceA, MsiDeterminePatchSequenceW, msi/MsiDeterminePatchSequence, msi/MsiDeterminePatchSequenceA, msi/MsiDeterminePatchSequenceW, setup.msideterminepatchsequence
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiDeterminePatchSequenceW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiDeterminePatchSequenceA function

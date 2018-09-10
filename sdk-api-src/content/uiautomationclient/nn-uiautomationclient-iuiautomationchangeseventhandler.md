@@ -4,7 +4,7 @@ title: IUIAutomationChangesEventHandler
 author: windows-sdk-content
 description: Exposes a method to handle Microsoft UI Automation events that occur when a property is changed.
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8DCF8826-B688-416C-9195-34E0290054AA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationChangesEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationChangesEventHandler interface

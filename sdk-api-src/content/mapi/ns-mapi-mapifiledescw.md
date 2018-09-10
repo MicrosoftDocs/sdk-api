@@ -4,7 +4,7 @@ title: MapiFileDescW
 author: windows-sdk-content
 description: A MapiFileDescW structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files.
 old-location: mapi\mapifiledescw.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: CF7C41DF-D361-457F-B038-5C1144E70AA6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MapiFileDescW, *lpMapiFileDescW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MapiFileDescW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MapiFileDescW, *lpMapiFileDescW
+req.redist: 
 ---
 
 # MapiFileDescW structure

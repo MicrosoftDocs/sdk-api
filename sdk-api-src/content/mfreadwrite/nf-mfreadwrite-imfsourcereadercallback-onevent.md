@@ -4,17 +4,16 @@ title: IMFSourceReaderCallback::OnEvent
 author: windows-sdk-content
 description: Called when the source reader receives certain events from the media source.
 old-location: mf\imfsourcereadercallback_onevent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cbe85d0f-26a1-4526-bfe6-b6183812a271
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnEvent method, IMFSourceReaderCallback.OnEvent, IMFSourceReaderCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onevent, mfreadwrite/IMFSourceReaderCallback::OnEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReaderCallback.OnEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReaderCallback::OnEvent

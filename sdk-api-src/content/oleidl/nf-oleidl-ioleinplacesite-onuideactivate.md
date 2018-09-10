@@ -4,17 +4,16 @@ title: IOleInPlaceSite::OnUIDeactivate
 author: windows-sdk-content
 description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
 old-location: com\ioleinplacesite_onuideactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleInPlaceSiteWindowless.OnUIDeactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::OnUIDeactivate

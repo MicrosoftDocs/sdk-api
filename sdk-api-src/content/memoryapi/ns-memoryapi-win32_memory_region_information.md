@@ -4,7 +4,7 @@ title: WIN32_MEMORY_REGION_INFORMATION
 author: windows-sdk-content
 description: Contains information about a memory region.
 old-location: base\win32_memory_region_information.htm
-old-project: memory
+tech.root: memory
 ms.assetid: C85C4B35-EED3-4BD4-A322-7C56BCB9D858
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: memoryapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIN32_MEMORY_REGION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.redist: 
 ---
 
 # WIN32_MEMORY_REGION_INFORMATION structure

@@ -4,17 +4,16 @@ title: OleUIBusyA function
 author: windows-sdk-content
 description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
 old-location: com\oleuibusy.htm
-old-project: com
+tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIBusyW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIBusyA function

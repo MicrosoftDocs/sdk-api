@@ -4,17 +4,16 @@ title: IInitiateWinSATAssessment::CancelAssessment
 author: windows-sdk-content
 description: Cancels a currently running assessment.
 old-location: winsat\iinitiatewinsatassessment_cancelassessment.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: fa4b159f-9d40-445f-bd43-5fc2e7b2d33b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CancelAssessment, CancelAssessment method [WinSAT], CancelAssessment method [WinSAT],IInitiateWinSATAssessment interface, IInitiateWinSATAssessment interface [WinSAT],CancelAssessment method, IInitiateWinSATAssessment.CancelAssessment, IInitiateWinSATAssessment::CancelAssessment, winsat.iinitiatewinsatassessment_cancelassessment, winsatcominterfacei/IInitiateWinSATAssessment::CancelAssessment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitiateWinSATAssessment.CancelAssessment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInitiateWinSATAssessment::CancelAssessment

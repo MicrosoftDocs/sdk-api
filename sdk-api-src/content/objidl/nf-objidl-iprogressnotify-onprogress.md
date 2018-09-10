@@ -4,17 +4,16 @@ title: IProgressNotify::OnProgress
 author: windows-sdk-content
 description: Notifies registered objects and applications of the progress of a downloading operation.
 old-location: com\iprogressnotify_onprogress.htm
-old-project: com
+tech.root: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressNotify.OnProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressNotify::OnProgress

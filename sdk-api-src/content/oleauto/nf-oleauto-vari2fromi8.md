@@ -4,17 +4,16 @@ title: VarI2FromI8 function
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a short value.
 old-location: automat\vari2fromi8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 759dbab4-b99c-4e9b-a44b-f2ca0c187719
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI2FromI8, VarI2FromI8 function [Automation], _oa96_VarI2FromI8, automat.vari2fromi8, oleauto/VarI2FromI8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI2FromI8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI2FromI8 function

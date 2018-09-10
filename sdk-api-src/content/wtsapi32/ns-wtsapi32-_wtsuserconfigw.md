@@ -4,7 +4,7 @@ title: "_WTSUSERCONFIGW"
 author: windows-sdk-content
 description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsuserconfig.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSUSERCONFIGW, *PWTSUSERCONFIGW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WTSUSERCONFIGW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTSUSERCONFIGW, *PWTSUSERCONFIGW
+req.redist: 
 ---
 
 # _WTSUSERCONFIGW structure

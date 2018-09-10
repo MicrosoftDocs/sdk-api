@@ -4,17 +4,16 @@ title: IWMResamplerProps::SetUserChannelMtx
 author: windows-sdk-content
 description: Specifies the channel matrix.
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMResamplerProps.SetUserChannelMtx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMResamplerProps::SetUserChannelMtx

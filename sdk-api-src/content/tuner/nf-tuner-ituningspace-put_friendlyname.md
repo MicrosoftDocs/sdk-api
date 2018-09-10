@@ -4,17 +4,16 @@ title: ITuningSpace::put_FriendlyName
 author: windows-sdk-content
 description: The put_FriendlyName method sets the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_put_friendlyname.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 97457657-9d28-4c8e-9db6-61271aa127e3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FriendlyName method, ITuningSpace.put_FriendlyName, ITuningSpace::put_FriendlyName, ITuningSpaceput_FriendlyName, mstv.ituningspace_put_friendlyname, put_FriendlyName, put_FriendlyName method [Microsoft TV Technologies], put_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpace.put_FriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpace::put_FriendlyName

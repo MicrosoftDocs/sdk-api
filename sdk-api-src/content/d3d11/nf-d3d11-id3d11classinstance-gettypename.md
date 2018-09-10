@@ -4,17 +4,16 @@ title: ID3D11ClassInstance::GetTypeName
 author: windows-sdk-content
 description: Gets the type of the current HLSL class.
 old-location: direct3d11\id3d11classinstance_gettypename.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: a46699b5-2250-442a-85ab-37eeb419ac72
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 37b4ce30-bd10-e500-268b-fcbfc22464f2, GetTypeName, GetTypeName method [Direct3D 11], GetTypeName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetTypeName method, ID3D11ClassInstance.GetTypeName, ID3D11ClassInstance::GetTypeName, d3d11/ID3D11ClassInstance::GetTypeName, direct3d11.id3d11classinstance_gettypename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11ClassInstance.GetTypeName
 product: Windows
 targetos: Windows
-req.lib: D3d11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ClassInstance::GetTypeName

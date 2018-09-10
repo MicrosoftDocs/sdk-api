@@ -4,17 +4,16 @@ title: IVMRFilterConfig::SetNumberOfStreams
 author: windows-sdk-content
 description: The SetNumberOfStreams method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
 old-location: dshow\ivmrfilterconfig_setnumberofstreams.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cd200b33-bb74-474a-9047-d81cb470af23
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig.SetNumberOfStreams, IVMRFilterConfig::SetNumberOfStreams, IVMRFilterConfigSetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setnumberofstreams, strmif/IVMRFilterConfig::SetNumberOfStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRFilterConfig.SetNumberOfStreams
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRFilterConfig::SetNumberOfStreams

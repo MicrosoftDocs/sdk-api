@@ -4,17 +4,16 @@ title: IMMNotificationClient::OnDeviceStateChanged
 author: windows-sdk-content
 description: The OnDeviceStateChanged method indicates that the state of an audio endpoint device has changed.
 old-location: coreaudio\immnotificationclient_ondevicestatechanged.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4725a300-c84b-40cd-93a6-6ef6c8e89708
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMNotificationClient.OnDeviceStateChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMNotificationClient::OnDeviceStateChanged

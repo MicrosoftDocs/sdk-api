@@ -4,7 +4,7 @@ title: "_DATE_TIME"
 author: windows-sdk-content
 description: The DATE_TIME structure defines a 64-bit integer value that contains a date/time, expressed as the number of ticks (100-nanosecond increments) since 12:00 midnight, January 1, 1 C.E. in the Gregorian calendar.
 old-location: dhcp\date_time.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2aca69b1-b7e5-4fda-b706-ed659d86cbd5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DATE_TIME, *PDATE_TIME, *LPDATE_TIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DATE_TIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DATE_TIME, *PDATE_TIME, *LPDATE_TIME
+req.redist: 
 ---
 
 # _DATE_TIME structure

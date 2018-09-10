@@ -4,17 +4,16 @@ title: NPPasswordChangeNotify function
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager of a password change event.
 old-location: security\nppasswordchangenotify.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPPasswordChangeNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPPasswordChangeNotify function

@@ -4,17 +4,16 @@ title: IShellFolderViewDual3::get_IconSize
 author: windows-sdk-content
 description: Gets the icon size setting for the current folder.
 old-location: shell\IShellFolderViewDual3_get_IconSize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 005c440f-2340-4965-b717-5aa0f4e5142f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_IconSize method, IShellFolderViewDual3.get_IconSize, IShellFolderViewDual3::get_IconSize, _shell_IShellFolderViewDual3_get_IconSize, get_IconSize, get_IconSize method [Windows Shell], get_IconSize method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_IconSize, shldisp/IShellFolderViewDual3::get_IconSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual3.get_IconSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual3::get_IconSize

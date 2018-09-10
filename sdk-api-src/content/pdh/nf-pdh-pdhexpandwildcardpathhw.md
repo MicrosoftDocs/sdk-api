@@ -4,17 +4,16 @@ title: PdhExpandWildCardPathHW function
 author: windows-sdk-content
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
 old-location: perf\pdhexpandwildcardpathh.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhExpandWildCardPathHW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhExpandWildCardPathHW function

@@ -4,17 +4,16 @@ title: IFileDialogCustomize::GetControlState
 author: windows-sdk-content
 description: Gets the current visibility and enabled states of a given control.
 old-location: shell\IFileDialogCustomize_GetControlState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2a167050-2778-4cc2-9b05-ec81f679c6c0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetControlState, GetControlState method [Windows Shell], GetControlState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetControlState method, IFileDialogCustomize.GetControlState, IFileDialogCustomize::GetControlState, shell.IFileDialogCustomize_GetControlState, shell_IFileDialogCustomize_GetControlState, shobjidl_core/IFileDialogCustomize::GetControlState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.GetControlState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::GetControlState

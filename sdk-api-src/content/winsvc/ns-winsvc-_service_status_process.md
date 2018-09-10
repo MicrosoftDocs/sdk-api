@@ -4,7 +4,7 @@ title: "_SERVICE_STATUS_PROCESS"
 author: windows-sdk-content
 description: Contains process status information for a service. The ControlServiceEx, EnumServicesStatusEx, NotifyServiceStatusChange, and QueryServiceStatusEx functions use this structure.
 old-location: base\service_status_process_str.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 303986a0-c51e-4078-a3ca-d59e5a302b36
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_STATUS_PROCESS, *LPSERVICE_STATUS_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_STATUS_PROCESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_STATUS_PROCESS, *LPSERVICE_STATUS_PROCESS
+req.redist: 
 ---
 
 # _SERVICE_STATUS_PROCESS structure

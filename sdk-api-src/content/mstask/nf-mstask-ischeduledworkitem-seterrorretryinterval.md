@@ -4,17 +4,16 @@ title: IScheduledWorkItem::SetErrorRetryInterval
 author: windows-sdk-content
 description: Sets the time interval, in minutes, between Task Scheduler's attempts to run a work item after an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretryinterval.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: e5923d76-50d0-4d1c-9d80-0b7cbd8ee3d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryInterval method, IScheduledWorkItem.SetErrorRetryInterval, IScheduledWorkItem::SetErrorRetryInterval, SetErrorRetryInterval, SetErrorRetryInterval method [Task Scheduler], SetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretryinterval, mstask/IScheduledWorkItem::SetErrorRetryInterval, taskschd.ischeduledworkitem_seterrorretryinterval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduledWorkItem.SetErrorRetryInterval
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ---
 
 # IScheduledWorkItem::SetErrorRetryInterval

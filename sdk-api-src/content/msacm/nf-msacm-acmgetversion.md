@@ -4,17 +4,16 @@ title: acmGetVersion function
 author: windows-sdk-content
 description: The acmGetVersion function returns the version number of the ACM.
 old-location: multimedia\acmgetversion.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5a710149-0c3a-4dde-8069-db2e42826080
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - acmGetVersion
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmGetVersion function

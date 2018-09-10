@@ -4,17 +4,16 @@ title: IPortableDeviceConnector::GetProperty
 author: windows-sdk-content
 description: Retrieves a property for the given MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_getproperty.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 7503df7a-826c-4e77-b51a-6b3d618732ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetProperty method, IPortableDeviceConnector.GetProperty, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceConnector.GetProperty
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceConnector::GetProperty

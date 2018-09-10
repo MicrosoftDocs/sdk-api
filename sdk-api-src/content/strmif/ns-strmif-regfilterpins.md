@@ -4,7 +4,7 @@ title: REGFILTERPINS
 author: windows-sdk-content
 description: The REGFILTERPINS structure contains pin information for registering a filter.
 old-location: dshow\regfilterpins.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1da033e1-24c3-46e0-becf-025966e6238f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGFILTERPINS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGFILTERPINS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: REGFILTERPINS
+req.redist: 
 ---
 
 # REGFILTERPINS structure

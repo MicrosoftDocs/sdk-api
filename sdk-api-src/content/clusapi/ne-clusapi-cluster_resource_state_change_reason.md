@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_STATE_CHANGE_REASON
 author: windows-sdk-content
 description: Used by the CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT and CLUSCTL_RESOURCE_STATE_CHANGE_REASON control codes to describe the reason for a resource state change.
 old-location: mscs\cluster_resource_state_change_reason.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f9071688-24c2-4b00-ac66-6cf0363bccf2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_STATE_CHANGE_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_RESOURCE_STATE_CHANGE_REASON
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_STATE_CHANGE_REASON enumeration

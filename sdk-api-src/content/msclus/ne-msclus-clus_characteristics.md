@@ -4,7 +4,7 @@ title: CLUS_CHARACTERISTICS
 author: windows-sdk-content
 description: Enumerates characteristics of resource types and resources.
 old-location: mscs\clus_characteristics.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d55506fe-57d7-4d33-a28c-b185f508167d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUS_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUS_CHARACTERISTICS
+req.redist: 
 ---
 
 # CLUS_CHARACTERISTICS enumeration

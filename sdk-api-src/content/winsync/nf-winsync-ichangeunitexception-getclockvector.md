@@ -4,17 +4,16 @@ title: IChangeUnitException::GetClockVector
 author: windows-sdk-content
 description: Gets the clock vector that is associated with this exception.
 old-location: winsync\ichangeunitexception_getclockvector.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 1cf95acf-23ab-49c8-bd63-7aff9bad8f25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetClockVector method, IChangeUnitException.GetClockVector, IChangeUnitException::GetClockVector, winsync.ichangeunitexception_getclockvector, winsync/IChangeUnitException::GetClockVector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChangeUnitException.GetClockVector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IChangeUnitException::GetClockVector

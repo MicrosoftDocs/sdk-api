@@ -4,17 +4,16 @@ title: IGraphConfig::GetFilterFlags
 author: windows-sdk-content
 description: The GetFilterFlags method retrieves a filter's configuration information.
 old-location: dshow\igraphconfig_getfilterflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 747c3865-1969-45e8-a2c9-dbd72a9ea463
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [DirectShow], GetFilterFlags method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetFilterFlags method, IGraphConfig.GetFilterFlags, IGraphConfig::GetFilterFlags, IGraphConfigGetFilterFlags, dshow.igraphconfig_getfilterflags, strmif/IGraphConfig::GetFilterFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.GetFilterFlags
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::GetFilterFlags

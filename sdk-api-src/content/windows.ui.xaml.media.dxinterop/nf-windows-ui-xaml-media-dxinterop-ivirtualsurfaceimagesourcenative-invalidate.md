@@ -4,17 +4,16 @@ title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Invalidates a specific region of the shared surface for drawing.
 old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: BC3BC983-9A78-4B0F-927D-06B299031C80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Invalidate method, IVirtualSurfaceImageSourceNative.Invalidate, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Invalidate, IVirtualSurfaceImageSourceNative::xaml, Invalidate, Invalidate method [Windows Runtime], Invalidate method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Invalidate, winrt.ivirtualsurfaceimagesourcenative_invalidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualSurfaceImageSourceNative.Invalidate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualSurfaceImageSourceNative::xaml

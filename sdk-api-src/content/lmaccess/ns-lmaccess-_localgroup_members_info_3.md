@@ -4,7 +4,7 @@ title: "_LOCALGROUP_MEMBERS_INFO_3"
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_3 structure contains the account name and domain name associated with a local group member.
 old-location: netmgmt\localgroup_members_info_3_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: e8d1d884-c955-4706-bc3e-142469b02545
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, *LPLOCALGROUP_MEMBERS_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCALGROUP_MEMBERS_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, *LPLOCALGROUP_MEMBERS_INFO_3
+req.redist: 
 ---
 
 # _LOCALGROUP_MEMBERS_INFO_3 structure

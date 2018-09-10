@@ -4,7 +4,7 @@ title: tagCountedString
 author: windows-sdk-content
 description: Defines a null-terminated string with a defined length.
 old-location: nap\countedstring_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: 92261dd3-504d-4a4b-b6fa-86f4f97a0df0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CountedString
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CountedString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: CountedString
+req.redist: 
 ---
 
 # tagCountedString structure

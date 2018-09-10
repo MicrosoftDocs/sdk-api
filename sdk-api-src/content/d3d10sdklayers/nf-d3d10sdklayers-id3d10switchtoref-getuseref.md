@@ -4,17 +4,16 @@ title: ID3D10SwitchToRef::GetUseRef
 author: windows-sdk-content
 description: Get a boolean value that indicates the type of device being used.
 old-location: direct3d10\id3d10switchtoref_getuseref.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10switchtoref_getuseref.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 7b8a132d-2a68-b9bc-338e-0378d33147cd, GetUseRef, GetUseRef method [Direct3D 10], GetUseRef method [Direct3D 10],ID3D10SwitchToRef interface, ID3D10SwitchToRef interface [Direct3D 10],GetUseRef method, ID3D10SwitchToRef.GetUseRef, ID3D10SwitchToRef::GetUseRef, d3d10sdklayers/ID3D10SwitchToRef::GetUseRef, direct3d10.id3d10switchtoref_getuseref
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10SwitchToRef.GetUseRef
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10SwitchToRef::GetUseRef

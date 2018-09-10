@@ -4,17 +4,16 @@ title: DockPattern_SetDockPosition function
 author: windows-sdk-content
 description: Docks the UI Automation element at the requested dockPosition within a docking container.
 old-location: winauto\uiauto_DockPattern_SetDockPositionConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 45fdd85f-1f35-4cdd-adfc-086e01e85adf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DockPattern_SetDockPosition, DockPattern_SetDockPosition function [Windows Accessibility], uiauto.uiauto_DockPattern_SetDockPositionConPat, uiauto_DockPattern_SetDockPositionConPat, uiautomationcoreapi/DockPattern_SetDockPosition, winauto.uiauto_DockPattern_SetDockPositionConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DockPattern_SetDockPosition
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # DockPattern_SetDockPosition function

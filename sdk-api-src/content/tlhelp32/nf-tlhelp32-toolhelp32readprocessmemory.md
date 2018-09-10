@@ -4,17 +4,16 @@ title: Toolhelp32ReadProcessMemory function
 author: windows-sdk-content
 description: Copies memory allocated to another process into an application-supplied buffer.
 old-location: toolhelp\toolhelp32readprocessmemory.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: e579b813-32ef-481d-8dc6-f959ec9b6bad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Toolhelp32ReadProcessMemory, Toolhelp32ReadProcessMemory function [ToolHelp], _win32_toolhelp32readprocessmemory, base.toolhelp32readprocessmemory, tlhelp32/Toolhelp32ReadProcessMemory, toolhelp.toolhelp32readprocessmemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Toolhelp32ReadProcessMemory
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Toolhelp32ReadProcessMemory function

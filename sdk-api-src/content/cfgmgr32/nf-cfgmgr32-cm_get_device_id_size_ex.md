@@ -4,17 +4,16 @@ title: CM_Get_Device_ID_Size_Ex function
 author: windows-sdk-content
 description: The CM_Get_Device_ID_Size_Ex function retrieves the buffer size required to hold a device instance ID for a device instance on a local or a remote machine.
 old-location: devinst\cm_get_device_id_size_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 3b95f8e3-0059-4a2e-8c14-5938f5826faf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Get_Device_ID_Size_Ex, CM_Get_Device_ID_Size_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Device_ID_Size_Ex, cfgmgrfn_c3ddb484-70bd-414f-a723-a10057ad5e19.xml, devinst.cm_get_device_id_size_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Get_Device_ID_Size_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Device_ID_Size_Ex function

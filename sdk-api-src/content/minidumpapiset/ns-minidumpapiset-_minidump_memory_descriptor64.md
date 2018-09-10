@@ -4,7 +4,7 @@ title: "_MINIDUMP_MEMORY_DESCRIPTOR64"
 author: windows-sdk-content
 description: Describes a range of memory.
 old-location: base\minidump_memory_descriptor_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 34c6de99-8ba5-4199-a382-3e3f7d02571f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MEMORY_DESCRIPTOR64, *PMINIDUMP_MEMORY_DESCRIPTOR64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MEMORY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MEMORY_DESCRIPTOR64, *PMINIDUMP_MEMORY_DESCRIPTOR64
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_MEMORY_DESCRIPTOR64 structure

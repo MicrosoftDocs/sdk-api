@@ -4,17 +4,16 @@ title: DeleteIPAddress function
 author: windows-sdk-content
 description: The DeleteIPAddress function deletes an IP address previously added using AddIPAddress.
 old-location: iphlp\deleteipaddress.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteIPAddress
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteIPAddress function

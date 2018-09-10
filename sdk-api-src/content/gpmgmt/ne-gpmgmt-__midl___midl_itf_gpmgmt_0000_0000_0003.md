@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_gpmgmt_0000_0000_0003"
 author: windows-sdk-content
 description: The property of the search criteria.
 old-location: gpmc\gpmsearchproperty.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 9ac83c22-f253-449f-b639-b6a07e3c790b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMSearchProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GPMSearchProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GPMSearchProperty
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_gpmgmt_0000_0000_0003 enumeration

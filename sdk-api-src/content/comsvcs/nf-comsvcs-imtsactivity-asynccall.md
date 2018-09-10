@@ -4,17 +4,16 @@ title: IMTSActivity::AsyncCall
 author: windows-sdk-content
 description: Performs the user-defined work asynchronously.
 old-location: cos\imtsactivity_asynccall.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ccbb96e8-9fb8-40b4-b027-432ba8c400c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AsyncCall, AsyncCall method [COM+], AsyncCall method [COM+],IMTSActivity interface, IMTSActivity interface [COM+],AsyncCall method, IMTSActivity.AsyncCall, IMTSActivity::AsyncCall, _cos_IMTSActivity_AsyncCall, comsvcs/IMTSActivity::AsyncCall, cos.imtsactivity_asynccall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMTSActivity.AsyncCall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMTSActivity::AsyncCall

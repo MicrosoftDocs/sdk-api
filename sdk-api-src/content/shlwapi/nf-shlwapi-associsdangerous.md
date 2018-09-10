@@ -4,17 +4,16 @@ title: AssocIsDangerous function
 author: windows-sdk-content
 description: Determines whether a file type is considered a potential security risk.
 old-location: shell\AssocIsDangerous.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 6.01 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AssocIsDangerous
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 6.01 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 6.01
 ---
 

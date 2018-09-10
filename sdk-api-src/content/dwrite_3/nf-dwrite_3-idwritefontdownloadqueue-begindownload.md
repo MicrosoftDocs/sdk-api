@@ -4,17 +4,16 @@ title: IDWriteFontDownloadQueue::BeginDownload
 author: windows-sdk-content
 description: Begins an asynchronous download operation. The download operation executes in the background until it completes or is cancelled by a CancelDownload call.
 old-location: directwrite\idwritefontdownloadqueue_begindownload.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1e3b200c-0190-f600-1cb6-4e2a46f882b4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],BeginDownload method, IDWriteFontDownloadQueue.BeginDownload, IDWriteFontDownloadQueue::BeginDownload, directwrite.idwritefontdownloadqueue_begindownload, dwrite_3/IDWriteFontDownloadQueue::BeginDownload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontDownloadQueue.BeginDownload
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontDownloadQueue::BeginDownload

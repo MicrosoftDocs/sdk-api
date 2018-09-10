@@ -4,17 +4,16 @@ title: IIdleSettings::put_RestartOnIdle
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the task is restarted when the computer cycles into an idle condition more than once.
 old-location: taskschd\iidlesettings_restartonidle.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.put_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, put_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IIdleSettings.put_RestartOnIdle
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IIdleSettings::put_RestartOnIdle

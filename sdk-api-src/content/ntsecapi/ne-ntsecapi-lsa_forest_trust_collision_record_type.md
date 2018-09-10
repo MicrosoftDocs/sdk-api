@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
 author: windows-sdk-content
 description: Defines the types of collision that can occur between Local Security Authority forest trust records.
 old-location: security\lsa_forest_trust_collision_record_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 67c89d75-2c2d-4980-a1c9-32e7f64a7b49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
+req.redist: 
 ---
 
 # LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration

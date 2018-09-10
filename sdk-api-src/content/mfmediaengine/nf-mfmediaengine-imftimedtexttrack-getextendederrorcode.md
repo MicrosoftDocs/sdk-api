@@ -4,17 +4,16 @@ title: IMFTimedTextTrack::GetExtendedErrorCode
 author: windows-sdk-content
 description: Gets the extended error code for the latest error associated with the track.
 old-location: mf\imftimedtexttrack_getextendederrorcode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 61119103-B6F6-414B-AA7E-55DC889A5C28
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetExtendedErrorCode method, IMFTimedTextTrack.GetExtendedErrorCode, IMFTimedTextTrack::GetExtendedErrorCode, mf.imftimedtexttrack_getextendederrorcode, mfmediaengine/IMFTimedTextTrack::GetExtendedErrorCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrack.GetExtendedErrorCode
 product: Windows
 targetos: Windows
-req.lib: Mfmediaengine.lib
-req.dll: Mfmediaengine.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrack::GetExtendedErrorCode

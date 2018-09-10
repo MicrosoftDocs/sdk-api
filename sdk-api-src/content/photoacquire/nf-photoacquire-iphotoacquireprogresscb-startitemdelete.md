@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::StartItemDelete
 author: windows-sdk-content
 description: The StartItemDelete method provides extended functionality each time the deletion of an individual item from the device begins. The application provides the implementation of the StartItemDelete method.
 old-location: picacq\iphotoacquireprogresscb_startitemdelete.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 0f4ab29d-ea9c-410d-94ab-4c4d8ed76b4d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartItemDelete method, IPhotoAcquireProgressCB.StartItemDelete, IPhotoAcquireProgressCB::StartItemDelete, IPhotoAcquireProgressCBStartItemDelete, StartItemDelete, StartItemDelete method [Picture Acquisition], StartItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartItemDelete, picacq.iphotoacquireprogresscb_startitemdelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.StartItemDelete
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::StartItemDelete

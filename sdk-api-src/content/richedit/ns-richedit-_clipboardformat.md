@@ -4,7 +4,7 @@ title: "_clipboardformat"
 author: windows-sdk-content
 description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.
 old-location: controls\clipboardformat.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLIPBOARDFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIPBOARDFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLIPBOARDFORMAT
+req.redist: 
 ---
 
 # _clipboardformat structure

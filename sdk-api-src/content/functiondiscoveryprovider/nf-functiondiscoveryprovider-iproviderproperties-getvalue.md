@@ -4,17 +4,16 @@ title: IProviderProperties::GetValue
 author: windows-sdk-content
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProviderProperties.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IProviderProperties::GetValue

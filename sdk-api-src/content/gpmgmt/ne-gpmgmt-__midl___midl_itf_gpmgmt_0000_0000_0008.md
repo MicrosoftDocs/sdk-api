@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_gpmgmt_0000_0000_0008"
 author: windows-sdk-content
 description: Options for Group Policy Management Console reports.
 old-location: gpmc\gpmreportingoptions.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMReportingOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GPMReportingOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GPMReportingOptions
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_gpmgmt_0000_0000_0008 enumeration

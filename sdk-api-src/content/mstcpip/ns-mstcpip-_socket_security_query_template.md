@@ -4,7 +4,7 @@ title: "_SOCKET_SECURITY_QUERY_TEMPLATE"
 author: windows-sdk-content
 description: Contains the security template used by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_template.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKET_SECURITY_QUERY_TEMPLATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKET_SECURITY_QUERY_TEMPLATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SOCKET_SECURITY_QUERY_TEMPLATE
+req.redist: 
 ---
 
 # _SOCKET_SECURITY_QUERY_TEMPLATE structure

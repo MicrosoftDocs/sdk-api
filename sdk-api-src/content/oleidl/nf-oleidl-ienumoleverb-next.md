@@ -4,17 +4,16 @@ title: IEnumOLEVERB::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_next.htm
-old-project: com
+tech.root: com
 ms.assetid: bb934017-9054-42b5-89d4-a24f12829503
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumOLEVERB::Next, Next, Next method [COM], Next method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumOLEVERB.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOLEVERB::Next

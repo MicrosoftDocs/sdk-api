@@ -4,7 +4,7 @@ title: WS_MOVE_TO
 author: windows-sdk-content
 description: This enumeration identifies the various ways to move about an xml document.
 old-location: wsw\ws_move_to.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 9d1623cc-7a88-4a84-ba75-decc4de9fe00
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_MOVE_TO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_MOVE_TO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_MOVE_TO
+req.redist: 
 ---
 
 # WS_MOVE_TO enumeration

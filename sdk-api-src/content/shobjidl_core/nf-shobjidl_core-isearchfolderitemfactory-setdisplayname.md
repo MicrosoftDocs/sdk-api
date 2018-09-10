@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetDisplayName
 author: windows-sdk-content
 description: Sets the search folder display name, as specified.
 old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetDisplayName method, ISearchFolderItemFactory.SetDisplayName, ISearchFolderItemFactory::SetDisplayName, SetDisplayName, SetDisplayName method [Windows Shell], SetDisplayName method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetDisplayName, shell.ISearchFolderItemFactory_SetDisplayName, shobjidl_core/ISearchFolderItemFactory::SetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetDisplayName

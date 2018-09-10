@@ -4,17 +4,16 @@ title: IEmailAction::put_Cc
 author: windows-sdk-content
 description: Gets or sets the email address or addresses that you want to Cc in the email message.
 old-location: taskschd\iemailaction_cc.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 23493ac7-0906-4ea3-9445-3dd56c30bb13
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cc property [Task Scheduler], Cc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Cc property, IEmailAction.Cc, IEmailAction.put_Cc, IEmailAction::Cc, IEmailAction::get_Cc, IEmailAction::put_Cc, put_Cc, taskschd.iemailaction_cc, taskschd/IEmailAction::Cc, taskschd/IEmailAction::get_Cc, taskschd/IEmailAction::put_Cc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEmailAction.put_Cc
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmailAction::put_Cc

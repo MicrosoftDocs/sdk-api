@@ -4,17 +4,16 @@ title: IActiveDesktop::GetDesktopItem
 author: windows-sdk-content
 description: Gets the specified desktop item.
 old-location: lwef\iactivedesktop_getdesktopitem.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: b9d4a771-023f-4a31-b9b7-39b8b4a8695a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDesktopItem, GetDesktopItem method [Legacy Windows Environment Features], GetDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItem method, IActiveDesktop.GetDesktopItem, IActiveDesktop::GetDesktopItem, _win32_IActiveDesktop_GetDesktopItem, lwef.iactivedesktop_getdesktopitem, shell.iactivedesktop_getdesktopitem, shlobj_core/IActiveDesktop::GetDesktopItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.GetDesktopItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::GetDesktopItem

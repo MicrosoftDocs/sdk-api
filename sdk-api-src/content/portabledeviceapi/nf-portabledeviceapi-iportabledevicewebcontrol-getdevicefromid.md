@@ -4,17 +4,16 @@ title: IPortableDeviceWebControl::GetDeviceFromId
 author: windows-sdk-content
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
-old-project: wpdauto
+tech.root: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromId method, IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceWebControl.GetDeviceFromId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromId

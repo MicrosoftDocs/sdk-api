@@ -4,17 +4,16 @@ title: ITextDocument::GetStoryCount
 author: windows-sdk-content
 description: Gets the count of stories in this document.
 old-location: controls\ITextDocument_GetStoryCount.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorycount.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStoryCount, GetStoryCount method [Windows Controls], GetStoryCount method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryCount method, ITextDocument.GetStoryCount, ITextDocument::GetStoryCount, _win32_ITextDocument_GetStoryCount, _win32_ITextDocument_GetStoryCount_cpp, controls.ITextDocument_GetStoryCount, controls._win32_ITextDocument_GetStoryCount, tom/ITextDocument::GetStoryCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument.GetStoryCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument::GetStoryCount

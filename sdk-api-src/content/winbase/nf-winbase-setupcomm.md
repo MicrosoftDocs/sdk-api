@@ -4,17 +4,16 @@ title: SetupComm function
 author: windows-sdk-content
 description: Initializes the communications parameters for a specified communications device.
 old-location: base\setupcomm.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupComm
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetupComm function

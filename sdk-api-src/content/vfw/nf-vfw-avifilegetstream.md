@@ -4,17 +4,16 @@ title: AVIFileGetStream function
 author: windows-sdk-content
 description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.
 old-location: multimedia\avifilegetstream.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AVIFileGetStream
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIFileGetStream function

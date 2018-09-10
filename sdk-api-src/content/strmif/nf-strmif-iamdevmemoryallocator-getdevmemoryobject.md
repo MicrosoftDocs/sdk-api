@@ -4,17 +4,16 @@ title: IAMDevMemoryAllocator::GetDevMemoryObject
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves an IUnknown interface pointer to a device memory control object that can be aggregated with a custom allocator.
 old-location: dshow\iamdevmemoryallocator_getdevmemoryobject.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d7ca361a-1ce6-449f-9d81-fbfe39f0f9f0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetDevMemoryObject method, IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMDevMemoryAllocator.GetDevMemoryObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDevMemoryAllocator::GetDevMemoryObject
@@ -67,7 +65,7 @@ Retrieves an <b>IUnknown</b> interface pointer to a device memory control object
 
 ### -param ppUnkInnner
 
-
+TBD
 
 
 ### -param pUnkOuter [in]

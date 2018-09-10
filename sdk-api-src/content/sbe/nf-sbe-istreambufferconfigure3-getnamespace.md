@@ -4,17 +4,16 @@ title: IStreamBufferConfigure3::GetNamespace
 author: windows-sdk-content
 description: The GetNamespace method retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_getnamespace.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c03b5edd-e2b2-4ac9-b2e7-080f3796a6cc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNamespace, GetNamespace method [Microsoft TV Technologies], GetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetNamespace method, IStreamBufferConfigure3.GetNamespace, IStreamBufferConfigure3::GetNamespace, IStreamBufferConfigure3GetNamespace, mstv.istreambufferconfigure3_getnamespace, sbe/IStreamBufferConfigure3::GetNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure3.GetNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure3::GetNamespace

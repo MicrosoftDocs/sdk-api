@@ -4,7 +4,7 @@ title: tagAM_SAMPLE_PROPERTY_FLAGS
 author: windows-sdk-content
 description: Specifies values for the dwSampleFlags and dwStreamId members of the AM_SAMPLE2_PROPERTIES structure. These values describe the properties of media samples.
 old-location: dshow\am_sample_property_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d2aa2fc6-282f-4b8d-8bed-4955f60537db
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: DShow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - tagAM_SAMPLE_PROPERTY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # tagAM_SAMPLE_PROPERTY_FLAGS enumeration

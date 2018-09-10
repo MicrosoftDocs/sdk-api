@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::put__CustomCompositor
 author: windows-sdk-content
 description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.
 old-location: mstv\imsvidvideorenderer_put__customcompositor.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ff99b253-20bc-4b8e-8624-ffcbb3b91857
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__CustomCompositor method, IMSVidVideoRenderer.put__CustomCompositor, IMSVidVideoRenderer::put__CustomCompositor, IMSVidVideoRendererput__CustomCompositor, mstv.imsvidvideorenderer_put__customcompositor, put__CustomCompositor, put__CustomCompositor method [Microsoft TV Technologies], put__CustomCompositor method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__CustomCompositor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.put__CustomCompositor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::put__CustomCompositor
@@ -62,7 +60,7 @@ The <b>put__CustomCompositor</b> method specifies a custom image compositor for 
 
 ### -param Compositor
 
-
+TBD
 
 
 

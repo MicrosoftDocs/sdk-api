@@ -4,17 +4,16 @@ title: TpSetCallbackPriority function
 author: windows-sdk-content
 description: Specifies the priority of a callback function relative to other work items in the same thread pool.
 old-location: base\tpsetcallbackpriority.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, TpSetCallbackPriority, TpSetCallbackPriority function, base.tpsetcallbackpriority, winnt/TpSetCallbackPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TpSetCallbackPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TpSetCallbackPriority function

@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplication::put_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this application.
 old-location: ics\inetfwauthorizedapplication_name.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 4937e0a5-089f-404f-b0dc-bba8e8a332a5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Name property, INetFwAuthorizedApplication.Name, INetFwAuthorizedApplication.put_Name, INetFwAuthorizedApplication::Name, INetFwAuthorizedApplication::get_Name, INetFwAuthorizedApplication::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_name, netfw/INetFwAuthorizedApplication::Name, netfw/INetFwAuthorizedApplication::get_Name, netfw/INetFwAuthorizedApplication::put_Name, put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwAuthorizedApplication.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplication::put_Name

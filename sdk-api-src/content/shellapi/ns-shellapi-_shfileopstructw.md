@@ -4,7 +4,7 @@ title: "_SHFILEOPSTRUCTW"
 author: windows-sdk-content
 description: Contains information that the SHFileOperation function uses to perform file operations.
 old-location: shell\SHFILEOPSTRUCT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHFILEOPSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW
+req.redist: 
 ---
 
 # _SHFILEOPSTRUCTW structure

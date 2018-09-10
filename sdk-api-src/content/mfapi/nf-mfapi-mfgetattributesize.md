@@ -4,17 +4,16 @@ title: MFGetAttributeSize function
 author: windows-sdk-content
 description: Retrieves an attribute whose value is a size, expressed as a width and height.
 old-location: mf\mfgetattributesize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetAttributeSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetAttributeSize function

@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnameentry.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fe33265a-8c75-4e16-8178-3569cf30d8e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameEntry method, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeCRLDistInfo interface [Security],SetNameEntry method, ICertEncodeCRLDistInfo.SetNameEntry, ICertEncodeCRLDistInfo::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeCRLDistInfo object, SetNameEntry method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnameentry, certenc/ICertEncodeCRLDistInfo::SetNameEntry, security.icertencodecrldistinfo_setnameentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeCRLDistInfo.SetNameEntry
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo::SetNameEntry

@@ -4,17 +4,16 @@ title: IDShowPlugin::get_UserAgent
 author: windows-sdk-content
 description: The get_UserAgent method retrieves the User-Agent field from the HTTP header.
 old-location: dshow\idshowplugin_get_useragent.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0bbd3cd2-75d8-4c48-837d-4cb045cad35b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_UserAgent method, IDShowPlugin.get_UserAgent, IDShowPlugin::get_UserAgent, IDShowPluginget_UserAgent, dshow.idshowplugin_get_useragent, get_UserAgent, get_UserAgent method [DirectShow], get_UserAgent method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_UserAgent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDShowPlugin.get_UserAgent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDShowPlugin::get_UserAgent

@@ -4,7 +4,7 @@ title: "_KERB_QUERY_TKT_CACHE_REQUEST"
 author: windows-sdk-content
 description: Contains information used to query the ticket cache.
 old-location: security\kerb_query_tkt_cache_request.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3c8e63b3-9ac4-4228-87e1-6802c3d12d6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_QUERY_TKT_CACHE_REQUEST, *PKERB_QUERY_TKT_CACHE_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_QUERY_TKT_CACHE_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_QUERY_TKT_CACHE_REQUEST, *PKERB_QUERY_TKT_CACHE_REQUEST
+req.redist: 
 ---
 
 # _KERB_QUERY_TKT_CACHE_REQUEST structure

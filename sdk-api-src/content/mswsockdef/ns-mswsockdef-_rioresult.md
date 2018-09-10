@@ -4,7 +4,7 @@ title: "_RIORESULT"
 author: windows-sdk-content
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RIORESULT, *PRIORESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RIORESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RIORESULT, *PRIORESULT
+req.redist: 
 ---
 
 # _RIORESULT structure

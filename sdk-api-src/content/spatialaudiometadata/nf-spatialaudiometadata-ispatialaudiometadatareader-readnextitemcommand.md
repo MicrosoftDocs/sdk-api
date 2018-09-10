@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataReader::ReadNextItemCommand
 author: windows-sdk-content
 description: Reads metadata commands and value data for the current item.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],ReadNextItemCommand method, ISpatialAudioMetadataReader.ReadNextItemCommand, ISpatialAudioMetadataReader::ReadNextItemCommand, ReadNextItemCommand, ReadNextItemCommand method [Core Audio], ReadNextItemCommand method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_readnextitemcommand, spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataReader.ReadNextItemCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataReader::ReadNextItemCommand

@@ -4,17 +4,16 @@ title: IEnumMoniker::Skip
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_skip.htm
-old-project: com
+tech.root: com
 ms.assetid: 90df5bc4-6bb0-44bf-b675-d4a93d4680ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumMoniker interface [COM],Skip method, IEnumMoniker.Skip, IEnumMoniker::Skip, Skip, Skip method [COM], Skip method [COM],IEnumMoniker interface, _ole_ienummoniker_skip, com.ienummoniker_skip, objidl/IEnumMoniker::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumMoniker.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMoniker::Skip

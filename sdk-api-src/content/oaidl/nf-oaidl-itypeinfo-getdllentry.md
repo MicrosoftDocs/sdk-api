@@ -4,17 +4,16 @@ title: ITypeInfo::GetDllEntry
 author: windows-sdk-content
 description: Retrieves a description or specification of an entry point for a function in a DLL.
 old-location: automat\itypeinfo_getdllentry.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 1b947de4-4a3e-40f3-837b-c60b0ab67ef1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDllEntry, GetDllEntry method [Automation], GetDllEntry method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDllEntry method, ITypeInfo.GetDllEntry, ITypeInfo::GetDllEntry, _oa96_ITypeInfo_GetDllEntry, automat.itypeinfo_getdllentry, oaidl/ITypeInfo::GetDllEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetDllEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetDllEntry

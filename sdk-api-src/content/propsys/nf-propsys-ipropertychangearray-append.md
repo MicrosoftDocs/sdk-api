@@ -4,17 +4,16 @@ title: IPropertyChangeArray::Append
 author: windows-sdk-content
 description: Inserts a change operation at the end of an array.
 old-location: properties\IPropertyChangeArray_Append.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 45039163-dffc-4168-9c31-786dcfdab760
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Append, Append method [Windows Properties], Append method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],Append method, IPropertyChangeArray.Append, IPropertyChangeArray::Append, _shell_IPropertyChangeArray_Append, properties.IPropertyChangeArray_Append, propsys/IPropertyChangeArray::Append, shell.IPropertyChangeArray_Append
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyChangeArray.Append
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyChangeArray::Append

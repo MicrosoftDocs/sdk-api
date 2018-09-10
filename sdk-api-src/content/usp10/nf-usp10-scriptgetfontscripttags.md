@@ -4,17 +4,16 @@ title: ScriptGetFontScriptTags function
 author: windows-sdk-content
 description: Retrieves a list of scripts available in the font for OpenType processing. Scripts comprising the list are retrieved from the font located in the supplied device context or from the script shaping engine that processes the font of the current run.
 old-location: intl\scriptgetfontscripttags.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: d93dd2d6-93c5-4781-8645-fd3f0b45c9b7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptGetFontScriptTags, ScriptGetFontScriptTags function [Internationalization for Windows Applications], _win32_ScriptGetFontScriptTags, intl.scriptgetfontscripttags, usp10/ScriptGetFontScriptTags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptGetFontScriptTags
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ---
 
 # ScriptGetFontScriptTags function

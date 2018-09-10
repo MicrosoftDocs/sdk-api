@@ -4,17 +4,16 @@ title: RpcNsMgmtSetExpAge function
 author: windows-sdk-content
 description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtsetexpage.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcNsMgmtSetExpAge
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsMgmtSetExpAge function

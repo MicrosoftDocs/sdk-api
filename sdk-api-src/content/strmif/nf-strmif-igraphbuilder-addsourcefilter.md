@@ -4,17 +4,16 @@ title: IGraphBuilder::AddSourceFilter
 author: windows-sdk-content
 description: The AddSourceFilter method adds a source filter for a specified file to the filter graph.
 old-location: dshow\igraphbuilder_addsourcefilter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ed4d7fc6-558b-474f-ae8d-58aa8479b4d2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],AddSourceFilter method, IGraphBuilder.AddSourceFilter, IGraphBuilder::AddSourceFilter, IGraphBuilderAddSourceFilter, dshow.igraphbuilder_addsourcefilter, strmif/IGraphBuilder::AddSourceFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphBuilder.AddSourceFilter
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphBuilder::AddSourceFilter
@@ -66,12 +64,12 @@ The <code>AddSourceFilter</code> method adds a source filter for a specified fil
 
 ### -param lpcwstrFileName
 
-
+TBD
 
 
 ### -param lpcwstrFilterName
 
-
+TBD
 
 
 ### -param ppFilter [out]

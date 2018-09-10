@@ -4,7 +4,7 @@ title: "_BCRYPT_OID"
 author: windows-sdk-content
 description: Contains information about a DER-encoded object identifier (OID).
 old-location: security\bcrypt_oid.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_OID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_OID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_OID
+req.redist: 
 ---
 
 # _BCRYPT_OID structure

@@ -4,17 +4,16 @@ title: IVdsDisk::ClearFlags
 author: windows-sdk-content
 description: Clears the flags of a disk object.
 old-location: base\ivdsdisk_clearflags.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3ee43acd-6dcc-40de-9bb6-de7cfb605f15
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ClearFlags method, IVdsDisk.ClearFlags, IVdsDisk::ClearFlags, base.ivdsdisk_clearflags, vds/IVdsDisk::ClearFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDisk.ClearFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk::ClearFlags

@@ -4,7 +4,7 @@ title: "_WIA_DITHER_PATTERN_DATA"
 author: windows-sdk-content
 description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.
 old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIA_DITHER_PATTERN_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
+req.redist: 
 ---
 
 # _WIA_DITHER_PATTERN_DATA structure

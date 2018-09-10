@@ -4,17 +4,16 @@ title: ITfCompartmentMgr::GetCompartment
 author: windows-sdk-content
 description: ITfCompartmentMgr::GetCompartment method
 old-location: tsf\itfcompartmentmgr_getcompartment.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4f71815b-d352-4303-a3dd-180a71f9a5fe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCompartment, GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],GetCompartment method, ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCompartmentMgr.GetCompartment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCompartmentMgr::GetCompartment

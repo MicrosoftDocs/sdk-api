@@ -4,7 +4,7 @@ title: OPC_SIGNATURE_VALIDATION_RESULT
 author: windows-sdk-content
 description: Indicates the status of the signature.
 old-location: opc\opc_signature_validation_result.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 991e0620-d674-4c2c-b0d8-18d7fdd031fb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_VALIDATION_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPC_SIGNATURE_VALIDATION_RESULT
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: OPC_SIGNATURE_VALIDATION_RESULT
+req.redist: 
 ---
 
 # OPC_SIGNATURE_VALIDATION_RESULT enumeration

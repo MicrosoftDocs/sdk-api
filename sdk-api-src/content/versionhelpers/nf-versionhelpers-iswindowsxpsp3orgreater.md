@@ -4,17 +4,16 @@ title: IsWindowsXPSP3OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 3 (SP3) version.
 old-location: base\iswindowsxpsp3orgreater.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 06DC8FF0-8652-4652-855F-600AC53C6301
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsWindowsXPSP3OrGreater, IsWindowsXPSP3OrGreater function, base.iswindowsxpsp3orgreater, versionhelpers/IsWindowsXPSP3OrGreater
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Kernel32.lib; Ntdll.lib
+req.dll: Kernel32.dll; Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IsWindowsXPSP3OrGreater
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; Ntdll.lib
-req.dll: Kernel32.dll; Ntdll.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsWindowsXPSP3OrGreater function

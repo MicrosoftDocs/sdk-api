@@ -4,7 +4,7 @@ title: ASF_STATUSFLAGS
 author: windows-sdk-content
 description: Defines status conditions for the IMFASFSplitter::GetNextSample method.
 old-location: mf\asf_statusflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c8f1944a-2b61-4c6e-8c87-37c2985fbdca
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_STATUSFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_STATUSFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASF_STATUSFLAGS
+req.redist: 
 ---
 
 # ASF_STATUSFLAGS enumeration

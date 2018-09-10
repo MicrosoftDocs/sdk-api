@@ -4,17 +4,16 @@ title: DRMAcquireAdvisories function
 author: windows-sdk-content
 description: Retrieves revocation lists required by a submitted license.
 old-location: rm\drmacquireadvisories.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMAcquireAdvisories
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

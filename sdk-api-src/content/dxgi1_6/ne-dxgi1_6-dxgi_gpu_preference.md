@@ -4,7 +4,7 @@ title: DXGI_GPU_PREFERENCE
 author: windows-sdk-content
 description: The preference of GPU for the app to run on.
 old-location: direct3ddxgi\dxgi_gpu_preference.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 4228FF8B-968B-42B5-8355-226C7FE9F230
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_GPU_PREFERENCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_GPU_PREFERENCE
+req.redist: 
 ---
 
 # DXGI_GPU_PREFERENCE enumeration

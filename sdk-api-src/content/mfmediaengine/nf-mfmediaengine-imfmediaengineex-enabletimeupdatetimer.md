@@ -4,17 +4,16 @@ title: IMFMediaEngineEx::EnableTimeUpdateTimer
 author: windows-sdk-content
 description: Enables or disables the time update timer.
 old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 07128937-bb90-4ed5-85ef-e58c8a273d39
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineEx.EnableTimeUpdateTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineEx::EnableTimeUpdateTimer

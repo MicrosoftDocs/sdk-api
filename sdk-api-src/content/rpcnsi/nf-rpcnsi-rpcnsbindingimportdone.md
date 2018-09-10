@@ -4,17 +4,16 @@ title: RpcNsBindingImportDone function
 author: windows-sdk-content
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
 old-location: rpc\rpcnsbindingimportdone.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcNsBindingImportDone
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsBindingImportDone function

@@ -4,7 +4,7 @@ title: "_MMC_COLUMN_SET_DATA"
 author: windows-sdk-content
 description: The MMC_COLUMN_SET_DATA structure is introduced in MMC 1.2.
 old-location: mmc\mmc_column_set_data.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 15088a2f-3dfc-4af4-bcae-e7e9e456df8b
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_COLUMN_SET_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_COLUMN_SET_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_COLUMN_SET_DATA
+req.redist: 
 ---
 
 # _MMC_COLUMN_SET_DATA structure

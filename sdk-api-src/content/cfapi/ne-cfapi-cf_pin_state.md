@@ -4,7 +4,7 @@ title: CF_PIN_STATE
 author: windows-sdk-content
 description: Pin states of a placeholder file or directory.
 old-location: cloudapi\cf_pin_state.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: F3074C9A-2805-47DE-9BA0-D7E02C4FF030
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_PIN_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_PIN_STATE
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_PIN_STATE
+req.redist: 
 ---
 
 # CF_PIN_STATE enumeration

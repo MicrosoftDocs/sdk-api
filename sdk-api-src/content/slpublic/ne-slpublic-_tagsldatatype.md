@@ -4,7 +4,7 @@ title: "_tagSLDATATYPE"
 author: windows-sdk-content
 description: Specifies the data type of the buffer returned by the SLGetWindowsInformation function.
 old-location: security\sldatatype.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 245e79de-4823-4af9-926a-088e263cc802
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SLDATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLDATATYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SLDATATYPE
+req.redist: 
 ---
 
 # _tagSLDATATYPE enumeration

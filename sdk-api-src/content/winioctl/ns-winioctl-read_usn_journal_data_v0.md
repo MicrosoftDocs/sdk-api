@@ -4,7 +4,7 @@ title: READ_USN_JOURNAL_DATA_V0
 author: windows-sdk-content
 description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.
 old-location: fs\read_usn_journal_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f88e71ba-6099-4928-9d71-732a4ca809bc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: READ_USN_JOURNAL_DATA_V0, *PREAD_USN_JOURNAL_DATA_V0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - READ_USN_JOURNAL_DATA_V0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: READ_USN_JOURNAL_DATA_V0, *PREAD_USN_JOURNAL_DATA_V0
+req.redist: 
 ---
 
 # READ_USN_JOURNAL_DATA_V0 structure

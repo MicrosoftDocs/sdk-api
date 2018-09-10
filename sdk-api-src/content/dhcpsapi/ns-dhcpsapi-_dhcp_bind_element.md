@@ -4,7 +4,7 @@ title: "_DHCP_BIND_ELEMENT"
 author: windows-sdk-content
 description: Defines an individual network binding for the DHCP server. A single DHCP server can contain multiple bindings and serve multiple networks.
 old-location: dhcp\dhcp_bind_element.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 00d9d23e-fb39-4f3c-a2b9-9983322879fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_BIND_ELEMENT, *LPDHCP_BIND_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_BIND_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_BIND_ELEMENT, *LPDHCP_BIND_ELEMENT
+req.redist: 
 ---
 
 # _DHCP_BIND_ELEMENT structure

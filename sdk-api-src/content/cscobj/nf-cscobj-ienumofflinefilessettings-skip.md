@@ -4,17 +4,16 @@ title: IEnumOfflineFilesSettings::Skip
 author: windows-sdk-content
 description: Skips over the next specified number of elements in the enumeration.
 old-location: of\ienumofflinefilessettings_skip.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 8b84fcef-f4e3-4e23-b254-dd21f145c1ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Skip method, IEnumOfflineFilesSettings.Skip, IEnumOfflineFilesSettings::Skip, Skip, Skip method [Offline Files], Skip method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Skip, of.ienumofflinefilessettings_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumOfflineFilesSettings.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOfflineFilesSettings::Skip

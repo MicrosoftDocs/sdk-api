@@ -4,7 +4,7 @@ title: tagBITMAPINFO
 author: windows-sdk-content
 description: The BITMAPINFO structure defines the dimensions and color information for a DIB.
 old-location: gdi\bitmapinfo.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 84cc51e8-78f3-4ee6-bc08-94feff89afb0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAPINFO, *LPBITMAPINFO, *PBITMAPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BITMAPINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BITMAPINFO, *LPBITMAPINFO, *PBITMAPINFO
+req.redist: 
 ---
 
 # tagBITMAPINFO structure

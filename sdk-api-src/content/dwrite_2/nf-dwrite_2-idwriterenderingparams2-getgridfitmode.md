@@ -4,17 +4,16 @@ title: IDWriteRenderingParams2::GetGridFitMode
 author: windows-sdk-content
 description: Gets the grid fitting mode.
 old-location: directwrite\idwriterenderingparams2_getgridfitmode.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: E455D3B7-FF2E-44D0-93E4-9FFA5D6BC328
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetGridFitMode, GetGridFitMode method [Direct Write], GetGridFitMode method [Direct Write],IDWriteRenderingParams2 interface, IDWriteRenderingParams2 interface [Direct Write],GetGridFitMode method, IDWriteRenderingParams2.GetGridFitMode, IDWriteRenderingParams2::GetGridFitMode, directwrite.idwriterenderingparams2_getgridfitmode, dwrite_2/IDWriteRenderingParams2::GetGridFitMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteRenderingParams2.GetGridFitMode
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteRenderingParams2::GetGridFitMode

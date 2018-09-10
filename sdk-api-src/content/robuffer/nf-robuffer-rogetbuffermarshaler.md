@@ -4,17 +4,16 @@ title: RoGetBufferMarshaler function
 author: windows-sdk-content
 description: Provides a standard IBuffer marshaler to implement the semantics associated with the IBuffer interface when it is marshaled.
 old-location: winrt\rogetbuffermarshaler.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7F40FDC9-C6CF-44C3-AC30-EA56AB72E635
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoGetBufferMarshaler, RoGetBufferMarshaler function [Windows Runtime], robuffer/RoGetBufferMarshaler, winrt.rogetbuffermarshaler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: robuffer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_INIT_TYPE
+req.lib: 
+req.dll: Wintypes.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RoGetBufferMarshaler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wintypes.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoGetBufferMarshaler function

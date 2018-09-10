@@ -4,17 +4,16 @@ title: FindNextStreamW function
 author: windows-sdk-content
 description: Continues a stream search started by a previous call to the FindFirstStreamW function.
 old-location: fs\findnextstreamw.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnextstreamw, base.findnextstreamw, fileapi/FindNextStreamW, fs.findnextstreamw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - FindNextStreamW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindNextStreamW function

@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxPort.get_CanModify
 title: IFaxPort::get_CanModify
 author: windows-sdk-content
-description: The CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
-old-location: fax\_mfax_ifaxport_get_canmodify_vb.htm
-old-project: Fax
+description: The IFaxPort::get_CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
+old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_canmodify_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_920p.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service],FaxPort object, FaxPort object [Fax Service],CanModify property, FaxPort.CanModify, IFaxPort.get_CanModify, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify_vb, get_CanModify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],CanModify property, IFaxPort.CanModify, IFaxPort.get_CanModify, IFaxPort::CanModify, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_mfax_ifaxport_get_canmodify_cpp, faxcom/IFaxPort::CanModify, faxcom/IFaxPort::get_CanModify, get_CanModify
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxPort.CanModify
+ - IFaxPort.CanModify
+ - IFaxPort.get_CanModify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxPort::get_CanModify
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>CanModify</b> property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
+The <b>IFaxPort::get_CanModify</b> property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
 
 This property is read-only.
 
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-To ensure that the client has permission to modify the specified fax port, a fax client application can call the <b>CanModify</b> property before calling any method that begins with <b>IFaxPort::put_</b>. For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>.
+To ensure that the client has permission to modify the specified fax port, a fax client application can call the <b>IFaxPort::get_CanModify</b> property before calling any method that begins with <b>IFaxPort::put_</b>. For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>.
 
 
 
@@ -79,10 +78,6 @@ To ensure that the client has permission to modify the specified fax port, a fax
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/7888d042-7d85-4921-b233-f6e95e0c80d9">FaxPort</a>
 
 
 

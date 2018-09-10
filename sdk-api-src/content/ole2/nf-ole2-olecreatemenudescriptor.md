@@ -4,17 +4,16 @@ title: OleCreateMenuDescriptor function
 author: windows-sdk-content
 description: Creates and returns an OLE menu descriptor (that is, an OLE-provided data structure that describes the menus) for OLE to use when dispatching menu messages and commands.
 old-location: com\olecreatemenudescriptor.htm
-old-project: com
+tech.root: com
 ms.assetid: b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreateMenuDescriptor, OleCreateMenuDescriptor function [COM], _ole_OleCreateMenuDescriptor, com.olecreatemenudescriptor, ole2/OleCreateMenuDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleCreateMenuDescriptor
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateMenuDescriptor function

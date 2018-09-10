@@ -4,17 +4,16 @@ title: CreateDXGIFactory function
 author: windows-sdk-content
 description: Creates a DXGI 1.0 factory that you can use to generate other DXGI objects.
 old-location: direct3ddxgi\createdxgifactory.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: DXGI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateDXGIFactory
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: DXGI.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDXGIFactory function

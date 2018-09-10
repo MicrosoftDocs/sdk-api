@@ -4,17 +4,16 @@ title: CLRES_V1_FUNCTION_TABLE macro
 author: windows-sdk-content
 description: Initializes a function table for version 1.0 of the Resource API.
 old-location: mscs\clres_v1_function_table.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2c390cbb-3bff-4850-9496-8991c112c233
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cluster], _wolf_clres_v1_function_table, mscs.clres_v1_function_table, resapi/CLRES_V1_FUNCTION_TABLE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLRES_V1_FUNCTION_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CLRES_V1_FUNCTION_TABLE macro

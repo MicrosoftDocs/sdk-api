@@ -4,17 +4,16 @@ title: CoWaitForMultipleObjects function
 author: windows-sdk-content
 description: A replacement for CoWaitForMultipleHandles. This replacement API hides the options for CoWaitForMultipleHandles that are not supported in ASTA.
 old-location: com\cowaitformultipleobjects.htm
-old-project: com
+tech.root: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: 
+req.dll: Combase.dll; Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CoWaitForMultipleObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Combase.dll; Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoWaitForMultipleObjects function

@@ -4,17 +4,16 @@ title: ITextProvider2::RangeFromAnnotation
 author: windows-sdk-content
 description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_itextprovider2_rangefromannotation.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 908DEDED-1AF9-4DFF-AC1D-F06818B06925
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextProvider2 interface [Windows Accessibility],RangeFromAnnotation method, ITextProvider2.RangeFromAnnotation, ITextProvider2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],ITextProvider2 interface, uiautomationcore/ITextProvider2::RangeFromAnnotation, winauto.uiauto_itextprovider2_rangefromannotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextProvider2.RangeFromAnnotation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextProvider2::RangeFromAnnotation

@@ -4,7 +4,7 @@ title: IMPEG2_TIF_CONTROL
 author: windows-sdk-content
 description: IMPEG2_TIF_CONTROL is no longer available for use.
 old-location: mstv\impeg2_tif_control.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9583365d-b318-49e2-a32f-f6cc9d3f289d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMPEG2_TIF_CONTROL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2_TIF_CONTROL interface

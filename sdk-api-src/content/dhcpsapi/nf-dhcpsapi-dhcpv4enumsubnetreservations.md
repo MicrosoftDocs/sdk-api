@@ -4,17 +4,16 @@ title: DhcpV4EnumSubnetReservations function
 author: windows-sdk-content
 description: Enumerates the reservations for a specific DHCP IPv4 subnet.
 old-location: dhcp\dhcpv4enumsubnetreservations.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 6eebc858-7ffe-4bf3-b318-3a5ad16c9827
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function [DHCP], dhcp.dhcpv4enumsubnetreservations, dhcpsapi/DhcpV4EnumSubnetReservations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4EnumSubnetReservations
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4EnumSubnetReservations function

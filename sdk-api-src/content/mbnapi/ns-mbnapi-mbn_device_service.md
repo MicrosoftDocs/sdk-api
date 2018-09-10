@@ -4,7 +4,7 @@ title: MBN_DEVICE_SERVICE
 author: windows-sdk-content
 description: The MBN_DEVICE_SERVICE structure provides information about a Mobile Broadband device service.
 old-location: mbn\mbn_device_service.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 83BB1CC3-2F00-4CB0-AF05-A8309D01942D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_DEVICE_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_DEVICE_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_DEVICE_SERVICE
+req.redist: 
 ---
 
 # MBN_DEVICE_SERVICE structure

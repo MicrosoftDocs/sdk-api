@@ -4,17 +4,16 @@ title: HttpReceiveHttpRequest function
 author: windows-sdk-content
 description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
 old-location: http\httpreceivehttprequest.htm
-old-project: http
+tech.root: http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpReceiveHttpRequest
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpReceiveHttpRequest function

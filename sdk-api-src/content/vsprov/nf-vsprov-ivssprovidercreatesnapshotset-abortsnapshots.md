@@ -4,17 +4,16 @@ title: IVssProviderCreateSnapshotSet::AbortSnapshots
 author: windows-sdk-content
 description: Aborts prepared shadow copies in this provider.
 old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],AbortSnapshots method, IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssProviderCreateSnapshotSet.AbortSnapshots
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssProviderCreateSnapshotSet::AbortSnapshots

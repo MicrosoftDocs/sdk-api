@@ -4,7 +4,7 @@ title: "_DS_REPL_OBJ_META_DATA_2"
 author: windows-sdk-content
 description: The DS_REPL_OBJ_META_DATA_2 structure contains an array of DS_REPL_ATTR_META_DATA_2 structures, which in turn contain replication state data for the attributes (past and present) for a given object, as returned by the DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_obj_meta_data_2.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 2aed753f-432c-4de8-a6be-aa79833f002f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OBJ_META_DATA_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_OBJ_META_DATA_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_OBJ_META_DATA_2
+req.redist: 
 ---
 
 # _DS_REPL_OBJ_META_DATA_2 structure

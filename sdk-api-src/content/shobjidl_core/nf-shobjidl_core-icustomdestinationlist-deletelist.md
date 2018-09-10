@@ -4,17 +4,16 @@ title: ICustomDestinationList::DeleteList
 author: windows-sdk-content
 description: Deletes a custom Jump List for a specified application.
 old-location: shell\ICustomDestinationList_DeleteList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef246f5a-9fcf-4475-b19a-e676f0351f3f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],DeleteList method, ICustomDestinationList.DeleteList, ICustomDestinationList::DeleteList, _shell_ICustomDestinationList_DeleteList, shell.ICustomDestinationList_DeleteList, shobjidl_core/ICustomDestinationList::DeleteList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICustomDestinationList.DeleteList
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICustomDestinationList::DeleteList

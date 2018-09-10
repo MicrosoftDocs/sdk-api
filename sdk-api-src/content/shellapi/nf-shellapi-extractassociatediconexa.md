@@ -4,17 +4,16 @@ title: ExtractAssociatedIconExA function
 author: windows-sdk-content
 description: ExtractAssociatedIconEx may be altered or unavailable.
 old-location: shell\ExtractAssociatedIconEx.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ExtractAssociatedIconEx, ExtractAssociatedIconEx function [Windows Shell], ExtractAssociatedIconExA, ExtractAssociatedIconExW, _win32_ExtractAssociatedIconEx, shell.ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconExA, shellapi/ExtractAssociatedIconExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ExtractAssociatedIconExW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ExtractAssociatedIconExA function

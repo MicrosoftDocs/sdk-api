@@ -4,17 +4,16 @@ title: IVdsVdProvider::CreateVDisk
 author: windows-sdk-content
 description: Creates a virtual disk.
 old-location: base\ivdsvdprovider_createdisk.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3655946d-f8b5-46a1-97e3-82b0831124b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CreateVDisk, CreateVDisk method, CreateVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,CreateVDisk method, IVdsVdProvider.CreateVDisk, IVdsVdProvider::CreateVDisk, base.ivdsvdprovider_createdisk, vds/IVdsVdProvider::CreateVDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVdProvider.CreateVDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVdProvider::CreateVDisk

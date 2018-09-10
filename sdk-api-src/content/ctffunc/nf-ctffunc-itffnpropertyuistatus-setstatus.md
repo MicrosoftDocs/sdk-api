@@ -4,17 +4,16 @@ title: ITfFnPropertyUIStatus::SetStatus
 author: windows-sdk-content
 description: ITfFnPropertyUIStatus::SetStatus method
 old-location: tsf\itffnpropertyuistatus_setstatus.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus method, ITfFnPropertyUIStatus.SetStatus, ITfFnPropertyUIStatus::SetStatus, SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnPropertyUIStatus.SetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnPropertyUIStatus::SetStatus

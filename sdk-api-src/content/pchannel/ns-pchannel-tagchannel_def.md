@@ -4,7 +4,7 @@ title: tagCHANNEL_DEF
 author: windows-sdk-content
 description: Contains the name and options of a Remote Desktop Services virtual channel.
 old-location: termserv\channel_def_str.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 05fb703f-b43c-420f-aab5-b2d6533a6cab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pchannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PAL_PACKED_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANNEL_DEF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PAL_PACKED_STRUCT
+req.redist: 
 ---
 
 # tagCHANNEL_DEF structure

@@ -4,17 +4,16 @@ title: ITCallingCard::get_Options
 author: windows-sdk-content
 description: The get_Options method gets the translation options for this address and card.
 old-location: tapi3\itcallingcard_get_options.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0daa0058-759b-4f4c-8fb4-ce65e4fa9682
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_Options method, ITCallingCard.get_Options, ITCallingCard::get_Options, _tapi3_itcallingcard_get_options, get_Options, get_Options method [TAPI 2.2], get_Options method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_options, tapi3if/ITCallingCard::get_Options
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_Options
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_Options

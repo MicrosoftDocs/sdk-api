@@ -4,17 +4,16 @@ title: IEnumTuneRequests::Clone
 author: windows-sdk-content
 description: The Clone method creates a copy of the collection.
 old-location: mstv\ienumtunerequests_clone.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTuneRequests.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTuneRequests::Clone
@@ -64,7 +63,7 @@ The <b>Clone</b> method creates a copy of the collection.
 
 ### -param ppenum
 
-
+TBD
 
 
 

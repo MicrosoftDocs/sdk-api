@@ -4,17 +4,16 @@ title: CMSPStream::HandleTSPData
 author: windows-sdk-content
 description: The HandleTSPData method may be called by the derived call object to let the stream handle the TSP commands.
 old-location: tapi3\cmspstream_handletspdata.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2b02690f-9821-488e-b061-916c6338e813
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],HandleTSPData method, CMSPStream.HandleTSPData, CMSPStream::HandleTSPData, HandleTSPData, HandleTSPData method [TAPI 2.2], HandleTSPData method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_handletspdata, mspstrm/CMSPStream::HandleTSPData, tapi3.cmspstream_handletspdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspstrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPStream.HandleTSPData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPStream::HandleTSPData

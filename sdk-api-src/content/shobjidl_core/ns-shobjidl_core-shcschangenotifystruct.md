@@ -4,7 +4,7 @@ title: SHCSCHANGENOTIFYSTRUCT
 author: windows-sdk-content
 description: Contains information about change notification. It is used by IShellMenuCallback::CallbackSM.
 old-location: shell\SMCSHCHANGENOTIFYSTRUCT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 31fd2550-d39c-45fc-9c19-6ba2858002de
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SMCSHCHANGENOTIFYSTRUCT, *PSMCSHCHANGENOTIFYSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SMCSHCHANGENOTIFYSTRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SMCSHCHANGENOTIFYSTRUCT, *PSMCSHCHANGENOTIFYSTRUCT
+req.redist: 
 ---
 
 # SHCSCHANGENOTIFYSTRUCT structure

@@ -4,17 +4,16 @@ title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
 author: windows-sdk-content
 description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedforgottenknowledge.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4e7a9f72-7d5e-4ef8-824a-d7623b71cfb5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge, ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge, winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge

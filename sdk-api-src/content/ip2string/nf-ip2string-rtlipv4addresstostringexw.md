@@ -4,17 +4,16 @@ title: RtlIpv4AddressToStringExW function
 author: windows-sdk-content
 description: Converts an IPv4 address and port number to a string in Internet standard format.
 old-location: iphlp\rtlipv4addresstostringex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 4244eaaf-8522-4edb-abb8-dc2b063c9076
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: RtlIpv4AddressToStringEx, RtlIpv4AddressToStringEx function [IP Helper], RtlIpv4AddressToStringExW, ip2string/RtlIpv4AddressToStringEx, ip2string/RtlIpv4AddressToStringExW, iphlp.rtlipv4addresstostringex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RtlIpv4AddressToStringExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RtlIpv4AddressToStringExW function

@@ -4,17 +4,16 @@ title: IFileOperation::RenameItems
 author: windows-sdk-content
 description: Declares a set of items that are to be given a new display name. All items are given the same name.
 old-location: shell\IFileOperation_RenameItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 325c09c6-ae32-4f5d-8b21-174dafc94aea
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItems method, IFileOperation.RenameItems, IFileOperation::RenameItems, RenameItems, RenameItems method [Windows Shell], RenameItems method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItems, shell.IFileOperation_RenameItems, shobjidl_core/IFileOperation::RenameItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.RenameItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::RenameItems

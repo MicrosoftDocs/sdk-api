@@ -4,17 +4,16 @@ title: InternetSetDialStateW function
 author: windows-sdk-content
 description: Not supported.This function is obsolete. Do not use.
 old-location: wininet\internetsetdialstate.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW, winineti/InternetSetDialState, winineti/InternetSetDialStateA, winineti/InternetSetDialStateW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetSetDialStateW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetSetDialStateW function

@@ -4,17 +4,16 @@ title: SetIScsiIKEInfoW function
 author: windows-sdk-content
 description: SetIscsiIKEInfo function establishes the IPsec policy and preshared key for the indicated initiator to use when performing iSCSI connections.
 old-location: iscsidisc\setiscsiikeinfo.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetIScsiIKEInfoW, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetIscsiIKEInfoW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIScsiIKEInfoW function

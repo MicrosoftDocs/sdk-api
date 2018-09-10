@@ -4,7 +4,7 @@ title: ICommDlgBrowser3
 author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
 old-location: shell\ICommDlgBrowser3.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser3
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser3 interface

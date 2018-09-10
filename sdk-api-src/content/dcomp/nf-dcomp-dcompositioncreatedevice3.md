@@ -4,17 +4,16 @@ title: DCompositionCreateDevice3 function
 author: windows-sdk-content
 description: Creates a new DirectComposition device object, which can be used to create other DirectComposition objects.
 old-location: directcomp\dcompositioncreatedevice3.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5EF8F6E9-7632-42B4-A589-10CD4ABC7695
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DCompositionCreateDevice3, DCompositionCreateDevice3 function [DirectComposition], dcomp/DCompositionCreateDevice3, directcomp.dcompositioncreatedevice3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCompositionCreateDevice3
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCompositionCreateDevice3 function

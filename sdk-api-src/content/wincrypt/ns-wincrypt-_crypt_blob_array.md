@@ -4,7 +4,7 @@ title: "_CRYPT_BLOB_ARRAY"
 author: windows-sdk-content
 description: Contains an array of CRYPT_DATA_BLOB structures.
 old-location: security\crypt_blob_array.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c4429a0c-6e79-4f02-acac-42b5280aa3b1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_BLOB_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY
+req.redist: 
 ---
 
 # _CRYPT_BLOB_ARRAY structure

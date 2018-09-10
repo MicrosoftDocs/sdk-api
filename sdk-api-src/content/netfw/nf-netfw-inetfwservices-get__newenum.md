@@ -4,17 +4,16 @@ title: INetFwServices::get__NewEnum
 author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.
 old-location: ics\inetfwservices_newenum.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwServices interface [ICS/ICF],_NewEnum property, INetFwServices._NewEnum, INetFwServices.get__NewEnum, INetFwServices::_NewEnum, INetFwServices::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwServices interface, get__NewEnum, ics.inetfwservices_newenum, netfw/INetFwServices::_NewEnum, netfw/INetFwServices::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwServices.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwServices::get__NewEnum

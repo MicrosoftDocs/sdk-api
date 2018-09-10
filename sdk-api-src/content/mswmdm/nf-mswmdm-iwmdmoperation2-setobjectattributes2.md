@@ -4,17 +4,16 @@ title: IWMDMOperation2::SetObjectAttributes2
 author: windows-sdk-content
 description: The SetObjectAttributes2 method sets attributes of files or storages. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation2_setobjectattributes2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: ce19bfe5-c8ff-40f4-a152-8a46d2576c63
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMOperation2 interface [windows Media Device Manager],SetObjectAttributes2 method, IWMDMOperation2.SetObjectAttributes2, IWMDMOperation2::SetObjectAttributes2, IWMDMOperation2SetObjectAttributes2, SetObjectAttributes2, SetObjectAttributes2 method [windows Media Device Manager], SetObjectAttributes2 method [windows Media Device Manager],IWMDMOperation2 interface, mswmdm/IWMDMOperation2::SetObjectAttributes2, wmdm.iwmdmoperation2_setobjectattributes2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMOperation2.SetObjectAttributes2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation2::SetObjectAttributes2

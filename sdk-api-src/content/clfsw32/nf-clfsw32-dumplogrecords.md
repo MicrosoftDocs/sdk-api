@@ -4,17 +4,16 @@ title: DumpLogRecords function
 author: windows-sdk-content
 description: Scans a specified log; filters log records based on record type; and places the records in an output file stream that the caller opens.
 old-location: fs\dumplogrecords.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 221b701b-93d5-4ff3-ae6d-c1b980064629
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DumpLogRecords
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DumpLogRecords function

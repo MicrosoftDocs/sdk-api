@@ -4,17 +4,16 @@ title: IAudioInputEndpointRT::ReleaseInputDataPointer
 author: windows-sdk-content
 description: Releases the acquired data pointer.
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],ReleaseInputDataPointer method, IAudioInputEndpointRT.ReleaseInputDataPointer, IAudioInputEndpointRT::ReleaseInputDataPointer, ReleaseInputDataPointer, ReleaseInputDataPointer method [Remote Desktop Services], ReleaseInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer, termserv.iaudioinputendpointrt_releaseinputdatapointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioInputEndpointRT.ReleaseInputDataPointer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioInputEndpointRT::ReleaseInputDataPointer

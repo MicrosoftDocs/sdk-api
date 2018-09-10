@@ -4,7 +4,7 @@ title: CALL_STATE
 author: windows-sdk-content
 description: The CALL_STATE enum is used by the ITCallInfo::get_CallState and ITCallStateEvent::get_State methods.
 old-location: tapi3\call_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALL_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALL_STATE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CALL_STATE
+req.redist: 
 ---
 
 # CALL_STATE enumeration

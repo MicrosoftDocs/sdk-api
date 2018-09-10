@@ -4,7 +4,7 @@ title: "_BCRYPT_RSAKEY_BLOB"
 author: windows-sdk-content
 description: Used as a header for an RSA public key or private key BLOB in memory.
 old-location: security\bcrypt_rsakey_blob.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_RSAKEY_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_RSAKEY_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_RSAKEY_BLOB
+req.redist: 
 ---
 
 # _BCRYPT_RSAKEY_BLOB structure

@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_MaximumBuffers
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_maximumbuffers.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 545c56e3-b915-4f2a-8563-81368ca9b19e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],MaximumBuffers property, ITraceDataCollector.MaximumBuffers, ITraceDataCollector.get_MaximumBuffers, ITraceDataCollector::MaximumBuffers, ITraceDataCollector::get_MaximumBuffers, ITraceDataCollector::put_MaximumBuffers, MaximumBuffers property [PLA], MaximumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_maximumbuffers, get_MaximumBuffers, pla.itracedatacollector_maximumbuffers, pla/ITraceDataCollector::MaximumBuffers, pla/ITraceDataCollector::get_MaximumBuffers, pla/ITraceDataCollector::put_MaximumBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_MaximumBuffers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_MaximumBuffers

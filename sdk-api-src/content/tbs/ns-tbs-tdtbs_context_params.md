@@ -4,7 +4,7 @@ title: tdTBS_CONTEXT_PARAMS
 author: windows-sdk-content
 description: Specifies the version of the TBS context implementation.
 old-location: tbs\tbs_context_params.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: 1b2093b3-6e5e-4289-9b1b-48027ded0fac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TBS_CONTEXT_PARAMS, *PTBS_CONTEXT_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TBS_CONTEXT_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TBS_CONTEXT_PARAMS, *PTBS_CONTEXT_PARAMS
+req.redist: 
 ---
 
 # tdTBS_CONTEXT_PARAMS structure

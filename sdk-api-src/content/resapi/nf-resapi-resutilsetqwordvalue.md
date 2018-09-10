@@ -4,17 +4,16 @@ title: ResUtilSetQwordValue function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE function [Failover Cluster], ResUtilSetQwordValue, ResUtilSetQwordValue function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE, resapi/ResUtilSetQwordValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilSetQwordValue
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilSetQwordValue function

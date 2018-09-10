@@ -4,17 +4,16 @@ title: IOpLockStatus::IsOplockValid
 author: windows-sdk-content
 description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 old-location: search\_search_IOpLockStatus_IsOplockValid.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\isoplockvalid.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockValid method, IOpLockStatus.IsOplockValid, IOpLockStatus::IsOplockValid, IsOplockValid, IsOplockValid method [search], IsOplockValid method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockValid, search._search_IOpLockStatus_IsOplockValid, searchapi/IOpLockStatus::IsOplockValid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpLockStatus.IsOplockValid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IOpLockStatus::IsOplockValid

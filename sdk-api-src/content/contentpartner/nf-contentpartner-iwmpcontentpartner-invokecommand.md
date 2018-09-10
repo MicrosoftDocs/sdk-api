@@ -4,17 +4,16 @@ title: IWMPContentPartner::InvokeCommand
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The InvokeCommand method invokes a context menu command.
 old-location: wmp\iwmpcontentpartner_invokecommand.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartner.InvokeCommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartner::InvokeCommand

@@ -4,17 +4,16 @@ title: LongPtrToUChar function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type UCHAR.
 old-location: shell\LongPtrToUChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f509120e-3cb4-4696-b68b-4304155eff3b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: LongPtrToUChar, LongPtrToUChar function [Windows Shell], intsafe/LongPtrToUChar, shell.LongPtrToUChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongPtrToUChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongPtrToUChar function

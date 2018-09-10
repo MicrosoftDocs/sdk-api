@@ -4,7 +4,7 @@ title: "_TOKEN_ELEVATION_TYPE"
 author: windows-sdk-content
 description: Indicates the elevation type of token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_elevation_type_.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: bfdfa7b3-a8a9-4e54-896c-4be97521a079
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_ELEVATION_TYPE, *PTOKEN_ELEVATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_ELEVATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TOKEN_ELEVATION_TYPE, *PTOKEN_ELEVATION_TYPE
+req.redist: 
 ---
 
 # _TOKEN_ELEVATION_TYPE enumeration

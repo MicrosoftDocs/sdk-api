@@ -4,7 +4,7 @@ title: MBN_PIN_CONSTANTS
 author: windows-sdk-content
 description: The MBN_PIN_CONSTANTS enumerated type defines constant values used by the MBN_PIN_INFO structure.
 old-location: mbn\mbn_pin_constants.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: dff1b2d3-d5f7-4349-8602-f2b5ccff1f41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_PIN_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_PIN_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_PIN_CONSTANTS
+req.redist: 
 ---
 
 # MBN_PIN_CONSTANTS enumeration

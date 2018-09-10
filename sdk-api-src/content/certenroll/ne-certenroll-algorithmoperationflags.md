@@ -4,7 +4,7 @@ title: AlgorithmOperationFlags
 author: windows-sdk-content
 description: Specifies the operations that an algorithm can perform.
 old-location: security\algorithmoperationflags_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 5fa7ee1e-f5ab-44c9-8ae4-a2940f0c6289
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AlgorithmOperationFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AlgorithmOperationFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: AlgorithmOperationFlags
+req.redist: 
 ---
 
 # AlgorithmOperationFlags enumeration

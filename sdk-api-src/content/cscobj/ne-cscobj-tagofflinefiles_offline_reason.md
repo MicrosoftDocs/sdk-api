@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_OFFLINE_REASON
 author: windows-sdk-content
 description: Indicates the reason why an item is offline.
 old-location: of\offlinefiles_offline_reason.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 0c55b7c6-f39d-4e04-bf16-a102c4b7d4fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_OFFLINE_REASON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_OFFLINE_REASON
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_OFFLINE_REASON
+req.redist: 
 ---
 
 # tagOFFLINEFILES_OFFLINE_REASON enumeration

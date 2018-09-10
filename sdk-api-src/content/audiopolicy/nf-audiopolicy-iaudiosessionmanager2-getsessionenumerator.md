@@ -4,17 +4,16 @@ title: IAudioSessionManager2::GetSessionEnumerator
 author: windows-sdk-content
 description: The GetSessionEnumerator method gets a pointer to the audio session enumerator object.
 old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager2.GetSessionEnumerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager2::GetSessionEnumerator
@@ -61,7 +60,7 @@ The <b>GetSessionEnumerator</b> method gets a pointer to the audio session enume
 
 ### -param SessionEnum
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IdnToUnicode function
 author: windows-sdk-content
 description: Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal Unicode UTF-16 encoding syntax.
 old-location: intl\idntounicode.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Normaliz.lib
+req.dll: Normaliz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IdnToUnicode
 product: Windows
 targetos: Windows
-req.lib: Normaliz.lib
-req.dll: Normaliz.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 ---
 
 # IdnToUnicode function

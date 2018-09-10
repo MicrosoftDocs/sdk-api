@@ -4,7 +4,7 @@ title: IWSCProductList
 author: windows-sdk-content
 description: Provides methods to collect product information for the selected type of providers installed on the computer.
 old-location: winprog\iwscproductlist.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSCProductList
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWSCProductList interface

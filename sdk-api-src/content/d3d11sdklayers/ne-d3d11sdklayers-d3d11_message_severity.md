@@ -4,7 +4,7 @@ title: D3D11_MESSAGE_SEVERITY
 author: windows-sdk-content
 description: Debug message severity levels for an information queue.
 old-location: direct3d11\d3d11_message_severity.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 63143187-8e16-4ba4-aec5-8530ed31accb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_MESSAGE_SEVERITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_MESSAGE_SEVERITY
+req.redist: 
 ---
 
 # D3D11_MESSAGE_SEVERITY enumeration

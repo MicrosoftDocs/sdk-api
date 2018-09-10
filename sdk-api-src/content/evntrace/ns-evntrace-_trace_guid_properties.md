@@ -4,7 +4,7 @@ title: "_TRACE_GUID_PROPERTIES"
 author: windows-sdk-content
 description: The TRACE_GUID_PROPERTIES structure contains information about an event trace provider.
 old-location: etw\trace_guid_properties.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_GUID_PROPERTIES, *PTRACE_GUID_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACE_GUID_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: TRACE_GUID_PROPERTIES, *PTRACE_GUID_PROPERTIES
+req.redist: 
 ---
 
 # _TRACE_GUID_PROPERTIES structure

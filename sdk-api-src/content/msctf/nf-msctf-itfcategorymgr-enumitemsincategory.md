@@ -4,17 +4,16 @@ title: ITfCategoryMgr::EnumItemsInCategory
 author: windows-sdk-content
 description: ITfCategoryMgr::EnumItemsInCategory method
 old-location: tsf\itfcategorymgr_enumitemsincategory.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumItemsInCategory, EnumItemsInCategory method [Text Services Framework], EnumItemsInCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumItemsInCategory method, ITfCategoryMgr.EnumItemsInCategory, ITfCategoryMgr::EnumItemsInCategory, _tsf_itfcategorymgr_enumitemsincategory_ref, msctf/ITfCategoryMgr::EnumItemsInCategory, tsf.itfcategorymgr_enumitemsincategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCategoryMgr.EnumItemsInCategory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCategoryMgr::EnumItemsInCategory

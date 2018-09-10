@@ -4,7 +4,7 @@ title: FWPM_PROVIDER_CONTEXT_TYPE_
 author: windows-sdk-content
 description: Types of provider contexts that may be stored in Base Filtering Engine (BFE).
 old-location: fwp\fwpm_provider_context_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e8eae5e7-9240-47a5-851b-1ec51cb07b63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_PROVIDER_CONTEXT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_PROVIDER_CONTEXT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_PROVIDER_CONTEXT_TYPE
+req.redist: 
 ---
 
 # FWPM_PROVIDER_CONTEXT_TYPE_ enumeration

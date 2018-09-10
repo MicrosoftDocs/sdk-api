@@ -4,17 +4,16 @@ title: WTSRegisterSessionNotification function
 author: windows-sdk-content
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotification.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5067bb03-d8d5-41ce-b187-04d7dd22a028
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotification, WTSRegisterSessionNotification function [Remote Desktop Services], _win32_wtsregistersessionnotification, termserv.wtsregistersessionnotification, wtsapi32/WTSRegisterSessionNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WTSRegisterSessionNotification
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSRegisterSessionNotification function

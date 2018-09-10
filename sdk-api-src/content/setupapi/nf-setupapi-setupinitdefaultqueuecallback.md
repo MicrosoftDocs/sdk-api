@@ -4,17 +4,16 @@ title: SetupInitDefaultQueueCallback function
 author: windows-sdk-content
 description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.
 old-location: setup\setupinitdefaultqueuecallback.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupInitDefaultQueueCallback
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupInitDefaultQueueCallback function

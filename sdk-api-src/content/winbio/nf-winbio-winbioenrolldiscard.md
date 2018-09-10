@@ -4,17 +4,16 @@ title: WinBioEnrollDiscard function
 author: windows-sdk-content
 description: Ends the enrollment sequence and discards a pending biometric template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrolldiscard.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 0b029ace-1f5d-4cb2-9f09-51e5a11d2e5a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinBioEnrollDiscard, WinBioEnrollDiscard function [Windows Biometric Framework API], secbiomet.winbioenrolldiscard, winbio/WinBioEnrollDiscard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WinBioEnrollDiscard
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioEnrollDiscard function

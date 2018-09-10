@@ -4,17 +4,16 @@ title: SymSetScopeFromAddr function
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address.
 old-location: base\symsetscopefromaddr.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymSetScopeFromAddr
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # SymSetScopeFromAddr function

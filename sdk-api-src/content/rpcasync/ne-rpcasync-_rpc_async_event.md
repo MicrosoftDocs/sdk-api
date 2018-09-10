@@ -4,7 +4,7 @@ title: "_RPC_ASYNC_EVENT"
 author: windows-sdk-content
 description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.
 old-location: rpc\rpc_async_event.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 6b173ec8-2b58-4a99-87cd-cdf1f92a35ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_ASYNC_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_ASYNC_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_ASYNC_EVENT
+req.redist: 
 ---
 
 # _RPC_ASYNC_EVENT enumeration

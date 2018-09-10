@@ -4,17 +4,16 @@ title: IAccessibleEx::GetIAccessiblePair
 author: windows-sdk-content
 description: Retrieves the IAccessible interface and child ID for this item.
 old-location: winauto\uiauto_IAccessibleEx_GetIAccessiblePair.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 282de8b1-67ce-42e3-9f17-dbd29374d910
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIAccessiblePair, GetIAccessiblePair method [Windows Accessibility], GetIAccessiblePair method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetIAccessiblePair method, IAccessibleEx.GetIAccessiblePair, IAccessibleEx::GetIAccessiblePair, uiauto.uiauto_IAccessibleEx_GetIAccessiblePair, uiauto_IAccessibleEx_GetIAccessiblePair, uiautomationcore/IAccessibleEx::GetIAccessiblePair, winauto.uiauto_IAccessibleEx_GetIAccessiblePair
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibleEx.GetIAccessiblePair
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibleEx::GetIAccessiblePair

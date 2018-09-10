@@ -4,17 +4,16 @@ title: IDWriteTextLayout2::GetFontFallback
 author: windows-sdk-content
 description: Get the current font fallback object.
 old-location: directwrite\idwritetextlayout2_getfontfallback.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 65787E7E-7475-4810-B929-377D50A2BEF5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFallback method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetFontFallback method, IDWriteTextLayout2.GetFontFallback, IDWriteTextLayout2::GetFontFallback, directwrite.idwritetextlayout2_getfontfallback, dwrite_2/IDWriteTextLayout2::GetFontFallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout2.GetFontFallback
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout2::GetFontFallback

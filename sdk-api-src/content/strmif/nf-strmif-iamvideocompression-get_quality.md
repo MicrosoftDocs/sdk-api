@@ -4,17 +4,16 @@ title: IAMVideoCompression::get_Quality
 author: windows-sdk-content
 description: The get_Quality method retrieves the current compression quality.
 old-location: dshow\iamvideocompression_get_quality.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a34b6d15-3c84-476e-bd2f-ee10b59ded82
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_Quality method, IAMVideoCompression.get_Quality, IAMVideoCompression::get_Quality, IAMVideoCompressionget_Quality, dshow.iamvideocompression_get_quality, get_Quality, get_Quality method [DirectShow], get_Quality method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_Quality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoCompression.get_Quality
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoCompression::get_Quality

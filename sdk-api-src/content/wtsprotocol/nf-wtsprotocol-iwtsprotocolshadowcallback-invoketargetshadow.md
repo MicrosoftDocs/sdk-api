@@ -4,17 +4,16 @@ title: IWTSProtocolShadowCallback::InvokeTargetShadow
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWTSProtocolShadowCallback.InvokeTargetShadow, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolShadowCallback.InvokeTargetShadow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolShadowCallback::InvokeTargetShadow

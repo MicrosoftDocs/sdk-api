@@ -4,17 +4,16 @@ title: IPartsList::GetCount
 author: windows-sdk-content
 description: The GetCount method gets the number of parts in the parts list.
 old-location: coreaudio\ipartslist_getcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 78ca8592-f687-4194-873b-83640c6e72da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IPartsList interface, IPartsList interface [Core Audio],GetCount method, IPartsList.GetCount, IPartsList::GetCount, IPartsListGetCount, coreaudio.ipartslist_getcount, devicetopology/IPartsList::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPartsList.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPartsList::GetCount

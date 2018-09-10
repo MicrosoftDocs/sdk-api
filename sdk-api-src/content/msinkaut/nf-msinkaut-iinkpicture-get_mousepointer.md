@@ -4,17 +4,16 @@ title: IInkPicture::get_MousePointer
 author: windows-sdk-content
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkpicture_mousepointer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 94536770-01ef-41c5-9217-0aa2ef9c36ac
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],MousePointer property, IInkPicture.MousePointer, IInkPicture.get_MousePointer, IInkPicture::MousePointer, IInkPicture::get_MousePointer, IInkPicture::put_MousePointer, InkPicture.get_MousePointer, InkPicture.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkPicture interface, get_MousePointer, msinkaut/IInkPicture::MousePointer, msinkaut/IInkPicture::get_MousePointer, msinkaut/IInkPicture::put_MousePointer, put_MousePointer, tablet.inkpicture_mousepointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_MousePointer
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_MousePointer

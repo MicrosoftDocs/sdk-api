@@ -4,17 +4,16 @@ title: ComboBox_SelectString macro
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectString.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectstring.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Controls], _win32_ComboBox_SelectString, _win32_ComboBox_SelectString_cpp, controls.ComboBox_SelectString, controls._win32_ComboBox_SelectString, windowsx/ComboBox_SelectString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComboBox_SelectString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_SelectString macro

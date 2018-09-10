@@ -4,17 +4,16 @@ title: IUPnPDescriptionDocument::Load
 author: windows-sdk-content
 description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
 old-location: upnp\iupnpdescriptiondocument_load.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 02ae8af2-44f2-4b7c-a426-f2a26c43da37
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],Load method, IUPnPDescriptionDocument.Load, IUPnPDescriptionDocument::Load, Load, Load method [UPnP APIs], Load method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_load, upnp.iupnpdescriptiondocument_load, upnp/IUPnPDescriptionDocument::Load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDescriptionDocument.Load
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDescriptionDocument::Load

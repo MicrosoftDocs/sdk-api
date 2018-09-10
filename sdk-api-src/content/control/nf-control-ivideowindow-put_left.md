@@ -4,17 +4,16 @@ title: IVideoWindow::put_Left
 author: windows-sdk-content
 description: The put_Left method sets the x-coordinate of the video window.
 old-location: dshow\ivideowindow_put_left.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a614ee46-49cf-40e4-a1f7-b3b3b7065175
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Left method, IVideoWindow.put_Left, IVideoWindow::put_Left, IVideoWindowput_Left, control/IVideoWindow::put_Left, dshow.ivideowindow_put_left, put_Left, put_Left method [DirectShow], put_Left method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.put_Left
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::put_Left

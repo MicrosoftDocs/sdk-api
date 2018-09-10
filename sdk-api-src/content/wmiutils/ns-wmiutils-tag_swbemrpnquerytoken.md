@@ -4,7 +4,7 @@ title: tag_SWbemRpnQueryToken
 author: windows-sdk-content
 description: The SWbemRpnQueryToken structure represents the query tokens in a WMIQ_ANALYSIS_RPN_SEQUENCE type query. An example of a query token is the following:\_j &gt; 4.
 old-location: wmi\swbemrpnquerytoken.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 04ef89e5-ce42-4d2d-8188-c2bbfe821bcc
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SWbemRpnQueryToken
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SWbemRpnQueryToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SWbemRpnQueryToken
+req.redist: 
 ---
 
 # tag_SWbemRpnQueryToken structure

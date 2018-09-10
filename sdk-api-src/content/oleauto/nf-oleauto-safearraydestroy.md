@@ -4,17 +4,16 @@ title: SafeArrayDestroy function
 author: windows-sdk-content
 description: Destroys an existing array descriptor and all of the data in the array.
 old-location: automat\safearraydestroy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fc94f7e7-b903-4c78-905c-54df1f8d13fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayDestroy, SafeArrayDestroy function [Automation], _oa96_SafeArrayDestroy, automat.safearraydestroy, oleauto/SafeArrayDestroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayDestroy
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayDestroy function

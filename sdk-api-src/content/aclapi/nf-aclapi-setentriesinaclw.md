@@ -4,17 +4,16 @@ title: SetEntriesInAclW function
 author: windows-sdk-content
 description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.
 old-location: security\setentriesinacl.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,9 +47,8 @@ api_name:
  - SetEntriesInAclW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetEntriesInAclW function

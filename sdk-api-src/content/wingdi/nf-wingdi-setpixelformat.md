@@ -4,17 +4,16 @@ title: SetPixelFormat function
 author: windows-sdk-content
 description: The SetPixelFormat function sets the pixel format of the specified device context to the format specified by the iPixelFormat index.
 old-location: opengl\setpixelformat.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetPixelFormat
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetPixelFormat function

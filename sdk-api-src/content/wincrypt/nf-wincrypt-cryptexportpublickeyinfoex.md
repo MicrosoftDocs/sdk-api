@@ -4,17 +4,16 @@ title: CryptExportPublicKeyInfoEx function
 author: windows-sdk-content
 description: Exports the public key information associated with the provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfoex.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptExportPublicKeyInfoEx
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptExportPublicKeyInfoEx function

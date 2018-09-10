@@ -4,7 +4,7 @@ title: tagHELPER_ATTRIBUTE
 author: windows-sdk-content
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
 old-location: ndf\helper_attribute.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HELPER_ATTRIBUTE, *PHELPER_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HELPER_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: HELPER_ATTRIBUTE, *PHELPER_ATTRIBUTE
+req.redist: 
 ---
 
 # tagHELPER_ATTRIBUTE structure

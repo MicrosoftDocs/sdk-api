@@ -4,17 +4,16 @@ title: IServiceThreadPoolConfig::SelectThreadPool
 author: windows-sdk-content
 description: Selects the thread pool in which the work submitted through the activity is to run.
 old-location: cos\iservicethreadpoolconfig_selectthreadpool.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: eba8b4fc-aee7-4ba5-8e0e-b74ce9d25a86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SelectThreadPool method, IServiceThreadPoolConfig.SelectThreadPool, IServiceThreadPoolConfig::SelectThreadPool, SelectThreadPool, SelectThreadPool method [COM+], SelectThreadPool method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SelectThreadPool, comsvcs/IServiceThreadPoolConfig::SelectThreadPool, cos.iservicethreadpoolconfig_selectthreadpool
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceThreadPoolConfig.SelectThreadPool
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceThreadPoolConfig::SelectThreadPool

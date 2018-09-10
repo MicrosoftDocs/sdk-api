@@ -4,17 +4,16 @@ title: IPrintAsyncNotifyDataObject::ReleaseData
 author: windows-sdk-content
 description: Releases the memory used by the data encapsulated in IPrintAsyncNotifyDataObject.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f4960aa1-237f-491e-b69c-0aa107d9ddad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData method, IPrintAsyncNotifyDataObject.ReleaseData, IPrintAsyncNotifyDataObject::ReleaseData, ReleaseData, ReleaseData method [Windows GDI], ReleaseData method [Windows GDI],IPrintAsyncNotifyDataObject interface, _win32_IPrintAsyncNotifyDataObject_ReleaseData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata, prnasnot/IPrintAsyncNotifyDataObject::ReleaseData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrintAsyncNotifyDataObject.ReleaseData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Prnasnot.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintAsyncNotifyDataObject::ReleaseData

@@ -4,7 +4,7 @@ title: tag_SCRIPT_STATE
 author: windows-sdk-content
 description: Contains script state information.
 old-location: intl\script_state.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_STATE
+req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ---
 
 # tag_SCRIPT_STATE structure

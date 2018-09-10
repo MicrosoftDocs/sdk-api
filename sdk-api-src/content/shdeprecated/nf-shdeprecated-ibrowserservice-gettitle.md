@@ -4,17 +4,16 @@ title: IBrowserService::GetTitle
 author: windows-sdk-content
 description: Deprecated. Retrieves the title of a browser window.
 old-location: shell\IBrowserService_GetTitle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e5b514e3-8729-4902-961f-177dc1e77aee
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTitle method, IBrowserService.GetTitle, IBrowserService::GetTitle, shdeprecated/IBrowserService::GetTitle, shell.IBrowserService_GetTitle, zone_IBrowserService_GetTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.GetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

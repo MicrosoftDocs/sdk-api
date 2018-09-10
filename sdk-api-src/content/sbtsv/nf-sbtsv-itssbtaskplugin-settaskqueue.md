@@ -4,17 +4,16 @@ title: ITsSbTaskPlugin::SetTaskQueue
 author: windows-sdk-content
 description: Updates a task in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_settaskqueue.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a17e4767-5311-4f9b-9d05-cd9e35f7c5e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],SetTaskQueue method, ITsSbTaskPlugin.SetTaskQueue, ITsSbTaskPlugin::SetTaskQueue, SetTaskQueue, SetTaskQueue method [Remote Desktop Services], SetTaskQueue method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::SetTaskQueue, termserv.itssbtaskplugin_settaskqueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbTaskPlugin.SetTaskQueue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskPlugin::SetTaskQueue

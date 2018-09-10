@@ -4,17 +4,16 @@ title: IVdsVolume::Delete
 author: windows-sdk-content
 description: Deletes the volume and all plexes, releasing the extents.
 old-location: base\ivdsvolume_delete.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.Delete
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::Delete

@@ -4,17 +4,16 @@ title: IInkRecognizerContext::IsStringSupported
 author: windows-sdk-content
 description: Indicates whether the system dictionary, user dictionary, or word list contain a specified string.
 old-location: tablet\inkrecognizercontext_isstringsupported.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 5344044a-0973-4ab2-bf5c-74e0d07d4e76, IInkRecognizerContext interface [Tablet PC],IsStringSupported method, IInkRecognizerContext.IsStringSupported, IInkRecognizerContext::IsStringSupported, IsStringSupported, IsStringSupported method [Tablet PC], IsStringSupported method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::IsStringSupported, tablet.inkrecognizercontext_isstringsupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizerContext.IsStringSupported
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::IsStringSupported
@@ -66,7 +64,7 @@ Indicates whether the system dictionary, user dictionary, or <a href="https://ms
 
 ### -param String
 
-
+TBD
 
 
 ### -param Supported [out, retval]

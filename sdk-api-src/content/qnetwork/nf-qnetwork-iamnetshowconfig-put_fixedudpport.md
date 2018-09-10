@@ -4,17 +4,16 @@ title: IAMNetShowConfig::put_FixedUDPPort
 author: windows-sdk-content
 description: The put_FixedUDPPort method specifies the fixed UDP port.
 old-location: dshow\iamnetshowconfig_put_fixedudpport.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 461b3999-ee1f-4d2a-9ebc-38faf344eba0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_FixedUDPPort method, IAMNetShowConfig.put_FixedUDPPort, IAMNetShowConfig::put_FixedUDPPort, IAMNetShowConfigput_FixedUDPPort, dshow.iamnetshowconfig_put_fixedudpport, put_FixedUDPPort, put_FixedUDPPort method [DirectShow], put_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_FixedUDPPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.put_FixedUDPPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::put_FixedUDPPort

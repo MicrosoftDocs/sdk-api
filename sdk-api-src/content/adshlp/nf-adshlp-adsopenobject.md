@@ -4,17 +4,16 @@ title: ADsOpenObject function
 author: windows-sdk-content
 description: Binds to an ADSI object using explicit user name and password credentials.
 old-location: adsi\adsopenobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsOpenObject
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsOpenObject function

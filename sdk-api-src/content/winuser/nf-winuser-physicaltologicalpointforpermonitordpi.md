@@ -4,17 +4,16 @@ title: PhysicalToLogicalPointForPerMonitorDPI function
 author: windows-sdk-content
 description: Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
 old-location: hidpi\physicaltologicalpointforpermonitordpi.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: DC744BFC-4410-4878-BEA7-382550DDF9E3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PhysicalToLogicalPointForPerMonitorDPI, PhysicalToLogicalPointForPerMonitorDPI function [High DPI], hidpi.physicaltologicalpointforpermonitordpi, winuser/PhysicalToLogicalPointForPerMonitorDPI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PhysicalToLogicalPointForPerMonitorDPI
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PhysicalToLogicalPointForPerMonitorDPI function

@@ -4,7 +4,7 @@ title: "_DISCDLGSTRUCTA"
 author: windows-sdk-content
 description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
 old-location: wnet\discdlgstruct_str.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISCDLGSTRUCTA, *LPDISCDLGSTRUCTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DISCDLGSTRUCTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISCDLGSTRUCTA, *LPDISCDLGSTRUCTA
+req.redist: 
 ---
 
 # _DISCDLGSTRUCTA structure

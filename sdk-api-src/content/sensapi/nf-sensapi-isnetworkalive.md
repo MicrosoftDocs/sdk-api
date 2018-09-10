@@ -4,17 +4,16 @@ title: IsNetworkAlive function
 author: windows-sdk-content
 description: The IsNetworkAlive function determines whether or not a local system is connected to a network, and identifies the type of network connection, for example, a LAN, WAN, or both.
 old-location: sens\isnetworkalive.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsNetworkAlive, IsNetworkAlive function [SENS], _zaw_isnetworkalive, sens.isnetworkalive, sensapi/IsNetworkAlive, syncmgr.isnetworkalive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sensapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: Sensapi.lib
+req.dll: Sensapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsNetworkAlive
 product: Windows
 targetos: Windows
-req.lib: Sensapi.lib
-req.dll: Sensapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IsNetworkAlive function

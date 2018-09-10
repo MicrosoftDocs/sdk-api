@@ -4,7 +4,7 @@ title: AppPolicyThreadInitializationType
 author: windows-sdk-content
 description: The AppPolicyThreadInitializationType enumeration indicates the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
 old-location: appxpkg\apppolicythreadinitializationtype_enumeration.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: F31AC156-5C27-4707-898A-3C8125E11FB3
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyThreadInitializationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyThreadInitializationType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyThreadInitializationType
+req.redist: 
 ---
 
 # AppPolicyThreadInitializationType enumeration

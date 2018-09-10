@@ -4,7 +4,7 @@ title: PFN_DEVICE_CALLBACK
 author: windows-sdk-content
 description: A callback prototype used in association with selecting Bluetooth devices.
 old-location: bluetooth\pfn_device_callback.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_FILE_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFN_DEVICE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_DEVICE_CALLBACK callback function

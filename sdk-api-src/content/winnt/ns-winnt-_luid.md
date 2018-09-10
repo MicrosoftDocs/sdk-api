@@ -4,7 +4,7 @@ title: "_LUID"
 author: windows-sdk-content
 description: 64-bit value guaranteed to be unique only on the system on which it was generated.
 old-location: security\luid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: a812a46b-f23f-45b1-a6c6-48f931b78750
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LUID, *PLUID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: LUID, *PLUID
+req.redist: 
 ---
 
 # _LUID structure

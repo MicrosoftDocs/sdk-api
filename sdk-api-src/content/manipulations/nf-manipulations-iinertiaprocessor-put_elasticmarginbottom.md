@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_ElasticMarginBottom
 author: windows-sdk-content
 description: The ElasticMarginBottom property specifies the bottom region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginbottom.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 8a043ef6-3251-4179-b42f-f59c07287b49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ElasticMarginBottom property [Windows Touch], ElasticMarginBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginBottom property, IInertiaProcessor.ElasticMarginBottom, IInertiaProcessor.put_ElasticMarginBottom, IInertiaProcessor::ElasticMarginBottom, IInertiaProcessor::get_ElasticMarginBottom, IInertiaProcessor::put_ElasticMarginBottom, manipulations/IInertiaProcessor::ElasticMarginBottom, manipulations/IInertiaProcessor::get_ElasticMarginBottom, manipulations/IInertiaProcessor::put_ElasticMarginBottom, put_ElasticMarginBottom, wintouch.iinertiaprocessor_elasticmarginbottom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_ElasticMarginBottom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_ElasticMarginBottom

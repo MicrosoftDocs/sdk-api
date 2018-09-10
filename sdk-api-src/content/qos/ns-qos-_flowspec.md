@@ -4,7 +4,7 @@ title: "_flowspec"
 author: windows-sdk-content
 description: The FLOWSPEC structure provides quality of service parameters to the RSVP SP.
 old-location: qos\flowspec.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOWSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
+req.redist: 
 ---
 
 # _flowspec structure

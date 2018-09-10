@@ -4,17 +4,16 @@ title: IWEExtendContextMenu::AddContextMenuItems
 author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWEExtendContextMenu.AddContextMenuItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWEExtendContextMenu::AddContextMenuItems

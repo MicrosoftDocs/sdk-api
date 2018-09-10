@@ -4,17 +4,16 @@ title: IBitsPeerCacheRecord::GetFileModificationTime
 author: windows-sdk-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
-old-project: bits
+tech.root: bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheRecord.GetFileModificationTime
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheRecord::GetFileModificationTime
@@ -62,7 +61,7 @@ Gets the date and time that the file was last modified on the server.
 
 ### -param pVal
 
-
+TBD
 
 
 

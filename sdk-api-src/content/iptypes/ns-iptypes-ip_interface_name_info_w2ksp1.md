@@ -4,7 +4,7 @@ title: ip_interface_name_info_w2ksp1
 author: windows-sdk-content
 description: Contains information about an IPv4 interface on the local computer.
 old-location: iphlp\ip_interface_name_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c113e97d-6f41-490a-a872-20d662fd763b
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP1 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_INTERFACE_NAME_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
+req.redist: 
 ---
 
 # ip_interface_name_info_w2ksp1 structure

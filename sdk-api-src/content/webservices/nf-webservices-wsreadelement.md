@@ -4,17 +4,16 @@ title: WsReadElement function
 author: windows-sdk-content
 description: Read an element producing a value of the specified WS_TYPE.
 old-location: wsw\wsreadelement.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadElement
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadElement function

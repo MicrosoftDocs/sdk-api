@@ -4,17 +4,16 @@ title: ITypeInfo::GetIDsOfNames
 author: windows-sdk-content
 description: Maps between member names and member IDs, and parameter names and parameter IDs.
 old-location: automat\itypeinfo_getidsofnames.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fb66ee55-e491-40e9-a795-58beb4acee25
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetIDsOfNames method, ITypeInfo.GetIDsOfNames, ITypeInfo2.GetIDsOfNames, ITypeInfo::GetIDsOfNames, _oa96_ITypeInfo_GetIDsOfNames, automat.itypeinfo_getidsofnames, oaidl/ITypeInfo::GetIDsOfNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITypeInfo2.GetIDsOfNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetIDsOfNames

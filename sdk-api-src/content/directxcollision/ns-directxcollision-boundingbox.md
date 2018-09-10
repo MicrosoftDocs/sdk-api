@@ -4,7 +4,7 @@ title: BoundingBox
 author: windows-sdk-content
 description: A bounding axis-aligned object.
 old-location: dxmath\boundingbox.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxcollision.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -24,11 +23,12 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: DirectX::TriangleTests
+req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BoundingBox
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BoundingBox structure

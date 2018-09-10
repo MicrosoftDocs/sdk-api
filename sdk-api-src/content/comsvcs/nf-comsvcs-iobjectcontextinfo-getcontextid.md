@@ -4,17 +4,16 @@ title: IObjectContextInfo::GetContextId
 author: windows-sdk-content
 description: Retrieves the identifier of the current context.
 old-location: cos\iobjectcontextinfo_getcontextid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 97059f07-161f-451f-9f9b-b4dd81b7bf79
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetContextId, GetContextId method [COM+], GetContextId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetContextId method, IObjectContextInfo.GetContextId, IObjectContextInfo::GetContextId, _cos_IObjectContextInfo_GetContextId, comsvcs/IObjectContextInfo::GetContextId, cos.iobjectcontextinfo_getcontextid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextInfo.GetContextId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextInfo::GetContextId

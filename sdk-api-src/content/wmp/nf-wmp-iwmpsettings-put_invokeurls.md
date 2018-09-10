@@ -4,17 +4,16 @@ title: IWMPSettings::put_invokeURLs
 author: windows-sdk-content
 description: The put_invokeURLs method specifies a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_put_invokeurls.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_invokeURLs method, IWMPSettings.put_invokeURLs, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.put_invokeURLs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::put_invokeURLs

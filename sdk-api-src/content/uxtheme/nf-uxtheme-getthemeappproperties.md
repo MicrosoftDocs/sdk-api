@@ -4,17 +4,16 @@ title: GetThemeAppProperties function
 author: windows-sdk-content
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll (version 1.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetThemeAppProperties
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll (version 1.0 or later)
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeAppProperties function

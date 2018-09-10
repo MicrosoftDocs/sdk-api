@@ -4,7 +4,7 @@ title: "_FONTOBJ"
 author: windows-sdk-content
 description: The FONTOBJ structure is used to give a driver access to information about a particular instance of a font.
 old-location: display\fontobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 09af2006-51f1-433e-9227-3c99b9860e75
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FONTOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FONTOBJ
+req.redist: 
 ---
 
 # _FONTOBJ structure

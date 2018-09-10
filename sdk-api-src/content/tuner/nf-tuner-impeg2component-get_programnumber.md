@@ -4,17 +4,16 @@ title: IMPEG2Component::get_ProgramNumber
 author: windows-sdk-content
 description: The get_ProgramNumber method returns the program number for this substream.
 old-location: mstv\impeg2component_get_programnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a501c65d-26cf-44f4-b134-2a1080095eaa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_ProgramNumber method, IMPEG2Component.get_ProgramNumber, IMPEG2Component::get_ProgramNumber, IMPEG2Componentget_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IMPEG2Component interface, mstv.impeg2component_get_programnumber, tuner/IMPEG2Component::get_ProgramNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2Component.get_ProgramNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2Component::get_ProgramNumber
@@ -65,7 +63,7 @@ The <b>get_ProgramNumber</b> method returns the program number for this substrea
 
 ### -param ProgramNumber
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: BluetoothAuthenticateDevice function
 author: windows-sdk-content
 description: Sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedevice.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateDevice, BluetoothAuthenticateDevice function [Bluetooth], bluetooth.bluetoothauthenticatedevice, bluetoothapis/BluetoothAuthenticateDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothAuthenticateDevice
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothAuthenticateDevice function

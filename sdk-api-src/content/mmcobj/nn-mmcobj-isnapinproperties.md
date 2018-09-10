@@ -4,7 +4,7 @@ title: ISnapinProperties
 author: windows-sdk-content
 description: The ISnapinProperties interface enables a snap-in to initialize the snap-in's properties and receive notification when a property is added, changed, or deleted.
 old-location: mmc\isnapinproperties.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_PROPERTY_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISnapinProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmc.exe
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISnapinProperties interface

@@ -4,7 +4,7 @@ title: FWPS_FILTER2_
 author: windows-sdk-content
 description: The FWPS_FILTER2 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER2 is the specific version of FWPS_FILTER used in Windows 8 and later.
 old-location: netvista\fwps_filter2.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 2be2c82b-5b7c-4027-b2a1-f43d2b27b860
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_FILTER2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_FILTER2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_FILTER2
+req.redist: 
 ---
 
 # FWPS_FILTER2_ structure

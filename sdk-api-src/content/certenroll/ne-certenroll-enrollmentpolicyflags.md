@@ -4,7 +4,7 @@ title: EnrollmentPolicyFlags
 author: windows-sdk-content
 description: Specifies group policy flags.
 old-location: security\enrollmentpolicyflags.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnrollmentPolicyFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # EnrollmentPolicyFlags enumeration

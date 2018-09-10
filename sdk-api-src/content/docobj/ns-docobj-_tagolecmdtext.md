@@ -4,7 +4,7 @@ title: "_tagOLECMDTEXT"
 author: windows-sdk-content
 description: Specifies a text name or status string for a single command identifier.
 old-location: com\olecmdtext.htm
-old-project: com
+tech.root: com
 ms.assetid: c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DocObj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLECMDTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OLECMDTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OLECMDTEXT
+req.redist: 
 ---
 
 # _tagOLECMDTEXT structure

@@ -4,17 +4,16 @@ title: CryptEnumKeyIdentifierProperties function
 author: windows-sdk-content
 description: The CryptEnumKeyIdentifierProperties function enumerates key identifiers and their properties.
 old-location: security\cryptenumkeyidentifierproperties.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 6e57d935-4cfb-44af-b1c6-6c399c959452
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptEnumKeyIdentifierProperties, CryptEnumKeyIdentifierProperties function [Security], _crypto2_cryptenumkeyidentifierproperties, security.cryptenumkeyidentifierproperties, wincrypt/CryptEnumKeyIdentifierProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptEnumKeyIdentifierProperties
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptEnumKeyIdentifierProperties function

@@ -4,17 +4,16 @@ title: SetupDiClassNameFromGuidA function
 author: windows-sdk-content
 description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID.
 old-location: devinst\setupdiclassnamefromguid.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiClassNameFromGuid, SetupDiClassNameFromGuid function [Device and Driver Installation], SetupDiClassNameFromGuidA, SetupDiClassNameFromGuidW, devinst.setupdiclassnamefromguid, di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml, setupapi/SetupDiClassNameFromGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiClassNameFromGuid
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiClassNameFromGuidA function

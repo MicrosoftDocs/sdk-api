@@ -4,17 +4,16 @@ title: DhcpV4FailoverAddScopeToRelationship function
 author: windows-sdk-content
 description: Adds a DHCPv4 scope to the specified failover relationship.
 old-location: dhcp\dhcpv4failoveraddscopetorelationship.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4FailoverAddScopeToRelationship
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4FailoverAddScopeToRelationship function

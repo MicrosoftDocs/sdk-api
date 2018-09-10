@@ -4,7 +4,7 @@ title: CLUSCTL_GROUP_CODES
 author: windows-sdk-content
 description: Enumerates groupcontrol codes.
 old-location: mscs\clusctl_group_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 558e5257-c2d0-4528-bfe6-bd12124342b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_GROUP_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSCTL_GROUP_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSCTL_GROUP_CODES
+req.redist: 
 ---
 
 # CLUSCTL_GROUP_CODES enumeration

@@ -4,17 +4,16 @@ title: IEnumBitsPeerCacheRecords::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeercacherecords_next.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a8117baa-9f77-4735-bd15-2c7e1e759e9b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Next method, IEnumBitsPeerCacheRecords.Next, IEnumBitsPeerCacheRecords::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_next, bits3_0/IEnumBitsPeerCacheRecords::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumBitsPeerCacheRecords.Next
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBitsPeerCacheRecords::Next

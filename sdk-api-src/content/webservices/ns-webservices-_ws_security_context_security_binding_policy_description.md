@@ -4,7 +4,7 @@ title: "_WS_SECURITY_CONTEXT_SECURITY_BINDING_POLICY_DESCRIPTION"
 author: windows-sdk-content
 description: This type description is used with template APIs to describe the security context related templates generated accordingly to input policy setting.
 old-location: wsw\ws_security_context_security_binding_policy_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5fcf2b5e-eee5-4d33-b8f4-9602c0255734
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_CONTEXT_SECURITY_BINDING_POLICY_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_CONTEXT_SECURITY_BINDING_POLICY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_CONTEXT_SECURITY_BINDING_POLICY_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_SECURITY_CONTEXT_SECURITY_BINDING_POLICY_DESCRIPTION structure

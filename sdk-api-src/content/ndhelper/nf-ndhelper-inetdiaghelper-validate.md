@@ -4,17 +4,16 @@ title: INetDiagHelper::Validate
 author: windows-sdk-content
 description: Called by NDF after a repair is successfully completed.
 old-location: ndf\inetdiaghelpe_validate.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Validate, INetDiagHelper::Validate, Validate, Validate method [NDF], Validate method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.Validate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::Validate

@@ -4,17 +4,16 @@ title: CSecureChannelServer::DecryptParam
 author: windows-sdk-content
 description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_decryptparam.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelServer.DecryptParam
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelServer::DecryptParam

@@ -4,17 +4,16 @@ title: ITaskFolder::DeleteFolder
 author: windows-sdk-content
 description: Deletes a subfolder from the parent folder.
 old-location: taskschd\itaskfolder_deletefolder.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteFolder, DeleteFolder method [Task Scheduler], DeleteFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteFolder method, ITaskFolder.DeleteFolder, ITaskFolder::DeleteFolder, taskschd.itaskfolder_deletefolder, taskschd/ITaskFolder::DeleteFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskFolder.DeleteFolder
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskFolder::DeleteFolder
@@ -62,7 +60,7 @@ Deletes a subfolder from the parent folder.
 
 ### -param subFolderName
 
-
+TBD
 
 
 ### -param flags [in]

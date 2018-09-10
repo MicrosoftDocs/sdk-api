@@ -4,7 +4,7 @@ title: "_MFP_CREATION_OPTIONS"
 author: windows-sdk-content
 description: Specifies options for the MFPCreateMediaPlayer function.
 old-location: mf\_mfp_creation_options.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e01b402c-e21e-4db0-b933-5a32fdca5d2f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfplay.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_CREATION_OPTIONS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _MFP_CREATION_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_MFP_CREATION_OPTIONS"
+req.redist: 
 ---
 
 # _MFP_CREATION_OPTIONS enumeration

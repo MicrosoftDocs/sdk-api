@@ -4,17 +4,16 @@ title: Provider::PutInstance(IWbemClassObject,long,MethodContext)
 author: windows-sdk-content
 description: The PutInstance method updates an instance.
 old-location: wmi\provider_putinstance.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c9921a00-b966-47d0-a2f3-982812ab249c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],PutInstance method, Provider.PutInstance, Provider.PutInstance(IWbemClassObject,long,MethodContext), Provider::PutInstance, Provider::PutInstance(IWbemClassObject,long,MethodContext), PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],Provider interface, _hmm_provider_putinstance, provider/Provider::PutInstance, wmi.provider_putinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Provider.PutInstance
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::PutInstance(IWbemClassObject,long,MethodContext)
@@ -69,7 +67,7 @@ The <b>PutInstance</b> method updates an instance.
 
 ### -param pInst
 
-
+TBD
 
 
 ### -param lFlags
@@ -91,7 +89,7 @@ Valid <i>lFlags</i> values are:
 
 ### -param pContext
 
-
+TBD
 
 
 

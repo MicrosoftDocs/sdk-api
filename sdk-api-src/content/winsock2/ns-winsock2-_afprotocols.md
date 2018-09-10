@@ -4,7 +4,7 @@ title: "_AFPROTOCOLS"
 author: windows-sdk-content
 description: The AFPROTOCOLS structure supplies a list of protocols to which application programmers can constrain queries. The AFPROTOCOLS structure is used for query purposes only.
 old-location: winsock\afprotocols_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AFPROTOCOLS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
+req.redist: 
 ---
 
 # _AFPROTOCOLS structure

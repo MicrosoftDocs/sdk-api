@@ -4,7 +4,7 @@ title: tagOLEMISC
 author: windows-sdk-content
 description: Describes miscellaneous characteristics of an object or class of objects.
 old-location: com\olemisc.htm
-old-project: com
+tech.root: com
 ms.assetid: 0a90d126-fc28-460c-8eaf-cf98ae998f95
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: OLEUIVIEWPROPSW (Unicode) and OLEUIVIEWPROPSA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEMISC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEMISC
+req.redist: 
 ---
 
 # tagOLEMISC enumeration

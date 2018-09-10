@@ -4,17 +4,16 @@ title: NetAddServiceAccount function
 author: windows-sdk-content
 description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 old-location: security\netaddserviceaccount.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: 
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAddServiceAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetAddServiceAccount function

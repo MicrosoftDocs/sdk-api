@@ -4,17 +4,16 @@ title: SetupCopyOEMInfW function
 author: windows-sdk-content
 description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory.
 old-location: setup\setupcopyoeminf.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: f082145d-b3e7-4efd-8820-3376a36f3710
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SPOST_NONE, SPOST_PATH, SPOST_URL, SP_COPY_DELETESOURCE, SP_COPY_NOOVERWRITE, SP_COPY_OEMINF_CATALOG_ONLY, SP_COPY_REPLACEONLY, SetupCopyOEMInf, SetupCopyOEMInf function [Setup API], SetupCopyOEMInfA, SetupCopyOEMInfW, _setupapi_setupcopyoeminf, setup.setupcopyoeminf, setupapi/SetupCopyOEMInf, setupapi/SetupCopyOEMInfA, setupapi/SetupCopyOEMInfW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupCopyOEMInfW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupCopyOEMInfW function

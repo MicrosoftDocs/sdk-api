@@ -4,7 +4,7 @@ title: peer_record_tag
 author: windows-sdk-content
 description: The PEER_RECORD structure contains the record object that an application uses.
 old-location: p2p\peer_record.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_RECORD, *PPEER_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_RECORD, *PPEER_RECORD
+req.redist: 
 ---
 
 # peer_record_tag structure

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::DrawAuto
 author: windows-sdk-content
 description: Draw geometry of an unknown size.
 old-location: direct3d11\id3d11devicecontext_drawauto.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 34688e87-514f-4f85-b56b-e0245400a5ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawAuto, DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawAuto method, ID3D11DeviceContext.DrawAuto, ID3D11DeviceContext::DrawAuto, d3d11/ID3D11DeviceContext::DrawAuto, d5e26d9c-e682-ea81-70bc-d35792e62157, direct3d11.id3d11devicecontext_drawauto
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.DrawAuto
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::DrawAuto

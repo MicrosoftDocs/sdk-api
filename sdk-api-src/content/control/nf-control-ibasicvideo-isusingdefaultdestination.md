@@ -4,17 +4,16 @@ title: IBasicVideo::IsUsingDefaultDestination
 author: windows-sdk-content
 description: The IsUsingDefaultDestination method queries whether the renderer is using the default destination rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultdestination.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.IsUsingDefaultDestination
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::IsUsingDefaultDestination

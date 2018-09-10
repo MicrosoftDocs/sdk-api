@@ -4,7 +4,7 @@ title: "_DD_GETVPORTBANDWIDTHDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for any specified format.
 old-location: display\dd_getvportbandwidthdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTBANDWIDTHDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTBANDWIDTHDATA structure

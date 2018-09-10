@@ -4,7 +4,7 @@ title: "_NDR_USER_MARSHAL_INFO_LEVEL1"
 author: windows-sdk-content
 description: The NDR_USER_MARSHAL_INFO_LEVEL1 structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndr_user_marshal_info_level1.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: fe664968-ce70-4bc4-9caa-3e4d241d253c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NDR_USER_MARSHAL_INFO_LEVEL1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.redist: 
 ---
 
 # _NDR_USER_MARSHAL_INFO_LEVEL1 structure
@@ -54,7 +52,7 @@ req.product: ADAM
 
 The 
 <b>NDR_USER_MARSHAL_INFO_LEVEL1</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a> and 
+<a href="https://msdn.microsoft.com/">wire_marshal</a> and 
 <a href="https://msdn.microsoft.com/">user_marshal</a> helper functions.
 
 

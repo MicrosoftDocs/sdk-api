@@ -4,17 +4,16 @@ title: ICspInformation::GetCspStatusFromOperations
 author: windows-sdk-content
 description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.
 old-location: security\icspinformation_getcspstatusfromoperations.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspInformation.GetCspStatusFromOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::GetCspStatusFromOperations

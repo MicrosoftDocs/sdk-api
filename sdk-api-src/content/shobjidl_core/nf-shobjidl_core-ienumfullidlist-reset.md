@@ -4,17 +4,16 @@ title: IEnumFullIDList::Reset
 author: windows-sdk-content
 description: Returns the enumerator to the beginning of the enumeration sequence.
 old-location: shell\IEnumFullIDList_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Reset method, IEnumFullIDList.Reset, IEnumFullIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Reset, shell.IEnumFullIDList_Reset, shobjidl_core/IEnumFullIDList::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFullIDList.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFullIDList::Reset

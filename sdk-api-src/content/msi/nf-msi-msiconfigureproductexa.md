@@ -4,17 +4,16 @@ title: MsiConfigureProductExA function
 author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiconfigureproductex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 7a7ae88a-b893-4d10-8542-b2066d1572a9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProductEx, MsiConfigureProductEx function, MsiConfigureProductExA, MsiConfigureProductExW, _msi_msiconfigureproductex, msi/MsiConfigureProductEx, msi/MsiConfigureProductExA, msi/MsiConfigureProductExW, setup.msiconfigureproductex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiConfigureProductExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiConfigureProductExA function

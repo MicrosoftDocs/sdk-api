@@ -4,17 +4,16 @@ title: D3D12CreateDevice function
 author: windows-sdk-content
 description: Creates a device that represents the display adapter.
 old-location: direct3d12\d3d12createdevice.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: F403D730-CBD4-4AE0-86F6-8CE122E82CB4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3D12CreateDevice, D3D12CreateDevice function, d3d12/D3D12CreateDevice, direct3d12.d3d12createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12CreateDevice
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D12CreateDevice function

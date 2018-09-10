@@ -4,17 +4,16 @@ title: NetEnumerateServiceAccounts function
 author: windows-sdk-content
 description: Enumerates the standalone managed service accounts (sMSA) on the specified server.
 old-location: security\netenumerateserviceaccounts.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: 
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetEnumerateServiceAccounts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetEnumerateServiceAccounts function

@@ -4,17 +4,16 @@ title: IMediaEvent::RestoreDefaultHandling
 author: windows-sdk-content
 description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
 old-location: dshow\imediaevent_restoredefaulthandling.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaEvent.RestoreDefaultHandling
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaEvent::RestoreDefaultHandling

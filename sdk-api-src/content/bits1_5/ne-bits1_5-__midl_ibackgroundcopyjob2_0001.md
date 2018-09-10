@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyJob2_0001"
 author: windows-sdk-content
 description: The BG_AUTH_TARGET enumeration defines the constant values that specify whether the credentials are used for proxy or server user authentication requests.
 old-location: bits\bg_auth_target.htm
-old-project: bits
+tech.root: bits
 ms.assetid: efe7aa0a-48fc-4192-b81b-40d3a9b0fb22
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_TARGET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_AUTH_TARGET
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: BG_AUTH_TARGET
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # __MIDL_IBackgroundCopyJob2_0001 enumeration

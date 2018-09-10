@@ -4,17 +4,16 @@ title: NetScheduleJobEnum function
 author: windows-sdk-content
 description: The NetScheduleJobEnum function lists the jobs queued on a specified computer. This function requires that the schedule service be started.
 old-location: netmgmt\netschedulejobenum.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: e3384414-6a15-4979-bed4-6f94f046474a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management], _win32_netschedulejobenum, lmat/NetScheduleJobEnum, netmgmt.netschedulejobenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmat.h
 req.include-header: Lmat.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetScheduleJobEnum
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetScheduleJobEnum function

@@ -4,17 +4,16 @@ title: IWMProfile::GetStream
 author: windows-sdk-content
 description: The GetStream method retrieves a stream from the profile.
 old-location: wmformat\iwmprofile_getstream.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 067c3f03-a79a-4693-b963-7081f79c72d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStream, GetStream method [windows Media Format], GetStream method [windows Media Format],IWMProfile interface, GetStream method [windows Media Format],IWMProfile2 interface, GetStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStream method, IWMProfile.GetStream, IWMProfile2 interface [windows Media Format],GetStream method, IWMProfile2::GetStream, IWMProfile3 interface [windows Media Format],GetStream method, IWMProfile3::GetStream, IWMProfile::GetStream, IWMProfileGetStream, wmformat.iwmprofile_getstream, wmsdkidl/IWMProfile2::GetStream, wmsdkidl/IWMProfile3::GetStream, wmsdkidl/IWMProfile::GetStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.GetStream
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::GetStream

@@ -4,7 +4,7 @@ title: "_SAMPR_ENCRYPTED_USER_PASSWORD"
 author: windows-sdk-content
 description: The SAMPR_ENCRYPTED_USER_PASSWORD stores a user's encrypted password.
 old-location: mschap\sampr_encrypted_user_password.htm
-old-project: mschap
+tech.root: mschap
 ms.assetid: 10137c59-db99-4d70-9716-6f05369084a0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mschapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAMPR_ENCRYPTED_USER_PASSWORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
+req.redist: 
 ---
 
 # _SAMPR_ENCRYPTED_USER_PASSWORD structure

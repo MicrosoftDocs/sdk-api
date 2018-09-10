@@ -4,7 +4,7 @@ title: "_PROPERTY_UNITS"
 author: windows-sdk-content
 description: Defines constant values for the unit of measurement of a property.
 old-location: tablet\property_units.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: bf207b4a-5ce2-4d2d-98ed-8020d559dca7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tpcshrd.h
 req.include-header: Rectypes.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPERTY_UNITS, *PPROPERTY_UNITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPERTY_UNITS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROPERTY_UNITS, *PPROPERTY_UNITS
+req.redist: 
 ---
 
 # _PROPERTY_UNITS enumeration

@@ -4,17 +4,16 @@ title: IMsmMerge::OpenModule
 author: windows-sdk-content
 description: The OpenModule method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the OpenModule method of the Merge object.
 old-location: setup\imsmmerge_openmodule.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.OpenModule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::OpenModule
@@ -68,7 +66,7 @@ The
 
 ### -param Path
 
-
+TBD
 
 
 ### -param Language [in]

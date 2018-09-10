@@ -4,17 +4,16 @@ title: IVdsService::QueryFileSystemTypes
 author: windows-sdk-content
 description: Returns property details for all file systems known to VDS.
 old-location: base\ivdsservice_queryfilesystemtypes.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 17dcafc8-8faf-4dc2-af24-7e1ab257201e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsService.QueryFileSystemTypes
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsService::QueryFileSystemTypes

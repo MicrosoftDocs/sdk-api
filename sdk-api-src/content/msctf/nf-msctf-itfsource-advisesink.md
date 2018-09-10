@@ -4,17 +4,16 @@ title: ITfSource::AdviseSink
 author: windows-sdk-content
 description: ITfSource::AdviseSink method
 old-location: tsf\itfsource_advisesink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfSource.AdviseSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSource::AdviseSink

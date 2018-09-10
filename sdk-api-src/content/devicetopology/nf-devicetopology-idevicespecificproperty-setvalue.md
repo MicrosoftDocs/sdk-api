@@ -4,17 +4,16 @@ title: IDeviceSpecificProperty::SetValue
 author: windows-sdk-content
 description: The SetValue method sets the value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_setvalue.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 48e7a638-f602-455f-96d1-9d1eb049a6c0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDeviceSpecificProperty interface [Core Audio],SetValue method, IDeviceSpecificProperty.SetValue, IDeviceSpecificProperty::SetValue, IDeviceSpecificPropertySetValue, SetValue, SetValue method [Core Audio], SetValue method [Core Audio],IDeviceSpecificProperty interface, coreaudio.idevicespecificproperty_setvalue, devicetopology/IDeviceSpecificProperty::SetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceSpecificProperty.SetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceSpecificProperty::SetValue

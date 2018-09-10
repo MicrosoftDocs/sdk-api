@@ -4,17 +4,16 @@ title: IDockingWindowSite::SetBorderSpaceDW
 author: windows-sdk-content
 description: Allocates and reserves border space for an IDockingWindow object.
 old-location: shell\IDockingWindowSite_SetBorderSpaceDW.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8c79c983-8a5d-4b52-848d-c85c4e4f86ec
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],SetBorderSpaceDW method, IDockingWindowSite.SetBorderSpaceDW, IDockingWindowSite::SetBorderSpaceDW, SetBorderSpaceDW, SetBorderSpaceDW method [Windows Shell], SetBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_SetBorderSpaceDW, shell.IDockingWindowSite_SetBorderSpaceDW, shlobj_core/IDockingWindowSite::SetBorderSpaceDW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDockingWindowSite.SetBorderSpaceDW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDockingWindowSite::SetBorderSpaceDW

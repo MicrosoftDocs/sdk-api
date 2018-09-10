@@ -4,17 +4,16 @@ title: SHGlobalCounterDecrement function
 author: windows-sdk-content
 description: Decrements a global counter.
 old-location: shell\SHGlobalCounterDecrement.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGlobalCounterDecrement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHGlobalCounterDecrement function

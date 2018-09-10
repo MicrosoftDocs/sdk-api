@@ -4,17 +4,16 @@ title: IManipulationProcessor::ProcessUpWithTime
 author: windows-sdk-content
 description: Feeds data, including a timestamp, to a target's manipulation processor for touch-up sequences.
 old-location: wintouch\imanpiulationprocessor_processupwithtime.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: fafea353-9126-454d-9311-4859e5ae5712
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUpWithTime method, IManipulationProcessor.ProcessUpWithTime, IManipulationProcessor::ProcessUpWithTime, ProcessUpWithTime, ProcessUpWithTime method [Windows Touch], ProcessUpWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUpWithTime, wintouch.imanpiulationprocessor_processupwithtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.ProcessUpWithTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::ProcessUpWithTime

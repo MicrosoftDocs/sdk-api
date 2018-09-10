@@ -4,17 +4,16 @@ title: ITfCreatePropertyStore::IsStoreSerializable
 author: windows-sdk-content
 description: ITfCreatePropertyStore::IsStoreSerializable method
 old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCreatePropertyStore.IsStoreSerializable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCreatePropertyStore::IsStoreSerializable

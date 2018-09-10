@@ -4,17 +4,16 @@ title: ICrmLogControl::ForceTransactionToAbort
 author: windows-sdk-content
 description: Performs an immediate abort call on the transaction.
 old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ForceTransactionToAbort, ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceTransactionToAbort method, ICrmLogControl.ForceTransactionToAbort, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.ForceTransactionToAbort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::ForceTransactionToAbort

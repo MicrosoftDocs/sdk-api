@@ -4,17 +4,16 @@ title: IVdsVolume::Shrink
 author: windows-sdk-content
 description: Reduces the size of the volume and all plexes, and returns the released extents to free space.
 old-location: base\ivdsvolume_shrink.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.Shrink
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::Shrink
@@ -68,7 +66,7 @@ Reduces the size of the volume
 
 ### -param ullNumberOfBytesToRemove
 
-
+TBD
 
 
 ### -param ppAsync [out]

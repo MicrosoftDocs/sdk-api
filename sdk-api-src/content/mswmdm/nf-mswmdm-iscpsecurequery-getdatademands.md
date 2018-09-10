@@ -4,17 +4,16 @@ title: ISCPSecureQuery::GetDataDemands
 author: windows-sdk-content
 description: The GetDataDemands method reports which data the secure content provider needs to determine the rights and responsibility for a specified piece of content.
 old-location: wmdm\iscpsecurequery_getdatademands.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: c4ed4da1-9378-4c35-8f03-b028e37c1707
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDataDemands, GetDataDemands method [windows Media Device Manager], GetDataDemands method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],GetDataDemands method, ISCPSecureQuery.GetDataDemands, ISCPSecureQuery::GetDataDemands, ISCPSecureQueryGetDataDemands, mswmdm/ISCPSecureQuery::GetDataDemands, wmdm.iscpsecurequery_getdatademands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureQuery.GetDataDemands
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureQuery::GetDataDemands

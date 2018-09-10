@@ -4,17 +4,16 @@ title: IFileDialog::GetFileTypeIndex
 author: windows-sdk-content
 description: Gets the currently selected file type.
 old-location: shell\IFileDialog_GetFileTypeIndex.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ae5b08a1-a97d-433b-88dc-938abe028384
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileTypeIndex, GetFileTypeIndex method [Windows Shell], GetFileTypeIndex method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileTypeIndex method, IFileDialog.GetFileTypeIndex, IFileDialog::GetFileTypeIndex, shell.IFileDialog_GetFileTypeIndex, shell_IFileDialog_GetFileTypeIndex, shobjidl_core/IFileDialog::GetFileTypeIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.GetFileTypeIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::GetFileTypeIndex

@@ -4,7 +4,7 @@ title: "_BCRYPT_KEY_DATA_BLOB_HEADER"
 author: windows-sdk-content
 description: Used to contain information about a key data BLOB.
 old-location: security\bcrypt_key_data_blob_header.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 054bba02-c73a-496d-b619-749c3f4e8ad9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_KEY_DATA_BLOB_HEADER, *PBCRYPT_KEY_DATA_BLOB_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_KEY_DATA_BLOB_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_KEY_DATA_BLOB_HEADER, *PBCRYPT_KEY_DATA_BLOB_HEADER
+req.redist: 
 ---
 
 # _BCRYPT_KEY_DATA_BLOB_HEADER structure

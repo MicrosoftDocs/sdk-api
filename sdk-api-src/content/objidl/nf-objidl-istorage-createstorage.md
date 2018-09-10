@@ -4,17 +4,16 @@ title: IStorage::CreateStorage
 author: windows-sdk-content
 description: Creates and opens a new storage object nested within this storage object with the specified name in the specified access mode.
 old-location: stg\istorage_createstorage.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 8c74cacf-8d3c-4d57-b1e9-dc5e4f281717
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateStorage, CreateStorage method [Structured Storage], CreateStorage method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStorage method, IStorage.CreateStorage, IStorage::CreateStorage, _stg_istorage_createstorage, objidl/IStorage::CreateStorage, stg.istorage_createstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.CreateStorage
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::CreateStorage

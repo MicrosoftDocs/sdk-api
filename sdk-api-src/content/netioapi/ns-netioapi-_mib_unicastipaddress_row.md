@@ -4,7 +4,7 @@ title: "_MIB_UNICASTIPADDRESS_ROW"
 author: windows-sdk-content
 description: Stores information about a unicast IP address.
 old-location: mib\mib_unicastipaddress_row.htm
-old-project: mib
+tech.root: mib
 ms.assetid: f329bafd-9e83-4754-a9a9-e7e111229c90
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_UNICASTIPADDRESS_ROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
+req.redist: 
 ---
 
 # _MIB_UNICASTIPADDRESS_ROW structure

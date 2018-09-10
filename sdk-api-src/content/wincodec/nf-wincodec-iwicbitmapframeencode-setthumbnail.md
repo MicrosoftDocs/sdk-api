@@ -4,17 +4,16 @@ title: IWICBitmapFrameEncode::SetThumbnail
 author: windows-sdk-content
 description: Sets the frame thumbnail if supported by the codec.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setthumbnail.htm
-old-project: wic
+tech.root: wic
 ms.assetid: da6924cf-87c0-4774-a02e-5d54be65ef28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetThumbnail method, IWICBitmapFrameEncode.SetThumbnail, IWICBitmapFrameEncode::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setthumbnail, wic._wic_codec_iwicbitmapframeencode_setthumbnail, wincodec/IWICBitmapFrameEncode::SetThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapFrameEncode.SetThumbnail
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapFrameEncode::SetThumbnail

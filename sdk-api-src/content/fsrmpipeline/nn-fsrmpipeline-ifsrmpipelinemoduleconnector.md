@@ -4,7 +4,7 @@ title: IFsrmPipelineModuleConnector
 author: windows-sdk-content
 description: Creates the communication channel between FSRM and your pipeline module implementation.
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPipelineModuleConnector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleConnector interface

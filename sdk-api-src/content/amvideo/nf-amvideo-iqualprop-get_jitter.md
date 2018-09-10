@@ -4,17 +4,16 @@ title: IQualProp::get_Jitter
 author: windows-sdk-content
 description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
 old-location: dshow\iqualprop_get_jitter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IQualProp interface [DirectShow],get_Jitter method, IQualProp.get_Jitter, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow],IQualProp interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IQualProp.get_Jitter
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQualProp::get_Jitter
@@ -62,7 +61,7 @@ The <b>get_Jitter</b> method gets the jitter (variation in time) between success
 
 ### -param iJitter
 
-
+TBD
 
 
 

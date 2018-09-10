@@ -4,17 +4,16 @@ title: ClusWorkerTerminateEx function
 author: windows-sdk-content
 description: Waits for a worker thread to terminate up to the specified timeout.
 old-location: mscs\clusworkerterminateex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ClusWorkerTerminateEx
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusWorkerTerminateEx function

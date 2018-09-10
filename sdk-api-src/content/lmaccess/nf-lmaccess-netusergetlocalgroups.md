@@ -4,17 +4,16 @@ title: NetUserGetLocalGroups function
 author: windows-sdk-content
 description: The NetUserGetLocalGroups function retrieves a list of local groups to which a specified user belongs.
 old-location: netmgmt\netusergetlocalgroups.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: cc5c1c15-cad7-4103-a2c9-1a8adf742703
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetUserGetLocalGroups
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetUserGetLocalGroups function

@@ -4,17 +4,16 @@ title: NdrServerCallAll function
 author: windows-sdk-content
 description: NdrServerCallAll is not intended to be directly called by applications.
 old-location: rpc\ndrservercallall.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 7CCFC1CC-E37E-412E-9CB9-46888C42244A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrServerCallAll, NdrServerCallAll function [RPC], rpc.ndrservercallall, rpcndr/NdrServerCallAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrServerCallAll
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrServerCallAll function

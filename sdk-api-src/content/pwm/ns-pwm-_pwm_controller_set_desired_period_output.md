@@ -4,7 +4,7 @@ title: "_PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"
 author: windows-sdk-content
 description: Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_set_desired_period_output.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 15B438F8-C265-4D95-8806-D7DDBFF62973
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
+req.redist: 
 ---
 
 # _PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure

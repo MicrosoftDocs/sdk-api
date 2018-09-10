@@ -4,17 +4,16 @@ title: IMDSPObjectInfo::GetLastPlayPosition
 author: windows-sdk-content
 description: The GetLastPlayPosition method retrieves the last play position of the object. The object must be a music file on the media device.
 old-location: wmdm\imdspobjectinfo_getlastplayposition.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7ebd73b2-d168-470b-bc5a-aad8888c401a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLastPlayPosition, GetLastPlayPosition method [windows Media Device Manager], GetLastPlayPosition method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetLastPlayPosition method, IMDSPObjectInfo.GetLastPlayPosition, IMDSPObjectInfo::GetLastPlayPosition, IMDSPObjectInfoGetLastPlayPosition, mswmdm/IMDSPObjectInfo::GetLastPlayPosition, wmdm.imdspobjectinfo_getlastplayposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObjectInfo.GetLastPlayPosition
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObjectInfo::GetLastPlayPosition

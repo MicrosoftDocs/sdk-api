@@ -4,17 +4,16 @@ title: IVdsDisk3::QueryFreeExtents
 author: windows-sdk-content
 description: Returns the free extents on the disk and aligns them to the specified alignment size.
 old-location: base\ivdsdisk3_queryfreeextents.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0ca2ebb6-1394-48a2-972b-bdf43bf58ced
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExtents, IVdsDisk3::QueryFreeExtents, QueryFreeExtents, QueryFreeExtents method, QueryFreeExtents method,IVdsDisk3 interface, base.ivdsdisk3_queryfreeextents, vds/IVdsDisk3::QueryFreeExtents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVdsDisk3.QueryFreeExtents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk3::QueryFreeExtents

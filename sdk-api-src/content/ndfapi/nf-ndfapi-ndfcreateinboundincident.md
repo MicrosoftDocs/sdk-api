@@ -4,17 +4,16 @@ title: NdfCreateInboundIncident function
 author: windows-sdk-content
 description: Creates a session to diagnose inbound connectivity for a specific application or service.
 old-location: ndf\ndfcreateinboundincident.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfCreateInboundIncident
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfCreateInboundIncident function

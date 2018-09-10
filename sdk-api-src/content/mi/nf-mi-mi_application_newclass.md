@@ -4,17 +4,16 @@ title: MI_Application_NewClass function
 author: windows-sdk-content
 description: Creates an MI_Class from an MI_ClassDecl structure.
 old-location: wmi_v2\mi_application_newclass.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewClass, wmi_v2.mi_application_newclass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: Mi.lib
+req.dll: Mi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Application_NewClass
 product: Windows
 targetos: Windows
-req.lib: Mi.lib
-req.dll: Mi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MI_Application_NewClass function

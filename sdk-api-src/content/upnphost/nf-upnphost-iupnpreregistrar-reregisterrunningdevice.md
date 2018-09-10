@@ -4,17 +4,16 @@ title: IUPnPReregistrar::ReregisterRunningDevice
 author: windows-sdk-content
 description: The ReregisterRunningDevice method re-registers a running device with the device host.
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterRunningDevice method, IUPnPReregistrar.ReregisterRunningDevice, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPReregistrar.ReregisterRunningDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPReregistrar::ReregisterRunningDevice

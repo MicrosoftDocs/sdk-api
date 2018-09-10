@@ -4,7 +4,7 @@ title: MFP_MEDIAITEM_CREATED_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MEDIAITEM_CREATED event.
 old-location: mf\mfp_mediaitem_created_event.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 68e4076f-c03c-4780-9731-67eb6e78ec8b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFP_MEDIAITEM_CREATED_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_MEDIAITEM_CREATED_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFP_MEDIAITEM_CREATED_EVENT
+req.redist: 
 ---
 
 # MFP_MEDIAITEM_CREATED_EVENT structure

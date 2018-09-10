@@ -4,7 +4,7 @@ title: "__MFAYUVSample"
 author: windows-sdk-content
 description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
 old-location: mf\mfayuvsample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFAYUVSample
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFAYUVSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFAYUVSample
+req.redist: 
 ---
 
 # __MFAYUVSample structure

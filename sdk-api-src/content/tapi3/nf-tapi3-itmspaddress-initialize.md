@@ -4,17 +4,16 @@ title: ITMSPAddress::Initialize
 author: windows-sdk-content
 description: The Initialize method is called when the MSP is loaded.
 old-location: tapi3\itmspaddress_initialize.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5df2c486-0133-4705-8d37-10b56b40c85d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMSPAddress.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMSPAddress::Initialize

@@ -4,17 +4,16 @@ title: IManagedObjectInfo::GetIUnknown
 author: windows-sdk-content
 description: Retrieves the IUnknown interface that is associated with the managed object.
 old-location: cos\imanagedobjectinfo_getiunknown.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IManagedObjectInfo.GetIUnknown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IManagedObjectInfo::GetIUnknown

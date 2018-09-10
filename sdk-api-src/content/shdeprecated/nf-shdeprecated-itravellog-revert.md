@@ -4,17 +4,16 @@ title: ITravelLog::Revert
 author: windows-sdk-content
 description: Deprecated. Reverts to the current entry, dropping the result of ITravelLog::AddEntry in the case of a failed navigation.
 old-location: shell\ITravelLog_Revert.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 202ce028-d64c-4733-8006-1bdb1efa8ad3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITravelLog interface [Windows Shell],Revert method, ITravelLog.Revert, ITravelLog::Revert, Revert, Revert method [Windows Shell], Revert method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::Revert, shell.ITravelLog_Revert, zone_ITravelLog_Revert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelLog.Revert
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

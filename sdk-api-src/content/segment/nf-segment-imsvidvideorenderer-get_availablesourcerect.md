@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::get_AvailableSourceRect
 author: windows-sdk-content
 description: The get_AvailableSourceRect method retrieves the size of the native video.
 old-location: mstv\imsvidvideorenderer_get_availablesourcerect.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 33747e97-3e1c-4220-89c9-cc8310b77c4e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_AvailableSourceRect method, IMSVidVideoRenderer.get_AvailableSourceRect, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.get_AvailableSourceRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::get_AvailableSourceRect
@@ -62,7 +60,7 @@ The <b>get_AvailableSourceRect</b> method retrieves the size of the native video
 
 ### -param pRect
 
-
+TBD
 
 
 

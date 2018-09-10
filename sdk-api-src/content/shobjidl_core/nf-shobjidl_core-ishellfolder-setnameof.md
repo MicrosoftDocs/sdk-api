@@ -4,17 +4,16 @@ title: IShellFolder::SetNameOf
 author: windows-sdk-content
 description: Sets the display name of a file object or subfolder, changing the item identifier in the process.
 old-location: shell\IShellFolder_SetNameOf.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b975df89-9289-4344-9c55-f11ee83229dd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolder interface [Windows Shell],SetNameOf method, IShellFolder.SetNameOf, IShellFolder2 interface [Windows Shell],SetNameOf method, IShellFolder2::SetNameOf, IShellFolder::SetNameOf, SetNameOf, SetNameOf method [Windows Shell], SetNameOf method [Windows Shell],IShellFolder interface, SetNameOf method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_SetNameOf, shell.IShellFolder_SetNameOf, shobjidl_core/IShellFolder2::SetNameOf, shobjidl_core/IShellFolder::SetNameOf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.SetNameOf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::SetNameOf
@@ -63,7 +61,7 @@ Sets the display name of a file object or subfolder, changing the item identifie
 
 ### -param hwnd
 
-
+TBD
 
 
 ### -param pidl [in]

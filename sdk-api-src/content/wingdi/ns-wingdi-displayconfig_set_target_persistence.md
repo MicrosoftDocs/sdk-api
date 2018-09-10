@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.
 old-location: display\displayconfig_set_target_persistence.htm
-old-project: display
+tech.root: display
 ms.assetid: 4798a1e1-8685-40c2-917a-0ee071bc780c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
+req.redist: 
 ---
 
 # DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure

@@ -4,7 +4,7 @@ title: "_NET_VALIDATE_OUTPUT_ARG"
 author: windows-sdk-content
 description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
 old-location: netmgmt\net_validate_output_arg.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_VALIDATE_OUTPUT_ARG, *PNET_VALIDATE_OUTPUT_ARG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_VALIDATE_OUTPUT_ARG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_VALIDATE_OUTPUT_ARG, *PNET_VALIDATE_OUTPUT_ARG
+req.redist: 
 ---
 
 # _NET_VALIDATE_OUTPUT_ARG structure

@@ -4,17 +4,16 @@ title: ID3D11ShaderReflectionVariable::GetBuffer
 author: windows-sdk-content
 description: This method returns the buffer of the current ID3D11ShaderReflectionVariable.
 old-location: direct3d11\id3d11shaderreflectionvariable_getbuffer.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: E3E15010-6096-4AA5-B014-AD3054223300
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBuffer, GetBuffer method [Direct3D 11], GetBuffer method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetBuffer method, ID3D11ShaderReflectionVariable.GetBuffer, ID3D11ShaderReflectionVariable::GetBuffer, d3d11shader/ID3D11ShaderReflectionVariable::GetBuffer, direct3d11.id3d11shaderreflectionvariable_getbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflectionVariable.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflectionVariable::GetBuffer

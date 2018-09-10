@@ -4,17 +4,16 @@ title: IBitsTokenOptions::GetHelperTokenSid
 author: windows-sdk-content
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits4_0.h
 req.include-header: 
-req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBitsTokenOptions.GetHelperTokenSid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2
 ---
 
 # IBitsTokenOptions::GetHelperTokenSid

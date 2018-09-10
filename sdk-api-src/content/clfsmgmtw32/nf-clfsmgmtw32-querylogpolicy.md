@@ -4,17 +4,16 @@ title: QueryLogPolicy function
 author: windows-sdk-content
 description: The QueryLogPolicy function allows you to obtain a policy that is installed for the specified log.
 old-location: fs\querylogpolicy.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - QueryLogPolicy
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # QueryLogPolicy function

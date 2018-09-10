@@ -4,17 +4,16 @@ title: ID2D1DrawInfo::SetVertexProcessing
 author: windows-sdk-content
 description: Sets a vertex buffer, a corresponding vertex shader, and options to control how the vertices are to be handled by the Direct2D context.
 old-location: direct2d\id2d1drawinfo_setvertexprocessing.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 23DB679B-33E4-4FB1-B356-BBB1BA95E0EB
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexProcessing method, ID2D1DrawInfo.SetVertexProcessing, ID2D1DrawInfo::SetVertexProcessing, SetVertexProcessing, SetVertexProcessing method [Direct2D], SetVertexProcessing method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexProcessing, direct2d.id2d1drawinfo_setvertexprocessing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1DrawInfo.SetVertexProcessing
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DrawInfo::SetVertexProcessing

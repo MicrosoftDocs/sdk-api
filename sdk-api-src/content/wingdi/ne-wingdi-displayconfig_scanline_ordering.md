@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_SCANLINE_ORDERING
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SCANLINE_ORDERING enumeration specifies the method that the display uses to create an image on a screen.
 old-location: display\displayconfig_scanline_ordering.htm
-old-project: display
+tech.root: display
 ms.assetid: 5b8d6c83-e8fb-4529-8d61-557ed0e4da37
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_SCANLINE_ORDERING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
+req.redist: 
 ---
 
 # DISPLAYCONFIG_SCANLINE_ORDERING enumeration

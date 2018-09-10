@@ -4,7 +4,7 @@ title: ShellFolderViewOptions
 author: windows-sdk-content
 description: Specifies the view options returned by the ViewOptions property.
 old-location: shell\ShellFolderViewOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7028ff38-7596-4126-aa98-c0be519243c9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellFolderViewOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShellFolderViewOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ShellFolderViewOptions
+req.redist: 
 ---
 
 # ShellFolderViewOptions enumeration

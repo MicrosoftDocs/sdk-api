@@ -4,7 +4,7 @@ title: IMFCaptureEngineOnSampleCallback2
 author: windows-sdk-content
 description: Extensions for the IMFCaptureEngineOnSampleCallback callback interface that is used to receive data from the capture engine.
 old-location: mf\imfcaptureengineonsamplecallback2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0899e558-df9e-4060-970c-af0bd26ed5ce
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngineOnSampleCallback2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngineOnSampleCallback2 interface

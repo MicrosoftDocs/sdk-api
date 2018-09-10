@@ -4,7 +4,7 @@ title: "_TCP_ESTATS_FINE_RTT_RW_v0"
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on fine-grained round-trip time (RTT) estimation statistics for a TCP connection.
 old-location: iphlp\tcp_estats_fine_rtt_rw_v0.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 35834c9a-2896-4c11-aef7-c55af7f6fef3
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_ESTATS_FINE_RTT_RW_v0, *PTCP_ESTATS_FINE_RTT_RW_v0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_ESTATS_FINE_RTT_RW_v0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_ESTATS_FINE_RTT_RW_v0, *PTCP_ESTATS_FINE_RTT_RW_v0
+req.redist: 
 ---
 
 # _TCP_ESTATS_FINE_RTT_RW_v0 structure

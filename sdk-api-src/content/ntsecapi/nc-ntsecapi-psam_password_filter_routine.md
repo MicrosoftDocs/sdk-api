@@ -4,7 +4,7 @@ title: PSAM_PASSWORD_FILTER_ROUTINE
 author: windows-sdk-content
 description: Implemented by a password filter DLL. The value returned by this function determines whether the new password is accepted by the system.
 old-location: security\passwordfilter.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CI_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PasswordFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSAM_PASSWORD_FILTER_ROUTINE callback function

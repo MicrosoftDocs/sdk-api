@@ -4,17 +4,16 @@ title: INetFwServiceRestriction::RestrictService
 author: windows-sdk-content
 description: The RestrictService method turns service restriction on or off for a given service.
 old-location: ics\inetfwservicerestriction_restrictservice.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwServiceRestriction.RestrictService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwServiceRestriction::RestrictService

@@ -4,7 +4,7 @@ title: "_bidioptions"
 author: windows-sdk-content
 description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.
 old-location: controls\BIDIOPTIONS.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: Rich Edit 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BIDIOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BIDIOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: BIDIOPTIONS
+req.redist: Rich Edit 3.0
 ---
 
 # _bidioptions structure

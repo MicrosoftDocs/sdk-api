@@ -4,17 +4,16 @@ title: SetupGetLineByIndexA function
 author: windows-sdk-content
 description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
 old-location: setup\setupgetlinebyindex.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 7a1c313b-3150-4f4f-a1e9-0fc9544b97ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupGetLineByIndex, SetupGetLineByIndex function [Setup API], SetupGetLineByIndexA, SetupGetLineByIndexW, _setupapi_setupgetlinebyindex, setup.setupgetlinebyindex, setupapi/SetupGetLineByIndex, setupapi/SetupGetLineByIndexA, setupapi/SetupGetLineByIndexW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupGetLineByIndexW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetLineByIndexA function

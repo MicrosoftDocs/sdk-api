@@ -4,17 +4,16 @@ title: MsiDatabaseOpenViewA function
 author: windows-sdk-content
 description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msidatabaseopenview.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MsiDatabaseOpenView, MsiDatabaseOpenView function, MsiDatabaseOpenViewA, MsiDatabaseOpenViewW, _msi_msidatabaseopenview, msiquery/MsiDatabaseOpenView, msiquery/MsiDatabaseOpenViewA, msiquery/MsiDatabaseOpenViewW, setup.msidatabaseopenview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiDatabaseOpenViewW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiDatabaseOpenViewA function

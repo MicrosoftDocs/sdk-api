@@ -4,7 +4,7 @@ title: WS_OPERATION_CANCEL_CALLBACK
 author: windows-sdk-content
 description: Gives notification of the cancellation of an asynchronous service operation call as a result of an aborted shutdown of service host.
 old-location: wsw\ws_operation_cancel_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 177f9abb-861d-42a9-8044-25076b026f1d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_OPERATION_CANCEL_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_OPERATION_CANCEL_CALLBACK callback function

@@ -4,7 +4,7 @@ title: "_tagAppActionFlags"
 author: windows-sdk-content
 description: Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp::GetPossibleActions.
 old-location: shell\APPACTIONFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: edfd9b1e-7f4d-4350-9d2c-71f59ca4f7eb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPACTIONFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APPACTIONFLAGS
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: APPACTIONFLAGS
+req.redist: 
 ---
 
 # _tagAppActionFlags enumeration

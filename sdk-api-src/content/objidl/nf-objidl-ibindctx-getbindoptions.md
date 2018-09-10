@@ -4,17 +4,16 @@ title: IBindCtx::GetBindOptions
 author: windows-sdk-content
 description: Retrieves the binding options stored in this bind context.
 old-location: com\ibindctx_getbindoptions.htm
-old-project: com
+tech.root: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBindOptions, GetBindOptions method [COM], GetBindOptions method [COM],IBindCtx interface, IBindCtx interface [COM],GetBindOptions method, IBindCtx.GetBindOptions, IBindCtx::GetBindOptions, _com_ibindctx_getbindoptions, com.ibindctx_getbindoptions, objidl/IBindCtx::GetBindOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBindCtx.GetBindOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBindCtx::GetBindOptions

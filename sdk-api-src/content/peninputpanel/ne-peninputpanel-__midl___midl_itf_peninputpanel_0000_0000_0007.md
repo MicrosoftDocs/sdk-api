@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0007"
 author: windows-sdk-content
 description: The events on the ITextInputPanel Interface that you can set attention for.
 old-location: tablet\eventmask.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EventMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: EventMask
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0007 enumeration

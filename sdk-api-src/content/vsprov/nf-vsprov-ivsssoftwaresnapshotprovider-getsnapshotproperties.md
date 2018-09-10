@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider::GetSnapshotProperties
 author: windows-sdk-content
 description: Gets the properties of the specified shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 59886344-d594-4eb8-9718-ab11a6627e8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method, GetSnapshotProperties method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,GetSnapshotProperties method, IVssSoftwareSnapshotProvider.GetSnapshotProperties, IVssSoftwareSnapshotProvider::GetSnapshotProperties, base.ivsssoftwaresnapshotprovider_getsnapshotproperties, vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider.GetSnapshotProperties
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider::GetSnapshotProperties

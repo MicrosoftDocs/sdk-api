@@ -4,17 +4,16 @@ title: EngCreateDeviceBitmap function
 author: windows-sdk-content
 description: The EngCreateDeviceBitmap function requests GDI to create a handle for a device bitmap.
 old-location: display\engcreatedevicebitmap.htm
-old-project: display
+tech.root: display
 ms.assetid: dc9d7154-30b9-4462-9161-6df03946308d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngCreateDeviceBitmap, EngCreateDeviceBitmap function [Display Devices], display.engcreatedevicebitmap, gdifncs_e802b5e9-a939-4aa4-b4df-82172e825fa5.xml, winddi/EngCreateDeviceBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngCreateDeviceBitmap
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngCreateDeviceBitmap function

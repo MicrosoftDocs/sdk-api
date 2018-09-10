@@ -4,17 +4,16 @@ title: CreateVirtualDisk function
 author: windows-sdk-content
 description: Creates a virtual hard disk (VHD) image file, either using default parameters or using an existing virtual disk or physical disk.
 old-location: vhd\createvirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CreateVirtualDisk function

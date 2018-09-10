@@ -4,17 +4,16 @@ title: IMFPresentationClock::Start
 author: windows-sdk-content
 description: Starts the presentation clock.
 old-location: mf\imfpresentationclock_start.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ba5986d1-9c94-4747-a221-43d0583f1fed
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPresentationClock.Start
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPresentationClock::Start

@@ -4,17 +4,16 @@ title: IInkEdit::put_SelBold
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold.
 old-location: tablet\inkedit_selbold.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 423f9303-38e9-4d70-88cd-e6503a9f0a64
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelBold property, IInkEdit.SelBold, IInkEdit.put_SelBold, IInkEdit::SelBold, IInkEdit::get_SelBold, IInkEdit::put_SelBold, InkEdit.get_SelBold, InkEdit.put_SelBold, NULL, SelBold property [Tablet PC], SelBold property [Tablet PC],IInkEdit interface, TRUE, get_SelBold, inked/IInkEdit::SelBold, inked/IInkEdit::get_SelBold, inked/IInkEdit::put_SelBold, put_SelBold, tablet.inkedit_selbold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_SelBold
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_SelBold

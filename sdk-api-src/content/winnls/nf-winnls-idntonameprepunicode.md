@@ -4,17 +4,16 @@ title: IdnToNameprepUnicode function
 author: windows-sdk-content
 description: Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group RFC 3491, but does not perform the additional conversion to Punycode.
 old-location: intl\idntonameprepunicode.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Normaliz.lib
+req.dll: Normaliz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IdnToNameprepUnicode
 product: Windows
 targetos: Windows
-req.lib: Normaliz.lib
-req.dll: Normaliz.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 ---
 
 # IdnToNameprepUnicode function

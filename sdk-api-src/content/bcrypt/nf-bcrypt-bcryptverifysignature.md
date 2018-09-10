@@ -4,17 +4,16 @@ title: BCryptVerifySignature function
 author: windows-sdk-content
 description: Verifies that the specified signature matches the specified hash.
 old-location: security\bcryptverifysignature_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 95c32056-e444-441c-bbc1-c5ae82aba964
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptVerifySignature, BCryptVerifySignature function [Security], bcrypt/BCryptVerifySignature, security.bcryptverifysignature_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptVerifySignature
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptVerifySignature function

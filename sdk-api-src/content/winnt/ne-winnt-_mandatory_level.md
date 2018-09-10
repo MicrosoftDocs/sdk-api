@@ -4,7 +4,7 @@ title: "_MANDATORY_LEVEL"
 author: windows-sdk-content
 description: Lists the possible security levels.
 old-location: security\mandatory_level.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 0D6EC16C-F21E-4BED-AF57-93D282D6CF86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MANDATORY_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
+req.redist: 
 ---
 
 # _MANDATORY_LEVEL enumeration

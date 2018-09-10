@@ -4,17 +4,16 @@ title: IPBDA_EIT::GetServiceIdx
 author: windows-sdk-content
 description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.
 old-location: mstv\ipbda_eit_getserviceidx.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetServiceIdx, GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetServiceIdx method, IPBDA_EIT.GetServiceIdx, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPBDA_EIT.GetServiceIdx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPBDA_EIT::GetServiceIdx

@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgPdu::get_PduData
 author: windows-sdk-content
 description: The PDU message in hexadecimal format as used by GSM devices.
 old-location: mbn\imbnsmsreadmsgpdu_pdudata.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 709dd6dd-c54d-4a46-bc29-f68229feb97d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],PduData property, IMbnSmsReadMsgPdu.PduData, IMbnSmsReadMsgPdu.get_PduData, IMbnSmsReadMsgPdu::PduData, IMbnSmsReadMsgPdu::get_PduData, PduData property [Microsoft Broadband Networks], PduData property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_PduData, mbn.imbnsmsreadmsgpdu_pdudata, mbnapi/IMbnSmsReadMsgPdu::PduData, mbnapi/IMbnSmsReadMsgPdu::get_PduData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgPdu.get_PduData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgPdu::get_PduData

@@ -4,17 +4,16 @@ title: IXpsOMPageReference::CollectPartResources
 author: windows-sdk-content
 description: Creates a list of all part-based resources that are associated with the page.
 old-location: xps\ixpsompagereference_collectpartresources.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 52a45351-669c-42f3-b02b-afbf42727313
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CollectPartResources, CollectPartResources method [XPS Documents and Packaging], CollectPartResources method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectPartResources method, IXpsOMPageReference.CollectPartResources, IXpsOMPageReference::CollectPartResources, xps.ixpsompagereference_collectpartresources, xpsobjectmodel/IXpsOMPageReference::CollectPartResources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPageReference.CollectPartResources
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPageReference::CollectPartResources

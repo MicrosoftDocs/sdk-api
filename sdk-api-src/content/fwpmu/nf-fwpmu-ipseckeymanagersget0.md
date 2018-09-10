@@ -4,17 +4,16 @@ title: IPsecKeyManagersGet0 function
 author: windows-sdk-content
 description: Returns a list of current Trusted Intermediary Agents (TIAs).
 old-location: fwp\ipseckeymanagersget0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 5456C126-DF5F-472D-A3A2-37C2C0C1E2FE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecKeyManagersGet0, IPsecKeyManagersGet0 function [Filtering], fwp.ipseckeymanagersget0, fwpmu/IPsecKeyManagersGet0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecKeyManagersGet0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecKeyManagersGet0 function

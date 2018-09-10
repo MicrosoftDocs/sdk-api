@@ -4,17 +4,16 @@ title: IITDatabase::CreateObject
 author: windows-sdk-content
 description: Creates an unnamed object you can reference in the future through the *pdwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_createobject.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasecreateobject.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateObject, CreateObject method [HTML Help Workshop], CreateObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],CreateObject method, IITDatabase.CreateObject, IITDatabase::CreateObject, htmlhelp.iitdatabase_createobject, infotech/IITDatabase::CreateObject, refIITDatabaseCreateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITDatabase.CreateObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITDatabase::CreateObject

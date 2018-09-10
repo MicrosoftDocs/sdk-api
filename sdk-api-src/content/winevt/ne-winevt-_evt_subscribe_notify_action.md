@@ -4,7 +4,7 @@ title: "_EVT_SUBSCRIBE_NOTIFY_ACTION"
 author: windows-sdk-content
 description: Defines the possible types of data that the subscription service can deliver to your callback.
 old-location: wes\evt_subscribe_notify_action.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 75166c22-c55c-41b4-8089-ff9a89ddebf5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_SUBSCRIBE_NOTIFY_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
+req.redist: 
 ---
 
 # _EVT_SUBSCRIBE_NOTIFY_ACTION enumeration

@@ -4,17 +4,16 @@ title: IAMExtTransport::SetBump
 author: windows-sdk-content
 description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.
 old-location: dshow\iamexttransport_setbump.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetBump method, IAMExtTransport.SetBump, IAMExtTransport::SetBump, IAMExtTransportSetBump, SetBump, SetBump method [DirectShow], SetBump method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setbump, strmif/IAMExtTransport::SetBump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.SetBump
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::SetBump

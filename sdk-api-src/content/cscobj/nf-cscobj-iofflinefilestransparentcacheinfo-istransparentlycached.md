@@ -4,17 +4,16 @@ title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
 author: windows-sdk-content
 description: Determines whether the item is transparently cached.
 old-location: of\iofflinefilestransparentcacheinfo_istransparentlycached.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 7f8656e0-0f24-46a0-81b7-62067b0d4c21
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files],IOfflineFilesTransparentCacheInfo interface, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesTransparentCacheInfo::IsTransparentlyCached

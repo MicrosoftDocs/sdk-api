@@ -4,17 +4,16 @@ title: SetComputerNameW function
 author: windows-sdk-content
 description: Sets a new NetBIOS name for the local computer. The name is stored in the registry and the name change takes effect the next time the user restarts the computer.
 old-location: base\setcomputername.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: ff64fde2-d1b5-4211-b8c4-4823a5469e04
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetComputerName, SetComputerName function, SetComputerNameA, SetComputerNameW, _win32_setcomputername, base.setcomputername, sysinfoapi/SetComputerName, sysinfoapi/SetComputerNameA, sysinfoapi/SetComputerNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetComputerNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SetComputerNameW function

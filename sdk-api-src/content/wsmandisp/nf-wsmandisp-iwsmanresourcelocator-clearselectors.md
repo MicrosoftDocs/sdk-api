@@ -4,17 +4,16 @@ title: IWSManResourceLocator::ClearSelectors
 author: windows-sdk-content
 description: Removes all the selectors from a ResourceLocator object. You can provide a ResourceLocator object instead of specifying a resource URI in IWSManSession object operations such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_clearselectors.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: fccd0cd4-465b-454c-a300-ab50c25d6afe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearSelectors, ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearSelectors method, IWSManResourceLocator.ClearSelectors, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManResourceLocator.ClearSelectors
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManResourceLocator::ClearSelectors

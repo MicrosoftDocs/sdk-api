@@ -4,17 +4,16 @@ title: ITrackShellMenu::SetObscured
 author: windows-sdk-content
 description: Coordinates obscured items on a toolbar with items in a menu.
 old-location: shell\ITrackShellMenu_SetObscured.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a8b73bdb-95dd-4ca7-8dc9-3318faf37338
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITrackShellMenu interface [Windows Shell],SetObscured method, ITrackShellMenu.SetObscured, ITrackShellMenu::SetObscured, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetObscured, SetObscured method [Windows Shell], SetObscured method [Windows Shell],ITrackShellMenu interface, _shell_ITrackShellMenu_SetObscured, shdeprecated/ITrackShellMenu::SetObscured, shell.ITrackShellMenu_SetObscured
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITrackShellMenu.SetObscured
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 4.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITrackShellMenu::SetObscured

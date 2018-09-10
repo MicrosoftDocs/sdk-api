@@ -4,17 +4,16 @@ title: IFileSystemImage::get_StageFiles
 author: windows-sdk-content
 description: Indicates if the files being added to the file system image should be staged before the burn.
 old-location: imapi\ifilesystemimage_get_stagefiles.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StageFiles method, IFileSystemImage.get_StageFiles, IFileSystemImage::get_StageFiles, get_StageFiles, get_StageFiles method [IMAPI], get_StageFiles method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_stagefiles, imapi2fs/IFileSystemImage::get_StageFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.get_StageFiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::get_StageFiles

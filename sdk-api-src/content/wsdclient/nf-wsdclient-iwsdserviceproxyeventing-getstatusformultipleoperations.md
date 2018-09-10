@@ -4,17 +4,16 @@ title: IWSDServiceProxyEventing::GetStatusForMultipleOperations
 author: windows-sdk-content
 description: Retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_getstatusformultipleoperations.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: ba9c6d6e-d551-4010-b3b7-9e5391de9c49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStatusForMultipleOperations, GetStatusForMultipleOperations method, GetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,GetStatusForMultipleOperations method, IWSDServiceProxyEventing.GetStatusForMultipleOperations, IWSDServiceProxyEventing::GetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_getstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::GetStatusForMultipleOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDServiceProxyEventing.GetStatusForMultipleOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDServiceProxyEventing::GetStatusForMultipleOperations

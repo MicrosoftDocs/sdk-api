@@ -4,7 +4,7 @@ title: D3D11_BUFFER_DESC
 author: windows-sdk-content
 description: Describes a buffer resource.
 old-location: direct3d11\d3d11_buffer_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: a5e470bb-011b-4a2a-96d6-cbf76fe12638
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_BUFFER_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_BUFFER_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_BUFFER_DESC
+req.redist: 
 ---
 
 # D3D11_BUFFER_DESC structure

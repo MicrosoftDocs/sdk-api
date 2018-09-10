@@ -4,17 +4,16 @@ title: IFsrmReportManager::CreateReportJob
 author: windows-sdk-content
 description: Creates a report job.
 old-location: fsrm\ifsrmreportmanager_createreportjob.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 30274108-a820-409e-ba7c-6971b7726b9b
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateReportJob, CreateReportJob method [File Server Resource Manager], CreateReportJob method [File Server Resource Manager],FsrmReportManager class, CreateReportJob method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],CreateReportJob method, IFsrmReportManager interface [File Server Resource Manager],CreateReportJob method, IFsrmReportManager.CreateReportJob, IFsrmReportManager::CreateReportJob, fs.ifsrmreportmanager_createreportjob, fsrm.ifsrmreportmanager_createreportjob, fsrmreports/IFsrmReportManager::CreateReportJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.CreateReportJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::CreateReportJob

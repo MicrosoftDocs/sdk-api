@@ -4,17 +4,16 @@ title: ILoadFilter::LoadIFilter
 author: windows-sdk-content
 description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.
 old-location: search\iloadfilter_loadifilter.htm
-old-project: search
+tech.root: search
 ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: filtereg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_CHUNK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILoadFilter.LoadIFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # ILoadFilter::LoadIFilter

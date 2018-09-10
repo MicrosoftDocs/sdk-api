@@ -4,17 +4,16 @@ title: MsiAdvertiseProductExA function
 author: windows-sdk-content
 description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproductex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MSIADVERTISEOPTIONS_INSTANCE, MSIARCHITECTUREFLAGS_AMD64, MSIARCHITECTUREFLAGS_IA64, MSIARCHITECTUREFLAGS_X86, MsiAdvertiseProductEx, MsiAdvertiseProductEx function, MsiAdvertiseProductExA, MsiAdvertiseProductExW, _msi_msiadvertiseproductex, msi/MsiAdvertiseProductEx, msi/MsiAdvertiseProductExA, msi/MsiAdvertiseProductExW, none, setup.msiadvertiseproductex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiAdvertiseProductExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiAdvertiseProductExA function

@@ -4,17 +4,16 @@ title: Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &)
 author: windows-sdk-content
 description: This topic lists the Intersect methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Intersect_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectintersectmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Intersect, Intersect methods [GDI+], Rect.Intersect, Rect.Intersect(OUT Rect &,IN const Rect &,IN const Rect &), Rect::Intersect, Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &), _gdiplus_CLASS_Rect_Intersect_Methods, gdiplus._gdiplus_CLASS_Rect_Intersect_Methods, gdiplustypes/Intersect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Rect.Intersect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &)

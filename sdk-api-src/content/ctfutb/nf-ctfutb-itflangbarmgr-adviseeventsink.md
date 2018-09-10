@@ -4,17 +4,16 @@ title: ITfLangBarMgr::AdviseEventSink
 author: windows-sdk-content
 description: The ITfLangBarMgr::AdviseEventSink method advises a sink about a language bar event.
 old-location: tsf\itflangbarmgr_adviseeventsink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 8ac607fd-b2c4-4441-8738-c64c25b6c586
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AdviseEventSink, AdviseEventSink method [Text Services Framework], AdviseEventSink method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],AdviseEventSink method, ITfLangBarMgr.AdviseEventSink, ITfLangBarMgr::AdviseEventSink, _tsf_itflangbarmgr_adviseeventsink_ref, ctfutb/ITfLangBarMgr::AdviseEventSink, tsf.itflangbarmgr_adviseeventsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarMgr.AdviseEventSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarMgr::AdviseEventSink

@@ -4,7 +4,7 @@ title: "_SHELLEXECUTEINFOA"
 author: windows-sdk-content
 description: Contains information used by ShellExecuteEx.
 old-location: shell\SHELLEXECUTEINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELLEXECUTEINFOA, *LPSHELLEXECUTEINFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHELLEXECUTEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHELLEXECUTEINFOA, *LPSHELLEXECUTEINFOA
+req.redist: 
 ---
 
 # _SHELLEXECUTEINFOA structure

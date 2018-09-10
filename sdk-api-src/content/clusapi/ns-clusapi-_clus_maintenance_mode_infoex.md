@@ -4,7 +4,7 @@ title: "_CLUS_MAINTENANCE_MODE_INFOEX"
 author: windows-sdk-content
 description: Represents the extended maintenance mode settings for a storage class resource.
 old-location: mscs\clus_maintenance_mode_infoex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: d68b187d-39c5-42d3-b268-d5061da257c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_MAINTENANCE_MODE_INFOEX, *PCLUS_MAINTENANCE_MODE_INFOEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_MAINTENANCE_MODE_INFOEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_MAINTENANCE_MODE_INFOEX, *PCLUS_MAINTENANCE_MODE_INFOEX
+req.redist: 
 ---
 
 # _CLUS_MAINTENANCE_MODE_INFOEX structure

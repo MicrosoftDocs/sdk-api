@@ -4,7 +4,7 @@ title: tagFUNCKIND
 author: windows-sdk-content
 description: Specifies the function type.
 old-location: automat\funckind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: da13d9ba-b910-44cc-9926-4368df3f1606
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: OleAuto.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FUNCKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FUNCKIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FUNCKIND
+req.redist: 
 ---
 
 # tagFUNCKIND enumeration

@@ -4,17 +4,16 @@ title: Edit_SetPasswordChar macro
 author: windows-sdk-content
 description: Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the EM_SETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_SetPasswordChar.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setpasswordchar.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls], _win32_Edit_SetPasswordChar, _win32_Edit_SetPasswordChar_cpp, controls.Edit_SetPasswordChar, controls._win32_Edit_SetPasswordChar, windowsx/Edit_SetPasswordChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Edit_SetPasswordChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_SetPasswordChar macro

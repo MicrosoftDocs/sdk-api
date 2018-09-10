@@ -4,7 +4,7 @@ title: CF_CONVERT_FLAGS
 author: windows-sdk-content
 description: Normal file/directory to placeholder file/directory conversion flags.
 old-location: cloudapi\cf_convert_flags.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 0342BF0B-509A-4F8D-9557-54E534A3DDFE
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_CONVERT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_CONVERT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_CONVERT_FLAGS
+req.redist: 
 ---
 
 # CF_CONVERT_FLAGS enumeration

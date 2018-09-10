@@ -4,7 +4,7 @@ title: ASSOCKEY
 author: windows-sdk-content
 description: Specifies the type of key to be returned by IQueryAssociations::GetKey.
 old-location: shell\ASSOCKEY_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f4ac0ba0-4113-498f-a51b-74a37fe33d49
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASSOCKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASSOCKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ASSOCKEY
+req.redist: 
 ---
 
 # ASSOCKEY enumeration

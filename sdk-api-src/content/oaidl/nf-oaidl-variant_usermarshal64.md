@@ -4,17 +4,16 @@ title: VARIANT_UserMarshal64 function
 author: windows-sdk-content
 description: Marshals a VARIANT object into the RPC buffer.
 old-location: automat\variant_usermarshal64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: af9f85fa-b123-49da-99c7-552cd03197c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VARIANT_UserMarshal64, VARIANT_UserMarshal64 function [Automation], automat.variant_usermarshal64, oaidl/VARIANT_UserMarshal64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VARIANT_UserMarshal64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VARIANT_UserMarshal64 function

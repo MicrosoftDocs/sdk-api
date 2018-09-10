@@ -4,17 +4,16 @@ title: IFsrmFileScreenTemplateManager::ImportTemplates
 author: windows-sdk-content
 description: Imports the specified file screen templates from an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_importtemplates.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 0660a1cb-904e-4ed0-bbc8-9903e8848f4e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmFileScreenTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmFileScreenTemplateManager.ImportTemplates, IFsrmFileScreenTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, fs.ifsrmfilescreentemplatemanager_importtemplates, fsrm.ifsrmfilescreentemplatemanager_importtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ImportTemplates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenTemplateManager.ImportTemplates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenTemplateManager::ImportTemplates

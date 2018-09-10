@@ -4,7 +4,7 @@ title: CRYPTCATSTORE_
 author: windows-sdk-content
 description: Represents a catalog file.
 old-location: security\cryptcatstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 65a15797-453c-4f47-8ea1-c92e616b50aa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTCATSTORE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPTCATSTORE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CRYPTCATSTORE
+req.redist: 
 ---
 
 # CRYPTCATSTORE_ structure

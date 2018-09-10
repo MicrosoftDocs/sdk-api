@@ -4,7 +4,7 @@ title: "_STRING"
 author: windows-sdk-content
 description: The ANSI_STRING structure defines a counted string used for ANSI strings.
 old-location: kernel\ansi_string.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ANSI_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: STRING
+req.redist: 
 ---
 
 # _STRING structure

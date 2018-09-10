@@ -4,17 +4,16 @@ title: IWMDMEnumStorage::Reset
 author: windows-sdk-content
 description: The Reset method sets the enumeration sequence back to the beginning.
 old-location: wmdm\iwmdmenumstorage_reset.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 1c582374-cbec-4b7c-b46b-9a0dd8b028d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Reset method, IWMDMEnumStorage.Reset, IWMDMEnumStorage::Reset, IWMDMEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Reset, wmdm.iwmdmenumstorage_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMEnumStorage.Reset
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMEnumStorage::Reset

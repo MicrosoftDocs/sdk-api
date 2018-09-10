@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::put_AntiAliased
 author: windows-sdk-content
 description: Gets or sets the value that indicates whether a stroke is antialiased.
 old-location: tablet\inkdrawingattributes_antialiased.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3536cd42-372d-4bd7-ac69-ef8d6c07f7fd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3536cd42-372d-4bd7-ac69-ef8d6c07f7fd, AntiAliased property [Tablet PC], AntiAliased property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],AntiAliased property, IInkDrawingAttributes.AntiAliased, IInkDrawingAttributes.put_AntiAliased, IInkDrawingAttributes::AntiAliased, IInkDrawingAttributes::get_AntiAliased, IInkDrawingAttributes::put_AntiAliased, InkDrawingAttributes.get_AntiAliased, InkDrawingAttributes.put_AntiAliased, get_AntiAliased, msinkaut/IInkDrawingAttributes::AntiAliased, msinkaut/IInkDrawingAttributes::get_AntiAliased, msinkaut/IInkDrawingAttributes::put_AntiAliased, put_AntiAliased, tablet.inkdrawingattributes_antialiased
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_AntiAliased
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::put_AntiAliased

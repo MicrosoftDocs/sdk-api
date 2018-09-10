@@ -4,7 +4,7 @@ title: "_SecPkgContext_LastClientTokenStatus"
 author: windows-sdk-content
 description: Specifies whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkgcontext_lastclienttokenstatus.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_LastClientTokenStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus
+req.redist: 
 ---
 
 # _SecPkgContext_LastClientTokenStatus structure

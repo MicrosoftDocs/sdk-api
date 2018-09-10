@@ -4,17 +4,16 @@ title: IMFTimedTextStyle::GetTextOutline
 author: windows-sdk-content
 description: Gets the text outline for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextoutline.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 44701080-7E70-4073-85E2-4AF86D4B4FDB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextStyle.GetTextOutline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextStyle::GetTextOutline
@@ -62,22 +60,22 @@ Gets the text outline for the timed-text style.
 
 ### -param color
 
-
+TBD
 
 
 ### -param thickness
 
-
+TBD
 
 
 ### -param blurRadius
 
-
+TBD
 
 
 ### -param unitType
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IShellItemArray::BindToHandler
 author: windows-sdk-content
 description: Binds to an object by means of the specified handler.
 old-location: shell\IShellItemArray_BindToHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7632d876-c00b-4dfc-862b-9a68f01bd8da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_SFUIObject, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],BindToHandler method, IShellItemArray.BindToHandler, IShellItemArray::BindToHandler, _shell_IShellItemArray_BindToHandler, shell.IShellItemArray_BindToHandler, shobjidl_core/IShellItemArray::BindToHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemArray.BindToHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemArray::BindToHandler
@@ -69,7 +67,7 @@ A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbf
 
 ### -param bhid
 
-
+TBD
 
 
 ### -param riid [in]

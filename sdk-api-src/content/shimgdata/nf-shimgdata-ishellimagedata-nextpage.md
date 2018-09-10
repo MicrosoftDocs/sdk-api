@@ -4,17 +4,16 @@ title: IShellImageData::NextPage
 author: windows-sdk-content
 description: Switches to the next page of a multipage image. Any associated animations are reset.
 old-location: shell\IShellImageData_NextPage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 19a2680a-f435-45c9-9573-e32f3cfdd090
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextPage method, IShellImageData.NextPage, IShellImageData::NextPage, NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.NextPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::NextPage

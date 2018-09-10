@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingMessageIterator.put_PrefetchSize
 title: IFaxIncomingMessageIterator::put_PrefetchSize
 author: windows-sdk-content
 description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.
-old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_64th.htm
+old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxIncomingMessageIterator object [Fax Service],PrefetchSize property, FaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator.put_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],FaxIncomingMessageIterator object, _mfax_faxincomingmessageiterator.prefetchsize, fax._mfax_faxincomingmessageiterator_prefetchsize, put_PrefetchSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.put_PrefetchSize, IFaxIncomingMessageIterator::PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, put_PrefetchSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,15 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingMessageIterator.PrefetchSize
+ - IFaxIncomingMessageIterator.PrefetchSize
  - IFaxIncomingMessageIterator.get_PrefetchSize
  - IFaxIncomingMessageIterator.put_PrefetchSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingMessageIterator::put_PrefetchSize
@@ -70,6 +68,8 @@ The prefetch buffer contains messages and makes the iteration process more effic
 
 Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a> is a local object.
 
+The value of the <i>lPrefetchSize</i> property determines how many fax messages the iterator object retrieves from the archive each time the object refreshes its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+
 To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
 
 
@@ -80,15 +80,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b9280dc-5895-4c11-9298-459b7792ad39">PrefetchSize</a>
-
-
-
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/0dc10f14-1ae3-47e5-aab2-53ddaa45b8a0">PrefetchSize</a>
  
 
  

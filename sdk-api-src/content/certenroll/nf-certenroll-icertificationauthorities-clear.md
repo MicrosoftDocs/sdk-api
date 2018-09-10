@@ -4,17 +4,16 @@ title: ICertificationAuthorities::Clear
 author: windows-sdk-content
 description: Removes all ICertificationAuthority objects from the collection.
 old-location: security\icertificationauthorities_clear.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificationAuthorities.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities::Clear

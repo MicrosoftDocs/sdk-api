@@ -4,7 +4,7 @@ title: "_WLAN_FILTER_LIST_TYPE"
 author: windows-sdk-content
 description: Indicates types of filter lists.
 old-location: nwifi\wlan_filter_list_type.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: b53b9a6c-6453-4828-9662-589a1b99614c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_FILTER_LIST_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
+req.redist: 
 ---
 
 # _WLAN_FILTER_LIST_TYPE enumeration

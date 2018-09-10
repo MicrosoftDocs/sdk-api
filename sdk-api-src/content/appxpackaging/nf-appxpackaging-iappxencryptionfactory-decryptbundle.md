@@ -4,17 +4,16 @@ title: IAppxEncryptionFactory::DecryptBundle
 author: windows-sdk-content
 description: Creates an unencrypted Windows app bundle from an encrypted one.
 old-location: appxpkg\iappxencryptionfactory_decryptbundle.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: ED10EBD7-F942-4F1D-B2DC-0895022771BE
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: DecryptBundle, DecryptBundle method [App packaging and management], DecryptBundle method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptBundle method, IAppxEncryptionFactory.DecryptBundle, IAppxEncryptionFactory::DecryptBundle, appxpackaging/IAppxEncryptionFactory::DecryptBundle, appxpkg.iappxencryptionfactory_decryptbundle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxEncryptionFactory.DecryptBundle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxEncryptionFactory::DecryptBundle

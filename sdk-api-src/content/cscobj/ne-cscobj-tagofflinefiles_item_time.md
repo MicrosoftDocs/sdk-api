@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_ITEM_TIME
 author: windows-sdk-content
 description: Specifies which time value associated with the cache item is to be used.
 old-location: of\offlinefiles_item_time.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 14fd41fe-c5d9-4381-8ced-7ebe183fb30c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_ITEM_TIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_ITEM_TIME
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_ITEM_TIME
+req.redist: 
 ---
 
 # tagOFFLINEFILES_ITEM_TIME enumeration

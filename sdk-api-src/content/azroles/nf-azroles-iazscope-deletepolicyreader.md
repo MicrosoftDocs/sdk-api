@@ -4,17 +4,16 @@ title: IAzScope::DeletePolicyReader
 author: windows-sdk-content
 description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.
 old-location: security\iazscope_deletepolicyreader.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c328a838-ae81-463d-8aa5-827071f58747
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzScope object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzScope object, DeletePolicyReader method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReader method, IAzScope.DeletePolicyReader, IAzScope::DeletePolicyReader, azroles/IAzScope::DeletePolicyReader, security.iazscope_deletepolicyreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzScope.DeletePolicyReader
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::DeletePolicyReader

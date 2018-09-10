@@ -4,17 +4,16 @@ title: IWbemContext::SetValue
 author: windows-sdk-content
 description: The IWbemContext::SetValue method creates or overwrites a named context value.
 old-location: wmi\iwbemcontext_setvalue.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 074d5ac7-aa86-44d8-99f9-959ef99a8004
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],SetValue method, IWbemContext.SetValue, IWbemContext::SetValue, SetValue, SetValue method [Windows Management Instrumentation], SetValue method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_setvalue, wbemcli/IWbemContext::SetValue, wmi.iwbemcontext_setvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - IWbemContext.SetValue
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemContext::SetValue
@@ -70,7 +68,7 @@ The
 
 ### -param wszName
 
-
+TBD
 
 
 ### -param lFlags [in]

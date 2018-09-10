@@ -4,17 +4,16 @@ title: CSecureChannelClient::EncryptParam
 author: windows-sdk-content
 description: The EncryptParam method encrypts data being sent out through a parameter. Data is encrypted in-place, in the submitted buffer.
 old-location: wmdm\csecurechannelclient_encryptparam.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7c71c2d4-b337-487f-a04a-87536f84f03e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],EncryptParam method, CSecureChannelClient.EncryptParam, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelClient.EncryptParam
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelClient::EncryptParam

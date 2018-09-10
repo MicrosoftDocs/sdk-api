@@ -4,17 +4,16 @@ title: ITTAPIObjectEvent::get_TAPIObject
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d0dcf3ca-e6b7-4eb4-b3f2-8ddeea16d746
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_TAPIObject method, ITTAPIObjectEvent.get_TAPIObject, ITTAPIObjectEvent::get_TAPIObject, _tapi3_ittapiobjectevent_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_tapiobject, tapi3if/ITTAPIObjectEvent::get_TAPIObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPIObjectEvent.get_TAPIObject
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPIObjectEvent::get_TAPIObject

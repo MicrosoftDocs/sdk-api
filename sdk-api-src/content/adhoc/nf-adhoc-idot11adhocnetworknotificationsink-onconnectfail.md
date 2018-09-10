@@ -4,17 +4,16 @@ title: IDot11AdHocNetworkNotificationSink::OnConnectFail
 author: windows-sdk-content
 description: Notifies the client that a connection attempt failed.
 old-location: nwifi\idot11adhocnetworknotificationsink_onconnectfail.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnectFail method, IDot11AdHocNetworkNotificationSink.OnConnectFail, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetworkNotificationSink.OnConnectFail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetworkNotificationSink::OnConnectFail

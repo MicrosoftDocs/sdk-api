@@ -4,17 +4,16 @@ title: IShellMenu::GetMenuInfo
 author: windows-sdk-content
 description: Gets information from the IShellMenu::Initialize method.
 old-location: shell\IShellMenu_GetMenuInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 979d43ce-d8e6-444f-8082-49b52c0ad2ef
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMenuInfo, GetMenuInfo method [Windows Shell], GetMenuInfo method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenuInfo method, IShellMenu.GetMenuInfo, IShellMenu::GetMenuInfo, _shell_IShellMenu_GetMenuInfo, shell.IShellMenu_GetMenuInfo, shobjidl_core/IShellMenu::GetMenuInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.GetMenuInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::GetMenuInfo

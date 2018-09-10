@@ -4,17 +4,16 @@ title: SHSetDefaultProperties function
 author: windows-sdk-content
 description: Applies the default set of properties on a Shell item.
 old-location: shell\SHSetDefaultProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHSetDefaultProperties
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHSetDefaultProperties function

@@ -4,17 +4,16 @@ title: IWICPixelFormatInfo::GetChannelMask
 author: windows-sdk-content
 description: Gets the pixel format's channel mask.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelmask.htm
-old-project: wic
+tech.root: wic
 ms.assetid: da812e26-b0cc-49eb-a273-73b9bb579ba3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetChannelMask, GetChannelMask method [Windows Imaging Component], GetChannelMask method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelMask method, IWICPixelFormatInfo.GetChannelMask, IWICPixelFormatInfo::GetChannelMask, _wic_codec_iwicpixelformatinfo_getchannelmask, wic._wic_codec_iwicpixelformatinfo_getchannelmask, wincodec/IWICPixelFormatInfo::GetChannelMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICPixelFormatInfo.GetChannelMask
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPixelFormatInfo::GetChannelMask

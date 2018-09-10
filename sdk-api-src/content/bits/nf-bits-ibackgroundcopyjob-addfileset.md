@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::AddFileSet
 author: windows-sdk-content
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm
-old-project: bits
+tech.root: bits
 ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.AddFileSet
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::AddFileSet
@@ -67,7 +66,7 @@ Number of elements in <i>paFileSet</i>.
 
 ### -param pFileSet
 
-
+TBD
 
 
 

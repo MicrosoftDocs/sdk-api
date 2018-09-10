@@ -2,19 +2,18 @@
 UID: NF:mergemod.IMsmError.get_Language
 title: IMsmError::get_Language
 author: windows-sdk-content
-description: The read-only Language property of the Error object returns the LANGID of the current error.
-old-location: setup\error_language.htm
-old-project: msi
-ms.assetid: f47cad5d-8e76-4210-b1ab-377d2d05379e
+description: The get_Language method retrieves the Language property of the Error object. This function returns the LANGID of the error.
+old-location: setup\imsmerror_get_language.htm
+tech.root: msi
+ms.assetid: c0d14c18-facc-441c-89c6-85abe6d19443
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: Error object,Language property, Error.Language, IMsmError.get_Language, IMsmError::get_Language, Language property, Language property,Error object, _msi_language_property_error_object_, get_Language, setup.error_language
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IMsmError interface,get_Language method, IMsmError.get_Language, IMsmError::get_Language, _msi_get_language_function_error_object_, get_Language, get_Language method, get_Language method,IMsmError interface, mergemod/IMsmError::get_Language, setup.imsmerror_get_language
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - Error.Language
  - IMsmError.get_Language
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmError::get_Language
@@ -53,28 +50,84 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The read-only 
-<b>Language</b> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object returns the <b>LANGID</b> of the current error.
-
-This property is read-only.
+The 
+<b>get_Language</b> method retrieves the 
+<a href="https://msdn.microsoft.com/9b0608d1-b6e8-4cf9-8119-3c2909156516">Language</a> property of the 
+<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. This function returns the <b>LANGID</b> of the error.
 
 
 ## -parameters
+
+
+
+
+### -param ErrorLanguage
+
+TBD
+
+
+
+
+#### - Language [out]
+
+A pointer to a location in memory that receives the language value causing this error.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Language is null.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
 
 
 ## -remarks
 
 
 
-The value of the 
-<b>Language</b> property is -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling the 
-<a href="https://msdn.microsoft.com/5567ba71-c815-4434-962c-aa46cd171712">Type</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
-
-<h3><a id="C__"></a><a id="c__"></a>C++</h3>
-See 
-<a href="https://msdn.microsoft.com/c0d14c18-facc-441c-89c6-85abe6d19443">get_Language Function (Error Object)</a>.
+The function returns -1 unless the error is of type msmErrorLanguageUnsupported or msmErrorLanguageFailed. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
 

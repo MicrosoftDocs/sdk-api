@@ -4,17 +4,16 @@ title: PurgeComm function
 author: windows-sdk-content
 description: Discards all characters from the output or input buffer of a specified communications resource. It can also terminate pending read or write operations on the resource.
 old-location: base\purgecomm.htm
-old-project: devio
+tech.root: devio
 ms.assetid: bfbd6530-447e-46e2-89e6-683b3c8c32ea
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PurgeComm
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PurgeComm function

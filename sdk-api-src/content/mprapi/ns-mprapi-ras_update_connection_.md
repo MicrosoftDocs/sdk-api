@@ -4,7 +4,7 @@ title: RAS_UPDATE_CONNECTION_
 author: windows-sdk-content
 description: Used to update an active RAS connection.
 old-location: rras\ras_update_connection.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_UPDATE_CONNECTION, *PRAS_UPDATE_CONNECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_UPDATE_CONNECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_UPDATE_CONNECTION, *PRAS_UPDATE_CONNECTION
+req.redist: 
 ---
 
 # RAS_UPDATE_CONNECTION_ structure

@@ -4,17 +4,16 @@ title: WbioQueryStorageInterface function
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.
 old-location: secbiomet\wbioquerystorageinterface.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: ff7297ee-8d0a-41f4-8abf-66ab5163dae7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WbioQueryStorageInterface, WbioQueryStorageInterface function [Windows Biometric Framework API], secbiomet.wbioquerystorageinterface, winbio_adapter/WbioQueryStorageInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbioQueryStorageInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WbioQueryStorageInterface function

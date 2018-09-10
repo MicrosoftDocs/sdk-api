@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::put_MixerBitmapPositionRect
 author: windows-sdk-content
 description: The put_MixerBitmapPositionRect method specifies the position of the static bitmap image, relative to the video window.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmappositionrect.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 05542d75-1723-4581-ac8b-6a577e0085cb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapPositionRect method, IMSVidVideoRenderer.put_MixerBitmapPositionRect, IMSVidVideoRenderer::put_MixerBitmapPositionRect, IMSVidVideoRendererput_MixerBitmapPositionRect, mstv.imsvidvideorenderer_put_mixerbitmappositionrect, put_MixerBitmapPositionRect, put_MixerBitmapPositionRect method [Microsoft TV Technologies], put_MixerBitmapPositionRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapPositionRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.put_MixerBitmapPositionRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapPositionRect
@@ -62,7 +60,7 @@ The <b>put_MixerBitmapPositionRect</b> method specifies the position of the stat
 
 ### -param rDest
 
-
+TBD
 
 
 

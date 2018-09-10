@@ -4,17 +4,16 @@ title: IDXGIDebug1::IsLeakTrackingEnabledForThread
 author: windows-sdk-content
 description: Gets a value indicating whether leak tracking is turned on for the current thread.
 old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method, IDXGIDebug1.IsLeakTrackingEnabledForThread, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI],IDXGIDebug1 interface, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIDebug1.IsLeakTrackingEnabledForThread
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDebug1::IsLeakTrackingEnabledForThread

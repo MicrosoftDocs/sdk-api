@@ -4,7 +4,7 @@ title: napi_provider_installation_blob_tag
 author: windows-sdk-content
 description: Contains the information required to install a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_provider_installation_blob.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nsemail.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NAPI_PROVIDER_INSTALLATION_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.redist: 
 ---
 
 # napi_provider_installation_blob_tag structure

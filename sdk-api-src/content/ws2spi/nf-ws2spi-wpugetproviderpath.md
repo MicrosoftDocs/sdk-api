@@ -4,17 +4,16 @@ title: WPUGetProviderPath function
 author: windows-sdk-content
 description: The WPUGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wpugetproviderpath_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WPUGetProviderPath, WPUGetProviderPath function [Winsock], _win32_wpugetproviderpath_2, winsock.wpugetproviderpath_2, ws2spi/WPUGetProviderPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPUGetProviderPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WPUGetProviderPath function

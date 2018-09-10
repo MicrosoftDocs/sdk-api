@@ -4,7 +4,7 @@ title: D2D1_POSTERIZE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Posterize effect.
 old-location: direct2d\d2d1_posterize_prop.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: F5A41C61-6AEB-47A6-813E-FF19994D013D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_POSTERIZE_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_POSTERIZE_PROP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_POSTERIZE_PROP
+req.redist: 
 ---
 
 # D2D1_POSTERIZE_PROP enumeration

@@ -4,17 +4,16 @@ title: IXpsPrintJob::Cancel
 author: windows-sdk-content
 description: Cancels the print job.
 old-location: gdi\ixpsprintjob_cancel.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f9fab578-95f0-498b-85ad-fd6ee2c72c63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Cancel, Cancel method [Windows GDI], Cancel method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],Cancel method, IXpsPrintJob.Cancel, IXpsPrintJob::Cancel, gdi.ixpsprintjob_cancel, xpsprint/IXpsPrintJob::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_COMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsPrintJob.Cancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsPrintJob::Cancel

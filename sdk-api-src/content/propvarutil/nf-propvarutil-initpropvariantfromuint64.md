@@ -4,17 +4,16 @@ title: InitPropVariantFromUInt64 function
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure with a 64-bit unsigned integer value.
 old-location: properties\InitPropVariantFromUInt64.htm
-old-project: properties
+tech.root: properties
 ms.assetid: c0dbc8d1-45ed-497b-a6ef-2beb4f031e4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitPropVariantFromUInt64, InitPropVariantFromUInt64 function [Windows Properties], properties.InitPropVariantFromUInt64, propvarutil/InitPropVariantFromUInt64, shell.InitPropVariantFromUInt64, shell_InitPropVariantFromUInt64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitPropVariantFromUInt64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # InitPropVariantFromUInt64 function

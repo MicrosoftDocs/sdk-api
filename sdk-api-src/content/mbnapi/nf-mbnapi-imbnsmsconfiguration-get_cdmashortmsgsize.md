@@ -4,17 +4,16 @@ title: IMbnSmsConfiguration::get_CdmaShortMsgSize
 author: windows-sdk-content
 description: Maximum CDMA short message character length.
 old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 2aac8cad-565e-45e4-a7a4-88ebfab420ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CdmaShortMsgSize property [Microsoft Broadband Networks], CdmaShortMsgSize property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, IMbnSmsConfiguration interface [Microsoft Broadband Networks],CdmaShortMsgSize property, IMbnSmsConfiguration.CdmaShortMsgSize, IMbnSmsConfiguration.get_CdmaShortMsgSize, IMbnSmsConfiguration::CdmaShortMsgSize, IMbnSmsConfiguration::get_CdmaShortMsgSize, get_CdmaShortMsgSize, mbn.imbnsmsconfiguration_cdmashortmsgsize, mbnapi/IMbnSmsConfiguration::CdmaShortMsgSize, mbnapi/IMbnSmsConfiguration::get_CdmaShortMsgSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsConfiguration.get_CdmaShortMsgSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsConfiguration::get_CdmaShortMsgSize

@@ -4,7 +4,7 @@ title: "_IMAGEHLP_SYMBOL_TYPE_INFO"
 author: windows-sdk-content
 description: Identifies the type of symbol information to be retrieved.
 old-location: base\imagehlp_symbol_type_info.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 1b21c8dc-240f-4202-bd61-8f9dae0d053a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGEHLP_SYMBOL_TYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_SYMBOL_TYPE_INFO enumeration

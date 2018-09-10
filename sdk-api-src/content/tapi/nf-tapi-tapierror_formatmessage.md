@@ -4,17 +4,16 @@ title: TAPIERROR_FORMATMESSAGE macro
 author: windows-sdk-content
 description: The TAPIERROR_FORMATMESSAGE macro generates an identifier for standard TAPI error codes that can be used in the FormatMessage function.
 old-location: tapi2\tapierror_formatmessage.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAPIERROR_FORMATMESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TAPIERROR_FORMATMESSAGE macro

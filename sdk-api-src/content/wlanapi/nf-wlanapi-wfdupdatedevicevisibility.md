@@ -4,17 +4,16 @@ title: WFDUpdateDeviceVisibility function
 author: windows-sdk-content
 description: Updates device visibility for the Wi-Fi Direct device address for a given installed Wi-Fi Direct device node.
 old-location: nwifi\wfdupdatedevicevisibility.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 696B7466-5ED0-4202-9AAF-CE2544C5A5B8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [NativeWIFI], nwifi.wfdupdatedevicevisibility, wlanapi/WFDUpdateDeviceVisibility
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WFDUpdateDeviceVisibility
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WFDUpdateDeviceVisibility function

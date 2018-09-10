@@ -4,17 +4,16 @@ title: IInkTransform::Shear
 author: windows-sdk-content
 description: Adjusts the shear of the InkTransform by the specified horizontal and vertical factors.
 old-location: tablet\inktransform_shear.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tablet PC],Shear method, IInkTransform.Shear, IInkTransform::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Shear, tablet.inktransform_shear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.Shear
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::Shear

@@ -4,7 +4,7 @@ title: tagHistogramDataHeader
 author: windows-sdk-content
 description: The HistogramDataHeader structure describes the blob format for the MF_CAPTURE_METADATA_HISTOGRAM attribute.
 old-location: stream\histogramdataheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 42DD34AB-570B-4F71-90BE-7E3AFDB66A84
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HistogramDataHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HistogramDataHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HistogramDataHeader
+req.redist: 
 ---
 
 # tagHistogramDataHeader structure

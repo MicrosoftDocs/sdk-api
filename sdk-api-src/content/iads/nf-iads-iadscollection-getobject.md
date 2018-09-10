@@ -4,17 +4,16 @@ title: IADsCollection::GetObject
 author: windows-sdk-content
 description: Retrieves an item of the collection.
 old-location: adsi\iadscollection_getobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsCollection.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsCollection::GetObject
@@ -67,7 +65,7 @@ The null-terminated Unicode string that specifies the name of the item. This is 
 
 ### -param pvItem
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMDSPStorage2::GetAttributes2
 author: windows-sdk-content
 description: The GetAttributes2 method gets attributes of files or storages.
 old-location: wmdm\imdspstorage2_getattributes2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 2db30715-cd49-4e55-b0d0-73ac531f8661
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],GetAttributes2 method, IMDSPStorage2.GetAttributes2, IMDSPStorage2::GetAttributes2, IMDSPStorage2GetAttributes2, mswmdm/IMDSPStorage2::GetAttributes2, wmdm.imdspstorage2_getattributes2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage2.GetAttributes2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage2::GetAttributes2

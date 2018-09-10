@@ -4,17 +4,16 @@ title: SHMessageBoxCheckW function
 author: windows-sdk-content
 description: SHMessageBoxCheck may be altered or unavailable.
 old-location: shell\SHMessageBoxCheck.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHMessageBoxCheckW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHMessageBoxCheckW function

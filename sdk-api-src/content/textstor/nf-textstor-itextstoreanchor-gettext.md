@@ -4,17 +4,16 @@ title: ITextStoreAnchor::GetText
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreanchor_gettext.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetText method, ITextStoreAnchor.GetText, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreAnchor.GetText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreAnchor::GetText

@@ -4,7 +4,7 @@ title: LPDDENUMMODESCALLBACK2
 author: windows-sdk-content
 description: The EnumModesCallback2 function is an application-defined callback function for the IDirectDraw7::EnumDisplayModes method.
 old-location: directdraw\enummodescallback2.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnumModesCallback2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDDENUMMODESCALLBACK2 callback function

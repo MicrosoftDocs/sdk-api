@@ -4,17 +4,16 @@ title: WinBioCaptureSampleWithCallback function
 author: windows-sdk-content
 description: Captures a biometric sample asynchronously and returns the raw or processed data in a biometric information record (BIR).
 old-location: secbiomet\winbiocapturesamplewithcallback.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: a99296c8-89da-4b2c-9a1b-fc10700ad48d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSampleWithCallback, WinBioCaptureSampleWithCallback function [Windows Biometric Framework API], secbiomet.winbiocapturesamplewithcallback, winbio/WinBioCaptureSampleWithCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WinBioCaptureSampleWithCallback
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioCaptureSampleWithCallback function

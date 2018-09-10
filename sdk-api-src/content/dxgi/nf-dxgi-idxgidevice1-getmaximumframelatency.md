@@ -4,17 +4,16 @@ title: IDXGIDevice1::GetMaximumFrameLatency
 author: windows-sdk-content
 description: Gets the number of frames that the system is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgidevice1_getmaximumframelatency.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 87b98c47-3556-4588-97b2-c935d7052286
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 65e01dd1-b488-81d7-8806-77a7e4bb8f02, GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, IDXGIDevice1 interface [DXGI],GetMaximumFrameLatency method, IDXGIDevice1.GetMaximumFrameLatency, IDXGIDevice1::GetMaximumFrameLatency, direct3ddxgi.idxgidevice1_getmaximumframelatency, dxgi/IDXGIDevice1::GetMaximumFrameLatency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice1.GetMaximumFrameLatency
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice1::GetMaximumFrameLatency

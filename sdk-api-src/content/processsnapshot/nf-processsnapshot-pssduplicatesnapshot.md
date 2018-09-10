@@ -4,17 +4,16 @@ title: PssDuplicateSnapshot function
 author: windows-sdk-content
 description: Duplicates a snapshot handle from one process to another.
 old-location: proc_snap\pssduplicatesnapshot.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 5D2751F3-E7E1-4917-8060-E2BC8A7A3DEA
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_WALK_INFORMATION_CLASS
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PssDuplicateSnapshot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PssDuplicateSnapshot function

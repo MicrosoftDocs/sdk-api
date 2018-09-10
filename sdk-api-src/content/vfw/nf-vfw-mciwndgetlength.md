@@ -4,17 +4,16 @@ title: MCIWndGetLength macro
 author: windows-sdk-content
 description: The MCIWndGetLength macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETLENGTH message.
 old-location: multimedia\mciwndgetlength.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndGetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndGetLength macro

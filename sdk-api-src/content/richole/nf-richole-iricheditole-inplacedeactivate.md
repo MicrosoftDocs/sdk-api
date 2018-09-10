@@ -4,17 +4,16 @@ title: IRichEditOle::InPlaceDeactivate
 author: windows-sdk-content
 description: Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
 old-location: controls\IRichEditOle_InPlaceDeactivate.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinplacedeactivate.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InPlaceDeactivate method, IRichEditOle.InPlaceDeactivate, IRichEditOle::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [Windows Controls], InPlaceDeactivate method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InPlaceDeactivate, _win32_IRichEditOle_InPlaceDeactivate_cpp, controls.IRichEditOle_InPlaceDeactivate, controls._win32_IRichEditOle_InPlaceDeactivate, richole/IRichEditOle::InPlaceDeactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.InPlaceDeactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::InPlaceDeactivate

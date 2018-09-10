@@ -4,7 +4,7 @@ title: DSPROPERTYPAGEINFO
 author: windows-sdk-content
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 old-location: ad\dspropertypageinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSPROPERTYPAGEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSPROPERTYPAGEINFO, *LPDSPROPERTYPAGEINFO
+req.redist: 
 ---
 
 # DSPROPERTYPAGEINFO structure

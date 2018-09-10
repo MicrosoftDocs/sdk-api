@@ -4,17 +4,16 @@ title: IRDPSRAPIWindow::get_Flags
 author: windows-sdk-content
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIWindow.Flags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIWindow::get_Flags

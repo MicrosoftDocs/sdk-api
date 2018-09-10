@@ -4,7 +4,7 @@ title: "_MODLOAD_DATA"
 author: windows-sdk-content
 description: Contains module data.
 old-location: base\modload_data_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODLOAD_DATA, *PMODLOAD_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MODLOAD_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MODLOAD_DATA, *PMODLOAD_DATA
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # _MODLOAD_DATA structure

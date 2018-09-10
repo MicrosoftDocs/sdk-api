@@ -4,17 +4,16 @@ title: ITextSelection::MoveUp
 author: windows-sdk-content
 description: Mimics the functionality of the Up Arrow and Page Up keys.
 old-location: controls\ITextSelection_MoveUp.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextSelection.MoveUp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextSelection::MoveUp

@@ -4,17 +4,16 @@ title: IMFASFMutualExclusion::SetType
 author: windows-sdk-content
 description: Sets the type of mutual exclusion that is represented by the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_settype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6, IMFASFMutualExclusion interface [Media Foundation],SetType method, IMFASFMutualExclusion.SetType, IMFASFMutualExclusion::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFASFMutualExclusion interface, mf.imfasfmutualexclusion_settype, wmcontainer/IMFASFMutualExclusion::SetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFMutualExclusion.SetType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFMutualExclusion::SetType

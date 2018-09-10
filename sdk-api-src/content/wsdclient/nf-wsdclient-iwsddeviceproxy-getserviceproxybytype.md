@@ -4,17 +4,16 @@ title: IWSDDeviceProxy::GetServiceProxyByType
 author: windows-sdk-content
 description: Retrieves a generic IWSDServiceProxy proxy for a service exposed by the device by port type name.
 old-location: ncd\iwsddeviceproxy_getserviceproxybytype_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 20df9a62-b983-40ed-a4bc-07131b80de6e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetServiceProxyByType, GetServiceProxyByType method, GetServiceProxyByType method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyByType method, IWSDDeviceProxy.GetServiceProxyByType, IWSDDeviceProxy::GetServiceProxyByType, ncd.iwsddeviceproxy_getserviceproxybytype_method, wsdclient/IWSDDeviceProxy::GetServiceProxyByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceProxy.GetServiceProxyByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceProxy::GetServiceProxyByType

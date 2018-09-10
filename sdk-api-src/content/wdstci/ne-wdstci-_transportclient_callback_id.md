@@ -4,7 +4,7 @@ title: "_TRANSPORTCLIENT_CALLBACK_ID"
 author: windows-sdk-content
 description: This enumeration is received by the WdsTransportClientRegisterCallback function.
 old-location: wds\transportclient_callback_id.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 6dd5e1ed-a9f8-4c6b-8bbb-8e3e6551d980
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wdstci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.redist: 
 ---
 
 # _TRANSPORTCLIENT_CALLBACK_ID enumeration

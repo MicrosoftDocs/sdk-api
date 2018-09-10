@@ -4,7 +4,7 @@ title: "_StrTableW"
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablew.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 60CE245D-1572-46FC-B3E3-7CE421599E0E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: advpub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Advpack.lib
-tech.root: 
-req.typenames: STRTABLEW, *LPSTRTABLEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - STRTABLEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: STRTABLEW, *LPSTRTABLEW
+req.redist: 
 ---
 
 # _StrTableW structure

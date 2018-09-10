@@ -4,17 +4,16 @@ title: ISCPSecureExchange::TransferComplete
 author: windows-sdk-content
 description: The TransferComplete method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.
 old-location: wmdm\iscpsecureexchange_transfercomplete.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 8a7a6de0-ab37-4764-8feb-82676e1e62ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferComplete method, ISCPSecureExchange.TransferComplete, ISCPSecureExchange::TransferComplete, ISCPSecureExchangeTransferComplete, TransferComplete, TransferComplete method [windows Media Device Manager], TransferComplete method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferComplete, wmdm.iscpsecureexchange_transfercomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureExchange.TransferComplete
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureExchange::TransferComplete

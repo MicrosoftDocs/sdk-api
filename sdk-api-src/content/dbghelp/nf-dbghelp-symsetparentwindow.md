@@ -4,17 +4,16 @@ title: SymSetParentWindow function
 author: windows-sdk-content
 description: Sets the window that the caller will use to display a user interface.
 old-location: base\symsetparentwindow.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 6c4532cd-695c-45a0-b8ea-3aed47308db1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymSetParentWindow, SymSetParentWindow function, _win32_symsetparentwindow, base.symsetparentwindow, dbghelp/SymSetParentWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymSetParentWindow
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # SymSetParentWindow function

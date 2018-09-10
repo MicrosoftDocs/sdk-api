@@ -4,17 +4,16 @@ title: ITDirectory::Connect
 author: windows-sdk-content
 description: The Connect method establishes a connection to the directory server.
 old-location: tapi3\itdirectory_connect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Connect method, ITDirectory.Connect, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::Connect

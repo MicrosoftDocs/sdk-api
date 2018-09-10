@@ -4,17 +4,16 @@ title: GetApplicationUserModelId function
 author: windows-sdk-content
 description: Gets the application user model ID for the specified process.
 old-location: appxpkg\getapplicationusermodelid.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App packaging and management], appmodel/GetApplicationUserModelId, appxpkg.getapplicationusermodelid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - GetApplicationUserModelId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetApplicationUserModelId function

@@ -4,17 +4,16 @@ title: ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter
 author: windows-sdk-content
 description: Get the number of messages that were allowed to pass through a storage filter.
 old-location: direct3d10\id3d10infoqueue_getnummessagesallowedbystoragefilter.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnummessagesallowedbystoragefilter.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 6838097c-89e3-6883-6083-5d0d9ada7647, GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [Direct3D 10], GetNumMessagesAllowedByStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesAllowedByStorageFilter method, ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d10.id3d10infoqueue_getnummessagesallowedbystoragefilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10InfoQueue.GetNumMessagesAllowedByStorageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10InfoQueue::GetNumMessagesAllowedByStorageFilter

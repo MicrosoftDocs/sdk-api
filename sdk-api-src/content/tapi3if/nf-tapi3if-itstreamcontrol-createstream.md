@@ -4,17 +4,16 @@ title: ITStreamControl::CreateStream
 author: windows-sdk-content
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateStream, CreateStream method [TAPI 2.2], CreateStream method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],CreateStream method, ITStreamControl.CreateStream, ITStreamControl::CreateStream, _tapi3_itstreamcontrol_createstream, tapi3.itstreamcontrol_createstream, tapi3if/ITStreamControl::CreateStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITStreamControl.CreateStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITStreamControl::CreateStream

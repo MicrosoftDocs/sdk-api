@@ -4,7 +4,7 @@ title: IContactManagerInterop
 author: windows-sdk-content
 description: Enables access to ContactManager methods in an app that manages multiple windows.
 old-location: shell\IContactManagerInterop.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactManagerInterop
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContactManagerInterop interface

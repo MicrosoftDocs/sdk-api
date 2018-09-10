@@ -4,17 +4,16 @@ title: IQueryParserManager::CreateLoadedParser
 author: windows-sdk-content
 description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryParserManager.CreateLoadedParser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IQueryParserManager::CreateLoadedParser

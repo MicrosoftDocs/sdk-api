@@ -4,7 +4,7 @@ title: IDXGIOutput6
 author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes methods to provide specific monitor capabilities.
 old-location: direct3ddxgi\idxgioutput6.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 2F04E7F1-8295-441B-9E86-65C3DE5DE75F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIOutput6
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput6 interface

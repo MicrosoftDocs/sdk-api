@@ -4,17 +4,16 @@ title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 author: windows-sdk-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseBasic for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusebasic.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: 4bfce6f5-9980-4158-be1d-0f3ec081a9b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseBasic method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic, IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic method [Windows Remote Management], ProxyAuthenticationUseBasic method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusebasic, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic

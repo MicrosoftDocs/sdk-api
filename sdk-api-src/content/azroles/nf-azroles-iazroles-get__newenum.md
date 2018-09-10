@@ -4,17 +4,16 @@ title: IAzRoles::get__NewEnum
 author: windows-sdk-content
 description: The _NewEnum property of IAzRoles retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazroles_newenum.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 46388cf1-6ad8-4320-a0cd-998216b0043c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzRoles object [Security],_NewEnum property, IAzRoles interface [Security],_NewEnum property, IAzRoles._NewEnum, IAzRoles.get__NewEnum, IAzRoles::_NewEnum, IAzRoles::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzRoles object, _NewEnum property [Security],IAzRoles interface, azroles/IAzRoles::_NewEnum, azroles/IAzRoles::get__NewEnum, get__NewEnum, security.iazroles_newenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzRoles._NewEnum
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRoles::get__NewEnum

@@ -4,17 +4,16 @@ title: IComResourceEvents::OnResourceCreate
 author: windows-sdk-content
 description: Generated when a new resource is created and allocated.
 old-location: cos\icomresourceevents_onresourcecreate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6c1cb030-c6c7-4f91-a1ea-eebbec41813b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceCreate method, IComResourceEvents.OnResourceCreate, IComResourceEvents::OnResourceCreate, OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComResourceEvents.OnResourceCreate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComResourceEvents::OnResourceCreate

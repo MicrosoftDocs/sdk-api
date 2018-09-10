@@ -4,17 +4,16 @@ title: IAppxManifestPackageId::GetPackageFullName
 author: windows-sdk-content
 description: Gets the package full name.
 old-location: appxpkg\iappxmanifestpackageid_getpackagefullname.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 514D2E04-5CA5-4F45-A6D8-96866588EECF
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetPackageFullName, GetPackageFullName method [App packaging and management], GetPackageFullName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFullName method, IAppxManifestPackageId.GetPackageFullName, IAppxManifestPackageId::GetPackageFullName, appxpackaging/IAppxManifestPackageId::GetPackageFullName, appxpkg.iappxmanifestpackageid_getpackagefullname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestPackageId.GetPackageFullName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestPackageId::GetPackageFullName

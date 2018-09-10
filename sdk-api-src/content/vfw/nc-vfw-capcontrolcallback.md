@@ -4,7 +4,7 @@ title: CAPCONTROLCALLBACK
 author: windows-sdk-content
 description: The capControlCallback function is the callback function used for precision control to begin and end streaming capture. The name capControlCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capcontrolcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 8e63be06-d311-4968-b436-262d9c3e9f10
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capControlCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CAPCONTROLCALLBACK callback function

@@ -4,17 +4,16 @@ title: IMFPluginControl::IsDisabled
 author: windows-sdk-content
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPluginControl.IsDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPluginControl::IsDisabled

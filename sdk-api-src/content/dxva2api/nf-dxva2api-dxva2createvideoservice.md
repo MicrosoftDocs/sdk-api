@@ -4,17 +4,16 @@ title: DXVA2CreateVideoService function
 author: windows-sdk-content
 description: Creates a DirectX Video Acceleration (DXVA) services object.
 old-location: mf\dxva2createvideoservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2CreateVideoService
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DXVA2CreateVideoService function

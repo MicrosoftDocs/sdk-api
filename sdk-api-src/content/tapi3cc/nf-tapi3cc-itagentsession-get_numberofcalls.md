@@ -4,17 +4,16 @@ title: ITAgentSession::get_NumberOfCalls
 author: windows-sdk-content
 description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
 old-location: tapi3\itagentsession_get_numberofcalls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_NumberOfCalls method, ITAgentSession.get_NumberOfCalls, ITAgentSession::get_NumberOfCalls, _tapi3_itagentsession_get_numberofcalls, get_NumberOfCalls, get_NumberOfCalls method [TAPI 2.2], get_NumberOfCalls method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_numberofcalls, tapi3cc/ITAgentSession::get_NumberOfCalls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_NumberOfCalls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_NumberOfCalls

@@ -4,17 +4,16 @@ title: IOleObject::IsUpToDate
 author: windows-sdk-content
 description: Checks whether an object is up to date.
 old-location: com\ioleobject_isuptodate.htm
-old-project: com
+tech.root: com
 ms.assetid: 74203a74-c5dd-4a98-9223-1dc54c9d4399
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],IsUpToDate method, IOleObject.IsUpToDate, IOleObject::IsUpToDate, IsUpToDate, IsUpToDate method [COM], IsUpToDate method [COM],IOleObject interface, _ole_ioleobject_isuptodate, com.ioleobject_isuptodate, oleidl/IOleObject::IsUpToDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.IsUpToDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::IsUpToDate

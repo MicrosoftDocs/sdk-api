@@ -4,17 +4,16 @@ title: IDirect3DResource9::FreePrivateData
 author: windows-sdk-content
 description: Frees the specified private data associated with this resource.
 old-location: direct3d9\idirect3dresource9__freeprivatedata.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__freeprivatedata.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FreePrivateData, FreePrivateData method [Direct3D 9], FreePrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],FreePrivateData method, IDirect3DResource9.FreePrivateData, IDirect3DResource9::FreePrivateData, d3d9helper/IDirect3DResource9::FreePrivateData, direct3d9.idirect3dresource9__freeprivatedata, e283eb7c-b7c9-110d-2b8b-1966dc1dc914
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DResource9.FreePrivateData
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DResource9::FreePrivateData

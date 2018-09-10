@@ -4,17 +4,16 @@ title: SetupUninstallNewlyCopiedInfs function
 author: windows-sdk-content
 description: The SetupUninstallNewlyCopiedInfs function uninstalls INF files (.inf), precompiled INF files (.pnf), and catalog files (.cat) that are previously installed during the committal of the specified file queue.
 old-location: setup\setupuninstallnewlycopiedinfs.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupUninstallNewlyCopiedInfs
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupUninstallNewlyCopiedInfs function

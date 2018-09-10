@@ -4,7 +4,7 @@ title: IDirectorySearch
 author: windows-sdk-content
 description: The IDirectorySearch interface is a pure COM interface that provides a low overhead method that non-Automation clients can use to perform queries in the underlying directory.
 old-location: adsi\idirectorysearch.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch interface

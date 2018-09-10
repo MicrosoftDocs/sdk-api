@@ -4,17 +4,16 @@ title: IVdsIscsiTarget::SetSharedSecret
 author: windows-sdk-content
 description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
 old-location: base\ivdsiscsitarget_setsharedsecret.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiTarget.SetSharedSecret
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiTarget::SetSharedSecret

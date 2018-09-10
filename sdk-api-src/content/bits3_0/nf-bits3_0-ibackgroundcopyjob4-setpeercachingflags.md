@@ -4,17 +4,16 @@ title: IBackgroundCopyJob4::SetPeerCachingFlags
 author: windows-sdk-content
 description: Sets flags that determine if the files of the job can be cached and served to peers and if the job can download content from peers.
 old-location: bits\ibackgroundcopyjob4_setpeercachingflags.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BG_JOB_DISABLE_BRANCH_CACHE, BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, IBackgroundCopyJob4 interface [BITS],SetPeerCachingFlags method, IBackgroundCopyJob4.SetPeerCachingFlags, IBackgroundCopyJob4::SetPeerCachingFlags, SetPeerCachingFlags, SetPeerCachingFlags method [BITS], SetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setpeercachingflags, bits3_0/IBackgroundCopyJob4::SetPeerCachingFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJob4.SetPeerCachingFlags
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob4::SetPeerCachingFlags

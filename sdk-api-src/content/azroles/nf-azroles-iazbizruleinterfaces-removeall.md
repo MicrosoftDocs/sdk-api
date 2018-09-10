@@ -4,17 +4,16 @@ title: IAzBizRuleInterfaces::RemoveAll
 author: windows-sdk-content
 description: Removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_removeall_method.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleInterfaces.RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleInterfaces::RemoveAll

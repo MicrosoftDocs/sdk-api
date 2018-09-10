@@ -4,17 +4,16 @@ title: IWMDMDevice2::GetFormatSupport2
 author: windows-sdk-content
 description: The GetFormatSupport2 method retrieves the formats supported by the device, including audio and video codecs, and MIME file formats.
 old-location: wmdm\iwmdmdevice2_getformatsupport2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 9ace6192-5b50-40f0-98b4-5cab26a48798
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device Manager], GetFormatSupport2 method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetFormatSupport2 method, IWMDMDevice2.GetFormatSupport2, IWMDMDevice2::GetFormatSupport2, IWMDMDevice2GetFormatSupport2, mswmdm/IWMDMDevice2::GetFormatSupport2, wmdm.iwmdmdevice2_getformatsupport2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice2.GetFormatSupport2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice2::GetFormatSupport2

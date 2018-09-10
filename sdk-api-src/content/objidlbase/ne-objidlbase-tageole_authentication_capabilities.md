@@ -4,7 +4,7 @@ title: tagEOLE_AUTHENTICATION_CAPABILITIES
 author: windows-sdk-content
 description: Specifies various capabilities in CoInitializeSecurity and IClientSecurity::SetBlanket (or its helper function CoSetProxyBlanket).
 old-location: com\eole_authentication_capabilities.htm
-old-project: com
+tech.root: com
 ms.assetid: cf3396d0-6674-4f12-bd4a-227a8d32bc92
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidlbase.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOLE_AUTHENTICATION_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EOLE_AUTHENTICATION_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: EOLE_AUTHENTICATION_CAPABILITIES
+req.redist: 
 ---
 
 # tagEOLE_AUTHENTICATION_CAPABILITIES enumeration

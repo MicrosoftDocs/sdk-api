@@ -4,17 +4,16 @@ title: TraceLoggingWriteStop macro
 author: windows-sdk-content
 description: Stops an activity and logs the stop event.
 old-location: tracelogging\traceloggingwritestop.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingWriteStop, TraceLoggingWriteStop macro, tracelogging.traceloggingwritestop, traceloggingactivity/TraceLoggingWriteStop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingWriteStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingWriteStop macro

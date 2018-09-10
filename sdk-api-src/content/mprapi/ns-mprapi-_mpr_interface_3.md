@@ -4,7 +4,7 @@ title: "_MPR_INTERFACE_3"
 author: windows-sdk-content
 description: Contains data for a router demand-dial interface.
 old-location: rras\mpr_interface_3.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: d761a9cf-7b56-48ad-b98b-60fc99d0d8ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_INTERFACE_3, *PMPR_INTERFACE_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_INTERFACE_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_INTERFACE_3, *PMPR_INTERFACE_3
+req.redist: 
 ---
 
 # _MPR_INTERFACE_3 structure

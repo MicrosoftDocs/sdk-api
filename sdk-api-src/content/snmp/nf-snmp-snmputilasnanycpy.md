@@ -4,17 +4,16 @@ title: SnmpUtilAsnAnyCpy function
 author: windows-sdk-content
 description: The SnmpUtilAsnAnyCpy function copies the variable pointed to by the pAnySrc parameter to the pAnyDst parameter. The function allocates any necessary memory for the destination's copy. The SnmpUtilAsnAnyCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanycpy.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 0a8743da-ef4a-4b00-b9be-5550896d147a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: Snmpapi.lib
+req.dll: Snmpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpUtilAsnAnyCpy
 product: Windows
 targetos: Windows
-req.lib: Snmpapi.lib
-req.dll: Snmpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpUtilAsnAnyCpy function

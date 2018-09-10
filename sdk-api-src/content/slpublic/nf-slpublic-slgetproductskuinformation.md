@@ -4,17 +4,16 @@ title: SLGetProductSkuInformation function
 author: windows-sdk-content
 description: Gets information about the specified product SKU.
 old-location: security\slgetproductskuinformation.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 38da608d-88c9-4e3a-84a6-5b305560191f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_AUTHOR, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_NAME, security.slgetproductskuinformation, slpublic/SLGetProductSkuInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLGetProductSkuInformation
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLGetProductSkuInformation function

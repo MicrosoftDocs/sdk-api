@@ -4,7 +4,7 @@ title: URL_SCHEME
 author: windows-sdk-content
 description: Used to specify URL schemes.
 old-location: shell\URL_SCHEME.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 45686920-356d-4dd7-8482-2427854a92ed
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_SCHEME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - URL_SCHEME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: URL_SCHEME
+req.redist: 
 ---
 
 # URL_SCHEME enumeration

@@ -4,7 +4,7 @@ title: "_KERB_CERTIFICATE_HASHINFO"
 author: windows-sdk-content
 description: Provides the payload information of the certificate hash.
 old-location: security\kerb_certificate_hashinfo.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_CERTIFICATE_HASHINFO, *PKERB_CERTIFICATE_HASHINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_CERTIFICATE_HASHINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_CERTIFICATE_HASHINFO, *PKERB_CERTIFICATE_HASHINFO
+req.redist: 
 ---
 
 # _KERB_CERTIFICATE_HASHINFO structure

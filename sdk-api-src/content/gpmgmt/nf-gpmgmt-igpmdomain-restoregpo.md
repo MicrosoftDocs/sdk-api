@@ -4,17 +4,16 @@ title: IGPMDomain::RestoreGPO
 author: windows-sdk-content
 description: Restores a Group Policy object (GPO) from a GPMBackup object.
 old-location: gpmc\igpmdomain_restoregpo.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 8e202ea1-ca5c-4757-950b-ea1802699b68
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMDomain object [GPMC],RestoreGPO method, IGPMDomain interface [GPMC],RestoreGPO method, IGPMDomain.RestoreGPO, IGPMDomain::RestoreGPO, RestoreGPO, RestoreGPO method [GPMC], RestoreGPO method [GPMC],GPMDomain object, RestoreGPO method [GPMC],IGPMDomain interface, _win32_igpmdomain_restoregpo, gpmc.igpmdomain_restoregpo, gpmgmt/IGPMDomain::RestoreGPO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMDomain.RestoreGPO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain::RestoreGPO

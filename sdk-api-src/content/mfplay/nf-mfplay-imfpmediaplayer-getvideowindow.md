@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::GetVideoWindow
 author: windows-sdk-content
 description: Gets the window where the video is displayed.
 old-location: mf\imfpmediaplayer_getvideowindow.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoWindow method, IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.GetVideoWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::GetVideoWindow

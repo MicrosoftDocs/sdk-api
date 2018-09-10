@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::FrameStep
 author: windows-sdk-content
 description: Steps forward one video frame.
 old-location: mf\imfpmediaplayer_framestep.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b7965965-2fbc-4494-9368-7d9699e4092a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FrameStep, FrameStep method [Media Foundation], FrameStep method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],FrameStep method, IMFPMediaPlayer.FrameStep, IMFPMediaPlayer::FrameStep, mf.imfpmediaplayer_framestep, mfplay/IMFPMediaPlayer::FrameStep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.FrameStep
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::FrameStep

@@ -4,17 +4,16 @@ title: SHDestroyPropSheetExtArray function
 author: windows-sdk-content
 description: Frees property sheet handlers that are pointed to an array created by SHCreatePropSheetExtArray.
 old-location: shell\SHDestroyPropSheetExtArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: beb3c1b1-deef-440d-8cf7-f76b3f396efa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHDestroyPropSheetExtArray, SHDestroyPropSheetExtArray function [Windows Shell], _win32_SHDestroyPropSheetExtArray, shell.SHDestroyPropSheetExtArray, shlobj_core/SHDestroyPropSheetExtArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHDestroyPropSheetExtArray
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHDestroyPropSheetExtArray function

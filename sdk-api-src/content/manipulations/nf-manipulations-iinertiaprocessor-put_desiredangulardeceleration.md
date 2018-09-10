@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_DesiredAngularDeceleration
 author: windows-sdk-content
 description: The DesiredAngularDeceleration property specifies the desired rate that the target object will stop spinning in radians per msec squared.
 old-location: wintouch\iinertiaprocessor_desiredangulardeceleration.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: ee3bb3c8-4d7d-424b-abc9-db7307793794
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DesiredAngularDeceleration property [Windows Touch], DesiredAngularDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredAngularDeceleration property, IInertiaProcessor.DesiredAngularDeceleration, IInertiaProcessor.put_DesiredAngularDeceleration, IInertiaProcessor::DesiredAngularDeceleration, IInertiaProcessor::get_DesiredAngularDeceleration, IInertiaProcessor::put_DesiredAngularDeceleration, manipulations/IInertiaProcessor::DesiredAngularDeceleration, manipulations/IInertiaProcessor::get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::put_DesiredAngularDeceleration, put_DesiredAngularDeceleration, wintouch.iinertiaprocessor_desiredangulardeceleration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_DesiredAngularDeceleration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_DesiredAngularDeceleration

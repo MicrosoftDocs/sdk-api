@@ -4,17 +4,16 @@ title: ITLegacyCallMediaControl::GetID
 author: windows-sdk-content
 description: The GetID method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol_getid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyCallMediaControl.GetID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyCallMediaControl::GetID

@@ -4,17 +4,16 @@ title: GetMetaFileBitsEx function
 author: windows-sdk-content
 description: The GetMetaFileBitsEx function retrieves the contents of a Windows-format metafile and copies them into the specified buffer.
 old-location: gdi\getmetafilebitsex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMetaFileBitsEx, GetMetaFileBitsEx function [Windows GDI], _win32_GetMetaFileBitsEx, gdi.getmetafilebitsex, wingdi/GetMetaFileBitsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetMetaFileBitsEx
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetMetaFileBitsEx function

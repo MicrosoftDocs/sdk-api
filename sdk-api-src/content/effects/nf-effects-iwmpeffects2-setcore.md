@@ -4,17 +4,16 @@ title: IWMPEffects2::SetCore
 author: windows-sdk-content
 description: The SetCore method is called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
 old-location: wmp\iwmpeffects2_setcore.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d5afbf1d-ecb9-43d4-8396-db7c54720731
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],SetCore method, IWMPEffects2.SetCore, IWMPEffects2::SetCore, IWMPEffectsSetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::SetCore, wmp.iwmpeffects2_setcore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects2.SetCore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects2::SetCore

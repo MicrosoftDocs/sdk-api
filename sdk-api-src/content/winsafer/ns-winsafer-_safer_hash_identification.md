@@ -4,7 +4,7 @@ title: "_SAFER_HASH_IDENTIFICATION"
 author: windows-sdk-content
 description: Represents a hash identification rule.
 old-location: security\safer_hash_identification.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_HASH_IDENTIFICATION, *PSAFER_HASH_IDENTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAFER_HASH_IDENTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SAFER_HASH_IDENTIFICATION, *PSAFER_HASH_IDENTIFICATION
+req.redist: 
 ---
 
 # _SAFER_HASH_IDENTIFICATION structure

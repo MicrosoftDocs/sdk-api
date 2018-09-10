@@ -4,17 +4,16 @@ title: IOleInPlaceSite::Scroll
 author: windows-sdk-content
 description: Instructs the container to scroll the view of the object by the specified number of pixels.
 old-location: com\ioleinplacesite_scroll.htm
-old-project: com
+tech.root: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],Scroll method, IOleInPlaceSite.Scroll, IOleInPlaceSite::Scroll, IOleInPlaceSiteWindowless.Scroll, Scroll, Scroll method [COM], Scroll method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_scroll, com.ioleinplacesite_scroll, oleidl/IOleInPlaceSite::Scroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleInPlaceSiteWindowless.Scroll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::Scroll

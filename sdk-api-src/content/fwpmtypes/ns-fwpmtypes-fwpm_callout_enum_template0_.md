@@ -4,7 +4,7 @@ title: FWPM_CALLOUT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for limiting callout enumerations.
 old-location: fwp\fwpm_callout_enum_template0_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 10997be6-069d-4d1a-a6b1-1a1e0a5359c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Fwpmtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_CALLOUT_ENUM_TEMPLATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_CALLOUT_ENUM_TEMPLATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_CALLOUT_ENUM_TEMPLATE0
+req.redist: 
 ---
 
 # FWPM_CALLOUT_ENUM_TEMPLATE0_ structure

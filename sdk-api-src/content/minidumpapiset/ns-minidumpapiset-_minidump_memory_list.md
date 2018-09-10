@@ -4,7 +4,7 @@ title: "_MINIDUMP_MEMORY_LIST"
 author: windows-sdk-content
 description: Contains a list of memory ranges.
 old-location: base\minidump_memory_list_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MEMORY_LIST, *PMINIDUMP_MEMORY_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MEMORY_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MEMORY_LIST, *PMINIDUMP_MEMORY_LIST
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_MEMORY_LIST structure

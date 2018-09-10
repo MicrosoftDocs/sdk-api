@@ -4,17 +4,16 @@ title: IPicture::set_hPal
 author: windows-sdk-content
 description: Assigns a GDI palette to the picture contained in the picture object.
 old-location: com\ipicture_set_hpal.htm
-old-project: com
+tech.root: com
 ms.assetid: c20b9efd-cf85-4ee1-890b-35fde0226982
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],set_hPal method, IPicture.set_hPal, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal, set_hPal method [COM], set_hPal method [COM],IPicture interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.set_hPal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::set_hPal

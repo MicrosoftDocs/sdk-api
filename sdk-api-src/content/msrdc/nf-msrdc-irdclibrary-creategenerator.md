@@ -4,17 +4,16 @@ title: IRdcLibrary::CreateGenerator
 author: windows-sdk-content
 description: Creates a signature generator that will generate the specified levels of signatures.
 old-location: rdc\irdclibrary_creategenerator.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 9cd64c3f-acd7-4e59-916f-90e90f452e12
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateGenerator, CreateGenerator method [Remote Differential Compression], CreateGenerator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateGenerator method, IRdcLibrary.CreateGenerator, IRdcLibrary::CreateGenerator, fs.irdclibrary_creategenerator, msrdc/IRdcLibrary::CreateGenerator, rdc.irdclibrary_creategenerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcLibrary.CreateGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcLibrary::CreateGenerator

@@ -4,7 +4,7 @@ title: HrtfPosition
 author: windows-sdk-content
 description: Represents a position in 3D space, using a right-handed coordinate system.
 old-location: xaudio2\hrtfposition.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: E6D84823-A7FA-4EB5-82E2-4F3D7B6C6174
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfPosition
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HrtfPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HrtfPosition
+req.redist: 
 ---
 
 # HrtfPosition structure

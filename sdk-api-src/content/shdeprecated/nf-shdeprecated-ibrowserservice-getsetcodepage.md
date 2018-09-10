@@ -4,17 +4,16 @@ title: IBrowserService::GetSetCodePage
 author: windows-sdk-content
 description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
 old-location: shell\IBrowserService_GetSetCodePage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSetCodePage, GetSetCodePage method [Windows Shell], GetSetCodePage method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetSetCodePage method, IBrowserService.GetSetCodePage, IBrowserService::GetSetCodePage, shdeprecated/IBrowserService::GetSetCodePage, shell.IBrowserService_GetSetCodePage, zone_IBrowserService_GetSetCodePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.GetSetCodePage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

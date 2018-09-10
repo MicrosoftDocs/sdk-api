@@ -4,7 +4,7 @@ title: ENCLAVE_SEALING_IDENTITY_POLICY
 author: windows-sdk-content
 description: Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.
 old-location: base\enclave_sealing_identity_policy.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 986C122D-4CC9-487F-8B9F-6B3F9B727E4A
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntenclv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCLAVE_SEALING_IDENTITY_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ENCLAVE_SEALING_IDENTITY_POLICY
+req.redist: 
 ---
 
 # ENCLAVE_SEALING_IDENTITY_POLICY enumeration

@@ -4,7 +4,7 @@ title: "_NET_IF_OPER_STATUS"
 author: windows-sdk-content
 description: The NET_IF_OPER_STATUS enumeration type defines the current NDIS network interface operational status.
 old-location: netvista\net_if_oper_status.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 19bd5b9b-94db-430e-b264-1744dfe83d54
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_IF_OPER_STATUS, *PNET_IF_OPER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_IF_OPER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_IF_OPER_STATUS, *PNET_IF_OPER_STATUS
+req.redist: 
 ---
 
 # _NET_IF_OPER_STATUS enumeration

@@ -4,7 +4,7 @@ title: ISimpleAudioVolume
 author: windows-sdk-content
 description: The ISimpleAudioVolume interface enables a client to control the master volume level of an audio session.
 old-location: coreaudio\isimpleaudiovolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 360211f2-de82-4ff5-896c-dee1d60cb7b7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISimpleAudioVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleAudioVolume interface

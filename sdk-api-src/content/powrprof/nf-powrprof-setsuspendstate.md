@@ -4,17 +4,16 @@ title: SetSuspendState function
 author: windows-sdk-content
 description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
 old-location: base\setsuspendstate.htm
-old-project: power
+tech.root: power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetSuspendState
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetSuspendState function

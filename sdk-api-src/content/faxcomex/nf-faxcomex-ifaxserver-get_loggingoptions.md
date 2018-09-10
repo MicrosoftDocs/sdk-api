@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxServer.get_LoggingOptions
 title: IFaxServer::get_LoggingOptions
 author: windows-sdk-content
-description: The LoggingOptions property creates a FaxLoggingOptions configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.
-old-location: fax\_mfax_faxserver_loggingoptions.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_7x4j.htm
+description: The IFaxServer::get_LoggingOptions property creates a IFaxLoggingOptions configuration interface. The interface permits configuration of both the activity logging options and the event logging categories that the fax service uses.
+old-location: fax\_mfax_faxserver_loggingoptions_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_7x4j_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxServer object [Fax Service],LoggingOptions property, FaxServer.LoggingOptions, IFaxServer.get_LoggingOptions, IFaxServer::get_LoggingOptions, LoggingOptions property [Fax Service], LoggingOptions property [Fax Service],FaxServer object, _mfax_faxserver.loggingoptions, fax._mfax_faxserver_loggingoptions, get_LoggingOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxServer interface [Fax Service],LoggingOptions property, IFaxServer.LoggingOptions, IFaxServer.get_LoggingOptions, IFaxServer::LoggingOptions, IFaxServer::get_LoggingOptions, LoggingOptions property [Fax Service], LoggingOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.loggingoptions_cpp, fax._mfax_faxserver_loggingoptions_cpp, faxcomex/IFaxServer::LoggingOptions, faxcomex/IFaxServer::get_LoggingOptions, get_LoggingOptions
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxServer.LoggingOptions
+ - IFaxServer.LoggingOptions
  - IFaxServer.get_LoggingOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxServer::get_LoggingOptions
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>LoggingOptions</b> property creates a <a href="https://msdn.microsoft.com/438e4e89-88c9-431d-b774-98e65cf57064">FaxLoggingOptions</a> configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.
+The <b>IFaxServer::get_LoggingOptions</b> property creates a <a href="https://msdn.microsoft.com/c6cbb0e8-fc98-431c-add6-6a6538051db7">IFaxLoggingOptions</a> configuration interface. The interface permits configuration of both the activity logging options and the event logging categories that the fax service uses.
 
 This property is read-only.
 

@@ -4,17 +4,16 @@ title: PathGetArgsA function
 author: windows-sdk-content
 description: Finds the command line arguments within a given path.
 old-location: shell\PathGetArgs.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathGetArgsW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathGetArgsA function

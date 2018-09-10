@@ -4,17 +4,16 @@ title: IAMExtendedSeeking::GetMarkerTime
 author: windows-sdk-content
 description: The GetMarkerTime method retrieves the presentation time associated with the specified marker.
 old-location: dshow\iamextendedseeking_getmarkertime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 719e87c5-7d38-4b02-8342-055e42405511
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerTime method, IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedSeeking.GetMarkerTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedSeeking::GetMarkerTime

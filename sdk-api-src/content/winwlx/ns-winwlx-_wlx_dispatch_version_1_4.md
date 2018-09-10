@@ -4,7 +4,7 @@ title: "_WLX_DISPATCH_VERSION_1_4"
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.4 function dispatch table passed to the GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_4.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b2d0c936-5430-48ed-b808-92209b909406
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_DISPATCH_VERSION_1_4, *PWLX_DISPATCH_VERSION_1_4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_DISPATCH_VERSION_1_4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_DISPATCH_VERSION_1_4, *PWLX_DISPATCH_VERSION_1_4
+req.redist: 
 ---
 
 # _WLX_DISPATCH_VERSION_1_4 structure

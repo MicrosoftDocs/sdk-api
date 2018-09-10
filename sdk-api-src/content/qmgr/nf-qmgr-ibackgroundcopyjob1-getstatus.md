@@ -4,17 +4,16 @@ title: IBackgroundCopyJob1::GetStatus
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the job.
 old-location: bits\ibackgroundcopyjob1_getstatus.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 6a4530fd-6b8e-4f31-a16e-5ed40adb4957
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetStatus method, IBackgroundCopyJob1.GetStatus, IBackgroundCopyJob1::GetStatus, QM_STATUS_JOB_COMPLETE, QM_STATUS_JOB_ERROR, QM_STATUS_JOB_FOREGROUND, QM_STATUS_JOB_INCOMPLETE, bits.ibackgroundcopyjob1_getstatus, qmgr/IBackgroundCopyJob1::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyJob1.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1::GetStatus
@@ -127,7 +125,7 @@ HTTP error code. Valid only if the QM_STATUS_JOB_ERROR <i>dwStatus</i> flag is s
 
 ### -param pdwNumOfRetries
 
-
+TBD
 
 
 

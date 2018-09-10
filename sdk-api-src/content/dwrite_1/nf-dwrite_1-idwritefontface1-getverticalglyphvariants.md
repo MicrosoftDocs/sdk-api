@@ -4,17 +4,16 @@ title: IDWriteFontFace1::GetVerticalGlyphVariants
 author: windows-sdk-content
 description: Retrieves the vertical forms of the nominal glyphs retrieved from GetGlyphIndices.
 old-location: directwrite\idwritefontface1_getverticalglyphvariants.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 91CD924E-A664-45C6-B787-61129C31501B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetVerticalGlyphVariants, GetVerticalGlyphVariants method [Direct Write], GetVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetVerticalGlyphVariants method, IDWriteFontFace1.GetVerticalGlyphVariants, IDWriteFontFace1::GetVerticalGlyphVariants, directwrite.idwritefontface1_getverticalglyphvariants, dwrite_1/IDWriteFontFace1::GetVerticalGlyphVariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1.GetVerticalGlyphVariants
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace1::GetVerticalGlyphVariants

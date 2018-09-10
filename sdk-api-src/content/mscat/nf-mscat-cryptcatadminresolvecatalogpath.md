@@ -4,17 +4,16 @@ title: CryptCATAdminResolveCatalogPath function
 author: windows-sdk-content
 description: Retrieves the fully qualified path of the specified catalog.
 old-location: security\cryptcatadminresolvecatalogpath.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: 
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATAdminResolveCatalogPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATAdminResolveCatalogPath function

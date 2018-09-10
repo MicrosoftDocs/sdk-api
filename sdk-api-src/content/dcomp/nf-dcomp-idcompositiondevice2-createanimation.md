@@ -4,17 +4,16 @@ title: IDCompositionDevice2::CreateAnimation
 author: windows-sdk-content
 description: Creates an animation object that is used to animate one or more scalar properties of one or more Microsoft DirectComposition objects.
 old-location: directcomp\idcompositiondevice2_createanimation.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 6F15F6CD-E2EE-42E5-AF46-01A9A28F4896
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], CreateAnimation method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateAnimation method, IDCompositionDevice2.CreateAnimation, IDCompositionDevice2::CreateAnimation, dcomp/IDCompositionDevice2::CreateAnimation, directcomp.idcompositiondevice2_createanimation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice2.CreateAnimation
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice2::CreateAnimation

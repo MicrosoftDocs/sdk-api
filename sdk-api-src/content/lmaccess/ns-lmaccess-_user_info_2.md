@@ -4,7 +4,7 @@ title: "_USER_INFO_2"
 author: windows-sdk-content
 description: The USER_INFO_2 structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, and other user-related network statistics.
 old-location: netmgmt\user_info_2_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 50c78c6a-a08f-473b-929a-9528e618165f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_2, *PUSER_INFO_2, *LPUSER_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_2, *PUSER_INFO_2, *LPUSER_INFO_2
+req.redist: 
 ---
 
 # _USER_INFO_2 structure

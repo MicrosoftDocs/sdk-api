@@ -4,7 +4,7 @@ title: MAPILOGON
 author: windows-sdk-content
 description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
 old-location: mapi\mapilogon.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPILogon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPILOGON callback function

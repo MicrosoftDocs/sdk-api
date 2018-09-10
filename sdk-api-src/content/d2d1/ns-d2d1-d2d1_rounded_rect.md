@@ -4,7 +4,7 @@ title: D2D1_ROUNDED_RECT
 author: windows-sdk-content
 description: Contains the dimensions and corner radii of a rounded rectangle.
 old-location: direct2d\D2D1_ROUNDED_RECT.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_ROUNDED_RECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_ROUNDED_RECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_ROUNDED_RECT
+req.redist: 
 ---
 
 # D2D1_ROUNDED_RECT structure

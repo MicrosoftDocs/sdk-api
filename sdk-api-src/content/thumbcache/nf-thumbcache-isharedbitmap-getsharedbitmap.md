@@ -4,17 +4,16 @@ title: ISharedBitmap::GetSharedBitmap
 author: windows-sdk-content
 description: Retrieves the bitmap contained in an ISharedBitmap object.
 old-location: shell\ISharedBitmap_GetSharedBitmap.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0d2cfdba-b51f-4035-b0b2-e48933505c73
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSharedBitmap, GetSharedBitmap method [Windows Shell], GetSharedBitmap method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetSharedBitmap method, ISharedBitmap.GetSharedBitmap, ISharedBitmap::GetSharedBitmap, _shell__GetSharedBitmap, shell.ISharedBitmap_GetSharedBitmap, thumbcache/ISharedBitmap::GetSharedBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISharedBitmap.GetSharedBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISharedBitmap::GetSharedBitmap

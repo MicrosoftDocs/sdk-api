@@ -4,17 +4,16 @@ title: IWMDMProgress::Progress
 author: windows-sdk-content
 description: The Progress method indicates that an operation is still in progress.
 old-location: wmdm\iwmdmprogress_progress.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress method, IWMDMProgress.Progress, IWMDMProgress::Progress, IWMDMProgressProgress, Progress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager],IWMDMProgress interface, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMProgress.Progress
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMProgress::Progress

@@ -4,17 +4,16 @@ title: FormatApplicationUserModelId function
 author: windows-sdk-content
 description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
 old-location: appxpkg\formatapplicationusermodelid.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - FormatApplicationUserModelId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FormatApplicationUserModelId function

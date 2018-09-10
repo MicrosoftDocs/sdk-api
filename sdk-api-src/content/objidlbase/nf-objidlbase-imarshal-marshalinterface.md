@@ -4,17 +4,16 @@ title: IMarshal::MarshalInterface
 author: windows-sdk-content
 description: Marshals an interface pointer.
 old-location: com\imarshal_marshalinterface.htm
-old-project: com
+tech.root: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMarshal.MarshalInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMarshal::MarshalInterface

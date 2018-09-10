@@ -4,7 +4,7 @@ title: "_EVENT_INSTANCE_HEADER"
 author: windows-sdk-content
 description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_instance_header.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INSTANCE_HEADER, *PEVENT_INSTANCE_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_INSTANCE_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_INSTANCE_HEADER, *PEVENT_INSTANCE_HEADER
+req.redist: 
 ---
 
 # _EVENT_INSTANCE_HEADER structure

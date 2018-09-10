@@ -4,17 +4,16 @@ title: UiaRaiseAutomationEvent function
 author: windows-sdk-content
 description: Notifies listeners of an event.
 old-location: winauto\uiauto_UiaRaiseAutomationEventFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: a91ce84c-faae-4b8b-9547-9e9d8edbde6e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAutomationEventFunction, uiauto_UiaRaiseAutomationEventFunction, uiautomationcoreapi/UiaRaiseAutomationEvent, winauto.uiauto_UiaRaiseAutomationEventFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UiaRaiseAutomationEvent
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaRaiseAutomationEvent function

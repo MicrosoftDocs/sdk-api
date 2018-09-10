@@ -4,17 +4,16 @@ title: IMFSensorDevice::GetDeviceAttributes
 author: windows-sdk-content
 description: Gets the IMFAttributes for the sensor group.
 old-location: mf\imfsensordevice_getdeviceattributes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorDevice.GetDeviceAttributes
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorDevice::GetDeviceAttributes

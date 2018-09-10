@@ -4,17 +4,16 @@ title: WPUCloseThread function
 author: windows-sdk-content
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
 old-location: winsock\wpuclosethread_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPUCloseThread
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WPUCloseThread function

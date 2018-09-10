@@ -4,17 +4,16 @@ title: IEncoderAPI::GetParameterRange
 author: windows-sdk-content
 description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
 old-location: mstv\iencoderapi_getparameterrange.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEncoderAPI.GetParameterRange
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEncoderAPI::GetParameterRange

@@ -4,17 +4,16 @@ title: IPerPropertyBrowsing::GetPredefinedStrings
 author: windows-sdk-content
 description: Retrieves an array description strings for the allowable values that the specified property can accept.
 old-location: com\iperpropertybrowsing_getpredefinedstrings.htm
-old-project: com
+tech.root: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPerPropertyBrowsing.GetPredefinedStrings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPerPropertyBrowsing::GetPredefinedStrings

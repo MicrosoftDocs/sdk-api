@@ -4,17 +4,16 @@ title: IFunctionInstance::GetID
 author: windows-sdk-content
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetID, GetID method, GetID method,IFunctionInstance interface, IFunctionInstance interface,GetID method, IFunctionInstance.GetID, IFunctionInstance::GetID, functiondiscoveryapi/IFunctionInstance::GetID, ncd.ifunctioninstance_getid_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstance.GetID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstance::GetID

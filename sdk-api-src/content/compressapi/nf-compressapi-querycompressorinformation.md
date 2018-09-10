@@ -4,17 +4,16 @@ title: QueryCompressorInformation function
 author: windows-sdk-content
 description: Queries a compressor for information for a particular compression algorithm.
 old-location: cmpapi\querycompressorinformation.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: 90b2ef29-c488-4d32-a315-312b25a0e585
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: QueryCompressorInformation, QueryCompressorInformation function [Compression API], cmpapi.querycompressorinformation, compressapi/QueryCompressorInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - QueryCompressorInformation
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # QueryCompressorInformation function

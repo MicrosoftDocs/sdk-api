@@ -4,17 +4,16 @@ title: AddAccessDeniedAceEx function
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessdeniedaceex.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e353c88c-f82e-40c0-b676-38f0060acc81
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAccessDeniedAceEx, AddAccessDeniedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedaceex, security.addaccessdeniedaceex, securitybaseapi/AddAccessDeniedAceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddAccessDeniedAceEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddAccessDeniedAceEx function

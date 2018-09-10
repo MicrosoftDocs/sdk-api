@@ -4,17 +4,16 @@ title: IInertiaProcessor::put_InitialVelocityY
 author: windows-sdk-content
 description: The InitialVelocityY property specifies the initial movement of the target object on the vertical axis.
 old-location: wintouch\iinertiaprocessor_initialvelocityy.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 3ba0aa0c-a819-4833-883b-218702052ce1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityY property, IInertiaProcessor.InitialVelocityY, IInertiaProcessor.put_InitialVelocityY, IInertiaProcessor::InitialVelocityY, IInertiaProcessor::get_InitialVelocityY, IInertiaProcessor::put_InitialVelocityY, InitialVelocityY property [Windows Touch], InitialVelocityY property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialVelocityY, manipulations/IInertiaProcessor::get_InitialVelocityY, manipulations/IInertiaProcessor::put_InitialVelocityY, put_InitialVelocityY, wintouch.iinertiaprocessor_initialvelocityy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_InitialVelocityY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::put_InitialVelocityY

@@ -4,17 +4,16 @@ title: DXVA2FloatToFixed function
 author: windows-sdk-content
 description: Converts a floating-point number to a DXVA2_Fixed32 value.
 old-location: mf\dxva2floattofixed.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2537e691-2137-4e4b-90a0-6749a6ceb144
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2FloatToFixed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DXVA2FloatToFixed function

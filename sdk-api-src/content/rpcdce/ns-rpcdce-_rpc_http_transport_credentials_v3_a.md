@@ -4,7 +4,7 @@ title: "_RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A"
 author: windows-sdk-content
 description: The RPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure defines additional credentials to authenticate to an RPC proxy server or HTTP proxy server when using RPC/HTTP.RPC_HTTP_TRANSPORT_CREDENTIALS_V3 extends RPC_HTTP_TRANSPORT_CREDENTIALS_V2 by allowing arbitrary credential forms to be used.
 old-location: rpc\rpc_http_transport_credentials_v3.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 1d9d53bc-f1e2-4a8d-a9c1-5b2192ceec56
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_HTTP_TRANSPORT_CREDENTIALS_V3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
+req.redist: 
 ---
 
 # _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A structure

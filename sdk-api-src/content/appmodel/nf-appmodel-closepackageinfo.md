@@ -4,17 +4,16 @@ title: ClosePackageInfo function
 author: windows-sdk-content
 description: Closes a reference to the specified package information.
 old-location: appxpkg\closepackageinfo.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - ClosePackageInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClosePackageInfo function

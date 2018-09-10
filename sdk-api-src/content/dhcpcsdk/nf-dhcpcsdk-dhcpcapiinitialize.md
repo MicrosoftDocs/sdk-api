@@ -4,17 +4,16 @@ title: DhcpCApiInitialize function
 author: windows-sdk-content
 description: The DhcpCApiInitialize function must be the first function call made by users of DHCP; it prepares the system for all other DHCP function calls. Other DHCP functions should only be called if the DhcpCApiInitialize function executes successfully.
 old-location: dhcp\dhcpcapiinitialize.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: b4bc8b02-63b4-4751-a963-25336e8ae426
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpCApiInitialize, DhcpCApiInitialize function [DHCP], _dhcp_dhcpcapiinitialize, dhcp.dhcpcapiinitialize, dhcpcsdk/DhcpCApiInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpCApiInitialize
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpCApiInitialize function

@@ -4,7 +4,7 @@ title: CLUSTER_NODE_STATUS
 author: windows-sdk-content
 description: Describes the status of a cluster node.
 old-location: mscs\cluster_node_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: DFCCAB22-EF79-4E4D-959A-FE2090E4EA02
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NODE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_NODE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_NODE_STATUS
+req.redist: 
 ---
 
 # CLUSTER_NODE_STATUS enumeration

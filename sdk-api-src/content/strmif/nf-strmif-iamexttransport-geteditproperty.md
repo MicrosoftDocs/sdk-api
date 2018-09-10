@@ -4,17 +4,16 @@ title: IAMExtTransport::GetEditProperty
 author: windows-sdk-content
 description: The GetEditProperty method retrieves parameters and values associated with an edit event.
 old-location: dshow\iamexttransport_geteditproperty.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c36b1fb1-f0a7-49df-8a6c-fb90ab268b23
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetEditProperty, GetEditProperty method [DirectShow], GetEditProperty method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditProperty method, IAMExtTransport.GetEditProperty, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.GetEditProperty
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::GetEditProperty

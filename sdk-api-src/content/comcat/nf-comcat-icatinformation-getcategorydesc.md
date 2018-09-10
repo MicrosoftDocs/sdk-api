@@ -4,17 +4,16 @@ title: ICatInformation::GetCategoryDesc
 author: windows-sdk-content
 description: Retrieves the localized description string for a specific category ID.
 old-location: com\icatinformation_getcategorydesc.htm
-old-project: com
+tech.root: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc method [COM],ICatInformation interface, ICatInformation interface [COM],GetCategoryDesc method, ICatInformation.GetCategoryDesc, ICatInformation::GetCategoryDesc, _com_icatinformation_getcategorydesc, com.icatinformation_getcategorydesc, comcat/ICatInformation::GetCategoryDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatInformation.GetCategoryDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatInformation::GetCategoryDesc

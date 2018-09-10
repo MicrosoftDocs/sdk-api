@@ -4,17 +4,16 @@ title: ISpatialAudioObjectForHrtf::SetDirectivity
 author: windows-sdk-content
 description: Sets the spatial audio directivity model for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdirectivity.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 20934FA5-2B4E-4FC4-B5B5-AFC4024ED2F8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDirectivity method, ISpatialAudioObjectForHrtf.SetDirectivity, ISpatialAudioObjectForHrtf::SetDirectivity, SetDirectivity, SetDirectivity method [Core Audio], SetDirectivity method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdirectivity, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectForHrtf.SetDirectivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectForHrtf::SetDirectivity

@@ -4,17 +4,16 @@ title: CM_Get_DevNode_Status_Ex function
 author: windows-sdk-content
 description: The CM_Get_DevNode_Status_Ex function obtains the status of a device instance from its device node (devnode) on a local or a remote machine's device tree.
 old-location: devinst\cm_get_devnode_status_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 3e7dd781-7f99-4c49-bbe1-8d2e63cff553
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Get_DevNode_Status_Ex, CM_Get_DevNode_Status_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Status_Ex, cfgmgrfn_924d6e07-f3bf-4e7d-8342-1b34f4aff24b.xml, devinst.cm_get_devnode_status_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CM_Get_DevNode_Status_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_DevNode_Status_Ex function

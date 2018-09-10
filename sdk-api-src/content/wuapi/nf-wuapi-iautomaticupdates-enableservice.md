@@ -4,17 +4,16 @@ title: IAutomaticUpdates::EnableService
 author: windows-sdk-content
 description: Enables all the components that Automatic Updates requires.
 old-location: wua\iautomaticupdates_enableservice.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 0dd80943-f9d6-4179-8b02-3a03b5ba3636
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EnableService, EnableService method [Windows Update Agent], EnableService method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],EnableService method, IAutomaticUpdates.EnableService, IAutomaticUpdates::EnableService, wua.iautomaticupdates_enableservice, wuapi/IAutomaticUpdates::EnableService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutomaticUpdates.EnableService
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAutomaticUpdates::EnableService

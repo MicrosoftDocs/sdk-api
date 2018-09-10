@@ -4,17 +4,16 @@ title: IStorage::MoveElementTo
 author: windows-sdk-content
 description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.
 old-location: stg\istorage_moveelementto.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: d9d33c64-edac-480f-b295-b2a06e51af2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IStorage interface [Structured Storage],MoveElementTo method, IStorage.MoveElementTo, IStorage::MoveElementTo, MoveElementTo, MoveElementTo method [Structured Storage], MoveElementTo method [Structured Storage],IStorage interface, _stg_istorage_moveelementto, objidl/IStorage::MoveElementTo, stg.istorage_moveelementto
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.MoveElementTo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::MoveElementTo

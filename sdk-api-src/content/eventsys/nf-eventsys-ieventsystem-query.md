@@ -4,17 +4,16 @@ title: IEventSystem::Query
 author: windows-sdk-content
 description: Retrieves a collection of subscription or event objects from the event data store.
 old-location: cos\ieventsystem_query.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 47025361-4420-4c5d-aed7-d40ea0ba3e3b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventSystem interface [COM+],Query method, IEventSystem.Query, IEventSystem::Query, Query, Query method [COM+], Query method [COM+],IEventSystem interface, _cos_IEventSystem_Query, cos.ieventsystem_query, eventsys/IEventSystem::Query
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSystem.Query
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSystem::Query

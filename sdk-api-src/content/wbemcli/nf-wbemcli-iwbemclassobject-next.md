@@ -4,17 +4,16 @@ title: IWbemClassObject::Next
 author: windows-sdk-content
 description: The IWbemClassObject::Next method retrieves the next property in an enumeration that started with IWbemClassObject::BeginEnumeration.
 old-location: wmi\iwbemclassobject_next.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Next method, IWbemClassObject.Next, IWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemClassObject interface, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: WbemUuid.lib
+req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - IWbemClassObject.Next
 product: Windows
 targetos: Windows
-req.lib: WbemUuid.lib
-req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemClassObject::Next
@@ -84,7 +82,7 @@ Reserved. This parameter must be 0.
 
 ### -param strName
 
-
+TBD
 
 
 ### -param pVal [out]
@@ -103,7 +101,7 @@ You can set this parameter to <b>NULL</b> if the value is not required. If an er
 
 ### -param pType
 
-
+TBD
 
 
 ### -param plFlavor [out, optional]

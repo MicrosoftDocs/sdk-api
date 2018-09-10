@@ -4,7 +4,7 @@ title: tagSTREAM_SEEK
 author: windows-sdk-content
 description: The STREAM_SEEK enumeration values specify the origin from which to calculate the new seek-pointer location.
 old-location: stg\stream_seek.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: f73a8f98-c004-40c7-b8d2-5b84d7aa2c31
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Objidlbase.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_SEEK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_SEEK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: STREAM_SEEK
+req.redist: 
 ---
 
 # tagSTREAM_SEEK enumeration

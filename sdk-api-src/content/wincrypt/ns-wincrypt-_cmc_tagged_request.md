@@ -4,7 +4,7 @@ title: "_CMC_TAGGED_REQUEST"
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO structures to request a certificate.
 old-location: security\cmc_tagged_request.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_TAGGED_REQUEST, *PCMC_TAGGED_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_TAGGED_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_TAGGED_REQUEST, *PCMC_TAGGED_REQUEST
+req.redist: 
 ---
 
 # _CMC_TAGGED_REQUEST structure

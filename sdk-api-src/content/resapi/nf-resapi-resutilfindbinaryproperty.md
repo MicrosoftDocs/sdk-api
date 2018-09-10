@@ -4,17 +4,16 @@ title: ResUtilFindBinaryProperty function
 author: windows-sdk-content
 description: Locates a specified binary property in a property list and can also return the value of the property. The PRESUTIL_FIND_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindbinaryproperty.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY function [Failover Cluster], ResUtilFindBinaryProperty, ResUtilFindBinaryProperty function [Failover Cluster], _wolf_resutilfindbinaryproperty, mscs.resutilfindbinaryproperty, resapi/PRESUTIL_FIND_BINARY_PROPERTY, resapi/ResUtilFindBinaryProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilFindBinaryProperty
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilFindBinaryProperty function

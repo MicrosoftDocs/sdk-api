@@ -4,7 +4,7 @@ title: tagINTERVAL_LIMIT_KIND
 author: windows-sdk-content
 description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.
 old-location: search\_search_INTERVAL_LIMIT_KIND.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\interval_limit_kind.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
+req.unicode-ansi: 
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERVAL_LIMIT_KIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERVAL_LIMIT_KIND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: INTERVAL_LIMIT_KIND
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # tagINTERVAL_LIMIT_KIND enumeration

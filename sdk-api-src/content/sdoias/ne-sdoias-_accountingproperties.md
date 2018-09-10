@@ -4,7 +4,7 @@ title: "_ACCOUNTINGPROPERTIES"
 author: windows-sdk-content
 description: The values of the ACCOUNTINGPROPERTIES type enumerate properties that control what types of packets are logged and characteristics of the log file.
 old-location: nps\SDO_accountingproperties.htm
-old-project: nps
+tech.root: nps
 ms.assetid: e814d576-0405-410e-ae62-e0f5905f6cf9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: ConvertStringSidToSidW (Unicode) and ConvertStringSidToSidA (ANSI)
+req.unicode-ansi: 
 req.idl: SdoIas.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCOUNTINGPROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCOUNTINGPROPERTIES
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: ACCOUNTINGPROPERTIES
+req.redist: 
 ---
 
 # _ACCOUNTINGPROPERTIES enumeration

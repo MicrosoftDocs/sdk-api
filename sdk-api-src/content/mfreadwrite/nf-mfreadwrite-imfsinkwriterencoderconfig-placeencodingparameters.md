@@ -4,17 +4,16 @@ title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters
 author: windows-sdk-content
 description: Dynamically updates the encoder configuration with a collection of new encoder settings.
 old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodingParameters method, IMFSinkWriterEncoderConfig.PlaceEncodingParameters, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriterEncoderConfig::PlaceEncodingParameters

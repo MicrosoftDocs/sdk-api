@@ -4,7 +4,7 @@ title: "_SecPkgCredentials_SSIProviderA"
 author: windows-sdk-content
 description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_ssiprovider.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0C6D6217-3A97-40B5-A7FB-B9D49C5FBC7C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgCredentials_SSIProviderA, *PSecPkgCredentials_SSIProviderA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecPkgCredentials_SSIProviderW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgCredentials_SSIProviderA, *PSecPkgCredentials_SSIProviderA
+req.redist: 
 ---
 
 # _SecPkgCredentials_SSIProviderA structure

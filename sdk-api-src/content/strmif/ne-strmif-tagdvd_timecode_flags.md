@@ -4,7 +4,7 @@ title: tagDVD_TIMECODE_FLAGS
 author: windows-sdk-content
 description: Indicates the frame rate at which a DVD has been authored to play.
 old-location: dshow\dvd_timecode_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2dc5ce97-12a4-43a0-b897-14fea32d8efc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_TIMECODE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_TIMECODE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_TIMECODE_FLAGS
+req.redist: 
 ---
 
 # tagDVD_TIMECODE_FLAGS enumeration

@@ -4,7 +4,7 @@ title: TpcGetSamplesArgs
 author: windows-sdk-content
 description: A structure that is used by the TimeProvCommand function.
 old-location: base\tpcgetsamplesargs_str.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: timeprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TpcGetSamplesArgs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TpcGetSamplesArgs
+req.redist: 
 ---
 
 # TpcGetSamplesArgs structure

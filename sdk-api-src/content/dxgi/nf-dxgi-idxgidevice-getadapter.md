@@ -4,17 +4,16 @@ title: IDXGIDevice::GetAdapter
 author: windows-sdk-content
 description: Returns the adapter for the specified device.
 old-location: direct3ddxgi\idxgidevice_getadapter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getadapter.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 3bbfc03f-4bda-05eb-f6de-6f2c4564fa75, GetAdapter, GetAdapter method [DXGI], GetAdapter method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetAdapter method, IDXGIDevice.GetAdapter, IDXGIDevice::GetAdapter, direct3ddxgi.idxgidevice_getadapter, dxgi/IDXGIDevice::GetAdapter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice.GetAdapter
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice::GetAdapter

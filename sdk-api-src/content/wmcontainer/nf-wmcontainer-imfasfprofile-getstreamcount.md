@@ -4,17 +4,16 @@ title: IMFASFProfile::GetStreamCount
 author: windows-sdk-content
 description: Retrieves the number of streams in the profile.
 old-location: mf\imfasfprofile_getstreamcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bf8c6157-3420-4097-8ab6-f307a69d418a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamCount method, IMFASFProfile.GetStreamCount, IMFASFProfile::GetStreamCount, bf8c6157-3420-4097-8ab6-f307a69d418a, mf.imfasfprofile_getstreamcount, wmcontainer/IMFASFProfile::GetStreamCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFProfile.GetStreamCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFProfile::GetStreamCount

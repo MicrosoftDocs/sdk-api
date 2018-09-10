@@ -4,17 +4,16 @@ title: IUIAutomationGridItemPattern::get_CurrentRowSpan
 author: windows-sdk-content
 description: Retrieves the number of rows spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRowSpan.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 3153a62e-59d6-4efc-9bdf-2076a3baa9ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentRowSpan property [Windows Accessibility], CurrentRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRowSpan property, IUIAutomationGridItemPattern.CurrentRowSpan, IUIAutomationGridItemPattern.get_CurrentRowSpan, IUIAutomationGridItemPattern::CurrentRowSpan, IUIAutomationGridItemPattern::get_CurrentRowSpan, get_CurrentRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationGridItemPattern.get_CurrentRowSpan
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationGridItemPattern::get_CurrentRowSpan

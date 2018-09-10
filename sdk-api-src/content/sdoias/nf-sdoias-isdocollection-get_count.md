@@ -4,17 +4,16 @@ title: ISdoCollection::get_Count
 author: windows-sdk-content
 description: The get_Count method returns the number of items in the collection.
 old-location: nps\SDO_isdocollection_get_count.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 57f83f72-327b-4018-be1b-3527820f88d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],get_Count method, ISdoCollection.get_Count, ISdoCollection::get_Count, _sdo_isdocollection_get_count, get_Count, get_Count method [Network Policy Server], get_Count method [Network Policy Server],ISdoCollection interface, nps.SDO_isdocollection_get_count, sdo.isdocollection_get_count, sdoias/ISdoCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoCollection::get_Count

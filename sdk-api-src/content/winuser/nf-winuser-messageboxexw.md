@@ -4,17 +4,16 @@ title: MessageBoxExW function
 author: windows-sdk-content
 description: Creates, displays, and operates a message box.
 old-location: dlgbox\messageboxex.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, MessageBoxExW, _win32_MessageBoxEx, _win32_messageboxex_cpp, dlgbox.messageboxex, winui._win32_messageboxex, winuser/MessageBoxEx, winuser/MessageBoxExA, winuser/MessageBoxExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MessageBoxExW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MessageBoxExW function

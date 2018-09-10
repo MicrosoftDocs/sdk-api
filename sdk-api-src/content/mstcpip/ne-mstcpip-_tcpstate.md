@@ -4,7 +4,7 @@ title: "_TCPSTATE"
 author: windows-sdk-content
 description: Indicates the possible states of a Transmission Control Protocol (TCP) connection.
 old-location: winsock\tcpstate.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 225C423E-C820-4E9F-8261-DA1E14F81683
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCPSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCPSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TCPSTATE
+req.redist: 
 ---
 
 # _TCPSTATE enumeration

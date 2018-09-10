@@ -4,17 +4,16 @@ title: ISyncMgrEventStore::GetEventCount
 author: windows-sdk-content
 description: Gets the event count.
 old-location: shell\ISyncMgrEventStore_GetEventCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e8482ed-3cdc-49a3-ad65-237f163e440d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEventCount, GetEventCount method [Windows Shell], GetEventCount method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventCount method, ISyncMgrEventStore.GetEventCount, ISyncMgrEventStore::GetEventCount, _shell_ISyncMgrEventStore_GetEventCount, shell.ISyncMgrEventStore_GetEventCount, syncmgr/ISyncMgrEventStore::GetEventCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEventStore.GetEventCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEventStore::GetEventCount

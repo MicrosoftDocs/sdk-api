@@ -4,7 +4,7 @@ title: D3D_PRIMITIVE_TOPOLOGY
 author: windows-sdk-content
 description: Values that indicate how the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.
 old-location: direct3d11\d3d_primitive_topology.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: b4becdcc-cc19-4d5a-940b-b232ebedce68
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_PRIMITIVE_TOPOLOGY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_PRIMITIVE_TOPOLOGY
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_PRIMITIVE_TOPOLOGY
+req.redist: 
 ---
 
 # D3D_PRIMITIVE_TOPOLOGY enumeration

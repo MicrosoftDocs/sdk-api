@@ -4,7 +4,7 @@ title: "_CERT_DSS_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters associated with a Digital Signature Standard (DSS) public key algorithm.
 old-location: security\cert_dss_parameters.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_DSS_PARAMETERS, *PCERT_DSS_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_DSS_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_DSS_PARAMETERS, *PCERT_DSS_PARAMETERS
+req.redist: 
 ---
 
 # _CERT_DSS_PARAMETERS structure

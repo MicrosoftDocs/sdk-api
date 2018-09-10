@@ -4,17 +4,16 @@ title: IEnumWbemClassObject::Skip
 author: windows-sdk-content
 description: You can use the IEnumWbemClassObject::Skip method to move the current position in an enumeration ahead by a specified number of objects. Also, this affects subsequent calls to NextAsync, but it does not affect pending deliveries begun with NextAsync.
 old-location: wmi\ienumwbemclassobject_skip.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 9579086c-cd45-4b3c-bd43-de0b89745b02
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Skip method, IEnumWbemClassObject.Skip, IEnumWbemClassObject::Skip, Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumWbemClassObject.Skip
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWbemClassObject::Skip
@@ -65,12 +63,12 @@ You can use the
 
 ### -param lTimeout
 
-
+TBD
 
 
 ### -param nCount
 
-
+TBD
 
 
 

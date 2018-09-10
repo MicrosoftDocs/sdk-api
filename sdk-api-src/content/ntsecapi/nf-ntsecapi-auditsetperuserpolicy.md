@@ -4,17 +4,16 @@ title: AuditSetPerUserPolicy function
 author: windows-sdk-content
 description: Sets per-user audit policy in one or more audit subcategories for the specified principal.
 old-location: security\auditsetperuserpolicy_func.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: a6cef640-5658-4c13-96fb-a664d2a61b57
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuditSetPerUserPolicy, AuditSetPerUserPolicy function [Security], ntsecapi/AuditSetPerUserPolicy, security.auditsetperuserpolicy_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AuditSetPerUserPolicy
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditSetPerUserPolicy function

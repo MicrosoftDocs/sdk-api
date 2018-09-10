@@ -4,17 +4,16 @@ title: IDCompositionRectangleClip::SetRight(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: FB27BB00-239A-42A8-86D3-C78E2E8E820B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(float), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRectangleClip.SetRight
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRectangleClip::SetRight(IDCompositionAnimation)
@@ -62,7 +61,7 @@ Changes the value of the Right property of a clip rectangle. The Right property 
 
 ### -param animation
 
-
+TBD
 
 
 

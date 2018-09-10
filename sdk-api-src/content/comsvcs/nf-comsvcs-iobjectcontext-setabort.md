@@ -4,17 +4,16 @@ title: IObjectContext::SetAbort
 author: windows-sdk-content
 description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated when it returns from the currently executing method call.
 old-location: cos\iobjectcontext_setabort.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: c254305f-1fc5-417e-b93b-d5e2b36e9e39
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IObjectContext interface [COM+],SetAbort method, IObjectContext.SetAbort, IObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],IObjectContext interface, _cos_IObjectContext_SetAbort, comsvcs/IObjectContext::SetAbort, cos.iobjectcontext_setabort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContext.SetAbort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContext::SetAbort

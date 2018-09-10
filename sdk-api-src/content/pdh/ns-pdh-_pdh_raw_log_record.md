@@ -4,7 +4,7 @@ title: "_PDH_RAW_LOG_RECORD"
 author: windows-sdk-content
 description: The PDH_RAW_LOG_RECORD structure contains information about a binary trace log file record.
 old-location: perf\pdh_raw_log_record_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: ae96515f-ea3f-4578-a249-fb8f41cdfa69
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PDH_RAW_LOG_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
+req.redist: 
 ---
 
 # _PDH_RAW_LOG_RECORD structure

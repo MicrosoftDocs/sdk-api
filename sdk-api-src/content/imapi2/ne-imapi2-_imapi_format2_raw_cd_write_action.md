@@ -4,7 +4,7 @@ title: "_IMAPI_FORMAT2_RAW_CD_WRITE_ACTION"
 author: windows-sdk-content
 description: Defines values that indicate the current state of the write operation when using the IDiscFormat2RawCDEventArgs interface.
 old-location: imapi\imapi_format2_raw_cd_write_action.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: eb19b3e1-59b2-4649-87c5-057d50213ef2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, *PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAPI_FORMAT2_RAW_CD_WRITE_ACTION
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, *PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION
+req.redist: 
 ---
 
 # _IMAPI_FORMAT2_RAW_CD_WRITE_ACTION enumeration

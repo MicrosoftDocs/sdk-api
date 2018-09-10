@@ -4,7 +4,7 @@ title: DocumentMode
 author: windows-sdk-content
 description: The DocumentMode enumeration is used by the Document.Mode property and specifies how the document is opened. This enumeration applies to the MMC 2.0 Automation Object Model.
 old-location: mmc\documentmode.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 62a215e1-a993-4994-a1b1-86a8c320758d
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_DocumentMode, DOCUMENTMODE, *PDOCUMENTMODE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _DocumentMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_DocumentMode, DOCUMENTMODE, *PDOCUMENTMODE"
+req.redist: 
 ---
 
 # DocumentMode enumeration

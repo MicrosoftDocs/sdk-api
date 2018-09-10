@@ -4,17 +4,16 @@ title: MprAdminInterfaceConnect function
 author: windows-sdk-content
 description: The MprAdminInterfaceConnect function creates a connection to the specified WAN interface.
 old-location: rras\mpradmininterfaceconnect.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceConnect
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceConnect function

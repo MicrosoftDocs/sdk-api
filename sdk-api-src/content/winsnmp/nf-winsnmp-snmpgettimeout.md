@@ -4,17 +4,16 @@ title: SnmpGetTimeout function
 author: windows-sdk-content
 description: The WinSNMP SnmpGetTimeout function returns the time-out value, in hundredths of a second, for the transmission of SNMP message requests.
 old-location: snmp\snmpgettimeout.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpGetTimeout
 product: Windows
 targetos: Windows
-req.lib: Wsnmp32.lib
-req.dll: Wsnmp32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpGetTimeout function

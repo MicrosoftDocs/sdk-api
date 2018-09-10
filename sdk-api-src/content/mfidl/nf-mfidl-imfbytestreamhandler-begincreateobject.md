@@ -4,17 +4,16 @@ title: IMFByteStreamHandler::BeginCreateObject
 author: windows-sdk-content
 description: Begins an asynchronous request to create a media source from a byte stream.
 old-location: mf\imfbytestreamhandler_begincreateobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 31dffadd-4a5a-4306-80e9-9002782f092c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 31dffadd-4a5a-4306-80e9-9002782f092c, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],BeginCreateObject method, IMFByteStreamHandler.BeginCreateObject, IMFByteStreamHandler::BeginCreateObject, mf.imfbytestreamhandler_begincreateobject, mfidl/IMFByteStreamHandler::BeginCreateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFByteStreamHandler.BeginCreateObject
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamHandler::BeginCreateObject

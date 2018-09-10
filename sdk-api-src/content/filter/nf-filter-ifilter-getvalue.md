@@ -4,17 +4,16 @@ title: IFilter::GetValue
 author: windows-sdk-content
 description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.
 old-location: indexsrv\ifilter_getvalue.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetValue method, IFilter.GetValue, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: filter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IFILTER_INIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFilter.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFilter::GetValue

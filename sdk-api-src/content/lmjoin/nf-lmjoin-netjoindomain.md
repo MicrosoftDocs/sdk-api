@@ -4,17 +4,16 @@ title: NetJoinDomain function
 author: windows-sdk-content
 description: The NetJoinDomain function joins a computer to a workgroup or domain.
 old-location: netmgmt\netjoindomain.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 4efcb399-03af-4312-9f1d-6bc38f356cac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NETSETUP_ACCT_CREATE, NETSETUP_AMBIGUOUS_DC, NETSETUP_DEFER_SPN_SET, NETSETUP_DOMAIN_JOIN_IF_JOINED, NETSETUP_DONT_CONTROL_SERVICES, NETSETUP_FORCE_SPN_SET, NETSETUP_IGNORE_UNSUPPORTED_FLAGS, NETSETUP_JOIN_DC_ACCOUNT, NETSETUP_JOIN_DOMAIN, NETSETUP_JOIN_READONLY, NETSETUP_JOIN_UNSECURE, NETSETUP_JOIN_WITH_NEW_NAME, NETSETUP_MACHINE_PWD_PASSED, NETSETUP_NO_ACCT_REUSE, NETSETUP_NO_NETLOGON_CACHE, NETSETUP_SET_MACHINE_NAME, NETSETUP_WIN9X_UPGRADE, NetJoinDomain, NetJoinDomain function [Network Management], _win32_netjoindomain, lmjoin/NetJoinDomain, netmgmt.netjoindomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetJoinDomain
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetJoinDomain function

@@ -4,17 +4,16 @@ title: IVideoWindow::put_AutoShow
 author: windows-sdk-content
 description: The put_AutoShow method specifies whether the video renderer automatically shows the video window when it receives video data.
 old-location: dshow\ivideowindow_put_autoshow.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7481a7e8-4b57-43cc-8304-b70616bbd532
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_AutoShow method, IVideoWindow.put_AutoShow, IVideoWindow::put_AutoShow, IVideoWindowput_AutoShow, control/IVideoWindow::put_AutoShow, dshow.ivideowindow_put_autoshow, put_AutoShow, put_AutoShow method [DirectShow], put_AutoShow method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.put_AutoShow
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::put_AutoShow

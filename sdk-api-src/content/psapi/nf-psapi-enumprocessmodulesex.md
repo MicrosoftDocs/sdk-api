@@ -4,17 +4,16 @@ title: EnumProcessModulesEx function
 author: windows-sdk-content
 description: Retrieves a handle for each module in the specified process that meets the specified filter criteria.
 old-location: psapi\enumprocessmodulesex.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 0f982f32-31f4-47b6-85d2-d6e17aa4eeb9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumProcessModulesEx, EnumProcessModulesEx function [PSAPI], K32EnumProcessModulesEx, LIST_MODULES_32BIT, LIST_MODULES_64BIT, LIST_MODULES_ALL, LIST_MODULES_DEFAULT, base.enumprocessmodulesex, psapi.enumprocessmodulesex, psapi/EnumProcessModulesEx, psapi/K32EnumProcessModulesEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - K32EnumProcessModulesEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EnumProcessModulesEx function

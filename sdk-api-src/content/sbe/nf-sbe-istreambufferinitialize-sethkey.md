@@ -4,17 +4,16 @@ title: IStreamBufferInitialize::SetHKEY
 author: windows-sdk-content
 description: The SetHKEY method sets the registry key where the stream buffer object stores its configuration information.
 old-location: mstv\istreambufferinitialize_sethkey.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferInitialize.SetHKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferInitialize::SetHKEY

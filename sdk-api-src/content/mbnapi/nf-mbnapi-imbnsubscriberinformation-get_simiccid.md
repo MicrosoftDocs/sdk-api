@@ -4,17 +4,16 @@ title: IMbnSubscriberInformation::get_SimIccID
 author: windows-sdk-content
 description: The SIM International circuit card number (SimICCID) for the device.
 old-location: mbn\imbnsubscriberinformation_simiccid.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 18132836-65e8-4372-bfcd-ba0115b2d4d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SimIccID property, IMbnSubscriberInformation.SimIccID, IMbnSubscriberInformation.get_SimIccID, IMbnSubscriberInformation::SimIccID, IMbnSubscriberInformation::get_SimIccID, SimIccID property [Microsoft Broadband Networks], SimIccID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SimIccID, mbn.imbnsubscriberinformation_simiccid, mbnapi/IMbnSubscriberInformation::SimIccID, mbnapi/IMbnSubscriberInformation::get_SimIccID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSubscriberInformation.get_SimIccID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSubscriberInformation::get_SimIccID

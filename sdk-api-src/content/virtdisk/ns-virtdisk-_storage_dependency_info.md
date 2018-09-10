@@ -4,7 +4,7 @@ title: "_STORAGE_DEPENDENCY_INFO"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) storage dependency information.
 old-location: vhd\storage_dependency_info.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 67648a4d-3f66-407e-9036-c7072bc7e460
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_DEPENDENCY_INFO, *PSTORAGE_DEPENDENCY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - STORAGE_DEPENDENCY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: STORAGE_DEPENDENCY_INFO, *PSTORAGE_DEPENDENCY_INFO
+req.redist: 
 ---
 
 # _STORAGE_DEPENDENCY_INFO structure

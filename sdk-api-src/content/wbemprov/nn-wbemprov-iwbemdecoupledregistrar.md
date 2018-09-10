@@ -4,7 +4,7 @@ title: IWbemDecoupledRegistrar
 author: windows-sdk-content
 description: The IWbemDecoupledRegistrar interface associates decoupled providers with WMI. This interface allows a process-hosted provider to define the interoperability lifetime of the interface and to coexist with other providers.
 old-location: wmi\iwbemdecoupledregistrar.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmidcprv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemDecoupledRegistrar
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmidcprv.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemDecoupledRegistrar interface

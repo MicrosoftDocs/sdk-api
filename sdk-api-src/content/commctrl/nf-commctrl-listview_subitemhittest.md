@@ -4,17 +4,16 @@ title: ListView_SubItemHitTest macro
 author: windows-sdk-content
 description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
 old-location: controls\ListView_SubItemHitTest.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittest.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListView_SubItemHitTest, ListView_SubItemHitTest macro [Windows Controls], _win32_ListView_SubItemHitTest, _win32_ListView_SubItemHitTest_cpp, commctrl/ListView_SubItemHitTest, controls.ListView_SubItemHitTest, controls._win32_ListView_SubItemHitTest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_SubItemHitTest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_SubItemHitTest macro

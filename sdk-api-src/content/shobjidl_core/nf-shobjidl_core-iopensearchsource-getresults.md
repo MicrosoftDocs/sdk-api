@@ -4,17 +4,16 @@ title: IOpenSearchSource::GetResults
 author: windows-sdk-content
 description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
 old-location: shell\IOpenSearchSource_GetResults.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4fc16c04-cfb6-4f50-8325-bd3fc0b8f557
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IOpenSearchSource interface, IOpenSearchSource interface [Windows Shell],GetResults method, IOpenSearchSource.GetResults, IOpenSearchSource::GetResults, _shell_IOpenSearchSource_GetResults, shell.IOpenSearchSource_GetResults, shobjidl_core/IOpenSearchSource::GetResults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpenSearchSource.GetResults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOpenSearchSource::GetResults

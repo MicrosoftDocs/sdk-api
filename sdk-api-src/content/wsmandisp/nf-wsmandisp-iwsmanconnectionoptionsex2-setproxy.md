@@ -4,17 +4,16 @@ title: IWSManConnectionOptionsEx2::SetProxy
 author: windows-sdk-content
 description: Sets the proxy information for the session.
 old-location: winrm\iwsmanconnectionoptionsex2_setproxy.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: b87d5625-c77d-41cb-a75d-a45ba0d3fbe6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],SetProxy method, IWSManConnectionOptionsEx2.SetProxy, IWSManConnectionOptionsEx2::SetProxy, SetProxy, SetProxy method [Windows Remote Management], SetProxy method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_setproxy, wsmandisp/IWSManConnectionOptionsEx2::SetProxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManConnectionOptionsEx2.SetProxy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # IWSManConnectionOptionsEx2::SetProxy

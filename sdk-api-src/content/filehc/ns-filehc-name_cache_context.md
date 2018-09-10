@@ -4,7 +4,7 @@ title: NAME_CACHE_CONTEXT
 author: windows-sdk-content
 description: Represents a name cache.
 old-location: winprog\name_cache_context.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 2d2a6066-b59a-418c-a726-0a1a39243988
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PNAME_CACHE_CONTEXT"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NAME_CACHE_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: "*PNAME_CACHE_CONTEXT"
+req.redist: 
 ---
 
 # NAME_CACHE_CONTEXT structure

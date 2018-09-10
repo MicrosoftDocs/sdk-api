@@ -4,17 +4,16 @@ title: MMCPropertyHelp function
 author: windows-sdk-content
 description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.
 old-location: mmc\mmcpropertyhelp.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: MMCPropertyHelp, MMCPropertyHelp callback, MMCPropertyHelp callback function [MMC], _slate_mmcpropertyhelp, mmc.mmcpropertyhelp, mmc/MMCPropertyHelp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMCPropertyHelp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MMCPropertyHelp function

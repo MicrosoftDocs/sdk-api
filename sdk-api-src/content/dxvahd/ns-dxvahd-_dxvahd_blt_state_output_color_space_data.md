@@ -4,7 +4,7 @@ title: "_DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
 author: windows-sdk-content
 description: Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_output_color_space_data.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+req.redist: 
 ---
 
 # _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure

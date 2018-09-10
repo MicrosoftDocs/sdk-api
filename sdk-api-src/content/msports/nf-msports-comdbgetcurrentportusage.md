@@ -4,17 +4,16 @@ title: ComDBGetCurrentPortUsage function
 author: windows-sdk-content
 description: ComDBGetCurrentPortUsage returns information about the COM port numbers that are currently logged as &#0034;in use&#0034; in the COM port database.
 old-location: serports\comdbgetcurrentportusage.htm
-old-project: serports
+tech.root: serports
 ms.assetid: f1c5fdc5-b84b-4c7f-832a-44151df39721
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComDBGetCurrentPortUsage, ComDBGetCurrentPortUsage function [Serial Ports], comdb_b4de1b55-d769-424f-842a-21a8cb28ef1d.xml, msports/ComDBGetCurrentPortUsage, serports.comdbgetcurrentportusage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBGetCurrentPortUsage
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBGetCurrentPortUsage function

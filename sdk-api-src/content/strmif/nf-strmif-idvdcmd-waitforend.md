@@ -4,17 +4,16 @@ title: IDvdCmd::WaitForEnd
 author: windows-sdk-content
 description: The WaitForEnd method blocks the DVD Navigator until the command associated with this object completes or is canceled.
 old-location: dshow\idvdcmd_waitforend.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e7dc3113-616a-49d5-bcab-7ed5aa520b18
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdCmd interface [DirectShow],WaitForEnd method, IDvdCmd.WaitForEnd, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdCmd.WaitForEnd
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdCmd::WaitForEnd

@@ -4,7 +4,7 @@ title: "_INTERNET_CACHE_ENTRY_INFOW"
 author: windows-sdk-content
 description: Contains information about an entry in the Internet cache.
 old-location: wininet\internet_cache_entry_info.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 7bda08e0-5df0-4087-a5cd-3a25c6ae5ade
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_CACHE_ENTRY_INFOW, *LPINTERNET_CACHE_ENTRY_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INTERNET_CACHE_ENTRY_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_CACHE_ENTRY_INFOW, *LPINTERNET_CACHE_ENTRY_INFOW
+req.redist: 
 ---
 
 # _INTERNET_CACHE_ENTRY_INFOW structure

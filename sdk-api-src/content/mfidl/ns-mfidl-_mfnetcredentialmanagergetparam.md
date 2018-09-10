@@ -4,7 +4,7 @@ title: "_MFNetCredentialManagerGetParam"
 author: windows-sdk-content
 description: Contains the authentication information for the credential manager.
 old-location: mf\mfnetcredentialmanagergetparam.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 951d74df-11f8-4623-a81b-63e632f80d0e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNetCredentialManagerGetParam
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNetCredentialManagerGetParam
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNetCredentialManagerGetParam
+req.redist: 
 ---
 
 # _MFNetCredentialManagerGetParam structure

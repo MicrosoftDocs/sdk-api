@@ -4,17 +4,16 @@ title: WNetGetProviderNameW function
 author: windows-sdk-content
 description: The WNetGetProviderName function obtains the provider name for a specific type of network.
 old-location: wnet\wnetgetprovidername.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetGetProviderName, WNetGetProviderName function [Windows Networking (WNet)], WNetGetProviderNameA, WNetGetProviderNameW, _win32_wnetgetprovidername, winnetwk/WNetGetProviderName, winnetwk/WNetGetProviderNameA, winnetwk/WNetGetProviderNameW, wnet.wnetgetprovidername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetGetProviderNameW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetGetProviderNameW function

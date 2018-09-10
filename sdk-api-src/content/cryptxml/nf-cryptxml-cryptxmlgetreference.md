@@ -4,17 +4,16 @@ title: CryptXmlGetReference function
 author: windows-sdk-content
 description: Returns the Reference element specified by the supplied handle.
 old-location: security\cryptxmlgetreference.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptXmlGetReference
 product: Windows
 targetos: Windows
-req.lib: Cryptxml.lib
-req.dll: Cryptxml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptXmlGetReference function

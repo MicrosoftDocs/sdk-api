@@ -4,7 +4,7 @@ title: mimeassociationdialog_in_flags
 author: windows-sdk-content
 description: Used with the MIMEAssociationDialog function to determine how it executes.
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: intshcut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIMEASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIMEASSOCIATIONDIALOG_IN_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIMEASSOCIATIONDIALOG_IN_FLAGS
+req.redist: 
 ---
 
 # mimeassociationdialog_in_flags enumeration

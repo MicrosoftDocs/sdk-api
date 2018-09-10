@@ -4,7 +4,7 @@ title: MBN_SMS_CAPS
 author: windows-sdk-content
 description: The MBN_SMS_CAPS enumerated type contains bitfield values that specify SMS capabilities.
 old-location: mbn\mbn_sms_caps.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0fb78ef8-2f46-4bee-9340-68c5043bf9a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_CAPS
+req.redist: 
 ---
 
 # MBN_SMS_CAPS enumeration

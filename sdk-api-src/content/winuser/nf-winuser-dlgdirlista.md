@@ -4,17 +4,16 @@ title: DlgDirListA function
 author: windows-sdk-content
 description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
 old-location: controls\DlgDirList.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirList, DlgDirList function [Windows Controls], DlgDirListA, DlgDirListW, _win32_DlgDirList, _win32_DlgDirList_cpp, controls.DlgDirList, controls._win32_DlgDirList, winuser/DlgDirList, winuser/DlgDirListA, winuser/DlgDirListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DlgDirListW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DlgDirListA function

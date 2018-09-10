@@ -4,7 +4,7 @@ title: "_CRYPT_SEQUENCE_OF_ANY"
 author: windows-sdk-content
 description: Contains an arbitrary list of encoded BLOBs.
 old-location: security\crypt_sequence_of_any.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9500fa37-742b-4d37-8f45-0fb3c4cdda8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_SEQUENCE_OF_ANY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY
+req.redist: 
 ---
 
 # _CRYPT_SEQUENCE_OF_ANY structure

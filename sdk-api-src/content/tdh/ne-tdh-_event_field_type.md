@@ -4,7 +4,7 @@ title: "_EVENT_FIELD_TYPE"
 author: windows-sdk-content
 description: Defines the provider information to retrieve.
 old-location: etw\event_field_type_enum.htm
-old-project: etw
+tech.root: etw
 ms.assetid: da525556-e42b-41cb-b954-300f378477e5
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FIELD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_FIELD_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: EVENT_FIELD_TYPE
+req.redist: 
 ---
 
 # _EVENT_FIELD_TYPE enumeration

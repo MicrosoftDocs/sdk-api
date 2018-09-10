@@ -4,17 +4,16 @@ title: ShowHideMenuCtl function
 author: windows-sdk-content
 description: Sets or removes the specified menu item's check mark attribute and shows or hides the corresponding control.
 old-location: controls\ShowHideMenuCtl.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\showhidemenuctl.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win32_ShowHideMenuCtl, _win32_ShowHideMenuCtl_cpp, commctrl/ShowHideMenuCtl, controls.ShowHideMenuCtl, controls._win32_ShowHideMenuCtl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ShowHideMenuCtl
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ShowHideMenuCtl function

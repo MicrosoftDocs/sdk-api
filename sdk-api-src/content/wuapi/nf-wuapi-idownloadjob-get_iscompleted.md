@@ -4,17 +4,16 @@ title: IDownloadJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],IsCompleted property, IDownloadJob.IsCompleted, IDownloadJob.get_IsCompleted, IDownloadJob::IsCompleted, IDownloadJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IDownloadJob interface, get_IsCompleted, wua.idownloadjob_iscompleted, wuapi/IDownloadJob::IsCompleted, wuapi/IDownloadJob::get_IsCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDownloadJob.get_IsCompleted
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadJob::get_IsCompleted

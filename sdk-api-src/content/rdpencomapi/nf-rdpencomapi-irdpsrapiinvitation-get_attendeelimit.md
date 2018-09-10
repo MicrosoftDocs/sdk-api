@@ -4,17 +4,16 @@ title: IRDPSRAPIInvitation::get_AttendeeLimit
 author: windows-sdk-content
 description: The maximum number of attendees that can connect to the session.
 old-location: rdp\irdpsrapiinvitation_attendeelimit.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: ab16039f-210a-46ba-aaa8-0dcc840123b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AttendeeLimit property [RDP], AttendeeLimit property [RDP],IRDPSRAPIInvitation interface, AttendeeLimit property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],AttendeeLimit property, IRDPSRAPIInvitation.AttendeeLimit, IRDPSRAPIInvitation.get_AttendeeLimit, IRDPSRAPIInvitation::AttendeeLimit, IRDPSRAPIInvitation::get_AttendeeLimit, IRDPSRAPIInvitation::put_AttendeeLimit, RDPSRAPIInvitation object [RDP],AttendeeLimit property, get_AttendeeLimit, rdp.irdpsrapiinvitation_attendeelimit, rdpencomapi/IRDPSRAPIInvitation::AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::get_AttendeeLimit, rdpencomapi/IRDPSRAPIInvitation::put_AttendeeLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RDPSRAPIInvitation.AttendeeLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIInvitation::get_AttendeeLimit

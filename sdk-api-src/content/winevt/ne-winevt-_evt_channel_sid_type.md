@@ -4,7 +4,7 @@ title: "_EVT_CHANNEL_SID_TYPE"
 author: windows-sdk-content
 description: Defines the values that determine whether the event includes the security identifier (SID) of the principal that logged the event.
 old-location: wes\evt_channel_sid_type.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 7eadae8f-71b4-44de-ba66-0e460fee496c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_CHANNEL_SID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_CHANNEL_SID_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_CHANNEL_SID_TYPE
+req.redist: 
 ---
 
 # _EVT_CHANNEL_SID_TYPE enumeration

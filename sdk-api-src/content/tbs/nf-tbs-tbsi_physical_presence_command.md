@@ -4,17 +4,16 @@ title: Tbsi_Physical_Presence_Command function
 author: windows-sdk-content
 description: Passes a physical presence ACPI command through TBS to the driver.
 old-location: tbs\_tbsi_physical_presence_command.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_Physical_Presence_Command
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_Physical_Presence_Command function

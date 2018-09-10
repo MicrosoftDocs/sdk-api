@@ -4,17 +4,16 @@ title: IColumnProvider::GetItemData
 author: windows-sdk-content
 description: Requests column data for a specified file.
 old-location: shell\IColumnProvider_GetItemData.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnProvider.GetItemData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnProvider::GetItemData

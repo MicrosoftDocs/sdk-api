@@ -4,17 +4,16 @@ title: CryptImportPKCS8 function
 author: windows-sdk-content
 description: Imports the private key in PKCS #8 format to a cryptographic service provider (CSP).
 old-location: security\cryptimportpkcs8.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImportPKCS8 function [Security], security.cryptimportpkcs8, wincrypt/CryptImportPKCS8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptImportPKCS8
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptImportPKCS8 function

@@ -4,17 +4,16 @@ title: SetCatalogState function
 author: windows-sdk-content
 description: Sets the catalog state for backup or other purposes.
 old-location: indexsrv\setcatalogstate.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetCatalogState
 product: Windows
 targetos: Windows
-req.lib: Ntquery.lib
-req.dll: Ntquery.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetCatalogState function

@@ -4,17 +4,16 @@ title: IMFTimer::CancelTimer
 author: windows-sdk-content
 description: Cancels a timer that was set using the IMFTimer::SetTimer method.
 old-location: mf\imftimer_canceltimer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3fa65809-1652-4903-92ad-1034bcdf0743
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation],IMFTimer interface, IMFTimer interface [Media Foundation],CancelTimer method, IMFTimer.CancelTimer, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTimer.CancelTimer
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimer::CancelTimer

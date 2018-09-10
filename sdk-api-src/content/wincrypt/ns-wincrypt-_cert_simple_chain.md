@@ -4,7 +4,7 @@ title: "_CERT_SIMPLE_CHAIN"
 author: windows-sdk-content
 description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.
 old-location: security\cert_simple_chain.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c130cab4-bf8d-429a-beb7-04cb5d37d466
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_SIMPLE_CHAIN, *PCERT_SIMPLE_CHAIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_SIMPLE_CHAIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_SIMPLE_CHAIN, *PCERT_SIMPLE_CHAIN
+req.redist: 
 ---
 
 # _CERT_SIMPLE_CHAIN structure

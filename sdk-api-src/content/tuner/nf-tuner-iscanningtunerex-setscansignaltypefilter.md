@@ -4,17 +4,16 @@ title: IScanningTunerEx::SetScanSignalTypeFilter
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScanningTunerEx.SetScanSignalTypeFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IScanningTunerEx::SetScanSignalTypeFilter

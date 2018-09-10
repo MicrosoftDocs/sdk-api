@@ -4,17 +4,16 @@ title: IShellFolderView::AddObject
 author: windows-sdk-content
 description: AddObject may be altered or unavailable.
 old-location: shell\IShellFolderView_AddObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50f07c12-7c66-40a0-b710-a4240fde859a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AddObject method, IShellFolderView.AddObject, IShellFolderView::AddObject, _shell_IShellFolderView_AddObject, shell.IShellFolderView_AddObject, shlobj_core/IShellFolderView::AddObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.AddObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::AddObject

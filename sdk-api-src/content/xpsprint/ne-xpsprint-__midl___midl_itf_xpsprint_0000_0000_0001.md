@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_xpsprint_0000_0000_0001"
 author: windows-sdk-content
 description: Indicates the completion status of a print job.
 old-location: gdi\xps_job_completion.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsprint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: XpsObjectModel_1.idl; XpsObjectModel_2.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_JOB_COMPLETION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XPS_JOB_COMPLETION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: XPS_JOB_COMPLETION
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_xpsprint_0000_0000_0001 enumeration

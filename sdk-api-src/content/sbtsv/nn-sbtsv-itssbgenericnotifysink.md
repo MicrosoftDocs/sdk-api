@@ -4,7 +4,7 @@ title: ITsSbGenericNotifySink
 author: windows-sdk-content
 description: Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbgenericnotifysink.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 03a895ef-6c67-4537-bc1c-838b65ae3487
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbGenericNotifySink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbGenericNotifySink interface

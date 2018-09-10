@@ -4,17 +4,16 @@ title: LsaCallAuthenticationPackage function
 author: windows-sdk-content
 description: Used by a logon application to communicate with an authentication package.
 old-location: security\lsacallauthenticationpackage.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaCallAuthenticationPackage
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaCallAuthenticationPackage function

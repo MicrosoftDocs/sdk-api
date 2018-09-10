@@ -4,17 +4,16 @@ title: ITextRow::GetCellColorFore
 author: windows-sdk-content
 description: Gets the foreground color of the active cell.
 old-location: controls\itextrow_getcellcolorfore.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 92c8bff3-a56b-4adc-9f49-728f22c1089b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCellColorFore, GetCellColorFore method [Windows Controls], GetCellColorFore method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorFore method, ITextRow.GetCellColorFore, ITextRow::GetCellColorFore, controls.itextrow_getcellcolorfore, tom/ITextRow::GetCellColorFore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.GetCellColorFore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::GetCellColorFore

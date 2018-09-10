@@ -4,17 +4,16 @@ title: IShellFolderViewDual3::get_FolderFlags
 author: windows-sdk-content
 description: Gets the settings for the current folder.
 old-location: shell\IShellFolderViewDual3_get_FolderFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c0fc82d4-d27e-4410-88a8-83839de8409b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_FolderFlags method, IShellFolderViewDual3.get_FolderFlags, IShellFolderViewDual3::get_FolderFlags, _shell_IShellFolderViewDual3_get_FolderFlags, get_FolderFlags, get_FolderFlags method [Windows Shell], get_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_FolderFlags, shldisp/IShellFolderViewDual3::get_FolderFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual3.get_FolderFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual3::get_FolderFlags

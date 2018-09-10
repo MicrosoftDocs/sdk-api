@@ -4,17 +4,16 @@ title: IWSDServiceMessaging::FaultRequest
 author: windows-sdk-content
 description: Sends a fault matching a given request context.
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDServiceMessaging.FaultRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDServiceMessaging::FaultRequest

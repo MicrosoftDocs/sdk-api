@@ -4,7 +4,7 @@ title: DSQUERYCLASSLIST
 author: windows-sdk-content
 description: The DSQUERYCLASSLIST structure describes a list of classes against which a directory service query is made.
 old-location: ad\dsqueryclasslist.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 96cc527f-490f-4701-b000-6a42db8715fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSQUERYCLASSLIST, *LPDSQUERYCLASSLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSQUERYCLASSLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSQUERYCLASSLIST, *LPDSQUERYCLASSLIST
+req.redist: 
 ---
 
 # DSQUERYCLASSLIST structure

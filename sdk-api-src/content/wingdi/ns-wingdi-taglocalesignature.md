@@ -4,7 +4,7 @@ title: tagLOCALESIGNATURE
 author: windows-sdk-content
 description: Contains extended font signature information, including two code page bitfields (CPBs) that define the default and supported character sets and code pages. This structure is typically used to represent the relationships between font coverage and locales.
 old-location: intl\localesignature.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 54510d73-f2a2-4176-8080-cdf855e99217
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCALESIGNATURE, *PLOCALESIGNATURE, *LPLOCALESIGNATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LOCALESIGNATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LOCALESIGNATURE, *PLOCALESIGNATURE, *LPLOCALESIGNATURE
+req.redist: 
 ---
 
 # tagLOCALESIGNATURE structure

@@ -4,7 +4,7 @@ title: "_CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO"
 author: windows-sdk-content
 description: Contains information about the PVK file that contains the certificates used by the CryptUIWizDigitalSign function.
 old-location: security\cryptui_wiz_digital_sign_cert_pvk_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0316ed0b-d4e5-4102-9ab0-637e96c7d9f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
+req.redist: 
 ---
 
 # _CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure

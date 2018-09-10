@@ -4,7 +4,7 @@ title: "_VDS_VDISK_STATE"
 author: windows-sdk-content
 description: Defines the set of status values for a virtual disk object.
 old-location: base\vds_vdisk_state.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 62906f28-f6ae-488c-bf1f-655de5c7b95e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VDISK_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VDISK_STATE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VDISK_STATE
+req.redist: 
 ---
 
 # _VDS_VDISK_STATE enumeration

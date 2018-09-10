@@ -4,7 +4,7 @@ title: "_GLOBAL_POWER_POLICY"
 author: windows-sdk-content
 description: Contains global power policy settings that apply to all power schemes.
 old-location: base\global_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 5c177093-0c16-4a84-9212-f2376de6965b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLOBAL_POWER_POLICY, *PGLOBAL_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLOBAL_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GLOBAL_POWER_POLICY, *PGLOBAL_POWER_POLICY
+req.redist: 
 ---
 
 # _GLOBAL_POWER_POLICY structure

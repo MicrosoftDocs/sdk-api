@@ -4,17 +4,16 @@ title: IUIAnimationTimer::Enable
 author: windows-sdk-content
 description: Enables the animation timer.
 old-location: uianimation\iuianimationtimer_enable.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTimer.Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTimer::Enable

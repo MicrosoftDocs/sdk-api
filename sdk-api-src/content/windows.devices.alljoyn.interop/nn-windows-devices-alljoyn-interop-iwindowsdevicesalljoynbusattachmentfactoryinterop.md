@@ -4,7 +4,7 @@ title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 author: windows-sdk-content
 description: This interface allows for the creation of alljoyn_busattachment without taking ownership of the reference.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop.htm
-old-project: AllJoyn
+tech.root: AllJoyn
 ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface

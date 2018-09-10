@@ -4,17 +4,16 @@ title: ILoadFilter::LoadIFilterFromStorage
 author: windows-sdk-content
 description: Do not use:\_this method is not implemented.
 old-location: search\iloadfilter_loadifilterfromstorage.htm
-old-project: search
+tech.root: search
 ms.assetid: b4eff132-9022-4091-a2a3-1d8e11a35b39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStorage method, ILoadFilter.LoadIFilterFromStorage, ILoadFilter::LoadIFilterFromStorage, LoadIFilterFromStorage, LoadIFilterFromStorage method [search], LoadIFilterFromStorage method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStorage, search.iloadfilter_loadifilterfromstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: filtereg.h
 req.include-header: Filtereg.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_CHUNK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILoadFilter.LoadIFilterFromStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # ILoadFilter::LoadIFilterFromStorage
@@ -85,7 +83,7 @@ Do not use: this method is not implemented.
 
 ### -param ppIFilt
 
-
+TBD
 
 
 

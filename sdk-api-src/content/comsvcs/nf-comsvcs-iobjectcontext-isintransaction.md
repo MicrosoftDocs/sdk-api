@@ -4,17 +4,16 @@ title: IObjectContext::IsInTransaction
 author: windows-sdk-content
 description: Indicates whether the object is executing within a transaction.
 old-location: cos\iobjectcontext_isintransaction.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6a5582ef-0142-45df-bdad-2e3d58ca6e87
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IObjectContext interface [COM+],IsInTransaction method, IObjectContext.IsInTransaction, IObjectContext::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],IObjectContext interface, _cos_IObjectContext_IsInTransaction, comsvcs/IObjectContext::IsInTransaction, cos.iobjectcontext_isintransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContext.IsInTransaction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContext::IsInTransaction

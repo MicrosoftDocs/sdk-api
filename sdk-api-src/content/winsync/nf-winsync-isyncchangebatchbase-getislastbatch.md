@@ -4,17 +4,16 @@ title: ISyncChangeBatchBase::GetIsLastBatch
 author: windows-sdk-content
 description: Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
 old-location: winsync\isyncchangebatchbase_getislastbatch.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchBase.GetIsLastBatch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchBase::GetIsLastBatch

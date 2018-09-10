@@ -4,17 +4,16 @@ title: BreakMirrorVirtualDisk function
 author: windows-sdk-content
 description: Breaks a previously initiated mirror operation and sets the mirror to be the active virtual disk.
 old-location: vhd\breakmirrorvirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BreakMirrorVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # BreakMirrorVirtualDisk function

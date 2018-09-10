@@ -4,7 +4,7 @@ title: tag_SCRIPT_ANALYSIS
 author: windows-sdk-content
 description: Contains a portion of a Unicode string, that is, an &#0034;item&#0034;.
 old-location: intl\script_analysis.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c673d5cc-c4ca-4238-8090-55abe3db324b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_ANALYSIS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_ANALYSIS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_ANALYSIS
+req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ---
 
 # tag_SCRIPT_ANALYSIS structure

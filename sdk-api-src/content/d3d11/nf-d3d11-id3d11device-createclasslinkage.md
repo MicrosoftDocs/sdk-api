@@ -4,17 +4,16 @@ title: ID3D11Device::CreateClassLinkage
 author: windows-sdk-content
 description: Creates class linkage libraries to enable dynamic shader linkage.
 old-location: direct3d11\id3d11device_createclasslinkage.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 1d68e977-bcdc-4aab-9434-29200553a69e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 411c8228-de78-2b45-6754-17ebcd3ef8de, CreateClassLinkage, CreateClassLinkage method [Direct3D 11], CreateClassLinkage method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateClassLinkage method, ID3D11Device.CreateClassLinkage, ID3D11Device::CreateClassLinkage, d3d11/ID3D11Device::CreateClassLinkage, direct3d11.id3d11device_createclasslinkage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CreateClassLinkage
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CreateClassLinkage

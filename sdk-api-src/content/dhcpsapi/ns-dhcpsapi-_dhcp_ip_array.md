@@ -4,7 +4,7 @@ title: "_DHCP_IP_ARRAY"
 author: windows-sdk-content
 description: The DHCP_IP_ARRAY structure defines an array of IP addresses.
 old-location: dhcp\dhcp_ip_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 84f42e55-8364-4119-83e4-c03699a9aa0a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_IP_ARRAY, *LPDHCP_IP_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_IP_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_IP_ARRAY, *LPDHCP_IP_ARRAY
+req.redist: 
 ---
 
 # _DHCP_IP_ARRAY structure

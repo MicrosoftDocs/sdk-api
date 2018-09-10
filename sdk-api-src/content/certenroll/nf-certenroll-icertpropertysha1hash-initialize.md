@@ -4,17 +4,16 @@ title: ICertPropertySHA1Hash::Initialize
 author: windows-sdk-content
 description: Initializes the object from the SHA-1 hash of a certificate.
 old-location: security\icertpropertysha1hash_initialize_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 898da01b-94e6-4a07-9c53-f93378fbda8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],Initialize method, ICertPropertySHA1Hash.Initialize, ICertPropertySHA1Hash::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::Initialize, security.icertpropertysha1hash_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertySHA1Hash.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertySHA1Hash::Initialize

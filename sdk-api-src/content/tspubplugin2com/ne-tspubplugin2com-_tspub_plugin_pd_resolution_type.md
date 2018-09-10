@@ -4,7 +4,7 @@ title: "_TSPUB_PLUGIN_PD_RESOLUTION_TYPE"
 author: windows-sdk-content
 description: Specifies the type of personal desktop resolution being requested.
 old-location: termserv\tspub_plugin_pd_resolution_type.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8cba4e6a-3508-4f9f-a206-4a0b41a933c1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+req.redist: 
 ---
 
 # _TSPUB_PLUGIN_PD_RESOLUTION_TYPE enumeration

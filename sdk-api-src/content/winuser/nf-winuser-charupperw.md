@@ -4,17 +4,16 @@ title: CharUpperW function
 author: windows-sdk-content
 description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place.
 old-location: menurc\charupper.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupper.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CharUpper, CharUpper function [Menus and Other Resources], CharUpperA, CharUpperW, _win32_CharUpper, _win32_charupper_cpp, menurc.charupper, winui._win32_charupper, winuser/CharUpper, winuser/CharUpperA, winuser/CharUpperW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - CharUpperW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # CharUpperW function

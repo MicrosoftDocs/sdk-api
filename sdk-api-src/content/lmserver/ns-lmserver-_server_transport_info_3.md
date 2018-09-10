@@ -4,7 +4,7 @@ title: "_SERVER_TRANSPORT_INFO_3"
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_3 structure contains information about the specified transport protocol, including name, address and password (credentials). This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_3_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 045d60d4-518f-4ce4-b611-e23d1588d5d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_TRANSPORT_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.redist: 
 ---
 
 # _SERVER_TRANSPORT_INFO_3 structure

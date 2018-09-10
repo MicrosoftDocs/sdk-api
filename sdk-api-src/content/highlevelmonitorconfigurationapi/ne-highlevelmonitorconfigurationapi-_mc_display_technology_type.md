@@ -4,7 +4,7 @@ title: "_MC_DISPLAY_TECHNOLOGY_TYPE"
 author: windows-sdk-content
 description: Identifies monitor display technologies.
 old-location: monitor\mc_display_technology_type.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 22cb7b73-931c-4cab-a359-f957ec457148
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_DISPLAY_TECHNOLOGY_TYPE, *LPMC_DISPLAY_TECHNOLOGY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MC_DISPLAY_TECHNOLOGY_TYPE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MC_DISPLAY_TECHNOLOGY_TYPE, *LPMC_DISPLAY_TECHNOLOGY_TYPE
+req.redist: 
 ---
 
 # _MC_DISPLAY_TECHNOLOGY_TYPE enumeration

@@ -4,17 +4,16 @@ title: IMFASFIndexer::Initialize
 author: windows-sdk-content
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFIndexer.Initialize
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFIndexer::Initialize

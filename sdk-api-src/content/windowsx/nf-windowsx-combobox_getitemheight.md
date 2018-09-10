@@ -4,17 +4,16 @@ title: ComboBox_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the height of list items in a combo box. You can use this macro or send the CB_GETITEMHEIGHT message explicitly.
 old-location: controls\ComboBox_GetItemHeight.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemheight.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_GetItemHeight, ComboBox_GetItemHeight macro [Windows Controls], _win32_ComboBox_GetItemHeight, _win32_ComboBox_GetItemHeight_cpp, controls.ComboBox_GetItemHeight, controls._win32_ComboBox_GetItemHeight, windowsx/ComboBox_GetItemHeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComboBox_GetItemHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_GetItemHeight macro

@@ -4,17 +4,16 @@ title: SymEnumerateSymbols64 function
 author: windows-sdk-content
 description: Enumerates all the symbols for a specified module.
 old-location: base\symenumeratesymbols64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f1aa710c-fbe5-4c9a-9956-5bd872b4b5be
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymEnumerateSymbols, SymEnumerateSymbols function, SymEnumerateSymbols64, SymEnumerateSymbols64 function, SymEnumerateSymbolsW, SymEnumerateSymbolsW64, _win32_symenumeratesymbols64, base.symenumeratesymbols64, dbghelp/SymEnumerateSymbols, dbghelp/SymEnumerateSymbols64, dbghelp/SymEnumerateSymbolsW, dbghelp/SymEnumerateSymbolsW64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - SymEnumerateSymbolsW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymEnumerateSymbols64 function

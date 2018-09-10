@@ -4,17 +4,16 @@ title: IMFTimedTextTrackList::GetLength
 author: windows-sdk-content
 description: Gets the length, in tracks, of the timed-text-track list.
 old-location: mf\imftimedtexttracklist_getlength.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 468BF969-9D8D-4866-8E33-F1CC6F09E90A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetLength method, IMFTimedTextTrackList.GetLength, IMFTimedTextTrackList::GetLength, mf.imftimedtexttracklist_getlength, mfmediaengine/IMFTimedTextTrackList::GetLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrackList.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrackList::GetLength

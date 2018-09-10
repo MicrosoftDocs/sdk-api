@@ -4,17 +4,16 @@ title: MprAdminPortGetInfo function
 author: windows-sdk-content
 description: The MprAdminPortGetInfo function gets information for a specific port.
 old-location: rras\mpradminportgetinfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminPortGetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminPortGetInfo function

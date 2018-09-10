@@ -4,7 +4,7 @@ title: tagSCROLLBARINFO
 author: windows-sdk-content
 description: The SCROLLBARINFO structure contains scroll bar information.
 old-location: controls\SCROLLBARINFO.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollbarinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: Service Pack 6
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCROLLBARINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
+req.redist: Service Pack 6
 ---
 
 # tagSCROLLBARINFO structure

@@ -4,17 +4,16 @@ title: IActiveDesktop::ModifyDesktopItem
 author: windows-sdk-content
 description: Modifies the desktop item.
 old-location: lwef\iactivedesktop_modifydesktopitem.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: f80a0b49-3fa9-4041-833e-1e809a606a0c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: COMP_ELEM_ALL, COMP_ELEM_CHECKED, COMP_ELEM_CURITEMSTATE, COMP_ELEM_FRIENDLYNAME, COMP_ELEM_NOSCROLL, COMP_ELEM_ORIGINAL_CSI, COMP_ELEM_POS_LEFT, COMP_ELEM_POS_TOP, COMP_ELEM_POS_ZINDEX, COMP_ELEM_RESTORED_CSI, COMP_ELEM_SIZE_HEIGHT, COMP_ELEM_SIZE_WIDTH, COMP_ELEM_SOURCE, COMP_ELEM_TYPE, IActiveDesktop interface [Legacy Windows Environment Features],ModifyDesktopItem method, IActiveDesktop.ModifyDesktopItem, IActiveDesktop::ModifyDesktopItem, ModifyDesktopItem, ModifyDesktopItem method [Legacy Windows Environment Features], ModifyDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_ModifyDesktopItem, lwef.iactivedesktop_modifydesktopitem, shell.iactivedesktop_modifydesktopitem, shlobj/IActiveDesktop::ModifyDesktopItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shlobj_core.h (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.ModifyDesktopItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlobj_core.h (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::ModifyDesktopItem

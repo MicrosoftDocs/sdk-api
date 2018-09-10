@@ -4,17 +4,16 @@ title: IMenuPopup::SetSubMenu
 author: windows-sdk-content
 description: Sets the given menu bar interface to be the submenu of the calling application object's interface.
 old-location: shell\IMenuPopup_SetSubMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c2f80502-bac5-4a6f-95ba-1610c548e636
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMenuPopup interface [Windows Shell],SetSubMenu method, IMenuPopup.SetSubMenu, IMenuPopup::SetSubMenu, SetSubMenu, SetSubMenu method [Windows Shell], SetSubMenu method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_SetSubMenu, shell.IMenuPopup_SetSubMenu, shobjidl_core/IMenuPopup::SetSubMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMenuPopup.SetSubMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IMenuPopup::SetSubMenu

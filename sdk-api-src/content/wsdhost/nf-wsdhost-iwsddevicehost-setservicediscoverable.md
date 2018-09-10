@@ -4,17 +4,16 @@ title: IWSDDeviceHost::SetServiceDiscoverable
 author: windows-sdk-content
 description: Controls whether or not the service is advertised using WS-Discovery.
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceHost.SetServiceDiscoverable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceHost::SetServiceDiscoverable

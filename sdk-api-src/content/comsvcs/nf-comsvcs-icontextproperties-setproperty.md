@@ -4,17 +4,16 @@ title: IContextProperties::SetProperty
 author: windows-sdk-content
 description: Sets a context object property.
 old-location: cos\icontextproperties_setproperty.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4f6a27a2-37e9-4d4b-9d7e-916d791f03a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextProperties.SetProperty, IContextProperties::SetProperty, SetProperty, SetProperty method [COM+], SetProperty method [COM+],IContextProperties interface, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContextProperties.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContextProperties::SetProperty

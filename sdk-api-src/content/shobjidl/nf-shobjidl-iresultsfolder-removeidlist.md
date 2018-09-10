@@ -4,17 +4,16 @@ title: IResultsFolder::RemoveIDList
 author: windows-sdk-content
 description: Removes a pointer to an item identifier list (PIDL) from a results folder.
 old-location: shell\IResultsFolder_RemoveIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 188d4f7f-954c-4bba-ad4e-164085e0cc5a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveIDList method, IResultsFolder.RemoveIDList, IResultsFolder::RemoveIDList, RemoveIDList, RemoveIDList method [Windows Shell], RemoveIDList method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveIDList, shell.IResultsFolder_RemoveIDList, shobjidl/IResultsFolder::RemoveIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IResultsFolder.RemoveIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IResultsFolder::RemoveIDList

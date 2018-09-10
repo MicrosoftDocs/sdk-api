@@ -4,7 +4,7 @@ title: PROPERTYORIGIN
 author: windows-sdk-content
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPERTYORIGIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # PROPERTYORIGIN enumeration

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0002"
 author: windows-sdk-content
 description: Defines the format of the data in the log file.
 old-location: pla\fileformat.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 8ec50a96-0c8c-401a-8849-e3753fe15952
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FileFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FileFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FileFormat
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0002 enumeration

@@ -4,17 +4,16 @@ title: DPA_GetSize function
 author: windows-sdk-content
 description: Gets the size of a dynamic pointer array (DPA).
 old-location: controls\DPA_GetSize.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getsize.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DPA_GetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DPA_GetSize function

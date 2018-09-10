@@ -4,17 +4,16 @@ title: AmsiUninitialize function
 author: windows-sdk-content
 description: Remove the instance of the AMSI API that was originally opened by AmsiInitialize.
 old-location: amsi\amsiuninitialize.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: DAC1AAE6-3160-4A82-8E81-9CB245AFD653
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AmsiUninitialize, AmsiUninitialize function [Antimalware Scan Interface], amsi.amsiuninitialize, amsi/AmsiUninitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Amsi.lib
+req.dll: Amsi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AmsiUninitialize
 product: Windows
 targetos: Windows
-req.lib: Amsi.lib
-req.dll: Amsi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AmsiUninitialize function

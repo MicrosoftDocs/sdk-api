@@ -4,7 +4,7 @@ title: "_RDCOMPARE"
 author: windows-sdk-content
 description: The RDCOMPARE structure is introduced in MMC 1.2.
 old-location: mmc\rdcompare.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDCOMPARE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDCOMPARE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RDCOMPARE
+req.redist: 
 ---
 
 # _RDCOMPARE structure

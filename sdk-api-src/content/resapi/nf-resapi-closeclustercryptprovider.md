@@ -4,17 +4,16 @@ title: CloseClusterCryptProvider function
 author: windows-sdk-content
 description: Closes a handle to a Cryptographic Service Provider (CSP). The PCLOSE_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.
 old-location: mscs\closeclustercryptprovider.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Failover Cluster], PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], mscs.closeclustercryptprovider, resapi/CloseClusterCryptProvider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CloseClusterCryptProvider
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CloseClusterCryptProvider function

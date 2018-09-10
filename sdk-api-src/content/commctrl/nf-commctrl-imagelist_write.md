@@ -4,17 +4,16 @@ title: ImageList_Write function
 author: windows-sdk-content
 description: Writes an image list to a stream.
 old-location: controls\ImageList_Write.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_write.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ImageList_Write, ImageList_Write function [Windows Controls], _win32_ImageList_Write, _win32_ImageList_Write_cpp, commctrl/ImageList_Write, controls.ImageList_Write, controls._win32_ImageList_Write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageList_Write
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ImageList_Write function

@@ -4,17 +4,16 @@ title: IMFDeviceTransformCallback::OnBufferSent
 author: windows-sdk-content
 description: Called when system-allocated frame buffers are sent to the device driver.
 old-location: stream\imfdevicetransformcallback_onbuffersent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8736BF02-636A-4894-AA74-92A805152D52
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransformCallback interface [Streaming Media Devices],OnBufferSent method, IMFDeviceTransformCallback.OnBufferSent, IMFDeviceTransformCallback::OnBufferSent, OnBufferSent, OnBufferSent method [Streaming Media Devices], OnBufferSent method [Streaming Media Devices],IMFDeviceTransformCallback interface, mftransform/IMFDeviceTransformCallback::OnBufferSent, stream.imfdevicetransformcallback_onbuffersent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransformCallback.OnBufferSent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransformCallback::OnBufferSent

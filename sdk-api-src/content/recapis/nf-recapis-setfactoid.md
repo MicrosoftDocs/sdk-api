@@ -4,17 +4,16 @@ title: SetFactoid function
 author: windows-sdk-content
 description: Specifies the factoid a recognizer uses to constrain its search for the result.You specify a factoid if an input field is of a known type, such as if the input field contains a date.
 old-location: tablet\setfactoid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetFactoid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetFactoid function

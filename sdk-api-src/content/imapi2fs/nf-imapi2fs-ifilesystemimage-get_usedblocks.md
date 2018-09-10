@@ -4,17 +4,16 @@ title: IFileSystemImage::get_UsedBlocks
 author: windows-sdk-content
 description: Retrieves the number of blocks in use.
 old-location: imapi\ifilesystemimage_get_usedblocks.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 97f59440-112b-49ea-9f8e-97e8a831229d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UsedBlocks method, IFileSystemImage.get_UsedBlocks, IFileSystemImage::get_UsedBlocks, get_UsedBlocks, get_UsedBlocks method [IMAPI], get_UsedBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_usedblocks, imapi2fs/IFileSystemImage::get_UsedBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.get_UsedBlocks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::get_UsedBlocks

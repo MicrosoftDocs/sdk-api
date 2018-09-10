@@ -4,17 +4,16 @@ title: IEmailAction::put_HeaderFields
 author: windows-sdk-content
 description: Gets or sets the header information in the email message to send.
 old-location: taskschd\iemailaction_headerfields.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],HeaderFields property, IEmailAction.HeaderFields, IEmailAction.put_HeaderFields, IEmailAction::HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, put_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEmailAction.put_HeaderFields
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmailAction::put_HeaderFields

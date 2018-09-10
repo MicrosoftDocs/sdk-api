@@ -4,17 +4,16 @@ title: IStrokeBuilder::get_Ink
 author: windows-sdk-content
 description: Gets or sets the ink object that is associated with the IStrokeBuilder object.
 old-location: tablet\istrokebuilder_ink.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ceb8eaea-5059-4386-ad48-63d563ef9731
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IStrokeBuilder interface [Tablet PC],Ink property, IStrokeBuilder.Ink, IStrokeBuilder.get_Ink, IStrokeBuilder.put_Ink, IStrokeBuilder::Ink, IStrokeBuilder::get_Ink, IStrokeBuilder::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IStrokeBuilder interface, ceb8eaea-5059-4386-ad48-63d563ef9731, get_Ink, rtscom/IStrokeBuilder::Ink, rtscom/IStrokeBuilder::get_Ink, rtscom/IStrokeBuilder::put_Ink, tablet.istrokebuilder_ink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IStrokeBuilder.put_Ink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStrokeBuilder::get_Ink

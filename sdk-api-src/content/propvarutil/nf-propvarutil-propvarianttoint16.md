@@ -4,17 +4,16 @@ title: PropVariantToInt16 function
 author: windows-sdk-content
 description: Extracts an Int16 property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToInt16.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 32070620-bae2-4465-8b11-b88adb6cb365
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantToInt16, PropVariantToInt16 function [Windows Properties], properties.PropVariantToInt16, propvarutil/PropVariantToInt16, shell.PropVariantToInt16, shell_PropVariantToInt16
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantToInt16
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantToInt16 function

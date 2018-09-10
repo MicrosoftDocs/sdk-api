@@ -4,17 +4,16 @@ title: RpcExceptionFilter function
 author: windows-sdk-content
 description: A default exception filter that determines whether an exception is fatal or non-fatal.
 old-location: rpc\rpcexceptionfilter.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: AB1AE035-5874-4415-8B85-BDC0E2139416
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcExceptionFilter, RpcExceptionFilter function [RPC], STATUS_ACCESS_VIOLATION, STATUS_ASSERTION_FAILURE, STATUS_BREAKPOINT, STATUS_DATATYPE_MISALIGNMENT, STATUS_GUARD_PAGE_VIOLATION, STATUS_HANDLE_NOT_CLOSABLE, STATUS_ILLEGAL_INSTRUCTION, STATUS_INSTRUCTION_MISALIGNMENT, STATUS_IN_PAGE_ERROR, STATUS_POSSIBLE_DEADLOCK, STATUS_PRIVILEGED_INSTRUCTION, STATUS_REG_NAT_CONSUMPTION, STATUS_STACK_BUFFER_OVERRUN, STATUS_STACK_OVERFLOW, rpc.rpcexceptionfilter, rpcdce/RpcExceptionFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcExceptionFilter
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcExceptionFilter function

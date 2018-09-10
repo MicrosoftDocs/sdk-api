@@ -4,7 +4,7 @@ title: WICPlanarOptions
 author: windows-sdk-content
 description: Specifies additional options to an IWICPlanarBitmapSourceTransform implementation.
 old-location: wic\wicplanaroptions.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 8B7F34AA-77A0-428D-800E-31AB43067102
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPlanarOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICPlanarOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICPlanarOptions
+req.redist: 
 ---
 
 # WICPlanarOptions enumeration

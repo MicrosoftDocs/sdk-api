@@ -4,17 +4,16 @@ title: IAMovieSetup::Register
 author: windows-sdk-content
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Adds the filter to the registry.
 old-location: dshow\iamoviesetup_register.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c39edba2-df48-43e4-9a0d-d5c409a8a9d0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Register method, IAMovieSetup.Register, IAMovieSetup::Register, IAMovieSetupRegister, Register, Register method [DirectShow], Register method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_register, strmif/IAMovieSetup::Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMovieSetup.Register
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMovieSetup::Register

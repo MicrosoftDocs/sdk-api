@@ -4,17 +4,16 @@ title: IFont::get_Strikethrough
 author: windows-sdk-content
 description: Gets the font's current Strikethrough property.
 old-location: com\ifont_get_strikethrough.htm
-old-project: com
+tech.root: com
 ms.assetid: e70ea85a-fc76-412c-a100-c834dc8f0208
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],get_Strikethrough method, IFont.get_Strikethrough, IFont::get_Strikethrough, _ctrl_ifont_get_strikethrough, com.ifont_get_strikethrough, get_Strikethrough, get_Strikethrough method [COM], get_Strikethrough method [COM],IFont interface, ocidl/IFont::get_Strikethrough
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.get_Strikethrough
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::get_Strikethrough

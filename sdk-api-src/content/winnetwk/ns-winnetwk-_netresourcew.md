@@ -4,7 +4,7 @@ title: "_NETRESOURCEW"
 author: windows-sdk-content
 description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
 old-location: security\netresource.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: c7e22694-2dfd-4a9e-bd40-277611476f97
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETRESOURCEW, *LPNETRESOURCEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - NETRESOURCEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NETRESOURCEW, *LPNETRESOURCEW
+req.redist: 
 ---
 
 # _NETRESOURCEW structure

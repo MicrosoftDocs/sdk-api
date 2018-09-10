@@ -4,7 +4,7 @@ title: "_DDOPENVIDEOPORTIN"
 author: windows-sdk-content
 description: The DDOPENVIDEOPORTIN structure contains the video port extensions (VPE) object information.
 old-location: display\ddopenvideoportin.htm
-old-project: display
+tech.root: display
 ms.assetid: 53a0fdb3-583d-4da2-939c-6640ca9e6c31
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDOPENVIDEOPORTIN, *LPDDOPENVIDEOPORTIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDOPENVIDEOPORTIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDOPENVIDEOPORTIN, *LPDDOPENVIDEOPORTIN
+req.redist: 
 ---
 
 # _DDOPENVIDEOPORTIN structure

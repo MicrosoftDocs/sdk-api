@@ -4,17 +4,16 @@ title: IVMRImageCompositor9::CompositeImage
 author: windows-sdk-content
 description: The CompositeImage method composites the current frames available in each input stream.
 old-location: dshow\ivmrimagecompositor9_compositeimage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a59d21e8-faa2-484d-9d82-991c6bc4e045
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor9 interface, IVMRImageCompositor9 interface [DirectShow],CompositeImage method, IVMRImageCompositor9.CompositeImage, IVMRImageCompositor9::CompositeImage, IVMRImageCompositor9CompositeImage, dshow.ivmrimagecompositor9_compositeimage, vmr9/IVMRImageCompositor9::CompositeImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRImageCompositor9.CompositeImage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRImageCompositor9::CompositeImage

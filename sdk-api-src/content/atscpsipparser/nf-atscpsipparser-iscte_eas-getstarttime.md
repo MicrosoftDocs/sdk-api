@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetStartTime
 author: windows-sdk-content
 description: The GetStartTime method returns the starting time of the alert.
 old-location: mstv\iscte_eas_getstarttime.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetStartTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetStartTime

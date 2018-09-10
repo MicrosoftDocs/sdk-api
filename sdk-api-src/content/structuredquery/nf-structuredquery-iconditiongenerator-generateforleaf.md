@@ -4,17 +4,16 @@ title: IConditionGenerator::GenerateForLeaf
 author: windows-sdk-content
 description: Generates a special query expression for what would otherwise become a leaf query expression.
 old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionGenerator.GenerateForLeaf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IConditionGenerator::GenerateForLeaf
@@ -79,7 +77,7 @@ Property name, or <b>NULL</b> if there is no property name.
 
 ### -param cop
 
-
+TBD
 
 
 ### -param pszValueType [in]

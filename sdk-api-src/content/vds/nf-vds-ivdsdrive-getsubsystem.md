@@ -4,17 +4,16 @@ title: IVdsDrive::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the drive belongs.
 old-location: base\ivdsdrive_getsubsystem.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: e407cf77-93a7-48f6-85d3-007369316041
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetSubSystem method, IVdsDrive.GetSubSystem, IVdsDrive::GetSubSystem, base.ivdsdrive_getsubsystem, vds/IVdsDrive::GetSubSystem, vdshwprv/IVdsDrive::GetSubSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive.GetSubSystem
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive::GetSubSystem

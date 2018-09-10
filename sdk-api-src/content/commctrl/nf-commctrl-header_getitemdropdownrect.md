@@ -4,17 +4,16 @@ title: Header_GetItemDropDownRect macro
 author: windows-sdk-content
 description: Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETITEMDROPDOWNRECT message explicitly.
 old-location: controls\Header_GetItemDropDownRect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Header_GetItemDropDownRect, Header_GetItemDropDownRect macro [Windows Controls], _shell_Header_GetItemDropDownRect, _shell_Header_GetItemDropDownRect_cpp, commctrl/Header_GetItemDropDownRect, controls.Header_GetItemDropDownRect, controls._shell_Header_GetItemDropDownRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Header_GetItemDropDownRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Header_GetItemDropDownRect macro

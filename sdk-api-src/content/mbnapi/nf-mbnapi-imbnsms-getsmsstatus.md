@@ -4,17 +4,16 @@ title: IMbnSms::GetSmsStatus
 author: windows-sdk-content
 description: Gets the SMS status for a device.
 old-location: mbn\imbnsms_getsmsstatus.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSms.GetSmsStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSms::GetSmsStatus

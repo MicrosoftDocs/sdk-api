@@ -4,7 +4,7 @@ title: "_HTTP_LOG_DATA"
 author: windows-sdk-content
 description: Contains a value that specifies the type of the log data.
 old-location: http\http_log_data.htm
-old-project: http
+tech.root: http
 ms.assetid: 31598e37-d487-4ef0-9443-e704cc60a6b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_LOG_DATA, *PHTTP_LOG_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_LOG_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_LOG_DATA, *PHTTP_LOG_DATA
+req.redist: 
 ---
 
 # _HTTP_LOG_DATA structure

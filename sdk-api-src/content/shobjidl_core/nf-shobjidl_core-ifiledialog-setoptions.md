@@ -4,17 +4,16 @@ title: IFileDialog::SetOptions
 author: windows-sdk-content
 description: Sets flags to control the behavior of the dialog.
 old-location: shell\IFileDialog_SetOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetOptions

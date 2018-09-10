@@ -4,17 +4,16 @@ title: IDWriteFontDownloadListener::DownloadCompleted
 author: windows-sdk-content
 description: The DownloadCompleted method is called back on an arbitrary thread when a download operation ends.
 old-location: directwrite\idwritefontdownloadlistener_downloadcompleted.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: d4da0189-efe4-4ee6-4cc9-179fbda54b98
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DownloadCompleted, DownloadCompleted method [Direct Write], DownloadCompleted method [Direct Write],IDWriteFontDownloadListener interface, IDWriteFontDownloadListener interface [Direct Write],DownloadCompleted method, IDWriteFontDownloadListener.DownloadCompleted, IDWriteFontDownloadListener::DownloadCompleted, directwrite.idwritefontdownloadlistener_downloadcompleted, dwrite_3/IDWriteFontDownloadListener::DownloadCompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontDownloadListener.DownloadCompleted
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontDownloadListener::DownloadCompleted

@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_TargetMachine
 author: windows-sdk-content
 description: Retrieves the name of the computer on which account resolution should occur.
 old-location: security\azauthorizationstore_targetmachine.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],TargetMachine property, IAzAuthorizationStore interface [Security],TargetMachine property, IAzAuthorizationStore.TargetMachine, IAzAuthorizationStore.get_TargetMachine, IAzAuthorizationStore::TargetMachine, IAzAuthorizationStore::get_TargetMachine, TargetMachine property [Security], TargetMachine property [Security],AzAuthorizationStore object, TargetMachine property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::TargetMachine, azroles/IAzAuthorizationStore::get_TargetMachine, get_TargetMachine, security.azauthorizationstore_targetmachine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.TargetMachine
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_TargetMachine

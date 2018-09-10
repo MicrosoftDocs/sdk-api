@@ -4,17 +4,16 @@ title: INetworkConnection::GetDomainType
 author: windows-sdk-content
 description: The GetDomainType method returns the domain type of the network connection.
 old-location: nla\inetworkconnection_getdomaintype.htm
-old-project: nla
+tech.root: nla
 ms.assetid: e243c1a3-8166-4e08-80f5-32811bcada69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetDomainType method, INetworkConnection.GetDomainType, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkConnection.GetDomainType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkConnection::GetDomainType

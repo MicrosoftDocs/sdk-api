@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::GetCapture
 author: windows-sdk-content
 description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.
 old-location: com\ioleinplacesitewindowless_getcapture.htm
-old-project: com
+tech.root: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.GetCapture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::GetCapture

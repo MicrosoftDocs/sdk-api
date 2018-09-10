@@ -4,7 +4,7 @@ title: tagRECO_LATTICE_COLUMN
 author: windows-sdk-content
 description: Represents a column in the lattice.
 old-location: tablet\reco_lattice_column.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5695cae1-2bbf-48d4-a044-b2bd81c362d0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_LATTICE_COLUMN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_LATTICE_COLUMN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_LATTICE_COLUMN
+req.redist: 
 ---
 
 # tagRECO_LATTICE_COLUMN structure

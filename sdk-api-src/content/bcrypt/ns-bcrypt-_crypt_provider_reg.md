@@ -4,7 +4,7 @@ title: "_CRYPT_PROVIDER_REG"
 author: windows-sdk-content
 description: Used to contain registration information for a CNG provider.
 old-location: security\crypt_provider_reg.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_REG, *PCRYPT_PROVIDER_REG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_PROVIDER_REG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_PROVIDER_REG, *PCRYPT_PROVIDER_REG
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_REG structure

@@ -4,17 +4,16 @@ title: InitVariantFromDosDateTime function
 author: windows-sdk-content
 description: Initializes a VARIANT structure with a date and time given in the format used by Microsoft MS-DOS. The date and time values are converted to the format used to store date and time in a VARIANT.
 old-location: properties\InitVariantFromDosDateTime.htm
-old-project: properties
+tech.root: properties
 ms.assetid: deb1b3e6-4e7b-49c2-a4dc-e3dfaa2727a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitVariantFromDosDateTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # InitVariantFromDosDateTime function

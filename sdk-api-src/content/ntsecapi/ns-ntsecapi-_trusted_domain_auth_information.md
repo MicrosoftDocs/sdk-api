@@ -4,7 +4,7 @@ title: "_TRUSTED_DOMAIN_AUTH_INFORMATION"
 author: windows-sdk-content
 description: The TRUSTED_DOMAIN_AUTH_INFORMATION structure is used to retrieve authentication information for a trusted domain. The LsaQueryTrustedDomainInfo function uses this structure when its InformationClass parameter is set to TrustedDomainAuthInformation.
 old-location: security\trusted_domain_auth_information.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 2ec606d7-42bd-47cc-a4cd-82908774aa43
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_DOMAIN_AUTH_INFORMATION, *PTRUSTED_DOMAIN_AUTH_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRUSTED_DOMAIN_AUTH_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TRUSTED_DOMAIN_AUTH_INFORMATION, *PTRUSTED_DOMAIN_AUTH_INFORMATION
+req.redist: 
 ---
 
 # _TRUSTED_DOMAIN_AUTH_INFORMATION structure

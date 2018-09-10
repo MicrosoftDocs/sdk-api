@@ -4,17 +4,16 @@ title: DhcpEnumOptionsV5 function
 author: windows-sdk-content
 description: The DhcpEnumOptionsV5 function returns an enumerated list of DHCP options for a given user or vendor class.
 old-location: dhcp\dhcpenumoptionsv5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV5, DhcpEnumOptionsV5 function [DHCP], dhcp.dhcpenumoptionsv5, dhcpsapi/DhcpEnumOptionsV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumOptionsV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumOptionsV5 function

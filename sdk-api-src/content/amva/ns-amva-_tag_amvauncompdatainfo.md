@@ -4,7 +4,7 @@ title: "_tag_AMVAUncompDataInfo"
 author: windows-sdk-content
 description: The AMVAUncompDataInfo structure specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
 old-location: dshow\amvauncompdatainfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 920f88bb-c671-4ab9-b482-b03505cca118
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVAUncompDataInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.redist: 
 ---
 
 # _tag_AMVAUncompDataInfo structure

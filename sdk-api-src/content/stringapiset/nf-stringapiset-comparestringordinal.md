@@ -4,17 +4,16 @@ title: CompareStringOrdinal function
 author: windows-sdk-content
 description: Compares two Unicode strings to test binary equivalence.
 old-location: intl\comparestringordinal.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CompareStringOrdinal
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # CompareStringOrdinal function

@@ -4,7 +4,7 @@ title: "_VDS_LUN_RESERVE_MODE"
 author: windows-sdk-content
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_lun_reserve_mode.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 198706a4-3692-4f75-bf68-c56671b752a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LUN_RESERVE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_LUN_RESERVE_MODE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LUN_RESERVE_MODE
+req.redist: 
 ---
 
 # _VDS_LUN_RESERVE_MODE enumeration

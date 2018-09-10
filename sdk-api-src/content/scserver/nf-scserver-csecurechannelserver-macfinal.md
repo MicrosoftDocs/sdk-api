@@ -4,17 +4,16 @@ title: CSecureChannelServer::MACFinal
 author: windows-sdk-content
 description: The MACFinal method releases the message authentication code (MAC) channel and retrieves a final MAC value.
 old-location: wmdm\csecurechannelserver_macfinal.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACFinal method, CSecureChannelServer.MACFinal, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelServer.MACFinal
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelServer::MACFinal

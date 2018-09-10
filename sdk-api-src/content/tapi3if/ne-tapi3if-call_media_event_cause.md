@@ -4,7 +4,7 @@ title: CALL_MEDIA_EVENT_CAUSE
 author: windows-sdk-content
 description: The CALL_MEDIA_EVENT_CAUSE enum is used by ITCallMediaEvent::get_Cause method to return a description of what caused a media event, such as a device timeout.
 old-location: tapi3\call_media_event_cause.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c43e0a72-decc-47e3-bd5e-d94a95a2e404
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALL_MEDIA_EVENT_CAUSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CALL_MEDIA_EVENT_CAUSE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CALL_MEDIA_EVENT_CAUSE
+req.redist: 
 ---
 
 # CALL_MEDIA_EVENT_CAUSE enumeration

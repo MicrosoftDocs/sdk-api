@@ -4,17 +4,16 @@ title: GetMouseWheelParameterInteractionContext function
 author: windows-sdk-content
 description: Gets the mouse wheel state for the Interaction Context object.
 old-location: input_intcontext\getmousewheelparameterinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 2edb742d-a5a1-4c3b-bc0f-c119a2f1c221
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: GetMouseWheelParameterInteractionContext, GetMouseWheelParameterInteractionContext function, input_intcontext.getmousewheelparameterinteractioncontext, interactioncontext.getmousewheelparameterinteractioncontext, interactioncontext/GetMouseWheelParameterInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMouseWheelParameterInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetMouseWheelParameterInteractionContext function

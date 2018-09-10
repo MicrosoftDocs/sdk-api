@@ -4,17 +4,16 @@ title: ITaskbarList3::SetTabActive
 author: windows-sdk-content
 description: Informs the taskbar that a tab or document window has been made the active window.
 old-location: shell\ITaskbarList3_SetTabActive.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d82f11eb-bfff-4661-8e2e-520f8226809b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabActive method, ITaskbarList3.SetTabActive, ITaskbarList3::SetTabActive, SetTabActive, SetTabActive method [Windows Shell], SetTabActive method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabActive, shell.ITaskbarList3_SetTabActive, shobjidl_core/ITaskbarList3::SetTabActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.SetTabActive
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::SetTabActive

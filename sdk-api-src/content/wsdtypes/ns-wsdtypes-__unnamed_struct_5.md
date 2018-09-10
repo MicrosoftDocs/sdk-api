@@ -4,7 +4,7 @@ title: REQUESTBODY_GetStatus
 author: windows-sdk-content
 description: Represents a WS-Eventing GetStatus request message.
 old-location: ncd\requestbody_getstatus.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 5b2282b2-297a-4151-a809-b85495d5d741
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REQUESTBODY_GetStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REQUESTBODY_GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: REQUESTBODY_GetStatus
+req.redist: 
 ---
 
 # REQUESTBODY_GetStatus structure

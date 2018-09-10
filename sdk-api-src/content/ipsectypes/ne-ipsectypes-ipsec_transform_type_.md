@@ -4,7 +4,7 @@ title: IPSEC_TRANSFORM_TYPE_
 author: windows-sdk-content
 description: Indicates the type of an IPsec security association (SA) transform.
 old-location: fwp\ipsec_transform_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 068f17f2-8696-4419-9daa-d8f6486e39a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TRANSFORM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TRANSFORM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TRANSFORM_TYPE
+req.redist: 
 ---
 
 # IPSEC_TRANSFORM_TYPE_ enumeration

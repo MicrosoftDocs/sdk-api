@@ -4,17 +4,16 @@ title: MountNtmsMedia function
 author: windows-sdk-content
 description: The MountNtmsMedia function synchronously mounts one or more pieces of media.
 old-location: fs\mountntmsmedia.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: f943f36c-654a-48ed-aeb2-1fc146f2d9ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_NOT_AVAILABLE, NTMS_MOUNT_ERROR_OFFLINE, NTMS_MOUNT_READ, NTMS_MOUNT_SPECIFIC_DRIVE, NTMS_MOUNT_WRITE, NTMS_PRIORITY_HIGH, NTMS_PRIORITY_HIGHEST, NTMS_PRIORITY_LOW, NTMS_PRIORITY_LOWEST, NTMS_PRIORITY_NORMAL, _zaw_mountntmsmedia, base.mountntmsmedia, fs.mountntmsmedia, ntmsapi/MountNtmsMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MountNtmsMedia
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # MountNtmsMedia function

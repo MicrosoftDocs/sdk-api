@@ -4,17 +4,16 @@ title: IWMDMDeviceSession::EndSession
 author: windows-sdk-content
 description: The EndSession method ends a device session.
 old-location: wmdm\iwmdmdevicesession_endsession.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],EndSession method, IWMDMDeviceSession.EndSession, IWMDMDeviceSession::EndSession, IWMDMDeviceSessionEndSession, mswmdm/IWMDMDeviceSession::EndSession, wmdm.iwmdmdevicesession_endsession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDeviceSession.EndSession
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDeviceSession::EndSession

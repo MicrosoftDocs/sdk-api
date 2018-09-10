@@ -4,17 +4,16 @@ title: RoFreeParameterizedTypeExtra function
 author: windows-sdk-content
 description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
 old-location: winrt\rofreeparameterizedtypeextra.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: Runtimeobject.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RoFreeParameterizedTypeExtra
 product: Windows
 targetos: Windows
-req.lib: Runtimeobject.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoFreeParameterizedTypeExtra function

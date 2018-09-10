@@ -4,7 +4,7 @@ title: "_KERB_EXTERNAL_TICKET"
 author: windows-sdk-content
 description: Contains information about an external ticket.
 old-location: security\kerb_external_ticket.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 742e2795-ec74-4856-a680-7a1c233a2934
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_EXTERNAL_TICKET, *PKERB_EXTERNAL_TICKET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_EXTERNAL_TICKET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_EXTERNAL_TICKET, *PKERB_EXTERNAL_TICKET
+req.redist: 
 ---
 
 # _KERB_EXTERNAL_TICKET structure

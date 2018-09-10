@@ -4,7 +4,7 @@ title: tagEMRPOLYDRAW
 author: windows-sdk-content
 description: The EMRPOLYDRAW structure contains members for the PolyDraw enhanced metafile record.
 old-location: gdi\emrpolydraw.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c75d19bf-a7e3-45db-9534-f089d4cec3eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRPOLYDRAW, *PEMRPOLYDRAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRPOLYDRAW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRPOLYDRAW, *PEMRPOLYDRAW
+req.redist: 
 ---
 
 # tagEMRPOLYDRAW structure

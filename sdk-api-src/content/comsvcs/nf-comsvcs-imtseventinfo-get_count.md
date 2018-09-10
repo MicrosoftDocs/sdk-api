@@ -4,17 +4,16 @@ title: IMtsEventInfo::get_Count
 author: windows-sdk-content
 description: Retrieves the number of data values from the object.
 old-location: cos\imtseventinfo_get_count.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsEventInfo.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsEventInfo::get_Count

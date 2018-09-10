@@ -4,17 +4,16 @@ title: IComTrackingInfoProperties::GetPropName
 author: windows-sdk-content
 description: Retrieves the name of the property corresponding to the specified index number.
 old-location: cos\icomtrackinginfoproperties_getpropname.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9a26bd3d-89e2-46fd-b9d1-b65ed12ae2ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPropName, GetPropName method [COM+], GetPropName method [COM+],IComTrackingInfoProperties interface, IComTrackingInfoProperties interface [COM+],GetPropName method, IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTrackingInfoProperties.GetPropName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTrackingInfoProperties::GetPropName

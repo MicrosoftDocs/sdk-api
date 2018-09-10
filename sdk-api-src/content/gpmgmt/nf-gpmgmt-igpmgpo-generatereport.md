@@ -4,17 +4,16 @@ title: IGPMGPO::GenerateReport
 author: windows-sdk-content
 description: Gets the report for a GPO.
 old-location: gpmc\igpmgpo_generatereport.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 19b3b027-59f1-4c31-896b-5b5fd23b9be4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReport method, IGPMGPO.GenerateReport, IGPMGPO::GenerateReport, gpmc.igpmgpo_generatereport, gpmgmt/IGPMGPO::GenerateReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMGPO.GenerateReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::GenerateReport

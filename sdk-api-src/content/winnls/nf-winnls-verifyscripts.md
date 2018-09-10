@@ -4,17 +4,16 @@ title: VerifyScripts function
 author: windows-sdk-content
 description: Compares two enumerated lists of scripts.
 old-location: intl\verifyscripts.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4780aa9f-6df0-4901-8de4-3f9118320e1b
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: VS_ALLOW_LATIN, VerifyScripts, VerifyScripts function [Internationalization for Windows Applications], _win32_VerifyScripts, intl.verifyscripts, winnls/VerifyScripts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - VerifyScripts
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # VerifyScripts function

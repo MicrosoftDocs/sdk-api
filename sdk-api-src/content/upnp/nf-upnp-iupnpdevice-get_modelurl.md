@@ -4,17 +4,16 @@ title: IUPnPDevice::get_ModelURL
 author: windows-sdk-content
 description: The ModelURL property specifies the URL for a Web page that contains model-specific information for the device.
 old-location: upnp\iupnpdevice_modelurl.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: e9f3231a-5836-4629-9df5-6ed9184fb753
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelURL method, IUPnPDevice.get_ModelURL, IUPnPDevice::get_ModelURL, _upnp_iupnpdevice_modelurl, get_ModelURL, get_ModelURL method [UPnP APIs], get_ModelURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelurl, upnp/IUPnPDevice::get_ModelURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_ModelURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_ModelURL

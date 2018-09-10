@@ -4,7 +4,7 @@ title: tagIMECOMPOSITIONSTRINGINFO
 author: windows-sdk-content
 description: Contains information of IME's composition string in an app.
 old-location: intl\imecompositionstringinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 27124683-C4F9-4FF9-9004-9FF5B2B8B421
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMECOMPOSITIONSTRINGINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.redist: 
 ---
 
 # tagIMECOMPOSITIONSTRINGINFO structure

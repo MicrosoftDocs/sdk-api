@@ -4,17 +4,16 @@ title: ICoreFragment::NextRange
 author: windows-sdk-content
 description: Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
 old-location: winsync\icorefragment_nextrange.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 25cfd4f5-2ff1-47eb-8cc0-17e17efa4ec2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextRange method, ICoreFragment.NextRange, ICoreFragment::NextRange, NextRange, NextRange method [Windows Sync], NextRange method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextrange, winsync/ICoreFragment::NextRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICoreFragment.NextRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreFragment::NextRange

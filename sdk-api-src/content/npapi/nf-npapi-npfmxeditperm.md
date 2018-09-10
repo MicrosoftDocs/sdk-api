@@ -4,17 +4,16 @@ title: NPFMXEditPerm function
 author: windows-sdk-content
 description: Enables network vendors to supply their own permission editor dialog boxes.
 old-location: security\npfmxeditperm.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPFMXEditPerm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPFMXEditPerm function

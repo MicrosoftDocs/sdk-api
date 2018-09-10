@@ -4,17 +4,16 @@ title: IFsrmMutableCollection::Remove
 author: windows-sdk-content
 description: Removes the specified object from the collection using an index value.
 old-location: fsrm\ifsrmmutablecollection_remove.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 2d28bfc7-82d4-4c74-bac9-f9ef9111279f
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],Remove method, IFsrmMutableCollection.Remove, IFsrmMutableCollection::Remove, Remove, Remove method [File Server Resource Manager], Remove method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_remove, fsrm.ifsrmmutablecollection_remove, fsrm/IFsrmMutableCollection::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmMutableCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmMutableCollection::Remove

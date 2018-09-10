@@ -4,17 +4,16 @@ title: IPortableDeviceService::Content
 author: windows-sdk-content
 description: Retrieves access to the service content.
 old-location: wpdsdk\iportabledeviceservice_content.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 36977b23-b03f-48bc-8313-ddfe2ef208de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Content method, IPortableDeviceService.Content, IPortableDeviceService::Content, portabledeviceapi/IPortableDeviceService::Content, wpdsdk.iportabledeviceservice_content
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceService.Content
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceService::Content

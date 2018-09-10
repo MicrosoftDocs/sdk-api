@@ -4,17 +4,16 @@ title: IDvbSiParser::GetDIT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getdit.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ff6d5a04-173d-4577-a6e8-2ae5b2f99358
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDIT, GetDIT method [Microsoft TV Technologies], GetDIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetDIT method, IDvbSiParser.GetDIT, IDvbSiParser::GetDIT, IDvbSiParserGetDIT, dvbsiparser/IDvbSiParser::GetDIT, mstv.idvbsiparser_getdit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbSiParser.GetDIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbSiParser::GetDIT

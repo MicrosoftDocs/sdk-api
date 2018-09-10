@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgTextCdma::get_Status
 author: windows-sdk-content
 description: The type of message.
 old-location: mbn\imbnsmsreadmsgtextcdma_status.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: e0f428f4-f0de-49c2-88a3-f84ad4cf66a9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Status property, IMbnSmsReadMsgTextCdma.Status, IMbnSmsReadMsgTextCdma.get_Status, IMbnSmsReadMsgTextCdma::Status, IMbnSmsReadMsgTextCdma::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Status, mbn.imbnsmsreadmsgtextcdma_status, mbnapi/IMbnSmsReadMsgTextCdma::Status, mbnapi/IMbnSmsReadMsgTextCdma::get_Status
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgTextCdma.get_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Status

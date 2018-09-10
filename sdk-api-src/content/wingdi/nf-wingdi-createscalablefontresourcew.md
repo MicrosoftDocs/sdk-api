@@ -4,17 +4,16 @@ title: CreateScalableFontResourceW function
 author: windows-sdk-content
 description: The CreateScalableFontResource function creates a font resource file for a scalable font.
 old-location: gdi\createscalablefontresource.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CreateScalableFontResourceW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateScalableFontResourceW function

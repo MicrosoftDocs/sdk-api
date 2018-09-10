@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0001_0048_0002"
 author: windows-sdk-content
 description: Used to specify the type of an access-control entry for Active Directory objects.
 old-location: adsi\ads_acetype_enum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: dbdbf163-6c7b-4170-9a09-6ac45d808a79
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: IAccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_ACETYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_ACETYPE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_ACETYPE_ENUM
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0001_0048_0002 enumeration

@@ -4,7 +4,7 @@ title: "_HTTP_AUTH_STATUS"
 author: windows-sdk-content
 description: Defines the authentication state of a request.
 old-location: http\http_auth_status.htm
-old-project: http
+tech.root: http
 ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_AUTH_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS
+req.redist: 
 ---
 
 # _HTTP_AUTH_STATUS enumeration

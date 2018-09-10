@@ -4,17 +4,16 @@ title: IFolderView::GetSpacing
 author: windows-sdk-content
 description: Gets a POINT structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
 old-location: shell\IFolderView_GetSpacing.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ea81c40-773f-4f53-97c1-99619e46be48
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Shell], GetSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSpacing method, IFolderView.GetSpacing, IFolderView::GetSpacing, _shell_IFolderView_GetSpacing, shell.IFolderView_GetSpacing, shobjidl_core/IFolderView::GetSpacing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView.GetSpacing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView::GetSpacing

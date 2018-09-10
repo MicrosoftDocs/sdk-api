@@ -4,17 +4,16 @@ title: IXblIdpAuthTokenResult::GetTitleRestrictions
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_gettitlerestrictions.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: 1C1DD5CF-3237-42EA-A152-E35A07CC46A2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTitleRestrictions, GetTitleRestrictions method, GetTitleRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetTitleRestrictions method, IXblIdpAuthTokenResult.GetTitleRestrictions, IXblIdpAuthTokenResult::GetTitleRestrictions, xblidp.ixblidpauthtokenresult_gettitlerestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthTokenResult.GetTitleRestrictions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthTokenResult::GetTitleRestrictions

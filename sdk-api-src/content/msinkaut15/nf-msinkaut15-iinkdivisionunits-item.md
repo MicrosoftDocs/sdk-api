@@ -4,17 +4,16 @@ title: IInkDivisionUnits::Item
 author: windows-sdk-content
 description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionunits_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDivisionUnits.Item
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivisionUnits::Item

@@ -4,17 +4,16 @@ title: IWMPSettings::put_defaultFrame
 author: windows-sdk-content
 description: The put_defaultFrame method specifies the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_put_defaultframe.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 9b035e4e-84c5-46ea-aa8a-2e66810284b2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_defaultFrame method, IWMPSettings.put_defaultFrame, IWMPSettings::put_defaultFrame, IWMPSettingsput_defaultFrame, put_defaultFrame, put_defaultFrame method [Windows Media Player], put_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_defaultframe, wmp/IWMPSettings::put_defaultFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.put_defaultFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::put_defaultFrame

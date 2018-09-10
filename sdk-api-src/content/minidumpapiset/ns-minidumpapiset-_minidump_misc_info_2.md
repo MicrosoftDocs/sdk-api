@@ -4,7 +4,7 @@ title: "_MINIDUMP_MISC_INFO_2"
 author: windows-sdk-content
 description: Represents information in the miscellaneous information stream.
 old-location: base\minidump_misc_info_2.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll 6.5 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MISC_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
+req.redist: DbgHelp.dll 6.5 or later
 ---
 
 # _MINIDUMP_MISC_INFO_2 structure

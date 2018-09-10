@@ -4,17 +4,16 @@ title: IReferenceTrackerHost::xaml
 author: windows-sdk-content
 description: Requests the host to provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
 old-location: winrt\ireferencetrackerhost_gettrackertarget.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5dabc7ce-a6aa-4acd-b331-3f74b0f2d179
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTrackerTarget, GetTrackerTarget method [Windows Runtime], GetTrackerTarget method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],GetTrackerTarget method, IReferenceTrackerHost.GetTrackerTarget, IReferenceTrackerHost.xaml, IReferenceTrackerHost::GetTrackerTarget, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::GetTrackerTarget, winrt.ireferencetrackerhost_gettrackertarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTrackerHost.GetTrackerTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTrackerHost::xaml
@@ -62,12 +60,12 @@ Requests the host to provide a reference tracker target that references a refere
 
 ### -param unknown
 
-
+TBD
 
 
 ### -param newReference
 
-
+TBD
 
 
 

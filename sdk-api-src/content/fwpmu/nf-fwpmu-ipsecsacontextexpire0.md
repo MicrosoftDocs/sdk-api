@@ -4,17 +4,16 @@ title: IPsecSaContextExpire0 function
 author: windows-sdk-content
 description: Indicates that an IPsec security association (SA) context should be expired.
 old-location: fwp\ipsecsacontextexpire0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPsecSaContextExpire0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IPsecSaContextExpire0 function

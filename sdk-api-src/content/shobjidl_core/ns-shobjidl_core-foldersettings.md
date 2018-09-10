@@ -4,7 +4,7 @@ title: FOLDERSETTINGS
 author: windows-sdk-content
 description: Contains folder view information.
 old-location: shell\FOLDERSETTINGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: be00fe39-1add-412e-b88b-4b0b1404b19d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDERSETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FOLDERSETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: FOLDERSETTINGS
+req.redist: 
 ---
 
 # FOLDERSETTINGS structure

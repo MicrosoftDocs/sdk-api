@@ -4,17 +4,16 @@ title: IShellItem2::GetFileTime
 author: windows-sdk-content
 description: Gets the date and time value of a specified property key.
 old-location: shell\IShellItem2_GetFileTime.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bdd1834d-ce00-45e2-8fe7-825e18e12b96
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Shell], GetFileTime method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetFileTime method, IShellItem2.GetFileTime, IShellItem2::GetFileTime, _shell_IShellItem2_GetFileTime, shell.IShellItem2_GetFileTime, shobjidl_core/IShellItem2::GetFileTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetFileTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetFileTime

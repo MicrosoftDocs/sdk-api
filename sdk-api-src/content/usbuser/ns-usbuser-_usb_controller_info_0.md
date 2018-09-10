@@ -4,7 +4,7 @@ title: "_USB_CONTROLLER_INFO_0"
 author: windows-sdk-content
 description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.
 old-location: buses\usb_controller_info_0.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: fcd88eb4-4fba-445a-b266-d89db8db1a55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_CONTROLLER_INFO_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
+req.redist: 
 ---
 
 # _USB_CONTROLLER_INFO_0 structure

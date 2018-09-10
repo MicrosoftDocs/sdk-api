@@ -4,17 +4,16 @@ title: IIsdbCAContractInformationDescriptor::GetCAUnitId
 author: windows-sdk-content
 description: Gets the value of the CA_unit_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the billing or nonbilling unit to which the component belongs.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcaunitid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1e50f417-6403-499a-944c-2926a18dada1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCAContractInformationDescriptor.GetCAUnitId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCAContractInformationDescriptor::GetCAUnitId

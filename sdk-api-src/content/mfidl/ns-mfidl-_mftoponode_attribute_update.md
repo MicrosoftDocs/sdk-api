@@ -4,7 +4,7 @@ title: "_MFTOPONODE_ATTRIBUTE_UPDATE"
 author: windows-sdk-content
 description: Specifies a new attribute value for a topology node.
 old-location: mf\mftoponode_attribute_update.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 94c89067-9b3e-4d24-9192-a68e284c5d99
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFTOPONODE_ATTRIBUTE_UPDATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTOPONODE_ATTRIBUTE_UPDATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFTOPONODE_ATTRIBUTE_UPDATE
+req.redist: 
 ---
 
 # _MFTOPONODE_ATTRIBUTE_UPDATE structure

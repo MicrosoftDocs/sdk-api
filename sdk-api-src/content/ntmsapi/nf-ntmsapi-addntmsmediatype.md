@@ -4,17 +4,16 @@ title: AddNtmsMediaType function
 author: windows-sdk-content
 description: The AddNtmsMediaType function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system media pools if they do not exist.
 old-location: fs\addntmsmediatype.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AddNtmsMediaType
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddNtmsMediaType function

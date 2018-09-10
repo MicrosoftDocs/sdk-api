@@ -4,7 +4,7 @@ title: "_PinDirection"
 author: windows-sdk-content
 description: Indicates a pin's direction.
 old-location: dshow\pin_direction.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 87f4e2e8-543f-46a3-b385-cc2e6af39770
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PIN_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PIN_DIRECTION
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: PIN_DIRECTION
+req.redist: 
 ---
 
 # _PinDirection enumeration

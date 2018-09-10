@@ -4,17 +4,16 @@ title: IStreamBufferConfigure::GetBackingFileCount
 author: windows-sdk-content
 description: The GetBackingFileCount method retrieves the maximum and minimum number of backing files.
 old-location: mstv\istreambufferconfigure_getbackingfilecount.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5bf2a99a-ed6b-4ce6-9190-756393afcef0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Technologies], GetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileCount method, IStreamBufferConfigure.GetBackingFileCount, IStreamBufferConfigure::GetBackingFileCount, IStreamBufferConfigureGetBackingFileCount, mstv.istreambufferconfigure_getbackingfilecount, sbe/IStreamBufferConfigure::GetBackingFileCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferConfigure.GetBackingFileCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferConfigure::GetBackingFileCount

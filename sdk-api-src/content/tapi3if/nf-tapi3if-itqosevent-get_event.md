@@ -4,17 +4,16 @@ title: ITQOSEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the QOS_EVENT indicator.
 old-location: tapi3\itqosevent_get_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8e0f4705-6614-4973-85bd-21abd17bd7fe
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Event method, ITQOSEvent.get_Event, ITQOSEvent::get_Event, _tapi3_itqosevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_event, tapi3if/ITQOSEvent::get_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQOSEvent.get_Event
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQOSEvent::get_Event

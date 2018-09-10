@@ -4,7 +4,7 @@ title: WS_HEADER_TYPE
 author: windows-sdk-content
 description: Identifies a type of header.
 old-location: wsw\ws_header_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4c9b927d-00c7-41e4-bc29-e84a4c23c162
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HEADER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HEADER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HEADER_TYPE
+req.redist: 
 ---
 
 # WS_HEADER_TYPE enumeration

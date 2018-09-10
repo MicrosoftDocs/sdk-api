@@ -4,17 +4,16 @@ title: FD_SET macro
 author: windows-sdk-content
 description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.
 old-location: winsock\fd_set_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - fd_set
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # FD_SET macro

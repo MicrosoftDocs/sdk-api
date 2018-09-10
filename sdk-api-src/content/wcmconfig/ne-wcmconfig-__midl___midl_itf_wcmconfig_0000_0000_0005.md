@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0005"
 author: windows-sdk-content
 description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
 old-location: smi\wcmrestrictionfacets.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmRestrictionFacets
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WcmRestrictionFacets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WcmRestrictionFacets
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0005 enumeration

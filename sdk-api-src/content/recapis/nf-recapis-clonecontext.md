@@ -4,17 +4,16 @@ title: CloneContext function
 author: windows-sdk-content
 description: Creates a recognizer context that contains the same settings as the original. The new recognizer context does not include the ink or recognition results of the original.
 old-location: tablet\clonecontext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d, CloneContext, CloneContext function [Tablet PC], recapis/CloneContext, tablet.clonecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CloneContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CloneContext function

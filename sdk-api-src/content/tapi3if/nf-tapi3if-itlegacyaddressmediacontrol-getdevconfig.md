@@ -4,17 +4,16 @@ title: ITLegacyAddressMediaControl::GetDevConfig
 author: windows-sdk-content
 description: The GetDevConfig method returns an opaque data structure.
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyAddressMediaControl.GetDevConfig
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyAddressMediaControl::GetDevConfig

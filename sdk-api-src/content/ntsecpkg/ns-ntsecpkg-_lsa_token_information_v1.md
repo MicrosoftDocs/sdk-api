@@ -4,7 +4,7 @@ title: "_LSA_TOKEN_INFORMATION_V1"
 author: windows-sdk-content
 description: Contains information an authentication package can place in a Version 2 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v2.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6BEDAC01-99DA-4EE5-9667-A11E00BE7A30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TOKEN_INFORMATION_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V1
+req.redist: 
 ---
 
 # _LSA_TOKEN_INFORMATION_V1 structure

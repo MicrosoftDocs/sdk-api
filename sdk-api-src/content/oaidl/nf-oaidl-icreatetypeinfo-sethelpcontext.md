@@ -4,17 +4,16 @@ title: ICreateTypeInfo::SetHelpContext
 author: windows-sdk-content
 description: Sets the Help context ID of the type information.
 old-location: automat\icreatetypeinfo_sethelpcontext.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 8f61500a-29b5-48e4-b8ee-584cf5430274
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetHelpContext method, ICreateTypeInfo.SetHelpContext, ICreateTypeInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetHelpContext, automat.icreatetypeinfo_sethelpcontext, oaidl/ICreateTypeInfo::SetHelpContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.SetHelpContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::SetHelpContext

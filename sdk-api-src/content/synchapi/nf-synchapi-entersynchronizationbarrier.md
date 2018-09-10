@@ -4,17 +4,16 @@ title: EnterSynchronizationBarrier function
 author: windows-sdk-content
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
 old-location: base\entersynchronizationbarrier.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - EnterSynchronizationBarrier
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # EnterSynchronizationBarrier function

@@ -4,17 +4,16 @@ title: GetCurrentObject function
 author: windows-sdk-content
 description: The GetCurrentObject function retrieves a handle to an object of the specified type that has been selected into the specified device context (DC).
 old-location: gdi\getcurrentobject.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: d7e2310c-6a9e-4195-824c-1a83382a5c5b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentObject, GetCurrentObject function [Windows GDI], OBJ_BITMAP, OBJ_BRUSH, OBJ_COLORSPACE, OBJ_FONT, OBJ_PAL, OBJ_PEN, _win32_GetCurrentObject, gdi.getcurrentobject, wingdi/GetCurrentObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetCurrentObject
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentObject function

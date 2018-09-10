@@ -4,17 +4,16 @@ title: IWMProfile::GetDescription
 author: windows-sdk-content
 description: The GetDescription method retrieves the profile description. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_getdescription.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: fa680ddb-091b-4461-8979-9330f8d59cea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDescription, GetDescription method [windows Media Format], GetDescription method [windows Media Format],IWMProfile interface, GetDescription method [windows Media Format],IWMProfile2 interface, GetDescription method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetDescription method, IWMProfile.GetDescription, IWMProfile2 interface [windows Media Format],GetDescription method, IWMProfile2::GetDescription, IWMProfile3 interface [windows Media Format],GetDescription method, IWMProfile3::GetDescription, IWMProfile::GetDescription, IWMProfileGetDescription, wmformat.iwmprofile_getdescription, wmsdkidl/IWMProfile2::GetDescription, wmsdkidl/IWMProfile3::GetDescription, wmsdkidl/IWMProfile::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.GetDescription
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::GetDescription

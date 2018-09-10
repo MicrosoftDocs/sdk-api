@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedNativeWindowHandle
 author: windows-sdk-content
 description: Retrieves the cached window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedNativeWindowHandle.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d7f14d89-20a2-4cfe-9a1b-31df442a5b77
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedNativeWindowHandle property [Windows Accessibility], CachedNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedNativeWindowHandle property, IUIAutomationElement.CachedNativeWindowHandle, IUIAutomationElement.get_CachedNativeWindowHandle, IUIAutomationElement::CachedNativeWindowHandle, IUIAutomationElement::get_CachedNativeWindowHandle, get_CachedNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiauto_IUIAutomationElement_CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::CachedNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CachedNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CachedNativeWindowHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedNativeWindowHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedNativeWindowHandle

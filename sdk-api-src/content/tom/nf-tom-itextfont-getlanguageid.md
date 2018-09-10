@@ -4,17 +4,16 @@ title: ITextFont::GetLanguageID
 author: windows-sdk-content
 description: Gets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_GetLanguageID.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlanguageid.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLanguageID, GetLanguageID method [Windows Controls], GetLanguageID method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetLanguageID method, ITextFont.GetLanguageID, ITextFont::GetLanguageID, _win32_ITextFont_GetLanguageID, _win32_ITextFont_GetLanguageID_cpp, controls.ITextFont_GetLanguageID, controls._win32_ITextFont_GetLanguageID, tom/ITextFont::GetLanguageID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.GetLanguageID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::GetLanguageID

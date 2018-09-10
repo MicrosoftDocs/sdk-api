@@ -4,7 +4,7 @@ title: "_SCHANNEL_CERT_HASH"
 author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses.
 old-location: security\schannel_cert_hash.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: BC068062-6644-4296-990F-7C533DC80C02
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_CERT_HASH, *PSCHANNEL_CERT_HASH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_CERT_HASH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHANNEL_CERT_HASH, *PSCHANNEL_CERT_HASH
+req.redist: 
 ---
 
 # _SCHANNEL_CERT_HASH structure

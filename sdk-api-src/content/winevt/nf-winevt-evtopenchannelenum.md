@@ -4,17 +4,16 @@ title: EvtOpenChannelEnum function
 author: windows-sdk-content
 description: Gets a handle that you use to enumerate the list of channels that are registered on the computer.
 old-location: wes\evtopenchannelenum.htm
-old-project: WES
+tech.root: WES
 ms.assetid: eb077b0c-1ae6-40ae-becc-98d840302e6f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evtopenchannelenum, winevt/EvtOpenChannelEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EvtOpenChannelEnum
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtOpenChannelEnum function

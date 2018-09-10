@@ -4,7 +4,7 @@ title: MBN_BAND_CLASS
 author: windows-sdk-content
 description: The MBN_BAND_CLASS enumerated type defines the frequency band classes.
 old-location: mbn\mbn_band_class.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0ad757fd-583b-4163-af69-54a559a3dacc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_BAND_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_BAND_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_BAND_CLASS
+req.redist: 
 ---
 
 # MBN_BAND_CLASS enumeration

@@ -4,7 +4,7 @@ title: tagAecQualityMetrics_Struct
 author: windows-sdk-content
 description: Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the MFPKEY_WMAAECMA_RETRIEVE_TS_STATS property.
 old-location: mf\aecqualitymetrics_structstructure.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1a44d12c-3da9-4fcb-a4ba-4a405882c134
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AecQualityMetrics_Struct
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AecQualityMetrics_Struct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: AecQualityMetrics_Struct
+req.redist: 
 ---
 
 # tagAecQualityMetrics_Struct structure

@@ -4,17 +4,16 @@ title: IAccessible::get_accChild
 author: windows-sdk-content
 description: The IAccessible::get_accChild method retrieves an IDispatch for the specified child, if one exists. All objects must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accchild.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChild method, IAccessible.get_accChild, IAccessible::get_accChild, _msaa_IAccessible_get_accChild, get_accChild, get_accChild method [Windows Accessibility], get_accChild method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchild, oleacc/IAccessible::get_accChild, winauto.iaccessible_iaccessible__get_accchild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accChild
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accChild
@@ -62,7 +60,7 @@ The <b>IAccessible::get_accChild</b> method retrieves an <a href="https://msdn.m
 
 ### -param varChild
 
-
+TBD
 
 
 ### -param ppdispChild [out, retval]

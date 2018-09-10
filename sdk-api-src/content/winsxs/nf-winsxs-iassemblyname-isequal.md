@@ -4,17 +4,16 @@ title: IAssemblyName::IsEqual
 author: windows-sdk-content
 description: The IsEqual method compares the current assembly name to another assembly name.
 old-location: setup\iassemblyname_isequal.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyName.IsEqual
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyName::IsEqual

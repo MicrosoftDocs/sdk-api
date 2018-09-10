@@ -4,17 +4,16 @@ title: IAnalogAudioComponentType::put_AnalogAudioMode
 author: windows-sdk-content
 description: The put_AnalogAudioMode method specifies the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_put_analogaudiomode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],put_AnalogAudioMode method, IAnalogAudioComponentType.put_AnalogAudioMode, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogAudioComponentType.put_AnalogAudioMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogAudioComponentType::put_AnalogAudioMode

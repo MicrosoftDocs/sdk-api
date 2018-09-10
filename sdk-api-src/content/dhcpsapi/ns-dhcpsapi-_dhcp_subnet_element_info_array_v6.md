@@ -4,7 +4,7 @@ title: "_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
 author: windows-sdk-content
 description: Contains data that defines an array of DHCP_SUBNET_ELEMENT_DATA_V6 IPv6 prefix elements.
 old-location: dhcp\dhcp_subnet_element_info_array_v6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 02e7e633-173d-46ab-b657-4763d367f325
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, *LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, *LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
+req.redist: 
 ---
 
 # _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure

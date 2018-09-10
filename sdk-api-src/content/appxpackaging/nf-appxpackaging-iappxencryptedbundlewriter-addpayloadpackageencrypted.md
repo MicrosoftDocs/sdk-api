@@ -4,17 +4,16 @@ title: IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted
 author: windows-sdk-content
 description: Encrypts a new payload package to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter_addpayloadpackageencrypted.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 974C29A7-3FEE-4042-986F-D8FD3774F9A6
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AddPayloadPackageEncrypted, AddPayloadPackageEncrypted method [App packaging and management], AddPayloadPackageEncrypted method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],AddPayloadPackageEncrypted method, IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted, IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpackaging/IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted, appxpkg.iappxencryptedbundlewriter_addpayloadpackageencrypted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxEncryptedBundleWriter.AddPayloadPackageEncrypted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxEncryptedBundleWriter::AddPayloadPackageEncrypted

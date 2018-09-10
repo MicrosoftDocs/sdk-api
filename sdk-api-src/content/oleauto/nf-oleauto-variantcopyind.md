@@ -4,17 +4,16 @@ title: VariantCopyInd function
 author: windows-sdk-content
 description: Frees the destination variant and makes a copy of the source variant, performing the necessary indirection if the source is specified to be VT_BYREF.
 old-location: automat\variantcopyind.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5d9be6cd-92e5-485c-ba0d-8630d3e414b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_VariantCopyInd, automat.variantcopyind, oleauto/VariantCopyInd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantCopyInd
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VariantCopyInd function

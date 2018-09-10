@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetWeight
 author: windows-sdk-content
 description: Gets the weight of this font.
 old-location: directwrite\idwritefontface3_getweight.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: A57873B2-F4B4-4129-96FE-A4CAFBFD537F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetWeight method, IDWriteFontFace3.GetWeight, IDWriteFontFace3::GetWeight, directwrite.idwritefontface3_getweight, dwrite_3/IDWriteFontFace3::GetWeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetWeight
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetWeight

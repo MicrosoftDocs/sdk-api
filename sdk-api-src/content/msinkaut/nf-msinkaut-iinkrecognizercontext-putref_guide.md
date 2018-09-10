@@ -4,17 +4,16 @@ title: IInkRecognizerContext::putref_Guide
 author: windows-sdk-content
 description: Gets or sets the InkRecognizerGuide to use for ink input.
 old-location: tablet\inkrecognizercontext_guide.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 706d28c3-fc5d-496a-a957-daf5ba8d47ca
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 706d28c3-fc5d-496a-a957-daf5ba8d47ca, Guide property [Tablet PC], Guide property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Guide property, IInkRecognizerContext.Guide, IInkRecognizerContext.putref_Guide, IInkRecognizerContext::Guide, IInkRecognizerContext::get_Guide, IInkRecognizerContext::putref_Guide, InkRecognizerContext.get_Guide, get_Guide, msinkaut/IInkRecognizerContext::Guide, msinkaut/IInkRecognizerContext::get_Guide, msinkaut/IInkRecognizerContext::putref_Guide, putref_Guide, tablet.inkrecognizercontext_guide
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkRecognizerContext.get_Guide
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::putref_Guide

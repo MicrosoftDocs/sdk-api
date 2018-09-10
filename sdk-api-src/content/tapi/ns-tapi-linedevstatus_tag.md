@@ -4,7 +4,7 @@ title: linedevstatus_tag
 author: windows-sdk-content
 description: The LINEDEVSTATUS structure describes the current status of a line device. The lineGetLineDevStatus function and the TSPI_lineGetLineDevStatus function return the LINEDEVSTATUS structure.
 old-location: tapi2\linedevstatus_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3d565e99-eb90-47ca-9fb9-295236f566fb
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEDEVSTATUS, *LPLINEDEVSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEDEVSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEDEVSTATUS, *LPLINEDEVSTATUS
+req.redist: 
 ---
 
 # linedevstatus_tag structure

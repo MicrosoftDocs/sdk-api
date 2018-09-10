@@ -4,17 +4,16 @@ title: IEventSubscription::GetSubscriberProperty
 author: windows-sdk-content
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
 old-location: cos\ieventsubscription_getsubscriberproperty.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventSubscription.GetSubscriberProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::GetSubscriberProperty

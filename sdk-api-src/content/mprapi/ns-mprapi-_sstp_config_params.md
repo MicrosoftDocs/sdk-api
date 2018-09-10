@@ -4,7 +4,7 @@ title: "_SSTP_CONFIG_PARAMS"
 author: windows-sdk-content
 description: Used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
 old-location: rras\sstp_config_params.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 6f21d569-af9b-49ba-ab02-4dfc74e87ed2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SSTP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.redist: 
 ---
 
 # _SSTP_CONFIG_PARAMS structure

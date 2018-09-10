@@ -4,17 +4,16 @@ title: DiInstallDevice function
 author: windows-sdk-content
 description: The DiInstallDevice function installs a specified driver that is preinstalled in the driver store on a specified device that is present in the system.
 old-location: devinst\diinstalldevice.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+req.lib: Newdev.lib
+req.dll: Newdev.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DiInstallDevice
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: Newdev.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DiInstallDevice function

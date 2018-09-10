@@ -4,17 +4,16 @@ title: IExplorerCommandProvider::GetCommands
 author: windows-sdk-content
 description: Gets a specified Explorer command enumerator instance.
 old-location: shell\IExplorerCommandProvider_GetCommands.htm
-old-project: shell
+tech.root: shell
 ms.assetid: df300219-e717-4f79-8996-62726092c3c7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCommands, GetCommands method [Windows Shell], GetCommands method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommands method, IExplorerCommandProvider.GetCommands, IExplorerCommandProvider::GetCommands, _shell_IExplorerCommandProvider_GetCommands, shell.IExplorerCommandProvider_GetCommands, shobjidl_core/IExplorerCommandProvider::GetCommands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommandProvider.GetCommands
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommandProvider::GetCommands

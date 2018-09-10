@@ -4,17 +4,16 @@ title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName funct
 author: windows-sdk-content
 description: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use.
 old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestrictedname.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function

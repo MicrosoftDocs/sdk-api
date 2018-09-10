@@ -4,17 +4,16 @@ title: SspiDecryptAuthIdentityEx function
 author: windows-sdk-content
 description: Decrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 old-location: security\sspidecryptauthidentityex.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SspiDecryptAuthIdentityEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SspiDecryptAuthIdentityEx function

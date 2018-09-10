@@ -4,17 +4,16 @@ title: ICrmCompensatorVariants::EndAbortVariants
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
 old-location: cos\icrmcompensatorvariants_endabortvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 021880c3-e52c-4fa7-9815-3180ee1564da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EndAbortVariants, EndAbortVariants method [COM+], EndAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndAbortVariants method, ICrmCompensatorVariants.EndAbortVariants, ICrmCompensatorVariants::EndAbortVariants, _dtc_ICrmCompensatorVariants_EndAbortVariants, comsvcs/ICrmCompensatorVariants::EndAbortVariants, cos.icrmcompensatorvariants_endabortvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensatorVariants.EndAbortVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensatorVariants::EndAbortVariants

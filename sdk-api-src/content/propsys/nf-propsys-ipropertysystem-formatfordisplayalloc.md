@@ -4,17 +4,16 @@ title: IPropertySystem::FormatForDisplayAlloc
 author: windows-sdk-content
 description: Gets a string representation of a property value to an allocated memory buffer.
 old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplayAlloc method, IPropertySystem.FormatForDisplayAlloc, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.FormatForDisplayAlloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::FormatForDisplayAlloc

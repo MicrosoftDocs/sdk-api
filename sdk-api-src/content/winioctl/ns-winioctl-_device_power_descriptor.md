@@ -4,7 +4,7 @@ title: "_DEVICE_POWER_DESCRIPTOR"
 author: windows-sdk-content
 description: The DEVICE_POWER_DESCRIPTOR structure describes the power capabilities of a storage device.
 old-location: fs\device_power_descriptor.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 63e51485-db3f-45ed-925e-0abf105c8aef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_POWER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
+req.redist: 
 ---
 
 # _DEVICE_POWER_DESCRIPTOR structure

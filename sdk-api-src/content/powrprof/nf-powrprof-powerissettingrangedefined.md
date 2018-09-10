@@ -4,17 +4,16 @@ title: PowerIsSettingRangeDefined function
 author: windows-sdk-content
 description: Queries whether the specified power setting represents a range of possible values.
 old-location: base\powerissettingrangedefined.htm
-old-project: power
+tech.root: power
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerIsSettingRangeDefined
 product: Windows
 targetos: Windows
-req.lib: Powrprof.lib
-req.dll: Powrprof.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerIsSettingRangeDefined function

@@ -4,17 +4,16 @@ title: CredUIPromptForCredentialsW function
 author: windows-sdk-content
 description: Creates and displays a configurable dialog box that accepts credentials information from a user.
 old-location: security\creduipromptforcredentials.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_COMPLETE_USERNAME, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_KEEP_USERNAME, CREDUI_FLAGS_PASSWORD_ONLY_OK, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CREDUI_FLAGS_VALIDATE_USERNAME, CredUIPromptForCredentials, CredUIPromptForCredentials function [Security], CredUIPromptForCredentialsA, CredUIPromptForCredentialsW, _cred_creduipromptforcredentials, security.creduipromptforcredentials, wincred/CredUIPromptForCredentials, wincred/CredUIPromptForCredentialsA, wincred/CredUIPromptForCredentialsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredUIPromptForCredentialsW
 product: Windows
 targetos: Windows
-req.lib: Credui.lib
-req.dll: Credui.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredUIPromptForCredentialsW function

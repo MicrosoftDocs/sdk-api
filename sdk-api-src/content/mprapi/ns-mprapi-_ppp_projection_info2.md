@@ -4,7 +4,7 @@ title: "_PPP_PROJECTION_INFO2"
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
 old-location: rras\ppp_projection_info2.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 273af594-66f1-4d51-b597-3f09ee5c66cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_PROJECTION_INFO2, *PPPP_PROJECTION_INFO2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_PROJECTION_INFO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_PROJECTION_INFO2, *PPPP_PROJECTION_INFO2
+req.redist: 
 ---
 
 # _PPP_PROJECTION_INFO2 structure

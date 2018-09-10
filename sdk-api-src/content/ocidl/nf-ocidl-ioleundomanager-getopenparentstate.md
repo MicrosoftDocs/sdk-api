@@ -4,17 +4,16 @@ title: IOleUndoManager::GetOpenParentState
 author: windows-sdk-content
 description: Retrieves state information about the innermost open parent undo unit.
 old-location: com\ioleundomanager_getopenparentstate.htm
-old-project: com
+tech.root: com
 ms.assetid: 32a4e08a-409b-4f0e-8374-1cdf3b558928
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOpenParentState, GetOpenParentState method [COM], GetOpenParentState method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetOpenParentState method, IOleUndoManager.GetOpenParentState, IOleUndoManager::GetOpenParentState, _ole_ioleundomanager_getopenparentstate, com.ioleundomanager_getopenparentstate, ocidl/IOleUndoManager::GetOpenParentState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoManager.GetOpenParentState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoManager::GetOpenParentState

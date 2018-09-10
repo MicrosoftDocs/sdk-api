@@ -4,17 +4,16 @@ title: IAccessible::get_accSelection
 author: windows-sdk-content
 description: The IAccessible::get_accSelection method retrieves the selected children of this object. All objects that support selection must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accselection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 80df32de-a99f-4a5a-b354-f3e133f3e620
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accSelection method, IAccessible.get_accSelection, IAccessible::get_accSelection, VT_DISPATCH, VT_EMPTY, VT_I4, VT_UNKNOWN, _msaa_IAccessible_get_accSelection, get_accSelection, get_accSelection method [Windows Accessibility], get_accSelection method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accselection, oleacc/IAccessible::get_accSelection, winauto.iaccessible_iaccessible__get_accselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accSelection
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accSelection

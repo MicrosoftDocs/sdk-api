@@ -4,17 +4,16 @@ title: ISensLogon::DisplayLock
 author: windows-sdk-content
 description: The DisplayLock method notifies an application that the screen display is locked.
 old-location: sens\isenslogon_displaylock.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon.DisplayLock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon::DisplayLock

@@ -4,7 +4,7 @@ title: "_WSD_LOCALIZED_STRING"
 author: windows-sdk-content
 description: Represents a single localized string.
 old-location: ncd\wsd_localized_string_struct.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: c90cc459-a10d-4b2b-81bc-96e562755b6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_LOCALIZED_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_LOCALIZED_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_LOCALIZED_STRING
+req.redist: 
 ---
 
 # _WSD_LOCALIZED_STRING structure

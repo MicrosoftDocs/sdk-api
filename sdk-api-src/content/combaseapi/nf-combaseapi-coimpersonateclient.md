@@ -4,17 +4,16 @@ title: CoImpersonateClient function
 author: windows-sdk-content
 description: Enables the server to impersonate the client of the current call for the duration of the call.
 old-location: com\coimpersonateclient.htm
-old-project: com
+tech.root: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoImpersonateClient
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoImpersonateClient function

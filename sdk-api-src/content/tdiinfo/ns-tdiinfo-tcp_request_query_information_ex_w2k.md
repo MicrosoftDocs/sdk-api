@@ -4,7 +4,7 @@ title: tcp_request_query_information_ex_w2k
 author: windows-sdk-content
 description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tcp_request_query_information_ex.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 2a1f3a41-ee18-4a67-9da1-a5b18d32defb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdiinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_W2K, *PTCP_REQUEST_QUERY_INFORMATION_EX_W2K
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_REQUEST_QUERY_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_W2K, *PTCP_REQUEST_QUERY_INFORMATION_EX_W2K
+req.redist: 
 ---
 
 # tcp_request_query_information_ex_w2k structure

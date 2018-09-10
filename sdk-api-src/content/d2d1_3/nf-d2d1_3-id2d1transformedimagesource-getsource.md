@@ -4,17 +4,16 @@ title: ID2D1TransformedImageSource::GetSource
 author: windows-sdk-content
 description: Retrieves the source image used to create the transformed image source.
 old-location: direct2d\id2d1transformedimagesource_getsource.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSource, GetSource method [Direct2D], GetSource method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetSource method, ID2D1TransformedImageSource.GetSource, ID2D1TransformedImageSource::GetSource, d2d1_3/ID2D1TransformedImageSource::GetSource, direct2d.id2d1transformedimagesource_getsource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2D1.lib
+req.dll: D2D1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1TransformedImageSource.GetSource
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: D2D1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1TransformedImageSource::GetSource

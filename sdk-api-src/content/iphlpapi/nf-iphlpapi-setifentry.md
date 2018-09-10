@@ -4,17 +4,16 @@ title: SetIfEntry function
 author: windows-sdk-content
 description: The SetIfEntry function sets the administrative status of an interface.
 old-location: iphlp\setifentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 67a18ef2-a7af-4fc1-8416-053aa8388f9e
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIfEntry function [IP Helper], _iphlp_setifentry, iphlp.setifentry, iphlpapi/SetIfEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetIfEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIfEntry function

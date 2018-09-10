@@ -4,17 +4,16 @@ title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup
 author: windows-sdk-content
 description: Adds a file set (a specified file or files) to a specified file group component for an express writer.
 old-location: base\ivsscreateexpresswritermetadata_addfilestofilegroup.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateExpressWriterMetadata::AddFilesToFileGroup

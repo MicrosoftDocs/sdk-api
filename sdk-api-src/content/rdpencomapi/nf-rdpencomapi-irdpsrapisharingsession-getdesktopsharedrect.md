@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::GetDesktopSharedRect
 author: windows-sdk-content
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRDPSRAPISharingSession.GetDesktopSharedRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::GetDesktopSharedRect
@@ -63,22 +61,22 @@ Retrieves the current desktop region being shared.
 
 ### -param pleft
 
-
+TBD
 
 
 ### -param ptop
 
-
+TBD
 
 
 ### -param pright
 
-
+TBD
 
 
 ### -param pbottom
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWMPCdrom::get_driveSpecifier
 author: windows-sdk-content
 description: The get_driveSpecifier method retrieves the CD or DVD drive letter.
 old-location: wmp\iwmpcdrom_get_drivespecifier.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_driveSpecifier method, IWMPCdrom.get_driveSpecifier, IWMPCdrom::get_driveSpecifier, IWMPCdromget_driveSpecifier, get_driveSpecifier, get_driveSpecifier method [Windows Media Player], get_driveSpecifier method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_drivespecifier, wmp/IWMPCdrom::get_driveSpecifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdrom.get_driveSpecifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdrom::get_driveSpecifier

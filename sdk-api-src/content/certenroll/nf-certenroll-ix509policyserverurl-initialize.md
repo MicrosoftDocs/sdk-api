@@ -4,17 +4,16 @@ title: IX509PolicyServerUrl::Initialize
 author: windows-sdk-content
 description: Initializes an IX509PolicyServerUrl object for a computer or user context.
 old-location: security\ix509policyserverurl_initialize.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 693c3a29-0d12-4603-a06a-4277db3b8b8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PolicyServerUrl.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerUrl::Initialize

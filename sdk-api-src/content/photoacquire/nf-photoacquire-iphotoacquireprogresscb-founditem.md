@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::FoundItem
 author: windows-sdk-content
 description: The FoundItem method provides extended functionality each time an item is found during enumeration of items from the device.
 old-location: picacq\iphotoacquireprogresscb_founditem.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: b80fb2f2-57b7-4333-891e-32eba0347a17
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FoundItem, FoundItem method [Picture Acquisition], FoundItem method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition],FoundItem method, IPhotoAcquireProgressCB.FoundItem, IPhotoAcquireProgressCB::FoundItem, photoacquire/IPhotoAcquireProgressCB::FoundItem, picacq.iphotoacquireprogresscb_founditem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.FoundItem
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::FoundItem

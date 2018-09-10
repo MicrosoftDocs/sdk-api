@@ -4,17 +4,16 @@ title: IPart::GetControlInterface
 author: windows-sdk-content
 description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.
 old-location: coreaudio\ipart_getcontrolinterface.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 802f3c19-5a71-41b0-922a-f216fd60495c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetControlInterface, GetControlInterface method [Core Audio], GetControlInterface method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterface method, IPart.GetControlInterface, IPart::GetControlInterface, IPartGetControlInterface, coreaudio.ipart_getcontrolinterface, devicetopology/IPart::GetControlInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPart.GetControlInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPart::GetControlInterface
@@ -69,7 +68,7 @@ The control interface number. If a part supports <i>n</i> control interfaces, th
 
 ### -param ppInterfaceDesc
 
-
+TBD
 
 
 

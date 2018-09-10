@@ -4,17 +4,16 @@ title: IMediaPosition::get_CurrentPosition
 author: windows-sdk-content
 description: The get_CurrentPosition method retrieves the current position, relative to the total duration of the stream.
 old-location: dshow\imediaposition_get_currentposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 96f4d621-c618-49fa-a0f6-bcc68a41467e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_CurrentPosition method, IMediaPosition.get_CurrentPosition, IMediaPosition::get_CurrentPosition, IMediaPositionget_CurrentPosition, control/IMediaPosition::get_CurrentPosition, dshow.imediaposition_get_currentposition, get_CurrentPosition, get_CurrentPosition method [DirectShow], get_CurrentPosition method [DirectShow],IMediaPosition interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaPosition.get_CurrentPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaPosition::get_CurrentPosition

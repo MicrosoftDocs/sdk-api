@@ -4,7 +4,7 @@ title: LPDISPLAYVAL
 author: windows-sdk-content
 description: The LPDISPLAYVAL function specification defines a callback function prototype. The IValidate::SetDisplay method enables an authoring tool to receive ICE status messages through the registered callback function.
 old-location: setup\lpdisplayval.htm
-old-project: msi
+tech.root: msi
 ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPDISPLAYVAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # LPDISPLAYVAL callback function

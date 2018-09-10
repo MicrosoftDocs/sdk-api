@@ -4,17 +4,16 @@ title: CM_Delete_Device_Interface_Key_ExA function
 author: windows-sdk-content
 description: The CM_Delete_Device_Interface_Key_ExA function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\cm_delete_device_interface_key_exa.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: B12C62F7-B6B1-46F6-88B4-78F25A14E8F6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Delete_Device_Interface_Key_ExA, CM_Delete_Device_Interface_Key_ExA function [Device and Driver Installation], cfgmgr32/CM_Delete_Device_Interface_Key_ExA, devinst.cm_delete_device_interface_key_exa
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 10 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CM_Delete_Device_Interface_Key_ExA
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Delete_Device_Interface_Key_ExA function

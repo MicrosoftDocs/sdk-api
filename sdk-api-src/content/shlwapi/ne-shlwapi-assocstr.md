@@ -4,7 +4,7 @@ title: ASSOCSTR
 author: windows-sdk-content
 description: Used by IQueryAssociations::GetString to define the type of string that is to be returned.
 old-location: shell\ASSOCSTR_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b5fd3d25-3630-4dd8-acd2-d2e4ed571604
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASSOCSTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASSOCSTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ASSOCSTR
+req.redist: 
 ---
 
 # ASSOCSTR enumeration

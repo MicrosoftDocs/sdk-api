@@ -4,17 +4,16 @@ title: SetupGetInfInformationA function
 author: windows-sdk-content
 description: The SetUpGetInfInformation function returns the SP_INF_INFORMATION structure for the specified INF file to a buffer.
 old-location: setup\setupgetinfinformation.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupGetInfInformationW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetInfInformationA function

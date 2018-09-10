@@ -4,17 +4,16 @@ title: IDWriteFactory::CreateTypography
 author: windows-sdk-content
 description: Creates a typography object for use in a text layout.
 old-location: directwrite\IDWriteFactory_CreateTypography.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ef6d8289-3a8a-4ec1-89a8-b1b52e311d63
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateTypography, CreateTypography method [Direct Write], CreateTypography method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTypography method, IDWriteFactory.CreateTypography, IDWriteFactory::CreateTypography, directwrite.IDWriteFactory_CreateTypography, dwrite/IDWriteFactory::CreateTypography
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory.CreateTypography
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory::CreateTypography

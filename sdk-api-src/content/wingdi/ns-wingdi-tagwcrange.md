@@ -4,7 +4,7 @@ title: tagWCRANGE
 author: windows-sdk-content
 description: The WCRANGE structure specifies a range of Unicode characters.
 old-location: gdi\wcrange.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 20959057-6062-4c1e-a23d-535584ba6ea3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCRANGE, *PWCRANGE, *LPWCRANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCRANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCRANGE, *PWCRANGE, *LPWCRANGE
+req.redist: 
 ---
 
 # tagWCRANGE structure

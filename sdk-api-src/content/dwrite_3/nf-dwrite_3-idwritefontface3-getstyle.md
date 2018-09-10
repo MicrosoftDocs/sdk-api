@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetStyle
 author: windows-sdk-content
 description: Gets the style (also known as slope) of this font.
 old-location: directwrite\idwritefontface3_getstyle.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: EC47D94B-BF85-4AEE-B3C8-2DCEA7310403
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetStyle, GetStyle method [Direct Write], GetStyle method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStyle method, IDWriteFontFace3.GetStyle, IDWriteFontFace3::GetStyle, directwrite.idwritefontface3_getstyle, dwrite_3/IDWriteFontFace3::GetStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetStyle
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetStyle

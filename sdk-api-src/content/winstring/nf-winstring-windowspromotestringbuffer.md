@@ -4,17 +4,16 @@ title: WindowsPromoteStringBuffer function
 author: windows-sdk-content
 description: Creates an HSTRING from the specified HSTRING_BUFFER.
 old-location: winrt\windowspromotestringbuffer.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: ac5261fd-2d31-4c65-84f2-4c6b4c3566bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WindowsPromoteStringBuffer
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WindowsPromoteStringBuffer function

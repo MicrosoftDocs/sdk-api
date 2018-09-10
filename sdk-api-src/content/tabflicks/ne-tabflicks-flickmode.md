@@ -4,7 +4,7 @@ title: FLICKMODE
 author: windows-sdk-content
 description: Describes where Flick gestures are enabled.
 old-location: tablet\flickmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d8e015dc-033c-47a6-b4fd-6ef3b014e505
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICKMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLICKMODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: FLICKMODE
+req.redist: 
 ---
 
 # FLICKMODE enumeration

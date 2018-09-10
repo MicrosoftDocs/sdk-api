@@ -4,7 +4,7 @@ title: NET_FW_SCOPE_
 author: windows-sdk-content
 description: Specifies the scope of addresses from which a port can listen.
 old-location: ics\net_fw_scope.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 71f52d88-efd3-4037-86bc-7ec1cfa9642f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SCOPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_FW_SCOPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_FW_SCOPE
+req.redist: 
 ---
 
 # NET_FW_SCOPE_ enumeration

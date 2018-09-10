@@ -4,17 +4,16 @@ title: ITravelLog::GetToolTipText
 author: windows-sdk-content
 description: Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.
 old-location: shell\ITravelLog_GetToolTipText.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetToolTipText method, ITravelLog.GetToolTipText, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelLog.GetToolTipText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

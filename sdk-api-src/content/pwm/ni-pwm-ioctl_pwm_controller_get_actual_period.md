@@ -4,7 +4,7 @@ title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 author: windows-sdk-content
 description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 old-location: base\ioctl_pwm_controller_get_actual_period.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD IOCTL

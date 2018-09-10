@@ -4,17 +4,16 @@ title: IEnumOLEVERB::Clone
 author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoleverb_clone.htm
-old-project: com
+tech.root: com
 ms.assetid: b93eafa0-c9c5-4d3f-a9a0-c5ca95df5b03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOLEVERB interface, IEnumOLEVERB interface [COM],Clone method, IEnumOLEVERB.Clone, IEnumOLEVERB::Clone, _ole_ienumoleverb_clone, com.ienumoleverb_clone, oleidl/IEnumOLEVERB::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumOLEVERB.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOLEVERB::Clone

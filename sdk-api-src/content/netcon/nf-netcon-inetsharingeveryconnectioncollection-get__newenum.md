@@ -4,17 +4,16 @@ title: INetSharingEveryConnectionCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get__newenum.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 56d2877b-8e94-4e9a-8d84-5a0263ef825d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingEveryConnectionCollection.get__NewEnum, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingEveryConnectionCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingEveryConnectionCollection::get__NewEnum

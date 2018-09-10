@@ -4,17 +4,16 @@ title: EngStretchBltROP function
 author: windows-sdk-content
 description: The EngStretchBltROP function performs a stretching bit-block transfer using a ROP.
 old-location: display\engstretchbltrop.htm
-old-project: display
+tech.root: display
 ms.assetid: d353fab2-ba5d-42a5-8ce7-04fdc731f6ee
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngStretchBltROP, EngStretchBltROP function [Display Devices], display.engstretchbltrop, gdifncs_344d6d6a-0691-4dfd-92fa-918b2c4c63b8.xml, winddi/EngStretchBltROP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngStretchBltROP
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngStretchBltROP function

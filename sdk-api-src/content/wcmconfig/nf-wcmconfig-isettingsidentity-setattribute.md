@@ -4,17 +4,16 @@ title: ISettingsIdentity::SetAttribute
 author: windows-sdk-content
 description: Sets an identity attribute for a namespace identity.
 old-location: smi\isettingsidentity_setattribute.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 498bb364-3da8-456d-8e77-22b508516de0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISettingsIdentity interface [SMI],SetAttribute method, ISettingsIdentity.SetAttribute, ISettingsIdentity::SetAttribute, SetAttribute, SetAttribute method [SMI], SetAttribute method [SMI],ISettingsIdentity interface, smi.isettingsidentity_setattribute, wcmconfig/ISettingsIdentity::SetAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsIdentity.SetAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsIdentity::SetAttribute

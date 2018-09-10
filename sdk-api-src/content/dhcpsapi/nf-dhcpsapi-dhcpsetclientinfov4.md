@@ -4,17 +4,16 @@ title: DhcpSetClientInfoV4 function
 author: windows-sdk-content
 description: Sets information on a client whose IP address lease is administrated by the DHCP server. This function extends the functionality provided by DhcpSetClientInfo by allowing the caller to specify the client type (DHCP or BOOTP).
 old-location: dhcp\dhcpsetclientinfov4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: f7e1aa86-634e-48a7-ae2a-9c23277ed946
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpSetClientInfoV4, DhcpSetClientInfoV4 function [DHCP], dhcp.dhcpsetclientinfov4, dhcpsapi/DhcpSetClientInfoV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetClientInfoV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetClientInfoV4 function

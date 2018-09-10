@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::put_Width
 author: windows-sdk-content
 description: Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 old-location: tablet\inkdrawingattributes_width.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6069f9d3-061a-48ba-8161-86d6152d68f0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 6069f9d3-061a-48ba-8161-86d6152d68f0, IInkDrawingAttributes interface [Tablet PC],Width property, IInkDrawingAttributes.Width, IInkDrawingAttributes.put_Width, IInkDrawingAttributes::Width, IInkDrawingAttributes::get_Width, IInkDrawingAttributes::put_Width, InkDrawingAttributes.get_Width, InkDrawingAttributes.put_Width, Width property [Tablet PC], Width property [Tablet PC],IInkDrawingAttributes interface, get_Width, msinkaut/IInkDrawingAttributes::Width, msinkaut/IInkDrawingAttributes::get_Width, msinkaut/IInkDrawingAttributes::put_Width, put_Width, tablet.inkdrawingattributes_width
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_Width
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::put_Width

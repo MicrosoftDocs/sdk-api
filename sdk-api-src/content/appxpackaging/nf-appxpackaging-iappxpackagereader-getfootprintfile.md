@@ -4,17 +4,16 @@ title: IAppxPackageReader::GetFootprintFile
 author: windows-sdk-content
 description: Retrieves a footprint file from the package.
 old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageReader.GetFootprintFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageReader::GetFootprintFile

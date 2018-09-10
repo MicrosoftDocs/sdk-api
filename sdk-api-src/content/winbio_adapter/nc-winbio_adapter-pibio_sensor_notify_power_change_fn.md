@@ -4,7 +4,7 @@ title: PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN
 author: windows-sdk-content
 description: Receives notification about a change in the computer power state and prepares the sensor adapter accordingly.
 old-location: secbiomet\sensoradapternotifypowerchange.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 7EA9D7E7-3DB9-4131-A747-B0388310ACB5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SensorAdapterNotifyPowerChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_SENSOR_NOTIFY_POWER_CHANGE_FN callback function

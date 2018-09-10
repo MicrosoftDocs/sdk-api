@@ -4,7 +4,7 @@ title: IAssemblyCache
 author: windows-sdk-content
 description: The IAssemblyCache interface can be used to install, uninstall, or query a side-by-side assembly. An instance of IAssemblyCache is obtained by calling the CreateAssemblyCache function.
 old-location: setup\iassemblycache.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyCache interface

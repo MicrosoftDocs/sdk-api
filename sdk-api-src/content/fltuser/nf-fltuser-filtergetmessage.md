@@ -4,17 +4,16 @@ title: FilterGetMessage function
 author: windows-sdk-content
 description: The FilterGetMessage function gets a message from a kernel-mode minifilter.
 old-location: ifsk\filtergetmessage.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2738e237-835c-471f-9129-26c4da5fe839
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File System Drivers], FltWin32ApiRef_2a4730dd-cee5-4a3e-b904-c19683fc314a.xml, fltuser/FilterGetMessage, ifsk.filtergetmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterGetMessage
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterGetMessage function

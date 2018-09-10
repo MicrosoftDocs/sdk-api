@@ -4,7 +4,7 @@ title: "_DDSETSKIPFIELD"
 author: windows-sdk-content
 description: The DDSETSKIPFIELD structure contains the start field information.
 old-location: display\ddsetskipfield.htm
-old-project: display
+tech.root: display
 ms.assetid: 146aa32d-5268-41b3-b98c-18223002ea65
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDSETSKIPFIELD, *LPDDSETSKIPFIELD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDSETSKIPFIELD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDSETSKIPFIELD, *LPDDSETSKIPFIELD
+req.redist: 
 ---
 
 # _DDSETSKIPFIELD structure

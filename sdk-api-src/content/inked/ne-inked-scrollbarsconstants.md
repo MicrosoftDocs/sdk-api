@@ -4,7 +4,7 @@ title: ScrollBarsConstants
 author: windows-sdk-content
 description: Specifies how the scroll bars of an InkEdit control appear on the screen.
 old-location: tablet\scrollbarsconstants.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d689f8ff-4ad9-4306-af2d-aaed60f33c53
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ScrollBarsConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ScrollBarsConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ScrollBarsConstants
+req.redist: 
 ---
 
 # ScrollBarsConstants enumeration

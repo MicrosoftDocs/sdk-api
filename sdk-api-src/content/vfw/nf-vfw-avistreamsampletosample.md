@@ -4,17 +4,16 @@ title: AVIStreamSampleToSample macro
 author: windows-sdk-content
 description: The AVIStreamSampleToSample macro returns the sample in a stream that occurs at the same time as a sample that occurs in a second stream.
 old-location: multimedia\avistreamsampletosample.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamSampleToSample, AVIStreamSampleToSample macro [Windows Multimedia], _win32_AVIStreamSampleToSample, multimedia.avistreamsampletosample, vfw/AVIStreamSampleToSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamSampleToSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamSampleToSample macro

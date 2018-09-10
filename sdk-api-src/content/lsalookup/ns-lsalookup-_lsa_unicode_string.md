@@ -4,7 +4,7 @@ title: "_LSA_UNICODE_STRING"
 author: windows-sdk-content
 description: The LSA_UNICODE_STRING structure is used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\lsa_unicode_string.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 9e1cf20f-01f9-4813-bf95-e47c5d57dcdc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_UNICODE_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
+req.redist: 
 ---
 
 # _LSA_UNICODE_STRING structure

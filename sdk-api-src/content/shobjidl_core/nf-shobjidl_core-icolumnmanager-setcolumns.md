@@ -4,17 +4,16 @@ title: IColumnManager::SetColumns
 author: windows-sdk-content
 description: Sets the collection of columns for the view to display.
 old-location: shell\IColumnManager_SetColumns.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1541809d-0826-46c4-aa10-cb4cbd6f8437
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IColumnManager interface [Windows Shell],SetColumns method, IColumnManager.SetColumns, IColumnManager::SetColumns, SetColumns, SetColumns method [Windows Shell], SetColumns method [Windows Shell],IColumnManager interface, shell.IColumnManager_SetColumns, shell_IColumnManager_SetColumns, shobjidl_core/IColumnManager::SetColumns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnManager.SetColumns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnManager::SetColumns

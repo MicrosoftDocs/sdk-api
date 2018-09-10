@@ -4,7 +4,7 @@ title: "_DLLVERSIONINFO2"
 author: windows-sdk-content
 description: Receives DLL-specific version information. It is used with the DllGetVersion function.
 old-location: shell\DLLVERSIONINFO2_0rjh.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1648924d-0727-4cee-80d3-f97550f235cd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DLLVERSIONINFO2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DLLVERSIONINFO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DLLVERSIONINFO2
+req.redist: 
 ---
 
 # _DLLVERSIONINFO2 structure

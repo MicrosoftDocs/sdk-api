@@ -4,17 +4,16 @@ title: GetEnhMetaFileHeader function
 author: windows-sdk-content
 description: The GetEnhMetaFileHeader function retrieves the record containing the header for the specified enhanced-format metafile.
 old-location: gdi\getenhmetafileheader.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetEnhMetaFileHeader
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetEnhMetaFileHeader function

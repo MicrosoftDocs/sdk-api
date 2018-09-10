@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_FromDate
 author: windows-sdk-content
 description: The date from which you want the file management job to begin expiring files (moving files to the expired files directory). This property also applies to custom commands for the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_fromdate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f891679d-3d94-4fbe-99b1-9445666b7694
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FromDate property [File Server Resource Manager], FromDate property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FromDate property, IFsrmFileManagementJob.FromDate, IFsrmFileManagementJob.put_FromDate, IFsrmFileManagementJob::FromDate, IFsrmFileManagementJob::get_FromDate, IFsrmFileManagementJob::put_FromDate, fs.ifsrmfilemanagementjob_fromdate, fsrm.ifsrmfilemanagementjob_fromdate, fsrmreports/IFsrmFileManagementJob::FromDate, fsrmreports/IFsrmFileManagementJob::get_FromDate, fsrmreports/IFsrmFileManagementJob::put_FromDate, put_FromDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_FromDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_FromDate

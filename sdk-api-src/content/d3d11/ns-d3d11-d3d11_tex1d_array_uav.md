@@ -4,7 +4,7 @@ title: D3D11_TEX1D_ARRAY_UAV
 author: windows-sdk-content
 description: Describes an array of unordered-access 1D texture resources.
 old-location: direct3d11\d3d11_tex1d_array_uav.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8a637d5f-b9cb-486b-8f43-4925cee9ccf7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEX1D_ARRAY_UAV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEX1D_ARRAY_UAV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TEX1D_ARRAY_UAV
+req.redist: 
 ---
 
 # D3D11_TEX1D_ARRAY_UAV structure

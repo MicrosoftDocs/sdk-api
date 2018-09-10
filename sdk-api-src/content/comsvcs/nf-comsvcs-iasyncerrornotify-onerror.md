@@ -4,17 +4,16 @@ title: IAsyncErrorNotify::OnError
 author: windows-sdk-content
 description: Called by COM+ when an error occurs in your asynchronous batch work.
 old-location: cos\iasyncerrornotify_onerror.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a48d7733-bbcb-4c03-b265-f112e24c07d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAsyncErrorNotify interface [COM+],OnError method, IAsyncErrorNotify.OnError, IAsyncErrorNotify::OnError, OnError, OnError method [COM+], OnError method [COM+],IAsyncErrorNotify interface, _cos_IAsyncErrorNotify_OnError, comsvcs/IAsyncErrorNotify::OnError, cos.iasyncerrornotify_onerror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAsyncErrorNotify.OnError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAsyncErrorNotify::OnError

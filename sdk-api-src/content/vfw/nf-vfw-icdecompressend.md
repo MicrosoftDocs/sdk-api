@@ -4,17 +4,16 @@ title: ICDecompressEnd macro
 author: windows-sdk-content
 description: The ICDecompressEnd macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the ICM_DECOMPRESS_END message.
 old-location: multimedia\icdecompressend.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9d66174a-b6bd-4bcd-a88a-bb1876bbc510
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressEnd, ICDecompressEnd macro [Windows Multimedia], _win32_ICDecompressEnd, multimedia.icdecompressend, vfw/ICDecompressEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressEnd macro

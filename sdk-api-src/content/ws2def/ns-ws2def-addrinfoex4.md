@@ -4,7 +4,7 @@ title: addrinfoex4
 author: windows-sdk-content
 description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested.
 old-location: winsock\addrinfoex4.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: addrinfoex4W (Unicode) and addrinfoex4A (ANSI)
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRINFOEX4, *PADDRINFOEX4, *LPADDRINFOEX4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - addrinfoex4W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ADDRINFOEX4, *PADDRINFOEX4, *LPADDRINFOEX4
+req.redist: 
 ---
 
 # addrinfoex4 structure

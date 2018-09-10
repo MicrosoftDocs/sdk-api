@@ -4,17 +4,16 @@ title: ISearchCatalogManager::GetQueryHelper
 author: windows-sdk-content
 description: Gets the ISearchQueryHelper interface for the current catalog.
 old-location: search\_search_ISearchCatalogManager_GetQueryHelper.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getqueryhelper.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetQueryHelper, GetQueryHelper method [search], GetQueryHelper method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetQueryHelper method, ISearchCatalogManager.GetQueryHelper, ISearchCatalogManager::GetQueryHelper, _search_ISearchCatalogManager_GetQueryHelper, search._search_ISearchCatalogManager_GetQueryHelper, searchapi/ISearchCatalogManager::GetQueryHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCatalogManager.GetQueryHelper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchCatalogManager::GetQueryHelper

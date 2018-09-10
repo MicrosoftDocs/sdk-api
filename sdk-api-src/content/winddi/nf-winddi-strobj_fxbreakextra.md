@@ -4,17 +4,16 @@ title: STROBJ_fxBreakExtra function
 author: windows-sdk-content
 description: The STROBJ_fxBreakExtra function retrieves the amount of extra space to be added to each space character in a string when displaying and/or printing justified text.
 old-location: display\strobj_fxbreakextra.htm
-old-project: display
+tech.root: display
 ms.assetid: 857068ab-2c47-402b-a64a-691bdc52a298
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices], display.strobj_fxbreakextra, gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml, winddi/STROBJ_fxBreakExtra
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STROBJ_fxBreakExtra
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # STROBJ_fxBreakExtra function

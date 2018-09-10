@@ -4,17 +4,16 @@ title: LsaOpenPolicy function
 author: windows-sdk-content
 description: Opens a handle to the Policy object on a local or remote system.
 old-location: security\lsaopenpolicy.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LsaOpenPolicy
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaOpenPolicy function

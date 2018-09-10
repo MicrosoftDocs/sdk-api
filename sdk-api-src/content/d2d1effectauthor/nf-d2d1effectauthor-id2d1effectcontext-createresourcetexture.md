@@ -4,17 +4,16 @@ title: ID2D1EffectContext::CreateResourceTexture
 author: windows-sdk-content
 description: Creates or finds the given resource texture, depending on whether a resource id is specified.
 old-location: direct2d\id2d1contextinternal_createresourcetexture.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 265888DA-03C2-42F0-92D8-FEB542F9BAA4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateResourceTexture, CreateResourceTexture method [Direct2D], CreateResourceTexture method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateResourceTexture method, ID2D1EffectContext.CreateResourceTexture, ID2D1EffectContext::CreateResourceTexture, d2d1effectauthor/ID2D1EffectContext::CreateResourceTexture, direct2d.id2d1contextinternal_createresourcetexture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1EffectContext.CreateResourceTexture
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectContext::CreateResourceTexture

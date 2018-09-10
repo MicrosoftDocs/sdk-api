@@ -4,17 +4,16 @@ title: IMetaDataImport::GetInterfaceImplProps
 author: windows-sdk-content
 description: Gets a pointer to the metadata tokens for the Type that implements the specified method, and for the interface that declares that method.
 old-location: winrt\imetadataimport_getinterfaceimplprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: ff91bb07-8e3a-49f1-9cd6-1c3e18a3c242
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetInterfaceImplProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetInterfaceImplProps

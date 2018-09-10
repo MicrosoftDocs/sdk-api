@@ -4,7 +4,7 @@ title: "_ASF_INDEX_DESCRIPTOR"
 author: windows-sdk-content
 description: Describes the indexing configuration for a stream and type of index.
 old-location: mf\asf_index_descriptor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a540aef-068d-4465-b0ed-64aed828af01
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASF_INDEX_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ASF_INDEX_DESCRIPTOR
+req.redist: 
 ---
 
 # _ASF_INDEX_DESCRIPTOR structure

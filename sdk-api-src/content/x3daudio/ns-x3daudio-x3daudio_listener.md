@@ -4,7 +4,7 @@ title: X3DAUDIO_LISTENER
 author: windows-sdk-content
 description: Defines a point of 3D audio reception.
 old-location: xaudio2\x3daudio_listener.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_LISTENER
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X3DAUDIO_LISTENER, *LPX3DAUDIO_LISTENER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - X3DAUDIO_LISTENER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: X3DAUDIO_LISTENER, *LPX3DAUDIO_LISTENER
+req.redist: 
 ---
 
 # X3DAUDIO_LISTENER structure

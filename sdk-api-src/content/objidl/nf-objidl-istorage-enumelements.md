@@ -4,17 +4,16 @@ title: IStorage::EnumElements
 author: windows-sdk-content
 description: The EnumElements method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
 old-location: stg\istorage_enumelements.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.EnumElements
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::EnumElements

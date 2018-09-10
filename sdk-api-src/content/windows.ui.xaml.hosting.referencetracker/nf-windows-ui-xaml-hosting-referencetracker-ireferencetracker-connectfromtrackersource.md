@@ -4,17 +4,16 @@ title: IReferenceTracker::xaml
 author: windows-sdk-content
 description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 old-location: winrt\ireferencetracker_connectfromtrackersource.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7c5a0eaf-01a9-476c-8c71-1c817aa41fae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectFromTrackerSource, ConnectFromTrackerSource method [Windows Runtime], ConnectFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],ConnectFromTrackerSource method, IReferenceTracker.ConnectFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::ConnectFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::ConnectFromTrackerSource, winrt.ireferencetracker_connectfromtrackersource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTracker.ConnectFromTrackerSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTracker::xaml

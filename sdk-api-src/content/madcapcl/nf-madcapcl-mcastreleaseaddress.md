@@ -4,17 +4,16 @@ title: McastReleaseAddress function
 author: windows-sdk-content
 description: The McastReleaseAddress function releases leased multicast addresses from the MCAST server.
 old-location: madcap\mcastreleaseaddress.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: 6cb87e3b-0d2e-46f8-8ccf-6309c8fb888c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - McastReleaseAddress
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # McastReleaseAddress function

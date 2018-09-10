@@ -4,17 +4,16 @@ title: IVMRFilterConfig::SetImageCompositor
 author: windows-sdk-content
 description: The SetImageCompositor method installs an application-provided image compositor.
 old-location: dshow\ivmrfilterconfig_setimagecompositor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 504380d4-4df6-4b01-8db3-5c769a3d4106
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetImageCompositor method, IVMRFilterConfig.SetImageCompositor, IVMRFilterConfig::SetImageCompositor, IVMRFilterConfigSetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setimagecompositor, strmif/IVMRFilterConfig::SetImageCompositor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRFilterConfig.SetImageCompositor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRFilterConfig::SetImageCompositor

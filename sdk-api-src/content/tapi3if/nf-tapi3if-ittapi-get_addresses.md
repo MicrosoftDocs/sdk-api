@@ -4,17 +4,16 @@ title: ITTAPI::get_Addresses
 author: windows-sdk-content
 description: The get_Addresses method creates a collection of addresses that are currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAddresses method.
 old-location: tapi3\ittapi_get_addresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9e70ae94-20a2-4ba4-ab39-794f611011d8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_Addresses method, ITTAPI.get_Addresses, ITTAPI::get_Addresses, _tapi3_ittapi_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_addresses, tapi3if/ITTAPI::get_Addresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.get_Addresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::get_Addresses

@@ -4,17 +4,16 @@ title: IDataRetrieverCallback::LoadChangeDataComplete
 author: windows-sdk-content
 description: Indicates that IAsynchronousDataRetriever::LoadChangeData has finished successfully.
 old-location: winsync\idataretrievercallback_loadchangedatacomplete.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b48f9a91-f211-4df4-b315-dfe8d48b3db7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IDataRetrieverCallback interface [Windows Sync],LoadChangeDataComplete method, IDataRetrieverCallback.LoadChangeDataComplete, IDataRetrieverCallback::LoadChangeDataComplete, LoadChangeDataComplete, LoadChangeDataComplete method [Windows Sync], LoadChangeDataComplete method [Windows Sync],IDataRetrieverCallback interface, winsync.idataretrievercallback_loadchangedatacomplete, winsync/IDataRetrieverCallback::LoadChangeDataComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataRetrieverCallback.LoadChangeDataComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDataRetrieverCallback::LoadChangeDataComplete

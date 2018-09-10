@@ -4,7 +4,7 @@ title: ITToneTerminalEvent
 author: windows-sdk-content
 description: The ITToneTerminalEvent interface contains methods that retrieve the description of tone terminal events that have occurred.
 old-location: tapi3\ittoneterminalevent.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITToneTerminalEvent
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITToneTerminalEvent interface

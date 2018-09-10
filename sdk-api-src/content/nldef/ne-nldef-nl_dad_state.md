@@ -4,7 +4,7 @@ title: NL_DAD_STATE
 author: windows-sdk-content
 description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 old-location: iphlp\ip_dad_state.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_DAD_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IP_DAD_STATE
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_DAD_STATE
+req.redist: 
 ---
 
 # NL_DAD_STATE enumeration

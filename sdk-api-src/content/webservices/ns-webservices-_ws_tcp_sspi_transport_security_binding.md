@@ -4,7 +4,7 @@ title: "_WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING"
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the TCP transport.
 old-location: wsw\ws_tcp_sspi_transport_security_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c617f6cf-cedb-4d52-954c-fd4577260ca3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+req.redist: 
 ---
 
 # _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure

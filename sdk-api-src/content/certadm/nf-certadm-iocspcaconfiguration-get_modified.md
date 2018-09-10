@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_Modified
 author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPCAConfiguration object has been modified since it was created.
 old-location: security\iocspcaconfiguration_modified_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 29307049-2165-4871-9ae3-72858752a6a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Modified property, IOCSPCAConfiguration.Modified, IOCSPCAConfiguration.get_Modified, IOCSPCAConfiguration::Modified, IOCSPCAConfiguration::get_Modified, Modified property [Security], Modified property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Modified, certadm/IOCSPCAConfiguration::get_Modified, get_Modified, security.iocspcaconfiguration_modified_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfiguration.get_Modified
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_Modified

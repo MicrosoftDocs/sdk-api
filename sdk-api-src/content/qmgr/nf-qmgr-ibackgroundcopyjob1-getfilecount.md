@@ -4,17 +4,16 @@ title: IBackgroundCopyJob1::GetFileCount
 author: windows-sdk-content
 description: Use the GetFileCount method to retrieve the number of files in the job.
 old-location: bits\ibackgroundcopyjob1_getfilecount.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFileCount, GetFileCount method [BITS], GetFileCount method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFileCount method, IBackgroundCopyJob1.GetFileCount, IBackgroundCopyJob1::GetFileCount, bits.ibackgroundcopyjob1_getfilecount, qmgr/IBackgroundCopyJob1::GetFileCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyJob1.GetFileCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1::GetFileCount

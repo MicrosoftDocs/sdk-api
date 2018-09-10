@@ -4,17 +4,16 @@ title: SetManagedExternally function
 author: windows-sdk-content
 description: Indicates to the MDM agent that the device is managed externally and is not to be registered with an MDM service.
 old-location: mdmreg\setmanagedexternally.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 6aac0ffb-3502-42a5-b7a3-e11c401543ce
 ms.author: windowssdkdev
 ms.date: 02/21/2018
 ms.keywords: SetManagedExternally, SetManagedExternally function [MDM Registration], mdmreg.setmanagedexternally, mdmregistration/SetManagedExternally
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: MDMRegistration.lib
+req.dll: MDMRegistration.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetManagedExternally
 product: Windows
 targetos: Windows
-req.lib: MDMRegistration.lib
-req.dll: MDMRegistration.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetManagedExternally function

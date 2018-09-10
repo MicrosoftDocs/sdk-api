@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetSidLength
 author: windows-sdk-content
 description: Retrieves the length of the user's security identifier (SID), in bytes.
 old-location: fs\idiskquotauser_getsidlength.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 68fcb122-5d61-464a-99ae-d99e0d4a8117
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSidLength, GetSidLength method [Files], GetSidLength method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSidLength method, IDiskQuotaUser.GetSidLength, IDiskQuotaUser::GetSidLength, _win32_idiskquotauser_getsidlength, base.idiskquotauser_getsidlength, dskquota/IDiskQuotaUser::GetSidLength, fs.idiskquotauser_getsidlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetSidLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetSidLength

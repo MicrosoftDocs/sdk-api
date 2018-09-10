@@ -4,17 +4,16 @@ title: ExitWindows macro
 author: windows-sdk-content
 description: Calls the ExitWindowsEx function to log off the interactive user.
 old-location: base\exitwindows.htm
-old-project: Shutdown
+tech.root: Shutdown
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExitWindows
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ExitWindows macro

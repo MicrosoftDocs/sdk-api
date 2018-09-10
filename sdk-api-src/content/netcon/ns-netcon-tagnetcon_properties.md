@@ -4,7 +4,7 @@ title: tagNETCON_PROPERTIES
 author: windows-sdk-content
 description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
 old-location: ics\netcon_properties.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETCON_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETCON_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NETCON_PROPERTIES
+req.redist: 
 ---
 
 # tagNETCON_PROPERTIES structure

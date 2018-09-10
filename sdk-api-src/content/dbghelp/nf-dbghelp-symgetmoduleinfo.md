@@ -4,17 +4,16 @@ title: SymGetModuleInfo function
 author: windows-sdk-content
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - SymGetModuleInfoW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymGetModuleInfo function

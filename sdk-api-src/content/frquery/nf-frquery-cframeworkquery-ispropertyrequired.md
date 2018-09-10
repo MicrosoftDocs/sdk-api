@@ -4,17 +4,16 @@ title: CFrameworkQuery::IsPropertyRequired
 author: windows-sdk-content
 description: The IsPropertyRequired method determines if a particular property was requested by the query. Both the SELECT and WHERE clauses are checked.
 old-location: wmi\cframeworkquery_ispropertyrequired.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 36f5a261-435c-494d-aae5-a420eee030f2
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],IsPropertyRequired method, CFrameworkQuery.IsPropertyRequired, CFrameworkQuery::IsPropertyRequired, IsPropertyRequired, IsPropertyRequired method [Windows Management Instrumentation], IsPropertyRequired method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_ispropertyrequired, frquery/CFrameworkQuery::IsPropertyRequired, wmi.cframeworkquery_ispropertyrequired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CFrameworkQuery.IsPropertyRequired
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CFrameworkQuery::IsPropertyRequired

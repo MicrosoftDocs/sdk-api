@@ -4,17 +4,16 @@ title: ILIsEqual function
 author: windows-sdk-content
 description: Tests whether two ITEMIDLIST structures are equal in a binary comparison.
 old-location: shell\ILIsEqual.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 139613fc-cd3b-4d5b-b590-096af8f01b62
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ILIsEqual, ILIsEqual function [Windows Shell], _win32_ILIsEqual, shell.ILIsEqual, shlobj_core/ILIsEqual
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ILIsEqual
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILIsEqual function

@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with MiniDumpWriteDump. It receives extended minidump information.
 old-location: base\minidumpcallback.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MiniDumpCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # MINIDUMP_CALLBACK_ROUTINE callback function

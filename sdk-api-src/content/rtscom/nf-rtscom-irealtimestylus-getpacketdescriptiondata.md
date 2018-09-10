@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetPacketDescriptionData
 author: windows-sdk-content
 description: Retrieves the packet properties and scaling factors.
 old-location: tablet\irealtimestylus_getpacketdescriptiondata.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8, GetPacketDescriptionData, GetPacketDescriptionData method [Tablet PC], GetPacketDescriptionData method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetPacketDescriptionData method, IRealTimeStylus.GetPacketDescriptionData, IRealTimeStylus::GetPacketDescriptionData, rtscom/IRealTimeStylus::GetPacketDescriptionData, tablet.irealtimestylus_getpacketdescriptiondata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetPacketDescriptionData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetPacketDescriptionData

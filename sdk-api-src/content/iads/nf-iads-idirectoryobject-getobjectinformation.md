@@ -4,17 +4,16 @@ title: IDirectoryObject::GetObjectInformation
 author: windows-sdk-content
 description: The IDirectoryObject::GetObjectInformation method retrieves a pointer to an ADS_OBJECT_INFO structure that contains data regarding the identity and location of a directory service object.
 old-location: adsi\idirectoryobject_getobjectinformation.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObjectInformation method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectInformation method, IDirectoryObject.GetObjectInformation, IDirectoryObject::GetObjectInformation, _ds_idirectoryobject_getobjectinformation, adsi.idirectoryobject__getobjectinformation, adsi.idirectoryobject_getobjectinformation, iads/IDirectoryObject::GetObjectInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectoryObject.GetObjectInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectoryObject::GetObjectInformation

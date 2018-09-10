@@ -4,17 +4,16 @@ title: IKnownFolderManager::FindFolderFromPath
 author: windows-sdk-content
 description: Gets an object that represents a known folder based on a file system path.
 old-location: shell\IKnownFolderManager_FindFolderFromPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e8033305-e5b9-499d-b794-ac3190141650
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_NEARESTPARENTMATCH, FindFolderFromPath, FindFolderFromPath method [Windows Shell], FindFolderFromPath method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromPath method, IKnownFolderManager.FindFolderFromPath, IKnownFolderManager::FindFolderFromPath, _shell_IKnownFolderManager_FindFolderFromPath, shell.IKnownFolderManager_FindFolderFromPath, shobjidl_core/IKnownFolderManager::FindFolderFromPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnownFolderManager.FindFolderFromPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IKnownFolderManager::FindFolderFromPath

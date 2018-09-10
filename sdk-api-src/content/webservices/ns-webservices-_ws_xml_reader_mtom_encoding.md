@@ -4,7 +4,7 @@ title: "_WS_XML_READER_MTOM_ENCODING"
 author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as in MTOM format.
 old-location: wsw\ws_xml_reader_mtom_encoding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_READER_MTOM_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_READER_MTOM_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_READER_MTOM_ENCODING
+req.redist: 
 ---
 
 # _WS_XML_READER_MTOM_ENCODING structure

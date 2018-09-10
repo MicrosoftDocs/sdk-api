@@ -4,17 +4,16 @@ title: DsGetDcOpenA function
 author: windows-sdk-content
 description: Opens a new domain controller enumeration operation.
 old-location: ad\dsgetdcopen.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 2811cc30-f367-4f1a-8f0c-ed0a77dad24c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_KDC_REQUIRED, DS_NOTIFY_AFTER_SITE_RECORDS, DS_ONLY_DO_SITE_NAME, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DsGetDcOpen, DsGetDcOpen function [Active Directory], DsGetDcOpenA, DsGetDcOpenW, ad.dsgetdcopen, dsgetdc/DsGetDcOpen, dsgetdc/DsGetDcOpenA, dsgetdc/DsGetDcOpenW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsGetDcOpenW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetDcOpenA function

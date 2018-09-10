@@ -4,17 +4,16 @@ title: Shell_GetImageLists function
 author: windows-sdk-content
 description: Retrieves system image lists for large and small icons.
 old-location: shell\Shell_GetImageLists.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Shell_GetImageLists
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Shell_GetImageLists function

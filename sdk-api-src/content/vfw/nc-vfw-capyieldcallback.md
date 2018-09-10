@@ -4,7 +4,7 @@ title: CAPYIELDCALLBACK
 author: windows-sdk-content
 description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capyieldcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 4d92ab5e-5cde-4fed-a661-0458b5399c2a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capYieldCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CAPYIELDCALLBACK callback function

@@ -4,17 +4,16 @@ title: IOleInPlaceObjectWindowless::OnWindowMessage
 author: windows-sdk-content
 description: Dispatches a message from a container to a windowless object that is in-place active.
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
-old-project: com
+tech.root: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceObjectWindowless.OnWindowMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceObjectWindowless::OnWindowMessage

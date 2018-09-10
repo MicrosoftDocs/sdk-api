@@ -4,17 +4,16 @@ title: lineTranslateDialogW function
 author: windows-sdk-content
 description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
 old-location: tapi2\linetranslatedialog.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineTranslateDialogW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineTranslateDialogW function

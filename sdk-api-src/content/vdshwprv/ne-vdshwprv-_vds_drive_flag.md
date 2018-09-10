@@ -4,7 +4,7 @@ title: "_VDS_DRIVE_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive object.
 old-location: base\vds_drive_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 50ddb9d1-32c9-4fee-bb88-498380a34c85
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_FLAG, *PVDS_DRIVE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_FLAG, *PVDS_DRIVE_FLAG
+req.redist: 
 ---
 
 # _VDS_DRIVE_FLAG enumeration

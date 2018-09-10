@@ -4,7 +4,7 @@ title: "_WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE"
 author: windows-sdk-content
 description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_username_binding_template.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c2d63721-0810-48a5-b1f8-8b1adcba96b8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
+req.redist: 
 ---
 
 # _WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE structure

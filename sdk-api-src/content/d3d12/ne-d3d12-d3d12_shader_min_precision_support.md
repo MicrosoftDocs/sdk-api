@@ -4,7 +4,7 @@ title: D3D12_SHADER_MIN_PRECISION_SUPPORT
 author: windows-sdk-content
 description: Describes minimum precision support options for shaders in the current graphics driver.
 old-location: direct3d12\d3d12_shader_min_precision_support.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 04172EA4-B663-49B4-A329-E4B0A8EE4617
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_MIN_PRECISION_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_SHADER_MIN_PRECISION_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_SHADER_MIN_PRECISION_SUPPORT
+req.redist: 
 ---
 
 # D3D12_SHADER_MIN_PRECISION_SUPPORT enumeration

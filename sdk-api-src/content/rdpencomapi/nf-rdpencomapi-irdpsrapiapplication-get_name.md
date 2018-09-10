@@ -4,17 +4,16 @@ title: IRDPSRAPIApplication::get_Name
 author: windows-sdk-content
 description: The name of the application.
 old-location: rdp\irdpsrapiapplication_name.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 05e1ea2d-959c-4d2b-a24b-b67bae74d0c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Name property, IRDPSRAPIApplication.Name, IRDPSRAPIApplication.get_Name, IRDPSRAPIApplication::Name, IRDPSRAPIApplication::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIApplication interface, Name property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Name property, get_Name, rdp.irdpsrapiapplication_name, rdpencomapi/IRDPSRAPIApplication::Name, rdpencomapi/IRDPSRAPIApplication::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIApplication.Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIApplication::get_Name

@@ -4,17 +4,16 @@ title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
 author: windows-sdk-content
 description: Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the CIEJCh colors.
 old-location: wcs\IGamutMapModelPlugIn_SourceToDestinationAppearanceColors.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IGamutMapModelPlugIn::SourceToDestinationAppearanceColors

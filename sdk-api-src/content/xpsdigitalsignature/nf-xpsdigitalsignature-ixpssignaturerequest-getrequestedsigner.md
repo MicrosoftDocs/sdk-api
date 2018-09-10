@@ -4,17 +4,16 @@ title: IXpsSignatureRequest::GetRequestedSigner
 author: windows-sdk-content
 description: Gets the identity of the person who has signed or is requesting to sign the package.
 old-location: xps\ixpssignaturerequest_getrequestedsigner.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: fbe5872e-76af-4aa1-86ad-ed7c36fd6447
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRequestedSigner, GetRequestedSigner method [XPS Documents and Packaging], GetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestedSigner method, IXpsSignatureRequest.GetRequestedSigner, IXpsSignatureRequest::GetRequestedSigner, xps.ixpssignaturerequest_getrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::GetRequestedSigner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureRequest.GetRequestedSigner
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureRequest::GetRequestedSigner

@@ -4,17 +4,16 @@ title: CM_Enumerate_Enumerators_ExW function
 author: windows-sdk-content
 description: The CM_Enumerate_Enumerators_Ex function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.
 old-location: devinst\cm_enumerate_enumerators_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 9d44b1be-96b1-493a-94b7-a6bd883fd570
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Enumerate_Enumerators_Ex, CM_Enumerate_Enumerators_Ex function [Device and Driver Installation], CM_Enumerate_Enumerators_ExW, cfgmgr32/CM_Enumerate_Enumerators_Ex, cfgmgr32/CM_Enumerate_Enumerators_ExW, cfgmgrfn_56f59835-4383-4d6f-aaa5-e7e1cb4a3b56.xml, devinst.cm_enumerate_enumerators_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Enumerate_Enumerators_ExW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Enumerate_Enumerators_ExW function

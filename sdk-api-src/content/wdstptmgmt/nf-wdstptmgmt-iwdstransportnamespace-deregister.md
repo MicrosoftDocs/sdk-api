@@ -4,17 +4,16 @@ title: IWdsTransportNamespace::Deregister
 author: windows-sdk-content
 description: Deregisters the namespace on the server.
 old-location: wds\iwdstransportnamespace_deregister.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportNamespace.Deregister
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportNamespace::Deregister
@@ -62,7 +60,7 @@ Deregisters the namespace on the server.
 
 ### -param bTerminateSessions
 
-
+TBD
 
 
 

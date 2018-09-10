@@ -4,7 +4,7 @@ title: "_MINIDUMP_USER_STREAM"
 author: windows-sdk-content
 description: Contains user-defined information stored in a data stream.
 old-location: base\minidump_user_stream_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 43eae98c-fba3-43a4-97e6-8b81874e856e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_USER_STREAM, *PMINIDUMP_USER_STREAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_USER_STREAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_USER_STREAM, *PMINIDUMP_USER_STREAM
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_USER_STREAM structure

@@ -4,7 +4,7 @@ title: CLUSTER_NODE_DRAIN_STATUS
 author: windows-sdk-content
 description: Enumerates the possible values of the status of a node drain.
 old-location: mscs\cluster_node_drain_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NODE_DRAIN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_NODE_DRAIN_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_NODE_DRAIN_STATUS
+req.redist: 
 ---
 
 # CLUSTER_NODE_DRAIN_STATUS enumeration

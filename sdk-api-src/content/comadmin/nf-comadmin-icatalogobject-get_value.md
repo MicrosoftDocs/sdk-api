@@ -4,17 +4,16 @@ title: ICatalogObject::get_Value
 author: windows-sdk-content
 description: Accesses the value of the specified property exposed by this catalog object.
 old-location: cos\icatalogobject_value.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: eb4203c5-b51c-411c-9c2d-405b3d70bc80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatalogObject interface [COM+],Value property, ICatalogObject.Value, ICatalogObject.get_Value, ICatalogObject::Value, ICatalogObject::get_Value, ICatalogObject::put_Value, Value property [COM+], Value property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Value, _cos_ICatalogObject_put_Value, comadmin/ICatalogObject::Value, comadmin/ICatalogObject::get_Value, comadmin/ICatalogObject::put_Value, cos.icatalogobject_value, get_Value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICatalogObject.put_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogObject::get_Value

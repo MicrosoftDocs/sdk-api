@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxServer.get_InboundRouting
 title: IFaxServer::get_InboundRouting
 author: windows-sdk-content
-description: The InboundRouting property creates a FaxInboundRouting configuration object. The object permits access to an inbound fax routing extension and its methods.
-old-location: fax\_mfax_faxserver_inboundrouting.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_1w4n.htm
+description: The IFaxServer::get_InboundRouting property creates a IFaxInboundRouting configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+old-location: fax\_mfax_faxserver_inboundrouting_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_1w4n_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxServer object [Fax Service],InboundRouting property, FaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.inboundrouting, fax._mfax_faxserver_inboundrouting, get_InboundRouting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxServer interface [Fax Service],InboundRouting property, IFaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxServer.InboundRouting
+ - IFaxServer.InboundRouting
  - IFaxServer.get_InboundRouting
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxServer::get_InboundRouting
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/4cf71225-fcd8-4d2f-b8b3-acbb32708f3b">FaxInboundRouting</a> configuration object. The object permits access to an inbound fax routing extension and its methods.
+The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 
 This property is read-only.
 

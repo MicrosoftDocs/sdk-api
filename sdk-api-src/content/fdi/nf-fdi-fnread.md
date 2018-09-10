@@ -4,17 +4,16 @@ title: FNREAD macro
 author: windows-sdk-content
 description: The FNREAD macro provides the declaration for the application-defined callback function to read data from a file in an FDI context.
 old-location: winprog\fnread.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNREAD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNREAD macro

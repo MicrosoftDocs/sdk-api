@@ -4,17 +4,16 @@ title: IInkOverlay::put_EraserMode
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether ink is erased by stroke or by point.
 old-location: tablet\inkoverlay_erasermode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 87dfd750-254a-4829-b5a2-04aee9890dd0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 87dfd750-254a-4829-b5a2-04aee9890dd0, EraserMode property [Tablet PC], EraserMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EraserMode property, IInkOverlay.EraserMode, IInkOverlay.put_EraserMode, IInkOverlay::EraserMode, IInkOverlay::get_EraserMode, IInkOverlay::put_EraserMode, InkOverlay.get_EraserMode, InkOverlay.put_EraserMode, msinkaut/IInkOverlay::EraserMode, msinkaut/IInkOverlay::get_EraserMode, msinkaut/IInkOverlay::put_EraserMode, put_EraserMode, tablet.inkoverlay_erasermode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_EraserMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_EraserMode

@@ -4,7 +4,7 @@ title: "_CREDUI_INFOA"
 author: windows-sdk-content
 description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
 old-location: security\credui_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDUI_INFOA, *PCREDUI_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CREDUI_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CREDUI_INFOA, *PCREDUI_INFOA
+req.redist: 
 ---
 
 # _CREDUI_INFOA structure

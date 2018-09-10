@@ -4,17 +4,16 @@ title: AttachVirtualDisk function
 author: windows-sdk-content
 description: Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate VHD provider to accomplish the attachment.
 old-location: vhd\attachvirtualdisk.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 528370bc-77d4-4983-8910-d941165a037c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachVirtualDisk, vhd.attachvirtualdisk, vhd.surfacevirtualdisk, virtdisk/AttachVirtualDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_DISK_ACCESS_MASK
+req.lib: VirtDisk.lib
+req.dll: VirtDisk.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AttachVirtualDisk
 product: Windows
 targetos: Windows
-req.lib: VirtDisk.lib
-req.dll: VirtDisk.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AttachVirtualDisk function

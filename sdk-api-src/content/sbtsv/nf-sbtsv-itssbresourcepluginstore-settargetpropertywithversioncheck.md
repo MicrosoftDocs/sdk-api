@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
 author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_winsync_0000_0000_0006"
 author: windows-sdk-content
 description: Represents types of statistics that convey information about a component.
 old-location: winsync\sync_statistics.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYNC_STATISTICS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0006 enumeration

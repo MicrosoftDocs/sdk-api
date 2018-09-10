@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::RepaintVideo
 author: windows-sdk-content
 description: Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 old-location: mf\imfvideodisplaycontrol_repaintvideo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c8051883-2a48-4ca4-a7d2-c90d0d451cd2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.RepaintVideo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::RepaintVideo

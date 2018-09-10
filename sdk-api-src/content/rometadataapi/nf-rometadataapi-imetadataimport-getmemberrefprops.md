@@ -4,17 +4,16 @@ title: IMetaDataImport::GetMemberRefProps
 author: windows-sdk-content
 description: Gets metadata associated with the member referenced by the specified token.
 old-location: winrt\imetadataimport_getmemberrefprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: a82baa9a-0102-4d30-945d-34ec2514e0a6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMemberRefProps, GetMemberRefProps method [Windows Runtime], GetMemberRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMemberRefProps method, IMetaDataImport.GetMemberRefProps, IMetaDataImport::GetMemberRefProps, rometadataapi/IMetaDataImport::GetMemberRefProps, winrt.imetadataimport_getmemberrefprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetMemberRefProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetMemberRefProps

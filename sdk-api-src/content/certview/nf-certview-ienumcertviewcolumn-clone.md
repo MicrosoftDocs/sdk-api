@@ -4,17 +4,16 @@ title: IEnumCERTVIEWCOLUMN::Clone
 author: windows-sdk-content
 description: Creates a copy of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_clone.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN.Clone
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN::Clone

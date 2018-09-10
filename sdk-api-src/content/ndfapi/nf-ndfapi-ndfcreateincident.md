@@ -4,17 +4,16 @@ title: NdfCreateIncident function
 author: windows-sdk-content
 description: To test the NDF functionality incorporated into their application.
 old-location: ndf\ndfcreateincident.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfCreateIncident
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfCreateIncident function

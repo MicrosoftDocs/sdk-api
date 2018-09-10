@@ -4,7 +4,7 @@ title: "_EVENT_CALLBACK"
 author: windows-sdk-content
 description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.
 old-location: rras\rtm_event_callback.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 57179cea-d92b-4199-bb61-b34d980532cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProxyFileInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_EVENT_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # _EVENT_CALLBACK callback function

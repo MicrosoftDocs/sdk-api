@@ -4,17 +4,16 @@ title: SetupDiGetClassPropertyKeysExW function
 author: windows-sdk-content
 description: The SetupDiGetClassPropertyKeysEx function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class on a local or a remote computer.
 old-location: devinst\setupdigetclasspropertykeysex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: dde6fdbd-e189-4ec7-95c7-b655ea7083c1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassPropertyKeysEx, SetupDiGetClassPropertyKeysEx function [Device and Driver Installation], SetupDiGetClassPropertyKeysExW, devinst.setupdigetclasspropertykeysex, di-rtns_3f3e4cd6-af28-409f-8e1e-7e06067d7082.xml, setupapi/SetupDiGetClassPropertyKeysEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property_Keys_Ex
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassPropertyKeysEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassPropertyKeysExW function

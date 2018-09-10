@@ -4,7 +4,7 @@ title: RESTRICTIONS
 author: windows-sdk-content
 description: These flags are used with the SHRestricted function.
 old-location: shell\RESTRICTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 14eac1b9-8ef6-4473-81c1-72ba270a9da7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESTRICTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESTRICTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: RESTRICTIONS
+req.redist: 
 ---
 
 # RESTRICTIONS enumeration

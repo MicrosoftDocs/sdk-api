@@ -4,17 +4,16 @@ title: ReadNextLogRecord function
 author: windows-sdk-content
 description: Reads the next record in a sequence that is initiated by a call to ReadLogRecord or ReadLogRestartArea.
 old-location: fs\readnextlogrecord.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ReadNextLogRecord
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReadNextLogRecord function

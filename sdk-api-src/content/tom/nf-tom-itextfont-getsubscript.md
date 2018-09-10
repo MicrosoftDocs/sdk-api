@@ -4,17 +4,16 @@ title: ITextFont::GetSubscript
 author: windows-sdk-content
 description: Gets whether characters are displayed as subscript.
 old-location: controls\ITextFont_GetSubscript.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSubscript method, ITextFont.GetSubscript, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.GetSubscript
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::GetSubscript

@@ -4,17 +4,16 @@ title: CreateUrlCacheEntryW function
 author: windows-sdk-content
 description: Creates a local file name for saving the cache entry based on the specified URL and the file name extension.
 old-location: wininet\createurlcacheentry.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateUrlCacheEntry, CreateUrlCacheEntry function [WinINet], CreateUrlCacheEntryA, CreateUrlCacheEntryW, _inet_createurlcacheentry_function, wininet.createurlcacheentry, wininet/CreateUrlCacheEntry, wininet/CreateUrlCacheEntryA, wininet/CreateUrlCacheEntryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CreateUrlCacheEntryW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateUrlCacheEntryW function

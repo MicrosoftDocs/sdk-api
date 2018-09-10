@@ -4,7 +4,7 @@ title: INTERACTION_ARGUMENTS_CROSS_SLIDE
 author: windows-sdk-content
 description: Defines the state of the cross-slide interaction.
 old-location: input_intcontext\interaction_arguments_cross_slide.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 365b0bed-888e-4e9c-ad13-254a241b9de9
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERACTION_ARGUMENTS_CROSS_SLIDE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERACTION_ARGUMENTS_CROSS_SLIDE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERACTION_ARGUMENTS_CROSS_SLIDE
+req.redist: 
 ---
 
 # INTERACTION_ARGUMENTS_CROSS_SLIDE structure

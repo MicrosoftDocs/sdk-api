@@ -4,17 +4,16 @@ title: bind function
 author: windows-sdk-content
 description: The bind function associates a local address with a socket.
 old-location: winsock\bind_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - bind
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # bind function

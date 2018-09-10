@@ -4,17 +4,16 @@ title: IVMRMixerBitmap9::GetAlphaBitmapParameters
 author: windows-sdk-content
 description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
 old-location: dshow\ivmrmixerbitmap9_getalphabitmapparameters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a5e5891f-6842-40e7-8bf4-29c6979c7551
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, IVMRMixerBitmap9 interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap9.GetAlphaBitmapParameters, IVMRMixerBitmap9::GetAlphaBitmapParameters, IVMRMixerBitmap9GetAlphaBitmapParameters, dshow.ivmrmixerbitmap9_getalphabitmapparameters, vmr9/IVMRMixerBitmap9::GetAlphaBitmapParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerBitmap9.GetAlphaBitmapParameters
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerBitmap9::GetAlphaBitmapParameters

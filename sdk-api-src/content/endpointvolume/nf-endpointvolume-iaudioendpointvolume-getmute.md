@@ -4,17 +4,16 @@ title: IAudioEndpointVolume::GetMute
 author: windows-sdk-content
 description: The GetMute method gets the muting state of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getmute.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: bb7cbb42-74cd-4951-92b1-a76ca42e5d3a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMute method, IAudioEndpointVolume.GetMute, IAudioEndpointVolume::GetMute, IAudioEndpointVolumeGetMute, coreaudio.iaudioendpointvolume_getmute, endpointvolume/IAudioEndpointVolume::GetMute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolume.GetMute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolume::GetMute

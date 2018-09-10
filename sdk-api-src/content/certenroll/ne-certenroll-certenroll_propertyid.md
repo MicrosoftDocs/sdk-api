@@ -4,7 +4,7 @@ title: CERTENROLL_PROPERTYID
 author: windows-sdk-content
 description: Contains predefined object identifiers for external properties that can be associated with a certificate in the certificate store.
 old-location: security\certenroll_propertyid_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: e7ad0ec5-a568-4506-ba54-908e00083c2b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERTENROLL_PROPERTYID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CERTENROLL_PROPERTYID
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: CERTENROLL_PROPERTYID
+req.redist: 
 ---
 
 # CERTENROLL_PROPERTYID enumeration

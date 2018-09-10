@@ -4,17 +4,16 @@ title: IBrowserService::IEGetDisplayName
 author: windows-sdk-content
 description: Deprecated. Retrieves the URL that corresponds to a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_IEGetDisplayName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 012d794a-9823-4af2-b628-ad33a93dbbb5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService interface [Windows Shell],IEGetDisplayName method, IBrowserService.IEGetDisplayName, IBrowserService::IEGetDisplayName, IEGetDisplayName, IEGetDisplayName method [Windows Shell], IEGetDisplayName method [Windows Shell],IBrowserService interface, SHGDN_FORADDRESSBAR, SHGDN_FORPARSING, SHGDN_NORMAL, shdeprecated/IBrowserService::IEGetDisplayName, shell.IBrowserService_IEGetDisplayName, zone_IBrowserService_IEGetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.IEGetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

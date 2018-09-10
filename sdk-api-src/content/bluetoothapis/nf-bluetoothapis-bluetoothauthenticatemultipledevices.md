@@ -4,17 +4,16 @@ title: BluetoothAuthenticateMultipleDevices function
 author: windows-sdk-content
 description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.
 old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothAuthenticateMultipleDevices
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothAuthenticateMultipleDevices function

@@ -4,7 +4,7 @@ title: FEATURE_ENABLED_STATE
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_enabled_state.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 3517732F-926F-4A64-90EE-7923D03270AC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: featurestagingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEATURE_ENABLED_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FEATURE_ENABLED_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FEATURE_ENABLED_STATE
+req.redist: 
 ---
 
 # FEATURE_ENABLED_STATE enumeration

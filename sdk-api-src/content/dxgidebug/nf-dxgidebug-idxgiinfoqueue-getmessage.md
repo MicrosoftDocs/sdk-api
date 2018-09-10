@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::GetMessage
 author: windows-sdk-content
 description: Gets a message from the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getmessage.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.GetMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::GetMessage

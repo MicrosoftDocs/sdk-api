@@ -4,17 +4,16 @@ title: PerfQueryCounterInfo function
 author: windows-sdk-content
 description: Gets the counter specifications in the specified query.
 old-location: perf\perfquerycounterinfo.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: AdvAPI32.lib
+req.dll: AdvAPI32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PerfQueryCounterInfo
 product: Windows
 targetos: Windows
-req.lib: AdvAPI32.lib
-req.dll: AdvAPI32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfQueryCounterInfo function

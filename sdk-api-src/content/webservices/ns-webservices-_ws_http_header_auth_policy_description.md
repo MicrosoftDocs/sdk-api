@@ -4,7 +4,7 @@ title: "_WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION"
 author: windows-sdk-content
 description: Describes the policy specifying http channel binding.
 old-location: wsw\ws_http_header_auth_policy_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 2d5d90d5-498e-48a3-af21-f15349a391bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_HTTP_HEADER_AUTH_POLICY_DESCRIPTION structure

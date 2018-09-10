@@ -4,17 +4,16 @@ title: EngHangNotification function
 author: windows-sdk-content
 description: The EngHangNotification function notifies the system that a specified device is inoperable or unresponsive.
 old-location: display\enghangnotification.htm
-old-project: display
+tech.root: display
 ms.assetid: 9013bf34-64bd-4621-af40-f979065c8cbd
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngHangNotification, EngHangNotification function [Display Devices], display.enghangnotification, gdifncs_ca454eea-7e11-4af6-a717-818f52f9fc59.xml, winddi/EngHangNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngHangNotification
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngHangNotification function

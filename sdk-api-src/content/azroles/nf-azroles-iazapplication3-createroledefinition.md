@@ -4,17 +4,16 @@ title: IAzApplication3::CreateRoleDefinition
 author: windows-sdk-content
 description: Creates a new IAzRoleDefinition object with the specified name.
 old-location: security\iazapplication3_createroledefinition.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 014410be-4b2c-452b-b671-0a9bd9c0a448
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleDefinition method, IAzApplication3.CreateRoleDefinition, IAzApplication3::CreateRoleDefinition, azroles/IAzApplication3::CreateRoleDefinition, security.iazapplication3_createroledefinition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzApplication3.CreateRoleDefinition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzApplication3::CreateRoleDefinition

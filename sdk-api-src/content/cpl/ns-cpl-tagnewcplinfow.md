@@ -4,7 +4,7 @@ title: tagNEWCPLINFOW
 author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\NEWCPLINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NEWCPLINFOW, *LPNEWCPLINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NEWCPLINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NEWCPLINFOW, *LPNEWCPLINFOW
+req.redist: 
 ---
 
 # tagNEWCPLINFOW structure

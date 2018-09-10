@@ -4,17 +4,16 @@ title: IXpsSignature::GetSignatureValue
 author: windows-sdk-content
 description: Gets the encrypted hash value of the signature.
 old-location: xps\ixpssignature_getsignaturevalue.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 40a21fa3-cf71-4c0d-8343-83a2c1a216c9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignature.GetSignatureValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignature::GetSignatureValue

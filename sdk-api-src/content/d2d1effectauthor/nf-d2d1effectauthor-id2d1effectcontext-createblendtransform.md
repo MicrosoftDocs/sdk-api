@@ -4,17 +4,16 @@ title: ID2D1EffectContext::CreateBlendTransform
 author: windows-sdk-content
 description: This creates a blend transform that can be inserted into a transform graph.
 old-location: direct2d\id2d1contextinternal_createblendtransform.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 23B8D1A5-05F4-4056-BFA8-8D9C89FE0492
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateBlendTransform, CreateBlendTransform method [Direct2D], CreateBlendTransform method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateBlendTransform method, ID2D1EffectContext.CreateBlendTransform, ID2D1EffectContext::CreateBlendTransform, d2d1effectauthor/ID2D1EffectContext::CreateBlendTransform, direct2d.id2d1contextinternal_createblendtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1EffectContext.CreateBlendTransform
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectContext::CreateBlendTransform
@@ -78,7 +77,7 @@ Describes the blend transform that is to be created.
 
 ### -param transform
 
-
+TBD
 
 
 

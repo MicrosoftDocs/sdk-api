@@ -4,7 +4,7 @@ title: IInkDivisionUnits
 author: windows-sdk-content
 description: Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object.
 old-location: tablet\iinkdivisionunits.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInkDivisionUnits._NewEnum
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivisionUnits interface

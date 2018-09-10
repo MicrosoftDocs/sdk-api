@@ -4,17 +4,16 @@ title: ISurfaceImageSourceNativeWithD2D::xaml
 author: windows-sdk-content
 description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
 old-location: winrt\isurfaceimagesourcenativewithd2d_setdevice.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: FBBF0A5E-68FF-4143-A874-0C1100100428
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNativeWithD2D.SetDevice, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SetDevice, ISurfaceImageSourceNativeWithD2D::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SetDevice, winrt.isurfaceimagesourcenativewithd2d_setdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceNativeWithD2D.SetDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml
@@ -62,7 +60,7 @@ Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, cr
 
 ### -param device
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IFileOperation::ApplyPropertiesToItem
 author: windows-sdk-content
 description: Declares a single item whose property values are to be set.
 old-location: shell\IFileOperation_ApplyPropertiesToItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 35330c7c-29fc-4337-a538-863925398b0d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItem method, IFileOperation.ApplyPropertiesToItem, IFileOperation::ApplyPropertiesToItem, _shell_IFileOperation_ApplyPropertiesToItem, shell.IFileOperation_ApplyPropertiesToItem, shobjidl_core/IFileOperation::ApplyPropertiesToItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.ApplyPropertiesToItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::ApplyPropertiesToItem

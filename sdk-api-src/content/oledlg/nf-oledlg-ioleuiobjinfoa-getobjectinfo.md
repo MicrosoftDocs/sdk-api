@@ -4,17 +4,16 @@ title: IOleUIObjInfoA::GetObjectInfo
 author: windows-sdk-content
 description: Gets the size, type, name, and location information for an object.
 old-location: com\ioleuiobjinfo_getobjectinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: d09aafd0-0f4b-42c4-b1e6-0656cf0bd02d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObjectInfo, GetObjectInfo method [COM], GetObjectInfo method [COM],IOleUIObjInfo interface, GetObjectInfo method [COM],IOleUIObjInfoA interface, GetObjectInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetObjectInfo method, IOleUIObjInfo::GetObjectInfo, IOleUIObjInfoA interface [COM],GetObjectInfo method, IOleUIObjInfoA.GetObjectInfo, IOleUIObjInfoA::GetObjectInfo, IOleUIObjInfoW interface [COM],GetObjectInfo method, IOleUIObjInfoW::GetObjectInfo, _ole_IOleUIObjInfo_GetObjectInfo, com.ioleuiobjinfo_getobjectinfo, oledlg/IOleUIObjInfo::GetObjectInfo, oledlg/IOleUIObjInfoA::GetObjectInfo, oledlg/IOleUIObjInfoW::GetObjectInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUIObjInfoA.GetObjectInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUIObjInfoA::GetObjectInfo

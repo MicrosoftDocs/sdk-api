@@ -4,17 +4,16 @@ title: WMCreateDRMTranscryptor function
 author: windows-sdk-content
 description: Creates a DRM transcryptor object.
 old-location: wmformat\wmcreatedrmtranscryptor.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: b8d7607f-5fd0-4f4a-b626-d08324aaa805
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WMCreateDRMTranscryptor, WMCreateDRMTranscryptor function [windows Media Format], wmformat.wmcreatedrmtranscryptor, wmsdkidl/WMCreateDRMTranscryptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib
+req.dll: Wmvcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMCreateDRMTranscryptor
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib
-req.dll: Wmvcore.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WMCreateDRMTranscryptor function

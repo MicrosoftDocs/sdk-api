@@ -4,17 +4,16 @@ title: SHGetLocalizedName function
 author: windows-sdk-content
 description: Retrieves the localized name of a file in a Shell folder.
 old-location: shell\SHGetLocalizedName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2929b77f-4467-44a8-9885-96f0c3e35584
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGetLocalizedName, SHGetLocalizedName function [Windows Shell], _shell_SHGetLocalizedName, shell.SHGetLocalizedName, shellapi/SHGetLocalizedName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGetLocalizedName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetLocalizedName function

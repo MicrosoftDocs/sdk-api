@@ -4,17 +4,16 @@ title: IDWriteInlineObject::GetMetrics
 author: windows-sdk-content
 description: IDWriteTextLayout calls this callback function to get the measurement of the inline object.
 old-location: directwrite\IDWriteInlineObject_GetMetrics.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 809a4e29-0423-40b2-9d40-105d30574fa1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],GetMetrics method, IDWriteInlineObject.GetMetrics, IDWriteInlineObject::GetMetrics, directwrite.IDWriteInlineObject_GetMetrics, dwrite/IDWriteInlineObject::GetMetrics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteInlineObject.GetMetrics
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteInlineObject::GetMetrics

@@ -4,17 +4,16 @@ title: CertSrvBackupPrepareW function
 author: windows-sdk-content
 description: Used to prepare a Certificate Services server for backup operations.
 old-location: security\certsrvbackupprepare.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CertSrvBackupPrepareW
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvBackupPrepareW function

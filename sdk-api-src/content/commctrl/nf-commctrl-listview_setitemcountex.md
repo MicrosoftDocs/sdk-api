@@ -4,17 +4,16 @@ title: ListView_SetItemCountEx macro
 author: windows-sdk-content
 description: Sets the virtual number of items in a virtual list view. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCountEx.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcountex.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LVSICF_NOINVALIDATEALL, LVSICF_NOSCROLL, ListView_SetItemCountEx, ListView_SetItemCountEx macro [Windows Controls], _win32_ListView_SetItemCountEx, _win32_ListView_SetItemCountEx_cpp, commctrl/ListView_SetItemCountEx, controls.ListView_SetItemCountEx, controls._win32_ListView_SetItemCountEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_SetItemCountEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_SetItemCountEx macro

@@ -4,17 +4,16 @@ title: IFsrmActionEmail::get_MailSubject
 author: windows-sdk-content
 description: Retrieves or sets the subject of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailsubject.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 86b606a3-b905-472b-b04a-e5fd74f5afbc
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail.MailSubject, IFsrmActionEmail.get_MailSubject, IFsrmActionEmail2 interface [File Server Resource Manager],MailSubject property, IFsrmActionEmail2.MailSubject, IFsrmActionEmail2::MailSubject, IFsrmActionEmail2::get_MailSubject, IFsrmActionEmail2::put_MailSubject, IFsrmActionEmail::get_MailSubject, IFsrmActionEmail::put_MailSubject, MailSubject property [File Server Resource Manager], MailSubject property [File Server Resource Manager],IFsrmActionEmail interface, MailSubject property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailsubject, fsrm.ifsrmactionemail_mailsubject, fsrm/IFsrmActionEmail2::MailSubject, fsrm/IFsrmActionEmail2::get_MailSubject, fsrm/IFsrmActionEmail2::put_MailSubject, fsrm/IFsrmActionEmail::MailSubject, fsrm/IFsrmActionEmail::get_MailSubject, fsrm/IFsrmActionEmail::put_MailSubject, get_MailSubject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IFsrmActionEmail.put_MailSubject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionEmail::get_MailSubject

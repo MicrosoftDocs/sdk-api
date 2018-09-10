@@ -4,7 +4,7 @@ title: ERF
 author: windows-sdk-content
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi_fci_types.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERF FAR *PERF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: ERF
+req.redist: 
 ---
 
 # ERF structure

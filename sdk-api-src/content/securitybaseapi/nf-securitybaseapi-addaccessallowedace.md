@@ -4,17 +4,16 @@ title: AddAccessAllowedAce function
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to a specified security identifier (SID).
 old-location: security\addaccessallowedace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddAccessAllowedAce
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddAccessAllowedAce function

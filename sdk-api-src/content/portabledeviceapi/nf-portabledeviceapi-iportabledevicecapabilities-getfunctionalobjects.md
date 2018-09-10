@@ -4,17 +4,16 @@ title: IPortableDeviceCapabilities::GetFunctionalObjects
 author: windows-sdk-content
 description: The GetFunctionalObjects method retrieves all functional objects that match a specified category on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalobjects.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 46657e4d-c2fe-42bf-9a3d-5075d4f3ee91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFunctionalObjects, GetFunctionalObjects method [Windows Portable Devices SDK], GetFunctionalObjects method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalObjects method, IPortableDeviceCapabilities.GetFunctionalObjects, IPortableDeviceCapabilities::GetFunctionalObjects, IPortableDeviceCapabilitiesGetFunctionalObjects, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects, wpdsdk.iportabledevicecapabilities_getfunctionalobjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceCapabilities.GetFunctionalObjects
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalObjects

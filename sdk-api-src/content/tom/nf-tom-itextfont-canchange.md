@@ -4,17 +4,16 @@ title: ITextFont::CanChange
 author: windows-sdk-content
 description: Determines whether the font can be changed.
 old-location: controls\ITextFont_CanChange.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontcanchange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],CanChange method, ITextFont.CanChange, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.CanChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::CanChange
@@ -62,7 +60,7 @@ Determines whether the font can be changed.
 
 ### -param pValue
 
-
+TBD
 
 
 

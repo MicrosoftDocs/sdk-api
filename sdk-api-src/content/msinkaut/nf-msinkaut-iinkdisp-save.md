@@ -4,17 +4,16 @@ title: IInkDisp::Save
 author: windows-sdk-content
 description: Converts the ink to the specified InkPersistenceFormat, saves the ink by using the specified InkPersistenceCompressionMode, and returns the binary data in an array of bytes.
 old-location: tablet\inkdisp_save.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.Save
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::Save

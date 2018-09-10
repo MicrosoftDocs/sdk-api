@@ -4,17 +4,16 @@ title: IBDA_DRIDRMService::GetPairingStatus
 author: windows-sdk-content
 description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ""Green", "Orange", "Red", GetPairingStatus, GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DRIDRMService.GetPairingStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DRIDRMService::GetPairingStatus

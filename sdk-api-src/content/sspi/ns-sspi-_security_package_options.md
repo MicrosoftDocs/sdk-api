@@ -4,7 +4,7 @@ title: "_SECURITY_PACKAGE_OPTIONS"
 author: windows-sdk-content
 description: Specifies information about a security package.
 old-location: security\security_package_options.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2e9f65ec-72a5-4d6f-aa63-f83369f0dd07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_PACKAGE_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
+req.redist: 
 ---
 
 # _SECURITY_PACKAGE_OPTIONS structure

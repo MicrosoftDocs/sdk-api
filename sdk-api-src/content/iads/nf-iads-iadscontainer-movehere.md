@@ -4,17 +4,16 @@ title: IADsContainer::MoveHere
 author: windows-sdk-content
 description: Moves a specified object to the container that implements this interface.
 old-location: adsi\iadscontainer_movehere.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.MoveHere
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::MoveHere
@@ -62,17 +60,17 @@ The <b>IADsContainer::MoveHere</b>method moves a specified object to the contain
 
 ### -param SourceName
 
-
+TBD
 
 
 ### -param NewName
 
-
+TBD
 
 
 ### -param ppObject
 
-
+TBD
 
 
 

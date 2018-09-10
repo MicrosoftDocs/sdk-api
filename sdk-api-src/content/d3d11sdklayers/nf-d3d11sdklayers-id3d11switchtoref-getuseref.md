@@ -4,17 +4,16 @@ title: ID3D11SwitchToRef::GetUseRef
 author: windows-sdk-content
 description: ID3D11SwitchToRef::GetUseRef method
 old-location: direct3d11\id3d11switchtoref_getuseref.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 7dc2dc8a-eff6-49b6-a557-88a9d0e5acbf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUseRef, GetUseRef method [Direct3D 11], GetUseRef method [Direct3D 11],ID3D11SwitchToRef interface, ID3D11SwitchToRef interface [Direct3D 11],GetUseRef method, ID3D11SwitchToRef.GetUseRef, ID3D11SwitchToRef::GetUseRef, d2a88f74-2129-d715-e015-72a288420026, d3d11sdklayers/ID3D11SwitchToRef::GetUseRef, direct3d11.id3d11switchtoref_getuseref
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11SwitchToRef.GetUseRef
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11SwitchToRef::GetUseRef

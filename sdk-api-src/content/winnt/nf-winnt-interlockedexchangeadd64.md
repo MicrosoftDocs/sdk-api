@@ -4,17 +4,16 @@ title: InterlockedExchangeAdd64 function
 author: windows-sdk-content
 description: Performs an atomic addition of two 64-bit values.
 old-location: base\interlockedexchangeadd64.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.interlockedexchangeadd64, winnt/InterlockedExchangeAdd64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedExchangeAdd64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedExchangeAdd64 function

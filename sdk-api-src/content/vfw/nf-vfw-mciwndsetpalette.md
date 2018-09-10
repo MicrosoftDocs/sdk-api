@@ -4,17 +4,16 @@ title: MCIWndSetPalette macro
 author: windows-sdk-content
 description: The MCIWndSetPalette macro sends a palette handle to the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETPALETTE message.
 old-location: multimedia\mciwndsetpalette.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndSetPalette
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndSetPalette macro

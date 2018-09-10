@@ -4,17 +4,16 @@ title: IAMStreamSelect::Count
 author: windows-sdk-content
 description: The Count method retrieves the number of available streams.
 old-location: dshow\iamstreamselect_count.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMStreamSelect.Count
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStreamSelect::Count

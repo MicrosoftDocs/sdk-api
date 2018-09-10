@@ -4,17 +4,16 @@ title: IInkRenderer::SetViewTransform
 author: windows-sdk-content
 description: Sets the InkTransform object that represents the view transform that is used to render ink.
 old-location: tablet\inkrenderer_setviewtransform.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b1850d41-4523-4a2b-a7ae-6b85d1ae9a97
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRenderer.SetViewTransform, IInkRenderer::SetViewTransform, SetViewTransform, SetViewTransform method [Tablet PC], SetViewTransform method [Tablet PC],IInkRenderer interface, b1850d41-4523-4a2b-a7ae-6b85d1ae9a97, msinkaut/IInkRenderer::SetViewTransform, tablet.inkrenderer_setviewtransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRenderer.SetViewTransform
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRenderer::SetViewTransform
@@ -66,7 +64,7 @@ Sets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f74
 
 ### -param ViewTransform
 
-
+TBD
 
 
 

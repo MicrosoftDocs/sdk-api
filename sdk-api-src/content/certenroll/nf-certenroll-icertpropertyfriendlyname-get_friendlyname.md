@@ -4,17 +4,16 @@ title: ICertPropertyFriendlyName::get_FriendlyName
 author: windows-sdk-content
 description: Retrieves the display name of the certificate.
 old-location: security\icertpropertyfriendlyname_friendlyname_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7204800e-e7ae-4fc0-a221-d6f3c2b2855b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyFriendlyName interface, ICertPropertyFriendlyName interface [Security],FriendlyName property, ICertPropertyFriendlyName.FriendlyName, ICertPropertyFriendlyName.get_FriendlyName, ICertPropertyFriendlyName::FriendlyName, ICertPropertyFriendlyName::get_FriendlyName, certenroll/ICertPropertyFriendlyName::FriendlyName, certenroll/ICertPropertyFriendlyName::get_FriendlyName, get_FriendlyName, security.icertpropertyfriendlyname_friendlyname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyFriendlyName.get_FriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyFriendlyName::get_FriendlyName

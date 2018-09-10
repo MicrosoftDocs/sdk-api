@@ -4,7 +4,7 @@ title: tagHistogramGrid
 author: windows-sdk-content
 description: The HistogramGrid structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
 old-location: stream\histogramgrid.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2B0BA5EC-3120-41A2-B06A-B63E57DC8766
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HistogramGrid
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HistogramGrid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HistogramGrid
+req.redist: 
 ---
 
 # tagHistogramGrid structure

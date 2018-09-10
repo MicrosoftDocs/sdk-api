@@ -4,17 +4,16 @@ title: IEnumRegFilters::Skip
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
 old-location: dshow\ienumregfilters_skip.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d774ea12-cc06-47c5-82ee-c1ec761e0097
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Skip method, IEnumRegFilters.Skip, IEnumRegFilters::Skip, IEnumRegFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_skip, strmif/IEnumRegFilters::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumRegFilters.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumRegFilters::Skip
@@ -67,7 +65,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param cFilters
 
-
+TBD
 
 
 

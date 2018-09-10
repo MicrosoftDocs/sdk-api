@@ -4,17 +4,16 @@ title: IBitsPeer::IsAuthenticated
 author: windows-sdk-content
 description: Determines whether the peer is authenticated.
 old-location: bits\ibitspeer_isauthenticated.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeer.IsAuthenticated
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeer::IsAuthenticated
@@ -62,7 +61,7 @@ Determines whether the peer is authenticated.
 
 ### -param pAuth
 
-
+TBD
 
 
 

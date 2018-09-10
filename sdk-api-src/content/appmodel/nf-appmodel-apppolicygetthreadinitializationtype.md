@@ -4,17 +4,16 @@ title: AppPolicyGetThreadInitializationType function
 author: windows-sdk-content
 description: Retrieves the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
 old-location: appxpkg\apppolicygetthreadinitializationtype_function.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: E8D52FDB-CD62-407A-9F70-2825E0BF8523
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AppPolicyGetThreadInitializationType, AppPolicyGetThreadInitializationType function [App packaging and management], appmodel/AppPolicyGetThreadInitializationType, appxpkg.apppolicygetthreadinitializationtype_function
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: OneCoreUap.lib
+req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AppPolicyGetThreadInitializationType
 product: Windows
 targetos: Windows
-req.lib: OneCoreUap.lib
-req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AppPolicyGetThreadInitializationType function

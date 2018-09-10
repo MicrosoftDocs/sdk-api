@@ -4,7 +4,7 @@ title: DNS_PROXY_INFORMATION_TYPE
 author: windows-sdk-content
 description: The DNS_PROXY_INFORMATION_TYPE enumeration defines the proxy information type in the DNS_PROXY_INFORMATION structure.
 old-location: dns\dns_proxy_information_type.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 983d38f3-3ee7-4df6-a9ff-f908f250020f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_PROXY_INFORMATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_PROXY_INFORMATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_PROXY_INFORMATION_TYPE
+req.redist: 
 ---
 
 # DNS_PROXY_INFORMATION_TYPE enumeration

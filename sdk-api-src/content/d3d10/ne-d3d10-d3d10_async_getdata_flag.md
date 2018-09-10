@@ -4,7 +4,7 @@ title: D3D10_ASYNC_GETDATA_FLAG
 author: windows-sdk-content
 description: Optional flags that control the behavior of ID3D10Asynchronous::GetData.
 old-location: direct3d10\d3d10_async_getdata_flag.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_async_getdata_flag.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_ASYNC_GETDATA_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_ASYNC_GETDATA_FLAG
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D3D10_ASYNC_GETDATA_FLAG
+req.redist: 
 ---
 
 # D3D10_ASYNC_GETDATA_FLAG enumeration

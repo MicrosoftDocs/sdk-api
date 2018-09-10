@@ -4,7 +4,7 @@ title: ICoreInputInterop
 author: windows-sdk-content
 description: Enables an input source on a Windows Store app's CoreInput object.
 old-location: winrt\icoreinputinterop.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: corewindow.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICoreInputInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreInputInterop interface

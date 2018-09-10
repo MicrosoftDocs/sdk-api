@@ -4,17 +4,16 @@ title: IUIFramework::InvalidateUICommand
 author: windows-sdk-content
 description: Invalidates a Windows Ribbon framework Command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_invalidateuicommand.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\invalidateuicommand.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],InvalidateUICommand method, IUIFramework.InvalidateUICommand, IUIFramework::InvalidateUICommand, InvalidateUICommand, InvalidateUICommand method [Windows Ribbon], InvalidateUICommand method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_InvalidateUICommand, uiribbon/IUIFramework::InvalidateUICommand, windowsribbon.windowsribbon_iuiframework_invalidateuicommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIFramework.InvalidateUICommand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

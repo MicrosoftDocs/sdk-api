@@ -4,17 +4,16 @@ title: IMSVidRect::put_HWnd
 author: windows-sdk-content
 description: The put_HWnd method specifies the window associated with the rectangle.
 old-location: mstv\imsvidrect_put_hwnd.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_HWnd method, IMSVidRect.put_HWnd, IMSVidRect::put_HWnd, IMSVidRectput_HWnd, mstv.imsvidrect_put_hwnd, put_HWnd, put_HWnd method [Microsoft TV Technologies], put_HWnd method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_HWnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.put_HWnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::put_HWnd

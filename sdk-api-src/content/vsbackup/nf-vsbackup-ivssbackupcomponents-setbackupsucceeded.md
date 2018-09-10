@@ -4,17 +4,16 @@ title: IVssBackupComponents::SetBackupSucceeded
 author: windows-sdk-content
 description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.SetBackupSucceeded
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::SetBackupSucceeded
@@ -74,7 +72,7 @@ Globally unique identifier (GUID) of the writer class.
 
 ### -param ct
 
-
+TBD
 
 
 ### -param wszLogicalPath [in]
@@ -105,7 +103,7 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
 
 ### -param bSucceded
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: CharPrevExA function
 author: windows-sdk-content
 description: Retrieves the pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charprevexa.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprevexa.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharPrevExA, CharPrevExA function [Menus and Other Resources], _win32_CharPrevExA, _win32_charprevexa_cpp, menurc.charprevexa, winui._win32_charprevexa, winuser/CharPrevExA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CharPrevExA
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # CharPrevExA function

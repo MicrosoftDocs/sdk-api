@@ -4,17 +4,16 @@ title: IRunnableTask::Run
 author: windows-sdk-content
 description: Requests that a task begin.
 old-location: shell\IRunnableTask_Run.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b929543c-d5b3-4d48-b13f-bbef568287a5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Run method, IRunnableTask.Run, IRunnableTask::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Run, shell.IRunnableTask_Run, shobjidl_core/IRunnableTask::Run
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunnableTask.Run
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IRunnableTask::Run

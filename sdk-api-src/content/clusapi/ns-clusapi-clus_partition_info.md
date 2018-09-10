@@ -4,7 +4,7 @@ title: CLUS_PARTITION_INFO
 author: windows-sdk-content
 description: Contains data describing a storage class resource volume and file system. It is used as the data member of a CLUSPROP_PARTITION_INFO structure and as the return value of some control code operations.
 old-location: mscs\clus_partition_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 656b230d-b4ba-45e4-b6b3-8bbe72f9428a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_PARTITION_INFO, *PCLUS_PARTITION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_PARTITION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_PARTITION_INFO, *PCLUS_PARTITION_INFO
+req.redist: 
 ---
 
 # CLUS_PARTITION_INFO structure

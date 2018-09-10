@@ -4,17 +4,16 @@ title: IVMRMonitorConfig9::GetAvailableMonitors
 author: windows-sdk-content
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMonitorConfig9.GetAvailableMonitors
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMonitorConfig9::GetAvailableMonitors

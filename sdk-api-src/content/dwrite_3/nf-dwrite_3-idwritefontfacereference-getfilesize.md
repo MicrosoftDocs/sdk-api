@@ -4,17 +4,16 @@ title: IDWriteFontFaceReference::GetFileSize
 author: windows-sdk-content
 description: Get the total size of the font face in bytes.
 old-location: directwrite\idwritefontfacereference_getfilesize.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 7988e724-2ccb-b182-8262-dacee1aa1f96
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileSize method, IDWriteFontFaceReference.GetFileSize, IDWriteFontFaceReference::GetFileSize, directwrite.idwritefontfacereference_getfilesize, dwrite_3/IDWriteFontFaceReference::GetFileSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFaceReference.GetFileSize
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFaceReference::GetFileSize

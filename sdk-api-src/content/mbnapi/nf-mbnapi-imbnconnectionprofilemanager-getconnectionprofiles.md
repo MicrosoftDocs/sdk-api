@@ -4,17 +4,16 @@ title: IMbnConnectionProfileManager::GetConnectionProfiles
 author: windows-sdk-content
 description: Gets a list of connection profiles associated with the device.
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 96752181-1135-4dcf-9c07-056dfbf2ca5f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfileManager.GetConnectionProfiles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfileManager::GetConnectionProfiles

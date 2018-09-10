@@ -4,7 +4,7 @@ title: "_WS_STRUCT_DESCRIPTION"
 author: windows-sdk-content
 description: Information about C struct type, and how it maps to an XML element. This is used with WS_STRUCT_TYPE.
 old-location: wsw\ws_struct_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: b426a07e-9993-4cea-8847-fc80e9d0b451
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_STRUCT_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_STRUCT_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_STRUCT_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_STRUCT_DESCRIPTION structure

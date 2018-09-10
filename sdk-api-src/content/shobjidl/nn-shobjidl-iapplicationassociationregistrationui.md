@@ -4,7 +4,7 @@ title: IApplicationAssociationRegistrationUI
 author: windows-sdk-content
 description: Exposes a method that launches an advanced association dialog box through which the user can customize their associations.
 old-location: shell\IApplicationAssociationRegistrationUI.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationAssociationRegistrationUI
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationAssociationRegistrationUI interface

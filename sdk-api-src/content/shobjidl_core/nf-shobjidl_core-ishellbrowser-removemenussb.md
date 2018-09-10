@@ -4,17 +4,16 @@ title: IShellBrowser::RemoveMenusSB
 author: windows-sdk-content
 description: Permits the container to remove any of its menu elements from the in-place composite menu and to free all associated resources.
 old-location: shell\IShellBrowser_RemoveMenusSB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.RemoveMenusSB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::RemoveMenusSB

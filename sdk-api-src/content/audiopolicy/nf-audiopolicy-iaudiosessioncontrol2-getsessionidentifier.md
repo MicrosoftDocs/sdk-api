@@ -4,17 +4,16 @@ title: IAudioSessionControl2::GetSessionIdentifier
 author: windows-sdk-content
 description: The GetSessionIdentifier method retrieves the audio session identifier.
 old-location: coreaudio\iaudiosessioncontrol2_getsessionidentifier.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSessionIdentifier, GetSessionIdentifier method [Core Audio], GetSessionIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionIdentifier method, IAudioSessionControl2.GetSessionIdentifier, IAudioSessionControl2::GetSessionIdentifier, audiopolicy/IAudioSessionControl2::GetSessionIdentifier, coreaudio.iaudiosessioncontrol2_getsessionidentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl2.GetSessionIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl2::GetSessionIdentifier

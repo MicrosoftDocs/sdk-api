@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_MEDIA_REMOVAL
 author: windows-sdk-content
 description: Enables or disables the mechanism that ejects media, for those devices possessing that locking capability.
 old-location: base\ioctl_storage_media_removal.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 5971daa1-3bb7-4050-b252-2f5cabb1bf67
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_STORAGE_MEDIA_REMOVAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_STORAGE_MEDIA_REMOVAL IOCTL

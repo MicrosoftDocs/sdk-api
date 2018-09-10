@@ -4,17 +4,16 @@ title: DrtStartSearch function
 author: windows-sdk-content
 description: The DrtStartSearch function searches the DRT for a key using criteria specified in the DRT_SEARCH_INFO structure.
 old-location: p2p\drtstartsearch.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtStartSearch
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtStartSearch function

@@ -4,17 +4,16 @@ title: XMConvertHalfToFloat function
 author: windows-sdk-content
 description: Converts a half-precision floating-point value to a single-precision floating-point value.
 old-location: dxmath\xmconverthalftofloat.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertHalfToFloat(HALF)
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMConvertHalfToFloat, XMConvertHalfToFloat, XMConvertHalfToFloat method [DirectX Math Support APIs], dxmath.xmconverthalftofloat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - XMConvertHalfToFloat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # XMConvertHalfToFloat function

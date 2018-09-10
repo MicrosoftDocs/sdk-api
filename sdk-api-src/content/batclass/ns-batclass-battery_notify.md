@@ -4,7 +4,7 @@ title: BATTERY_NOTIFY
 author: windows-sdk-content
 description: A battery miniclass driver receives a BATTERY_NOTIFY structure when its BatteryMiniSetStatusNotify routine is called.
 old-location: battery\battery_notify.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 5bf89418-1d18-460b-b1d1-db6fbb390bc8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_NOTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
+req.redist: 
 ---
 
 # BATTERY_NOTIFY structure

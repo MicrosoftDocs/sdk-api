@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard::Conclude
 author: windows-sdk-content
 description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.
 old-location: uianimation\iuianimationstoryboard_conclude.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 82f915df-c031-41e9-8347-044b37793182
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard.Conclude
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard::Conclude

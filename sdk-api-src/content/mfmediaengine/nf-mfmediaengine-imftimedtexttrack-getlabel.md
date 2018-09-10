@@ -4,17 +4,16 @@ title: IMFTimedTextTrack::GetLabel
 author: windows-sdk-content
 description: Gets the label of the track.
 old-location: mf\imftimedtexttrack_getlabel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLabel method, IMFTimedTextTrack.GetLabel, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrack.GetLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrack::GetLabel
@@ -62,7 +60,7 @@ Gets the label of the track.
 
 ### -param label
 
-
+TBD
 
 
 

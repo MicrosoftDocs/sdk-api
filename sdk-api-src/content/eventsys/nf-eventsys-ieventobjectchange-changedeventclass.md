@@ -4,17 +4,16 @@ title: IEventObjectChange::ChangedEventClass
 author: windows-sdk-content
 description: Indicates that an event class object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedeventclass.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8db711c8-7c01-4fb0-975c-a66c83063124
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventClass method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedEventClass method, IEventObjectChange.ChangedEventClass, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventObjectChange.ChangedEventClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectChange::ChangedEventClass

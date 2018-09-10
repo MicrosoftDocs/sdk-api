@@ -4,17 +4,16 @@ title: IFolderView2::GetSelection
 author: windows-sdk-content
 description: Gets the current selection as an IShellItemArray.
 old-location: shell\IFolderView2_GetSelection.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d8ff0c8f-9678-455b-b7ec-9b651df769bc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelection method, IFolderView2.GetSelection, IFolderView2::GetSelection, _shell_IFolderView2_GetSelection, shell.IFolderView2_GetSelection, shobjidl_core/IFolderView2::GetSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.GetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::GetSelection

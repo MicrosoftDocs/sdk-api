@@ -4,17 +4,16 @@ title: IDWriteFactory5::CreateHttpFontFileLoader
 author: windows-sdk-content
 description: Creates a remote font file loader that can create font file references from HTTP or HTTPS URLs. The caller is responsible for registering and unregistering the loader.
 old-location: directwrite\idwritefactory5_createhttpfontfileloader.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 7C8D581E-489D-48BE-8B3F-278E1C246BBA
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateHttpFontFileLoader, CreateHttpFontFileLoader method [Direct Write], CreateHttpFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateHttpFontFileLoader method, IDWriteFactory5.CreateHttpFontFileLoader, IDWriteFactory5::CreateHttpFontFileLoader, directwrite.idwritefactory5_createhttpfontfileloader, dwrite_3/IDWriteFactory5::CreateHttpFontFileLoader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteFactory5.CreateHttpFontFileLoader
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory5::CreateHttpFontFileLoader

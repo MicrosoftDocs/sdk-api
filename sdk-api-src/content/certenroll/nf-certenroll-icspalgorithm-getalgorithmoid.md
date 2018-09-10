@@ -4,17 +4,16 @@ title: ICspAlgorithm::GetAlgorithmOid
 author: windows-sdk-content
 description: Retrieves the algorithm object identifier (OID). This method is web enabled.
 old-location: security\icspalgorithm_getalgorithmoid_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspAlgorithm.GetAlgorithmOid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::GetAlgorithmOid

@@ -4,17 +4,16 @@ title: WerReportHang function
 author: windows-sdk-content
 description: Initiates &#0034;no response&#0034; reporting on the specified window.
 old-location: wer\werreporthang.htm
-old-project: wer
+tech.root: wer
 ms.assetid: db147395-4d60-4d74-9331-18137bcfff8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: errorrep.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: Faultrep.lib
+req.dll: Faultrep.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WerReportHang
 product: Windows
 targetos: Windows
-req.lib: Faultrep.lib
-req.dll: Faultrep.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # WerReportHang function

@@ -4,17 +4,16 @@ title: QOSNotifyFlow function
 author: windows-sdk-content
 description: Registers the calling application to receive a notification.
 old-location: qos\qosnotifyflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSNotifyFlow
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSNotifyFlow function

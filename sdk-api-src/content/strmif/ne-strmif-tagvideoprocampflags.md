@@ -4,7 +4,7 @@ title: tagVideoProcAmpFlags
 author: windows-sdk-content
 description: The VideoProcAmpFlags enumeration indicates whether a particular video property is controlled manually or automatically.
 old-location: dshow\videoprocampflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 42876f3b-d2b9-4ddb-85c0-80f5177eef6b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VideoProcAmpFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VideoProcAmpFlags
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: VideoProcAmpFlags
+req.redist: 
 ---
 
 # tagVideoProcAmpFlags enumeration

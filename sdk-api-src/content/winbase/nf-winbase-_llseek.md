@@ -4,17 +4,16 @@ title: "_llseek function"
 author: windows-sdk-content
 description: Repositions the file pointer for the specified file.
 old-location: winprog\_llseek.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - _llseek
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # _llseek function

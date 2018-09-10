@@ -4,17 +4,16 @@ title: StrCmpCA function
 author: windows-sdk-content
 description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
 old-location: shell\StrCmpC.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrCmpC, StrCmpC function [Windows Shell], StrCmpCA, StrCmpCW, _shell_StrCmpC, shell.StrCmpC, shlwapi/StrCmpC, shlwapi/StrCmpCA, shlwapi/StrCmpCW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrCmpCW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrCmpCA function

@@ -4,17 +4,16 @@ title: Rect::Rect(IN INT,IN INT,IN INT,IN INT)
 author: windows-sdk-content
 description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Rect.Rect
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 
@@ -62,22 +61,22 @@ Creates a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3
 
 ### -param x
 
-
+TBD
 
 
 ### -param y
 
-
+TBD
 
 
 ### -param width
 
-
+TBD
 
 
 ### -param height
 
-
+TBD
 
 
 

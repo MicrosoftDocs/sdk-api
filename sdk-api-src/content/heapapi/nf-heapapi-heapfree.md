@@ -4,17 +4,16 @@ title: HeapFree function
 author: windows-sdk-content
 description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapfree.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapFree
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapFree function

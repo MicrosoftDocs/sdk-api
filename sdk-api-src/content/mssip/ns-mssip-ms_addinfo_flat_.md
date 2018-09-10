@@ -4,7 +4,7 @@ title: MS_ADDINFO_FLAT_
 author: windows-sdk-content
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MS_ADDINFO_FLAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
+req.redist: 
 ---
 
 # MS_ADDINFO_FLAT_ structure

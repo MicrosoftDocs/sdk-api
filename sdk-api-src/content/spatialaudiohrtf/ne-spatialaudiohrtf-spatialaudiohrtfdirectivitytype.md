@@ -4,7 +4,7 @@ title: SpatialAudioHrtfDirectivityType
 author: windows-sdk-content
 description: Specifies the shape in which sound is emitted by an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitytype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3A1426B5-F4FF-4CF0-9E0A-3096371B3D2E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDirectivityType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDirectivityType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDirectivityType
+req.redist: 
 ---
 
 # SpatialAudioHrtfDirectivityType enumeration

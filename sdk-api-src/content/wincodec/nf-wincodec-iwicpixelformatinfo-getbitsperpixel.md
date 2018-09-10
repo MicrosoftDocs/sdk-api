@@ -4,17 +4,16 @@ title: IWICPixelFormatInfo::GetBitsPerPixel
 author: windows-sdk-content
 description: Gets the bits per pixel (BPP) of the pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getbitsperpixel.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 484fb014-5999-46b9-8e32-3fd5296e483f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBitsPerPixel, GetBitsPerPixel method [Windows Imaging Component], GetBitsPerPixel method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetBitsPerPixel method, IWICPixelFormatInfo.GetBitsPerPixel, IWICPixelFormatInfo::GetBitsPerPixel, _wic_codec_iwicpixelformatinfo_getbitsperpixel, wic._wic_codec_iwicpixelformatinfo_getbitsperpixel, wincodec/IWICPixelFormatInfo::GetBitsPerPixel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICPixelFormatInfo.GetBitsPerPixel
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPixelFormatInfo::GetBitsPerPixel

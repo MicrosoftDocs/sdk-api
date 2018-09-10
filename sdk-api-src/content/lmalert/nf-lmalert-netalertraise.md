@@ -4,17 +4,16 @@ title: NetAlertRaise function
 author: windows-sdk-content
 description: The NetAlertRaise function notifies all registered clients when a particular event occurs.
 old-location: netmgmt\netalertraise.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmalert.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, *LPUSER_MODALS_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAlertRaise
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetAlertRaise function

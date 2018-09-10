@@ -4,17 +4,16 @@ title: IQualProp::get_FramesDroppedInRenderer
 author: windows-sdk-content
 description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
 old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IQualProp.get_FramesDroppedInRenderer
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQualProp::get_FramesDroppedInRenderer

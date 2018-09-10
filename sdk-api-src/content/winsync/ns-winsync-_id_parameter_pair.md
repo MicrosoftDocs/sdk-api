@@ -4,7 +4,7 @@ title: "_ID_PARAMETER_PAIR"
 author: windows-sdk-content
 description: Represents the format of a synchronization entity ID.
 old-location: winsync\id_parameter_pair.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f2b47196-8112-4f04-9944-a4a686d3c25c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ID_PARAMETER_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ID_PARAMETER_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ID_PARAMETER_PAIR
+req.redist: 
 ---
 
 # _ID_PARAMETER_PAIR structure

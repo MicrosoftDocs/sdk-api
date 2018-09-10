@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::get_CachedValue
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility value property.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 864c99b5-a5ab-486d-ac0d-1471698a8de4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedValue property, IUIAutomationLegacyIAccessiblePattern.CachedValue, IUIAutomationLegacyIAccessiblePattern.get_CachedValue, IUIAutomationLegacyIAccessiblePattern::CachedValue, IUIAutomationLegacyIAccessiblePattern::get_CachedValue, get_CachedValue, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.get_CachedValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedValue

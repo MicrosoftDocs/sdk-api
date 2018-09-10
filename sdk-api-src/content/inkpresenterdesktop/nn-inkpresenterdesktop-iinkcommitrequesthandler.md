@@ -4,7 +4,7 @@ title: IInkCommitRequestHandler
 author: windows-sdk-content
 description: An IInkCommitRequestHandler object enables the app (instead of an IInkPresenterDesktop object) to commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkcommitrequesthandler.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: ac6952b5-e2c7-4266-86c0-8e74b879f61c
 ms.author: windowssdkdev
 ms.date: 07/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkCommitRequestHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCommitRequestHandler interface

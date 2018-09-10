@@ -4,17 +4,16 @@ title: IVssBackupComponents::DoSnapshotSet
 author: windows-sdk-content
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.DoSnapshotSet
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::DoSnapshotSet

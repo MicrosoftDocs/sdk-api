@@ -4,17 +4,16 @@ title: CoAllowUnmarshalerCLSID function
 author: windows-sdk-content
 description: Adds an unmarshaler CLSID to the allowed list for the calling process only.
 old-location: com\coallowunmarshalerclsid.htm
-old-project: com
+tech.root: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], com.coallowunmarshalerclsid, combaseapi/CoAllowUnmarshalerCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CoAllowUnmarshalerCLSID
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoAllowUnmarshalerCLSID function

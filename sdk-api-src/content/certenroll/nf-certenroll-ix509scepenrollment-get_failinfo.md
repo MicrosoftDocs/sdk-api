@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::get_FailInfo
 author: windows-sdk-content
 description: Gets information when the ProcessResponseMessage method detects a failed environment.
 old-location: security\ix509scepenrollment_failinfo.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 4fd76b7e-8b19-46da-b352-7668917a6585
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FailInfo property [Security], FailInfo property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],FailInfo property, IX509SCEPEnrollment.FailInfo, IX509SCEPEnrollment.get_FailInfo, IX509SCEPEnrollment::FailInfo, IX509SCEPEnrollment::get_FailInfo, certenroll/IX509SCEPEnrollment::FailInfo, certenroll/IX509SCEPEnrollment::get_FailInfo, get_FailInfo, security.ix509scepenrollment_failinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509SCEPEnrollment.get_FailInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::get_FailInfo

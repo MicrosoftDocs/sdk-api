@@ -4,17 +4,16 @@ title: LongLongMult function
 author: windows-sdk-content
 description: Multiplies two values of type LONGLONG.
 old-location: shell\LongLongMult.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongLongMult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongLongMult function

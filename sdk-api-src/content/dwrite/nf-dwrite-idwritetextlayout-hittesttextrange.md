@@ -4,17 +4,16 @@ title: IDWriteTextLayout::HitTestTextRange
 author: windows-sdk-content
 description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions.
 old-location: directwrite\IDWriteTextLayout_HitTestTextRange.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 970ea72c-d097-42c2-9d93-774387ba7881
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: HitTestTextRange, HitTestTextRange method [Direct Write], HitTestTextRange method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextRange method, IDWriteTextLayout.HitTestTextRange, IDWriteTextLayout::HitTestTextRange, directwrite.IDWriteTextLayout_HitTestTextRange, dwrite/IDWriteTextLayout::HitTestTextRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout.HitTestTextRange
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout::HitTestTextRange

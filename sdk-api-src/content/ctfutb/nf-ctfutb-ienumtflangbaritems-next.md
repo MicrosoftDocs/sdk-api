@@ -4,17 +4,16 @@ title: IEnumTfLangBarItems::Next
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Next method
 old-location: tsf\ienumtflangbaritems_next.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Next method, IEnumTfLangBarItems.Next, IEnumTfLangBarItems::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTfLangBarItems.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfLangBarItems::Next

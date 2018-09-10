@@ -4,7 +4,7 @@ title: "_CRED_MARSHAL_TYPE"
 author: windows-sdk-content
 description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
 old-location: security\cred_marshal_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wincodecsdk.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRED_MARSHAL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
+req.redist: 
 ---
 
 # _CRED_MARSHAL_TYPE enumeration

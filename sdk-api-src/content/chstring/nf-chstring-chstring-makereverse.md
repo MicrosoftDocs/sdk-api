@@ -4,17 +4,16 @@ title: CHString::MakeReverse
 author: windows-sdk-content
 description: The MakeReverse method reverses the order of the characters in a CHString string.
 old-location: wmi\chstring_makereverse.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 129792cf-e442-4491-b921-273363809210
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse method, CHString.MakeReverse, CHString::MakeReverse, MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString.MakeReverse
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::MakeReverse

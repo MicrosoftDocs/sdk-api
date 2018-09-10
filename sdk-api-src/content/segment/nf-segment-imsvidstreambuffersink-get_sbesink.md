@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSink::get_SBESink
 author: windows-sdk-content
 description: The get_SBESink method retrieves a pointer to the Stream Buffer Sink filter.
 old-location: mstv\imsvidstreambuffersink_get_sbesink.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ea911a70-1926-4ba8-b9dd-1188debee00a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SBESink method, IMSVidStreamBufferSink.get_SBESink, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSink.get_SBESink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSink::get_SBESink
@@ -62,7 +60,7 @@ The <b>get_SBESink</b> method retrieves a pointer to the <a href="https://msdn.m
 
 ### -param sbeConfig
 
-
+TBD
 
 
 

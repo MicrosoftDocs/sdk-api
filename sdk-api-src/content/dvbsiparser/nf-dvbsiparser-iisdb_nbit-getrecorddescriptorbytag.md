@@ -4,17 +4,16 @@ title: IISDB_NBIT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.
 old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_NBIT.GetRecordDescriptorByTag, IISDB_NBIT::GetRecordDescriptorByTag, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag, mstv.iisdb_nbit_getrecorddescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_NBIT.GetRecordDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_NBIT::GetRecordDescriptorByTag

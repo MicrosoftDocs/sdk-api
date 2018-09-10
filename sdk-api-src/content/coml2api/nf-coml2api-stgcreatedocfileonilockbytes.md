@@ -4,17 +4,16 @@ title: StgCreateDocfileOnILockBytes function
 author: windows-sdk-content
 description: Creates and opens a new compound file storage object on top of a byte-array object provided by the caller.
 old-location: stg\stgcreatedocfileonilockbytes.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - StgCreateDocfileOnILockBytes
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StgCreateDocfileOnILockBytes function

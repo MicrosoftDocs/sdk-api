@@ -4,17 +4,16 @@ title: IOleUILinkContainerW::OpenLinkSource
 author: windows-sdk-content
 description: Opens the link's source.
 old-location: com\ioleuilinkcontainer_openlinksource.htm
-old-project: com
+tech.root: com
 ms.assetid: bc732a2f-f13d-4d08-a81d-292dd2ba1140
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleUILinkContainer interface [COM],OpenLinkSource method, IOleUILinkContainer::OpenLinkSource, IOleUILinkContainerA interface [COM],OpenLinkSource method, IOleUILinkContainerA::OpenLinkSource, IOleUILinkContainerW interface [COM],OpenLinkSource method, IOleUILinkContainerW.OpenLinkSource, IOleUILinkContainerW::OpenLinkSource, OpenLinkSource, OpenLinkSource method [COM], OpenLinkSource method [COM],IOleUILinkContainer interface, OpenLinkSource method [COM],IOleUILinkContainerA interface, OpenLinkSource method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_OpenLinkSource, com.ioleuilinkcontainer_openlinksource, oledlg/IOleUILinkContainer::OpenLinkSource, oledlg/IOleUILinkContainerA::OpenLinkSource, oledlg/IOleUILinkContainerW::OpenLinkSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUILinkContainerW.OpenLinkSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUILinkContainerW::OpenLinkSource

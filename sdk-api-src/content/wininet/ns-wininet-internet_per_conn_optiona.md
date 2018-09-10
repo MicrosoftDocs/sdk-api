@@ -4,7 +4,7 @@ title: INTERNET_PER_CONN_OPTIONA
 author: windows-sdk-content
 description: Contains the value of an option.
 old-location: wininet\internet_per_conn_option.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 35cfc768-1f1d-4be9-8d56-c56c7440513e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_PER_CONN_OPTIONA, *LPINTERNET_PER_CONN_OPTIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INTERNET_PER_CONN_OPTIONW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_PER_CONN_OPTIONA, *LPINTERNET_PER_CONN_OPTIONA
+req.redist: 
 ---
 
 # INTERNET_PER_CONN_OPTIONA structure

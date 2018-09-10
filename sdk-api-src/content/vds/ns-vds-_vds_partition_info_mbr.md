@@ -4,7 +4,7 @@ title: "_VDS_PARTITION_INFO_MBR"
 author: windows-sdk-content
 description: Defines the details of a master boot record (MBR) partition.
 old-location: base\vds_partition_info_mbr.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_INFO_MBR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PARTITION_INFO_MBR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_INFO_MBR
+req.redist: 
 ---
 
 # _VDS_PARTITION_INFO_MBR structure

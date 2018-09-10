@@ -4,17 +4,16 @@ title: SHLockShared function
 author: windows-sdk-content
 description: SHLockShared may be altered or unavailable.
 old-location: shell\SHLockShared.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5b948044-6cec-4649-a266-21959154f999
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHLockShared, SHLockShared function [Windows Shell], _win32_SHLockShared, shell.SHLockShared, shlwapi/SHLockShared
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHLockShared
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHLockShared function

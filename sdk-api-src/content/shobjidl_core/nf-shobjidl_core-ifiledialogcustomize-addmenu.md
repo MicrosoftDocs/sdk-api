@@ -4,17 +4,16 @@ title: IFileDialogCustomize::AddMenu
 author: windows-sdk-content
 description: Adds a menu to the dialog.
 old-location: shell\IFileDialogCustomize_AddMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e5e29554-e095-4164-bf67-64f9d6a3e502
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddMenu, AddMenu method [Windows Shell], AddMenu method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddMenu method, IFileDialogCustomize.AddMenu, IFileDialogCustomize::AddMenu, shell.IFileDialogCustomize_AddMenu, shell_IFileDialogCustomize_AddMenu, shobjidl_core/IFileDialogCustomize::AddMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.AddMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::AddMenu

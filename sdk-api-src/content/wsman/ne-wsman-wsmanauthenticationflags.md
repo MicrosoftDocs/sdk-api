@@ -4,7 +4,7 @@ title: WSManAuthenticationFlags
 author: windows-sdk-content
 description: Determines the authentication method for the operation.
 old-location: winrm\wsmanauthenticationflags.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: ce5ddaf6-4d81-4dab-a928-819b1fdee6c8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSManAuthenticationFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # WSManAuthenticationFlags enumeration

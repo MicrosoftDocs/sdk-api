@@ -4,7 +4,7 @@ title: VSS_RESTORE_TARGET
 author: windows-sdk-content
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_RESTORE_TARGET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_RESTORE_TARGET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_RESTORE_TARGET
+req.redist: 
 ---
 
 # VSS_RESTORE_TARGET enumeration

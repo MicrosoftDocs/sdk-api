@@ -4,7 +4,7 @@ title: IVssWMComponent
 author: windows-sdk-content
 description: The IVssWMComponent is a C++ (not COM) interface that allows access to component information stored in a Writer Metadata Document.
 old-location: base\ivsswmcomponent.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMComponent
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMComponent class

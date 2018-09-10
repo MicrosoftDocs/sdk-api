@@ -4,7 +4,7 @@ title: "_SCESVC_CONFIGURATION_INFO_"
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
 old-location: security\scesvc_configuration_info.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCESVC_CONFIGURATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
+req.redist: 
 ---
 
 # _SCESVC_CONFIGURATION_INFO_ structure

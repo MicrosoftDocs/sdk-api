@@ -4,17 +4,16 @@ title: ICameraControl::getRange_Tilt
 author: windows-sdk-content
 description: The getRange_Tilt method returns the range of tilt angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_tilt.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d48920cf-677e-4014-a998-426bb45d1b46
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Tilt method, ICameraControl.getRange_Tilt, ICameraControl::getRange_Tilt, ICameraControlgetRange_Tilt, dshow.icameracontrol_getrange_tilt, getRange_Tilt, getRange_Tilt method [DirectShow], getRange_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Tilt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.getRange_Tilt
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::getRange_Tilt

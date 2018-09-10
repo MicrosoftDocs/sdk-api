@@ -4,17 +4,16 @@ title: NCryptStreamClose function
 author: windows-sdk-content
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\ncryptstreamclose.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: NCrypt.lib
+req.dll: NCrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptStreamClose
 product: Windows
 targetos: Windows
-req.lib: NCrypt.lib
-req.dll: NCrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptStreamClose function

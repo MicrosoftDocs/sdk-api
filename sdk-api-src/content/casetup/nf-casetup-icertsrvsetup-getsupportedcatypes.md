@@ -4,17 +4,16 @@ title: ICertSrvSetup::GetSupportedCATypes
 author: windows-sdk-content
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.GetSupportedCATypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::GetSupportedCATypes

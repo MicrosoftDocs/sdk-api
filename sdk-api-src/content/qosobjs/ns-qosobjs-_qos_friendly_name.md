@@ -4,7 +4,7 @@ title: "_QOS_FRIENDLY_NAME"
 author: windows-sdk-content
 description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.
 old-location: qos\qos_friendly_name.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 9681fc36-0a31-4b2a-9719-085506126877
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_FRIENDLY_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
+req.redist: 
 ---
 
 # _QOS_FRIENDLY_NAME structure

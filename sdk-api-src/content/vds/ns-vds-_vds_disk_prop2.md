@@ -4,7 +4,7 @@ title: "_VDS_DISK_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a disk object. This structure is identical to the VDS_DISK_PROP structure, except that it also includes the location path and, if the disk is offline, the reason why it is offline.
 old-location: base\vds_disk_prop2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f51c2937-4b70-44fb-b626-1df072e2622a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_PROP2, *PVDS_DISK_PROP2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_PROP2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_PROP2, *PVDS_DISK_PROP2
+req.redist: 
 ---
 
 # _VDS_DISK_PROP2 structure

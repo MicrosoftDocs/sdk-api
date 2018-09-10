@@ -4,7 +4,7 @@ title: tagSMINFO
 author: windows-sdk-content
 description: Contains information about an item from a menu band.
 old-location: shell\SMINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: aaa6ee05-7236-4b68-9d93-4848c4fe693d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SMINFO, *PSMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SMINFO, *PSMINFO
+req.redist: 
 ---
 
 # tagSMINFO structure

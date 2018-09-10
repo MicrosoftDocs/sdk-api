@@ -4,17 +4,16 @@ title: IFileDialog::Close
 author: windows-sdk-content
 description: Closes the dialog.
 old-location: shell\IFileDialog_Close.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 064b035a-c554-4c81-93b9-ba4fb92da09d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Close, Close method [Windows Shell], Close method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],Close method, IFileDialog.Close, IFileDialog::Close, shell.IFileDialog_Close, shell_IFileDialog_Close, shobjidl_core/IFileDialog::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::Close

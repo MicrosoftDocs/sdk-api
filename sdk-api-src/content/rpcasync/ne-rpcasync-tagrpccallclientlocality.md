@@ -4,7 +4,7 @@ title: tagRpcCallClientLocality
 author: windows-sdk-content
 description: Specifies the set of possible RPC client localities.
 old-location: rpc\rpccallclientlocality.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RpcCallClientLocality
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcCallClientLocality
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RpcCallClientLocality
+req.redist: 
 ---
 
 # tagRpcCallClientLocality enumeration

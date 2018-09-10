@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetQuotaInformation
 author: windows-sdk-content
 description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 old-location: fs\idiskquotauser_getquotainformation.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetQuotaInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetQuotaInformation

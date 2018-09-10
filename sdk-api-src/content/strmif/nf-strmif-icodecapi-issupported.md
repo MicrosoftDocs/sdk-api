@@ -4,17 +4,16 @@ title: ICodecAPI::IsSupported
 author: windows-sdk-content
 description: The IsSupported method queries whether a codec supports a given property.
 old-location: dshow\icodecapi_issupported.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6f556532-1a49-45c1-b446-89c05e8a8237
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICodecAPI interface [DirectShow],IsSupported method, ICodecAPI.IsSupported, ICodecAPI::IsSupported, ICodecAPIIsSupported, IsSupported, IsSupported method [DirectShow], IsSupported method [DirectShow],ICodecAPI interface, dshow.icodecapi_issupported, strmif/ICodecAPI::IsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.IsSupported
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::IsSupported

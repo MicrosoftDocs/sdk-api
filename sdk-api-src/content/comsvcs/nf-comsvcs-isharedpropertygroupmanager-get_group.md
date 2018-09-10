@@ -4,17 +4,16 @@ title: ISharedPropertyGroupManager::get_Group
 author: windows-sdk-content
 description: Retrieves a reference to an existing shared property group.
 old-location: cos\isharedpropertygroupmanager_get_group.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3e60d1c6-1d58-403a-b75f-2a6bea91081e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISharedPropertyGroupManager interface [COM+],get_Group method, ISharedPropertyGroupManager.get_Group, ISharedPropertyGroupManager::get_Group, _cos_ISharedPropertyGroupManager_get_Group, comsvcs/ISharedPropertyGroupManager::get_Group, cos.isharedpropertygroupmanager_get_group, get_Group, get_Group method [COM+], get_Group method [COM+],ISharedPropertyGroupManager interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISharedPropertyGroupManager.get_Group
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISharedPropertyGroupManager::get_Group

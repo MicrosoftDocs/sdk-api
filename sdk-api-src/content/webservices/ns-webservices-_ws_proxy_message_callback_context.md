@@ -4,7 +4,7 @@ title: "_WS_PROXY_MESSAGE_CALLBACK_CONTEXT"
 author: windows-sdk-content
 description: Specifies the callback function and state for an application that wishes to associate or inspect headers in an input or an output message respectively.
 old-location: wsw\ws_proxy_message_callback_context.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1dfde962-7475-430a-b586-1684a173908f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_PROXY_MESSAGE_CALLBACK_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_PROXY_MESSAGE_CALLBACK_CONTEXT
+req.redist: 
 ---
 
 # _WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure

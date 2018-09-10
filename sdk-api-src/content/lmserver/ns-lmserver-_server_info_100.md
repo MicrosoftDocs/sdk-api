@@ -4,7 +4,7 @@ title: "_SERVER_INFO_100"
 author: windows-sdk-content
 description: The SERVER_INFO_100 structure contains information about the specified server, including the name and platform.
 old-location: netmgmt\server_info_100_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: b027a669-b4d8-4d42-aedc-94834bf099da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_100, *PSERVER_INFO_100, *LPSERVER_INFO_100
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_100
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_100, *PSERVER_INFO_100, *LPSERVER_INFO_100
+req.redist: 
 ---
 
 # _SERVER_INFO_100 structure

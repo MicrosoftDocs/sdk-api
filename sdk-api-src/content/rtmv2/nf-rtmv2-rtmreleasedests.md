@@ -4,17 +4,16 @@ title: RtmReleaseDests function
 author: windows-sdk-content
 description: The RtmReleaseDests function releases the destination handles.
 old-location: rras\rtmreleasedests.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: eb338b7f-8461-4980-b92f-09d976661ff2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmReleaseDests, RtmReleaseDests function [RAS], _rtmv2ref_rtmreleasedests, rras.rtmreleasedests, rtmv2/RtmReleaseDests
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmReleaseDests
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmReleaseDests function

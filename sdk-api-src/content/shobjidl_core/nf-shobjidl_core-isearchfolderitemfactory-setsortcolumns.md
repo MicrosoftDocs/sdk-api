@@ -4,17 +4,16 @@ title: ISearchFolderItemFactory::SetSortColumns
 author: windows-sdk-content
 description: Creates a list of sort column directions, as specified.
 old-location: shell\ISearchFolderItemFactory_SetSortColumns.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c91667fa-a48b-409a-ba96-35581fdd07dd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetSortColumns method, ISearchFolderItemFactory.SetSortColumns, ISearchFolderItemFactory::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetSortColumns, shell.ISearchFolderItemFactory_SetSortColumns, shobjidl_core/ISearchFolderItemFactory::SetSortColumns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchFolderItemFactory.SetSortColumns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchFolderItemFactory::SetSortColumns

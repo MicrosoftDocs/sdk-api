@@ -4,17 +4,16 @@ title: IFrameworkInputPaneHandler::Showing
 author: windows-sdk-content
 description: Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it.
 old-location: shell\IFrameworkInputPaneHandler_Showing.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E7CE2808-0146-4704-B1DA-1DDE691E946E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method, IFrameworkInputPaneHandler.Showing, IFrameworkInputPaneHandler::Showing, Showing, Showing method [Windows Shell], Showing method [Windows Shell],IFrameworkInputPaneHandler interface, shell.IFrameworkInputPaneHandler_Showing, shobjidl_core/IFrameworkInputPaneHandler::Showing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFrameworkInputPaneHandler.Showing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFrameworkInputPaneHandler::Showing

@@ -4,17 +4,16 @@ title: DwmGetCompositionTimingInfo function
 author: windows-sdk-content
 description: Retrieves the current composition timing information for a specified window.
 old-location: dwm\dwmgetcompositiontiminginfo.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcompositiontiminginfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmGetCompositionTimingInfo, DwmGetCompositionTimingInfo function [Desktop Window Manager], _udwm_dwmgetcompositiontiminginfo, _udwm_dwmgetcompositiontiminginfo_cpp, dwm.dwmgetcompositiontiminginfo, dwmapi/DwmGetCompositionTimingInfo, winui._udwm_dwmgetcompositiontiminginfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DwmGetCompositionTimingInfo
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmGetCompositionTimingInfo function

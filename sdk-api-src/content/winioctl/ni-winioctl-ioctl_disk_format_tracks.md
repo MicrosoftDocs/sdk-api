@@ -4,7 +4,7 @@ title: IOCTL_DISK_FORMAT_TRACKS
 author: windows-sdk-content
 description: Formats a specified, contiguous set of tracks on a floppy disk. To provide additional parameters, use IOCTL_DISK_FORMAT_TRACKS_EXinstead.
 old-location: fs\ioctl_disk_format_tracks.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9d6e0865-4b4d-4334-855b-3fbd26832591
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_DISK_FORMAT_TRACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_DISK_FORMAT_TRACKS IOCTL

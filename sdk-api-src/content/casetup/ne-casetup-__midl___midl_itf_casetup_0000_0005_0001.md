@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_casetup_0000_0005_0001"
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentPolicyServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cepsetupproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 344701CA-089C-4152-BDA4-249728863180
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CEPSetupProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CEPSetupProperty
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_casetup_0000_0005_0001 enumeration

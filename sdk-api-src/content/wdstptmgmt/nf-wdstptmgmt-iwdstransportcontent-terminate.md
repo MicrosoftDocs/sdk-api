@@ -4,17 +4,16 @@ title: IWdsTransportContent::Terminate
 author: windows-sdk-content
 description: Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
 old-location: wds\iwdstransportcontent_terminate.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: bcc4359f-0536-4cd4-a937-37d4e69ab497
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Terminate method, IWdsTransportContent.Terminate, IWdsTransportContent::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_terminate, wdstptmgmt/IWdsTransportContent::Terminate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportContent.Terminate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportContent::Terminate

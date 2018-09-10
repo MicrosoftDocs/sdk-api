@@ -4,7 +4,7 @@ title: "_MPR50_ROUTING_CHARACTERISTICS"
 author: windows-sdk-content
 description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
 old-location: rras\mpr_routing_characteristics.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_ROUTING_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR50_ROUTING_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MPR50_ROUTING_CHARACTERISTICS
+req.redist: 
 ---
 
 # _MPR50_ROUTING_CHARACTERISTICS structure

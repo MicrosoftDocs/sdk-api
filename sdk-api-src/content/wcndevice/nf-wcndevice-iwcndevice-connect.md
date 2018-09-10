@@ -4,17 +4,16 @@ title: IWCNDevice::Connect
 author: windows-sdk-content
 description: The IWCNDevice::Connect method initiates the session.
 old-location: wcn\iwcndevice_connect.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.Connect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::Connect

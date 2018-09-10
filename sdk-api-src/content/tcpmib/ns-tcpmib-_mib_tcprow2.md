@@ -4,7 +4,7 @@ title: "_MIB_TCPROW2"
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection.
 old-location: mib\mib_tcprow2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: cff343cd-fe85-4e60-87bd-c1e9833cea38
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCPROW2, *PMIB_TCPROW2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_TCPROW2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCPROW2, *PMIB_TCPROW2
+req.redist: 
 ---
 
 # _MIB_TCPROW2 structure

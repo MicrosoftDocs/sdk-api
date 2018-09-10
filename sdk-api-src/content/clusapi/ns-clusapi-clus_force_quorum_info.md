@@ -4,7 +4,7 @@ title: CLUS_FORCE_QUORUM_INFO
 author: windows-sdk-content
 description: Specifies information about the list of nodes sufficient to establish quorum in a majority-of-nodes cluster.
 old-location: mscs\clus_force_quorum_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: dda10d88-0e5f-40f7-b18b-82dacef6f886
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_FORCE_QUORUM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
+req.redist: 
 ---
 
 # CLUS_FORCE_QUORUM_INFO structure

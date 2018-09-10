@@ -4,17 +4,16 @@ title: IAzRole::get_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the role.
 old-location: security\iazrole_description.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 2909c2ea-8308-49c3-9456-d035c1c242f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzRole object [Security],Description property, Description property [Security], Description property [Security],AzRole object, Description property [Security],IAzRole interface, IAzRole interface [Security],Description property, IAzRole.Description, IAzRole.get_Description, IAzRole::Description, IAzRole::get_Description, IAzRole::put_Description, azroles/IAzRole::Description, azroles/IAzRole::get_Description, azroles/IAzRole::put_Description, get_Description, security.iazrole_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzRole.Description
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::get_Description

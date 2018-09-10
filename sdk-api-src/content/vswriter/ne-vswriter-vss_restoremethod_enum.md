@@ -4,7 +4,7 @@ title: VSS_RESTOREMETHOD_ENUM
 author: windows-sdk-content
 description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.
 old-location: base\vss_restoremethod_enum.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 4c6be981-4271-4040-8f6e-725616355062
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_RESTOREMETHOD_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_RESTOREMETHOD_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_RESTOREMETHOD_ENUM
+req.redist: 
 ---
 
 # VSS_RESTOREMETHOD_ENUM enumeration

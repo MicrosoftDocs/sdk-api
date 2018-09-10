@@ -4,17 +4,16 @@ title: VarUI1FromCy function
 author: windows-sdk-content
 description: Converts a currency value to an unsigned char value.
 old-location: automat\varui1fromcy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: cbfa7892-2e46-4768-a7b6-f51e0cee0f81
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromCy, VarUI1FromCy function [Automation], _oa96_VarUI1FromCy, automat.varui1fromcy, oleauto/VarUI1FromCy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromCy
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromCy function

@@ -4,17 +4,16 @@ title: IOleObject::SetColorScheme
 author: windows-sdk-content
 description: Specifies the color palette that the object application should use when it edits the specified object.
 old-location: com\ioleobject_setcolorscheme.htm
-old-project: com
+tech.root: com
 ms.assetid: 655ba4ea-941d-4389-9ee8-756dfa3c5448
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],SetColorScheme method, IOleObject.SetColorScheme, IOleObject::SetColorScheme, SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM],IOleObject interface, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.SetColorScheme
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::SetColorScheme

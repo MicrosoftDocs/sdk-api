@@ -4,17 +4,16 @@ title: ITsSbTarget::put_TargetName
 author: windows-sdk-content
 description: Specifies or retrieves the name of the target.
 old-location: termserv\itssbtarget_targetname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetName property, ITsSbTarget.TargetName, ITsSbTarget.put_TargetName, ITsSbTarget::TargetName, ITsSbTarget::get_TargetName, ITsSbTarget::put_TargetName, ITsSbTargetEx interface [Remote Desktop Services],TargetName property, ITsSbTargetEx.TargetName, ITsSbTargetEx::get_TargetName, ITsSbTargetEx::put_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbTarget interface, TargetName property [Remote Desktop Services],ITsSbTargetEx interface, put_TargetName, sbtsv/ITsSbTarget::TargetName, sbtsv/ITsSbTarget::get_TargetName, sbtsv/ITsSbTarget::put_TargetName, sbtsv/ITsSbTargetEx::TargetName, sbtsv/ITsSbTargetEx::get_TargetName, sbtsv/ITsSbTargetEx::put_TargetName, termserv.itssbtarget_targetname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ITsSbTargetEx.put_TargetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTarget::put_TargetName

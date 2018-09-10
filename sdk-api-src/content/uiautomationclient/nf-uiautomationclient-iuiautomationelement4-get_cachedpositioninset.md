@@ -4,17 +4,16 @@ title: IUIAutomationElement4::get_CachedPositionInSet
 author: windows-sdk-content
 description: Returns the cached 1-based integer for the ordinal position in the set for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CachedPositionInSet.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 68CB368F-90AC-4BAB-A097-CB1517D77B6F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedPositionInSet property [Windows Accessibility], CachedPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedPositionInSet property, IUIAutomationElement4.CachedPositionInSet, IUIAutomationElement4.get_CachedPositionInSet, IUIAutomationElement4::CachedPositionInSet, IUIAutomationElement4::get_CachedPositionInSet, get_CachedPositionInSet, uiautomationclient/IUIAutomationElement4::CachedPositionInSet, uiautomationclient/IUIAutomationElement4::get_CachedPositionInSet, winauto.uiauto_IUIAutomationElement4_CachedPositionInSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement4.get_CachedPositionInSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement4::get_CachedPositionInSet

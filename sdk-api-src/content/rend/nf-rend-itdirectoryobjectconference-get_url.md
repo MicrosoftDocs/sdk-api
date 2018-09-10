@@ -4,17 +4,16 @@ title: ITDirectoryObjectConference::get_Url
 author: windows-sdk-content
 description: The get_Url method gets a URL.
 old-location: tapi3\itdirectoryobjectconference_get_url.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectConference.get_Url
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectConference::get_Url

@@ -4,17 +4,16 @@ title: IPortableDevice::GetPnPDeviceID
 author: windows-sdk-content
 description: The GetPnPDeviceID method retrieves the Plug and Play (PnP) device identifier that the application used to open the device.
 old-location: wpdsdk\iportabledevice_getpnpdeviceid.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: e6bde2ac-ceef-47f8-b60b-e61595078e8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPnPDeviceID, GetPnPDeviceID method [Windows Portable Devices SDK], GetPnPDeviceID method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],GetPnPDeviceID method, IPortableDevice.GetPnPDeviceID, IPortableDevice::GetPnPDeviceID, IPortableDeviceGetPnPDeviceID, portabledeviceapi/IPortableDevice::GetPnPDeviceID, wpdsdk.iportabledevice_getpnpdeviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevice.GetPnPDeviceID
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevice::GetPnPDeviceID

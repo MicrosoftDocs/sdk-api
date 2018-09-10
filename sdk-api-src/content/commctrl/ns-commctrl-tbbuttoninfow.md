@@ -4,7 +4,7 @@ title: TBBUTTONINFOW
 author: windows-sdk-content
 description: Contains or receives information for a specific button in a toolbar.
 old-location: controls\TBBUTTONINFO.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbuttoninfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TBBUTTONINFOW, *LPTBBUTTONINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - TBBUTTONINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TBBUTTONINFOW, *LPTBBUTTONINFOW
+req.redist: 
 ---
 
 # TBBUTTONINFOW structure

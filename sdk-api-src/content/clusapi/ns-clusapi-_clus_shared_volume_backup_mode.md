@@ -4,7 +4,7 @@ title: "_CLUS_SHARED_VOLUME_BACKUP_MODE"
 author: windows-sdk-content
 description: Describes the backup mode for CSV.
 old-location: mscs\clus_shared_volume_backup_mode.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_SHARED_VOLUME_BACKUP_MODE, *PCLUS_SHARED_VOLUME_BACKUP_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_SHARED_VOLUME_BACKUP_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_SHARED_VOLUME_BACKUP_MODE, *PCLUS_SHARED_VOLUME_BACKUP_MODE
+req.redist: 
 ---
 
 # _CLUS_SHARED_VOLUME_BACKUP_MODE structure

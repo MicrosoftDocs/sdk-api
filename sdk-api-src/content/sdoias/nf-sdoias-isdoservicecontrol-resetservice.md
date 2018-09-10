@@ -4,17 +4,16 @@ title: ISdoServiceControl::ResetService
 author: windows-sdk-content
 description: The ResetService method resets the service administered by the SDO API. Resetting the service causes the service to refresh its data.
 old-location: nps\SDO_isdoservicecontrol_resetservice.htm
-old-project: nps
+tech.root: nps
 ms.assetid: c93675ad-b7c2-42b9-9ab8-7fb4cbb7a07c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],ResetService method, ISdoServiceControl.ResetService, ISdoServiceControl::ResetService, ResetService, ResetService method [Network Policy Server], ResetService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_resetservice, nps.SDO_isdoservicecontrol_resetservice, sdo.isdoservicecontrol_resetservice, sdoias/ISdoServiceControl::ResetService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoServiceControl.ResetService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoServiceControl::ResetService

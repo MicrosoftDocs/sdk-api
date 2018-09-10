@@ -4,7 +4,7 @@ title: "_DDGETFIELDNUMOUT"
 author: windows-sdk-content
 description: The DDGETFIELDNUMOUT structure contains the hardware video port's field number.
 old-location: display\ddgetfieldnumout.htm
-old-project: display
+tech.root: display
 ms.assetid: 6af9d0be-03b7-4153-a4d6-cf36afe4fd0e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETFIELDNUMOUT, *LPDDGETFIELDNUMOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETFIELDNUMOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETFIELDNUMOUT, *LPDDGETFIELDNUMOUT
+req.redist: 
 ---
 
 # _DDGETFIELDNUMOUT structure

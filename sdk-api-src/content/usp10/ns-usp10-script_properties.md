@@ -4,7 +4,7 @@ title: SCRIPT_PROPERTIES
 author: windows-sdk-content
 description: Contains information about special processing for each script.
 old-location: intl\script_properties.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_PROPERTIES
+req.redist: 
 ---
 
 # SCRIPT_PROPERTIES structure

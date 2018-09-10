@@ -4,7 +4,7 @@ title: "_MF_VIDEO_PROCESSOR_ALGORITHM_TYPE"
 author: windows-sdk-content
 description: Defines algorithms for the video processor which is use by MF_VIDEO_PROCESSOR_ALGORITHM.
 old-location: mf\mf_video_processor_algorithm_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
+req.redist: 
 ---
 
 # _MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration

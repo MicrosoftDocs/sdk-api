@@ -4,17 +4,16 @@ title: ICertSrvSetup::GetKeyLengthList
 author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\icertsrvsetup_getkeylengthlist.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetKeyLengthList method, ICertSrvSetup.GetKeyLengthList, ICertSrvSetup::GetKeyLengthList, casetup/ICertSrvSetup::GetKeyLengthList, security.icertsrvsetup_getkeylengthlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.GetKeyLengthList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::GetKeyLengthList

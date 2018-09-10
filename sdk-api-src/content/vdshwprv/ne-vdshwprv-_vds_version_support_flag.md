@@ -4,7 +4,7 @@ title: "_VDS_VERSION_SUPPORT_FLAG"
 author: windows-sdk-content
 description: Indicate which versions of the VDS interfaces are supported.
 old-location: base\vds_version_support_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c145070f-587f-42d7-bde9-3bf0cdba8444
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_VERSION_SUPPORT_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.redist: 
 ---
 
 # _VDS_VERSION_SUPPORT_FLAG enumeration

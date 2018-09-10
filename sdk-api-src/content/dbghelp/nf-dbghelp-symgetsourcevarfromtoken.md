@@ -4,17 +4,16 @@ title: SymGetSourceVarFromToken function
 author: windows-sdk-content
 description: Retrieves the value associated with the specified variable name from the Source Server token.
 old-location: base\symgetsourcevarfromtoken.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymGetSourceVarFromTokenW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # SymGetSourceVarFromToken function

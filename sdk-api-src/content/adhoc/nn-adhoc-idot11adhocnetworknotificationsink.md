@@ -4,7 +4,7 @@ title: IDot11AdHocNetworkNotificationSink
 author: windows-sdk-content
 description: Defines the notifications supported by the IDot11AdHocNetwork interface.
 old-location: nwifi\idot11adhocnetworknotificationsink.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 54a45431-8036-4a3f-9558-467a1efab6bb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocNetworkNotificationSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocNetworkNotificationSink interface

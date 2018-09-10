@@ -4,7 +4,7 @@ title: "_AM_WST_DRAWBGMODE"
 author: windows-sdk-content
 description: The AM_WST_DRAWBGMODE enumeration specifies whether the background of the WST frame is opaque or transparent.
 old-location: dshow\am_wst_drawbgmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1c27f3e1-a097-4f0e-af01-62cf500a3264
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_DRAWBGMODE, *PAM_WST_DRAWBGMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_WST_DRAWBGMODE
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_WST_DRAWBGMODE, *PAM_WST_DRAWBGMODE
+req.redist: 
 ---
 
 # _AM_WST_DRAWBGMODE enumeration

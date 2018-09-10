@@ -4,17 +4,16 @@ title: ITSubStreamControl::EnumerateSubStreams
 author: windows-sdk-content
 description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.
 old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], EnumerateSubStreams method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],EnumerateSubStreams method, ITSubStreamControl.EnumerateSubStreams, ITSubStreamControl::EnumerateSubStreams, _tapi3_itsubstreamcontrol_enumeratesubstreams, tapi3.itsubstreamcontrol_enumeratesubstreams, tapi3if/ITSubStreamControl::EnumerateSubStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSubStreamControl.EnumerateSubStreams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSubStreamControl::EnumerateSubStreams

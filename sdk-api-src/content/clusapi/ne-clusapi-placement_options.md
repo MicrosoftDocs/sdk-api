@@ -4,7 +4,7 @@ title: PLACEMENT_OPTIONS
 author: windows-sdk-content
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLACEMENT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PLACEMENT_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PLACEMENT_OPTIONS
+req.redist: 
 ---
 
 # PLACEMENT_OPTIONS enumeration

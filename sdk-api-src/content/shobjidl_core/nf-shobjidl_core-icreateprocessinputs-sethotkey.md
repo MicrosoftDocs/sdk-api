@@ -4,17 +4,16 @@ title: ICreateProcessInputs::SetHotKey
 author: windows-sdk-content
 description: Sets the hot key for the application.
 old-location: shell\icreateprocessinputs_sethotkey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: B54934CA-6345-4B06-BA5F-75FA4B5CEE4F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetHotKey method, ICreateProcessInputs.SetHotKey, ICreateProcessInputs::SetHotKey, SetHotKey, SetHotKey method [Windows Shell], SetHotKey method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_sethotkey, shobjidl_core/ICreateProcessInputs::SetHotKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateProcessInputs.SetHotKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateProcessInputs::SetHotKey

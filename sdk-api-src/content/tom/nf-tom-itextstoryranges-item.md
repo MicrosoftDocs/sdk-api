@@ -4,17 +4,16 @@ title: ITextStoryRanges::Item
 author: windows-sdk-content
 description: Retrieves an ITextRange object for the Indexth story in this story collection.
 old-location: controls\ITextStoryRanges_Item.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\item.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],Item method, ITextStoryRanges.Item, ITextStoryRanges::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges_Item, _win32_ITextStoryRanges_Item_cpp, controls.ITextStoryRanges_Item, controls._win32_ITextStoryRanges_Item, tom/ITextStoryRanges::Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoryRanges.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoryRanges::Item

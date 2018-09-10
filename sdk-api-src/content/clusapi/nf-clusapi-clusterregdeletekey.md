@@ -4,17 +4,16 @@ title: ClusterRegDeleteKey function
 author: windows-sdk-content
 description: Deletes a cluster database key.
 old-location: mscs\clusterregdeletekey.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterRegDeleteKey, ClusterRegDeleteKey function [Failover Cluster], _wolf_clusterregdeletekey, clusapi/ClusterRegDeleteKey, mscs.clusterregdeletekey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ClusterRegDeleteKey
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegDeleteKey function

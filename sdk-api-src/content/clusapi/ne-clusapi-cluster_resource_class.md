@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_CLASS
 author: windows-sdk-content
 description: Defines the class of a resource.
 old-location: mscs\cluster_resource_class.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_RESOURCE_CLASS
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_CLASS enumeration

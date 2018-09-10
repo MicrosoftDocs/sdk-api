@@ -4,17 +4,16 @@ title: SHSaveLibraryInFolderPath function
 author: windows-sdk-content
 description: Saves an IShellLibrary object to disk.
 old-location: shell\SHSaveLibraryInFolderPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 953b209b-fd18-49d0-84d3-ad9b815f2a3a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHSaveLibraryInFolderPath, SHSaveLibraryInFolderPath function [Windows Shell], _shell_SHSaveLibraryInFolderPath, shell.SHSaveLibraryInFolderPath, shobjidl_core/SHSaveLibraryInFolderPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHSaveLibraryInFolderPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHSaveLibraryInFolderPath function

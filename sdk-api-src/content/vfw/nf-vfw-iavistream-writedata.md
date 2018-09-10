@@ -4,17 +4,16 @@ title: IAVIStream::WriteData
 author: windows-sdk-content
 description: The WriteData method writes headers for a stream. Called when an application uses the AVIStreamWriteData function.
 old-location: multimedia\iavistream_writedata.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b6fb8e25-b6f9-4134-bb63-0a96fea88db8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],WriteData method, IAVIStream.WriteData, IAVIStream::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_WriteData, multimedia.iavistream_writedata, vfw/IAVIStream::WriteData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStream.WriteData
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStream::WriteData
@@ -71,12 +69,12 @@ Four-character code of the stream header to write.
 
 ### -param lp
 
-
+TBD
 
 
 ### -param cb
 
-
+TBD
 
 
 

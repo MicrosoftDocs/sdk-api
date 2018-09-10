@@ -4,17 +4,16 @@ title: IAppxManifestPackageId2::GetArchitecture2
 author: windows-sdk-content
 description: Gets the processor architecture as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetArchitecture2, GetArchitecture2 method [App packaging and management], GetArchitecture2 method [App packaging and management],IAppxManifestPackageId2 interface, IAppxManifestPackageId2 interface [App packaging and management],GetArchitecture2 method, IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture2, appxpkg.iappxmanifestpackageid2_getarchitecture2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestPackageId2.GetArchitecture2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestPackageId2::GetArchitecture2

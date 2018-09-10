@@ -4,17 +4,16 @@ title: RtlGenRandom function
 author: windows-sdk-content
 description: Generates a pseudo-random number.
 old-location: security\rtlgenrandom.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: 
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlGenRandom
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtlGenRandom function

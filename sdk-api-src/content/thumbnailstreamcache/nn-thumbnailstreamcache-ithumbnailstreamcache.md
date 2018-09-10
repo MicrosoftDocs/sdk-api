@@ -4,7 +4,7 @@ title: IThumbnailStreamCache
 author: windows-sdk-content
 description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: thumbnailstreamcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThumbnailStreamCacheOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailStreamCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailStreamCache interface

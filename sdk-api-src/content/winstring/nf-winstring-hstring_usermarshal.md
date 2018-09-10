@@ -4,17 +4,16 @@ title: HSTRING_UserMarshal function
 author: windows-sdk-content
 description: Marshals an HSTRING object into the RPC buffer.
 old-location: winrt\hstring_usermarshal.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HSTRING_UserMarshal
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # HSTRING_UserMarshal function

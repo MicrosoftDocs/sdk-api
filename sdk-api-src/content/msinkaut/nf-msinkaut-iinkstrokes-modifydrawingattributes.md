@@ -4,17 +4,16 @@ title: IInkStrokes::ModifyDrawingAttributes
 author: windows-sdk-content
 description: Sets the drawing attributes of all of the strokes in an InkStrokes collection.
 old-location: tablet\inkstrokes_modifydrawingattributes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b249edd9-dfa4-4538-9764-a4365f9df527
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ModifyDrawingAttributes method, IInkStrokes.ModifyDrawingAttributes, IInkStrokes::ModifyDrawingAttributes, ModifyDrawingAttributes, ModifyDrawingAttributes method [Tablet PC], ModifyDrawingAttributes method [Tablet PC],IInkStrokes interface, b249edd9-dfa4-4538-9764-a4365f9df527, msinkaut/IInkStrokes::ModifyDrawingAttributes, tablet.inkstrokes_modifydrawingattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokes.ModifyDrawingAttributes
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::ModifyDrawingAttributes

@@ -4,17 +4,16 @@ title: IAMNetworkStatus::get_RecoveredPackets
 author: windows-sdk-content
 description: The get_RecoveredPackets method retrieves the number of recovered packets.
 old-location: dshow\iamnetworkstatus_get_recoveredpackets.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e8362d52-ed20-444e-86ab-26c9eac3087c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_RecoveredPackets method, IAMNetworkStatus.get_RecoveredPackets, IAMNetworkStatus::get_RecoveredPackets, IAMNetworkStatusget_RecoveredPackets, dshow.iamnetworkstatus_get_recoveredpackets, get_RecoveredPackets, get_RecoveredPackets method [DirectShow], get_RecoveredPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_RecoveredPackets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetworkStatus.get_RecoveredPackets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetworkStatus::get_RecoveredPackets

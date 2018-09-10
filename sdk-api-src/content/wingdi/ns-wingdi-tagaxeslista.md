@@ -4,7 +4,7 @@ title: tagAXESLISTA
 author: windows-sdk-content
 description: The AXESLIST structure contains information on all the axes of a multiple master font.
 old-location: gdi\axeslist.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AXESLISTA, *PAXESLISTA, *LPAXESLISTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AXESLISTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: AXESLISTA, *PAXESLISTA, *LPAXESLISTA
+req.redist: 
 ---
 
 # tagAXESLISTA structure

@@ -4,7 +4,7 @@ title: RND_ADVERTISING_SCOPE
 author: windows-sdk-content
 description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
 old-location: tapi3\rnd_advertising_scope.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RND_ADVERTISING_SCOPE
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RND_ADVERTISING_SCOPE
+req.redist: 
 ---
 
 # RND_ADVERTISING_SCOPE enumeration

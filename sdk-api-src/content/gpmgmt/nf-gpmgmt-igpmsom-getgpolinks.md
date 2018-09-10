@@ -4,17 +4,16 @@ title: IGPMSOM::GetGPOLinks
 author: windows-sdk-content
 description: Returns a GPMGPOLinksCollection object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See IGPMGPOLink for the definition of SOM link order.
 old-location: gpmc\igpmsom_getgpolinks.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: cab93e8e-d91d-47b6-9b33-adcf06fb9e41
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMSOM class [GPMC],GetGPOLinks method, GetGPOLinks, GetGPOLinks method [GPMC], GetGPOLinks method [GPMC],GPMSOM class, GetGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetGPOLinks method, IGPMSOM.GetGPOLinks, IGPMSOM::GetGPOLinks, _win32_igpmsom_getgpolinks, gpmc.igpmsom_getgpolinks, gpmgmt/IGPMSOM::GetGPOLinks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMSOM.GetGPOLinks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSOM::GetGPOLinks

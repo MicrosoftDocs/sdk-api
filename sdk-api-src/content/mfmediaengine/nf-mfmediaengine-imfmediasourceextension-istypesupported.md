@@ -4,17 +4,16 @@ title: IMFMediaSourceExtension::IsTypeSupported
 author: windows-sdk-content
 description: Gets a value that indicates if the specified MIME type is supported by the media source.
 old-location: mf\imfmediasourceextension_istypesupported.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 894ef7d2-d008-42e1-8a61-26f35a8877be
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],IsTypeSupported method, IMFMediaSourceExtension.IsTypeSupported, IMFMediaSourceExtension::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_istypesupported, mfmediaengine/IMFMediaSourceExtension::IsTypeSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSourceExtension.IsTypeSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceExtension::IsTypeSupported

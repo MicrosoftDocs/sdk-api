@@ -4,17 +4,16 @@ title: IVdsDrive::SetFlags
 author: windows-sdk-content
 description: Sets flags of a drive object.
 old-location: base\ivdsdrive_setflags.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVdsDrive::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDrive interface, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive.SetFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive::SetFlags

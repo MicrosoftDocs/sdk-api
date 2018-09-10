@@ -4,17 +4,16 @@ title: IEnroll4::addExtensionToRequestWStr
 author: windows-sdk-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll4.addExtensionToRequestWStr
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll4::addExtensionToRequestWStr

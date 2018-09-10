@@ -4,17 +4,16 @@ title: InternetReadFileExA function
 author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
 old-location: wininet\internetreadfileex.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetReadFileExW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetReadFileExA function

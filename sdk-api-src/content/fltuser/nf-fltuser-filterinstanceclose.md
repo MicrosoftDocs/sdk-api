@@ -4,17 +4,16 @@ title: FilterInstanceClose function
 author: windows-sdk-content
 description: The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.
 old-location: ifsk\filterinstanceclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a0605b02-a5eb-4e7f-9659-0f0f538ea153
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterInstanceClose, FilterInstanceClose function [Installable File System Drivers], FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml, fltuser/FilterInstanceClose, ifsk.filterinstanceclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterInstanceClose
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterInstanceClose function

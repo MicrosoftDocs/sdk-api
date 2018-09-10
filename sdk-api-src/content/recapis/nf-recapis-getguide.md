@@ -4,17 +4,16 @@ title: GetGuide function
 author: windows-sdk-content
 description: Retrieves the guide used for boxed, lined, or freeform input.
 old-location: tablet\getguide.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d136172b3ca, recapis/GetGuide, tablet.getguide
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetGuide
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetGuide function

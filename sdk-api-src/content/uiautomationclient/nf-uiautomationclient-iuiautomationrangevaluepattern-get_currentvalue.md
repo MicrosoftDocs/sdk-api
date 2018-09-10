@@ -4,17 +4,16 @@ title: IUIAutomationRangeValuePattern::get_CurrentValue
 author: windows-sdk-content
 description: Retrieves the value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0602822f-750e-49a3-afb4-cf5ce777ea61
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentValue property [Windows Accessibility], CurrentValue property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentValue property, IUIAutomationRangeValuePattern.CurrentValue, IUIAutomationRangeValuePattern.get_CurrentValue, IUIAutomationRangeValuePattern::CurrentValue, IUIAutomationRangeValuePattern::get_CurrentValue, get_CurrentValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentValue, uiauto_IUIAutomationRangeValuePattern_CurrentValue, uiautomationclient/IUIAutomationRangeValuePattern::CurrentValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentValue, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows XP with SP3 and Platform Update for Windows Vista, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationRangeValuePattern.get_CurrentValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentValue

@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::ExportPartition
 author: windows-sdk-content
 description: Exports a partition to a file.
 old-location: cos\icomadmincatalog2_exportpartition.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: cc793025-e8d9-4dcb-a55d-81dec38d05b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.ExportPartition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::ExportPartition

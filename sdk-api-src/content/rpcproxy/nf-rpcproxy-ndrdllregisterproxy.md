@@ -4,17 +4,16 @@ title: NdrDllRegisterProxy function
 author: windows-sdk-content
 description: The NdrDllRegisterProxy function creates a registry entry for the interfaces contained in the proxy DLL.
 old-location: rpc\ndrdllregisterproxy.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 555a9e8b-c720-4bd5-872c-1af317511858
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrDllRegisterProxy
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrDllRegisterProxy function

@@ -4,7 +4,7 @@ title: "_DHCPV6_BIND_ELEMENT_ARRAY"
 author: windows-sdk-content
 description: Specifies an array of DHCPV6_BIND_ELEMENT structures that contain DHCPv6 interface bindings.
 old-location: dhcp\dhcpv6_bind_element_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6_BIND_ELEMENT_ARRAY, *LPDHCPV6_BIND_ELEMENT_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6_BIND_ELEMENT_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6_BIND_ELEMENT_ARRAY, *LPDHCPV6_BIND_ELEMENT_ARRAY
+req.redist: 
 ---
 
 # _DHCPV6_BIND_ELEMENT_ARRAY structure

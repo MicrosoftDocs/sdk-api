@@ -4,17 +4,16 @@ title: IXAPO::IsOutputFormatSupported
 author: windows-sdk-content
 description: Queries if a specific output format is supported for a given input format.
 old-location: xaudio2\ixapo_interface_isoutputformatsupported.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsOutputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX@)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsOutputFormatSupported method, IXAPO.IsOutputFormatSupported, IXAPO::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [XAudio2 Audio Mixing APIs], IsOutputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsOutputFormatSupported, xaudio2.ixapo_interface_isoutputformatsupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_BUFFER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAPO.IsOutputFormatSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAPO::IsOutputFormatSupported

@@ -4,17 +4,16 @@ title: CallWindowProcA function
 author: windows-sdk-content
 description: Passes message information to the specified window procedure.
 old-location: winmsg\callwindowproc.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\callwindowproc.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CallWindowProc, CallWindowProc function [Windows and Messages], CallWindowProcA, CallWindowProcW, _win32_CallWindowProc, _win32_callwindowproc_cpp, winmsg.callwindowproc, winui._win32_callwindowproc, winuser/CallWindowProc, winuser/CallWindowProcA, winuser/CallWindowProcW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - CallWindowProcW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # CallWindowProcA function

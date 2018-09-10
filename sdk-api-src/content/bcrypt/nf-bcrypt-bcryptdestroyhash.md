@@ -4,17 +4,16 @@ title: BCryptDestroyHash function
 author: windows-sdk-content
 description: Destroys a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptdestroyhash_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 067dac61-98b9-478c-ac4d-e141961865e9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptDestroyHash
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDestroyHash function

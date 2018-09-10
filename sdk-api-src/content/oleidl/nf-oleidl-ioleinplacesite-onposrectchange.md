@@ -4,17 +4,16 @@ title: IOleInPlaceSite::OnPosRectChange
 author: windows-sdk-content
 description: Notifies the container that the object extents have changed.
 old-location: com\ioleinplacesite_onposrectchange.htm
-old-project: com
+tech.root: com
 ms.assetid: a12d6a2a-6581-41e3-b33d-74af5d772e71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnPosRectChange method, IOleInPlaceSite.OnPosRectChange, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleInPlaceSiteWindowless.OnPosRectChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::OnPosRectChange

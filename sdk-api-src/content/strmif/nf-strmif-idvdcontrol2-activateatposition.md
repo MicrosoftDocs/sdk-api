@@ -4,17 +4,16 @@ title: IDvdControl2::ActivateAtPosition
 author: windows-sdk-content
 description: The ActivateAtPosition method activates the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_activateatposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ActivateAtPosition, ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateAtPosition method, IDvdControl2.ActivateAtPosition, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.ActivateAtPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::ActivateAtPosition

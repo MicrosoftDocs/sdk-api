@@ -4,17 +4,16 @@ title: ID3D11VideoContext::VideoProcessorGetOutputExtension
 author: windows-sdk-content
 description: Gets private state data from the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3B979D5D-CB3D-4B67-9BE3-277005076604
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputExtension method, ID3D11VideoContext.VideoProcessorGetOutputExtension, ID3D11VideoContext::VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension method [Media Foundation], VideoProcessorGetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputExtension, mf.id3d11videocontext_videoprocessorgetoutputextension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.VideoProcessorGetOutputExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputExtension

@@ -4,17 +4,16 @@ title: EnableThreadProfiling function
 author: windows-sdk-content
 description: Enables thread profiling on the specified thread.
 old-location: hcp\enablethreadprofiling.htm
-old-project: hcp
+tech.root: hcp
 ms.assetid: dbbe5b01-cabf-42cb-9ed9-c2c143f9923b
 ms.author: windowssdkdev
 ms.date: 03/28/2018
 ms.keywords: EnableThreadProfiling, EnableThreadProfiling function [Hardware Counter Profiling], hcp.enablethreadprofiling, winbase/EnableThreadProfiling
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnableThreadProfiling
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnableThreadProfiling function

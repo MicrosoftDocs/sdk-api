@@ -4,17 +4,16 @@ title: IShellView::DestroyViewWindow
 author: windows-sdk-content
 description: Destroys the view window.
 old-location: shell\IShellView_DestroyViewWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b0dfc200-4438-4f11-a426-c82eeb9cc745
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DestroyViewWindow, DestroyViewWindow method [Windows Shell], DestroyViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],DestroyViewWindow method, IShellView.DestroyViewWindow, IShellView::DestroyViewWindow, _win32_IShellView_DestroyViewWindow, shell.IShellView_DestroyViewWindow, shobjidl_core/IShellView::DestroyViewWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.DestroyViewWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::DestroyViewWindow

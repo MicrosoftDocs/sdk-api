@@ -4,17 +4,16 @@ title: GetPackageFamilyNameFromToken function
 author: windows-sdk-content
 description: Gets the package family name for the specified token.
 old-location: appxpkg\getpackagefamilynamefromtoken.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,9 +48,8 @@ api_name:
  - GetPackageFamilyNameFromToken
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetPackageFamilyNameFromToken function

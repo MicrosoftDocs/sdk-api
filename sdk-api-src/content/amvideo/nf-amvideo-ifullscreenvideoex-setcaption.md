@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::SetCaption
 author: windows-sdk-content
 description: The SetCaption method sets the caption associated with the full-screen window.
 old-location: dshow\ifullscreenvideoex_setcaption.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.SetCaption
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::SetCaption

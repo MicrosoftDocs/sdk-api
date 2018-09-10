@@ -4,17 +4,16 @@ title: IWriteEngine2::CancelWrite
 author: windows-sdk-content
 description: Cancels a write operation that is in progress.
 old-location: imapi\iwriteengine2_cancelwrite.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: cd658bd3-71ab-4e63-adec-8b7405a76c12
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IWriteEngine2 interface, IWriteEngine2 interface [IMAPI],CancelWrite method, IWriteEngine2.CancelWrite, IWriteEngine2::CancelWrite, imapi.iwriteengine2_cancelwrite, imapi2/IWriteEngine2::CancelWrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWriteEngine2.CancelWrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWriteEngine2::CancelWrite

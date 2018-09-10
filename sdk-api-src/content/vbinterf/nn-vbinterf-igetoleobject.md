@@ -4,7 +4,7 @@ title: IGetOleObject
 author: windows-sdk-content
 description: Gets access to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGetOleObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IGetOleObject interface

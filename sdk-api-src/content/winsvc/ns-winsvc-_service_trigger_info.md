@@ -4,7 +4,7 @@ title: "_SERVICE_TRIGGER_INFO"
 author: windows-sdk-content
 description: Contains trigger event information for a service. This structure is used by the ChangeServiceConfig2 and QueryServiceConfig2 functions.
 old-location: base\service_trigger_info.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TRIGGER_INFO, *PSERVICE_TRIGGER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_TRIGGER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_TRIGGER_INFO, *PSERVICE_TRIGGER_INFO
+req.redist: 
 ---
 
 # _SERVICE_TRIGGER_INFO structure

@@ -4,17 +4,16 @@ title: ICGetBuffersWanted macro
 author: windows-sdk-content
 description: The ICGetBuffersWanted macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the ICM_GETBUFFERSWANTED message.
 old-location: multimedia\icgetbufferswanted.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICGetBuffersWanted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICGetBuffersWanted macro

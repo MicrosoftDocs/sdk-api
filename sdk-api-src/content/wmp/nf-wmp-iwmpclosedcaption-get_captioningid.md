@@ -4,17 +4,16 @@ title: IWMPClosedCaption::get_captioningId
 author: windows-sdk-content
 description: The get_captioningId method retrieves the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_get_captioningid.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c6aa1710-9686-439b-b098-7a3e5da532ee
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_captioningId method, IWMPClosedCaption.get_captioningId, IWMPClosedCaption::get_captioningId, IWMPClosedCaptionget_captioningId, get_captioningId, get_captioningId method [Windows Media Player], get_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_captioningid, wmp/IWMPClosedCaption::get_captioningId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPClosedCaption.get_captioningId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPClosedCaption::get_captioningId

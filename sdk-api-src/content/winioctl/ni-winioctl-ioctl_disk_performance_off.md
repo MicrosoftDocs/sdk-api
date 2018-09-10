@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE_OFF
 author: windows-sdk-content
 description: Disables the performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance_off.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 68f4f6fb-a4f3-4fa5-8187-b2287a4271e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_DISK_PERFORMANCE_OFF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_DISK_PERFORMANCE_OFF IOCTL

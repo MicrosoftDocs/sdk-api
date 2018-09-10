@@ -4,17 +4,16 @@ title: PathUndecorateW function
 author: windows-sdk-content
 description: Removes the decoration from a path string.
 old-location: shell\PathUndecorate.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathUndecorate, PathUndecorate function [Windows Shell], PathUndecorateA, PathUndecorateW, _win32_PathUndecorate, shell.PathUndecorate, shlwapi/PathUndecorate, shlwapi/PathUndecorateA, shlwapi/PathUndecorateW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PathUndecorateW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathUndecorateW function

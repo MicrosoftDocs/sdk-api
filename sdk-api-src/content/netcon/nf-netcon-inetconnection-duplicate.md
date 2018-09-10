@@ -4,17 +4,16 @@ title: INetConnection::Duplicate
 author: windows-sdk-content
 description: The Duplicate method creates a duplicate of this connection in the connections folder.
 old-location: ics\inetconnection_duplicate.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 1196e66d-95c1-4417-ac0d-b84583879d6a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Duplicate, Duplicate method [ICS/ICF], Duplicate method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Duplicate method, INetConnection.Duplicate, INetConnection::Duplicate, _ics_inetconnection_duplicate, ics.inetconnection_duplicate, netcon/INetConnection::Duplicate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnection.Duplicate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnection::Duplicate

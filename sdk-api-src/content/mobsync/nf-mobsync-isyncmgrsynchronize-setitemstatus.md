@@ -4,17 +4,16 @@ title: ISyncMgrSynchronize::SetItemStatus
 author: windows-sdk-content
 description: Called by the synchronization manager in a registered application's handler to change the status of an item in the following two cases:\_between the time the handler has returned from the ISyncMgrSynchronize::PrepareForSync method and called the PrepareForSyncCompleted callback method, or after the handler has returned from the ISyncMgrSynchronize::Synchronize method but has not yet called the SynchronizeCompleted callback method.
 old-location: shell\syncmgr_isyncmgrsynchronize_setitemstatus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 311e916c-46a0-4eb2-a5e3-8da417ae7d71
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method, ISyncMgrSynchronize.SetItemStatus, ISyncMgrSynchronize::SetItemStatus, SetItemStatus, SetItemStatus method [Windows Shell], SetItemStatus method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetItemStatus, shell.syncmgr_isyncmgrsynchronize_setitemstatus, syncmgr.isyncmgrsynchronize_setitemstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronize.SetItemStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronize::SetItemStatus

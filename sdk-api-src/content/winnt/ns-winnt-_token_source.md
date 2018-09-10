@@ -4,7 +4,7 @@ title: "_TOKEN_SOURCE"
 author: windows-sdk-content
 description: Identifies the source of an access token.
 old-location: security\token_source.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
+req.redist: 
 ---
 
 # _TOKEN_SOURCE structure

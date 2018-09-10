@@ -4,17 +4,16 @@ title: ICreateTypeLib::SetHelpFileName
 author: windows-sdk-content
 description: Sets the name of the Help file.
 old-location: automat\icreatetypelib_sethelpfilename.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICreateTypeLib.SetHelpFileName, ICreateTypeLib::SetHelpFileName, SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.SetHelpFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::SetHelpFileName

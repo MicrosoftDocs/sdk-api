@@ -4,7 +4,7 @@ title: "_VSS_RESTORE_TYPE"
 author: windows-sdk-content
 description: Used by a requester to indicate the type of restore operation it is about to perform.
 old-location: base\vss_restore_type.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 4649aee5-da45-4602-a768-eff228a8d726
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_RESTORE_TYPE, *PVSS_RESTORE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_RESTORE_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_RESTORE_TYPE, *PVSS_RESTORE_TYPE
+req.redist: 
 ---
 
 # _VSS_RESTORE_TYPE enumeration

@@ -4,7 +4,7 @@ title: "_PerfRegInfoType"
 author: windows-sdk-content
 description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.
 old-location: perf\perfreginfotype.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 8D54F31F-9ABA-405F-84A5-9C7225B7BE67
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PerfRegInfoType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PerfRegInfoType
+req.redist: 
 ---
 
 # _PerfRegInfoType enumeration

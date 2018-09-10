@@ -4,17 +4,16 @@ title: VerifyVersionInfoW function
 author: windows-sdk-content
 description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.
 old-location: base\verifyversioninfo.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: VER_BUILDNUMBER, VER_MAJORVERSION, VER_MINORVERSION, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerifyVersionInfo, VerifyVersionInfo function, VerifyVersionInfoA, VerifyVersionInfoW, _win32_verifyversioninfo, base.verifyversioninfo, winbase/VerifyVersionInfo, winbase/VerifyVersionInfoA, winbase/VerifyVersionInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - VerifyVersionInfoW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # VerifyVersionInfoW function

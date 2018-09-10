@@ -4,7 +4,7 @@ title: "_TAKE_SNAPSHOT_VHDSET_FLAG"
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the TakeSnapshotVhdSet function.
 old-location: vhd\take_snapshot_vhdset_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 2A714FFB-E462-418E-B0AC-E7929619604B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAKE_SNAPSHOT_VHDSET_FLAG, *PTAKE_SNAPSHOT_VHDSET_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TAKE_SNAPSHOT_VHDSET_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: TAKE_SNAPSHOT_VHDSET_FLAG, *PTAKE_SNAPSHOT_VHDSET_FLAG
+req.redist: 
 ---
 
 # _TAKE_SNAPSHOT_VHDSET_FLAG enumeration

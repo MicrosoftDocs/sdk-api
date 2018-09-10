@@ -4,17 +4,16 @@ title: RoResolveRestrictedErrorInfoReference function
 author: windows-sdk-content
 description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
 old-location: winrt\roresolverestrictederrorinforeference.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: Runtimeobject.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RoResolveRestrictedErrorInfoReference
 product: Windows
 targetos: Windows
-req.lib: Runtimeobject.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoResolveRestrictedErrorInfoReference function

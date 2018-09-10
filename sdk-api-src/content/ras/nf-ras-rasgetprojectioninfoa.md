@@ -4,17 +4,16 @@ title: RasGetProjectionInfoA function
 author: windows-sdk-content
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
 old-location: rras\rasgetprojectioninfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RASP_Amb, RASP_PppCcp, RASP_PppIp, RASP_PppIpv6, RASP_PppIpx, RASP_PppLcp, RASP_PppNbf, RASP_Slip, RasGetProjectionInfo, RasGetProjectionInfo function [RAS], RasGetProjectionInfoA, RasGetProjectionInfoW, _ras_rasgetprojectioninfo, ras/RasGetProjectionInfo, ras/RasGetProjectionInfoA, ras/RasGetProjectionInfoW, rras.rasgetprojectioninfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RasGetProjectionInfoW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasGetProjectionInfoA function

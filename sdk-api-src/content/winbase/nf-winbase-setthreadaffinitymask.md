@@ -4,17 +4,16 @@ title: SetThreadAffinityMask function
 author: windows-sdk-content
 description: Sets a processor affinity mask for the specified thread.
 old-location: base\setthreadaffinitymask.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 3390930d-026f-4f86-97bc-1da34bb384ba
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setthreadaffinitymask, base.setthreadaffinitymask, winbase/SetThreadAffinityMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetThreadAffinityMask
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadAffinityMask function

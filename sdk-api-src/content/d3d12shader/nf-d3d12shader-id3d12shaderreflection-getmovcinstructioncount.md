@@ -4,17 +4,16 @@ title: ID3D12ShaderReflection::GetMovcInstructionCount
 author: windows-sdk-content
 description: Gets the number of Movc instructions.
 old-location: direct3d12\id3d12shaderreflection_getmovcinstructioncount.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 9F002B65-F101-4498-A9C0-C545BCDB8CC1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetMovcInstructionCount, GetMovcInstructionCount method, GetMovcInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovcInstructionCount method, ID3D12ShaderReflection.GetMovcInstructionCount, ID3D12ShaderReflection::GetMovcInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovcInstructionCount, direct3d12.id3d12shaderreflection_getmovcinstructioncount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12ShaderReflection.GetMovcInstructionCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12ShaderReflection::GetMovcInstructionCount

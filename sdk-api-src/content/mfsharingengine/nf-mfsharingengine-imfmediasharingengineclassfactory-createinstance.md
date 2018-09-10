@@ -4,17 +4,16 @@ title: IMFMediaSharingEngineClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaSharingEngineClassFactory.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSharingEngineClassFactory::CreateInstance

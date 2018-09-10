@@ -4,7 +4,7 @@ title: "_CRYPT_ATTRIBUTE"
 author: windows-sdk-content
 description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.
 old-location: security\crypt_attribute.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
+req.redist: 
 ---
 
 # _CRYPT_ATTRIBUTE structure

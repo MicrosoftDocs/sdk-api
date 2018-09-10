@@ -4,7 +4,7 @@ title: WbemPrivilegeEnum
 author: windows-sdk-content
 description: Define privileges. These constants are used with SWbemSecurity to grant the privileges required for some operations.
 old-location: wmi\wbemprivilegeenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 235a1115-d8c4-4334-a4e0-fc539da4d2ae
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemPrivilegeEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemPrivilegeEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemPrivilegeEnum
+req.redist: 
 ---
 
 # WbemPrivilegeEnum enumeration

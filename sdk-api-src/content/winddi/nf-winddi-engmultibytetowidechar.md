@@ -4,17 +4,16 @@ title: EngMultiByteToWideChar function
 author: windows-sdk-content
 description: The EngMultiByteToWideChar function converts an ANSI source string into a wide character string using the specified code page.
 old-location: display\engmultibytetowidechar.htm
-old-project: display
+tech.root: display
 ms.assetid: 7ed4f718-e28d-40d9-a3e0-c6961281a319
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngMultiByteToWideChar, EngMultiByteToWideChar function [Display Devices], display.engmultibytetowidechar, gdifncs_217d1045-3661-401b-af6e-148668ed97e4.xml, winddi/EngMultiByteToWideChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngMultiByteToWideChar
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngMultiByteToWideChar function

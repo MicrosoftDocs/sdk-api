@@ -4,7 +4,7 @@ title: "_WCM_DATAPLAN_STATUS"
 author: windows-sdk-content
 description: Specifies subscription information for a network connection.
 old-location: wcm\wcm_dataplan_status.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: 6ed0f05c-a9f8-49bb-9fb0-b91af8594d76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_DATAPLAN_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
+req.redist: 
 ---
 
 # _WCM_DATAPLAN_STATUS structure

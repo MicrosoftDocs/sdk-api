@@ -4,17 +4,16 @@ title: IMediaObject::GetInputStatus
 author: windows-sdk-content
 description: The GetInputStatus method queries whether an input stream can accept more input data.
 old-location: dshow\imediaobject_getinputstatus.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4581307f-cea2-4e88-81a1-972e1998c7a8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInputStatus, GetInputStatus method [DirectShow], GetInputStatus method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStatus method, IMediaObject.GetInputStatus, IMediaObject::GetInputStatus, IMediaObjectGetInputStatus, dshow.imediaobject_getinputstatus, mediaobj/IMediaObject::GetInputStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaObject.GetInputStatus
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObject::GetInputStatus

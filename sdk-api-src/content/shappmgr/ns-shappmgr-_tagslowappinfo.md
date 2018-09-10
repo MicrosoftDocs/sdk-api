@@ -4,7 +4,7 @@ title: "_tagSlowAppInfo"
 author: windows-sdk-content
 description: Provides specialized application information to Add/Remove Programs in Control Panel. This structure is not applicable to published applications.
 old-location: shell\SLOWAPPINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e9af8c70-0f03-4f16-bbfb-5e54f7c6c9df
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLOWAPPINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
+req.redist: 
 ---
 
 # _tagSlowAppInfo structure

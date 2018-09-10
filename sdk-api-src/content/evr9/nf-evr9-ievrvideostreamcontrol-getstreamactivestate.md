@@ -4,17 +4,16 @@ title: IEVRVideoStreamControl::GetStreamActiveState
 author: windows-sdk-content
 description: IEVRVideoStreamControl::GetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d4ca1da7-7768-45b4-a0be-f3ef86fed7b9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [Media Foundation], GetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, IEVRVideoStreamControl interface [Media Foundation],GetStreamActiveState method, IEVRVideoStreamControl.GetStreamActiveState, IEVRVideoStreamControl::GetStreamActiveState, d4ca1da7-7768-45b4-a0be-f3ef86fed7b9, evr9/IEVRVideoStreamControl::GetStreamActiveState, mf.ievrvideostreamcontrol_getstreamactivestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRVideoStreamControl.GetStreamActiveState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRVideoStreamControl::GetStreamActiveState

@@ -4,17 +4,16 @@ title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 author: windows-sdk-content
 description: Obtains information about file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotfile.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3df57749-9a26-4187-b1fc-aeb68a4d1d06
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExcludeFromSnapshotFile, GetExcludeFromSnapshotFile method, GetExcludeFromSnapshotFile method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotFile method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile, base.ivssexaminewritermetadataex2_getexcludefromsnapshotfile, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile

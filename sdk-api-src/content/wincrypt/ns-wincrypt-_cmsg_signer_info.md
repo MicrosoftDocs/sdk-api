@@ -4,7 +4,7 @@ title: "_CMSG_SIGNER_INFO"
 author: windows-sdk-content
 description: The CMSG_SIGNER_INFO structure contains the content of the PKCS #7 defined SignerInfo in signed messages. In decoding a received message, CryptMsgGetParam is called for each signer to get a CMSG_SIGNER_INFO structure.
 old-location: security\cmsg_signer_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_SIGNER_INFO, *PCMSG_SIGNER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_SIGNER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_SIGNER_INFO, *PCMSG_SIGNER_INFO
+req.redist: 
 ---
 
 # _CMSG_SIGNER_INFO structure

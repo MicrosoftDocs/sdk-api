@@ -4,7 +4,7 @@ title: CS_Resource_s
 author: windows-sdk-content
 description: The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.
 old-location: devinst\cs_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 471112ab-8f3b-4bfe-b456-68fea933a31f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CS_RESOURCE, *PCS_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CS_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CS_RESOURCE, *PCS_RESOURCE
+req.redist: 
 ---
 
 # CS_Resource_s structure

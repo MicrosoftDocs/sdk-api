@@ -4,17 +4,16 @@ title: IOfflineFilesCache::GetSettingObject
 author: windows-sdk-content
 description: Creates an object that represents a particular Offline Files setting.
 old-location: of\iofflinefilescache_getsettingobject.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 17b6572d-f05e-4f0e-a247-89acd2963d6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSettingObject, GetSettingObject method [Offline Files], GetSettingObject method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetSettingObject method, IOfflineFilesCache.GetSettingObject, IOfflineFilesCache::GetSettingObject, cscobj/IOfflineFilesCache::GetSettingObject, of.iofflinefilescache_getsettingobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache.GetSettingObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache::GetSettingObject

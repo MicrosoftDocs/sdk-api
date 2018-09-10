@@ -4,7 +4,7 @@ title: tagDVD_MultichannelAudioAttributes
 author: windows-sdk-content
 description: The DVD_MultichannelAudioAttributes structure describes the multichannel attributes of one audio stream within a specified title.
 old-location: dshow\dvd_multichannelaudioattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_MultichannelAudioAttributes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_MultichannelAudioAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVD_MultichannelAudioAttributes
+req.redist: 
 ---
 
 # tagDVD_MultichannelAudioAttributes structure

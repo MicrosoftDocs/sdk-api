@@ -4,7 +4,7 @@ title: "_VDS_OBJECT_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types of a VDS object.
 old-location: base\vds_object_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 63997e08-b6d3-4011-8946-56ef9832c0e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_OBJECT_TYPE
+req.redist: 
 ---
 
 # _VDS_OBJECT_TYPE enumeration

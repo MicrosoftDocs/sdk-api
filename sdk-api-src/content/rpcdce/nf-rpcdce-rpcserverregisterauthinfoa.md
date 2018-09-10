@@ -4,17 +4,16 @@ title: RpcServerRegisterAuthInfoA function
 author: windows-sdk-content
 description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
 old-location: rpc\rpcserverregisterauthinfo.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerRegisterAuthInfo, RpcServerRegisterAuthInfo function [RPC], RpcServerRegisterAuthInfoA, RpcServerRegisterAuthInfoW, _rpc_rpcserverregisterauthinfo, rpc.rpcserverregisterauthinfo, rpcdce/RpcServerRegisterAuthInfo, rpcdce/RpcServerRegisterAuthInfoA, rpcdce/RpcServerRegisterAuthInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcServerRegisterAuthInfoW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerRegisterAuthInfoA function

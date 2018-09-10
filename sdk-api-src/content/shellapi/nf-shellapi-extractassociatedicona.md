@@ -4,17 +4,16 @@ title: ExtractAssociatedIconA function
 author: windows-sdk-content
 description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
 old-location: shell\ExtractAssociatedIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ExtractAssociatedIconW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ExtractAssociatedIconA function

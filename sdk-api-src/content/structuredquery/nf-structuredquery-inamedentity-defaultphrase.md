@@ -4,17 +4,16 @@ title: INamedEntity::DefaultPhrase
 author: windows-sdk-content
 description: Retrieves a default phrase to use for this named entity in restatements.
 old-location: search\_search_INamedEntity_DefaultPhrase.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\defaultphrase.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],INamedEntity interface, INamedEntity interface [search],DefaultPhrase method, INamedEntity.DefaultPhrase, INamedEntity::DefaultPhrase, _search_INamedEntity_DefaultPhrase, search._search_INamedEntity_DefaultPhrase, structuredquery/INamedEntity::DefaultPhrase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedEntity.DefaultPhrase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # INamedEntity::DefaultPhrase

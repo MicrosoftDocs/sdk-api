@@ -4,17 +4,16 @@ title: IsWindowsVistaSP2OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 2 (SP2) version.
 old-location: base\iswindowsvistasp2orgreater.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Kernel32.lib; Ntdll.lib
+req.dll: Kernel32.dll; Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IsWindowsVistaSP2OrGreater
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; Ntdll.lib
-req.dll: Kernel32.dll; Ntdll.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsWindowsVistaSP2OrGreater function

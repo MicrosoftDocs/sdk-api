@@ -4,17 +4,16 @@ title: IOfflineFilesSetting::DeletePreference
 author: windows-sdk-content
 description: Removes a preference setting.
 old-location: of\iofflinefilessetting_deletepreference.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 815791e8-3e41-4511-9789-9b9258e5fcf4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DeletePreference, DeletePreference method [Offline Files], DeletePreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],DeletePreference method, IOfflineFilesSetting.DeletePreference, IOfflineFilesSetting::DeletePreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::DeletePreference, of.iofflinefilessetting_deletepreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSetting.DeletePreference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSetting::DeletePreference

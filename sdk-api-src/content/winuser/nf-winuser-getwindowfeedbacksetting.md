@@ -4,17 +4,16 @@ title: GetWindowFeedbackSetting function
 author: windows-sdk-content
 description: Retrieves the feedback configuration for a window.
 old-location: input_feedback\getwindowfeedbacksetting.htm
-old-project: Input_Feedback
+tech.root: Input_Feedback
 ms.assetid: a40806b3-9085-42b6-9a87-95be0d1669c6
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetWindowFeedbackSetting, GetWindowFeedbackSetting function, input_feedback.getwindowfeedbacksetting, inputfeedbackui.getwindowfeedbacksetting, winuser/GetWindowFeedbackSetting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetWindowFeedbackSetting
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetWindowFeedbackSetting function

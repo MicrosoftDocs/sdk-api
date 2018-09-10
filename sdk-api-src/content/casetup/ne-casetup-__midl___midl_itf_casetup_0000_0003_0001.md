@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_casetup_0000_0003_0001"
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a Microsoft Simple Certificate Enrollment Protocol (SCEP) role using IMSCEPSetup.
 old-location: security\mscepsetupproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c3740afc-842e-427f-87bf-022f5544d0d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CameraUIControl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSCEPSetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MSCEPSetupProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MSCEPSetupProperty
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_casetup_0000_0003_0001 enumeration

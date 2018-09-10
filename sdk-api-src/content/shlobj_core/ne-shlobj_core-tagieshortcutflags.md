@@ -4,7 +4,7 @@ title: tagIESHORTCUTFLAGS
 author: windows-sdk-content
 description: Specifies how a shortcut should be handled by the browser.
 old-location: shell\IESHORTCUTFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0821a990-5cae-41b3-aebf-20be13b6e89b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IESHORTCUTFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESHORTCUTFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: IESHORTCUTFLAGS
+req.redist: 
 ---
 
 # tagIESHORTCUTFLAGS enumeration

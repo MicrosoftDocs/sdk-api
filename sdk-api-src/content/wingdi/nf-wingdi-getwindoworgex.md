@@ -4,17 +4,16 @@ title: GetWindowOrgEx function
 author: windows-sdk-content
 description: The GetWindowOrgEx function retrieves the x-coordinates and y-coordinates of the window origin for the specified device context.
 old-location: gdi\getwindoworgex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetWindowOrgEx
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetWindowOrgEx function

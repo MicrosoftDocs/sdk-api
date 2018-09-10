@@ -4,7 +4,7 @@ title: "_WSB_OB_STATUS_ENTRY_PAIR_TYPE"
 author: windows-sdk-content
 description: Indicates the type of the parameter value.
 old-location: wsb\wsb_ob_status_entry_pair_type.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: E2D70C01-D331-4FBC-8586-2878513618D5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WsbApp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSB_OB_STATUS_ENTRY_PAIR_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+req.redist: 
 ---
 
 # _WSB_OB_STATUS_ENTRY_PAIR_TYPE enumeration

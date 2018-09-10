@@ -4,17 +4,16 @@ title: RemovePersistentIScsiDeviceW function
 author: windows-sdk-content
 description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
 old-location: iscsidisc\removepersistentiscsidevice.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RemovePersistentIScsiDeviceW, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RemovePersistentIscsiDeviceW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RemovePersistentIScsiDeviceW function

@@ -4,17 +4,16 @@ title: IAzScope::AddPolicyReader
 author: windows-sdk-content
 description: The AddPolicyReader method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy readers.
 old-location: security\iazscope_addpolicyreader.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: dd4d3254-8bcf-46b5-8e7b-d3f076988a7c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzScope object, AddPolicyReader method [Security],IAzScope interface, AzScope object [Security],AddPolicyReader method, IAzScope interface [Security],AddPolicyReader method, IAzScope.AddPolicyReader, IAzScope::AddPolicyReader, azroles/IAzScope::AddPolicyReader, security.iazscope_addpolicyreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzScope.AddPolicyReader
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzScope::AddPolicyReader

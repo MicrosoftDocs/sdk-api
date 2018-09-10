@@ -4,7 +4,7 @@ title: "_FilterInfo"
 author: windows-sdk-content
 description: The FILTER_INFO structure contains information about a filter.
 old-location: dshow\filter_info.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILTER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: FILTER_INFO
+req.redist: 
 ---
 
 # _FilterInfo structure

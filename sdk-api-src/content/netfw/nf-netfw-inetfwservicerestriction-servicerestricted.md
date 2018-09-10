@@ -4,17 +4,16 @@ title: INetFwServiceRestriction::ServiceRestricted
 author: windows-sdk-content
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 old-location: ics\inetfwservicerestriction_servicerestricted.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetFwServiceRestriction.ServiceRestricted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwServiceRestriction::ServiceRestricted

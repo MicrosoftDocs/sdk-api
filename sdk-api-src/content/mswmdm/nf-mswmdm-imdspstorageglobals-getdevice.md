@@ -4,17 +4,16 @@ title: IMDSPStorageGlobals::GetDevice
 author: windows-sdk-content
 description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.
 old-location: wmdm\imdspstorageglobals_getdevice.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDevice, GetDevice method [windows Media Device Manager], GetDevice method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetDevice method, IMDSPStorageGlobals.GetDevice, IMDSPStorageGlobals::GetDevice, IMDSPStorageGlobalsGetDevice, mswmdm/IMDSPStorageGlobals::GetDevice, wmdm.imdspstorageglobals_getdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorageGlobals.GetDevice
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorageGlobals::GetDevice

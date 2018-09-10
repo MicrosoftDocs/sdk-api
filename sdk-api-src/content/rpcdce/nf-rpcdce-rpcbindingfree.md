@@ -4,17 +4,16 @@ title: RpcBindingFree function
 author: windows-sdk-content
 description: The RpcBindingFree function releases binding-handle resources.
 old-location: rpc\rpcbindingfree.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcBindingFree
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingFree function

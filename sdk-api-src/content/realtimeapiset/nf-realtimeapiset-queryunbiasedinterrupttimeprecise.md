@@ -4,17 +4,16 @@ title: QueryUnbiasedInterruptTimePrecise function
 author: windows-sdk-content
 description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 old-location: base\queryunbiasedinterrupttimeprecise.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - QueryUnbiasedInterruptTimePrecise
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QueryUnbiasedInterruptTimePrecise function

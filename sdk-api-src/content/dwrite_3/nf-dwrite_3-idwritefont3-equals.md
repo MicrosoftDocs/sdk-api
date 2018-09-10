@@ -4,17 +4,16 @@ title: IDWriteFont3::Equals
 author: windows-sdk-content
 description: Compares two instances of font references for equality.
 old-location: directwrite\idwritefont3_equals.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4C537868-F655-457F-9B70-FA7633CF714C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],Equals method, IDWriteFont3.Equals, IDWriteFont3::Equals, directwrite.idwritefont3_equals, dwrite_3/IDWriteFont3::Equals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFont3.Equals
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFont3::Equals

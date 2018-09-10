@@ -4,7 +4,7 @@ title: "_VDS_ASYNC_OUTPUT_TYPE"
 author: windows-sdk-content
 description: Defines the set of operations that objects can process.
 old-location: base\vds_async_output_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c2c0403a-30b9-4619-8bcb-3b73b637509e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ASYNC_OUTPUT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ASYNC_OUTPUT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ASYNC_OUTPUT_TYPE
+req.redist: 
 ---
 
 # _VDS_ASYNC_OUTPUT_TYPE enumeration

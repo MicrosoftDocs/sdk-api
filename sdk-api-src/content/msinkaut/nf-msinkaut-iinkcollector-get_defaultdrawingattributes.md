@@ -4,17 +4,16 @@ title: IInkCollector::get_DefaultDrawingAttributes
 author: windows-sdk-content
 description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
 old-location: tablet\inkcollector_defaultdrawingattributes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f31a93aa-e3de-4254-af3f-338576350815
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DefaultDrawingAttributes property, IInkCollector.DefaultDrawingAttributes, IInkCollector.get_DefaultDrawingAttributes, IInkCollector.put_DefaultDrawingAttributes, IInkCollector.putref_DefaultDrawingAttributes, IInkCollector::DefaultDrawingAttributes, IInkCollector::get_DefaultDrawingAttributes, IInkCollector::put_DefaultDrawingAttributes, IInkCollector::putref_DefaultDrawingAttributes, InkCollector.get_DefaultDrawingAttributes, InkCollector.put_DefaultDrawingAttributes, f31a93aa-e3de-4254-af3f-338576350815, get_DefaultDrawingAttributes, msinkaut/IInkCollector::DefaultDrawingAttributes, msinkaut/IInkCollector::get_DefaultDrawingAttributes, msinkaut/IInkCollector::put_DefaultDrawingAttributes, msinkaut/IInkCollector::putref_DefaultDrawingAttributes, put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkcollector_defaultdrawingattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - InkCollector.put_DefaultDrawingAttributes
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::get_DefaultDrawingAttributes

@@ -4,17 +4,16 @@ title: IShellFolderView::GetAutoArrange
 author: windows-sdk-content
 description: GetAutoArrange may be altered or unavailable.
 old-location: shell\IShellFolderView_GetAutoArrange.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ee7c0c7c-17f1-48b4-9aa0-33804c237036
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetAutoArrange method, IShellFolderView.GetAutoArrange, IShellFolderView::GetAutoArrange, _shell_IShellFolderView_GetAutoArrange, shell.IShellFolderView_GetAutoArrange, shlobj_core/IShellFolderView::GetAutoArrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetAutoArrange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetAutoArrange

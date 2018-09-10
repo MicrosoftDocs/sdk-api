@@ -4,17 +4,16 @@ title: EngGetDriverName function
 author: windows-sdk-content
 description: The EngGetDriverName function returns the name of the driver's DLL.
 old-location: display\enggetdrivername.htm
-old-project: display
+tech.root: display
 ms.assetid: 6af3aa76-ebb4-4abb-ba35-537ccae95220
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngGetDriverName, EngGetDriverName function [Display Devices], display.enggetdrivername, gdifncs_e0da975e-1a7f-4f28-a38b-be0966f3b0c0.xml, winddi/EngGetDriverName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngGetDriverName
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngGetDriverName function

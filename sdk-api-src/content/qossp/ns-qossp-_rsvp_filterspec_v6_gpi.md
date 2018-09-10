@@ -4,7 +4,7 @@ title: "_RSVP_FILTERSPEC_V6_GPI"
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V6_GPI structure provides general port identifier information for a given FILTERSPEC on an IPv6 address.
 old-location: qos\rsvp_filterspec_v6_gpi.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: ede040f4-4858-42d8-a4b5-af6e79c036d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_FILTERSPEC_V6_GPI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI
+req.redist: 
 ---
 
 # _RSVP_FILTERSPEC_V6_GPI structure

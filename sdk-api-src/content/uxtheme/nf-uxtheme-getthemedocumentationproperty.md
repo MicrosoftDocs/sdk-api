@@ -4,17 +4,16 @@ title: GetThemeDocumentationProperty function
 author: windows-sdk-content
 description: Retrieves the value for a theme property from the documentation section of the specified theme file.
 old-location: controls\GetThemeDocumentationProperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemedocumentationproperty.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeDocumentationProperty, GetThemeDocumentationProperty function [Windows Controls], SZ_THDOCPROP_AUTHOR, SZ_THDOCPROP_CANONICALNAME, SZ_THDOCPROP_DISPLAYNAME, SZ_THDOCPROP_TOOLTIP, controls.GetThemeDocumentationProperty, controls.inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty_cpp, uxtheme/GetThemeDocumentationProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetThemeDocumentationProperty
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeDocumentationProperty function

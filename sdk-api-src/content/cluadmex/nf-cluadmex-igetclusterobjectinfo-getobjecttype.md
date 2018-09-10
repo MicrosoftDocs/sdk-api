@@ -4,17 +4,16 @@ title: IGetClusterObjectInfo::GetObjectType
 author: windows-sdk-content
 description: Returns the type of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObjectType, GetObjectType method [Failover Cluster], GetObjectType method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectType method, IGetClusterObjectInfo.GetObjectType, IGetClusterObjectInfo::GetObjectType, _wolf_igetclusterobjectinfo_getobjecttype, cluadmex/IGetClusterObjectInfo::GetObjectType, mscs.igetclusterobjectinfo_getobjecttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterObjectInfo.GetObjectType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterObjectInfo::GetObjectType

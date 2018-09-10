@@ -4,17 +4,16 @@ title: BCryptEnumRegisteredProviders function
 author: windows-sdk-content
 description: Retrieves information about the registered providers.
 old-location: security\bcryptenumregisteredproviders.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: a01adfec-dbe0-4817-af97-63163760fafc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptEnumRegisteredProviders
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptEnumRegisteredProviders function

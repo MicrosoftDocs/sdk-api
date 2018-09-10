@@ -4,17 +4,16 @@ title: WindowFromAccessibleObject function
 author: windows-sdk-content
 description: Retrieves the window handle that corresponds to a particular instance of an IAccessible interface.
 old-location: winauto\windowfromaccessibleobject.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WindowFromAccessibleObject
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # WindowFromAccessibleObject function

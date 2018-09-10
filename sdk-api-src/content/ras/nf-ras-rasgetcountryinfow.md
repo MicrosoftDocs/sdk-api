@@ -4,17 +4,16 @@ title: RasGetCountryInfoW function
 author: windows-sdk-content
 description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 old-location: rras\rasgetcountryinfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryInfoA, RasGetCountryInfoW, _ras_rasgetcountryinfo, ras/RasGetCountryInfo, ras/RasGetCountryInfoA, ras/RasGetCountryInfoW, rras.rasgetcountryinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasGetCountryInfoW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasGetCountryInfoW function

@@ -4,17 +4,16 @@ title: IEnumGuideDataProperties::Clone
 author: windows-sdk-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_clone.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumGuideDataProperties.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumGuideDataProperties::Clone

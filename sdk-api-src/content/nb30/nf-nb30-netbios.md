@@ -4,17 +4,16 @@ title: Netbios function
 author: windows-sdk-content
 description: The Netbios function interprets and executes the specified network control block (NCB).
 old-location: netbios\netbios.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Netbios
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # Netbios function

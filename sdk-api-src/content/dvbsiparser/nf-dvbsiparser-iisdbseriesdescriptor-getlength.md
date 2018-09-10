@@ -4,17 +4,16 @@ title: IIsdbSeriesDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) series descriptor, in bytes.
 old-location: mstv\iisdbseriesdescriptor_getlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 703e4406-7fca-4d96-83de-56fd2ff52d30
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbSeriesDescriptor.GetLength, IIsdbSeriesDescriptor::GetLength, dvbsiparser/IIsdbSeriesDescriptor::GetLength, mstv.iisdbseriesdescriptor_getlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSeriesDescriptor.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSeriesDescriptor::GetLength

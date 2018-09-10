@@ -4,17 +4,16 @@ title: IEncoderAPI::GetParameterValues
 author: windows-sdk-content
 description: The GetParameterValues method retrieves the list of values supported by the given parameter.
 old-location: mstv\iencoderapi_getparametervalues.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 406316b5-1de0-4a89-b1bc-2f3b63ab0739
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetParameterValues, GetParameterValues method [Microsoft TV Technologies], GetParameterValues method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterValues method, IEncoderAPI.GetParameterValues, IEncoderAPI::GetParameterValues, IEncoderAPIGetParameterValues, mstv.iencoderapi_getparametervalues, strmif/IEncoderAPI::GetParameterValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEncoderAPI.GetParameterValues
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEncoderAPI::GetParameterValues

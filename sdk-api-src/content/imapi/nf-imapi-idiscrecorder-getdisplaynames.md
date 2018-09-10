@@ -4,17 +4,16 @@ title: IDiscRecorder::GetDisplayNames
 author: windows-sdk-content
 description: Retrieves a formatted name for the recorder that can be displayed. The name consists of the manufacturer and product identifier of the device.
 old-location: imapi\idiscrecorder_getdisplaynames.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 0f20cae4-3f9c-49bb-9b82-13351b889a31
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetDisplayNames, GetDisplayNames method [IMAPI], GetDisplayNames method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetDisplayNames method, IDiscRecorder.GetDisplayNames, IDiscRecorder::GetDisplayNames, _win32_idiscrecorder_getdisplaynames, base.idiscrecorder_getdisplaynames, imapi.idiscrecorder_getdisplaynames, imapi/IDiscRecorder::GetDisplayNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder.GetDisplayNames
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder::GetDisplayNames

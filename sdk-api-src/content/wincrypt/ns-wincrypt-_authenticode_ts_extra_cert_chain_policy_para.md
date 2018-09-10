@@ -4,7 +4,7 @@ title: "_AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA"
 author: windows-sdk-content
 description: The AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure contains time stamp policy information that can be used in certificate chain verification of files.
 old-location: security\authenticode_ts_extra_cert_chain_policy_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4c24c924-f466-42d1-a3e0-e86446750040
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+req.redist: 
 ---
 
 # _AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure

@@ -4,17 +4,16 @@ title: IMbnInterface::GetReadyState
 author: windows-sdk-content
 description: Gets the ready state.
 old-location: mbn\imbninterface_getreadystate.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4236fd9d-292a-4840-b52e-c28c3e6eea10
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetReadyState, GetReadyState method [Microsoft Broadband Networks], GetReadyState method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetReadyState method, IMbnInterface.GetReadyState, IMbnInterface::GetReadyState, mbn.imbninterface_getreadystate, mbnapi/IMbnInterface::GetReadyState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterface.GetReadyState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterface::GetReadyState

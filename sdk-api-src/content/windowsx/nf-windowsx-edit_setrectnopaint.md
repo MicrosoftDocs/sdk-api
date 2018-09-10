@@ -4,17 +4,16 @@ title: Edit_SetRectNoPaint macro
 author: windows-sdk-content
 description: Sets the formatting rectangle of a multiline edit control. This macro is equivalent to Edit_SetRect, except that it does not redraw the edit control window. You can use this macro or send the EM_SETRECTNP message explicitly.
 old-location: controls\Edit_SetRectNoPaint.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrectnopaint.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_SetRectNoPaint, Edit_SetRectNoPaint macro [Windows Controls], _win32_Edit_SetRectNoPaint, _win32_Edit_SetRectNoPaint_cpp, controls.Edit_SetRectNoPaint, controls._win32_Edit_SetRectNoPaint, windowsx/Edit_SetRectNoPaint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Edit_SetRectNoPaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_SetRectNoPaint macro

@@ -4,7 +4,7 @@ title: RPC_OBJECT_INQ_FN
 author: windows-sdk-content
 description: The RPC_OBJECT_INQ_FN function is a prototype for a function that facilitates replacement of the default object UUID to type UUID mapping.
 old-location: rpc\rpc_object_inq_fn.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 163a5160-1b47-4b65-8f6c-8b009f548ed9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_OBJECT_INQ_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RPC_OBJECT_INQ_FN callback function
@@ -64,7 +62,7 @@ The
 ### -param *ObjectUuid
 
 Pointer to the variable that specifies the object 
-<a href="https://msdn.microsoft.com/">UUID</a> that is to be mapped to a type UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> that is to be mapped to a type UUID.
 
 
 ### -param *TypeUuid

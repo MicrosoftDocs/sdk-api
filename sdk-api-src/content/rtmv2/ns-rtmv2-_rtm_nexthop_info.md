@@ -4,7 +4,7 @@ title: "_RTM_NEXTHOP_INFO"
 author: windows-sdk-content
 description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
 old-location: rras\rtm_nexthop_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_NEXTHOP_INFO, *PRTM_NEXTHOP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_NEXTHOP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_NEXTHOP_INFO, *PRTM_NEXTHOP_INFO
+req.redist: 
 ---
 
 # _RTM_NEXTHOP_INFO structure

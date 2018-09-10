@@ -4,7 +4,7 @@ title: "_EC_SUBSCRIPTION_TYPE"
 author: windows-sdk-content
 description: Specifies the type of subscription to use (a source initiated or collector initiated subscription).
 old-location: wec\ec_subscription_type.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: b9906fd8-10d4-4bdd-97b9-fb1ae9d4c588
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_TYPE
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_TYPE enumeration

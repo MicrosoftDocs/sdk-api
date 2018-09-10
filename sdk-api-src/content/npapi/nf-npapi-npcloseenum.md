@@ -4,17 +4,16 @@ title: NPCloseEnum function
 author: windows-sdk-content
 description: Closes an enumeration.
 old-location: security\npcloseenum.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPCloseEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPCloseEnum function

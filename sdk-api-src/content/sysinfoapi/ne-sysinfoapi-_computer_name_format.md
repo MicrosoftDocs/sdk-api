@@ -4,7 +4,7 @@ title: "_COMPUTER_NAME_FORMAT"
 author: windows-sdk-content
 description: Specifies a type of computer name.
 old-location: base\computer_name_format_str.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 249830be-acd7-4417-ac33-c0fb2d87c4af
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMPUTER_NAME_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: COMPUTER_NAME_FORMAT
+req.redist: 
 ---
 
 # _COMPUTER_NAME_FORMAT enumeration

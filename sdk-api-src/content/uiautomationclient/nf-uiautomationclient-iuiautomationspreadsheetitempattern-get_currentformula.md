@@ -4,17 +4,16 @@ title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
 author: windows-sdk-content
 description: Retrieves the formula for this cell.
 old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: CBE97F32-9640-4093-9612-8751C4508563
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, IUIAutomationSpreadsheetItemPattern::CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CurrentFormula

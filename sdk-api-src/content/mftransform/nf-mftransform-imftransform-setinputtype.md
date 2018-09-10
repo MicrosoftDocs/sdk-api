@@ -4,17 +4,16 @@ title: IMFTransform::SetInputType
 author: windows-sdk-content
 description: Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_setinputtype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform interface [Media Foundation],SetInputType method, IMFTransform.SetInputType, IMFTransform::SetInputType, SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation],IMFTransform interface, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.SetInputType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::SetInputType

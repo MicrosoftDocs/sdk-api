@@ -4,17 +4,16 @@ title: IMFMediaEventQueue::QueueEventParamUnk
 author: windows-sdk-content
 description: Creates an event, sets an IUnknown pointer as the event data, and puts the event in the queue.
 old-location: mf\imfmediaeventqueue_queueeventparamunk.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e51653a4-8f71-44f3-90e8-2052db521307
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEventParamUnk method, IMFMediaEventQueue.QueueEventParamUnk, IMFMediaEventQueue::QueueEventParamUnk, QueueEventParamUnk, QueueEventParamUnk method [Media Foundation], QueueEventParamUnk method [Media Foundation],IMFMediaEventQueue interface, e51653a4-8f71-44f3-90e8-2052db521307, mf.imfmediaeventqueue_queueeventparamunk, mfobjects/IMFMediaEventQueue::QueueEventParamUnk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaEventQueue.QueueEventParamUnk
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEventQueue::QueueEventParamUnk

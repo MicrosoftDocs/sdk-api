@@ -4,7 +4,7 @@ title: "_SHARE_INFO_2"
 author: windows-sdk-content
 description: Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.
 old-location: fs\share_info_2_str.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: cd152ccd-cd60-455f-b25c-c4939c65e0ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_INFO_2, *PSHARE_INFO_2, *LPSHARE_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARE_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SHARE_INFO_2, *PSHARE_INFO_2, *LPSHARE_INFO_2
+req.redist: 
 ---
 
 # _SHARE_INFO_2 structure

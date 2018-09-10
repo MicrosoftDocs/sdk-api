@@ -4,17 +4,16 @@ title: IInkHostWorkItem::Invoke
 author: windows-sdk-content
 description: Executes the ink operation on an IInkDesktopHost object thread.
 old-location: input_ink\iinkhostworkitem_invoke.htm
-old-project: input_ink
+tech.root: input_ink
 ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
 ms.author: windowssdkdev
 ms.date: 07/16/2018
 ms.keywords: IInkHostWorkItem interface,Invoke method, IInkHostWorkItem.Invoke, IInkHostWorkItem::Invoke, InkPresenterDesktop.iinkhostworkitem_invoke, Invoke, Invoke method, Invoke method,IInkHostWorkItem interface, inkpresenterdesktop/IInkHostWorkItem::Invoke, input_ink.iinkhostworkitem_invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInkHostWorkItem.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkHostWorkItem::Invoke

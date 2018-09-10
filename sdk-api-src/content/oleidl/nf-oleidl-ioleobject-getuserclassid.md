@@ -4,17 +4,16 @@ title: IOleObject::GetUserClassID
 author: windows-sdk-content
 description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
 old-location: com\ioleobject_getuserclassid.htm
-old-project: com
+tech.root: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.GetUserClassID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::GetUserClassID

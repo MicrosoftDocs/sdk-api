@@ -4,17 +4,16 @@ title: IntToUChar function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: shell\IntToUChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 19bdf34e-49ae-4dff-bed7-fa6229c8aa1b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntToUChar, IntToUChar function [Windows Shell], _shell_IntToUChar, intsafe/IntToUChar, shell.IntToUChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntToUChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntToUChar function

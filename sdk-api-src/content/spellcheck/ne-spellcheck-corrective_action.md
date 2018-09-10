@@ -4,7 +4,7 @@ title: CORRECTIVE_ACTION
 author: windows-sdk-content
 description: Identifies the type of corrective action to be taken for a spelling error.
 old-location: intl\corrective_action.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 370CF89E-97BF-4AB5-8AD6-3B2DF08463E0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: SpatialInteractionManagerInterop.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CORRECTIVE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CORRECTIVE_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CORRECTIVE_ACTION
+req.redist: 
 ---
 
 # CORRECTIVE_ACTION enumeration

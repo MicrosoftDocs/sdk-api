@@ -4,17 +4,16 @@ title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology
 author: windows-sdk-content
 description: Returns a topology for a media source that builds an internal topology.
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSourceTopologyProvider::GetMediaSourceTopology

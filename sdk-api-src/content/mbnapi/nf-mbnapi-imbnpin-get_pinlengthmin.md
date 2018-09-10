@@ -4,17 +4,16 @@ title: IMbnPin::get_PinLengthMin
 author: windows-sdk-content
 description: The minimum length of the PIN.
 old-location: mbn\imbnpin_pinlengthmin.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 09cfbe04-cfc4-4942-a78b-f97ef40f0d2c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMin property, IMbnPin.PinLengthMin, IMbnPin.get_PinLengthMin, IMbnPin::PinLengthMin, IMbnPin::get_PinLengthMin, PinLengthMin property [Microsoft Broadband Networks], PinLengthMin property [Microsoft Broadband Networks],IMbnPin interface, get_PinLengthMin, mbn.imbnpin_pinlengthmin, mbnapi/IMbnPin::PinLengthMin, mbnapi/IMbnPin::get_PinLengthMin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnPin.get_PinLengthMin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPin::get_PinLengthMin

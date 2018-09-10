@@ -4,17 +4,16 @@ title: INameSpaceTreeControlCustomDraw::PostPaint
 author: windows-sdk-content
 description: Called after the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_PostPaint.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fe8cedc8-166d-4802-9d01-7c3991181618
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],PostPaint method, INameSpaceTreeControlCustomDraw.PostPaint, INameSpaceTreeControlCustomDraw::PostPaint, PostPaint, PostPaint method [Windows Shell], PostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_PostPaint, shell.INameSpaceTreeControlCustomDraw_PostPaint, shobjidl/INameSpaceTreeControlCustomDraw::PostPaint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlCustomDraw.PostPaint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlCustomDraw::PostPaint

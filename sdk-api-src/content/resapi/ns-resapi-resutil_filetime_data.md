@@ -4,7 +4,7 @@ title: RESUTIL_FILETIME_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESUTIL_FILETIME_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
+req.redist: 
 ---
 
 # RESUTIL_FILETIME_DATA structure

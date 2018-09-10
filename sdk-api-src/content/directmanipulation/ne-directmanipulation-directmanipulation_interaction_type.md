@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_INTERACTION_TYPE
 author: windows-sdk-content
 description: Defines gestures recognized by Direct Manipulation.
 old-location: directmanipulation\directmanipulation_interaction_type.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 5C1C79C2-3407-4FF3-986F-D9BF51983A46
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_INTERACTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_INTERACTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_INTERACTION_TYPE
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_INTERACTION_TYPE enumeration

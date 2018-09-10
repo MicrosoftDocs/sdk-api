@@ -4,17 +4,16 @@ title: CM_Set_DevNode_Property_ExW function
 author: windows-sdk-content
 description: The CM_Set_DevNode_Property_ExW function sets a device instance property.
 old-location: devinst\cm_set_devnode_property_exw.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: FB725245-DB20-4363-BEC0-D7C837BED78A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Set_DevNode_Property_ExW, CM_Set_DevNode_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Property_ExW, devinst.cm_set_devnode_property_exw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 10 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CM_Set_DevNode_Property_ExW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Set_DevNode_Property_ExW function

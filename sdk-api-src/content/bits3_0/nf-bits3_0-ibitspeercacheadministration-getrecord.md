@@ -4,17 +4,16 @@ title: IBitsPeerCacheAdministration::GetRecord
 author: windows-sdk-content
 description: Gets a record from the cache.
 old-location: bits\ibitspeercacheadministration_getrecord.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetRecord, GetRecord method [BITS], GetRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetRecord method, IBitsPeerCacheAdministration.GetRecord, IBitsPeerCacheAdministration::GetRecord, bits.ibitspeercacheadministration_getrecord, bits3_0/IBitsPeerCacheAdministration::GetRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheAdministration.GetRecord
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheAdministration::GetRecord

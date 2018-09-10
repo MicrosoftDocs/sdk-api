@@ -4,17 +4,16 @@ title: IBasicVideo::get_BitErrorRate
 author: windows-sdk-content
 description: The get_BitErrorRate method retrieves the approximate bit error rate of the video stream.
 old-location: dshow\ibasicvideo_get_biterrorrate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c61b8a96-83ea-49e2-884e-c9fb3526cc46
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitErrorRate method, IBasicVideo.get_BitErrorRate, IBasicVideo::get_BitErrorRate, IBasicVideoget_BitErrorRate, control/IBasicVideo::get_BitErrorRate, dshow.ibasicvideo_get_biterrorrate, get_BitErrorRate, get_BitErrorRate method [DirectShow], get_BitErrorRate method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_BitErrorRate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_BitErrorRate

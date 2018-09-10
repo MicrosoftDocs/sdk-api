@@ -4,17 +4,16 @@ title: RtlDeleteFunctionTable function
 author: windows-sdk-content
 description: Removes a dynamic function table from the dynamic function table list.
 old-location: base\rtldeletefunctiontable.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 42bc3d83-8053-40e9-b153-f68733d0cb2b
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: RtlDeleteFunctionTable, RtlDeleteFunctionTable function, base.rtldeletefunctiontable, winnt/RtlDeleteFunctionTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - RtlDeleteFunctionTable
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 

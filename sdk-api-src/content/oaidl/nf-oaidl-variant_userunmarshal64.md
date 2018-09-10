@@ -4,17 +4,16 @@ title: VARIANT_UserUnmarshal64 function
 author: windows-sdk-content
 description: Unmarshals a VARIANT object from the RPC buffer.
 old-location: automat\variant_userunmarshal64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: c4539285-20c2-4eda-acbc-1f1a80cad07b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VARIANT_UserUnmarshal64, VARIANT_UserUnmarshal64 function [Automation], automat.variant_userunmarshal64, oaidl/VARIANT_UserUnmarshal64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VARIANT_UserUnmarshal64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VARIANT_UserUnmarshal64 function

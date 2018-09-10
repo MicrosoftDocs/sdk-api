@@ -4,17 +4,16 @@ title: ImmRegisterWordA function
 author: windows-sdk-content
 description: Registers a string with the dictionary of the IME associated with the specified input locale.
 old-location: intl\immregisterword.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmRegisterWord, ImmRegisterWord function [Internationalization for Windows Applications], ImmRegisterWordA, ImmRegisterWordW, _win32_ImmRegisterWord, imm/ImmRegisterWord, imm/ImmRegisterWordA, imm/ImmRegisterWordW, intl.immregisterword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmRegisterWordW
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmRegisterWordA function

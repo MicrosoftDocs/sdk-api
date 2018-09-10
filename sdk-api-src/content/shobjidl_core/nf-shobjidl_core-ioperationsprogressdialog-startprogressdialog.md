@@ -4,17 +4,16 @@ title: IOperationsProgressDialog::StartProgressDialog
 author: windows-sdk-content
 description: Starts the specified progress dialog.
 old-location: shell\IOperationsProgressDialog_StartProgressDialog.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d6f44e0-259f-42d3-9912-877d90f0e7fc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StartProgressDialog method, IOperationsProgressDialog.StartProgressDialog, IOperationsProgressDialog::StartProgressDialog, OPPROGDLG_ALLOWUNDO, OPPROGDLG_DEFAULT, OPPROGDLG_DONTDISPLAYDESTPATH, OPPROGDLG_DONTDISPLAYLOCATIONS, OPPROGDLG_DONTDISPLAYSOURCEPATH, OPPROGDLG_ENABLEPAUSE, OPPROGDLG_NOMULTIDAYESTIMATES, PROGDLG_AUTOTIME, PROGDLG_MARQUEEPROGRESS, PROGDLG_MODAL, PROGDLG_NOCANCEL, PROGDLG_NOMINIMIZE, PROGDLG_NOPROGRESSBAR, PROGDLG_NORMAL, PROGDLG_NOTIME, StartProgressDialog, StartProgressDialog method [Windows Shell], StartProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StartProgressDialog, shell.IOperationsProgressDialog_StartProgressDialog, shobjidl_core/IOperationsProgressDialog::StartProgressDialog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOperationsProgressDialog.StartProgressDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOperationsProgressDialog::StartProgressDialog
@@ -69,7 +67,7 @@ A handle to the parent window.
 
 ### -param flags
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: "_RM_RECEIVER_STATS"
 author: windows-sdk-content
 description: Provides statistical information for a Reliable Multicast receiver session. This structure is used with the RM_RECEIVER_STATISTICS socket option.
 old-location: winsock\rm_receiver_stats.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WSManDisp.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_RECEIVER_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_RECEIVER_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RM_RECEIVER_STATS
+req.redist: 
 ---
 
 # _RM_RECEIVER_STATS structure

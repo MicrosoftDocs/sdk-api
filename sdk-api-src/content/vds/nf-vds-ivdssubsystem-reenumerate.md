@@ -4,17 +4,16 @@ title: IVdsSubSystem::Reenumerate
 author: windows-sdk-content
 description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 old-location: base\ivdssubsystem_reenumerate.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.Reenumerate
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::Reenumerate

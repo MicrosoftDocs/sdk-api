@@ -4,17 +4,16 @@ title: PathMakeSystemFolderW function
 author: windows-sdk-content
 description: Gives an existing folder the proper attributes to become a system folder.
 old-location: shell\PathMakeSystemFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PathMakeSystemFolderW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathMakeSystemFolderW function

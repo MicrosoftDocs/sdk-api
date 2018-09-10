@@ -4,17 +4,16 @@ title: Tbsi_Get_TCG_Log_Ex function
 author: windows-sdk-content
 description: Gets the Windows Boot Configuration Log (WBCL), also referred to as the TCG log, of the specified type.
 old-location: tbs\tbsi_get_tcg_log_ex.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: 7895D501-97A7-4813-B997-B7D8C6F7C0C6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TBS_TCGLOG_DRTM_CURRENT, TBS_TCGLOG_SRTM_BOOT, TBS_TCGLOG_SRTM_CURRENT, TBS_TCGLOG_SRTM_RESUME, Tbsi_Get_TCG_Log_Ex, Tbsi_Get_TCG_Log_Ex function [TBS], tbs.tbsi_get_tcg_log_ex, tbs/Tbsi_Get_TCG_Log_Ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_Get_TCG_Log_Ex
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_Get_TCG_Log_Ex function

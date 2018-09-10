@@ -4,7 +4,7 @@ title: "_FSCTL_QUERY_REGION_INFO_INPUT"
 author: windows-sdk-content
 description: Contains the storage tier regions from the storage stack for a particular volume.
 old-location: fs\fsctl_query_region_info_input.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FSCTL_QUERY_REGION_INFO_INPUT, *PFSCTL_QUERY_REGION_INFO_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FSCTL_QUERY_REGION_INFO_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FSCTL_QUERY_REGION_INFO_INPUT, *PFSCTL_QUERY_REGION_INFO_INPUT
+req.redist: 
 ---
 
 # _FSCTL_QUERY_REGION_INFO_INPUT structure

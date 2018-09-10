@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_syncregistration_0000_0007_0001"
 author: windows-sdk-content
 description: Represents the different types of synchronization registration events.
 old-location: winsync\sync_registration_event.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: c8fb3de0-0f2e-4926-b37f-3043fcc2efb3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Syncmgr.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNC_REGISTRATION_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNC_REGISTRATION_EVENT
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_syncregistration_0000_0007_0001 enumeration

@@ -4,17 +4,16 @@ title: IX509Enrollment::CreatePFX
 author: windows-sdk-content
 description: Creates a Personal Information Exchange (PFX) message.
 old-location: security\ix509enrollment_createpfx_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 4a51bea0-e7f8-4a4e-b612-95616b126466
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreatePFX, CreatePFX method [Security], CreatePFX method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CreatePFX method, IX509Enrollment.CreatePFX, IX509Enrollment::CreatePFX, certenroll/IX509Enrollment::CreatePFX, security.ix509enrollment_createpfx_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Enrollment.CreatePFX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::CreatePFX

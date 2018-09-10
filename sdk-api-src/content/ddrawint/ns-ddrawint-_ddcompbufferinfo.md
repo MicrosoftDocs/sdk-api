@@ -4,7 +4,7 @@ title: "_DDCOMPBUFFERINFO"
 author: windows-sdk-content
 description: The DDCOMPBUFFERINFO structure contains driver-supplied information regarding compression buffers.
 old-location: display\ddcompbufferinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 73dad759-499f-45b2-9345-4577deb01492
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCOMPBUFFERINFO, *LPDDCOMPBUFFERINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCOMPBUFFERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCOMPBUFFERINFO, *LPDDCOMPBUFFERINFO
+req.redist: 
 ---
 
 # _DDCOMPBUFFERINFO structure

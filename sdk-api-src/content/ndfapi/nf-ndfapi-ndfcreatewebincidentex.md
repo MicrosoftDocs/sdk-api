@@ -4,17 +4,16 @@ title: NdfCreateWebIncidentEx function
 author: windows-sdk-content
 description: Diagnoses web connectivity problems.
 old-location: ndf\ndfcreatewebincidentex.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: ba378672-7ec4-4a5c-a900-fb8486a15ba3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NdfCreateWebIncidentEx, NdfCreateWebIncidentEx function [NDF], ndf.ndfcreatewebincidentex, ndfapi/NdfCreateWebIncidentEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfCreateWebIncidentEx
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfCreateWebIncidentEx function

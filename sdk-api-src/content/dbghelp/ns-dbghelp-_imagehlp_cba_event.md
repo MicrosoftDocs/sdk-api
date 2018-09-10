@@ -4,7 +4,7 @@ title: "_IMAGEHLP_CBA_EVENT"
 author: windows-sdk-content
 description: Contains information about a debugging event.
 old-location: base\imagehlp_cba_event_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_CBA_EVENT, *PIMAGEHLP_CBA_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IMAGEHLP_CBA_EVENTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_CBA_EVENT, *PIMAGEHLP_CBA_EVENT
+req.redist: DbgHelp.dll 6.1 or later
 ---
 
 # _IMAGEHLP_CBA_EVENT structure

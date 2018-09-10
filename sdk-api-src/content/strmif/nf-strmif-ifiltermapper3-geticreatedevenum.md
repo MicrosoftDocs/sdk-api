@@ -4,17 +4,16 @@ title: IFilterMapper3::GetICreateDevEnum
 author: windows-sdk-content
 description: The GetICreateDevEnum method returns a pointer to the ICreateDevEnum interface. You can use the ICreateDevEnum interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFilterMapper3.GetICreateDevEnum
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterMapper3::GetICreateDevEnum

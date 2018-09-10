@@ -4,7 +4,7 @@ title: "_CLUSTER_CREATE_GROUP_INFO"
 author: windows-sdk-content
 description: Allows the caller to provide additional properties when creating a new group.
 old-location: mscs\cluster_create_group_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: DBF71DAA-B8F1-42BF-AC82-FAFA9ADE4C44
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: MsClus.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CREATE_GROUP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
+req.redist: 
 ---
 
 # _CLUSTER_CREATE_GROUP_INFO structure

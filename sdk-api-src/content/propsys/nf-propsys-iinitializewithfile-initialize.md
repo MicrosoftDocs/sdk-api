@@ -4,17 +4,16 @@ title: IInitializeWithFile::Initialize
 author: windows-sdk-content
 description: Initializes a handler with a file path.
 old-location: shell\IInitializeWithFile_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b7bb534-dff7-455b-baee-f573fb645cc3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IInitializeWithFile interface [Windows Shell],Initialize method, IInitializeWithFile.Initialize, IInitializeWithFile::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithFile interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithFile::Initialize, shell.IInitializeWithFile_Initialize, shell_IInitializeWithFile_Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInitializeWithFile.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInitializeWithFile::Initialize

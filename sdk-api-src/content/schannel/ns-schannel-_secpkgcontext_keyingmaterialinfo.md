@@ -4,7 +4,7 @@ title: "_SecPkgContext_KeyingMaterialInfo"
 author: windows-sdk-content
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecPkgContext_KeyingMaterialW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
+req.redist: 
 ---
 
 # _SecPkgContext_KeyingMaterialInfo structure

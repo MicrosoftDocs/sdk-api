@@ -4,17 +4,16 @@ title: MsiEnumComponentsExA function
 author: windows-sdk-content
 description: The MsiEnumComponentsEx function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language.
 old-location: setup\msienumcomponentsex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: c804cd64-7bb5-4dd1-aca2-94455cc99a15
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumComponentsEx, MsiEnumComponentsEx function [Setup API], MsiEnumComponentsExA, MsiEnumComponentsExW, NULL, User SID, msi/MsiEnumComponentsEx, msi/MsiEnumComponentsExA, msi/MsiEnumComponentsExW, s-1-1-0, setup.msienumcomponentsex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiEnumComponentsExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiEnumComponentsExA function

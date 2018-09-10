@@ -4,7 +4,7 @@ title: "_WINTRUST_DATA"
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to pass necessary information into the trust providers.
 old-location: security\wintrust_data.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINTRUST_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
+req.redist: 
 ---
 
 # _WINTRUST_DATA structure

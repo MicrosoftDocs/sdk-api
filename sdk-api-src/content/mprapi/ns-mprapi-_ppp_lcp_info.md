@@ -4,7 +4,7 @@ title: "_PPP_LCP_INFO"
 author: windows-sdk-content
 description: The PPP_LCP_INFO structure contains information that describes the results of an PPP Link Control Protocol (LCP) negotiation.
 old-location: rras\ppp_lcp_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: b6158047-6337-483f-9a90-74d578831772
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_LCP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_LCP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_LCP_INFO
+req.redist: 
 ---
 
 # _PPP_LCP_INFO structure

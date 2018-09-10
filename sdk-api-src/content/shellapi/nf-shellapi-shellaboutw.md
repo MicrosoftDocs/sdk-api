@@ -4,17 +4,16 @@ title: ShellAboutW function
 author: windows-sdk-content
 description: Displays a ShellAbout dialog box.
 old-location: shell\ShellAbout.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0919e356-84e8-475e-8628-23097b19c50d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ShellAbout, ShellAbout function [Windows Shell], ShellAboutA, ShellAboutW, _win32_ShellAbout, shell.ShellAbout, shellapi/ShellAbout, shellapi/ShellAboutA, shellapi/ShellAboutW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 3.51 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ShellAboutW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 3.51 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ShellAboutW function

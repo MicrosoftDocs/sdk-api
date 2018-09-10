@@ -4,17 +4,16 @@ title: SetWordList function
 author: windows-sdk-content
 description: Sets the word list for the current recognizer context to recognize.
 old-location: tablet\setwordlist.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9e067c22-772d-48d2-baae-abc8067efb09
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList function [Tablet PC], recapis/SetWordList, tablet.setwordlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetWordList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetWordList function

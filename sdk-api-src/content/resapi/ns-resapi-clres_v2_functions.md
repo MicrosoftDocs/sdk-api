@@ -4,7 +4,7 @@ title: CLRES_V2_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 2.0 entry points except StartupEx.
 old-location: mscs\clres_v2_functions.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLRES_V2_FUNCTIONS, *PCLRES_V2_FUNCTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLRES_V2_FUNCTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLRES_V2_FUNCTIONS, *PCLRES_V2_FUNCTIONS
+req.redist: 
 ---
 
 # CLRES_V2_FUNCTIONS structure

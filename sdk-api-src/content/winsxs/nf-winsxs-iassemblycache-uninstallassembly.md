@@ -4,17 +4,16 @@ title: IAssemblyCache::UninstallAssembly
 author: windows-sdk-content
 description: The UnistallAssembly method removes an application reference to an assembly from the side-by-side store.
 old-location: setup\iassemblycache_uninstallassembly.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: b492e93c-73f2-4d68-ae1a-c82e9ec36a72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IASSEMBLYCACHE_UNINSTALL_DISPOSITION_ALREADY_UNINSTALLED, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_DELETE_PENDING, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_HAS_INSTALL_REFERENCES, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_STILL_IN_USE, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_UNINSTALLED, IAssemblyCache interface [Side-by-side Assemblies],UninstallAssembly method, IAssemblyCache.UninstallAssembly, IAssemblyCache::UninstallAssembly, UninstallAssembly, UninstallAssembly method [Side-by-side Assemblies], UninstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_uninstallassembly, winsxs/IAssemblyCache::UninstallAssembly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyCache.UninstallAssembly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyCache::UninstallAssembly

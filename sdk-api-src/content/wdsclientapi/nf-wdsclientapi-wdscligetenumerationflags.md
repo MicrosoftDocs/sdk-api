@@ -4,17 +4,16 @@ title: WdsCliGetEnumerationFlags function
 author: windows-sdk-content
 description: Returns the image enumeration flag for the current image handle.
 old-location: wds\wdscligetenumerationflags.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 689ef310-c7e6-4ba0-9784-8cc8a8a43724
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliFlagEnumFilterVersion, WdsCliGetEnumerationFlags, WdsCliGetEnumerationFlags function [Windows Deployment Services], wds.wdscligetenumerationflags, wdsclientapi/WdsCliGetEnumerationFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: WdsClientAPI.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliGetEnumerationFlags
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliGetEnumerationFlags function

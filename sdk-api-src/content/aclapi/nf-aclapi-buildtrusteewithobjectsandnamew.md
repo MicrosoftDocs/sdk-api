@@ -4,17 +4,16 @@ title: BuildTrusteeWithObjectsAndNameW function
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure with the object-specific access control entry (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the name of the trustee.
 old-location: security\buildtrusteewithobjectsandname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BuildTrusteeWithObjectsAndNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BuildTrusteeWithObjectsAndNameW function

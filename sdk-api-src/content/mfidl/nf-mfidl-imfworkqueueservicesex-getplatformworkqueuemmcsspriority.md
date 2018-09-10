@@ -4,17 +4,16 @@ title: IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
 author: windows-sdk-content
 description: Gets the priority of the Multimedia Class Scheduler Service (MMCSS) priority associated with the specified platform work queue.
 old-location: mf\imfworkqueueservicesex_getplatformworkqueuemmcsspriority.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e9271439-8785-4743-9e6f-81342af117f8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetPlatformWorkQueueMMCSSPriority, GetPlatformWorkQueueMMCSSPriority method [Media Foundation], GetPlatformWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetPlatformWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority

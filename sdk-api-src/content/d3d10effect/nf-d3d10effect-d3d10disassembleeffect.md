@@ -4,17 +4,16 @@ title: D3D10DisassembleEffect function
 author: windows-sdk-content
 description: This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble10Effect.
 old-location: direct3d10\d3d10disassembleeffect.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleeffect.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 10ff0da2-3f88-22ec-7841-61c27051dfa6, D3D10DisassembleEffect, D3D10DisassembleEffect function [Direct3D 10], d3d10effect/D3D10DisassembleEffect, direct3d10.d3d10disassembleeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10DisassembleEffect
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10DisassembleEffect function

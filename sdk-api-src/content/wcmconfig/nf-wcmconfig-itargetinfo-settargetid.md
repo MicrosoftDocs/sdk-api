@@ -4,17 +4,16 @@ title: ITargetInfo::SetTargetID
 author: windows-sdk-content
 description: Sets the unique identifier associated with current target.
 old-location: smi\itargetinfo_settargetid.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTargetID, ITargetInfo::SetTargetID, SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI],ITargetInfo interface, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.SetTargetID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::SetTargetID

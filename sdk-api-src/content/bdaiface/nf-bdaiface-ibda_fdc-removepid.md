@@ -4,17 +4,16 @@ title: IBDA_FDC::RemovePid
 author: windows-sdk-content
 description: Removes one or more packet identifiers (PIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removepid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1277726c-6443-416c-a5d4-044d5f885af7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemovePid method, IBDA_FDC.RemovePid, IBDA_FDC::RemovePid, RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FDC.RemovePid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FDC::RemovePid

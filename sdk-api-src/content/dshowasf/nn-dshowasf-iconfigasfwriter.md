@@ -4,7 +4,7 @@ title: IConfigAsfWriter
 author: windows-sdk-content
 description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConfigAsfWriter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigAsfWriter interface

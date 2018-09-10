@@ -4,17 +4,16 @@ title: CertDeleteCRLFromStore function
 author: windows-sdk-content
 description: The CertDeleteCRLFromStore function deletes the specified certificate revocation list (CRL) context from the certificate store.
 old-location: security\certdeletecrlfromstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: eb542c25-8d2b-4427-8f2a-719b472613a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertDeleteCRLFromStore, CertDeleteCRLFromStore function [Security], _crypto2_certdeletecrlfromstore, security.certdeletecrlfromstore, wincrypt/CertDeleteCRLFromStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertDeleteCRLFromStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertDeleteCRLFromStore function

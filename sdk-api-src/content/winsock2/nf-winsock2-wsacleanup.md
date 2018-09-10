@@ -4,17 +4,16 @@ title: WSACleanup function
 author: windows-sdk-content
 description: The WSACleanup function terminates use of the WS2_32.dll.
 old-location: winsock\wsacleanup_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSACleanup
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSACleanup function

@@ -4,17 +4,16 @@ title: IEnumFullIDList::Next
 author: windows-sdk-content
 description: Retrieves a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Next method, IEnumFullIDList.Next, IEnumFullIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Next, shell.IEnumFullIDList_Next, shobjidl_core/IEnumFullIDList::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFullIDList.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFullIDList::Next

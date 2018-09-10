@@ -4,17 +4,16 @@ title: IWordBreaker::ComposePhrase
 author: windows-sdk-content
 description: Not supported.
 old-location: search\_search_IWordBreaker_ComposePhrase.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\composephrase.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method [search],IWordBreaker interface, IWordBreaker interface [search],ComposePhrase method, IWordBreaker.ComposePhrase, IWordBreaker::ComposePhrase, _search_IWordBreaker_ComposePhrase, indexsrv/IWordBreaker::ComposePhrase, search._search_IWordBreaker_ComposePhrase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
-req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWordBreaker.ComposePhrase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows NT 4.0 Option Pack
 ---
 
 # IWordBreaker::ComposePhrase
@@ -62,37 +60,37 @@ Not supported.
 
 ### -param pwcNoun
 
-
+TBD
 
 
 ### -param cwcNoun
 
-
+TBD
 
 
 ### -param pwcModifier
 
-
+TBD
 
 
 ### -param cwcModifier
 
-
+TBD
 
 
 ### -param ulAttachmentType
 
-
+TBD
 
 
 ### -param pwcPhrase
 
-
+TBD
 
 
 ### -param pcwcPhrase
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ICertEncodeLongArray::Encode
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the LONG array stored in this object.
 old-location: security\icertencodelongarray_encode.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: e2cf6e69-2431-4a97-86f1-9e1546aa6c08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeLongArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeLongArray object, Encode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Encode method, ICertEncodeLongArray.Encode, ICertEncodeLongArray::Encode, _certsrv_icertencodelongarray_encode, certenc/ICertEncodeLongArray::Encode, security.icertencodelongarray_encode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeLongArray.Encode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray::Encode
@@ -68,7 +67,7 @@ Before calling the <b>Encode</b> method, you must call the
 
 ### -param pstrBinary
 
-
+TBD
 
 
 

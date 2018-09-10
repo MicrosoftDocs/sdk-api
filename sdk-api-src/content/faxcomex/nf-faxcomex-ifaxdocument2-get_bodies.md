@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxDocument2.get_Bodies
 title: IFaxDocument2::get_Bodies
 author: windows-sdk-content
 description: Provides a collection of one or more documents to the fax document.
-old-location: fax\_mfax_faxdocument2_bodies_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_bodies_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\bodies.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Bodies property, FaxDocument.Bodies, IFaxDocument2.get_Bodies, IFaxDocument2::get_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_bodies_vb, get_Bodies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],IFaxDocument2 interface, IFaxDocument2 interface [Fax Service],Bodies property, IFaxDocument2.Bodies, IFaxDocument2.get_Bodies, IFaxDocument2::Bodies, IFaxDocument2::get_Bodies, IFaxDocument2::put_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_bodies_cpp, faxcomex/IFaxDocument2::Bodies, faxcomex/IFaxDocument2::get_Bodies, faxcomex/IFaxDocument2::put_Bodies, get_Bodies
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDocument.Bodies
+ - IFaxDocument2.Bodies
+ - IFaxDocument2.get_Bodies
+ - IFaxDocument2.put_Bodies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDocument2::get_Bodies
@@ -67,7 +67,7 @@ Provides a collection of one or more documents to the fax document.
 
 Examples of documents that you can send as fax bodies include text files (.txt), Microsoft Word documents (.doc), or Microsoft Excel spreadsheets (.xls). Filenames are separated with semi-colons ";". For example, "myfile.txt;anotherfile.doc".
 
-Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/1679d433-5a62-4e98-a083-f15ac9d4fb2d">Body</a> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/6a62e987-8853-41f0-b440-1571e761ac75">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/6adffb23-0a42-4846-b60d-dcdfc9ef63b6">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/61bf59fd-b921-4356-a3ab-4b83757cc346">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/50062e89-9e97-43aa-bb60-7ddf6448585d">Submit</a>. 
+Either the <b>IFaxDocument2::Bodies</b> property or the <a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a> property must be <b>NULL</b>. You must use <b>IFaxDocument2::Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/95d13f50-59fd-4f17-877e-83b51deb9b6c">IFaxDocument2::ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/63deca4c-a248-4f77-9cd6-6b1d845b6236">IFaxDocument2::Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/61bf59fd-b921-4356-a3ab-4b83757cc346">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/46dab8a7-157a-4869-b64e-2eebca19bdae">Submit</a>. 
 
 
 

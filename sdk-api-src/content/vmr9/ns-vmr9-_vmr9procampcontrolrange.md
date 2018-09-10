@@ -4,7 +4,7 @@ title: "_VMR9ProcAmpControlRange"
 author: windows-sdk-content
 description: The VMR9ProcAmpControlRange structure specifies the valid range for an image adjustment property. The range depends on the graphics device driver. This structure is used with the Video Mixing Renderer 9 Filter (VMR-9).
 old-location: dshow\vmr9procampcontrolrange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5fa61ed8-4fd6-42fb-8c5b-87d23e239cd1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9ProcAmpControlRange
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9ProcAmpControlRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9ProcAmpControlRange
+req.redist: 
 ---
 
 # _VMR9ProcAmpControlRange structure

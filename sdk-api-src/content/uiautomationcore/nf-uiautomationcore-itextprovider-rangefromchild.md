@@ -4,17 +4,16 @@ title: ITextProvider::RangeFromChild
 author: windows-sdk-content
 description: Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object.
 old-location: winauto\uiauto_ITextProvider_RangeFromChild.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: b55ae687-44e1-499f-8341-0bbf960529fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromChild method, ITextProvider.RangeFromChild, ITextProvider::RangeFromChild, RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromChild, uiauto_ITextProvider_RangeFromChild, uiautomationcore/ITextProvider::RangeFromChild, winauto.uiauto_ITextProvider_RangeFromChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextProvider.RangeFromChild
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextProvider::RangeFromChild

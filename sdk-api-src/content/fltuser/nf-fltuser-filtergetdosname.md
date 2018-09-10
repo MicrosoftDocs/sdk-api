@@ -4,17 +4,16 @@ title: FilterGetDosName function
 author: windows-sdk-content
 description: The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.
 old-location: ifsk\filtergetdosname.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f7c14e1f-c57f-4780-9936-3a47a4c0ca12
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterGetDosName, FilterGetDosName function [Installable File System Drivers], FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml, fltuser/FilterGetDosName, ifsk.filtergetdosname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterGetDosName
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterGetDosName function

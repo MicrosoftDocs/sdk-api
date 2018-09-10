@@ -4,17 +4,16 @@ title: IAMLine21Decoder::SetDrawBackgroundMode
 author: windows-sdk-content
 description: The SetDrawBackgroundMode method specifies whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 old-location: dshow\iamline21decoder_setdrawbackgroundmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 56301cc2-8f27-4530-bb6e-9909eb5bb390
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMLine21Decoder.SetDrawBackgroundMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMLine21Decoder::SetDrawBackgroundMode

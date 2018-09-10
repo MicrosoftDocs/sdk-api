@@ -4,17 +4,16 @@ title: IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension
 author: windows-sdk-content
 description: Creates an instance of IMFMediaSourceExtension.
 old-location: mf\imfmediaengineclassfactoryex_createmediasourceextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a76bae3-0b7e-49fe-ab5d-bfb32d029d60
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateMediaSourceExtension, CreateMediaSourceExtension method [Media Foundation], CreateMediaSourceExtension method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaSourceExtension method, IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension, IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension, mf.imfmediaengineclassfactoryex_createmediasourceextension, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineClassFactoryEx.CreateMediaSourceExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineClassFactoryEx::CreateMediaSourceExtension

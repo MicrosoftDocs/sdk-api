@@ -4,17 +4,16 @@ title: ComDBOpen function
 author: windows-sdk-content
 description: ComDBOpen returns a handle to the COM port database.
 old-location: serports\comdbopen.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 6ae22de0-b71e-441d-af12-8518a3f474e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml, msports/ComDBOpen, serports.comdbopen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBOpen
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBOpen function

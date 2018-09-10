@@ -4,17 +4,16 @@ title: IMoniker::RelativePathTo
 author: windows-sdk-content
 description: Creates a relative moniker between this moniker and the specified moniker.
 old-location: com\imoniker_relativepathto.htm
-old-project: com
+tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.RelativePathTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::RelativePathTo

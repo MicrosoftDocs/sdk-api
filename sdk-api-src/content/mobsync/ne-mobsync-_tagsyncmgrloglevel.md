@@ -4,7 +4,7 @@ title: "_tagSYNCMGRLOGLEVEL"
 author: windows-sdk-content
 description: The SYNCMGRLOGLEVEL enumeration values specify an error level for use in the ISyncMgrSynchronizeCallback::LogError method.
 old-location: shell\syncmgr_syncmgrloglevel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: df3c3300-e203-4664-b8d5-9dc4835b33d8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRLOGLEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRLOGLEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRLOGLEVEL
+req.redist: 
 ---
 
 # _tagSYNCMGRLOGLEVEL enumeration

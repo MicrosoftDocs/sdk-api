@@ -4,7 +4,7 @@ title: "_AM_LINE21_CCLEVEL"
 author: windows-sdk-content
 description: Indicates the closed caption decoder level.
 old-location: dshow\am_line21_cclevel.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ffdedab0-9a47-4599-86c2-07f90d4d87ff
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Iketypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_CCLEVEL, *PAM_LINE21_CCLEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_LINE21_CCLEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_LINE21_CCLEVEL, *PAM_LINE21_CCLEVEL
+req.redist: 
 ---
 
 # _AM_LINE21_CCLEVEL enumeration

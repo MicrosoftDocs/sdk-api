@@ -4,17 +4,16 @@ title: SetShellNext function
 author: windows-sdk-content
 description: Sets the ShellNext registry key with the specified value.
 old-location: winprog\setshellnext.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icwcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Inetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetShellNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Inetcfg.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetShellNext function

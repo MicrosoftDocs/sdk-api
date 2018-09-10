@@ -4,17 +4,16 @@ title: GetPwrDiskSpindownRange function
 author: windows-sdk-content
 description: Retrieves the disk spindown range.
 old-location: base\getpwrdiskspindownrange.htm
-old-project: power
+tech.root: power
 ms.assetid: c56f679d-512a-4bf9-89dc-8905bba8c6ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPwrDiskSpindownRange, GetPwrDiskSpindownRange function, _win32_getpwrdiskspindownrange, base.getpwrdiskspindownrange, powrprof/GetPwrDiskSpindownRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetPwrDiskSpindownRange
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetPwrDiskSpindownRange function

@@ -4,7 +4,7 @@ title: QOS_SERVICE_LEVEL
 author: windows-sdk-content
 description: The QOS_SERVICE_LEVEL enum is used by the ITBasicCallControl::SetQOS method to indicate quality of service requirements for a call.
 old-location: tapi3\qos_service_level.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8b0a93ab-6445-4c60-9d27-552c355c1355
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_SERVICE_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_SERVICE_LEVEL
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: QOS_SERVICE_LEVEL
+req.redist: 
 ---
 
 # QOS_SERVICE_LEVEL enumeration

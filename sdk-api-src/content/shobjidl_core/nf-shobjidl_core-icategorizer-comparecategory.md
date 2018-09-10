@@ -4,17 +4,16 @@ title: ICategorizer::CompareCategory
 author: windows-sdk-content
 description: Determines the relative order of two items in their item identifier lists, and hence in the UI.
 old-location: shell\ICategorizer_CompareCategory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategorizer.CompareCategory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategorizer::CompareCategory

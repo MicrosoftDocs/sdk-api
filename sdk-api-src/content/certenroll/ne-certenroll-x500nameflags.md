@@ -4,7 +4,7 @@ title: X500NameFlags
 author: windows-sdk-content
 description: Specifies the display and encoding characteristics of a distinguished name or relative distinguished name (RDN).
 old-location: security\x500nameflags_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 8961f21c-1aab-4bbf-a696-e5bc0f37724a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X500NameFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X500NameFlags
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X500NameFlags
+req.redist: 
 ---
 
 # X500NameFlags enumeration

@@ -4,17 +4,16 @@ title: CryptReleaseContext function
 author: windows-sdk-content
 description: Releases the handle of a cryptographic service provider (CSP) and a key container.
 old-location: security\cryptreleasecontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptReleaseContext, CryptReleaseContext function [Security], _crypto2_cryptreleasecontext, security.cryptreleasecontext, wincrypt/CryptReleaseContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptReleaseContext
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptReleaseContext function

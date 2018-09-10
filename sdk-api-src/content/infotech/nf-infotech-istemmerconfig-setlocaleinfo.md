@@ -4,17 +4,16 @@ title: IStemmerConfig::SetLocaleInfo
 author: windows-sdk-content
 description: Sets locale information for the stemmer.
 old-location: htmlhelp\istemmerconfig_setlocaleinfo.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfigsetlocaleinfo.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IStemmerConfig interface [HTML Help Workshop],SetLocaleInfo method, IStemmerConfig.SetLocaleInfo, IStemmerConfig::SetLocaleInfo, SetLocaleInfo, SetLocaleInfo method [HTML Help Workshop], SetLocaleInfo method [HTML Help Workshop],IStemmerConfig interface, htmlhelp.istemmerconfig_setlocaleinfo, infotech/IStemmerConfig::SetLocaleInfo, refIStemmerConfigSetLocaleInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStemmerConfig.SetLocaleInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStemmerConfig::SetLocaleInfo

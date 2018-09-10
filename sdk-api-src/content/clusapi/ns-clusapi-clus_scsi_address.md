@@ -4,7 +4,7 @@ title: CLUS_SCSI_ADDRESS
 author: windows-sdk-content
 description: Contains SCSI address data. It is used as the data member of a CLUSPROP_SCSI_ADDRESS structure and as the return value of some control code operations.
 old-location: mscs\clus_scsi_address.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 05a640c7-16b4-4394-b22f-a78ab1dfab77
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_SCSI_ADDRESS, *PCLUS_SCSI_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_SCSI_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_SCSI_ADDRESS, *PCLUS_SCSI_ADDRESS
+req.redist: 
 ---
 
 # CLUS_SCSI_ADDRESS structure

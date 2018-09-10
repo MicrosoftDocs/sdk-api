@@ -4,17 +4,16 @@ title: IObjectCollection::AddFromArray
 author: windows-sdk-content
 description: Adds the objects contained in an IObjectArray to the collection.
 old-location: shell\IObjectCollection_AddFromArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fc51b2e0-a5e0-4440-a279-e94640b5dda7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddFromArray, AddFromArray method [Windows Shell], AddFromArray method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddFromArray method, IObjectCollection.AddFromArray, IObjectCollection::AddFromArray, _shell_IObjectCollection_AddFromArray, objectarray/IObjectCollection::AddFromArray, shell.IObjectCollection_AddFromArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objectarray.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectCollection.AddFromArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectCollection::AddFromArray

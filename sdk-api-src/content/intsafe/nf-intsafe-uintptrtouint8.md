@@ -4,17 +4,16 @@ title: UIntPtrToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type UINT8.
 old-location: shell\UIntPtrToUInt8.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5490bca2-52c8-4e98-a2ac-137aa7c423de
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UIntPtrToUInt8, UIntPtrToUInt8 function [Windows Shell], intsafe/UIntPtrToUInt8, shell.UIntPtrToUInt8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntPtrToUInt8
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntPtrToUInt8 function

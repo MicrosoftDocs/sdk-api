@@ -4,17 +4,16 @@ title: NdrMesProcEncodeDecode2 function
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode2 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode2.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: A2FA0E3A-C038-42AB-9341-CC2D781743BE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrMesProcEncodeDecode2, NdrMesProcEncodeDecode2 function [RPC], midles/NdrMesProcEncodeDecode2, rpc.ndrmesprocencodedecode2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: midles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrMesProcEncodeDecode2
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NdrMesProcEncodeDecode2 function

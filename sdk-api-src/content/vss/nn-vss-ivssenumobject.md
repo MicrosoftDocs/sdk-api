@@ -4,7 +4,7 @@ title: IVssEnumObject
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssEnumObject
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumObject interface

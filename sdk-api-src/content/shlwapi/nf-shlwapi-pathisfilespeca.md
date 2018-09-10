@@ -4,17 +4,16 @@ title: PathIsFileSpecA function
 author: windows-sdk-content
 description: Searches a path for any path-delimiting characters (for example, ':' or '\' ). If there are no path-delimiting characters present, the path is considered to be a File Spec path.
 old-location: shell\PathIsFileSpec.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c69d6cca-44e7-4792-8fb2-3c4ecd2e57f2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathIsFileSpec, PathIsFileSpec function [Windows Shell], PathIsFileSpecA, PathIsFileSpecW, _win32_PathIsFileSpec, shell.PathIsFileSpec, shlwapi/PathIsFileSpec, shlwapi/PathIsFileSpecA, shlwapi/PathIsFileSpecW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathIsFileSpecW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathIsFileSpecA function

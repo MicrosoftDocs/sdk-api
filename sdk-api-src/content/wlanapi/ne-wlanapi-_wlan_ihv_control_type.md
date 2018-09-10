@@ -4,7 +4,7 @@ title: "_WLAN_IHV_CONTROL_TYPE"
 author: windows-sdk-content
 description: Specifies the type of software bypassed by a vendor-specific method.
 old-location: nwifi\wlan_ihv_control_type.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: a2f147e7-3008-448a-8f79-bb4428b6a678
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_IHV_CONTROL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE
+req.redist: 
 ---
 
 # _WLAN_IHV_CONTROL_TYPE enumeration

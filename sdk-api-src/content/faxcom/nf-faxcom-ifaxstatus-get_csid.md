@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_Csid
 title: IFaxStatus::get_Csid
 author: windows-sdk-content
 description: Retrieves the Csid property for the FaxStatus object of a parent FaxPort object. The Csid property is a string that contains called station identifier (CSID) information, typically the fax number of the receiving device.
-old-location: fax\_mfax_ifaxstatus_get_csid_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6k2s.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Csid property [Fax Service], Csid property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],Csid property, FaxStatus.Csid, IFaxStatus.get_Csid, IFaxStatus::get_Csid, _mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_get_csid_vb, get_Csid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Csid property, IFaxStatus.Csid, IFaxStatus.get_Csid, IFaxStatus::Csid, IFaxStatus::get_Csid, _mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_get_csid, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp, faxcom/IFaxStatus::Csid, faxcom/IFaxStatus::get_Csid, get_Csid
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.Csid
+ - IFaxStatus.Csid
+ - IFaxStatus.get_Csid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_Csid
@@ -81,10 +80,6 @@ The <b>IFaxStatus::get_Csid</b> method allocates the memory required for the buf
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/ce382d4d-aeaf-4254-9bc7-74b7d1d7f1a4">FaxStatus</a>
 
 
 

@@ -4,7 +4,7 @@ title: "_NTMS_STORAGESLOTINFORMATION"
 author: windows-sdk-content
 description: The NTMS_STORAGESLOTINFORMATION structure defines properties specific to a storage slot object.
 old-location: fs\ntms_storageslotinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 95b9d2e9-ddf3-459f-b9de-cefc15adb419
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_STORAGESLOTINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_STORAGEINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_STORAGESLOTINFORMATION
+req.redist: 
 ---
 
 # _NTMS_STORAGESLOTINFORMATION structure

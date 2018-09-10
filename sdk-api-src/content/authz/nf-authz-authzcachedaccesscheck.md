@@ -4,17 +4,16 @@ title: AuthzCachedAccessCheck function
 author: windows-sdk-content
 description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.
 old-location: security\authzcachedaccesscheck.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AuthzCachedAccessCheck
 product: Windows
 targetos: Windows
-req.lib: Authz.lib
-req.dll: Authz.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # AuthzCachedAccessCheck function

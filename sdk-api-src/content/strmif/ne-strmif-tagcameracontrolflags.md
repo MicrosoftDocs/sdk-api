@@ -4,7 +4,7 @@ title: tagCameraControlFlags
 author: windows-sdk-content
 description: The CameraControlFlags enumeration defines whether a camera setting is controlled manually or automatically.
 old-location: dshow\cameracontrolflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 806322e7-9a70-4dc1-8b10-2479fb3ec935
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CameraControlFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CameraControlFlags
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CameraControlFlags
+req.redist: 
 ---
 
 # tagCameraControlFlags enumeration

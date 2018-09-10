@@ -4,7 +4,7 @@ title: "_WS_TCP_BINDING_TEMPLATE"
 author: windows-sdk-content
 description: TCP template structure to be filled in by application for TCP binding.
 old-location: wsw\ws_tcp_binding_template.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 5003f405-38f9-439f-87d0-411a3b02218d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_TCP_BINDING_TEMPLATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_TCP_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_TCP_BINDING_TEMPLATE
+req.redist: 
 ---
 
 # _WS_TCP_BINDING_TEMPLATE structure

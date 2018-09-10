@@ -4,7 +4,7 @@ title: "_WINBIO_ADAPTER_INTERFACE_VERSION"
 author: windows-sdk-content
 description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
 old-location: secbiomet\winbio_adapter_interface_version.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_ADAPTER_INTERFACE_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
+req.redist: 
 ---
 
 # _WINBIO_ADAPTER_INTERFACE_VERSION structure

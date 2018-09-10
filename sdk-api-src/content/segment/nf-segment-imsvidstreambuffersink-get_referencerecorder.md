@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSink::get_ReferenceRecorder
 author: windows-sdk-content
 description: The get_ReferenceRecorder method creates a new reference recording object.
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSink.get_ReferenceRecorder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSink::get_ReferenceRecorder

@@ -4,17 +4,16 @@ title: TCOMPfromLZXWindow macro
 author: windows-sdk-content
 description: The TCOMPfromLZXWindow macro converts window size into an LXZTCOMP value for FCIAddFile.
 old-location: winprog\tcompfromlzxwindow.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi_fci_types.h
 req.include-header: Fci.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCOMPfromLZXWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # TCOMPfromLZXWindow macro

@@ -4,17 +4,16 @@ title: Header_EditFilter macro
 author: windows-sdk-content
 description: Moves the input focus to the edit box when a filter button has the focus.
 old-location: controls\Header_EditFilter.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FALSE, Header_EditFilter, Header_EditFilter macro [Windows Controls], TRUE, _win32_Header_EditFilter, _win32_Header_EditFilter_cpp, commctrl/Header_EditFilter, controls.Header_EditFilter, controls._win32_Header_EditFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Header_EditFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Header_EditFilter macro

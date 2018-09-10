@@ -4,17 +4,16 @@ title: GetDCEx function
 author: windows-sdk-content
 description: The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
 old-location: gdi\getdcex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 590cf928-0ad6-43f8-97e9-1dafbcfa9f49
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DCX_CACHE, DCX_CLIPCHILDREN, DCX_CLIPSIBLINGS, DCX_EXCLUDERGN, DCX_INTERSECTRGN, DCX_INTERSECTUPDATE, DCX_LOCKWINDOWUPDATE, DCX_NORESETATTRS, DCX_PARENTCLIP, DCX_VALIDATE, DCX_WINDOW, GetDCEx, GetDCEx function [Windows GDI], _win32_GetDCEx, gdi.getdcex, winuser/GetDCEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetDCEx
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetDCEx function

@@ -4,17 +4,16 @@ title: ILGetSize function
 author: windows-sdk-content
 description: Returns the size, in bytes, of an ITEMIDLIST structure.
 old-location: shell\ILGetSize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 099d4139-b0ea-42b7-991b-ee04e40994c6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ILGetSize, ILGetSize function [Windows Shell], _win32_ILGetSize, shell.ILGetSize, shlobj_core/ILGetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ILGetSize
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILGetSize function

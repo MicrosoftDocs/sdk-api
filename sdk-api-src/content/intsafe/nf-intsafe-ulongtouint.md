@@ -4,17 +4,16 @@ title: ULongToUInt function
 author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type UINT.
 old-location: shell\ULongToUInt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f3e11789-9fea-41f6-9d96-ac0a7e267e7e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DWordToUInt, ULongToUInt, ULongToUInt function [Windows Shell], _shell_ULongToUInt, intsafe/ULongToUInt, shell.ULongToUInt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ULongToUInt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ULongToUInt function

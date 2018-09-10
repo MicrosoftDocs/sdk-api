@@ -4,17 +4,16 @@ title: IMetaDataTables::GetNextBlob
 author: windows-sdk-content
 description: Gets the index of the next binary large object (BLOB) in the table.
 old-location: winrt\imetadatatables_getnextblob.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: f70e5377-4cc1-4066-acc2-bb13f336881b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNextBlob, GetNextBlob method [Windows Runtime], GetNextBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextBlob method, IMetaDataTables.GetNextBlob, IMetaDataTables::GetNextBlob, rometadataapi/IMetaDataTables::GetNextBlob, winrt.imetadatatables_getnextblob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetNextBlob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetNextBlob

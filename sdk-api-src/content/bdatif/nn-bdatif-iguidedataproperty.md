@@ -4,7 +4,7 @@ title: IGuideDataProperty
 author: windows-sdk-content
 description: The IGuideDataProperty interface represents the name, value, and language of a property associated with a service, program or schedule entry object.
 old-location: mstv\iguidedataproperty.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1c614f2a-69e0-4100-b83e-740478654c17
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataProperty interface

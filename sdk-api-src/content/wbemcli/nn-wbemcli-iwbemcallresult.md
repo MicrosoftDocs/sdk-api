@@ -4,7 +4,7 @@ title: IWbemCallResult
 author: windows-sdk-content
 description: Used for semisynchronous calls of the IWbemServices interface. When making such calls, the called IWbemServices method returns immediately, along with an IWbemCallResult object.
 old-location: wmi\iwbemcallresult.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f0aa0233-3b9b-4757-bfdc-26d9fd556ce9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemCallResult
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemCallResult interface

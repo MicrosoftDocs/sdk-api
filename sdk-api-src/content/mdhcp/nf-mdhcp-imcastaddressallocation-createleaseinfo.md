@@ -4,17 +4,16 @@ title: IMcastAddressAllocation::CreateLeaseInfo
 author: windows-sdk-content
 description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
 old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateLeaseInfo, CreateLeaseInfo method [TAPI 2.2], CreateLeaseInfo method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfo method, IMcastAddressAllocation.CreateLeaseInfo, IMcastAddressAllocation::CreateLeaseInfo, _tapi3_imcastaddressallocation_createleaseinfo, mdhcp/IMcastAddressAllocation::CreateLeaseInfo, tapi3.imcastaddressallocation_createleaseinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastAddressAllocation.CreateLeaseInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastAddressAllocation::CreateLeaseInfo

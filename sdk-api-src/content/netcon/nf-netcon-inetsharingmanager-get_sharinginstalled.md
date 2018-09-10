@@ -4,17 +4,16 @@ title: INetSharingManager::get_SharingInstalled
 author: windows-sdk-content
 description: Reports whether the currently-installed version of Windows XP supports connection sharing.
 old-location: ics\inetsharingmanager_get_sharinginstalled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 7cf705dd-41c3-4ac7-a75f-5677a7b49645
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingManager.get_SharingInstalled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingManager::get_SharingInstalled

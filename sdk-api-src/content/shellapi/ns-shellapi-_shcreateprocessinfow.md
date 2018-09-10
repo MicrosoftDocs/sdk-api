@@ -4,7 +4,7 @@ title: "_SHCREATEPROCESSINFOW"
 author: windows-sdk-content
 description: Contains the information needed by SHCreateProcessAsUserW to create a process.
 old-location: shell\SHCREATEPROCESSINFOW_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCREATEPROCESSINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
+req.redist: 
 ---
 
 # _SHCREATEPROCESSINFOW structure

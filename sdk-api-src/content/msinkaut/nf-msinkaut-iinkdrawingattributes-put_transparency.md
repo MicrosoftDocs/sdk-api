@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::put_Transparency
 author: windows-sdk-content
 description: Gets or sets a value that indicates the transparency value of ink.
 old-location: tablet\inkdrawingattributes_transparency.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e1537635-3457-429e-bb72-33eb4a2ea3da
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],Transparency property, IInkDrawingAttributes.Transparency, IInkDrawingAttributes.put_Transparency, IInkDrawingAttributes::Transparency, IInkDrawingAttributes::get_Transparency, IInkDrawingAttributes::put_Transparency, InkDrawingAttributes.get_Transparency, InkDrawingAttributes.put_Transparency, Transparency property [Tablet PC], Transparency property [Tablet PC],IInkDrawingAttributes interface, e1537635-3457-429e-bb72-33eb4a2ea3da, get_Transparency, msinkaut/IInkDrawingAttributes::Transparency, msinkaut/IInkDrawingAttributes::get_Transparency, msinkaut/IInkDrawingAttributes::put_Transparency, put_Transparency, tablet.inkdrawingattributes_transparency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_Transparency
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::put_Transparency

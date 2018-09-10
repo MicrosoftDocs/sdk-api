@@ -4,7 +4,7 @@ title: "_WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE"
 author: windows-sdk-content
 description: The security binding template for specifying the use of the Kerberos AP_REQ ticket as a direct (i.e., without establishing a session) security token with WS-Security.
 old-location: wsw\ws_kerberos_apreq_message_security_binding_template.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7dabbc5e-2953-43dc-8ee9-e4ac3114c85a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
+req.redist: 
 ---
 
 # _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE structure

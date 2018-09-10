@@ -4,7 +4,7 @@ title: "_CRYPT_PROVUI_DATA"
 author: windows-sdk-content
 description: Provides user interface (UI) data for a provider. This structure is used by the CRYPT_PROVUI_FUNCS structure.
 old-location: security\crypt_provui_data.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 86f819f0-c243-45ba-8b7b-97ed906e6e8a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVUI_DATA, *PCRYPT_PROVUI_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PROVUI_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_PROVUI_DATA, *PCRYPT_PROVUI_DATA
+req.redist: 
 ---
 
 # _CRYPT_PROVUI_DATA structure

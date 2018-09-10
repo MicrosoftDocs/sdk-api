@@ -4,17 +4,16 @@ title: CreateWriter function
 author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriter.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateWriter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CreateWriter function

@@ -4,17 +4,16 @@ title: IOleInPlaceUIWindow::SetActiveObject
 author: windows-sdk-content
 description: Provides a direct channel of communication between the object and each of the frame and document windows.
 old-location: com\ioleinplaceuiwindow_setactiveobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceUIWindow.SetActiveObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceUIWindow::SetActiveObject

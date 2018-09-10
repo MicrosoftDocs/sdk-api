@@ -4,17 +4,16 @@ title: ITransferSource::OpenItem
 author: windows-sdk-content
 description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
 old-location: shell\ITransferSource_OpenItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.OpenItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::OpenItem
@@ -69,7 +67,7 @@ A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a87
 
 ### -param flags
 
-
+TBD
 
 
 ### -param riid [out]

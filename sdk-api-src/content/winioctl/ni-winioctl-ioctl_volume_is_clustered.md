@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_IS_CLUSTERED
 author: windows-sdk-content
 description: Determines whether the specified volume is clustered.
 old-location: fs\ioctl_volume_is_clustered.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 3722b08c-237d-4551-b75e-1d28fe8e94c3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_VOLUME_IS_CLUSTERED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_VOLUME_IS_CLUSTERED IOCTL

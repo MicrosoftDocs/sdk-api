@@ -4,7 +4,7 @@ title: "_WS_RSA_ENDPOINT_IDENTITY"
 author: windows-sdk-content
 description: Type for RSA endpoint identity.
 old-location: wsw\ws_rsa_endpoint_identity.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1d562eee-b30b-4dce-88d3-9387c0ce2dd1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_RSA_ENDPOINT_IDENTITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_RSA_ENDPOINT_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_RSA_ENDPOINT_IDENTITY
+req.redist: 
 ---
 
 # _WS_RSA_ENDPOINT_IDENTITY structure

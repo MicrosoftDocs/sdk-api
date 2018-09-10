@@ -4,17 +4,16 @@ title: MgmGetFirstMfeStats function
 author: windows-sdk-content
 description: The MgmGetFirstMfeStats function retrieves MFE statistics starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfestats.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: b546c1a6-31a7-4053-9494-6903faa4df52
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetFirstMfeStats, MgmGetFirstMfeStats function [RAS], _mpr_mgmgetfirstmfestats, mgm/MgmGetFirstMfeStats, rras.mgmgetfirstmfestats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmGetFirstMfeStats
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmGetFirstMfeStats function

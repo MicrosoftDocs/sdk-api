@@ -4,17 +4,16 @@ title: IOleAdviseHolder::SendOnRename
 author: windows-sdk-content
 description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
 old-location: com\ioleadviseholder_sendonrename.htm
-old-project: com
+tech.root: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnRename method, IOleAdviseHolder.SendOnRename, IOleAdviseHolder::SendOnRename, SendOnRename, SendOnRename method [COM], SendOnRename method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonrename, com.ioleadviseholder_sendonrename, oleidl/IOleAdviseHolder::SendOnRename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleAdviseHolder.SendOnRename
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleAdviseHolder::SendOnRename

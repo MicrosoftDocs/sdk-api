@@ -4,7 +4,7 @@ title: "_DEVHTINFO"
 author: windows-sdk-content
 description: The DEVHTINFO structure is used as input to the HTUI_DeviceColorAdjustment function.
 old-location: display\devhtinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 81abebbf-97f2-422f-b0ab-f6f920e09fef
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVHTINFO, *PDEVHTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVHTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DEVHTINFO, *PDEVHTINFO
+req.redist: 
 ---
 
 # _DEVHTINFO structure

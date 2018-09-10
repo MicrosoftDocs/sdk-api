@@ -4,17 +4,16 @@ title: IVisualTreeService2::GetProperty
 author: windows-sdk-content
 description: Gets the effective value of the specified dependency property.
 old-location: xaml_diagnostics\ivisualtreeservice2_getproperty.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetProperty method, IVisualTreeService2.GetProperty, IVisualTreeService2::GetProperty, xaml_diagnostics.ivisualtreeservice2_getproperty, xamlom/IVisualTreeService2::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService2.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService2::GetProperty

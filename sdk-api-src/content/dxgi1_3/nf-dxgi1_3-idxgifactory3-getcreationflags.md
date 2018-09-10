@@ -4,17 +4,16 @@ title: IDXGIFactory3::GetCreationFlags
 author: windows-sdk-content
 description: Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
 old-location: direct3ddxgi\idxgifactory3_getcreationflags.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method [DXGI], GetCreationFlags method [DXGI],IDXGIFactory3 interface, IDXGIFactory3 interface [DXGI],GetCreationFlags method, IDXGIFactory3.GetCreationFlags, IDXGIFactory3::GetCreationFlags, direct3ddxgi.idxgifactory3_getcreationflags, dxgi1_3/IDXGIFactory3::GetCreationFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIFactory3.GetCreationFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory3::GetCreationFlags

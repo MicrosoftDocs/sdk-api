@@ -4,17 +4,16 @@ title: IVdsIscsiPortal::SetStatus
 author: windows-sdk-content
 description: Sets the status of a portal to the specified value.
 old-location: base\ivdsiscsiportal_setstatus.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 6c63fa36-bccb-4731-999a-c6f8b565b38f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortal.SetStatus
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortal::SetStatus

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_AreaCode
 title: IFaxOutboundRoutingRule::get_AreaCode
 author: windows-sdk-content
-description: The AreaCode property specifies the area code to which the outbound routing rule applies.
-old-location: fax\_mfax_faxoutboundroutingrule_areacode_vb.htm
-old-project: Fax
+description: The IFaxOutboundRoutingRule::get_AreaCode property specifies the area code to which the outbound routing rule applies.
+old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_areacode_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1git.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service],AreaCode property, FaxOutboundRoutingRule.AreaCode, IFaxOutboundRoutingRule.get_AreaCode, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_areacode_vb, get_AreaCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],AreaCode property, IFaxOutboundRoutingRule.AreaCode, IFaxOutboundRoutingRule.get_AreaCode, IFaxOutboundRoutingRule::AreaCode, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_areacode_cpp, faxcomex/IFaxOutboundRoutingRule::AreaCode, faxcomex/IFaxOutboundRoutingRule::get_AreaCode, get_AreaCode
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutboundRoutingRule.AreaCode
+ - IFaxOutboundRoutingRule.AreaCode
+ - IFaxOutboundRoutingRule.get_AreaCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutboundRoutingRule::get_AreaCode
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>AreaCode</b> property specifies the area code to which the outbound routing rule applies.
+The <b>IFaxOutboundRoutingRule::get_AreaCode</b> property specifies the area code to which the outbound routing rule applies.
 
 This property is read-only.
 

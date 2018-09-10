@@ -4,7 +4,7 @@ title: PFN_WER_RUNTIME_EXCEPTION_EVENT
 author: windows-sdk-content
 description: WER calls this function to determine whether the exception handler is claiming the crash.
 old-location: wer\outofprocessexceptioneventcallback.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 22033278-2be3-4621-b618-3ccd21fb4cdd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OutOfProcessExceptionEventCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_WER_RUNTIME_EXCEPTION_EVENT callback function

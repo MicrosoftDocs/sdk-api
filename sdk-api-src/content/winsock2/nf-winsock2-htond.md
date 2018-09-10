@@ -4,17 +4,16 @@ title: htond function
 author: windows-sdk-content
 description: Converts a double from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htond.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - htond
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # htond function

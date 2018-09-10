@@ -4,17 +4,16 @@ title: ResUtilSetPropertyTable function
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table..
 old-location: mscs\resutilsetpropertytable.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE, PRESUTIL_SET_PROPERTY_TABLE function [Failover Cluster], ResUtilSetPropertyTable, ResUtilSetPropertyTable function [Failover Cluster], _wolf_resutilsetpropertytable, mscs.resutilsetpropertytable, resapi/PRESUTIL_SET_PROPERTY_TABLE, resapi/ResUtilSetPropertyTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilSetPropertyTable
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilSetPropertyTable function

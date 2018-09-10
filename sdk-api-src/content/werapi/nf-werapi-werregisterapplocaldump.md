@@ -4,17 +4,16 @@ title: WerRegisterAppLocalDump function
 author: windows-sdk-content
 description: Registers a path relative to the local app store for the calling application where Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 old-location: wer\werregisterapplocaldump.htm
-old-project: wer
+tech.root: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Kernel32.lib
+req.dll: KernelBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerRegisterAppLocalDump
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: KernelBase.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerRegisterAppLocalDump function

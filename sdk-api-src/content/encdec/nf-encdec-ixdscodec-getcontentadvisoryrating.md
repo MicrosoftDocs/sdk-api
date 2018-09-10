@@ -4,17 +4,16 @@ title: IXDSCodec::GetContentAdvisoryRating
 author: windows-sdk-content
 description: The GetContentAdvisoryRating method retrieves the most recent ratings information parsed by the XDSToRat object.
 old-location: mstv\ixdscodec_getcontentadvisoryrating.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXDSCodec.GetContentAdvisoryRating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXDSCodec::GetContentAdvisoryRating

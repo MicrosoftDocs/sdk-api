@@ -4,17 +4,16 @@ title: AdjustTokenPrivileges function
 author: windows-sdk-content
 description: Enables or disables privileges in the specified access token. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 old-location: security\adjusttokenprivileges.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8e3f70cd-814e-4aab-8f48-0ca482beef2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], None, SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_REMOVED, _win32_adjusttokenprivileges, security.adjusttokenprivileges, securitybaseapi/AdjustTokenPrivileges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AdjustTokenPrivileges
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AdjustTokenPrivileges function

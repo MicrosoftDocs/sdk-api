@@ -4,17 +4,16 @@ title: IFileSaveDialog::GetProperties
 author: windows-sdk-content
 description: Retrieves the set of property values for a saved item or an item in the process of being saved.
 old-location: shell\IFileSaveDialog_GetProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 734a1bf9-ff63-48a5-9508-3a576ea24ab7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],GetProperties method, IFileSaveDialog.GetProperties, IFileSaveDialog::GetProperties, shell.IFileSaveDialog_GetProperties, shell_IFileSaveDialog_GetProperties, shobjidl_core/IFileSaveDialog::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSaveDialog.GetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSaveDialog::GetProperties
@@ -62,7 +60,7 @@ Retrieves the set of property values for a saved item or an item in the process 
 
 ### -param ppStore
 
-
+TBD
 
 
 

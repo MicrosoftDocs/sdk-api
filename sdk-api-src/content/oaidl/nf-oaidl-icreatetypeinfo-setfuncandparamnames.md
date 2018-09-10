@@ -4,17 +4,16 @@ title: ICreateTypeInfo::SetFuncAndParamNames
 author: windows-sdk-content
 description: Sets the name of a function and the names of its parameters to the specified names.
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
-old-project: automat
+tech.root: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.SetFuncAndParamNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::SetFuncAndParamNames

@@ -4,17 +4,16 @@ title: IWICBitmapSourceTransform::DoesSupportTransform
 author: windows-sdk-content
 description: Determines whether a specific transform option is supported natively by the implementation of the IWICBitmapSourceTransform interface.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_doessupporttransform.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 73f27e20-3245-42b3-8b83-29c3c969624f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICBitmapSourceTransform.DoesSupportTransform, IWICBitmapSourceTransform::DoesSupportTransform, _wic_codec_iwicbitmapsourcetransform_doessupporttransform, wic._wic_codec_iwicbitmapsourcetransform_doessupporttransform, wincodec/IWICBitmapSourceTransform::DoesSupportTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICBitmapSourceTransform.DoesSupportTransform
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapSourceTransform::DoesSupportTransform

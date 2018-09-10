@@ -4,7 +4,7 @@ title: "_EC_SUBSCRIPTION_CONTENT_FORMAT"
 author: windows-sdk-content
 description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.
 old-location: wec\ec_subscription_content_format.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 72db596e-ef94-4167-bf1a-176095e17f8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_CONTENT_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_CONTENT_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_CONTENT_FORMAT
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_CONTENT_FORMAT enumeration

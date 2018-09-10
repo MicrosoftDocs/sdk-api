@@ -4,17 +4,16 @@ title: IFaxJobs::get_Count
 author: windows-sdk-content
 description: The IFaxJobs::get_Count method returns the number of queued fax jobs associated with the connected fax server.
 old-location: fax\_mfax_ifaxjobs_get_count.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Count method, IFaxJobs.get_Count, IFaxJobs::get_Count, _mfax_ifaxjobs_get_count, fax._mfax_ifaxjobs_get_count, faxcom/IFaxJobs::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxJobs interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFaxJobs.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJobs::get_Count

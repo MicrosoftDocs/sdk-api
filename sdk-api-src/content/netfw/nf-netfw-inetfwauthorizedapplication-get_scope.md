@@ -4,17 +4,16 @@ title: INetFwAuthorizedApplication::get_Scope
 author: windows-sdk-content
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwauthorizedapplication_scope.htm
-old-project: ics
+tech.root: ics
 ms.assetid: f9784736-2af0-4bd4-980c-2365a1cdc20b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Scope property, INetFwAuthorizedApplication.Scope, INetFwAuthorizedApplication.get_Scope, INetFwAuthorizedApplication::Scope, INetFwAuthorizedApplication::get_Scope, INetFwAuthorizedApplication::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwAuthorizedApplication interface, get_Scope, ics.inetfwauthorizedapplication_scope, netfw/INetFwAuthorizedApplication::Scope, netfw/INetFwAuthorizedApplication::get_Scope, netfw/INetFwAuthorizedApplication::put_Scope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Wfapi.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - INetFwAuthorizedApplication.put_Scope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Wfapi.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwAuthorizedApplication::get_Scope

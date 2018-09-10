@@ -4,7 +4,7 @@ title: MFVideoAlphaBitmapParams
 author: windows-sdk-content
 description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 old-location: mf\mfvideoalphabitmapparams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapParams
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoAlphaBitmapParams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MFVideoAlphaBitmapParams
+req.redist: 
 ---
 
 # MFVideoAlphaBitmapParams structure

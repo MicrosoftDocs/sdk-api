@@ -4,7 +4,7 @@ title: MFP_MF_EVENT
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MF event.
 old-location: mf\mfp_mf_event.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFP_MF_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_MF_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFP_MF_EVENT
+req.redist: 
 ---
 
 # MFP_MF_EVENT structure

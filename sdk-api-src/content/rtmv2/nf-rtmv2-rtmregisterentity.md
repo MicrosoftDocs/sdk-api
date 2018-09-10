@@ -4,17 +4,16 @@ title: RtmRegisterEntity function
 author: windows-sdk-content
 description: The RtmRegisterEntity function registers a client with an instance of the routing table manager for a specific address family.
 old-location: rras\rtmregisterentity.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 2b952ea2-cf33-49e3-ae31-a14b0907a1b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmRegisterEntity, RtmRegisterEntity function [RAS], _rtmv2ref_rtmregisterentity, rras.rtmregisterentity, rtmv2/RtmRegisterEntity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmRegisterEntity
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmRegisterEntity function

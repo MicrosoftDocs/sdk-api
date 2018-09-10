@@ -4,7 +4,7 @@ title: "_VDS_LUN_PROP"
 author: windows-sdk-content
 description: Defines the properties of a LUN object.
 old-location: base\vds_lun_prop.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_LUN_PROP, *PVDS_LUN_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_LUN_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_LUN_PROP, *PVDS_LUN_PROP
+req.redist: 
 ---
 
 # _VDS_LUN_PROP structure

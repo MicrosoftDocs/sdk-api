@@ -4,17 +4,16 @@ title: IConditionFactory2::CreateTrueFalse
 author: windows-sdk-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionFactory2.CreateTrueFalse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IConditionFactory2::CreateTrueFalse
@@ -63,7 +61,7 @@ Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The retur
 
 ### -param fVal
 
-
+TBD
 
 
 ### -param cco [in]

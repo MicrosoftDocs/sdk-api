@@ -4,17 +4,16 @@ title: IcmpCloseHandle function
 author: windows-sdk-content
 description: The IcmpCloseHandle function closes a handle opened by a call to the IcmpCreateFile or Icmp6CreateFile functions.
 old-location: iphlp\icmpclosehandle.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: ce8f11bb-1e33-41bd-adb9-c18efadd4d0b
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: IcmpCloseHandle, IcmpCloseHandle function [IP Helper], _iphlp_icmpclosehandle, icmpapi/IcmpCloseHandle, iphlp.icmpclosehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IcmpCloseHandle
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IcmpCloseHandle function

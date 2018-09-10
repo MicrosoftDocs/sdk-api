@@ -4,7 +4,7 @@ title: tagDBRELEVANTDOCUMENT
 author: windows-sdk-content
 description: The DBRELEVANTDOCUMENT structure is reserved for future use.
 old-location: indexsrv\dbrelevantdocument.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8ph0.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBRELEVANTDOCUMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DBRELEVANTDOCUMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DBRELEVANTDOCUMENT
+req.redist: 
 ---
 
 # tagDBRELEVANTDOCUMENT structure

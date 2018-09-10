@@ -4,7 +4,7 @@ title: PWINBIO_LOCATE_SENSOR_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioLocateSensorWithCallback function.
 old-location: secbiomet\pwinbio_locate_sensor_callback.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 2959B5C0-A513-4124-8391-E05E9F43CD53
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWINBIO_LOCATE_SENSOR_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PWINBIO_LOCATE_SENSOR_CALLBACK callback function

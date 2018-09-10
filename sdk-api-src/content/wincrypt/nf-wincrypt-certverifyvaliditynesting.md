@@ -4,17 +4,16 @@ title: CertVerifyValidityNesting function
 author: windows-sdk-content
 description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.
 old-location: security\certverifyvaliditynesting.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertVerifyValidityNesting
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertVerifyValidityNesting function

@@ -4,17 +4,16 @@ title: TokenBindingGetKeyTypesClient function
 author: windows-sdk-content
 description: Retrieves a list of the key types that the client device supports.
 old-location: security\tokenbindinggetkeytypesclient.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_TYPE
+req.lib: Tokenbinding.lib
+req.dll: Tokenbinding.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TokenBindingGetKeyTypesClient
 product: Windows
 targetos: Windows
-req.lib: Tokenbinding.lib
-req.dll: Tokenbinding.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TokenBindingGetKeyTypesClient function

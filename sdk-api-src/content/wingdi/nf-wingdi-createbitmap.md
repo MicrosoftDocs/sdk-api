@@ -4,17 +4,16 @@ title: CreateBitmap function
 author: windows-sdk-content
 description: The CreateBitmap function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmap.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CreateBitmap
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateBitmap function

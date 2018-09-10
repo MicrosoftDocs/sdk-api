@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::Initialize
 author: windows-sdk-content
 description: Initializes the authorization manager.
 old-location: security\azauthorizationstore_initialize.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security],Initialize method, IAzAuthorizationStore interface [Security],Initialize method, IAzAuthorizationStore.Initialize, IAzAuthorizationStore::Initialize, Initialize, Initialize method [Security], Initialize method [Security],AzAuthorizationStore object, Initialize method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzAuthorizationStore.Initialize
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::Initialize

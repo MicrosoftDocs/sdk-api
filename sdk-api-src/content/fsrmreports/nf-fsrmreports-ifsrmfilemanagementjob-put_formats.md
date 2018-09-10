@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_Formats
 author: windows-sdk-content
 description: The formats of the report to generate when the job is run.
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1147829d-c47b-4d80-8b49-4328dd54f8ef
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.put_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, put_Formats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_Formats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_Formats

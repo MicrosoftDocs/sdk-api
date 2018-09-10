@@ -4,17 +4,16 @@ title: IInkStrokeDisp::get_BezierPoints
 author: windows-sdk-content
 description: Gets the array of control points that represent the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_bezierpoints.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 76bb749d-76cd-4c40-add3-4065d46ed6cb
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet PC], BezierPoints property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierPoints property, IInkStrokeDisp.BezierPoints, IInkStrokeDisp.get_BezierPoints, IInkStrokeDisp::BezierPoints, IInkStrokeDisp::get_BezierPoints, get_BezierPoints, msinkaut/IInkStrokeDisp::BezierPoints, msinkaut/IInkStrokeDisp::get_BezierPoints, tablet.iinkstrokedisp_bezierpoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkStrokeDisp.get_BezierPoints
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::get_BezierPoints

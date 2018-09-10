@@ -4,7 +4,7 @@ title: "_PPP_EAP_PACKET"
 author: windows-sdk-content
 description: The PPP_EAP_PACKET structure specifies information about a packet being processed by the authentication protocol.
 old-location: eap\ppp_eap_packet.htm
-old-project: eap
+tech.root: eap
 ms.assetid: a1ca16d1-bf91-4986-a4f8-6e6ad382730f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_EAP_PACKET, *PPPP_EAP_PACKET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_EAP_PACKET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PPP_EAP_PACKET, *PPPP_EAP_PACKET
+req.redist: 
 ---
 
 # _PPP_EAP_PACKET structure

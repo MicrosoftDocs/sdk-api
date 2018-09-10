@@ -4,17 +4,16 @@ title: IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand
 author: windows-sdk-content
 description: The put_LocalOscilatorFrequencyLowBand method specifies the frequency of the local oscillator's low band.
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencylowband.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e1ba4cf7-f9d4-4cac-921f-19f34fd968fe
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],put_LocalOscilatorFrequencyLowBand method, IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand, IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, IBDA_LNBInfoput_LocalOscilatorFrequencyLowBand, bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand, mstv.ibda_lnbinfo_put_localoscilatorfrequencylowband, put_LocalOscilatorFrequencyLowBand, put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies],IBDA_LNBInfo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand

@@ -4,17 +4,16 @@ title: TcOpenInterfaceA function
 author: windows-sdk-content
 description: The TcOpenInterface function opens an interface.
 old-location: qos\tcopeninterface.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TcOpenInterfaceW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcOpenInterfaceA function

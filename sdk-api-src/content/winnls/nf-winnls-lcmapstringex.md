@@ -4,17 +4,16 @@ title: LCMapStringEx function
 author: windows-sdk-content
 description: For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.Note  The application should call this function in preference to LCMapString if designed to run only on Windows Vista and later.
 old-location: intl\lcmapstringex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 725e4e75-c328-40bc-a594-20a295a487c6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LCMAP_KATAKANA, LCMAP_LINGUISTIC_CASING, LCMAP_LOWERCASE, LCMAP_SIMPLIFIED_CHINESE, LCMAP_SORTKEY, LCMAP_TITLECASE, LCMAP_TRADITIONAL_CHINESE, LCMAP_UPPERCASE, LCMapStringEx, LCMapStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_LCMapStringEx, intl.lcmapstringex, winnls/LCMapStringEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - LCMapStringEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LCMapStringEx function

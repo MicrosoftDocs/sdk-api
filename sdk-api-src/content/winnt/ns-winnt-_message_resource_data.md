@@ -4,7 +4,7 @@ title: "_MESSAGE_RESOURCE_DATA"
 author: windows-sdk-content
 description: Contains information about formatted text for display as an error message or in a message box in a message table resource.
 old-location: menurc\message_resource_data.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_data.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MESSAGE_RESOURCE_DATA, *PMESSAGE_RESOURCE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MESSAGE_RESOURCE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MESSAGE_RESOURCE_DATA, *PMESSAGE_RESOURCE_DATA
+req.redist: 
 ---
 
 # _MESSAGE_RESOURCE_DATA structure

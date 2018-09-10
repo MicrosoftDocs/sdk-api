@@ -4,7 +4,7 @@ title: "_WCM_CONNECTION_COST_SOURCE"
 author: windows-sdk-content
 description: Specifies the source that provides connection cost information.
 old-location: wcm\wcm_connection_cost_source.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: cd9e5562-dd50-46fc-be11-0ea89e6933c0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_CONNECTION_COST_SOURCE, *PWCM_CONNECTION_COST_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_CONNECTION_COST_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_CONNECTION_COST_SOURCE, *PWCM_CONNECTION_COST_SOURCE
+req.redist: 
 ---
 
 # _WCM_CONNECTION_COST_SOURCE enumeration

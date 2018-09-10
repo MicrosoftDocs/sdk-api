@@ -4,7 +4,7 @@ title: "_DDGETSURFACESTATEOUT"
 author: windows-sdk-content
 description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
 old-location: display\ddgetsurfacestateout.htm
-old-project: display
+tech.root: display
 ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDGETSURFACESTATEOUT, *LPDDGETSURFACESTATEOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDGETSURFACESTATEOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDGETSURFACESTATEOUT, *LPDDGETSURFACESTATEOUT
+req.redist: 
 ---
 
 # _DDGETSURFACESTATEOUT structure

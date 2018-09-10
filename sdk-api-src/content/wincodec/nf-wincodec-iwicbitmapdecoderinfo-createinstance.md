@@ -4,17 +4,16 @@ title: IWICBitmapDecoderInfo::CreateInstance
 author: windows-sdk-content
 description: Creates a new IWICBitmapDecoder instance.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_createinstance.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2bda1c2a-47b9-4e15-b0c1-52e3f85a6523
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapDecoderInfo.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapDecoderInfo::CreateInstance

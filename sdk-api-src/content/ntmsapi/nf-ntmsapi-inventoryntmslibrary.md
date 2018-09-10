@@ -4,17 +4,16 @@ title: InventoryNtmsLibrary function
 author: windows-sdk-content
 description: The InventoryNtmsLibrary function queues an inventory of the specified library. If the library is busy, RSM queues InventoryNtmsLibrary and returns success.
 old-location: fs\inventoryntmslibrary.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: ae631417-a83d-48d9-be9b-61424321ffd0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InventoryNtmsLibrary, InventoryNtmsLibrary function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_OMID, NTMS_INVENTORY_STOP, _zaw_inventoryntmslibrary, base.inventoryntmslibrary, fs.inventoryntmslibrary, ntmsapi/InventoryNtmsLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InventoryNtmsLibrary
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # InventoryNtmsLibrary function

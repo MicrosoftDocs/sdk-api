@@ -4,17 +4,16 @@ title: ResUtilIsPathValid function
 author: windows-sdk-content
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID function [Failover Cluster], ResUtilIsPathValid, ResUtilIsPathValid function [Failover Cluster], _wolf_resutilispathvalid, mscs.resutilispathvalid, resapi/PRESUTIL_IS_PATH_VALID, resapi/ResUtilIsPathValid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilIsPathValid
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilIsPathValid function

@@ -4,17 +4,16 @@ title: IObjectIds::Clear
 author: windows-sdk-content
 description: Removes all IObjectId objects from the collection.
 old-location: security\iobjectids_clear_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IObjectIds interface, IObjectIds interface [Security],Clear method, IObjectIds.Clear, IObjectIds::Clear, certenroll/IObjectIds::Clear, security.iobjectids_clear_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectIds.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectIds::Clear

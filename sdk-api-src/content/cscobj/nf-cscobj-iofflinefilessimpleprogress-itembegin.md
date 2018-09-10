@@ -4,17 +4,16 @@ title: IOfflineFilesSimpleProgress::ItemBegin
 author: windows-sdk-content
 description: Reports that an operation on an item is beginning.
 old-location: of\iofflinefilessimpleprogress_itembegin.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 0e3496ee-e987-4c37-93ff-bc8409acabde
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSimpleProgress interface [Offline Files],ItemBegin method, IOfflineFilesSimpleProgress.ItemBegin, IOfflineFilesSimpleProgress::ItemBegin, ItemBegin, ItemBegin method [Offline Files], ItemBegin method [Offline Files],IOfflineFilesSimpleProgress interface, cscobj/IOfflineFilesSimpleProgress::ItemBegin, of.iofflinefilessimpleprogress_itembegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSimpleProgress.ItemBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSimpleProgress::ItemBegin

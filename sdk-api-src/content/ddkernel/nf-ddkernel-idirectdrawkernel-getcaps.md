@@ -4,17 +4,16 @@ title: IDirectDrawKernel::GetCaps
 author: windows-sdk-content
 description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
 old-location: display\idirectdrawkernel_getcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetCaps method, IDirectDrawKernel.GetCaps, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddkernel.h
 req.include-header: Ddraw.h, Ddkernel.h, Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONMSGSTRUCT, *PMONMSGSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawKernel.GetCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawKernel::GetCaps

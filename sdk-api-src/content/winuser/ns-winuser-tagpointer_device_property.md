@@ -4,7 +4,7 @@ title: tagPOINTER_DEVICE_PROPERTY
 author: windows-sdk-content
 description: Contains device properties (Human Interface Device (HID) global items that correspond to HID usages).
 old-location: input_pointerdevice\pointer_device_property.htm
-old-project: Input_PointerDevice
+tech.root: Input_PointerDevice
 ms.assetid: 2c96379e-7c9f-440c-a98b-bda38bacd33f
 ms.author: windowssdkdev
 ms.date: 03/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POINTER_DEVICE_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POINTER_DEVICE_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: POINTER_DEVICE_PROPERTY
+req.redist: 
 ---
 
 # tagPOINTER_DEVICE_PROPERTY structure

@@ -4,17 +4,16 @@ title: ICrmFormatLogRecords::GetColumnHeaders
 author: windows-sdk-content
 description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.
 old-location: cos\icrmformatlogrecords_getcolumnheaders.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b7ca50f9-7e42-4cde-9985-0501ae34f040
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [COM+], GetColumnHeaders method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnHeaders method, ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmFormatLogRecords.GetColumnHeaders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmFormatLogRecords::GetColumnHeaders

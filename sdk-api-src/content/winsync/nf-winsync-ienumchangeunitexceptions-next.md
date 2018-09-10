@@ -4,17 +4,16 @@ title: IEnumChangeUnitExceptions::Next
 author: windows-sdk-content
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumchangeunitexceptions_next.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumChangeUnitExceptions.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumChangeUnitExceptions::Next

@@ -4,17 +4,16 @@ title: IResourceManager::Register
 author: windows-sdk-content
 description: The Register method registers a single named resource with the resource manager.
 old-location: dshow\iresourcemanager_register.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResourceManager.Register
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IResourceManager::Register

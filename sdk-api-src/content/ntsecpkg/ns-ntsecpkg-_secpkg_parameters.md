@@ -4,7 +4,7 @@ title: "_SECPKG_PARAMETERS"
 author: windows-sdk-content
 description: The SECPKG_PARAMETERS structure contains information about the computer system. This structure is used by the SpInitialize function.
 old-location: security\secpkg_parameters.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2e3b7961-e2c4-4011-91b1-0ba9d35e9188
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_PARAMETERS, *PSECPKG_PARAMETERS, SECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_EVENT_DOMAIN_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_PARAMETERS, *PSECPKG_PARAMETERS, SECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_EVENT_DOMAIN_CHANGE
+req.redist: 
 ---
 
 # _SECPKG_PARAMETERS structure

@@ -4,17 +4,16 @@ title: IFsrmFileManagementJobManager::EnumFileManagementJobs
 author: windows-sdk-content
 description: Enumerates the list of existing file management jobs.
 old-location: fsrm\ifsrmfilemanagementjobmanager_enumfilemanagementjobs.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 4af6f794-d9d4-4e03-9cd5-a4d8769888ca
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumFileManagementJobs, EnumFileManagementJobs method [File Server Resource Manager], EnumFileManagementJobs method [File Server Resource Manager],FsrmFileManagementJobManager class, EnumFileManagementJobs method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager interface [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager.EnumFileManagementJobs, IFsrmFileManagementJobManager::EnumFileManagementJobs, fs.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrm.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrmreports/IFsrmFileManagementJobManager::EnumFileManagementJobs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileManagementJobManager.EnumFileManagementJobs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJobManager::EnumFileManagementJobs

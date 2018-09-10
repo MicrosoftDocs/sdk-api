@@ -4,17 +4,16 @@ title: EraseTape function
 author: windows-sdk-content
 description: Erases all or part of a tape.
 old-location: backup\erasetape.htm
-old-project: backup
+tech.root: backup
 ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EraseTape
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EraseTape function

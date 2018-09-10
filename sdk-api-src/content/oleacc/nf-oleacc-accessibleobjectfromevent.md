@@ -4,17 +4,16 @@ title: AccessibleObjectFromEvent function
 author: windows-sdk-content
 description: Retrieves the address of the IAccessible interface for the object that generated the event that is currently being processed by the client's event hook function.
 old-location: winauto\accessibleobjectfromevent.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AccessibleObjectFromEvent
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # AccessibleObjectFromEvent function

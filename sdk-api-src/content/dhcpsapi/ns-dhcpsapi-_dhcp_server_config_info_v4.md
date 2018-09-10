@@ -4,7 +4,7 @@ title: "_DHCP_SERVER_CONFIG_INFO_V4"
 author: windows-sdk-content
 description: Defines the data used to configure the DHCP server.
 old-location: dhcp\dhcp_server_config_info_v4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a2a78c19-3161-431a-b1af-31dac994c3f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SERVER_CONFIG_INFO_V4, *LPDHCP_SERVER_CONFIG_INFO_V4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SERVER_CONFIG_INFO_V4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SERVER_CONFIG_INFO_V4, *LPDHCP_SERVER_CONFIG_INFO_V4
+req.redist: 
 ---
 
 # _DHCP_SERVER_CONFIG_INFO_V4 structure

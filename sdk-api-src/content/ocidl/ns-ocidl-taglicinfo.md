@@ -4,7 +4,7 @@ title: tagLICINFO
 author: windows-sdk-content
 description: Contains parameters that describe the licensing behavior of a class factory that supports licensing. The structure is filled by calling the IClassFactory2::GetLicInfo method.
 old-location: com\licinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OCIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LICINFO, *LPLICINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LICINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LICINFO, *LPLICINFO
+req.redist: 
 ---
 
 # tagLICINFO structure

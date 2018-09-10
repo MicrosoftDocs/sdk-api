@@ -4,17 +4,16 @@ title: IMFMediaEngine::HasAudio
 author: windows-sdk-content
 description: Queries whether the current media resource contains an audio stream.
 old-location: mf\imfmediaengine_hasaudio.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D06A773E-8D41-40D1-BA10-65AEFF2D7667
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasAudio method, IMFMediaEngine.HasAudio, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.HasAudio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::HasAudio

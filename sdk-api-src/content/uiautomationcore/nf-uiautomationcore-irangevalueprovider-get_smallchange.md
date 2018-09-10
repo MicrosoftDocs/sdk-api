@@ -4,17 +4,16 @@ title: IRangeValueProvider::get_SmallChange
 author: windows-sdk-content
 description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a small change is made, such as when an arrow key is pressed.
 old-location: winauto\uiauto_IRangeValueProvider_SmallChange.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8230747d-d8c3-4708-a77a-7c76a62f39dd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SmallChange property, IRangeValueProvider.SmallChange, IRangeValueProvider.get_SmallChange, IRangeValueProvider::SmallChange, IRangeValueProvider::get_SmallChange, SmallChange property [Windows Accessibility], SmallChange property [Windows Accessibility],IRangeValueProvider interface, get_SmallChange, uiauto.uiauto_IRangeValueProvider_SmallChange, uiauto_IRangeValueProvider_SmallChange, uiautomationcore/IRangeValueProvider::SmallChange, uiautomationcore/IRangeValueProvider::get_SmallChange, winauto.uiauto_IRangeValueProvider_SmallChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRangeValueProvider.get_SmallChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRangeValueProvider::get_SmallChange

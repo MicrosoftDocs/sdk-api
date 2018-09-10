@@ -4,17 +4,16 @@ title: IUpdateSearcher::Search
 author: windows-sdk-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateSearcher.Search
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateSearcher::Search

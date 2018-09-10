@@ -4,17 +4,16 @@ title: ISimilarityTraitsTable::FindSimilarFileIndex
 author: windows-sdk-content
 description: Returns a list of files that are similar to a given file. The results in the list are sorted in order of similarity, beginning with the most similar file.
 old-location: rdc\isimilaritytraitstable_findsimilarfileindex.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 09c9b918-1def-4d19-84d4-99b881070e36
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindSimilarFileIndex, FindSimilarFileIndex method [Remote Differential Compression], FindSimilarFileIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],FindSimilarFileIndex method, ISimilarityTraitsTable.FindSimilarFileIndex, ISimilarityTraitsTable::FindSimilarFileIndex, fs.isimilaritytraitstable_findsimilarfileindex, msrdc/ISimilarityTraitsTable::FindSimilarFileIndex, rdc.isimilaritytraitstable_findsimilarfileindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsTable.FindSimilarFileIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsTable::FindSimilarFileIndex
@@ -67,7 +65,7 @@ A pointer to a <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b
 
 ### -param numberOfMatchesRequired
 
-
+TBD
 
 
 ### -param findSimilarFileIndexResults [out]

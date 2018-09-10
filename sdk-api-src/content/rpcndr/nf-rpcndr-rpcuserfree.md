@@ -4,17 +4,16 @@ title: RpcUserFree function
 author: windows-sdk-content
 description: RpcUserFree may be altered or unavailable.
 old-location: rpc\rpcuserfree.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcUserFree
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcUserFree function

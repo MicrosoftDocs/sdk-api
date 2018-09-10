@@ -4,7 +4,7 @@ title: IF_OPER_STATUS
 author: windows-sdk-content
 description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
 old-location: iphlp\if_oper_status.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 829df6fc-d5db-4efe-9c67-d0c5543dacb4
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IF_OPER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IF_OPER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IF_OPER_STATUS
+req.redist: 
 ---
 
 # IF_OPER_STATUS enumeration

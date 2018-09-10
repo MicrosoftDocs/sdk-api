@@ -4,17 +4,16 @@ title: IVssExpressWriter::Register
 author: windows-sdk-content
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
 old-location: base\ivssexpresswriter_register.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssExpressWriter.Register
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExpressWriter::Register

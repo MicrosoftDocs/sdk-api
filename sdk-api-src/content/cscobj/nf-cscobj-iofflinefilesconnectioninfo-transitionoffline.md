@@ -4,17 +4,16 @@ title: IOfflineFilesConnectionInfo::TransitionOffline
 author: windows-sdk-content
 description: Transitions an item offline if possible.
 old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesConnectionInfo.TransitionOffline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesConnectionInfo::TransitionOffline

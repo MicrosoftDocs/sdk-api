@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::InvalidateRgn
 author: windows-sdk-content
 description: Enables an object to invalidate a specified region of its in-place image on the screen.
 old-location: com\ioleinplacesitewindowless_invalidatergn.htm
-old-project: com
+tech.root: com
 ms.assetid: bbe86f4f-d023-4285-a6c1-c42fdc566f2f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRgn method, IOleInPlaceSiteWindowless.InvalidateRgn, IOleInPlaceSiteWindowless::InvalidateRgn, InvalidateRgn, InvalidateRgn method [COM], InvalidateRgn method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidatergn, com.ioleinplacesitewindowless_invalidatergn, ocidl/IOleInPlaceSiteWindowless::InvalidateRgn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.InvalidateRgn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::InvalidateRgn

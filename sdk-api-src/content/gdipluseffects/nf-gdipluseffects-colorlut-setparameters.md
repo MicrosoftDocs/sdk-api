@@ -4,17 +4,16 @@ title: ColorLUT::SetParameters
 author: windows-sdk-content
 description: The ColorLUT::SetParameters method sets the parameters of this ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_SetParameters_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutmethods\setparameters.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ColorLUT class [GDI+],SetParameters method, ColorLUT.SetParameters, ColorLUT::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorLUT class, _gdiplus_CLASS_ColorLUT_SetParameters_, gdiplus._gdiplus_CLASS_ColorLUT_SetParameters_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ColorLUT.SetParameters
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 
@@ -62,7 +61,7 @@ The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="h
 
 ### -param lut
 
-
+TBD
 
 
 

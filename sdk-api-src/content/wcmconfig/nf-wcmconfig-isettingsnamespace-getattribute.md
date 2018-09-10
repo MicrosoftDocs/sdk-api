@@ -4,17 +4,16 @@ title: ISettingsNamespace::GetAttribute
 author: windows-sdk-content
 description: Gets the value of an attribute of the namespace.
 old-location: smi\isettingsnamespace_getattribute.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: b0623114-8f25-4870-a1c7-4f4e3ecf0348
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetAttribute method, ISettingsNamespace.GetAttribute, ISettingsNamespace::GetAttribute, smi.isettingsnamespace_getattribute, wcmconfig/ISettingsNamespace::GetAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsNamespace.GetAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsNamespace::GetAttribute

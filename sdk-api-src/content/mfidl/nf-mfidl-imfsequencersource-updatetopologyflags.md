@@ -4,17 +4,16 @@ title: IMFSequencerSource::UpdateTopologyFlags
 author: windows-sdk-content
 description: Updates the flags for a topology in the queue.
 old-location: mf\imfsequencersource_updatetopologyflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ee71b574-0456-4091-bbb0-da5c57a7506e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSequencerSource interface [Media Foundation],UpdateTopologyFlags method, IMFSequencerSource.UpdateTopologyFlags, IMFSequencerSource::UpdateTopologyFlags, UpdateTopologyFlags, UpdateTopologyFlags method [Media Foundation], UpdateTopologyFlags method [Media Foundation],IMFSequencerSource interface, ee71b574-0456-4091-bbb0-da5c57a7506e, mf.imfsequencersource_updatetopologyflags, mfidl/IMFSequencerSource::UpdateTopologyFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSequencerSource.UpdateTopologyFlags
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSequencerSource::UpdateTopologyFlags

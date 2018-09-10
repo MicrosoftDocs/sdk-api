@@ -4,7 +4,7 @@ title: "_WRDS_SETTING_STATUS"
 author: windows-sdk-content
 description: Specifies the status of a policy setting for various members of the WRDS_SETTINGS_1 structure.
 old-location: termserv\wrds_setting_status.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: FA56FDCB-70E7-4D90-99DE-6C624404BEF9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRDS_SETTING_STATUS, *PWRDS_SETTING_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRDS_SETTING_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WRDS_SETTING_STATUS, *PWRDS_SETTING_STATUS
+req.redist: 
 ---
 
 # _WRDS_SETTING_STATUS enumeration

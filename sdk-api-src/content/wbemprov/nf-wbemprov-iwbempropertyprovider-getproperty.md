@@ -4,17 +4,16 @@ title: IWbemPropertyProvider::GetProperty
 author: windows-sdk-content
 description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
 old-location: wmi\iwbempropertyprovider_getproperty.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPropertyProvider.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPropertyProvider::GetProperty

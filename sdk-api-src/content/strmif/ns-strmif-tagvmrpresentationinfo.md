@@ -4,7 +4,7 @@ title: tagVMRPRESENTATIONINFO
 author: windows-sdk-content
 description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).
 old-location: dshow\vmrpresentationinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRPRESENTATIONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRPRESENTATIONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMRPRESENTATIONINFO
+req.redist: 
 req.product: Windows XP
 ---
 

@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::GetFinalValue
 author: windows-sdk-content
 description: Gets the final value at the end of the transition for the given dimension.
 old-location: uianimation\iuianimationinterpolator2_getfinalvalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 330816C7-1641-41FA-8FB9-56FCE0108593
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetFinalValue method, IUIAnimationInterpolator2.GetFinalValue, IUIAnimationInterpolator2::GetFinalValue, uianimation.iuianimationinterpolator2_getfinalvalue, uianimation/IUIAnimationInterpolator2::GetFinalValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.GetFinalValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::GetFinalValue

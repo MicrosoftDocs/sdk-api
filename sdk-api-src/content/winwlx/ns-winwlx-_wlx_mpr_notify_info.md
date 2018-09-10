@@ -4,7 +4,7 @@ title: "_WLX_MPR_NOTIFY_INFO"
 author: windows-sdk-content
 description: Provides identification and authentication information to network providers.
 old-location: security\wlx_mpr_notify_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 68098b26-c58d-45fb-aebe-780a73cded80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_MPR_NOTIFY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
+req.redist: 
 ---
 
 # _WLX_MPR_NOTIFY_INFO structure

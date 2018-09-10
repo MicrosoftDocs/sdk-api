@@ -4,17 +4,16 @@ title: IConditionFactory2::CreateIntegerLeaf
 author: windows-sdk-content
 description: Creates a leaf condition node for an integer value. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateIntegerLeaf.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createintegerleaf.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateIntegerLeaf, CreateIntegerLeaf method [search], CreateIntegerLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateIntegerLeaf method, IConditionFactory2.CreateIntegerLeaf, IConditionFactory2::CreateIntegerLeaf, _search_IConditionFactory2_CreateIntegerLeaf, search._search_IConditionFactory2_CreateIntegerLeaf, structuredquery/IConditionFactory2::CreateIntegerLeaf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionFactory2.CreateIntegerLeaf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IConditionFactory2::CreateIntegerLeaf

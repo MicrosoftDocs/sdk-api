@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_ReportEnabled
 author: windows-sdk-content
 description: Indicates whether the job will generate a report when it runs.
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 687367c7-5bed-4f42-ade1-f841da484b38
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ReportEnabled property, IFsrmFileManagementJob.ReportEnabled, IFsrmFileManagementJob.get_ReportEnabled, IFsrmFileManagementJob::ReportEnabled, IFsrmFileManagementJob::get_ReportEnabled, IFsrmFileManagementJob::put_ReportEnabled, ReportEnabled property [File Server Resource Manager], ReportEnabled property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_reportenabled, fsrm.ifsrmfilemanagementjob_reportenabled, fsrmreports/IFsrmFileManagementJob::ReportEnabled, fsrmreports/IFsrmFileManagementJob::get_ReportEnabled, fsrmreports/IFsrmFileManagementJob::put_ReportEnabled, get_ReportEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_ReportEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_ReportEnabled

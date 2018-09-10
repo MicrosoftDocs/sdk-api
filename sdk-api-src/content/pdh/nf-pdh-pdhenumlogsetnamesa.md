@@ -4,17 +4,16 @@ title: PdhEnumLogSetNamesA function
 author: windows-sdk-content
 description: Enumerates the names of the log sets within the DSN.
 old-location: perf\pdhenumlogsetnames.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhEnumLogSetNamesW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhEnumLogSetNamesA function

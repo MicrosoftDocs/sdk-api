@@ -4,7 +4,7 @@ title: "_CRYPT_XML_ISSUER_SERIAL"
 author: windows-sdk-content
 description: Contains an X.509 issued distinguished name&#8211;serial number pair.
 old-location: security\crypt_xml_issuer_serial.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8d74e119-c7ea-4c7c-9d2a-e81f7ae40310
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_ISSUER_SERIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_ISSUER_SERIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_ISSUER_SERIAL
+req.redist: 
 ---
 
 # _CRYPT_XML_ISSUER_SERIAL structure

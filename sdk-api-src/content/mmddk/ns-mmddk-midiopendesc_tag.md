@@ -4,7 +4,7 @@ title: midiopendesc_tag
 author: windows-sdk-content
 description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
 old-location: audio\midiopendesc.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows XP and later Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIDIOPENDESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIDIOPENDESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIDIOPENDESC
+req.redist: 
 ---
 
 # midiopendesc_tag structure

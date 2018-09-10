@@ -4,7 +4,7 @@ title: "_MMC_NOTIFY_TYPE"
 author: windows-sdk-content
 description: The MMC_NOTIFY_TYPE enumeration defines the notifications of user actions that can be sent to a snap-in by the console's Node Manager when it calls IComponentData::Notify, IComponent::Notify, or IExtendControlbar::ControlbarNotify.
 old-location: mmc\mmc_notify_type.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 3eeea87f-a29f-4e20-8906-e3cbdce00d57
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_NOTIFY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_NOTIFY_TYPE
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_NOTIFY_TYPE
+req.redist: 
 ---
 
 # _MMC_NOTIFY_TYPE enumeration

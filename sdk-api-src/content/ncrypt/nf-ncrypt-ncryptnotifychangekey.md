@@ -4,17 +4,16 @@ title: NCryptNotifyChangeKey function
 author: windows-sdk-content
 description: Creates or removes a key change notification.
 old-location: security\ncryptnotifychangekey.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptNotifyChangeKey
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptNotifyChangeKey function

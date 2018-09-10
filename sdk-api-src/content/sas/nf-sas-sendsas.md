@@ -4,17 +4,16 @@ title: SendSAS function
 author: windows-sdk-content
 description: Simulates a secure attention sequence (SAS).
 old-location: security\sendsas.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sas.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Sas.lib
+req.dll: Sas.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SendSAS
 product: Windows
 targetos: Windows
-req.lib: Sas.lib
-req.dll: Sas.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SendSAS function

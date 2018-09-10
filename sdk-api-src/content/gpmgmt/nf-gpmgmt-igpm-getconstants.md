@@ -4,17 +4,16 @@ title: IGPM::GetConstants
 author: windows-sdk-content
 description: Creates and returns a GPMConstants object that allows you to retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpm_getconstants.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: ba271dbb-320f-409c-aff4-b7dde57f9062
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPM object [GPMC],GetConstants method, GetConstants, GetConstants method [GPMC], GetConstants method [GPMC],GPM object, GetConstants method [GPMC],IGPM interface, IGPM interface [GPMC],GetConstants method, IGPM.GetConstants, IGPM::GetConstants, _win32_igpm_getconstants, gpmc.igpm_getconstants, gpmgmt/IGPM::GetConstants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.GetConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::GetConstants

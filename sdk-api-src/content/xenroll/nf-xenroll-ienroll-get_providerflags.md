@@ -4,17 +4,16 @@ title: IEnroll::get_ProviderFlags
 author: windows-sdk-content
 description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type.
 old-location: security\ienroll4_providerflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.ProviderFlags, IEnroll.get_ProviderFlags, IEnroll::ProviderFlags, IEnroll::get_ProviderFlags, IEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],IEnroll interface, get_ProviderFlags, security.ienroll4_providerflags, xenroll/IEnroll::ProviderFlags, xenroll/IEnroll::get_ProviderFlags, xenroll/IEnroll::put_ProviderFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_ProviderFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::get_ProviderFlags

@@ -4,7 +4,7 @@ title: tagEMRSETPALETTEENTRIES
 author: windows-sdk-content
 description: The EMRSETPALETTEENTRIES structure contains members for the SetPaletteEntries enhanced metafile record.
 old-location: gdi\emrsetpaletteentries.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRSETPALETTEENTRIES, *PEMRSETPALETTEENTRIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRSETPALETTEENTRIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRSETPALETTEENTRIES, *PEMRSETPALETTEENTRIES
+req.redist: 
 ---
 
 # tagEMRSETPALETTEENTRIES structure

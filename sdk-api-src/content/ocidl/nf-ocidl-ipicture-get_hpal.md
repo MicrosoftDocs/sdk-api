@@ -4,17 +4,16 @@ title: IPicture::get_hPal
 author: windows-sdk-content
 description: Retrieves a copy of the palette currently used by the picture object.
 old-location: com\ipicture_get_hpal.htm
-old-project: com
+tech.root: com
 ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],get_hPal method, IPicture.get_hPal, IPicture::get_hPal, _ctrl_ipicture_get_hpal, com.ipicture_get_hpal, get_hPal, get_hPal method [COM], get_hPal method [COM],IPicture interface, ocidl/IPicture::get_hPal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.get_hPal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::get_hPal

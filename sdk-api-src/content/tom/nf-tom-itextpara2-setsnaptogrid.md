@@ -4,17 +4,16 @@ title: ITextPara2::SetSnapToGrid
 author: windows-sdk-content
 description: Sets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_setsnaptogrid.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 93116780-03e2-406b-8923-b9f02f53892d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetSnapToGrid method, ITextPara2.SetSnapToGrid, ITextPara2::SetSnapToGrid, SetSnapToGrid, SetSnapToGrid method [Windows Controls], SetSnapToGrid method [Windows Controls],ITextPara2 interface, controls.itextpara2_setsnaptogrid, tom/ITextPara2::SetSnapToGrid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara2.SetSnapToGrid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara2::SetSnapToGrid

@@ -4,7 +4,7 @@ title: drt_registration_tag
 author: windows-sdk-content
 description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
 old-location: p2p\drt_registration.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_REGISTRATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
+req.redist: 
 ---
 
 # drt_registration_tag structure

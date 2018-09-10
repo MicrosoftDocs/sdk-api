@@ -4,17 +4,16 @@ title: SetupGetIntField function
 author: windows-sdk-content
 description: The SetupGetIntField function retrieves an integer value from the specified field of a line in an INF file.
 old-location: setup\setupgetintfield.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 4c77052a-46ef-4154-82c0-5ec447861bcf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_setupgetintfield, setup.setupgetintfield, setupapi/SetupGetIntField
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupGetIntField
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetIntField function

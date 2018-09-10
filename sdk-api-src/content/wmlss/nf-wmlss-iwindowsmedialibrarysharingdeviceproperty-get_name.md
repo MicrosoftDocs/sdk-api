@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingDeviceProperty::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the name of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Name.htm
-old-project: WMLSS
+tech.root: WMLSS
 ms.assetid: 335e3beb-351e-40ad-b065-7058716180d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Name method, IWindowsMediaLibrarySharingDeviceProperty.get_Name, IWindowsMediaLibrarySharingDeviceProperty::get_Name, get_Name, get_Name method [Windows Media Library Sharing Services], get_Name method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Name, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingDeviceProperty.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperty::get_Name

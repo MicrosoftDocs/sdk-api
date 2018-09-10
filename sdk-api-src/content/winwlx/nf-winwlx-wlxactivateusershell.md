@@ -4,17 +4,16 @@ title: WlxActivateUserShell function
 author: windows-sdk-content
 description: Activates the user shell program.
 old-location: security\wlxactivateusershell.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxActivateUserShell
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxActivateUserShell function

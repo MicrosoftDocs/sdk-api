@@ -4,17 +4,16 @@ title: BCryptEnumContexts function
 author: windows-sdk-content
 description: Obtains the identifiers of the contexts in the specified configuration table.
 old-location: security\bcryptenumcontexts.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 02646a80-6e93-4169-83da-0488ff3da56f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptEnumContexts, BCryptEnumContexts function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptEnumContexts, security.bcryptenumcontexts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptEnumContexts
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptEnumContexts function

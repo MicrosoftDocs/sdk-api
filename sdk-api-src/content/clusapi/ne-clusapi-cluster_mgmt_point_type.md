@@ -4,7 +4,7 @@ title: CLUSTER_MGMT_POINT_TYPE
 author: windows-sdk-content
 description: Specifies the type of the management point for the cluster.
 old-location: mscs\cluster_mgmt_point_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9A849D8E-EC04-470B-A72A-022213CDF92E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_MGMT_POINT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_MGMT_POINT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_MGMT_POINT_TYPE
+req.redist: 
 ---
 
 # CLUSTER_MGMT_POINT_TYPE enumeration

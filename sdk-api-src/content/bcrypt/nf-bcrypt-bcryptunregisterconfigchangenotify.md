@@ -4,17 +4,16 @@ title: BCryptUnregisterConfigChangeNotify function
 author: windows-sdk-content
 description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.
 old-location: security\bcryptunregisterconfigchangenotify_handle.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 204d289d-46c0-4815-a628-758310014790
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptUnregisterConfigChangeNotify
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptUnregisterConfigChangeNotify function

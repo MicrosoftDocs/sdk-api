@@ -4,17 +4,16 @@ title: EnumSystemLocalesEx function
 author: windows-sdk-content
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  The application should call this function in preference to EnumSystemLocales if designed to run only on Windows Vista and later.
 old-location: intl\enumsystemlocalesex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnumSystemLocalesEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumSystemLocalesEx function

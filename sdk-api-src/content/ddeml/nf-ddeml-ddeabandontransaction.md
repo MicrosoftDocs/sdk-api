@@ -4,17 +4,16 @@ title: DdeAbandonTransaction function
 author: windows-sdk-content
 description: Abandons the specified asynchronous transaction and releases all resources associated with the transaction.
 old-location: dataxchg\ddeabandontransaction.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeabandontransaction.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdeAbandonTransaction, DdeAbandonTransaction function [Data Exchange], _win32_DdeAbandonTransaction, _win32_ddeabandontransaction_cpp, dataxchg.ddeabandontransaction, ddeml/DdeAbandonTransaction, winui._win32_ddeabandontransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdeAbandonTransaction
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdeAbandonTransaction function

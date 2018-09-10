@@ -4,17 +4,16 @@ title: SetUrlCacheGroupAttributeW function
 author: windows-sdk-content
 description: Sets the attribute information of the specified cache group.
 old-location: wininet\seturlcachegroupattribute.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetUrlCacheGroupAttributeW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetUrlCacheGroupAttributeW function

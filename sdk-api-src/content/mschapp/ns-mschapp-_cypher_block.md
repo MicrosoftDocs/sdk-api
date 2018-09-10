@@ -4,7 +4,7 @@ title: "_CYPHER_BLOCK"
 author: windows-sdk-content
 description: The CYPHER_BLOCK is the basic unit of storage for the one-way function (OWF) password hashes.
 old-location: mschap\cypher_block.htm
-old-project: mschap
+tech.root: mschap
 ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mschapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CYPHER_BLOCK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CYPHER_BLOCK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CYPHER_BLOCK
+req.redist: 
 ---
 
 # _CYPHER_BLOCK structure

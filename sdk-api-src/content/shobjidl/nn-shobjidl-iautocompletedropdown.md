@@ -4,7 +4,7 @@ title: IAutoCompleteDropDown
 author: windows-sdk-content
 description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
 old-location: shell\IAutoCompleteDropDown.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Browseui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutoCompleteDropDown
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Browseui.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAutoCompleteDropDown interface

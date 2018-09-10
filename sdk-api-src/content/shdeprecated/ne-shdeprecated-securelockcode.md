@@ -4,7 +4,7 @@ title: SECURELOCKCODE
 author: windows-sdk-content
 description: Deprecated. This enumeration is used by the BASEBROWSERDATA structure to indicate the base browser's lock icon status.
 old-location: shell\SECURELOCK.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 36426bd3-d7c3-4636-99d6-2177f0b7fe3f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SECURELOCK
 product: Windows
 targetos: Windows
-req.lib: ShCore.lib
-req.dll: ShCore.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

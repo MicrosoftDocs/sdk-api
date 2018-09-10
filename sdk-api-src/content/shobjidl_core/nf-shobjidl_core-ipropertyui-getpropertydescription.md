@@ -4,17 +4,16 @@ title: IPropertyUI::GetPropertyDescription
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets the property description of a specified property.
 old-location: properties\IPropertyUI_GetPropertyDescription.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 47EAA768-BDAE-44de-AAD8-529E12761065
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetPropertyDescription method, IPropertyUI.GetPropertyDescription, IPropertyUI::GetPropertyDescription, _shell_IPropertyUI_GetPropertyDescription, properties.IPropertyUI_GetPropertyDescription, shell.IPropertyUI_GetPropertyDescription, shobjidl_core/IPropertyUI::GetPropertyDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyUI.GetPropertyDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyUI::GetPropertyDescription

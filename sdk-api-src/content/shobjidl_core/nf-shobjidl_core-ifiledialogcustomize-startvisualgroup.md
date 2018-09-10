@@ -4,17 +4,16 @@ title: IFileDialogCustomize::StartVisualGroup
 author: windows-sdk-content
 description: Declares a visual group in the dialog. Subsequent calls to any &#0034;add&#0034; method add those elements to this group.
 old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.StartVisualGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::StartVisualGroup

@@ -4,17 +4,16 @@ title: SetupDiDeleteDevRegKey function
 author: windows-sdk-content
 description: The SetupDiDeleteDevRegKey function deletes specified user-accessible registry keys that are associated with a device information element.
 old-location: devinst\setupdideletedevregkey.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 3b332291-0593-4750-9965-f6bf90ec8838
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiDeleteDevRegKey, SetupDiDeleteDevRegKey function [Device and Driver Installation], devinst.setupdideletedevregkey, di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml, setupapi/SetupDiDeleteDevRegKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiDeleteDevRegKey
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiDeleteDevRegKey function

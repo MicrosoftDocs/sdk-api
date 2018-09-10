@@ -4,17 +4,16 @@ title: IVisualProperties::SetItemHeight
 author: windows-sdk-content
 description: Sets the specified item height.
 old-location: shell\IVisualProperties_SetItemHeight.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ebd00a98-ea2b-4024-b911-7120d8307b54
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetItemHeight method, IVisualProperties.SetItemHeight, IVisualProperties::SetItemHeight, SetItemHeight, SetItemHeight method [Windows Shell], SetItemHeight method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetItemHeight, shell.IVisualProperties_SetItemHeight, shobjidl/IVisualProperties::SetItemHeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualProperties.SetItemHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualProperties::SetItemHeight

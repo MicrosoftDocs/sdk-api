@@ -4,17 +4,16 @@ title: IMbnDeviceService::WriteData
 author: windows-sdk-content
 description: Write data to a device service data session.
 old-location: mbn\imbndeviceservice_writedata.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: D2CD630B-FCD5-485D-84A6-B2A942842A1F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],WriteData method, IMbnDeviceService.WriteData, IMbnDeviceService::WriteData, WriteData, WriteData method [Microsoft Broadband Networks], WriteData method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_writedata, mbnapi/IMbnDeviceService::WriteData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService.WriteData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::WriteData

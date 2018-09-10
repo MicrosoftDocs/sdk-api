@@ -4,17 +4,16 @@ title: IWICBitmapEncoder::GetContainerFormat
 author: windows-sdk-content
 description: Retrieves the encoder's container format.
 old-location: wic\_wic_codec_iwicbitmapencoder_getcontainerformat.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 2d197321-0a89-49fd-b243-1d870c178b57
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapEncoder.GetContainerFormat, IWICBitmapEncoder::GetContainerFormat, _wic_codec_iwicbitmapencoder_getcontainerformat, wic._wic_codec_iwicbitmapencoder_getcontainerformat, wincodec/IWICBitmapEncoder::GetContainerFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapEncoder.GetContainerFormat
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapEncoder::GetContainerFormat

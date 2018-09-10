@@ -4,17 +4,16 @@ title: IMediaEvent::FreeEventParams
 author: windows-sdk-content
 description: The FreeEventParams method frees resources associated with the parameters of an event.
 old-location: dshow\imediaevent_freeeventparams.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d98f37a4-3482-4cf7-bede-c7e7be70652a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FreeEventParams, FreeEventParams method [DirectShow], FreeEventParams method [DirectShow],IMediaEvent interface, FreeEventParams method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],FreeEventParams method, IMediaEvent.FreeEventParams, IMediaEvent::FreeEventParams, IMediaEventEx interface [DirectShow],FreeEventParams method, IMediaEventEx::FreeEventParams, IMediaEventFreeEventParams, control/IMediaEvent::FreeEventParams, control/IMediaEventEx::FreeEventParams, dshow.imediaevent_freeeventparams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IMediaEventEx.FreeEventParams
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaEvent::FreeEventParams
@@ -66,7 +65,7 @@ The <code>FreeEventParams</code> method frees resources associated with the para
 
 ### -param lEvCode
 
-
+TBD
 
 
 ### -param lParam1 [in]

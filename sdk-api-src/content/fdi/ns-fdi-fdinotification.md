@@ -4,7 +4,7 @@ title: FDINOTIFICATION
 author: windows-sdk-content
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
 old-location: winprog\fdinotification.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FDINOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
+req.redist: 
 ---
 
 # FDINOTIFICATION structure

@@ -4,7 +4,7 @@ title: WICRawToneCurvePoint
 author: windows-sdk-content
 description: Represents a raw image tone curve point.
 old-location: wic\_wic_codec_wicrawtonecurvepoint.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c5fbcd25-2884-4313-93d5-c1f290de4a77
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICRawToneCurvePoint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICRawToneCurvePoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICRawToneCurvePoint
+req.redist: 
 ---
 
 # WICRawToneCurvePoint structure

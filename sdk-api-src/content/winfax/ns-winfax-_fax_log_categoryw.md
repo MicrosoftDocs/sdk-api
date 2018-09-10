@@ -4,7 +4,7 @@ title: "_FAX_LOG_CATEGORYW"
 author: windows-sdk-content
 description: The FAX_LOG_CATEGORY structure describes one logging category.
 old-location: fax\_mfax_fax_log_category_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1fn6.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_LOG_CATEGORYW, *PFAX_LOG_CATEGORYW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FAX_LOG_CATEGORYW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FAX_LOG_CATEGORYW, *PFAX_LOG_CATEGORYW
+req.redist: 
 ---
 
 # _FAX_LOG_CATEGORYW structure

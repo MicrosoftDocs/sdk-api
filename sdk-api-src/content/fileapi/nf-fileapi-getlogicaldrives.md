@@ -4,17 +4,16 @@ title: GetLogicalDrives function
 author: windows-sdk-content
 description: Retrieves a bitmask representing the currently available disk drives.
 old-location: fs\getlogicaldrives.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetLogicalDrives
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetLogicalDrives function

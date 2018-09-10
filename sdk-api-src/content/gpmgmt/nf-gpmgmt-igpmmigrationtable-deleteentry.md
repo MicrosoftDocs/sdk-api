@@ -4,17 +4,16 @@ title: IGPMMigrationTable::DeleteEntry
 author: windows-sdk-content
 description: Deletes an entry from the migration table.
 old-location: gpmc\igpmmigrationtable_deleteentry.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 712a6419-2f64-4657-993a-e7f6bfc1259e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeleteEntry, DeleteEntry method [GPMC], DeleteEntry method [GPMC],GPMMigrationTable class, DeleteEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],DeleteEntry method, IGPMMigrationTable interface [GPMC],DeleteEntry method, IGPMMigrationTable.DeleteEntry, IGPMMigrationTable::DeleteEntry, gpmc.igpmmigrationtable_deleteentry, gpmgmt/IGPMMigrationTable::DeleteEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.DeleteEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::DeleteEntry

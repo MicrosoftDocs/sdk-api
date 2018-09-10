@@ -4,17 +4,16 @@ title: ID3D10InfoQueue::GetRetrievalFilterStackSize
 author: windows-sdk-content
 description: Get the size of the retrieval-filter stack in bytes.
 old-location: direct3d10\id3d10infoqueue_getretrievalfilterstacksize.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getretrievalfilterstacksize.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [Direct3D 10], GetRetrievalFilterStackSize method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetRetrievalFilterStackSize method, ID3D10InfoQueue.GetRetrievalFilterStackSize, ID3D10InfoQueue::GetRetrievalFilterStackSize, bddf2f2d-336f-4fec-7c6a-30c33346bd46, d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilterStackSize, direct3d10.id3d10infoqueue_getretrievalfilterstacksize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10InfoQueue.GetRetrievalFilterStackSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10InfoQueue::GetRetrievalFilterStackSize

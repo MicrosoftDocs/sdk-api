@@ -4,17 +4,16 @@ title: NetFileClose function
 author: windows-sdk-content
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 old-location: fs\netfileclose.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetFileClose
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetFileClose function

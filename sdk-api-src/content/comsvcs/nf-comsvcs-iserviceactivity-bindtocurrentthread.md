@@ -4,17 +4,16 @@ title: IServiceActivity::BindToCurrentThread
 author: windows-sdk-content
 description: Binds the user-defined batch work to the current thread.
 old-location: cos\iserviceactivity_bindtocurrentthread.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],BindToCurrentThread method, IServiceActivity.BindToCurrentThread, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceActivity.BindToCurrentThread
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceActivity::BindToCurrentThread

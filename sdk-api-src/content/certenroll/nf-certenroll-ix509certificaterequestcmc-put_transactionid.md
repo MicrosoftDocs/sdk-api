@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::put_TransactionId
 author: windows-sdk-content
 description: Specifies or retrieves a transaction identifier that can be used to track a certificate request or response.
 old-location: security\ix509certificaterequestcmc_transactionid_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 0d47e4b6-47bb-4ec4-8248-f4c859e9b9da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],TransactionId property, IX509CertificateRequestCmc.TransactionId, IX509CertificateRequestCmc.put_TransactionId, IX509CertificateRequestCmc::TransactionId, IX509CertificateRequestCmc::get_TransactionId, IX509CertificateRequestCmc::put_TransactionId, TransactionId property [Security], TransactionId property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TransactionId, certenroll/IX509CertificateRequestCmc::get_TransactionId, certenroll/IX509CertificateRequestCmc::put_TransactionId, put_TransactionId, security.ix509certificaterequestcmc_transactionid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCmc.put_TransactionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::put_TransactionId

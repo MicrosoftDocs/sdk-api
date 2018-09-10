@@ -4,7 +4,7 @@ title: "_CRL_DIST_POINTS_INFO"
 author: windows-sdk-content
 description: Contains a list of certificate revocation list (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
 old-location: security\crl_dist_points_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_DIST_POINTS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO
+req.redist: 
 ---
 
 # _CRL_DIST_POINTS_INFO structure

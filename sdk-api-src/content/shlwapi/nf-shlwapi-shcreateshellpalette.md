@@ -4,17 +4,16 @@ title: SHCreateShellPalette function
 author: windows-sdk-content
 description: Creates a halftone palette for the specified device context.
 old-location: shell\SHCreateShellPalette.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 49afb04a-34e3-4696-a046-bc9308ae7adf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateShellPalette, SHCreateShellPalette function [Windows Shell], _win32_SHCreateShellPalette, shell.SHCreateShellPalette, shlwapi/SHCreateShellPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHCreateShellPalette
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateShellPalette function

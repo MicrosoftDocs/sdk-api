@@ -4,17 +4,16 @@ title: MprConfigInterfaceSetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.
 old-location: rras\mprconfiginterfacesetinfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprConfigInterfaceSetInfo, MprConfigInterfaceSetInfo function [RAS], _mpr_mprconfiginterfacesetinfo, mprapi/MprConfigInterfaceSetInfo, rras.mprconfiginterfacesetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigInterfaceSetInfo
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigInterfaceSetInfo function

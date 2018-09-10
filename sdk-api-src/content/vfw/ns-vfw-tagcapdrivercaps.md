@@ -4,7 +4,7 @@ title: tagCapDriverCaps
 author: windows-sdk-content
 description: The CAPDRIVERCAPS structure defines the capabilities of the capture driver.An application should use the WM_CAP_DRIVER_GET_CAPS message or capDriverGetCaps macro to place a copy of the driver capabilities in a CAPDRIVERCAPS structure whenever the application connects a capture window to a capture driver.
 old-location: multimedia\capdrivercaps.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 6d341be9-6b10-495b-803b-059ead1114cc
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CAPDRIVERCAPS, *PCAPDRIVERCAPS, *LPCAPDRIVERCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CAPDRIVERCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CAPDRIVERCAPS, *PCAPDRIVERCAPS, *LPCAPDRIVERCAPS
+req.redist: 
 ---
 
 # tagCapDriverCaps structure

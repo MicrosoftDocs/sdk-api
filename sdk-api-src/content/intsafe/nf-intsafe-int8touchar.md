@@ -4,17 +4,16 @@ title: Int8ToUChar function
 author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type UCHAR.
 old-location: shell\Int8ToUChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Int8ToUChar, Int8ToUChar function [Windows Shell], intsafe/Int8ToUChar, shell.Int8ToUChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Int8ToUChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # Int8ToUChar function

@@ -4,17 +4,16 @@ title: CryptXmlDigestReference function
 author: windows-sdk-content
 description: Is used by an application to digest the resolved reference. This function applies transforms before updating the digest.
 old-location: security\cryptxmldigestreference.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptXmlDigestReference
 product: Windows
 targetos: Windows
-req.lib: Cryptxml.lib
-req.dll: Cryptxml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptXmlDigestReference function

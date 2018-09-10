@@ -4,17 +4,16 @@ title: TcDeleteFlow function
 author: windows-sdk-content
 description: The TcDeleteFlow function deletes a flow that has been added with the TcAddFlow function. Clients should delete all filters associated with a flow before deleting it, otherwise, an error will be returned and the function will not delete the flow.
 old-location: qos\tcdeleteflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 6e62b55e-9919-44be-a9ae-f1319cc82d76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcDeleteFlow
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcDeleteFlow function

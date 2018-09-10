@@ -4,17 +4,16 @@ title: IMDSPObject::Open
 author: windows-sdk-content
 description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_open.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Open method, IMDSPObject.Open, IMDSPObject::Open, IMDSPObjectOpen, Open, Open method [windows Media Device Manager], Open method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Open
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Open

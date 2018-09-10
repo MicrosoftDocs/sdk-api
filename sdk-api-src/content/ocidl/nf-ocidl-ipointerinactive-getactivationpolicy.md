@@ -4,17 +4,16 @@ title: IPointerInactive::GetActivationPolicy
 author: windows-sdk-content
 description: Retrieves the current activation policy for the object. This method is called by the container on receipt of a WM_SETCURSOR or WM_MOUSEMOVE message when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_getactivationpolicy.htm
-old-project: com
+tech.root: com
 ms.assetid: bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPointerInactive.GetActivationPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPointerInactive::GetActivationPolicy

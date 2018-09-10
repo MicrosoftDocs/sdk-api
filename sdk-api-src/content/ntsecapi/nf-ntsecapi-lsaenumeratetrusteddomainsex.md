@@ -4,17 +4,16 @@ title: LsaEnumerateTrustedDomainsEx function
 author: windows-sdk-content
 description: Returns information about the domains trusted by the local system.
 old-location: security\lsaenumeratetrusteddomainsex.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaEnumerateTrustedDomainsEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaEnumerateTrustedDomainsEx function

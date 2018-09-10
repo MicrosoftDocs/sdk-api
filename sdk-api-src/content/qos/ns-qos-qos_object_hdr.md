@@ -4,7 +4,7 @@ title: QOS_OBJECT_HDR
 author: windows-sdk-content
 description: The QOS object QOS_OBJECT_HDR is attached to each QOS object. It specifies the object type and its length.
 old-location: qos\qos_object_hdr.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: a2021d70-e7ef-4c2a-8800-1a1d7540ce02
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_OBJECT_HDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
+req.redist: 
 ---
 
 # QOS_OBJECT_HDR structure

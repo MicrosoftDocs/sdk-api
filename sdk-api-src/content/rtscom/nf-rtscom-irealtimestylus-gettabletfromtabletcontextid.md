@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetTabletFromTabletContextId
 author: windows-sdk-content
 description: Retrieves an IInkTablet Interface for a specified tablet context.
 old-location: tablet\irealtimestylus_gettabletfromtabletcontextid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: be736eaf-8632-4e71-b1d8-c851a9d417e5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetTabletFromTabletContextId, GetTabletFromTabletContextId method [Tablet PC], GetTabletFromTabletContextId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletFromTabletContextId method, IRealTimeStylus.GetTabletFromTabletContextId, IRealTimeStylus::GetTabletFromTabletContextId, be736eaf-8632-4e71-b1d8-c851a9d417e5, rtscom/IRealTimeStylus::GetTabletFromTabletContextId, tablet.irealtimestylus_gettabletfromtabletcontextid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetTabletFromTabletContextId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetTabletFromTabletContextId

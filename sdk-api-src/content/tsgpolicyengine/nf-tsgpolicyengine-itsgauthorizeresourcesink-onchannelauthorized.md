@@ -4,17 +4,16 @@ title: ITSGAuthorizeResourceSink::OnChannelAuthorized
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITSGAuthorizeResourceSink interface [Remote Desktop Services],OnChannelAuthorized method, ITSGAuthorizeResourceSink.OnChannelAuthorized, ITSGAuthorizeResourceSink::OnChannelAuthorized, OnChannelAuthorized, OnChannelAuthorized method [Remote Desktop Services], OnChannelAuthorized method [Remote Desktop Services],ITSGAuthorizeResourceSink interface, termserv.itsgauthorizeresourcesink_onchannelauthorized, tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGAuthorizeResourceSink.OnChannelAuthorized
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGAuthorizeResourceSink::OnChannelAuthorized

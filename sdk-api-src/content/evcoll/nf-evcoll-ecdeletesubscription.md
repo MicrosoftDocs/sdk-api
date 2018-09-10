@@ -4,17 +4,16 @@ title: EcDeleteSubscription function
 author: windows-sdk-content
 description: Deletes an existing subscription.
 old-location: wec\ecdeletesubscription.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcDeleteSubscription
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcDeleteSubscription function

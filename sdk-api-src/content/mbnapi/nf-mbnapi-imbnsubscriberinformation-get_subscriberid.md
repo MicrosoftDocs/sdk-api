@@ -4,17 +4,16 @@ title: IMbnSubscriberInformation::get_SubscriberID
 author: windows-sdk-content
 description: The subscriber ID of the device.
 old-location: mbn\imbnsubscriberinformation_subscriberid.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 5ea22495-44b3-4b2b-8c7a-a012f9c99387
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SubscriberID property, IMbnSubscriberInformation.SubscriberID, IMbnSubscriberInformation.get_SubscriberID, IMbnSubscriberInformation::SubscriberID, IMbnSubscriberInformation::get_SubscriberID, SubscriberID property [Microsoft Broadband Networks], SubscriberID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SubscriberID, mbn.imbnsubscriberinformation_subscriberid, mbnapi/IMbnSubscriberInformation::SubscriberID, mbnapi/IMbnSubscriberInformation::get_SubscriberID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSubscriberInformation.get_SubscriberID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSubscriberInformation::get_SubscriberID

@@ -4,17 +4,16 @@ title: IPersistStreamInit::GetSizeMax
 author: windows-sdk-content
 description: Retrieves the size of the stream needed to save the object.
 old-location: com\ipersiststreaminit_getsizemax.htm
-old-project: com
+tech.root: com
 ms.assetid: 8413eeda-3867-4352-aefb-82579a4861f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStreamInit interface, IPersistStreamInit interface [COM],GetSizeMax method, IPersistStreamInit.GetSizeMax, IPersistStreamInit::GetSizeMax, _com_ipersiststreaminit_getsizemax, com.ipersiststreaminit_getsizemax, ocidl/IPersistStreamInit::GetSizeMax
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStreamInit.GetSizeMax
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStreamInit::GetSizeMax

@@ -4,17 +4,16 @@ title: IAsyncInfo::Cancel
 author: windows-sdk-content
 description: Requests cancellation of the asynchronous operation already in progress.
 old-location: winrt\iasyncinfo_cancel.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cancel, Cancel method [Windows Runtime], Cancel method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Cancel method, IAsyncInfo.Cancel, IAsyncInfo::Cancel, asyncinfo/IAsyncInfo::Cancel, winrt.iasyncinfo_cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAsyncInfo.Cancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAsyncInfo::Cancel

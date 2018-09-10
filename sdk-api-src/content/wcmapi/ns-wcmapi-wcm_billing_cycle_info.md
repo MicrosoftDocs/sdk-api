@@ -4,7 +4,7 @@ title: WCM_BILLING_CYCLE_INFO
 author: windows-sdk-content
 description: Specifies information about the billing cycle.
 old-location: wcm\wcm_billing_cycle_info.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: 5cfcdfb7-aa33-4582-ba17-e1a305b830f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_BILLING_CYCLE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_BILLING_CYCLE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_BILLING_CYCLE_INFO
+req.redist: 
 ---
 
 # WCM_BILLING_CYCLE_INFO structure

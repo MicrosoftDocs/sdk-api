@@ -4,17 +4,16 @@ title: VarI4FromCy function
 author: windows-sdk-content
 description: Converts a currency value to a long value.
 old-location: automat\vari4fromcy.htm
-old-project: automat
+tech.root: automat
 ms.assetid: fb5905f1-af15-4ab6-8c7a-b316709f0870
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI4FromCy, VarI4FromCy function [Automation], _oa96_VarI4FromCy, automat.vari4fromcy, oleauto/VarI4FromCy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI4FromCy
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI4FromCy function

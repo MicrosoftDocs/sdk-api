@@ -4,17 +4,16 @@ title: IXAudio2::CreateMasteringVoice
 author: windows-sdk-content
 description: Creates and configures a mastering voice.
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateMasteringVoice, CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateMasteringVoice method, IXAudio2.CreateMasteringVoice, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2.CreateMasteringVoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2::CreateMasteringVoice
@@ -67,7 +65,7 @@ Creates and configures a mastering voice.
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

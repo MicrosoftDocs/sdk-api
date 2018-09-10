@@ -4,17 +4,16 @@ title: MsiGetMode function
 author: windows-sdk-content
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 45827df5-3f3f-4fb9-bdfe-38dc78a45321
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MSIRUNMODE_ADMIN, MSIRUNMODE_ADVERTISE, MSIRUNMODE_CABINET, MSIRUNMODE_COMMIT, MSIRUNMODE_LOGENABLED, MSIRUNMODE_MAINTENANCE, MSIRUNMODE_OPERATIONS, MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MSIRUNMODE_RESERVED11, MSIRUNMODE_RESERVED14, MSIRUNMODE_RESERVED15, MSIRUNMODE_ROLLBACK, MSIRUNMODE_ROLLBACKENABLED, MSIRUNMODE_SCHEDULED, MSIRUNMODE_SOURCESHORTNAMES, MSIRUNMODE_TARGETSHORTNAMES, MSIRUNMODE_WINDOWS9X, MSIRUNMODE_ZAWENABLED, MsiGetMode, MsiGetMode function, _msi_msigetmode, msiquery/MsiGetMode, setup.msigetmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MsiGetMode
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiGetMode function

@@ -4,17 +4,16 @@ title: WdsBpInitialize function
 author: windows-sdk-content
 description: Constructs options for the WDS network boot program.
 old-location: wds\wdsbpinitialize.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: a77cbdf5-9025-4e98-8edd-1b9bae8493e7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpInitialize, WdsBpInitialize function [Windows Deployment Services], wds.wdsbpinitialize, wdsbp/WdsBpInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsBpInitialize
 product: Windows
 targetos: Windows
-req.lib: Wdsbp.lib
-req.dll: Wdsbp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsBpInitialize function

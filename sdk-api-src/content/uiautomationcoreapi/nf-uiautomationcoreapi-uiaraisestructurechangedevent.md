@@ -4,17 +4,16 @@ title: UiaRaiseStructureChangedEvent function
 author: windows-sdk-content
 description: Called by a provider to notify the Microsoft UI Automation core that the tree structure has changed.
 old-location: winauto\uiauto_UiaRaiseStructureChangedEventFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UiaRaiseStructureChangedEvent
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaRaiseStructureChangedEvent function

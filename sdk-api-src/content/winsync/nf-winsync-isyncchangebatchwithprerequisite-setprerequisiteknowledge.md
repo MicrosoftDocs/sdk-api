@@ -4,17 +4,16 @@ title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
 author: windows-sdk-content
 description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge

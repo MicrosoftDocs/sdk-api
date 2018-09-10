@@ -4,17 +4,16 @@ title: ITfLangBarItemSink::OnUpdate
 author: windows-sdk-content
 description: ITfLangBarItemSink::OnUpdate method
 old-location: tsf\itflangbaritemsink_onupdate.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemSink interface [Text Services Framework],OnUpdate method, ITfLangBarItemSink.OnUpdate, ITfLangBarItemSink::OnUpdate, OnUpdate, OnUpdate method [Text Services Framework], OnUpdate method [Text Services Framework],ITfLangBarItemSink interface, _tsf_itflangbaritemsink_onupdate_ref, ctfutb/ITfLangBarItemSink::OnUpdate, tsf.itflangbaritemsink_onupdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemSink.OnUpdate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemSink::OnUpdate

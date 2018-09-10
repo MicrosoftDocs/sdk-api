@@ -4,17 +4,16 @@ title: IAMParse::SetParseTime
 author: windows-sdk-content
 description: The SetParseTime method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_setparsetime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 52c53994-7cb7-4f50-a00d-87faa309c717
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amparse.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMParse.SetParseTime
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMParse::SetParseTime
@@ -65,7 +64,7 @@ The <code>SetParseTime</code> method sets the current stream parse time. For MPE
 
 ### -param rtCurrent
 
-
+TBD
 
 
 

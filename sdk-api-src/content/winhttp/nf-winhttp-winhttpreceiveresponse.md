@@ -4,17 +4,16 @@ title: WinHttpReceiveResponse function
 author: windows-sdk-content
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpReceiveResponse
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WinHttpReceiveResponse function

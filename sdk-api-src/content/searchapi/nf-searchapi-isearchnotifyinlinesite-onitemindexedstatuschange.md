@@ -4,17 +4,16 @@ title: ISearchNotifyInlineSite::OnItemIndexedStatusChange
 author: windows-sdk-content
 description: Called by the search service to notify the client when the status of a particular document or item changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchNotifyInlineSite.OnItemIndexedStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchNotifyInlineSite::OnItemIndexedStatusChange

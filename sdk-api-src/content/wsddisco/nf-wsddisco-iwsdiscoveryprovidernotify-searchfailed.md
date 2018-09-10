@@ -4,17 +4,16 @@ title: IWSDiscoveryProviderNotify::SearchFailed
 author: windows-sdk-content
 description: Is called to indicate a user initiated search has failed.
 old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscoveryProviderNotify.SearchFailed, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed, SearchFailed method, SearchFailed method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryProviderNotify.SearchFailed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryProviderNotify::SearchFailed

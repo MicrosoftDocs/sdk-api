@@ -4,17 +4,16 @@ title: SCardLocateCardsW function
 author: windows-sdk-content
 description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result.
 old-location: security\scardlocatecards.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCardLocateCards, SCardLocateCards function [Security], SCardLocateCardsA, SCardLocateCardsW, _smart_scardlocatecards, security.scardlocatecards, winscard/SCardLocateCards, winscard/SCardLocateCardsA, winscard/SCardLocateCardsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardLocateCardsW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardLocateCardsW function

@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::SetTag
 author: windows-sdk-content
 description: Sets the tag for the storyboard.
 old-location: uianimation\iuianimationstoryboard2_settag.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 9BEB2BF7-55F7-43F7-822C-CB4AC6F29E32
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetTag method, IUIAnimationStoryboard2.SetTag, IUIAnimationStoryboard2::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_settag, uianimation/IUIAnimationStoryboard2::SetTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.SetTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::SetTag

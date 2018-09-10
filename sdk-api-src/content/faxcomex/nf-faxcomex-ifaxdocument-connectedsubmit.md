@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxDocument.ConnectedSubmit
 title: IFaxDocument::ConnectedSubmit
 author: windows-sdk-content
-description: The ConnectedSubmit method submits a single fax document to the connected FaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
-old-location: fax\_mfax_faxdocument_connectedsubmit.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_5cfo.htm
+description: The IFaxDocument::ConnectedSubmit method submits a single fax document to the connected IFaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
+old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],FaxDocument object, FaxDocument object [Fax Service],ConnectedSubmit method, FaxDocument.ConnectedSubmit, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit, fax._mfax_faxdocument_connectedsubmit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],ConnectedSubmit method, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDocument.ConnectedSubmit
  - IFaxDocument.ConnectedSubmit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDocument::ConnectedSubmit
@@ -53,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>ConnectedSubmit</b> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
+The <b>IFaxDocument::ConnectedSubmit</b> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
 
 
 ## -parameters
@@ -61,32 +58,34 @@ The <b>ConnectedSubmit</b> method submits a single fax document to the connected
 
 
 
-### -param pFaxServer
+### -param pFaxServer [in]
 
+Type: <b>IFaxServer*</b>
 
+An <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a> interface that specifies a connected fax server.
 
 
 ### -param pvFaxOutgoingJobIDs
 
+TBD
 
 
 
 
+#### - pvFaxOutgoingJobIds [out, retval]
 
-#### - FaxServer [in]
+Type: <b>VARIANT*</b>
 
-Type: <b>FaxServer*</b>
-
-A <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object that specifies a connected fax server.
+<b>VARIANT</b> that holds an array of outbound job ID strings, one for each recipient of the fax.
 
 
 ## -returns
 
 
 
-Type: <b>Variant*</b>
+Type: <b>HRESULT</b>
 
-<b>Variant</b> that holds an array of outbound job ID strings, one for each recipient of the fax.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -95,21 +94,17 @@ Type: <b>Variant*</b>
 
 
 
-<div class="alert"><b>Note</b>  To succeed, the <b>ConnectedSubmit</b> method requires that the <a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
+<div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument::ConnectedSubmit</b> method requires that the <a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_HIGH</a> access right, depending on the <a href="https://msdn.microsoft.com/e3dc385d-51e6-4174-b1a5-ff48bde19995">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_HIGH</a> access right, depending on the <a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">IFaxDocument::get_Priority</a> of the fax document.
 
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 

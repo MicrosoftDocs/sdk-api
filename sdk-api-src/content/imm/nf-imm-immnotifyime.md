@@ -4,17 +4,16 @@ title: ImmNotifyIME function
 author: windows-sdk-content
 description: Notifies the IME about changes to the status of the input context.
 old-location: intl\immnotifyime.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, ImmNotifyIME function [Internationalization for Windows Applications], NI_CHANGECANDIDATELIST, NI_CLOSECANDIDATE, NI_COMPOSITIONSTR, NI_IMEMENUSELECTED, NI_OPENCANDIDATE, NI_SELECTCANDIDATESTR, NI_SETCANDIDATE_PAGESIZE, NI_SETCANDIDATE_PAGESTART, _win32_ImmNotifyIME, imm/ImmNotifyIME, intl.immnotifyime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmNotifyIME
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmNotifyIME function

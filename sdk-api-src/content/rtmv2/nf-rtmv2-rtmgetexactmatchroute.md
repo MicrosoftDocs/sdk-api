@@ -4,17 +4,16 @@ title: RtmGetExactMatchRoute function
 author: windows-sdk-content
 description: The RtmGetExactMatchRoute function searches the routing table for a route that exactly matches the specified route.
 old-location: rras\rtmgetexactmatchroute.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 5fc9cde7-9912-409f-85ee-c775b4d6ddc0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RtmGetExactMatchRoute, RtmGetExactMatchRoute function [RAS], _rtmv2ref_rtmgetexactmatchroute, rras.rtmgetexactmatchroute, rtmv2/RtmGetExactMatchRoute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetExactMatchRoute
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetExactMatchRoute function

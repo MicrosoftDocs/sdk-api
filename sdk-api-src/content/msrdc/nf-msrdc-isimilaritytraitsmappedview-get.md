@@ -4,17 +4,16 @@ title: ISimilarityTraitsMappedView::Get
 author: windows-sdk-content
 description: Returns information about the mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_get.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 57542583-528e-49cb-9ece-f49ecfc6b1cd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Get, Get method [Remote Differential Compression], Get method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Get method, ISimilarityTraitsMappedView.Get, ISimilarityTraitsMappedView::Get, fs.isimilaritytraitsmappedview_get, msrdc/ISimilarityTraitsMappedView::Get, rdc.isimilaritytraitsmappedview_get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMappedView.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMappedView::Get
@@ -62,7 +60,7 @@ Returns information about the mapped view of a similarity traits table file.
 
 ### -param index
 
-
+TBD
 
 
 ### -param dirty [in]

@@ -4,17 +4,16 @@ title: FreeIDListArray function
 author: windows-sdk-content
 description: Frees the memory used by an pointer to an item identifier list (PIDL) list array.
 old-location: shell\FreeIDListArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 42496da6-452e-45cb-9061-74eba95aff7e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FreeIDListArray, FreeIDListArray function [Windows Shell], _shell_FreeIDListArray, shell.FreeIDListArray, shobjidl_core/FreeIDListArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeIDListArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # FreeIDListArray function

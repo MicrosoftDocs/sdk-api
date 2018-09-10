@@ -4,17 +4,16 @@ title: ISyncMgrHandlerInfo::IsEnabled
 author: windows-sdk-content
 description: Gets a value that indicates whether the handler is enabled.
 old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandlerInfo.IsEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandlerInfo::IsEnabled

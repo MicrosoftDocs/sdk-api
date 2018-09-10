@@ -1,0 +1,113 @@
+---
+UID: NF:directxmath.XMColorNegative
+title: XMColorNegative function
+author: windows-sdk-content
+description: Determines the negative RGB color value of a color.
+old-location: dxmath\xmcolornegative.htm
+tech.root: dxmath
+ms.assetid: M:Microsoft.directx_sdk.color.XMColorNegative(XMVECTOR)
+ms.author: windowssdkdev
+ms.date: 07/30/2018
+ms.keywords: Use DirectX..XMColorNegative, XMColorNegative, XMColorNegative method [DirectX Math Support APIs], dxmath.xmcolornegative
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: directxmath.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: Use DirectX.
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMColorNegative
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# XMColorNegative function
+
+
+## -description
+
+
+Determines the negative RGB color value of a color.
+
+
+## -parameters
+
+
+
+
+### -param C [in]
+
+<b>XMVECTOR</b> describing the color. Each of the components of <i>C</i> should be in the range 0.0f to 1.0f.
+
+
+## -returns
+
+
+
+Returns an <b>XMVECTOR</b> describing the negative color. The w-component (alpha) is copied unmodified from the input vector.
+
+
+
+
+## -remarks
+
+
+
+The following pseudocode shows you the operation of the function.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR colorOut;
+
+colorOut.x = 1.0f - C.x;
+colorOut.y = 1.0f - C.y;
+colorOut.z = 1.0f - C.z;
+colorOut.w = C.w;
+
+return colorOut;</pre>
+</td>
+</tr>
+</table></span></div>
+<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
+Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/857e2aed-d082-d990-1c67-e22ce3d07310">DirectXMath Library Color Functions</a>
+ 
+
+ 
+

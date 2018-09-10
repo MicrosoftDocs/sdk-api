@@ -4,7 +4,7 @@ title: "_COPP_ImageAspectRatio_EN300294"
 author: windows-sdk-content
 description: Specifies the aspect ratio for EN 300 294.
 old-location: dshow\copp_imageaspectratio_en300294.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9beb172c-6255-482b-90cc-a32b2e5d3bec
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_ImageAspectRatio_EN300294
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_ImageAspectRatio_EN300294
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_ImageAspectRatio_EN300294
+req.redist: 
 ---
 
 # _COPP_ImageAspectRatio_EN300294 enumeration

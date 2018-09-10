@@ -4,17 +4,16 @@ title: SetupDiCallClassInstaller function
 author: windows-sdk-content
 description: The SetupDiCallClassInstaller function calls the appropriate class installer, and any registered co-installers, with the specified installation request (DIF code).
 old-location: devinst\setupdicallclassinstaller.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 2aa631c3-8d00-4309-a37c-efaa7eda3efa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiCallClassInstaller, SetupDiCallClassInstaller function [Device and Driver Installation], devinst.setupdicallclassinstaller, di-rtns_eff914b0-a2db-4eb5-a9b8-f2990efcf252.xml, setupapi/SetupDiCallClassInstaller
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupDiCallClassInstaller
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiCallClassInstaller function

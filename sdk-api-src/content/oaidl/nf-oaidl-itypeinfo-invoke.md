@@ -4,17 +4,16 @@ title: ITypeInfo::Invoke
 author: windows-sdk-content
 description: Invokes a method, or accesses a property of an object, that implements the interface described by the type description.
 old-location: automat\itypeinfo_invoke.htm
-old-project: automat
+tech.root: automat
 ms.assetid: dde2ca58-84bd-4a49-a160-a9955d691f3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, ITypeInfo interface [Automation],Invoke method, ITypeInfo.Invoke, ITypeInfo2.Invoke, ITypeInfo::Invoke, Invoke, Invoke method [Automation], Invoke method [Automation],ITypeInfo interface, _oa96_ITypeInfo_Invoke, automat.itypeinfo_invoke, oaidl/ITypeInfo::Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITypeInfo2.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::Invoke

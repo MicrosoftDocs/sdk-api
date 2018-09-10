@@ -4,17 +4,16 @@ title: IWICBitmapCodecInfo::GetContainerFormat
 author: windows-sdk-content
 description: Retrieves the container GUID associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcontainerformat.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 164952ae-95ea-43b1-872c-088b2c1c65c8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapCodecInfo.GetContainerFormat, IWICBitmapCodecInfo::GetContainerFormat, _wic_codec_iwicbitmapcodecinfo_getcontainerformat, wic._wic_codec_iwicbitmapcodecinfo_getcontainerformat, wincodec/IWICBitmapCodecInfo::GetContainerFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapCodecInfo.GetContainerFormat
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapCodecInfo::GetContainerFormat

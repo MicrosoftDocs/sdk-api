@@ -4,17 +4,16 @@ title: ListView_SortItemsEx macro
 author: windows-sdk-content
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the LVM_SORTITEMSEX message explicitly.
 old-location: controls\ListView_SortItemsEx.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitemsex.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListView_SortItemsEx, ListView_SortItemsEx macro [Windows Controls], _win32_ListView_SortItemsEx, _win32_ListView_SortItemsEx_cpp, commctrl/ListView_SortItemsEx, controls.ListView_SortItemsEx, controls._win32_ListView_SortItemsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_SortItemsEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_SortItemsEx macro

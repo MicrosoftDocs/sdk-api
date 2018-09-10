@@ -4,7 +4,7 @@ title: FAX_ACCOUNT_EVENTS_TYPE_ENUM
 author: windows-sdk-content
 description: Specifies the types of event notifications, on a particular account, that the server sends to listening clients.
 old-location: fax\_mfax_fax_account_events_type_enum.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\e\faxinto_z_fax_account_events_type_enum.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ACCOUNT_EVENTS_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_ACCOUNT_EVENTS_TYPE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_ACCOUNT_EVENTS_TYPE_ENUM
+req.redist: 
 ---
 
 # FAX_ACCOUNT_EVENTS_TYPE_ENUM enumeration

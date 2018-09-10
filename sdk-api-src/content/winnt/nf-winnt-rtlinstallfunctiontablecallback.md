@@ -4,17 +4,16 @@ title: RtlInstallFunctionTableCallback function
 author: windows-sdk-content
 description: Adds a dynamic function table to the dynamic function table list.
 old-location: base\rtlinstallfunctiontablecallback.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - RtlInstallFunctionTableCallback
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 

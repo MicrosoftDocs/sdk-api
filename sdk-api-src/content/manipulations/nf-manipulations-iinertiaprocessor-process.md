@@ -4,17 +4,16 @@ title: IInertiaProcessor::Process
 author: windows-sdk-content
 description: The Process method performs calculations and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_process.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: f63cafa0-0da6-46ba-91d3-956dc804dd79
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Process method, IInertiaProcessor.Process, IInertiaProcessor::Process, Process, Process method [Windows Touch], Process method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInertiaProcessor.Process
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::Process

@@ -4,17 +4,16 @@ title: IWSDOutboundAttachment::Write
 author: windows-sdk-content
 description: Sends attachment data to the remote host using a MIME container.
 old-location: ncd\iwsdoutboundattachment_write_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDOutboundAttachment.Write
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDOutboundAttachment::Write
@@ -72,7 +70,7 @@ Number of bytes to send to the remote host from <i>pBuffer</i>.
 
 ### -param pdwNumberOfBytesWritten
 
-
+TBD
 
 
 

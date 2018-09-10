@@ -4,7 +4,7 @@ title: CLUSTER_PROPERTY_FORMAT
 author: windows-sdk-content
 description: Specifies the data type of a property value in a property list.
 old-location: mscs\cluster_property_format.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a5e06aaf-96ef-41e9-ab73-c0edc8f34d12
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_PROPERTY_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_PROPERTY_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_PROPERTY_FORMAT
+req.redist: 
 ---
 
 # CLUSTER_PROPERTY_FORMAT enumeration

@@ -4,17 +4,16 @@ title: IVdsController::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the controller belongs.
 old-location: base\ivdscontroller_getsubsystem.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8635d594-b58a-4ee1-9966-1340d954da81
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsController interface, IVdsController interface [VDS],GetSubSystem method, IVdsController.GetSubSystem, IVdsController::GetSubSystem, base.ivdscontroller_getsubsystem, vds/IVdsController::GetSubSystem, vdshwprv/IVdsController::GetSubSystem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsController.GetSubSystem
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsController::GetSubSystem

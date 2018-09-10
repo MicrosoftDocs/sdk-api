@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_SEARCH_INFO"
 author: windows-sdk-content
 description: The DHCP_SEARCH_INFO structure defines the DHCP client record data used to search against for particular server operations.
 old-location: dhcp\dhcp_search_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3c6f85d7-c156-4379-bad9-0705698f12e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SEARCH_INFO, *LPDHCP_SEARCH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SEARCH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SEARCH_INFO, *LPDHCP_SEARCH_INFO
+req.redist: 
 ---
 
 # _DHCP_CLIENT_SEARCH_INFO structure

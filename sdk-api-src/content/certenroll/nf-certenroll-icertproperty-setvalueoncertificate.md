@@ -4,17 +4,16 @@ title: ICertProperty::SetValueOnCertificate
 author: windows-sdk-content
 description: Associates a property value with an existing certificate.
 old-location: security\icertproperty_setvalueoncertificate_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperty.SetValueOnCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperty::SetValueOnCertificate

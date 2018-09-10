@@ -4,17 +4,16 @@ title: RpcBindingToStringBindingA function
 author: windows-sdk-content
 description: The RpcBindingToStringBinding function returns a string representation of a binding handle.
 old-location: rpc\rpcbindingtostringbinding.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcBindingToStringBinding, RpcBindingToStringBinding function [RPC], RpcBindingToStringBindingA, RpcBindingToStringBindingW, _rpc_rpcbindingtostringbinding, rpc.rpcbindingtostringbinding, rpcdce/RpcBindingToStringBinding, rpcdce/RpcBindingToStringBindingA, rpcdce/RpcBindingToStringBindingW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcBindingToStringBindingW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingToStringBindingA function
@@ -131,7 +129,7 @@ The RPC run-time library allocates memory for the string returned in the <i>Stri
 <a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function to deallocate that memory.
 
 If the binding handle in the <i>Binding</i> parameter contained a nil object 
-<a href="https://msdn.microsoft.com/">UUID</a>, the object UUID field is not included in the returned string.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>, the object UUID field is not included in the returned string.
 
 To parse the returned <i>StringBinding</i> parameter, call the 
 <a href="https://msdn.microsoft.com/c55d0259-e251-42d0-8565-ce71ab3bb59c">RpcStringBindingParse</a> function.

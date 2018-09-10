@@ -4,17 +4,16 @@ title: IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 author: windows-sdk-content
 description: The get_VCRHorizontalLocking method indicates whether the decoder is expecting video from a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_get_vcrhorizontallocking.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0b527578-1840-4cb1-b94b-9be27b40fcf4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_VCRHorizontalLocking method, IAMAnalogVideoDecoder.get_VCRHorizontalLocking, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAnalogVideoDecoder::get_VCRHorizontalLocking

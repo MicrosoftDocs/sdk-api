@@ -4,7 +4,7 @@ title: WS_SERVICE_CLOSE_CHANNEL_CALLBACK
 author: windows-sdk-content
 description: Invoked when a channel is closed or aborted on an endpoint.
 old-location: wsw\ws_service_close_channel_callback.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e2860015-219b-46be-921d-7ced0d95fc60
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SERVICE_CLOSE_CHANNEL_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function

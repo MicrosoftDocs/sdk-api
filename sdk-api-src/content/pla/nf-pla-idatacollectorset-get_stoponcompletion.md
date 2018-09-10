@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_StopOnCompletion
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 old-location: pla\idatacollectorset_stoponcompletion.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],StopOnCompletion property, IDataCollectorSet.StopOnCompletion, IDataCollectorSet.get_StopOnCompletion, IDataCollectorSet::StopOnCompletion, IDataCollectorSet::get_StopOnCompletion, IDataCollectorSet::put_StopOnCompletion, StopOnCompletion property [PLA], StopOnCompletion property [PLA],IDataCollectorSet interface, get_StopOnCompletion, pla.idatacollectorset_stoponcompletion, pla/IDataCollectorSet::StopOnCompletion, pla/IDataCollectorSet::get_StopOnCompletion, pla/IDataCollectorSet::put_StopOnCompletion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_StopOnCompletion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_StopOnCompletion

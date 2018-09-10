@@ -4,7 +4,7 @@ title: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
 author: windows-sdk-content
 description: Makes the current contents of the sample buffer available to the engine adapter.
 old-location: secbiomet\sensoradapterpushdatatoengine.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SensorAdapterPushDataToEngine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback function

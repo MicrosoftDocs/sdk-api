@@ -4,7 +4,7 @@ title: "_DXVA_COPPStatusHDCPKeyData"
 author: windows-sdk-content
 description: Contains the result from an HDCP Key Data query in Certified Output Protection Protocol (COPP). This query returns the device's HDCP key selection vector (KSV).
 old-location: dshow\dxva_coppstatushdcpkeydata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fd49c50d-6caa-4d2a-83c6-41ff0130160f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA_COPPStatusHDCPKeyData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA_COPPStatusHDCPKeyData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA_COPPStatusHDCPKeyData
+req.redist: 
 ---
 
 # _DXVA_COPPStatusHDCPKeyData structure

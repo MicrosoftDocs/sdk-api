@@ -4,17 +4,16 @@ title: IServiceTransactionConfigBase::NewTransactionDescription
 author: windows-sdk-content
 description: Sets the name that is used when transaction statistics are displayed.
 old-location: cos\iservicetransactionconfigbase_newtransactiondescription.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ecdc160b-168d-48f4-bbe3-46d654ee8607
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],NewTransactionDescription method, IServiceTransactionConfigBase.NewTransactionDescription, IServiceTransactionConfigBase::NewTransactionDescription, NewTransactionDescription, NewTransactionDescription method [COM+], NewTransactionDescription method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_NewTransactionDescription, comsvcs/IServiceTransactionConfigBase::NewTransactionDescription, cos.iservicetransactionconfigbase_newtransactiondescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceTransactionConfigBase.NewTransactionDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceTransactionConfigBase::NewTransactionDescription

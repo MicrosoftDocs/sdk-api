@@ -4,17 +4,16 @@ title: IADsUser::SetPassword
 author: windows-sdk-content
 description: Sets the user password to a specified value.
 old-location: adsi\iadsuser_setpassword.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsUser.SetPassword
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsUser::SetPassword
@@ -65,7 +63,7 @@ The WinNT provider, however, enables you to set the password on a newly created 
 
 ### -param NewPassword
 
-
+TBD
 
 
 

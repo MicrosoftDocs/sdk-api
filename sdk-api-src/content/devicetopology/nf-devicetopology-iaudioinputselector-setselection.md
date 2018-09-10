@@ -4,17 +4,16 @@ title: IAudioInputSelector::SetSelection
 author: windows-sdk-content
 description: The SetSelection method selects one of the inputs of the input selector.
 old-location: coreaudio\iaudioinputselector_setselection.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: b6291447-d3a9-4bc7-808c-9427e1642752
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioInputSelector interface [Core Audio],SetSelection method, IAudioInputSelector.SetSelection, IAudioInputSelector::SetSelection, IAudioInputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioInputSelector interface, coreaudio.iaudioinputselector_setselection, devicetopology/IAudioInputSelector::SetSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioInputSelector.SetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioInputSelector::SetSelection

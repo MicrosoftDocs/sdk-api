@@ -4,7 +4,7 @@ title: "_JAVA_TRUST"
 author: windows-sdk-content
 description: Contains trust information.
 old-location: winprog\java_trust.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: capi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CameraUIControl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JAVA_TRUST, *PJAVA_TRUST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - JAVA_TRUST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: JAVA_TRUST, *PJAVA_TRUST
+req.redist: 
 ---
 
 # _JAVA_TRUST structure

@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamBase::Reset
 author: windows-sdk-content
 description: Reset a stopped audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_reset.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset method, ISpatialAudioObjectRenderStreamBase.Reset, ISpatialAudioObjectRenderStreamBase::Reset, Reset, Reset method [Core Audio], Reset method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_reset, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamBase.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Reset

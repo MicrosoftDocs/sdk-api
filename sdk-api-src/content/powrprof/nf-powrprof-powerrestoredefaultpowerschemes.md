@@ -4,17 +4,16 @@ title: PowerRestoreDefaultPowerSchemes function
 author: windows-sdk-content
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
 old-location: base\powerrestoredefaultpowerschemes.htm
-old-project: power
+tech.root: power
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PowerRestoreDefaultPowerSchemes
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerRestoreDefaultPowerSchemes function

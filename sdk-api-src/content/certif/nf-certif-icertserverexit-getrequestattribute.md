@@ -4,17 +4,16 @@ title: ICertServerExit::GetRequestAttribute
 author: windows-sdk-content
 description: Returns a named attribute value from a request.
 old-location: security\icertserverexit_getrequestattribute.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.GetRequestAttribute
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::GetRequestAttribute

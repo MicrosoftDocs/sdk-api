@@ -4,17 +4,16 @@ title: IOleControlSite::TranslateAccelerator
 author: windows-sdk-content
 description: Passes a keystroke to the control site for processing.
 old-location: com\iolecontrolsite_translateaccelerator.htm
-old-project: com
+tech.root: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.TranslateAccelerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::TranslateAccelerator

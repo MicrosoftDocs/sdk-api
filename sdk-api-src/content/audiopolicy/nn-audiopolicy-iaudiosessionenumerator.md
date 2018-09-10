@@ -4,7 +4,7 @@ title: IAudioSessionEnumerator
 author: windows-sdk-content
 description: The IAudioSessionEnumerator interface enumerates audio sessions on an audio device.
 old-location: coreaudio\iaudiosessionenumerator.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a7976d13-3391-4747-b83a-cfb9407b34f2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEnumerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEnumerator interface

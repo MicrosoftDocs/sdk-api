@@ -4,7 +4,7 @@ title: ICredentialProviderSetUserArray
 author: windows-sdk-content
 description: Provides a method that enables a credential provider to receive the set of users that will be shown in the logon or credential UI.
 old-location: shell\ICredentialProviderSetUserArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 85422EF5-8A8E-4e14-BD32-953C31A9D401
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderSetUserArray
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderSetUserArray interface

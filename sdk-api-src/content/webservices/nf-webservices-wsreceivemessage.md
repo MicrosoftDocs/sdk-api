@@ -4,17 +4,16 @@ title: WsReceiveMessage function
 author: windows-sdk-content
 description: Receive a message and deserialize the body of the message as a value.
 old-location: wsw\wsreceivemessage.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3976c02c-d052-4eae-b675-edd317ac6464
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReceiveMessage
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReceiveMessage function

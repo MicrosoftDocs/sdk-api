@@ -4,17 +4,16 @@ title: ICreateDeviceAccessAsync::Close
 author: windows-sdk-content
 description: The Close method performs cleanup after the asynchronous operation is completed and you retrieve the results.
 old-location: deviceaccess\icreatedeviceaccessasync_close.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 58887745-6a36-4600-9a1b-f9709a0e37e8
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Close, Close method [Device Access Broker API], Close method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Close method, ICreateDeviceAccessAsync.Close, ICreateDeviceAccessAsync::Close, deviceaccess.icreatedeviceaccessasync_close, deviceaccess/ICreateDeviceAccessAsync::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICreateDeviceAccessAsync.Close
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateDeviceAccessAsync::Close

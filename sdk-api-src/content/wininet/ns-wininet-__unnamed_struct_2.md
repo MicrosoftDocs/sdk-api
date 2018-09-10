@@ -4,7 +4,7 @@ title: InternetCookieHistory
 author: windows-sdk-content
 description: The InternetCookieHistory structure contains the cookie history.
 old-location: wininet\internetcookiehistory.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieHistory
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InternetCookieHistory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: InternetCookieHistory
+req.redist: 
 ---
 
 # InternetCookieHistory structure

@@ -4,17 +4,16 @@ title: IMFAudioStreamVolume::GetAllVolumes
 author: windows-sdk-content
 description: Retrieves the volume levels for all of the channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_getallvolumes.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Media Foundation], GetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetAllVolumes method, IMFAudioStreamVolume.GetAllVolumes, IMFAudioStreamVolume::GetAllVolumes, cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2, mf.imfaudiostreamvolume_getallvolumes, mfidl/IMFAudioStreamVolume::GetAllVolumes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAudioStreamVolume.GetAllVolumes
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAudioStreamVolume::GetAllVolumes

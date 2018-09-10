@@ -4,17 +4,16 @@ title: NetWkstaTransportDel function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportdel.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 6d0ec459-8d7b-41fe-96dd-203e6a42164f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netwkstatransportdel, lmwksta/NetWkstaTransportDel, netmgmt.netwkstatransportdel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetWkstaTransportDel
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetWkstaTransportDel function

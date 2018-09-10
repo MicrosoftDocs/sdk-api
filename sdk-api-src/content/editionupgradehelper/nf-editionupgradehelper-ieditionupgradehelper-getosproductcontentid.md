@@ -4,17 +4,16 @@ title: IEditionUpgradeHelper::GetOsProductContentId
 author: windows-sdk-content
 description: Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
 old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetOsProductContentId method, IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEditionUpgradeHelper.GetOsProductContentId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEditionUpgradeHelper::GetOsProductContentId

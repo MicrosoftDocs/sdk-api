@@ -4,17 +4,16 @@ title: ITransferAdviseSink::SubStreamFailure
 author: windows-sdk-content
 description: Called when there is a failure that involves secondary streams and user interaction is needed.
 old-location: shell\ITransferAdviseSink_SubStreamFailure.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4cca3bc0-45c6-40ee-8050-7035faa1e601
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],SubStreamFailure method, ITransferAdviseSink.SubStreamFailure, ITransferAdviseSink::SubStreamFailure, SubStreamFailure, SubStreamFailure method [Windows Shell], SubStreamFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_SubStreamFailure, shell.ITransferAdviseSink_SubStreamFailure, shobjidl_core/ITransferAdviseSink::SubStreamFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferAdviseSink.SubStreamFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferAdviseSink::SubStreamFailure

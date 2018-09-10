@@ -4,17 +4,16 @@ title: IAMMediaTypeSample::IsSyncPoint
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The IsSyncPoint method determines if the beginning of a sample is a synchronization point.
 old-location: dshow\iammediatypesample_issyncpoint.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0494f51e-2602-4574-88dd-0839a1d2f04f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsSyncPoint method, IAMMediaTypeSample.IsSyncPoint, IAMMediaTypeSample::IsSyncPoint, IAMMediaTypeSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsSyncPoint, dshow.iammediatypesample_issyncpoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaTypeSample.IsSyncPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaTypeSample::IsSyncPoint

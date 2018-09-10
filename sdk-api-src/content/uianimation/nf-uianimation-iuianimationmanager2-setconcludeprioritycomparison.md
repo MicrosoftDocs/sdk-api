@@ -4,17 +4,16 @@ title: IUIAnimationManager2::SetConcludePriorityComparison
 author: windows-sdk-content
 description: Sets the priority comparison handler that determines whether a scheduled storyboard can be concluded.
 old-location: uianimation\iuianimationmanager2_setconcludeprioritycomparison.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 1BDC9094-6020-4640-B959-59CD6CF48751
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetConcludePriorityComparison method, IUIAnimationManager2.SetConcludePriorityComparison, IUIAnimationManager2::SetConcludePriorityComparison, SetConcludePriorityComparison, SetConcludePriorityComparison method [Windows Animation], SetConcludePriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setconcludeprioritycomparison, uianimation/IUIAnimationManager2::SetConcludePriorityComparison
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationManager2.SetConcludePriorityComparison
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationManager2::SetConcludePriorityComparison

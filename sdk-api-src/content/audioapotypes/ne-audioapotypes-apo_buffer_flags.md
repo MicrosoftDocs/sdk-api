@@ -4,7 +4,7 @@ title: APO_BUFFER_FLAGS
 author: windows-sdk-content
 description: Defines the buffer validation flags for the APO_CONNECTION_PROPERTY structure associated with each APO connection.
 old-location: termserv\apo_buffer_flags.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioapotypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_BUFFER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APO_BUFFER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APO_BUFFER_FLAGS
+req.redist: 
 ---
 
 # APO_BUFFER_FLAGS enumeration

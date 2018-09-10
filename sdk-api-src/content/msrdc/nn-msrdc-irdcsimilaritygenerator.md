@@ -4,7 +4,7 @@ title: IRdcSimilarityGenerator
 author: windows-sdk-content
 description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.
 old-location: rdc\irdcsimilaritygenerator.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 60133763-9678-4927-9d3a-3e431310b601
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcSimilarityGenerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcSimilarityGenerator interface

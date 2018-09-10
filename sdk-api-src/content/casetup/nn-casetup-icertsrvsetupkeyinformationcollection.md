@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection
 author: windows-sdk-content
 description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.
 old-location: security\icertsrvsetupkeyinformationcollection.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetupKeyInformationCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformationCollection interface

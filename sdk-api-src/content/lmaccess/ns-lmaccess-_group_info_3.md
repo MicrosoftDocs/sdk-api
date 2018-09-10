@@ -4,7 +4,7 @@ title: "_GROUP_INFO_3"
 author: windows-sdk-content
 description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.
 old-location: netmgmt\group_info_3_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUP_INFO_3, *PGROUP_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GROUP_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GROUP_INFO_3, *PGROUP_INFO_3
+req.redist: 
 ---
 
 # _GROUP_INFO_3 structure

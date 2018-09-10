@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxServer.get_Security
 title: IFaxServer::get_Security
 author: windows-sdk-content
-description: The Security property creates a FaxSecurity configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.
-old-location: fax\_mfax_faxserver_security.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_41h5.htm
+description: The IFaxServer::get_Security property creates a IFaxSecurity configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
+old-location: fax\_mfax_faxserver_security_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_41h5_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxServer object [Fax Service],Security property, FaxServer.Security, IFaxServer.get_Security, IFaxServer::get_Security, Security property [Fax Service], Security property [Fax Service],FaxServer object, _mfax_faxserver.security, fax._mfax_faxserver_security, get_Security
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxServer interface [Fax Service],Security property, IFaxServer.Security, IFaxServer.get_Security, IFaxServer::Security, IFaxServer::get_Security, Security property [Fax Service], Security property [Fax Service],IFaxServer interface, _mfax_faxserver.security_cpp, fax._mfax_faxserver_security_cpp, faxcomex/IFaxServer::Security, faxcomex/IFaxServer::get_Security, get_Security
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxServer.Security
+ - IFaxServer.Security
  - IFaxServer.get_Security
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxServer::get_Security
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Security</b> property creates a <a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a> configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.
+The <b>IFaxServer::get_Security</b> property creates a <a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
 
 This property is read-only.
 

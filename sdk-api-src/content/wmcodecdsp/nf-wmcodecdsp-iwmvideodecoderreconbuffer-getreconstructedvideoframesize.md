@@ -4,17 +4,16 @@ title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
 author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Retrieves the size of the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframesize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7faadeed-4c89-4b3e-8e08-51de66224aaa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetReconstructedVideoFrameSize, GetReconstructedVideoFrameSize method [Media Foundation], GetReconstructedVideoFrameSize method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrameSize method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframesize, mf.iwmvideodecoderreconbuffergetreconstructedvideoframesize, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize

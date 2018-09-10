@@ -4,17 +4,16 @@ title: ISyncMgrControl::UpdateItem
 author: windows-sdk-content
 description: Informs Sync Center that properties of a sync item have changed.
 old-location: shell\ISyncMgrControl_UpdateItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrControl.UpdateItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrControl::UpdateItem

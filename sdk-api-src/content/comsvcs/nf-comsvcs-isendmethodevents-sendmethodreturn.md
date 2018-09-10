@@ -4,17 +4,16 @@ title: ISendMethodEvents::SendMethodReturn
 author: windows-sdk-content
 description: Generated when a method called through a component interface returns control to the caller.
 old-location: cos\isendmethodevents_sendmethodreturn.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f9c8a680-644a-4617-866f-36e721bbc7aa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodReturn method, ISendMethodEvents.SendMethodReturn, ISendMethodEvents::SendMethodReturn, SendMethodReturn, SendMethodReturn method [COM+], SendMethodReturn method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodReturn, comsvcs/ISendMethodEvents::SendMethodReturn, cos.isendmethodevents_sendmethodreturn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISendMethodEvents.SendMethodReturn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISendMethodEvents::SendMethodReturn

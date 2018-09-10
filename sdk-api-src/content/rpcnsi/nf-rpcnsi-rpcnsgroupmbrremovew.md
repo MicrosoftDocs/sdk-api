@@ -4,17 +4,16 @@ title: RpcNsGroupMbrRemoveW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrRemove function removes an entry name from a group.
 old-location: rpc\rpcnsgroupmbrremove.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsGroupMbrRemoveW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsGroupMbrRemoveW function

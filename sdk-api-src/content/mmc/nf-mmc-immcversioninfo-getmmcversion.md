@@ -4,17 +4,16 @@ title: IMMCVersionInfo::GetMMCVersion
 author: windows-sdk-content
 description: The GetMMCVersion method retrieves version information for the MMC application.
 old-location: mmc\immcversioninfo_getmmcversion.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMCVersionInfo.GetMMCVersion
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMCVersionInfo::GetMMCVersion

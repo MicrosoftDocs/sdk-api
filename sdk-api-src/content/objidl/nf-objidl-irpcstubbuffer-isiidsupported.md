@@ -4,17 +4,16 @@ title: IRpcStubBuffer::IsIIDSupported
 author: windows-sdk-content
 description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.
 old-location: com\irpcstubbuffer_isiidsupported.htm
-old-project: com
+tech.root: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcStubBuffer.IsIIDSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcStubBuffer::IsIIDSupported

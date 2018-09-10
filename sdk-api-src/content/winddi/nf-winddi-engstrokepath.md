@@ -4,17 +4,16 @@ title: EngStrokePath function
 author: windows-sdk-content
 description: The EngStrokePath function requests that GDI stroke a specified path.
 old-location: display\engstrokepath.htm
-old-project: display
+tech.root: display
 ms.assetid: e592297d-69ff-443e-bc76-9849b61a6915
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngStrokePath, EngStrokePath function [Display Devices], display.engstrokepath, gdifncs_d6a5ca42-fa75-4cba-8eff-d8c0801d058b.xml, winddi/EngStrokePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngStrokePath
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngStrokePath function

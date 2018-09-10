@@ -4,17 +4,16 @@ title: IAMLatency::GetLatency
 author: windows-sdk-content
 description: The GetLatency method retrieves the expected latency associated with this filter.
 old-location: dshow\iamlatency_getlatency.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5c5f6a73-d216-4a26-958e-ce8055575d17
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IAMLatency interface, IAMLatency interface [DirectShow],GetLatency method, IAMLatency.GetLatency, IAMLatency::GetLatency, IAMLatencyGetLatency, dshow.iamlatency_getlatency, strmif/IAMLatency::GetLatency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMLatency.GetLatency
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMLatency::GetLatency

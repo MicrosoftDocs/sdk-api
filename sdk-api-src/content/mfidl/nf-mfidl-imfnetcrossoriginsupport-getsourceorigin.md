@@ -4,17 +4,16 @@ title: IMFNetCrossOriginSupport::GetSourceOrigin
 author: windows-sdk-content
 description: Returns the W3C origin of the HTML5 media element.
 old-location: mf\imfnetcrossoriginsupport_getsourceorigin.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 84379D86-DB03-4631-9A35-EFE9811B0D33
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSourceOrigin, GetSourceOrigin method [Media Foundation], GetSourceOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetSourceOrigin method, IMFNetCrossOriginSupport.GetSourceOrigin, IMFNetCrossOriginSupport::GetSourceOrigin, mf.imfnetcrossoriginsupport_getsourceorigin, mfidl/IMFNetCrossOriginSupport::GetSourceOrigin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCrossOriginSupport.GetSourceOrigin
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCrossOriginSupport::GetSourceOrigin

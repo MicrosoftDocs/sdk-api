@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_Server
 author: windows-sdk-content
 description: Retrieves the name of the server where the data collector set is run.
 old-location: pla\idatacollectorset_get_server.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 43098848-1b1f-4ce1-a34c-62bb493aaf0e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Server property, IDataCollectorSet.Server, IDataCollectorSet.get_Server, IDataCollectorSet::Server, IDataCollectorSet::get_Server, Server property [PLA], Server property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_server, get_Server, pla.idatacollectorset_get_server, pla/IDataCollectorSet::Server, pla/IDataCollectorSet::get_Server
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSet.get_Server
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_Server

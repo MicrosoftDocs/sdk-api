@@ -4,7 +4,7 @@ title: TARGETPROTOCOLTYPE
 author: windows-sdk-content
 description: TARGETPROTOCOLTYPE enumeration indicates the type of protocol that the initiator must use to communicate with the target.
 old-location: iscsidisc\targetprotocoltype.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 1997b1d0-6723-434c-bca7-513e4dc30ee6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGETPROTOCOLTYPE, *PTARGETPROTOCOLTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TARGETPROTOCOLTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TARGETPROTOCOLTYPE, *PTARGETPROTOCOLTYPE
+req.redist: 
 ---
 
 # TARGETPROTOCOLTYPE enumeration

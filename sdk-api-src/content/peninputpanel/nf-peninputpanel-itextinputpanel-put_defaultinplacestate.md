@@ -4,17 +4,16 @@ title: ITextInputPanel::put_DefaultInPlaceState
 author: windows-sdk-content
 description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_defaultinplacestate.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ITextInputPanel.put_DefaultInPlaceState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::put_DefaultInPlaceState

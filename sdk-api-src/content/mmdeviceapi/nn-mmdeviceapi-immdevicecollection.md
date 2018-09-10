@@ -4,7 +4,7 @@ title: IMMDeviceCollection
 author: windows-sdk-content
 description: The IMMDeviceCollection interface represents a collection of multimedia device resources.
 old-location: coreaudio\immdevicecollection.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4769b0a6-a319-4605-8742-5e7c285679cf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDeviceCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmdevapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMDeviceCollection interface

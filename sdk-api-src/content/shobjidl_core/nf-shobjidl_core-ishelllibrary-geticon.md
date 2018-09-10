@@ -4,17 +4,16 @@ title: IShellLibrary::GetIcon
 author: windows-sdk-content
 description: Gets the default icon for the library.
 old-location: shell\IShellLibrary_GetIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellLibrary.GetIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLibrary::GetIcon

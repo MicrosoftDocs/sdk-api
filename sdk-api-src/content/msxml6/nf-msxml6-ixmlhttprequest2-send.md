@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2::Send
 author: windows-sdk-content
 description: Sends an HTTP request to the server asynchronously. On success, methods on the IXMLHTTPRequest2Callback interface implemented by the app are called to process the response.
 old-location: ixhr2\ixmlhttprequest2_send.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: E46DB550-8346-41F2-9B35-4DFD9732B0D8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2.Send
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2::Send

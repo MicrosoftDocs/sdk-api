@@ -4,17 +4,16 @@ title: IContactPropertyCollection::GetPropertyName
 author: windows-sdk-content
 description: Retrieves the name for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyName.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 8fa7fb24-2648-4f7b-b37c-d42b2966a959
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPropertyName, GetPropertyName method [Windows Contacts], GetPropertyName method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyName method, IContactPropertyCollection.GetPropertyName, IContactPropertyCollection::GetPropertyName, _wincontacts_IContactPropertyCollection_GetPropertyName, icontact/IContactPropertyCollection::GetPropertyName, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactPropertyCollection.GetPropertyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactPropertyCollection::GetPropertyName

@@ -4,7 +4,7 @@ title: "_SERVICE_PREFERRED_NODE_INFO"
 author: windows-sdk-content
 description: Represents the preferred node on which to run a service.
 old-location: base\service_preferred_node_info.htm
-old-project: Services
+tech.root: Services
 ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_PREFERRED_NODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
+req.redist: 
 ---
 
 # _SERVICE_PREFERRED_NODE_INFO structure

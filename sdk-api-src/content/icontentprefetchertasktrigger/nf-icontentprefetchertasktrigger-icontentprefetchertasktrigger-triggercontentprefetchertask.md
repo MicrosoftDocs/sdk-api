@@ -4,17 +4,16 @@ title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
 author: windows-sdk-content
 description: Triggers a content prefetch background task for the specified app package.
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: F7AC2CA1-3726-4685-ABA8-5F9EE8FD54FF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],TriggerContentPrefetcherTask method, IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask, IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, TriggerContentPrefetcherTask, TriggerContentPrefetcherTask method [Web Services for Windows], TriggerContentPrefetcherTask method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, wsw.icontentprefetchertasktrigger_triggercontentprefetchertask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask

@@ -4,7 +4,7 @@ title: InkPictureSizeMode
 author: windows-sdk-content
 description: Specifies how the picture behaves inside the InkPicture control.
 old-location: tablet\inkpicturesizemode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkPictureSizeMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkPictureSizeMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkPictureSizeMode
+req.redist: 
 ---
 
 # InkPictureSizeMode enumeration

@@ -4,17 +4,16 @@ title: SetupDiUnremoveDevice function
 author: windows-sdk-content
 description: The SetupDiUnremoveDevice function is the default handler for the DIF_UNREMOVE installation request.
 old-location: devinst\setupdiunremovedevice.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1bffe874-d4ba-4efa-ab71-098a3c96092f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiUnremoveDevice, SetupDiUnremoveDevice function [Device and Driver Installation], devinst.setupdiunremovedevice, di-rtns_8c97341a-c852-47be-ad6e-c551f82deb6d.xml, setupapi/SetupDiUnremoveDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiUnremoveDevice
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiUnremoveDevice function

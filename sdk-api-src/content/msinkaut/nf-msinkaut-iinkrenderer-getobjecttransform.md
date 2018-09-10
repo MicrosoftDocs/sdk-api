@@ -4,17 +4,16 @@ title: IInkRenderer::GetObjectTransform
 author: windows-sdk-content
 description: Gets the InkTransform object that represents the object transform that was used to render ink.
 old-location: tablet\inkrenderer_getobjecttransform.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 11195fa1-ca59-4da6-8454-6209c75ccc67
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 11195fa1-ca59-4da6-8454-6209c75ccc67, GetObjectTransform, GetObjectTransform method [Tablet PC], GetObjectTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetObjectTransform method, IInkRenderer.GetObjectTransform, IInkRenderer::GetObjectTransform, msinkaut/IInkRenderer::GetObjectTransform, tablet.inkrenderer_getobjecttransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRenderer.GetObjectTransform
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRenderer::GetObjectTransform

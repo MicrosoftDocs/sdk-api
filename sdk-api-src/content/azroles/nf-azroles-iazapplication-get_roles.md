@@ -4,17 +4,16 @@ title: IAzApplication::get_Roles
 author: windows-sdk-content
 description: The Roles property of IAzApplication retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
 old-location: security\iazapplication_roles.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 02acf473-b072-4814-92e1-47a32baae4fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],Roles property, IAzApplication interface [Security],Roles property, IAzApplication.Roles, IAzApplication.get_Roles, IAzApplication::Roles, IAzApplication::get_Roles, Roles property [Security], Roles property [Security],AzApplication object, Roles property [Security],IAzApplication interface, azroles/IAzApplication::Roles, azroles/IAzApplication::get_Roles, get_Roles, security.iazapplication_roles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplication.Roles
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_Roles

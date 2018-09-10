@@ -4,17 +4,16 @@ title: IConnector::IsConnected
 author: windows-sdk-content
 description: The IsConnected method indicates whether this connector is connected to another connector.
 old-location: coreaudio\iconnector_isconnected.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 56aaee41-bf55-4556-b3d3-b0548a0db37c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.IsConnected, IConnector::IsConnected, IConnectorIsConnected, IsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio],IConnector interface, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnector.IsConnected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnector::IsConnected

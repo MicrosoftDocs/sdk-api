@@ -4,17 +4,16 @@ title: IWMPSyncDevice3::estimateSyncSize
 author: windows-sdk-content
 description: The estimateSyncSize method initiates the estimation of the size required on the device to synchronize a specified playlist.
 old-location: wmp\iwmpsyncdevice3_estimatesyncsize.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 49b07233-df9d-4fd0-836e-62b992408018
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],estimateSyncSize method, IWMPSyncDevice3.estimateSyncSize, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 12
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSyncDevice3.estimateSyncSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSyncDevice3::estimateSyncSize

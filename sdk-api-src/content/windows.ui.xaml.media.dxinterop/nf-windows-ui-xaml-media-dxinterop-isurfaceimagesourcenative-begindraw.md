@@ -4,17 +4,16 @@ title: ISurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Opens the supplied DXGI surface for drawing.
 old-location: winrt\isurfaceimagesourcenative_begindraw.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::BeginDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceNative.BeginDraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceNative::xaml
@@ -67,7 +65,7 @@ The region of the surface that will be drawn into.
 
 ### -param surface
 
-
+TBD
 
 
 ### -param offset [out]

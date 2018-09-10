@@ -4,17 +4,16 @@ title: IPropertyDescription::GetDisplayType
 author: windows-sdk-content
 description: Gets the current data type used to display the property.
 old-location: properties\IPropertyDescription_GetDisplayType.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e3147b06-0849-4b49-8153-e120e2220651
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDisplayType, GetDisplayType method [Windows Properties], GetDisplayType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayType method, IPropertyDescription.GetDisplayType, IPropertyDescription::GetDisplayType, PDDT_BOOLEAN (0x00000002), PDDT_DATETIME (0x00000003), PDDT_ENUMERATED (0x00000004), PDDT_NUMBER (0x00000001), PDDT_STRING (0x00000000), properties.IPropertyDescription_GetDisplayType, propsys/IPropertyDescription::GetDisplayType, shell.IPropertyDescription_GetDisplayType, shell_IPropertyDescription_GetDisplayType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetDisplayType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetDisplayType
@@ -62,7 +60,7 @@ Gets the current data type used to display the property.
 
 ### -param pdisplaytype
 
-
+TBD
 
 
 

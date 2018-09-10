@@ -4,17 +4,16 @@ title: CVssWriter::InstallAlternateWriter
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_installalternatewriter.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: f571a605-6d64-4d1c-82a4-7c8a56349d19
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],InstallAlternateWriter method, CVssWriter.InstallAlternateWriter, CVssWriter::InstallAlternateWriter, InstallAlternateWriter, InstallAlternateWriter method [VSS], InstallAlternateWriter method [VSS],CVssWriter interface, _win32_cvsswriter_installalternatewriter, base.cvsswriter_installalternatewriter, vswriter/CVssWriter::InstallAlternateWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.InstallAlternateWriter
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::InstallAlternateWriter
@@ -65,12 +63,12 @@ This method is reserved for future use.
 
 ### -param writerId
 
-
+TBD
 
 
 ### -param persistentWriterClassId
 
-
+TBD
 
 
 

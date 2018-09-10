@@ -4,17 +4,16 @@ title: IBackgroundCopyJobHttpOptions::SetClientCertificateByName
 author: windows-sdk-content
 description: Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyname.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 8262b360-ab05-42a3-b5e7-178dc9f23fc6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByName method, IBackgroundCopyJobHttpOptions.SetClientCertificateByName, IBackgroundCopyJobHttpOptions::SetClientCertificateByName, MY, ROOT, SPC, SetClientCertificateByName, SetClientCertificateByName method [BITS], SetClientCertificateByName method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyname, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJobHttpOptions::SetClientCertificateByName

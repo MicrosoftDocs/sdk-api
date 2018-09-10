@@ -4,17 +4,16 @@ title: IShellFolderView::GetItemSpacing
 author: windows-sdk-content
 description: Gets the spacing for small and large view modes only.
 old-location: shell\IShellFolderView_GetItemSpacing.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 92450bc7-26e5-4061-90f7-eea0f0a4db09
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpacing method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetItemSpacing method, IShellFolderView.GetItemSpacing, IShellFolderView::GetItemSpacing, _shell_IShellFolderView_GetItemSpacing, shell.IShellFolderView_GetItemSpacing, shlobj_core/IShellFolderView::GetItemSpacing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.GetItemSpacing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::GetItemSpacing

@@ -4,7 +4,7 @@ title: ListViewMode
 author: windows-sdk-content
 description: The ListViewMode enumeration is used by the View.ListViewMode property to define the list view.
 old-location: mmc\listviewmode.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 4f9bcc24-676b-4697-ae11-0d97a6ed4a71
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _ListViewMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_ListViewMode, LISTVIEWMODE, *PLISTVIEWMODE"
+req.redist: 
 ---
 
 # ListViewMode enumeration

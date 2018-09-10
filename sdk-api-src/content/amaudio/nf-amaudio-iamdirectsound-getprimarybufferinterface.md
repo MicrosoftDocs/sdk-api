@@ -4,17 +4,16 @@ title: IAMDirectSound::GetPrimaryBufferInterface
 author: windows-sdk-content
 description: The GetPrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getprimarybufferinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMDirectSound.GetPrimaryBufferInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMDirectSound::GetPrimaryBufferInterface

@@ -4,7 +4,7 @@ title: GOPHER_ATTRIBUTE_TYPE
 author: windows-sdk-content
 description: Contains the relevant information of a single Gopher attribute for an object.
 old-location: wininet\gopher_attribute_type.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 01daae8c-9080-4a8d-9f73-3e364ca868fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GOPHER_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
+req.redist: 
 ---
 
 # GOPHER_ATTRIBUTE_TYPE structure

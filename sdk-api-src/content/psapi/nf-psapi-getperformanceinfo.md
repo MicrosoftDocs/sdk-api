@@ -4,17 +4,16 @@ title: GetPerformanceInfo function
 author: windows-sdk-content
 description: Retrieves the performance values contained in the PERFORMANCE_INFORMATION structure.
 old-location: psapi\getperformanceinfo.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - K32GetPerformanceInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetPerformanceInfo function

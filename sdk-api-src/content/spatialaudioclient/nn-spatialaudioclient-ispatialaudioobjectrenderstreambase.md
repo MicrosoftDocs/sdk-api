@@ -4,7 +4,7 @@ title: ISpatialAudioObjectRenderStreamBase
 author: windows-sdk-content
 description: Base interface that provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstreambase.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2C2BE871-EFD1-40E1-B466-6BBD09C56852
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamBase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase interface

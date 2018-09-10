@@ -4,17 +4,16 @@ title: IFsrmReportJob::put_NamespaceRoots
 author: windows-sdk-content
 description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.
 old-location: fsrm\ifsrmreportjob_namespaceroots.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 09c767ce-6a81-4c06-93cb-dd1a79d17d97
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],NamespaceRoots property, IFsrmReportJob.NamespaceRoots, IFsrmReportJob.put_NamespaceRoots, IFsrmReportJob::NamespaceRoots, IFsrmReportJob::get_NamespaceRoots, IFsrmReportJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_namespaceroots, fsrm.ifsrmreportjob_namespaceroots, fsrmreports/IFsrmReportJob::NamespaceRoots, fsrmreports/IFsrmReportJob::get_NamespaceRoots, fsrmreports/IFsrmReportJob::put_NamespaceRoots, put_NamespaceRoots
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmReportJob.put_NamespaceRoots
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob::put_NamespaceRoots

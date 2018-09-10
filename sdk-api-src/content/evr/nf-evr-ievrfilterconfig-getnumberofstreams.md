@@ -4,17 +4,16 @@ title: IEVRFilterConfig::GetNumberOfStreams
 author: windows-sdk-content
 description: Retrieves the number of input pins on the EVR filter. The EVR filter always has at least one input pin, which corresponds to the reference stream.
 old-location: mf\ievrfilterconfig_getnumberofstreams.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 94e15032-efb6-4919-b018-953eee803135
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 94e15032-efb6-4919-b018-953eee803135, GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, IEVRFilterConfig interface [Media Foundation],GetNumberOfStreams method, IEVRFilterConfig.GetNumberOfStreams, IEVRFilterConfig::GetNumberOfStreams, evr/IEVRFilterConfig::GetNumberOfStreams, mf.ievrfilterconfig_getnumberofstreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEVRFilterConfig.GetNumberOfStreams
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEVRFilterConfig::GetNumberOfStreams

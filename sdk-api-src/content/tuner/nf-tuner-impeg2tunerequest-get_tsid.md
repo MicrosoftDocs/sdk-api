@@ -4,17 +4,16 @@ title: IMPEG2TuneRequest::get_TSID
 author: windows-sdk-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\impeg2tunerequest_get_tsid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 971e2643-e68f-4b4c-86e0-2e20e2f8a88c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],get_TSID method, IMPEG2TuneRequest.get_TSID, IMPEG2TuneRequest::get_TSID, IMPEG2TuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, mstv.impeg2tunerequest_get_tsid, tuner/IMPEG2TuneRequest::get_TSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2TuneRequest.get_TSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2TuneRequest::get_TSID

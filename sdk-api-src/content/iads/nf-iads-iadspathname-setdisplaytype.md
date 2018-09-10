@@ -4,17 +4,16 @@ title: IADsPathname::SetDisplayType
 author: windows-sdk-content
 description: Specifies how to display the path of an object.
 old-location: adsi\iadspathname_setdisplaytype.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPathname.SetDisplayType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPathname::SetDisplayType

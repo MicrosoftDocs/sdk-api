@@ -4,17 +4,16 @@ title: ISearchQueryHelper::get_QueryMaxResults
 author: windows-sdk-content
 description: Gets the maximum number of results to be returned by the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryMaxResults.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querymaxresults.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryMaxResults method, ISearchQueryHelper.get_QueryMaxResults, ISearchQueryHelper::get_QueryMaxResults, _search_ISearchQueryHelper_get_QueryMaxResults, get_QueryMaxResults, get_QueryMaxResults method [search], get_QueryMaxResults method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryMaxResults, searchapi/ISearchQueryHelper::get_QueryMaxResults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchQueryHelper.get_QueryMaxResults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchQueryHelper::get_QueryMaxResults

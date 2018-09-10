@@ -4,17 +4,16 @@ title: IInkRecognitionAlternate::get_LineAlternates
 author: windows-sdk-content
 description: Gets the IInkRecognitionAlternates collection in which each alternate in the collection is on a separate line.
 old-location: tablet\iinkrecognitionalternate_linealternates.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ccdf3092-b0a0-4626-b614-164548b1ca72
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineAlternates property, IInkRecognitionAlternate.LineAlternates, IInkRecognitionAlternate.get_LineAlternates, IInkRecognitionAlternate::LineAlternates, IInkRecognitionAlternate::get_LineAlternates, LineAlternates property [Tablet PC], LineAlternates property [Tablet PC],IInkRecognitionAlternate interface, ccdf3092-b0a0-4626-b614-164548b1ca72, get_LineAlternates, msinkaut/IInkRecognitionAlternate::LineAlternates, msinkaut/IInkRecognitionAlternate::get_LineAlternates, tablet.iinkrecognitionalternate_linealternates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionAlternate.get_LineAlternates
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionAlternate::get_LineAlternates

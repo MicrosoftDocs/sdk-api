@@ -4,17 +4,16 @@ title: GetCurrentProcess function
 author: windows-sdk-content
 description: Retrieves a pseudo handle for the current process.
 old-location: base\getcurrentprocess.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 0471790c-3bb9-4180-8676-941e655b1812
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetCurrentProcess, GetCurrentProcess function, _win32_getcurrentprocess, base.getcurrentprocess, processthreadsapi/GetCurrentProcess, winbase/GetCurrentProcess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetCurrentProcess
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentProcess function

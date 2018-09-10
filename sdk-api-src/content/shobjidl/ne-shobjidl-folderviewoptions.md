@@ -4,7 +4,7 @@ title: FOLDERVIEWOPTIONS
 author: windows-sdk-content
 description: Used by methods of the IFolderViewOptions interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
 old-location: shell\FOLDERVIEWOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ab0ebc82-e917-4e3a-864b-fc3bb6280a48
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDERVIEWOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FOLDERVIEWOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FOLDERVIEWOPTIONS
+req.redist: 
 ---
 
 # FOLDERVIEWOPTIONS enumeration

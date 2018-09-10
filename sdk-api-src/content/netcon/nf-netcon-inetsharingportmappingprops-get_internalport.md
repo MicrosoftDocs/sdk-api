@@ -4,17 +4,16 @@ title: INetSharingPortMappingProps::get_InternalPort
 author: windows-sdk-content
 description: The get_InternalPort method retrieves the internal port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_internalport.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_InternalPort method, INetSharingPortMappingProps.get_InternalPort, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPortMappingProps.get_InternalPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPortMappingProps::get_InternalPort

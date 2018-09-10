@@ -4,17 +4,16 @@ title: ID3D11Device5::CreateFence
 author: windows-sdk-content
 description: Creates a fence object.
 old-location: direct3d11\id3d11device5_createfence.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+req.lib: D3d11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device5.CreateFence
 product: Windows
 targetos: Windows
-req.lib: D3d11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device5::CreateFence
@@ -81,7 +80,7 @@ A combination of <a href="https://msdn.microsoft.com/745B72A2-628C-477E-8534-336
 
 ### -param ReturnedInterface
 
-
+TBD
 
 
 ### -param ppFence [out]

@@ -4,7 +4,7 @@ title: "_COMDLG_FILTERSPEC"
 author: windows-sdk-content
 description: Used generically to filter elements.
 old-location: shell\COMDLG_FILTERSPEC.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b5bb6777-a5b6-4d10-a8b8-79269fa5e2da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMDLG_FILTERSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMDLG_FILTERSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: COMDLG_FILTERSPEC
+req.redist: 
 ---
 
 # _COMDLG_FILTERSPEC structure

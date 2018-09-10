@@ -4,7 +4,7 @@ title: "_CERT_SELECT_CRITERIA"
 author: windows-sdk-content
 description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.
 old-location: security\cert_select_criteria.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 246722a9-5db6-4a82-8f29-f60f0a2263e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_SELECT_CRITERIA, *PCERT_SELECT_CRITERIA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_SELECT_CRITERIA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_SELECT_CRITERIA, *PCERT_SELECT_CRITERIA
+req.redist: 
 ---
 
 # _CERT_SELECT_CRITERIA structure

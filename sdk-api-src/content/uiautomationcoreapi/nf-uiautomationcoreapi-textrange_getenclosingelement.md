@@ -4,17 +4,16 @@ title: TextRange_GetEnclosingElement function
 author: windows-sdk-content
 description: Returns the node for the next smallest provider that covers the range.
 old-location: winauto\uiauto_TextRange_GetEnclosingElementConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 842754a0-1fe7-4432-ab7f-716ef870df92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_GetEnclosingElement, TextRange_GetEnclosingElement function [Windows Accessibility], uiauto.uiauto_TextRange_GetEnclosingElementConPat, uiauto_TextRange_GetEnclosingElementConPat, uiautomationcoreapi/TextRange_GetEnclosingElement, winauto.uiauto_TextRange_GetEnclosingElementConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_GetEnclosingElement
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_GetEnclosingElement function

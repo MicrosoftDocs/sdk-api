@@ -4,17 +4,16 @@ title: IGuideDataEvent::ServiceDeleted
 author: windows-sdk-content
 description: The ServiceDeleted method is called when a service has been deleted.
 old-location: mstv\iguidedataevent_servicedeleted.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataEvent.ServiceDeleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataEvent::ServiceDeleted

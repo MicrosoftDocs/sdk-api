@@ -4,7 +4,7 @@ title: MFSESSION_SETTOPOLOGY_FLAGS
 author: windows-sdk-content
 description: Defines the behavior of the IMFMediaSession::SetTopology method.
 old-location: mf\mfsession_settopology_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSESSION_SETTOPOLOGY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
+req.redist: 
 ---
 
 # MFSESSION_SETTOPOLOGY_FLAGS enumeration

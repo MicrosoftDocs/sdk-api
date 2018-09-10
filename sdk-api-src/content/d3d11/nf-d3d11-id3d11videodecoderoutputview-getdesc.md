@@ -4,17 +4,16 @@ title: ID3D11VideoDecoderOutputView::GetDesc
 author: windows-sdk-content
 description: Gets the properties of the video decoder output view.
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 002BE600-2B4C-4337-BAA4-EC132FD3BC8A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoDecoderOutputView.GetDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoDecoderOutputView::GetDesc

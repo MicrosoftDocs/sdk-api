@@ -4,7 +4,7 @@ title: CLUSPROP_PIFLAGS
 author: windows-sdk-content
 description: Represents disk partition information. The enumeration flags identify certain properties of a disk partition, which is a storage class resource.
 old-location: mscs\clusprop_piflags.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 54597c05-57af-49ad-96e0-171f09c45a65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_PIFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSPROP_PIFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSPROP_PIFLAGS
+req.redist: 
 ---
 
 # CLUSPROP_PIFLAGS enumeration

@@ -4,17 +4,16 @@ title: ITypeInfo::GetVarDesc
 author: windows-sdk-content
 description: Retrieves a VARDESC structure that describes the specified variable.
 old-location: automat\itypeinfo_getvardesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVarDesc, GetVarDesc method [Automation], GetVarDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetVarDesc method, ITypeInfo.GetVarDesc, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.GetVarDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::GetVarDesc

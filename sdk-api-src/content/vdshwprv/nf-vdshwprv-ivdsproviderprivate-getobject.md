@@ -4,17 +4,16 @@ title: IVdsProviderPrivate::GetObject
 author: windows-sdk-content
 description: Returns the specified object.
 old-location: base\ivdsproviderprivate_getobject.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsProviderPrivate.GetObject
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsProviderPrivate::GetObject

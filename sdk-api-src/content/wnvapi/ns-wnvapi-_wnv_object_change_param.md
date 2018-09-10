@@ -4,7 +4,7 @@ title: "_WNV_OBJECT_CHANGE_PARAM"
 author: windows-sdk-content
 description: Specifies the parameters of an event that causes the Windows Network Virtualization (WNV) driver to generate a WnvObjectChangeType type of notification.
 old-location: wnv\wnv_object_change_param.htm
-old-project: wnv
+tech.root: wnv
 ms.assetid: 12FF591A-B696-49DF-9E75-B966569A2AAE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNV_OBJECT_CHANGE_PARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM
+req.redist: 
 ---
 
 # _WNV_OBJECT_CHANGE_PARAM structure

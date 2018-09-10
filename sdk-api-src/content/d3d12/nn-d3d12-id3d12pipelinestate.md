@@ -4,7 +4,7 @@ title: ID3D12PipelineState
 author: windows-sdk-content
 description: Represents the state of all currently set shaders as well as certain fixed function state objects.
 old-location: direct3d12\id3d12pipelinestate.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12PipelineState
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12PipelineState interface

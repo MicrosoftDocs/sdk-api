@@ -4,17 +4,16 @@ title: IExplorerBrowser::GetCurrentView
 author: windows-sdk-content
 description: Gets an interface for the current view of the browser.
 old-location: shell\IExplorerBrowser_GetCurrentView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e7c05a67-f739-487d-872a-3598b790d5c9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetCurrentView method, IExplorerBrowser.GetCurrentView, IExplorerBrowser::GetCurrentView, _shell_IExplorerBrowser_GetCurrentView, shell.IExplorerBrowser_GetCurrentView, shobjidl_core/IExplorerBrowser::GetCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerBrowser.GetCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerBrowser::GetCurrentView

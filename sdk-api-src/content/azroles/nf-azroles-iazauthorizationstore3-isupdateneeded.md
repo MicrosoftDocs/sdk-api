@@ -4,17 +4,16 @@ title: IAzAuthorizationStore3::IsUpdateNeeded
 author: windows-sdk-content
 description: Checks whether the persisted version of this authorization store is newer than the cached version.
 old-location: security\iazauthorizationstore3_isupdateneeded_method.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 2b5bed8f-f38a-46dd-b889-65d43b13ce7c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsUpdateNeeded method, IAzAuthorizationStore3.IsUpdateNeeded, IAzAuthorizationStore3::IsUpdateNeeded, IsUpdateNeeded, IsUpdateNeeded method [Security], IsUpdateNeeded method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsUpdateNeeded, security.iazauthorizationstore3_isupdateneeded_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzAuthorizationStore3.IsUpdateNeeded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzAuthorizationStore3::IsUpdateNeeded

@@ -4,17 +4,16 @@ title: IMFSchemeHandler::EndCreateObject
 author: windows-sdk-content
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfschemehandler_endcreateobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSchemeHandler.EndCreateObject
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSchemeHandler::EndCreateObject

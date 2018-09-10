@@ -4,7 +4,7 @@ title: "_CERT_GENERAL_SUBTREE"
 author: windows-sdk-content
 description: The CERT_GENERAL_SUBTREE structure is used in CERT_NAME_CONSTRAINTS_INFO structure. This structure provides the identity of a certificate that can be included or excluded.
 old-location: security\cert_general_subtree.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 991e277c-46f5-4987-ab48-0d1c1442273f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_GENERAL_SUBTREE, *PCERT_GENERAL_SUBTREE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_GENERAL_SUBTREE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_GENERAL_SUBTREE, *PCERT_GENERAL_SUBTREE
+req.redist: 
 ---
 
 # _CERT_GENERAL_SUBTREE structure

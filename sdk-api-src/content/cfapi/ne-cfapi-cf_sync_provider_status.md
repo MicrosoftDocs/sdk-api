@@ -4,7 +4,7 @@ title: CF_SYNC_PROVIDER_STATUS
 author: windows-sdk-content
 description: Current status of a sync provider.
 old-location: cloudapi\cf_sync_provider_status.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 575A9F66-66D4-4443-9BCB-0CBD60DA27A0
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_SYNC_PROVIDER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_SYNC_PROVIDER_STATUS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_SYNC_PROVIDER_STATUS
+req.redist: 
 ---
 
 # CF_SYNC_PROVIDER_STATUS enumeration

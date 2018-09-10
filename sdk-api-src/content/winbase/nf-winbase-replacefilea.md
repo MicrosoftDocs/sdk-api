@@ -4,17 +4,16 @@ title: ReplaceFileA function
 author: windows-sdk-content
 description: Replaces one file with another file, with the option of creating a backup copy of the original file.
 old-location: fs\replacefile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - ReplaceFileW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ReplaceFileA function

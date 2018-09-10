@@ -4,17 +4,16 @@ title: IAudioSessionEvents::OnGroupingParamChanged
 author: windows-sdk-content
 description: The OnGroupingParamChanged method notifies the client that the grouping parameter for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ongroupingparamchanged.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f52c9d8a-245b-489a-81c1-cb4715faa8be
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnGroupingParamChanged method, IAudioSessionEvents.OnGroupingParamChanged, IAudioSessionEvents::OnGroupingParamChanged, IAudioSessionEventsOnGroupingParamChanged, OnGroupingParamChanged, OnGroupingParamChanged method [Core Audio], OnGroupingParamChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnGroupingParamChanged, coreaudio.iaudiosessionevents_ongroupingparamchanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEvents.OnGroupingParamChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEvents::OnGroupingParamChanged

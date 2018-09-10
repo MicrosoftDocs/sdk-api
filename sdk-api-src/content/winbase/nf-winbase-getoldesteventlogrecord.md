@@ -4,17 +4,16 @@ title: GetOldestEventLogRecord function
 author: windows-sdk-content
 description: Retrieves the absolute record number of the oldest record in the specified event log.
 old-location: base\getoldesteventlogrecord.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetOldestEventLogRecord
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetOldestEventLogRecord function

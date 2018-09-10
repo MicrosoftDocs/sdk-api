@@ -4,17 +4,16 @@ title: IInkStrokeDisp::get_PacketDescription
 author: windows-sdk-content
 description: Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_packetdescription.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c81f14e2-d97f-42cd-8498-240f8d39f9bc
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketDescription property, IInkStrokeDisp.PacketDescription, IInkStrokeDisp.get_PacketDescription, IInkStrokeDisp::PacketDescription, IInkStrokeDisp::get_PacketDescription, PacketDescription property [Tablet PC], PacketDescription property [Tablet PC],IInkStrokeDisp interface, c81f14e2-d97f-42cd-8498-240f8d39f9bc, get_PacketDescription, msinkaut/IInkStrokeDisp::PacketDescription, msinkaut/IInkStrokeDisp::get_PacketDescription, tablet.iinkstrokedisp_packetdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkStrokeDisp.get_PacketDescription
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::get_PacketDescription

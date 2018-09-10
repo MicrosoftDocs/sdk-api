@@ -4,17 +4,16 @@ title: ITextFont::SetEmboss
 author: windows-sdk-content
 description: Sets whether characters are embossed.
 old-location: controls\ITextFont_SetEmboss.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setemboss.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEmboss method, ITextFont.SetEmboss, ITextFont::SetEmboss, SetEmboss, SetEmboss method [Windows Controls], SetEmboss method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEmboss, _win32_ITextFont_SetEmboss_cpp, controls.ITextFont_SetEmboss, controls._win32_ITextFont_SetEmboss, tom/ITextFont::SetEmboss
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetEmboss
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetEmboss

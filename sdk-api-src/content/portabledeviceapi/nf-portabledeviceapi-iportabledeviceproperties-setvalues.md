@@ -4,17 +4,16 @@ title: IPortableDeviceProperties::SetValues
 author: windows-sdk-content
 description: The SetValues method adds or modifies one or more properties on a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_setvalues.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 3c631d31-5553-4ad0-8384-821c11c78254
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceProperties interface [Windows Portable Devices SDK],SetValues method, IPortableDeviceProperties.SetValues, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceProperties.SetValues
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceProperties::SetValues

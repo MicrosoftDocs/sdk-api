@@ -4,17 +4,16 @@ title: IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
 author: windows-sdk-content
 description: Retrieves the last sector written in the previous session on the media.
 old-location: imapi\imultisessionsequential_get_lastwrittenaddressofprevioussession.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: a37aa4d1-0862-463d-acf1-3a85e491ef26
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IMultisessionSequential.get_LastWrittenAddressOfPreviousSession, IMultisessionSequential::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_lastwrittenaddressofprevioussession, imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultisessionSequential::get_LastWrittenAddressOfPreviousSession

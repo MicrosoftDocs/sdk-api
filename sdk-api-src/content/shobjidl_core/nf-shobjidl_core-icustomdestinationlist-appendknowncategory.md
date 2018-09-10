@@ -4,17 +4,16 @@ title: ICustomDestinationList::AppendKnownCategory
 author: windows-sdk-content
 description: Specifies that the Frequent or Recent category should be included in a custom Jump List.
 old-location: shell\ICustomDestinationList_AppendKnownCategory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ce73fff3-8d1a-4912-98ce-7149460ffa49
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AppendKnownCategory, AppendKnownCategory method [Windows Shell], AppendKnownCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendKnownCategory method, ICustomDestinationList.AppendKnownCategory, ICustomDestinationList::AppendKnownCategory, KDC_FREQUENT, KDC_RECENT, _shell_ICustomDestinationList_AppendKnownCategory, shell.ICustomDestinationList_AppendKnownCategory, shobjidl_core/ICustomDestinationList::AppendKnownCategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICustomDestinationList.AppendKnownCategory
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICustomDestinationList::AppendKnownCategory

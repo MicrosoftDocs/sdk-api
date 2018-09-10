@@ -4,7 +4,7 @@ title: "_MIB_PROXYARP"
 author: windows-sdk-content
 description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.
 old-location: mib\mib_proxyarp.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 4f919bfb-733b-4b49-8550-505626779eac
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_PROXYARP, *PMIB_PROXYARP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_PROXYARP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_PROXYARP, *PMIB_PROXYARP
+req.redist: 
 ---
 
 # _MIB_PROXYARP structure

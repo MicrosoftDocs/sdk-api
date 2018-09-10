@@ -4,17 +4,16 @@ title: IAccessible::get_accRole
 author: windows-sdk-content
 description: The IAccessible::get_accRole method retrieves information that describes the role of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accrole.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 38800c5e-12a5-4825-a4c4-825a159c67f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accRole method, IAccessible.get_accRole, IAccessible::get_accRole, _msaa_IAccessible_get_accRole, get_accRole, get_accRole method [Windows Accessibility], get_accRole method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accrole, oleacc/IAccessible::get_accRole, winauto.iaccessible_iaccessible__get_accrole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accRole
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accRole
@@ -62,7 +60,7 @@ The <b>IAccessible::get_accRole</b> method retrieves information that describes 
 
 ### -param varChild
 
-
+TBD
 
 
 ### -param pvarRole [out, retval]

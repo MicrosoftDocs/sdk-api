@@ -4,17 +4,16 @@ title: IISDB_CDT::GetSizeOfDataModule
 author: windows-sdk-content
 description: Gets the size of a data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsizeofdatamodule.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c05a8c14-f0da-49d7-be34-1cac435a98da
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSizeOfDataModule, GetSizeOfDataModule method [Microsoft TV Technologies], GetSizeOfDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSizeOfDataModule method, IISDB_CDT.GetSizeOfDataModule, IISDB_CDT::GetSizeOfDataModule, dvbsiparser/IISDB_CDT::GetSizeOfDataModule, mstv.iisdb_cdt_getsizeofdatamodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_CDT.GetSizeOfDataModule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_CDT::GetSizeOfDataModule

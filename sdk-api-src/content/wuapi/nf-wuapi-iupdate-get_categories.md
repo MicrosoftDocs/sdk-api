@@ -4,17 +4,16 @@ title: IUpdate::get_Categories
 author: windows-sdk-content
 description: Gets an interface that contains a collection of categories to which the update belongs.
 old-location: wua\iupdate_categories.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Categories property, IUpdate.Categories, IUpdate.get_Categories, IUpdate::Categories, IUpdate::get_Categories, get_Categories, wua.iupdate_categories, wuapi/IUpdate::Categories, wuapi/IUpdate::get_Categories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUpdate.get_Categories
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdate::get_Categories

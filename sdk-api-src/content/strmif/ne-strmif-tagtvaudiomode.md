@@ -4,7 +4,7 @@ title: tagTVAudioMode
 author: windows-sdk-content
 description: Specifies the mode of a TV audio control.
 old-location: dshow\tvaudiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TVAudioMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TVAudioMode
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: TVAudioMode
+req.redist: 
 ---
 
 # tagTVAudioMode enumeration

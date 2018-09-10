@@ -4,7 +4,7 @@ title: "_FSCTL_QUERY_REGION_INFO_OUTPUT"
 author: windows-sdk-content
 description: Contains information for one or more regions.
 old-location: fs\fsctl_query_region_info_output.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FSCTL_QUERY_REGION_INFO_OUTPUT, *PFSCTL_QUERY_REGION_INFO_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FSCTL_QUERY_REGION_INFO_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FSCTL_QUERY_REGION_INFO_OUTPUT, *PFSCTL_QUERY_REGION_INFO_OUTPUT
+req.redist: 
 ---
 
 # _FSCTL_QUERY_REGION_INFO_OUTPUT structure

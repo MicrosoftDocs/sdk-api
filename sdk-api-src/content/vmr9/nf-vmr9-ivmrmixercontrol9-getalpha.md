@@ -4,17 +4,16 @@ title: IVMRMixerControl9::GetAlpha
 author: windows-sdk-content
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol9_getalpha.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0806f27c-4728-4492-a2ac-26067b7c0aaa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetAlpha method, IVMRMixerControl9.GetAlpha, IVMRMixerControl9::GetAlpha, IVMRMixerControl9GetAlpha, dshow.ivmrmixercontrol9_getalpha, vmr9/IVMRMixerControl9::GetAlpha
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerControl9.GetAlpha
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerControl9::GetAlpha

@@ -4,7 +4,7 @@ title: WICComponentType
 author: windows-sdk-content
 description: Specifies the type of Windows Imaging Component (WIC) component.
 old-location: wic\_wic_codec_wiccomponenttype.htm
-old-project: wic
+tech.root: wic
 ms.assetid: eff6b77c-ea4b-4476-8d75-dec5bb2e1745
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICComponentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICComponentType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICComponentType
+req.redist: 
 ---
 
 # WICComponentType enumeration

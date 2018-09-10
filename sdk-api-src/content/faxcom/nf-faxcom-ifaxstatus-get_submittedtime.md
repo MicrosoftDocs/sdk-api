@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_SubmittedTime
 title: IFaxStatus::get_SubmittedTime
 author: windows-sdk-content
 description: Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.
-old-location: fax\_mfax_ifaxstatus_get_submittedtime_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_submittedtime_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_46n9.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxStatus object [Fax Service],SubmittedTime property, FaxStatus.SubmittedTime, IFaxStatus.get_SubmittedTime, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime_vb, get_SubmittedTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxStatus interface [Fax Service],SubmittedTime property, IFaxStatus.SubmittedTime, IFaxStatus.get_SubmittedTime, IFaxStatus::SubmittedTime, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_submittedtime_cpp, faxcom/IFaxStatus::SubmittedTime, faxcom/IFaxStatus::get_SubmittedTime, get_SubmittedTime
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.SubmittedTime
+ - IFaxStatus.SubmittedTime
+ - IFaxStatus.get_SubmittedTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_SubmittedTime
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a> property of the object to provide users with information about a fax job.
+You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/2093664f-de48-4f8e-a047-4696377c6fd6">StartTime</a> property of the object to provide users with information about a fax job.
 
 
 
@@ -82,10 +81,6 @@ You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/ce382d4d-aeaf-4254-9bc7-74b7d1d7f1a4">FaxStatus</a>
-
-
-
 <a href="https://msdn.microsoft.com/abdd91dd-7734-411a-9b7c-0da312269e6d">IFaxPort</a>
 
 
@@ -98,11 +93,11 @@ You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/e7759c8a-a6f3-4e42-9d56-bf93d11d7ad1">Send</a>
+<a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a>
+<a href="https://msdn.microsoft.com/2093664f-de48-4f8e-a047-4696377c6fd6">IFaxStatus::get_StartTime</a>
  
 
  

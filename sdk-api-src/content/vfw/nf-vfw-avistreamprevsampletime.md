@@ -4,17 +4,16 @@ title: AVIStreamPrevSampleTime macro
 author: windows-sdk-content
 description: The AVIStreamPrevSampleTime macro determines the time of the nearest nonempty sample that precedes a specified time in a stream.
 old-location: multimedia\avistreamprevsampletime.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: b116e33f-de51-4251-83be-96afceb99a69
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamPrevSampleTime, AVIStreamPrevSampleTime macro [Windows Multimedia], _win32_AVIStreamPrevSampleTime, multimedia.avistreamprevsampletime, vfw/AVIStreamPrevSampleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamPrevSampleTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamPrevSampleTime macro

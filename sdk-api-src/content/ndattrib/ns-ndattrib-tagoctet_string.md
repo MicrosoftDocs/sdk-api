@@ -4,7 +4,7 @@ title: tagOCTET_STRING
 author: windows-sdk-content
 description: The OCTET_STRING structure contains a pointer to a string of byte data.
 old-location: ndf\octet_string.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 6133c69d-45ad-4080-b3e1-f42cbdc6cdf7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCTET_STRING, *POCTET_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCTET_STRING, *POCTET_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: OCTET_STRING, *POCTET_STRING
+req.redist: 
 ---
 
 # tagOCTET_STRING structure

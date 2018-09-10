@@ -4,17 +4,16 @@ title: IShellView::GetItemObject
 author: windows-sdk-content
 description: Gets an interface that refers to data presented in the view.
 old-location: shell\IShellView_GetItemObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 249ce8cc-6820-4f0a-a83a-2035e88d0d9c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetItemObject method, IShellView.GetItemObject, IShellView::GetItemObject, _win32_IShellView_GetItemObject, shell.IShellView_GetItemObject, shobjidl_core/IShellView::GetItemObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.GetItemObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::GetItemObject

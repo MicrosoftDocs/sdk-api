@@ -4,17 +4,16 @@ title: IEmptyVolumeCacheCallBack::ScanProgress
 author: windows-sdk-content
 description: Called by a disk cleanup handler to update the disk cleanup manager on the progress of a scan for deletable files.
 old-location: lwef\iemptyvolumecachecallback_scanprogress.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 41ebc9db-d402-47d7-b303-f87357ae820d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],ScanProgress method, IEmptyVolumeCacheCallBack.ScanProgress, IEmptyVolumeCacheCallBack::ScanProgress, ScanProgress, ScanProgress method [Legacy Windows Environment Features], ScanProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_ScanProgress, emptyvc/IEmptyVolumeCacheCallBack::ScanProgress, lwef.iemptyvolumecachecallback_scanprogress, shell.iemptyvolumecachecallback_scanprogress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMI_VERSION
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEmptyVolumeCacheCallBack.ScanProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEmptyVolumeCacheCallBack::ScanProgress
@@ -82,7 +80,7 @@ This flag should be set if the handler will not call this method again. It is ty
 
 ### -param pcwszStatus
 
-
+TBD
 
 
 

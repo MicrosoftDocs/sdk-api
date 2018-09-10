@@ -4,7 +4,7 @@ title: DXGI_INFO_QUEUE_MESSAGE
 author: windows-sdk-content
 description: Describes a debug message in the information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F0FF1DC6-8E62-4D35-BCB7-EC3BB314F033
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_INFO_QUEUE_MESSAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_INFO_QUEUE_MESSAGE
+req.redist: 
 ---
 
 # DXGI_INFO_QUEUE_MESSAGE structure

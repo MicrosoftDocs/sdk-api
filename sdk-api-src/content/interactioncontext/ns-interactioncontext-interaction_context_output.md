@@ -4,7 +4,7 @@ title: INTERACTION_CONTEXT_OUTPUT
 author: windows-sdk-content
 description: Defines the output of the Interaction Context object.
 old-location: input_intcontext\interaction_context_output.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 90ba531c-9f97-451d-8781-450dbc248f47
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERACTION_CONTEXT_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERACTION_CONTEXT_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: INTERACTION_CONTEXT_OUTPUT
+req.redist: 
 ---
 
 # INTERACTION_CONTEXT_OUTPUT structure

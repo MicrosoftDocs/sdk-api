@@ -4,17 +4,16 @@ title: CM_Get_DevNode_PropertyW function
 author: windows-sdk-content
 description: The CM_Get_DevNode_Property function retrieves a device instance property.
 old-location: devinst\cm_get_devnode_property.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CM_Get_DevNode_PropertyW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_DevNode_PropertyW function

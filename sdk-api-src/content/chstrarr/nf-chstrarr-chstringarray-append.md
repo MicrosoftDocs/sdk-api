@@ -4,17 +4,16 @@ title: CHStringArray::Append
 author: windows-sdk-content
 description: The Append method adds the contents of another array to the end of the given array.
 old-location: wmi\chstringarray_append.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c37df3d4-9b0b-4ed3-ab51-407f26203578
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Append, Append method [Windows Management Instrumentation], Append method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Append method, CHStringArray.Append, CHStringArray::Append, _hmm_chstringarray_append, chstrarr/CHStringArray::Append, wmi.chstringarray_append
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHStringArray.Append
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHStringArray::Append

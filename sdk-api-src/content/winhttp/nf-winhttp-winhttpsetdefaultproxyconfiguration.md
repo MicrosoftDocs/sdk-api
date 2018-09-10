@@ -4,17 +4,16 @@ title: WinHttpSetDefaultProxyConfiguration function
 author: windows-sdk-content
 description: Sets the default WinHTTP proxy configuration in the registry.
 old-location: http\winhttpsetdefaultproxyconfiguration.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpSetDefaultProxyConfiguration
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WinHttpSetDefaultProxyConfiguration function

@@ -4,17 +4,16 @@ title: FreeConfirmConflictItem function
 author: windows-sdk-content
 description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
 old-location: shell\FreeConfirmConflictItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: None
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FreeConfirmConflictItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: None
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # FreeConfirmConflictItem function

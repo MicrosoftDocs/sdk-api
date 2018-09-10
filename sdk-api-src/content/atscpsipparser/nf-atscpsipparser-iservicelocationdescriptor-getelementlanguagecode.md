@@ -4,17 +4,16 @@ title: IServiceLocationDescriptor::GetElementLanguageCode
 author: windows-sdk-content
 description: Gets the three-character ISO 639 language code for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementlanguagecode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceLocationDescriptor.GetElementLanguageCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceLocationDescriptor::GetElementLanguageCode

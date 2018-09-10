@@ -4,17 +4,16 @@ title: InstallApplication function
 author: windows-sdk-content
 description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.
 old-location: policy\installapplication.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INSTALLSPECTYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - InstallApplication
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # InstallApplication function

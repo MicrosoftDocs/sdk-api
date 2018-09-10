@@ -4,7 +4,7 @@ title: "_CMSG_KEY_AGREE_ENCRYPT_INFO"
 author: windows-sdk-content
 description: Contains encryption information applicable to all key agreement recipients of an enveloped message.
 old-location: security\cmsg_key_agree_encrypt_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7604ac82-a1a2-451b-8615-98303ce1d83e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_KEY_AGREE_ENCRYPT_INFO, *PCMSG_KEY_AGREE_ENCRYPT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_KEY_AGREE_ENCRYPT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_KEY_AGREE_ENCRYPT_INFO, *PCMSG_KEY_AGREE_ENCRYPT_INFO
+req.redist: 
 ---
 
 # _CMSG_KEY_AGREE_ENCRYPT_INFO structure

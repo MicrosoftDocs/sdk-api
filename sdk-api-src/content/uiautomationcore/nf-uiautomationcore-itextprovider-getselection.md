@@ -4,17 +4,16 @@ title: ITextProvider::GetSelection
 author: windows-sdk-content
 description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.
 old-location: winauto\uiauto_ITextProvider_GetSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetSelection method, ITextProvider.GetSelection, ITextProvider::GetSelection, uiauto.uiauto_ITextProvider_GetSelection, uiauto_ITextProvider_GetSelection, uiautomationcore/ITextProvider::GetSelection, winauto.uiauto_ITextProvider_GetSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextProvider.GetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextProvider::GetSelection

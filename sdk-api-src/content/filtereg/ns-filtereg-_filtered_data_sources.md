@@ -4,7 +4,7 @@ title: "_FILTERED_DATA_SOURCES"
 author: windows-sdk-content
 description: Specifies parameters for a Shell data source for which a filter is loaded.
 old-location: search\filtered_data_sources.htm
-old-project: search
+tech.root: search
 ms.assetid: 5baae290-aead-4986-a7d4-0302931e0104
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: filtereg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILTERED_DATA_SOURCES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FILTERED_DATA_SOURCES
+req.redist: 
 ---
 
 # _FILTERED_DATA_SOURCES structure

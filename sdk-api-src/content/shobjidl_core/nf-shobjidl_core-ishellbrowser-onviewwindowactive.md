@@ -4,17 +4,16 @@ title: IShellBrowser::OnViewWindowActive
 author: windows-sdk-content
 description: Called by the Shell view when the view window or one of its child windows gets the focus or becomes active.
 old-location: shell\IShellBrowser_OnViewWindowActive.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bd320262-f383-453b-9028-4e93f0b3761a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],OnViewWindowActive method, IShellBrowser.OnViewWindowActive, IShellBrowser::OnViewWindowActive, OnViewWindowActive, OnViewWindowActive method [Windows Shell], OnViewWindowActive method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_OnViewWindowActive, shell.IShellBrowser_OnViewWindowActive, shobjidl_core/IShellBrowser::OnViewWindowActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.OnViewWindowActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::OnViewWindowActive
@@ -62,7 +60,7 @@ Called by the Shell view when the view window or one of its child windows gets t
 
 ### -param pshv
 
-
+TBD
 
 
 

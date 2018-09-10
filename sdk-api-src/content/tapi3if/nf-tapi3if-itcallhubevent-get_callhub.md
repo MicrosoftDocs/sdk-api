@@ -4,17 +4,16 @@ title: ITCallHubEvent::get_CallHub
 author: windows-sdk-content
 description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
 old-location: tapi3\itcallhubevent_get_callhub.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4016f253-2a2d-4406-a1fc-7595d25c1c06
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_CallHub method, ITCallHubEvent.get_CallHub, ITCallHubEvent::get_CallHub, _tapi3_itcallhubevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_callhub, tapi3if/ITCallHubEvent::get_CallHub
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallHubEvent.get_CallHub
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallHubEvent::get_CallHub

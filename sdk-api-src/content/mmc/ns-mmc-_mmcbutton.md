@@ -4,7 +4,7 @@ title: "_MMCButton"
 author: windows-sdk-content
 description: The MMCBUTTON structure contains values used in creating buttons on a toolbar. This structure is similar to the TBBUTTON structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.
 old-location: mmc\mmcbutton.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 340fed49-3003-4dd6-80c9-6cefc8c5b750
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMCBUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMCBUTTON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMCBUTTON
+req.redist: 
 ---
 
 # _MMCButton structure

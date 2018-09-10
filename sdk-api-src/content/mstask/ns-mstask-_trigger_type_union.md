@@ -4,7 +4,7 @@ title: "_TRIGGER_TYPE_UNION"
 author: windows-sdk-content
 description: Defines the invocation schedule of the trigger within the Type member of a TASK_TRIGGER structure.
 old-location: taskschd\trigger_type_union.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: de50fe74-8091-4a9e-a5b9-9a8c2c684895
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRIGGER_TYPE_UNION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRIGGER_TYPE_UNION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TRIGGER_TYPE_UNION
+req.redist: 
 ---
 
 # _TRIGGER_TYPE_UNION structure

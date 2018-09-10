@@ -4,17 +4,16 @@ title: IPicture::get_CurDC
 author: windows-sdk-content
 description: Retrieves the handle of the current device context. This property is valid only for bitmap pictures.
 old-location: com\ipicture_get_curdc.htm
-old-project: com
+tech.root: com
 ms.assetid: a5c13a54-692d-423f-824d-5a96c137dec9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],get_CurDC method, IPicture.get_CurDC, IPicture::get_CurDC, _ctrl_ipicture_get_curdc, com.ipicture_get_curdc, get_CurDC, get_CurDC method [COM], get_CurDC method [COM],IPicture interface, ocidl/IPicture::get_CurDC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.get_CurDC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::get_CurDC

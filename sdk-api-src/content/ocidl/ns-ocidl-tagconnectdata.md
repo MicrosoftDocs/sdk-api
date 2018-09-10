@@ -4,7 +4,7 @@ title: tagCONNECTDATA
 author: windows-sdk-content
 description: Describes a connection that exists to a given connection point.
 old-location: com\connectdata.htm
-old-project: com
+tech.root: com
 ms.assetid: 23312f89-2985-402d-aae4-cd7388137153
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OCIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONNECTDATA, *PCONNECTDATA, *LPCONNECTDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONNECTDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CONNECTDATA, *PCONNECTDATA, *LPCONNECTDATA
+req.redist: 
 ---
 
 # tagCONNECTDATA structure

@@ -4,17 +4,16 @@ title: Button_SetTextMargin macro
 author: windows-sdk-content
 description: Sets the margins for drawing text in a button control. You can use this macro or send the BCM_SETTEXTMARGIN message explicitly.
 old-location: controls\Button_SetTextMargin.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settextmargin.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Button_SetTextMargin, Button_SetTextMargin macro [Windows Controls], _win32_Button_SetTextMargin, _win32_Button_SetTextMargin_cpp, commctrl/Button_SetTextMargin, controls.Button_SetTextMargin, controls._win32_Button_SetTextMargin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Button_SetTextMargin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Button_SetTextMargin macro

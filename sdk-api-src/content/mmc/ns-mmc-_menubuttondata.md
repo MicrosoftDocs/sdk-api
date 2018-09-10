@@ -4,7 +4,7 @@ title: "_MENUBUTTONDATA"
 author: windows-sdk-content
 description: The MENUBUTTONDATA structure contains values used to create buttons on a toolbar.
 old-location: mmc\menubuttondata.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 440467ea-3d6c-49a0-a81a-24088e307d22
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MENUBUTTONDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MENUBUTTONDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MENUBUTTONDATA
+req.redist: 
 ---
 
 # _MENUBUTTONDATA structure

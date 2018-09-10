@@ -4,17 +4,16 @@ title: IManipulationProcessor::put_PivotPointY
 author: windows-sdk-content
 description: The PivotPointY property is the vertical center of the object.
 old-location: wintouch\imanipulationprocessor_pivotpointy.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 09faaacd-3583-4129-b8e3-068e34e220b7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointY property, IManipulationProcessor.PivotPointY, IManipulationProcessor.put_PivotPointY, IManipulationProcessor::PivotPointY, IManipulationProcessor::get_PivotPointY, IManipulationProcessor::put_PivotPointY, PivotPointY property [Windows Touch], PivotPointY property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::PivotPointY, manipulations/IManipulationProcessor::get_PivotPointY, manipulations/IManipulationProcessor::put_PivotPointY, put_PivotPointY, wintouch.imanipulationprocessor_pivotpointy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IManipulationProcessor.put_PivotPointY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::put_PivotPointY

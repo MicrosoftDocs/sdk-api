@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::GetStatus
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the group.
 old-location: bits\ibackgroundcopygroup_getstatus.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 9ac76e50-a2cf-4dfb-af7e-803ee483f0f9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetStatus method, IBackgroundCopyGroup.GetStatus, IBackgroundCopyGroup::GetStatus, QM_STATUS_GROUP_ERROR, QM_STATUS_GROUP_FOREGROUND, QM_STATUS_GROUP_INCOMPLETE, QM_STATUS_GROUP_SUSPENDED, bits.ibackgroundcopygroup_getstatus, qmgr/IBackgroundCopyGroup::GetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::GetStatus

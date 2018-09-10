@@ -4,17 +4,16 @@ title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 author: windows-sdk-content
 description: Gets the ISyncProvider interface of the provider that caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncSessionExtendedErrorInfo::GetSyncProviderWithError

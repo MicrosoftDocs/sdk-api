@@ -4,17 +4,16 @@ title: IPortableDevicePropertiesBulk::Start
 author: windows-sdk-content
 description: The Start method starts a queued operation.
 old-location: wpdsdk\iportabledevicepropertiesbulk_start.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: a69afdc9-622d-45fc-b71e-6058d9d528b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Start method, IPortableDevicePropertiesBulk.Start, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevicePropertiesBulk.Start
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevicePropertiesBulk::Start

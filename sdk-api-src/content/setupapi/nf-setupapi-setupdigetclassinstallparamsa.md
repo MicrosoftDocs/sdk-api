@@ -4,17 +4,16 @@ title: SetupDiGetClassInstallParamsA function
 author: windows-sdk-content
 description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdigetclassinstallparams.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassInstallParams, SetupDiGetClassInstallParams function [Device and Driver Installation], SetupDiGetClassInstallParamsA, SetupDiGetClassInstallParamsW, devinst.setupdigetclassinstallparams, di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml, setupapi/SetupDiGetClassInstallParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassInstallParams
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassInstallParamsA function

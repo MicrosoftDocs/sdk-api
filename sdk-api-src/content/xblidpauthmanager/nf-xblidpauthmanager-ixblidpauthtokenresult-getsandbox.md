@@ -4,17 +4,16 @@ title: IXblIdpAuthTokenResult::GetSandbox
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getsandbox.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: BDE93755-27E8-4D5A-A777-527954BA5E4C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSandbox method, IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthTokenResult.GetSandbox
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthTokenResult::GetSandbox

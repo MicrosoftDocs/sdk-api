@@ -4,17 +4,16 @@ title: IMtsEventInfo::get_Value
 author: windows-sdk-content
 description: Retrieves the value of the specified user-defined event.
 old-location: cos\imtseventinfo_get_value.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 61757e85-28b2-4599-9be4-69a3531e5ac2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Value method, IMtsEventInfo.get_Value, IMtsEventInfo::get_Value, _dtc_IMtsEventInfo_Value, comsvcs/IMtsEventInfo::get_Value, cos.imtseventinfo_get_value, get_Value, get_Value method [COM+], get_Value method [COM+],IMtsEventInfo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsEventInfo.get_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsEventInfo::get_Value

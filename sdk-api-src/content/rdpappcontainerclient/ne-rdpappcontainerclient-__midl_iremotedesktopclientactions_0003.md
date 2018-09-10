@@ -4,7 +4,7 @@ title: "__MIDL_IRemoteDesktopClientActions_0003"
 author: windows-sdk-content
 description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
 old-location: termserv\snapshotformattype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpappcontainerclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: SnapshotFormatType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnapshotFormatType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SnapshotFormatType
+req.redist: 
 ---
 
 # __MIDL_IRemoteDesktopClientActions_0003 enumeration

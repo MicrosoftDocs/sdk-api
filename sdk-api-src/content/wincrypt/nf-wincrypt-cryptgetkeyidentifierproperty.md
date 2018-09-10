@@ -4,17 +4,16 @@ title: CryptGetKeyIdentifierProperty function
 author: windows-sdk-content
 description: The CryptGetKeyIdentifierProperty acquires a specific property from a specified key identifier.
 old-location: security\cryptgetkeyidentifierproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: bc0511c1-0699-4959-afd7-a838c91c77d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_KEYID_ALLOC_FLAG, CRYPT_KEYID_MACHINE_FLAG, CryptGetKeyIdentifierProperty, CryptGetKeyIdentifierProperty function [Security], _crypto2_cryptgetkeyidentifierproperty, security.cryptgetkeyidentifierproperty, wincrypt/CryptGetKeyIdentifierProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptGetKeyIdentifierProperty
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptGetKeyIdentifierProperty function

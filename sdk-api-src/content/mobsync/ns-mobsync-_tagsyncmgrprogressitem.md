@@ -4,7 +4,7 @@ title: "_tagSYNCMGRPROGRESSITEM"
 author: windows-sdk-content
 description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
 old-location: shell\syncmgr_syncmgrprogressitem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRPROGRESSITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
+req.redist: 
 ---
 
 # _tagSYNCMGRPROGRESSITEM structure

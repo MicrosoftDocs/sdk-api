@@ -4,17 +4,16 @@ title: IVdsSwProvider::CreatePack
 author: windows-sdk-content
 description: Creates a pack object.
 old-location: base\ivdsswprovider_createpack.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSwProvider.CreatePack
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSwProvider::CreatePack

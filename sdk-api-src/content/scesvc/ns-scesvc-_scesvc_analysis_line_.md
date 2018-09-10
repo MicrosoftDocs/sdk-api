@@ -4,7 +4,7 @@ title: "_SCESVC_ANALYSIS_LINE_"
 author: windows-sdk-content
 description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
 old-location: security\scesvc_analysis_line.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCESVC_ANALYSIS_LINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCESVC_ANALYSIS_LINE, *PSCESVC_ANALYSIS_LINE
+req.redist: 
 ---
 
 # _SCESVC_ANALYSIS_LINE_ structure

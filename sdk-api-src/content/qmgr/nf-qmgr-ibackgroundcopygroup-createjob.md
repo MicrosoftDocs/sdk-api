@@ -4,17 +4,16 @@ title: IBackgroundCopyGroup::CreateJob
 author: windows-sdk-content
 description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
 old-location: bits\ibackgroundcopygroup_createjob.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CreateJob method, IBackgroundCopyGroup.CreateJob, IBackgroundCopyGroup::CreateJob, bits.ibackgroundcopygroup_createjob, qmgr/IBackgroundCopyGroup::CreateJob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyGroup.CreateJob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyGroup::CreateJob
@@ -64,7 +62,7 @@ Use the <b>CreateJob</b> method to add a new job to the group. A group can conta
 
 ### -param guidJobID
 
-
+TBD
 
 
 ### -param ppJob [out]

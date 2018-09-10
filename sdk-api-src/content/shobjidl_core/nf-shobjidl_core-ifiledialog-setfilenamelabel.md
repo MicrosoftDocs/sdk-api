@@ -4,17 +4,16 @@ title: IFileDialog::SetFileNameLabel
 author: windows-sdk-content
 description: Sets the text of the label next to the file name edit box.
 old-location: shell\IFileDialog_SetFileNameLabel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4dc456c4-e06a-4bbf-b7c3-a6f93b46a044
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileNameLabel method, IFileDialog.SetFileNameLabel, IFileDialog::SetFileNameLabel, SetFileNameLabel, SetFileNameLabel method [Windows Shell], SetFileNameLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileNameLabel, shell_IFileDialog_SetFileNameLabel, shobjidl_core/IFileDialog::SetFileNameLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetFileNameLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetFileNameLabel

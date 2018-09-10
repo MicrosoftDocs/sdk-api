@@ -4,7 +4,7 @@ title: PrintAsyncNotifyUserFilter
 author: windows-sdk-content
 description: Specifies whether notifications will go only to listening applications that are associated with the same user as the Print Spooler-hosted sender, or go to a broader set of listening applications.
 old-location: gdi\printasyncnotifyuserfilter.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 89893e25-486a-4cef-b1a6-f812c8cc1fe2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Printmanagerinterop.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrintAsyncNotifyUserFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PrintAsyncNotifyUserFilter
+req.redist: 
 ---
 
 # PrintAsyncNotifyUserFilter enumeration

@@ -4,7 +4,7 @@ title: "_CTL_USAGE_MATCH"
 author: windows-sdk-content
 description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
 old-location: security\ctl_usage_match.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0b1146b7-a6fe-4cd0-aff7-b49ec6f561a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_USAGE_MATCH, *PCTL_USAGE_MATCH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_USAGE_MATCH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_USAGE_MATCH, *PCTL_USAGE_MATCH
+req.redist: 
 ---
 
 # _CTL_USAGE_MATCH structure

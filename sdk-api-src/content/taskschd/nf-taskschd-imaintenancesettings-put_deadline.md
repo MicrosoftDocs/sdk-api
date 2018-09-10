@@ -4,17 +4,16 @@ title: IMaintenanceSettings::put_Deadline
 author: windows-sdk-content
 description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_deadline.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 1F0B77C8-82BA-4A7B-A411-CFEFDC9B4CE5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Deadline property [Task Scheduler], Deadline property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Deadline property, IMaintenanceSettings.Deadline, IMaintenanceSettings.put_Deadline, IMaintenanceSettings::Deadline, IMaintenanceSettings::get_Deadline, IMaintenanceSettings::put_Deadline, put_Deadline, taskschd.imaintenancesettings_deadline, taskschd/IMaintenanceSettings::Deadline, taskschd/IMaintenanceSettings::get_Deadline, taskschd/IMaintenanceSettings::put_Deadline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMaintenanceSettings.put_Deadline
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMaintenanceSettings::put_Deadline

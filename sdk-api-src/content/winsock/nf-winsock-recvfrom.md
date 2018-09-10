@@ -4,17 +4,16 @@ title: recvfrom function
 author: windows-sdk-content
 description: The recvfrom function receives a datagram and stores the source address.
 old-location: winsock\recvfrom_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - recvfrom
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # recvfrom function

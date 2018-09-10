@@ -4,17 +4,16 @@ title: IDeviceSpecificProperty::Get4BRange
 author: windows-sdk-content
 description: The Get4BRange method gets the 4-byte range of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_get4brange.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 16ca72b5-2de2-4644-9c64-cdc69a9b2c51
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],Get4BRange method, IDeviceSpecificProperty.Get4BRange, IDeviceSpecificProperty::Get4BRange, IDeviceSpecificPropertyGet4BRange, coreaudio.idevicespecificproperty_get4brange, devicetopology/IDeviceSpecificProperty::Get4BRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceSpecificProperty.Get4BRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceSpecificProperty::Get4BRange

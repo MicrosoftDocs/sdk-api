@@ -4,17 +4,16 @@ title: CertSrvIsServerOnlineW function
 author: windows-sdk-content
 description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
 old-location: security\certsrvisserveronline.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CertSrvIsServerOnlineW
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvIsServerOnlineW function

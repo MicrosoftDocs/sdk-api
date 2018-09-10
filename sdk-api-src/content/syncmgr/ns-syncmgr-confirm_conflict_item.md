@@ -4,7 +4,7 @@ title: CONFIRM_CONFLICT_ITEM
 author: windows-sdk-content
 description: Defines conflict item structure.
 old-location: shell\CONFIRM_CONFLICT_ITEM.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFIRM_CONFLICT_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONFIRM_CONFLICT_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: CONFIRM_CONFLICT_ITEM
+req.redist: 
 ---
 
 # CONFIRM_CONFLICT_ITEM structure

@@ -4,17 +4,16 @@ title: DRMGetServiceLocation function
 author: windows-sdk-content
 description: Retrieves the URL of a server that can perform various rights management services, such as activation or license acquisition.
 old-location: rm\drmgetservicelocation.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: f7cbc3ba-009f-4a35-999e-139d41961fd9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMGetServiceLocation, DRMGetServiceLocation function [Active Directory Rights Management Services SDK 1.0], DRM_SERVICE_LOCATION_ENTERPRISE, DRM_SERVICE_LOCATION_INTERNET, DRM_SERVICE_TYPE_ACTIVATION, DRM_SERVICE_TYPE_CERTIFICATION, DRM_SERVICE_TYPE_CLIENTLICENSOR, DRM_SERVICE_TYPE_PUBLISHING, DRM_SERVICE_TYPE_SILENT, msdrm/DRMGetServiceLocation, rm.drmgetservicelocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMGetServiceLocation
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

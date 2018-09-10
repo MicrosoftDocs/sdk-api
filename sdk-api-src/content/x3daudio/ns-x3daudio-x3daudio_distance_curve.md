@@ -4,7 +4,7 @@ title: X3DAUDIO_DISTANCE_CURVE
 author: windows-sdk-content
 description: Defines an explicit piecewise curve made up of linear segments, directly defining DSP behavior with respect to normalized distance.
 old-location: xaudio2\x3daudio_distance_curve.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DISTANCE_CURVE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X3DAUDIO_DISTANCE_CURVE, *LPX3DAUDIO_DISTANCE_CURVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - X3DAUDIO_DISTANCE_CURVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: X3DAUDIO_DISTANCE_CURVE, *LPX3DAUDIO_DISTANCE_CURVE
+req.redist: 
 ---
 
 # X3DAUDIO_DISTANCE_CURVE structure

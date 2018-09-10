@@ -4,17 +4,16 @@ title: IFileDialog::SetDefaultFolder
 author: windows-sdk-content
 description: Sets the folder used as a default if there is not a recently used folder value available.
 old-location: shell\IFileDialog_SetDefaultFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dcde0f80-8118-479d-a08c-4b9af6aa343a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultFolder method, IFileDialog.SetDefaultFolder, IFileDialog::SetDefaultFolder, SetDefaultFolder, SetDefaultFolder method [Windows Shell], SetDefaultFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultFolder, shell_IFileDialog_SetDefaultFolder, shobjidl_core/IFileDialog::SetDefaultFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetDefaultFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetDefaultFolder

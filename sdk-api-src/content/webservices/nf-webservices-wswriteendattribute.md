@@ -4,17 +4,16 @@ title: WsWriteEndAttribute function
 author: windows-sdk-content
 description: This operation finishes writing an attribute to the current element. If WsWriteStartAttribute is called the Writer does not permit another element or attribute to be written until WsWriteEndAttribute is called.
 old-location: wsw\wswriteendattribute.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 8747c484-19b3-46b2-beee-80b220011def
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsWriteEndAttribute, WsWriteEndAttribute function [Web Services for Windows], webservices/WsWriteEndAttribute, wsw.wswriteendattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsWriteEndAttribute
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsWriteEndAttribute function

@@ -4,7 +4,7 @@ title: tagCERT_VIEWPROPERTIES_STRUCT_W
 author: windows-sdk-content
 description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
 old-location: security\cert_viewproperties_struct.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_VIEWPROPERTIES_STRUCT_W, *PCERT_VIEWPROPERTIES_STRUCT_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CERT_VIEWPROPERTIES_STRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CERT_VIEWPROPERTIES_STRUCT_W, *PCERT_VIEWPROPERTIES_STRUCT_W
+req.redist: 
 ---
 
 # tagCERT_VIEWPROPERTIES_STRUCT_W structure

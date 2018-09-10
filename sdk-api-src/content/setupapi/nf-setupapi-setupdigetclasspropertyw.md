@@ -4,17 +4,16 @@ title: SetupDiGetClassPropertyW function
 author: windows-sdk-content
 description: The SetupDiGetClassProperty function retrieves a device property that is set for a device setup class or a device interface class.
 old-location: devinst\setupdigetclassproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: b90473fe-eb8c-463a-971c-422c108dec1d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassProperty, SetupDiGetClassProperty function [Device and Driver Installation], SetupDiGetClassPropertyW, devinst.setupdigetclassproperty, di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml, setupapi/SetupDiGetClassProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_Class_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassProperty
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassPropertyW function

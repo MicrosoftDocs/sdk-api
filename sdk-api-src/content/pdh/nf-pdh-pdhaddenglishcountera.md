@@ -4,17 +4,16 @@ title: PdhAddEnglishCounterA function
 author: windows-sdk-content
 description: Adds the specified language-neutral counter to the query.
 old-location: perf\pdhaddenglishcounter.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhAddEnglishCounterW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhAddEnglishCounterA function

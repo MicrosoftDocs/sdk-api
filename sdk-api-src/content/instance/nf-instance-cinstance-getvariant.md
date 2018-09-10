@@ -4,17 +4,16 @@ title: CInstance::GetVariant
 author: windows-sdk-content
 description: The GetVariant method retrieves a VARIANT property.
 old-location: wmi\cinstance_getvariant.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::GetVariant

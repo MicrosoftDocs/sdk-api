@@ -4,7 +4,7 @@ title: D3D12_TEX3D_RTV
 author: windows-sdk-content
 description: Describes the subresources from a 3D texture to use in a render-target view.
 old-location: direct3d12\d3d12_tex3d_rtv.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: D640C247-FDE9-49DD-88AB-BCCC3B8880D1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_TEX3D_RTV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_TEX3D_RTV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_TEX3D_RTV
+req.redist: 
 ---
 
 # D3D12_TEX3D_RTV structure

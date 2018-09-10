@@ -4,17 +4,16 @@ title: OleUIObjectPropertiesW function
 author: windows-sdk-content
 description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object.
 old-location: com\oleuiobjectproperties.htm
-old-project: com
+tech.root: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIObjectPropertiesA, OleUIObjectPropertiesW, _ole_OleUIObjectProperties, com.oleuiobjectproperties, oledlg/OleUIObjectProperties, oledlg/OleUIObjectPropertiesA, oledlg/OleUIObjectPropertiesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIObjectPropertiesW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIObjectPropertiesW function

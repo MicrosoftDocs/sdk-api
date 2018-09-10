@@ -4,17 +4,16 @@ title: InternetQueryOptionA function
 author: windows-sdk-content
 description: Queries an Internet option on the specified handle.
 old-location: wininet\internetqueryoption.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetQueryOptionW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetQueryOptionA function

@@ -4,17 +4,16 @@ title: "_InlineInterlockedAdd function"
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values. The operation is performed with acquire memory ordering semantics.
 old-location: base\interlockedaddacquire.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedAddAcquire, InterlockedAddAcquire function, _InlineInterlockedAdd, base.interlockedaddacquire, winnt/InterlockedAddAcquire
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedAddAcquire
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # _InlineInterlockedAdd function

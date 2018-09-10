@@ -4,17 +4,16 @@ title: ISCTE_EAS::GetVersionNumber
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the EAS table.
 old-location: mstv\iscte_eas_getversionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b2108435-37ef-404c-b735-a5100acfa8a4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetVersionNumber method, ISCTE_EAS.GetVersionNumber, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISCTE_EAS.GetVersionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISCTE_EAS::GetVersionNumber

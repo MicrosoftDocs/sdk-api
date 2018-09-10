@@ -4,17 +4,16 @@ title: IVMRAspectRatioControl9::GetAspectRatioMode
 author: windows-sdk-content
 description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRAspectRatioControl9.GetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRAspectRatioControl9::GetAspectRatioMode
@@ -66,7 +64,7 @@ The <code>GetAspectRatioMode</code> method queries whether the VMR preserves the
 
 ### -param lpdwARMode
 
-
+TBD
 
 
 

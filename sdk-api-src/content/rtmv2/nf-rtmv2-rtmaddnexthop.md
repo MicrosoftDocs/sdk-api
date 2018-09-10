@@ -4,17 +4,16 @@ title: RtmAddNextHop function
 author: windows-sdk-content
 description: The RtmAddNextHop function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list.
 old-location: rras\rtmaddnexthop.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 7c11397b-f5c9-4a3e-88d8-2f1736f5da13
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RtmAddNextHop, RtmAddNextHop function [RAS], _rtmv2ref_rtmaddnexthop, rras.rtmaddnexthop, rtmv2/RtmAddNextHop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmAddNextHop
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmAddNextHop function

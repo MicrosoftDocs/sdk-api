@@ -4,17 +4,16 @@ title: ICreateDevEnum::CreateClassEnumerator
 author: windows-sdk-content
 description: The CreateClassEnumerator method creates an enumerator for a specified device category.
 old-location: dshow\icreatedevenum_createclassenumerator.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 07457acc-51f1-4d1b-b795-e8d980a5531e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICreateDevEnum.CreateClassEnumerator
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateDevEnum::CreateClassEnumerator

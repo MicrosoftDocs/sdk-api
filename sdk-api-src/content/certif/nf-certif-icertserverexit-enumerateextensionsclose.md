@@ -4,17 +4,16 @@ title: ICertServerExit::EnumerateExtensionsClose
 author: windows-sdk-content
 description: Frees any resources connected with extension enumeration.
 old-location: security\icertserverexit_enumerateextensionsclose.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 769235cd-d5ef-458b-a04b-88f9f831ce3f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensionsClose method, EnumerateExtensionsClose, EnumerateExtensionsClose method [Security], EnumerateExtensionsClose method [Security],CCertServerExit object, EnumerateExtensionsClose method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensionsClose method, ICertServerExit.EnumerateExtensionsClose, ICertServerExit::EnumerateExtensionsClose, _certsrv_icertserverexit_enumerateextensionsclose, certif/ICertServerExit::EnumerateExtensionsClose, security.icertserverexit_enumerateextensionsclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerExit.EnumerateExtensionsClose
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerExit::EnumerateExtensionsClose

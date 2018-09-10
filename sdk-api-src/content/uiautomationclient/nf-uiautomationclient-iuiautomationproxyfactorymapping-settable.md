@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactoryMapping::SetTable
 author: windows-sdk-content
 description: Sets the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_SetTable.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8b3675a4-a4d5-40ed-bb11-7e4d50746019
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],SetTable method, IUIAutomationProxyFactoryMapping.SetTable, IUIAutomationProxyFactoryMapping::SetTable, SetTable, SetTable method [Windows Accessibility], SetTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable, uiauto_IUIAutomationProxyFactoryMapping_SetTable, uiautomationclient/IUIAutomationProxyFactoryMapping::SetTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_SetTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationProxyFactoryMapping.SetTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactoryMapping::SetTable

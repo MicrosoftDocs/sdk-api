@@ -4,17 +4,16 @@ title: IVdsPack::ReplaceDisk
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsPack interface [VDS],ReplaceDisk method, IVdsPack.ReplaceDisk, IVdsPack::ReplaceDisk, ReplaceDisk, ReplaceDisk method [VDS], ReplaceDisk method [VDS],IVdsPack interface, base.ivdspack_replacedisk, vds/IVdsPack::ReplaceDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.ReplaceDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::ReplaceDisk

@@ -4,17 +4,16 @@ title: IFsrmReportManager::GetReportSizeLimit
 author: windows-sdk-content
 description: Retrieves the current value of the specified report size limit.
 old-location: fsrm\ifsrmreportmanager_getreportsizelimit.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1fe2546c-d70c-466a-8640-77cc2403a91d
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportSizeLimit method, GetReportSizeLimit, GetReportSizeLimit method [File Server Resource Manager], GetReportSizeLimit method [File Server Resource Manager],FsrmReportManager class, GetReportSizeLimit method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportSizeLimit method, IFsrmReportManager.GetReportSizeLimit, IFsrmReportManager::GetReportSizeLimit, fs.ifsrmreportmanager_getreportsizelimit, fsrm.ifsrmreportmanager_getreportsizelimit, fsrmreports/IFsrmReportManager::GetReportSizeLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmReportManager.GetReportSizeLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportManager::GetReportSizeLimit

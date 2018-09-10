@@ -4,17 +4,16 @@ title: WinBioGetEnrolledFactors function
 author: windows-sdk-content
 description: Gets information about the biometric enrollments that the specified user has on the computer.
 old-location: secbiomet\winbiogetenrolledfactors.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WinBioGetEnrolledFactors
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioGetEnrolledFactors function

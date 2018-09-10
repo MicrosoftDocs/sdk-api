@@ -4,7 +4,7 @@ title: SYNCMGR_PRESENTER_NEXT_STEP
 author: windows-sdk-content
 description: Describes the next step that is to occur in sync manager conflict resolution. Used by ISyncMgrConflictPresenter.
 old-location: shell\SYNCMGR_PRESENTER_NEXT_STEP.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e24b09e0-38a1-421b-8cf1-74f553cf93e7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_PRESENTER_NEXT_STEP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_PRESENTER_NEXT_STEP
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_PRESENTER_NEXT_STEP
+req.redist: 
 ---
 
 # SYNCMGR_PRESENTER_NEXT_STEP enumeration

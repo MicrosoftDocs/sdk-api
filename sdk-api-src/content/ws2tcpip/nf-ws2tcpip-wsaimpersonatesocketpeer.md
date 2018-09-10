@@ -4,17 +4,16 @@ title: WSAImpersonateSocketPeer function
 author: windows-sdk-content
 description: Used to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 old-location: winsock\wsaimpersonatesocketpeer.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAImpersonateSocketPeer
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAImpersonateSocketPeer function

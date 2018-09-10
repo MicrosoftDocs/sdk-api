@@ -4,17 +4,16 @@ title: RegQueryInfoKeyW function
 author: windows-sdk-content
 description: Retrieves information about the specified registry key.
 old-location: base\regqueryinfokey.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegQueryInfoKeyW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegQueryInfoKeyW function

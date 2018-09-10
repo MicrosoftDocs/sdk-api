@@ -4,7 +4,7 @@ title: CLUSTER_NETWORK_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
 old-location: mscs\cluster_network_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NETWORK_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_NETWORK_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_NETWORK_ENUM
+req.redist: 
 ---
 
 # CLUSTER_NETWORK_ENUM enumeration

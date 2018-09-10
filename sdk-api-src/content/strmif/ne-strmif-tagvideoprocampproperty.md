@@ -4,7 +4,7 @@ title: tagVideoProcAmpProperty
 author: windows-sdk-content
 description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.
 old-location: dshow\videoprocampproperty.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VideoProcAmpProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VideoProcAmpProperty
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: VideoProcAmpProperty
+req.redist: 
 ---
 
 # tagVideoProcAmpProperty enumeration

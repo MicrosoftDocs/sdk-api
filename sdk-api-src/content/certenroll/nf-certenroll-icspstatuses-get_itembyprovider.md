@@ -4,17 +4,16 @@ title: ICspStatuses::get_ItemByProvider
 author: windows-sdk-content
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input but identifies an algorithm that supports a different intended key use.
 old-location: security\icspstatuses_itembyprovider_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6f6e29b3-4d20-44dc-9a9c-c68b6631a83f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspStatuses interface [Security],ItemByProvider property, ICspStatuses.ItemByProvider, ICspStatuses.get_ItemByProvider, ICspStatuses::ItemByProvider, ICspStatuses::get_ItemByProvider, ItemByProvider property [Security], ItemByProvider property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByProvider, certenroll/ICspStatuses::get_ItemByProvider, get_ItemByProvider, security.icspstatuses_itembyprovider_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspStatuses.get_ItemByProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatuses::get_ItemByProvider

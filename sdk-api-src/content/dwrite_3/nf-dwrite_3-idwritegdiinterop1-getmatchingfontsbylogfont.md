@@ -4,17 +4,16 @@ title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
 author: windows-sdk-content
 description: Gets a list of matching fonts based on the specified LOGFONT values. Only fonts of that family name will be returned.
 old-location: directwrite\idwritegdiinterop1_getmatchingfontsbylogfont.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 38D547D2-0C1C-4673-83BD-38458DFD7E5A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMatchingFontsByLOGFONT, GetMatchingFontsByLOGFONT method [Direct Write], GetMatchingFontsByLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetMatchingFontsByLOGFONT method, IDWriteGdiInterop1.GetMatchingFontsByLOGFONT, IDWriteGdiInterop1::GetMatchingFontsByLOGFONT, directwrite.idwritegdiinterop1_getmatchingfontsbylogfont, dwrite_3/IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteGdiInterop1::GetMatchingFontsByLOGFONT

@@ -4,17 +4,16 @@ title: CredFree function
 author: windows-sdk-content
 description: The CredFree function frees a buffer returned by any of the credentials management functions.
 old-location: security\credfree.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.credfree, wincred/CredFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CredFree
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredFree function

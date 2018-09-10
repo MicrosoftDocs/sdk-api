@@ -4,17 +4,16 @@ title: IInkDisp::CreateStroke
 author: windows-sdk-content
 description: Creates an IInkStrokeDisp object from an array of packet data input values.
 old-location: tablet\inkdisp_createstroke.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 116c5746-61ad-4a47-a5e3-4675af87b0f1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStroke method, IInkDisp.CreateStroke, IInkDisp::CreateStroke, msinkaut/IInkDisp::CreateStroke, tablet.inkdisp_createstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.CreateStroke
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::CreateStroke

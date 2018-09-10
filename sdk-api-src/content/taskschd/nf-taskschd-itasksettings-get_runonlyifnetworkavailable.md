@@ -4,17 +4,16 @@ title: ITaskSettings::get_RunOnlyIfNetworkAvailable
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
 old-location: taskschd\itasksettings_runonlyifnetworkavailable.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: d0926d75-e7d9-469c-aaa0-ddee8fe22dcd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RunOnlyIfNetworkAvailable property, ITaskSettings.RunOnlyIfNetworkAvailable, ITaskSettings.get_RunOnlyIfNetworkAvailable, ITaskSettings::RunOnlyIfNetworkAvailable, ITaskSettings::get_RunOnlyIfNetworkAvailable, ITaskSettings::put_RunOnlyIfNetworkAvailable, RunOnlyIfNetworkAvailable property [Task Scheduler], RunOnlyIfNetworkAvailable property [Task Scheduler],ITaskSettings interface, get_RunOnlyIfNetworkAvailable, taskschd.itasksettings_runonlyifnetworkavailable, taskschd/ITaskSettings::RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::get_RunOnlyIfNetworkAvailable, taskschd/ITaskSettings::put_RunOnlyIfNetworkAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITaskSettings.put_RunOnlyIfNetworkAvailable
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskSettings::get_RunOnlyIfNetworkAvailable

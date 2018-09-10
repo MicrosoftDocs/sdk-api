@@ -4,17 +4,16 @@ title: WBEMTimeSpan::Clear
 author: windows-sdk-content
 description: The Clear method sets the time span to INVALID_TIME.
 old-location: wmi\wbemtimespan_clear.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8bd964ed-d815-489a-8ddf-c92970701b05
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],Clear method, WBEMTimeSpan.Clear, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan::Clear

@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProvider::Initialize
 author: windows-sdk-content
 description: Initializes the Function Discovery provider object.
 old-location: ncd\ifunctiondiscoveryprovider_initialize_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 084d6d91-4637-4325-887b-e9f46ecaaee4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Initialize method, IFunctionDiscoveryProvider.Initialize, IFunctionDiscoveryProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize, ncd.ifunctiondiscoveryprovider_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProvider.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProvider::Initialize

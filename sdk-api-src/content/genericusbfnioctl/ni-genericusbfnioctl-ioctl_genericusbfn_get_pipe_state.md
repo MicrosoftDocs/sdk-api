@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_GET_PIPE_STATE
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to get the state of the specified Universal Serial Bus (USB) pipe.
 old-location: buses\ioctl_genericusbfn_get_pipe_state.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: AC0C24AF-F844-488B-A9E7-AE118C5E2F32
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_GET_PIPE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_GET_PIPE_STATE IOCTL

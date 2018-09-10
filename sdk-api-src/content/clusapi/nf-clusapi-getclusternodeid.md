@@ -4,17 +4,16 @@ title: GetClusterNodeId function
 author: windows-sdk-content
 description: Returns the unique identifier of a cluster node.
 old-location: mscs\getclusternodeid.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterNodeId, GetClusterNodeId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID function [Failover Cluster], _wolf_getclusternodeid, clusapi/GetClusterNodeId, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - GetClusterNodeId
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterNodeId function

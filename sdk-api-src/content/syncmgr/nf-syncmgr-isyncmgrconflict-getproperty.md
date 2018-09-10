@@ -4,17 +4,16 @@ title: ISyncMgrConflict::GetProperty
 author: windows-sdk-content
 description: Gets a conflict property, given a property key.
 old-location: shell\ISyncMgrConflict_GetProperty.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8b7b23e7-fbd4-4ced-9610-d001a2167bae
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetProperty method, ISyncMgrConflict.GetProperty, ISyncMgrConflict::GetProperty, PKEY_DateModified, PKEY_ItemNameDisplay, PKEY_Sync_ConflictDescription, PKEY_Sync_HandlerID, PKEY_Sync_ItemID, _shell_ISyncMgrConflict_GetProperty, shell.ISyncMgrConflict_GetProperty, syncmgr/ISyncMgrConflict::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflict.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflict::GetProperty

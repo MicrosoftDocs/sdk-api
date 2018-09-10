@@ -4,7 +4,7 @@ title: IEnumBitsPeers
 author: windows-sdk-content
 description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
 old-location: bits\ienumbitspeers.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumBitsPeers
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx4.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBitsPeers interface

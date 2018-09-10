@@ -4,7 +4,7 @@ title: "_WS_XML_BUFFER_PROPERTY"
 author: windows-sdk-content
 description: Specifies an XML buffer&#8211;specific setting.
 old-location: wsw\ws_xml_buffer_property.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: bec8d297-7f5a-4b8f-a333-9b535358c470
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_BUFFER_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_BUFFER_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_BUFFER_PROPERTY
+req.redist: 
 ---
 
 # _WS_XML_BUFFER_PROPERTY structure

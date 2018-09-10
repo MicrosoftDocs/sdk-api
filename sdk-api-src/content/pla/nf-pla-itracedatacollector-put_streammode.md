@@ -4,17 +4,16 @@ title: ITraceDataCollector::put_StreamMode
 author: windows-sdk-content
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.put_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode, put_StreamMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_StreamMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::put_StreamMode

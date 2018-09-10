@@ -4,17 +4,16 @@ title: WsReadQualifiedName function
 author: windows-sdk-content
 description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.
 old-location: wsw\wsreadqualifiedname.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadQualifiedName
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadQualifiedName function

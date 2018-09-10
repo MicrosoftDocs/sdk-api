@@ -4,7 +4,7 @@ title: tcp_reserve_port_range
 author: windows-sdk-content
 description: The TCP_RESERVE_PORT_RANGE structure specifies a TCP port range to reserve.
 old-location: iphlp\tcp_reserve_port_range.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 3a64000b-9862-4958-888c-2114c124a9d5
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_RESERVE_PORT_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
+req.redist: 
 ---
 
 # tcp_reserve_port_range structure

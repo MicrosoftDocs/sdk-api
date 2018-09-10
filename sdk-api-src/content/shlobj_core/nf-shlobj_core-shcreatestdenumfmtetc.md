@@ -4,17 +4,16 @@ title: SHCreateStdEnumFmtEtc function
 author: windows-sdk-content
 description: SHCreateStdEnumFmtEtc may be altered or unavailable.
 old-location: shell\SHCreateStdEnumFmtEtc.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SHCreateStdEnumFmtEtc
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateStdEnumFmtEtc function

@@ -4,17 +4,16 @@ title: IWSDScopeMatchingRule::GetScopeRule
 author: windows-sdk-content
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDScopeMatchingRule.GetScopeRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDScopeMatchingRule::GetScopeRule

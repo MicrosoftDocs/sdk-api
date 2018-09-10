@@ -4,7 +4,7 @@ title: "_MFT_INPUT_STREAM_INFO"
 author: windows-sdk-content
 description: Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetInputStreamInfo.
 old-location: mf\mft_input_stream_info.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: de3d6d70-3525-42a0-bc1a-2625e7ebd918
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_INPUT_STREAM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_INPUT_STREAM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFT_INPUT_STREAM_INFO
+req.redist: 
 ---
 
 # _MFT_INPUT_STREAM_INFO structure

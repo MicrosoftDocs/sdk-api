@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer2::get__Allocator
 author: windows-sdk-content
 description: The get__Allocator method retrieves the allocator-presenter from the VMR.
 old-location: mstv\imsvidvideorenderer2_get__allocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer2.get__Allocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer2::get__Allocator
@@ -62,7 +60,7 @@ The <b>get__Allocator</b> method retrieves the allocator-presenter from the VMR.
 
 ### -param AllocPresent
 
-
+TBD
 
 
 

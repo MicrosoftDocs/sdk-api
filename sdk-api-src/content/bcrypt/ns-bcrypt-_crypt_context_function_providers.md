@@ -4,7 +4,7 @@ title: "_CRYPT_CONTEXT_FUNCTION_PROVIDERS"
 author: windows-sdk-content
 description: Contains a set of cryptographic function providers for a CNG configuration context.
 old-location: security\crypt_context_function_providers.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_CONTEXT_FUNCTION_PROVIDERS, *PCRYPT_CONTEXT_FUNCTION_PROVIDERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_CONTEXT_FUNCTION_PROVIDERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_CONTEXT_FUNCTION_PROVIDERS, *PCRYPT_CONTEXT_FUNCTION_PROVIDERS
+req.redist: 
 ---
 
 # _CRYPT_CONTEXT_FUNCTION_PROVIDERS structure

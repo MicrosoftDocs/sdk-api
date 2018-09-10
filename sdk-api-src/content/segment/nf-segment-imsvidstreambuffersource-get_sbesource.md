@@ -4,17 +4,16 @@ title: IMSVidStreamBufferSource::get_SBESource
 author: windows-sdk-content
 description: The get_SBESource method retrieves a pointer to the Stream Buffer Source filter.
 old-location: mstv\imsvidstreambuffersource_get_sbesource.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6ba9cf64-bf26-4a17-ae7a-3e92fc67138d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_SBESource method, IMSVidStreamBufferSource.get_SBESource, IMSVidStreamBufferSource::get_SBESource, IMSVidStreamBufferSourceget_SBESource, get_SBESource, get_SBESource method [Microsoft TV Technologies], get_SBESource method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_sbesource, segment/IMSVidStreamBufferSource::get_SBESource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferSource.get_SBESource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferSource::get_SBESource

@@ -4,17 +4,16 @@ title: IVdsSubSystem::QueryDrives
 author: windows-sdk-content
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.QueryDrives, IVdsSubSystem::QueryDrives, QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.QueryDrives
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::QueryDrives

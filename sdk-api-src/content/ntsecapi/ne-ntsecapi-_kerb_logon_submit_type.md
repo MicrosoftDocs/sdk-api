@@ -4,7 +4,7 @@ title: "_KERB_LOGON_SUBMIT_TYPE"
 author: windows-sdk-content
 description: Identifies the type of logon being requested.
 old-location: security\kerb_logon_submit_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 500bee53-638b-4782-b42d-1df158396fb6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_LOGON_SUBMIT_TYPE, *PKERB_LOGON_SUBMIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_LOGON_SUBMIT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_LOGON_SUBMIT_TYPE, *PKERB_LOGON_SUBMIT_TYPE
+req.redist: 
 ---
 
 # _KERB_LOGON_SUBMIT_TYPE enumeration

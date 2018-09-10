@@ -4,17 +4,16 @@ title: ICDBurn::Burn
 author: windows-sdk-content
 description: Instructs data to be copied from the staging area to a writable CD.
 old-location: shell\ICDBurn_Burn.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e081973a-e923-45de-93ba-3281be73cc93
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Burn, Burn method [Windows Shell], Burn method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],Burn method, ICDBurn.Burn, ICDBurn::Burn, _shell_ICDBurn_Burn, shell.ICDBurn_Burn, shobjidl/ICDBurn::Burn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDBurn.Burn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ICDBurn::Burn

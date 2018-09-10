@@ -4,17 +4,16 @@ title: IDiskQuotaUser::GetSid
 author: windows-sdk-content
 description: Retrieves the user's security identifier (SID).
 old-location: fs\idiskquotauser_getsid.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1718b5eb-2385-4e0f-a6af-99a5ef73e55d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSid, GetSid method [Files], GetSid method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSid method, IDiskQuotaUser.GetSid, IDiskQuotaUser::GetSid, _win32_idiskquotauser_getsid, base.idiskquotauser_getsid, dskquota/IDiskQuotaUser::GetSid, fs.idiskquotauser_getsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaUser.GetSid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaUser::GetSid

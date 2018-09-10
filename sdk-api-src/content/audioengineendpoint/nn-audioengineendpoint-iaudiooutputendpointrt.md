@@ -4,7 +4,7 @@ title: IAudioOutputEndpointRT
 author: windows-sdk-content
 description: Gets the output buffer for each processing pass.
 old-location: termserv\iaudiooutputendpointrt.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b881b2f9-ffe9-46ff-94aa-eef0af172a3e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioOutputEndpointRT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioOutputEndpointRT interface

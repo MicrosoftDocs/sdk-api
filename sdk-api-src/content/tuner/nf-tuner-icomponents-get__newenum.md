@@ -4,17 +4,16 @@ title: IComponents::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.
 old-location: mstv\icomponents_get__newenum.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get__NewEnum method, IComponents.get__NewEnum, IComponents::get__NewEnum, IComponentsget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get__newenum, tuner/IComponents::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponents.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponents::get__NewEnum

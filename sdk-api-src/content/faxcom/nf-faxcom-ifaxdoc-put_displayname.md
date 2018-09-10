@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_DisplayName
 title: IFaxDoc::put_DisplayName
 author: windows-sdk-content
 description: Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document.
-old-location: fax\_mfax_ifaxdoc_get_displayname_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4s6d.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DisplayName property, FaxDoc.DisplayName, IFaxDoc.put_DisplayName, IFaxDoc::put_DisplayName, _mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname_vb, put_DisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],DisplayName property, IFaxDoc.DisplayName, IFaxDoc.put_DisplayName, IFaxDoc::DisplayName, IFaxDoc::get_DisplayName, IFaxDoc::put_DisplayName, _mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_displayname_cpp, faxcom/IFaxDoc::DisplayName, faxcom/IFaxDoc::get_DisplayName, faxcom/IFaxDoc::put_DisplayName, put_DisplayName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.DisplayName
+ - IFaxDoc.DisplayName
+ - IFaxDoc.get_DisplayName
+ - IFaxDoc.put_DisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_DisplayName
@@ -79,10 +79,6 @@ The <b>get_DisplayName</b> method allocates the memory required for the buffer p
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

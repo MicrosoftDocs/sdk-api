@@ -4,17 +4,16 @@ title: AddAce function
 author: windows-sdk-content
 description: Adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: security\addace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddAce
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddAce function

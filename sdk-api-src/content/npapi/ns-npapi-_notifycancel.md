@@ -4,7 +4,7 @@ title: "_NOTIFYCANCEL"
 author: windows-sdk-content
 description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
 old-location: security\notifycancel.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYCANCEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
+req.redist: 
 ---
 
 # _NOTIFYCANCEL structure

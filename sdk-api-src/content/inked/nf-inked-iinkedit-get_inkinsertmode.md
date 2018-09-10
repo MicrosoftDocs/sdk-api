@@ -4,17 +4,16 @@ title: IInkEdit::get_InkInsertMode
 author: windows-sdk-content
 description: Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.
 old-location: tablet\inkedit_inkinsertmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC],InkInsertMode property, IInkEdit.InkInsertMode, IInkEdit.get_InkInsertMode, IInkEdit::InkInsertMode, IInkEdit::get_InkInsertMode, IInkEdit::put_InkInsertMode, InkEdit.get_InkInsertMode, InkEdit.put_InkInsertMode, InkInsertMode property [Tablet PC], InkInsertMode property [Tablet PC],IInkEdit interface, InsertAsInk, InsertAsText, get_InkInsertMode, inked/IInkEdit::InkInsertMode, inked/IInkEdit::get_InkInsertMode, inked/IInkEdit::put_InkInsertMode, put_InkInsertMode, tablet.inkedit_inkinsertmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_InkInsertMode
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_InkInsertMode

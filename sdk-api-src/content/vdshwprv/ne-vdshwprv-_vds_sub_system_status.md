@@ -4,7 +4,7 @@ title: "_VDS_SUB_SYSTEM_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a subsystem.
 old-location: base\vds_sub_system_status.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SUB_SYSTEM_STATUS, *PVDS_SUB_SYSTEM_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_SUB_SYSTEM_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SUB_SYSTEM_STATUS, *PVDS_SUB_SYSTEM_STATUS
+req.redist: 
 ---
 
 # _VDS_SUB_SYSTEM_STATUS enumeration

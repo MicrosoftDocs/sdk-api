@@ -4,17 +4,16 @@ title: IAttachmentExecute::SetSource
 author: windows-sdk-content
 description: Sets an alternate path or URL for the source of a file transfer.
 old-location: shell\IAttachmentExecute_SetSource.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6545252b-1c43-4d62-9784-b63688ef9fdc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetSource method, IAttachmentExecute.SetSource, IAttachmentExecute::SetSource, SetSource, SetSource method [Windows Shell], SetSource method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetSource, shell.IAttachmentExecute_SetSource, shobjidl_core/IAttachmentExecute::SetSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shdocvw.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAttachmentExecute.SetSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 6.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAttachmentExecute::SetSource

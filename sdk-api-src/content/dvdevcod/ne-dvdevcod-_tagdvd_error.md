@@ -4,7 +4,7 @@ title: "_tagDVD_ERROR"
 author: windows-sdk-content
 description: The DVD_ERROR enumeration value defines DVD error conditions.
 old-location: dshow\dvd_error.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7059c77f-2b64-40bb-8962-d9bd90da5e90
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdevcod.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DVD_ERROR
+req.redist: 
 ---
 
 # _tagDVD_ERROR enumeration

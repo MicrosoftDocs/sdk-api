@@ -4,17 +4,16 @@ title: IDXGIFactory4::EnumWarpAdapter
 author: windows-sdk-content
 description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
 old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumWarpAdapter method, IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory4.EnumWarpAdapter
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory4::EnumWarpAdapter

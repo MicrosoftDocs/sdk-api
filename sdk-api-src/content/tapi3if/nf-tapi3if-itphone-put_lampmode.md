@@ -4,17 +4,16 @@ title: ITPhone::put_LampMode
 author: windows-sdk-content
 description: The put_LampMode method sets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_put_lampmode.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0445cf2c-1b00-4136-bdab-3c6e0669ef11
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_LampMode method, ITPhone.put_LampMode, ITPhone::put_LampMode, _tapi3_itphone_put_lampmode, put_LampMode, put_LampMode method [TAPI 2.2], put_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_lampmode, tapi3if/ITPhone::put_LampMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.put_LampMode
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::put_LampMode

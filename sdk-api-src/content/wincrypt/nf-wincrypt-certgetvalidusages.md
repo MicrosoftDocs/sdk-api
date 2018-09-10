@@ -4,17 +4,16 @@ title: CertGetValidUsages function
 author: windows-sdk-content
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 old-location: security\certgetvalidusages.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertGetValidUsages
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertGetValidUsages function

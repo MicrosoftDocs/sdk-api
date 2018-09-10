@@ -4,7 +4,7 @@ title: "_CREDSSP_SUBMIT_TYPE"
 author: windows-sdk-content
 description: Specifies the type of credentials specified by a CREDSSP_CRED structure.
 old-location: security\credspp_submit_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: credssp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Credentialprovider.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDSPP_SUBMIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDSPP_SUBMIT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDSPP_SUBMIT_TYPE
+req.redist: 
 ---
 
 # _CREDSSP_SUBMIT_TYPE enumeration

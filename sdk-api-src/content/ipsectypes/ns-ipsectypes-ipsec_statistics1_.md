@@ -4,7 +4,7 @@ title: IPSEC_STATISTICS1_
 author: windows-sdk-content
 description: Is the top-level of the IPsec statistics structures.
 old-location: fwp\ipsec_statistics1_struct.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: d61d8eb5-1b0b-419e-a248-58541db8906b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_STATISTICS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_STATISTICS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_STATISTICS1
+req.redist: 
 ---
 
 # IPSEC_STATISTICS1_ structure

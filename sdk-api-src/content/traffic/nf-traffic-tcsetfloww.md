@@ -4,17 +4,16 @@ title: TcSetFlowW function
 author: windows-sdk-content
 description: The TcSetFlow function sets individual parameters for a given flow.
 old-location: qos\tcsetflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TcSetFlowW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcSetFlowW function

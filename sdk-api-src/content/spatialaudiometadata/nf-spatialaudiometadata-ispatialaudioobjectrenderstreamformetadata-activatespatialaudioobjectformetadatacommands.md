@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectFor
 author: windows-sdk-content
 description: Activate an ISpatialAudioObjectForMetadataCommands for rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6EB7A7B7-6B52-4EB0-81CB-0F9626761CA8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataCommands, ActivateSpatialAudioObjectForMetadataCommands method [Core Audio], ActivateSpatialAudioObjectForMetadataCommands method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataCommands method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadatacommands, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands

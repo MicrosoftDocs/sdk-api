@@ -4,17 +4,16 @@ title: CVssWriter::GetContext
 author: windows-sdk-content
 description: The GetContext information returns the current context for any ongoing or possible shadow copies.
 old-location: base\cvsswriter_getcontext.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.GetContext
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::GetContext

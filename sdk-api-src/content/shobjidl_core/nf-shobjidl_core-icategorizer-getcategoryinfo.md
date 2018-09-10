@@ -4,17 +4,16 @@ title: ICategorizer::GetCategoryInfo
 author: windows-sdk-content
 description: Gets information about a category, such as the default display and the text to display in the UI.
 old-location: shell\ICategorizer_GetCategoryInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6b789033-ce42-4fb5-8a3d-b05243b62d4e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCategoryInfo, GetCategoryInfo method [Windows Shell], GetCategoryInfo method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategoryInfo method, ICategorizer.GetCategoryInfo, ICategorizer::GetCategoryInfo, inet_ICategorizer_GetCategoryInfo, shell.ICategorizer_GetCategoryInfo, shobjidl_core/ICategorizer::GetCategoryInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategorizer.GetCategoryInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategorizer::GetCategoryInfo

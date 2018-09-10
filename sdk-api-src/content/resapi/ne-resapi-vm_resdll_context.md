@@ -4,7 +4,7 @@ title: VM_RESDLL_CONTEXT
 author: windows-sdk-content
 description: Contains actions for a virtual machine to perform.
 old-location: mscs\vm_resdll_context.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: F01306D5-9D46-4489-AB38-67029EEFE6D0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VM_RESDLL_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
+req.redist: 
 ---
 
 # VM_RESDLL_CONTEXT enumeration

@@ -4,7 +4,7 @@ title: "_CRYPT_XML_X509DATA"
 author: windows-sdk-content
 description: Represents the sequence of choices in the X509Data element.
 old-location: security\crypt_xml_x509data.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4895a6e6-ffac-419f-af9b-f2062a1aecd4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_X509DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_X509DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_X509DATA
+req.redist: 
 ---
 
 # _CRYPT_XML_X509DATA structure

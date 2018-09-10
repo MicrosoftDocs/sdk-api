@@ -4,17 +4,16 @@ title: TRefPointerCollection::GetSize
 author: windows-sdk-content
 description: The GetSize method returns how many items are in the list.
 old-location: wmi\trefpointercollection_getsize.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection.GetSize
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection::GetSize

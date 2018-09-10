@@ -4,17 +4,16 @@ title: CreatePersistentUdpPortReservation function
 author: windows-sdk-content
 description: Creates a persistent UDP port reservation for a consecutive block of UDP ports on the local computer.
 old-location: iphlp\createpersistentudpportreservation.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: CreatePersistentUdpPortReservation, CreatePersistentUdpPortReservation function [IP Helper], iphlp.createpersistentudpportreservation, iphlpapi/CreatePersistentUdpPortReservation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreatePersistentUdpPortReservation
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CreatePersistentUdpPortReservation function

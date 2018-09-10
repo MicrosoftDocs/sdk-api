@@ -4,7 +4,7 @@ title: "_VDS_PATH_STATUS"
 author: windows-sdk-content
 description: Defines the set of valid status values for a port.
 old-location: base\vds_path_status.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f0682db1-9058-4514-abb2-c10b936d4f41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PATH_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PATH_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PATH_STATUS
+req.redist: 
 ---
 
 # _VDS_PATH_STATUS enumeration

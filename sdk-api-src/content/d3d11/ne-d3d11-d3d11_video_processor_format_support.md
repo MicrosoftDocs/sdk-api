@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
 author: windows-sdk-content
 description: Specifies how a video format can be used for video processing.
 old-location: mf\d3d11_video_processor_format_support.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A23C33B8-20D0-4F78-B21F-36FCD1506DC6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration

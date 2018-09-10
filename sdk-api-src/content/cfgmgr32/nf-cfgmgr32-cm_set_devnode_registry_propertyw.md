@@ -4,17 +4,16 @@ title: CM_Set_DevNode_Registry_PropertyW function
 author: windows-sdk-content
 description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry.
 old-location: devinst\cm_set_devnode_registry_property.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 0f1b6883-c232-4f51-8f5c-5e9c00708727
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Set_DevNode_Registry_Property, CM_Set_DevNode_Registry_Property function [Device and Driver Installation], CM_Set_DevNode_Registry_PropertyW, cfgmgr32/CM_Set_DevNode_Registry_Property, cfgmgr32/CM_Set_DevNode_Registry_PropertyW, cfgmgrfn_7ad90f32-c153-4ba1-b2bf-c5f86da160ff.xml, devinst.cm_set_devnode_registry_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Microsoft Windows 2000.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CM_Set_DevNode_Registry_PropertyW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Set_DevNode_Registry_PropertyW function

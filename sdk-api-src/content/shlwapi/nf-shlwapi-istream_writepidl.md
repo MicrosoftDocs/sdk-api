@@ -4,17 +4,16 @@ title: IStream_WritePidl function
 author: windows-sdk-content
 description: Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an IStream object.
 old-location: shell\IStream_WritePidl.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 29b6a42b-08bd-4b5f-92ad-a6456e7a6f98
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStream_WritePidl, IStream_WritePidl function [Windows Shell], _shell_IStream_WritePidl, shell.IStream_WritePidl, shlwapi/IStream_WritePidl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IStream_WritePidl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStream_WritePidl function

@@ -4,7 +4,7 @@ title: "_CONFLICT_DETAILS_W"
 author: windows-sdk-content
 description: The CONFLICT_DETAILS structure is used as a parameter to the CM_Get_Resource_Conflict_Details function.
 old-location: devinst\conflict_details.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 7f095104-4478-4047-b411-ac6bcc44a11f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CONFLICT_DETAILS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.redist: 
 ---
 
 # _CONFLICT_DETAILS_W structure

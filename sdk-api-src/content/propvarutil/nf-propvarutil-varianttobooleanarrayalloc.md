@@ -4,17 +4,16 @@ title: VariantToBooleanArrayAlloc function
 author: windows-sdk-content
 description: Allocates an array of BOOL values then extracts data from a VARIANT structure into that array.
 old-location: properties\VariantToBooleanArrayAlloc.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantToBooleanArrayAlloc
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # VariantToBooleanArrayAlloc function

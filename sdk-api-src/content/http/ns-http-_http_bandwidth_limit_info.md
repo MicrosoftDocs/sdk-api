@@ -4,7 +4,7 @@ title: "_HTTP_BANDWIDTH_LIMIT_INFO"
 author: windows-sdk-content
 description: The HTTP_BANDWIDTH_LIMIT_INFO structure is used to set or query the bandwidth throttling limit. This structure must be used when setting or querying the HttpServerBandwidthProperty on a URL Group or server session.
 old-location: http\http_bandwidth_limit_info.htm
-old-project: http
+tech.root: http
 ms.assetid: 34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_BANDWIDTH_LIMIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO
+req.redist: 
 ---
 
 # _HTTP_BANDWIDTH_LIMIT_INFO structure

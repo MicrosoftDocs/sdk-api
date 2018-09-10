@@ -4,17 +4,16 @@ title: NetServerSetInfo function
 author: windows-sdk-content
 description: The NetServerSetInfo function sets a server's operating parameters; it can set them individually or collectively. The information is stored in a way that allows it to remain in effect after the system has been reinitialized.
 old-location: netmgmt\netserversetinfo.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetServerSetInfo
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetServerSetInfo function

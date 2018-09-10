@@ -4,17 +4,16 @@ title: IAzApplicationGroup::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_setproperty.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security],SetProperty method, IAzApplicationGroup interface [Security],SetProperty method, IAzApplicationGroup.SetProperty, IAzApplicationGroup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplicationGroup object, SetProperty method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplicationGroup.SetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::SetProperty

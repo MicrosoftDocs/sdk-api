@@ -4,17 +4,16 @@ title: IVdsIscsiPortalGroup::RemovePortal
 author: windows-sdk-content
 description: Removes a portal from a portal group.
 old-location: base\ivdsiscsiportalgroup_removeportal.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 462562f5-69c2-413d-9cdf-f9e1176f5c20
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsiPortalGroup.RemovePortal, IVdsIscsiPortalGroup::RemovePortal, RemovePortal, RemovePortal method [VDS], RemovePortal method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_removeportal, vds/IVdsIscsiPortalGroup::RemovePortal, vdshwprv/IVdsIscsiPortalGroup::RemovePortal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortalGroup.RemovePortal
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortalGroup::RemovePortal

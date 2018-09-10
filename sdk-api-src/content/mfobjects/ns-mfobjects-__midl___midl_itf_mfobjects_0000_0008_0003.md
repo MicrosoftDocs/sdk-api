@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfobjects_0000_0008_0003"
 author: windows-sdk-content
 description: Contains media type information for registering a Media Foundation transform (MFT).
 old-location: mf\mft_register_type_info.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1d26b9ee-545a-4e47-9a68-b9e567f0dec4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_REGISTER_TYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_REGISTER_TYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFT_REGISTER_TYPE_INFO
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfobjects_0000_0008_0003 structure

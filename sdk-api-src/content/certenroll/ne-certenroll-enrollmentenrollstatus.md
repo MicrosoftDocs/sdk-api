@@ -4,7 +4,7 @@ title: EnrollmentEnrollStatus
 author: windows-sdk-content
 description: Specifies the enrollment status of a certificate request.
 old-location: security\enrollmentenrollstatus_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnrollmentEnrollStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnrollmentEnrollStatus
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: EnrollmentEnrollStatus
+req.redist: 
 ---
 
 # EnrollmentEnrollStatus enumeration

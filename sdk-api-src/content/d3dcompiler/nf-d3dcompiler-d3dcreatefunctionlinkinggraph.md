@@ -4,17 +4,16 @@ title: D3DCreateFunctionLinkingGraph function
 author: windows-sdk-content
 description: Creates a function-linking-graph interface.
 old-location: direct3dhlsl\d3dcreatefunctionlinkinggraph.htm
-old-project: direct3dhlsl
+tech.root: direct3dhlsl
 ms.assetid: D0BC7D62-EBF8-4144-8DC0-A87BF1B83006
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3DCreateFunctionLinkingGraph, D3DCreateFunctionLinkingGraph function [HLSL], d3dcompiler/D3DCreateFunctionLinkingGraph, direct3dhlsl.d3dcreatefunctionlinkinggraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_BLOB_PART
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DCreateFunctionLinkingGraph
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3DCreateFunctionLinkingGraph function

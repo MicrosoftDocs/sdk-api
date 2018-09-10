@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::get_ClippedSourceRect
 author: windows-sdk-content
 description: The get_ClippedSourceRect method retrieves the clipping rectangle on the video source.
 old-location: mstv\imsvidvideorenderer_get_clippedsourcerect.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d40d39d9-41a4-42e1-b0d0-4a6299fd1cff
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_ClippedSourceRect method, IMSVidVideoRenderer.get_ClippedSourceRect, IMSVidVideoRenderer::get_ClippedSourceRect, IMSVidVideoRendererget_ClippedSourceRect, get_ClippedSourceRect, get_ClippedSourceRect method [Microsoft TV Technologies], get_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_clippedsourcerect, segment/IMSVidVideoRenderer::get_ClippedSourceRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.get_ClippedSourceRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::get_ClippedSourceRect
@@ -62,7 +60,7 @@ The <b>get_ClippedSourceRect</b> method retrieves the clipping rectangle on the 
 
 ### -param pRect
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMFPMPHostApp::ActivateClassById
 author: windows-sdk-content
 description: Creates a Windows Runtime object in the protected media path (PMP) process.
 old-location: mf\imfpmphostapp_activateclassbyid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e0e14171-fcc9-418a-a93d-3cdbae254a3f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], ActivateClassById method [Media Foundation],IMFPMPHostApp interface, IMFPMPHostApp interface [Media Foundation],ActivateClassById method, IMFPMPHostApp.ActivateClassById, IMFPMPHostApp::ActivateClassById, mf.imfpmphostapp_activateclassbyid, mfidl/IMFPMPHostApp::ActivateClassById
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMPHostApp.ActivateClassById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMPHostApp::ActivateClassById

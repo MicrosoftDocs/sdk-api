@@ -4,17 +4,16 @@ title: AccessNtmsLibraryDoor function
 author: windows-sdk-content
 description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
 old-location: fs\accessntmslibrarydoor.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AccessNtmsLibraryDoor
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AccessNtmsLibraryDoor function

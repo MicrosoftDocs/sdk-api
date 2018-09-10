@@ -4,17 +4,16 @@ title: IMFSecureChannel::SetupSession
 author: windows-sdk-content
 description: Passes the encrypted session key to the client.
 old-location: mf\imfsecurechannel_setupsession.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, IMFSecureChannel.SetupSession, IMFSecureChannel::SetupSession, SetupSession, SetupSession method [Media Foundation], SetupSession method [Media Foundation],IMFSecureChannel interface, a4d38056-ea6a-441e-8b77-39ffd316cb5a, mf.imfsecurechannel_setupsession, mfidl/IMFSecureChannel::SetupSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSecureChannel.SetupSession
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSecureChannel::SetupSession

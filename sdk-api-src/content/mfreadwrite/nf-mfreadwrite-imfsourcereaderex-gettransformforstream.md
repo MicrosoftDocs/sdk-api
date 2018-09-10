@@ -4,17 +4,16 @@ title: IMFSourceReaderEx::GetTransformForStream
 author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReaderEx.GetTransformForStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReaderEx::GetTransformForStream

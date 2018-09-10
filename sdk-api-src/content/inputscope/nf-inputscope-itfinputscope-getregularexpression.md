@@ -4,17 +4,16 @@ title: ITfInputScope::GetRegularExpression
 author: windows-sdk-content
 description: ITfInputScope::GetRegularExpression method
 old-location: tsf\itfinputscope_getregularexpression.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfInputScope.GetRegularExpression
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITfInputScope::GetRegularExpression

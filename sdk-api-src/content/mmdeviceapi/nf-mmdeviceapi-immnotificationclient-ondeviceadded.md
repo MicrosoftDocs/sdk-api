@@ -4,17 +4,16 @@ title: IMMNotificationClient::OnDeviceAdded
 author: windows-sdk-content
 description: The OnDeviceAdded method indicates that a new audio endpoint device has been added.
 old-location: coreaudio\immnotificationclient_ondeviceadded.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: c839493d-e53c-4afe-b53d-af9d1a6f2965
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceAdded method, IMMNotificationClient.OnDeviceAdded, IMMNotificationClient::OnDeviceAdded, IMMNotificationClientOnDeviceAdded, OnDeviceAdded, OnDeviceAdded method [Core Audio], OnDeviceAdded method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceadded, mmdeviceapi/IMMNotificationClient::OnDeviceAdded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMNotificationClient.OnDeviceAdded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMNotificationClient::OnDeviceAdded

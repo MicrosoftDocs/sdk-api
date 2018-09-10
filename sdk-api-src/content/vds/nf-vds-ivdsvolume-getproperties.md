@@ -4,17 +4,16 @@ title: IVdsVolume::GetProperties
 author: windows-sdk-content
 description: Returns property details of the current volume.
 old-location: base\ivdsvolume_getproperties.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: ba4a92c9-35f1-463a-8fa3-1a0d78720555
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetProperties method, IVdsVolume.GetProperties, IVdsVolume::GetProperties, base.ivdsvolume_getproperties, vds/IVdsVolume::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::GetProperties

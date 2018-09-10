@@ -4,7 +4,7 @@ title: tagDisplayMode
 author: windows-sdk-content
 description: The DisplayMode structure describes a display device.
 old-location: display\displaymode.htm
-old-project: display
+tech.root: display
 ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DisplayMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DisplayMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DisplayMode
+req.redist: 
 ---
 
 # tagDisplayMode structure

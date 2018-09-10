@@ -4,7 +4,7 @@ title: "_IMAGEHLP_GET_TYPE_INFO_PARAMS"
 author: windows-sdk-content
 description: Contains type information for a module.
 old-location: base\imagehlp_get_type_info_params_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f3885945-9a96-49d9-a535-7b37220e1da4
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMAGEHLP_GET_TYPE_INFO_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # _IMAGEHLP_GET_TYPE_INFO_PARAMS structure

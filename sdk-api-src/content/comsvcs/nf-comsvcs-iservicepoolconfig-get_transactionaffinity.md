@@ -4,17 +4,16 @@ title: IServicePoolConfig::get_TransactionAffinity
 author: windows-sdk-content
 description: Determines whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_get_transactionaffinity.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ac227f22-1ed3-4c75-8469-e8635e2d2849
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_TransactionAffinity method, IServicePoolConfig.get_TransactionAffinity, IServicePoolConfig::get_TransactionAffinity, comsvcs/IServicePoolConfig::get_TransactionAffinity, cos.iservicepoolconfig_get_transactionaffinity, get_TransactionAffinity, get_TransactionAffinity method [COM+], get_TransactionAffinity method [COM+],IServicePoolConfig interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePoolConfig.get_TransactionAffinity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePoolConfig::get_TransactionAffinity

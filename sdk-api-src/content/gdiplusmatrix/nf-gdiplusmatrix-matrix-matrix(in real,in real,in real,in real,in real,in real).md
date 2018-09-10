@@ -4,17 +4,16 @@ title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 author: windows-sdk-content
 description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Matrix, Matrix class [GDI+],Matrix constructor, Matrix constructor [GDI+], Matrix constructor [GDI+],Matrix class, Matrix.Matrix, Matrix.Matrix(), Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), Matrix::Matrix, Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Matrix_Matrix_, gdiplus._gdiplus_CLASS_Matrix_Matrix_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Matrix.Matrix
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 
@@ -62,32 +61,32 @@ Creates and initializes a <b>Matrix::Matrix</b> object that represents the ident
 
 ### -param m11
 
-
+TBD
 
 
 ### -param m12
 
-
+TBD
 
 
 ### -param m21
 
-
+TBD
 
 
 ### -param m22
 
-
+TBD
 
 
 ### -param dx
 
-
+TBD
 
 
 ### -param dy
 
-
+TBD
 
 
 

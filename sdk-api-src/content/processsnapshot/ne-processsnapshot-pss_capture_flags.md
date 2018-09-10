@@ -4,7 +4,7 @@ title: PSS_CAPTURE_FLAGS
 author: windows-sdk-content
 description: Flags that specify what PssCaptureSnapshot captures.
 old-location: proc_snap\pss_capture_flags.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: 6146DDA2-2475-45F8-86F3-65791B10743D
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_CAPTURE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_CAPTURE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_CAPTURE_FLAGS
+req.redist: 
 ---
 
 # PSS_CAPTURE_FLAGS enumeration

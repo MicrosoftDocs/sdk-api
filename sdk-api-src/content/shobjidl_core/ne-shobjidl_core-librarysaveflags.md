@@ -4,7 +4,7 @@ title: LIBRARYSAVEFLAGS
 author: windows-sdk-content
 description: Specifies the options for handling a name collision when saving a library.
 old-location: shell\LIBRARYSAVEFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LIBRARYSAVEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LIBRARYSAVEFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: LIBRARYSAVEFLAGS
+req.redist: 
 ---
 
 # LIBRARYSAVEFLAGS enumeration

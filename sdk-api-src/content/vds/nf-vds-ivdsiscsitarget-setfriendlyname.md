@@ -4,17 +4,16 @@ title: IVdsIscsiTarget::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of the target.
 old-location: base\ivdsiscsitarget_setfriendlyname.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetFriendlyName method, IVdsIscsiTarget.SetFriendlyName, IVdsIscsiTarget::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setfriendlyname, vds/IVdsIscsiTarget::SetFriendlyName, vdshwprv/IVdsIscsiTarget::SetFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiTarget.SetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiTarget::SetFriendlyName

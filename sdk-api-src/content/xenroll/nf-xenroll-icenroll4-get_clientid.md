@@ -4,17 +4,16 @@ title: ICEnroll4::get_ClientId
 author: windows-sdk-content
 description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_clientid.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cf46af62-815a-4ad5-bca9-e81eb7c0d1e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClientID property [Security], ClientID property [Security],ICEnroll4 interface, ICEnroll4 interface [Security],ClientID property, ICEnroll4.ClientID, ICEnroll4.get_ClientId, ICEnroll4::ClientID, ICEnroll4::get_ClientID, ICEnroll4::get_ClientId, ICEnroll4::put_ClientID, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, get_ClientId, security.icenroll4_clientid, xenroll/ICEnroll4::ClientID, xenroll/ICEnroll4::get_ClientID, xenroll/ICEnroll4::put_ClientID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ICEnroll4.put_ClientID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::get_ClientId

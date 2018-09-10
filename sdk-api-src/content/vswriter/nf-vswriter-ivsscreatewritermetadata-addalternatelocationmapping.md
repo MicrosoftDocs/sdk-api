@@ -4,17 +4,16 @@ title: IVssCreateWriterMetadata::AddAlternateLocationMapping
 author: windows-sdk-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateWriterMetadata.AddAlternateLocationMapping
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateWriterMetadata::AddAlternateLocationMapping
@@ -64,12 +62,12 @@ The
 
 ### -param wszSourcePath
 
-
+TBD
 
 
 ### -param wszSourceFilespec
 
-
+TBD
 
 
 ### -param bRecursive [in]

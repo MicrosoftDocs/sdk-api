@@ -4,7 +4,7 @@ title: FWPM_FIELD_TYPE_
 author: windows-sdk-content
 description: Provides additional information about how the field's data should be interpreted.
 old-location: fwp\fwpm_field_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 46983847-7c68-4ee7-946e-ea62f34d1a38
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Fwpmtypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_FIELD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_FIELD_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_FIELD_TYPE
+req.redist: 
 ---
 
 # FWPM_FIELD_TYPE_ enumeration

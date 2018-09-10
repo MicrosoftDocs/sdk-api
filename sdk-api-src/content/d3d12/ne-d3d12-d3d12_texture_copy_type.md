@@ -4,7 +4,7 @@ title: D3D12_TEXTURE_COPY_TYPE
 author: windows-sdk-content
 description: Specifies what type of texture copy is to take place.
 old-location: direct3d12\d3d12_texture_copy_type.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: CF296200-55A7-46B2-BF2C-58806A6A3BBC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_TEXTURE_COPY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_TEXTURE_COPY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_TEXTURE_COPY_TYPE
+req.redist: 
 ---
 
 # D3D12_TEXTURE_COPY_TYPE enumeration

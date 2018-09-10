@@ -4,17 +4,16 @@ title: IQuerySolution::GetErrors
 author: windows-sdk-content
 description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.
 old-location: search\_search_IQuerySolution_GetErrors.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQuerySolution.GetErrors
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IQuerySolution::GetErrors

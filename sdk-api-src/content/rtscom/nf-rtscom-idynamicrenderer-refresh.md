@@ -4,17 +4,16 @@ title: IDynamicRenderer::Refresh
 author: windows-sdk-content
 description: Causes the DynamicRenderer Class object to redraw the ink data that is currently rendering.
 old-location: tablet\idynamicrenderer_refresh.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 409d4353-fc85-49ff-99a4-d8393a3c0ec4
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 409d4353-fc85-49ff-99a4-d8393a3c0ec4, IDynamicRenderer interface [Tablet PC],Refresh method, IDynamicRenderer.Refresh, IDynamicRenderer::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::Refresh, tablet.idynamicrenderer_refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDynamicRenderer.Refresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer::Refresh

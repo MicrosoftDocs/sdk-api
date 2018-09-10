@@ -4,7 +4,7 @@ title: "_SECPKG_SESSIONINFO_TYPE"
 author: windows-sdk-content
 description: Specifies the format of session information.
 old-location: security\secpkg_sessioninfo_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 462b028a-9f74-4367-b89b-97fd9be301ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_SESSIONINFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_SESSIONINFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_SESSIONINFO_TYPE
+req.redist: 
 ---
 
 # _SECPKG_SESSIONINFO_TYPE enumeration

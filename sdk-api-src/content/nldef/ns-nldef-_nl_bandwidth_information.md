@@ -4,7 +4,7 @@ title: "_NL_BANDWIDTH_INFORMATION"
 author: windows-sdk-content
 description: Contains read-only information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack.
 old-location: iphlp\nl_bandwidth_information.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: F5D7238A-EAE0-4D60-A0A4-D839F738EF48
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_BANDWIDTH_INFORMATION, *PNL_BANDWIDTH_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NL_BANDWIDTH_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_BANDWIDTH_INFORMATION, *PNL_BANDWIDTH_INFORMATION
+req.redist: 
 ---
 
 # _NL_BANDWIDTH_INFORMATION structure

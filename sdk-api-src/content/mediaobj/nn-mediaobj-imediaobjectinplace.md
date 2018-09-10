@@ -5,7 +5,7 @@ author: windows-sdk-content
 description: The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:\_
 The IMediaObjectInPlace interface provides methods for processing data in place. A Microsoft DirectX Media Object (DMO) can expose this interface if it meets the following conditions:This interface provides an optimized way to process data. The application calls a single IMediaObjectInPlace::Process method instead of the IMediaObject::ProcessInput and IMediaObject::ProcessOutput methods. However, any DMO that implements this interface must also implement the IMediaObject interface. Therefore, an application is never obligated to use this interface, and a DMO is never guaranteed to implement it.
 old-location: dshow\imediaobjectinplace.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -15,7 +15,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMediaObjectInPlace
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectInPlace interface

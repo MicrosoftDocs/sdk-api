@@ -4,17 +4,16 @@ title: IExpDispSupport::FindConnectionPoint
 author: windows-sdk-content
 description: Deprecated. Gets connection points for browser events.
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoint, FindConnectionPoint method [Windows Shell], FindConnectionPoint method [Windows Shell],IExpDispSupport interface, IExpDispSupport interface [Windows Shell],FindConnectionPoint method, IExpDispSupport.FindConnectionPoint, IExpDispSupport::FindConnectionPoint, IID_IPropertyNotifySink, shdeprecated/IExpDispSupport::FindConnectionPoint, shell.IExpDispSupport_FindCIE4ConnectionPoint, zone_IExpDispSupport_FindCIE4ConnectionPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExpDispSupport.FindConnectionPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

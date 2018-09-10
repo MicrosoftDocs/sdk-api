@@ -4,7 +4,7 @@ title: IWsbApplicationBackupSupport
 author: windows-sdk-content
 description: Defines a method for checking the consistency of the application's VSS writer's components.
 old-location: wsb\iwsbapplicationbackupsupport.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 45865f1b-0f0a-46fc-b1f3-f2fd7c49f56f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationBackupSupport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationBackupSupport interface

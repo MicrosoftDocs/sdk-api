@@ -4,17 +4,16 @@ title: IAppxFile::GetCompressionOption
 author: windows-sdk-content
 description: Retrieves the compression option that is used to store the file in the package.
 old-location: appxpkg\iappxfile_getcompressionoption.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFile.GetCompressionOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFile::GetCompressionOption

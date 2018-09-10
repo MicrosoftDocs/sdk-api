@@ -4,7 +4,7 @@ title: WS_XML_CANONICALIZATION_ALGORITHM
 author: windows-sdk-content
 description: The values for the XML canonicalization algorithms.
 old-location: wsw\ws_xml_canonicalization_algorithm.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_CANONICALIZATION_ALGORITHM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_CANONICALIZATION_ALGORITHM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_CANONICALIZATION_ALGORITHM
+req.redist: 
 ---
 
 # WS_XML_CANONICALIZATION_ALGORITHM enumeration

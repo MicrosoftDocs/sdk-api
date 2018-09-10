@@ -4,7 +4,7 @@ title: eAvrfResourceTypes
 author: windows-sdk-content
 description: Specifies the types of resources that can be enumerated using the VerifierEnumerateResource function.
 old-location: winprog\eavrfresourcetypes.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 6887e584-0d0f-45ca-b926-47a55f19c9a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAvrfResourceTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAvrfResourceTypes enumeration

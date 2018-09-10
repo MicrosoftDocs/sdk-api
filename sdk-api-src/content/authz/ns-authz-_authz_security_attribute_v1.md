@@ -4,7 +4,7 @@ title: "_AUTHZ_SECURITY_ATTRIBUTE_V1"
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with an authorization context.
 old-location: security\authz_security_attribute_v1.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SECURITY_ATTRIBUTE_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_V1, *PAUTHZ_SECURITY_ATTRIBUTE_V1
+req.redist: 
 ---
 
 # _AUTHZ_SECURITY_ATTRIBUTE_V1 structure

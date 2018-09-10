@@ -4,17 +4,16 @@ title: IUPnPDeviceProvider::Start
 author: windows-sdk-content
 description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.
 old-location: upnp\iupnpdeviceprovider_start.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Start method, IUPnPDeviceProvider.Start, IUPnPDeviceProvider::Start, Start, Start method [UPnP APIs], Start method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_start, upnp.iupnpdeviceprovider_start, upnphost/IUPnPDeviceProvider::Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceProvider.Start
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceProvider::Start

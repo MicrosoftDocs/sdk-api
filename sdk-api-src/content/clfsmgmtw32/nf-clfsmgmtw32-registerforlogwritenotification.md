@@ -4,17 +4,16 @@ title: RegisterForLogWriteNotification function
 author: windows-sdk-content
 description: The RegisterForLogWriteNotification function is called by a managed log client to enable or disable log write notifications.
 old-location: fs\registerforlogwritenotification.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 08e197af-d88e-46dd-b862-66eb0ab27551
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: RegisterForLogWriteNotification, RegisterForLogWriteNotification function [Files], clfsmgmtw32/RegisterForLogWriteNotification, fs.registerforlogwritenotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: ClfsW32.lib
+req.dll: ClfsW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RegisterForLogWriteNotification
 product: Windows
 targetos: Windows
-req.lib: ClfsW32.lib
-req.dll: ClfsW32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterForLogWriteNotification function

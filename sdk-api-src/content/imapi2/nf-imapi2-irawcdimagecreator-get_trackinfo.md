@@ -4,17 +4,16 @@ title: IRawCDImageCreator::get_TrackInfo
 author: windows-sdk-content
 description: Retrieves an indexed property, which takes a LONG value with a range of 1 to 99 as the index to determine which track the user is querying. The returned object is then queried/set for the particular per-track property of interest.
 old-location: imapi\irawcdimagecreator_get_trackinfo.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: e6bc12fe-9274-4339-baf5-80a80512759e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_TrackInfo method, IRawCDImageCreator.get_TrackInfo, IRawCDImageCreator::get_TrackInfo, get_TrackInfo, get_TrackInfo method [IMAPI], get_TrackInfo method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_trackinfo, imapi2/IRawCDImageCreator::get_TrackInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.get_TrackInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::get_TrackInfo

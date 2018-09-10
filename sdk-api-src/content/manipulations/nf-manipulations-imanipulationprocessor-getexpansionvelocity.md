@@ -4,17 +4,16 @@ title: IManipulationProcessor::GetExpansionVelocity
 author: windows-sdk-content
 description: The GetExpansionVelocity method calculates the rate that the target object is expanding at.
 old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.GetExpansionVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::GetExpansionVelocity
@@ -62,7 +60,7 @@ The <b>GetExpansionVelocity</b> method calculates the rate that the target objec
 
 ### -param expansionVelocity
 
-
+TBD
 
 
 

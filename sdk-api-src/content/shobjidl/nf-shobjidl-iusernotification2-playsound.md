@@ -4,17 +4,16 @@ title: IUserNotification2::PlaySound
 author: windows-sdk-content
 description: Plays a sound in conjunction with the notification.
 old-location: shell\IUserNotification2_PlaySound.htm
-old-project: shell
+tech.root: shell
 ms.assetid: C1C0C408-B860-4aa6-8696-C95BF73AAB54
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],PlaySound method, IUserNotification2.PlaySound, IUserNotification2::PlaySound, PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_PlaySound, shell.IUserNotification2_PlaySound, shobjidl/IUserNotification2::PlaySound
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification2.PlaySound
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification2::PlaySound

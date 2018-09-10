@@ -4,7 +4,7 @@ title: "_TASK_TRIGGER"
 author: windows-sdk-content
 description: Defines the times to run a scheduled work item.
 old-location: taskschd\task_trigger.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER, *PTASK_TRIGGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_TRIGGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TASK_TRIGGER, *PTASK_TRIGGER
+req.redist: 
 ---
 
 # _TASK_TRIGGER structure

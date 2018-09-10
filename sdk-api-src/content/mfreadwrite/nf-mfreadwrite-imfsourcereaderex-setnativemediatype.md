@@ -4,17 +4,16 @@ title: IMFSourceReaderEx::SetNativeMediaType
 author: windows-sdk-content
 description: Sets the native media type for a stream on the media source.
 old-location: mf\imfsourcereaderex_setnativemediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 532E8F28-16F4-442E-83D9-C247E8FA7E2A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],SetNativeMediaType method, IMFSourceReaderEx.SetNativeMediaType, IMFSourceReaderEx::SetNativeMediaType, MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, SetNativeMediaType, SetNativeMediaType method [Media Foundation], SetNativeMediaType method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_setnativemediatype, mfreadwrite/IMFSourceReaderEx::SetNativeMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSourceReaderEx.SetNativeMediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSourceReaderEx::SetNativeMediaType

@@ -4,17 +4,16 @@ title: IVideoFrameNative::core
 author: windows-sdk-content
 description: This method returns a device associated with the video data.
 old-location: winrt\ivideoframenative_getdevice.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 9A61159B-C383-4770-AD8F-9F69F720E3E2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDevice, GetDevice method [Windows Runtime], GetDevice method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetDevice method, IVideoFrameNative.GetDevice, IVideoFrameNative.core, IVideoFrameNative::GetDevice, IVideoFrameNative::core, windows/IVideoFrameNative::GetDevice, winrt.ivideoframenative_getdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.core.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoFrameNative.GetDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoFrameNative::core

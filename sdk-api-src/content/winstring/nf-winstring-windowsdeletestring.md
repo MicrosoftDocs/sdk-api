@@ -4,17 +4,16 @@ title: WindowsDeleteString function
 author: windows-sdk-content
 description: Decrements the reference count of a string buffer.
 old-location: winrt\windowsdeletestring.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 79B9E5CF-396C-45FB-931B-7B50281A0446
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WindowsDeleteString, WindowsDeleteString function [Windows Runtime], winrt.windowsdeletestring, winstring/WindowsDeleteString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WindowsDeleteString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WindowsDeleteString function

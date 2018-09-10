@@ -4,17 +4,16 @@ title: IAzRoleAssignments::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.
 old-location: security\iazroleassignments_item.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 68685b4e-6451-4243-990d-5302d478210f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzRoleAssignments interface [Security],Item property, IAzRoleAssignments.Item, IAzRoleAssignments.get_Item, IAzRoleAssignments::Item, IAzRoleAssignments::get_Item, Item property [Security], Item property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::Item, azroles/IAzRoleAssignments::get_Item, get_Item, security.iazroleassignments_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzRoleAssignments.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzRoleAssignments::get_Item

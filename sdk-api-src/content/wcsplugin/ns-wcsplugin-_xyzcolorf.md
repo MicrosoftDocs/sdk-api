@@ -4,7 +4,7 @@ title: "_XYZColorF"
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\xyzcolorf.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XYZColorF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - XYZColorF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: XYZColorF
+req.redist: 
 ---
 
 # _XYZColorF structure

@@ -4,17 +4,16 @@ title: IWSDHttpAuthParameters::GetAuthType
 author: windows-sdk-content
 description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.
 old-location: ncd\iwsdhttpauthparameters_getauthtype.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: F5D218DD-474B-4562-8877-D159394AF365
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAuthType, GetAuthType method, GetAuthType method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetAuthType method, IWSDHttpAuthParameters.GetAuthType, IWSDHttpAuthParameters::GetAuthType, WSD_SECURITY_HTTP_AUTH_SCHEME_NEGOTIATE, WSD_SECURITY_HTTP_AUTH_SCHEME_NTLM, ncd.iwsdhttpauthparameters_getauthtype, wsdbase/IWSDHttpAuthParameters::GetAuthType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDHttpAuthParameters.GetAuthType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDHttpAuthParameters::GetAuthType

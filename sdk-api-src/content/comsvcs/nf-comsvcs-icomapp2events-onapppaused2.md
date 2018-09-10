@@ -4,17 +4,16 @@ title: IComApp2Events::OnAppPaused2
 author: windows-sdk-content
 description: Generated when the server application is paused or resumed to its initial state.
 old-location: cos\icomapp2events_onapppaused2.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 03621645-e2d1-4464-9316-7815a6e20614
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppPaused2 method, IComApp2Events.OnAppPaused2, IComApp2Events::OnAppPaused2, OnAppPaused2, OnAppPaused2 method [COM+], OnAppPaused2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppPaused2, comsvcs/IComApp2Events::OnAppPaused2, cos.icomapp2events_onapppaused2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComApp2Events.OnAppPaused2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComApp2Events::OnAppPaused2

@@ -4,17 +4,16 @@ title: ICommandTree::FreeCommandTree
 author: windows-sdk-content
 description: The ICommandTree::FreeCommandTree method traverses a command tree and deallocates all DBCOMMANDTREE node structures, as well as all variants in those structures. It then sets the root pointer to a NULL pointer.
 old-location: indexsrv\icommandtree_freecommandtree.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_1v39.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeCommandTree, FreeCommandTree method [Indexing Service], FreeCommandTree method [Indexing Service],ICommandTree interface, ICommandTree interface [Indexing Service],FreeCommandTree method, ICommandTree.FreeCommandTree, ICommandTree::FreeCommandTree, _idxs_ICommandTree_FreeCommandTree, cmdtree/ICommandTree::FreeCommandTree, indexsrv.icommandtree_freecommandtree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmdtree.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICommandTree.FreeCommandTree
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICommandTree::FreeCommandTree

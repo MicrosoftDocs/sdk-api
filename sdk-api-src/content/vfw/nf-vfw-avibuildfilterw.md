@@ -4,17 +4,16 @@ title: AVIBuildFilterW function
 author: windows-sdk-content
 description: The AVIBuildFilter function builds a filter specification that is subsequently used by the GetOpenFileName or GetSaveFileName function.
 old-location: multimedia\avibuildfilter.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIBuildFilter, AVIBuildFilter function [Windows Multimedia], AVIBuildFilterA, AVIBuildFilterW, _win32_AVIBuildFilter, multimedia.avibuildfilter, vfw/AVIBuildFilter, vfw/AVIBuildFilterA, vfw/AVIBuildFilterW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AVIBuildFilterW
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIBuildFilterW function

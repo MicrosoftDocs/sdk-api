@@ -4,17 +4,16 @@ title: IServiceTransactionConfigBase::TransactionTimeout
 author: windows-sdk-content
 description: Sets the transaction time-out for a new transaction.
 old-location: cos\iservicetransactionconfigbase_transactiontimeout.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 87943fe9-ef88-49ae-96d0-99d1011478dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],TransactionTimeout method, IServiceTransactionConfigBase.TransactionTimeout, IServiceTransactionConfigBase::TransactionTimeout, TransactionTimeout, TransactionTimeout method [COM+], TransactionTimeout method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_TransactionTimeout, comsvcs/IServiceTransactionConfigBase::TransactionTimeout, cos.iservicetransactionconfigbase_transactiontimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceTransactionConfigBase.TransactionTimeout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceTransactionConfigBase::TransactionTimeout

@@ -4,17 +4,16 @@ title: IUpdateService::get_IsScanPackageService
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is based on a scan package.
 old-location: wua\iupdateservice_isscanpackageservice.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 1fbd0bb7-23f9-4030-a61e-a85ddc177744
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService.get_IsScanPackageService, IUpdateService::IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent],IUpdateService interface, get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IUpdateService.get_IsScanPackageService
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 

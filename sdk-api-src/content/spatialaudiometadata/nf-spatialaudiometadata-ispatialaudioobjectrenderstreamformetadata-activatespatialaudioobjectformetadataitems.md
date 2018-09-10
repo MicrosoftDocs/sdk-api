@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectFor
 author: windows-sdk-content
 description: Activate an ISpatialAudioObjectForMetadataItems for rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: A9743D42-659A-404C-BB21-8A5086870F34
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataItems, ActivateSpatialAudioObjectForMetadataItems method [Core Audio], ActivateSpatialAudioObjectForMetadataItems method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataItems method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadataitems, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems

@@ -4,17 +4,16 @@ title: IX509CertificateTemplates::Add
 author: windows-sdk-content
 description: Adds an IX509CertificateTemplate object to the collection.
 old-location: security\ix509certificatetemplates_add.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: c52186bc-af51-4369-8ff5-6122d2e80450
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Add method, IX509CertificateTemplates.Add, IX509CertificateTemplates::Add, certenroll/IX509CertificateTemplates::Add, security.ix509certificatetemplates_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateTemplates.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplates::Add

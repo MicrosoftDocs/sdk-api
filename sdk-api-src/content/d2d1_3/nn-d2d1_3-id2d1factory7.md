@@ -4,7 +4,7 @@ title: ID2D1Factory7
 author: windows-sdk-content
 description: Creates Direct2D resources. This interface performs all the same functions as the ID2D1Factory6 interface, plus it enables the creation of ID2D1Device6 objects.
 old-location: direct2d\id2d1factory7.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 1DF655A7-5700-4E87-B254-7F5E21C6CEE5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory7
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory7 interface

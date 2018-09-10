@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::Cancelled
 author: windows-sdk-content
 description: The Cancelled method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the Cancelled method.
 old-location: picacq\iphotoacquireprogresscb_cancelled.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 7a37934c-dc0b-433e-99cf-6c26341e582c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.Cancelled
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::Cancelled

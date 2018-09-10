@@ -4,7 +4,7 @@ title: "_CRYPT_REGISTER_ACTIONID"
 author: windows-sdk-content
 description: Provides information about the functions of a provider.
 old-location: security\crypt_register_actionid.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0b2b482f-f087-4be7-b17f-91c287c3460d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_REGISTER_ACTIONID, *PCRYPT_REGISTER_ACTIONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_REGISTER_ACTIONID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_REGISTER_ACTIONID, *PCRYPT_REGISTER_ACTIONID
+req.redist: 
 ---
 
 # _CRYPT_REGISTER_ACTIONID structure

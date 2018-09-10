@@ -4,17 +4,16 @@ title: IAMExtendedSeeking::get_CurrentMarker
 author: windows-sdk-content
 description: The get_CurrentMarker method retrieves the current marker.
 old-location: dshow\iamextendedseeking_get_currentmarker.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMExtendedSeeking.get_CurrentMarker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtendedSeeking::get_CurrentMarker

@@ -4,7 +4,7 @@ title: "_SHSTOCKICONINFO"
 author: windows-sdk-content
 description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.
 old-location: shell\SHSTOCKICONINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _SHSTOCKICONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHSTOCKICONINFO
+req.redist: 
 ---
 
 # _SHSTOCKICONINFO structure

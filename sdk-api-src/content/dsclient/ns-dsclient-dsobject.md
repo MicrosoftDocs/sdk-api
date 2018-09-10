@@ -4,7 +4,7 @@ title: DSOBJECT
 author: windows-sdk-content
 description: Contains directory object data.
 old-location: ad\dsobject.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 2f16a015-a777-4410-bed5-d409a4869c97
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSOBJECT, *LPDSOBJECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSOBJECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DSOBJECT, *LPDSOBJECT
+req.redist: 
 ---
 
 # DSOBJECT structure

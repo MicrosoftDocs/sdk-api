@@ -4,7 +4,7 @@ title: "_SIGDN"
 author: windows-sdk-content
 description: Requests the form of an item's display name to retrieve through IShellItem::GetDisplayName and SHGetNameFromIDList.
 old-location: shell\SIGDN.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef800ed8-8694-4543-ad33-c81b976cc5c2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIGDN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIGDN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SIGDN
+req.redist: 
 ---
 
 # _SIGDN enumeration

@@ -4,17 +4,16 @@ title: IAmsiStream::Read
 author: windows-sdk-content
 description: Requests a buffer-full of content to be read.
 old-location: amsi\iamsistream_read.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: ACE164EF-B49D-4AD5-BC1B-9770AFCD1951
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAmsiStream.Read, IAmsiStream::Read, Read, Read method [Antimalware Scan Interface], Read method [Antimalware Scan Interface],IAmsiStream interface, amsi.iamsistream_read, amsi/IAmsiStream::Read
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAmsiStream.Read
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAmsiStream::Read

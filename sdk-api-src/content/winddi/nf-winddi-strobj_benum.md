@@ -4,17 +4,16 @@ title: STROBJ_bEnum function
 author: windows-sdk-content
 description: The STROBJ_bEnum function enumerates glyph identities and positions.
 old-location: display\strobj_benum.htm
-old-project: display
+tech.root: display
 ms.assetid: 82cb12ff-2baa-4291-849c-dab9d01fa39b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: STROBJ_bEnum, STROBJ_bEnum function [Display Devices], display.strobj_benum, gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml, winddi/STROBJ_bEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STROBJ_bEnum
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # STROBJ_bEnum function

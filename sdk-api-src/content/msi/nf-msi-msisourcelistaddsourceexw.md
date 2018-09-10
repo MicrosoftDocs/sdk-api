@@ -4,17 +4,16 @@ title: MsiSourceListAddSourceExW function
 author: windows-sdk-content
 description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
 old-location: setup\msisourcelistaddsourceex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListAddSourceEx, MsiSourceListAddSourceEx function, MsiSourceListAddSourceExA, MsiSourceListAddSourceExW, NULL, User SID, msi/MsiSourceListAddSourceEx, msi/MsiSourceListAddSourceExA, msi/MsiSourceListAddSourceExW, setup.msisourcelistaddsourceex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiSourceListAddSourceExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSourceListAddSourceExW function

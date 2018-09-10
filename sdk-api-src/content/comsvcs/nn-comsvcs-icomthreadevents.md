@@ -4,7 +4,7 @@ title: IComThreadEvents
 author: windows-sdk-content
 description: Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated.
 old-location: cos\icomthreadevents.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a6523088-cca4-41c1-a3fe-d8cb7320ff33
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComThreadEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComThreadEvents interface

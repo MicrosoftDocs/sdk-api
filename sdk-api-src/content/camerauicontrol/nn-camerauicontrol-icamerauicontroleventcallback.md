@@ -4,7 +4,7 @@ title: ICameraUIControlEventCallback
 author: windows-sdk-content
 description: Callback interface for receiving events from the camera user interface control.
 old-location: winprog\icamerauicontroleventcallback.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: camerauicontrol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_MARSHALCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICameraUIControlEventCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraUIControlEventCallback interface

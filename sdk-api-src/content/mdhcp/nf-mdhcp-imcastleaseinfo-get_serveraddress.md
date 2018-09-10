@@ -4,17 +4,16 @@ title: IMcastLeaseInfo::get_ServerAddress
 author: windows-sdk-content
 description: The get_ServerAddress method obtains a string representing the address of the multicast server granting this lease.
 old-location: tapi3\imcastleaseinfo_get_serveraddress.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 15f33689-07d5-4bd9-978a-2b5d9088b2ed
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_ServerAddress method, IMcastLeaseInfo.get_ServerAddress, IMcastLeaseInfo::get_ServerAddress, _tapi3_imcastleaseinfo_get_serveraddress, get_ServerAddress, get_ServerAddress method [TAPI 2.2], get_ServerAddress method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_ServerAddress, tapi3.imcastleaseinfo_get_serveraddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo.get_ServerAddress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo::get_ServerAddress

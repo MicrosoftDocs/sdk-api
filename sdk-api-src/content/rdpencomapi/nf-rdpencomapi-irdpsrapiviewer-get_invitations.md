@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::get_Invitations
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapiviewer_invitations.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 2657e79a-de3a-44e1-90af-81242ac123f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer.get_Invitations, IRDPSRAPIViewer::Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPIViewer interface, Invitations property [RDP],RDPViewer object, RDPViewer object [RDP],Invitations property, get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPViewer.Invitations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::get_Invitations

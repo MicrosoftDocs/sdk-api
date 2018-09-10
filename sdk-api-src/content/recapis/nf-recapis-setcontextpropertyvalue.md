@@ -4,17 +4,16 @@ title: SetContextPropertyValue function
 author: windows-sdk-content
 description: Adds a property to the recognizer context.If a property already exists, its value is modified.
 old-location: tablet\setcontextpropertyvalue.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetContextPropertyValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetContextPropertyValue function

@@ -4,17 +4,16 @@ title: IMSVidCtl::get_AutoSize
 author: windows-sdk-content
 description: The get_AutoSize method retrieves a value that determines whether the Video Control is automatically resized to display its entire contents.
 old-location: mstv\imsvidctl_get_autosize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8adbc701-fd05-4520-8f06-95bd67a08d1e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AutoSize method, IMSVidCtl.get_AutoSize, IMSVidCtl::get_AutoSize, IMSVidCtlget_AutoSize, get_AutoSize, get_AutoSize method [Microsoft TV Technologies], get_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_autosize, msvidctl/IMSVidCtl::get_AutoSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_AutoSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_AutoSize

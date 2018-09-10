@@ -4,17 +4,16 @@ title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects
 author: windows-sdk-content
 description: Retrieves a cached array of elements representing the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: C2F11DD7-60D0-4848-98DD-FC33FD51BBD4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCachedAnnotationObjects, GetCachedAnnotationObjects method [Windows Accessibility], GetCachedAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationObjects

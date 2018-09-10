@@ -4,17 +4,16 @@ title: Process32First function
 author: windows-sdk-content
 description: Retrieves information about the first process encountered in a system snapshot.
 old-location: toolhelp\process32first.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - Process32FirstW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Process32First function

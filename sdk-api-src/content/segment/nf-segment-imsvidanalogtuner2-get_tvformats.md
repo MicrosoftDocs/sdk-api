@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner2::get_TVFormats
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner2.get_TVFormats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner2::get_TVFormats

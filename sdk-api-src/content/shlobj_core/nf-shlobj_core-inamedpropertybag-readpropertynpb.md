@@ -4,17 +4,16 @@ title: INamedPropertyBag::ReadPropertyNPB
 author: windows-sdk-content
 description: Causes a property to be read from the named property bag.
 old-location: shell\INamedPropertyBag_ReadPropertyNPB.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7080edeb-4908-4b0a-9416-9b301c54bb4c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],ReadPropertyNPB method, INamedPropertyBag.ReadPropertyNPB, INamedPropertyBag::ReadPropertyNPB, ReadPropertyNPB, ReadPropertyNPB method [Windows Shell], ReadPropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_ReadPropertyNPB, shell.INamedPropertyBag_ReadPropertyNPB, shlobj_core/INamedPropertyBag::ReadPropertyNPB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shdocvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedPropertyBag.ReadPropertyNPB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # INamedPropertyBag::ReadPropertyNPB
@@ -62,7 +60,7 @@ Causes a property to be read from the named property bag.
 
 ### -param pszBagname
 
-
+TBD
 
 
 ### -param pszPropName [in]

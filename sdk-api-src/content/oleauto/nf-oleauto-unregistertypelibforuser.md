@@ -4,17 +4,16 @@ title: UnRegisterTypeLibForUser function
 author: windows-sdk-content
 description: Removes type library information that was registered by using RegisterTypeLibForUser.
 old-location: automat\unregistertypelibforuser.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2d88f97b-b1f6-4682-abf5-304ee752e2ae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UnRegisterTypeLibForUser, UnRegisterTypeLibForUser function [Automation], _oa96_UnRegisterTypeLibForUser, automat.unregistertypelibforuser, oleauto/UnRegisterTypeLibForUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UnRegisterTypeLibForUser
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # UnRegisterTypeLibForUser function

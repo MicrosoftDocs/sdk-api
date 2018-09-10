@@ -4,7 +4,7 @@ title: "_CSV_QUERY_REDIRECT_STATE"
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been redirected.
 old-location: fs\csv_query_redirect_state.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: E628FFC2-B665-4160-AA63-9F027D4A2736
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_QUERY_REDIRECT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE
+req.redist: 
 ---
 
 # _CSV_QUERY_REDIRECT_STATE structure

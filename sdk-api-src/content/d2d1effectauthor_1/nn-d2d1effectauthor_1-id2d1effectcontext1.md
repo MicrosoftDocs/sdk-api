@@ -4,7 +4,7 @@ title: ID2D1EffectContext1
 author: windows-sdk-content
 description: Provides factory methods and other state management for effect and transform authors.
 old-location: direct2d\id2d1effectcontext1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: F6B92F9F-D5F3-4DA9-AEC4-826856E184AF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1effectauthor_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_RANGE
+req.lib: D2D1.lib
+req.dll: D2D1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1EffectContext1
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: D2D1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectContext1 interface

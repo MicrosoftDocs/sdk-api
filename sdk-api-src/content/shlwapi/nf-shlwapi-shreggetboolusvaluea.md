@@ -4,17 +4,16 @@ title: SHRegGetBoolUSValueA function
 author: windows-sdk-content
 description: Retrieves a Boolean value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetBoolUSValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegGetBoolUSValue, SHRegGetBoolUSValue function [Windows Shell], SHRegGetBoolUSValueA, SHRegGetBoolUSValueW, _win32_SHRegGetBoolUSValue, shell.SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValueA, shlwapi/SHRegGetBoolUSValueW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHRegGetBoolUSValueW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegGetBoolUSValueA function

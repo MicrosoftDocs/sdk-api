@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.
 old-location: base\ivssbackupcomponentsex3.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 56c8e7c2-2d94-4674-bd20-bf036991474f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx3
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx3 class

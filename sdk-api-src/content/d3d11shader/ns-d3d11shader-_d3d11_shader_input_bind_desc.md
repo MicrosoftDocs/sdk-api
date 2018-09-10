@@ -4,7 +4,7 @@ title: "_D3D11_SHADER_INPUT_BIND_DESC"
 author: windows-sdk-content
 description: Describes how a shader resource is bound to a shader input.
 old-location: direct3d11\d3d11_shader_input_bind_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 384ad8f8-0991-4cd2-bb3d-76b8338686da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_INPUT_BIND_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_SHADER_INPUT_BIND_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_SHADER_INPUT_BIND_DESC
+req.redist: 
 ---
 
 # _D3D11_SHADER_INPUT_BIND_DESC structure

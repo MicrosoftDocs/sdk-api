@@ -4,17 +4,16 @@ title: ICredentialProviderUser::GetValue
 author: windows-sdk-content
 description: Retrieves a specified property value set for the user.
 old-location: shell\ICredentialProviderUser_GetValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: CA8CD897-127E-4113-A5A5-08110E0E6C17
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetValue, GetValue method [Windows Shell], GetValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetValue method, ICredentialProviderUser.GetValue, ICredentialProviderUser::GetValue, credentialprovider/ICredentialProviderUser::GetValue, shell.ICredentialProviderUser_GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: CredentialProvider.lib
+req.dll: Authui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderUser.GetValue
 product: Windows
 targetos: Windows
-req.lib: CredentialProvider.lib
-req.dll: Authui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderUser::GetValue

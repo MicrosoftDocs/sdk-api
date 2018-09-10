@@ -4,7 +4,7 @@ title: tagTHREADENTRY32
 author: windows-sdk-content
 description: Describes an entry from a list of the threads executing in the system when a snapshot was taken.
 old-location: toolhelp\threadentry32_str.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 923feca1-8807-4752-8a5a-79075688aabd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THREADENTRY32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - THREADENTRY32
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: THREADENTRY32
+req.redist: 
 ---
 
 # tagTHREADENTRY32 structure

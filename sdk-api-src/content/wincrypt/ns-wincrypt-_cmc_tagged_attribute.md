@@ -4,7 +4,7 @@ title: "_CMC_TAGGED_ATTRIBUTE"
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_attribute.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4c350cda-2318-49b2-86dc-452423ceb9e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_TAGGED_ATTRIBUTE, *PCMC_TAGGED_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_TAGGED_ATTRIBUTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_TAGGED_ATTRIBUTE, *PCMC_TAGGED_ATTRIBUTE
+req.redist: 
 ---
 
 # _CMC_TAGGED_ATTRIBUTE structure

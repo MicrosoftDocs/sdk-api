@@ -4,17 +4,16 @@ title: SetCACMode function
 author: windows-sdk-content
 description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.
 old-location: tablet\setcacmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4f51e2e1-612a-484e-acba-6f3ae268082a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4f51e2e1-612a-484e-acba-6f3ae268082a, CAC_FULL, CAC_PREFIX, CAC_RANDOM, SetCACMode, SetCACMode function [Tablet PC], recapis/SetCACMode, tablet.setcacmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetCACMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetCACMode function

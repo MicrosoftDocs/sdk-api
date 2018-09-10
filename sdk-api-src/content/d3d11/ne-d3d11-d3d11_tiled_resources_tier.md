@@ -4,7 +4,7 @@ title: D3D11_TILED_RESOURCES_TIER
 author: windows-sdk-content
 description: Indicates the tier level at which tiled resources are supported.
 old-location: direct3d11\d3d11_tiled_resources_tier.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: F2E58CDC-4E65-4166-976A-E58B6DC7B1E8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TILED_RESOURCES_TIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TILED_RESOURCES_TIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TILED_RESOURCES_TIER
+req.redist: 
 ---
 
 # D3D11_TILED_RESOURCES_TIER enumeration

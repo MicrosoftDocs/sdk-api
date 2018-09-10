@@ -4,17 +4,16 @@ title: IMoniker::BindToStorage
 author: windows-sdk-content
 description: Binds to the storage for the specified object. Unlike the IMoniker::BindToObject method, this method does not activate the object identified by the moniker.
 old-location: com\imoniker_bindtostorage.htm
-old-project: com
+tech.root: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.BindToStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::BindToStorage

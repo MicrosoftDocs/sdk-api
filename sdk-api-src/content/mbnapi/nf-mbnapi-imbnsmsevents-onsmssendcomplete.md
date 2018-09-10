@@ -4,17 +4,16 @@ title: IMbnSmsEvents::OnSmsSendComplete
 author: windows-sdk-content
 description: Notification method that indicates the completion of a message send operation.
 old-location: mbn\imbnsmsevents_onsmssendcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4c08b173-7e9e-4b4f-8068-1a90c57eea90
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_NOT_REGISTERED, E_MBN_PIN_REQUIRED, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_ENCODING_NOT_SUPPORTED, E_MBN_SMS_LANG_NOT_SUPPORTED, E_MBN_SMS_MEMORY_FAILURE, E_MBN_SMS_MEMORY_FULL, E_MBN_SMS_NETWORK_TIMEOUT, E_MBN_SMS_OPERATION_NOT_ALLOWED, E_MBN_SMS_UNKNOWN_SMSC_ADDRESS, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsSendComplete method, IMbnSmsEvents.OnSmsSendComplete, IMbnSmsEvents::OnSmsSendComplete, OnSmsSendComplete, OnSmsSendComplete method [Microsoft Broadband Networks], OnSmsSendComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmssendcomplete, mbnapi/IMbnSmsEvents::OnSmsSendComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSmsEvents.OnSmsSendComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsEvents::OnSmsSendComplete

@@ -4,17 +4,16 @@ title: IInkPicture::GetGestureStatus
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the InkPicture control has interest in a particular application gesture.
 old-location: tablet\inkpicture_getgesturestatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b4ccc35d-35b5-4633-acc9-efd4c7eb05e3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetGestureStatus method, IInkPicture.GetGestureStatus, IInkPicture::GetGestureStatus, b4ccc35d-35b5-4633-acc9-efd4c7eb05e3, msinkaut/IInkPicture::GetGestureStatus, tablet.inkpicture_getgesturestatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkPicture.GetGestureStatus
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::GetGestureStatus
@@ -71,7 +69,7 @@ The gesture that you want the status of.
 
 ### -param Listening
 
-
+TBD
 
 
 

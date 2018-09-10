@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder::RenderStream
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Connects a source filter's pin, of an optionally specified category, to the rendering filter, and optionally through another filter.
 old-location: dshow\icapturegraphbuilder_renderstream.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2b174f31-d7bb-4934-9d5b-2e4fd6ae8bf5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],RenderStream method, ICaptureGraphBuilder.RenderStream, ICaptureGraphBuilder::RenderStream, ICaptureGraphBuilderRenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_renderstream, strmif/ICaptureGraphBuilder::RenderStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICaptureGraphBuilder.RenderStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder::RenderStream

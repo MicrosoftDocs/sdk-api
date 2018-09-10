@@ -4,17 +4,16 @@ title: IWSDDeviceHost::Stop
 author: windows-sdk-content
 description: Sends a WS-Discovery Bye message and stops the host.
 old-location: ncd\iwsddevicehost_stop_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceHost.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceHost::Stop

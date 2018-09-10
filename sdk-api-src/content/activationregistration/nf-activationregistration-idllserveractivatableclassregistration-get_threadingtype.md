@@ -4,17 +4,16 @@ title: IDllServerActivatableClassRegistration::get_ThreadingType
 author: windows-sdk-content
 description: Gets the apartment threading model for activating the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_threadingtype.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 08F95AD6-B559-4652-A496-84777BF0189D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_ThreadingType method, IDllServerActivatableClassRegistration.get_ThreadingType, IDllServerActivatableClassRegistration::get_ThreadingType, activationregistration/IDllServerActivatableClassRegistration::get_ThreadingType, get_ThreadingType, get_ThreadingType method [Windows Runtime], get_ThreadingType method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_threadingtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDllServerActivatableClassRegistration.get_ThreadingType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDllServerActivatableClassRegistration::get_ThreadingType
@@ -61,7 +60,7 @@ Gets the apartment threading model for activating the in-process server.
 
 ### -param threadingType
 
-
+TBD
 
 
 

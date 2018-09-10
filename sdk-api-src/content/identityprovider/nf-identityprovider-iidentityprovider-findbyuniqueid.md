@@ -4,17 +4,16 @@ title: IIdentityProvider::FindByUniqueID
 author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 old-location: security\iidentityprovider_findbyuniqueid.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityProvider.FindByUniqueID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityProvider::FindByUniqueID

@@ -4,17 +4,16 @@ title: OleCreatePropertyFrame function
 author: windows-sdk-content
 description: Invokes a new property frame, that is, a property sheet dialog box, whose parent is hwndOwner, where the dialog is positioned at the point (x,y) in the parent window and has the caption lpszCaption.
 old-location: com\olecreatepropertyframe.htm
-old-project: com
+tech.root: com
 ms.assetid: 06f75ac2-3ee6-4209-83cf-a4e5244a18bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreatePropertyFrame, OleCreatePropertyFrame function [COM], _ctrl_OleCreatePropertyFrame, com.olecreatepropertyframe, olectl/OleCreatePropertyFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreatePropertyFrame
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreatePropertyFrame function

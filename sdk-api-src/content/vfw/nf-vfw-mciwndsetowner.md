@@ -4,17 +4,16 @@ title: MCIWndSetOwner macro
 author: windows-sdk-content
 description: The MCIWndSetOwner macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETOWNER message.
 old-location: multimedia\mciwndsetowner.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndSetOwner, MCIWndSetOwner macro [Windows Multimedia], _win32_MCIWndSetOwner, multimedia.mciwndsetowner, vfw/MCIWndSetOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndSetOwner
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndSetOwner macro

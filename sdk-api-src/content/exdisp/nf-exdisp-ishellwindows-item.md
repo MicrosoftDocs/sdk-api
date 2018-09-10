@@ -4,17 +4,16 @@ title: IShellWindows::Item
 author: windows-sdk-content
 description: Returns the registered Shell window for a specified index.
 old-location: shell\IShellWindows_Item.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.Item, IShellWindows::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Item, exdisp/IShellWindows::Item, shell.IShellWindows_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

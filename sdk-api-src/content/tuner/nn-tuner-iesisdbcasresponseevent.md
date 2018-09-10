@@ -4,7 +4,7 @@ title: IESIsdbCasResponseEvent
 author: windows-sdk-content
 description: Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESIsdbCasResponseEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESIsdbCasResponseEvent interface

@@ -4,7 +4,7 @@ title: MBN_CTRL_CAPS
 author: windows-sdk-content
 description: The MBN_CTRL_CAPS enumerated type represents all of the Mobile Broadband device control capabilities as bit fields.
 old-location: mbn\mbn_ctrl_caps.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c4c4bb3b-76ce-4872-8ea1-d2839cbc9b1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_CTRL_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_CTRL_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_CTRL_CAPS
+req.redist: 
 ---
 
 # MBN_CTRL_CAPS enumeration

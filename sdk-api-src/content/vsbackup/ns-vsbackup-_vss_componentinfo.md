@@ -4,7 +4,7 @@ title: "_VSS_COMPONENTINFO"
 author: windows-sdk-content
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_COMPONENTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_COMPONENTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_COMPONENTINFO
+req.redist: 
 ---
 
 # _VSS_COMPONENTINFO structure

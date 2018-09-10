@@ -4,17 +4,16 @@ title: IUserNotification::SetIconInfo
 author: windows-sdk-content
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification_SetIconInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetIconInfo method, IUserNotification.SetIconInfo, IUserNotification::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetIconInfo, shell.IUserNotification_SetIconInfo, shobjidl_core/IUserNotification::SetIconInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification.SetIconInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification::SetIconInfo

@@ -4,17 +4,16 @@ title: ISyncProviderConfigUI::GetRegisteredProperties
 author: windows-sdk-content
 description: Obtains configuration UI properties for reading and writing.
 old-location: winsync\isyncproviderconfigui_getregisteredproperties.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: c96091d7-4b80-445b-911a-fde612eafce9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRegisteredProperties, GetRegisteredProperties method [Windows Sync], GetRegisteredProperties method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],GetRegisteredProperties method, ISyncProviderConfigUI.GetRegisteredProperties, ISyncProviderConfigUI::GetRegisteredProperties, syncregistration/ISyncProviderConfigUI::GetRegisteredProperties, winsync.isyncproviderconfigui_getregisteredproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderConfigUI.GetRegisteredProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderConfigUI::GetRegisteredProperties

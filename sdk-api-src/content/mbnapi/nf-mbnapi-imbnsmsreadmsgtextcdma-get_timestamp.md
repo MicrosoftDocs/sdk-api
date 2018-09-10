@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgTextCdma::get_Timestamp
 author: windows-sdk-content
 description: The timestamp of a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_timestamp.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 178de8ed-b7ab-4a1a-a533-8dcffbdb8499
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Timestamp property, IMbnSmsReadMsgTextCdma.Timestamp, IMbnSmsReadMsgTextCdma.get_Timestamp, IMbnSmsReadMsgTextCdma::Timestamp, IMbnSmsReadMsgTextCdma::get_Timestamp, Timestamp property [Microsoft Broadband Networks], Timestamp property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Timestamp, mbn.imbnsmsreadmsgtextcdma_timestamp, mbnapi/IMbnSmsReadMsgTextCdma::Timestamp, mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgTextCdma.get_Timestamp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Timestamp

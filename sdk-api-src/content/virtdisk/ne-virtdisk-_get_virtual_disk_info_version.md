@@ -4,7 +4,7 @@ title: "_GET_VIRTUAL_DISK_INFO_VERSION"
 author: windows-sdk-content
 description: Contains the kinds of virtual hard disk (VHD) information that you can retrieve.
 old-location: vhd\get_virtual_disk_info_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 603910e4-7568-4ddf-bd50-32a8a41bfca6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_VIRTUAL_DISK_INFO_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GET_VIRTUAL_DISK_INFO_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: GET_VIRTUAL_DISK_INFO_VERSION
+req.redist: 
 ---
 
 # _GET_VIRTUAL_DISK_INFO_VERSION enumeration

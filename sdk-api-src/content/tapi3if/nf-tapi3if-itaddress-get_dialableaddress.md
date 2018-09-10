@@ -4,17 +4,16 @@ title: ITAddress::get_DialableAddress
 author: windows-sdk-content
 description: The get_DialableAddress method gets the BSTR which can be used to connect to this address. The BSTR corresponds to the destination address string that another application would use to connect to this address, such as a phone number or an e-mail name.
 old-location: tapi3\itaddress_get_dialableaddress.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8d6dcbbe-3372-4346-8f5e-fb34b7aca88d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DialableAddress method, ITAddress.get_DialableAddress, ITAddress::get_DialableAddress, _tapi3_itaddress_get_dialableaddress, get_DialableAddress, get_DialableAddress method [TAPI 2.2], get_DialableAddress method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_dialableaddress, tapi3if/ITAddress::get_DialableAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddress.get_DialableAddress
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddress::get_DialableAddress

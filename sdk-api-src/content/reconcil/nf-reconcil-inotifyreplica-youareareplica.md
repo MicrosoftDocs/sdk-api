@@ -4,17 +4,16 @@ title: INotifyReplica::YouAreAReplica
 author: windows-sdk-content
 description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.
 old-location: shell\INotifyReplica_YouAreAReplica.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e6cbdb94-1804-4d6d-890e-d3fd596fec89
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INotifyReplica interface [Windows Shell],YouAreAReplica method, INotifyReplica.YouAreAReplica, INotifyReplica::YouAreAReplica, YouAreAReplica, YouAreAReplica method [Windows Shell], YouAreAReplica method [Windows Shell],INotifyReplica interface, _win32_INotifyReplica_YouAreAReplica, reconcil/INotifyReplica::YouAreAReplica, shell.INotifyReplica_YouAreAReplica
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: reconcil.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INotifyReplica.YouAreAReplica
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # INotifyReplica::YouAreAReplica

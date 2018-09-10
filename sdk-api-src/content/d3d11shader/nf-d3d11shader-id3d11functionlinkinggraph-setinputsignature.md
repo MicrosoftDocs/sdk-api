@@ -4,17 +4,16 @@ title: ID3D11FunctionLinkingGraph::SetInputSignature
 author: windows-sdk-content
 description: Sets the input signature of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_setinputsignature.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 9108BA38-6A0A-4438-BC63-A80790E4A5F0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],SetInputSignature method, ID3D11FunctionLinkingGraph.SetInputSignature, ID3D11FunctionLinkingGraph::SetInputSignature, SetInputSignature, SetInputSignature method [Direct3D 11], SetInputSignature method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::SetInputSignature, direct3d11.id3d11functionlinkinggraph_setinputsignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11FunctionLinkingGraph.SetInputSignature
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11FunctionLinkingGraph::SetInputSignature

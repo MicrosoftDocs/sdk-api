@@ -4,17 +4,16 @@ title: IBrowserService2::_TryShell2Rename
 author: windows-sdk-content
 description: Deprecated. Coordinates the renaming of the current browser view when the browser is redirected.
 old-location: shell\IBrowserService2__TryShell2Rename.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 30801c5d-151b-4556-a1e5-1cbc81a5c33a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_TryShell2Rename method, IBrowserService2._TryShell2Rename, IBrowserService2::_TryShell2Rename, _TryShell2Rename, _TryShell2Rename method [Windows Shell], _TryShell2Rename method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_TryShell2Rename, shell.IBrowserService2__TryShell2Rename, zone_IBrowserService2__TryShell2Rename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._TryShell2Rename
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

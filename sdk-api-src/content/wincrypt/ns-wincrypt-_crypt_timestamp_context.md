@@ -4,7 +4,7 @@ title: "_CRYPT_TIMESTAMP_CONTEXT"
 author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a time stamp token.
 old-location: security\crypt_timestamp_context.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2831b2a9-0f84-4e41-a666-5903fc882965
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_CONTEXT, *PCRYPT_TIMESTAMP_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_CONTEXT, *PCRYPT_TIMESTAMP_CONTEXT
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_CONTEXT structure

@@ -4,17 +4,16 @@ title: IRawElementProviderSimple::GetPatternProvider
 author: windows-sdk-content
 description: Retrieves a pointer to an object that provides support for a control pattern on a Microsoft UI Automation element.
 old-location: winauto\uiauto_IRawElementProviderSimple_GetPatternProvider.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8315c1d4-6347-462f-9c96-121f216faf88
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPatternProvider, GetPatternProvider method [Windows Accessibility], GetPatternProvider method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPatternProvider method, IRawElementProviderSimple.GetPatternProvider, IRawElementProviderSimple::GetPatternProvider, uiauto.uiauto_IRawElementProviderSimple_GetPatternProvider, uiauto_IRawElementProviderSimple_GetPatternProvider, uiautomationcore/IRawElementProviderSimple::GetPatternProvider, winauto.uiauto_IRawElementProviderSimple_GetPatternProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderSimple.GetPatternProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderSimple::GetPatternProvider

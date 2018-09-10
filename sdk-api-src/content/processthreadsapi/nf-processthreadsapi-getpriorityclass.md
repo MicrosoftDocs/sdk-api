@@ -4,17 +4,16 @@ title: GetPriorityClass function
 author: windows-sdk-content
 description: Retrieves the priority class for the specified process. This value, together with the priority value of each thread of the process, determines each thread's base priority level.
 old-location: base\getpriorityclass.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetPriorityClass
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetPriorityClass function

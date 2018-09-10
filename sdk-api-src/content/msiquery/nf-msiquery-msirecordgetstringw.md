@@ -4,17 +4,16 @@ title: MsiRecordGetStringW function
 author: windows-sdk-content
 description: The MsiRecordGetString function returns the string value of a record field.
 old-location: setup\msirecordgetstring.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MsiRecordGetStringW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiRecordGetStringW function

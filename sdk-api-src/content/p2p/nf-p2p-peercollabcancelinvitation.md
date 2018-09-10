@@ -4,17 +4,16 @@ title: PeerCollabCancelInvitation function
 author: windows-sdk-content
 description: Cancels an invitation previously sent by the caller to a contact.
 old-location: p2p\peercollabcancelinvitation.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabCancelInvitation
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabCancelInvitation function

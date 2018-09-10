@@ -4,17 +4,16 @@ title: IXpsOMPage::GenerateUnusedLookupKey
 author: windows-sdk-content
 description: Generates a unique name that can be used as a lookup key by a resource in a resource dictionary.
 old-location: xps\ixpsompage_generateunusedlookupkey.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 79599ede-fd81-4d1a-b71b-ac5742e384ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GenerateUnusedLookupKey, GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GenerateUnusedLookupKey method, IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPage.GenerateUnusedLookupKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPage::GenerateUnusedLookupKey

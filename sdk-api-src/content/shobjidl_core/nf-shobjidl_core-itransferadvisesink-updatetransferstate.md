@@ -4,17 +4,16 @@ title: ITransferAdviseSink::UpdateTransferState
 author: windows-sdk-content
 description: Updates the transfer state.
 old-location: shell\ITransferAdviseSink_UpdateTransferState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 37e830b0-a426-4a66-83c3-108f315f50ac
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateTransferState method, ITransferAdviseSink.UpdateTransferState, ITransferAdviseSink::UpdateTransferState, TS_INDETERMINATE, TS_NONE, TS_PERFORMING, TS_PREPARING, UpdateTransferState, UpdateTransferState method [Windows Shell], UpdateTransferState method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateTransferState, shell.ITransferAdviseSink_UpdateTransferState, shobjidl_core/ITransferAdviseSink::UpdateTransferState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferAdviseSink.UpdateTransferState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferAdviseSink::UpdateTransferState

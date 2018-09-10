@@ -4,7 +4,7 @@ title: PDD_VPORTCB_GETSIGNALSTATUS
 author: windows-sdk-content
 description: The DdVideoPortGetSignalStatus callback function retrieves the status of the video signal currently being presented to the hardware video port.
 old-location: display\ddvideoportgetsignalstatus.htm
-old-project: display
+tech.root: display
 ms.assetid: d3868acf-b119-4ab3-aa85-64d50f76fdb7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdVideoPortGetSignalStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_VPORTCB_GETSIGNALSTATUS callback function

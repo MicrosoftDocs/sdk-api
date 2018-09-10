@@ -4,7 +4,7 @@ title: PLOG_TAIL_ADVANCE_CALLBACK
 author: windows-sdk-content
 description: The LOG_TAIL_ADVANCE_CALLBACK function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
 old-location: fs\log_tail_advance_callback.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: dfa64e5e-55ef-4102-90d5-104b1a624267
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LOG_TAIL_ADVANCE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PLOG_TAIL_ADVANCE_CALLBACK callback function

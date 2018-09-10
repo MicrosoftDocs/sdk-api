@@ -4,17 +4,16 @@ title: IOPMVideoOutput::GetInformation
 author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver.
 old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetInformation, GetInformation method [Media Foundation], GetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],GetInformation method, IOPMVideoOutput.GetInformation, IOPMVideoOutput::GetInformation, mf.iopmvideooutput_iopmvideooutput__getinformation, opmapi/IOPMVideoOutput::GetInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOPMVideoOutput.GetInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOPMVideoOutput::GetInformation

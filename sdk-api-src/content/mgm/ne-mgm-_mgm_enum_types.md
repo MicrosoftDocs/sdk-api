@@ -4,7 +4,7 @@ title: "_MGM_ENUM_TYPES"
 author: windows-sdk-content
 description: The MGM_ENUM_TYPES enumeration lists the types of group enumerations that the multicast group manager uses. This structure is used by the MgmGroupEnumerationStart function.
 old-location: rras\mgm_enum_types.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 09b60342-25a8-4d0a-8176-3701f0622aa8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MGM_ENUM_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MGM_ENUM_TYPES
+req.redist: 
 ---
 
 # _MGM_ENUM_TYPES enumeration

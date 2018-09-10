@@ -4,7 +4,7 @@ title: "_TOKEN_MANDATORY_POLICY"
 author: windows-sdk-content
 description: Specifies the mandatory integrity policy for a token.
 old-location: security\token_mandatory_policy.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: f5fc438b-c4f0-46f6-a188-52ce660d13da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_MANDATORY_POLICY, *PTOKEN_MANDATORY_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_MANDATORY_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_MANDATORY_POLICY, *PTOKEN_MANDATORY_POLICY
+req.redist: 
 ---
 
 # _TOKEN_MANDATORY_POLICY structure

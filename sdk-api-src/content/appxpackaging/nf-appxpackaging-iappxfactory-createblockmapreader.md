@@ -4,17 +4,16 @@ title: IAppxFactory::CreateBlockMapReader
 author: windows-sdk-content
 description: Creates a read-only block map object model from contents provided by an IStream.
 old-location: appxpkg\iappxfactory_createblockmapreader.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: B4A310F0-4276-49AA-9ABF-A98F41E8F87F
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreateBlockMapReader, CreateBlockMapReader method [App packaging and management], CreateBlockMapReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateBlockMapReader method, IAppxFactory.CreateBlockMapReader, IAppxFactory::CreateBlockMapReader, appxpackaging/IAppxFactory::CreateBlockMapReader, appxpkg.iappxfactory_createblockmapreader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFactory.CreateBlockMapReader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFactory::CreateBlockMapReader

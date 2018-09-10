@@ -4,17 +4,16 @@ title: CreateIpNetEntry2 function
 author: windows-sdk-content
 description: Creates a new neighbor IP address entry on the local computer.
 old-location: iphlp\createipnetentry2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: ca92b9f8-ec3c-4889-b649-f606c3920f92
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.createipnetentry2, netioapi/CreateIpNetEntry2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateIpNetEntry2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateIpNetEntry2 function

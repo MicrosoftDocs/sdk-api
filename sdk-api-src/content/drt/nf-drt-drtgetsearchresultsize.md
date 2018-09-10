@@ -4,17 +4,16 @@ title: DrtGetSearchResultSize function
 author: windows-sdk-content
 description: DrtGetSearchResultSize function returns the size of the next available search result.
 old-location: p2p\drtgetsearchresultsize.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtGetSearchResultSize
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtGetSearchResultSize function

@@ -4,7 +4,7 @@ title: "_DHCP_CLASS_INFO_ARRAY"
 author: windows-sdk-content
 description: Defines an array of elements that contain DHCP class information.
 old-location: dhcp\dhcp_class_info_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 716beba3-cba2-406c-a41f-2f08b6a7dc5a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLASS_INFO_ARRAY, *LPDHCP_CLASS_INFO_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLASS_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLASS_INFO_ARRAY, *LPDHCP_CLASS_INFO_ARRAY
+req.redist: 
 ---
 
 # _DHCP_CLASS_INFO_ARRAY structure

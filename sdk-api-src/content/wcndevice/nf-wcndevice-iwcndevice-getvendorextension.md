@@ -4,17 +4,16 @@ title: IWCNDevice::GetVendorExtension
 author: windows-sdk-content
 description: The GetVendorExtension method gets a cached vendor extension from the device.
 old-location: wcn\iwcndevice_getvendorextension.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: f7fa8446-8013-431a-95ed-fa5d78a90df7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetVendorExtension, GetVendorExtension method [Windows Connect Now], GetVendorExtension method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetVendorExtension method, IWCNDevice.GetVendorExtension, IWCNDevice::GetVendorExtension, wcn.iwcndevice_getvendorextension, wcndevice/IWCNDevice::GetVendorExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.GetVendorExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::GetVendorExtension
@@ -62,7 +60,7 @@ The <b>GetVendorExtension</b> method gets a cached vendor extension from the dev
 
 ### -param pVendorExtSpec
 
-
+TBD
 
 
 ### -param dwMaxBufferSize [in]

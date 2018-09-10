@@ -4,17 +4,16 @@ title: IFsrmFileScreenTemplate::CopyTemplate
 author: windows-sdk-content
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmFileScreenTemplate interface, IFsrmFileScreenTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileScreenTemplate.CopyTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenTemplate::CopyTemplate

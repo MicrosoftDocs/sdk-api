@@ -4,17 +4,16 @@ title: ITfContextKeyEventSink::OnKeyDown
 author: windows-sdk-content
 description: ITfContextKeyEventSink::OnKeyDown method
 old-location: tsf\itfcontextkeyeventsink_onkeydown.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 684d3c01-fa95-4a19-b5fb-48a62315ce2f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnKeyDown method, ITfContextKeyEventSink.OnKeyDown, ITfContextKeyEventSink::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_onkeydown_ref, msctf/ITfContextKeyEventSink::OnKeyDown, tsf.itfcontextkeyeventsink_onkeydown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Mscandui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextKeyEventSink.OnKeyDown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mscandui.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextKeyEventSink::OnKeyDown

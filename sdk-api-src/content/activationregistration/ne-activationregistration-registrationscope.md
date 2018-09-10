@@ -4,7 +4,7 @@ title: RegistrationScope
 author: windows-sdk-content
 description: Represents the deployment scope of an activatable class.
 old-location: winrt\registrationscope.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B4C14F6B-90BE-43AC-955B-229CDA025224
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Activation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RegistrationScope
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RegistrationScope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RegistrationScope
+req.redist: 
 ---
 
 # RegistrationScope enumeration

@@ -4,17 +4,16 @@ title: IVideoWindow::get_FullScreenMode
 author: windows-sdk-content
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
 old-location: dshow\ivideowindow_get_fullscreenmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IVideoWindow.get_FullScreenMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoWindow::get_FullScreenMode

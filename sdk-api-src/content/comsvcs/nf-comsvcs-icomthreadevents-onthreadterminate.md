@@ -4,17 +4,16 @@ title: IComThreadEvents::OnThreadTerminate
 author: windows-sdk-content
 description: Generated when a single-threaded apartment (STA) thread is terminated.
 old-location: cos\icomthreadevents_onthreadterminate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadTerminate method, IComThreadEvents.OnThreadTerminate, IComThreadEvents::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComThreadEvents.OnThreadTerminate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComThreadEvents::OnThreadTerminate

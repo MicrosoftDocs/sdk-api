@@ -4,17 +4,16 @@ title: IAMOverlayFX::QueryOverlayFXCaps
 author: windows-sdk-content
 description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMOverlayFX.QueryOverlayFXCaps
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMOverlayFX::QueryOverlayFXCaps

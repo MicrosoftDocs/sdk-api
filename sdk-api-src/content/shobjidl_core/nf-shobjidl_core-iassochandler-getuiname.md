@@ -4,17 +4,16 @@ title: IAssocHandler::GetUIName
 author: windows-sdk-content
 description: Retrieves the display name of an application.
 old-location: shell\IAssocHandler_GetUIName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bf714cf9-a16a-40a4-8dd8-c53c289967f5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetUIName, GetUIName method [Windows Shell], GetUIName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetUIName method, IAssocHandler.GetUIName, IAssocHandler::GetUIName, _shell_IAssocHandler_GetUIName, shell.IAssocHandler_GetUIName, shobjidl_core/IAssocHandler::GetUIName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.GetUIName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::GetUIName

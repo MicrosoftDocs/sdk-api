@@ -4,17 +4,16 @@ title: ICrmLogControl::get_TransactionUOW
 author: windows-sdk-content
 description: Retrieves the transaction unit of work (UOW) without having to log the transaction UOW in the log record.
 old-location: cos\icrmlogcontrol_get_transactionuow.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 35cfadf5-f1be-4383-bb34-f68543df0abb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmLogControl interface [COM+],get_TransactionUOW method, ICrmLogControl.get_TransactionUOW, ICrmLogControl::get_TransactionUOW, _dtc_ICrmLogControl_TransactionUOW, comsvcs/ICrmLogControl::get_TransactionUOW, cos.icrmlogcontrol_get_transactionuow, get_TransactionUOW, get_TransactionUOW method [COM+], get_TransactionUOW method [COM+],ICrmLogControl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.get_TransactionUOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::get_TransactionUOW

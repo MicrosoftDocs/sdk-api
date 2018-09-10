@@ -4,17 +4,16 @@ title: IInkRecognizerContext2::put_EnabledUnicodeRanges
 author: windows-sdk-content
 description: Gets or sets a set of one or more Unicode ranges that the recognizer context will support.
 old-location: tablet\iinkrecognizercontext2_enabledunicoderanges.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d976eed0-32d0-47ab-931e-177635f95875
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: EnabledUnicodeRanges property [Tablet PC], EnabledUnicodeRanges property [Tablet PC],IInkRecognizerContext2 interface, IInkRecognizerContext2 interface [Tablet PC],EnabledUnicodeRanges property, IInkRecognizerContext2.EnabledUnicodeRanges, IInkRecognizerContext2.get_EnabledUnicodeRanges, IInkRecognizerContext2.put_EnabledUnicodeRanges, IInkRecognizerContext2::EnabledUnicodeRanges, IInkRecognizerContext2::get_EnabledUnicodeRanges, IInkRecognizerContext2::put_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::get_EnabledUnicodeRanges, msinkaut/IInkRecognizerContext2::put_EnabledUnicodeRanges, put_EnabledUnicodeRanges, tablet.iinkrecognizercontext2_enabledunicoderanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IInkRecognizerContext2.put_EnabledUnicodeRanges
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext2::put_EnabledUnicodeRanges

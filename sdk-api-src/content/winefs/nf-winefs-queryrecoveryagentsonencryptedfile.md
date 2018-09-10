@@ -4,17 +4,16 @@ title: QueryRecoveryAgentsOnEncryptedFile function
 author: windows-sdk-content
 description: Retrieves a list of recovery agents for the specified file.
 old-location: fs\queryrecoveryagentsonencryptedfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 2f8d0673-3c87-46a4-b7d5-3888d20bd9b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: QueryRecoveryAgentsOnEncryptedFile, QueryRecoveryAgentsOnEncryptedFile function [Files], _win32_queryrecoveryagentsonencryptedfile, base.queryrecoveryagentsonencryptedfile, fs.queryrecoveryagentsonencryptedfile, winefs/QueryRecoveryAgentsOnEncryptedFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - QueryRecoveryAgentsOnEncryptedFile
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # QueryRecoveryAgentsOnEncryptedFile function

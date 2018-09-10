@@ -4,17 +4,16 @@ title: IWMPCdromBurn::get_burnProgress
 author: windows-sdk-content
 description: The get_burnProgress method retrieves the CD burning progress as percent complete.
 old-location: wmp\iwmpcdromburn_get_burnprogress.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 4941e1be-1ed2-4d8e-ad16-79ddbdcd71bf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnProgress method, IWMPCdromBurn.get_burnProgress, IWMPCdromBurn::get_burnProgress, IWMPCdromBurnget_burnProgress, get_burnProgress, get_burnProgress method [Windows Media Player], get_burnProgress method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnprogress, wmp/IWMPCdromBurn::get_burnProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromBurn.get_burnProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromBurn::get_burnProgress

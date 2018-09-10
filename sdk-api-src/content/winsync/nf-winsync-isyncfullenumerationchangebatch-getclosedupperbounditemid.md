@@ -4,17 +4,16 @@ title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
 author: windows-sdk-content
 description: Gets the closed upper bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedupperbounditemid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b06b01b2-2f31-4117-92eb-e72e31a2f20b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClosedUpperBoundItemId, GetClosedUpperBoundItemId method [Windows Sync], GetClosedUpperBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedUpperBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId

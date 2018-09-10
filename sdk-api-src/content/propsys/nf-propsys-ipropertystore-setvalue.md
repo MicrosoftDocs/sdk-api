@@ -4,17 +4,16 @@ title: IPropertyStore::SetValue
 author: windows-sdk-content
 description: This method sets a property value or replaces or removes an existing value.
 old-location: audio\ipropertystore_setvalue.htm
-old-project: audio
+tech.root: audio
 ms.assetid: be21bcb2-6875-4559-abd7-a496f0fcddd6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IPropertyStore interface [Audio Devices],SetValue method, IPropertyStore.SetValue, IPropertyStore::SetValue, SetValue, SetValue (IpropertyStore), SetValue method [Audio Devices], SetValue method [Audio Devices],IPropertyStore interface, audio.ipropertystore_setvalue, audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml, propsys/IPropertyStore::SetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPropertyStore.SetValue
 product: Windows
 targetos: Windows
-req.lib: Propsys.idl
-req.dll: 
-req.irql: All levels
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStore::SetValue
@@ -63,12 +61,12 @@ This method sets a property value or replaces or removes an existing value.
 
 ### -param key
 
-
+TBD
 
 
 ### -param propvar
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: SetFileInformationByHandle function
 author: windows-sdk-content
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetFileInformationByHandle
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ---
 
 # SetFileInformationByHandle function

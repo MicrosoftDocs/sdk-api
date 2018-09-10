@@ -4,17 +4,16 @@ title: ldap_sslinitA function
 author: windows-sdk-content
 description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 old-location: ldap\ldap_sslinit.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_sslinitW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_sslinitA function

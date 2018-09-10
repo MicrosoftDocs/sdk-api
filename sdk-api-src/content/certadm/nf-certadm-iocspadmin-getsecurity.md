@@ -4,17 +4,16 @@ title: IOCSPAdmin::GetSecurity
 author: windows-sdk-content
 description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getsecurity.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSecurity method, IOCSPAdmin.GetSecurity, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPAdmin.GetSecurity
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPAdmin::GetSecurity

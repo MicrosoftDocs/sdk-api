@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyChannel
 author: windows-sdk-content
 description: Represents a communication channel that components that are hosted by the print spooler use to send notifications to applications. If the channel is bidirectional, applications can use the same channel to send responses back to the component.
 old-location: gdi\iprintasyncnotifychannel.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrintAsyncNotifyChannel
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintAsyncNotifyChannel interface

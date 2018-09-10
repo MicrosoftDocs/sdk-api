@@ -4,17 +4,16 @@ title: IFsrmSetting::SetActionRunLimitInterval
 author: windows-sdk-content
 description: Sets the time that an action that uses the global run limit interval must wait before the action is run again.
 old-location: fsrm\ifsrmsetting_setactionrunlimitinterval.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 4cd4d583-2906-4ba0-b113-c21db143dec2
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting interface [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting.SetActionRunLimitInterval, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmSetting.SetActionRunLimitInterval
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmSetting::SetActionRunLimitInterval

@@ -4,17 +4,16 @@ title: IMFMediaEngineWebSupport::DisconnectWebAudio
 author: windows-sdk-content
 description: Disconnects web audio from the Media Engine.
 old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 04AE7972-B0F1-4C35-A5F4-88F0B85C99E7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],DisconnectWebAudio method, IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineWebSupport.DisconnectWebAudio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineWebSupport::DisconnectWebAudio

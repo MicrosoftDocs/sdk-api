@@ -4,7 +4,7 @@ title: ISyncRegistrationChange
 author: windows-sdk-content
 description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
 old-location: winsync\isyncregistrationchange.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncRegistrationChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncRegistrationChange interface

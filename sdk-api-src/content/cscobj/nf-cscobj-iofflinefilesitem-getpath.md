@@ -4,17 +4,16 @@ title: IOfflineFilesItem::GetPath
 author: windows-sdk-content
 description: Retrieves the fully qualified UNC path string for an item in the Offline Files cache.
 old-location: of\iofflinefilesitem_getpath.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: d1453c9c-e0e7-4451-bb42-58a627fa1db5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPath, GetPath method [Offline Files], GetPath method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetPath method, IOfflineFilesItem.GetPath, IOfflineFilesItem::GetPath, cscobj/IOfflineFilesItem::GetPath, of.iofflinefilesitem_getpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesItem.GetPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesItem::GetPath

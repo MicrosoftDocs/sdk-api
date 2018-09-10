@@ -4,7 +4,7 @@ title: CLCTL_CODES
 author: windows-sdk-content
 description: Enumerates the possible operations that a control code will perform.
 old-location: mscs\clctl_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: daf9a556-e365-4fb3-9378-8b5d526dc1fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLCTL_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - CLCTL_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLCTL_CODES
+req.redist: 
 ---
 
 # CLCTL_CODES enumeration

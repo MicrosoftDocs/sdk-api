@@ -4,17 +4,16 @@ title: IServicePool::Shutdown
 author: windows-sdk-content
 description: Shuts down an object pool.
 old-location: cos\iservicepool_shutdown.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d06f4227-e85a-4779-b240-5a2e71d9756b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServicePool interface [COM+],Shutdown method, IServicePool.Shutdown, IServicePool::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IServicePool interface, _cos_IServicePool_Shutdown, comsvcs/IServicePool::Shutdown, cos.iservicepool_shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP4, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePool.Shutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePool::Shutdown

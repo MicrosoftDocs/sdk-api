@@ -4,7 +4,7 @@ title: POST_UPGRADE_VERSION_INFO
 author: windows-sdk-content
 description: Represents post-upgrade state information for the cluster service.
 old-location: mscs\post_upgrade_version_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 6F5DE9C6-5499-49FE-99D1-C8B8AE88CB18
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POST_UPGRADE_VERSION_INFO, *PPOST_UPGRADE_VERSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POST_UPGRADE_VERSION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POST_UPGRADE_VERSION_INFO, *PPOST_UPGRADE_VERSION_INFO
+req.redist: 
 ---
 
 # POST_UPGRADE_VERSION_INFO structure

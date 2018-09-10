@@ -4,17 +4,16 @@ title: wglCreateLayerContext function
 author: windows-sdk-content
 description: The wglCreateLayerContext function creates a new OpenGL rendering context for drawing to a specified layer plane on a device context.
 old-location: opengl\wglcreatelayercontext.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglCreateLayerContext
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglCreateLayerContext function

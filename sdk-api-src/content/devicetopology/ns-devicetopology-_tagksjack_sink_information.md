@@ -4,7 +4,7 @@ title: "_tagKSJACK_SINK_INFORMATION"
 author: windows-sdk-content
 description: The KSJACK_SINK_INFORMATION structure stores information about an audio jack sink.
 old-location: coreaudio\ksjack_sink_information.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: ee7211d8-a34f-40c9-9925-7bb40792bae9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_SINK_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - KSJACK_SINK_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: KSJACK_SINK_INFORMATION
+req.redist: 
 ---
 
 # _tagKSJACK_SINK_INFORMATION structure

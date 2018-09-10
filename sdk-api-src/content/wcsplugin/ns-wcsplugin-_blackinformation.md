@@ -4,7 +4,7 @@ title: "_BlackInformation"
 author: windows-sdk-content
 description: Contains information for device models that have a black color channel.
 old-location: wcs\blackinformation.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BlackInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BlackInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BlackInformation
+req.redist: 
 ---
 
 # _BlackInformation structure

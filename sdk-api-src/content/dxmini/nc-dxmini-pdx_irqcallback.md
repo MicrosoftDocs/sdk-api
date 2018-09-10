@@ -4,7 +4,7 @@ title: PDX_IRQCALLBACK
 author: windows-sdk-content
 description: The IRQCallback function performs operations related to the IRQ that occurred.
 old-location: display\irqcallback.htm
-old-project: display
+tech.root: display
 ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRQCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_IRQCALLBACK callback function

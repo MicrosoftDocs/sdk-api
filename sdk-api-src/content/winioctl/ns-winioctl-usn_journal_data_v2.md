@@ -4,7 +4,7 @@ title: USN_JOURNAL_DATA_V2
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
 old-location: fs\usn_journal_data_v2.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_JOURNAL_DATA_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
+req.redist: 
 ---
 
 # USN_JOURNAL_DATA_V2 structure

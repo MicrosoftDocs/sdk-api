@@ -4,17 +4,16 @@ title: IUIAnimationVariable2::SetVariableIntegerChangeHandler
 author: windows-sdk-content
 description: Specifies a handler for changes to the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable2_setvariableintegerchangehandler.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 4327AC4A-2C2C-4C1A-AFCD-D2BA8ECEBA12
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetVariableIntegerChangeHandler method, IUIAnimationVariable2.SetVariableIntegerChangeHandler, IUIAnimationVariable2::SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler, SetVariableIntegerChangeHandler method [Windows Animation], SetVariableIntegerChangeHandler method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setvariableintegerchangehandler, uianimation/IUIAnimationVariable2::SetVariableIntegerChangeHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable2.SetVariableIntegerChangeHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable2::SetVariableIntegerChangeHandler

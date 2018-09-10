@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::GetRenderingControls
 author: windows-sdk-content
 description: Gets the rendering controls that have been applied to the context.
 old-location: direct2d\id2d1devicecontext_getrenderingcontrols.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: b1d15530-a525-42ba-bc58-f8f429cdd2a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRenderingControls, GetRenderingControls method [Direct2D], GetRenderingControls method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetRenderingControls method, ID2D1DeviceContext.GetRenderingControls, ID2D1DeviceContext::GetRenderingControls, d2d1_1/ID2D1DeviceContext::GetRenderingControls, direct2d.id2d1devicecontext_getrenderingcontrols
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.GetRenderingControls
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::GetRenderingControls

@@ -4,17 +4,16 @@ title: IHandlerActivationHost::BeforeCoCreateInstance
 author: windows-sdk-content
 description: "."
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6ec3f90a-4b65-4cbc-a777-a338c97f1acf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHandlerActivationHost.BeforeCoCreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IHandlerActivationHost::BeforeCoCreateInstance

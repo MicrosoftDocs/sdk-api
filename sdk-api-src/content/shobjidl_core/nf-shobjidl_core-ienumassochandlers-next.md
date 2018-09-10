@@ -4,17 +4,16 @@ title: IEnumAssocHandlers::Next
 author: windows-sdk-content
 description: Retrieves a specified number of elements.
 old-location: shell\IEnumAssocHandlers_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9e173cb3-bd73-437c-8853-c13c8b6f216f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumAssocHandlers interface [Windows Shell],Next method, IEnumAssocHandlers.Next, IEnumAssocHandlers::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumAssocHandlers interface, _shell_IEnumAssocHandlers_Next, shell.IEnumAssocHandlers_Next, shobjidl_core/IEnumAssocHandlers::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumAssocHandlers.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumAssocHandlers::Next

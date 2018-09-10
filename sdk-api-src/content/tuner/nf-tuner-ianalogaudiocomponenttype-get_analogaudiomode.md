@@ -4,17 +4,16 @@ title: IAnalogAudioComponentType::get_AnalogAudioMode
 author: windows-sdk-content
 description: The get_AnalogAudioMode method retrieves the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_get_analogaudiomode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 63c5f2a0-5524-4df0-bc0d-fcd7c6b36167
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],get_AnalogAudioMode method, IAnalogAudioComponentType.get_AnalogAudioMode, IAnalogAudioComponentType::get_AnalogAudioMode, IAnalogAudioComponentTypeget_AnalogAudioMode, get_AnalogAudioMode, get_AnalogAudioMode method [Microsoft TV Technologies], get_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, mstv.ianalogaudiocomponenttype_get_analogaudiomode, tuner/IAnalogAudioComponentType::get_AnalogAudioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogAudioComponentType.get_AnalogAudioMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogAudioComponentType::get_AnalogAudioMode

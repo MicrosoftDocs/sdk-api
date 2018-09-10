@@ -4,17 +4,16 @@ title: IInkDivider::putref_RecognizerContext
 author: windows-sdk-content
 description: Gets or sets the InkRecognizerContext object that the InkDivider object uses for layout analysis.
 old-location: tablet\inkdivider_recognizercontext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ad3c4317-a777-4009-bc66-865a2fcb77c3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkDivider interface [Tablet PC],RecognizerContext property, IInkDivider.RecognizerContext, IInkDivider.putref_RecognizerContext, IInkDivider::RecognizerContext, IInkDivider::get_RecognizerContext, IInkDivider::putref_RecognizerContext, InkDivider.get_RecognizerContext, RecognizerContext property [Tablet PC], RecognizerContext property [Tablet PC],IInkDivider interface, ad3c4317-a777-4009-bc66-865a2fcb77c3, get_RecognizerContext, msinkaut15/IInkDivider::RecognizerContext, msinkaut15/IInkDivider::get_RecognizerContext, msinkaut15/IInkDivider::putref_RecognizerContext, put_RecognizerContext, putref_RecognizerContext, tablet.inkdivider_recognizercontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Inkdiv.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkDivider.get_RecognizerContext
 product: Windows
 targetos: Windows
-req.lib: Inkdiv.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDivider::putref_RecognizerContext

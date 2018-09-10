@@ -4,17 +4,16 @@ title: AmsiOpenSession function
 author: windows-sdk-content
 description: Opens a session within which multiple scan requests can be correlated.
 old-location: amsi\amsiopensession.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Amsi.lib
+req.dll: Amsi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AmsiOpenSession
 product: Windows
 targetos: Windows
-req.lib: Amsi.lib
-req.dll: Amsi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AmsiOpenSession function

@@ -4,7 +4,7 @@ title: PHONECALLBACK
 author: windows-sdk-content
 description: The phoneCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\phonecallbackfunc.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 169ac08a-7584-4d43-abb3-eb83eeb48406
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONECALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # PHONECALLBACK callback function

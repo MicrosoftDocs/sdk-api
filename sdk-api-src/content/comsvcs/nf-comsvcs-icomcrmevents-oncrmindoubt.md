@@ -4,17 +4,16 @@ title: IComCRMEvents::OnCRMIndoubt
 author: windows-sdk-content
 description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmindoubt.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b1144b7c-097f-4a1c-b7d7-d71b8108625b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMIndoubt method, IComCRMEvents.OnCRMIndoubt, IComCRMEvents::OnCRMIndoubt, OnCRMIndoubt, OnCRMIndoubt method [COM+], OnCRMIndoubt method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMIndoubt, comsvcs/IComCRMEvents::OnCRMIndoubt, cos.icomcrmevents_oncrmindoubt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComCRMEvents.OnCRMIndoubt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComCRMEvents::OnCRMIndoubt

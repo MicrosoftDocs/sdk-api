@@ -4,17 +4,16 @@ title: IUserNotification::Show
 author: windows-sdk-content
 description: Displays the notification.
 old-location: shell\IUserNotification_Show.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1f908581-9635-4090-9e52-1dfb9a206d38
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],Show method, IUserNotification.Show, IUserNotification::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification interface, inet_IUserNotification_Show, shell.IUserNotification_Show, shobjidl_core/IUserNotification::Show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification::Show

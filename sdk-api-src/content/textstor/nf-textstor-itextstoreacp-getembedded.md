@@ -4,17 +4,16 @@ title: ITextStoreACP::GetEmbedded
 author: windows-sdk-content
 description: Gets an embedded document.
 old-location: tsf\itextstoreacp_getembedded.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 82904a96-70ec-4ceb-a3c4-5d48c801a9ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEmbedded method, ITextStoreACP.GetEmbedded, ITextStoreACP::GetEmbedded, _tsf_itextstoreacp_getembedded_ref, textstor/ITextStoreACP::GetEmbedded, tsf.itextstoreacp_getembedded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetEmbedded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetEmbedded

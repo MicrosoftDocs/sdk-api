@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_Guid
 author: windows-sdk-content
 description: Retrieves or sets the session GUID.
 old-location: pla\itracedatacollector_guid.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 9f5ef256-725f-4cba-8fe7-a689045b8e66
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],Guid property, ITraceDataCollector.Guid, ITraceDataCollector.get_Guid, ITraceDataCollector::Guid, ITraceDataCollector::get_Guid, ITraceDataCollector::put_Guid, base.itracedatacollector_guid, get_Guid, pla.itracedatacollector_guid, pla/ITraceDataCollector::Guid, pla/ITraceDataCollector::get_Guid, pla/ITraceDataCollector::put_Guid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_Guid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_Guid

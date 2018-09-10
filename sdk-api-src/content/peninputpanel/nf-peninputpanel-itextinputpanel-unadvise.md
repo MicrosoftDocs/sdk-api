@@ -4,17 +4,16 @@ title: ITextInputPanel::Unadvise
 author: windows-sdk-content
 description: Terminates an advisory connection previously established through ITextInputPanel::Advise Method.
 old-location: tablet\itextinputpanel_unadvise.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Tablet PC],Unadvise method, ITextInputPanel.Unadvise, ITextInputPanel::Unadvise, Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanel.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::Unadvise

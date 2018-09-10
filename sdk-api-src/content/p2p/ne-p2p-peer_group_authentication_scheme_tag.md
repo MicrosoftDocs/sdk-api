@@ -4,7 +4,7 @@ title: peer_group_authentication_scheme_tag
 author: windows-sdk-content
 description: Defines the set of possible authentication schemes that can be used to authenticate peers joining a peer group.
 old-location: p2p\peer_group_authentication_scheme.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 51bbbfdb-fa64-473b-aa48-2562512a2af3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_GROUP_AUTHENTICATION_SCHEME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_GROUP_AUTHENTICATION_SCHEME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_GROUP_AUTHENTICATION_SCHEME
+req.redist: 
 ---
 
 # peer_group_authentication_scheme_tag enumeration

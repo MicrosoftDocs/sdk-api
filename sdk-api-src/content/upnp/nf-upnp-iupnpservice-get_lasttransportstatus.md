@@ -4,17 +4,16 @@ title: IUPnPService::get_LastTransportStatus
 author: windows-sdk-content
 description: For queries related to evented variables, the LastTransportStatus property specifies the HTTP status of the last IUPnPService::InvokeAction operation.
 old-location: upnp\iupnpservice_lasttransportstatus.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 8593b800-ae0a-41b8-9a61-92bdfc106c8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_LastTransportStatus method, IUPnPService.get_LastTransportStatus, IUPnPService::get_LastTransportStatus, _upnp_iupnpservice_lasttransportstatus, get_LastTransportStatus, get_LastTransportStatus method [UPnP APIs], get_LastTransportStatus method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_lasttransportstatus, upnp/IUPnPService::get_LastTransportStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPService.get_LastTransportStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPService::get_LastTransportStatus

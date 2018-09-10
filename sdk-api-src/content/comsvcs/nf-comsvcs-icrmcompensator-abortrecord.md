@@ -4,17 +4,16 @@ title: ICrmCompensator::AbortRecord
 author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensator_abortrecord.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 79dcf391-7ec9-4c9c-9f91-0e806d7c278c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AbortRecord, AbortRecord method [COM+], AbortRecord method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],AbortRecord method, ICrmCompensator.AbortRecord, ICrmCompensator::AbortRecord, _dtc_ICrmCompensator_AbortRecord, comsvcs/ICrmCompensator::AbortRecord, cos.icrmcompensator_abortrecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.AbortRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::AbortRecord

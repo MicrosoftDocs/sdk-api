@@ -4,17 +4,16 @@ title: mmTaskBlock function
 author: windows-sdk-content
 description: The mmTaskBlock function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtaskblock.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Multimedia Functions
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_SNAPIN_PROPERTY
+req.lib: 
+req.dll: Winmm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - mmTaskBlock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winmm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # mmTaskBlock function

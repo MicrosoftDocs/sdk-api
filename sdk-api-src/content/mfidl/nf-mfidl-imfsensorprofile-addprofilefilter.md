@@ -4,17 +4,16 @@ title: IMFSensorProfile::AddProfileFilter
 author: windows-sdk-content
 description: Adds a profile filter to the specified media stream.
 old-location: mf\imfsensorprofile_addprofilefilter.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D79C83AA-A105-4320-80D8-F7A3753DF4C4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddProfileFilter method, IMFSensorProfile.AddProfileFilter, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSensorProfile.AddProfileFilter
 product: Windows
 targetos: Windows
-req.lib: Mfsensorgroup.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProfile::AddProfileFilter

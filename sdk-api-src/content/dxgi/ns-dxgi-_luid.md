@@ -4,7 +4,7 @@ title: "_LUID"
 author: windows-sdk-content
 description: Describes a local identifier for an adapter.
 old-location: direct3ddxgi\_luid.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LUID, *PLUID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: LUID, *PLUID
+req.redist: 
 ---
 
 # _LUID structure

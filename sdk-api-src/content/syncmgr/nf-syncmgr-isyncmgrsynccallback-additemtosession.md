@@ -4,17 +4,16 @@ title: ISyncMgrSyncCallback::AddItemToSession
 author: windows-sdk-content
 description: Adds a specified item to the set of items currently being synchronized.
 old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncCallback.AddItemToSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncCallback::AddItemToSession

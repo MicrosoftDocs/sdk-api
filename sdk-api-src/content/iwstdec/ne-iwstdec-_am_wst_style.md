@@ -4,7 +4,7 @@ title: "_AM_WST_STYLE"
 author: windows-sdk-content
 description: The AM_WST_STYLE enumeration is not supported.
 old-location: dshow\am_wst_style.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a183d38a-ed79-4bfa-8983-52877c19c335
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iwstdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_WST_STYLE
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
+req.redist: 
 ---
 
 # _AM_WST_STYLE enumeration

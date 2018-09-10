@@ -4,17 +4,16 @@ title: INetConnectionProps::get_DeviceName
 author: windows-sdk-content
 description: The get_DeviceName method retrieves the name of the device associated with the connection.
 old-location: ics\inetconnectionprops_get_devicename.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 4c24c5a6-d856-4c62-a98e-33e4fc216f83
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_DeviceName method, INetConnectionProps.get_DeviceName, INetConnectionProps::get_DeviceName, _ics_inetconnectionprops_get_devicename, get_DeviceName, get_DeviceName method [ICS/ICF], get_DeviceName method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_devicename, netcon/INetConnectionProps::get_DeviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetConnectionProps.get_DeviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetConnectionProps::get_DeviceName

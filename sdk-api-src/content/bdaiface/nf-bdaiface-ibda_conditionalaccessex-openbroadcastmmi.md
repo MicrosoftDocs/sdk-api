@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccessEx::OpenBroadcastMmi
 author: windows-sdk-content
 description: Responds to a BroadcastMMI event.
 old-location: mstv\ibda_conditionalaccessex_openbroadcastmmi.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 15390805-ff09-4dca-b00d-ad2f3641911b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],OpenBroadcastMmi method, IBDA_ConditionalAccessEx.OpenBroadcastMmi, IBDA_ConditionalAccessEx::OpenBroadcastMmi, OpenBroadcastMmi, OpenBroadcastMmi method [Microsoft TV Technologies], OpenBroadcastMmi method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::OpenBroadcastMmi, mstv.ibda_conditionalaccessex_openbroadcastmmi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccessEx.OpenBroadcastMmi
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccessEx::OpenBroadcastMmi

@@ -4,7 +4,7 @@ title: "_DHCP_MIB_INFO_V5"
 author: windows-sdk-content
 description: Contains statistical information about a DHCP server.
 old-location: dhcp\dhcp_mib_info_v5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_MIB_INFO_V5, *LPDHCP_MIB_INFO_V5
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_MIB_INFO_V5
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_MIB_INFO_V5, *LPDHCP_MIB_INFO_V5
+req.redist: 
 ---
 
 # _DHCP_MIB_INFO_V5 structure

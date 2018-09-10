@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1
 author: windows-sdk-content
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1devicecontext_drawbitmap.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: e6cff1b7-055b-442c-99aa-afeeee4d06e8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawBitmap method, ID2D1DeviceContext.DrawBitmap, ID2D1DeviceContext.DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F &,const D2D1_MATRIX_4X4_F &), ID2D1DeviceContext::DrawBitmap, ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F &,const D2D1_MATRIX_4X4_F &), d2d1_1/ID2D1DeviceContext::DrawBitmap, direct2d.id2d1devicecontext_drawbitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.DrawBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_INTERPOLATION_MODE,const D2D1_RECT_F &,const D2D1_MATRIX_4X4_F &)

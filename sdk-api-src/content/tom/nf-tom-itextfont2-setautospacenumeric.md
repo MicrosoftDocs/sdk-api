@@ -4,17 +4,16 @@ title: ITextFont2::SetAutospaceNumeric
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_setautospacenumeric.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 7fd911c2-a765-4bbc-a14c-15665d5a4a16
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceNumeric method, ITextFont2.SetAutospaceNumeric, ITextFont2::SetAutospaceNumeric, SetAutospaceNumeric, SetAutospaceNumeric method [Windows Controls], SetAutospaceNumeric method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacenumeric, tom/ITextFont2::SetAutospaceNumeric
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.SetAutospaceNumeric
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::SetAutospaceNumeric

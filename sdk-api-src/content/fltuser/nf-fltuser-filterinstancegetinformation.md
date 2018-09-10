@@ -4,17 +4,16 @@ title: FilterInstanceGetInformation function
 author: windows-sdk-content
 description: The FilterInstanceGetInformation function returns various kinds of information about a minifilter instance.
 old-location: ifsk\filterinstancegetinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 222f5f68-6a1c-420e-a56f-de53b23f6ce6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function [Installable File System Drivers], FltWin32ApiRef_e34f8425-037b-4c31-8559-2ad32527746f.xml, fltuser/FilterInstanceGetInformation, ifsk.filterinstancegetinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterInstanceGetInformation
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterInstanceGetInformation function

@@ -4,17 +4,16 @@ title: MgmReleaseInterfaceOwnership function
 author: windows-sdk-content
 description: The MgmReleaseInterfaceOwnership function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.
 old-location: rras\mgmreleaseinterfaceownership.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 501970f7-7728-4a83-8f4b-207579d65d01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MgmReleaseInterfaceOwnership, MgmReleaseInterfaceOwnership function [RAS], _mpr_mgmreleaseinterfaceownership, mgm/MgmReleaseInterfaceOwnership, rras.mgmreleaseinterfaceownership
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmReleaseInterfaceOwnership
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmReleaseInterfaceOwnership function

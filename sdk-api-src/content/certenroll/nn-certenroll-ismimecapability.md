@@ -4,7 +4,7 @@ title: ISmimeCapability
 author: windows-sdk-content
 description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.
 old-location: security\ismimecapability.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISmimeCapability
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISmimeCapability interface

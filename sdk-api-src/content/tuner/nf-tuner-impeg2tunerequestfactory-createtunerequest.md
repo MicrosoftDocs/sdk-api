@@ -4,17 +4,16 @@ title: IMPEG2TuneRequestFactory::CreateTuneRequest
 author: windows-sdk-content
 description: The CreateTuneRequest method creates the minimal MPEG-2 tune request for a specified tuning space.
 old-location: mstv\impeg2tunerequestfactory_createtunerequest.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 41e299d6-492e-40b4-955f-603b18da0c02
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],IMPEG2TuneRequestFactory interface, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],CreateTuneRequest method, IMPEG2TuneRequestFactory.CreateTuneRequest, IMPEG2TuneRequestFactory::CreateTuneRequest, IMPEG2TuneRequestFactoryCreateTuneRequest, mstv.impeg2tunerequestfactory_createtunerequest, tuner/IMPEG2TuneRequestFactory::CreateTuneRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2TuneRequestFactory.CreateTuneRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2TuneRequestFactory::CreateTuneRequest

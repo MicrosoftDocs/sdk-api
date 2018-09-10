@@ -4,17 +4,16 @@ title: GraphicsPathIterator::CopyData
 author: windows-sdk-content
 description: The GraphicsPathIterator::CopyData method copies a subset of the path's data points to a PointF array and copies a subset of the path's point types to a BYTE array.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\copydata.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CopyData, CopyData method [GDI+], CopyData method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],CopyData method, GraphicsPathIterator.CopyData, GraphicsPathIterator::CopyData, _gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GraphicsPathIterator.CopyData
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

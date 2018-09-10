@@ -4,7 +4,7 @@ title: tagAdapters
 author: windows-sdk-content
 description: The Adapters structure contains a list of graphics adapters.
 old-location: display\adapters.htm
-old-project: display
+tech.root: display
 ms.assetid: 4f91e683-66f6-4667-86d0-d3de28ba64b0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Adapters
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Adapters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: Adapters
+req.redist: 
 ---
 
 # tagAdapters structure

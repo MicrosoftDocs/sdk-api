@@ -4,17 +4,16 @@ title: CStdAsyncStubBuffer2_Disconnect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdasyncstubbuffer2_disconnect.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 66887935-271F-46A7-BBA3-CE15488008D8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CStdAsyncStubBuffer2_Disconnect, CStdAsyncStubBuffer2_Disconnect function [RPC], rpc.cstdasyncstubbuffer2_disconnect, rpcproxy/CStdAsyncStubBuffer2_Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CStdAsyncStubBuffer2_Disconnect
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdAsyncStubBuffer2_Disconnect function

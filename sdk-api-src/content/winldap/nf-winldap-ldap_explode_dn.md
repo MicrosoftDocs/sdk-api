@@ -4,17 +4,16 @@ title: ldap_explode_dn function
 author: windows-sdk-content
 description: The ldap_explode_dn function breaks up an entry name into its component parts.
 old-location: ldap\ldap_explode_dn.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_explode_dnW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_explode_dn function

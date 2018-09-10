@@ -4,17 +4,16 @@ title: ResUtilSetUnknownProperties function
 author: windows-sdk-content
 description: Stores a cluster object's unknown properties in the cluster database.
 old-location: mscs\resutilsetunknownproperties.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: ee729a3d-9d10-459c-b57d-de17f29d8ae8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_SET_UNKNOWN_PROPERTIES, PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilSetUnknownProperties, ResUtilSetUnknownProperties function [Failover Cluster], _wolf_resutilsetunknownproperties, mscs.resutilsetunknownproperties, resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES, resapi/ResUtilSetUnknownProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilSetUnknownProperties
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilSetUnknownProperties function

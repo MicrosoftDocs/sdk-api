@@ -4,17 +4,16 @@ title: ISectionList::InitializeWithRawSections
 author: windows-sdk-content
 description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
 old-location: mstv\isectionlist_initializewithrawsections.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRawSections method, ISectionList.InitializeWithRawSections, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.InitializeWithRawSections
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::InitializeWithRawSections

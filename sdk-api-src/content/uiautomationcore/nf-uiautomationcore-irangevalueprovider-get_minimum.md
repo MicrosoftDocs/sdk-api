@@ -4,17 +4,16 @@ title: IRangeValueProvider::get_Minimum
 author: windows-sdk-content
 description: Specifies the minimum range value supported by the control.
 old-location: winauto\uiauto_IRangeValueProvider_Minimum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6704d5d8-7024-4010-a212-2ffccfae0cbf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Minimum property, IRangeValueProvider.Minimum, IRangeValueProvider.get_Minimum, IRangeValueProvider::Minimum, IRangeValueProvider::get_Minimum, Minimum property [Windows Accessibility], Minimum property [Windows Accessibility],IRangeValueProvider interface, get_Minimum, uiauto.uiauto_IRangeValueProvider_Minimum, uiauto_IRangeValueProvider_Minimum, uiautomationcore/IRangeValueProvider::Minimum, uiautomationcore/IRangeValueProvider::get_Minimum, winauto.uiauto_IRangeValueProvider_Minimum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRangeValueProvider.get_Minimum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRangeValueProvider::get_Minimum

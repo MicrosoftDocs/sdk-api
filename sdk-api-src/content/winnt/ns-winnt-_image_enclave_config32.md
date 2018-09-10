@@ -4,7 +4,7 @@ title: "_IMAGE_ENCLAVE_CONFIG32"
 author: windows-sdk-content
 description: Defines the format of the enclave configuration for systems running 32-bit Windows.
 old-location: base\image_enclave_config32.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 6006F018-4F3F-4595-8ED2-89D2CC7F782D
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_ENCLAVE_CONFIG32, *PIMAGE_ENCLAVE_CONFIG32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMAGE_ENCLAVE_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_ENCLAVE_CONFIG32, *PIMAGE_ENCLAVE_CONFIG32
+req.redist: 
 ---
 
 # _IMAGE_ENCLAVE_CONFIG32 structure

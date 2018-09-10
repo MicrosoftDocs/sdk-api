@@ -4,7 +4,7 @@ title: WbemChangeFlagEnum
 author: windows-sdk-content
 description: Define how a write operation to a class or an instance is carried out.
 old-location: wmi\wbemchangeflagenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 586a4a26-2044-4044-a90d-b45d05f6ce66
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemChangeFlagEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemChangeFlagEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemChangeFlagEnum
+req.redist: 
 ---
 
 # WbemChangeFlagEnum enumeration

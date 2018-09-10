@@ -4,17 +4,16 @@ title: ITBasicCallControl::ParkDirect
 author: windows-sdk-content
 description: The ParkDirect method parks the call at a specified address.
 old-location: tapi3\itbasiccallcontrol_parkdirect.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicCallControl.ParkDirect
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicCallControl::ParkDirect

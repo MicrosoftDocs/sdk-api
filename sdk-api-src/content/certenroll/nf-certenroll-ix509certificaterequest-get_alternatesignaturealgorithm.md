@@ -4,17 +4,16 @@ title: IX509CertificateRequest::get_AlternateSignatureAlgorithm
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS #10 request or certificate signature is discrete or combined.
 old-location: security\ix509certificaterequest_alternatesignaturealgorithm_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 57a87aab-1e53-4b0b-a7b9-2fe89083819b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],AlternateSignatureAlgorithm property, IX509CertificateRequest.AlternateSignatureAlgorithm, IX509CertificateRequest.get_AlternateSignatureAlgorithm, IX509CertificateRequest::AlternateSignatureAlgorithm, IX509CertificateRequest::get_AlternateSignatureAlgorithm, IX509CertificateRequest::put_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::get_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::put_AlternateSignatureAlgorithm, get_AlternateSignatureAlgorithm, security.ix509certificaterequest_alternatesignaturealgorithm_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequest.put_AlternateSignatureAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequest::get_AlternateSignatureAlgorithm

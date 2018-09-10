@@ -4,17 +4,16 @@ title: ITextPara::GetKeepTogether
 author: windows-sdk-content
 description: Determines whether page breaks are allowed within paragraphs.
 old-location: controls\ITextPara_GetKeepTogether.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeeptogether.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepTogether method, ITextPara.GetKeepTogether, ITextPara::GetKeepTogether, _win32_ITextPara_GetKeepTogether, _win32_ITextPara_GetKeepTogether_cpp, controls.ITextPara_GetKeepTogether, controls._win32_ITextPara_GetKeepTogether, tom/ITextPara::GetKeepTogether, tomFalse, tomTrue, tomUndefined
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetKeepTogether
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetKeepTogether
@@ -62,7 +60,7 @@ Determines whether page breaks are allowed within paragraphs.
 
 ### -param pValue
 
-
+TBD
 
 
 

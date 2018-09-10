@@ -4,17 +4,16 @@ title: IUPnPDescriptionDocument::DeviceByUDN
 author: windows-sdk-content
 description: The DeviceByUDN method returns the device with the specified unique device name (UDN) contained within the loaded description document.
 old-location: upnp\iupnpdescriptiondocument_devicebyudn.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 0f8ae379-3ec6-4fe2-ae7b-fe3750a5d4c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],DeviceByUDN method, IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDescriptionDocument.DeviceByUDN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDescriptionDocument::DeviceByUDN

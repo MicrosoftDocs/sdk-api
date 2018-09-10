@@ -4,17 +4,16 @@ title: IWSDiscoveryPublisherNotify::ResolveHandler
 author: windows-sdk-content
 description: Is called when a Resolve is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryPublisherNotify.ResolveHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryPublisherNotify::ResolveHandler

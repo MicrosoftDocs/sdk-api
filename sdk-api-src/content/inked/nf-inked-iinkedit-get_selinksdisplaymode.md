@@ -4,17 +4,16 @@ title: IInkEdit::get_SelInksDisplayMode
 author: windows-sdk-content
 description: Gets or sets a value that allows for toggling the appearance of the selection between ink and text.
 old-location: tablet\inkedit_selinksdisplaymode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInksDisplayMode property, IInkEdit.SelInksDisplayMode, IInkEdit.get_SelInksDisplayMode, IInkEdit::SelInksDisplayMode, IInkEdit::get_SelInksDisplayMode, IInkEdit::put_SelInksDisplayMode, Ink, InkEdit.get_SelInksDisplayMode, InkEdit.put_SelInksDisplayMode, SelInksDisplayMode property [Tablet PC], SelInksDisplayMode property [Tablet PC],IInkEdit interface, Text, c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1, get_SelInksDisplayMode, inked/IInkEdit::SelInksDisplayMode, inked/IInkEdit::get_SelInksDisplayMode, inked/IInkEdit::put_SelInksDisplayMode, put_SelInksDisplayMode, tablet.inkedit_selinksdisplaymode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_SelInksDisplayMode
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_SelInksDisplayMode

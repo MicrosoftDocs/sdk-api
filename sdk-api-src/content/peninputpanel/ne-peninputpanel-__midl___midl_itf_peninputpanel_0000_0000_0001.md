@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0001"
 author: windows-sdk-content
 description: Specifies the interaction modes that can be chosen by the user for the Tablet PC Input Panel.
 old-location: tablet\interactionmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 8e01c1fd-3351-47f1-beae-c84d9f7969a8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InteractionMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InteractionMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: InteractionMode
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0001 enumeration

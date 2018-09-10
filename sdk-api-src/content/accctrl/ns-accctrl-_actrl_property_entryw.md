@@ -4,7 +4,7 @@ title: "_ACTRL_PROPERTY_ENTRYW"
 author: windows-sdk-content
 description: Contains a list of access-control entries for an object or a specified property on an object.
 old-location: com\actrl_property_entry.htm
-old-project: com
+tech.root: com
 ms.assetid: 90b13dd1-0ca6-4674-b9fa-a61aed4637d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTRL_PROPERTY_ENTRYW, *PACTRL_PROPERTY_ENTRYW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - ACTRL_PROPERTY_ENTRYW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: ACTRL_PROPERTY_ENTRYW, *PACTRL_PROPERTY_ENTRYW
+req.redist: 
 ---
 
 # _ACTRL_PROPERTY_ENTRYW structure

@@ -4,7 +4,7 @@ title: "_PROVIDER_CONTEXT"
 author: windows-sdk-content
 description: Defines provider context information.
 old-location: perf\perf_provider_context.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 9bfab8aa-f44b-4515-8a2a-764583080f57
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_PROVIDER_CONTEXT, *PPERF_PROVIDER_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_PROVIDER_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_PROVIDER_CONTEXT, *PPERF_PROVIDER_CONTEXT
+req.redist: 
 ---
 
 # _PROVIDER_CONTEXT structure

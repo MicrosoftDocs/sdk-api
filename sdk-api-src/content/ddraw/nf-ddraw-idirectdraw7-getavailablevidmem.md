@@ -4,17 +4,16 @@ title: IDirectDraw7::GetAvailableVidMem
 author: windows-sdk-content
 description: Retrieves the total amount of display memory available and the amount of display memory currently free for a given type of surface.
 old-location: directdraw\idirectdraw7_getavailablevidmem.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.GetAvailableVidMem
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::GetAvailableVidMem
@@ -59,9 +58,19 @@ Retrieves the total amount of display memory available and the amount of display
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
 
 
 

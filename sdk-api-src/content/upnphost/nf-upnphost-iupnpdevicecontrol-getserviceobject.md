@@ -4,17 +4,16 @@ title: IUPnPDeviceControl::GetServiceObject
 author: windows-sdk-content
 description: The GetServiceObject method is used to obtain the IDispatch pointer to a specific service object. The device host invokes this method once per service, the first time it receives a request for a service.
 old-location: upnp\iupnpdevicecontrol_getserviceobject.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 55b54edf-fd1d-45b8-95d4-a746a60e5310
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetServiceObject, GetServiceObject method [UPnP APIs], GetServiceObject method [UPnP APIs],IUPnPDeviceControl interface, IUPnPDeviceControl interface [UPnP APIs],GetServiceObject method, IUPnPDeviceControl.GetServiceObject, IUPnPDeviceControl::GetServiceObject, _upnp_iupnpdevicecontrol_getserviceobject, upnp.iupnpdevicecontrol_getserviceobject, upnphost/IUPnPDeviceControl::GetServiceObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceControl.GetServiceObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceControl::GetServiceObject
@@ -73,7 +71,7 @@ Specifies the Service ID of the service for which to obtain the pointer.
 
 ### -param ppdispService
 
-
+TBD
 
 
 

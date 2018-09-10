@@ -4,17 +4,16 @@ title: INSSBuffer3::GetProperty
 author: windows-sdk-content
 description: The GetProperty method is used to retrieve a property of the sample in the buffer. Buffer properties are used to pass information along with the sample to the writer object when writing ASF files. Sample properties are GUID values.
 old-location: wmformat\inssbuffer3_getproperty.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: b7733df5-f764-4996-b324-fa050b1db0af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],INSSBuffer3 interface, INSSBuffer3 interface [windows Media Format],GetProperty method, INSSBuffer3.GetProperty, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INSSBuffer3.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # INSSBuffer3::GetProperty

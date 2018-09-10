@@ -4,7 +4,7 @@ title: IOPMVideoOutput
 author: windows-sdk-content
 description: Represents a video output for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8bf43577-3535-4f62-ac81-bb7e3c329403
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: opmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOPMVideoOutput
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOPMVideoOutput interface

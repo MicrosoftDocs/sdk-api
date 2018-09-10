@@ -4,17 +4,16 @@ title: PathAddBackslashA function
 author: windows-sdk-content
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathAddBackslash.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 27d8aec7-8b00-412a-9a42-8ce27e262781
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathAddBackslash, PathAddBackslash function [Windows Shell], PathAddBackslashA, PathAddBackslashW, _win32_PathAddBackslash, shell.PathAddBackslash, shlwapi/PathAddBackslash, shlwapi/PathAddBackslashA, shlwapi/PathAddBackslashW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathAddBackslashW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathAddBackslashA function

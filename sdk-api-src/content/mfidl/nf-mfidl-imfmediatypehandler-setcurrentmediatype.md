@@ -4,17 +4,16 @@ title: IMFMediaTypeHandler::SetCurrentMediaType
 author: windows-sdk-content
 description: Sets the object's media type.
 old-location: mf\imfmediatypehandler_setcurrentmediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 77ff397e-4fa8-4849-98b8-6bdd035c0e89
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 77ff397e-4fa8-4849-98b8-6bdd035c0e89, IMFMediaTypeHandler interface [Media Foundation],SetCurrentMediaType method, IMFMediaTypeHandler.SetCurrentMediaType, IMFMediaTypeHandler::SetCurrentMediaType, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFMediaTypeHandler interface, mf.imfmediatypehandler_setcurrentmediatype, mfidl/IMFMediaTypeHandler::SetCurrentMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaTypeHandler.SetCurrentMediaType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaTypeHandler::SetCurrentMediaType

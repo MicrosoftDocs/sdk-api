@@ -4,7 +4,7 @@ title: tag_CIMTYPE_ENUMERATION
 author: windows-sdk-content
 description: Defines values that specify different CIM data types.
 old-location: wmi\cimtype_enumeration.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ab67954c-ead2-4906-9680-503612d3f12d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CIMTYPE_ENUMERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CIMTYPE_ENUMERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CIMTYPE_ENUMERATION
+req.redist: 
 ---
 
 # tag_CIMTYPE_ENUMERATION enumeration

@@ -4,7 +4,7 @@ title: "_AUDIT_EVENT_TYPE"
 author: windows-sdk-content
 description: Defines values that indicate the type of object being audited. The AccessCheckByTypeAndAuditAlarm and AccessCheckByTypeResultListAndAuditAlarm functions use these values.
 old-location: security\audit_event_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 7dc21840-6dcc-445b-a254-f8ca27008d63
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIT_EVENT_TYPE, *PAUDIT_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUDIT_EVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: AUDIT_EVENT_TYPE, *PAUDIT_EVENT_TYPE
+req.redist: 
 ---
 
 # _AUDIT_EVENT_TYPE enumeration

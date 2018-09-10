@@ -4,7 +4,7 @@ title: "_DDLOCKOUT"
 author: windows-sdk-content
 description: The DDLOCKOUT structure contains a description of the surface.
 old-location: display\ddlockout.htm
-old-project: display
+tech.root: display
 ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDLOCKOUT, *LPDDLOCKOUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDLOCKOUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDLOCKOUT, *LPDDLOCKOUT
+req.redist: 
 ---
 
 # _DDLOCKOUT structure

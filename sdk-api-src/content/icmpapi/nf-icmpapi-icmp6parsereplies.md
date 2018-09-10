@@ -4,17 +4,16 @@ title: Icmp6ParseReplies function
 author: windows-sdk-content
 description: The Icmp6ParseReplies function parses the reply buffer provided and returns an IPv6 ICMPv6 echo response reply if found.
 old-location: iphlp\icmp6parsereplies.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: b4d63ffd-37ad-4901-b017-205fb15381e7
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: Icmp6ParseReplies, Icmp6ParseReplies function [IP Helper], icmpapi/Icmp6ParseReplies, iphlp.icmp6parsereplies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Icmp6ParseReplies
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # Icmp6ParseReplies function

@@ -4,17 +4,16 @@ title: IMbnDeviceService::OpenCommandSession
 author: windows-sdk-content
 description: Opens a command session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opencommandsession.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService.OpenCommandSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::OpenCommandSession

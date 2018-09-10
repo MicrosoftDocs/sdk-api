@@ -4,17 +4,16 @@ title: IMFTransform::GetStreamCount
 author: windows-sdk-content
 description: Gets the current number of input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamCount method, IMFTransform.GetStreamCount, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetStreamCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetStreamCount

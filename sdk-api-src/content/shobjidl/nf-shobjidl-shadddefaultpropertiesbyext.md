@@ -4,17 +4,16 @@ title: SHAddDefaultPropertiesByExt function
 author: windows-sdk-content
 description: Adds default properties to the property store as registered for the specified file extension.
 old-location: properties\SHAddDefaultPropertiesByExt.htm
-old-project: properties
+tech.root: properties
 ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHAddDefaultPropertiesByExt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHAddDefaultPropertiesByExt function

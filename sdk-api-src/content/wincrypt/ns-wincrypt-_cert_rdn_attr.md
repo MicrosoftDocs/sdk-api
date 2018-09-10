@@ -4,7 +4,7 @@ title: "_CERT_RDN_ATTR"
 author: windows-sdk-content
 description: Contains a single attribute of a relative distinguished name (RDN). A whole RDN is expressed in a CERT_RDN structure that contains an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn_attr.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4729e824-761c-4115-8b7b-76ffdab8ea62
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_RDN_ATTR, *PCERT_RDN_ATTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_RDN_ATTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_RDN_ATTR, *PCERT_RDN_ATTR
+req.redist: 
 ---
 
 # _CERT_RDN_ATTR structure

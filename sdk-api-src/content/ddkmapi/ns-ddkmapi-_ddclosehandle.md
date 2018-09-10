@@ -4,7 +4,7 @@ title: "_DDCLOSEHANDLE"
 author: windows-sdk-content
 description: The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, video port extensions (VPE) object, or VPE capture handle.
 old-location: display\ddclosehandle.htm
-old-project: display
+tech.root: display
 ms.assetid: 180612e0-6014-4a14-82a7-3ab2058b1cf3
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDCLOSEHANDLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
+req.redist: 
 ---
 
 # _DDCLOSEHANDLE structure

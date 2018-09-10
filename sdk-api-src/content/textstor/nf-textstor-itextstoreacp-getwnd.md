@@ -4,17 +4,16 @@ title: ITextStoreACP::GetWnd
 author: windows-sdk-content
 description: The ITextStoreACP::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itextstoreacp_getwnd.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 7fb49702-4e0e-4e8c-9227-83c0b014f5f2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetWnd method, ITextStoreACP.GetWnd, ITextStoreACP::GetWnd, _tsf_itextstoreacp_getwnd_ref, textstor/ITextStoreACP::GetWnd, tsf.itextstoreacp_getwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.GetWnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::GetWnd

@@ -4,17 +4,16 @@ title: RectF::Contains(IN const RectF &)
 author: windows-sdk-content
 description: This topic lists the Contains methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF.Contains(IN const RectF &), RectF::Contains, RectF::Contains(IN const RectF &), _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RectF.Contains
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # RectF::Contains(IN const RectF &)

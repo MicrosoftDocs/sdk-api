@@ -4,7 +4,7 @@ title: "_HTTP_SERVICE_CONFIG_CACHE_KEY"
 author: windows-sdk-content
 description: Used in the HttpSetServiceConfiguration and HttpQueryServiceConfiguration functions.
 old-location: http\http_service_config_cache_key.htm
-old-project: http
+tech.root: http
 ms.assetid: 796b93ab-742b-4e18-a522-6938fbf78786
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVICE_CONFIG_CACHE_KEY, *PHTTP_SERVICE_CONFIG_CACHE_KEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVICE_CONFIG_CACHE_KEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVICE_CONFIG_CACHE_KEY, *PHTTP_SERVICE_CONFIG_CACHE_KEY
+req.redist: 
 ---
 
 # _HTTP_SERVICE_CONFIG_CACHE_KEY enumeration

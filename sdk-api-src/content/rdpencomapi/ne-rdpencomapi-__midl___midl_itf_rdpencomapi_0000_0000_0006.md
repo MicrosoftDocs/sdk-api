@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0006"
 author: windows-sdk-content
 description: Defines values for the type of attendee.
 old-location: rdp\rdpencomapi_attendee_flags.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: a2e5520f-f19a-4800-bc41-bb12bd244d35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Rdpencomapi.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsTscAx.dll
-tech.root: 
-req.typenames: RDPENCOMAPI_ATTENDEE_FLAGS
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDPENCOMAPI_ATTENDEE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RDPENCOMAPI_ATTENDEE_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0006 enumeration

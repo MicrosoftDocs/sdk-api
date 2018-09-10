@@ -4,7 +4,7 @@ title: SHREGDEL_FLAGS
 author: windows-sdk-content
 description: Provides a set of values that indicate from which base key an item will be deleted.
 old-location: shell\SHREGDEL_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 90a8bf22-f62b-4027-8219-7a5ead6577da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHREGDEL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHREGDEL_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHREGDEL_FLAGS
+req.redist: 
 ---
 
 # SHREGDEL_FLAGS enumeration

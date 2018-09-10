@@ -4,17 +4,16 @@ title: DsRoleFreeMemory function
 author: windows-sdk-content
 description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
 old-location: ad\dsrolefreememory.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_SERVER_STATE, *PDSROLE_SERVER_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DsRoleFreeMemory
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DsRoleFreeMemory function

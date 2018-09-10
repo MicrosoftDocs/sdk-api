@@ -4,17 +4,16 @@ title: SHGetNameFromIDList function
 author: windows-sdk-content
 description: Retrieves the display name of an item identified by its IDList.
 old-location: shell\SHGetNameFromIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHGetNameFromIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetNameFromIDList function

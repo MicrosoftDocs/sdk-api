@@ -4,7 +4,7 @@ title: WS_RECEIVE_OPTION
 author: windows-sdk-content
 description: Specifies whether a message is required when receiving from a channel.
 old-location: wsw\ws_receive_option.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_RECEIVE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_RECEIVE_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_RECEIVE_OPTION
+req.redist: 
 ---
 
 # WS_RECEIVE_OPTION enumeration

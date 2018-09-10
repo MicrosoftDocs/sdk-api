@@ -4,17 +4,16 @@ title: CInstance::SetTimeSpan
 author: windows-sdk-content
 description: The SetTimeSpan method sets a property that represents a time span.
 old-location: wmi\cinstance_settimespan.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d23197a2-7352-44e8-b962-2509fdf9673d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetTimeSpan method, CInstance.SetTimeSpan, CInstance::SetTimeSpan, SetTimeSpan, SetTimeSpan method [Windows Management Instrumentation], SetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_settimespan, instance/CInstance::SetTimeSpan, wmi.cinstance_settimespan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CInstance.SetTimeSpan
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetTimeSpan

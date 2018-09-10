@@ -4,17 +4,16 @@ title: UIntToUShort function
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type USHORT.
 old-location: shell\UIntToUShort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3328c24d-e576-4b57-a03f-506bc172ac2c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UIntToUShort, UIntToUShort function [Windows Shell], UIntToWord, _shell_UIntToUShort, intsafe/UIntToUShort, shell.UIntToUShort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntToUShort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntToUShort function

@@ -4,17 +4,16 @@ title: WSALookupServiceBeginW function
 author: windows-sdk-content
 description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
 old-location: winsock\wsalookupservicebegin_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 448309ef-b9dd-4960-8016-d26691df59ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceBegin, WSALookupServiceBegin function [Winsock], WSALookupServiceBeginA, WSALookupServiceBeginW, _win32_wsalookupservicebegin_2, winsock.wsalookupservicebegin_2, winsock2/WSALookupServiceBegin, winsock2/WSALookupServiceBeginA, winsock2/WSALookupServiceBeginW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSALookupServiceBeginW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSALookupServiceBeginW function

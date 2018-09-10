@@ -4,17 +4,16 @@ title: IActiveDesktop::AddDesktopItemWithUI
 author: windows-sdk-content
 description: Adds a desktop item to the Active Desktop after displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
 old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: ac582bd7-9fd1-4134-a866-69319ef3d96e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.AddDesktopItemWithUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::AddDesktopItemWithUI
@@ -76,7 +74,7 @@ Address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c
 
 ### -param dwReserved
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMetaDataTables::GetBlob
 author: windows-sdk-content
 description: Gets a pointer to the binary large object (BLOB) at the specified column index.
 old-location: winrt\imetadatatables_getblob.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1a9da245-a1a9-4004-8925-00b2fe72c9ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBlob, GetBlob method [Windows Runtime], GetBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlob method, IMetaDataTables.GetBlob, IMetaDataTables::GetBlob, rometadataapi/IMetaDataTables::GetBlob, winrt.imetadatatables_getblob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetBlob
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetBlob

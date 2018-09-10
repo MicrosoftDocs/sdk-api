@@ -4,17 +4,16 @@ title: IExeServerActivatableClassRegistration::get_ServerRegistration
 author: windows-sdk-content
 description: Gets the registration details for an out-of-process server.
 old-location: winrt\iexeserveractivatableclassregistration_serverregistration.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6116DC84-2DE0-427E-BDC7-425178B08C1A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],get_ServerRegistration method, IExeServerActivatableClassRegistration.get_ServerRegistration, IExeServerActivatableClassRegistration::get_ServerRegistration, activationregistration/IExeServerActivatableClassRegistration::get_ServerRegistration, get_ServerRegistration, get_ServerRegistration method [Windows Runtime], get_ServerRegistration method [Windows Runtime],IExeServerActivatableClassRegistration interface, winrt.iexeserveractivatableclassregistration_serverregistration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerActivatableClassRegistration.get_ServerRegistration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerActivatableClassRegistration::get_ServerRegistration

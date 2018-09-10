@@ -4,17 +4,16 @@ title: IFileOperation::GetAnyOperationsAborted
 author: windows-sdk-content
 description: Gets a value that states whether any file operations initiated by a call to IFileOperation::PerformOperations were stopped before they were complete. The operations could be stopped either by user action or silently by the system.
 old-location: shell\IFileOperation_GetAnyOperationsAborted.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 988f78a8-3a50-44d8-9214-7cf71be72d38
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAnyOperationsAborted, GetAnyOperationsAborted method [Windows Shell], GetAnyOperationsAborted method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],GetAnyOperationsAborted method, IFileOperation.GetAnyOperationsAborted, IFileOperation::GetAnyOperationsAborted, _shell_IFileOperation_GetAnyOperationsAborted, shell.IFileOperation_GetAnyOperationsAborted, shobjidl_core/IFileOperation::GetAnyOperationsAborted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.GetAnyOperationsAborted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::GetAnyOperationsAborted

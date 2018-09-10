@@ -4,7 +4,7 @@ title: "_MINIDUMP_DIRECTORY"
 author: windows-sdk-content
 description: Contains the information needed to access a specific data stream in a minidump file.
 old-location: base\minidump_directory_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 1262c218-5351-4fea-9d35-4654da7c5e44
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_DIRECTORY, *PMINIDUMP_DIRECTORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_DIRECTORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_DIRECTORY, *PMINIDUMP_DIRECTORY
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_DIRECTORY structure

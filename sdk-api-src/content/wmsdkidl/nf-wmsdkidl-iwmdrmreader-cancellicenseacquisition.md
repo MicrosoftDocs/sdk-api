@@ -4,17 +4,16 @@ title: IWMDRMReader::CancelLicenseAcquisition
 author: windows-sdk-content
 description: The CancelLicenseAcquisition method cancels a current call to the AcquireLicense method.
 old-location: wmformat\iwmdrmreader_cancellicenseacquisition.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDRMReader.CancelLicenseAcquisition
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDRMReader::CancelLicenseAcquisition

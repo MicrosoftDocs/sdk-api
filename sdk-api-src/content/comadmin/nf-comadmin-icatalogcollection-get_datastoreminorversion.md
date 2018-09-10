@@ -4,17 +4,16 @@ title: ICatalogCollection::get_DataStoreMinorVersion
 author: windows-sdk-content
 description: Retrieves the minor version number of the catalog data store.
 old-location: cos\icatalogcollection_datastoreminorversion.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 29380ed1-835e-4ac9-afeb-869acd748ebc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection.get_DataStoreMinorVersion, ICatalogCollection::DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICatalogCollection.get_DataStoreMinorVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::get_DataStoreMinorVersion

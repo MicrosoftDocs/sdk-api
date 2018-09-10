@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of tuning spaces currently available on the local system.
 old-location: mstv\ituningspacecontainer_get_count.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9dfa7700-fef5-4e97-855b-0670cc380af0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Count method, ITuningSpaceContainer.get_Count, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::get_Count
@@ -65,7 +63,7 @@ The <b>get_Count</b> method retrieves the number of tuning spaces currently avai
 
 ### -param Count
 
-
+TBD
 
 
 

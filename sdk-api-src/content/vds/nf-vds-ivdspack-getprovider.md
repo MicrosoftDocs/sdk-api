@@ -4,17 +4,16 @@ title: IVdsPack::GetProvider
 author: windows-sdk-content
 description: Returns the software provider associated with a pack.
 old-location: base\ivdspack_getprovider.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProvider method, IVdsPack.GetProvider, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.GetProvider
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::GetProvider

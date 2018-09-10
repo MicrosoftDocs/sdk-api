@@ -4,17 +4,16 @@ title: SHUnlockShared function
 author: windows-sdk-content
 description: SHUnlockShared may be altered or unavailable.
 old-location: shell\SHUnlockShared.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHUnlockShared, shell.SHUnlockShared, shlwapi/SHUnlockShared
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHUnlockShared
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHUnlockShared function

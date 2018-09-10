@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::get_CurrentPartitionName
 author: windows-sdk-content
 description: Retrieves the name of the current partition.
 old-location: cos\icomadmincatalog2_currentpartitionname.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 51254edf-420b-42a3-a3b8-a71c23a4cb49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionName property, ICOMAdminCatalog2.CurrentPartitionName, ICOMAdminCatalog2.get_CurrentPartitionName, ICOMAdminCatalog2::CurrentPartitionName, ICOMAdminCatalog2::get_CurrentPartitionName, _cos_IComAdminCatalog2_get_CurrentPartitionName, comadmin/ICOMAdminCatalog2::CurrentPartitionName, comadmin/ICOMAdminCatalog2::get_CurrentPartitionName, cos.icomadmincatalog2_currentpartitionname, get_CurrentPartitionName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICOMAdminCatalog2.get_CurrentPartitionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::get_CurrentPartitionName

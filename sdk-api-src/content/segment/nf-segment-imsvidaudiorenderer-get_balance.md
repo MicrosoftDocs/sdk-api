@@ -4,17 +4,16 @@ title: IMSVidAudioRenderer::get_Balance
 author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidaudiorenderer_get_balance.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Balance method, IMSVidAudioRenderer.get_Balance, IMSVidAudioRenderer::get_Balance, IMSVidAudioRendererget_Balance, get_Balance, get_Balance method [Microsoft TV Technologies], get_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_balance, segment/IMSVidAudioRenderer::get_Balance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAudioRenderer.get_Balance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAudioRenderer::get_Balance
@@ -64,7 +62,7 @@ The <b>get_Balance</b> method retrieves the audio renderer's balance level.
 
 ### -param lBal
 
-
+TBD
 
 
 

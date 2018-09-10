@@ -4,7 +4,7 @@ title: SYMSRV_INDEX_INFOW
 author: windows-sdk-content
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.6 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYMSRV_INDEX_INFOW, *PSYMSRV_INDEX_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SYMSRV_INDEX_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SYMSRV_INDEX_INFOW, *PSYMSRV_INDEX_INFOW
+req.redist: DbgHelp.dll 6.6 or later
 ---
 
 # SYMSRV_INDEX_INFOW structure

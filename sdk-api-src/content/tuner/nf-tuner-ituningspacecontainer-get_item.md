@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::get_Item
 author: windows-sdk-content
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::get_Item
@@ -70,7 +68,7 @@ The <b>get_Item</b> method retrieves a tuning space with the specified ID.
 
 ### -param TuningSpace
 
-
+TBD
 
 
 

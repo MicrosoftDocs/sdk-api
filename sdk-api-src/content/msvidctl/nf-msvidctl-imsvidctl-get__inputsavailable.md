@@ -4,17 +4,16 @@ title: IMSVidCtl::get__InputsAvailable
 author: windows-sdk-content
 description: The get__InputsAvailable method retrieves the input devices that are available in a specified category.
 old-location: mstv\imsvidctl_get__inputsavailable.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__InputsAvailable method, IMSVidCtl.get__InputsAvailable, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get__InputsAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get__InputsAvailable
@@ -89,7 +87,7 @@ Pointer to a GUID that specifies the category to enumerate. Supported categories
 
 ### -param pVal
 
-
+TBD
 
 
 

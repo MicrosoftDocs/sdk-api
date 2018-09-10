@@ -4,17 +4,16 @@ title: CLIPOBJ_ppoGetPath function
 author: windows-sdk-content
 description: The CLIPOBJ_ppoGetPath function creates a PATHOBJ structure that contains the outline of the specified clip region.
 old-location: display\clipobj_ppogetpath.htm
-old-project: display
+tech.root: display
 ms.assetid: c87d1580-ab24-49a7-b497-87d781be6e5f
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CLIPOBJ_ppoGetPath, CLIPOBJ_ppoGetPath function [Display Devices], display.clipobj_ppogetpath, gdifncs_576284af-4aef-45be-b10a-2504c8e3451f.xml, winddi/CLIPOBJ_ppoGetPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLIPOBJ_ppoGetPath
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CLIPOBJ_ppoGetPath function

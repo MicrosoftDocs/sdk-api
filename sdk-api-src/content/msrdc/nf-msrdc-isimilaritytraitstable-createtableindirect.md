@@ -4,17 +4,16 @@ title: ISimilarityTraitsTable::CreateTableIndirect
 author: windows-sdk-content
 description: Creates or opens a similarity traits table using the RDC application's implementation of the ISimilarityTraitsMapping interface.
 old-location: rdc\isimilaritytraitstable_createtableindirect.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 55bd485f-33f7-4247-bc13-f5e2c7e70028
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityTraitsTable.CreateTableIndirect, ISimilarityTraitsTable::CreateTableIndirect, fs.isimilaritytraitstable_createtableindirect, msrdc/ISimilarityTraitsTable::CreateTableIndirect, rdc.isimilaritytraitstable_createtableindirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsTable.CreateTableIndirect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsTable::CreateTableIndirect

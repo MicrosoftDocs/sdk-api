@@ -4,17 +4,16 @@ title: QuerySecurityAccessMask function
 author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to query the specified object security information.
 old-location: security\querysecurityaccessmask.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 70379640-28b7-4503-9ba8-789786078d4a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - QuerySecurityAccessMask
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QuerySecurityAccessMask function

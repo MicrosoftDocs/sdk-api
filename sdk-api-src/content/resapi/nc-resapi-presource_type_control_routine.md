@@ -4,7 +4,7 @@ title: PRESOURCE_TYPE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource type.
 old-location: mscs\resourcetypecontrol.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResourceTypeControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PRESOURCE_TYPE_CONTROL_ROUTINE callback function

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_winsync_0000_0000_0002"
 author: windows-sdk-content
 description: Represents the options for the concurrency conflict resolution policy to use for the synchronization session.
 old-location: winsync\conflict_resolution_policy.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_RESOLUTION_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CONFLICT_RESOLUTION_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CONFLICT_RESOLUTION_POLICY
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsync_0000_0000_0002 enumeration

@@ -4,17 +4,16 @@ title: IDirectDrawPalette::SetEntries
 author: windows-sdk-content
 description: Changes entries in a DirectDrawPalette object immediately.
 old-location: directdraw\idirectdrawpalette_setentries.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawPalette.SetEntries
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawPalette::SetEntries
@@ -59,9 +58,24 @@ Changes entries in a DirectDrawPalette object immediately.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
 
 
 

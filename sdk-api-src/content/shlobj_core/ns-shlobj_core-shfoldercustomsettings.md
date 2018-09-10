@@ -4,7 +4,7 @@ title: SHFOLDERCUSTOMSETTINGS
 author: windows-sdk-content
 description: Holds custom folder settings. This structure is used with the SHGetSetFolderCustomSettings function.
 old-location: shell\SHFOLDERCUSTOMSETTINGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a6357372-80ef-4719-b53f-87eb3fdc1b0d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHFOLDERCUSTOMSETTINGS, *LPSHFOLDERCUSTOMSETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHFOLDERCUSTOMSETTINGSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHFOLDERCUSTOMSETTINGS, *LPSHFOLDERCUSTOMSETTINGS
+req.redist: 
 ---
 
 # SHFOLDERCUSTOMSETTINGS structure

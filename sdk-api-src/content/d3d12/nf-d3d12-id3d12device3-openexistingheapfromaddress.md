@@ -4,17 +4,16 @@ title: ID3D12Device3::OpenExistingHeapFromAddress
 author: windows-sdk-content
 description: Creates a special-purpose diagnostic heap in system memory from an address. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
 old-location: direct3d12\id3d12device3_openexistingheapfromaddress.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: E2343759-FC36-4638-AE91-F6BF6D0BC3BA
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Device3.OpenExistingHeapFromAddress, ID3D12Device3::OpenExistingHeapFromAddress, Id3d12device3 interface,OpenExistingHeapFromAddress method, Id3d12device3::OpenExistingHeapFromAddress, OpenExistingHeapFromAddress, OpenExistingHeapFromAddress method, OpenExistingHeapFromAddress method,Id3d12device3 interface, d3d12/Id3d12device3::OpenExistingHeapFromAddress, direct3d12.id3d12device3_openexistingheapfromaddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Id3d12device3.OpenExistingHeapFromAddress
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device3::OpenExistingHeapFromAddress

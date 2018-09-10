@@ -4,7 +4,7 @@ title: IWICBitmapEncoder
 author: windows-sdk-content
 description: Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
 old-location: wic\_wic_codec_iwicbitmapencoder.htm
-old-project: wic
+tech.root: wic
 ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapEncoder
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapEncoder interface

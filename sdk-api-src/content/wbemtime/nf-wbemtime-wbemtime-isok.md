@@ -4,17 +4,16 @@ title: WBEMTime::IsOk
 author: windows-sdk-content
 description: The IsOk method indicates whether the WBEMTime object represents a valid time.
 old-location: wmi\wbemtime_isok.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],IsOk method, WBEMTime.IsOk, WBEMTime::IsOk, _hmm_wbemtime_isok, wbemtime/WBEMTime::IsOk, wmi.wbemtime_isok
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTime.IsOk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::IsOk

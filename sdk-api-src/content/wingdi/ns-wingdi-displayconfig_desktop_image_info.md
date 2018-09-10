@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure contains information about the image displayed on the desktop.
 old-location: display\displayconfig_desktop_image_info.htm
-old-project: display
+tech.root: display
 ms.assetid: 2DACA175-19BC-4192-A2FF-CB8AC7220B98
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+req.redist: 
 ---
 
 # DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure

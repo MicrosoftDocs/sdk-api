@@ -4,17 +4,16 @@ title: IPMT::GetRecordDescriptorByTag
 author: windows-sdk-content
 description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.
 old-location: mstv\ipmt_getrecorddescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IPMT.GetRecordDescriptorByTag, IPMT::GetRecordDescriptorByTag, IPMTGetRecordDescriptorByTag, mpeg2psiparser/IPMT::GetRecordDescriptorByTag, mstv.ipmt_getrecorddescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetRecordDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetRecordDescriptorByTag

@@ -4,17 +4,16 @@ title: ICatRegister::UnRegisterCategories
 author: windows-sdk-content
 description: Removes the registration of one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_unregistercategories.htm
-old-project: com
+tech.root: com
 ms.assetid: 29b7df20-bab0-419c-a13b-132ee5b0272d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterCategories method, ICatRegister.UnRegisterCategories, ICatRegister::UnRegisterCategories, UnRegisterCategories, UnRegisterCategories method [COM], UnRegisterCategories method [COM],ICatRegister interface, _com_icatregister_unregistercategories, com.icatregister_unregistercategories, comcat/ICatRegister::UnRegisterCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatRegister.UnRegisterCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatRegister::UnRegisterCategories

@@ -4,17 +4,16 @@ title: IMbnConnectionContextEvents::OnProvisionedContextListChange
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnProvisionedContextListChange method, IMbnConnectionContextEvents.OnProvisionedContextListChange, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionContextEvents.OnProvisionedContextListChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionContextEvents::OnProvisionedContextListChange

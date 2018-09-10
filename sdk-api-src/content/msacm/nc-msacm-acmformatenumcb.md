@@ -4,7 +4,7 @@ title: ACMFORMATENUMCB
 author: windows-sdk-content
 description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
 old-location: multimedia\acmformatenumcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ACMFORMATENUMCBW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ACMFORMATENUMCB callback function

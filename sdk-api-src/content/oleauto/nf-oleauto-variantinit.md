@@ -4,17 +4,16 @@ title: VariantInit function
 author: windows-sdk-content
 description: Initializes a variant.
 old-location: automat\variantinit.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 96aeb671-5528-4d3c-8e70-313716550b42
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VariantInit, VariantInit function [Automation], _oa96_VariantInit, automat.variantinit, oleauto/VariantInit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VariantInit
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VariantInit function

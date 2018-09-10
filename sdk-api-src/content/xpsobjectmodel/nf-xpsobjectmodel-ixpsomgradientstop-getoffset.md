@@ -4,17 +4,16 @@ title: IXpsOMGradientStop::GetOffset
 author: windows-sdk-content
 description: Gets the offset value of the gradient stop.
 old-location: xps\ixpsomgradientstop_getoffset.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 14048707-1a73-40a1-9094-da4885d9934d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOffset, GetOffset method [XPS Documents and Packaging], GetOffset method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetOffset method, IXpsOMGradientStop.GetOffset, IXpsOMGradientStop::GetOffset, xps.ixpsomgradientstop_getoffset, xpsobjectmodel/IXpsOMGradientStop::GetOffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMGradientStop.GetOffset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMGradientStop::GetOffset

@@ -4,17 +4,16 @@ title: ITextRangeProvider::GetChildren
 author: windows-sdk-content
 description: Retrieves a collection of all embedded objects that fall within the text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetChildren.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2b68a7eb-8ff5-4e8c-830b-e180b2c08be4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetChildren method, ITextRangeProvider.GetChildren, ITextRangeProvider::GetChildren, uiauto.uiauto_ITextRangeProvider_GetChildren, uiauto_ITextRangeProvider_GetChildren, uiautomationcore/ITextRangeProvider::GetChildren, winauto.uiauto_ITextRangeProvider_GetChildren
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.GetChildren
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::GetChildren

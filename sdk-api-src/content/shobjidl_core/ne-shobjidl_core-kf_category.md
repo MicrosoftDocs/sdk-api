@@ -4,7 +4,7 @@ title: KF_CATEGORY
 author: windows-sdk-content
 description: Value that represent a category by which a folder registered with the Known Folder system can be classified.
 old-location: shell\KF_CATEGORY.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2ca0d3e2-bb4c-4a28-90d6-fe2852373b88
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KF_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KF_CATEGORY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: KF_CATEGORY
+req.redist: 
 ---
 
 # KF_CATEGORY enumeration

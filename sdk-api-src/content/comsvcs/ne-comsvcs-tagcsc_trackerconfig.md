@@ -4,7 +4,7 @@ title: tagCSC_TrackerConfig
 author: windows-sdk-content
 description: Indicates whether the tracker property is added to the context in which the enclosed code runs.
 old-location: cos\csc_trackerconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 48f01634-9802-4824-b251-ccb6e71aa099
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSC_TrackerConfig
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CSC_TrackerConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CSC_TrackerConfig
+req.redist: 
 ---
 
 # tagCSC_TrackerConfig enumeration

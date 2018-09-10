@@ -4,7 +4,7 @@ title: CtrlLoadFlowspec
 author: windows-sdk-content
 description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.
 old-location: qos\ctrlloadflowspec.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: def835ae-f0d2-4cdc-a498-315c4ef1245b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CtrlLoadFlowspec
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CtrlLoadFlowspec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CtrlLoadFlowspec
+req.redist: 
 ---
 
 # CtrlLoadFlowspec structure

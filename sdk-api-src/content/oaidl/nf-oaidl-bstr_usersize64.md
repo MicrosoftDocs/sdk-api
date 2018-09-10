@@ -4,17 +4,16 @@ title: BSTR_UserSize64 function
 author: windows-sdk-content
 description: Calculates the wire size of the BSTR object, and gets its handle and data.
 old-location: automat\bstr_usersize64.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 56ba0992-b5df-419d-b531-ea974413a7b0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BSTR_UserSize64, BSTR_UserSize64 function [Automation], automat.bstr_usersize64, oaidl/BSTR_UserSize64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BSTR_UserSize64
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # BSTR_UserSize64 function

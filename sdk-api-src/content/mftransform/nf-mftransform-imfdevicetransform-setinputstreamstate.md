@@ -4,17 +4,16 @@ title: IMFDeviceTransform::SetInputStreamState
 author: windows-sdk-content
 description: The SetInputStreamState method sets the Device MFT input stream state and media type.
 old-location: stream\imfdevicetransform_setinputstreamstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 010E482E-7464-45AE-80B6-9456864E1C96
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetInputStreamState method, IMFDeviceTransform.SetInputStreamState, IMFDeviceTransform::SetInputStreamState, SetInputStreamState, SetInputStreamState method [Streaming Media Devices], SetInputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetInputStreamState, stream.imfdevicetransform_setinputstreamstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.SetInputStreamState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::SetInputStreamState
@@ -72,12 +70,12 @@ Preferred media type for the input stream is passed in through this parameter. D
 
 ### -param value
 
-
+TBD
 
 
 ### -param dwFlags
 
-
+TBD
 
 
 

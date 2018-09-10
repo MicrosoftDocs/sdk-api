@@ -4,17 +4,16 @@ title: IVdsVolume::Extend
 author: windows-sdk-content
 description: Expands the size of the current volume by adding disk extents to each member of each plex.
 old-location: base\ivdsvolume_extend.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.Extend
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::Extend

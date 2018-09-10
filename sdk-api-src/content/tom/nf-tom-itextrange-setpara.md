@@ -4,17 +4,16 @@ title: ITextRange::SetPara
 author: windows-sdk-content
 description: Sets the paragraph attributes of this range to those of the specified ITextPara object.
 old-location: controls\ITextRange_SetPara.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpara.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],SetPara method, ITextRange.SetPara, ITextRange::SetPara, SetPara, SetPara method [Windows Controls], SetPara method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPara, _win32_ITextRange_SetPara_cpp, controls.ITextRange_SetPara, controls._win32_ITextRange_SetPara, tom/ITextRange::SetPara
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.SetPara
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::SetPara

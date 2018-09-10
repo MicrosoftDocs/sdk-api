@@ -4,17 +4,16 @@ title: SubscribeFeatureStateChangeNotification function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\subscribefeaturestatechangenotification.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEATURE_ENABLED_STATE
+req.lib: Shcore.lib
+req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SubscribeFeatureStateChangeNotification
 product: Windows
 targetos: Windows
-req.lib: Shcore.lib
-req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # SubscribeFeatureStateChangeNotification function

@@ -4,17 +4,16 @@ title: VarDecRound function
 author: windows-sdk-content
 description: Rounds a variant of type decimal to the specified number of decimal places.
 old-location: automat\vardecround.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 264914c6-2f47-4e99-b3bb-a2c510906954
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarDecRound
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarDecRound function

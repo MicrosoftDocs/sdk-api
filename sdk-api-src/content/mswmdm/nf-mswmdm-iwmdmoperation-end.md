@@ -4,17 +4,16 @@ title: IWMDMOperation::End
 author: windows-sdk-content
 description: The End method indicates that a read or write operation is finished, whether successful or not, and it returns a completion code.
 old-location: wmdm\iwmdmoperation_end.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMOperation.End
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation::End

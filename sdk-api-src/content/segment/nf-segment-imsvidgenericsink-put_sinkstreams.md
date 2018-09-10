@@ -4,17 +4,16 @@ title: IMSVidGenericSink::put_SinkStreams
 author: windows-sdk-content
 description: The put_SinkStreams method sets the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],put_SinkStreams method, IMSVidGenericSink.put_SinkStreams, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, segment/IMSVidGenericSink::put_SinkStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidGenericSink.put_SinkStreams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidGenericSink::put_SinkStreams

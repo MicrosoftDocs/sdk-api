@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_inputscope_0000_0000_0001"
 author: windows-sdk-content
 description: The InputScope enumeration contains values that specify which input scopes are applied to a given field.
 old-location: tsf\ienumtfinputscope.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 193a8a84-6824-4881-9399-832810957366
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inputscope.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InputScope
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InputScope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: InputScope
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_inputscope_0000_0000_0001 enumeration

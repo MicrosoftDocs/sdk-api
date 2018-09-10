@@ -4,7 +4,7 @@ title: CLUSPROP_LIST
 author: windows-sdk-content
 description: Accesses the beginning of a property list.
 old-location: mscs\clusprop_list.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_LIST, *PCLUSPROP_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_LIST, *PCLUSPROP_LIST
+req.redist: 
 ---
 
 # CLUSPROP_LIST structure

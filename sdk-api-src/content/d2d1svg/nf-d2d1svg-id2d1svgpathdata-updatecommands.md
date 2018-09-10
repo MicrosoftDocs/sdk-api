@@ -4,17 +4,16 @@ title: ID2D1SvgPathData::UpdateCommands
 author: windows-sdk-content
 description: Updates the commands array. Existing commands not updated by this method are preserved. The array is resized larger if necessary to accomodate the new commands.
 old-location: direct2d\id2d1svgpathdata_updatecommands.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: B6A6BC06-01C4-47D0-BC3C-7E0CE1A926F4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateCommands method, ID2D1SvgPathData.UpdateCommands, ID2D1SvgPathData::UpdateCommands, UpdateCommands, UpdateCommands method [Direct2D], UpdateCommands method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::UpdateCommands, direct2d.id2d1svgpathdata_updatecommands
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgPathData.UpdateCommands
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgPathData::UpdateCommands

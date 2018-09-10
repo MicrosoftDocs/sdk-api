@@ -4,17 +4,16 @@ title: ReleaseExclusiveCpuSets function
 author: windows-sdk-content
 description: Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
 old-location: gamemode\releaseexclusivecpusets.htm
-old-project: gamemode
+tech.root: gamemode
 ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: Windowsapp.lib
+req.dll: Gamemode.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReleaseExclusiveCpuSets
 product: Windows
 targetos: Windows
-req.lib: Windowsapp.lib
-req.dll: Gamemode.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # ReleaseExclusiveCpuSets function

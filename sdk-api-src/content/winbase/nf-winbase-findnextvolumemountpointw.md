@@ -4,17 +4,16 @@ title: FindNextVolumeMountPointW function
 author: windows-sdk-content
 description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
 old-location: fs\findnextvolumemountpoint.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - FindNextVolumeMountPointW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindNextVolumeMountPointW function

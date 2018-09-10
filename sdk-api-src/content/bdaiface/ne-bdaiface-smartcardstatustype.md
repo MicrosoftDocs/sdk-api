@@ -4,7 +4,7 @@ title: SmartCardStatusType
 author: windows-sdk-content
 description: The SmartCardStatusType enumeration type specifies the status of a smart card.
 old-location: mstv\smartcardstatustype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardStatusType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SmartCardStatusType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SmartCardStatusType
+req.redist: 
 ---
 
 # SmartCardStatusType enumeration

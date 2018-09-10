@@ -4,7 +4,7 @@ title: DIJOYTYPEINFO
 author: windows-sdk-content
 description: The DIJOYTYPEINFO structure contains information about a joystick type.
 old-location: hid\dijoytypeinfo.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 54f52839-59ed-4edd-8d28-e3504f9900d0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
+req.redist: 
 ---
 
 # DIJOYTYPEINFO structure

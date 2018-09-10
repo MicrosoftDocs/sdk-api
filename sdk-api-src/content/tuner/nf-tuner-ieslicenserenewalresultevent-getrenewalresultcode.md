@@ -4,17 +4,16 @@ title: IESLicenseRenewalResultEvent::GetRenewalResultCode
 author: windows-sdk-content
 description: Gets a constant from a Protected Broadcast Driver Architecture (PBDA) LicenseRenewalResult event that indicates which step in the renewal process caused the renewal to succeed or fail.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalresultcode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 99b46541-8c94-4456-aae9-d266fc52a6a9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRenewalResultCode, GetRenewalResultCode method [DirectShow], GetRenewalResultCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalResultCode method, IESLicenseRenewalResultEvent.GetRenewalResultCode, IESLicenseRenewalResultEvent::GetRenewalResultCode, mstv.ieslicenserenewalresultevent_getrenewalresultcode, tuner/IESLicenseRenewalResultEvent::GetRenewalResultCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESLicenseRenewalResultEvent.GetRenewalResultCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESLicenseRenewalResultEvent::GetRenewalResultCode

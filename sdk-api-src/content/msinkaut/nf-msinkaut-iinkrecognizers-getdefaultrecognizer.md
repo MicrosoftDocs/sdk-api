@@ -4,17 +4,16 @@ title: IInkRecognizers::GetDefaultRecognizer
 author: windows-sdk-content
 description: Retrieves the default recognizer for a known language, specified by a national language support (NLS) language code identifier (LCID).
 old-location: tablet\inkrecognizers_getdefaultrecognizer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 499a257d-72de-4121-a98f-c827a3fef611
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizers.GetDefaultRecognizer
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizers::GetDefaultRecognizer

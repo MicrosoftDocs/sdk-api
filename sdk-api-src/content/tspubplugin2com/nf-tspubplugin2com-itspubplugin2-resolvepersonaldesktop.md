@@ -4,17 +4,16 @@ title: ItsPubPlugin2::ResolvePersonalDesktop
 author: windows-sdk-content
 description: Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_resolvepersonaldesktop.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 1f88d7a6-c662-4a14-a288-9c346c8fb7f1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ItsPubPlugin2 interface [Remote Desktop Services],ResolvePersonalDesktop method, ItsPubPlugin2.ResolvePersonalDesktop, ItsPubPlugin2::ResolvePersonalDesktop, ResolvePersonalDesktop, ResolvePersonalDesktop method [Remote Desktop Services], ResolvePersonalDesktop method [Remote Desktop Services],ItsPubPlugin2 interface, termserv.itspubplugin2_resolvepersonaldesktop, tspubplugin2com/ItsPubPlugin2::ResolvePersonalDesktop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin2.ResolvePersonalDesktop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin2::ResolvePersonalDesktop

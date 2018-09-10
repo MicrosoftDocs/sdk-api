@@ -4,17 +4,16 @@ title: ITDirectory::RefreshDirectoryObject
 author: windows-sdk-content
 description: The RefreshDirectoryObject method refreshes the time to live (TTL) for an object on the server. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_refreshdirectoryobject.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 85a94960-5d4e-4b23-a3ed-65743a60ee87
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],RefreshDirectoryObject method, ITDirectory.RefreshDirectoryObject, ITDirectory::RefreshDirectoryObject, RefreshDirectoryObject, RefreshDirectoryObject method [TAPI 2.2], RefreshDirectoryObject method [TAPI 2.2],ITDirectory interface, _tapi3_itdirectory_refreshdirectoryobject, rend/ITDirectory::RefreshDirectoryObject, tapi3.itdirectory_refreshdirectoryobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.RefreshDirectoryObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::RefreshDirectoryObject

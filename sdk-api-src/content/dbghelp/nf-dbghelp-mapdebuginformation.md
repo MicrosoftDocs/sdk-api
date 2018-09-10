@@ -4,17 +4,16 @@ title: MapDebugInformation function
 author: windows-sdk-content
 description: Obtains access to the debugging information for an image.
 old-location: base\mapdebuginformation.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MapDebugInformation
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # MapDebugInformation function

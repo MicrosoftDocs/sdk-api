@@ -4,7 +4,7 @@ title: "_FILE_LEVEL_TRIM"
 author: windows-sdk-content
 description: Used as input to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: db3ac916-83e7-4aa1-b5aa-dab139a0a21a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_LEVEL_TRIM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
+req.redist: 
 ---
 
 # _FILE_LEVEL_TRIM structure

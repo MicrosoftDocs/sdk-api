@@ -4,17 +4,16 @@ title: IRDPSRAPITransportStream::WriteBuffer
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSRAPITransportStream.WriteBuffer, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPITransportStream.WriteBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPITransportStream::WriteBuffer

@@ -4,7 +4,7 @@ title: D3D_MIN_PRECISION
 author: windows-sdk-content
 description: Values that indicate the minimum desired interpolation precision.
 old-location: direct3d11\d3d_min_precision.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_MIN_PRECISION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_MIN_PRECISION
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_MIN_PRECISION
+req.redist: 
 ---
 
 # D3D_MIN_PRECISION enumeration

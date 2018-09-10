@@ -4,17 +4,16 @@ title: IPersistStreamInit::IsDirty
 author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its stream.
 old-location: com\ipersiststreaminit_isdirty.htm
-old-project: com
+tech.root: com
 ms.assetid: 2b84818d-0d9d-4f55-8031-b4336baa6c09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamInit.IsDirty, IPersistStreamInit::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_isdirty, com.ipersiststreaminit_isdirty, ocidl/IPersistStreamInit::IsDirty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStreamInit.IsDirty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStreamInit::IsDirty

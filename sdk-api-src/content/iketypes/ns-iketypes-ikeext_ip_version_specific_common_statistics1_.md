@@ -4,7 +4,7 @@ title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_
 author: windows-sdk-content
 description: Various statistics common to the keying module (IKE, Authip, and IKEv2).
 old-location: fwp\ikeext_ip_version_specific_common_statistics1.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 58e109fd-8a32-47bd-bc6a-bbe1bb54bc7e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1
+req.redist: 
 ---
 
 # IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_ structure

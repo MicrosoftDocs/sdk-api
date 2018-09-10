@@ -4,17 +4,16 @@ title: EnumProtocolsA function
 author: windows-sdk-content
 description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
 old-location: winsock\enumprotocols_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, EnumProtocolsW, IPPROTO_TCP, IPPROTO_UDP, ISOPROTO_TP4, NSPROTO_IPX, NSPROTO_SPX, NSPROTO_SPXII, _win32_enumprotocols_2, nspapi/EnumProtocols, nspapi/EnumProtocolsA, nspapi/EnumProtocolsW, winsock.enumprotocols_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EnumProtocolsW
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # EnumProtocolsA function

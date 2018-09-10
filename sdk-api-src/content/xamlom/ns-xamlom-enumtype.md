@@ -4,7 +4,7 @@ title: EnumType
 author: windows-sdk-content
 description: Represents a XAML Runtime enumeration.
 old-location: xaml_diagnostics\enumtype.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 0C50F820-E55B-425E-A8D2-1F0CEE03FEE7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnumType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EnumType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: EnumType
+req.redist: 
 ---
 
 # EnumType structure

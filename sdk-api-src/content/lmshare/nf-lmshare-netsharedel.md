@@ -4,17 +4,16 @@ title: NetShareDel function
 author: windows-sdk-content
 description: Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 old-location: fs\netsharedel.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetShareDel
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetShareDel function

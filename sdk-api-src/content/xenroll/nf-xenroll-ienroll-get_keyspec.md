@@ -4,17 +4,16 @@ title: IEnroll::get_KeySpec
 author: windows-sdk-content
 description: Sets or retrieves the type of key generated.
 old-location: security\ienroll4_keyspec.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b05851a0-6228-44e4-9bd7-354c862596e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll interface [Security],KeySpec property, IEnroll.KeySpec, IEnroll.get_KeySpec, IEnroll::KeySpec, IEnroll::get_KeySpec, IEnroll::put_KeySpec, KeySpec property [Security], KeySpec property [Security],IEnroll interface, get_KeySpec, security.ienroll4_keyspec, xenroll/IEnroll::KeySpec, xenroll/IEnroll::get_KeySpec, xenroll/IEnroll::put_KeySpec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_KeySpec
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::get_KeySpec

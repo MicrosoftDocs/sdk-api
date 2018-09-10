@@ -4,17 +4,16 @@ title: ITfProperty::Clear
 author: windows-sdk-content
 description: ITfProperty::Clear method
 old-location: tsf\itfproperty_clear.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfProperty.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfProperty::Clear

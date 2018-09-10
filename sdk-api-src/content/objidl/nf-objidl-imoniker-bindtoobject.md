@@ -4,17 +4,16 @@ title: IMoniker::BindToObject
 author: windows-sdk-content
 description: Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.
 old-location: com\imoniker_bindtoobject.htm
-old-project: com
+tech.root: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],IMoniker interface, IMoniker interface [COM],BindToObject method, IMoniker.BindToObject, IMoniker::BindToObject, _com_imoniker_bindtoobject, com.imoniker_bindtoobject, objidl/IMoniker::BindToObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.BindToObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::BindToObject

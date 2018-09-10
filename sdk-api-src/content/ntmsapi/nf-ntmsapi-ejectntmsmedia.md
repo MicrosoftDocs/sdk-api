@@ -4,17 +4,16 @@ title: EjectNtmsMedia function
 author: windows-sdk-content
 description: The EjectNtmsMedia function ejects the specified medium from the port of the current library. If the library is busy, RSM queues EjectNtmsMedia and returns success.
 old-location: fs\ejectntmsmedia.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: ecb7374c-d1fa-4e7c-87ad-045122cb466e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EjectNtmsMedia, EjectNtmsMedia function [Files], NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmsmedia, base.ejectntmsmedia, fs.ejectntmsmedia, ntmsapi/EjectNtmsMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EjectNtmsMedia
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EjectNtmsMedia function

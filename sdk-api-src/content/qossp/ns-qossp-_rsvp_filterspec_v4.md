@@ -4,7 +4,7 @@ title: "_RSVP_FILTERSPEC_V4"
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V4 structure stores information for a FILTERSPEC on an IPv4 address.
 old-location: qos\rsvp_filterspec_v4.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 038edc41-7324-4c5a-8172-c958cee05d5e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_FILTERSPEC_V4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4
+req.redist: 
 ---
 
 # _RSVP_FILTERSPEC_V4 structure

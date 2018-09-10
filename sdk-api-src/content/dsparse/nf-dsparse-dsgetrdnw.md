@@ -4,17 +4,16 @@ title: DsGetRdnW function
 author: windows-sdk-content
 description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
 old-location: ad\dsgetrdnw.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_MANGLE_FOR
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DsGetRdnW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DsGetRdnW function

@@ -4,17 +4,16 @@ title: IEventObjectCollection::Remove
 author: windows-sdk-content
 description: Removes an event object from the collection.
 old-location: cos\ieventobjectcollection_remove.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5092b1e1-bbf2-493c-92be-41196b43d4f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventObjectCollection interface [COM+],Remove method, IEventObjectCollection.Remove, IEventObjectCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventObjectCollection interface, _cos_IEventObjectCollection_Remove, cos.ieventobjectcollection_remove, eventsys/IEventObjectCollection::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEventObjectCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectCollection::Remove

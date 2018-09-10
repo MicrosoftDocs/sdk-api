@@ -4,7 +4,7 @@ title: TRefPointerCollection
 author: windows-sdk-content
 description: The TRefPointerCollection class is a container class that collects pointers to objects. These pointers can be enumerated.
 old-location: wmi\trefpointercollection.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection class

@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.
 old-location: bits\ibackgroundcopyjob1.htm
-old-project: bits
+tech.root: bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IBackgroundCopyJob1.GetTimes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1 interface

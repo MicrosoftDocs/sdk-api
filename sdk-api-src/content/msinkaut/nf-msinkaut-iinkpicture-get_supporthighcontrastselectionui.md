@@ -4,17 +4,16 @@ title: IInkPicture::get_SupportHighContrastSelectionUI
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether all selection user interface (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.
 old-location: tablet\inkpicture_supporthighcontrastselectionui.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f522a998-89f0-4d8d-bb19-949d62f5a786
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastSelectionUI property, IInkPicture.SupportHighContrastSelectionUI, IInkPicture.get_SupportHighContrastSelectionUI, IInkPicture::SupportHighContrastSelectionUI, IInkPicture::get_SupportHighContrastSelectionUI, IInkPicture::put_SupportHighContrastSelectionUI, InkPicture.get_SupportHighContrastSelectionUI, InkPicture.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkPicture interface, f522a998-89f0-4d8d-bb19-949d62f5a786, get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::SupportHighContrastSelectionUI, msinkaut/IInkPicture::get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::put_SupportHighContrastSelectionUI, put_SupportHighContrastSelectionUI, tablet.inkpicture_supporthighcontrastselectionui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_SupportHighContrastSelectionUI
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_SupportHighContrastSelectionUI

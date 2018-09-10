@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Br
 author: windows-sdk-content
 description: Paints the interior of the specified rounded rectangle.
 old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget.FillRoundedRectangle, ID2D1RenderTarget.FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush), ID2D1RenderTarget::FillRoundedRectangle, ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush), d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget::FillRoundedRectangle
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush)

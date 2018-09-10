@@ -4,17 +4,16 @@ title: IThumbnailCapture::CaptureThumbnail
 author: windows-sdk-content
 description: Retrieves a thumbnail representation of an IHTMLDocument2 document.
 old-location: shell\IThumbnailCapture_CaptureThumbnail.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shimgvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailCapture.CaptureThumbnail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shimgvw.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailCapture::CaptureThumbnail

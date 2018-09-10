@@ -4,7 +4,7 @@ title: ViewOptions
 author: windows-sdk-content
 description: The ViewOptions enumeration is used by the Views.Add method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view.
 old-location: mmc\viewoptions.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: e3cc2834-873d-4cc1-a917-f3aeabdb2350
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmcobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_ViewOptions, VIEWOPTIONS, *PVIEWOPTIONS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _ViewOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: "_ViewOptions, VIEWOPTIONS, *PVIEWOPTIONS"
+req.redist: 
 ---
 
 # ViewOptions enumeration

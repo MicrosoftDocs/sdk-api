@@ -4,17 +4,16 @@ title: IDataCollectorSet::get_UserAccount
 author: windows-sdk-content
 description: Retrieves the user account under which the data collector set will run.
 old-location: pla\idatacollectorset_get_useraccount.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 32fe1dcf-9682-40fd-b301-45385fa33cbe
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],UserAccount property, IDataCollectorSet.UserAccount, IDataCollectorSet.get_UserAccount, IDataCollectorSet::UserAccount, IDataCollectorSet::get_UserAccount, UserAccount property [PLA], UserAccount property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_useraccount, get_UserAccount, pla.idatacollectorset_get_useraccount, pla/IDataCollectorSet::UserAccount, pla/IDataCollectorSet::get_UserAccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDataCollectorSet.get_UserAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::get_UserAccount

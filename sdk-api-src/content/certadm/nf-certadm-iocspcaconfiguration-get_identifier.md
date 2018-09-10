@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_Identifier
 author: windows-sdk-content
 description: Gets a name for the certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_identifier_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a35aaaf1-8bad-4de1-a2e8-2e4947c30d72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Identifier property, IOCSPCAConfiguration.Identifier, IOCSPCAConfiguration.get_Identifier, IOCSPCAConfiguration::Identifier, IOCSPCAConfiguration::get_Identifier, Identifier property [Security], Identifier property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Identifier, certadm/IOCSPCAConfiguration::get_Identifier, get_Identifier, security.iocspcaconfiguration_identifier_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfiguration.get_Identifier
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_Identifier

@@ -4,17 +4,16 @@ title: IRecordInfo::PutField
 author: windows-sdk-content
 description: Puts a variant into a field.
 old-location: automat\irecordinfo_putfield.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 784bb283-b381-405e-b793-d070105b778f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRecordInfo interface [Automation],PutField method, IRecordInfo.PutField, IRecordInfo::PutField, PutField, PutField method [Automation], PutField method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutField, automat.irecordinfo_putfield, oaidl/IRecordInfo::PutField
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.PutField
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::PutField

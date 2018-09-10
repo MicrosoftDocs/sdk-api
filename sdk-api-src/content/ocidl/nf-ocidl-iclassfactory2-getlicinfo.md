@@ -4,17 +4,16 @@ title: IClassFactory2::GetLicInfo
 author: windows-sdk-content
 description: Retrieves information about the licensing capabilities of this class factory.
 old-location: com\iclassfactory2_getlicinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],GetLicInfo method, IClassFactory2.GetLicInfo, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClassFactory2.GetLicInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IClassFactory2::GetLicInfo

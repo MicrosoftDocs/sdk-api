@@ -4,17 +4,16 @@ title: SetupCreateDiskSpaceListA function
 author: windows-sdk-content
 description: The SetupCreateDiskSpaceList function creates a disk-space list.
 old-location: setup\setupcreatediskspacelist.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: a578ed9d-12b2-43f4-ab0a-183269de0d40
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupCreateDiskSpaceList, SetupCreateDiskSpaceList function [Setup API], SetupCreateDiskSpaceListA, SetupCreateDiskSpaceListW, _setupapi_setupcreatediskspacelist, setup.setupcreatediskspacelist, setupapi/SetupCreateDiskSpaceList, setupapi/SetupCreateDiskSpaceListA, setupapi/SetupCreateDiskSpaceListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupCreateDiskSpaceListW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupCreateDiskSpaceListA function

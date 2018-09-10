@@ -4,7 +4,7 @@ title: "_RAS_PROJECTION_INFO"
 author: windows-sdk-content
 description: Contains the Point-to-Point (PPP) or Internet Key Exchange version 2 (IKEv2) projection information for a RAS connection.
 old-location: rras\ras_projection_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: ca4fbaff-f035-4340-8d29-7dcddaf1b1bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_PROJECTION_INFO, *PRAS_PROJECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_PROJECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RAS_PROJECTION_INFO, *PRAS_PROJECTION_INFO
+req.redist: 
 ---
 
 # _RAS_PROJECTION_INFO structure

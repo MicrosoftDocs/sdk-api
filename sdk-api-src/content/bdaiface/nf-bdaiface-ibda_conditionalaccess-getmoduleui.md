@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::GetModuleUI
 author: windows-sdk-content
 description: The GetModuleUI method retrieves the URL for a user interface dialog.
 old-location: mstv\ibda_conditionalaccess_getmoduleui.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5d1856d8-d2e6-4ab1-a1ce-7dcf9bc8bd39
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetModuleUI, GetModuleUI method [Microsoft TV Technologies], GetModuleUI method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],GetModuleUI method, IBDA_ConditionalAccess.GetModuleUI, IBDA_ConditionalAccess::GetModuleUI, IBDA_ConditionalAccessGetModuleUI, bdaiface/IBDA_ConditionalAccess::GetModuleUI, mstv.ibda_conditionalaccess_getmoduleui
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.GetModuleUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::GetModuleUI

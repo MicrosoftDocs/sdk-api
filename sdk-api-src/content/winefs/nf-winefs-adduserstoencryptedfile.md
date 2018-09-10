@@ -4,17 +4,16 @@ title: AddUsersToEncryptedFile function
 author: windows-sdk-content
 description: Adds user keys to the specified encrypted file.
 old-location: fs\adduserstoencryptedfile.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: a92d6a52-20d1-4d5c-a222-ab9afaf85c4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddUsersToEncryptedFile, AddUsersToEncryptedFile function [Files], _win32_adduserstoencryptedfile, base.adduserstoencryptedfile, fs.adduserstoencryptedfile, winefs/AddUsersToEncryptedFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AddUsersToEncryptedFile
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AddUsersToEncryptedFile function

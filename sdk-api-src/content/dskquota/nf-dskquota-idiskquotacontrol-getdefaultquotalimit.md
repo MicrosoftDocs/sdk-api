@@ -4,17 +4,16 @@ title: IDiskQuotaControl::GetDefaultQuotaLimit
 author: windows-sdk-content
 description: Retrieves the default quota limit for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotalimit.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 05af5869-0c77-4078-b6af-601a7df44244
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDefaultQuotaLimit, GetDefaultQuotaLimit method [Files], GetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimit method, IDiskQuotaControl.GetDefaultQuotaLimit, IDiskQuotaControl::GetDefaultQuotaLimit, _win32_idiskquotacontrol_getdefaultquotalimit, base.idiskquotacontrol_getdefaultquotalimit, dskquota/IDiskQuotaControl::GetDefaultQuotaLimit, fs.idiskquotacontrol_getdefaultquotalimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.GetDefaultQuotaLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaLimit

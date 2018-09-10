@@ -4,17 +4,16 @@ title: DialogBoxIndirectW macro
 author: windows-sdk-content
 description: Creates a modal dialog box from a dialog box template in memory. DialogBoxIndirect does not return control until the specified callback function terminates the modal dialog box by calling the EndDialog function.
 old-location: dlgbox\dialogboxindirect.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirect.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DialogBoxIndirect, DialogBoxIndirect function [Dialog Boxes], DialogBoxIndirectA, DialogBoxIndirectW, _win32_DialogBoxIndirect, _win32_dialogboxindirect_cpp, dlgbox.dialogboxindirect, winui._win32_dialogboxindirect, winuser/DialogBoxIndirect, winuser/DialogBoxIndirectA, winuser/DialogBoxIndirectW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DialogBoxIndirectW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DialogBoxIndirectW macro

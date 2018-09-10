@@ -4,17 +4,16 @@ title: EnumDirTreeW function
 author: windows-sdk-content
 description: Enumerates all occurrences of the specified file in the specified directory tree.
 old-location: base\enumdirtree.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.0 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - EnumDirTreeW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.0 or later
 ---
 
 # EnumDirTreeW function

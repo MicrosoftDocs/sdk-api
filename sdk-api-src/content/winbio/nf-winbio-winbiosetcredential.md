@@ -4,17 +4,16 @@ title: WinBioSetCredential function
 author: windows-sdk-content
 description: Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiosetcredential.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WinBioSetCredential
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioSetCredential function

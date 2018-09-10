@@ -4,17 +4,16 @@ title: ICDrawStart macro
 author: windows-sdk-content
 description: The ICDrawStart macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the ICM_DRAW_START message.
 old-location: multimedia\icdrawstart.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 00db96a3-d7e4-42eb-929a-c967ac8380d1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDrawStart, ICDrawStart macro [Windows Multimedia], _win32_ICDrawStart, multimedia.icdrawstart, vfw/ICDrawStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDrawStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDrawStart macro

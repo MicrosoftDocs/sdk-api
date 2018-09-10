@@ -4,17 +4,16 @@ title: IVdsVolume::ClearFlags
 author: windows-sdk-content
 description: Clears the volume flags.
 old-location: base\ivdsvolume_clearflags.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 970dcd4a-ac06-4e2d-969c-82c5dabd0019
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],ClearFlags method, IVdsVolume.ClearFlags, IVdsVolume::ClearFlags, base.ivdsvolume_clearflags, vds/IVdsVolume::ClearFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.ClearFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::ClearFlags

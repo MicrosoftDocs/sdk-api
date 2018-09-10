@@ -4,17 +4,16 @@ title: IWMPContentPartnerCallback::GetContentIDsInLibrary
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_getcontentidsinlibrary.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c8fbac82-77dc-4316-860d-cdf53e8bb9a7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetContentIDsInLibrary, GetContentIDsInLibrary method [Windows Media Player], GetContentIDsInLibrary method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],GetContentIDsInLibrary method, IWMPContentPartnerCallback.GetContentIDsInLibrary, IWMPContentPartnerCallback::GetContentIDsInLibrary, IWMPContentPartnerCallbackGetContentIDsInLibrary, contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary, wmp.iwmpcontentpartnercallback_getcontentidsinlibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartnerCallback.GetContentIDsInLibrary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartnerCallback::GetContentIDsInLibrary

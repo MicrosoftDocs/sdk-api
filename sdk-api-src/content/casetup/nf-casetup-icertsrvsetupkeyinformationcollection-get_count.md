@@ -4,17 +4,16 @@ title: ICertSrvSetupKeyInformationCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Count property, ICertSrvSetupKeyInformationCollection.Count, ICertSrvSetupKeyInformationCollection.get_Count, ICertSrvSetupKeyInformationCollection::Count, ICertSrvSetupKeyInformationCollection::get_Count, casetup/ICertSrvSetupKeyInformationCollection::Count, casetup/ICertSrvSetupKeyInformationCollection::get_Count, get_Count, security.icertsrvsetupkeyinformationcollection_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertSrvSetupKeyInformationCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformationCollection::get_Count

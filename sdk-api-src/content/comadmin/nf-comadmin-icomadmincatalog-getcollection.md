@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::GetCollection
 author: windows-sdk-content
 description: Retrieves a top-level collection on the COM+ catalog.
 old-location: cos\icomadmincatalog_getcollection.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.GetCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::GetCollection

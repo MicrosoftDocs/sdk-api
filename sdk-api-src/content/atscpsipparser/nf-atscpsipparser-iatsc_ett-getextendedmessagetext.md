@@ -4,17 +4,16 @@ title: IATSC_ETT::GetExtendedMessageText
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_getextendedmessagetext.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4e1b5f65-4662-41aa-8a11-cce6a2debb9e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetExtendedMessageText, GetExtendedMessageText method [Microsoft TV Technologies], GetExtendedMessageText method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetExtendedMessageText method, IATSC_ETT.GetExtendedMessageText, IATSC_ETT::GetExtendedMessageText, IATSC_ETTGetExtendedMessageText, atscpsipparser/IATSC_ETT::GetExtendedMessageText, mstv.iatsc_ett_getextendedmessagetext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_ETT.GetExtendedMessageText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_ETT::GetExtendedMessageText

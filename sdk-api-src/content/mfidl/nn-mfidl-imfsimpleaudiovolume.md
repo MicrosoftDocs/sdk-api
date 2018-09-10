@@ -4,7 +4,7 @@ title: IMFSimpleAudioVolume
 author: windows-sdk-content
 description: Controls the master volume level of the audio session associated with the streaming audio renderer (SAR) and the audio capture source.
 old-location: mf\imfsimpleaudiovolume.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 002d85a7-8bc3-422e-8ced-1907ac121d7b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSimpleAudioVolume
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSimpleAudioVolume interface

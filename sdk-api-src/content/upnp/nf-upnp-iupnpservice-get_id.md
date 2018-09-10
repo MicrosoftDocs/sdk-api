@@ -4,17 +4,16 @@ title: IUPnPService::get_Id
 author: windows-sdk-content
 description: The Id property specifies the service ID for the service.
 old-location: upnp\iupnpservice_id.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: daa2ed07-8ee5-4e1f-84f4-77f58d4958e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_Id method, IUPnPService.get_Id, IUPnPService::get_Id, _upnp_iupnpservice_id, get_Id, get_Id method [UPnP APIs], get_Id method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_id, upnp/IUPnPService::get_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPService.get_Id
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPService::get_Id

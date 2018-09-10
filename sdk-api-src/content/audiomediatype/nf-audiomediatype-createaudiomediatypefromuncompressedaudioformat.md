@@ -4,17 +4,16 @@ title: CreateAudioMediaTypeFromUncompressedAudioFormat function
 author: windows-sdk-content
 description: The CreateAudioMediaTypeFromUncompressedAudioFormat function uses the information provided in the UNCOMPRESSEDAUDIOFORMAT structure to create a media type object that describes the audio format.
 old-location: audio\createaudiomediatypefromuncompressedaudioformat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 48c9d15c-2e95-4a4a-b2cb-8a144569e45b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateAudioMediaTypeFromUncompressedAudioFormat, CreateAudioMediaTypeFromUncompressedAudioFormat function [Audio Devices], audio.createaudiomediatypefromuncompressedaudioformat, audio_syseffects_r_af85b8fb-5bdc-41f6-af2f-ee84ca999ac9.xml, audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.lib: 
+req.dll: 
+req.irql: N/A
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateAudioMediaTypeFromUncompressedAudioFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: N/A
+req.typenames: 
+req.redist: 
 ---
 
 # CreateAudioMediaTypeFromUncompressedAudioFormat function

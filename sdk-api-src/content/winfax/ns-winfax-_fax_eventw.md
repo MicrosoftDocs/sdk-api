@@ -4,7 +4,7 @@ title: "_FAX_EVENTW"
 author: windows-sdk-content
 description: The FAX_EVENT structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
 old-location: fax\_mfax_fax_event_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9bw2.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_EVENTW, *PFAX_EVENTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FAX_EVENTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FAX_EVENTW, *PFAX_EVENTW
+req.redist: 
 ---
 
 # _FAX_EVENTW structure

@@ -4,7 +4,7 @@ title: "_CLFS_MGMT_NOTIFICATION"
 author: windows-sdk-content
 description: The CLFS_MGMT_NOTIFICATION structure specifies information about the notifications that the client receives.
 old-location: fs\clfs_mgmt_notification.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: ba7f7414-885f-40d0-ab61-2348d7f6125b
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_NOTIFICATION, *PCLFS_MGMT_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_MGMT_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLFS_MGMT_NOTIFICATION, *PCLFS_MGMT_NOTIFICATION
+req.redist: 
 ---
 
 # _CLFS_MGMT_NOTIFICATION structure

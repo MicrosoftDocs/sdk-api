@@ -4,7 +4,7 @@ title: "_CREDENTIAL_PROVIDER_STATUS_ICON"
 author: windows-sdk-content
 description: Indicates which status icon should be displayed.
 old-location: shell\CREDENTIAL_PROVIDER_STATUS_ICON.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_STATUS_ICON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREDENTIAL_PROVIDER_STATUS_ICON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREDENTIAL_PROVIDER_STATUS_ICON
+req.redist: 
 ---
 
 # _CREDENTIAL_PROVIDER_STATUS_ICON enumeration

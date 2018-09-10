@@ -4,17 +4,16 @@ title: wglCopyContext function
 author: windows-sdk-content
 description: The wglCopyContext function copies selected groups of rendering states from one OpenGL rendering context to another.
 old-location: opengl\wglcopycontext.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglCopyContext
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglCopyContext function

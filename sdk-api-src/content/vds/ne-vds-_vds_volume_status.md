@@ -4,7 +4,7 @@ title: "_VDS_VOLUME_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a volume.
 old-location: base\vds_volume_status.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 16159d33-08e0-47a4-a4b6-06e5f2916ea8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_VOLUME_STATUS
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_VOLUME_STATUS
+req.redist: 
 ---
 
 # _VDS_VOLUME_STATUS enumeration

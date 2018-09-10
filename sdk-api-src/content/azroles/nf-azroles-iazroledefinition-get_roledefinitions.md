@@ -4,17 +4,16 @@ title: IAzRoleDefinition::get_RoleDefinitions
 author: windows-sdk-content
 description: Retrieves a collection of the IAzRoleDefinition objects associated with this IAzRoleDefinition object.
 old-location: security\iazroledefinition_roledefinitions.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 362df9e2-af74-48b7-a6f4-aaa6ad1d8df5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleDefinitions property, IAzRoleDefinition.RoleDefinitions, IAzRoleDefinition.get_RoleDefinitions, IAzRoleDefinition::RoleDefinitions, IAzRoleDefinition::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleDefinitions, azroles/IAzRoleDefinition::get_RoleDefinitions, get_RoleDefinitions, security.iazroledefinition_roledefinitions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzRoleDefinition.get_RoleDefinitions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzRoleDefinition::get_RoleDefinitions

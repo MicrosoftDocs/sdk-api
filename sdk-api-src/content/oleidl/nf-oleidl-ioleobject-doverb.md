@@ -4,17 +4,16 @@ title: IOleObject::DoVerb
 author: windows-sdk-content
 description: Requests that an object perform an action in response to an end-user's action. The possible actions are enumerated for the object in IOleObject::EnumVerbs.
 old-location: com\ioleobject_doverb.htm
-old-project: com
+tech.root: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.DoVerb
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::DoVerb

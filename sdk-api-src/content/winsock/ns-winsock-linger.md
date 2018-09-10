@@ -4,7 +4,7 @@ title: linger
 author: windows-sdk-content
 description: Maintains information about a specific socket that specifies how that socket should behave when data is queued to be sent and the closesocket function is called on the socket.
 old-location: winsock\linger_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINGER, *PLINGER, *LPLINGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - linger
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: LINGER, *PLINGER, *LPLINGER
+req.redist: 
 ---
 
 # linger structure

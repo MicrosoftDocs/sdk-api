@@ -4,17 +4,16 @@ title: IUIAutomationTextEditPattern::GetActiveComposition
 author: windows-sdk-content
 description: Returns the active composition.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetActiveComposition.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: F6503B77-19FB-6D00-D20C-E3D3F0EC28DA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetActiveComposition method, IUIAutomationTextEditPattern.GetActiveComposition, IUIAutomationTextEditPattern::GetActiveComposition, uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition, winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextEditPattern.GetActiveComposition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextEditPattern::GetActiveComposition

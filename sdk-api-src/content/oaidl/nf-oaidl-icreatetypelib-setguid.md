@@ -4,17 +4,16 @@ title: ICreateTypeLib::SetGuid
 author: windows-sdk-content
 description: Sets the universal unique identifier (UUID) associated with the type library.
 old-location: automat\icreatetypelib_setguid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: c9afbb9e-3f0a-4862-abb6-82631bae759f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLib.SetGuid, ICreateTypeLib::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetGuid, automat.icreatetypelib_setguid, oaidl/ICreateTypeLib::SetGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.SetGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::SetGuid

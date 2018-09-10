@@ -4,7 +4,7 @@ title: FVSHOWINFO
 author: windows-sdk-content
 description: Contains information that the file viewer uses to display a file.
 old-location: shell\FVSHOWINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FVSHOWINFO, *LPFVSHOWINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FVSHOWINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: FVSHOWINFO, *LPFVSHOWINFO
+req.redist: 
 ---
 
 # FVSHOWINFO structure

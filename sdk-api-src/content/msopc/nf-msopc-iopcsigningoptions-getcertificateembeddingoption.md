@@ -4,17 +4,16 @@ title: IOpcSigningOptions::GetCertificateEmbeddingOption
 author: windows-sdk-content
 description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 86f83829-0507-4918-ae7f-71738f985068
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCertificateEmbeddingOption, GetCertificateEmbeddingOption method [Open Packaging Conventions], GetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateEmbeddingOption method, IOpcSigningOptions.GetCertificateEmbeddingOption, IOpcSigningOptions::GetCertificateEmbeddingOption, msopc/IOpcSigningOptions::GetCertificateEmbeddingOption, opc.iopcsigningoptions_getcertificateembeddingoption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcSigningOptions.GetCertificateEmbeddingOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcSigningOptions::GetCertificateEmbeddingOption

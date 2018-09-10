@@ -4,17 +4,16 @@ title: IWSDEndpointProxy::SendTwoWayRequestAsync
 author: windows-sdk-content
 description: Sends a two-way request message using an asynchronous call pattern.
 old-location: ncd\iwsdendpointproxy_sendtwowayrequestasync.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: cf175e79-9df2-4481-b784-e2cc40e34222
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequestAsync method, IWSDEndpointProxy.SendTwoWayRequestAsync, IWSDEndpointProxy::SendTwoWayRequestAsync, SendTwoWayRequestAsync, SendTwoWayRequestAsync method, SendTwoWayRequestAsync method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequestasync, wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDEndpointProxy.SendTwoWayRequestAsync
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDEndpointProxy::SendTwoWayRequestAsync

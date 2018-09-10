@@ -4,7 +4,7 @@ title: FWP_VSWITCH_NETWORK_TYPE_
 author: windows-sdk-content
 description: Specifies the network type of a vSwitch.
 old-location: fwp\fwp_vswitch_network_type.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: bcb0d138-516c-4877-abe7-a826b8e812f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_VSWITCH_NETWORK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_VSWITCH_NETWORK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_VSWITCH_NETWORK_TYPE
+req.redist: 
 ---
 
 # FWP_VSWITCH_NETWORK_TYPE_ enumeration

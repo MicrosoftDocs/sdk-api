@@ -4,17 +4,16 @@ title: ID3D11VideoProcessor::GetRateConversionCaps
 author: windows-sdk-content
 description: Gets the rate conversion capabilities of the video processor.
 old-location: mf\id3d11videoprocessor_getrateconversioncaps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetRateConversionCaps method, ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoProcessor.GetRateConversionCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoProcessor::GetRateConversionCaps

@@ -4,17 +4,16 @@ title: CancelIfTimestampConfigChange function
 author: windows-sdk-content
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\canceliftimestampconfigchange.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: F9F917D4-44E1-437C-A40F-4CA8FFB5702C
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange function [IP Helper], iphlp.canceliftimestampconfigchange, iphlpapi/CancelIfTimestampConfigChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CancelIfTimestampConfigChange
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CancelIfTimestampConfigChange function

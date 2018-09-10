@@ -4,17 +4,16 @@ title: IVdsDiskPartitionMF::FormatPartitionEx
 author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDiskPartitionMF.FormatPartitionEx
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDiskPartitionMF::FormatPartitionEx

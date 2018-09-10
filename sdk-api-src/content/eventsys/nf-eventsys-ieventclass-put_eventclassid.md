@@ -4,17 +4,16 @@ title: IEventClass::put_EventClassID
 author: windows-sdk-content
 description: The CLSID for the event class object.
 old-location: cos\ieventclass_eventclassid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: eb51a015-cb99-4cbc-8fba-8c4834adcf65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassID property, IEventClass.EventClassID, IEventClass.put_EventClassID, IEventClass::EventClassID, IEventClass::get_EventClassID, IEventClass::put_EventClassID, cos.ieventclass_eventclassid, eventsys/IEventClass::EventClassID, eventsys/IEventClass::get_EventClassID, eventsys/IEventClass::put_EventClassID, put_EventClassID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventClass.put_EventClassID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventClass::put_EventClassID

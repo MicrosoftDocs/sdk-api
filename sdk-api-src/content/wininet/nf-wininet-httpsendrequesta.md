@@ -4,17 +4,16 @@ title: HttpSendRequestA function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
 old-location: wininet\httpsendrequest.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HttpSendRequestW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HttpSendRequestA function

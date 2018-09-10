@@ -4,17 +4,16 @@ title: TokenBindingGetKeyTypesServer function
 author: windows-sdk-content
 description: Retrieves a list of the key types that the server supports.
 old-location: security\tokenbindinggetkeytypesserver.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TokenBindingGetKeyTypesServer, TokenBindingGetKeyTypesServer function [Security], security.tokenbindinggetkeytypesserver, tokenbinding/TokenBindingGetKeyTypesServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_TYPE
+req.lib: Tokenbinding.lib
+req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TokenBindingGetKeyTypesServer
 product: Windows
 targetos: Windows
-req.lib: Tokenbinding.lib
-req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TokenBindingGetKeyTypesServer function

@@ -4,17 +4,16 @@ title: IWRdsProtocolShadowConnection::DoTarget
 author: windows-sdk-content
 description: Requests that the protocol start the target side of a shadow connection.
 old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 9fe2e3fb-f368-4b7e-b679-402db900916c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, IWRdsProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWRdsProtocolShadowConnection.DoTarget, IWRdsProtocolShadowConnection::DoTarget, termserv.iwrdsprotocolshadowconnection_dotarget, wtsprotocol/IWRdsProtocolShadowConnection::DoTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolShadowConnection.DoTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolShadowConnection::DoTarget

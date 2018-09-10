@@ -4,17 +4,16 @@ title: IHWEventHandler::HandleEvent
 author: windows-sdk-content
 description: Handles AutoPlay device events for which there is no content of the type the application is registered to handle.
 old-location: shell\IHWEventHandler_HandleEvent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 575ca84c-8cf9-4ed6-a997-844cf0533986
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: HandleEvent, HandleEvent method [Windows Shell], HandleEvent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEvent method, IHWEventHandler.HandleEvent, IHWEventHandler::HandleEvent, inet_IHWEventHandler_HandleEvent, shell.IHWEventHandler_HandleEvent, shobjidl/IHWEventHandler::HandleEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shimgvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHWEventHandler.HandleEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shimgvw.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IHWEventHandler::HandleEvent

@@ -4,17 +4,16 @@ title: IMFTimedTextRegion::GetLineHeight
 author: windows-sdk-content
 description: Gets the height of each line of text in the region.
 old-location: mf\imftimedtextregion_getlineheight.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextRegion.GetLineHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextRegion::GetLineHeight
@@ -69,7 +67,7 @@ A pointer to a variable that receives the height of each line of text in the reg
 
 ### -param unitType
 
-
+TBD
 
 
 

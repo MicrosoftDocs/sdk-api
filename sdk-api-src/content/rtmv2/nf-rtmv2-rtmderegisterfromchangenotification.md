@@ -4,17 +4,16 @@ title: RtmDeregisterFromChangeNotification function
 author: windows-sdk-content
 description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
 old-location: rras\rtmderegisterfromchangenotification.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmDeregisterFromChangeNotification
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmDeregisterFromChangeNotification function

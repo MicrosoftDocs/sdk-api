@@ -4,17 +4,16 @@ title: IWMDMProgress::Begin
 author: windows-sdk-content
 description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
 old-location: wmdm\iwmdmprogress_begin.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMProgress.Begin
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMProgress::Begin

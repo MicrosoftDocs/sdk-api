@@ -4,17 +4,16 @@ title: CreateLogFile function
 author: windows-sdk-content
 description: Creates or opens a log.
 old-location: fs\createlogfile.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: ac104bf9-7ca7-417a-bd14-09b0e82c6a77
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CREATE_NEW, CreateLogFile, CreateLogFile function [Files], DELETE, FILE_ATTRIBUTE_ARCHIVE, FILE_FLAG_OVERLAPPED, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, GENERIC_READ, GENERIC_WRITE, OPEN_ALWAYS, OPEN_EXISTING, clfsw32/CreateLogFile, fs.createlogfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateLogFile
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateLogFile function

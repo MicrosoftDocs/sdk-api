@@ -4,17 +4,16 @@ title: IOleUndoUnit::Do
 author: windows-sdk-content
 description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
 old-location: com\ioleundounit_do.htm
-old-project: com
+tech.root: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],Do method, IOleUndoUnit.Do, IOleUndoUnit::Do, _ole_ioleundounit_do, com.ioleundounit_do, ocidl/IOleUndoUnit::Do
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoUnit.Do
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoUnit::Do

@@ -4,7 +4,7 @@ title: "_BLUETOOTH_COD_PAIRS"
 author: windows-sdk-content
 description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.
 old-location: bluetooth\bluetooth_cod_pairs.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_COD_PAIRS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_COD_PAIRS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_COD_PAIRS
+req.redist: 
 ---
 
 # _BLUETOOTH_COD_PAIRS structure

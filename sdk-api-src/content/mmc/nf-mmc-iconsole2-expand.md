@@ -4,17 +4,16 @@ title: IConsole2::Expand
 author: windows-sdk-content
 description: The IConsole2::Expand method enables the snap-in to expand or collapse an item in the scope pane.
 old-location: mmc\iconsole2_expand.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 958c9611-fd9c-4895-903b-145eacf76901
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsole2.Expand
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsole2::Expand

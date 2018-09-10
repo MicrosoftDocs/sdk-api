@@ -4,17 +4,16 @@ title: ITDirectoryObject::get_ObjectType
 author: windows-sdk-content
 description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
 old-location: tapi3\itdirectoryobject_get_objecttype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_ObjectType method, ITDirectoryObject.get_ObjectType, ITDirectoryObject::get_ObjectType, _tapi3_itdirectoryobject_get_objecttype, get_ObjectType, get_ObjectType method [TAPI 2.2], get_ObjectType method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_ObjectType, tapi3.itdirectoryobject_get_objecttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObject.get_ObjectType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObject::get_ObjectType

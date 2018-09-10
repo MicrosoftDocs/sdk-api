@@ -4,17 +4,16 @@ title: IWMPDVD::topMenu
 author: windows-sdk-content
 description: The topMenu method stops playback and displays the top (or root) menu for the current title.
 old-location: wmp\iwmpdvd_topmenu.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPDVD.topMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPDVD::topMenu

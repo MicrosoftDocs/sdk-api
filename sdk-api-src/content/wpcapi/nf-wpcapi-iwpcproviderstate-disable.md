@@ -4,17 +4,16 @@ title: IWPCProviderState::Disable
 author: windows-sdk-content
 description: Notifies the third-party application that it is not the current provider.
 old-location: parcon\iwpcproviderstate_disable.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 2aa1a236-b681-4226-a337-507d0854955d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Disable, Disable method, Disable method,IWPCProviderState interface, IWPCProviderState interface,Disable method, IWPCProviderState.Disable, IWPCProviderState::Disable, parcon.iwpcproviderstate_disable, wpcapi/IWPCProviderState::Disable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWPCProviderState.Disable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWPCProviderState::Disable

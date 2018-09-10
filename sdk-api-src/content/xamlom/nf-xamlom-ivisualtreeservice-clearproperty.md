@@ -4,17 +4,16 @@ title: IVisualTreeService::ClearProperty
 author: windows-sdk-content
 description: Clears the specified property on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_clearproperty.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: BB875AD0-271D-4913-9811-5A5102B3E331
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearProperty, ClearProperty method, ClearProperty method,IVisualTreeService interface, IVisualTreeService interface,ClearProperty method, IVisualTreeService.ClearProperty, IVisualTreeService::ClearProperty, xaml_diagnostics.ivisualtreeservice_clearproperty, xamlom/IVisualTreeService::ClearProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.ClearProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::ClearProperty

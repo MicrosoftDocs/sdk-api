@@ -4,7 +4,7 @@ title: "_TRUSTEE_TYPE"
 author: windows-sdk-content
 description: Values that indicate the type of trustee identified by a TRUSTEE structure.
 old-location: security\trustee_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 6519c79d-9cee-4565-a71e-0b81a27c1185
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,6 +40,8 @@ api_name:
  - TRUSTEE_TYPE
 product: Windows
 targetos: Windows
+req.typenames: TRUSTEE_TYPE
+req.redist: 
 ---
 
 # _TRUSTEE_TYPE enumeration

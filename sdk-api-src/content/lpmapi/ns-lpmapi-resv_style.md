@@ -4,7 +4,7 @@ title: RESV_STYLE
 author: windows-sdk-content
 description: The RESV_STYLE structure contains information about RSVP RESV style.
 old-location: qos\resv_style.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESV_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESV_STYLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RESV_STYLE
+req.redist: 
 ---
 
 # RESV_STYLE structure

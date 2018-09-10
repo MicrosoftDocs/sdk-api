@@ -4,17 +4,16 @@ title: IEnumProgressItems::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence.
 old-location: imapi\ienumprogressitems_next.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 9a6b4838-921b-444d-8ac2-f26d9762d9ce
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Next method, IEnumProgressItems.Next, IEnumProgressItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_next, imapi2fs/IEnumProgressItems::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumProgressItems.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumProgressItems::Next

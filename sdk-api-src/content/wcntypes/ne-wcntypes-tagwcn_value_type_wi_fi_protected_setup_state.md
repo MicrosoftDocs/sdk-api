@@ -4,7 +4,7 @@ title: tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration.
 old-location: wcn\wcn_value_type_wi_fi_protected_setup_state.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: b42d6e7c-9dba-4205-97bc-0107c168b754
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wcndevice.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
+req.redist: 
 ---
 
 # tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration

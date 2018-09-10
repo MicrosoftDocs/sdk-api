@@ -4,17 +4,16 @@ title: DnsNameCompare_A function
 author: windows-sdk-content
 description: The DnsNameCompare function compares two DNS names.
 old-location: dns\dnsnamecompare.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsNameCompare, DnsNameCompare function [DNS], DnsNameCompare_A, DnsNameCompare_UTF8, DnsNameCompare_W, _dns_dnsnamecompare, dns.dnsnamecompare, windns/DnsNameCompare, windns/DnsNameCompare_A, windns/DnsNameCompare_UTF8, windns/DnsNameCompare_W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - DnsNameCompare_UTF8
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsNameCompare_A function

@@ -4,17 +4,16 @@ title: IFaxConfiguration::get_ArchiveSizeLow
 author: windows-sdk-content
 description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration.get_ArchiveSizeLow, IFaxConfiguration::ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFaxConfiguration.get_ArchiveSizeLow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::get_ArchiveSizeLow

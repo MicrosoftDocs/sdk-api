@@ -4,17 +4,16 @@ title: IFsrmFileConditionProperty::get_PropertyName
 author: windows-sdk-content
 description: Specifies the name of the file condition property.
 old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 3b4a22da-769e-4425-a37d-5dfe0209ace9
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyName property, IFsrmFileConditionProperty.PropertyName, IFsrmFileConditionProperty.get_PropertyName, IFsrmFileConditionProperty::PropertyName, IFsrmFileConditionProperty::get_PropertyName, IFsrmFileConditionProperty::put_PropertyName, PropertyName property [File Server Resource Manager], PropertyName property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyname, fsrm.ifsrmfileconditionproperty_propertyname, fsrmreports/IFsrmFileConditionProperty::PropertyName, fsrmreports/IFsrmFileConditionProperty::get_PropertyName, fsrmreports/IFsrmFileConditionProperty::put_PropertyName, get_PropertyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileConditionProperty.put_PropertyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileConditionProperty::get_PropertyName

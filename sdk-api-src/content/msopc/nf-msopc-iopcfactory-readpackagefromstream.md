@@ -4,17 +4,16 @@ title: IOpcFactory::ReadPackageFromStream
 author: windows-sdk-content
 description: Deserializes package data from a stream and creates a package object to represent the package being read.
 old-location: opc\iopcfactory_readpackagefromstream.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 227a2724-c2b3-4f12-8d30-1ff1eca59c83
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],ReadPackageFromStream method, IOpcFactory.ReadPackageFromStream, IOpcFactory::ReadPackageFromStream, ReadPackageFromStream, ReadPackageFromStream method [Open Packaging Conventions], ReadPackageFromStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::ReadPackageFromStream, opc.iopcfactory_readpackagefromstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcFactory.ReadPackageFromStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcFactory::ReadPackageFromStream

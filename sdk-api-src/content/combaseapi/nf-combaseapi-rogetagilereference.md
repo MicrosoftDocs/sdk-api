@@ -4,17 +4,16 @@ title: RoGetAgileReference function
 author: windows-sdk-content
 description: Creates an agile reference for an object specified by the given interface.
 old-location: winrt\rogetagilereference.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - RoGetAgileReference
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RoGetAgileReference function

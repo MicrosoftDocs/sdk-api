@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate
 author: windows-sdk-content
 description: Initializes a null-signed certificate request by using an IX509PublicKey object and a template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefrompublickeytemplate.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 20e94948-1455-46c4-bc8c-55dfde45818c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPublicKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate method [Security], InitializeFromPublicKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefrompublickeytemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate

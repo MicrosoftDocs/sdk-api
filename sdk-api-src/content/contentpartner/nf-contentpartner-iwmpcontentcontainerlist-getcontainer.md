@@ -4,17 +4,16 @@ title: IWMPContentContainerList::GetContainer
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainer method retrieves the content container at the specified index.
 old-location: wmp\iwmpcontentcontainerlist_getcontainer.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8922aeed-0598-4dc8-86ac-e113697fcea9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetContainer, GetContainer method [Windows Media Player], GetContainer method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainer method, IWMPContentContainerList.GetContainer, IWMPContentContainerList::GetContainer, IWMPContentContainerListGetContainer, contentpartner/IWMPContentContainerList::GetContainer, wmp.iwmpcontentcontainerlist_getcontainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentContainerList.GetContainer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentContainerList::GetContainer

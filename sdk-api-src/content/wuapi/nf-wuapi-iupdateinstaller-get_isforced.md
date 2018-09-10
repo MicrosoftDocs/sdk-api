@@ -4,17 +4,16 @@ title: IUpdateInstaller::get_IsForced
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether to forcibly install or uninstall an update.
 old-location: wua\iupdateinstaller_isforced.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 80a30a21-9369-44bb-984a-2fdf2c1810e4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsForced property, IUpdateInstaller.IsForced, IUpdateInstaller.get_IsForced, IUpdateInstaller::IsForced, IUpdateInstaller::get_IsForced, IUpdateInstaller::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateInstaller interface, get_IsForced, wua.iupdateinstaller_isforced, wuapi/IUpdateInstaller::IsForced, wuapi/IUpdateInstaller::get_IsForced, wuapi/IUpdateInstaller::put_IsForced
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdateInstaller.put_IsForced
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateInstaller::get_IsForced

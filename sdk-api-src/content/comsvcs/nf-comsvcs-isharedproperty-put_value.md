@@ -4,17 +4,16 @@ title: ISharedProperty::put_Value
 author: windows-sdk-content
 description: Sets the value of a shared property.
 old-location: cos\isharedproperty_put_value.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d193990c-a804-41aa-81d7-75aced274f73
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISharedProperty interface [COM+],put_Value method, ISharedProperty.put_Value, ISharedProperty::put_Value, _cos_ISharedProperty_put_Value, comsvcs/ISharedProperty::put_Value, cos.isharedproperty_put_value, put_Value, put_Value method [COM+], put_Value method [COM+],ISharedProperty interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISharedProperty.put_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISharedProperty::put_Value

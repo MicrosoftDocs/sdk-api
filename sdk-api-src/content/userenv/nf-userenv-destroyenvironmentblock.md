@@ -4,17 +4,16 @@ title: DestroyEnvironmentBlock function
 author: windows-sdk-content
 description: Frees environment variables created by the CreateEnvironmentBlock function.
 old-location: shell\DestroyEnvironmentBlock.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DestroyEnvironmentBlock
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DestroyEnvironmentBlock function

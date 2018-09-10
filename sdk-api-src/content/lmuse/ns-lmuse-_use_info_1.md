@@ -4,7 +4,7 @@ title: "_USE_INFO_1"
 author: windows-sdk-content
 description: Contains information about the connection between a local device and a shared resource.
 old-location: netmgmt\use_info_1_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: b9f680b8-b56a-42be-9af1-d7b18328ded4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmuse.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USE_INFO_1, *PUSE_INFO_1, *LPUSE_INFO_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USE_INFO_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USE_INFO_1, *PUSE_INFO_1, *LPUSE_INFO_1
+req.redist: 
 ---
 
 # _USE_INFO_1 structure

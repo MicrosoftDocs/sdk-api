@@ -4,17 +4,16 @@ title: IAssemblyName::SetProperty
 author: windows-sdk-content
 description: The SetProperty method adds a name-value pair to the side-by-side assembly name. This method can change or delete the value of an existing name-value pair.
 old-location: setup\iassemblyname_setproperty.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: 057bc5b3-008b-495b-b96c-2c0dcc43f1a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyName.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyName::SetProperty

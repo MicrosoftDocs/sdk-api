@@ -4,7 +4,7 @@ title: DXGI_QUERY_VIDEO_MEMORY_INFO
 author: windows-sdk-content
 description: Describes the current video memory budgeting parameters.
 old-location: direct3ddxgi\dxgi_query_video_memory_info.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: E710F3A9-CB12-43B0-B56C-789350BCAE59
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_QUERY_VIDEO_MEMORY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
+req.redist: 
 ---
 
 # DXGI_QUERY_VIDEO_MEMORY_INFO structure

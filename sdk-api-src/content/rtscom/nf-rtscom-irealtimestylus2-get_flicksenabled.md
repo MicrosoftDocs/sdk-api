@@ -4,17 +4,16 @@ title: IRealTimeStylus2::get_FlicksEnabled
 author: windows-sdk-content
 description: Returns a value indicating whether flick gestures are enabled for the RTS.
 old-location: tablet\irealtimestylus2_get_flicksenabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b23d0a41-a5c4-40bc-a5d8-f8273119c92e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IRealTimeStylus2 interface [Tablet PC],get_FlicksEnabled method, IRealTimeStylus2.get_FlicksEnabled, IRealTimeStylus2::get_FlicksEnabled, b23d0a41-a5c4-40bc-a5d8-f8273119c92e, get_FlicksEnabled, get_FlicksEnabled method [Tablet PC], get_FlicksEnabled method [Tablet PC],IRealTimeStylus2 interface, rtscom/IRealTimeStylus2::get_FlicksEnabled, tablet.irealtimestylus2_get_flicksenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus2.get_FlicksEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus2::get_FlicksEnabled

@@ -4,17 +4,16 @@ title: IWSDUdpAddress::SetMessageType
 author: windows-sdk-content
 description: Sets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_setmessagetype.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 1b041094-fb00-4b73-8753-cf89f9b10f97
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetMessageType, IWSDUdpAddress::SetMessageType, SetMessageType, SetMessageType method, SetMessageType method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setmessagetype, wsdbase/IWSDUdpAddress::SetMessageType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDUdpAddress.SetMessageType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDUdpAddress::SetMessageType

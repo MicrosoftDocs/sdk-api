@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProviderEx::OnReuseLuns
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_onreuseluns.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 0a92c992-a351-4d39-a370-f720e50dfbf3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnReuseLuns method, IVssHardwareSnapshotProviderEx.OnReuseLuns, IVssHardwareSnapshotProviderEx::OnReuseLuns, OnReuseLuns, OnReuseLuns method, OnReuseLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_onreuseluns, vsprov/IVssHardwareSnapshotProviderEx::OnReuseLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProviderEx.OnReuseLuns
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProviderEx::OnReuseLuns
@@ -64,17 +62,17 @@ This method is reserved for future use.
 
 ### -param pSnapshotLuns
 
-
+TBD
 
 
 ### -param pOriginalLuns
 
-
+TBD
 
 
 ### -param dwCount
 
-
+TBD
 
 
 

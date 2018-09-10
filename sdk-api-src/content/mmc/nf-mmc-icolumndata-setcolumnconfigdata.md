@@ -4,17 +4,16 @@ title: IColumnData::SetColumnConfigData
 author: windows-sdk-content
 description: The IColumnData::SetColumnConfigData method enables a snap-in to set the persisted width, order, and hidden status of columns in a column set.
 old-location: mmc\icolumndata_setcolumnconfigdata.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 2f6727bd-b7ba-4e91-9dce-53605b0b6fe1
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData.SetColumnConfigData, IColumnData::SetColumnConfigData, SetColumnConfigData, SetColumnConfigData method [MMC], SetColumnConfigData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnconfigdata, mmc.icolumndata_setcolumnconfigdata, mmc/IColumnData::SetColumnConfigData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IColumnData.SetColumnConfigData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IColumnData::SetColumnConfigData

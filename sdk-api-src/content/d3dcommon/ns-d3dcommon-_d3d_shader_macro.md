@@ -4,7 +4,7 @@ title: "_D3D_SHADER_MACRO"
 author: windows-sdk-content
 description: Defines a shader macro.
 old-location: direct3d11\d3d_shader_macro.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MACRO, *LPD3D_SHADER_MACRO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_MACRO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_MACRO, *LPD3D_SHADER_MACRO
+req.redist: 
 ---
 
 # _D3D_SHADER_MACRO structure

@@ -4,17 +4,16 @@ title: IUIAutomationTreeWalker::GetLastChildElement
 author: windows-sdk-content
 description: Retrieves the last child element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetLastChild.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9e59d8f6-1540-4077-9e0e-f75bf8846da9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLastChildElement, GetLastChildElement method [Windows Accessibility], GetLastChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetLastChildElement method, IUIAutomationTreeWalker.GetLastChildElement, IUIAutomationTreeWalker::GetLastChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetLastChild, uiauto_IUIAutomationTreeWalker_GetLastChild, uiautomationclient/IUIAutomationTreeWalker::GetLastChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetLastChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTreeWalker.GetLastChildElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTreeWalker::GetLastChildElement

@@ -4,17 +4,16 @@ title: IGPMGPOCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmgpocollection_get__newenum.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 7db1ec65-9850-4f14-b223-a7decc7648a6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMGPOCollection interface [GPMC],get__NewEnum method, IGPMGPOCollection.get__NewEnum, IGPMGPOCollection::get__NewEnum, _win32_igpmgpocollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMGPOCollection interface, gpmc.igpmgpocollection_get__newenum, gpmgmt/IGPMGPOCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMGPOCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPOCollection::get__NewEnum

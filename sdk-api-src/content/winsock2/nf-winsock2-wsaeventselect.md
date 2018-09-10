@@ -4,17 +4,16 @@ title: WSAEventSelect function
 author: windows-sdk-content
 description: The WSAEventSelect function specifies an event object to be associated with the specified set of FD_XXX network events.
 old-location: winsock\wsaeventselect_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: f98a71e4-47fb-47a4-b37e-e4cc801a8f98
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAEventSelect, WSAEventSelect function [Winsock], _win32_wsaeventselect_2, winsock.wsaeventselect_2, winsock2/WSAEventSelect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAEventSelect
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAEventSelect function

@@ -4,17 +4,16 @@ title: ISyncMgrConflictPresenter::PresentConflict
 author: windows-sdk-content
 description: Presents the conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrConflictPresenter interface [Windows Shell],PresentConflict method, ISyncMgrConflictPresenter.PresentConflict, ISyncMgrConflictPresenter::PresentConflict, PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell],ISyncMgrConflictPresenter interface, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictPresenter.PresentConflict
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictPresenter::PresentConflict

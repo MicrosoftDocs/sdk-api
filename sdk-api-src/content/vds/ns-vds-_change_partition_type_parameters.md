@@ -4,7 +4,7 @@ title: "_CHANGE_PARTITION_TYPE_PARAMETERS"
 author: windows-sdk-content
 description: Describes parameters to be used when changing a partition's type.
 old-location: base\change_partition_type_parameters.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGE_PARTITION_TYPE_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
+req.redist: 
 ---
 
 # _CHANGE_PARTITION_TYPE_PARAMETERS structure

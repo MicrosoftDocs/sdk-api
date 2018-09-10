@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::put__CustomCompositorClass
 author: windows-sdk-content
 description: The put__CustomCompositorClass method specifies the class identifier (CLSID) of a custom image compositor, as a GUID.
 old-location: mstv\imsvidvideorenderer_put__customcompositorclass.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 031af4a5-6eed-44c9-9b0c-f472d709db66
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__CustomCompositorClass method, IMSVidVideoRenderer.put__CustomCompositorClass, IMSVidVideoRenderer::put__CustomCompositorClass, IMSVidVideoRendererput__CustomCompositorClass, mstv.imsvidvideorenderer_put__customcompositorclass, put__CustomCompositorClass, put__CustomCompositorClass method [Microsoft TV Technologies], put__CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__CustomCompositorClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.put__CustomCompositorClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::put__CustomCompositorClass

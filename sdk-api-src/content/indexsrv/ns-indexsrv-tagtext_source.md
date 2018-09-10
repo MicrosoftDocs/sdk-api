@@ -4,7 +4,7 @@ title: tagTEXT_SOURCE
 author: windows-sdk-content
 description: Contains information about text that the word breaker will process.
 old-location: search\_search_TEXT_SOURCE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: indexsrv.h
 req.include-header: 
-req.redist: the Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXT_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TEXT_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TEXT_SOURCE
+req.redist: the Windows NT 4.0 Option Pack
 ---
 
 # tagTEXT_SOURCE structure

@@ -4,17 +4,16 @@ title: Tbsi_GetDeviceInfo function
 author: windows-sdk-content
 description: Obtains the version of the TPM on the computer.
 old-location: tbs\tbsi_getdeviceinfo.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: 49C36A54-0D21-461C-A240-8D12ADF2AFA1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_getdeviceinfo, tbs/Tbsi_GetDeviceInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Tbs.lib
+req.dll: Tbs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Tbsi_GetDeviceInfo
 product: Windows
 targetos: Windows
-req.lib: Tbs.lib
-req.dll: Tbs.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Tbsi_GetDeviceInfo function

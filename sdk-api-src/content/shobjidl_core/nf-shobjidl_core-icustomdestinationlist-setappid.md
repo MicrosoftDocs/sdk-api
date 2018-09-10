@@ -4,17 +4,16 @@ title: ICustomDestinationList::SetAppID
 author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose taskbar button will hold the custom Jump List built through the methods of this interface. This method is optional.
 old-location: shell\ICustomDestinationList_SetAppID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b3a5d32-bf44-4c4f-9b31-6c0a82aac6fd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICustomDestinationList interface [Windows Shell],SetAppID method, ICustomDestinationList.SetAppID, ICustomDestinationList::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],ICustomDestinationList interface, _shell_ICustomDestinationList_SetAppID, shell.ICustomDestinationList_SetAppID, shobjidl_core/ICustomDestinationList::SetAppID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICustomDestinationList.SetAppID
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICustomDestinationList::SetAppID

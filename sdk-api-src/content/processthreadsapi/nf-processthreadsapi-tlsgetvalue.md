@@ -4,17 +4,16 @@ title: TlsGetValue function
 author: windows-sdk-content
 description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 old-location: base\tlsgetvalue.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
+req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - TlsGetValue
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
-req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TlsGetValue function

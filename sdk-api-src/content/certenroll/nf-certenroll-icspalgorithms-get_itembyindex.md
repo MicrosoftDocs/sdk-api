@@ -4,17 +4,16 @@ title: ICspAlgorithms::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an ICspAlgorithm object from the collection by index number.
 old-location: security\icspalgorithms_itembyindex_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: a9016683-fc62-4440-9c15-318199810091
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByIndex property, ICspAlgorithms.ItemByIndex, ICspAlgorithms.get_ItemByIndex, ICspAlgorithms::ItemByIndex, ICspAlgorithms::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByIndex, certenroll/ICspAlgorithms::get_ItemByIndex, get_ItemByIndex, security.icspalgorithms_itembyindex_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithms.get_ItemByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithms::get_ItemByIndex

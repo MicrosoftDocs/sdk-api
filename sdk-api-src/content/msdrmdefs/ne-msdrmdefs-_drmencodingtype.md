@@ -4,7 +4,7 @@ title: "_DRMENCODINGTYPE"
 author: windows-sdk-content
 description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.
 old-location: rm\drmencodingtype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 7859d7e9-aec4-4255-a11b-5d18c08fd6ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMENCODINGTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMENCODINGTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRMENCODINGTYPE
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

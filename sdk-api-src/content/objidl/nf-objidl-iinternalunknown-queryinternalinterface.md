@@ -4,17 +4,16 @@ title: IInternalUnknown::QueryInternalInterface
 author: windows-sdk-content
 description: Retrieves pointers to the supported internal interfaces on an object.
 old-location: com\iinternalunknown_queryinternalinterface.htm
-old-project: com
+tech.root: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInternalUnknown.QueryInternalInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IInternalUnknown::QueryInternalInterface

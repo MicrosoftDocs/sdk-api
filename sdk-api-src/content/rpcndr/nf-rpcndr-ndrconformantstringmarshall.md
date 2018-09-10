@@ -4,17 +4,16 @@ title: NdrConformantStringMarshall function
 author: windows-sdk-content
 description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.
 old-location: rpc\ndrconformantstringmarshall.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: d2e323fb-2bb2-4c6c-8f26-fc7e19c7fea7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrConformantStringMarshall, NdrConformantStringMarshall function [RPC], rpc.ndrconformantstringmarshall, rpcndr/NdrConformantStringMarshall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrConformantStringMarshall
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrConformantStringMarshall function

@@ -4,17 +4,16 @@ title: capGetStatus macro
 author: windows-sdk-content
 description: The capGetStatus macro retrieves the status of the capture window. You can use this macro or explicitly call the WM_CAP_GET_STATUS message.
 old-location: multimedia\capgetstatus.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capGetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capGetStatus macro

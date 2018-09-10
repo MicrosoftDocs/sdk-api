@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxJobStatus.get_AvailableOperations
 title: IFaxJobStatus::get_AvailableOperations
 author: windows-sdk-content
 description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
-old-location: fax\_mfax_faxjobstatus_availableoperations_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xwz.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxJobStatus object, FaxJobStatus object [Fax Service],AvailableOperations property, FaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_availableoperations_vb, get_AvailableOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],AvailableOperations property, IFaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_availableoperations_cpp, faxcomex/IFaxJobStatus::AvailableOperations, faxcomex/IFaxJobStatus::get_AvailableOperations, get_AvailableOperations
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxJobStatus.AvailableOperations
+ - IFaxJobStatus.AvailableOperations
+ - IFaxJobStatus.get_AvailableOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJobStatus::get_AvailableOperations

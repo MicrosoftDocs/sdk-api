@@ -4,17 +4,16 @@ title: ITPluggableTerminalSuperclassInfo::get_CLSID
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_clsid.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 96f2fc11-43b0-4082-ab3d-d5813cd55ee2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalSuperclassInfo.get_CLSID, ITPluggableTerminalSuperclassInfo::get_CLSID, _tapi3_itpluggableterminalsuperclassinfo_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalSuperclassInfo interface, tapi3.itpluggableterminalsuperclassinfo_get_clsid, tapi3if/ITPluggableTerminalSuperclassInfo::get_CLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalSuperclassInfo.get_CLSID
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalSuperclassInfo::get_CLSID

@@ -4,7 +4,7 @@ title: IMFVideoMixerBitmap
 author: windows-sdk-content
 description: Alpha-blends a static bitmap image with the video displayed by the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideomixerbitmap.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMixerBitmap
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerBitmap interface

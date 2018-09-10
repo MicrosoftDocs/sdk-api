@@ -4,17 +4,16 @@ title: IWCNDevice::GetStringAttribute
 author: windows-sdk-content
 description: The IWCNDevice::GetStringAttribute method gets a cached attribute from the device as a string.
 old-location: wcn\iwcndevice_getstringattribute.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.GetStringAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::GetStringAttribute

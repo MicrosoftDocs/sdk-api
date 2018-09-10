@@ -4,17 +4,16 @@ title: IFont::put_Charset
 author: windows-sdk-content
 description: Sets the font's character set.
 old-location: com\ifont_put_charset.htm
-old-project: com
+tech.root: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Charset method, IFont.put_Charset, IFont::put_Charset, _ctrl_ifont_put_charset, com.ifont_put_charset, ocidl/IFont::put_Charset, put_Charset, put_Charset method [COM], put_Charset method [COM],IFont interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.put_Charset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::put_Charset

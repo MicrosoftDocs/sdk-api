@@ -4,17 +4,16 @@ title: IDXGISwapChainMedia::SetPresentDuration
 author: windows-sdk-content
 description: Requests a custom presentation duration (custom refresh rate).
 old-location: direct3ddxgi\idxgiswapchainmedia_setpresentduration.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F2852200-01B4-4CB7-8635-87CF827E1D27
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGISwapChainMedia interface [DXGI],SetPresentDuration method, IDXGISwapChainMedia.SetPresentDuration, IDXGISwapChainMedia::SetPresentDuration, SetPresentDuration, SetPresentDuration method [DXGI], SetPresentDuration method [DXGI],IDXGISwapChainMedia interface, direct3ddxgi.idxgiswapchainmedia_setpresentduration, dxgi1_3/IDXGISwapChainMedia::SetPresentDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChainMedia.SetPresentDuration
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChainMedia::SetPresentDuration

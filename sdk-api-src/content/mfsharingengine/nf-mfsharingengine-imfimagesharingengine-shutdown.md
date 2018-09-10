@@ -4,17 +4,16 @@ title: IMFImageSharingEngine::Shutdown
 author: windows-sdk-content
 description: Shuts down the image sharing engine.
 old-location: mf\imfimagesharingengine_shutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFImageSharingEngine.Shutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFImageSharingEngine::Shutdown

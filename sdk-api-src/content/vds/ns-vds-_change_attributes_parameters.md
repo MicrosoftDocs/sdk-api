@@ -4,7 +4,7 @@ title: "_CHANGE_ATTRIBUTES_PARAMETERS"
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\change_attributes_parameters.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGE_ATTRIBUTES_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGE_ATTRIBUTES_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: CHANGE_ATTRIBUTES_PARAMETERS
+req.redist: 
 ---
 
 # _CHANGE_ATTRIBUTES_PARAMETERS structure

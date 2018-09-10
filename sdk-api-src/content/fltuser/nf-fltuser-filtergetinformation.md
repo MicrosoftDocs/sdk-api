@@ -4,17 +4,16 @@ title: FilterGetInformation function
 author: windows-sdk-content
 description: The FilterGetInformation function returns various kinds of information about a minifilter.
 old-location: ifsk\filtergetinformation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterGetInformation
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterGetInformation function

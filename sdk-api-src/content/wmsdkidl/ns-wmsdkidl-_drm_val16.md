@@ -4,7 +4,7 @@ title: "_DRM_VAL16"
 author: windows-sdk-content
 description: The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values.
 old-location: wmformat\drm_val16.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_VAL16
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRM_VAL16
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DRM_VAL16
+req.redist: 
 ---
 
 # _DRM_VAL16 structure

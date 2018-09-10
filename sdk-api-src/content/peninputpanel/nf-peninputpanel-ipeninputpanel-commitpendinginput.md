@@ -4,17 +4,16 @@ title: IPenInputPanel::CommitPendingInput
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\peninputpanel_commitpendinginput.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4dd0f334-174a-495c-b363-149960ae2253
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4dd0f334-174a-495c-b363-149960ae2253, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CommitPendingInput method, IPenInputPanel.CommitPendingInput, IPenInputPanel::CommitPendingInput, peninputpanel/IPenInputPanel::CommitPendingInput, tablet.peninputpanel_commitpendinginput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPenInputPanel.CommitPendingInput
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::CommitPendingInput

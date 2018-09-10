@@ -4,7 +4,7 @@ title: SHELL_LINK_DATA_FLAGS
 author: windows-sdk-content
 description: Specifies option settings. Used with IShellLinkDataList::GetFlags and IShellLinkDataList::SetFlags.
 old-location: shell\SHELL_LINK_DATA_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3b810223-b2d9-40ca-92bd-4d9f31981355
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_LINK_DATA_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHELL_LINK_DATA_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHELL_LINK_DATA_FLAGS
+req.redist: 
 ---
 
 # SHELL_LINK_DATA_FLAGS enumeration

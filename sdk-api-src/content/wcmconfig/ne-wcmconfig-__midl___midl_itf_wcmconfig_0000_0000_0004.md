@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0004"
 author: windows-sdk-content
 description: Describes setting types that are returned from the ISettingsItem::GetSettingType method and defines the object model type for the calling ISettingsItem interface.
 old-location: smi\wcmsettingtype.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmSettingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WcmSettingType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WcmSettingType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wcmconfig_0000_0000_0004 enumeration

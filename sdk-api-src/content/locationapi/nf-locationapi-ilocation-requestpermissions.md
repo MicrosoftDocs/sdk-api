@@ -4,17 +4,16 @@ title: ILocation::RequestPermissions
 author: windows-sdk-content
 description: Opens a system dialog box to request user permission to enable location devices.
 old-location: winlocation_com_ref\ilocation_requestpermissions.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILocation interface [WinLocation],RequestPermissions method, ILocation.RequestPermissions, ILocation::RequestPermissions, RequestPermissions, RequestPermissions method [WinLocation], RequestPermissions method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_requestpermissions, locationapi/ILocation::RequestPermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocation.RequestPermissions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILocation::RequestPermissions

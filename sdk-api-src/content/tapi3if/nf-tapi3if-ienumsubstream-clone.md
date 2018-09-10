@@ -4,17 +4,16 @@ title: IEnumSubStream::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumsubstream_clone.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 42f5ecba-4555-410c-97b1-65eb02cd5032
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumSubStream interface, IEnumSubStream interface [TAPI 2.2],Clone method, IEnumSubStream.Clone, IEnumSubStream::Clone, _tapi3_ienumsubstream_clone, tapi3.ienumsubstream_clone, tapi3if/IEnumSubStream::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSubStream.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSubStream::Clone

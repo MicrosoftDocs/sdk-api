@@ -4,7 +4,7 @@ title: "_SECPKG_CALL_INFO"
 author: windows-sdk-content
 description: Contains information about a currently executing call.
 old-location: security\secpkg_call_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CALL_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
+req.redist: 
 ---
 
 # _SECPKG_CALL_INFO structure

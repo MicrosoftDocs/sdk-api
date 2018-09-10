@@ -4,17 +4,16 @@ title: IAMMediaTypeStream::CreateSample
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.
 old-location: dshow\iammediatypestream_createsample.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaTypeStream.CreateSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaTypeStream::CreateSample

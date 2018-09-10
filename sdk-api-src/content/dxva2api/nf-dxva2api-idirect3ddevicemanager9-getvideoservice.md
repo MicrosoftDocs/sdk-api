@@ -4,17 +4,16 @@ title: IDirect3DDeviceManager9::GetVideoService
 author: windows-sdk-content
 description: Gets a DirectX Video Acceleration (DXVA) service interface.
 old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirect3DDeviceManager9.GetVideoService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDeviceManager9::GetVideoService

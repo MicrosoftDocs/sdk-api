@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_Message
 title: IFaxOutgoingMessageIterator::get_Message
 author: windows-sdk-content
-description: The Message property retrieves the outbound fax message under the archive cursor.
-old-location: fax\_mfax_faxoutgoingmessageiterator_message.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_7wkl.htm
+description: The IFaxOutgoingMessageIterator::get_Message property retrieves the outbound fax message under the archive cursor.
+old-location: fax\_mfax_faxoutgoingmessageiterator_message_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_7wkl_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutgoingMessageIterator object [Fax Service],Message property, FaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],FaxOutgoingMessageIterator object, _mfax_faxoutgoingmessageiterator.message, fax._mfax_faxoutgoingmessageiterator_message, get_Message
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],Message property, IFaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.message_cpp, fax._mfax_faxoutgoingmessageiterator_message_cpp, faxcomex/IFaxOutgoingMessageIterator::Message, faxcomex/IFaxOutgoingMessageIterator::get_Message, get_Message
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingMessageIterator.Message
+ - IFaxOutgoingMessageIterator.Message
  - IFaxOutgoingMessageIterator.get_Message
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingMessageIterator::get_Message
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Message</b> property retrieves the outbound fax message under the archive cursor.
+The <b>IFaxOutgoingMessageIterator::get_Message</b> property retrieves the outbound fax message under the archive cursor.
 
 This property is read-only.
 

@@ -4,17 +4,16 @@ title: InjectNtmsMedia function
 author: windows-sdk-content
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
 old-location: fs\injectntmsmedia.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InjectNtmsMedia
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # InjectNtmsMedia function

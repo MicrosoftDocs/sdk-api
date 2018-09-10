@@ -4,17 +4,16 @@ title: ICryptAttributes::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icryptattributes__newenum_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 872ef6ff-d093-48e7-9062-4b81a771666d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICryptAttributes interface [Security],_NewEnum property, ICryptAttributes._NewEnum, ICryptAttributes.get__NewEnum, ICryptAttributes::_NewEnum, ICryptAttributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::_NewEnum, certenroll/ICryptAttributes::get__NewEnum, get__NewEnum, security.icryptattributes__newenum_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICryptAttributes.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttributes::get__NewEnum

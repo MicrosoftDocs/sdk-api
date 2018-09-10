@@ -4,7 +4,7 @@ title: ICertPropertyRequestOriginator
 author: windows-sdk-content
 description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.
 old-location: security\icertpropertyrequestoriginator.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyRequestOriginator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyRequestOriginator interface

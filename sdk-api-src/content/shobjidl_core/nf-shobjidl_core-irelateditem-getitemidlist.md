@@ -4,17 +4,16 @@ title: IRelatedItem::GetItemIDList
 author: windows-sdk-content
 description: Gets the pointer to an item identifier list (PIDL) for the item that is related.
 old-location: shell\IRelatedItem_GetItemIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2cef7dcb-be66-492c-a217-8b24d9f79506
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemIDList, GetItemIDList method [Windows Shell], GetItemIDList method [Windows Shell],IRelatedItem interface, IRelatedItem interface [Windows Shell],GetItemIDList method, IRelatedItem.GetItemIDList, IRelatedItem::GetItemIDList, _shell_IRelatedItem_GetItemIDList, shell.IRelatedItem_GetItemIDList, shobjidl_core/IRelatedItem::GetItemIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRelatedItem.GetItemIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IRelatedItem::GetItemIDList

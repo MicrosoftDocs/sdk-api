@@ -4,7 +4,7 @@ title: "_AUTH_VALIDATION_EX"
 author: windows-sdk-content
 description: Used for enabling clients to bypass Point-to-Point (PPP) authentication during Secure Socket Tunneling Protocol (SSTP) connection establishment.
 old-location: rras\auth_validation_ex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 17e78379-a9f8-4aab-aff3-aa9b21eb629c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTH_VALIDATION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTH_VALIDATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AUTH_VALIDATION_EX
+req.redist: 
 ---
 
 # _AUTH_VALIDATION_EX structure

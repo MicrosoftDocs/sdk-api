@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_sensorsapi_0000_0000_0001"
 author: windows-sdk-content
 description: Defines possible operational states for sensors.
 old-location: winsensors_com_ref\sensorstate.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 4cf993ba-d767-4ef8-94a9-e819cc210360
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -26,9 +25,10 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: SensorState
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SensorState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SensorState
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sensorsapi_0000_0000_0001 enumeration

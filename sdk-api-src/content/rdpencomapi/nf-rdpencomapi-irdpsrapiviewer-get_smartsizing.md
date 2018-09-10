@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::get_SmartSizing
 author: windows-sdk-content
 description: Gets or sets the smart sizing property of the viewer ActiveX control.
 old-location: rdp\irdpsrapiviewer_smartsizing.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 3de98656-7d66-4d39-a5a7-a8240553c72f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],SmartSizing property, IRDPSRAPIViewer.SmartSizing, IRDPSRAPIViewer.get_SmartSizing, IRDPSRAPIViewer::SmartSizing, IRDPSRAPIViewer::get_SmartSizing, IRDPSRAPIViewer::put_SmartSizing, RDPViewer object [RDP],SmartSizing property, SmartSizing property [RDP], SmartSizing property [RDP],IRDPSRAPIViewer interface, SmartSizing property [RDP],RDPViewer object, get_SmartSizing, rdp.irdpsrapiviewer_smartsizing, rdpencomapi/IRDPSRAPIViewer::SmartSizing, rdpencomapi/IRDPSRAPIViewer::get_SmartSizing, rdpencomapi/IRDPSRAPIViewer::put_SmartSizing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RDPViewer.SmartSizing
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::get_SmartSizing

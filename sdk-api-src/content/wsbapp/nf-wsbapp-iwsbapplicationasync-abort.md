@@ -4,17 +4,16 @@ title: IWsbApplicationAsync::Abort
 author: windows-sdk-content
 description: Cancels an incomplete asynchronous operation.
 old-location: wsb\iwsbapplicationasync_abort.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows Server Backup],IWsbApplicationAsync interface, IWsbApplicationAsync interface [Windows Server Backup],Abort method, IWsbApplicationAsync.Abort, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationAsync.Abort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationAsync::Abort

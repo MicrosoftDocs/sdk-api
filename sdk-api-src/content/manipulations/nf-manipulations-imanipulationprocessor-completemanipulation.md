@@ -4,17 +4,16 @@ title: IManipulationProcessor::CompleteManipulation
 author: windows-sdk-content
 description: The CompleteManipulation method is called when the developer chooses to end the manipulation.
 old-location: wintouch\imanipulationprocessor_completemanipulation.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.CompleteManipulation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::CompleteManipulation

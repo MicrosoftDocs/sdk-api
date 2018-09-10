@@ -4,17 +4,16 @@ title: IQualProp::get_DevSyncOffset
 author: windows-sdk-content
 description: The get_DevSyncOffset method retrieves the average time difference between when the video frames should have been displayed and when they actually were.
 old-location: dshow\iqualprop_get_devsyncoffset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 69160479-7c72-46ed-9421-2a6c2c2861db
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IQualProp interface [DirectShow],get_DevSyncOffset method, IQualProp.get_DevSyncOffset, IQualProp::get_DevSyncOffset, IQualPropget_DevSyncOffset, amvideo/IQualProp::get_DevSyncOffset, dshow.iqualprop_get_devsyncoffset, get_DevSyncOffset, get_DevSyncOffset method [DirectShow], get_DevSyncOffset method [DirectShow],IQualProp interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IQualProp.get_DevSyncOffset
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IQualProp::get_DevSyncOffset

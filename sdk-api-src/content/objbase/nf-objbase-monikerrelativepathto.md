@@ -4,17 +4,16 @@ title: MonikerRelativePathTo function
 author: windows-sdk-content
 description: Provides a moniker that, when composed onto the end of the first specified moniker (or one with a similar structure), yields the second specified moniker.
 old-location: com\monikerrelativepathto.htm
-old-project: com
+tech.root: com
 ms.assetid: 55ab4db3-a94e-48ba-abe3-44963c35e062
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_MonikerRelativePathTo, com.monikerrelativepathto, objbase/MonikerRelativePathTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MonikerRelativePathTo
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # MonikerRelativePathTo function

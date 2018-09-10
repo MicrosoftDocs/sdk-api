@@ -4,17 +4,16 @@ title: MFCreateASFStreamingMediaSink function
 author: windows-sdk-content
 description: Creates an activation object for the ASF streaming sink.
 old-location: mf\mfcreateasfstreamingmediasink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: bfa34529-e1f9-462b-9c99-b65cd526d364
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateASFStreamingMediaSink
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateASFStreamingMediaSink function

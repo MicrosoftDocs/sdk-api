@@ -4,17 +4,16 @@ title: Dhcpv6RequestPrefix function
 author: windows-sdk-content
 description: Requests a specific prefix.
 old-location: dhcp\dhcpv6requestprefix.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StatusCode
+req.lib: Dhcpcsvc6.lib
+req.dll: Dhcpcsvc6.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Dhcpv6RequestPrefix
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc6.lib
-req.dll: Dhcpcsvc6.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Dhcpv6RequestPrefix function

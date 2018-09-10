@@ -4,17 +4,16 @@ title: IMediaControl::StopWhenReady
 author: windows-sdk-content
 description: The StopWhenReady method pauses the filter graph, allowing filters to queue data, and then stops the filter graph.
 old-location: dshow\imediacontrol_stopwhenready.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 55dd55b1-51f0-4b47-8432-99741eaee8bb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaControl interface [DirectShow],StopWhenReady method, IMediaControl.StopWhenReady, IMediaControl::StopWhenReady, IMediaControlStopWhenReady, StopWhenReady, StopWhenReady method [DirectShow], StopWhenReady method [DirectShow],IMediaControl interface, control/IMediaControl::StopWhenReady, dshow.imediacontrol_stopwhenready
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaControl.StopWhenReady
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaControl::StopWhenReady

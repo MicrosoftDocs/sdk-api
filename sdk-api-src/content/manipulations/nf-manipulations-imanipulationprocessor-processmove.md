@@ -4,17 +4,16 @@ title: IManipulationProcessor::ProcessMove
 author: windows-sdk-content
 description: The ProcessMove method feeds movement data for the target object to its manipulation processor.
 old-location: wintouch\imanipulationprocessor_processmove.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: e2c0e975-3edd-43d5-8a58-2d8166413c76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.ProcessMove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::ProcessMove

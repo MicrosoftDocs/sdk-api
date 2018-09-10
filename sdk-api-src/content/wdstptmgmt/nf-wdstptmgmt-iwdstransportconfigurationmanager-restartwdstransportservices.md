@@ -4,17 +4,16 @@ title: IWdsTransportConfigurationManager::RestartWdsTransportServices
 author: windows-sdk-content
 description: Stops and then restarts any WDS transport services that are running. If no services are running, the method returns with S_OK without further action.
 old-location: wds\iwdstransportconfigurationmanager_restartwdstransportservices.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: f0aa84fa-f2a6-4494-8994-89854565fd7b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],RestartWdsTransportServices method, IWdsTransportConfigurationManager.RestartWdsTransportServices, IWdsTransportConfigurationManager::RestartWdsTransportServices, RestartWdsTransportServices, RestartWdsTransportServices method [Windows Deployment Services], RestartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_restartwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportConfigurationManager.RestartWdsTransportServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportConfigurationManager::RestartWdsTransportServices

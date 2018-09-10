@@ -4,17 +4,16 @@ title: FILEMUIINFO_GET_MAIN_TYPEID macro
 author: windows-sdk-content
 description: Gets the main module types array element associated with the type identifier size and offset in a FILEMUIINFO structure. The information is provided in the dwTypeIDMainSize and dwTypeIDMainOffset members of the structure.
 old-location: intl\filemuiinfo_get_main_typeid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 0102b364-ffc7-48a0-a7d1-5a64fba6428e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEID, FILEMUIINFO_GET_MAIN_TYPEID macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEID, intl.filemuiinfo_get_main_typeid, winnls/FILEMUIINFO_GET_MAIN_TYPEID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEMUIINFO_GET_MAIN_TYPEID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FILEMUIINFO_GET_MAIN_TYPEID macro

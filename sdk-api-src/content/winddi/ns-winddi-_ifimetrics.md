@@ -4,7 +4,7 @@ title: "_IFIMETRICS"
 author: windows-sdk-content
 description: The IFIMETRICS structure defines information for a given typeface that GDI can use.
 old-location: display\ifimetrics.htm
-old-project: display
+tech.root: display
 ms.assetid: fd2606ed-ec61-430a-aaad-38a4c3a207b6
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IFIMETRICS, *PIFIMETRICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFIMETRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: IFIMETRICS, *PIFIMETRICS
+req.redist: 
 ---
 
 # _IFIMETRICS structure

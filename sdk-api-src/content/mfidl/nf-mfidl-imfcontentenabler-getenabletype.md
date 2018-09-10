@@ -4,17 +4,16 @@ title: IMFContentEnabler::GetEnableType
 author: windows-sdk-content
 description: Retrieves the type of operation that this content enabler performs.
 old-location: mf\imfcontentenabler_getenabletype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFContentEnabler.GetEnableType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFContentEnabler::GetEnableType

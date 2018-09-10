@@ -4,17 +4,16 @@ title: WdsTransportClientQueryStatus function
 author: windows-sdk-content
 description: Retrieves the current status of an ongoing or complete multicast transmission from the multicast client.
 old-location: wds\wdstransportclientquerystatus.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 405d8575-a6ae-483e-a49a-9281c5e825a7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportClientQueryStatus, WdsTransportClientQueryStatus function [Windows Deployment Services], wds.wdstransportclientquerystatus, wdstci/WdsTransportClientQueryStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.lib: Wdstptc.lib
+req.dll: Wdstptc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportClientQueryStatus
 product: Windows
 targetos: Windows
-req.lib: Wdstptc.lib
-req.dll: Wdstptc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportClientQueryStatus function

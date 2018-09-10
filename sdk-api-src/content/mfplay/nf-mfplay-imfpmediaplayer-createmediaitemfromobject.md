@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::CreateMediaItemFromObject
 author: windows-sdk-content
 description: Creates a media item from an object.
 old-location: mf\imfpmediaplayer_createmediaitemfromobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.CreateMediaItemFromObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::CreateMediaItemFromObject

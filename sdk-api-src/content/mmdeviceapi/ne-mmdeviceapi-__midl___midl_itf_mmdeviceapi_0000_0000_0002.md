@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002"
 author: windows-sdk-content
 description: The ERole enumeration defines constants that indicate the role that the system has assigned to an audio endpoint device.
 old-location: coreaudio\erole.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ERole
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ERole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ERole
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0002 enumeration

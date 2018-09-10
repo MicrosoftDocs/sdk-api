@@ -4,17 +4,16 @@ title: IPropertyStorage::WriteMultiple
 author: windows-sdk-content
 description: Writes a specified group of properties to the current property set.
 old-location: stg\ipropertystorage_writemultiple.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyStorage.WriteMultiple
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStorage::WriteMultiple

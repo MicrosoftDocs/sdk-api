@@ -4,7 +4,7 @@ title: "_VDS_NOTIFICATION_TARGET_TYPE"
 author: windows-sdk-content
 description: Defines the set of the valid target types (subjects) of a VDS notification.
 old-location: base\vds_notification_target_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: ce1f67b4-f7ea-4797-9073-0d80879c4a63
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_NOTIFICATION_TARGET_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_NOTIFICATION_TARGET_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_NOTIFICATION_TARGET_TYPE
+req.redist: 
 ---
 
 # _VDS_NOTIFICATION_TARGET_TYPE enumeration

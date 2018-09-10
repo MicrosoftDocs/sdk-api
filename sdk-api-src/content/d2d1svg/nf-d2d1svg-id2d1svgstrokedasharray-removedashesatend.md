@@ -4,17 +4,16 @@ title: ID2D1SvgStrokeDashArray::RemoveDashesAtEnd
 author: windows-sdk-content
 description: Removes dashes from the end of the array.
 old-location: direct2d\id2d1svgstrokedasharray_removedashesatend.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: BF695850-55E2-420E-84B2-075174C0EB8B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgStrokeDashArray interface [Direct2D],RemoveDashesAtEnd method, ID2D1SvgStrokeDashArray.RemoveDashesAtEnd, ID2D1SvgStrokeDashArray::RemoveDashesAtEnd, RemoveDashesAtEnd, RemoveDashesAtEnd method [Direct2D], RemoveDashesAtEnd method [Direct2D],ID2D1SvgStrokeDashArray interface, d2d1svg/ID2D1SvgStrokeDashArray::RemoveDashesAtEnd, direct2d.id2d1svgstrokedasharray_removedashesatend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgStrokeDashArray.RemoveDashesAtEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgStrokeDashArray::RemoveDashesAtEnd

@@ -4,17 +4,16 @@ title: RtwqUnregisterPlatformEvents function
 author: windows-sdk-content
 description: Unregisters a listener event from the callback platform.
 old-location: base\rtwqunregisterplatformevents.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqUnregisterPlatformEvents
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqUnregisterPlatformEvents function

@@ -4,7 +4,7 @@ title: "_COPP_StatusHDCPFlags"
 author: windows-sdk-content
 description: Contains HDCP status flags. This enumeration is used in the DXVA_COPPStatusHDCPKeyData structure.
 old-location: dshow\copp_statushdcpflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 40ad7f00-9b4f-4c2d-8c6b-05725a072bfc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_StatusHDCPFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_StatusHDCPFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_StatusHDCPFlags
+req.redist: 
 ---
 
 # _COPP_StatusHDCPFlags enumeration

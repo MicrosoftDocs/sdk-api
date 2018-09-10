@@ -4,7 +4,7 @@ title: CRYPT_XML_PROPERTY_ID
 author: windows-sdk-content
 description: Specifies the type and usage of the XML property.
 old-location: security\crypt_xml_property_id.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_PROPERTY_ID
+req.redist: 
 ---
 
 # CRYPT_XML_PROPERTY_ID enumeration

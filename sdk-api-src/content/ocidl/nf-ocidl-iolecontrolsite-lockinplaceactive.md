@@ -4,17 +4,16 @@ title: IOleControlSite::LockInPlaceActive
 author: windows-sdk-content
 description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.
 old-location: com\iolecontrolsite_lockinplaceactive.htm
-old-project: com
+tech.root: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleControlSite.LockInPlaceActive, IOleControlSite::LockInPlaceActive, LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.LockInPlaceActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::LockInPlaceActive

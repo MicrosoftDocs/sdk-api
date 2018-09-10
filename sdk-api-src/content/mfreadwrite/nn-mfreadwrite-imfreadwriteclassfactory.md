@@ -4,7 +4,7 @@ title: IMFReadWriteClassFactory
 author: windows-sdk-content
 description: Creates an instance of either the sink writer or the source reader.
 old-location: mf\imfreadwriteclassfactory.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 83ef0f0a-ae60-474d-a9e7-7c83a73f6255
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFReadWriteClassFactory
 product: Windows
 targetos: Windows
-req.lib: Mfreadwrite.lib
-req.dll: Mfreadwrite.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFReadWriteClassFactory interface

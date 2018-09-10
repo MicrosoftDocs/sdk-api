@@ -4,17 +4,16 @@ title: MsiSetExternalUIRecord function
 author: windows-sdk-content
 description: The MsiSetExternalUIRecord function enables an external user-interface (UI) handler.
 old-location: setup\msisetexternaluirecord.htm
-old-project: msi
+tech.root: msi
 ms.assetid: f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUIRecord, MsiSetExternalUIRecord function, msi/MsiSetExternalUIRecord, setup.msisetexternaluirecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiSetExternalUIRecord
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSetExternalUIRecord function

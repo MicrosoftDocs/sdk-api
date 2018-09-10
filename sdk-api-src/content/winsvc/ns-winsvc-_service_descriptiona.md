@@ -4,7 +4,7 @@ title: "_SERVICE_DESCRIPTIONA"
 author: windows-sdk-content
 description: Contains a service description.
 old-location: base\service_description_str.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 1b4e18d5-6086-4d1b-b39c-1d919bfdc0b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_DESCRIPTIONA, *LPSERVICE_DESCRIPTIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_DESCRIPTIONW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_DESCRIPTIONA, *LPSERVICE_DESCRIPTIONA
+req.redist: 
 ---
 
 # _SERVICE_DESCRIPTIONA structure

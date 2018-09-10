@@ -4,17 +4,16 @@ title: IShellItemArray::GetPropertyDescriptionList
 author: windows-sdk-content
 description: Gets a property description list for the items in the shell item array.
 old-location: shell\IShellItemArray_GetPropertyDescriptionList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: abedf6a4-dfad-4add-8464-571542b068cb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetPropertyDescriptionList method, IShellItemArray.GetPropertyDescriptionList, IShellItemArray::GetPropertyDescriptionList, _shell_IShellItemArray_GetPropertyDescriptionList, shell.IShellItemArray_GetPropertyDescriptionList, shobjidl_core/IShellItemArray::GetPropertyDescriptionList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemArray.GetPropertyDescriptionList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemArray::GetPropertyDescriptionList

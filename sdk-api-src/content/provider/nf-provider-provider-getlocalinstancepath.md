@@ -4,17 +4,16 @@ title: Provider::GetLocalInstancePath
 author: windows-sdk-content
 description: The GetLocalInstancePath method attempts to build a full object path to a specified instance. This method is a helper function and should not be overridden.
 old-location: wmi\provider_getlocalinstancepath.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c419205f-d07d-4887-8e36-ccde37c2351f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetLocalInstancePath, GetLocalInstancePath method [Windows Management Instrumentation], GetLocalInstancePath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetLocalInstancePath method, Provider.GetLocalInstancePath, Provider::GetLocalInstancePath, _hmm_provider_getlocalinstancepath, provider/Provider::GetLocalInstancePath, wmi.provider_getlocalinstancepath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Provider.GetLocalInstancePath
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::GetLocalInstancePath

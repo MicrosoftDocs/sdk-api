@@ -4,17 +4,16 @@ title: IDWriteFactory::CreateRenderingParams
 author: windows-sdk-content
 description: Creates a rendering parameters object with default settings for the primary monitor. Different monitors may have different rendering parameters, for more information see the How to Add Support for Multiple Monitors topic.
 old-location: directwrite\IDWriteFactory_CreateRenderingParams.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: f5e3e609-62ee-4a0a-aed1-591be852590e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateRenderingParams, CreateRenderingParams method [Direct Write], CreateRenderingParams method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateRenderingParams method, IDWriteFactory.CreateRenderingParams, IDWriteFactory::CreateRenderingParams, directwrite.IDWriteFactory_CreateRenderingParams, dwrite/IDWriteFactory::CreateRenderingParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory.CreateRenderingParams
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory::CreateRenderingParams

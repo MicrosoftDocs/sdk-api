@@ -4,7 +4,7 @@ title: "_WDS_TRANSPORTPROVIDER_SETTINGS"
 author: windows-sdk-content
 description: This structure is used by the WdsTransportProviderInitialize callback function.
 old-location: wds\wds_transportprovider_settings.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 334e86f2-97fa-4f64-93a4-b6aed6212eb1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_TRANSPORTPROVIDER_SETTINGS, *PWDS_TRANSPORTPROVIDER_SETTINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WDS_TRANSPORTPROVIDER_SETTINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WDS_TRANSPORTPROVIDER_SETTINGS, *PWDS_TRANSPORTPROVIDER_SETTINGS
+req.redist: 
 ---
 
 # _WDS_TRANSPORTPROVIDER_SETTINGS structure

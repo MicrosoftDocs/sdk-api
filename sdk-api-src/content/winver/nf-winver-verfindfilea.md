@@ -4,17 +4,16 @@ title: VerFindFileA function
 author: windows-sdk-content
 description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function.
 old-location: menurc\verfindfile.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-version-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - VerFindFileW
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Api-ms-win-core-version-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # VerFindFileA function

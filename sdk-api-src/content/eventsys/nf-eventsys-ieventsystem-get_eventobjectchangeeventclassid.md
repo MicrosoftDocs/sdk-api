@@ -4,17 +4,16 @@ title: IEventSystem::get_EventObjectChangeEventClassID
 author: windows-sdk-content
 description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.
 old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 58cd529d-f1e5-4777-9999-3f223d27dc64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EventObjectChangeEventClassID property [COM+], EventObjectChangeEventClassID property [COM+],IEventSystem interface, IEventSystem interface [COM+],EventObjectChangeEventClassID property, IEventSystem.EventObjectChangeEventClassID, IEventSystem.get_EventObjectChangeEventClassID, IEventSystem::EventObjectChangeEventClassID, IEventSystem::get_EventObjectChangeEventClassID, _cos_IEventSystem_Properties, cos.ieventsystem_eventobjectchangeeventclassid, eventsys/IEventSystem::EventObjectChangeEventClassID, eventsys/IEventSystem::get_EventObjectChangeEventClassID, get_EventObjectChangeEventClassID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEventSystem.get_EventObjectChangeEventClassID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSystem::get_EventObjectChangeEventClassID

@@ -4,7 +4,7 @@ title: "_ApplicationProcessRecycleInfo"
 author: windows-sdk-content
 description: Represents details about the recycling of a process hosting COM+ applications.
 old-location: cos\applicationprocessrecycleinfo.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9e00c6a3-b82e-48a2-bec5-c5fbd6960072
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ApplicationProcessRecycleInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ApplicationProcessRecycleInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ApplicationProcessRecycleInfo
+req.redist: 
 ---
 
 # _ApplicationProcessRecycleInfo structure

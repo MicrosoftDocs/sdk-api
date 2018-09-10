@@ -4,17 +4,16 @@ title: ITsSbOrchestrationNotifySink::OnReadyToConnect
 author: windows-sdk-content
 description: Returns an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink_onreadytoconnect.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],OnReadyToConnect method, ITsSbOrchestrationNotifySink.OnReadyToConnect, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services],ITsSbOrchestrationNotifySink interface, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbOrchestrationNotifySink.OnReadyToConnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbOrchestrationNotifySink::OnReadyToConnect

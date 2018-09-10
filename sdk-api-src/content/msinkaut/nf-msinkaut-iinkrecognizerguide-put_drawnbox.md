@@ -4,17 +4,16 @@ title: IInkRecognizerGuide::put_DrawnBox
 author: windows-sdk-content
 description: Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place.
 old-location: tablet\inkrecognizerguide_drawnbox.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f99095e1-8e7f-47eb-9234-70f651ebf793
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DrawnBox property [Tablet PC], DrawnBox property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],DrawnBox property, IInkRecognizerGuide.DrawnBox, IInkRecognizerGuide.put_DrawnBox, IInkRecognizerGuide::DrawnBox, IInkRecognizerGuide::get_DrawnBox, IInkRecognizerGuide::put_DrawnBox, InkRecognizerGuide.get_DrawnBox, InkRecognizerGuide.put_DrawnBox, f99095e1-8e7f-47eb-9234-70f651ebf793, msinkaut/IInkRecognizerGuide::DrawnBox, msinkaut/IInkRecognizerGuide::get_DrawnBox, msinkaut/IInkRecognizerGuide::put_DrawnBox, put_DrawnBox, tablet.inkrecognizerguide_drawnbox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerGuide.put_DrawnBox
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerGuide::put_DrawnBox

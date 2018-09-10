@@ -4,17 +4,16 @@ title: IAudioDeviceEndpoint::SetBuffer
 author: windows-sdk-content
 description: Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.
 old-location: termserv\iaudiodeviceendpoint_setbuffer.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 345a172b-11af-4c98-9f9c-54bfa38c5077
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAudioDeviceEndpoint interface [Remote Desktop Services],SetBuffer method, IAudioDeviceEndpoint.SetBuffer, IAudioDeviceEndpoint::SetBuffer, SetBuffer, SetBuffer method [Remote Desktop Services], SetBuffer method [Remote Desktop Services],IAudioDeviceEndpoint interface, audioengineendpoint/IAudioDeviceEndpoint::SetBuffer, termserv.iaudiodeviceendpoint_setbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioDeviceEndpoint.SetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioDeviceEndpoint::SetBuffer

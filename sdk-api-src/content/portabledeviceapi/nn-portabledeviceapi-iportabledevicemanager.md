@@ -4,7 +4,7 @@ title: IPortableDeviceManager
 author: windows-sdk-content
 description: Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description.
 old-location: wpdsdk\iportabledevicemanager.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 11cd5b2b-e8f8-4ba1-8527-f7a403f399d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceManager
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceManager interface

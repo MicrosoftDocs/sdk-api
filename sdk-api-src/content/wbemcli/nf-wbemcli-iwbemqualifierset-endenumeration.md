@@ -4,17 +4,16 @@ title: IWbemQualifierSet::EndEnumeration
 author: windows-sdk-content
 description: Call the IWbemQualifierSet::EndEnumeration method when you plan to terminate enumerations initiated with IWbemQualifierSet::BeginEnumeration and IWbemQualifierSet::Next.
 old-location: wmi\iwbemqualifierset_endenumeration.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 317409e9-b098-404b-bc09-78b5b5ae7fc7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],EndEnumeration method, IWbemQualifierSet.EndEnumeration, IWbemQualifierSet::EndEnumeration, _hmm_iwbemqualifierset_endenumeration, wbemcli/IWbemQualifierSet::EndEnumeration, wmi.iwbemqualifierset_endenumeration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.EndEnumeration
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::EndEnumeration

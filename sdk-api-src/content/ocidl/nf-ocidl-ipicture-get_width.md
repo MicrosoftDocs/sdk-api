@@ -4,17 +4,16 @@ title: IPicture::get_Width
 author: windows-sdk-content
 description: Retrieves the current width of the picture in the picture object.
 old-location: com\ipicture_get_width.htm
-old-project: com
+tech.root: com
 ms.assetid: d69443ed-143c-4477-8602-50f919119b0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],get_Width method, IPicture.get_Width, IPicture::get_Width, _ctrl_ipicture_get_width, com.ipicture_get_width, get_Width, get_Width method [COM], get_Width method [COM],IPicture interface, ocidl/IPicture::get_Width
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.get_Width
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::get_Width

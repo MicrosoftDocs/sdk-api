@@ -4,17 +4,16 @@ title: IMFASFContentInfo::GeneratePresentationDescriptor
 author: windows-sdk-content
 description: Creates a presentation descriptor for ASF content.
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFContentInfo.GeneratePresentationDescriptor
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFContentInfo::GeneratePresentationDescriptor

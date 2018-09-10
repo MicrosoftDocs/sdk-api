@@ -4,17 +4,16 @@ title: IMFTopologyServiceLookupClient::ReleaseServicePointers
 author: windows-sdk-content
 description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
 old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 03ed29b4-89c1-4702-a23f-d013eeef5d44, IMFTopologyServiceLookupClient interface [Media Foundation],ReleaseServicePointers method, IMFTopologyServiceLookupClient.ReleaseServicePointers, IMFTopologyServiceLookupClient::ReleaseServicePointers, ReleaseServicePointers, ReleaseServicePointers method [Media Foundation], ReleaseServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, evr/IMFTopologyServiceLookupClient::ReleaseServicePointers, mf.imftopologyservicelookupclient_releaseservicepointers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyServiceLookupClient.ReleaseServicePointers
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyServiceLookupClient::ReleaseServicePointers

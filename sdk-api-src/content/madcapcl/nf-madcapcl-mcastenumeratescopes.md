@@ -4,17 +4,16 @@ title: McastEnumerateScopes function
 author: windows-sdk-content
 description: The McastEnumerateScopes function enumerates multicast scopes available on the network.
 old-location: madcap\mcastenumeratescopes.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: df33d766-d420-4069-8b94-86f5e4e91c1d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: McastEnumerateScopes, McastEnumerateScopes function [MADCAP], _mdhcp_mcastenumeratescopes, madcap.mcastenumeratescopes, madcapcl/McastEnumerateScopes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - McastEnumerateScopes
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # McastEnumerateScopes function

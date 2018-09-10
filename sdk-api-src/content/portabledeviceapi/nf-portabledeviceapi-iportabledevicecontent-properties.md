@@ -4,17 +4,16 @@ title: IPortableDeviceContent::Properties
 author: windows-sdk-content
 description: The Properties method retrieves the interface that is required to get or set properties on an object on the device.
 old-location: wpdsdk\iportabledevicecontent_properties.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Properties method, IPortableDeviceContent.Properties, IPortableDeviceContent::Properties, IPortableDeviceContentProperties, Properties, Properties method [Windows Portable Devices SDK], Properties method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Properties, wpdsdk.iportabledevicecontent_properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceContent.Properties
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceContent::Properties

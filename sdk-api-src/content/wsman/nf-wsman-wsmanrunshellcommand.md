@@ -4,17 +4,16 @@ title: WSManRunShellCommand function
 author: windows-sdk-content
 description: Starts the execution of a command within an existing shell and does not wait for the completion of the command.
 old-location: winrm\wsmanrunshellcommand.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 
-req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManSessionOption
+req.lib: WsmSvc.lib
+req.dll: WsmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSManRunShellCommand
 product: Windows
 targetos: Windows
-req.lib: WsmSvc.lib
-req.dll: WsmSvc.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ---
 
 # WSManRunShellCommand function

@@ -4,17 +4,16 @@ title: ITsSbSession::get_CreateTime
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was created.
 old-location: termserv\itssbsession_createtime.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateTime property [Remote Desktop Services], CreateTime property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],CreateTime property, ITsSbSession.CreateTime, ITsSbSession.get_CreateTime, ITsSbSession::CreateTime, ITsSbSession::get_CreateTime, ITsSbSession::put_CreateTime, get_CreateTime, sbtsv/ITsSbSession::CreateTime, sbtsv/ITsSbSession::get_CreateTime, sbtsv/ITsSbSession::put_CreateTime, termserv.itssbsession_createtime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITsSbSession.put_CreateTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_CreateTime

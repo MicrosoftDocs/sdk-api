@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_wmiutils_0000_0001_0003"
 author: windows-sdk-content
 description: Contains flags that indicate the features in a query.
 old-location: wmi\wmiq_assocq_flags.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: bc436326-c763-448d-8757-38917e13a73f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMIQ_ASSOCQ_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMIQ_ASSOCQ_FLAGS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wmiutils_0000_0001_0003 enumeration

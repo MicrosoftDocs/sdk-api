@@ -4,17 +4,16 @@ title: IDeskBar::GetClient
 author: windows-sdk-content
 description: Gets the client object.
 old-location: shell\IDeskBar_GetClient.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 003b400c-03a4-47c0-a6b8-04aa65ac573c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeskBar.GetClient
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDeskBar::GetClient

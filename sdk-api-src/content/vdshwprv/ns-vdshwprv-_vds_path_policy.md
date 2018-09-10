@@ -4,7 +4,7 @@ title: "_VDS_PATH_POLICY"
 author: windows-sdk-content
 description: Defines the load balance policy as it applies to a particular path.
 old-location: base\vds_path_policy.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PATH_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PATH_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PATH_POLICY
+req.redist: 
 ---
 
 # _VDS_PATH_POLICY structure

@@ -4,17 +4,16 @@ title: IMSVidEncoder::get_AudioEncoderInterface
 author: windows-sdk-content
 description: The get_AudioEncoderInterface method retrieves a pointer to the audio encoder interface.
 old-location: mstv\imsvidencoder_get_audioencoderinterface.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_AudioEncoderInterface method, IMSVidEncoder.get_AudioEncoderInterface, IMSVidEncoder::get_AudioEncoderInterface, IMSVidEncoderget_AudioEncoderInterface, get_AudioEncoderInterface, get_AudioEncoderInterface method [Microsoft TV Technologies], get_AudioEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_audioencoderinterface, segment/IMSVidEncoder::get_AudioEncoderInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidEncoder.get_AudioEncoderInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidEncoder::get_AudioEncoderInterface

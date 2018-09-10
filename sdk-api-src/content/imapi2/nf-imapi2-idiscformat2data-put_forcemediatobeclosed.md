@@ -4,17 +4,16 @@ title: IDiscFormat2Data::put_ForceMediaToBeClosed
 author: windows-sdk-content
 description: Determines if further additions to the file system are prevented.
 old-location: imapi\idiscformat2data_put_forcemediatobeclosed.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 9a087a73-1b61-481d-8deb-a251511906a9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_ForceMediaToBeClosed method, IDiscFormat2Data.put_ForceMediaToBeClosed, IDiscFormat2Data::put_ForceMediaToBeClosed, imapi.idiscformat2data_put_forcemediatobeclosed, imapi2/IDiscFormat2Data::put_ForceMediaToBeClosed, put_ForceMediaToBeClosed, put_ForceMediaToBeClosed method [IMAPI], put_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.put_ForceMediaToBeClosed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::put_ForceMediaToBeClosed

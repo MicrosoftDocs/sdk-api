@@ -4,17 +4,16 @@ title: ICspInformation::get_Valid
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is installed on the client computer.
 old-location: security\icspinformation_valid_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformation.get_Valid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::get_Valid

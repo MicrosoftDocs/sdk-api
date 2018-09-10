@@ -4,17 +4,16 @@ title: IChangeUnitException::GetChangeUnitId
 author: windows-sdk-content
 description: Gets the change unit ID for the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getchangeunitid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChangeUnitException.GetChangeUnitId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IChangeUnitException::GetChangeUnitId

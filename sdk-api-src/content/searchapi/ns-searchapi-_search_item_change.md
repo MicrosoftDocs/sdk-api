@@ -4,7 +4,7 @@ title: "_SEARCH_ITEM_CHANGE"
 author: windows-sdk-content
 description: Specifies the changes to an indexed item.
 old-location: search\_search_SEARCH_ITEM_CHANGE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEARCH_ITEM_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEARCH_ITEM_CHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SEARCH_ITEM_CHANGE
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # _SEARCH_ITEM_CHANGE structure

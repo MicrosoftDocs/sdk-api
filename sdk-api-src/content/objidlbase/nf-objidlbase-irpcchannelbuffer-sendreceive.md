@@ -4,17 +4,16 @@ title: IRpcChannelBuffer::SendReceive
 author: windows-sdk-content
 description: Sends a method invocation across an RPC channel to the server stub.
 old-location: com\irpcchannelbuffer_sendreceive.htm
-old-project: com
+tech.root: com
 ms.assetid: 8a42fd06-252f-4c1b-bbdb-abc2e3887c46
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBuffer.SendReceive, IRpcChannelBuffer::SendReceive, SendReceive, SendReceive method [COM], SendReceive method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcChannelBuffer.SendReceive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcChannelBuffer::SendReceive

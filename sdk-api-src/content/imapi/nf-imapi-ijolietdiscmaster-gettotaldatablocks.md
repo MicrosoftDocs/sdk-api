@@ -4,17 +4,16 @@ title: IJolietDiscMaster::GetTotalDataBlocks
 author: windows-sdk-content
 description: Retrieves the total number of blocks available for staging a Joliet data disc.
 old-location: imapi\ijolietdiscmaster_gettotaldatablocks.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fa5df4de-eecc-406b-a38d-939e7b631fc8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTotalDataBlocks, GetTotalDataBlocks method [IMAPI], GetTotalDataBlocks method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetTotalDataBlocks method, IJolietDiscMaster.GetTotalDataBlocks, IJolietDiscMaster::GetTotalDataBlocks, _win32_ijolietdiscmaster_gettotaldatablocks, base.ijolietdiscmaster_gettotaldatablocks, imapi.ijolietdiscmaster_gettotaldatablocks, imapi/IJolietDiscMaster::GetTotalDataBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IJolietDiscMaster.GetTotalDataBlocks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IJolietDiscMaster::GetTotalDataBlocks

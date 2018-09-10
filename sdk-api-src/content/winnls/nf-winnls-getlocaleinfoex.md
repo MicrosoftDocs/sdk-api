@@ -4,17 +4,16 @@ title: GetLocaleInfoEx function
 author: windows-sdk-content
 description: Retrieves information about a locale specified by name.Note  The application should call this function in preference to GetLocaleInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getlocaleinfoex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetLocaleInfoEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetLocaleInfoEx function

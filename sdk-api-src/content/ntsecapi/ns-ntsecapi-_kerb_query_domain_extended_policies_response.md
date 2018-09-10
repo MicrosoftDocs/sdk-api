@@ -4,7 +4,7 @@ title: "_KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE"
 author: windows-sdk-content
 description: Contains the results of querying for the extended policies of the specified domain.
 old-location: security\kerb_query_domain_extended_policies_response.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 4BFF08D8-9D5E-4041-9DF6-AAE44292C135
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+req.redist: 
 ---
 
 # _KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure

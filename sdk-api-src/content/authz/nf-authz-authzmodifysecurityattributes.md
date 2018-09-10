@@ -4,17 +4,16 @@ title: AuthzModifySecurityAttributes function
 author: windows-sdk-content
 description: Modifies the security attribute information in the specified client context.
 old-location: security\authzmodifysecurityattributes.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AuthzModifySecurityAttributes
 product: Windows
 targetos: Windows
-req.lib: Authz.lib
-req.dll: Authz.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AuthzModifySecurityAttributes function

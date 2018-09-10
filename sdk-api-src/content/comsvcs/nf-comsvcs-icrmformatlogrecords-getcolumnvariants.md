@@ -4,17 +4,16 @@ title: ICrmFormatLogRecords::GetColumnVariants
 author: windows-sdk-content
 description: Formats one structured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumnvariants.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f2681fe3-744b-4172-8908-1d823d2e2371
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmFormatLogRecords.GetColumnVariants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmFormatLogRecords::GetColumnVariants

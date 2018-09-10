@@ -4,17 +4,16 @@ title: IWbemEventSink::IsActive
 author: windows-sdk-content
 description: The IWbemEventSink::IsActive method is used by the provider to determine if there is interest in the events that the sink is filtering.
 old-location: wmi\iwbemeventsink_isactive.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: dc5afbc1-60da-42ec-9dc3-79b66243690c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],IsActive method, IWbemEventSink.IsActive, IWbemEventSink::IsActive, IsActive, IsActive method [Windows Management Instrumentation], IsActive method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_isactive, wbemprov/IWbemEventSink::IsActive, wmi.iwbemeventsink_isactive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventSink.IsActive
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventSink::IsActive

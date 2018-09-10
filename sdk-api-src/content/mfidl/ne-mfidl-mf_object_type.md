@@ -4,7 +4,7 @@ title: MF_OBJECT_TYPE
 author: windows-sdk-content
 description: Defines the object types that are created by the source resolver.
 old-location: mf\mf_object_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e919ae78-e3a5-42c5-b4e0-186e7e4fe54a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_OBJECT_TYPE
+req.redist: 
 ---
 
 # MF_OBJECT_TYPE enumeration

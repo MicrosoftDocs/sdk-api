@@ -4,17 +4,16 @@ title: ITAddressTranslationInfo::get_TranslationResults
 author: windows-sdk-content
 description: The get_TranslationResults method gets the results of a translation operation.
 old-location: tapi3\itaddresstranslationinfo_get_translationresults.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ca6ac2c9-612d-4294-ab49-7c0278519a24
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_TranslationResults method, ITAddressTranslationInfo.get_TranslationResults, ITAddressTranslationInfo::get_TranslationResults, _tapi3_itaddresstranslationinfo_get_translationresults, get_TranslationResults, get_TranslationResults method [TAPI 2.2], get_TranslationResults method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_translationresults, tapi3if/ITAddressTranslationInfo::get_TranslationResults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAddressTranslationInfo.get_TranslationResults
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAddressTranslationInfo::get_TranslationResults

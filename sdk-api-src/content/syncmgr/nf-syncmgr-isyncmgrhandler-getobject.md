@@ -4,17 +4,16 @@ title: ISyncMgrHandler::GetObject
 author: windows-sdk-content
 description: Creates a specific type of object related to the handler.
 old-location: shell\ISyncMgrHandler_GetObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 91441b28-a2d8-4114-86dd-9a3e826deef4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetObject method, ISyncMgrHandler.GetObject, ISyncMgrHandler::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventLinkClick, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeActivate, SYNCMGR_OBJECTID_QueryBeforeDeactivate, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, SYNCMGR_OBJECTID_ShowSchedule, _shell_ISyncMgrHandler_GetObject, shell.ISyncMgrHandler_GetObject, syncmgr/ISyncMgrHandler::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandler.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandler::GetObject

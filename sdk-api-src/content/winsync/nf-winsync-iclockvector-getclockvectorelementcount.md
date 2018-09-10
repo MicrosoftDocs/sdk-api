@@ -4,17 +4,16 @@ title: IClockVector::GetClockVectorElementCount
 author: windows-sdk-content
 description: Gets the number of elements that are contained in the clock vector.
 old-location: winsync\iclockvector_getclockvectorelementcount.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 15ce120e-dabc-4827-b317-82784466c1f1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClockVectorElementCount, GetClockVectorElementCount method [Windows Sync], GetClockVectorElementCount method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElementCount method, IClockVector.GetClockVectorElementCount, IClockVector::GetClockVectorElementCount, winsync.iclockvector_getclockvectorelementcount, winsync/IClockVector::GetClockVectorElementCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClockVector.GetClockVectorElementCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IClockVector::GetClockVectorElementCount

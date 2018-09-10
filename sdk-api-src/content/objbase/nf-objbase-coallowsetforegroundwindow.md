@@ -4,17 +4,16 @@ title: CoAllowSetForegroundWindow function
 author: windows-sdk-content
 description: This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.
 old-location: com\coallowsetforegroundwindow.htm
-old-project: com
+tech.root: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CoAllowSetForegroundWindow
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoAllowSetForegroundWindow function

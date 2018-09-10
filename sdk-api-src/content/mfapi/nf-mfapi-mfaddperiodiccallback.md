@@ -4,17 +4,16 @@ title: MFAddPeriodicCallback function
 author: windows-sdk-content
 description: Sets a callback function to be called at a fixed interval.
 old-location: mf\mfaddperiodiccallback.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFAddPeriodicCallback
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFAddPeriodicCallback function

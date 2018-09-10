@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_micaut_0000_0000_0001"
 author: windows-sdk-content
 description: Specifies the user interface (UI) elements of a math input control (MIC).
 old-location: tablet\micuielement.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3091480b-cb75-4faf-9005-1d9ddccea236
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: micaut.h
 req.include-header: Micaut.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MICUIELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MICUIELEMENT
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_micaut_0000_0000_0001 enumeration

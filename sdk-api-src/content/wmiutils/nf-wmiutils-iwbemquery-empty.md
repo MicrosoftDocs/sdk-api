@@ -4,17 +4,16 @@ title: IWbemQuery::Empty
 author: windows-sdk-content
 description: The IWbemQuery::Empty method frees the memory that the parser is holding.
 old-location: wmi\iwbemquery_empty.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 42f6542e-2aab-40c1-81d5-d08b54b8aa40
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],Empty method, IWbemQuery.Empty, IWbemQuery::Empty, _hmm_iwbemquery_empty, wmi.iwbemquery_empty, wmiutils/IWbemQuery::Empty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemQuery.Empty
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQuery::Empty

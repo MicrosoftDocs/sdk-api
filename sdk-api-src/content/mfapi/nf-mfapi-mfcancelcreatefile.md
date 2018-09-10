@@ -4,17 +4,16 @@ title: MFCancelCreateFile function
 author: windows-sdk-content
 description: Cancels an asynchronous request to create a byte stream from a file.
 old-location: mf\mfcancelcreatefile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCancelCreateFile
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCancelCreateFile function

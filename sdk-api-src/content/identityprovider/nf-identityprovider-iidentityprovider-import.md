@@ -4,17 +4,16 @@ title: IIdentityProvider::Import
 author: windows-sdk-content
 description: Imports an identity to the system.
 old-location: security\iidentityprovider_import.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 16cf4e84-1a68-4794-a456-1a9f5ce4896d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProvider.Import, IIdentityProvider::Import, Import, Import method [Security], Import method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::Import, security.iidentityprovider_import
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityProvider.Import
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityProvider::Import

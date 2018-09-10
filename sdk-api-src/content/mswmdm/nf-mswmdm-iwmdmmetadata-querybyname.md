@@ -4,17 +4,16 @@ title: IWMDMMetaData::QueryByName
 author: windows-sdk-content
 description: The QueryByName method retrieves the value of a property specified by name.
 old-location: wmdm\iwmdmmetadata_querybyname.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: e793954b-6aef-4088-97cb-eb1f050cc64b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByName method, IWMDMMetaData.QueryByName, IWMDMMetaData::QueryByName, IWMDMMetaDataQueryByName, QueryByName, QueryByName method [windows Media Device Manager], QueryByName method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByName, wmdm.iwmdmmetadata_querybyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMMetaData.QueryByName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMMetaData::QueryByName

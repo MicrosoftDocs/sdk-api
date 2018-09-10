@@ -4,17 +4,16 @@ title: IOpcUri::GetRelativeUri
 author: windows-sdk-content
 description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelativeuri.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcUri.GetRelativeUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcUri::GetRelativeUri

@@ -4,17 +4,16 @@ title: ITPhone::EnumeratePreferredAddresses
 author: windows-sdk-content
 description: The EnumeratePreferredAddresses method enumerates the preferred addresses for the phone object. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumeratepreferredaddresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7bb15dc1-c1f0-4da5-8217-baedb45b70f7
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumeratePreferredAddresses, EnumeratePreferredAddresses method [TAPI 2.2], EnumeratePreferredAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumeratePreferredAddresses method, ITPhone.EnumeratePreferredAddresses, ITPhone::EnumeratePreferredAddresses, _tapi3_itphone_enumeratepreferredaddresses, tapi3.itphone_enumeratepreferredaddresses, tapi3if/ITPhone::EnumeratePreferredAddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.EnumeratePreferredAddresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::EnumeratePreferredAddresses

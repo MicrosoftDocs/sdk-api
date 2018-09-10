@@ -4,17 +4,16 @@ title: IGPMSOM::CreateGPOLink
 author: windows-sdk-content
 description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
 old-location: gpmc\igpmsom_creategpolink.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMSOM.CreateGPOLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSOM::CreateGPOLink

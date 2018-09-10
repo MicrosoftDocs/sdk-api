@@ -4,17 +4,16 @@ title: IFileDialog::SetFileTypeIndex
 author: windows-sdk-content
 description: Sets the file type that appears as selected in the dialog.
 old-location: shell\IFileDialog_SetFileTypeIndex.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 733ade05-e255-4b1c-a961-e1feb749f73d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypeIndex method, IFileDialog.SetFileTypeIndex, IFileDialog::SetFileTypeIndex, SetFileTypeIndex, SetFileTypeIndex method [Windows Shell], SetFileTypeIndex method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypeIndex, shell_IFileDialog_SetFileTypeIndex, shobjidl_core/IFileDialog::SetFileTypeIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetFileTypeIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetFileTypeIndex

@@ -4,18 +4,17 @@ title: NdrConvert function
 author: windows-sdk-content
 description: The NdrConvert function converts the network buffer from the data representation of the sender to the data representation of the receiver if they are different.
 old-location: rpc\ndrconvert.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrConvert, NdrConvert
 , NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - NdrConvert
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrConvert function
@@ -104,7 +102,7 @@ This function has no return values. If an error occurs, the function throws one 
 
 
 
-The <b>NdrConvert</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
+The <b>NdrConvert</b> function is used by all <a href="https://msdn.microsoft.com/">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
 
 
 

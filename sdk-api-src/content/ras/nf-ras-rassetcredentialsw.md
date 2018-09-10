@@ -4,17 +4,16 @@ title: RasSetCredentialsW function
 author: windows-sdk-content
 description: Sets the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rassetcredentials.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasSetCredentials, RasSetCredentials function [RAS], RasSetCredentialsA, RasSetCredentialsW, _ras_rassetcredentials, ras/RasSetCredentials, ras/RasSetCredentialsA, ras/RasSetCredentialsW, rras.rassetcredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasSetCredentialsW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSetCredentialsW function

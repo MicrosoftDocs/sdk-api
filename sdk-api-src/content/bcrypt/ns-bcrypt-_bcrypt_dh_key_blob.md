@@ -4,7 +4,7 @@ title: "_BCRYPT_DH_KEY_BLOB"
 author: windows-sdk-content
 description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
 old-location: security\bcrypt_dh_key_blob.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_DH_KEY_BLOB, *PBCRYPT_DH_KEY_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_DH_KEY_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_DH_KEY_BLOB, *PBCRYPT_DH_KEY_BLOB
+req.redist: 
 ---
 
 # _BCRYPT_DH_KEY_BLOB structure

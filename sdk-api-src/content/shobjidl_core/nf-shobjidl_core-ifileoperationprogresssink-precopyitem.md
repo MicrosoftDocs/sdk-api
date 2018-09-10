@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::PreCopyItem
 author: windows-sdk-content
 description: Performs caller-implemented actions before the copy process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreCopyItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreCopyItem method, IFileOperationProgressSink.PreCopyItem, IFileOperationProgressSink::PreCopyItem, PreCopyItem, PreCopyItem method [Windows Shell], PreCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreCopyItem, shell.IFileOperationProgressSink_PreCopyItem, shobjidl_core/IFileOperationProgressSink::PreCopyItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.PreCopyItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::PreCopyItem

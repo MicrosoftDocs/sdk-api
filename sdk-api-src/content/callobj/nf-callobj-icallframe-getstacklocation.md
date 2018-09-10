@@ -4,17 +4,16 @@ title: ICallFrame::GetStackLocation
 author: windows-sdk-content
 description: Retrieves the stack location onto which this call frame is bound.
 old-location: com\icallframe_getstacklocation.htm
-old-project: com
+tech.root: com
 ms.assetid: 1e6b5e52-78bb-47cd-9019-efb5c0860a6d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation method [COM],ICallFrame interface, ICallFrame interface [COM],GetStackLocation method, ICallFrame.GetStackLocation, ICallFrame::GetStackLocation, _com_icallframe_getstacklocation, callobj/ICallFrame::GetStackLocation, com.icallframe_getstacklocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.GetStackLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::GetStackLocation

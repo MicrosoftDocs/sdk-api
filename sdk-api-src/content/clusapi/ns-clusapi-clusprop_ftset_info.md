@@ -4,7 +4,7 @@ title: CLUSPROP_FTSET_INFO
 author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
 old-location: mscs\clusprop_ftset_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_FTSET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
+req.redist: 
 ---
 
 # CLUSPROP_FTSET_INFO structure

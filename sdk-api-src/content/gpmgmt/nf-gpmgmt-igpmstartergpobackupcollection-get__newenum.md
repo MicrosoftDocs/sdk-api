@@ -4,17 +4,16 @@ title: IGPMStarterGPOBackupCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get__newenum.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 87748dba-fe77-43a5-a9d1-8e068b96e197
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGPMStarterGPOBackupCollection.get__NewEnum, IGPMStarterGPOBackupCollection::get__NewEnum, IGPMstarterGPOBackupCollection interface [GPMC],get__NewEnum method, IGPMstarterGPOBackupCollection::get__NewEnum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMstarterGPOBackupCollection interface, gpmc.igpmstartergpobackupcollection_get__newenum, gpmgmt/IGPMstarterGPOBackupCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: GPMC on Windows Server 2008 or Windows Vista
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMstarterGPOBackupCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: GPMC on Windows Server 2008 or Windows Vista
 ---
 
 # IGPMStarterGPOBackupCollection::get__NewEnum

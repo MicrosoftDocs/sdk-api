@@ -4,17 +4,16 @@ title: IDXGIDebug1::DisableLeakTrackingForThread
 author: windows-sdk-content
 description: Stops tracking leaks for the current thread.
 old-location: direct3ddxgi\idxgidebug1_disableleaktrackingforthread.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 5A96849C-D2DB-49F2-AEE9-CDC63F970077
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DisableLeakTrackingForThread, DisableLeakTrackingForThread method [DXGI], DisableLeakTrackingForThread method [DXGI],IDXGIDebug1 interface, IDXGIDebug1 interface [DXGI],DisableLeakTrackingForThread method, IDXGIDebug1.DisableLeakTrackingForThread, IDXGIDebug1::DisableLeakTrackingForThread, direct3ddxgi.idxgidebug1_disableleaktrackingforthread, dxgidebug/IDXGIDebug1::DisableLeakTrackingForThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIDebug1.DisableLeakTrackingForThread
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDebug1::DisableLeakTrackingForThread

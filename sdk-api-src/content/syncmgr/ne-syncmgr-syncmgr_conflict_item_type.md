@@ -4,7 +4,7 @@ title: SYNCMGR_CONFLICT_ITEM_TYPE
 author: windows-sdk-content
 description: Describes conflict item type.
 old-location: shell\SYNCMGR_CONFLICT_ITEM_TYPE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b0bc2285-b3a3-43a9-b169-611f587bb086
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_CONFLICT_ITEM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_CONFLICT_ITEM_TYPE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_CONFLICT_ITEM_TYPE
+req.redist: 
 ---
 
 # SYNCMGR_CONFLICT_ITEM_TYPE enumeration

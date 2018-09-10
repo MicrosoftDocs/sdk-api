@@ -4,17 +4,16 @@ title: IWSDiscoveryPublisher::UnPublish
 author: windows-sdk-content
 description: Announces the departure of a network host by sending a Bye message.
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnPublish method, IWSDiscoveryPublisher.UnPublish, IWSDiscoveryPublisher::UnPublish, UnPublish, UnPublish method, UnPublish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unpublish_method, wsddisco/IWSDiscoveryPublisher::UnPublish
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryPublisher.UnPublish
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryPublisher::UnPublish
@@ -62,7 +60,7 @@ Announces the departure of a network host by sending a <a href="https://msdn.mic
 
 ### -param pszId
 
-
+TBD
 
 
 ### -param ullInstanceId [in]

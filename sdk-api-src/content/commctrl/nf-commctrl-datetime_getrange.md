@@ -4,17 +4,16 @@ title: DateTime_GetRange macro
 author: windows-sdk-content
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the DTM_GETRANGE message explicitly.
 old-location: controls\DateTime_GetRange.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DateTime_GetRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DateTime_GetRange macro

@@ -4,7 +4,7 @@ title: "_SCHANNEL_ALG"
 author: windows-sdk-content
 description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.
 old-location: security\schannel_alg.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_ALG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
+req.redist: 
 ---
 
 # _SCHANNEL_ALG structure

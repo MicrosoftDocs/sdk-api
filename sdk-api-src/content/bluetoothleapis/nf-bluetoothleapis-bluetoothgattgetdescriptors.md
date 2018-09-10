@@ -4,17 +4,16 @@ title: BluetoothGATTGetDescriptors function
 author: windows-sdk-content
 description: Gets all the descriptors available for the specified characteristic.
 old-location: bltooth\bluetoothgattgetdescriptors.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: C4D51362-5D4E-45CC-8E29-10B201B5673C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTGetDescriptors, BluetoothGATTGetDescriptors function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptors, bluetoothleapis/BluetoothGATTGetDescriptors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothApis.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTGetDescriptors
 product: Windows
 targetos: Windows
-req.lib: BluetoothApis.lib
-req.dll: BluetoothAPIs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTGetDescriptors function

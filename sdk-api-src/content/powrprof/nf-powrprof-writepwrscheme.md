@@ -4,17 +4,16 @@ title: WritePwrScheme function
 author: windows-sdk-content
 description: Writes policy settings that are unique to the specified power scheme.
 old-location: base\writepwrscheme.htm
-old-project: power
+tech.root: power
 ms.assetid: b9233601-6848-41c4-bb58-27decad60ba5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WritePwrScheme, WritePwrScheme function, _win32_writepwrscheme, base.writepwrscheme, powrprof/WritePwrScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WritePwrScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # WritePwrScheme function

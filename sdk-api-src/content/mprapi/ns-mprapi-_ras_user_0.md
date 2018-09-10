@@ -4,7 +4,7 @@ title: "_RAS_USER_0"
 author: windows-sdk-content
 description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
 old-location: rras\ras_user_0.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: f034c6c2-2dac-40bf-b810-9bf6f3eb3c41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_USER_0, *PRAS_USER_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_USER_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_USER_0, *PRAS_USER_0
+req.redist: 
 ---
 
 # _RAS_USER_0 structure

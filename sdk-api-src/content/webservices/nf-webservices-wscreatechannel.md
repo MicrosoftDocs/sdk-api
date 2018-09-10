@@ -4,17 +4,16 @@ title: WsCreateChannel function
 author: windows-sdk-content
 description: Creates a channel for message exchange with an endpoint.
 old-location: wsw\wscreatechannel.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsCreateChannel
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsCreateChannel function

@@ -4,7 +4,7 @@ title: RPC_ENDPOINT_TEMPLATEA
 author: windows-sdk-content
 description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
 old-location: rpc\rpc_endpoint_template.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_ENDPOINT_TEMPLATEA, *PRPC_ENDPOINT_TEMPLATEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RPC_ENDPOINT_TEMPLATEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_ENDPOINT_TEMPLATEA, *PRPC_ENDPOINT_TEMPLATEA
+req.redist: 
 ---
 
 # RPC_ENDPOINT_TEMPLATEA structure

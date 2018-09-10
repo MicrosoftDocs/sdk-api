@@ -4,7 +4,7 @@ title: "_FILESETINFO"
 author: windows-sdk-content
 description: The FILESETINFO structure identifies the remote and local names of the file to download.
 old-location: bits\filesetinfo.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILESETINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILESETINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FILESETINFO
+req.redist: 
 ---
 
 # _FILESETINFO structure

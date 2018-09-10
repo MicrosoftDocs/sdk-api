@@ -4,7 +4,7 @@ title: TCI_DEL_FLOW_COMPLETE_HANDLER
 author: windows-sdk-content
 description: The ClDeleteFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcDeleteFlow function.
 old-location: qos\cldeleteflowcomplete.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: b31bd6e5-2b72-407d-a77e-ff9cee8de238
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCI_DEL_FLOW_COMPLETE_HANDLER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TCI_DEL_FLOW_COMPLETE_HANDLER callback function

@@ -4,17 +4,16 @@ title: PtrdiffTMult function
 author: windows-sdk-content
 description: Multiplies two values of type ptrdiff_t.
 old-location: shell\PtrdiffTMult.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 79b4d5e3-3f10-46fb-a7c8-316629a2a9dd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PtrdiffTMult, PtrdiffTMult function [Windows Shell], intsafe/PtrdiffTMult, shell.PtrdiffTMult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PtrdiffTMult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # PtrdiffTMult function

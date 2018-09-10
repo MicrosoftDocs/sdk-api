@@ -4,17 +4,16 @@ title: ISpellChecker::remove_SpellCheckerChanged
 author: windows-sdk-content
 description: Removes an event handler (ISpellCheckerChangedEventHandler) that has been added for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_remove_spellcheckerchanged.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 66f62590-2d86-4747-a9e8-ea02f26eeb4d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],remove_SpellCheckerChanged method, ISpellChecker.remove_SpellCheckerChanged, ISpellChecker::remove_SpellCheckerChanged, intl.ispellchecker_remove_spellcheckerchanged, remove_SpellCheckerChanged, remove_SpellCheckerChanged method [Internationalization for Windows Applications], remove_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, spellcheck/ISpellChecker::remove_SpellCheckerChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellChecker.remove_SpellCheckerChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellChecker::remove_SpellCheckerChanged

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ndattrib_0000_0000_0002"
 author: windows-sdk-content
 description: The REPAIR_RISK enumeration specifies whether repair changes are persistent and whether they can be undone.
 old-location: ndf\repair_risk.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 016e047e-9962-4b27-bd5d-8dd6b826ae03
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_RISK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REPAIR_RISK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: REPAIR_RISK
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ndattrib_0000_0000_0002 enumeration

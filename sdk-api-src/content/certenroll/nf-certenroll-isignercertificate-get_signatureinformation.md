@@ -4,17 +4,16 @@ title: ISignerCertificate::get_SignatureInformation
 author: windows-sdk-content
 description: Retrieves an IX509SignatureInformation object that contains information about the certificate signature.
 old-location: security\isignercertificate_signatureinformation_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: e870e17f-42e4-4548-b876-f5e0556bff0e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISignerCertificate interface [Security],SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate.get_SignatureInformation, ISignerCertificate::SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation, security.isignercertificate_signatureinformation_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ISignerCertificate.get_SignatureInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISignerCertificate::get_SignatureInformation

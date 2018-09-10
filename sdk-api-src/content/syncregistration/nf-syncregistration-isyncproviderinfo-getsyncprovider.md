@@ -4,17 +4,16 @@ title: ISyncProviderInfo::GetSyncProvider
 author: windows-sdk-content
 description: Creates an instance of the synchronization provider.
 old-location: winsync\isyncproviderinfo_getsyncprovider.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 74b70f31-0934-4599-9515-e94b6622d440
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSyncProvider, GetSyncProvider method [Windows Sync], GetSyncProvider method [Windows Sync],ISyncProviderInfo interface, ISyncProviderInfo interface [Windows Sync],GetSyncProvider method, ISyncProviderInfo.GetSyncProvider, ISyncProviderInfo::GetSyncProvider, syncregistration/ISyncProviderInfo::GetSyncProvider, winsync.isyncproviderinfo_getsyncprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderInfo.GetSyncProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderInfo::GetSyncProvider

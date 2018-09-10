@@ -4,17 +4,16 @@ title: ISearchCatalogManager::put_DataTimeout
 author: windows-sdk-content
 description: Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the TIMEOUT_INFO structure and is measured in seconds.
 old-location: search\_search_ISearchCatalogManager_put_DataTimeout.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_datatimeout.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DataTimeout method, ISearchCatalogManager.put_DataTimeout, ISearchCatalogManager::put_DataTimeout, _search_ISearchCatalogManager_put_DataTimeout, put_DataTimeout, put_DataTimeout method [search], put_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DataTimeout, searchapi/ISearchCatalogManager::put_DataTimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCatalogManager.put_DataTimeout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchCatalogManager::put_DataTimeout

@@ -4,17 +4,16 @@ title: IXpsOMPath::GetStrokeMiterLimit
 author: windows-sdk-content
 description: Gets the miter limit value that is set for the stroke.
 old-location: xps\ixpsompath_getstrokemiterlimit.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 4271c7ff-636c-4ab0-b83f-90c769baf74c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStrokeMiterLimit, GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeMiterLimit method, IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPath.GetStrokeMiterLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPath::GetStrokeMiterLimit

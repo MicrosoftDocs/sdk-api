@@ -4,17 +4,16 @@ title: ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32)
 author: windows-sdk-content
 description: Sets the named property to the given value.
 old-location: direct2d\id2d1properties_setvaluebyname.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3faedf5e-9329-4502-a1c9-162fd7b00319
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValueByName method, ID2D1Properties.SetValueByName, ID2D1Properties.SetValueByName(PCWSTR,const BYTE,UINT32), ID2D1Properties::SetValueByName, ID2D1Properties::SetValueByName(PCWSTR,const BYTE*,UINT32), ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32), SetValueByName, SetValueByName method [Direct2D], SetValueByName method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValueByName, direct2d.id2d1properties_setvaluebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.SetValueByName
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32)

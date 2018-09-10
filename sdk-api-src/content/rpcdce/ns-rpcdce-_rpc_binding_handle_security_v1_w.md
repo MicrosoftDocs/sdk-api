@@ -4,7 +4,7 @@ title: "_RPC_BINDING_HANDLE_SECURITY_V1_W"
 author: windows-sdk-content
 description: Contains the basic security options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_security_v1.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_W, *PRPC_BINDING_HANDLE_SECURITY_V1_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_BINDING_HANDLE_SECURITY_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_W, *PRPC_BINDING_HANDLE_SECURITY_V1_W
+req.redist: 
 ---
 
 # _RPC_BINDING_HANDLE_SECURITY_V1_W structure

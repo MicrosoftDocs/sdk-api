@@ -4,7 +4,7 @@ title: WbemImpersonationLevelEnum
 author: windows-sdk-content
 description: Define the security impersonation levels. These constants are used with SWbemSecurity.
 old-location: wmi\wbemimpersonationlevelenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 4a6d92a6-82d1-4426-8175-89cf9495c448
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemImpersonationLevelEnum
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbemImpersonationLevelEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WbemImpersonationLevelEnum
+req.redist: 
 ---
 
 # WbemImpersonationLevelEnum enumeration

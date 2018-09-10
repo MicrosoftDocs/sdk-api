@@ -4,17 +4,16 @@ title: ITfIntegratableCandidateListUIElement::SetIntegrationStyle
 author: windows-sdk-content
 description: Sets the integration style.
 old-location: tsf\itfintegratablecandidatelistuielement_setintegrationstyle.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: DC6565A6-6CEC-4DD9-A845-1DDFF157266C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],SetIntegrationStyle method, ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfIntegratableCandidateListUIElement.SetIntegrationStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfIntegratableCandidateListUIElement::SetIntegrationStyle

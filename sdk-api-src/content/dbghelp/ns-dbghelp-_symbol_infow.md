@@ -4,7 +4,7 @@ title: "_SYMBOL_INFOW"
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\symbol_info_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYMBOL_INFOW, *PSYMBOL_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SYMBOL_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SYMBOL_INFOW, *PSYMBOL_INFOW
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _SYMBOL_INFOW structure

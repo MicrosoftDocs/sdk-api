@@ -4,7 +4,7 @@ title: DWRITE_GLYPH_IMAGE_FORMATS
 author: windows-sdk-content
 description: Specifies which formats are supported in the font, either at a font-wide level or per glyph.
 old-location: directwrite\dwrite_glyph_image_formats.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ECC868B5-3D17-4D55-8E00-AB446C1C22FE
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dcommon.h
 req.include-header: Dwrite_3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DWRITE_GLYPH_IMAGE_FORMATS
 product: Windows
 targetos: Windows
-req.lib: Dciman32.lib
-req.dll: Dciman32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_GLYPH_IMAGE_FORMATS enumeration

@@ -4,17 +4,16 @@ title: IRecoverableErrorData::Initialize
 author: windows-sdk-content
 description: Initializes the object by using the specified display name of the item that caused the error and a description of the error.
 old-location: winsync\irecoverableerrordata_initialize.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: df34b3ee-fc78-47ca-8916-ee4a81110628
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRecoverableErrorData interface [Windows Sync],Initialize method, IRecoverableErrorData.Initialize, IRecoverableErrorData::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IRecoverableErrorData interface, winsync.irecoverableerrordata_initialize, winsync/IRecoverableErrorData::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecoverableErrorData.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IRecoverableErrorData::Initialize

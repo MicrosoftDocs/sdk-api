@@ -4,17 +4,16 @@ title: IXAudio2::SetDebugConfiguration
 author: windows-sdk-content
 description: Changes global debug logging options for XAudio2.
 old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.SetDebugConfiguration(XAUDIO2_DEBUG_CONFIGURATION)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],SetDebugConfiguration method, IXAudio2.SetDebugConfiguration, IXAudio2::SetDebugConfiguration, SetDebugConfiguration, SetDebugConfiguration method [XAudio2 Audio Mixing APIs], SetDebugConfiguration method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_setdebugconfiguration, xaudio2/IXAudio2::SetDebugConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2.SetDebugConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2::SetDebugConfiguration
@@ -67,7 +65,7 @@ Pointer to a <a href="https://msdn.microsoft.com/92c98bc5-26d3-4815-9234-c3ba7b6
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

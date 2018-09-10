@@ -4,7 +4,7 @@ title: "_CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
 author: windows-sdk-content
 description: Used to create certificate requests on behalf of a user.
 old-location: security\crypt_enrollment_name_value_pair.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 996bd28e-73c1-494e-957c-8dd4c7b8e064
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_ENROLLMENT_NAME_VALUE_PAIR, *PCRYPT_ENROLLMENT_NAME_VALUE_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_ENROLLMENT_NAME_VALUE_PAIR, *PCRYPT_ENROLLMENT_NAME_VALUE_PAIR
+req.redist: 
 ---
 
 # _CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure

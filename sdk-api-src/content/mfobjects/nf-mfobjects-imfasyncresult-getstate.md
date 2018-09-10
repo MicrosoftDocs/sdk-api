@@ -4,17 +4,16 @@ title: IMFAsyncResult::GetState
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: mf\imfasyncresult_getstate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f8ed8e71-6df7-4c94-b400-b4651a00db5b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetState method, IMFAsyncResult.GetState, IMFAsyncResult::GetState, f8ed8e71-6df7-4c94-b400-b4651a00db5b, mf.imfasyncresult_getstate, mfobjects/IMFAsyncResult::GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAsyncResult.GetState
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAsyncResult::GetState

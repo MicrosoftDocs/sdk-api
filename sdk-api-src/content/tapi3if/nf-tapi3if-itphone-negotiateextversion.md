@@ -4,17 +4,16 @@ title: ITPhone::NegotiateExtVersion
 author: windows-sdk-content
 description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support provider specific extensions.
 old-location: tapi3\itphone_negotiateextversion.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a29311bf-0fe4-4e58-96cc-2e3734c32aee
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhone interface [TAPI 2.2],NegotiateExtVersion method, ITPhone.NegotiateExtVersion, ITPhone::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITPhone interface, _tapi3_itphone_negotiateextversion, tapi3.itphone_negotiateextversion, tapi3if/ITPhone::NegotiateExtVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhone.NegotiateExtVersion
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhone::NegotiateExtVersion

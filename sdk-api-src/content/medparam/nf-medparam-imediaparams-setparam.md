@@ -4,17 +4,16 @@ title: IMediaParams::SetParam
 author: windows-sdk-content
 description: The SetParam method sets the value of a parameter.
 old-location: dshow\imediaparams_setparam.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaParams interface [DirectShow],SetParam method, IMediaParams.SetParam, IMediaParams::SetParam, IMediaParamsSetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IMediaParams interface, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaParams.SetParam
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaParams::SetParam

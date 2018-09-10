@@ -4,17 +4,16 @@ title: IEnumTerminalClass::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_next.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 67ed4017-9cd2-4694-9853-c07bd4f81e0a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Next method, IEnumTerminalClass.Next, IEnumTerminalClass::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_next, tapi3.ienumterminalclass_next, tapi3if/IEnumTerminalClass::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTerminalClass.Next
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTerminalClass::Next

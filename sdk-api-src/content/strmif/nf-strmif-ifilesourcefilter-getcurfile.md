@@ -4,17 +4,16 @@ title: IFileSourceFilter::GetCurFile
 author: windows-sdk-content
 description: The GetCurFile method retrieves the name and media type of the current file.
 old-location: dshow\ifilesourcefilter_getcurfile.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFileSourceFilter.GetCurFile
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSourceFilter::GetCurFile

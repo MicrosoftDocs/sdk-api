@@ -4,18 +4,17 @@ title: CStdStubBuffer_QueryInterface function
 author: windows-sdk-content
 description: The CStdStubBuffer_QueryInterface function implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer_queryinterface.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 7afb828d-7de9-4fa7-a869-fad694328206
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface
 , CStdStubBuffer_QueryInterface function [RPC], rpc.cstdstubbuffer_queryinterface, rpcproxy/CStdStubBuffer_QueryInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CStdStubBuffer_QueryInterface
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdStubBuffer_QueryInterface function

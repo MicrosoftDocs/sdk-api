@@ -4,7 +4,7 @@ title: "_tagSYNCMGRREGISTERFLAGS"
 author: windows-sdk-content
 description: The SYNCMGRREGISTERFLAGS enumeration values are used in methods of the ISyncMgrRegister interface to identify events for which the handler is registered to be notified.
 old-location: shell\syncmgr_SYNCMGRREGISTERFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: be87cebf-da50-437b-bbb1-22c2c764e700
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRREGISTERFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRREGISTERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRREGISTERFLAGS
+req.redist: 
 ---
 
 # _tagSYNCMGRREGISTERFLAGS enumeration

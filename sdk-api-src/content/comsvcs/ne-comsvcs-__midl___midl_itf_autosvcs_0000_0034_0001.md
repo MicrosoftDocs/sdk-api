@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_autosvcs_0000_0034_0001"
 author: windows-sdk-content
 description: Indicates the type of objects in a tracking information collection.
 old-location: cos\tracking_coll_type.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0dd3defb-0731-4bef-9735-6a4b7551cff2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TRACKING_COLL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TRACKING_COLL_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_autosvcs_0000_0034_0001 enumeration

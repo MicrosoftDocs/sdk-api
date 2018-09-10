@@ -4,17 +4,16 @@ title: BluetoothGATTAbortReliableWrite function
 author: windows-sdk-content
 description: Specifies the end of reliable write procedures, and the writes should be aborted.
 old-location: bltooth\bluetoothgattabortreliablewrite.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 6EC1D80A-6327-4D5A-8460-87C339669BDA
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTAbortReliableWrite, BluetoothGATTAbortReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattabortreliablewrite, bluetoothleapis/BluetoothGATTAbortReliableWrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothAPIs.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTAbortReliableWrite
 product: Windows
 targetos: Windows
-req.lib: BluetoothAPIs.lib
-req.dll: BluetoothAPIs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTAbortReliableWrite function

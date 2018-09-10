@@ -4,17 +4,16 @@ title: IUIAutomationElement4::get_CurrentPositionInSet
 author: windows-sdk-content
 description: Returns the current 1-based integer for the ordinal position in the set for the element.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentPositionInSet.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 29AAA407-B21B-452F-8887-91FF3E97E0C7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentPositionInSet property [Windows Accessibility], CurrentPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentPositionInSet property, IUIAutomationElement4.CurrentPositionInSet, IUIAutomationElement4.get_CurrentPositionInSet, IUIAutomationElement4::CurrentPositionInSet, IUIAutomationElement4::get_CurrentPositionInSet, get_CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::get_CurrentPositionInSet, winauto.uiauto_IUIAutomationElement4_CurrentPositionInSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: UIAutomationCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement4.get_CurrentPositionInSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAutomationCore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement4::get_CurrentPositionInSet

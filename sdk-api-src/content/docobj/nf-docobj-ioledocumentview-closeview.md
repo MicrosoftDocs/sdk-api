@@ -4,17 +4,16 @@ title: IOleDocumentView::CloseView
 author: windows-sdk-content
 description: Instructs a document view to close itself and release its IOleInPlaceSite pointer.
 old-location: com\ioledocumentview_closeview.htm
-old-project: com
+tech.root: com
 ms.assetid: d2f443de-929e-4bd4-bfb3-2a28c119c176
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],CloseView method, IOleDocumentView.CloseView, IOleDocumentView::CloseView, _ole_ioledocumentview_closeview, com.ioledocumentview_closeview, docobj/IOleDocumentView::CloseView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentView.CloseView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentView::CloseView

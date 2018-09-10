@@ -4,17 +4,16 @@ title: IInkPicture::get_hWnd
 author: windows-sdk-content
 description: Gets or sets the handle value of the window on which ink is drawn.
 old-location: tablet\inkpicture_hwnd.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c11f13f5-f0a8-45f8-83c2-372df670ef1f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkPicture interface [Tablet PC],hWnd property, IInkPicture.get_hWnd, IInkPicture.hWnd, IInkPicture::get_hWnd, IInkPicture::hWnd, IInkPicture::put_hWnd, InkPicture.get_hWnd, InkPicture.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::get_hWnd, msinkaut/IInkPicture::hWnd, msinkaut/IInkPicture::put_hWnd, put_hWnd, tablet.inkpicture_hwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_hWnd
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_hWnd

@@ -4,7 +4,7 @@ title: "_NET_DISPLAY_USER"
 author: windows-sdk-content
 description: The NET_DISPLAY_USER structure contains information that an account manager can access to determine information about user accounts.
 old-location: netmgmt\net_display_user_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 308966f7-448c-4748-bbe7-9ac63afae1d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_DISPLAY_USER, *PNET_DISPLAY_USER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_DISPLAY_USER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_DISPLAY_USER, *PNET_DISPLAY_USER
+req.redist: 
 ---
 
 # _NET_DISPLAY_USER structure

@@ -4,17 +4,16 @@ title: IEnumFORMATETC::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumformatetc_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: f079c166-c4a8-4827-a8c5-3c5e0cb13b77
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumFORMATETC interface [COM],Reset method, IEnumFORMATETC.Reset, IEnumFORMATETC::Reset, Reset, Reset method [COM], Reset method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_reset, com.ienumformatetc_reset, objidl/IEnumFORMATETC::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFORMATETC.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFORMATETC::Reset

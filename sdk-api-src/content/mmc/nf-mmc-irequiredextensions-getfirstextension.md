@@ -4,17 +4,16 @@ title: IRequiredExtensions::GetFirstExtension
 author: windows-sdk-content
 description: Enables the snap-in to specify the first extension snap-in its list of required extension snap-ins.
 old-location: mmc\irequiredextensions_getfirstextension.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 1c84d6ab-c855-4b89-8e36-0794e3ffdb85
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetFirstExtension, GetFirstExtension method [MMC], GetFirstExtension method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],GetFirstExtension method, IRequiredExtensions.GetFirstExtension, IRequiredExtensions::GetFirstExtension, _slate_irequiredextensions_getfirstextension, mmc.irequiredextensions_getfirstextension, mmc/IRequiredExtensions::GetFirstExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRequiredExtensions.GetFirstExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRequiredExtensions::GetFirstExtension

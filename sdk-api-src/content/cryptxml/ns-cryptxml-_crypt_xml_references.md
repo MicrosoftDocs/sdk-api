@@ -4,7 +4,7 @@ title: "_CRYPT_XML_REFERENCES"
 author: windows-sdk-content
 description: Defines an array of CRYPT_XML_REFERENCE structures.
 old-location: security\crypt_xml_references.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_REFERENCES, *PCRYPT_XML_REFERENCES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_REFERENCES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_REFERENCES, *PCRYPT_XML_REFERENCES
+req.redist: 
 ---
 
 # _CRYPT_XML_REFERENCES structure

@@ -4,17 +4,16 @@ title: D3D12CreateRootSignatureDeserializer function
 author: windows-sdk-content
 description: Deserializes a root signature so you can determine the layout definition (D3D12_ROOT_SIGNATURE_DESC).
 old-location: direct3d12\d3d12createrootsignaturedeserializer.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 96E58C9B-569F-41B8-A799-E87D849C045C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3D12CreateRootSignatureDeserializer, D3D12CreateRootSignatureDeserializer function, d3d12/D3D12CreateRootSignatureDeserializer, direct3d12.d3d12createrootsignaturedeserializer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12CreateRootSignatureDeserializer
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D12CreateRootSignatureDeserializer function

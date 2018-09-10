@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetSignatureXml
 author: windows-sdk-content
 description: Gets the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturexml.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 7b495661-32ed-4010-a945-7e638f30f4f2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [Open Packaging Conventions], GetSignatureXml method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureXml method, IOpcDigitalSignature.GetSignatureXml, IOpcDigitalSignature::GetSignatureXml, msopc/IOpcDigitalSignature::GetSignatureXml, opc.iopcdigitalsignature_getsignaturexml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetSignatureXml
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetSignatureXml

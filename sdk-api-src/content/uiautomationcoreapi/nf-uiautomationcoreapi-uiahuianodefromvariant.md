@@ -4,17 +4,16 @@ title: UiaHUiaNodeFromVariant function
 author: windows-sdk-content
 description: Gets an HUIANODE from a VARIANT type.
 old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaHUiaNodeFromVariant
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaHUiaNodeFromVariant function

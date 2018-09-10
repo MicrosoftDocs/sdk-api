@@ -4,17 +4,16 @@ title: RegisterForPrintAsyncNotifications function
 author: windows-sdk-content
 description: Enables an application to register for notifications from Print Spooler-hosted printing components such as printer drivers, print processors, and port monitors.
 old-location: gdi\registerforprintasyncnotifications.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: WinSpool.lib
+req.dll: Spoolss.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterForPrintAsyncNotifications
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterForPrintAsyncNotifications function

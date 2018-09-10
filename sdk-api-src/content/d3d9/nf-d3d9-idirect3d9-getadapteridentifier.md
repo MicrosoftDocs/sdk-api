@@ -4,17 +4,16 @@ title: IDirect3D9::GetAdapterIdentifier
 author: windows-sdk-content
 description: Describes the physical display adapters present in the system when the IDirect3D9 interface was instantiated.
 old-location: direct3d9\idirect3d9__getadapteridentifier.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadapteridentifier.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAdapterIdentifier, GetAdapterIdentifier method [Direct3D 9], GetAdapterIdentifier method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterIdentifier method, IDirect3D9.GetAdapterIdentifier, IDirect3D9::GetAdapterIdentifier, ab3a7dce-1e55-5674-03b7-13a53540bbf5, d3d9helper/IDirect3D9::GetAdapterIdentifier, direct3d9.idirect3d9__getadapteridentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9.GetAdapterIdentifier
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9::GetAdapterIdentifier

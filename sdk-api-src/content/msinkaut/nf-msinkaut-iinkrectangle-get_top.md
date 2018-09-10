@@ -4,17 +4,16 @@ title: IInkRectangle::get_Top
 author: windows-sdk-content
 description: Gets or sets the top position of the InkRectangle object.
 old-location: tablet\inkrectangle_top.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f97145cf-9de9-427a-9701-36c6f4286910
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkRectangle interface [Tablet PC],Top property, IInkRectangle.Top, IInkRectangle.get_Top, IInkRectangle::Top, IInkRectangle::get_Top, IInkRectangle::put_Top, InkRectangle.get_Top, InkRectangle.put_Top, Top property [Tablet PC], Top property [Tablet PC],IInkRectangle interface, f97145cf-9de9-427a-9701-36c6f4286910, get_Top, msinkaut/IInkRectangle::Top, msinkaut/IInkRectangle::get_Top, msinkaut/IInkRectangle::put_Top, put_Top, tablet.inkrectangle_top
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRectangle.put_Top
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRectangle::get_Top

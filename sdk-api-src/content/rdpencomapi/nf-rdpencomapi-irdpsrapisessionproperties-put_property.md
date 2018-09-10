@@ -4,17 +4,16 @@ title: IRDPSRAPISessionProperties::put_Property
 author: windows-sdk-content
 description: Sets or gets a named session property.
 old-location: rdp\irdpsrapisessionproperties_property.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.put_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, put_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RDPSRAPISessionProperties.Property
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISessionProperties::put_Property

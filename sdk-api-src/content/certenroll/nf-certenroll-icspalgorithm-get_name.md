@@ -4,17 +4,16 @@ title: ICspAlgorithm::get_Name
 author: windows-sdk-content
 description: Retrieves the abbreviated algorithm name.
 old-location: security\icspalgorithm_name_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],Name property, ICspAlgorithm.Name, ICspAlgorithm.get_Name, ICspAlgorithm::Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name, security.icspalgorithm_name_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithm.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::get_Name

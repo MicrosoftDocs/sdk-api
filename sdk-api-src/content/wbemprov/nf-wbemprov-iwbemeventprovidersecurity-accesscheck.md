@@ -4,17 +4,16 @@ title: IWbemEventProviderSecurity::AccessCheck
 author: windows-sdk-content
 description: The AccessCheck method is implemented by an event provider and called by Windows Management Instrumentation (WMI) when a consumer subscribes to an event specified in wszQuery.
 old-location: wmi\iwbemeventprovidersecurity_accesscheck.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 9c5cf37f-f43f-46c7-a5b4-1537aead158e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: AccessCheck, AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation],IWbemEventProviderSecurity interface, IWbemEventProviderSecurity interface [Windows Management Instrumentation],AccessCheck method, IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventProviderSecurity.AccessCheck
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventProviderSecurity::AccessCheck

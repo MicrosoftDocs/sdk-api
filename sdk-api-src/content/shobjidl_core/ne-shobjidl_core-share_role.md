@@ -4,7 +4,7 @@ title: SHARE_ROLE
 author: windows-sdk-content
 description: Specifies the access permissions assigned to the Users or Public folder. Used in CreateShare and GetSharePermissions.
 old-location: shell\SHARE_ROLE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d1c8764d-002e-4fbd-a0a6-1f469f8b1fbb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARE_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHARE_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SHARE_ROLE
+req.redist: 
 ---
 
 # SHARE_ROLE enumeration

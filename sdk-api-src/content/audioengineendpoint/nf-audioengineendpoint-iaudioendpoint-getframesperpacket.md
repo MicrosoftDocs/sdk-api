@@ -4,17 +4,16 @@ title: IAudioEndpoint::GetFramesPerPacket
 author: windows-sdk-content
 description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
 old-location: termserv\iaudioendpoint_getframesperpacket.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpoint.GetFramesPerPacket
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpoint::GetFramesPerPacket

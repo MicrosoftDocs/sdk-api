@@ -4,17 +4,16 @@ title: IVBGetControl::EnumControls
 author: windows-sdk-content
 description: Enumerates the controls on the form.
 old-location: com\ivbgetcontrol_enumcontrols.htm
-old-project: com
+tech.root: com
 ms.assetid: 4ae01518-8762-4bce-ad9c-4dc2635e743d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumControls, EnumControls method [COM], EnumControls method [COM],IVBGetControl interface, GCW_WCH_SIBLING, GC_WCH_ALL, GC_WCH_CONTAINED, GC_WCH_CONTAINER, GC_WCH_FONLYAFTER, GC_WCH_FONLYBEFORE, GC_WCH_FREVERSEDIR, GC_WCH_FSELECTED, IVBGetControl interface [COM],EnumControls method, IVBGetControl.EnumControls, IVBGetControl::EnumControls, OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHER, _com_IVBGetControl_EnumControls, com.ivbgetcontrol_enumcontrols, vbinterf/IVBGetControl::EnumControls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vbinterf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVBGetControl.EnumControls
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVBGetControl::EnumControls

@@ -4,7 +4,7 @@ title: "_WLX_TERMINAL_SERVICES_DATA"
 author: windows-sdk-content
 description: Used to provide GINA with Terminal Services user configuration information.
 old-location: security\wlx_terminal_services_data.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: e3c6285e-cac3-490d-b2db-ea63871b3620
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_TERMINAL_SERVICES_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
+req.redist: 
 ---
 
 # _WLX_TERMINAL_SERVICES_DATA structure

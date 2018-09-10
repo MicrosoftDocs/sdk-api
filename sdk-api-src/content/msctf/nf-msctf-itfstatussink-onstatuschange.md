@@ -4,17 +4,16 @@ title: ITfStatusSink::OnStatusChange
 author: windows-sdk-content
 description: ITfStatusSink::OnStatusChange method
 old-location: tsf\itfstatussink_onstatuschange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfStatusSink.OnStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfStatusSink::OnStatusChange

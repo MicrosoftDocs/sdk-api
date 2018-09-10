@@ -4,7 +4,7 @@ title: ICMP4_TYPE
 author: windows-sdk-content
 description: Defines the set of Internet Control Message Protocol (ICMP) for IP version 4.0 (IPv4) message types.
 old-location: mib\icmp4_type.htm
-old-project: mib
+tech.root: mib
 ms.assetid: e284ef78-d3ec-48a4-9d99-d23d84f9456e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICMP4_TYPE, *PICMP4_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICMP4_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ICMP4_TYPE, *PICMP4_TYPE
+req.redist: 
 ---
 
 # ICMP4_TYPE enumeration

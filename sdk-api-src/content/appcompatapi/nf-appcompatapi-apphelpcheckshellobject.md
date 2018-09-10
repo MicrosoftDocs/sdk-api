@@ -4,17 +4,16 @@ title: ApphelpCheckShellObject function
 author: windows-sdk-content
 description: Enables applications to detect bad extension objects and either block them from running or fix them.
 old-location: winprog\apphelpcheckshellobject.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: e1e44cb1-ecfe-4a58-a29c-4a401f064a04
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApphelpCheckShellObject, ApphelpCheckShellObject function [Windows API], appcompatapi/ApphelpCheckShellObject, winprog.apphelpcheckshellobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appcompatapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_FRAMESTEP_STEP
+req.lib: 
+req.dll: Apphelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ApphelpCheckShellObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Apphelp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ApphelpCheckShellObject function

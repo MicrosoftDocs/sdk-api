@@ -4,17 +4,16 @@ title: IPolicyQualifiers::Remove
 author: windows-sdk-content
 description: Removes an object from the collection by index value.
 old-location: security\ipolicyqualifiers_remove_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPolicyQualifiers.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPolicyQualifiers::Remove

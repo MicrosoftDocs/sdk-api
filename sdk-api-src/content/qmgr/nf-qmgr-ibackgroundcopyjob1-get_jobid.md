@@ -4,17 +4,16 @@ title: IBackgroundCopyJob1::get_JobID
 author: windows-sdk-content
 description: Use the get_JobID method to retrieve the job's identifier.
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBackgroundCopyJob1.get_JobID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob1::get_JobID
@@ -64,7 +62,7 @@ Use the <b>get_JobID</b> method to retrieve the job's identifier.
 
 ### -param pguidJobID
 
-
+TBD
 
 
 

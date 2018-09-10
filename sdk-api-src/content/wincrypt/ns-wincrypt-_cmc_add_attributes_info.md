@@ -4,7 +4,7 @@ title: "_CMC_ADD_ATTRIBUTES_INFO"
 author: windows-sdk-content
 description: Contains certificate attributes to be added to a certificate.
 old-location: security\cmc_add_attributes_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fd13cd2b-b818-41ca-85be-d51b864194df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMC_ADD_ATTRIBUTES_INFO, *PCMC_ADD_ATTRIBUTES_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMC_ADD_ATTRIBUTES_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMC_ADD_ATTRIBUTES_INFO, *PCMC_ADD_ATTRIBUTES_INFO
+req.redist: 
 ---
 
 # _CMC_ADD_ATTRIBUTES_INFO structure

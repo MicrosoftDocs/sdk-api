@@ -4,17 +4,16 @@ title: ITAgentHandler::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentHandler.get_Name
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentHandler::get_Name

@@ -4,7 +4,7 @@ title: tagAnalogVideoInfo
 author: windows-sdk-content
 description: The ANALOGVIDEOINFO structure maintains information about the format of the analog video signal.
 old-location: dshow\analogvideoinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ANALOGVIDEOINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ANALOGVIDEOINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ANALOGVIDEOINFO
+req.redist: 
 ---
 
 # tagAnalogVideoInfo structure

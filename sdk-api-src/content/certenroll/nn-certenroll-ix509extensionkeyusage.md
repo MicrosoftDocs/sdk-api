@@ -4,7 +4,7 @@ title: IX509ExtensionKeyUsage
 author: windows-sdk-content
 description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.
 old-location: security\ix509extensionkeyusage.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509ExtensionKeyUsage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionKeyUsage interface

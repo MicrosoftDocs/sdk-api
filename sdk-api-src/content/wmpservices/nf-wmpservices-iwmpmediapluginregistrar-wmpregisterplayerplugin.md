@@ -4,17 +4,16 @@ title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
 author: windows-sdk-content
 description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPRegisterPlayerPlugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin

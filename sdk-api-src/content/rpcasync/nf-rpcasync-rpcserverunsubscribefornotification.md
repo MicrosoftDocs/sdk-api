@@ -4,17 +4,16 @@ title: RpcServerUnsubscribeForNotification function
 author: windows-sdk-content
 description: Unsubscribes the server from RPC notifications.
 old-location: rpc\rpcserverunsubscribefornotification.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 7ca59f00-41ac-4771-a465-6185e17abe80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerUnsubscribeForNotification, RpcServerUnsubscribeForNotification function [RPC], rpc.rpcserverunsubscribefornotification, rpcasync/RpcServerUnsubscribeForNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerUnsubscribeForNotification
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerUnsubscribeForNotification function

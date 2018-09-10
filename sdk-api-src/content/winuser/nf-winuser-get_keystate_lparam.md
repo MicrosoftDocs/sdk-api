@@ -4,17 +4,16 @@ title: GET_KEYSTATE_LPARAM macro
 author: windows-sdk-content
 description: Retrieves the state of certain virtual keys from the specified LPARAM value.
 old-location: inputdev\get_keystate_lparam.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_lparam.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GET_KEYSTATE_LPARAM, GET_KEYSTATE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_KEYSTATE_LPARAM, _win32_get_keystate_lparam_cpp, inputdev.get_keystate_lparam, winui._win32_get_keystate_lparam, winuser/GET_KEYSTATE_LPARAM
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_KEYSTATE_LPARAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GET_KEYSTATE_LPARAM macro

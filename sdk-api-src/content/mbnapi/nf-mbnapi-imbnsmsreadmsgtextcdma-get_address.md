@@ -4,17 +4,16 @@ title: IMbnSmsReadMsgTextCdma::get_Address
 author: windows-sdk-content
 description: The mobile number associated with a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_address.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: e2cb5e6e-0cfa-4226-85fe-0162cf99a80f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Address property [Microsoft Broadband Networks], Address property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Address property, IMbnSmsReadMsgTextCdma.Address, IMbnSmsReadMsgTextCdma.get_Address, IMbnSmsReadMsgTextCdma::Address, IMbnSmsReadMsgTextCdma::get_Address, get_Address, mbn.imbnsmsreadmsgtextcdma_address, mbnapi/IMbnSmsReadMsgTextCdma::Address, mbnapi/IMbnSmsReadMsgTextCdma::get_Address
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnSmsReadMsgTextCdma.get_Address
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Address

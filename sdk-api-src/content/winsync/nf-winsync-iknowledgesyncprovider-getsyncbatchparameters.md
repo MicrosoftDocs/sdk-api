@@ -4,17 +4,16 @@ title: IKnowledgeSyncProvider::GetSyncBatchParameters
 author: windows-sdk-content
 description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
 old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 25ebd3f7-8b62-44f3-83cd-c67c5e4f6617
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetSyncBatchParameters method, IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKnowledgeSyncProvider.GetSyncBatchParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IKnowledgeSyncProvider::GetSyncBatchParameters

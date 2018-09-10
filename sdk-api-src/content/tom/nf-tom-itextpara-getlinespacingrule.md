@@ -4,17 +4,16 @@ title: ITextPara::GetLineSpacingRule
 author: windows-sdk-content
 description: Retrieves the line-spacing rule for the text range.
 old-location: controls\ITextPara_GetLineSpacingRule.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLineSpacingRule, GetLineSpacingRule method [Windows Controls], GetLineSpacingRule method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacingRule method, ITextPara.GetLineSpacingRule, ITextPara::GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule_cpp, controls.ITextPara_GetLineSpacingRule, controls._win32_ITextPara_GetLineSpacingRule, tom/ITextPara::GetLineSpacingRule, tomLineSpace1pt5, tomLineSpaceAtLeast, tomLineSpaceDouble, tomLineSpaceExactly, tomLineSpaceMultiple, tomLineSpacePercent, tomLineSpaceSingle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetLineSpacingRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetLineSpacingRule

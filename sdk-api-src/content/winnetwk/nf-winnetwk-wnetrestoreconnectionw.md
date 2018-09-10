@@ -4,17 +4,16 @@ title: WNetRestoreConnectionW function
 author: windows-sdk-content
 description: The WNetRestoreConnectionW function restores the connection to a network resource. The function prompts the user, if necessary, for a name and password.
 old-location: wnet\wnetrestoreconnectionw.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: 641b37f1-9cea-4c7a-9b42-b4bd28c747ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNetRestoreConnectionW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetRestoreConnectionW function

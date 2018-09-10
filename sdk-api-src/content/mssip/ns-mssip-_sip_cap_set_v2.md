@@ -4,7 +4,7 @@ title: "_SIP_CAP_SET_V2"
 author: windows-sdk-content
 description: Defines the capabilities of a subject interface package (SIP).
 old-location: security\sip_cap_set.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIP_CAP_SET_V2, *PSIP_CAP_SET_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIP_CAP_SET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SIP_CAP_SET_V2, *PSIP_CAP_SET_V2
+req.redist: 
 ---
 
 # _SIP_CAP_SET_V2 structure

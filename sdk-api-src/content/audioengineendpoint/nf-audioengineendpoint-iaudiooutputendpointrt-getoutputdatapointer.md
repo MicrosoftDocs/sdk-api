@@ -4,17 +4,16 @@ title: IAudioOutputEndpointRT::GetOutputDataPointer
 author: windows-sdk-content
 description: Returns a pointer to the output buffer in which data will be written by the audio engine.
 old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, IAudioOutputEndpointRT interface [Remote Desktop Services],GetOutputDataPointer method, IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioOutputEndpointRT.GetOutputDataPointer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioOutputEndpointRT::GetOutputDataPointer

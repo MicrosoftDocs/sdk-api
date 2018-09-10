@@ -4,7 +4,7 @@ title: D2D1_SVG_ASPECT_ALIGN
 author: windows-sdk-content
 description: The alignment portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_align.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9B60A60B-7838-404B-B39E-75A8F0F90DF8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_ASPECT_ALIGN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_ASPECT_ALIGN
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_SVG_ASPECT_ALIGN
+req.redist: 
 ---
 
 # D2D1_SVG_ASPECT_ALIGN enumeration

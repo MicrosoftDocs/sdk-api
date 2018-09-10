@@ -4,7 +4,7 @@ title: IBroadcastEvent
 author: windows-sdk-content
 description: The IBroadcastEvent interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use this interface.
 old-location: mstv\ibroadcastevent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 90d4fbc7-d552-460b-96b2-77e2347af716
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBroadcastEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IBroadcastEvent interface

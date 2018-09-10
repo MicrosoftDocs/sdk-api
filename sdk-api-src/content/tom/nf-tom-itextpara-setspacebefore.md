@@ -4,17 +4,16 @@ title: ITextPara::SetSpaceBefore
 author: windows-sdk-content
 description: Sets the amount of space preceding a paragraph.
 old-location: controls\ITextPara_SetSpaceBefore.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],SetSpaceBefore method, ITextPara.SetSpaceBefore, ITextPara::SetSpaceBefore, SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.SetSpaceBefore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::SetSpaceBefore

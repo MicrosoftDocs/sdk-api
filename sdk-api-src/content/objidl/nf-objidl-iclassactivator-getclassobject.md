@@ -4,17 +4,16 @@ title: IClassActivator::GetClassObject
 author: windows-sdk-content
 description: Retrieves a class object.
 old-location: com\iclassactivator_getclassobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 1bbffe63-bd3a-40c8-aece-63121a437269
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClassObject, GetClassObject method [COM], GetClassObject method [COM],IClassActivator interface, IClassActivator interface [COM],GetClassObject method, IClassActivator.GetClassObject, IClassActivator::GetClassObject, _com_iclassactivator_getclassobject, com.iclassactivator_getclassobject, objidl/IClassActivator::GetClassObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClassActivator.GetClassObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IClassActivator::GetClassObject

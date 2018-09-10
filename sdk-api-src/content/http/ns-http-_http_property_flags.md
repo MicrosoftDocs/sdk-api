@@ -4,7 +4,7 @@ title: "_HTTP_PROPERTY_FLAGS"
 author: windows-sdk-content
 description: Used by the property configuration structures to enable or disable a property on a configuration object when setting property configurations.
 old-location: http\http_property_flags.htm
-old-project: http
+tech.root: http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_PROPERTY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
+req.redist: 
 ---
 
 # _HTTP_PROPERTY_FLAGS structure

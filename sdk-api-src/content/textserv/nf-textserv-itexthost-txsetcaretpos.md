@@ -4,17 +4,16 @@ title: ITextHost::TxSetCaretPos
 author: windows-sdk-content
 description: Moves the caret position to the specified coordinates in the text host window.
 old-location: controls\ITextHost_TxSetCaretPos.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcaretpos.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCaretPos method, ITextHost.TxSetCaretPos, ITextHost::TxSetCaretPos, TxSetCaretPos, TxSetCaretPos method [Windows Controls], TxSetCaretPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCaretPos, _win32_ITextHost_TxSetCaretPos_cpp, controls.ITextHost_TxSetCaretPos, controls._win32_ITextHost_TxSetCaretPos, textserv/ITextHost::TxSetCaretPos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxSetCaretPos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxSetCaretPos

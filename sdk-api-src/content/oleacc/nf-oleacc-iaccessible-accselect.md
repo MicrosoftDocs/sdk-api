@@ -4,17 +4,16 @@ title: IAccessible::accSelect
 author: windows-sdk-content
 description: The IAccessible::accSelect method modifies the selection or moves the keyboard focus of the specified object. All objects that support selection or receive the keyboard focus must support this method.
 old-location: winauto\iaccessible_iaccessible__accselect.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.accSelect
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::accSelect
@@ -69,7 +67,7 @@ Specifies which selection or focus operations are to be performed. This paramete
 
 ### -param varChild
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ITextHost2::TxGetEditStyle
 author: windows-sdk-content
 description: Gets whether a rich edit control is in a dialog box.
 old-location: controls\itexthost2_txgeteditstyle.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 8C5468C9-D152-4F57-9E8A-23B4852BFD69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetEditStyle method, ITextHost2.TxGetEditStyle, ITextHost2::TxGetEditStyle, TXES_ISDIALOG, TxGetEditStyle, TxGetEditStyle method [Windows Controls], TxGetEditStyle method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgeteditstyle, textserv/ITextHost2::TxGetEditStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost2.TxGetEditStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost2::TxGetEditStyle

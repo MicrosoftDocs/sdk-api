@@ -4,17 +4,16 @@ title: ITsSbTarget::put_FarmName
 author: windows-sdk-content
 description: Retrieves or specifies the name of the farm to which this target is joined.
 old-location: termserv\itssbtarget_farmname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 83e168ae-f985-40f9-912b-496c0695f82a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FarmName property [Remote Desktop Services], FarmName property [Remote Desktop Services],ITsSbTarget interface, FarmName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],FarmName property, ITsSbTarget.FarmName, ITsSbTarget.put_FarmName, ITsSbTarget::FarmName, ITsSbTarget::get_FarmName, ITsSbTarget::put_FarmName, ITsSbTargetEx interface [Remote Desktop Services],FarmName property, ITsSbTargetEx.FarmName, ITsSbTargetEx::get_FarmName, ITsSbTargetEx::put_FarmName, put_FarmName, sbtsv/ITsSbTarget::FarmName, sbtsv/ITsSbTarget::get_FarmName, sbtsv/ITsSbTarget::put_FarmName, sbtsv/ITsSbTargetEx::FarmName, sbtsv/ITsSbTargetEx::get_FarmName, sbtsv/ITsSbTargetEx::put_FarmName, termserv.itssbtarget_farmname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ITsSbTargetEx.put_FarmName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTarget::put_FarmName

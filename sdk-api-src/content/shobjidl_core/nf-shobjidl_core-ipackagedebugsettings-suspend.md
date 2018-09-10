@@ -4,17 +4,16 @@ title: IPackageDebugSettings::Suspend
 author: windows-sdk-content
 description: Suspends the processes of the package if they are currently running.
 old-location: shell\IPackageDebugSettings_Suspend.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b1a62712-cd03-4728-b0f1-c1b543f2e056
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Suspend method, IPackageDebugSettings.Suspend, IPackageDebugSettings::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Suspend, shobjidl_core/IPackageDebugSettings::Suspend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.Suspend
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::Suspend

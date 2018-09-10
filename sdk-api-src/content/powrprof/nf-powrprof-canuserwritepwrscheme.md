@@ -4,17 +4,16 @@ title: CanUserWritePwrScheme function
 author: windows-sdk-content
 description: Determines whether the current user has sufficient privilege to write a power scheme.
 old-location: base\canuserwritepwrscheme.htm
-old-project: power
+tech.root: power
 ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CanUserWritePwrScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CanUserWritePwrScheme function

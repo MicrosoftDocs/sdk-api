@@ -4,17 +4,16 @@ title: IAMParse::GetParseTime
 author: windows-sdk-content
 description: The GetParseTime method retrieves the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_getparsetime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ce87e39e-1e5d-4098-8431-ea9b3188784e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetParseTime, GetParseTime method [DirectShow], GetParseTime method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],GetParseTime method, IAMParse.GetParseTime, IAMParse::GetParseTime, IAMParseGetParseTime, amparse/IAMParse::GetParseTime, dshow.iamparse_getparsetime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amparse.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMParse.GetParseTime
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMParse::GetParseTime
@@ -65,7 +64,7 @@ The <code>GetParseTime</code> method retrieves the current stream parse time. Fo
 
 ### -param prtCurrent
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: HttpEndRequestW function
 author: windows-sdk-content
 description: Ends an HTTP request that was initiated by HttpSendRequestEx.
 old-location: wininet\httpendrequest.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HttpEndRequestW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HttpEndRequestW function

@@ -4,17 +4,16 @@ title: IPrincipal::put_Id
 author: windows-sdk-content
 description: Gets or sets the identifier of the principal.
 old-location: taskschd\iprincipal_id.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, IPrincipal.put_Id, IPrincipal::Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IPrincipal interface, put_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPrincipal.put_Id
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal::put_Id

@@ -4,17 +4,16 @@ title: MI_SubscriptionDeliveryOptions_SetNumber function
 author: windows-sdk-content
 description: Sets the value of a named numeric option that is not covered by a dedicated function.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setnumber.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 872af4f8-67e2-4e41-a629-180172dbdd17
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetNumber, MI_SubscriptionDeliveryOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetNumber, wmi_v2.mi_subscriptiondeliveryoptions_setnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_SubscriptionDeliveryOptions_SetNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_SubscriptionDeliveryOptions_SetNumber function

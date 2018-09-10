@@ -4,17 +4,16 @@ title: UiaSetFocus function
 author: windows-sdk-content
 description: Sets the input focus to the specified element in the UI.
 old-location: winauto\uiauto_UiaSetFocusAutoMeth.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 89cc1c0d-b6c2-434d-b849-cf09b1711a3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaSetFocus, UiaSetFocus function [Windows Accessibility], uiauto.uiauto_UiaSetFocusAutoMeth, uiauto_UiaSetFocusAutoMeth, uiautomationcoreapi/UiaSetFocus, winauto.uiauto_UiaSetFocusAutoMeth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaSetFocus
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaSetFocus function

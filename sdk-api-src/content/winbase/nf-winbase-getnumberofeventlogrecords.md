@@ -4,17 +4,16 @@ title: GetNumberOfEventLogRecords function
 author: windows-sdk-content
 description: Retrieves the number of records in the specified event log.
 old-location: base\getnumberofeventlogrecords.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetNumberOfEventLogRecords
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNumberOfEventLogRecords function

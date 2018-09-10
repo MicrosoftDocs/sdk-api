@@ -4,7 +4,7 @@ title: tagProxyFileInfo
 author: windows-sdk-content
 description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
 old-location: rpc\proxyfileinfo.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProxyFileInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ProxyFileInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ProxyFileInfo
+req.redist: 
 ---
 
 # tagProxyFileInfo structure
@@ -117,7 +115,7 @@ The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="https://msdn.microsoft.com/">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>

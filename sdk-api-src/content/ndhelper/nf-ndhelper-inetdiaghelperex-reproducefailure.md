@@ -4,17 +4,16 @@ title: INetDiagHelperEx::ReproduceFailure
 author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_reproducefailure.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: a85e375b-78f3-494b-846e-8ea5dd4b5b37
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelperEx.ReproduceFailure
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelperEx::ReproduceFailure

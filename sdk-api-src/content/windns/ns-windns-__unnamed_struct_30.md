@@ -4,7 +4,7 @@ title: DNS_SRV_DATAW
 author: windows-sdk-content
 description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
 old-location: dns\dns_srv_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_SRV_DATAW, *PDNS_SRV_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_SRV_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_SRV_DATAW, *PDNS_SRV_DATAW
+req.redist: 
 ---
 
 # DNS_SRV_DATAW structure

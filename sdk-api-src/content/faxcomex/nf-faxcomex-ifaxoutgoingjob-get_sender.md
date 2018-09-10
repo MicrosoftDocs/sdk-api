@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingJob.get_Sender
 title: IFaxOutgoingJob::get_Sender
 author: windows-sdk-content
-description: The Sender property retrieves an object that contains information about the sender of the fax.
-old-location: fax\_mfax_faxoutgoingjob_sender.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_0qsy.htm
+description: The IFaxOutgoingJob::get_Sender property retrieves an object containing information about the sender of the fax.
+old-location: fax\_mfax_faxoutgoingjob_sender_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_0qsy_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxOutgoingJob object [Fax Service],Sender property, FaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingJob object, _mfax_faxoutgoingjob.sender, fax._mfax_faxoutgoingjob_sender, get_Sender
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxOutgoingJob interface [Fax Service],Sender property, IFaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.sender_cpp, fax._mfax_faxoutgoingjob_sender_cpp, faxcomex/IFaxOutgoingJob::Sender, faxcomex/IFaxOutgoingJob::get_Sender, get_Sender
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingJob.Sender
+ - IFaxOutgoingJob.Sender
  - IFaxOutgoingJob.get_Sender
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingJob::get_Sender
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Sender</b> property retrieves an object that contains information about the sender of the fax.
+The <b>IFaxOutgoingJob::get_Sender</b> property retrieves an object containing information about the sender of the fax.
 
 This property is read-only.
 

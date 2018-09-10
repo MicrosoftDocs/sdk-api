@@ -4,17 +4,16 @@ title: ITraceDataCollector::put_MinimumBuffers
 author: windows-sdk-content
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],MinimumBuffers property, ITraceDataCollector.MinimumBuffers, ITraceDataCollector.put_MinimumBuffers, ITraceDataCollector::MinimumBuffers, ITraceDataCollector::get_MinimumBuffers, ITraceDataCollector::put_MinimumBuffers, MinimumBuffers property [PLA], MinimumBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_minimumbuffers, pla.itracedatacollector_minimumbuffers, pla/ITraceDataCollector::MinimumBuffers, pla/ITraceDataCollector::get_MinimumBuffers, pla/ITraceDataCollector::put_MinimumBuffers, put_MinimumBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_MinimumBuffers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::put_MinimumBuffers

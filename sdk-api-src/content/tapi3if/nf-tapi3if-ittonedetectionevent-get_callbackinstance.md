@@ -4,17 +4,16 @@ title: ITToneDetectionEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.
 old-location: tapi3\ittonedetectionevent_get_callbackinstance.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5ebd7fae-0060-4937-9812-8b48eceb9139
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_CallbackInstance method, ITToneDetectionEvent.get_CallbackInstance, ITToneDetectionEvent::get_CallbackInstance, _tapi3_ittonedetectionevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_callbackinstance, tapi3if/ITToneDetectionEvent::get_CallbackInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITToneDetectionEvent.get_CallbackInstance
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITToneDetectionEvent::get_CallbackInstance

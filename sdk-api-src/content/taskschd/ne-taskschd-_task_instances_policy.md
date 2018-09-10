@@ -4,7 +4,7 @@ title: "_TASK_INSTANCES_POLICY"
 author: windows-sdk-content
 description: Defines how the Task Scheduler handles existing instances of the task when it starts a new instance of the task.
 old-location: taskschd\task_instances_policy.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 38d92951-546e-47e6-bc03-5ef4f317a814
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_INSTANCES_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_INSTANCES_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_INSTANCES_POLICY
+req.redist: 
 ---
 
 # _TASK_INSTANCES_POLICY enumeration

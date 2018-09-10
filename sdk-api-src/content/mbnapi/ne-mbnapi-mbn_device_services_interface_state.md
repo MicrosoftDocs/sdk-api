@@ -4,7 +4,7 @@ title: MBN_DEVICE_SERVICES_INTERFACE_STATE
 author: windows-sdk-content
 description: "."
 old-location: mbn\mbn_device_services_interface_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0EDED390-CB60-4D6C-9E62-87B3BF6F9050
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_DEVICE_SERVICES_INTERFACE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_DEVICE_SERVICES_INTERFACE_STATE
+req.redist: 
 ---
 
 # MBN_DEVICE_SERVICES_INTERFACE_STATE enumeration

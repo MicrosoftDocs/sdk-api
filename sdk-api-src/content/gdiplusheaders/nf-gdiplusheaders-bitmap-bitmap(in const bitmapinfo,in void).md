@@ -4,17 +4,16 @@ title: Bitmap::Bitmap(IN const BITMAPINFO,IN VOID)
 author: windows-sdk-content
 description: This topic lists the constructors of the Bitmap class. For a complete class listing, see Bitmap Class.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Constructors.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bitmap, Bitmap constructors [GDI+], Bitmap.Bitmap, Bitmap.Bitmap(IN const BITMAPINFO,IN VOID), Bitmap::Bitmap, Bitmap::Bitmap(IN const BITMAPINFO,IN VOID), _gdiplus_CLASS_Bitmap_Constructors, gdiplus._gdiplus_CLASS_Bitmap_Constructors, gdiplusheaders/Bitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Bitmap.Bitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Bitmap::Bitmap(IN const BITMAPINFO,IN VOID)

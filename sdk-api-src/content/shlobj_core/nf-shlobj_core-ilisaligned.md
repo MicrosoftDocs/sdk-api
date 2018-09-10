@@ -4,17 +4,16 @@ title: ILIsAligned function
 author: windows-sdk-content
 description: Verifies whether a constant ITEMIDLIST is aligned on a pointer boundary, which is a DWORD on 32-bit architectures and a QWORD on 64-bit architectures.
 old-location: shell\ILIsAligned.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILIsAligned
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILIsAligned function

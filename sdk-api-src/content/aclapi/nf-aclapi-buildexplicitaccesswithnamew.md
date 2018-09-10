@@ -4,17 +4,16 @@ title: BuildExplicitAccessWithNameW function
 author: windows-sdk-content
 description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
 old-location: security\buildexplicitaccesswithname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [Security], BuildExplicitAccessWithNameA, BuildExplicitAccessWithNameW, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, MultipleTrusteeOperation, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, TrusteeForm, TrusteeType, _win32_buildexplicitaccesswithname, aclapi/BuildExplicitAccessWithName, aclapi/BuildExplicitAccessWithNameA, aclapi/BuildExplicitAccessWithNameW, pMultipleTrustee, security.buildexplicitaccesswithname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - BuildExplicitAccessWithNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BuildExplicitAccessWithNameW function

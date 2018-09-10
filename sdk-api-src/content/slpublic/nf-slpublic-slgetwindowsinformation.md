@@ -4,17 +4,16 @@ title: SLGetWindowsInformation function
 author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the licensing policy of a software component.
 old-location: security\slgetwindowsinformation.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLGetWindowsInformation
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLGetWindowsInformation function

@@ -4,7 +4,7 @@ title: MULTICAST_MODE_TYPE
 author: windows-sdk-content
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ws2ipdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MULTICAST_MODE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MULTICAST_MODE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MULTICAST_MODE_TYPE
+req.redist: 
 ---
 
 # MULTICAST_MODE_TYPE enumeration

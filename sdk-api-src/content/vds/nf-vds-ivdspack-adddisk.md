@@ -4,17 +4,16 @@ title: IVdsPack::AddDisk
 author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.AddDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::AddDisk

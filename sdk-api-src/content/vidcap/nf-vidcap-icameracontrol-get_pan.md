@@ -4,17 +4,16 @@ title: ICameraControl::get_Pan
 author: windows-sdk-content
 description: The get_Pan method returns the camera's panning angle.
 old-location: dshow\icameracontrol_get_pan.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4cbf7582-63ad-4572-be62-be1fe5bc60b3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Pan method, ICameraControl.get_Pan, ICameraControl::get_Pan, ICameraControlget_Pan, dshow.icameracontrol_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Pan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.get_Pan
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::get_Pan

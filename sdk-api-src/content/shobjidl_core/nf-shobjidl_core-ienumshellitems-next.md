@@ -4,17 +4,16 @@ title: IEnumShellItems::Next
 author: windows-sdk-content
 description: Gets an array of one or more IShellItem interfaces from the enumeration.
 old-location: shell\IEnumShellItems_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Next method, IEnumShellItems.Next, IEnumShellItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Next, shell.IEnumShellItems_Next, shobjidl_core/IEnumShellItems::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumShellItems.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumShellItems::Next

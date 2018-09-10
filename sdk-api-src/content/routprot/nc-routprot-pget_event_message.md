@@ -4,7 +4,7 @@ title: PGET_EVENT_MESSAGE
 author: windows-sdk-content
 description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
 old-location: rras\geteventmessage.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetEventMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PGET_EVENT_MESSAGE callback function

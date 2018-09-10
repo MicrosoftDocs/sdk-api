@@ -4,17 +4,16 @@ title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData
 author: windows-sdk-content
 description: Sets the HDR metadata describing the display on which the content will be presented.
 old-location: mf\id3d11videocontext2_videoprocessorsetoutputhdrmetadata.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5905E3F2-B0A3-4FF6-B498-BC24BFD3F58F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData method [Media Foundation], VideoProcessorSetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData

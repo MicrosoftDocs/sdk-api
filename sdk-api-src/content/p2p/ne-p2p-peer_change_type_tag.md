@@ -4,7 +4,7 @@ title: peer_change_type_tag
 author: windows-sdk-content
 description: The PEER_CHANGE_TYPE enumeration defines the set of changes that were performed on a peer object, endpoint, or application in a peer event. It is used to qualify the peer event associated with the change type.
 old-location: p2p\peer_change_type.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ef8f1cc7-e1db-4d6d-9ff6-141746d0787a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_CHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_CHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_CHANGE_TYPE
+req.redist: 
 ---
 
 # peer_change_type_tag enumeration

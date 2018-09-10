@@ -4,7 +4,7 @@ title: MfCard_Resource_s
 author: windows-sdk-content
 description: The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
 old-location: devinst\mfcard_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 26dbefb6-bc5c-4060-902d-3fd1adf833cb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFCARD_RESOURCE, *PMFCARD_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MFCARD_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MFCARD_RESOURCE, *PMFCARD_RESOURCE
+req.redist: 
 ---
 
 # MfCard_Resource_s structure

@@ -4,17 +4,16 @@ title: IX509PolicyServerUrl::UpdateRegistry
 author: windows-sdk-content
 description: Registers a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_updateregistry.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509PolicyServerUrl.UpdateRegistry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerUrl::UpdateRegistry

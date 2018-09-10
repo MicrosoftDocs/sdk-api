@@ -4,17 +4,16 @@ title: IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
 author: windows-sdk-content
 description: Note  This method is obsolete and should not be used. Retrieves the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframe.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6e952923-2043-4b0d-b936-c570373a3544
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetReconstructedVideoFrame, GetReconstructedVideoFrame method [Media Foundation], GetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe, mf.iwmvideodecoderreconbuffergetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame

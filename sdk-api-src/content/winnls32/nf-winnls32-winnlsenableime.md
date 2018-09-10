@@ -4,17 +4,16 @@ title: WINNLSEnableIME function
 author: windows-sdk-content
 description: Temporarily enables or disables an Input Method Editor (IME) and, at the same time, turns on or off the display of all windows owned by the IME.
 old-location: winprog\_win32_winnlsenableime.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\winnlsenableime.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls32.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NUMBERFMTW, *LPNUMBERFMTW
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINNLSEnableIME
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WINNLSEnableIME function

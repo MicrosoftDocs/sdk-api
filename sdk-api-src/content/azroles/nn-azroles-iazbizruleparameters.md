@@ -4,7 +4,7 @@ title: IAzBizRuleParameters
 author: windows-sdk-content
 description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleParameters
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleParameters interface

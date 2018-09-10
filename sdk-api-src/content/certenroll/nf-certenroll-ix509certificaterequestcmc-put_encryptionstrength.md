@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::put_EncryptionStrength
 author: windows-sdk-content
 description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 9cade9f0-d614-4838-bf42-0a19b4ce53d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionStrength property, IX509CertificateRequestCmc.EncryptionStrength, IX509CertificateRequestCmc.put_EncryptionStrength, IX509CertificateRequestCmc::EncryptionStrength, IX509CertificateRequestCmc::get_EncryptionStrength, IX509CertificateRequestCmc::put_EncryptionStrength, certenroll/IX509CertificateRequestCmc::EncryptionStrength, certenroll/IX509CertificateRequestCmc::get_EncryptionStrength, certenroll/IX509CertificateRequestCmc::put_EncryptionStrength, put_EncryptionStrength, security.ix509certificaterequestcmc_encryptionstrength_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCmc.put_EncryptionStrength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::put_EncryptionStrength

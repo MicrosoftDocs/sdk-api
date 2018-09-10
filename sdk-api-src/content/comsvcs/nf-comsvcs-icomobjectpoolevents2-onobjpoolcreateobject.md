@@ -4,17 +4,16 @@ title: IComObjectPoolEvents2::OnObjPoolCreateObject
 author: windows-sdk-content
 description: Generated when an object is created for the pool.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreateobject.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 85e50bf4-2660-409c-8812-cbe389283202
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateObject method, IComObjectPoolEvents2.OnObjPoolCreateObject, IComObjectPoolEvents2::OnObjPoolCreateObject, OnObjPoolCreateObject, OnObjPoolCreateObject method [COM+], OnObjPoolCreateObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreateObject, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateObject, cos.icomobjectpoolevents2_onobjpoolcreateobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectPoolEvents2.OnObjPoolCreateObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectPoolEvents2::OnObjPoolCreateObject

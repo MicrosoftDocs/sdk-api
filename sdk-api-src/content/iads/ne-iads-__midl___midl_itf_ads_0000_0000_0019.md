@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ads_0000_0000_0019"
 author: windows-sdk-content
 description: Specifies the status of a search preference set with the IDirectorySearch::SetSearchPreference method.
 old-location: adsi\ads_statusenum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: dfc080da-f849-4df3-9b14-1193b9303742
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: IAccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_STATUSENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_STATUSENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_STATUSENUM
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_ads_0000_0000_0019 enumeration

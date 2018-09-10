@@ -4,17 +4,16 @@ title: IOpcSignaturePartReference::GetTransformMethod
 author: windows-sdk-content
 description: Gets the canonicalization method to use on part content of a referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_gettransformmethod.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 74cf5d3b-a350-4574-972d-1907562aece5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignaturePartReference.GetTransformMethod, IOpcSignaturePartReference::GetTransformMethod, msopc/IOpcSignaturePartReference::GetTransformMethod, opc.iopcsignaturepartreference_gettransformmethod
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcSignaturePartReference.GetTransformMethod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcSignaturePartReference::GetTransformMethod

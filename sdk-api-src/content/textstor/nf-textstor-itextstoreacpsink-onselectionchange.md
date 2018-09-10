@@ -4,17 +4,16 @@ title: ITextStoreACPSink::OnSelectionChange
 author: windows-sdk-content
 description: ITextStoreACPSink::OnSelectionChange method
 old-location: tsf\itextstoreacpsink_onselectionchange.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACPSink.OnSelectionChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACPSink::OnSelectionChange

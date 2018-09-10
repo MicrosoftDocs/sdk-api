@@ -4,17 +4,16 @@ title: IMetaDataTables::GetUserStringHeapSize
 author: windows-sdk-content
 description: Gets the size, in bytes, of the user string heap.
 old-location: winrt\imetadatatables_getuserstringheapsize.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: f01059be-6370-4bab-b4f4-69db158c17a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetUserStringHeapSize, GetUserStringHeapSize method [Windows Runtime], GetUserStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserStringHeapSize method, IMetaDataTables.GetUserStringHeapSize, IMetaDataTables::GetUserStringHeapSize, rometadataapi/IMetaDataTables::GetUserStringHeapSize, winrt.imetadatatables_getuserstringheapsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetUserStringHeapSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetUserStringHeapSize

@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetWriterMetadataCount
 author: windows-sdk-content
 description: The GetWriterMetadataCount method returns the number of writers with metadata.
 old-location: base\ivssbackupcomponents_getwritermetadatacount.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: cf8c4782-2850-4847-a7a1-95bd2bd547a1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetWriterMetadataCount, GetWriterMetadataCount method [VSS], GetWriterMetadataCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadataCount method, IVssBackupComponents.GetWriterMetadataCount, IVssBackupComponents::GetWriterMetadataCount, _win32_ivssbackupcomponents_getwritermetadatacount, base.ivssbackupcomponents_getwritermetadatacount, vsbackup/IVssBackupComponents::GetWriterMetadataCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetWriterMetadataCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetWriterMetadataCount

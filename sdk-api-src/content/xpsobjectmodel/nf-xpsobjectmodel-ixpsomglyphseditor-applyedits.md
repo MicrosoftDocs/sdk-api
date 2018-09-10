@@ -4,17 +4,16 @@ title: IXpsOMGlyphsEditor::ApplyEdits
 author: windows-sdk-content
 description: Performs cross-property validation and then copies the changes to the parent IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor_applyedits.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],ApplyEdits method, IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMGlyphsEditor.ApplyEdits
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMGlyphsEditor::ApplyEdits

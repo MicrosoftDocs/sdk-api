@@ -4,17 +4,16 @@ title: RtlLocalTimeToSystemTime function
 author: windows-sdk-content
 description: Converts the specified local time to system time.
 old-location: base\rtllocaltimetosystemtime.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtlLocalTimeToSystemTime, RtlLocalTimeToSystemTime function, base.rtllocaltimetosystemtime, winternl/RtlLocalTimeToSystemTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlLocalTimeToSystemTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlLocalTimeToSystemTime function

@@ -4,17 +4,16 @@ title: IGPMSecurityInfo::Remove
 author: windows-sdk-content
 description: Removes the permission specified in a given GPMPermission object from the GPMSecurityInfo collection.
 old-location: gpmc\igpmsecurityinfo_remove.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMSecurityInfo.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSecurityInfo::Remove

@@ -4,17 +4,16 @@ title: RtmCreateNextHopEnum function
 author: windows-sdk-content
 description: The RtmCreateNextHopEnum enumerates the next hops in the next-hop list.
 old-location: rras\rtmcreatenexthopenum.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: d26ce475-ea05-4e84-92da-06df9c386858
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTM_ENUM_NEXT, RTM_ENUM_RANGE, RTM_ENUM_START, RtmCreateNextHopEnum, RtmCreateNextHopEnum function [RAS], _rtmv2ref_rtmcreatenexthopenum, rras.rtmcreatenexthopenum, rtmv2/RtmCreateNextHopEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmCreateNextHopEnum
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmCreateNextHopEnum function

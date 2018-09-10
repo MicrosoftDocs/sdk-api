@@ -4,17 +4,16 @@ title: SHRegCloseUSKey function
 author: windows-sdk-content
 description: Closes a handle to a user-specific registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegCloseUSKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1e9900d6-8411-4e6b-a9c0-006f378a2625
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegCloseUSKey, SHRegCloseUSKey function [Windows Shell], _win32_SHRegCloseUSKey, shell.SHRegCloseUSKey, shlwapi/SHRegCloseUSKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHRegCloseUSKey
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegCloseUSKey function

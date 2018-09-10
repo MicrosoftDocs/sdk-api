@@ -4,7 +4,7 @@ title: eHeapEnumerationLevel
 author: windows-sdk-content
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eHeapEnumerationLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eHeapEnumerationLevel enumeration

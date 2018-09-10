@@ -4,17 +4,16 @@ title: IShellDetails::GetDetailsOf
 author: windows-sdk-content
 description: Gets detailed information on an item in a Shell folder.
 old-location: shell\IShellDetails_GetDetailsOf.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5442dc80-9ecf-4e47-a84d-6da4327696ef
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],GetDetailsOf method, IShellDetails.GetDetailsOf, IShellDetails::GetDetailsOf, _win32_IShellDetails_GetDetailsOf, shell.IShellDetails_GetDetailsOf, shlobj_core/IShellDetails::GetDetailsOf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellDetails.GetDetailsOf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellDetails::GetDetailsOf

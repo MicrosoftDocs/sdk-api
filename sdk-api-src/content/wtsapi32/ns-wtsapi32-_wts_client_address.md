@@ -4,7 +4,7 @@ title: "_WTS_CLIENT_ADDRESS"
 author: windows-sdk-content
 description: Contains the client network address of a Remote Desktop Services session.
 old-location: termserv\wts_client_address_str.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_CLIENT_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
+req.redist: 
 ---
 
 # _WTS_CLIENT_ADDRESS structure

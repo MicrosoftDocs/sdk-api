@@ -4,17 +4,16 @@ title: LongAdd function
 author: windows-sdk-content
 description: Adds two values of type LONG.
 old-location: shell\LongAdd.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3cc13a46-3168-44fd-b759-06250eb1117f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: LongAdd, LongAdd function [Windows Shell], intsafe/LongAdd, shell.LongAdd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongAdd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongAdd function

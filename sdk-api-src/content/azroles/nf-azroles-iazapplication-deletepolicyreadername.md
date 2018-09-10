@@ -4,17 +4,16 @@ title: IAzApplication::DeletePolicyReaderName
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as policy readers.
 old-location: security\iazapplication_deletepolicyreadername.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1948fb2d-a1ca-4f66-889d-d00f8f265ba5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzApplication object, DeletePolicyReaderName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyReaderName method, IAzApplication.DeletePolicyReaderName, IAzApplication::DeletePolicyReaderName, azroles/IAzApplication::DeletePolicyReaderName, security.iazapplication_deletepolicyreadername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.DeletePolicyReaderName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::DeletePolicyReaderName

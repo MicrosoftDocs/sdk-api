@@ -4,7 +4,7 @@ title: tagRPC_CALL_ATTRIBUTES_V1_A
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 old-location: rpc\rpc_call_attributes_v1.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_ATTRIBUTES_V1_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RPC_CALL_ATTRIBUTES_V1_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_CALL_ATTRIBUTES_V1_A
+req.redist: 
 ---
 
 # tagRPC_CALL_ATTRIBUTES_V1_A structure

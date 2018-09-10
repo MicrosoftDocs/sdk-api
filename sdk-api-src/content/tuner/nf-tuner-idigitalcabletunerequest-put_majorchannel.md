@@ -4,17 +4,16 @@ title: IDigitalCableTuneRequest::put_MajorChannel
 author: windows-sdk-content
 description: The put_MajorChannel method sets the major channel number.
 old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_MajorChannel method, IDigitalCableTuneRequest.put_MajorChannel, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_MajorChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDigitalCableTuneRequest.put_MajorChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDigitalCableTuneRequest::put_MajorChannel

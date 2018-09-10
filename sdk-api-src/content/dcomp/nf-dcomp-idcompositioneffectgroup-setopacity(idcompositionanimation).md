@@ -4,17 +4,16 @@ title: IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the Opacity property.
 old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation), IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionEffectGroup.SetOpacity
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionEffectGroup::SetOpacity(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the Opacity property.
 
 ### -param animation
 
-
+TBD
 
 
 

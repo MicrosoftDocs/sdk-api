@@ -4,17 +4,16 @@ title: CryptVerifyCertificateSignature function
 author: windows-sdk-content
 description: Verifies the signature of a certificate, certificate revocation list (CRL), or certificate request by using the public key in a CERT_PUBLIC_KEY_INFO structure.
 old-location: security\cryptverifycertificatesignature.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ac13a1dd-3ca9-470e-8d8f-d79d7d057f45
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptVerifyCertificateSignature, CryptVerifyCertificateSignature function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignature, security.cryptverifycertificatesignature, wincrypt/CryptVerifyCertificateSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptVerifyCertificateSignature
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptVerifyCertificateSignature function

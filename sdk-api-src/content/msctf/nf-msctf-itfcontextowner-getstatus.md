@@ -4,17 +4,16 @@ title: ITfContextOwner::GetStatus
 author: windows-sdk-content
 description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itfcontextowner_getstatus.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetStatus method, ITfContextOwner.GetStatus, ITfContextOwner::GetStatus, _tsf_itfcontextowner_getstatus_ref, msctf/ITfContextOwner::GetStatus, tsf.itfcontextowner_getstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msimtf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextOwner.GetStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msimtf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextOwner::GetStatus

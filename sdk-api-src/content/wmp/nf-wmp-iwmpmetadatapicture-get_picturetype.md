@@ -4,17 +4,16 @@ title: IWMPMetadataPicture::get_pictureType
 author: windows-sdk-content
 description: The get_pictureType method retrieves a pointer to a string specifying the picture type of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_picturetype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 2c81d59a-9447-48bd-b95b-40e191e73a0f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_pictureType method, IWMPMetadataPicture.get_pictureType, IWMPMetadataPicture::get_pictureType, IWMPMetadataPictureget_pictureType, get_pictureType, get_pictureType method [Windows Media Player], get_pictureType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_picturetype, wmp/IWMPMetadataPicture::get_pictureType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMetadataPicture.get_pictureType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMetadataPicture::get_pictureType

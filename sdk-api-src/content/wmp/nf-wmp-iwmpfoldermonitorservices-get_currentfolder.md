@@ -4,17 +4,16 @@ title: IWMPFolderMonitorServices::get_currentFolder
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_currentFolder method retrieves the path of the folder currently being scanned.
 old-location: wmp\iwmpfoldermonitorservices_get_currentfolder.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_currentFolder method, IWMPFolderMonitorServices.get_currentFolder, IWMPFolderMonitorServices::get_currentFolder, IWMPFolderMonitorServicesget_currentFolder, get_currentFolder, get_currentFolder method [Windows Media Player], get_currentFolder method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_currentfolder, wmp/IWMPFolderMonitorServices::get_currentFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPFolderMonitorServices.get_currentFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPFolderMonitorServices::get_currentFolder

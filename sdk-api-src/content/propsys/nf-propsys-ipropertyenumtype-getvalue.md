@@ -4,17 +4,16 @@ title: IPropertyEnumType::GetValue
 author: windows-sdk-content
 description: Gets a value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [Windows Properties], GetValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetValue method, IPropertyEnumType.GetValue, IPropertyEnumType::GetValue, _shell_IPropertyEnumType_GetValue, properties.IPropertyEnumType_GetValue, propsys/IPropertyEnumType::GetValue, shell.IPropertyEnumType_GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyEnumType.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyEnumType::GetValue

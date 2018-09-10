@@ -4,7 +4,7 @@ title: "_FILEPATHS_W"
 author: windows-sdk-content
 description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
 old-location: setup\filepaths_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 220b1485-73f0-4c31-aa40-e4c9179bfd0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILEPATHS_W, *PFILEPATHS_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEPATHS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FILEPATHS_W, *PFILEPATHS_W
+req.redist: 
 ---
 
 # _FILEPATHS_W structure

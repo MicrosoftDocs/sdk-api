@@ -4,17 +4,16 @@ title: IWsbApplicationRestoreSupport::PostRestore
 author: windows-sdk-content
 description: Performs application-specific PostRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PostRestore method, IWsbApplicationRestoreSupport.PostRestore, IWsbApplicationRestoreSupport::PostRestore, PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationRestoreSupport.PostRestore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationRestoreSupport::PostRestore

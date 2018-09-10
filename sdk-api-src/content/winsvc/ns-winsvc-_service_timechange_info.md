@@ -4,7 +4,7 @@ title: "_SERVICE_TIMECHANGE_INFO"
 author: windows-sdk-content
 description: Contains system time change settings.
 old-location: base\service_timechange_info.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TIMECHANGE_INFO, *PSERVICE_TIMECHANGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_TIMECHANGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_TIMECHANGE_INFO, *PSERVICE_TIMECHANGE_INFO
+req.redist: 
 ---
 
 # _SERVICE_TIMECHANGE_INFO structure

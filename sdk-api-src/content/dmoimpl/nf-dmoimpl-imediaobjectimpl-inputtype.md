@@ -4,17 +4,16 @@ title: IMediaObjectImpl::InputType
 author: windows-sdk-content
 description: The InputType method retrieves the current media type for a specified input stream.
 old-location: dshow\imediaobjectimpl_inputtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib; Msdmo.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMediaObjectImpl.InputType
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib; Msdmo.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectImpl::InputType

@@ -4,7 +4,7 @@ title: "_VDS_ASYNC_OUTPUT"
 author: windows-sdk-content
 description: Defines the output of an async object. Output elements vary depending on the operation type.
 old-location: base\vds_async_output.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ASYNC_OUTPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ASYNC_OUTPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ASYNC_OUTPUT
+req.redist: 
 ---
 
 # _VDS_ASYNC_OUTPUT structure

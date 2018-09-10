@@ -4,17 +4,16 @@ title: CfRevertPlaceholder function
 author: windows-sdk-content
 description: Reverts a placeholder back to a regular file, stripping away all special characteristics such as the reparse tag, the file identity, etc.
 old-location: cloudapi\cfrevertplaceholder.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfRevertPlaceholder
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfRevertPlaceholder function

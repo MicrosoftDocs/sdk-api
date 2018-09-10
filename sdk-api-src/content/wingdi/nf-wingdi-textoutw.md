@@ -4,17 +4,16 @@ title: TextOutW function
 author: windows-sdk-content
 description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color.
 old-location: gdi\textout.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - TextOutW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # TextOutW function

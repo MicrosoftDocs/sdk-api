@@ -4,17 +4,16 @@ title: INetworkSettings::get_Id
 author: windows-sdk-content
 description: Gets or sets a GUID value that identifies a network profile.
 old-location: taskschd\inetworksettings_id.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 490a8e0a-a980-4634-924a-00c571e93a59
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INetworkSettings interface [Task Scheduler],Id property, INetworkSettings.Id, INetworkSettings.get_Id, INetworkSettings::Id, INetworkSettings::get_Id, INetworkSettings::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],INetworkSettings interface, get_Id, taskschd.inetworksettings_id, taskschd/INetworkSettings::Id, taskschd/INetworkSettings::get_Id, taskschd/INetworkSettings::put_Id
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetworkSettings.put_Id
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkSettings::get_Id

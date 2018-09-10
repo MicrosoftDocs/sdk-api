@@ -4,7 +4,7 @@ title: "_SDP_STRING_TYPE_DATA"
 author: windows-sdk-content
 description: The SDP_STRING_TYPE_DATA structure stores information about SDP string types.
 old-location: bluetooth\sdp_string_type_data.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 16ff7951-08a7-49c5-93a5-0782cca50dab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SDP_STRING_TYPE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.redist: 
 ---
 
 # _SDP_STRING_TYPE_DATA structure

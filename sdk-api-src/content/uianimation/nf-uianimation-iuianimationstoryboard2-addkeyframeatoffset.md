@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::AddKeyframeAtOffset
 author: windows-sdk-content
 description: Adds a keyframe at the specified offset from an existing keyframe.
 old-location: uianimation\iuianimationstoryboard2_addkeyframeatoffset.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 6AB47BC1-4437-4191-8B66-8545EB4102A9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard2.AddKeyframeAtOffset, IUIAnimationStoryboard2::AddKeyframeAtOffset, uianimation.iuianimationstoryboard2_addkeyframeatoffset, uianimation/IUIAnimationStoryboard2::AddKeyframeAtOffset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.AddKeyframeAtOffset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::AddKeyframeAtOffset

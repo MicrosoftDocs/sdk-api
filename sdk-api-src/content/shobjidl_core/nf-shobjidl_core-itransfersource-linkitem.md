@@ -4,17 +4,16 @@ title: ITransferSource::LinkItem
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\ITransferSource_LinkItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e373c790-5366-4bff-a08d-817b0c566b1d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],LinkItem method, ITransferSource.LinkItem, ITransferSource::LinkItem, LinkItem, LinkItem method [Windows Shell], LinkItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_LinkItem, shell.ITransferSource_LinkItem, shobjidl_core/ITransferSource::LinkItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.LinkItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::LinkItem
@@ -83,7 +81,7 @@ A pointer to a null-terminated, Unicode string containing the name for the link.
 
 ### -param flags
 
-
+TBD
 
 
 ### -param ppsiNewDest [out]

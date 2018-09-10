@@ -4,17 +4,16 @@ title: WdsTransportProviderGetContentMetadata function
 author: windows-sdk-content
 description: Retrieves metadata for an open content stream.
 old-location: wds\wdstransportprovidergetcontentmetadata.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderGetContentMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderGetContentMetadata function

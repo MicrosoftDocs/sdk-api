@@ -4,17 +4,16 @@ title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
 author: windows-sdk-content
 description: Called by the capture sink when the format of the sample is changed.
 old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f82a657a-bc6a-407b-ad72-1e9c6ec17bed
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],OnSynchronizedEvent method, IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent, IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent, OnSynchronizedEvent, OnSynchronizedEvent method [Media Foundation], OnSynchronizedEvent method [Media Foundation],IMFCaptureEngineOnSampleCallback2 interface, mf.imfcaptureengineonsamplecallback2_onsynchronizedevent, mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent

@@ -4,7 +4,7 @@ title: "_IP4_ARRAY"
 author: windows-sdk-content
 description: The IP4_ARRAY structure stores an array of IPv4 addresses.
 old-location: dns\ip4_array.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP4_ARRAY, *PIP4_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP4_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: IP4_ARRAY, *PIP4_ARRAY
+req.redist: 
 ---
 
 # _IP4_ARRAY structure

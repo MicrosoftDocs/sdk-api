@@ -4,17 +4,16 @@ title: IAudioMeterInformation::GetChannelsPeakValues
 author: windows-sdk-content
 description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.
 old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetChannelsPeakValues, GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetChannelsPeakValues method, IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioMeterInformation.GetChannelsPeakValues
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioMeterInformation::GetChannelsPeakValues

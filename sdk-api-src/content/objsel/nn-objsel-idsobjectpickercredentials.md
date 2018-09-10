@@ -4,7 +4,7 @@ title: IDsObjectPickerCredentials
 author: windows-sdk-content
 description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.
 old-location: ad\idsobjectpickercredentials.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: 
+req.dll: Objsel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDsObjectPickerCredentials
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Objsel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDsObjectPickerCredentials interface

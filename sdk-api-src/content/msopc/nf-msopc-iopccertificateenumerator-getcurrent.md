@@ -4,17 +4,16 @@ title: IOpcCertificateEnumerator::GetCurrent
 author: windows-sdk-content
 description: Gets the CERT_CONTEXT structure at the current position of the enumerator.
 old-location: opc\iopccertificateenumerator_getcurrent.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: edd2afc1-cafd-4a52-b2df-1a1fcdf1d6fa
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcCertificateEnumerator.GetCurrent, IOpcCertificateEnumerator::GetCurrent, msopc/IOpcCertificateEnumerator::GetCurrent, opc.iopccertificateenumerator_getcurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcCertificateEnumerator.GetCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcCertificateEnumerator::GetCurrent

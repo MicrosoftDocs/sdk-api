@@ -4,17 +4,16 @@ title: IGPMRSOP::GenerateReport
 author: windows-sdk-content
 description: The GenerateReport method generates a report on the RSoP data.
 old-location: gpmc\igpmrsop_generatereport.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 86766a08-4f3a-4758-8abc-83db3408f0fd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReport method, IGPMRSOP.GenerateReport, IGPMRSOP::GenerateReport, gpmc.igpmrsop_generatereport, gpmgmt/IGPMRSOP::GenerateReport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPMRSOP.GenerateReport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMRSOP::GenerateReport

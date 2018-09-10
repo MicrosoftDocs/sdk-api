@@ -4,17 +4,16 @@ title: GetDeviceRegistrationInfo function
 author: windows-sdk-content
 description: Retrieves the device registration information.
 old-location: mdmreg\getdeviceregistrationinfo.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 7FA2F81C-6714-42D8-880E-FD5A27A0F80A
 ms.author: windowssdkdev
 ms.date: 02/21/2018
 ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM Registration], mdmreg.getdeviceregistrationinfo, mdmregistration/GetDeviceRegistrationInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: MDMRegistration.lib
+req.dll: MDMRegistration.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetDeviceRegistrationInfo
 product: Windows
 targetos: Windows
-req.lib: MDMRegistration.lib
-req.dll: MDMRegistration.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetDeviceRegistrationInfo function

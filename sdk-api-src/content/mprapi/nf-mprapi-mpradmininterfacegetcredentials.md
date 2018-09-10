@@ -4,17 +4,16 @@ title: MprAdminInterfaceGetCredentials function
 author: windows-sdk-content
 description: Use the MprAdminInterfaceGetCredentials function to retrieve the domain, user name, and password for dialing out on the specified demand-dial interface.
 old-location: rras\mpradmininterfacegetcredentials.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 0ec18926-1ee9-4e28-9284-9d95d06be2e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceGetCredentials, MprAdminInterfaceGetCredentials function [RAS], _mpr_mpradmininterfacegetcredentials, mprapi/MprAdminInterfaceGetCredentials, rras.mpradmininterfacegetcredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceGetCredentials
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceGetCredentials function

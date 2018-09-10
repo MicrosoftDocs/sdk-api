@@ -4,17 +4,16 @@ title: IMFDeviceTransform::GetOutputCurrentType
 author: windows-sdk-content
 description: The GetOutputCurrentType method gets the current media type for an output stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getoutputcurrenttype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ABDDED13-5C35-4030-838B-92BECA23F6A2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [Streaming Media Devices], GetOutputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputCurrentType method, IMFDeviceTransform.GetOutputCurrentType, IMFDeviceTransform::GetOutputCurrentType, mftransform/IMFDeviceTransform::GetOutputCurrentType, stream.imfdevicetransform_getoutputcurrenttype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.GetOutputCurrentType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::GetOutputCurrentType

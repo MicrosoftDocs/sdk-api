@@ -4,17 +4,16 @@ title: ImmAssociateContextEx function
 author: windows-sdk-content
 description: Changes the association between the input method context and the specified window or its children.
 old-location: intl\immassociatecontextex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmAssociateContextEx
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmAssociateContextEx function

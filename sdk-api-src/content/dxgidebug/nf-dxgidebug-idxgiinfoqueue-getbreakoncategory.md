@@ -4,17 +4,16 @@ title: IDXGIInfoQueue::GetBreakOnCategory
 author: windows-sdk-content
 description: Determines whether the break on a message category is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakoncategory.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 12099FA2-2801-45E7-98C3-5A29F5764B8D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [DXGI], GetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnCategory method, IDXGIInfoQueue.GetBreakOnCategory, IDXGIInfoQueue::GetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_getbreakoncategory, dxgidebug/IDXGIInfoQueue::GetBreakOnCategory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: DXGIDebug.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIInfoQueue.GetBreakOnCategory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DXGIDebug.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIInfoQueue::GetBreakOnCategory

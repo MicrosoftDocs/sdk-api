@@ -4,7 +4,7 @@ title: "_CRYPT_XML_DATA_PROVIDER"
 author: windows-sdk-content
 description: Specifies the interface to the XML data provider.
 old-location: security\crypt_xml_data_provider.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 98f32310-a4fa-414c-8a3e-877839eacd1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_DATA_PROVIDER, *PCRYPT_XML_DATA_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_DATA_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_DATA_PROVIDER, *PCRYPT_XML_DATA_PROVIDER
+req.redist: 
 ---
 
 # _CRYPT_XML_DATA_PROVIDER structure

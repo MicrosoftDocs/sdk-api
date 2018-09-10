@@ -4,7 +4,7 @@ title: "_MFPinholeCameraIntrinsic_IntrinsicModel"
 author: windows-sdk-content
 description: Represents a pinhole camera intrinsic model for a specified resolution.
 old-location: mf\mfpinholecameraintrinsic_intrinsicmodel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9A8ED71E-A138-4ADE-AB17-543C77590676
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFPinholeCameraIntrinsic_IntrinsicModel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPinholeCameraIntrinsic_IntrinsicModel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFPinholeCameraIntrinsic_IntrinsicModel
+req.redist: 
 ---
 
 # _MFPinholeCameraIntrinsic_IntrinsicModel structure

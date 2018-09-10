@@ -4,17 +4,16 @@ title: CM_Enable_DevNode function
 author: windows-sdk-content
 description: The CM_Enable_DevNode function enables a device.
 old-location: devinst\cm_enable_devnode.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: ddc3a507-03ee-4f44-89e3-64ec4290d0ff
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Enable_DevNode, CM_Enable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Enable_DevNode, cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml, devinst.cm_enable_devnode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Enable_DevNode
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Enable_DevNode function

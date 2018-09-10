@@ -4,17 +4,16 @@ title: ITraceDataCollector::put_BufferSize
 author: windows-sdk-content
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 2a735f9e-964a-4949-8660-fe3b40ce711e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BufferSize property, ITraceDataCollector.BufferSize, ITraceDataCollector.put_BufferSize, ITraceDataCollector::BufferSize, ITraceDataCollector::get_BufferSize, ITraceDataCollector::put_BufferSize, base.itracedatacollector_buffersize, pla.itracedatacollector_buffersize, pla/ITraceDataCollector::BufferSize, pla/ITraceDataCollector::get_BufferSize, pla/ITraceDataCollector::put_BufferSize, put_BufferSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ITraceDataCollector.put_BufferSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::put_BufferSize

@@ -4,7 +4,7 @@ title: "_EVT_CHANNEL_TYPE"
 author: windows-sdk-content
 description: Defines the type of a channel.
 old-location: wes\evt_channel_type.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_CHANNEL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_CHANNEL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_CHANNEL_TYPE
+req.redist: 
 ---
 
 # _EVT_CHANNEL_TYPE enumeration

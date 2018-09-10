@@ -4,17 +4,16 @@ title: WbioQueryEngineInterface function
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
 old-location: secbiomet\wbioqueryengineinterface.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Windows Biometric Framework API], secbiomet.wbioqueryengineinterface, winbio_adapter/WbioQueryEngineInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WbioQueryEngineInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WbioQueryEngineInterface function

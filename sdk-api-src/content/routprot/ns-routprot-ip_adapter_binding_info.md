@@ -4,7 +4,7 @@ title: IP_ADAPTER_BINDING_INFO
 author: windows-sdk-content
 description: The IP_ADAPTER_BINDING_INFO structure contains IP-specific information for a particular network adapter.
 old-location: rras\ip_adapter_binding_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 3eb864e7-2de6-44c2-af3e-fee547de6081
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_BINDING_INFO, *PIP_ADAPTER_BINDING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_BINDING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IP_ADAPTER_BINDING_INFO, *PIP_ADAPTER_BINDING_INFO
+req.redist: 
 ---
 
 # IP_ADAPTER_BINDING_INFO structure

@@ -4,7 +4,7 @@ title: "_WSC_SECURITY_SIGNATURE_STATUS"
 author: windows-sdk-content
 description: Reports the current version status of the security product to Windows Security Center.
 old-location: winprog\wsc_security_signature_status.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wscapi.lib
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSC_SECURITY_SIGNATURE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.redist: 
 ---
 
 # _WSC_SECURITY_SIGNATURE_STATUS enumeration

@@ -4,17 +4,16 @@ title: IWTSVirtualChannelCallback::OnDataReceived
 author: windows-sdk-content
 description: Notifies the user about data that is being received.
 old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5876ba1a-3f37-4140-b448-91978aa7b0c9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnDataReceived method, IWTSVirtualChannelCallback.OnDataReceived, IWTSVirtualChannelCallback::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_ondatareceived, tsvirtualchannels/IWTSVirtualChannelCallback::OnDataReceived
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSVirtualChannelCallback.OnDataReceived
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSVirtualChannelCallback::OnDataReceived

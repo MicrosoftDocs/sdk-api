@@ -4,7 +4,7 @@ title: "_WINUSB_PIPE_INFORMATION"
 author: windows-sdk-content
 description: The WINUSB_PIPE_INFORMATION structure contains pipe information that the WinUsb_QueryPipe routine retrieves.
 old-location: buses\winusb_pipe_information.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 59e1d5e3-8c42-4f2f-b9a4-c637206d5494
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winusbio.h
 req.include-header: Winusbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINUSB_PIPE_INFORMATION, *PWINUSB_PIPE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINUSB_PIPE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINUSB_PIPE_INFORMATION, *PWINUSB_PIPE_INFORMATION
+req.redist: 
 ---
 
 # _WINUSB_PIPE_INFORMATION structure

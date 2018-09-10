@@ -4,17 +4,16 @@ title: IIdentityStore::GetCount
 author: windows-sdk-content
 description: Gets the number of identity providers registered on the system.
 old-location: security\iidentitystore_getcount.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCount, GetCount method [Security], GetCount method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetCount method, IIdentityStore.GetCount, IIdentityStore::GetCount, identitystore/IIdentityStore::GetCount, security.iidentitystore_getcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identitystore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityStore.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityStore::GetCount

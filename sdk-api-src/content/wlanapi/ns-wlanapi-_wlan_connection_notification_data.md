@@ -4,7 +4,7 @@ title: "_WLAN_CONNECTION_NOTIFICATION_DATA"
 author: windows-sdk-content
 description: Contains information about connection related notifications.
 old-location: nwifi\wlan_connection_notification_data.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 005af5ef-994d-425a-be4b-54567a733fb3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_CONNECTION_NOTIFICATION_DATA, *PWLAN_CONNECTION_NOTIFICATION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_CONNECTION_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_CONNECTION_NOTIFICATION_DATA, *PWLAN_CONNECTION_NOTIFICATION_DATA
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _WLAN_CONNECTION_NOTIFICATION_DATA structure

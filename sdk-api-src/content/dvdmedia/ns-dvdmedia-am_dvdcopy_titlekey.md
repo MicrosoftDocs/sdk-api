@@ -4,7 +4,7 @@ title: AM_DVDCOPY_TITLEKEY
 author: windows-sdk-content
 description: Specifies the DVD title key from the current content.
 old-location: dshow\am_dvdcopy_titlekey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 14460ad8-4c7b-4566-b1ac-9a35fd20f3f3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVDCOPY_TITLEKEY, *PAM_DVDCOPY_TITLEKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVDCOPY_TITLEKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_DVDCOPY_TITLEKEY, *PAM_DVDCOPY_TITLEKEY
+req.redist: 
 ---
 
 # AM_DVDCOPY_TITLEKEY structure

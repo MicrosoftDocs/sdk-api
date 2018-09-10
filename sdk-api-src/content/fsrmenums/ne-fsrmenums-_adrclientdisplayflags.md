@@ -4,7 +4,7 @@ title: "_AdrClientDisplayFlags"
 author: windows-sdk-content
 description: Describes the possible types of access denied remediation (ADR) client display flags.
 old-location: fsrm\adrclientdisplayflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 939ecb44-e59b-452d-901f-72207a6ae89a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AdrClientDisplayFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AdrClientDisplayFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: AdrClientDisplayFlags
+req.redist: 
 ---
 
 # _AdrClientDisplayFlags enumeration

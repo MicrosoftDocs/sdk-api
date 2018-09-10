@@ -4,7 +4,7 @@ title: IWMDMLogger
 author: windows-sdk-content
 description: The IWMDMLogger interface is used by Windows Media Device Manager applications and service providers to log entries in a common log file.
 old-location: wmdm\iwmdmlogger.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: bededb91-f343-455b-a3ef-548e6f961933
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMLogger
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger interface

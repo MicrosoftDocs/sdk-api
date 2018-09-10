@@ -4,17 +4,16 @@ title: MoInitMediaType function
 author: windows-sdk-content
 description: The MoInitMediaType function initializes a media type structure.
 old-location: dshow\moinitmediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 526ad3c6-a002-4b79-9712-47ea9ce321ba
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: MoInitMediaType, MoInitMediaType function [DirectShow], dmort/MoInitMediaType, dshow.moinitmediatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MoInitMediaType
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MoInitMediaType function

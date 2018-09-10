@@ -4,17 +4,16 @@ title: IMFSecureChannel::GetCertificate
 author: windows-sdk-content
 description: Retrieves the client's certificate.
 old-location: mf\imfsecurechannel_getcertificate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSecureChannel.GetCertificate
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSecureChannel::GetCertificate

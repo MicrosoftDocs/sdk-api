@@ -4,17 +4,16 @@ title: NdfDiagnoseIncident function
 author: windows-sdk-content
 description: Diagnoses the root cause of an incident without displaying a user interface.
 old-location: ndf\ndfdiagnoseincident.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfDiagnoseIncident
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfDiagnoseIncident function

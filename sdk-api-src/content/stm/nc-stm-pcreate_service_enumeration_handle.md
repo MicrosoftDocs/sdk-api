@@ -4,7 +4,7 @@ title: PCREATE_SERVICE_ENUMERATION_HANDLE
 author: windows-sdk-content
 description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
 old-location: rras\createserviceenumerationhandle.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateServiceEnumerationHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # PCREATE_SERVICE_ENUMERATION_HANDLE callback function

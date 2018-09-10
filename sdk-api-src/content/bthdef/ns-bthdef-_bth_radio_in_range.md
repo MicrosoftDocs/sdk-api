@@ -4,7 +4,7 @@ title: "_BTH_RADIO_IN_RANGE"
 author: windows-sdk-content
 description: Stores data about Bluetooth devices within communication range.
 old-location: bluetooth\bth_radio_in_range.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 997c50bb-1313-409a-9a24-9225a6cf91d9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BTH_RADIO_IN_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
+req.redist: 
 ---
 
 # _BTH_RADIO_IN_RANGE structure

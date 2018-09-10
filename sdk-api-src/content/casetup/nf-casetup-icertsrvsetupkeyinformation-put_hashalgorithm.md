@@ -4,17 +4,16 @@ title: ICertSrvSetupKeyInformation::put_HashAlgorithm
 author: windows-sdk-content
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.put_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICertSrvSetupKeyInformation.put_HashAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformation::put_HashAlgorithm

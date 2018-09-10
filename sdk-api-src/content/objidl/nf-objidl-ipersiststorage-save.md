@@ -4,17 +4,16 @@ title: IPersistStorage::Save
 author: windows-sdk-content
 description: Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.
 old-location: com\ipersiststorage_save.htm
-old-project: com
+tech.root: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPersistStorage interface [COM],Save method, IPersistStorage.Save, IPersistStorage::Save, Save, Save method [COM], Save method [COM],IPersistStorage interface, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStorage.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStorage::Save

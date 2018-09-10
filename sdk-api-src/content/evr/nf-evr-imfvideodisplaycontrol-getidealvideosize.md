@@ -4,17 +4,16 @@ title: IMFVideoDisplayControl::GetIdealVideoSize
 author: windows-sdk-content
 description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetIdealVideoSize method, IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoDisplayControl.GetIdealVideoSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoDisplayControl::GetIdealVideoSize

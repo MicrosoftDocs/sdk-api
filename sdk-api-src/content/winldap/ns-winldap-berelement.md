@@ -4,7 +4,7 @@ title: berelement
 author: windows-sdk-content
 description: C++ class object that performs basic encoding rules (BER) encoding.
 old-location: ldap\berelement.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 491bdf54-0b45-4324-93fc-35fe15155a3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BerElement
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BerElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BerElement
+req.redist: 
 ---
 
 # berelement structure

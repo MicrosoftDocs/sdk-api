@@ -4,17 +4,16 @@ title: IPropertyEnumTypeList::GetCount
 author: windows-sdk-content
 description: Gets the number of elements in the list.
 old-location: properties\IPropertyEnumTypeList_GetCount.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 1ba42c48-afd2-4d96-8d9d-ebbe116807ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetCount method, IPropertyEnumTypeList.GetCount, IPropertyEnumTypeList::GetCount, _shell_IPropertyEnumTypeList_GetCount, properties.IPropertyEnumTypeList_GetCount, propsys/IPropertyEnumTypeList::GetCount, shell.IPropertyEnumTypeList_GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyEnumTypeList.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyEnumTypeList::GetCount

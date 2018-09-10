@@ -4,7 +4,7 @@ title: "_KERB_CERTIFICATE_S4U_LOGON"
 author: windows-sdk-content
 description: Contains information about the certificate for a service for user (S4U) logon.
 old-location: security\kerb_certificate_s4u_logon.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_CERTIFICATE_S4U_LOGON, *PKERB_CERTIFICATE_S4U_LOGON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_CERTIFICATE_S4U_LOGON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_CERTIFICATE_S4U_LOGON, *PKERB_CERTIFICATE_S4U_LOGON
+req.redist: 
 ---
 
 # _KERB_CERTIFICATE_S4U_LOGON structure

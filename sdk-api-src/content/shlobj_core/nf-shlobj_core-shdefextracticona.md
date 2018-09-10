@@ -4,17 +4,16 @@ title: SHDefExtractIconA function
 author: windows-sdk-content
 description: Provides a default handler to extract an icon from a file.
 old-location: shell\SHDefExtractIcon.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GIL_SIMULATEDOC, SHDefExtractIcon, SHDefExtractIcon function [Windows Shell], SHDefExtractIconA, SHDefExtractIconW, _win32_SHDefExtractIcon, shell.SHDefExtractIcon, shlobj_core/SHDefExtractIcon, shlobj_core/SHDefExtractIconA, shlobj_core/SHDefExtractIconW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHDefExtractIconW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHDefExtractIconA function

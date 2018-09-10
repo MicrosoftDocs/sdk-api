@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::SetDuration
 author: windows-sdk-content
 description: Sets the duration of the transition in the given dimension.
 old-location: uianimation\iuianimationinterpolator2_setduration.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: C1E6EC87-283A-4C56-96C5-531C5C5F5575
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetDuration method, IUIAnimationInterpolator2.SetDuration, IUIAnimationInterpolator2::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setduration, uianimation/IUIAnimationInterpolator2::SetDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.SetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::SetDuration

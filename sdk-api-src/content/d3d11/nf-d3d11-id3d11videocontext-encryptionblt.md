@@ -4,17 +4,16 @@ title: ID3D11VideoContext::EncryptionBlt
 author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\id3d11videocontext_encryptionblt.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2BBD0BC2-53D9-435E-835C-20A992118329
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],EncryptionBlt method, ID3D11VideoContext.EncryptionBlt, ID3D11VideoContext::EncryptionBlt, d3d11/ID3D11VideoContext::EncryptionBlt, mf.id3d11videocontext_encryptionblt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.EncryptionBlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::EncryptionBlt

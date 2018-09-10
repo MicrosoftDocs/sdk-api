@@ -4,7 +4,7 @@ title: IAudioAutoGainControl
 author: windows-sdk-content
 description: The IAudioAutoGainControl interface provides access to a hardware automatic gain control (AGC).
 old-location: coreaudio\iaudioautogaincontrol.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f21e27e6-f3a0-418a-ad2e-e3e104dd6da2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioAutoGainControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioAutoGainControl interface

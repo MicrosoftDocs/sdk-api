@@ -4,17 +4,16 @@ title: IEnumIDList::Next
 author: windows-sdk-content
 description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
 old-location: shell\IEnumIDList_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4b2cd7a3-687c-4a51-b9af-a01576463f0b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Next method, IEnumIDList.Next, IEnumIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Next, shell.IEnumIDList_Next, shobjidl_core/IEnumIDList::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumIDList.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumIDList::Next

@@ -4,17 +4,16 @@ title: IWebApplicationUIEvents::SecurityProblem
 author: windows-sdk-content
 description: Notifies the authoring app about an authentication problem.
 old-location: debug\iwebapplicationuievents_securityproblem.htm
-old-project: debug_wwahost
+tech.root: debug_wwahost
 ms.assetid: 3579ffe7-914c-4baf-b1bf-4ed1a1db645f
 ms.author: windowssdkdev
 ms.date: 06/05/2018
 ms.keywords: IWebApplicationUIEvents interface [Debugging Windows Store apps],SecurityProblem method, IWebApplicationUIEvents.SecurityProblem, IWebApplicationUIEvents::SecurityProblem, SecurityProblem, SecurityProblem method [Debugging Windows Store apps], SecurityProblem method [Debugging Windows Store apps],IWebApplicationUIEvents interface, debug.iwebapplicationuievents_securityproblem, webapplication/IWebApplicationUIEvents::SecurityProblem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebApplicationUIEvents.SecurityProblem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWebApplicationUIEvents::SecurityProblem

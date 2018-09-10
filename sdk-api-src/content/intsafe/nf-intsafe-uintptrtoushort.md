@@ -4,17 +4,16 @@ title: UIntPtrToUShort function
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type USHORT.
 old-location: shell\UIntPtrToUShort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b51c9d90-861b-40c7-b81d-2c308fc98fd1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UIntPtrToUShort, UIntPtrToUShort function [Windows Shell], intsafe/UIntPtrToUShort, shell.UIntPtrToUShort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntPtrToUShort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntPtrToUShort function

@@ -4,17 +4,16 @@ title: InternetCheckConnectionA function
 author: windows-sdk-content
 description: Allows an application to check if a connection to the Internet can be established.
 old-location: wininet\internetcheckconnection.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetCheckConnection, InternetCheckConnection function [WinINet], InternetCheckConnectionA, InternetCheckConnectionW, _inet_internetcheckconnection_function, wininet.internetcheckconnection, wininet/InternetCheckConnection, wininet/InternetCheckConnectionA, wininet/InternetCheckConnectionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetCheckConnectionW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetCheckConnectionA function

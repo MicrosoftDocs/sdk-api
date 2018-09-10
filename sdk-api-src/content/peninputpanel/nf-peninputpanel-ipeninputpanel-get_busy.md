@@ -4,17 +4,16 @@ title: IPenInputPanel::get_Busy
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets a a value that indicates whether the PenInputPanel object is currently processing ink.
 old-location: tablet\peninputpanel_busy.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c2ccf82a-2ca6-4358-96de-12efb77c2a68
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Busy property, IPenInputPanel.Busy, IPenInputPanel.get_Busy, IPenInputPanel::Busy, IPenInputPanel::get_Busy, PenInputPanel.get_Busy, c2ccf82a-2ca6-4358-96de-12efb77c2a68, get_Busy, peninputpanel/IPenInputPanel::Busy, peninputpanel/IPenInputPanel::get_Busy, tablet.peninputpanel_busy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PenInputPanel.get_Busy
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::get_Busy

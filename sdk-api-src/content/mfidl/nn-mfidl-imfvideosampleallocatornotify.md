@@ -4,7 +4,7 @@ title: IMFVideoSampleAllocatorNotify
 author: windows-sdk-content
 description: The callback for the IMFVideoSampleAllocatorCallback interface.
 old-location: mf\imfvideosampleallocatornotify.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 909c2a68-81dd-4816-b34f-71a67b620faf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFVideoSampleAllocatorNotify
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoSampleAllocatorNotify interface

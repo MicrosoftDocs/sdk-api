@@ -4,17 +4,16 @@ title: IRDPSRAPIInvitation::put_Revoked
 author: windows-sdk-content
 description: The revoked state of the invitation.
 old-location: rdp\irdpsrapiinvitation_revoked.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: a5a2d1a4-a51b-4fd4-b79c-3381f296d072
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Revoked property, IRDPSRAPIInvitation.Revoked, IRDPSRAPIInvitation.put_Revoked, IRDPSRAPIInvitation::Revoked, IRDPSRAPIInvitation::get_Revoked, IRDPSRAPIInvitation::put_Revoked, RDPSRAPIInvitation object [RDP],Revoked property, Revoked property [RDP], Revoked property [RDP],IRDPSRAPIInvitation interface, Revoked property [RDP],RDPSRAPIInvitation object, put_Revoked, rdp.irdpsrapiinvitation_revoked, rdpencomapi/IRDPSRAPIInvitation::Revoked, rdpencomapi/IRDPSRAPIInvitation::get_Revoked, rdpencomapi/IRDPSRAPIInvitation::put_Revoked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RDPSRAPIInvitation.Revoked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIInvitation::put_Revoked

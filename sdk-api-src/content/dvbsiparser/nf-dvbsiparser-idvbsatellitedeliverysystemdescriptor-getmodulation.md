@@ -4,17 +4,16 @@ title: IDvbSatelliteDeliverySystemDescriptor::GetModulation
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getmodulation.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 66578df9-35f7-4a2b-91ce-3f60cab16dd3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbSatelliteDeliverySystemDescriptor.GetModulation, IDvbSatelliteDeliverySystemDescriptor::GetModulation, IDvbSatelliteDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation, mstv.idvbsatellitedeliverysystemdescriptor_getmodulation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbSatelliteDeliverySystemDescriptor.GetModulation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetModulation

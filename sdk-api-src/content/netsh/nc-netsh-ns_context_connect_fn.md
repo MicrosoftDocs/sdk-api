@@ -4,7 +4,7 @@ title: NS_CONTEXT_CONNECT_FN
 author: windows-sdk-content
 description: Is the connect function for helpers.
 old-location: netshell\ns_context_connect_fn.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_USAGE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NS_CONTEXT_CONNECT_FN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NS_CONTEXT_CONNECT_FN callback function

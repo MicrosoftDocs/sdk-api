@@ -4,17 +4,16 @@ title: IVdsServiceUninstallDisk::UninstallDisks
 author: windows-sdk-content
 description: Uninstalls a set of disks.
 old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServiceUninstallDisk.UninstallDisks, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks, UninstallDisks method, UninstallDisks method,IVdsServiceUninstallDisk interface, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceUninstallDisk.UninstallDisks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsServiceUninstallDisk::UninstallDisks

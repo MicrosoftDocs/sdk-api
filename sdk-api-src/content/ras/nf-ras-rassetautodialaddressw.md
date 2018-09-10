@@ -4,17 +4,16 @@ title: RasSetAutodialAddressW function
 author: windows-sdk-content
 description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
 old-location: rras\rassetautodialaddress.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RasSetAutodialAddressW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSetAutodialAddressW function

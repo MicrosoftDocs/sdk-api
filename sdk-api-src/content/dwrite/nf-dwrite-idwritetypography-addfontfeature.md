@@ -4,17 +4,16 @@ title: IDWriteTypography::AddFontFeature
 author: windows-sdk-content
 description: Adds an OpenType font feature.
 old-location: directwrite\IDWriteTypography_AddFontFeature.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 6d86a66d-a72f-4288-864f-90f877bd166d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddFontFeature, AddFontFeature method [Direct Write], AddFontFeature method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],AddFontFeature method, IDWriteTypography.AddFontFeature, IDWriteTypography::AddFontFeature, directwrite.IDWriteTypography_AddFontFeature, dwrite/IDWriteTypography::AddFontFeature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTypography.AddFontFeature
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTypography::AddFontFeature

@@ -4,17 +4,16 @@ title: IEnumFsiItems::Skip
 author: windows-sdk-content
 description: Skips a specified number of items in the enumeration sequence.
 old-location: imapi\ienumfsiitems_skip.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: f1bf8542-12b9-4228-9e0e-1defbb57cac3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Skip method, IEnumFsiItems.Skip, IEnumFsiItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_skip, imapi2fs/IEnumFsiItems::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFsiItems.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFsiItems::Skip

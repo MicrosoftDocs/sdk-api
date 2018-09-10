@@ -4,17 +4,16 @@ title: CreateDataAdviseHolder function
 author: windows-sdk-content
 description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
 old-location: com\createdataadviseholder.htm
-old-project: com
+tech.root: com
 ms.assetid: a2114f2f-106a-4a26-ba94-1b40af90a0f3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole_CreateDataAdviseHolder, com.createdataadviseholder, ole2/CreateDataAdviseHolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: ObjBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CreateDataAdviseHolder
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDataAdviseHolder function

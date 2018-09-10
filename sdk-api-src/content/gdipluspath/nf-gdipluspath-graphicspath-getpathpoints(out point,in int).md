@@ -4,17 +4,16 @@ title: GraphicsPath::GetPathPoints(OUT Point,IN INT)
 author: windows-sdk-content
 description: This topic lists the GetPathPoints methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPathPoints, GetPathPoints methods [GDI+], GraphicsPath.GetPathPoints, GraphicsPath.GetPathPoints(OUT Point,IN INT), GraphicsPath::GetPathPoints, GraphicsPath::GetPathPoints(OUT Point,IN INT), _gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdipluspath/GetPathPoints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GraphicsPath.GetPathPoints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # GraphicsPath::GetPathPoints(OUT Point,IN INT)

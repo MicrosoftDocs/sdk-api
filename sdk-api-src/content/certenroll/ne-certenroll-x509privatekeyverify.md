@@ -4,7 +4,7 @@ title: X509PrivateKeyVerify
 author: windows-sdk-content
 description: Specifies whether a user interface is displayed during private key verification and whether verification can proceed if the cryptographic provider is a smart card provider.
 old-location: security\x509privatekeyverify.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 23466035-6554-490f-ad46-e97ba5a5d996
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509PrivateKeyVerify
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509PrivateKeyVerify
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509PrivateKeyVerify
+req.redist: 
 ---
 
 # X509PrivateKeyVerify enumeration

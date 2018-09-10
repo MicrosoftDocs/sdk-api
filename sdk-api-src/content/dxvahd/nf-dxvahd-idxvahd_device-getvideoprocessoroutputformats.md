@@ -4,17 +4,16 @@ title: IDXVAHD_Device::GetVideoProcessorOutputFormats
 author: windows-sdk-content
 description: Gets a list of the output formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessoroutputformats.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e701014d-c112-42fa-9bf5-88cb31424006
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessorOutputFormats, GetVideoProcessorOutputFormats method [Media Foundation], GetVideoProcessorOutputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorOutputFormats method, IDXVAHD_Device.GetVideoProcessorOutputFormats, IDXVAHD_Device::GetVideoProcessorOutputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorOutputFormats, mf.idxvahd_device_getvideoprocessoroutputformats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.GetVideoProcessorOutputFormats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::GetVideoProcessorOutputFormats

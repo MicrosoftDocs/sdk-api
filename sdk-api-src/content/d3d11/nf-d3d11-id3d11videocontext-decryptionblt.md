@@ -4,17 +4,16 @@ title: ID3D11VideoContext::DecryptionBlt
 author: windows-sdk-content
 description: Writes encrypted data to a protected surface.
 old-location: mf\id3d11videocontext_decryptionblt.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E693D97A-E21F-4133-B56A-490F92CBD945
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecryptionBlt method, ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.DecryptionBlt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::DecryptionBlt

@@ -4,7 +4,7 @@ title: "_DD_GETSCANLINEDATA"
 author: windows-sdk-content
 description: The DD_GETSCANLINEDATA structure contains the members required to query and return the number of the current scan line.
 old-location: display\dd_getscanlinedata.htm
-old-project: display
+tech.root: display
 ms.assetid: 92433daa-43da-40d3-a319-e0d70abd3cb0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETSCANLINEDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA"
+req.redist: 
 ---
 
 # _DD_GETSCANLINEDATA structure

@@ -4,7 +4,7 @@ title: tagHELPINFO
 author: windows-sdk-content
 description: Contains information about an item for which context-sensitive Help has been requested.
 old-location: shell\HELPINFO_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8320fb68-294b-487b-ab5a-6611bb57cff0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HELPINFO, *LPHELPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HELPINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: HELPINFO, *LPHELPINFO
+req.redist: 
 ---
 
 # tagHELPINFO structure

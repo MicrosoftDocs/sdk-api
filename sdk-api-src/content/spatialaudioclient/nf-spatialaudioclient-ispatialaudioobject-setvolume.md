@@ -4,17 +4,16 @@ title: ISpatialAudioObject::SetVolume
 author: windows-sdk-content
 description: Sets an audio amplitude multiplier that will be applied to the audio data provided by the ISpatialAudioObject before it is submitted to the audio rendering engine.
 old-location: coreaudio\ispatialaudioobject_setvolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: DC1B4B9C-BFE0-4308-AD34-500A30C5744F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpatialAudioObject.SetVolume, ISpatialAudioObject::SetVolume, SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObject.SetVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObject::SetVolume

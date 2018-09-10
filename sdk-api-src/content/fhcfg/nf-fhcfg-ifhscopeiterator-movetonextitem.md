@@ -4,17 +4,16 @@ title: IFhScopeIterator::MoveToNextItem
 author: windows-sdk-content
 description: Moves to the next item in the inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_movetonextitem.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFhScopeIterator.MoveToNextItem, IFhScopeIterator::MoveToNextItem, MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API],IFhScopeIterator interface, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFhScopeIterator.MoveToNextItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhScopeIterator::MoveToNextItem

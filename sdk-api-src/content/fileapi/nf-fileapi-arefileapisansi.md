@@ -4,17 +4,16 @@ title: AreFileApisANSI function
 author: windows-sdk-content
 description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
 old-location: fs\arefileapisansi.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - AreFileApisANSI
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # AreFileApisANSI function

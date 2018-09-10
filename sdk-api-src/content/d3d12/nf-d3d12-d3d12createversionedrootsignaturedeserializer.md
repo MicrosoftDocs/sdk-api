@@ -4,17 +4,16 @@ title: D3D12CreateVersionedRootSignatureDeserializer function
 author: windows-sdk-content
 description: Generates an interface that can return the deserialized data structure, via GetUnconvertedRootSignatureDesc.
 old-location: direct3d12\d3d12createversionedrootsignaturedeserializer.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 0C079508-C330-4391-82CB-54DAAFBACB87
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: D3D12CreateVersionedRootSignatureDeserializer, D3D12CreateVersionedRootSignatureDeserializer function, d3d12/D3D12CreateVersionedRootSignatureDeserializer, direct3d12.d3d12createversionedrootsignaturedeserializer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12CreateVersionedRootSignatureDeserializer
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D12CreateVersionedRootSignatureDeserializer function

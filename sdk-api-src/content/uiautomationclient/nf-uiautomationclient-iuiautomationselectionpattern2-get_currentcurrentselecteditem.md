@@ -4,17 +4,16 @@ title: IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem
 author: windows-sdk-content
 description: Gets an IUIAutomationElement object representing the currently selected item.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: EAADE4DE-4255-4E70-A498-0EB786818D27
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentCurrentSelectedItem property [Windows Accessibility], CurrentCurrentSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentCurrentSelectedItem property, IUIAutomationSelectionPattern2.CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, get_CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentCurrentSelectedItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationSelectionPattern2.get_CurrentCurrentSelectedItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSelectionPattern2::get_CurrentCurrentSelectedItem

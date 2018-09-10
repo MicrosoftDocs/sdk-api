@@ -4,17 +4,16 @@ title: ITaskbarList3::UnregisterTab
 author: windows-sdk-content
 description: Removes a thumbnail from an application's preview group when that tab or document is closed in the application.
 old-location: shell\ITaskbarList3_UnregisterTab.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 667cafde-f693-46c3-bbec-140fc7cade5d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],UnregisterTab method, ITaskbarList3.UnregisterTab, ITaskbarList3::UnregisterTab, UnregisterTab, UnregisterTab method [Windows Shell], UnregisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_UnregisterTab, shell.ITaskbarList3_UnregisterTab, shobjidl_core/ITaskbarList3::UnregisterTab
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.UnregisterTab
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::UnregisterTab

@@ -4,7 +4,7 @@ title: "_VMR9_SampleFormat"
 author: windows-sdk-content
 description: The VMR9_SampleFormat enumeration type describes the interlacing of a video stream.
 old-location: dshow\vmr9_sampleformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9_SampleFormat
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9_SampleFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9_SampleFormat
+req.redist: 
 ---
 
 # _VMR9_SampleFormat enumeration

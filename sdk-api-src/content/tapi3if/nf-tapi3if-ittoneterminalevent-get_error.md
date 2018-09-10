@@ -4,17 +4,16 @@ title: ITToneTerminalEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method returns an HRESULT cast of the error code involved in the event.
 old-location: tapi3\ittoneterminalevent_get_error.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f91497b0-b340-4eb9-8d9f-364991343c3b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Error method, ITToneTerminalEvent.get_Error, ITToneTerminalEvent::get_Error, _tapi3_ittoneterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_error, tapi3if/ITToneTerminalEvent::get_Error
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITToneTerminalEvent.get_Error
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITToneTerminalEvent::get_Error

@@ -4,17 +4,16 @@ title: IADsAccessControlList::get__NewEnum
 author: windows-sdk-content
 description: The IADsAccessControlList::get__NewEnum method is used to obtain an enumerator object for the ACL to enumerate ACEs.
 old-location: adsi\iadsaccesscontrollist_get__newenum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsAccessControlList.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsAccessControlList::get__NewEnum
@@ -62,7 +60,7 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 
 ### -param retval
 
-
+TBD
 
 
 

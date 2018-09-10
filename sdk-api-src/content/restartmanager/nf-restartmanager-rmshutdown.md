@@ -4,17 +4,16 @@ title: RmShutdown function
 author: windows-sdk-content
 description: Initiates the shutdown of applications.
 old-location: rstmgr\rmshutdown.htm
-old-project: RstMgr
+tech.root: RstMgr
 ms.assetid: cdbc3bb7-0b3c-4fbc-8023-45a309c65bae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_SHUTDOWN_TYPE
+req.lib: Rstrtmgr.lib
+req.dll: Rstrtmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RmShutdown
 product: Windows
 targetos: Windows
-req.lib: Rstrtmgr.lib
-req.dll: Rstrtmgr.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RmShutdown function

@@ -4,7 +4,7 @@ title: DPI_HOSTING_BEHAVIOR
 author: windows-sdk-content
 description: Identifies the DPI hosting behavior for a window. This behavior allows windows created in the thread to host child windows with a different DPI_AWARENESS_CONTEXT.
 old-location: hidpi\_dpi_hosting_behavior.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DPI_HOSTING_BEHAVIOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _DPI_HOSTING_BEHAVIOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DPI_HOSTING_BEHAVIOR
+req.redist: 
 ---
 
 # DPI_HOSTING_BEHAVIOR enumeration

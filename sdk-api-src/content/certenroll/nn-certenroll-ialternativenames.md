@@ -4,7 +4,7 @@ title: IAlternativeNames
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
 old-location: security\ialternativenames.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAlternativeNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAlternativeNames interface

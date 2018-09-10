@@ -4,17 +4,16 @@ title: IXpsOMColorProfileResourceCollection::Append
 author: windows-sdk-content
 description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_append.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMColorProfileResourceCollection.Append
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMColorProfileResourceCollection::Append

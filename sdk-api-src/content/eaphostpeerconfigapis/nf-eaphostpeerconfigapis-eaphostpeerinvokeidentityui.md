@@ -4,17 +4,16 @@ title: EapHostPeerInvokeIdentityUI function
 author: windows-sdk-content
 description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
 old-location: eaphost\eaphostpeerinvokeidentityui.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
+req.lib: Eappcfg.lib
+req.dll: Eappcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapHostPeerInvokeIdentityUI
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapHostPeerInvokeIdentityUI function

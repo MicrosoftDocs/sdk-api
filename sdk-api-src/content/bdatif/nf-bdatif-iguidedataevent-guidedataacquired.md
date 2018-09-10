@@ -4,17 +4,16 @@ title: IGuideDataEvent::GuideDataAcquired
 author: windows-sdk-content
 description: The GuideDataAcquired method is called when a complete set of guide data has been acquired from the current transport stream.
 old-location: mstv\iguidedataevent_guidedataacquired.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 00f1aec7-4d26-4323-9d7e-c75d9a0c374c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GuideDataAcquired, GuideDataAcquired method [Microsoft TV Technologies], GuideDataAcquired method [Microsoft TV Technologies],IGuideDataEvent interface, IGuideDataEvent interface [Microsoft TV Technologies],GuideDataAcquired method, IGuideDataEvent.GuideDataAcquired, IGuideDataEvent::GuideDataAcquired, IGuideDataEventGuideDataAcquired, bdatif/IGuideDataEvent::GuideDataAcquired, mstv.iguidedataevent_guidedataacquired
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataEvent.GuideDataAcquired
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataEvent::GuideDataAcquired

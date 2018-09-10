@@ -4,17 +4,16 @@ title: IADsPropertyList::Next
 author: windows-sdk-content
 description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
 old-location: adsi\iadspropertylist_next.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyList.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyList::Next

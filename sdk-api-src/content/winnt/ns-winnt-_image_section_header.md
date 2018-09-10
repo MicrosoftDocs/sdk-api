@@ -4,7 +4,7 @@ title: "_IMAGE_SECTION_HEADER"
 author: windows-sdk-content
 description: Represents the image section header format.
 old-location: base\image_section_header_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 81ddf56d-66cc-4a0c-9cff-a84376a3223d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAGE_SECTION_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
+req.redist: 
 ---
 
 # _IMAGE_SECTION_HEADER structure

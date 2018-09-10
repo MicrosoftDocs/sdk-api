@@ -4,17 +4,16 @@ title: IRdcLibrary::OpenGeneratorParameters
 author: windows-sdk-content
 description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.
 old-location: rdc\irdclibrary_opengeneratorparameters.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGeneratorParameters method, IRdcLibrary.OpenGeneratorParameters, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcLibrary.OpenGeneratorParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcLibrary::OpenGeneratorParameters

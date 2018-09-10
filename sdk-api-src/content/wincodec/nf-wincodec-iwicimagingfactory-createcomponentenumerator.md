@@ -4,17 +4,16 @@ title: IWICImagingFactory::CreateComponentEnumerator
 author: windows-sdk-content
 description: Creates an IEnumUnknown object of the specified component types.
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 810bf0c2-2780-4ba3-84c1-7b257139e26e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateComponentEnumerator, CreateComponentEnumerator method [Windows Imaging Component], CreateComponentEnumerator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentEnumerator method, IWICImagingFactory.CreateComponentEnumerator, IWICImagingFactory::CreateComponentEnumerator, _wic_codec_iwicimagingfactory_createcomponentenumerator, wic._wic_codec_iwicimagingfactory_createcomponentenumerator, wincodec/IWICImagingFactory::CreateComponentEnumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory.CreateComponentEnumerator
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory::CreateComponentEnumerator

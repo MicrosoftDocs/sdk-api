@@ -4,7 +4,7 @@ title: "_WitnessTagUpdateHelper"
 author: windows-sdk-content
 description: Contains information used to update and validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstagupdatehelper.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WitnessTagUpdateHelper
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WitnessTagUpdateHelper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: WitnessTagUpdateHelper
+req.redist: 
 ---
 
 # _WitnessTagUpdateHelper structure

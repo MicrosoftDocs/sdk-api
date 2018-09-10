@@ -4,17 +4,16 @@ title: IManipulationProcessor::GetVelocityX
 author: windows-sdk-content
 description: Calculates and returns the horizontal velocity for the target object.
 old-location: wintouch\imanipulationprocessor_getvelocityx.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 64524f01-f7b2-4e78-97b8-20686018469f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetVelocityX, GetVelocityX method [Windows Touch], GetVelocityX method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityX method, IManipulationProcessor.GetVelocityX, IManipulationProcessor::GetVelocityX, manipulations/IManipulationProcessor::GetVelocityX, wintouch.imanipulationprocessor_getvelocityx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.GetVelocityX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::GetVelocityX
@@ -62,7 +60,7 @@ Calculates and returns the horizontal velocity for the target object.
 
 ### -param velocityX
 
-
+TBD
 
 
 

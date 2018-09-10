@@ -4,17 +4,16 @@ title: IGPM::CreateTrustee
 author: windows-sdk-content
 description: Creates and returns a GPMTrustee from which you can retrieve information about a trustee.
 old-location: gpmc\igpm_createtrustee.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 98230e5f-b866-4f68-9977-eec4bdd14d9e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateTrustee, CreateTrustee method [GPMC], CreateTrustee method [GPMC],GPM object, CreateTrustee method [GPMC],IGPM interface, GPM object [GPMC],CreateTrustee method, IGPM interface [GPMC],CreateTrustee method, IGPM.CreateTrustee, IGPM::CreateTrustee, _win32_igpm_createtrustee, gpmc.igpm_createtrustee, gpmgmt/IGPM::CreateTrustee
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.CreateTrustee
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::CreateTrustee

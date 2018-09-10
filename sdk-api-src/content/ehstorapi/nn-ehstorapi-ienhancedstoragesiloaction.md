@@ -4,7 +4,7 @@ title: IEnhancedStorageSiloAction
 author: windows-sdk-content
 description: Use this interface as a point of access for actions involving IEEE 1667 silos.
 old-location: enstor\ienhancedstoragesiloaction.htm
-old-project: enstor
+tech.root: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TimedLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnhancedStorageSiloAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnhancedStorageSiloAction interface

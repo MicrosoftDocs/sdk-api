@@ -4,17 +4,16 @@ title: IDWriteTextFormat::GetLineSpacing
 author: windows-sdk-content
 description: Gets the line spacing adjustment set for a multiline text paragraph.
 old-location: directwrite\IDWriteTextFormat_GetLineSpacing.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: d9563d4d-0b7d-4921-b251-6ef1e24105f1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLineSpacing method, IDWriteTextFormat.GetLineSpacing, IDWriteTextFormat::GetLineSpacing, directwrite.IDWriteTextFormat_GetLineSpacing, dwrite/IDWriteTextFormat::GetLineSpacing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextFormat.GetLineSpacing
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextFormat::GetLineSpacing

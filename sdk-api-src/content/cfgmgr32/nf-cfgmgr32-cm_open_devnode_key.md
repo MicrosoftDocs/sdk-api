@@ -4,17 +4,16 @@ title: CM_Open_DevNode_Key function
 author: windows-sdk-content
 description: The CM_Open_DevNode_Key function opens a registry key for device-specific configuration information.
 old-location: devinst\cm_open_devnode_key.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: bd69ec16-e8a3-4372-babf-65f8abb7a012
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Open_DevNode_Key, CM_Open_DevNode_Key function [Device and Driver Installation], cfgmgr32/CM_Open_DevNode_Key, cfgmgrfn_951f31d2-624f-4ef2-b954-1b33f9a779e7.xml, devinst.cm_open_devnode_key
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Open_DevNode_Key
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Open_DevNode_Key function

@@ -4,17 +4,16 @@ title: IOleItemContainer::IsRunning
 author: windows-sdk-content
 description: Determines whether the specified object is running.
 old-location: com\ioleitemcontainer_isrunning.htm
-old-project: com
+tech.root: com
 ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleItemContainer.IsRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleItemContainer::IsRunning

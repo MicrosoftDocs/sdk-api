@@ -4,17 +4,16 @@ title: IWMPCore::put_URL
 author: windows-sdk-content
 description: The put_URL method specifies the URL of the media item to play.
 old-location: wmp\iwmpcore_put_url.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 0a8625b9-19a1-41dc-9bb8-afca4bfebf5a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_URL method, IWMPCore.put_URL, IWMPCore::put_URL, IWMPCoreput_URL, put_URL, put_URL method [Windows Media Player], put_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_url, wmp/IWMPCore::put_URL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCore.put_URL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCore::put_URL

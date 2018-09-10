@@ -4,7 +4,7 @@ title: "_RPC_CALL_LOCAL_ADDRESS_V1"
 author: windows-sdk-content
 description: Contains information about the local address on which a call was made.
 old-location: rpc\rpc_call_local_address_v1.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RPC_CALL_LOCAL_ADDRESS_V1_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.redist: 
 ---
 
 # _RPC_CALL_LOCAL_ADDRESS_V1 structure

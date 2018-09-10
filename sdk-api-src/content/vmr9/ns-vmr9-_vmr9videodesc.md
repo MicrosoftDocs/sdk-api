@@ -4,7 +4,7 @@ title: "_VMR9VideoDesc"
 author: windows-sdk-content
 description: The VMR9VideoDesc structure describes a video stream to be deinterlaced.
 old-location: dshow\vmr9videodesc.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9VideoDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9VideoDesc
+req.redist: 
 ---
 
 # _VMR9VideoDesc structure

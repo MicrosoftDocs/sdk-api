@@ -4,7 +4,7 @@ title: "_CRYPT_XML_X509DATA_ITEM"
 author: windows-sdk-content
 description: Represents X.509 data that is to be encoded in an X509Data named element.
 old-location: security\crypt_xml_x509data_item.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 118371c7-9b75-4330-9897-bd352b072fa4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_X509DATA_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_XML_X509DATA_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_XML_X509DATA_ITEM
+req.redist: 
 ---
 
 # _CRYPT_XML_X509DATA_ITEM structure

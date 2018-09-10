@@ -4,17 +4,16 @@ title: IDiskQuotaControl::GetQuotaLogFlags
 author: windows-sdk-content
 description: Retrieves the flags that control the logging of user-related quota events on the volume.
 old-location: fs\idiskquotacontrol_getquotalogflags.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 79ba4f8a-9f89-4c15-9d17-b61960d12b62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuotaLogFlags, GetQuotaLogFlags method [Files], GetQuotaLogFlags method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetQuotaLogFlags method, IDiskQuotaControl.GetQuotaLogFlags, IDiskQuotaControl::GetQuotaLogFlags, _win32_idiskquotacontrol_getquotalogflags, base.idiskquotacontrol_getquotalogflags, dskquota/IDiskQuotaControl::GetQuotaLogFlags, fs.idiskquotacontrol_getquotalogflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.GetQuotaLogFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::GetQuotaLogFlags

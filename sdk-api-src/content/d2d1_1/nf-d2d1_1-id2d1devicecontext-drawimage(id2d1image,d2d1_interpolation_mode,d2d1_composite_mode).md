@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_INTERPOLATION_MODE,D2D1_COM
 author: windows-sdk-content
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext.DrawImage(ID2D1Image,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.DrawImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE)

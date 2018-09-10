@@ -4,17 +4,16 @@ title: IWorkspaceRegistration::AddResource
 author: windows-sdk-content
 description: Adds a resource to the connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration_addresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: cd4ed8a0-e5a8-4809-a9bd-d013a84b0bd4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddResource, AddResource method [Remote Desktop Services], AddResource method [Remote Desktop Services],IWorkspaceRegistration interface, AddResource method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResource method [Remote Desktop Services],Workspace object, IWorkspaceRegistration interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration.AddResource, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResource method, IWorkspaceRegistration2::AddResource, IWorkspaceRegistration::AddResource, Workspace object [Remote Desktop Services],AddResource method, termserv.iworkspaceregistration_addresource, workspaceruntime/IWorkspaceRegistration2::AddResource, workspaceruntime/IWorkspaceRegistration::AddResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wksprt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Workspace.AddResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceRegistration::AddResource

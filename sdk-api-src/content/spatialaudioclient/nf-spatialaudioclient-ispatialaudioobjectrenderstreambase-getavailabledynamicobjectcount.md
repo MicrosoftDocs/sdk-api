@@ -4,17 +4,16 @@ title: ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
 author: windows-sdk-content
 description: Gets the number of dynamic spatial audio objects that are currently available.
 old-location: coreaudio\ispatialaudioobjectrenderstream_getavailabledynamicobjectcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 5E17B53A-B999-4B08-9DFB-96D55E7F9CF7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAvailableDynamicObjectCount, GetAvailableDynamicObjectCount method [Core Audio], GetAvailableDynamicObjectCount method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetAvailableDynamicObjectCount method, ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount, ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount, coreaudio.ispatialaudioobjectrenderstream_getavailabledynamicobjectcount, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount

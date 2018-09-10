@@ -4,7 +4,7 @@ title: "_AD_GENERAL_PARAMS"
 author: windows-sdk-content
 description: The AD_GENERAL_PARAMS structure contains the General Characterization Parameters contained in the RSVP Adspec object.
 old-location: qos\ad_general_params.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: eab6b317-9d06-45e2-bc77-0882f40e7d79
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AD_GENERAL_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
+req.redist: 
 ---
 
 # _AD_GENERAL_PARAMS structure

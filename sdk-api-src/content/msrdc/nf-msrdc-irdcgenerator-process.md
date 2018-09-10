@@ -4,17 +4,16 @@ title: IRdcGenerator::Process
 author: windows-sdk-content
 description: Processes the input data and produces 0 or more output bytes.
 old-location: rdc\irdcgenerator_process.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 34d19eee-0fa9-4ac3-a33b-9f01cfa06371
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process method, IRdcGenerator.Process, IRdcGenerator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcGenerator interface, fs.irdcgenerator_process, msrdc/IRdcGenerator::Process, rdc.irdcgenerator_process
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGenerator.Process
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGenerator::Process

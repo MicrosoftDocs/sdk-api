@@ -4,17 +4,16 @@ title: FilterSendMessage function
 author: windows-sdk-content
 description: The FilterSendMessage function sends a message to a kernel-mode minifilter.
 old-location: ifsk\filtersendmessage.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e0a5d790-280d-43ff-a170-14b28b3da02a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterSendMessage, FilterSendMessage function [Installable File System Drivers], FltWin32ApiRef_7d1d856f-6ed8-4c55-8524-05d99ab7d626.xml, fltuser/FilterSendMessage, ifsk.filtersendmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterSendMessage
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterSendMessage function

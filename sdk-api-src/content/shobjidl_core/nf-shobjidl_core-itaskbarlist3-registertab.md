@@ -4,17 +4,16 @@ title: ITaskbarList3::RegisterTab
 author: windows-sdk-content
 description: Informs the taskbar that a new tab or document thumbnail has been provided for display in an application's taskbar group flyout.
 old-location: shell\ITaskbarList3_RegisterTab.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b0cdca51-108a-4507-bd9e-6bcd4386c36a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],RegisterTab method, ITaskbarList3.RegisterTab, ITaskbarList3::RegisterTab, RegisterTab, RegisterTab method [Windows Shell], RegisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_RegisterTab, shell.ITaskbarList3_RegisterTab, shobjidl_core/ITaskbarList3::RegisterTab
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Explorerframe.lib
+req.dll: Explorerframe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList3.RegisterTab
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Explorerframe.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList3::RegisterTab

@@ -4,7 +4,7 @@ title: "_MFVideoDSPMode"
 author: windows-sdk-content
 description: Specifies the processing mode of the Video Stabilization MFT.
 old-location: mf\mfvideodspmode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoDSPMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MFVideoDSPMode
+req.redist: 
 ---
 
 # _MFVideoDSPMode enumeration

@@ -4,17 +4,16 @@ title: ISearchCatalogManager2::PrioritizeMatchingURLs
 author: windows-sdk-content
 description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.
 old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCatalogManager2.PrioritizeMatchingURLs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Search (WS) 4.0
 ---
 
 # ISearchCatalogManager2::PrioritizeMatchingURLs

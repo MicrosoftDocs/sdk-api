@@ -4,17 +4,16 @@ title: IXpsSignature::GetSigningTime
 author: windows-sdk-content
 description: Gets the date and time of signature creation.
 old-location: xps\ixpssignature_getsigningtime.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 47edfe80-2111-4e87-bb11-056cf939bdd9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSigningTime, GetSigningTime method [XPS Documents and Packaging], GetSigningTime method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTime method, IXpsSignature.GetSigningTime, IXpsSignature::GetSigningTime, xps.ixpssignature_getsigningtime, xpsdigitalsignature/IXpsSignature::GetSigningTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignature.GetSigningTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignature::GetSigningTime

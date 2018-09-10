@@ -4,17 +4,16 @@ title: SetupOpenMasterInf function
 author: windows-sdk-content
 description: The SetupOpenMasterInf function opens the master INF file that contains file and layout information for files shipped with Windows.
 old-location: setup\setupopenmasterinf.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: dbf3fb81-7416-4eb7-95b9-adfc17b2a364
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupOpenMasterInf, SetupOpenMasterInf function [Setup API], _setupapi_setupopenmasterinf, setup.setupopenmasterinf, setupapi/SetupOpenMasterInf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupOpenMasterInf
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupOpenMasterInf function

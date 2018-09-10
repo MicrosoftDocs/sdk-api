@@ -4,17 +4,16 @@ title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula
 author: windows-sdk-content
 description: Retrieves the cached formula for this cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: BA4A13A3-6BB3-45B9-87A7-8239F148B1CE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedFormula property [Windows Accessibility], CachedFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CachedFormula property, IUIAutomationSpreadsheetItemPattern.CachedFormula, IUIAutomationSpreadsheetItemPattern.get_CachedFormula, IUIAutomationSpreadsheetItemPattern::CachedFormula, IUIAutomationSpreadsheetItemPattern::get_CachedFormula, get_CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CachedFormula

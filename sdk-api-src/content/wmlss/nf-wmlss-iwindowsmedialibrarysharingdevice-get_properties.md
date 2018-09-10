@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingDevice::get_Properties
 author: windows-sdk-content
 description: The get_Properties method retrieves an IWindowsMediaLibrarySharingDeviceProperties interface that represents the collection of all properties for the device.
 old-location: wmlss\IWMLSDeviceget_Properties.htm
-old-project: WMLSS
+tech.root: WMLSS
 ms.assetid: 771c102e-fa23-44bb-aa93-95f7ae9f5e36
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_Properties method, IWindowsMediaLibrarySharingDevice.get_Properties, IWindowsMediaLibrarySharingDevice::get_Properties, get_Properties, get_Properties method [Windows Media Library Sharing Services], get_Properties method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_Properties, wmlss/IWindowsMediaLibrarySharingDevice::get_Properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingDevice.get_Properties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingDevice::get_Properties

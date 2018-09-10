@@ -4,17 +4,16 @@ title: IVdsControllerPort::GetController
 author: windows-sdk-content
 description: Returns the controller to which the controller port belongs.
 old-location: base\ivdscontrollerport_getcontroller.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsControllerPort.GetController
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsControllerPort::GetController

@@ -4,17 +4,16 @@ title: PathCchIsRoot function
 author: windows-sdk-content
 description: Determines whether a path string refers to the root of a volume.This function differs from PathIsRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchIsRoot.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathCchIsRoot
 product: Windows
 targetos: Windows
-req.lib: Pathcch.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PathCchIsRoot function

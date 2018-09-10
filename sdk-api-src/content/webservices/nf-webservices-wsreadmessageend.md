@@ -4,17 +4,16 @@ title: WsReadMessageEnd function
 author: windows-sdk-content
 description: Read the closing elements of a message from a channel.
 old-location: wsw\wsreadmessageend.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadMessageEnd
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadMessageEnd function

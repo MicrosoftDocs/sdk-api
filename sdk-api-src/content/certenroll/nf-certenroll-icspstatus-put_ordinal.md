@@ -4,17 +4,16 @@ title: ICspStatus::put_Ordinal
 author: windows-sdk-content
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.put_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, put_Ordinal, security.icspstatus_ordinal_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICspStatus.put_Ordinal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatus::put_Ordinal

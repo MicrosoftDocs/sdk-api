@@ -4,17 +4,16 @@ title: ICertSrvSetupKeyInformationCollection::get_Item
 author: windows-sdk-content
 description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_item.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item property, ICertSrvSetupKeyInformationCollection.Item, ICertSrvSetupKeyInformationCollection.get_Item, ICertSrvSetupKeyInformationCollection::Item, ICertSrvSetupKeyInformationCollection::get_Item, Item property [Security], Item property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::Item, casetup/ICertSrvSetupKeyInformationCollection::get_Item, get_Item, security.icertsrvsetupkeyinformationcollection_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertSrvSetupKeyInformationCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformationCollection::get_Item

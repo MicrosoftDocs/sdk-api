@@ -4,7 +4,7 @@ title: mpeglayer3waveformat_tag
 author: windows-sdk-content
 description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
 old-location: dshow\mpeglayer3waveformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEGLAYER3WAVEFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEGLAYER3WAVEFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEGLAYER3WAVEFORMAT
+req.redist: 
 ---
 
 # mpeglayer3waveformat_tag structure

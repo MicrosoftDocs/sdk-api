@@ -4,17 +4,16 @@ title: ResUtilSetPrivatePropertyList function
 author: windows-sdk-content
 description: Sets the private properties of a cluster object.
 old-location: mscs\resutilsetprivatepropertylist.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_SET_PRIVATE_PROPERTY_LIST, PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilSetPrivatePropertyList, ResUtilSetPrivatePropertyList function [Failover Cluster], _wolf_resutilsetprivatepropertylist, mscs.resutilsetprivatepropertylist, resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST, resapi/ResUtilSetPrivatePropertyList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilSetPrivatePropertyList
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilSetPrivatePropertyList function

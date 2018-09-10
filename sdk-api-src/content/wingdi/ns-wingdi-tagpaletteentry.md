@@ -4,7 +4,7 @@ title: tagPALETTEENTRY
 author: windows-sdk-content
 description: Specifies the color and usage of an entry in a logical palette.
 old-location: direct3d9\paletteentry.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\paletteentry.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PALETTEENTRY, *PPALETTEENTRY, *LPPALETTEENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PALETTEENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PALETTEENTRY, *PPALETTEENTRY, *LPPALETTEENTRY
+req.redist: 
 ---
 
 # tagPALETTEENTRY structure

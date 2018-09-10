@@ -4,17 +4,16 @@ title: ISpatialAudioClient::GetStaticObjectPosition
 author: windows-sdk-content
 description: Gets the position in 3D space of the specified static spatial audio channel.
 old-location: coreaudio\ispatialaudioclient_getstaticobjectposition.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: F8CD558A-994D-46E0-98A0-1D7AD3B919C0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetStaticObjectPosition, GetStaticObjectPosition method [Core Audio], GetStaticObjectPosition method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetStaticObjectPosition method, ISpatialAudioClient.GetStaticObjectPosition, ISpatialAudioClient::GetStaticObjectPosition, coreaudio.ispatialaudioclient_getstaticobjectposition, spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioClient.GetStaticObjectPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioClient::GetStaticObjectPosition

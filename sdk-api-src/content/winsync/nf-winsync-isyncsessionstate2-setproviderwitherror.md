@@ -4,17 +4,16 @@ title: ISyncSessionState2::SetProviderWithError
 author: windows-sdk-content
 description: Indicates which provider caused synchronization to fail.
 old-location: winsync\isyncsessionstate2_setproviderwitherror.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: dcbfcc13-5a8f-4062-baef-899f81413768
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncSessionState2 interface [Windows Sync],SetProviderWithError method, ISyncSessionState2.SetProviderWithError, ISyncSessionState2::SetProviderWithError, SetProviderWithError, SetProviderWithError method [Windows Sync], SetProviderWithError method [Windows Sync],ISyncSessionState2 interface, winsync.isyncsessionstate2_setproviderwitherror, winsync/ISyncSessionState2::SetProviderWithError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncSessionState2.SetProviderWithError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncSessionState2::SetProviderWithError

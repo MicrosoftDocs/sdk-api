@@ -4,17 +4,16 @@ title: EcRemoveObjectArrayElement function
 author: windows-sdk-content
 description: Removes an element from an array of objects that contain property values for the event sources of a subscription.
 old-location: wec\ecremoveobjectarrayelement.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: 6c76ca94-b7bc-4590-be0b-6d6f499dda5a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EcRemoveObjectArrayElement, EcRemoveObjectArrayElement function, evcoll/EcRemoveObjectArrayElement, wec.ecremoveobjectarrayelement, wes.ecremoveobjectarrayelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_VARIANT_TYPE
+req.lib: Wecapi.lib
+req.dll: Wecapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EcRemoveObjectArrayElement
 product: Windows
 targetos: Windows
-req.lib: Wecapi.lib
-req.dll: Wecapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EcRemoveObjectArrayElement function

@@ -4,17 +4,16 @@ title: IWindowProvider::WaitForInputIdle
 author: windows-sdk-content
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WaitForInputIdle method, IWindowProvider.WaitForInputIdle, IWindowProvider::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowProvider.WaitForInputIdle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowProvider::WaitForInputIdle

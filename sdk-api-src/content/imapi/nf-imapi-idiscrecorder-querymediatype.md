@@ -4,17 +4,16 @@ title: IDiscRecorder::QueryMediaType
 author: windows-sdk-content
 description: Detects the type of media currently inserted in the recorder, if any.
 old-location: imapi\idiscrecorder_querymediatype.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 40f9376d-5702-4dfb-a69b-0ca4fcfc8d8e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaType method, IDiscRecorder.QueryMediaType, IDiscRecorder::QueryMediaType, MEDIA_BLANK, MEDIA_CDDA_CDROM, MEDIA_CD_EXTRA, MEDIA_CD_I, MEDIA_CD_OTHER, MEDIA_CD_ROM_XA, MEDIA_RW, MEDIA_SPECIAL, MEDIA_WRITABLE, QueryMediaType, QueryMediaType method [IMAPI], QueryMediaType method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediatype, base.idiscrecorder_querymediatype, imapi.idiscrecorder_querymediatype, imapi/IDiscRecorder::QueryMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder.QueryMediaType
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder::QueryMediaType

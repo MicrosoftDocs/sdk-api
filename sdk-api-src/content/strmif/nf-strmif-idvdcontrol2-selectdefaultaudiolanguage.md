@@ -4,17 +4,16 @@ title: IDvdControl2::SelectDefaultAudioLanguage
 author: windows-sdk-content
 description: The SelectDefaultAudioLanguage method sets the default audio language.
 old-location: dshow\idvdcontrol2_selectdefaultaudiolanguage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1f5cf846-6f14-4c17-bd01-6a8ecb46fdab
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultAudioLanguage method, IDvdControl2.SelectDefaultAudioLanguage, IDvdControl2::SelectDefaultAudioLanguage, IDvdControl2SelectDefaultAudioLanguage, SelectDefaultAudioLanguage, SelectDefaultAudioLanguage method [DirectShow], SelectDefaultAudioLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultaudiolanguage, strmif/IDvdControl2::SelectDefaultAudioLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.SelectDefaultAudioLanguage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::SelectDefaultAudioLanguage

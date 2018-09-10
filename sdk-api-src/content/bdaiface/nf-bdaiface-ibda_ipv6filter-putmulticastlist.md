@@ -4,17 +4,16 @@ title: IBDA_IPV6Filter::PutMulticastList
 author: windows-sdk-content
 description: The PutMulticastList method specifies the parameters of the multicast list.
 old-location: mstv\ibda_ipv6filter_putmulticastlist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a0e77856-5a7d-4312-a4f1-69d186c90855
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_IPV6Filter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_IPV6Filter.PutMulticastList, IBDA_IPV6Filter::PutMulticastList, IBDA_IPV6FilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_IPV6Filter interface, bdaiface/IBDA_IPV6Filter::PutMulticastList, mstv.ibda_ipv6filter_putmulticastlist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPV6Filter.PutMulticastList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPV6Filter::PutMulticastList

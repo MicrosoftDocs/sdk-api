@@ -4,7 +4,7 @@ title: IPrintDialogCallback
 author: windows-sdk-content
 description: Provides methods that enable an application to receive notifications and messages from the PrintDlgEx function while the Print Property Sheet is displayed.
 old-location: dlgbox\iprintdialogcallback.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: 
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPrintDialogCallback
 product: Windows
 targetos: Windows
-req.lib: Comdlg32.lib
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintDialogCallback interface

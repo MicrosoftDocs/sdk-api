@@ -4,7 +4,7 @@ title: tag_VDS_PARTITION_STYLE
 author: windows-sdk-content
 description: This enumeration is not for explicit use.
 old-location: base\tag_vds_partition_style.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: d994715e-1735-4841-98be-5f22de0670f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "__VDS_PARTITION_STYLE"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - __VDS_PARTITION_STYLE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: "__VDS_PARTITION_STYLE"
+req.redist: 
 ---
 
 # tag_VDS_PARTITION_STYLE enumeration

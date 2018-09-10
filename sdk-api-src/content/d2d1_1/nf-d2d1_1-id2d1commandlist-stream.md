@@ -4,17 +4,16 @@ title: ID2D1CommandList::Stream
 author: windows-sdk-content
 description: Streams the contents of the command list to the specified command sink.
 old-location: direct2d\id2d1commandlist_stream.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandList.Stream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandList::Stream
@@ -61,7 +60,7 @@ Streams the contents of the command list  to the specified command sink.
 
 ### -param sink
 
-
+TBD
 
 
 

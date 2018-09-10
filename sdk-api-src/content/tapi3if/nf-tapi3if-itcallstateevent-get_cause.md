@@ -4,17 +4,16 @@ title: ITCallStateEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itcallstateevent_get_cause.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e3a4b985-1c0f-4e93-a965-c61c9c0ab10d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_Cause method, ITCallStateEvent.get_Cause, ITCallStateEvent::get_Cause, _tapi3_itcallstateevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_cause, tapi3if/ITCallStateEvent::get_Cause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallStateEvent.get_Cause
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallStateEvent::get_Cause

@@ -4,17 +4,16 @@ title: StringCchCopyA function
 author: windows-sdk-content
 description: Copies one string to another.
 old-location: menurc\stringcchcopy.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StringCchCopy, StringCchCopy function [Menus and Other Resources], StringCchCopyA, StringCchCopyW, _shell_StringCchCopy, _shell_stringcchcopy_cpp, menurc.stringcchcopy, strsafe/StringCchCopy, strsafe/StringCchCopyA, strsafe/StringCchCopyW, winui._shell_stringcchcopy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCchCopyW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCchCopyA function

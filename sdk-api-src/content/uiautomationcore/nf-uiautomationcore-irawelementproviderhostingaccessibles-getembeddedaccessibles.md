@@ -4,17 +4,16 @@ title: IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles
 author: windows-sdk-content
 description: Retrieves the IAccessible interface pointers of the windowless Microsoft ActiveX controls that are hosted by this provider.
 old-location: winauto\uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: E428B87C-25FE-437B-AAE8-7E3BC79BBE6B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEmbeddedAccessibles, GetEmbeddedAccessibles method [Windows Accessibility], GetEmbeddedAccessibles method [Windows Accessibility],IRawElementProviderHostingAccessibles interface, IRawElementProviderHostingAccessibles interface [Windows Accessibility],GetEmbeddedAccessibles method, IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles, IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, uiautomationcore/IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles_GetEmbeddedAccessibles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderHostingAccessibles.GetEmbeddedAccessibles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderHostingAccessibles::GetEmbeddedAccessibles

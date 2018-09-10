@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::AddMessage
 author: windows-sdk-content
 description: Adds an error message to the bag.
 old-location: fsrm\ifsrmpropertybag_addmessage.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 2d9166fd-5211-4114-843f-2c6563941715
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: AddMessage, AddMessage method [File Server Resource Manager], AddMessage method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],AddMessage method, IFsrmPropertyBag.AddMessage, IFsrmPropertyBag::AddMessage, fs.ifsrmpropertybag_addmessage, fsrm.ifsrmpropertybag_addmessage, fsrmpipeline/IFsrmPropertyBag::AddMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPropertyBag.AddMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::AddMessage

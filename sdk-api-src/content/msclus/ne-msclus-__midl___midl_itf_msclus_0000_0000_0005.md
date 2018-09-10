@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msclus_0000_0000_0005"
 author: windows-sdk-content
 description: Enumerates the start settings for a cluster group.
 old-location: mscs\clus_group_start_setting.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_GROUP_START_SETTING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUS_GROUP_START_SETTING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUS_GROUP_START_SETTING
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msclus_0000_0000_0005 enumeration

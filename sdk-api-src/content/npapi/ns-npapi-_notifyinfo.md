@@ -4,7 +4,7 @@ title: "_NOTIFYINFO"
 author: windows-sdk-content
 description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.
 old-location: security\notifyinfo.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYINFO, *LPNOTIFYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NOTIFYINFO, *LPNOTIFYINFO
+req.redist: 
 ---
 
 # _NOTIFYINFO structure

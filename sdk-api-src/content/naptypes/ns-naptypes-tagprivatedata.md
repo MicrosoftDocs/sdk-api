@@ -4,7 +4,7 @@ title: tagPrivateData
 author: windows-sdk-content
 description: Is used to store and retrieve opaque data blobs.
 old-location: nap\privatedata_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrivateData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrivateData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PrivateData
+req.redist: 
 ---
 
 # tagPrivateData structure

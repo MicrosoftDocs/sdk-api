@@ -4,17 +4,16 @@ title: IInkCollector::get_SupportHighContrastInk
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
 old-location: tablet\inkcollector_supporthighcontrastink.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 17f5002b-0191-4cb0-8b12-0383aaabe2a8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 17f5002b-0191-4cb0-8b12-0383aaabe2a8, IInkCollector interface [Tablet PC],SupportHighContrastInk property, IInkCollector.SupportHighContrastInk, IInkCollector.get_SupportHighContrastInk, IInkCollector::SupportHighContrastInk, IInkCollector::get_SupportHighContrastInk, IInkCollector::put_SupportHighContrastInk, InkCollector.get_SupportHighContrastInk, InkCollector.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkCollector interface, get_SupportHighContrastInk, msinkaut/IInkCollector::SupportHighContrastInk, msinkaut/IInkCollector::get_SupportHighContrastInk, msinkaut/IInkCollector::put_SupportHighContrastInk, put_SupportHighContrastInk, tablet.inkcollector_supporthighcontrastink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkCollector.put_SupportHighContrastInk
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::get_SupportHighContrastInk

@@ -4,17 +4,16 @@ title: GetUpdateRgn function
 author: windows-sdk-content
 description: The GetUpdateRgn function retrieves the update region of a window by copying it into the specified region. The coordinates of the update region are relative to the upper-left corner of the window (that is, they are client coordinates).
 old-location: gdi\getupdatergn.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: d80c4b44-3f50-46f9-bf5a-fff7868d91ba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdateRgn, gdi.getupdatergn, winuser/GetUpdateRgn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - GetUpdateRgn
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetUpdateRgn function

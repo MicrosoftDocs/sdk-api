@@ -4,17 +4,16 @@ title: IMFImageSharingEngine::SetSource
 author: windows-sdk-content
 description: Sets the source stream.
 old-location: mf\imfimagesharingengine_setsource.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 59DFAF26-B1D2-4658-B6E8-A0D14F48C734
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],SetSource method, IMFImageSharingEngine.SetSource, IMFImageSharingEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_setsource, mfsharingengine/IMFImageSharingEngine::SetSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFImageSharingEngine.SetSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFImageSharingEngine::SetSource

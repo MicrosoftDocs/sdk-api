@@ -4,17 +4,16 @@ title: PrivateExtractIconsW function
 author: windows-sdk-content
 description: Creates an array of handles to icons that are extracted from a specified file.
 old-location: menurc\privateextracticons.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PrivateExtractIconsW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PrivateExtractIconsW function

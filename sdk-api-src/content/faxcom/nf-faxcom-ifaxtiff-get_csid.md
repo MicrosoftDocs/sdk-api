@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxTiff.get_Csid
 title: IFaxTiff::get_Csid
 author: windows-sdk-content
 description: Retrieves the Csid property for a FaxTiff object. The Csid property is a string that contains called station identifier (CSID) information, which is typically the fax number of the device that received the specified fax file.
-old-location: fax\_mfax_ifaxtiff_get_csid_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_csid_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ask.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Csid property [Fax Service], Csid property [Fax Service],FaxTiff object, FaxTiff object [Fax Service],Csid property, FaxTiff.Csid, IFaxTiff.get_Csid, IFaxTiff::get_Csid, _mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid_vb, get_Csid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Csid property [Fax Service], Csid property [Fax Service],IFaxTiff interface, IFaxTiff interface [Fax Service],Csid property, IFaxTiff.Csid, IFaxTiff.get_Csid, IFaxTiff::Csid, IFaxTiff::get_Csid, _mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_csid_cpp, faxcom/IFaxTiff::Csid, faxcom/IFaxTiff::get_Csid, get_Csid
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxTiff.Csid
+ - IFaxTiff.Csid
+ - IFaxTiff.get_Csid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxTiff::get_Csid
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
 
 The <b>get_Csid</b> method sets the <i>pVal</i> parameter to the string that identifies the called device, if that information is available. If the information is not available, the method returns "Unavailable".
 
@@ -88,15 +87,11 @@ The <b>get_Csid</b> method allocates the memory required for the buffer pointed 
 
 
 
-<a href="https://msdn.microsoft.com/98d385be-cebb-428e-92f7-22a1fc814c3c">FaxTiff</a>
-
-
-
 <a href="https://msdn.microsoft.com/a4c46893-502d-4d5c-a895-837cffc014e4">IFaxTiff</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a>
+<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
 
 
 

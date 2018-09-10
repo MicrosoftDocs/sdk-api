@@ -4,7 +4,7 @@ title: tagEMRSELECTPALETTE
 author: windows-sdk-content
 description: The EMRSELECTPALETTE structure contains members for the SelectPalette enhanced metafile record. Note that the bForceBackground parameter in SelectPalette is always recorded as TRUE, which causes the palette to be realized as a background palette.
 old-location: gdi\emrselectpalette.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRSELECTPALETTE, *PEMRSELECTPALETTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRSELECTPALETTE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRSELECTPALETTE, *PEMRSELECTPALETTE
+req.redist: 
 ---
 
 # tagEMRSELECTPALETTE structure

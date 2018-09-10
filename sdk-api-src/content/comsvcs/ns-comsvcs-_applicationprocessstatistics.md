@@ -4,7 +4,7 @@ title: "_ApplicationProcessStatistics"
 author: windows-sdk-content
 description: Represents statistical information about a process hosting COM+ applications.
 old-location: cos\applicationprocessstatistics.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ApplicationProcessStatistics
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ApplicationProcessStatistics
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ApplicationProcessStatistics
+req.redist: 
 ---
 
 # _ApplicationProcessStatistics structure

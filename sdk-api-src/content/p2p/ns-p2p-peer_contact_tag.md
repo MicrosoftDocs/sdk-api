@@ -4,7 +4,7 @@ title: peer_contact_tag
 author: windows-sdk-content
 description: The PEER_CONTACT structure contains information about a specific contact.
 old-location: p2p\peer_contact.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: b84a17fc-35d6-4098-9bb3-18e708541a80
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_CONTACT, *PPEER_CONTACT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_CONTACT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_CONTACT, *PPEER_CONTACT
+req.redist: 
 ---
 
 # peer_contact_tag structure

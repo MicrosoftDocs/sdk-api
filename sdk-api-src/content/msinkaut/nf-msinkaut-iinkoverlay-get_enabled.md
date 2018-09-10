@@ -4,17 +4,16 @@ title: IInkOverlay::get_Enabled
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkOverlay object collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkoverlay_enabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: c376bf02-ddef-45e5-b041-b7f4b437bb27
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],Enabled property, IInkOverlay.Enabled, IInkOverlay.get_Enabled, IInkOverlay::Enabled, IInkOverlay::get_Enabled, IInkOverlay::put_Enabled, InkOverlay.get_Enabled, InkOverlay.put_Enabled, get_Enabled, msinkaut/IInkOverlay::Enabled, msinkaut/IInkOverlay::get_Enabled, msinkaut/IInkOverlay::put_Enabled, tablet.inkoverlay_enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::get_Enabled

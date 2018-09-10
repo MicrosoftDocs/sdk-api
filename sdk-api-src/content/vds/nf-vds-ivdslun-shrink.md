@@ -4,17 +4,16 @@ title: IVdsLun::Shrink
 author: windows-sdk-content
 description: Shrinks a LUN by a specified number of bytes.
 old-location: base\ivdslun_shrink.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsLun interface [VDS],Shrink method, IVdsLun.Shrink, IVdsLun::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsLun interface, base.ivdslun_shrink, vds/IVdsLun::Shrink, vdshwprv/IVdsLun::Shrink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.Shrink
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::Shrink
@@ -66,7 +64,7 @@ Shrinks a LUN by a specified
 
 ### -param ullNumberOfBytesToRemove
 
-
+TBD
 
 
 ### -param ppAsync [out]

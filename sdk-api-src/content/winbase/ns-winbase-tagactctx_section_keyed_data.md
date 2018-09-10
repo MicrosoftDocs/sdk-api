@@ -4,7 +4,7 @@ title: tagACTCTX_SECTION_KEYED_DATA
 author: windows-sdk-content
 description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
 old-location: setup\actctx_section_keyed_data_str.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTCTX_SECTION_KEYED_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
+req.redist: 
 ---
 
 # tagACTCTX_SECTION_KEYED_DATA structure

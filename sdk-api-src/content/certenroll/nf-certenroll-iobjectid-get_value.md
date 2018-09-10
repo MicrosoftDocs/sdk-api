@@ -4,17 +4,16 @@ title: IObjectId::get_Value
 author: windows-sdk-content
 description: Retrieves a string that contains the dotted decimal object identifier (OID).
 old-location: security\iobjectid_value_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IObjectId interface [Security],Value property, IObjectId.Value, IObjectId.get_Value, IObjectId::Value, IObjectId::get_Value, Value property [Security], Value property [Security],IObjectId interface, certenroll/IObjectId::Value, certenroll/IObjectId::get_Value, get_Value, security.iobjectid_value_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IObjectId.get_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectId::get_Value

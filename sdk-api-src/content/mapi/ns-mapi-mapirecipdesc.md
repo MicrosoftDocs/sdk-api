@@ -4,7 +4,7 @@ title: MapiRecipDesc
 author: windows-sdk-content
 description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.
 old-location: mapi\mapirecipdesc.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MapiRecipDesc, *lpMapiRecipDesc
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MapiRecipDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MapiRecipDesc, *lpMapiRecipDesc
+req.redist: 
 ---
 
 # MapiRecipDesc structure

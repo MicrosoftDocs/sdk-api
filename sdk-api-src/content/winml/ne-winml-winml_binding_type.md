@@ -4,7 +4,7 @@ title: WINML_BINDING_TYPE
 author: windows-sdk-content
 description: Specifies the different types of WinML bindings.
 old-location: machinelearning\winml_binding_type.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: 482DA039-2A91-4030-966A-6BFB2C9564C0
 ms.author: windowssdkdev
 ms.date: 03/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_BINDING_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINML_BINDING_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINML_BINDING_TYPE
+req.redist: 
 ---
 
 # WINML_BINDING_TYPE enumeration

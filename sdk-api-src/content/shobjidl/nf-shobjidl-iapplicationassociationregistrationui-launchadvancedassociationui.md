@@ -4,17 +4,16 @@ title: IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 author: windows-sdk-content
 description: Launches an advanced association dialog box through which the user can customize the associations for the application specified in pszAppRegName.
 old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI.htm
-old-project: shell
+tech.root: shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
@@ -62,7 +60,7 @@ Launches an advanced association dialog box through which the user can customize
 
 ### -param pszAppRegistryName
 
-
+TBD
 
 
 

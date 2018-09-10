@@ -4,17 +4,16 @@ title: SetMailslotInfo function
 author: windows-sdk-content
 description: Sets the time-out value used by the specified mailslot for a read operation.
 old-location: base\setmailslotinfo.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: 4afcbbfb-fd04-4813-b139-4baffc2fdf3c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: MAILSLOT_WAIT_FOREVER, SetMailslotInfo, SetMailslotInfo function, _win32_setmailslotinfo, base.setmailslotinfo, winbase/SetMailslotInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - SetMailslotInfo
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetMailslotInfo function

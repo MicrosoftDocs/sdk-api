@@ -4,7 +4,7 @@ title: smiVALUE
 author: windows-sdk-content
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
 old-location: snmp\smivalue_str.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: e5e8f321-54b2-469d-bdd3-9867fd85b447
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVALUE, *smiLPVALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - smiVALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: smiVALUE, *smiLPVALUE
+req.redist: 
 ---
 
 # smiVALUE structure

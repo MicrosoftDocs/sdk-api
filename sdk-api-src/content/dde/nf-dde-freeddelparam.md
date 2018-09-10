@@ -4,17 +4,16 @@ title: FreeDDElParam function
 author: windows-sdk-content
 description: Frees the memory specified by the lParam parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the UnpackDDElParam function to unpack the lParam value.
 old-location: dataxchg\freeddelparam.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\freeddelparam.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeDDElParam, _win32_freeddelparam_cpp, dataxchg.freeddelparam, dde/FreeDDElParam, winui._win32_freeddelparam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DCOMPOSITION_FRAME_STATISTICS
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,9 +46,8 @@ api_name:
  - FreeDDElParam
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FreeDDElParam function

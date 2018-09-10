@@ -4,17 +4,16 @@ title: PowerRegisterSuspendResumeNotification function
 author: windows-sdk-content
 description: Registers to receive notification when the system is suspended or resumed.
 old-location: base\powerregistersuspendresumenotification.htm
-old-project: power
+tech.root: power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: Powrprof.lib
+req.dll: Powrprof.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - PowerRegisterSuspendResumeNotification
 product: Windows
 targetos: Windows
-req.lib: Powrprof.lib
-req.dll: Powrprof.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PowerRegisterSuspendResumeNotification function

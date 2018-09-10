@@ -4,17 +4,16 @@ title: FreeInheritedFromArray function
 author: windows-sdk-content
 description: Frees memory allocated by the GetInheritanceSource function.
 old-location: security\freeinheritedfromarray.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FreeInheritedFromArray
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # FreeInheritedFromArray function

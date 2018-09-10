@@ -4,17 +4,16 @@ title: IGPM::CreateMigrationTable
 author: windows-sdk-content
 description: Creates an empty migration table.
 old-location: gpmc\igpm_createmigrationtable.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPM.CreateMigrationTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPM::CreateMigrationTable
@@ -63,7 +61,7 @@ Creates an empty migration table.
 
 ### -param ppMigrationTable
 
-
+TBD
 
 
 

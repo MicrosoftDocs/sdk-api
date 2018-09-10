@@ -4,17 +4,16 @@ title: MFCreateContentDecryptorContext function
 author: windows-sdk-content
 description: Creates an IMFContentDecryptorContext interface for the specified media protection system.
 old-location: mf\mfcreatecontentdecryptorcontext.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateContentDecryptorContext
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateContentDecryptorContext function

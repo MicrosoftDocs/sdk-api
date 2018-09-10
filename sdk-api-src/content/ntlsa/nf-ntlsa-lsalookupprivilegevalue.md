@@ -4,17 +4,16 @@ title: LsaLookupPrivilegeValue function
 author: windows-sdk-content
 description: Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.
 old-location: security\lsalookupprivilegevalue.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntlsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VBS_ENCLAVE_REPORT_VARDATA_HEADER
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaLookupPrivilegeValue
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaLookupPrivilegeValue function

@@ -4,17 +4,16 @@ title: IBDA_NetworkProvider::GetSignalSource
 author: windows-sdk-content
 description: The GetSignalSource method retrieves the signal source.
 old-location: mstv\ibda_networkprovider_getsignalsource.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 943b3c1f-4aea-4c16-b730-74b63397ad9f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetSignalSource method, IBDA_NetworkProvider.GetSignalSource, IBDA_NetworkProvider::GetSignalSource, IBDA_NetworkProviderGetSignalSource, bdaiface/IBDA_NetworkProvider::GetSignalSource, mstv.ibda_networkprovider_getsignalsource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_NetworkProvider.GetSignalSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_NetworkProvider::GetSignalSource

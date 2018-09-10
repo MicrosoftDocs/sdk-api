@@ -4,17 +4,16 @@ title: IAccPropServices::SetHwndPropStr
 author: windows-sdk-content
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HWND-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropstr.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr method, IAccPropServices.SetHwndPropStr, IAccPropServices::SetHwndPropStr, SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccPropServices.SetHwndPropStr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccPropServices::SetHwndPropStr

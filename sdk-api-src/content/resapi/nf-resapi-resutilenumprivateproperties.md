@@ -4,17 +4,16 @@ title: ResUtilEnumPrivateProperties function
 author: windows-sdk-content
 description: Retrieves the names of a cluster object's&#32;private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumprivateproperties.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 83e08a14-4f0f-4c5b-9066-53ee5bb45901
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_ENUM_PRIVATE_PROPERTIES, PRESUTIL_ENUM_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilEnumPrivateProperties, ResUtilEnumPrivateProperties function [Failover Cluster], _wolf_resutilenumprivateproperties, mscs.resutilenumprivateproperties, resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES, resapi/ResUtilEnumPrivateProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilEnumPrivateProperties
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilEnumPrivateProperties function

@@ -4,7 +4,7 @@ title: "_NET_INTERFACE_CONTEXT_TABLE"
 author: windows-sdk-content
 description: The table of NET_INTERFACE_CONTEXT structures.
 old-location: nla\net_interface_context_table.htm
-old-project: nla
+tech.root: nla
 ms.assetid: DA6101F2-EB8F-43DC-93C6-9365A7AABEAC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ondemandconnroutehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_INTERFACE_CONTEXT_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_INTERFACE_CONTEXT_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NET_INTERFACE_CONTEXT_TABLE
+req.redist: 
 ---
 
 # _NET_INTERFACE_CONTEXT_TABLE structure

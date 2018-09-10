@@ -4,17 +4,16 @@ title: AVIStreamSampleSize macro
 author: windows-sdk-content
 description: The AVIStreamRelease macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by lPos.
 old-location: multimedia\avistreamsamplesize.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamSampleSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamSampleSize macro

@@ -4,17 +4,16 @@ title: CertCreateCTLEntryFromCertificateContextProperties function
 author: windows-sdk-content
 description: The CertCreateCTLEntryFromCertificateContextProperties function creates a certificate trust list (CTL) entry whose attributes are the properties of the certificate context. The SubjectIdentifier in the CTL entry is the SHA1 hash of the certificate.
 old-location: security\certcreatectlentryfromcertificatecontextproperties.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 90ac512f-3cbe-4543-9b34-8e384f730cfe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertCreateCTLEntryFromCertificateContextProperties
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertCreateCTLEntryFromCertificateContextProperties function

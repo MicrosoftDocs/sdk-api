@@ -4,17 +4,16 @@ title: GetExitCodeThread function
 author: windows-sdk-content
 description: Retrieves the termination status of the specified thread.
 old-location: base\getexitcodethread.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
+req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetExitCodeThread
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
-req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetExitCodeThread function

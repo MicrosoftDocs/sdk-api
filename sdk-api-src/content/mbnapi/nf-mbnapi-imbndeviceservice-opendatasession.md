@@ -4,17 +4,16 @@ title: IMbnDeviceService::OpenDataSession
 author: windows-sdk-content
 description: Open a data session to the device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opendatasession.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: A26EBECA-4390-4BB2-88CD-EE2356E44E3A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenDataSession method, IMbnDeviceService.OpenDataSession, IMbnDeviceService::OpenDataSession, OpenDataSession, OpenDataSession method [Microsoft Broadband Networks], OpenDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opendatasession, mbnapi/IMbnDeviceService::OpenDataSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceService.OpenDataSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::OpenDataSession

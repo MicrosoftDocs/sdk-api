@@ -4,17 +4,16 @@ title: IMultiMediaStream::GetDuration
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.
 old-location: dshow\imultimediastream_getduration.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetDuration method, IMultiMediaStream.GetDuration, IMultiMediaStream::GetDuration, IMultiMediaStreamGetDuration, dshow.imultimediastream_getduration, mmstream/IMultiMediaStream::GetDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultiMediaStream.GetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMultiMediaStream::GetDuration

@@ -4,17 +4,16 @@ title: IObjectContext::DisableCommit
 author: windows-sdk-content
 description: Declares that the object's transactional updates are in an inconsistent state and cannot be committed in their present state.
 old-location: cos\iobjectcontext_disablecommit.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e83d1223-9b8e-4a92-b98d-9d2b6ed34721
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],DisableCommit method, IObjectContext.DisableCommit, IObjectContext::DisableCommit, _cos_IObjectContext_DisableCommit, comsvcs/IObjectContext::DisableCommit, cos.iobjectcontext_disablecommit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContext.DisableCommit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContext::DisableCommit

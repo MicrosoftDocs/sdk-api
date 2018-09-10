@@ -4,7 +4,7 @@ title: "_CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO"
 author: windows-sdk-content
 description: Contains information about the public key BLOB used by the CryptUIWizDigitalSign function.
 old-location: security\cryptui_wiz_digital_sign_blob_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9750f52a-f605-4f43-98e1-0f0ea947a214
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
+req.redist: 
 ---
 
 # _CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO structure

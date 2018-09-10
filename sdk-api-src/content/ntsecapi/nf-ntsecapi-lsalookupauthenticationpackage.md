@@ -4,17 +4,16 @@ title: LsaLookupAuthenticationPackage function
 author: windows-sdk-content
 description: Obtains the unique identifier of an authentication package.
 old-location: security\lsalookupauthenticationpackage.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: c6504aea-fdba-44ac-b2dc-070707bb1183
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaLookupAuthenticationPackage, LsaLookupAuthenticationPackage function [Security], MICROSOFT_KERBEROS_NAME_A, MSV1_0_PACKAGE_NAME, NEGOSSP_NAME_A, _lsa_lsalookupauthenticationpackage, ntsecapi/LsaLookupAuthenticationPackage, security.lsalookupauthenticationpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaLookupAuthenticationPackage
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaLookupAuthenticationPackage function

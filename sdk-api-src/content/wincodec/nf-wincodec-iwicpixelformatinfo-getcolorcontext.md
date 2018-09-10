@@ -4,17 +4,16 @@ title: IWICPixelFormatInfo::GetColorContext
 author: windows-sdk-content
 description: Gets the pixel format's IWICColorContext.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c35fc474-cbf5-4705-b0f1-a2e24a062a7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColorContext, GetColorContext method [Windows Imaging Component], GetColorContext method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetColorContext method, IWICPixelFormatInfo.GetColorContext, IWICPixelFormatInfo::GetColorContext, _wic_codec_iwicpixelformatinfo_getcolorcontext, wic._wic_codec_iwicpixelformatinfo_getcolorcontext, wincodec/IWICPixelFormatInfo::GetColorContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICPixelFormatInfo.GetColorContext
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICPixelFormatInfo::GetColorContext

@@ -4,17 +4,16 @@ title: TraceLoggingActivity::SetRelatedActivityId(const GUID)
 author: windows-sdk-content
 description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivityId method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivityId method, TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity.SetRelatedActivityId(const GUID), TraceLoggingActivity::SetRelatedActivityId, TraceLoggingActivity::SetRelatedActivityId(const GUID), tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingActivity.SetRelatedActivityId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingActivity::SetRelatedActivityId(const GUID)

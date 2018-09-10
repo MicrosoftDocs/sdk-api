@@ -4,17 +4,16 @@ title: ICommDlgBrowser3::OnColumnClicked
 author: windows-sdk-content
 description: Called after a specified column is clicked in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnColumnClicked.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 19cd3dc6-14e4-494d-b4d7-2c9d4fd0fe55
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, ICommDlgBrowser3.OnColumnClicked, ICommDlgBrowser3::OnColumnClicked, OnColumnClicked, OnColumnClicked method [Windows Shell], OnColumnClicked method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnColumnClicked, shell.ICommDlgBrowser3_OnColumnClicked, shobjidl/ICommDlgBrowser3::OnColumnClicked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser3.OnColumnClicked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser3::OnColumnClicked

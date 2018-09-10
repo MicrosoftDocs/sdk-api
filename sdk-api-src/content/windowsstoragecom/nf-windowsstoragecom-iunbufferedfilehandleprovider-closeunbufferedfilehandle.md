@@ -4,17 +4,16 @@ title: IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle
 author: windows-sdk-content
 description: Closes the handle from a random-access byte stream that you created by calling IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle.
 old-location: winrt\iunbufferedfilehandleprovider_closeunbufferedfilehandle.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 8D6CD3A2-0CCD-49F4-86B3-99823A6E4EA8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CloseUnbufferedFileHandle, CloseUnbufferedFileHandle method [Windows Runtime], CloseUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, IUnbufferedFileHandleProvider interface [Windows Runtime],CloseUnbufferedFileHandle method, IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle, IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, windowsstoragecom/IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_closeunbufferedfilehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnbufferedFileHandleProvider.CloseUnbufferedFileHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUnbufferedFileHandleProvider::CloseUnbufferedFileHandle

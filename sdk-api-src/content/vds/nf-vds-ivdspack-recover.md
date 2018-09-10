@@ -4,17 +4,16 @@ title: IVdsPack::Recover
 author: windows-sdk-content
 description: Returns a failing or failed pack to a healthy state, if possible. This method is supported only for dynamic packs.
 old-location: base\ivdspack_recover.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: e558c2f4-e1a9-47c0-9b2f-972457e27bbf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsPack interface [VDS],Recover method, IVdsPack.Recover, IVdsPack::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsPack interface, base.ivdspack_recover, vds/IVdsPack::Recover
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.Recover
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::Recover

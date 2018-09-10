@@ -4,17 +4,16 @@ title: IADsPrintQueueOperations::PrintJobs
 author: windows-sdk-content
 description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
 old-location: adsi\iadsprintqueueoperations_printjobs.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],PrintJobs method, IADsPrintQueueOperations.PrintJobs, IADsPrintQueueOperations::PrintJobs, PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPrintQueueOperations.PrintJobs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPrintQueueOperations::PrintJobs
@@ -62,7 +60,7 @@ The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://
 
 ### -param pObject
 
-
+TBD
 
 
 

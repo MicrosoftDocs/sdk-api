@@ -4,17 +4,16 @@ title: IDirectMusicSynth::SetChannelPriority
 author: windows-sdk-content
 description: The SetChannelPriority method sets the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_setchannelpriority.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 6398f460-4c2e-4995-a606-e95e0488f1cd
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetChannelPriority method, IDirectMusicSynth.SetChannelPriority, IDirectMusicSynth::SetChannelPriority, SetChannelPriority, SetChannelPriority method [Audio Devices], SetChannelPriority method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setchannelpriority, audmp-routines_58d1ca8b-8fc8-4183-a9fa-4b21f11ae86e.xml, dmusics/IDirectMusicSynth::SetChannelPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectMusicSynth.SetChannelPriority
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectMusicSynth::SetChannelPriority

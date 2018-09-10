@@ -4,7 +4,7 @@ title: REGPINTYPES
 author: windows-sdk-content
 description: The REGPINTYPES structure contains media type information for registering a filter.
 old-location: dshow\regpintypes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aa31f856-4151-420d-a69d-34ef3a105130
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGPINTYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGPINTYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: REGPINTYPES
+req.redist: 
 ---
 
 # REGPINTYPES structure

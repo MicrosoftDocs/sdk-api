@@ -4,7 +4,7 @@ title: "_D3D_SHADER_VARIABLE_CLASS"
 author: windows-sdk-content
 description: Values that identify the class of a shader variable.
 old-location: direct3d11\d3d_shader_variable_class.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d367ba01-e357-468d-9417-7d5a282d5565
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_VARIABLE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_SHADER_VARIABLE_CLASS
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_SHADER_VARIABLE_CLASS
+req.redist: 
 ---
 
 # _D3D_SHADER_VARIABLE_CLASS enumeration

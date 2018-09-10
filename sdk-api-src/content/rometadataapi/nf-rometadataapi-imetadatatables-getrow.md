@@ -4,17 +4,16 @@ title: IMetaDataTables::GetRow
 author: windows-sdk-content
 description: Gets the row at the specified row index, in the table at the specified table index.
 old-location: winrt\imetadatatables_getrow.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: d56bc0c8-0a63-48c8-bc2c-e3b4c2f313b8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRow, GetRow method [Windows Runtime], GetRow method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetRow method, IMetaDataTables.GetRow, IMetaDataTables::GetRow, rometadataapi/IMetaDataTables::GetRow, winrt.imetadatatables_getrow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetRow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetRow

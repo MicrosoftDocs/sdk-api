@@ -4,17 +4,16 @@ title: DXVAHD_CreateDevice function
 author: windows-sdk-content
 description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_createdevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_CreateDevice
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DXVAHD_CreateDevice function

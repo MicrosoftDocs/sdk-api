@@ -4,7 +4,7 @@ title: "_SP_DEVINSTALL_PARAMS_A"
 author: windows-sdk-content
 description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
 old-location: devinst\sp_devinstall_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_DEVINSTALL_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
+req.redist: 
 ---
 
 # _SP_DEVINSTALL_PARAMS_A structure

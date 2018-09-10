@@ -4,17 +4,16 @@ title: IDataCollectorSet::put_SchedulesEnabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.put_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled, put_SchedulesEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollectorSet.put_SchedulesEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::put_SchedulesEnabled

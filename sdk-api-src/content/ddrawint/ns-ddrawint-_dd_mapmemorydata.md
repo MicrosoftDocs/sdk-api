@@ -4,7 +4,7 @@ title: "_DD_MAPMEMORYDATA"
 author: windows-sdk-content
 description: The DD_MAPMEMORYDATA structure contains the information necessary to map or unmap a frame buffer into user-mode memory.
 old-location: display\dd_mapmemorydata.htm
-old-project: display
+tech.root: display
 ms.assetid: 51d8b35f-883c-4e47-a0e6-af6c8ade8e54
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_MAPMEMORYDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA"
+req.redist: 
 ---
 
 # _DD_MAPMEMORYDATA structure

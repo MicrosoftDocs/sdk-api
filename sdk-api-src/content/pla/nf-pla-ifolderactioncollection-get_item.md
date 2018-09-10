@@ -4,17 +4,16 @@ title: IFolderActionCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested folder action from the collection.
 old-location: pla\ifolderactioncollection_item.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: cf11f194-b518-41de-8f98-c4487c3d2fee
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IFolderActionCollection interface [PLA],Item property, IFolderActionCollection.Item, IFolderActionCollection.get_Item, IFolderActionCollection::Item, IFolderActionCollection::get_Item, Item property [PLA], Item property [PLA],IFolderActionCollection interface, base.ifolderactioncollection_item, get_Item, pla.ifolderactioncollection_item, pla/IFolderActionCollection::Item, pla/IFolderActionCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFolderActionCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderActionCollection::get_Item

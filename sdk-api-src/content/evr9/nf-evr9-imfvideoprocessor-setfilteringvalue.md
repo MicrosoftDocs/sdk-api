@@ -4,17 +4,16 @@ title: IMFVideoProcessor::SetFilteringValue
 author: windows-sdk-content
 description: Sets a parameter for an image filter.
 old-location: mf\imfvideoprocessor_setfilteringvalue.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoProcessor.SetFilteringValue
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoProcessor::SetFilteringValue

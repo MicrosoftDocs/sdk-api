@@ -4,17 +4,16 @@ title: IComponentType::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method retrieves the DirectShow AM_MEDIA_TYPE structure for the component.
 old-location: mstv\icomponenttype_get_mediatype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ca13cfc0-3e51-41cd-9405-aaa96927a35c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaType method, IComponentType.get_MediaType, IComponentType::get_MediaType, IComponentTypeget_MediaType, get_MediaType, get_MediaType method [Microsoft TV Technologies], get_MediaType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediatype, tuner/IComponentType::get_MediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.get_MediaType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::get_MediaType
@@ -65,7 +63,7 @@ The <b>get_MediaType</b> method retrieves the DirectShow <a href="https://msdn.m
 
 ### -param MediaType
 
-
+TBD
 
 
 

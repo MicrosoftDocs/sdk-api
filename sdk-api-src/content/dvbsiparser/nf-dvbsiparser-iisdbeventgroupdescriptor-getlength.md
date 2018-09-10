@@ -4,17 +4,16 @@ title: IIsdbEventGroupDescriptor::GetLength
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) event group descriptor, in bytes.
 old-location: mstv\iisdbeventgroupdescriptor_getlength.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 08e61ddb-15d5-40e3-9e37-7c45d1f18b4a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbEventGroupDescriptor.GetLength, IIsdbEventGroupDescriptor::GetLength, dvbsiparser/IIsdbEventGroupDescriptor::GetLength, mstv.iisdbeventgroupdescriptor_getlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbEventGroupDescriptor.GetLength
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbEventGroupDescriptor::GetLength

@@ -4,17 +4,16 @@ title: IAMMediaStream::JoinFilterGraph
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The JoinFilterGraph method connects a media stream filter to a filter graph.
 old-location: dshow\iammediastream_joinfiltergraph.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b14e9be4-f292-4a71-b541-4fda2640591d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilterGraph method, IAMMediaStream.JoinFilterGraph, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMediaStream.JoinFilterGraph
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaStream::JoinFilterGraph
@@ -66,7 +65,7 @@ The <code>JoinFilterGraph</code> method connects a media stream filter to a filt
 
 ### -param pFilterGraph
 
-
+TBD
 
 
 

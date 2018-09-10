@@ -4,17 +4,16 @@ title: IMoniker::Reduce
 author: windows-sdk-content
 description: Reduces a moniker to its simplest form.
 old-location: com\imoniker_reduce.htm
-old-project: com
+tech.root: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::Reduce, Reduce, Reduce method [COM], Reduce method [COM],IMoniker interface, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.Reduce
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::Reduce

@@ -4,7 +4,7 @@ title: tagGCP_RESULTSW
 author: windows-sdk-content
 description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
 old-location: gdi\gcp_results.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GCP_RESULTSW, *LPGCP_RESULTSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GCP_RESULTSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GCP_RESULTSW, *LPGCP_RESULTSW
+req.redist: 
 ---
 
 # tagGCP_RESULTSW structure

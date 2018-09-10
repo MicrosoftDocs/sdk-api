@@ -4,17 +4,16 @@ title: IDXGIDisplayControl::IsStereoEnabled
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
 old-location: direct3ddxgi\idxgidisplaycontrol_IsStereoEnabled.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: AE6AA254-3534-4E0F-A206-BAC4536B8B80
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],IsStereoEnabled method, IDXGIDisplayControl.IsStereoEnabled, IDXGIDisplayControl::IsStereoEnabled, IsStereoEnabled, IsStereoEnabled method [DXGI], IsStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_IsStereoEnabled, dxgi1_2/IDXGIDisplayControl::IsStereoEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDisplayControl.IsStereoEnabled
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDisplayControl::IsStereoEnabled

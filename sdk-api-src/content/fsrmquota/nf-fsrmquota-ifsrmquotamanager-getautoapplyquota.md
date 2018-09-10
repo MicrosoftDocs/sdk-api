@@ -4,17 +4,16 @@ title: IFsrmQuotaManager::GetAutoApplyQuota
 author: windows-sdk-content
 description: Retrieves the automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getautoapplyquota.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: e6a4645c-c323-4c28-a284-9ebb677aeebb
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetAutoApplyQuota method, GetAutoApplyQuota, GetAutoApplyQuota method [File Server Resource Manager], GetAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, GetAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetAutoApplyQuota method, IFsrmQuotaManager.GetAutoApplyQuota, IFsrmQuotaManager::GetAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetAutoApplyQuota method, IFsrmQuotaManagerEx::GetAutoApplyQuota, fs.ifsrmquotamanager_getautoapplyquota, fsrm.ifsrmquotamanager_getautoapplyquota, fsrmquota/IFsrmQuotaManager::GetAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::GetAutoApplyQuota
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmQuotaManager.GetAutoApplyQuota
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaManager::GetAutoApplyQuota

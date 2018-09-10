@@ -4,17 +4,16 @@ title: IMFByteStreamCacheControl2::IsBackgroundTransferActive
 author: windows-sdk-content
 description: Queries whether background transfer is active.
 old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroundTransferActive method, IMFByteStreamCacheControl2.IsBackgroundTransferActive, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFByteStreamCacheControl2.IsBackgroundTransferActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamCacheControl2::IsBackgroundTransferActive

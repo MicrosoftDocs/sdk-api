@@ -4,17 +4,16 @@ title: IInkTablets::get_DefaultTablet
 author: windows-sdk-content
 description: Gets the default tablet within the set of available tablets.
 old-location: tablet\inktablets_defaulttablet.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4a9713c6-91a0-4632-9c8d-58d5e1b98478
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4a9713c6-91a0-4632-9c8d-58d5e1b98478, DefaultTablet property [Tablet PC], DefaultTablet property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],DefaultTablet property, IInkTablets.DefaultTablet, IInkTablets.get_DefaultTablet, IInkTablets::DefaultTablet, IInkTablets::get_DefaultTablet, InkTablets.get_DefaultTablet, get_DefaultTablet, msinkaut/IInkTablets::DefaultTablet, msinkaut/IInkTablets::get_DefaultTablet, tablet.inktablets_defaulttablet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkTablets.get_DefaultTablet
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablets::get_DefaultTablet

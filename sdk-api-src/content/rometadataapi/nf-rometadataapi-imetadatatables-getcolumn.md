@@ -4,17 +4,16 @@ title: IMetaDataTables::GetColumn
 author: windows-sdk-content
 description: Gets a pointer to the value contained in the cell of the specified column and row in the given table.
 old-location: winrt\imetadatatables_getcolumn.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 69f80c79-5587-4740-b996-6c996e40ccf4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumn, GetColumn method [Windows Runtime], GetColumn method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetColumn method, IMetaDataTables.GetColumn, IMetaDataTables::GetColumn, rometadataapi/IMetaDataTables::GetColumn, winrt.imetadatatables_getcolumn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetColumn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetColumn

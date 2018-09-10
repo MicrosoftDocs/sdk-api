@@ -4,7 +4,7 @@ title: LPDDENUMSURFACESCALLBACK2
 author: windows-sdk-content
 description: Do not use. This callback function is superseded by the EnumSurfacesCallback7 function that is used with the IDirectDraw7::EnumSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, and IDirectDrawSurface7::EnumOverlayZOrders methods.
 old-location: directdraw\enumsurfacescallback2.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: BC10A26B-50A3-48C5-94D7-B9C9E8FFE768
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnumSurfacesCallback2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDDENUMSURFACESCALLBACK2 callback function

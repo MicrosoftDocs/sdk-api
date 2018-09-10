@@ -4,17 +4,16 @@ title: IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey
 author: windows-sdk-content
 description: Obtains the last write time of the file from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getlastwritetimefromkey.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: ce7f5321-8ad8-4412-a54c-7102790e99c0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetLastWriteTimeFromKey, GetLastWriteTimeFromKey method [Direct Write], GetLastWriteTimeFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetLastWriteTimeFromKey method, IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey, IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey, directwrite.idwritelocalfontfileloader_getlastwritetimefromkey, dwrite/IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteLocalFontFileLoader.GetLastWriteTimeFromKey
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey

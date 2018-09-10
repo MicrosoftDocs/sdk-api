@@ -4,17 +4,16 @@ title: IEnumExplorerCommand::Next
 author: windows-sdk-content
 description: Retrieves a specified number of elements that directly follow the current element.
 old-location: shell\IEnumExplorerCommand_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 809e866d-128b-4a0e-9de0-c2123161134f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Next method, IEnumExplorerCommand.Next, IEnumExplorerCommand::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Next, shell.IEnumExplorerCommand_Next, shobjidl_core/IEnumExplorerCommand::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumExplorerCommand.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumExplorerCommand::Next

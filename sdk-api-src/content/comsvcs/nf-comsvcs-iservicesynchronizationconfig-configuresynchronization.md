@@ -4,17 +4,16 @@ title: IServiceSynchronizationConfig::ConfigureSynchronization
 author: windows-sdk-content
 description: Configures the synchronization for the enclosed work.
 old-location: cos\iservicesynchronizationconfig_configuresynchronization.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 83fe6958-6639-4468-a3f5-3322316ccbc4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConfigureSynchronization, ConfigureSynchronization method [COM+], ConfigureSynchronization method [COM+],IServiceSynchronizationConfig interface, IServiceSynchronizationConfig interface [COM+],ConfigureSynchronization method, IServiceSynchronizationConfig.ConfigureSynchronization, IServiceSynchronizationConfig::ConfigureSynchronization, _cos_IServiceSynchronizationConfig_ConfigureSynchronization, comsvcs/IServiceSynchronizationConfig::ConfigureSynchronization, cos.iservicesynchronizationconfig_configuresynchronization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceSynchronizationConfig.ConfigureSynchronization
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceSynchronizationConfig::ConfigureSynchronization

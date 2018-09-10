@@ -4,17 +4,16 @@ title: ITTAPI::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes TAPI. This method must be called before calling any other TAPI 3 method. The application must call the Shutdown method when ending a TAPI session.
 old-location: tapi3\ittapi_initialize.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Initialize method, ITTAPI.Initialize, ITTAPI::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_initialize, tapi3.ittapi_initialize, tapi3if/ITTAPI::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.Initialize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::Initialize

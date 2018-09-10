@@ -4,17 +4,16 @@ title: IAccDictionary::GetLocalizedString
 author: windows-sdk-content
 description: Clients call the IAccDictionary::GetLocalizedString method to get localized strings for all system properties and their values.
 old-location: winauto\iaccdictionary_iaccdictionary__getlocalizedstring.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7419395d-d4be-4ee4-bf98-aef7e82cb3d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLocalizedString, GetLocalizedString method [Windows Accessibility], GetLocalizedString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetLocalizedString method, IAccDictionary.GetLocalizedString, IAccDictionary::GetLocalizedString, _msaa_IAccDictionary_GetLocalizedString, msaa.iaccdictionary_iaccdictionary__getlocalizedstring, msaatext/IAccDictionary::GetLocalizedString, winauto.iaccdictionary_iaccdictionary__getlocalizedstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: Msaatext.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccDictionary.GetLocalizedString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msaatext.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccDictionary::GetLocalizedString

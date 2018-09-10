@@ -4,17 +4,16 @@ title: IPenInputPanel::put_DefaultPanel
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object.
 old-location: tablet\peninputpanel_defaultpanel.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2b0ff320-02ce-4b23-ae47-91504c93ac24
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 2b0ff320-02ce-4b23-ae47-91504c93ac24, DefaultPanel property [Tablet PC], DefaultPanel property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],DefaultPanel property, IPenInputPanel.DefaultPanel, IPenInputPanel.put_DefaultPanel, IPenInputPanel::DefaultPanel, IPenInputPanel::get_DefaultPanel, IPenInputPanel::put_DefaultPanel, PenInputPanel.get_DefaultPanel, PenInputPanel.put_DefaultPanel, get_DefaultPanel, peninputpanel/IPenInputPanel::DefaultPanel, peninputpanel/IPenInputPanel::get_DefaultPanel, peninputpanel/IPenInputPanel::put_DefaultPanel, put_DefaultPanel, tablet.peninputpanel_defaultpanel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PenInputPanel.put_DefaultPanel
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::put_DefaultPanel

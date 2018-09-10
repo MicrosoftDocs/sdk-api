@@ -4,17 +4,16 @@ title: IVdsIscsiPortal::QueryAssociatedPortalGroups
 author: windows-sdk-content
 description: Returns an enumeration of the portal groups with which the portal is associated.
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 6b8dbfc8-9112-4ca9-9976-ac3bf859588d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],QueryAssociatedPortalGroups method, IVdsIscsiPortal.QueryAssociatedPortalGroups, IVdsIscsiPortal::QueryAssociatedPortalGroups, QueryAssociatedPortalGroups, QueryAssociatedPortalGroups method [VDS], QueryAssociatedPortalGroups method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_queryassociatedportalgroups, vds/IVdsIscsiPortal::QueryAssociatedPortalGroups, vdshwprv/IVdsIscsiPortal::QueryAssociatedPortalGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortal.QueryAssociatedPortalGroups
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortal::QueryAssociatedPortalGroups

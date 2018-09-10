@@ -4,17 +4,16 @@ title: UnregisterTraceGuids function
 author: windows-sdk-content
 description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 old-location: etw\unregistertraceguids.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - UnregisterTraceGuids
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # UnregisterTraceGuids function

@@ -4,17 +4,16 @@ title: DRMGetSignedIssuanceLicenseEx function
 author: windows-sdk-content
 description: Acquires a signed issuance license offline.
 old-location: rm\drmgetsignedissuancelicenseex.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRMGetSignedIssuanceLicenseEx
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DRMGetSignedIssuanceLicenseEx function

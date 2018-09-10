@@ -4,17 +4,16 @@ title: Module32First function
 author: windows-sdk-content
 description: Retrieves information about the first module associated with a process.
 old-location: toolhelp\module32first.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - Module32FirstW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Module32First function

@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactoryMapping::GetEntry
 author: windows-sdk-content
 description: Retrieves an entry from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetEntry.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEntry, GetEntry method [Windows Accessibility], GetEntry method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],GetEntry method, IUIAutomationProxyFactoryMapping.GetEntry, IUIAutomationProxyFactoryMapping::GetEntry, uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiauto_IUIAutomationProxyFactoryMapping_GetEntry, uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry, winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationProxyFactoryMapping.GetEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactoryMapping::GetEntry

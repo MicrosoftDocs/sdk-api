@@ -4,7 +4,7 @@ title: D3D11_VIDEO_DECODER_CAPS
 author: windows-sdk-content
 description: Specifies capabilities of the video decoder.
 old-location: mf\d3d11_video_decoder_caps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8E3C86A4-5F73-4E6F-8F93-5564EA0BC113
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_DECODER_CAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_DECODER_CAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_DECODER_CAPS
+req.redist: 
 ---
 
 # D3D11_VIDEO_DECODER_CAPS enumeration

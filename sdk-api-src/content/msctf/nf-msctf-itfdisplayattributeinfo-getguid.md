@@ -4,17 +4,16 @@ title: ITfDisplayAttributeInfo::GetGUID
 author: windows-sdk-content
 description: ITfDisplayAttributeInfo::GetGUID method
 old-location: tsf\itfdisplayattributeinfo_getguid.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 5202bf19-ae24-44f4-98f0-1f9d64d383a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetGUID method, ITfDisplayAttributeInfo.GetGUID, ITfDisplayAttributeInfo::GetGUID, _tsf_itfdisplayattributeinfo_getguid_ref, msctf/ITfDisplayAttributeInfo::GetGUID, tsf.itfdisplayattributeinfo_getguid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfDisplayAttributeInfo.GetGUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfDisplayAttributeInfo::GetGUID

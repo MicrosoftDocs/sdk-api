@@ -4,17 +4,16 @@ title: ISettingsEngine::SetTargetInfo
 author: windows-sdk-content
 description: Sets the current offline target for the engine.
 old-location: smi\isettingsengine_settargetinfo.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: a33a0155-0533-4450-9e03-2688ad776a1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISettingsEngine interface [SMI],SetTargetInfo method, ISettingsEngine.SetTargetInfo, ISettingsEngine::SetTargetInfo, SetTargetInfo, SetTargetInfo method [SMI], SetTargetInfo method [SMI],ISettingsEngine interface, smi.isettingsengine_settargetinfo, wcmconfig/ISettingsEngine::SetTargetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.SetTargetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::SetTargetInfo

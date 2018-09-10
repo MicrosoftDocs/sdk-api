@@ -4,7 +4,7 @@ title: IOCTL_VMGENCOUNTER_READ
 author: windows-sdk-content
 description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.
 old-location: hyperv\ioctl_vmgencounter_read.htm
-old-project: HyperV_v2
+tech.root: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: vmgenerationcounter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_VMGENCOUNTER_READ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_VMGENCOUNTER_READ IOCTL

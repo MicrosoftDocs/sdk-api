@@ -4,7 +4,7 @@ title: "_HMAC_Info"
 author: windows-sdk-content
 description: The HMAC_INFO structure specifies the hash algorithm and the inner and outer strings that are to be used to calculate the HMAC hash.
 old-location: security\hmac_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0c9a9b60-077d-48c0-a5a6-01640cfc0c4e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HMAC_INFO, *PHMAC_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HMAC_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HMAC_INFO, *PHMAC_INFO
+req.redist: 
 ---
 
 # _HMAC_Info structure

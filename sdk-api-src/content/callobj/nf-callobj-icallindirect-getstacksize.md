@@ -4,17 +4,16 @@ title: ICallIndirect::GetStackSize
 author: windows-sdk-content
 description: Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
 old-location: com\icallindirect_getstacksize.htm
-old-project: com
+tech.root: com
 ms.assetid: 3251c9b1-e076-4bc3-a995-1b0d275929a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStackSize, GetStackSize method [COM], GetStackSize method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetStackSize method, ICallIndirect.GetStackSize, ICallIndirect::GetStackSize, _com_icallindirect_getstacksize, callobj/ICallIndirect::GetStackSize, com.icallindirect_getstacksize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallIndirect.GetStackSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallIndirect::GetStackSize

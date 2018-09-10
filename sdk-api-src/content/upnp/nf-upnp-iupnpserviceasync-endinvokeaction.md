@@ -4,17 +4,16 @@ title: IUPnPServiceAsync::EndInvokeAction
 author: windows-sdk-content
 description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.
 old-location: upnp\iupnpserviceasync_endinvokeaction.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndInvokeAction method, IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceAsync.EndInvokeAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceAsync::EndInvokeAction
@@ -67,7 +65,7 @@ A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.micros
 
 ### -param pvOutActionArgs
 
-
+TBD
 
 
 ### -param pvRetVal [in, out]

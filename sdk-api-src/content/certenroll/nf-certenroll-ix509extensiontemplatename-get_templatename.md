@@ -4,17 +4,16 @@ title: IX509ExtensionTemplateName::get_TemplateName
 author: windows-sdk-content
 description: Retrieves the name of the template.
 old-location: security\ix509extensiontemplatename_templatename_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b403a27f-e477-4445-adcb-5fce58453727
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509ExtensionTemplateName interface [Security],TemplateName property, IX509ExtensionTemplateName.TemplateName, IX509ExtensionTemplateName.get_TemplateName, IX509ExtensionTemplateName::TemplateName, IX509ExtensionTemplateName::get_TemplateName, TemplateName property [Security], TemplateName property [Security],IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::TemplateName, certenroll/IX509ExtensionTemplateName::get_TemplateName, get_TemplateName, security.ix509extensiontemplatename_templatename_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509ExtensionTemplateName.get_TemplateName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionTemplateName::get_TemplateName

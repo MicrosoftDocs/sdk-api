@@ -4,17 +4,16 @@ title: Image::GetEncoderParameterListSize
 author: windows-sdk-content
 description: The Image::GetEncoderParameterListSize method gets the size, in bytes, of the parameter list for a specified image encoder.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlistsize.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetEncoderParameterListSize, GetEncoderParameterListSize method [GDI+], GetEncoderParameterListSize method [GDI+],Image class, Image class [GDI+],GetEncoderParameterListSize method, Image.GetEncoderParameterListSize, Image::GetEncoderParameterListSize, _gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_, gdiplus._gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Image.GetEncoderParameterListSize
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

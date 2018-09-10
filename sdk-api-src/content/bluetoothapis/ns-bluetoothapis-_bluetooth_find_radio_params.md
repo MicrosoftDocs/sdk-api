@@ -4,7 +4,7 @@ title: "_BLUETOOTH_FIND_RADIO_PARAMS"
 author: windows-sdk-content
 description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.
 old-location: bluetooth\bluetooth_find_radio_params.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_FIND_RADIO_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_FIND_RADIO_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_FIND_RADIO_PARAMS
+req.redist: 
 ---
 
 # _BLUETOOTH_FIND_RADIO_PARAMS structure

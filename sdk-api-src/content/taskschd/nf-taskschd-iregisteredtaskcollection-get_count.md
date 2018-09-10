@@ -4,17 +4,16 @@ title: IRegisteredTaskCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of registered tasks in the collection.
 old-location: taskschd\iregisteredtaskcollection_count.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRegisteredTaskCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredTaskCollection::get_Count

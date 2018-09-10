@@ -4,7 +4,7 @@ title: linequeueentry_tag
 author: windows-sdk-content
 description: The LINEQUEUEENTRY structure provides the information for a single queue entry. The LINEQUEUELIST structure can contain an array of LINEQUEUEENTRY structures. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueentry.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEQUEUEENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
+req.redist: 
 ---
 
 # linequeueentry_tag structure

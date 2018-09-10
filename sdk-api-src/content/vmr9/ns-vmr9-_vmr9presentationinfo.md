@@ -4,7 +4,7 @@ title: "_VMR9PresentationInfo"
 author: windows-sdk-content
 description: The VMR9PresentationInfo structure is used with the VMR-9 in the IVMRImagePresenter9::PresentImage method.
 old-location: dshow\vmr9presentationinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7e5cf0e9-1cb9-494a-9370-550328dcd85c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9PresentationInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9PresentationInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9PresentationInfo
+req.redist: 
 ---
 
 # _VMR9PresentationInfo structure

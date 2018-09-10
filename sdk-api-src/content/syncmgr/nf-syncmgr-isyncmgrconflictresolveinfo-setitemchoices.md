@@ -4,17 +4,16 @@ title: ISyncMgrConflictResolveInfo::SetItemChoices
 author: windows-sdk-content
 description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
 old-location: shell\ISyncMgrConflictResolveInfo_SetItemChoices.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e4485f49-9bcb-47a8-8559-da2217ee1eab
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetItemChoices method, ISyncMgrConflictResolveInfo.SetItemChoices, ISyncMgrConflictResolveInfo::SetItemChoices, SetItemChoices, SetItemChoices method [Windows Shell], SetItemChoices method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetItemChoices, shell.ISyncMgrConflictResolveInfo_SetItemChoices, syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictResolveInfo.SetItemChoices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictResolveInfo::SetItemChoices

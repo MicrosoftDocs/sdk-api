@@ -4,17 +4,16 @@ title: IDataObjectProvider::SetDataObject
 author: windows-sdk-content
 description: Wraps an IDataObject instance as a Windows Runtime DataPackage.
 old-location: shell\IDataObjectProvider_SetDataObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4A7787E5-8C16-4cd2-B46F-67F6F636989B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDataObjectProvider interface [Windows Shell],SetDataObject method, IDataObjectProvider.SetDataObject, IDataObjectProvider::SetDataObject, SetDataObject, SetDataObject method [Windows Shell], SetDataObject method [Windows Shell],IDataObjectProvider interface, shell.IDataObjectProvider_SetDataObject, shobjidl_core/IDataObjectProvider::SetDataObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObjectProvider.SetDataObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObjectProvider::SetDataObject

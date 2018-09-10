@@ -4,17 +4,16 @@ title: IMetaDataTables::GetCodedTokenInfo
 author: windows-sdk-content
 description: Gets a pointer to an array of tokens associated with the specified row index.
 old-location: winrt\imetadatatables_getcodedtokeninfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCodedTokenInfo, GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetCodedTokenInfo method, IMetaDataTables.GetCodedTokenInfo, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetCodedTokenInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetCodedTokenInfo

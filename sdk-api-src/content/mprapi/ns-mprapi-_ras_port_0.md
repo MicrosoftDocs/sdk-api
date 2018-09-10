@@ -4,7 +4,7 @@ title: "_RAS_PORT_0"
 author: windows-sdk-content
 description: The RAS_PORT_0 structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see RAS_PORT_1.
 old-location: rras\ras_port_0.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 361b065e-8240-465f-a0fe-d4bfc097ec70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_PORT_0, *PRAS_PORT_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_PORT_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_PORT_0, *PRAS_PORT_0
+req.redist: 
 ---
 
 # _RAS_PORT_0 structure

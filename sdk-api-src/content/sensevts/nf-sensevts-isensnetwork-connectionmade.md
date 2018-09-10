@@ -4,17 +4,16 @@ title: ISensNetwork::ConnectionMade
 author: windows-sdk-content
 description: The ConnectionMade method notifies your application that the specified connection has been established.
 old-location: sens\isensnetwork_connectionmade.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 3b067a6f-ba4c-4914-aa5b-e0fd7690e75c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMade method, ISensNetwork.ConnectionMade, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensNetwork.ConnectionMade
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensNetwork::ConnectionMade

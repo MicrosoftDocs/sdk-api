@@ -4,17 +4,16 @@ title: WlxInitialize function
 author: windows-sdk-content
 description: Winlogon calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
 old-location: security\wlxinitialize.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: db03f2b3-0719-40be-8a42-04ab7110f711
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_1, WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_4, WlxInitialize, WlxInitialize function [Security], _gina_wlxinitialize, security.wlxinitialize, winwlx/WlxInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxInitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxInitialize function

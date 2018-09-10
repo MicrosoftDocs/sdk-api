@@ -4,7 +4,7 @@ title: "_SEC_WINNT_AUTH_IDENTITY_A"
 author: windows-sdk-content
 description: The SEC_WINNT_AUTH_IDENTITY structure enables passing a particular user name and password to the run-time library for the purpose of authentication. The structure is valid for Windows and Macintosh.
 old-location: rpc\sec_winnt_auth_identity.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 829dee24-aeeb-4191-b5fc-85970725f064
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_A structure

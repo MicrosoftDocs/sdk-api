@@ -4,17 +4,16 @@ title: IMbnPin::Enable
 author: windows-sdk-content
 description: Enables a PIN.
 old-location: mbn\imbnpin_enable.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: bbdd767b-f08a-4e94-bccf-9ed0d1b4af29
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnPin.Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPin::Enable

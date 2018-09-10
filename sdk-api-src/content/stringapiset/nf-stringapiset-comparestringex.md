@@ -4,17 +4,16 @@ title: CompareStringEx function
 author: windows-sdk-content
 description: Compares two Unicode (wide character) strings, for a locale specified by name.Caution  Using CompareStringEx incorrectly can compromise the security of your application.
 old-location: intl\comparestringex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 264c67b6-848d-48ef-9bfa-4990bfa2fbf5
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_CompareStringEx, _win32_CompareStringEx_cpp, intl.comparestringex, stringapiset/CompareStringEx, winui._win32_CompareStringEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CompareStringEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # CompareStringEx function

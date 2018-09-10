@@ -4,7 +4,7 @@ title: PFNPROCESSGROUPPOLICYEX
 author: windows-sdk-content
 description: The ProcessGroupPolicyEx function is an application-defined callback function used when applying policy.
 old-location: policy\processgrouppolicyex.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: df77fece-6e81-4a85-847a-fef3ba775e93
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PFNPROCESSGROUPPOLICYEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # PFNPROCESSGROUPPOLICYEX callback function

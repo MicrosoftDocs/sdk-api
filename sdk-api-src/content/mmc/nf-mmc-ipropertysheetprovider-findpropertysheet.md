@@ -4,17 +4,16 @@ title: IPropertySheetProvider::FindPropertySheet
 author: windows-sdk-content
 description: Determines whether a specific property sheet exists.
 old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySheetProvider.FindPropertySheet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertySheetProvider::FindPropertySheet
@@ -62,7 +60,7 @@ The <b>IPropertySheetProvider::FindPropertySheet</b> method determines whether a
 
 ### -param hItem
 
-
+TBD
 
 
 ### -param lpComponent [in]

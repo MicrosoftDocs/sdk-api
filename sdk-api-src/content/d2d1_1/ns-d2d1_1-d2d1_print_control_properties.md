@@ -4,7 +4,7 @@ title: D2D1_PRINT_CONTROL_PROPERTIES
 author: windows-sdk-content
 description: The creation properties for a ID2D1PrintControl object.
 old-location: direct2d\d2d1_print_control_properties.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2D1.lib
-tech.root: 
-req.typenames: D2D1_PRINT_CONTROL_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_PRINT_CONTROL_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_PRINT_CONTROL_PROPERTIES
+req.redist: 
 ---
 
 # D2D1_PRINT_CONTROL_PROPERTIES structure

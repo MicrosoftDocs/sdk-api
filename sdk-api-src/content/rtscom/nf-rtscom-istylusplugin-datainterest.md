@@ -4,17 +4,16 @@ title: IStylusPlugin::DataInterest
 author: windows-sdk-content
 description: Retrieves the events for which the plug-in is to receive notifications.
 old-location: tablet\istylusplugin_datainterest.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7ff6ccf2-292c-4321-be2a-d6db7ce14943
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest method [Tablet PC], DataInterest method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],DataInterest method, IStylusPlugin.DataInterest, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.DataInterest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::DataInterest

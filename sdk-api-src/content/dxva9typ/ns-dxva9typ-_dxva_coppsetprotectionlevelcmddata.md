@@ -4,7 +4,7 @@ title: "_DXVA_COPPSetProtectionLevelCmdData"
 author: windows-sdk-content
 description: Contains data for the Set Protection Level command in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppsetprotectionlevelcmddata.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 19810f8f-2d23-4b01-864d-86ac82d40fe0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA_COPPSetProtectionLevelCmdData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA_COPPSetProtectionLevelCmdData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA_COPPSetProtectionLevelCmdData
+req.redist: 
 ---
 
 # _DXVA_COPPSetProtectionLevelCmdData structure

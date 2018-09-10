@@ -4,7 +4,7 @@ title: "_MANAGEMENT_SERVICE_INFO"
 author: windows-sdk-content
 description: Contains the endpoints and information about the management service.
 old-location: mdmreg\management_service_info.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 6be4540b-e74b-41f3-aef4-f613f2a79bab
 ms.author: windowssdkdev
 ms.date: 02/21/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MANAGEMENT_SERVICE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO
+req.redist: 
 ---
 
 # _MANAGEMENT_SERVICE_INFO structure

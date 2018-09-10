@@ -4,17 +4,16 @@ title: IUserNotificationCallback::OnLeftClick
 author: windows-sdk-content
 description: Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
 old-location: shell\IUserNotificationCallback_OnLeftClick.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0202aace-94d6-4619-8838-eea0b174ffb6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick method, IUserNotificationCallback.OnLeftClick, IUserNotificationCallback::OnLeftClick, OnLeftClick, OnLeftClick method [Windows Shell], OnLeftClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnLeftClick, shell.IUserNotificationCallback_OnLeftClick, shobjidl/IUserNotificationCallback::OnLeftClick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotificationCallback.OnLeftClick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotificationCallback::OnLeftClick

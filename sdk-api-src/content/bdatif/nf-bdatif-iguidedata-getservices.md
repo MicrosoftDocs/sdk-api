@@ -4,17 +4,16 @@ title: IGuideData::GetServices
 author: windows-sdk-content
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetServices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetServices

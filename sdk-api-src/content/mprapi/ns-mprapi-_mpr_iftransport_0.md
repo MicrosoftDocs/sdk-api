@@ -4,7 +4,7 @@ title: "_MPR_IFTRANSPORT_0"
 author: windows-sdk-content
 description: The MPR_IFTRANSPORT_0 structure contains information for a particular interface transport.
 old-location: rras\mpr_iftransport_0.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 4ee360be-fe5f-477e-901f-92d083f68451
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_IFTRANSPORT_0, *PMPR_IFTRANSPORT_0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_IFTRANSPORT_0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_IFTRANSPORT_0, *PMPR_IFTRANSPORT_0
+req.redist: 
 ---
 
 # _MPR_IFTRANSPORT_0 structure

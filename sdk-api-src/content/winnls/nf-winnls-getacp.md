@@ -4,17 +4,16 @@ title: GetACP function
 author: windows-sdk-content
 description: Retrieves the current Windows ANSI code page identifier for the operating system.Caution  The ANSI API functions, for example, the ANSI version of TextOut, implicitly use GetACP to translate text to or from Unicode.
 old-location: intl\getacp.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: a28c3f08-ee76-4e3f-b14d-fabc0af98fef
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetACP, GetACP function [Internationalization for Windows Applications], _win32_GetACP, intl.getacp, winnls/GetACP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetACP
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetACP function

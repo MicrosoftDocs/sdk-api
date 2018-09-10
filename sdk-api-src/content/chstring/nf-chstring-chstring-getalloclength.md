@@ -4,17 +4,16 @@ title: CHString::GetAllocLength
 author: windows-sdk-content
 description: The GetAllocLength method returns the size of the allocated string buffer.
 old-location: wmi\chstring_getalloclength.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ?GetAllocLength@CHString@@QBEHXZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::GetAllocLength

@@ -4,17 +4,16 @@ title: IMetaDataTables::GetBlobHeapSize
 author: windows-sdk-content
 description: A pointer to a pointer to the binary data retrieved.
 old-location: winrt\imetadatatables_getblobheapsize.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 9001b2ee-846e-476b-b1db-7860c25075ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBlobHeapSize, GetBlobHeapSize method [Windows Runtime], GetBlobHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlobHeapSize method, IMetaDataTables.GetBlobHeapSize, IMetaDataTables::GetBlobHeapSize, rometadataapi/IMetaDataTables::GetBlobHeapSize, winrt.imetadatatables_getblobheapsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables.GetBlobHeapSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables::GetBlobHeapSize

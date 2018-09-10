@@ -4,7 +4,7 @@ title: MONITOR_APP_VISIBILITY
 author: windows-sdk-content
 description: Specifies whether a display is showing desktop windows instead of Windows Store apps.
 old-location: shell\MONITOR_APP_VISIBILITY.htm
-old-project: shell
+tech.root: shell
 ms.assetid: DE52080C-5EC3-489B-ACC8-D5EAEE3DDF78
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MONITOR_APP_VISIBILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MONITOR_APP_VISIBILITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: MONITOR_APP_VISIBILITY
+req.redist: 
 ---
 
 # MONITOR_APP_VISIBILITY enumeration

@@ -4,17 +4,16 @@ title: IOCSPAdmin::SetConfiguration
 author: windows-sdk-content
 description: Updates a responder service with configuration changes.
 old-location: security\iocspadmin_setconfiguration_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPAdmin.SetConfiguration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPAdmin::SetConfiguration

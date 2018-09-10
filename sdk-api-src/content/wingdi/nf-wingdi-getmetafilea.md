@@ -4,17 +4,16 @@ title: GetMetaFileA function
 author: windows-sdk-content
 description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.
 old-location: gdi\getmetafile.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 56A602C4-AE4D-46DE-B5DA-66A68E3A16BF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMetaFile, GetMetaFile function [Windows GDI], GetMetaFileA, GetMetaFileW, gdi.getmetafile, wingdi/GetMetaFile, wingdi/GetMetaFileA, wingdi/GetMetaFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetMetaFileW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetMetaFileA function

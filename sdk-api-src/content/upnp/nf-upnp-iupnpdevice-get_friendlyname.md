@@ -4,17 +4,16 @@ title: IUPnPDevice::get_FriendlyName
 author: windows-sdk-content
 description: The FriendlyName property specifies the device display name for the device.
 old-location: upnp\iupnpdevice_friendlyname.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: dd24384f-2657-4cb0-812e-1b51d53b73de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_FriendlyName method, IUPnPDevice.get_FriendlyName, IUPnPDevice::get_FriendlyName, _upnp_iupnpdevice_friendlyname, get_FriendlyName, get_FriendlyName method [UPnP APIs], get_FriendlyName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_friendlyname, upnp/IUPnPDevice::get_FriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_FriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_FriendlyName

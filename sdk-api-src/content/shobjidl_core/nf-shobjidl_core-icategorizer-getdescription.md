@@ -4,17 +4,16 @@ title: ICategorizer::GetDescription
 author: windows-sdk-content
 description: Gets the name of a categorizer, such as Group By Device Type, that can be displayed in the UI.
 old-location: shell\ICategorizer_GetDescription.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fc457b03-ccc2-4455-9f53-77d47537c0b6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetDescription method, ICategorizer.GetDescription, ICategorizer::GetDescription, inet_ICategorizer_GetDescription, shell.ICategorizer_GetDescription, shobjidl_core/ICategorizer::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICategorizer.GetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICategorizer::GetDescription

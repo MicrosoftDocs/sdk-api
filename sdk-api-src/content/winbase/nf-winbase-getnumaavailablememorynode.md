@@ -4,17 +4,16 @@ title: GetNumaAvailableMemoryNode function
 author: windows-sdk-content
 description: Retrieves the amount of memory available in the specified node.
 old-location: base\getnumaavailablememorynode.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNumaAvailableMemoryNode
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNumaAvailableMemoryNode function

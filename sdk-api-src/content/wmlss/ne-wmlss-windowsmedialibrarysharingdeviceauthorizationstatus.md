@@ -4,7 +4,7 @@ title: WindowsMediaLibrarySharingDeviceAuthorizationStatus
 author: windows-sdk-content
 description: The WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration defines constants that indicate whether a media device is authorized to have access to a media library.
 old-location: wmlss\WMLSDeviceAuthorizationStatusEnumeration.htm
-old-project: WMLSS
+tech.root: WMLSS
 ms.assetid: 2b858236-32d9-410e-bf57-207a1c44c9d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WindowsMediaLibrarySharingDeviceAuthorizationStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.redist: 
 ---
 
 # WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration

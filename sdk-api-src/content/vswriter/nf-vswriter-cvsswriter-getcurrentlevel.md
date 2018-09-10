@@ -4,17 +4,16 @@ title: CVssWriter::GetCurrentLevel
 author: windows-sdk-content
 description: The GetCurrentLevel method returns the current application level.
 old-location: base\cvsswriter_getcurrentlevel.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 09540f57-832a-49ca-9b64-e7660b331192
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentLevel method, CVssWriter.GetCurrentLevel, CVssWriter::GetCurrentLevel, GetCurrentLevel, GetCurrentLevel method [VSS], GetCurrentLevel method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentlevel, base.cvsswriter_getcurrentlevel, vswriter/CVssWriter::GetCurrentLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.GetCurrentLevel
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::GetCurrentLevel

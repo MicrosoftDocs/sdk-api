@@ -4,17 +4,16 @@ title: ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo
 author: windows-sdk-content
 description: Retrieves the transformed restricted error info.
 old-location: winrt\ilanguageexceptiontransform_gettransformedrestrictederrorinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F64449FE-9562-4210-8C00-9935DE71DA07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTransformedRestrictedErrorInfo, GetTransformedRestrictedErrorInfo method [Windows Runtime], GetTransformedRestrictedErrorInfo method [Windows Runtime],ILanguageExceptionTransform interface, ILanguageExceptionTransform interface [Windows Runtime],GetTransformedRestrictedErrorInfo method, ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo, ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, restrictederrorinfo/ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo, winrt.ilanguageexceptiontransform_gettransformedrestrictederrorinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo

@@ -4,17 +4,16 @@ title: IDataCollector::put_LogAppend
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file.
 old-location: pla\idatacollector_logappend.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: c9843647-2c36-4d08-98d0-4df63b054993
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LogAppend property, IDataCollector.LogAppend, IDataCollector.put_LogAppend, IDataCollector::LogAppend, IDataCollector::get_LogAppend, IDataCollector::put_LogAppend, LogAppend property [PLA], LogAppend property [PLA],IDataCollector interface, base.idatacollector_logappend, pla.idatacollector_logappend, pla/IDataCollector::LogAppend, pla/IDataCollector::get_LogAppend, pla/IDataCollector::put_LogAppend, put_LogAppend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_LogAppend
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::put_LogAppend

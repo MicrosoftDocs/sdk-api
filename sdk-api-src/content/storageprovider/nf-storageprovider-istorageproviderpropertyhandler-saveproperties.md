@@ -4,17 +4,16 @@ title: IStorageProviderPropertyHandler::SaveProperties
 author: windows-sdk-content
 description: Saves properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler_saveproperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 983751BA-BF36-4018-A95A-4BEA1E9BA3BF
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],SaveProperties method, IStorageProviderPropertyHandler.SaveProperties, IStorageProviderPropertyHandler::SaveProperties, SaveProperties, SaveProperties method [Windows Shell], SaveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_saveproperties, storageprovider/IStorageProviderPropertyHandler::SaveProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: storageprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorageProviderPropertyHandler.SaveProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IStorageProviderPropertyHandler::SaveProperties
@@ -62,7 +60,7 @@ Saves properties associated with a file or folder.
 
 ### -param propertiesToSave
 
-
+TBD
 
 
 

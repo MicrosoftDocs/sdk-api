@@ -4,17 +4,16 @@ title: CryptEnumProviderTypesW function
 author: windows-sdk-content
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CryptEnumProviderTypesW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptEnumProviderTypesW function

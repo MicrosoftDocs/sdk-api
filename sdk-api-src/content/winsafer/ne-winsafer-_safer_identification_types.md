@@ -4,7 +4,7 @@ title: "_SAFER_IDENTIFICATION_TYPES"
 author: windows-sdk-content
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: VALENTW (Unicode) and VALENTA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_IDENTIFICATION_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAFER_IDENTIFICATION_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SAFER_IDENTIFICATION_TYPES
+req.redist: 
 ---
 
 # _SAFER_IDENTIFICATION_TYPES enumeration

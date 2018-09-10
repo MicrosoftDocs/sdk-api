@@ -4,17 +4,16 @@ title: DnsWriteQuestionToBuffer_W function
 author: windows-sdk-content
 description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
 old-location: dns\dnswritequestiontobuffer.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 9aa853aa-d9b5-41e3-a82a-c25de199924d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQuestionToBuffer_W, DnsWriteQuestionToBuffer_W function [DNS], _dns_dnswritequestiontobuffer, dns.dnswritequestiontobuffer, windns/DnsWriteQuestionToBuffer_UTF8, windns/DnsWriteQuestionToBuffer_W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_FREE_TYPE
+req.lib: Dnsapi.lib
+req.dll: Dnsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DnsWriteQuestionToBuffer_UTF8
 product: Windows
 targetos: Windows
-req.lib: Dnsapi.lib
-req.dll: Dnsapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DnsWriteQuestionToBuffer_W function

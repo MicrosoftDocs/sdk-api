@@ -4,17 +4,16 @@ title: IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT3
 author: windows-sdk-content
 description: Creates a reference to a font given a full path.
 old-location: directwrite\idwritefactory3_createfontfacereference.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 3ae2150b-af56-65f5-fe38-7ecea16cf0b8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory3.CreateFontFaceReference, IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), IDWriteFactory3::CreateFontFaceReference, IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), directwrite.idwritefactory3_createfontfacereference, dwrite_3/IDWriteFactory3::CreateFontFaceReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory3.CreateFontFaceReference
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)

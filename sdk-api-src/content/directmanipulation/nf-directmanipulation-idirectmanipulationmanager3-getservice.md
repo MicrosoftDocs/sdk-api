@@ -4,17 +4,16 @@ title: IDirectManipulationManager3::GetService
 author: windows-sdk-content
 description: Retrieves an IDirectManipulationDeferContactService object.
 old-location: directmanipulation\idirectmanipulationmanager3_getservice.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 36f46402-ed71-41d8-8df5-02ef59819bb3
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetService, GetService method [Direct Manipulation], GetService method [Direct Manipulation],IDirectManipulationManager3 interface, IDirectManipulationManager3 interface [Direct Manipulation],GetService method, IDirectManipulationManager3.GetService, IDirectManipulationManager3::GetService, directmanipulation.idirectmanipulationmanager3_getservice, directmanipulation/IDirectManipulationManager3::GetService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationManager3.GetService
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationManager3::GetService

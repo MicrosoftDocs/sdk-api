@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_EVENTS
 author: windows-sdk-content
 description: Event identifier codes describing events to be received or excluded by an event sink.
 old-location: of\offlinefiles_events.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 4ab65756-5985-4240-805d-2221db3d1459
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_EVENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_EVENTS
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_EVENTS
+req.redist: 
 ---
 
 # tagOFFLINEFILES_EVENTS enumeration

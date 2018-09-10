@@ -4,7 +4,7 @@ title: tagPropertyConstraint
 author: windows-sdk-content
 description: Qualifies the filter conditions used for searching for function instances.
 old-location: ncd\propertyconstraint.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: 59a3d957-0720-4bd9-b240-512b9cca3c90
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: functiondiscoveryconstraints.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropertyConstraint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: PropertyConstraint
+req.redist: 
 ---
 
 # tagPropertyConstraint enumeration

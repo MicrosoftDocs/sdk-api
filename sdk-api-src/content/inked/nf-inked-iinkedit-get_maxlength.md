@@ -4,17 +4,16 @@ title: IInkEdit::get_MaxLength
 author: windows-sdk-content
 description: Gets or sets a value indicating whether there is a maximum number of characters an InkEdit control can hold and, if so, specifies the maximum number of characters.
 old-location: tablet\inkedit_maxlength.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 603074d4-3222-4593-a5e8-b5f8a8dced6a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],MaxLength property, IInkEdit.MaxLength, IInkEdit.get_MaxLength, IInkEdit::MaxLength, IInkEdit::get_MaxLength, IInkEdit::put_MaxLength, InkEdit.get_MaxLength, InkEdit.put_MaxLength, MaxLength property [Tablet PC], MaxLength property [Tablet PC],IInkEdit interface, get_MaxLength, inked/IInkEdit::MaxLength, inked/IInkEdit::get_MaxLength, inked/IInkEdit::put_MaxLength, put_MaxLength, tablet.inkedit_maxlength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_MaxLength
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_MaxLength

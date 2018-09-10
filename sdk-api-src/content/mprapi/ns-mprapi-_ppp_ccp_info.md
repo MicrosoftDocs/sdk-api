@@ -4,7 +4,7 @@ title: "_PPP_CCP_INFO"
 author: windows-sdk-content
 description: The PPP_CCP_INFO structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
 old-location: rras\ppp_ccp_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: d50493c4-8a18-4cab-8973-a752f3f7f6c2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_CCP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_CCP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_CCP_INFO
+req.redist: 
 ---
 
 # _PPP_CCP_INFO structure

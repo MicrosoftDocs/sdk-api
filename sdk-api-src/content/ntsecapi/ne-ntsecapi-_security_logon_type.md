@@ -4,7 +4,7 @@ title: "_SECURITY_LOGON_TYPE"
 author: windows-sdk-content
 description: Indicates the type of logon requested by a logon process.
 old-location: security\security_logon_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: d775d782-9403-47b2-bb43-8f677db49eb9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECURITY_LOGON_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
+req.redist: 
 ---
 
 # _SECURITY_LOGON_TYPE enumeration

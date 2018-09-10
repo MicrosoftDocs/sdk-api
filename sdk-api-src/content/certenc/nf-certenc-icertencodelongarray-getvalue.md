@@ -4,17 +4,16 @@ title: ICertEncodeLongArray::GetValue
 author: windows-sdk-content
 description: Returns the specified Long value from the Long array.
 old-location: security\icertencodelongarray_getvalue.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeLongArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeLongArray object, GetValue method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],GetValue method, ICertEncodeLongArray.GetValue, ICertEncodeLongArray::GetValue, _certsrv_icertencodelongarray_getvalue, certenc/ICertEncodeLongArray::GetValue, security.icertencodelongarray_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeLongArray.GetValue
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray::GetValue

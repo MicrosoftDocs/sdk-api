@@ -4,17 +4,16 @@ title: ITravelEntry::Update
 author: windows-sdk-content
 description: Deprecated. Updates the travel entry.
 old-location: shell\ITravelEntry_Update.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FALSE, ITravelEntry interface [Windows Shell],Update method, ITravelEntry.Update, ITravelEntry::Update, TRUE, Update, Update method [Windows Shell], Update method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Update, shell.ITravelEntry_Update, zone_ITravelEntry_Update
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelEntry.Update
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

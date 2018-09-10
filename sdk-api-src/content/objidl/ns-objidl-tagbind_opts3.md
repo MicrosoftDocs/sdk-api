@@ -4,7 +4,7 @@ title: tagBIND_OPTS3
 author: windows-sdk-content
 description: Contains parameters used during a moniker-binding operation.
 old-location: com\bind_opts3.htm
-old-project: com
+tech.root: com
 ms.assetid: 7e668313-229a-4d04-b8a2-d5072c87a5b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BIND_OPTS3, *LPBIND_OPTS3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BIND_OPTS3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: BIND_OPTS3, *LPBIND_OPTS3
+req.redist: 
 ---
 
 # tagBIND_OPTS3 structure

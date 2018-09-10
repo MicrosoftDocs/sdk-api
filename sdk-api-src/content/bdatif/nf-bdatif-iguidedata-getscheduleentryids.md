@@ -4,17 +4,16 @@ title: IGuideData::GetScheduleEntryIDs
 author: windows-sdk-content
 description: The GetScheduleEntryIDs method returns a list of unique identifiers for all of the schedule entries contained in all transport streams.
 old-location: mstv\iguidedata_getscheduleentryids.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetScheduleEntryIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetScheduleEntryIDs
@@ -64,7 +63,7 @@ The <b>GetScheduleEntryIDs</b> method returns a list of unique identifiers for a
 
 ### -param pEnumScheduleEntries
 
-
+TBD
 
 
 

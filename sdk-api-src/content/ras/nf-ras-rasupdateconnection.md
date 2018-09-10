@@ -4,17 +4,16 @@ title: RasUpdateConnection function
 author: windows-sdk-content
 description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.
 old-location: rras\rasupdateconnection.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasUpdateConnection
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasUpdateConnection function

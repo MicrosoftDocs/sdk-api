@@ -4,7 +4,7 @@ title: InkRecognitionModes
 author: windows-sdk-content
 description: Specifies how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognitionmodes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ab9f4164-ea07-41d1-be6a-50009fa9464d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecognitionModes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkRecognitionModes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkRecognitionModes
+req.redist: 
 ---
 
 # InkRecognitionModes enumeration

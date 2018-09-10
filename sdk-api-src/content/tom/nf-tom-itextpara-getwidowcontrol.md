@@ -4,17 +4,16 @@ title: ITextPara::GetWidowControl
 author: windows-sdk-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWidowControl, GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetWidowControl method, ITextPara.GetWidowControl, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.GetWidowControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::GetWidowControl
@@ -62,7 +60,7 @@ Retrieves the widow and orphan control state for the paragraphs in a range.
 
 ### -param pValue
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ISearchJob::get_AsyncState
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateSearch.BeginSearch method.
 old-location: wua\isearchjob_asyncstate.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 68d861a3-420d-4a89-ac32-900db6d51036
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],AsyncState property, ISearchJob.AsyncState, ISearchJob.get_AsyncState, ISearchJob::AsyncState, ISearchJob::get_AsyncState, get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISearchJob.get_AsyncState
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchJob::get_AsyncState

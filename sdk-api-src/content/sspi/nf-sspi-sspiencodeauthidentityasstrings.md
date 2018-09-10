@@ -4,17 +4,16 @@ title: SspiEncodeAuthIdentityAsStrings function
 author: windows-sdk-content
 description: Encodes the specified authentication identity as three strings.
 old-location: security\sspiencodeauthidentityasstrings.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: SspiCli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SspiEncodeAuthIdentityAsStringsW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: SspiCli.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SspiEncodeAuthIdentityAsStrings function

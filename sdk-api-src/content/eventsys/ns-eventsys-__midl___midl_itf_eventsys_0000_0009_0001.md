@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_eventsys_0000_0009_0001"
 author: windows-sdk-content
 description: Represents a system event structure, which contains the partition and application ID from which an event originated.
 old-location: cos\comeventsyschangeinfo.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: EventSys.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMEVENTSYSCHANGEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COMEVENTSYSCHANGEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COMEVENTSYSCHANGEINFO
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_eventsys_0000_0009_0001 structure

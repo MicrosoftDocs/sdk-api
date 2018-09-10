@@ -4,17 +4,16 @@ title: SHCreateShellItemArrayFromShellItem function
 author: windows-sdk-content
 description: Creates an array of one element from a single Shell item.
 old-location: shell\SHCreateShellItemArrayFromShellItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShellItem function [Windows Shell], _shell_SHCreateShellItemArrayFromShellItem, shell.SHCreateShellItemArrayFromShellItem, shobjidl_core/SHCreateShellItemArrayFromShellItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SHCreateShellItemArrayFromShellItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateShellItemArrayFromShellItem function

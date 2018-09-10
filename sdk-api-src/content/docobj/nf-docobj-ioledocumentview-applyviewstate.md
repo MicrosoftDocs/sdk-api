@@ -4,17 +4,16 @@ title: IOleDocumentView::ApplyViewState
 author: windows-sdk-content
 description: Initializes a view with view state previously saved in call to IOleDocumentView::SaveViewState.
 old-location: com\ioledocumentview_applyviewstate.htm
-old-project: com
+tech.root: com
 ms.assetid: f78526b4-977a-4dde-8a2f-7ae0a1c5c7f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplyViewState, ApplyViewState method [COM], ApplyViewState method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],ApplyViewState method, IOleDocumentView.ApplyViewState, IOleDocumentView::ApplyViewState, _ole_ioledocumentview_applyviewstate, com.ioledocumentview_applyviewstate, docobj/IOleDocumentView::ApplyViewState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentView.ApplyViewState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentView::ApplyViewState

@@ -4,17 +4,16 @@ title: IIdentityStore::EnumerateIdentities
 author: windows-sdk-content
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 old-location: security\iidentitystore_enumerateidentities.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identitystore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityStore.EnumerateIdentities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityStore::EnumerateIdentities

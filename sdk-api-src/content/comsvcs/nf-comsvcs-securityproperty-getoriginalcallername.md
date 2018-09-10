@@ -4,17 +4,16 @@ title: SecurityProperty::GetOriginalCallerName
 author: windows-sdk-content
 description: Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
 old-location: cos\securityproperty_getoriginalcallername.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SecurityProperty.GetOriginalCallerName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SecurityProperty::GetOriginalCallerName

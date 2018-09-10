@@ -4,7 +4,7 @@ title: "_RSVP_RESERVE_INFO"
 author: windows-sdk-content
 description: The QOS object RSVP_RESERVE_INFO, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden.
 old-location: qos\rsvp_reserve_info.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSVP_RESERVE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
+req.redist: 
 ---
 
 # _RSVP_RESERVE_INFO structure

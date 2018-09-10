@@ -4,17 +4,16 @@ title: ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32)
 author: windows-sdk-content
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: E5C7A573-3373-4323-8712-93D89B6A53C5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1SvgStrokeDashArray interface, ID2D1SvgStrokeDashArray interface [Direct2D],GetDashes method, ID2D1SvgStrokeDashArray.GetDashes, ID2D1SvgStrokeDashArray.GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), ID2D1SvgStrokeDashArray::GetDashes, ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32), d2d1svg/ID2D1SvgStrokeDashArray::GetDashes, direct2d.id2d1svgstrokedasharray_getdashes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgStrokeDashArray.GetDashes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgStrokeDashArray::GetDashes(D2D1_SVG_LENGTH,UINT32,UINT32)

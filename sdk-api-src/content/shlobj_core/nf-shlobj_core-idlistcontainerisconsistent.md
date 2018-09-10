@@ -4,17 +4,16 @@ title: IDListContainerIsConsistent function
 author: windows-sdk-content
 description: Verifies that the container structure of an IDList is valid.
 old-location: shell\IDListContainerIsConsistent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDListContainerIsConsistent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDListContainerIsConsistent function

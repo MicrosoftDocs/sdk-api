@@ -4,17 +4,16 @@ title: ISyncKnowledge::SetLocalTickCount
 author: windows-sdk-content
 description: Sets the tick count for the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_setlocaltickcount.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.SetLocalTickCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::SetLocalTickCount

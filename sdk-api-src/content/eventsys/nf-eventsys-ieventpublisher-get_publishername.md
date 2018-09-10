@@ -4,17 +4,16 @@ title: IEventPublisher::get_PublisherName
 author: windows-sdk-content
 description: The display name for the event publisher.
 old-location: com\ieventpublisher_publishername.htm
-old-project: com
+tech.root: com
 ms.assetid: 223c57b9-2d70-476b-9f97-0f4d73c36dce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventPublisher interface [COM],PublisherName property, IEventPublisher.PublisherName, IEventPublisher.get_PublisherName, IEventPublisher::PublisherName, IEventPublisher::get_PublisherName, IEventPublisher::put_PublisherName, PublisherName property [COM], PublisherName property [COM],IEventPublisher interface, _com_ieventpublisher_publishername, com.ieventpublisher_publishername, eventsys/IEventPublisher::PublisherName, eventsys/IEventPublisher::get_PublisherName, eventsys/IEventPublisher::put_PublisherName, get_PublisherName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventPublisher.put_PublisherName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventPublisher::get_PublisherName

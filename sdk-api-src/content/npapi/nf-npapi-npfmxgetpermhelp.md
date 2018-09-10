@@ -4,17 +4,16 @@ title: NPFMXGetPermHelp function
 author: windows-sdk-content
 description: Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the Security menu of File Manager is selected and F1 is pressed.
 old-location: security\npfmxgetpermhelp.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a7bf24fb-a775-4a13-a808-86a0d4d25332
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPFMXGetPermHelp, NPFMXGetPermHelp function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxgetpermhelp, npapi/NPFMXGetPermHelp, security.npfmxgetpermhelp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPFMXGetPermHelp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPFMXGetPermHelp function

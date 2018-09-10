@@ -4,17 +4,16 @@ title: CStdStubBuffer_Connect function
 author: windows-sdk-content
 description: The CStdStubBuffer_Connect function implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer_connect.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 73aacc1f-b501-4e63-b69a-e64a85664f79
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.cstdstubbuffer_connect, rpcproxy/CStdStubBuffer_Connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CStdStubBuffer_Connect
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CStdStubBuffer_Connect function

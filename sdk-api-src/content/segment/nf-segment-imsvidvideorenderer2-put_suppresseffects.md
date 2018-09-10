@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer2::put_SuppressEffects
 author: windows-sdk-content
 description: The put_SuppressEffects method sets preferences for power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_put_suppresseffects.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d362addb-626a-42f8-9b95-82189a338527
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVideoRenderer2.put_SuppressEffects, IMSVidVideoRenderer2::put_SuppressEffects, IMSVidVideoRenderer2put_SuppressEffects, mstv.imsvidvideorenderer2_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, segment/IMSVidVideoRenderer2::put_SuppressEffects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer2.put_SuppressEffects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer2::put_SuppressEffects

@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyJobs::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopyjobs_next.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a248e14a-ab17-4e8e-9e27-2ba31a4a999d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Next method, IEnumBackgroundCopyJobs.Next, IEnumBackgroundCopyJobs::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_next, bits.ienumbackgroundcopyjobs_next, bits/IEnumBackgroundCopyJobs::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumBackgroundCopyJobs.Next
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyJobs::Next

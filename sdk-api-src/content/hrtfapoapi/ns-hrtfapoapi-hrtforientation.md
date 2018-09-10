@@ -4,7 +4,7 @@ title: HrtfOrientation
 author: windows-sdk-content
 description: Indicates the orientation of an HRTF directivity object.
 old-location: xaudio2\hrtforientation.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: 759EC69D-1E5A-4CB1-86B0-8612BF4C3B5E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfOrientation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HrtfOrientation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HrtfOrientation
+req.redist: 
 ---
 
 # HrtfOrientation structure

@@ -4,17 +4,16 @@ title: IVdsVolume::QueryPlexes
 author: windows-sdk-content
 description: Returns an object that enumerates the plexes of the volume.
 old-location: base\ivdsvolume_queryplexes.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlexes, IVdsVolume::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsVolume interface, base.ivdsvolume_queryplexes, vds/IVdsVolume::QueryPlexes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolume.QueryPlexes
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolume::QueryPlexes

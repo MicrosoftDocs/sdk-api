@@ -4,7 +4,7 @@ title: PRADIUS_EXTENSION_FREE_ATTRIBUTES
 author: windows-sdk-content
 description: The RadiusExtensionFreeAttributes function is an application-defined function and is called by NPS to free the memory occupied by attributes returned by RadiusExtensionProcessEx.
 old-location: nps\IAS_radiusextensionfreeattributes.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 2b76c648-a8d6-440c-b0b8-7c17f91ad961
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PRADIUS_EXTENSION_FREE_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PRADIUS_EXTENSION_FREE_ATTRIBUTES callback function

@@ -4,17 +4,16 @@ title: IMSVidPlayback::put_CurrentPosition
 author: windows-sdk-content
 description: The put_CurrentPosition method seeks to a specified position in the source.
 old-location: mstv\imsvidplayback_put_currentposition.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3e9e0128-5609-4a9f-bbfc-a29a2174c5d0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_CurrentPosition method, IMSVidPlayback.put_CurrentPosition, IMSVidPlayback::put_CurrentPosition, IMSVidPlaybackput_CurrentPosition, mstv.imsvidplayback_put_currentposition, put_CurrentPosition, put_CurrentPosition method [Microsoft TV Technologies], put_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_CurrentPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidPlayback.put_CurrentPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidPlayback::put_CurrentPosition

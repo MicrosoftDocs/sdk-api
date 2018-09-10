@@ -4,17 +4,16 @@ title: ISimilarityFileIdTable::Invalidate
 author: windows-sdk-content
 description: Marks a file ID as not valid in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_invalidate.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: fdd6ff92-d312-4789-b535-4859fa7c871c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Invalidate method, ISimilarityFileIdTable.Invalidate, ISimilarityFileIdTable::Invalidate, Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityFileIdTable.Invalidate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityFileIdTable::Invalidate

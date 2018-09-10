@@ -4,17 +4,16 @@ title: IMFTransform::ProcessOutput
 author: windows-sdk-content
 description: Generates output from the current input data.
 old-location: mf\imftransform_processoutput.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.ProcessOutput
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::ProcessOutput

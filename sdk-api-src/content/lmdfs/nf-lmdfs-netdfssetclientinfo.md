@@ -4,17 +4,16 @@ title: NetDfsSetClientInfo function
 author: windows-sdk-content
 description: Modifies information about a Distributed File System (DFS) root or link in the cache maintained by the DFS client.
 old-location: dfs\netdfssetclientinfo.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 4c95dffb-a092-45ad-9a3f-37d3abbf4427
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 101, 102, NetDfsSetClientInfo, NetDfsSetClientInfo function [Distributed File System], _win32_netdfssetclientinfo, dfs.netdfssetclientinfo, fs.netdfssetclientinfo, lmdfs/NetDfsSetClientInfo, netmgmt.netdfssetclientinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetDfsSetClientInfo
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetDfsSetClientInfo function

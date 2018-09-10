@@ -4,17 +4,16 @@ title: NCryptStreamUpdate function
 author: windows-sdk-content
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: NCrypt.lib
+req.dll: NCrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptStreamUpdate
 product: Windows
 targetos: Windows
-req.lib: NCrypt.lib
-req.dll: NCrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptStreamUpdate function

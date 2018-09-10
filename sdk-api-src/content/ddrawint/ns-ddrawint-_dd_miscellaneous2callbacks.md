@@ -4,7 +4,7 @@ title: "_DD_MISCELLANEOUS2CALLBACKS"
 author: windows-sdk-content
 description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.
 old-location: display\dd_miscellaneous2callbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_MISCELLANEOUS2CALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
+req.redist: 
 ---
 
 # _DD_MISCELLANEOUS2CALLBACKS structure

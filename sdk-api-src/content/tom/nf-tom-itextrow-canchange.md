@@ -4,17 +4,16 @@ title: ITextRow::CanChange
 author: windows-sdk-content
 description: Determines whether changes can be made to this row.
 old-location: controls\itextrow_canchange.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],CanChange method, ITextRow.CanChange, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRow.CanChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRow::CanChange

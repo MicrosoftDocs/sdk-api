@@ -4,7 +4,7 @@ title: "_USB_USER_ERROR_CODE"
 author: windows-sdk-content
 description: The USB_USER_ERROR_CODE enumeration lists the error codes that a USB user-mode request reports when it fails.
 old-location: buses\usb_user_error_code.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 25dab683-70bd-4d3e-8295-d4a670c5b2ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_USER_ERROR_CODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_USER_ERROR_CODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_USER_ERROR_CODE
+req.redist: 
 ---
 
 # _USB_USER_ERROR_CODE enumeration

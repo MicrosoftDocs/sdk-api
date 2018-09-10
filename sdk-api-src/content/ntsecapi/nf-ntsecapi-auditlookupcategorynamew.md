@@ -4,17 +4,16 @@ title: AuditLookupCategoryNameW function
 author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy category.
 old-location: security\auditlookupcategoryname_func.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8b30d864-8eb5-42d8-bc9a-a9eae1de5187
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security], AuditLookupCategoryNameA, AuditLookupCategoryNameW, ntsecapi/AuditLookupCategoryName, ntsecapi/AuditLookupCategoryNameA, ntsecapi/AuditLookupCategoryNameW, security.auditlookupcategoryname_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - AuditLookupCategoryNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditLookupCategoryNameW function

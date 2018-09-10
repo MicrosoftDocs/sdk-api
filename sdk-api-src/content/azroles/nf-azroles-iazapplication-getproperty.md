@@ -4,17 +4,16 @@ title: IAzApplication::GetProperty
 author: windows-sdk-content
 description: Returns the IAzApplication object property with the specified property ID.
 old-location: security\iazapplication_getproperty.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cc2c7a59-497f-403f-8ed1-8a2d5b33c07d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_CHILD_CREATE, AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AZ_PROP_WRITABLE, AzApplication object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzApplication object, GetProperty method [Security],IAzApplication interface, IAzApplication interface [Security],GetProperty method, IAzApplication.GetProperty, IAzApplication::GetProperty, azroles/IAzApplication::GetProperty, security.iazapplication_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.GetProperty
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::GetProperty

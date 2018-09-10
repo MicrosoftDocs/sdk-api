@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_LastError
 author: windows-sdk-content
 description: The error message from the last time the job was run.
 old-location: fsrm\ifsrmfilemanagementjob_lasterror.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f7a7d5fd-b060-41f6-be1f-038ab252259a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastError property, IFsrmFileManagementJob.LastError, IFsrmFileManagementJob.get_LastError, IFsrmFileManagementJob::LastError, IFsrmFileManagementJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lasterror, fsrm.ifsrmfilemanagementjob_lasterror, fsrmreports/IFsrmFileManagementJob::LastError, fsrmreports/IFsrmFileManagementJob::get_LastError, get_LastError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileManagementJob.get_LastError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_LastError

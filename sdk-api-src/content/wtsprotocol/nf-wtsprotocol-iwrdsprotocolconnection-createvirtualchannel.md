@@ -4,17 +4,16 @@ title: IWRdsProtocolConnection::CreateVirtualChannel
 author: windows-sdk-content
 description: Requests that the protocol create a virtual channel.
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWRdsProtocolConnection interface, FALSE, IWRdsProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWRdsProtocolConnection.CreateVirtualChannel, IWRdsProtocolConnection::CreateVirtualChannel, TRUE, termserv.iwrdsprotocolconnection_createvirtualchannel, wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolConnection.CreateVirtualChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolConnection::CreateVirtualChannel

@@ -4,17 +4,16 @@ title: GetVersionExA function
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersionEx API has changed in the value it will return for the operating system version. The value returned by the GetVersionEx function now depends on how the application is manifested.
 old-location: base\getversionex.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 8e3ab4d6-bacd-4bc5-b8f6-dd49289354de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetVersionExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetVersionExA function

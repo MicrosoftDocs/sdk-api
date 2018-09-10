@@ -4,17 +4,16 @@ title: IUPnPDevice::get_HasChildren
 author: windows-sdk-content
 description: The HasChildren property specifies whether the device has any child devices.
 old-location: upnp\iupnpdevice_haschildren.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 18a7c7e0-389d-4fc4-b98c-4eb1afea4a7e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_HasChildren method, IUPnPDevice.get_HasChildren, IUPnPDevice::get_HasChildren, _upnp_iupnpdevice_haschildren, get_HasChildren, get_HasChildren method [UPnP APIs], get_HasChildren method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_haschildren, upnp/IUPnPDevice::get_HasChildren
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_HasChildren
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_HasChildren

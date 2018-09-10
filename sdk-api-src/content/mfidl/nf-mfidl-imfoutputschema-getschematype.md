@@ -4,17 +4,16 @@ title: IMFOutputSchema::GetSchemaType
 author: windows-sdk-content
 description: Retrieves the output protection system that is represented by this object. Output protection systems are identified by GUID value.
 old-location: mf\imfoutputschema_getschematype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c, GetSchemaType, GetSchemaType method [Media Foundation], GetSchemaType method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetSchemaType method, IMFOutputSchema.GetSchemaType, IMFOutputSchema::GetSchemaType, mf.imfoutputschema_getschematype, mfidl/IMFOutputSchema::GetSchemaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFOutputSchema.GetSchemaType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFOutputSchema::GetSchemaType

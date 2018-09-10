@@ -4,17 +4,16 @@ title: IBasicVideo::get_DestinationHeight
 author: windows-sdk-content
 description: The get_DestinationHeight method retrieves the height of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationheight.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IBasicVideo.get_DestinationHeight, IBasicVideo::get_DestinationHeight, IBasicVideoget_DestinationHeight, control/IBasicVideo::get_DestinationHeight, dshow.ibasicvideo_get_destinationheight, get_DestinationHeight, get_DestinationHeight method [DirectShow], get_DestinationHeight method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_DestinationHeight
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_DestinationHeight

@@ -4,17 +4,16 @@ title: IBDA_FDC::RequestTables
 author: windows-sdk-content
 description: Requests MPEG-2 table sections, filtered by table identifier (TID).
 old-location: mstv\ibda_fdc_requesttables.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ff8483d3-6c4c-4786-a99b-bf3575a18fdb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RequestTables method, IBDA_FDC.RequestTables, IBDA_FDC::RequestTables, RequestTables, RequestTables method [Microsoft TV Technologies], RequestTables method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RequestTables, mstv.ibda_fdc_requesttables
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FDC.RequestTables
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FDC::RequestTables

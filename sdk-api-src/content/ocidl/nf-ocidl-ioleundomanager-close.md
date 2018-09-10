@@ -4,17 +4,16 @@ title: IOleUndoManager::Close
 author: windows-sdk-content
 description: Closes the specified parent undo unit.
 old-location: com\ioleundomanager_close.htm
-old-project: com
+tech.root: com
 ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Close method, IOleUndoManager.Close, IOleUndoManager::Close, _ole_ioleundomanager_close, com.ioleundomanager_close, ocidl/IOleUndoManager::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoManager.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoManager::Close

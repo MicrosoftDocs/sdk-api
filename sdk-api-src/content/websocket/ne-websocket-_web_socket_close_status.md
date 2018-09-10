@@ -4,7 +4,7 @@ title: "_WEB_SOCKET_CLOSE_STATUS"
 author: windows-sdk-content
 description: Specifies the WebSocket close status.
 old-location: websock\web_socket_close_status.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: bd2c279c-ae6c-469a-8a97-d46fca042126
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_CLOSE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WEB_SOCKET_CLOSE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WEB_SOCKET_CLOSE_STATUS
+req.redist: 
 ---
 
 # _WEB_SOCKET_CLOSE_STATUS enumeration

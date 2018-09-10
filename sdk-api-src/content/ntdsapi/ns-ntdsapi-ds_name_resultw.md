@@ -4,7 +4,7 @@ title: DS_NAME_RESULTW
 author: windows-sdk-content
 description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
 old-location: ad\ds_name_result.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 8c3cedae-f998-482c-95db-33bca94e119b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_NAME_RESULTW, *PDS_NAME_RESULTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DS_NAME_RESULTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_NAME_RESULTW, *PDS_NAME_RESULTW
+req.redist: 
 ---
 
 # DS_NAME_RESULTW structure

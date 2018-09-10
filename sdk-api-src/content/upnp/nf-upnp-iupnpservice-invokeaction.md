@@ -4,17 +4,16 @@ title: IUPnPService::InvokeAction
 author: windows-sdk-content
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPService.InvokeAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPService::InvokeAction
@@ -68,17 +66,17 @@ Specifies the method to invoke.
 
 ### -param vInActionArgs
 
-
+TBD
 
 
 ### -param pvOutActionArgs
 
-
+TBD
 
 
 ### -param pvRetVal
 
-
+TBD
 
 
 

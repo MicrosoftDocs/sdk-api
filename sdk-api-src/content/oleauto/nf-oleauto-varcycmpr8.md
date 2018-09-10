@@ -4,17 +4,16 @@ title: VarCyCmpR8 function
 author: windows-sdk-content
 description: Compares a variant of type currency with a value of type double.
 old-location: automat\varcycmpr8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, automat.varcycmpr8, oleauto/VarCyCmpR8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyCmpR8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyCmpR8 function

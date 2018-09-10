@@ -4,17 +4,16 @@ title: INetDiagHelper::GetKeyAttributes
 author: windows-sdk-content
 description: Retrieves the key attributes of the Helper Class Extension.
 old-location: ndf\inetdiaghelpe_getkeyattributes.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: f9501450-a883-4941-a03f-ab735acca82f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetKeyAttributes, GetKeyAttributes method [NDF], GetKeyAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetKeyAttributes method, INetDiagHelper.GetKeyAttributes, INetDiagHelper::GetKeyAttributes, ndf.inetdiaghelpe_getkeyattributes, ndhelper/INetDiagHelper::GetKeyAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetKeyAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetKeyAttributes

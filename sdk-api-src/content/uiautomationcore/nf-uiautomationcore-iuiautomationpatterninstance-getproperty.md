@@ -4,17 +4,16 @@ title: IUIAutomationPatternInstance::GetProperty
 author: windows-sdk-content
 description: The client wrapper object implements the IUIAutomation::get_CurrentX and IUIAutomationElement::get_CachedX methods by calling this function, specifying the property by index.
 old-location: winauto\uiauto_IUIAutomationPatternInstance_GetProperty.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: cb64569f-799b-4e9a-a9f4-84513b98c941
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Windows Accessibility], GetProperty method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],GetProperty method, IUIAutomationPatternInstance.GetProperty, IUIAutomationPatternInstance::GetProperty, uiauto.uiauto_IUIAutomationPatternInstance_GetProperty, uiauto_IUIAutomationPatternInstance_GetProperty, uiautomationcore/IUIAutomationPatternInstance::GetProperty, winauto.uiauto_IUIAutomationPatternInstance_GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationPatternInstance.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationPatternInstance::GetProperty
@@ -62,7 +60,7 @@ The client wrapper object implements the <b>IUIAutomation::get_Current</b><i>X</
 
 ### -param index
 
-
+TBD
 
 
 ### -param cached [in]
@@ -72,9 +70,9 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 <b>TRUE</b> if the property should be retrieved from the cache, otherwise <b>FALSE</b>.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param pPtr [out, retval]

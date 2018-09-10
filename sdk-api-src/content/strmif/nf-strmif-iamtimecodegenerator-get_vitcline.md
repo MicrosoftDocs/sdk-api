@@ -4,17 +4,16 @@ title: IAMTimecodeGenerator::get_VITCLine
 author: windows-sdk-content
 description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],get_VITCLine method, IAMTimecodeGenerator.get_VITCLine, IAMTimecodeGenerator::get_VITCLine, IAMTimecodeGeneratorget_VITCLine, dshow.iamtimecodegenerator_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::get_VITCLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTimecodeGenerator.get_VITCLine
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTimecodeGenerator::get_VITCLine

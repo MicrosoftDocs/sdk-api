@@ -4,17 +4,16 @@ title: PathRelativePathToW function
 author: windows-sdk-content
 description: Creates a relative path from one file or folder to another.
 old-location: shell\PathRelativePathTo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathRelativePathToW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathRelativePathToW function

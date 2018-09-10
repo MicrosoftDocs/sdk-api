@@ -4,17 +4,16 @@ title: ComDBResizeDatabase function
 author: windows-sdk-content
 description: ComDBResizeDatabase resizes the COM port database.
 old-location: serports\comdbresizedatabase.htm
-old-project: serports
+tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml, msports/ComDBResizeDatabase, serports.comdbresizedatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ComDBResizeDatabase
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ComDBResizeDatabase function

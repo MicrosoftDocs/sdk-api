@@ -4,7 +4,7 @@ title: PHONE_LAMP_MODE
 author: windows-sdk-content
 description: The PHONE_LAMP_MODE enum provides indicators of a phone lamp's status.
 old-location: tapi3\phone_lamp_mode.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cb971936-269c-4e59-bfc1-a3edc977ceb5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONE_LAMP_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONE_LAMP_MODE
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONE_LAMP_MODE
+req.redist: 
 ---
 
 # PHONE_LAMP_MODE enumeration

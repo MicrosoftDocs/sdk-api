@@ -4,17 +4,16 @@ title: ICertEncodeLongArray::Reset
 author: windows-sdk-content
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4b5821e0-c81a-47b7-98b0-2a293967d8f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLongArray interface [Security],Reset method, ICertEncodeLongArray.Reset, ICertEncodeLongArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeLongArray object, Reset method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeLongArray.Reset
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray::Reset

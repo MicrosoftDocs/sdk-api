@@ -4,7 +4,7 @@ title: IAppVisibilityEvents
 author: windows-sdk-content
 description: Enables applications to receive notifications of state changes in a display and of changes in Start screen visibility.
 old-location: shell\IAppVisibilityEvents.htm
-old-project: shell
+tech.root: shell
 ms.assetid: F6BABF7D-FA05-4A68-878F-A27A6990EC3F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Twinapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAppVisibilityEvents
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAppVisibilityEvents interface

@@ -4,17 +4,16 @@ title: ICertEncodeDateArray::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
 old-location: security\icertencodedatearray_decode.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeDateArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeDateArray object, Decode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Decode method, ICertEncodeDateArray.Decode, ICertEncodeDateArray::Decode, _certsrv_icertencodedatearray_decode, certenc/ICertEncodeDateArray::Decode, security.icertencodedatearray_decode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeDateArray.Decode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeDateArray::Decode

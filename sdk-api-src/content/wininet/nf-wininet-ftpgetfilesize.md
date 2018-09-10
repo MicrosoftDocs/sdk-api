@@ -4,17 +4,16 @@ title: FtpGetFileSize function
 author: windows-sdk-content
 description: Retrieves the file size of the requested FTP resource.
 old-location: wininet\ftpgetfilesize.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: f6cc696b-55b6-4d21-9401-fbb15062d0b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FtpGetFileSize, FtpGetFileSize function [WinINet], _inet_ftpgetfilesize_function, wininet.ftpgetfilesize, wininet/FtpGetFileSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FtpGetFileSize
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpGetFileSize function

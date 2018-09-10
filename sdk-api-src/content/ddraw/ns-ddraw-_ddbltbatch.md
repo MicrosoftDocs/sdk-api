@@ -4,7 +4,7 @@ title: "_DDBLTBATCH"
 author: windows-sdk-content
 description: The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the IDirectDrawSurface7::BltBatch method.
 old-location: directdraw\ddbltbatch.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: d8c302aa-9c57-41f8-ad22-d8fdd1158c3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDBLTBATCH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDBLTBATCH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDBLTBATCH
+req.redist: 
 ---
 
 # _DDBLTBATCH structure

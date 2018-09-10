@@ -4,7 +4,7 @@ title: SIP_DISPATCH_INFO_
 author: windows-sdk-content
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
 old-location: security\sip_dispatch_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIP_DISPATCH_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
+req.redist: 
 ---
 
 # SIP_DISPATCH_INFO_ structure

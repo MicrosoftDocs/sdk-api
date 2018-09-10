@@ -4,17 +4,16 @@ title: ISimilarityTraitsTable::CloseTable
 author: windows-sdk-content
 description: Closes a similarity traits table.
 old-location: rdc\isimilaritytraitstable_closetable.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 941f1e81-035d-4935-bcdf-8c9c6ad9ed4d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CloseTable method, ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsTable.CloseTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsTable::CloseTable

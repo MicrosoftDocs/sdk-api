@@ -4,17 +4,16 @@ title: AVIStreamNextKeyFrame macro
 author: windows-sdk-content
 description: The AVIStreamNextKeyFrame macro locates the next key frame following a specified position in a stream.
 old-location: multimedia\avistreamnextkeyframe.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 928b5deb-2f68-4fed-98cf-8130379c8622
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamNextKeyFrame, AVIStreamNextKeyFrame macro [Windows Multimedia], _win32_AVIStreamNextKeyFrame, multimedia.avistreamnextkeyframe, vfw/AVIStreamNextKeyFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamNextKeyFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamNextKeyFrame macro

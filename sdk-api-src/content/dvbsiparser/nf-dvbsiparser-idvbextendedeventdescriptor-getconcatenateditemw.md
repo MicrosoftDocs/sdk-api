@@ -4,17 +4,16 @@ title: IDvbExtendedEventDescriptor::GetConcatenatedItemW
 author: windows-sdk-content
 description: Concatenates the bytes from the item in the current Digital Video Broadcast (DVB) extended event descriptor with the bytes from the item in the next DVB extended event descriptor and returns the concatenated data as a Unicode string.
 old-location: mstv\idvbextendedeventdescriptor_getconcatenateditemw.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9b90a2de-8447-4038-9a11-1db74ebd2feb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetConcatenatedItemW, GetConcatenatedItemW method [Microsoft TV Technologies], GetConcatenatedItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetConcatenatedItemW method, IDvbExtendedEventDescriptor.GetConcatenatedItemW, IDvbExtendedEventDescriptor::GetConcatenatedItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedItemW, mstv.idvbextendedeventdescriptor_getconcatenateditemw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbExtendedEventDescriptor.GetConcatenatedItemW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbExtendedEventDescriptor::GetConcatenatedItemW

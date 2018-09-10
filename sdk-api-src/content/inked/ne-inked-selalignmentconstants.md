@@ -4,7 +4,7 @@ title: SelAlignmentConstants
 author: windows-sdk-content
 description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.
 old-location: tablet\selalignmentconstants.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fdf5be40-e853-43a5-b1ac-b810c31fbeb3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SelAlignmentConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SelAlignmentConstants
+req.redist: 
 ---
 
 # SelAlignmentConstants enumeration

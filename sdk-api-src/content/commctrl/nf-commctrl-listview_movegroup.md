@@ -4,17 +4,16 @@ title: ListView_MoveGroup macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveGroup.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_movegroup.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListView_MoveGroup, ListView_MoveGroup macro [Windows Controls], _win32_ListView_MoveGroup, _win32_ListView_MoveGroup_cpp, commctrl/ListView_MoveGroup, controls.ListView_MoveGroup, controls._win32_ListView_MoveGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_MoveGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_MoveGroup macro

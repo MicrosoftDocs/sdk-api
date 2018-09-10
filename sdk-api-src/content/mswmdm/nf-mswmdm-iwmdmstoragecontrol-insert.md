@@ -4,17 +4,16 @@ title: IWMDMStorageControl::Insert
 author: windows-sdk-content
 description: The Insert method puts content into the storage on the device.
 old-location: wmdm\iwmdmstoragecontrol_insert.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 909b94fd-99de-4e26-87d6-d074a6eb5da3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageControl.Insert
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl::Insert

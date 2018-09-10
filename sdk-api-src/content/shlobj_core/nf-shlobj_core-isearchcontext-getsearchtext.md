@@ -4,17 +4,16 @@ title: ISearchContext::GetSearchText
 author: windows-sdk-content
 description: Retrieves the text that is in the browser's Address bar.
 old-location: shell\ISearchContext_GetSearchText.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d38946be-8fd3-46e2-953e-8e94bcad4b81
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSearchText, GetSearchText method [Windows Shell], GetSearchText method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchText method, ISearchContext.GetSearchText, ISearchContext::GetSearchText, _shell_ISearchContext_GetSearchText, shell.ISearchContext_GetSearchText, shlobj_core/ISearchContext::GetSearchText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchContext.GetSearchText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchContext::GetSearchText

@@ -4,7 +4,7 @@ title: PSS_AUXILIARY_PAGE_ENTRY
 author: windows-sdk-content
 description: Holds auxiliary page entry information returned by PssWalkSnapshot.
 old-location: proc_snap\pss_auxiliary_page_entry.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: A3D948E6-6FFE-4732-A8C7-A292FDA07D7C
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_AUXILIARY_PAGE_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_AUXILIARY_PAGE_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_AUXILIARY_PAGE_ENTRY
+req.redist: 
 ---
 
 # PSS_AUXILIARY_PAGE_ENTRY structure

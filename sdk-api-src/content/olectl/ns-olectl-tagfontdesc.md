@@ -4,7 +4,7 @@ title: tagFONTDESC
 author: windows-sdk-content
 description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
 old-location: com\fontdesc.htm
-old-project: com
+tech.root: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FONTDESC, *LPFONTDESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FONTDESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FONTDESC, *LPFONTDESC
+req.redist: 
 ---
 
 # tagFONTDESC structure

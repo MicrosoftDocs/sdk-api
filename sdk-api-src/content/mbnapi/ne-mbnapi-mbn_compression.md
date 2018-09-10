@@ -4,7 +4,7 @@ title: MBN_COMPRESSION
 author: windows-sdk-content
 description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.
 old-location: mbn\mbn_compression.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: fd5cbfba-2eea-4d81-9733-33feb402fd8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_COMPRESSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_COMPRESSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_COMPRESSION
+req.redist: 
 ---
 
 # MBN_COMPRESSION enumeration

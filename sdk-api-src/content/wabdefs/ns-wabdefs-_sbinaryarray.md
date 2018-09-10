@@ -4,7 +4,7 @@ title: "_SBinaryArray"
 author: windows-sdk-content
 description: Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as SBinaryArray.
 old-location: wab\_wab_ENTRYLIST.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entrylist.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SBinaryArray
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ENTRYLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SBinaryArray
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

@@ -4,7 +4,7 @@ title: ITranscodeImage
 author: windows-sdk-content
 description: Exposes a method that allows conversion to JPEG or bitmap (BMP) image formats from any image type supported by Windows.
 old-location: shell\ITranscodeImage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imagetranscode.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: 
+req.dll: Photometadatahandler.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITranscodeImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Photometadatahandler.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITranscodeImage interface

@@ -4,17 +4,16 @@ title: ResUtilGetResourceDependentIPAddressProps function
 author: windows-sdk-content
 description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependentipaddressprops.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS function [Failover Cluster], ResUtilGetResourceDependentIPAddressProps, ResUtilGetResourceDependentIPAddressProps function [Failover Cluster], _wolf_resutilgetresourcedependentipaddressprops, mscs.resutilgetresourcedependentipaddressprops, resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, resapi/ResUtilGetResourceDependentIPAddressProps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetResourceDependentIPAddressProps
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetResourceDependentIPAddressProps function

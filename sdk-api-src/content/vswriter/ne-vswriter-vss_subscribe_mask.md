@@ -4,7 +4,7 @@ title: VSS_SUBSCRIBE_MASK
 author: windows-sdk-content
 description: Indicates the events that the writer is willing to receive.
 old-location: base\vss_subscribe_mask.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 4aa3afe4-98da-4376-b795-75bf404aaed9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SUBSCRIBE_MASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SUBSCRIBE_MASK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SUBSCRIBE_MASK
+req.redist: 
 ---
 
 # VSS_SUBSCRIBE_MASK enumeration

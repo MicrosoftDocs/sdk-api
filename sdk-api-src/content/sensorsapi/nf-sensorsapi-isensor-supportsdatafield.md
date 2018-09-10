@@ -4,17 +4,16 @@ title: ISensor::SupportsDataField
 author: windows-sdk-content
 description: Indicates whether the sensor supports the specified data field.
 old-location: winsensors_com_ref\isensor_supportsdatafield.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 95e7211f-9335-4ecf-b9e9-b86ec6a63cba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensor interface,SupportsDataField method, ISensor.SupportsDataField, ISensor::SupportsDataField, SupportsDataField, SupportsDataField method, SupportsDataField method,ISensor interface, sensorsapi/ISensor::SupportsDataField, winsensors_com_ref.isensor_supportsdatafield
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.SupportsDataField
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::SupportsDataField

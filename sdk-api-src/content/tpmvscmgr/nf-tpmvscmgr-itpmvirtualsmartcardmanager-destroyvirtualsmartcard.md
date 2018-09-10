@@ -4,17 +4,16 @@ title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 author: windows-sdk-content
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DestroyVirtualSmartCard, DestroyVirtualSmartCard method [Security], DestroyVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],DestroyVirtualSmartCard method, ITpmVirtualSmartCardManager.DestroyVirtualSmartCard, ITpmVirtualSmartCardManager::DestroyVirtualSmartCard, security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tpmvscmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Vscmgr.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 product: Windows
 targetos: Windows
-req.lib: Vscmgr.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
@@ -63,7 +61,7 @@ Destroys the TPM virtual smart card that has the given instance ID.
 
 ### -param pszInstanceId
 
-
+TBD
 
 
 ### -param pStatusCallback [in, optional]

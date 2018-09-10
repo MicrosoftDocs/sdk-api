@@ -4,17 +4,16 @@ title: IScheduleCollection::CreateSchedule
 author: windows-sdk-content
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduleCollection.CreateSchedule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduleCollection::CreateSchedule

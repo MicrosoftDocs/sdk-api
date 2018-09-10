@@ -4,17 +4,16 @@ title: IPBDASiParser::Initialize
 author: windows-sdk-content
 description: Initializes a program and system information protocol (PSIP) parser for a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPBDASiParser.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPBDASiParser::Initialize

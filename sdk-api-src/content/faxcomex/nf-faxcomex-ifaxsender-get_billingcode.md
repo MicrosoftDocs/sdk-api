@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxSender.get_BillingCode
 title: IFaxSender::get_BillingCode
 author: windows-sdk-content
-description: The BillingCode property is a null-terminated string that contains the billing code associated with the sender.
-old-location: fax\_mfax_faxsender_billingcode_vb.htm
-old-project: Fax
+description: The IFaxSender::get_BillingCode property is a null-terminated string that contains the billing code associated with the sender.
+old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6f39.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],FaxSender object, FaxSender object [Fax Service],BillingCode property, FaxSender.BillingCode, IFaxSender.get_BillingCode, IFaxSender::get_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_billingcode_vb, get_BillingCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],BillingCode property, IFaxSender.BillingCode, IFaxSender.get_BillingCode, IFaxSender::BillingCode, IFaxSender::get_BillingCode, IFaxSender::put_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp, faxcomex/IFaxSender::BillingCode, faxcomex/IFaxSender::get_BillingCode, faxcomex/IFaxSender::put_BillingCode, get_BillingCode
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxSender.BillingCode
+ - IFaxSender.BillingCode
+ - IFaxSender.get_BillingCode
+ - IFaxSender.put_BillingCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxSender::get_BillingCode
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>BillingCode</b> property is a null-terminated string that contains the billing code associated with the sender.
+The <b>IFaxSender::get_BillingCode</b> property is a null-terminated string that contains the billing code associated with the sender.
 
 This property is read/write.
 

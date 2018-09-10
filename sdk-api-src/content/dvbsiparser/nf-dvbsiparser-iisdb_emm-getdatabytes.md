@@ -4,17 +4,16 @@ title: IISDB_EMM::GetDataBytes
 author: windows-sdk-content
 description: Gets the data from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getdatabytes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 71d92f83-f802-4b5c-a3de-4a2ad675318a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetDataBytes method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetDataBytes method, IISDB_EMM.GetDataBytes, IISDB_EMM::GetDataBytes, dvbsiparser/IISDB_EMM::GetDataBytes, mstv.iisdb_emm_getdatabytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_EMM.GetDataBytes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_EMM::GetDataBytes

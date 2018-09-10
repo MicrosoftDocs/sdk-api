@@ -4,17 +4,16 @@ title: IInkCursors::Item
 author: windows-sdk-content
 description: Returns the IInkCursor object at the specified index within the IInkCursors collection.
 old-location: tablet\iinkcursors_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkCursors.Item
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCursors::Item
@@ -66,7 +64,7 @@ Returns the <a href="https://msdn.microsoft.com/39b365ad-1eb0-4183-8799-a3c3ecbd
 
 ### -param Index
 
-
+TBD
 
 
 ### -param Cursor [out, retval]

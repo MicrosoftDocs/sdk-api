@@ -4,17 +4,16 @@ title: DrawThemeEdge function
 author: windows-sdk-content
 description: Draws one or more edges defined by the visual style of a rectangle.
 old-location: controls\DrawThemeEdge.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeedge.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawThemeEdge, DrawThemeEdge function [Windows Controls], controls.DrawThemeEdge, controls.inet_DrawThemeEdge, inet_DrawThemeEdge, inet_DrawThemeEdge_cpp, uxtheme/DrawThemeEdge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrawThemeEdge
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawThemeEdge function

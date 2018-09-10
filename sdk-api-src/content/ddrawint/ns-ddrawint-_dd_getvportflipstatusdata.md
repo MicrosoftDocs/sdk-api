@@ -4,7 +4,7 @@ title: "_DD_GETVPORTFLIPSTATUSDATA"
 author: windows-sdk-content
 description: The DD_GETVPORTFLIPSTATUSDATA structure contains the flip status information for the specified surface.
 old-location: display\dd_getvportflipstatusdata.htm
-old-project: display
+tech.root: display
 ms.assetid: 64be9019-a75f-42db-a636-b767f87c1858
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_GETVPORTFLIPSTATUSDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA"
+req.redist: 
 ---
 
 # _DD_GETVPORTFLIPSTATUSDATA structure

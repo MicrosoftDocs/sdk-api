@@ -4,17 +4,16 @@ title: LogTailAdvanceFailure function
 author: windows-sdk-content
 description: The LogTailAdvanceFailure function is called by a log client to indicate that it cannot comply with a request from log management to advance its tail.
 old-location: fs\logtailadvancefailure.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 4f57f7c9-e54b-4e64-a3d7-53e6f3d7ec98
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: LogTailAdvanceFailure, LogTailAdvanceFailure function [Files], clfsmgmtw32/LogTailAdvanceFailure, fs.logtailadvancefailure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: ClfsW32.lib
+req.dll: ClfsW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LogTailAdvanceFailure
 product: Windows
 targetos: Windows
-req.lib: ClfsW32.lib
-req.dll: ClfsW32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LogTailAdvanceFailure function

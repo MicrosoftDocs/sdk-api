@@ -4,17 +4,16 @@ title: INetFwRule::put_Protocol
 author: windows-sdk-content
 description: Specifies the IP protocol of this rule.
 old-location: ics\inetfwrule_protocol.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 16f61a1d-770a-4be9-a43d-10ff9fe276fb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protocol, INetFwRule.put_Protocol, INetFwRule::Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwRule interface, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol, put_Protocol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Protocol
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_Protocol

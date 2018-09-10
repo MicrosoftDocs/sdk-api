@@ -4,17 +4,16 @@ title: IOleObject::Advise
 author: windows-sdk-content
 description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.
 old-location: com\ioleobject_advise.htm
-old-project: com
+tech.root: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleObject interface, IOleObject interface [COM],Advise method, IOleObject.Advise, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::Advise

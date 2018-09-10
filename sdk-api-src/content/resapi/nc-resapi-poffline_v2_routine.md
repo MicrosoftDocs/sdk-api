@@ -4,7 +4,7 @@ title: POFFLINE_V2_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offlinev2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2983B328-08ED-4DA6-8DC2-79D44C710888
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OfflineV2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # POFFLINE_V2_ROUTINE callback function

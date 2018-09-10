@@ -4,17 +4,16 @@ title: COLORS macro
 author: windows-sdk-content
 description: The COLORS macro retrieves the palette entries from a VIDEOINFO structure.
 old-location: dshow\colors.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmbase.lib (retail builds); Strmbasd.lib (debug builds)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - COLORS
 product: Windows
 targetos: Windows
-req.lib: Strmbase.lib (retail builds); Strmbasd.lib (debug builds)
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # COLORS macro

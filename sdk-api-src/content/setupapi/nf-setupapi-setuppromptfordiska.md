@@ -4,17 +4,16 @@ title: SetupPromptForDiskA function
 author: windows-sdk-content
 description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk.
 old-location: setup\setuppromptfordisk.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupPromptForDiskW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupPromptForDiskA function

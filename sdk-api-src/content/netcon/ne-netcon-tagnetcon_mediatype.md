@@ -4,7 +4,7 @@ title: tagNETCON_MEDIATYPE
 author: windows-sdk-content
 description: The values of the NETCON_MEDIATYPE enumerate the possible ways the computer connects to the network.
 old-location: ics\netcon_mediatype.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 9236371c-0e3f-43ba-a02f-0770768008ae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ndhelper.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETCON_MEDIATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETCON_MEDIATYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NETCON_MEDIATYPE
+req.redist: 
 ---
 
 # tagNETCON_MEDIATYPE enumeration

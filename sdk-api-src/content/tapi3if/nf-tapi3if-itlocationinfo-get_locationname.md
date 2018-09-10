@@ -4,17 +4,16 @@ title: ITLocationInfo::get_LocationName
 author: windows-sdk-content
 description: The get_LocationName method gets the location name.
 old-location: tapi3\itlocationinfo_get_locationname.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2bd86295-8240-477d-90aa-f3061666c5e6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocationName method, ITLocationInfo.get_LocationName, ITLocationInfo::get_LocationName, _tapi3_itlocationinfo_get_locationname, get_LocationName, get_LocationName method [TAPI 2.2], get_LocationName method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_locationname, tapi3if/ITLocationInfo::get_LocationName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLocationInfo.get_LocationName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLocationInfo::get_LocationName

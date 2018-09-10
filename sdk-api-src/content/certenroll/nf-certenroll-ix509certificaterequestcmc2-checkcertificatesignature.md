@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc2::CheckCertificateSignature
 author: windows-sdk-content
 description: Verifies the signature for a specified signer.
 old-location: security\ix509certificaterequestcmc2_checkcertificatesignature.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 10ccda23-98d7-49ad-bb0c-60050d01892d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestCmc2.CheckCertificateSignature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc2::CheckCertificateSignature

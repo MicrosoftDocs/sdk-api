@@ -4,17 +4,16 @@ title: IWMProfile::GetMutualExclusionCount
 author: windows-sdk-content
 description: The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.
 old-location: wmformat\iwmprofile_getmutualexclusioncount.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: c223f75b-87c6-49bd-a16a-14b4751d5f1b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMutualExclusionCount, GetMutualExclusionCount method [windows Media Format], GetMutualExclusionCount method [windows Media Format],IWMProfile interface, GetMutualExclusionCount method [windows Media Format],IWMProfile2 interface, GetMutualExclusionCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusionCount method, IWMProfile.GetMutualExclusionCount, IWMProfile2 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile2::GetMutualExclusionCount, IWMProfile3 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile3::GetMutualExclusionCount, IWMProfile::GetMutualExclusionCount, IWMProfileGetMutualExclusionCount, wmformat.iwmprofile_getmutualexclusioncount, wmsdkidl/IWMProfile2::GetMutualExclusionCount, wmsdkidl/IWMProfile3::GetMutualExclusionCount, wmsdkidl/IWMProfile::GetMutualExclusionCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.GetMutualExclusionCount
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::GetMutualExclusionCount

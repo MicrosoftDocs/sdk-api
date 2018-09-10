@@ -4,17 +4,16 @@ title: IISDB_SDTT::GetRecordCountOfSchedules
 author: windows-sdk-content
 description: Returns the number of schedules from a record in an Information for Digital Broadcasting System (IDBS) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordcountofschedules.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c8f757de-779c-43df-9f24-caf527e91f03
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordCountOfSchedules, GetRecordCountOfSchedules method [Microsoft TV Technologies], GetRecordCountOfSchedules method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordCountOfSchedules method, IISDB_SDTT.GetRecordCountOfSchedules, IISDB_SDTT::GetRecordCountOfSchedules, dvbsiparser/IISDB_SDTT::GetRecordCountOfSchedules, mstv.iisdb_sdtt_getrecordcountofschedules
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IISDB_SDTT.GetRecordCountOfSchedules
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IISDB_SDTT::GetRecordCountOfSchedules

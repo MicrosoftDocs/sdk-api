@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxTiff.get_TiffTagString
 title: IFaxTiff::get_TiffTagString
 author: windows-sdk-content
 description: Retrieves the TiffTagString property for a FaxTiff object. The TiffTagString property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
-old-location: fax\_mfax_ifaxtiff_get_tifftagstring_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_tifftagstring_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pif.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxTiff object [Fax Service],TiffTagString property, FaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::get_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring_vb, get_TiffTagString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxTiff interface [Fax Service],TiffTagString property, IFaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::TiffTagString, IFaxTiff::get_TiffTagString, IFaxTiff::put_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_tifftagstring_cpp, faxcom/IFaxTiff::TiffTagString, faxcom/IFaxTiff::get_TiffTagString, faxcom/IFaxTiff::put_TiffTagString, get_TiffTagString
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxTiff.TiffTagString
+ - IFaxTiff.TiffTagString
+ - IFaxTiff.get_TiffTagString
+ - IFaxTiff.put_TiffTagString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxTiff::get_TiffTagString
@@ -66,7 +66,7 @@ This property is read/write.
 
 For more information about Tagged Image File Format Class F (TIFF Class F) files, see <a href="https://msdn.microsoft.com/d7840c10-6059-40ed-9040-50eefefc7349">Fax Image Format</a>. For current information about TIFF tags, or for the list of valid TIFF tag numbers, contact Adobe Systems Incorporated.
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
 
 The <b>get_TiffTagString</b> method sets the <i>pVal</i> parameter to a string that represents the value of the TIFF tag, if it is available. If the information is not available, the method returns "Unavailable".
 
@@ -91,10 +91,6 @@ The <b>get_TiffTagString</b> method allocates the memory required for the buffer
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/98d385be-cebb-428e-92f7-22a1fc814c3c">FaxTiff</a>
 
 
 

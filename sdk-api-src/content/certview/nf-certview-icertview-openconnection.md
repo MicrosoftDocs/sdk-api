@@ -4,17 +4,16 @@ title: ICertView::OpenConnection
 author: windows-sdk-content
 description: Establishes a connection with a Certificate Services server.
 old-location: security\icertview2_openconnection.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],OpenConnection method, ICertView interface [Security],OpenConnection method, ICertView.OpenConnection, ICertView2 interface [Security],OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection, OpenConnection method [Security], OpenConnection method [Security],CCertView object, OpenConnection method [Security],ICertView interface, OpenConnection method [Security],ICertView2 interface, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertView.OpenConnection
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertView::OpenConnection

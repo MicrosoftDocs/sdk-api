@@ -4,17 +4,16 @@ title: IWMDMLogger::LogString
 author: windows-sdk-content
 description: The LogString method logs a string to the current log file. A carriage return and line feed are added to each log entry.
 old-location: wmdm\iwmdmlogger_logstring.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 6a084ef6-20dc-4363-b9b8-c4e9bcb1dd71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogString method, IWMDMLogger.LogString, IWMDMLogger::LogString, IWMDMLoggerLogString, LogString, LogString method [windows Media Device Manager], LogString method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logstring, wmdmlog/IWMDMLogger::LogString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASF_INDEX_IDENTIFIER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMLogger.LogString
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMLogger::LogString

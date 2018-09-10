@@ -4,7 +4,7 @@ title: "_TDH_CONTEXT"
 author: windows-sdk-content
 description: Defines the additional information required to parse an event.
 old-location: etw\tdh_context_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TDH_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TDH_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TDH_CONTEXT
+req.redist: 
 ---
 
 # _TDH_CONTEXT structure

@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_PRODUCT_DATA
 author: windows-sdk-content
 description: Retrieves the product data for the specified device.
 old-location: base\ioctl_changer_get_product_data.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 60744666-fb37-4263-8f4a-e7e043e6b71e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_CHANGER_GET_PRODUCT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL

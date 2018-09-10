@@ -4,17 +4,16 @@ title: IEventSubscription::put_PublisherID
 author: windows-sdk-content
 description: The unique ID of the event publisher.
 old-location: cos\ieventsubscription_publisherid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 94f335be-aeb5-4d24-b475-e2aaae2b0a17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventSubscription interface [COM+],PublisherID property, IEventSubscription.PublisherID, IEventSubscription.put_PublisherID, IEventSubscription::PublisherID, IEventSubscription::get_PublisherID, IEventSubscription::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+],IEventSubscription interface, cos.ieventsubscription_publisherid, eventsys/IEventSubscription::PublisherID, eventsys/IEventSubscription::get_PublisherID, eventsys/IEventSubscription::put_PublisherID, put_PublisherID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventSubscription.put_PublisherID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::put_PublisherID

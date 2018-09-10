@@ -4,7 +4,7 @@ title: WS_CHANNEL_BINDING
 author: windows-sdk-content
 description: Indicates the protocol stack to use for the channel.
 old-location: wsw\ws_channel_binding.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 554cc239-feab-4262-9821-6478a3d93ffc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CHANNEL_BINDING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CHANNEL_BINDING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CHANNEL_BINDING
+req.redist: 
 ---
 
 # WS_CHANNEL_BINDING enumeration

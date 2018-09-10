@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 63277b76-bd3f-4255-82be-24797cafd175
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentChildId property, IUIAutomationLegacyIAccessiblePattern.CurrentChildId, IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId, IUIAutomationLegacyIAccessiblePattern::CurrentChildId, IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, get_CurrentChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId

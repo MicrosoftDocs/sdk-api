@@ -4,17 +4,16 @@ title: IVisualProperties::SetColor
 author: windows-sdk-content
 description: Sets the color, as specified.
 old-location: shell\IVisualProperties_SetColor.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetColor method, IVisualProperties.SetColor, IVisualProperties::SetColor, SetColor, SetColor method [Windows Shell], SetColor method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetColor, shell.IVisualProperties_SetColor, shobjidl/IVisualProperties::SetColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualProperties.SetColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualProperties::SetColor

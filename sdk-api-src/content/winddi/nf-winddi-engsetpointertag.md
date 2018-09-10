@@ -4,17 +4,16 @@ title: EngSetPointerTag function
 author: windows-sdk-content
 description: The EngSetPointerTag function is obsolete for Windows 2000 and later operating system versions.
 old-location: display\engsetpointertag.htm
-old-project: display
+tech.root: display
 ms.assetid: a1a2c74c-c568-4abe-bf84-7e0ace2c44b0
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngSetPointerTag
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngSetPointerTag function

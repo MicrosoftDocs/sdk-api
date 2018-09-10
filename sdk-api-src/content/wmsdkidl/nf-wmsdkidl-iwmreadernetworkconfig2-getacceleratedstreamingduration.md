@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
 author: windows-sdk-content
 description: The GetAcceleratedStreamingDuration method retrieves the current accelerated streaming duration.
 old-location: wmformat\iwmreadernetworkconfig2_getacceleratedstreamingduration.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: a8feda02-113a-4763-b695-c4cd48781ade
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAcceleratedStreamingDuration, GetAcceleratedStreamingDuration method [windows Media Format], GetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2GetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_getacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration

@@ -4,17 +4,16 @@ title: GetManagedExtensions function
 author: windows-sdk-content
 description: Determines whether the installed version of COM+ supports special features provided to manage serviced components (managed objects).
 old-location: cos\getmanagedextensions.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: ComSvcs.lib
+req.dll: ComSvcs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetManagedExtensions
 product: Windows
 targetos: Windows
-req.lib: ComSvcs.lib
-req.dll: ComSvcs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetManagedExtensions function

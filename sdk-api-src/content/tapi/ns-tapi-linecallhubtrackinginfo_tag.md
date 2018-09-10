@@ -4,7 +4,7 @@ title: linecallhubtrackinginfo_tag
 author: windows-sdk-content
 description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
 old-location: tapi2\linecallhubtrackinginfo_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECALLHUBTRACKINGINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO
+req.redist: 
 ---
 
 # linecallhubtrackinginfo_tag structure

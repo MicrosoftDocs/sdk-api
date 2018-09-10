@@ -4,17 +4,16 @@ title: IObjectWithAppUserModelID::SetAppID
 author: windows-sdk-content
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the object as a handler for a specific file type. This method is used by applications that require dynamic AppUserModelIDs.
 old-location: shell\IObjectWithAppUserModelID_SetAppID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6f6850fc-2aa5-46fa-b237-82aafa844092
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IObjectWithAppUserModelID interface [Windows Shell],SetAppID method, IObjectWithAppUserModelID.SetAppID, IObjectWithAppUserModelID::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IObjectWithAppUserModelID interface, _shell_IObjectWithAppUserModelID_SetAppID, shell.IObjectWithAppUserModelID_SetAppID, shobjidl_core/IObjectWithAppUserModelID::SetAppID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithAppUserModelID.SetAppID
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithAppUserModelID::SetAppID

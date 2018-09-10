@@ -4,17 +4,16 @@ title: GetNtmsRequestOrder function
 author: windows-sdk-content
 description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.
 old-location: fs\getntmsrequestorder.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNtmsRequestOrder
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetNtmsRequestOrder function

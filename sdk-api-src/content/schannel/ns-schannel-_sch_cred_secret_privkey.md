@@ -4,7 +4,7 @@ title: "_SCH_CRED_SECRET_PRIVKEY"
 author: windows-sdk-content
 description: Contains private key information needed to authenticate a client or server.
 old-location: security\sch_cred_secret_privkey.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3d637716-e4cd-427c-bc80-7d0ace6ac521
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCH_CRED_SECRET_PRIVKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
+req.redist: 
 ---
 
 # _SCH_CRED_SECRET_PRIVKEY structure

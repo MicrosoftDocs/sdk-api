@@ -4,7 +4,7 @@ title: wavefilter_tag
 author: windows-sdk-content
 description: The WAVEFILTER structure defines a filter for waveform-audio data.
 old-location: multimedia\wavefilter.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAVEFILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WAVEFILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WAVEFILTER
+req.redist: 
 ---
 
 # wavefilter_tag structure

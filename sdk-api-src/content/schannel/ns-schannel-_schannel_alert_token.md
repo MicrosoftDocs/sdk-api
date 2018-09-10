@@ -4,7 +4,7 @@ title: "_SCHANNEL_ALERT_TOKEN"
 author: windows-sdk-content
 description: Generates a Secure Sockets Layer Protocol (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_alert_token.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 1c3a896d-4252-44ef-9e4b-6ad00e3d6f05
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_ALERT_TOKEN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_ALERT_TOKEN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHANNEL_ALERT_TOKEN
+req.redist: 
 ---
 
 # _SCHANNEL_ALERT_TOKEN structure

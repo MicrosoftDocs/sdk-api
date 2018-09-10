@@ -4,17 +4,16 @@ title: ISpatialAudioClient::GetNativeStaticObjectTypeMask
 author: windows-sdk-content
 description: Gets a channel mask which represents the subset of static speaker bed channels native to current rendering engine.
 old-location: coreaudio\ispatialaudioclient_getnativestaticobjecttypemask.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioClient.GetNativeStaticObjectTypeMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioClient::GetNativeStaticObjectTypeMask

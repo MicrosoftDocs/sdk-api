@@ -4,17 +4,16 @@ title: IWTSVirtualChannelManager::CreateListener
 author: windows-sdk-content
 description: Returns an instance of a listener object that listens on a specific endpoint.
 old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSVirtualChannelManager.CreateListener
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSVirtualChannelManager::CreateListener
@@ -67,7 +65,7 @@ The endpoint name on which the listener will listen. This is a string value, the
 
 ### -param uFlags
 
-
+TBD
 
 
 ### -param pListenerCallback [in, optional]

@@ -4,17 +4,16 @@ title: IWMPControls::put_currentMarker
 author: windows-sdk-content
 description: The put_currentMarker method specifies the current marker number.
 old-location: wmp\iwmpcontrols_put_currentmarker.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b48e50b3-46d2-4994-bbbf-668f4986109a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentMarker method, IWMPControls.put_currentMarker, IWMPControls::put_currentMarker, IWMPControlsput_currentMarker, put_currentMarker, put_currentMarker method [Windows Media Player], put_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentmarker, wmp/IWMPControls::put_currentMarker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls.put_currentMarker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls::put_currentMarker

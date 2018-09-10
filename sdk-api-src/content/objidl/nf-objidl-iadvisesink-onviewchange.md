@@ -4,17 +4,16 @@ title: IAdviseSink::OnViewChange
 author: windows-sdk-content
 description: Notifies an object's registered advise sinks that its view has changed.
 old-location: com\iadvisesink_onviewchange.htm
-old-project: com
+tech.root: com
 ms.assetid: f2cb3a5b-826b-428a-9e92-e5d08880bddc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAdviseSink interface [COM],OnViewChange method, IAdviseSink.OnViewChange, IAdviseSink::OnViewChange, OnViewChange, OnViewChange method [COM], OnViewChange method [COM],IAdviseSink interface, _ole_iadvisesink_onviewchange, com.iadvisesink_onviewchange, objidl/IAdviseSink::OnViewChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdviseSink.OnViewChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAdviseSink::OnViewChange

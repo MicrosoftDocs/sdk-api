@@ -4,17 +4,16 @@ title: IShellView::Refresh
 author: windows-sdk-content
 description: Refreshes the view's contents in response to user input.
 old-location: shell\IShellView_Refresh.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 510aea71-5885-4d23-8fe9-1fef4881cb18
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellView interface [Windows Shell],Refresh method, IShellView.Refresh, IShellView::Refresh, Refresh, Refresh method [Windows Shell], Refresh method [Windows Shell],IShellView interface, _win32_IShellView_Refresh, shell.IShellView_Refresh, shobjidl_core/IShellView::Refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.Refresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::Refresh

@@ -4,17 +4,16 @@ title: IMDSPEnumStorage::Next
 author: windows-sdk-content
 description: The Next method returns a pointer to the next celtIMDSPStorage interfaces.
 old-location: wmdm\imdspenumstorage_next.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7874912a-6350-445c-a7c8-0f885d756aa0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Next method, IMDSPEnumStorage.Next, IMDSPEnumStorage::Next, IMDSPEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Next, wmdm.imdspenumstorage_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPEnumStorage.Next
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPEnumStorage::Next

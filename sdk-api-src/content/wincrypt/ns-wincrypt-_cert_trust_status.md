@@ -4,7 +4,7 @@ title: "_CERT_TRUST_STATUS"
 author: windows-sdk-content
 description: Contains trust information about a certificate in a certificate chain, summary trust information about a simple chain of certificates, or summary information about an array of simple chains.
 old-location: security\cert_trust_status.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: af1e1db2-7b53-4491-8317-4abf3568fb03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_TRUST_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
+req.redist: 
 ---
 
 # _CERT_TRUST_STATUS structure

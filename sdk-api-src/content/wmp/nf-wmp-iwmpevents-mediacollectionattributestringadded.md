@@ -4,17 +4,16 @@ title: IWMPEvents::MediaCollectionAttributeStringAdded
 author: windows-sdk-content
 description: The MediaCollectionAttributeStringAdded event occurs when an attribute is added to the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringadded.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c18aa7d1-2788-473d-8ade-5e897b83a4d6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringAdded method, IWMPEvents.MediaCollectionAttributeStringAdded, IWMPEvents::MediaCollectionAttributeStringAdded, IWMPEventsMediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded method [Windows Media Player], MediaCollectionAttributeStringAdded method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringadded, wmp/IWMPEvents::MediaCollectionAttributeStringAdded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.MediaCollectionAttributeStringAdded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::MediaCollectionAttributeStringAdded

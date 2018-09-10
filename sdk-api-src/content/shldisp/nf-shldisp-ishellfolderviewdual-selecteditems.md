@@ -4,17 +4,16 @@ title: IShellFolderViewDual::SelectedItems
 author: windows-sdk-content
 description: Gets a FolderItems object that represents all of the selected items in the view.
 old-location: shell\IShellFolderViewDual_SelectedItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.SelectedItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::SelectedItems

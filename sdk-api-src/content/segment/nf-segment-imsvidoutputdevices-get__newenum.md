@@ -4,17 +4,16 @@ title: IMSVidOutputDevices::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidoutputdevices_get__newenum.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2f2203bb-9367-4713-8369-06002a5842e9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidOutputDevices.get__NewEnum, IMSVidOutputDevices::get__NewEnum, IMSVidOutputDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get__newenum, segment/IMSVidOutputDevices::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidOutputDevices.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidOutputDevices::get__NewEnum
@@ -62,7 +60,7 @@ The <b>get__NewEnum</b> method retrieves an enumerator for the collection.
 
 ### -param pD
 
-
+TBD
 
 
 

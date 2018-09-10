@@ -4,17 +4,16 @@ title: IVisualTreeService::ClearChildren
 author: windows-sdk-content
 description: Clears all child elements from the parent collection.
 old-location: xaml_diagnostics\ivisualtreeservice_clearchildren.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: E32B07F5-BB62-435A-A869-36A0E93915D9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearChildren, ClearChildren method, ClearChildren method,IVisualTreeService interface, IVisualTreeService interface,ClearChildren method, IVisualTreeService.ClearChildren, IVisualTreeService::ClearChildren, xaml_diagnostics.ivisualtreeservice_clearchildren, xamlom/IVisualTreeService::ClearChildren
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeService.ClearChildren
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeService::ClearChildren

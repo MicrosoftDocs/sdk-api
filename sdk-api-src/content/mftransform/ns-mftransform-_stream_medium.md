@@ -4,7 +4,7 @@ title: "_STREAM_MEDIUM"
 author: windows-sdk-content
 description: Not for application use.
 old-location: mf\stream_medium.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAM_MEDIUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
+req.redist: 
 ---
 
 # _STREAM_MEDIUM structure

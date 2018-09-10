@@ -4,17 +4,16 @@ title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc
 author: windows-sdk-content
 description: Gets the content description that was used to create this enumerator.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcontentdesc.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BDB52B2E-1D76-4867-AD58-2A77BC5B6ABD
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetVideoProcessorContentDesc, GetVideoProcessorContentDesc method [Media Foundation], GetVideoProcessorContentDesc method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorContentDesc method, ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc, ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, mf.id3d11videoprocessorenumerator_getvideoprocessorcontentdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc

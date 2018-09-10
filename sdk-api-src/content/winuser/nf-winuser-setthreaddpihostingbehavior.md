@@ -4,17 +4,16 @@ title: SetThreadDpiHostingBehavior function
 author: windows-sdk-content
 description: Sets the thread's DPI_HOSTING_BEHAVIOR. This behavior allows windows created in the thread to host child windows with a different DPI_AWARENESS_CONTEXT.
 old-location: hidpi\setthreaddpihostingbehavior.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetThreadDpiHostingBehavior
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadDpiHostingBehavior function

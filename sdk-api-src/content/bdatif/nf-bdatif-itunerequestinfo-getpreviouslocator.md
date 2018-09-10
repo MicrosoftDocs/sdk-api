@@ -4,17 +4,16 @@ title: ITuneRequestInfo::GetPreviousLocator
 author: windows-sdk-content
 description: The GetPreviousLocator method creates a new tune request with locator information for the previous transport stream.
 old-location: mstv\itunerequestinfo_getpreviouslocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITuneRequestInfo.GetPreviousLocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITuneRequestInfo::GetPreviousLocator
@@ -64,12 +63,12 @@ The <b>GetPreviousLocator</b> method creates a new tune request with locator inf
 
 ### -param CurrentRequest
 
-
+TBD
 
 
 ### -param TuneRequest
 
-
+TBD
 
 
 

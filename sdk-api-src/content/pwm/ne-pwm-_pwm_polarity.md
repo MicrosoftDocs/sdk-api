@@ -4,7 +4,7 @@ title: "_PWM_POLARITY"
 author: windows-sdk-content
 description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.
 old-location: base\pwm_polarity.htm
-old-project: devio
+tech.root: devio
 ms.assetid: D818E512-5E50-4CF2-AF22-1A4AB07679A6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pwm.h
 req.include-header: Pwm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PWM_POLARITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PWM_POLARITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PWM_POLARITY
+req.redist: 
 ---
 
 # _PWM_POLARITY enumeration

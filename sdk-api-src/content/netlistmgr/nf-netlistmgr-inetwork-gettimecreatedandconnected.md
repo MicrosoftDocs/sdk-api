@@ -4,17 +4,16 @@ title: INetwork::GetTimeCreatedAndConnected
 author: windows-sdk-content
 description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
 old-location: nla\inetwork_gettimecreatedandconnected.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetwork.GetTimeCreatedAndConnected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetwork::GetTimeCreatedAndConnected

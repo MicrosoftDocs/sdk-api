@@ -4,17 +4,16 @@ title: ITextStoreACP::InsertEmbedded
 author: windows-sdk-content
 description: Inserts an embedded object at the specified character.
 old-location: tsf\itextstoreacp_insertembedded.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 3d1612ee-1eb2-44c1-921e-a84af56a0790
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],InsertEmbedded method, ITextStoreACP.InsertEmbedded, ITextStoreACP::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_insertembedded_ref, textstor/ITextStoreACP::InsertEmbedded, tsf.itextstoreacp_insertembedded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP.InsertEmbedded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreACP::InsertEmbedded

@@ -4,17 +4,16 @@ title: IOleClientSite::ShowObject
 author: windows-sdk-content
 description: Asks a container to display its object to the user. This method ensures that the container itself is visible and not minimized.
 old-location: com\ioleclientsite_showobject.htm
-old-project: com
+tech.root: com
 ms.assetid: ba502a3d-2042-4978-a152-636a887c61fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleClientSite interface [COM],ShowObject method, IOleClientSite.ShowObject, IOleClientSite::ShowObject, ShowObject, ShowObject method [COM], ShowObject method [COM],IOleClientSite interface, _ole_ioleclientsite_showobject, com.ioleclientsite_showobject, oleidl/IOleClientSite::ShowObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleClientSite.ShowObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleClientSite::ShowObject

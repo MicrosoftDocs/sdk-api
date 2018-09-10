@@ -4,17 +4,16 @@ title: IPenInputPanel::EnableTsf
 author: windows-sdk-content
 description: Deprecated. Gets or sets a Boolean value that indicates whether the PenInputPanel object attempts to send text to the attached control through the Text Services Framework (TSF) and enables the use of the correction user interface.
 old-location: tablet\peninputpanel_enabletsf.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2c28e007-f06b-4d04-91a5-10e4b087fb2f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 2c28e007-f06b-4d04-91a5-10e4b087fb2f, EnableTsf, EnableTsf method [Tablet PC], EnableTsf method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],EnableTsf method, IPenInputPanel.EnableTsf, IPenInputPanel::EnableTsf, peninputpanel/IPenInputPanel::EnableTsf, tablet.peninputpanel_enabletsf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPenInputPanel.EnableTsf
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::EnableTsf

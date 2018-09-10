@@ -4,7 +4,7 @@ title: DEVICE_SCALE_FACTOR
 author: windows-sdk-content
 description: Indicates a spoofed device scale factor, as a percent. Used by IApplicationDesignModeSettings::SetApplicationViewState and IApplicationDesignModeSettings::IsApplicationViewStateSupported.
 old-location: shell\DEVICE_SCALE_FACTOR.htm
-old-project: shell
+tech.root: shell
 ms.assetid: DB42E7D5-4E42-4b78-89F8-0B76320E2C5F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_SCALE_FACTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEVICE_SCALE_FACTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DEVICE_SCALE_FACTOR
+req.redist: 
 ---
 
 # DEVICE_SCALE_FACTOR enumeration

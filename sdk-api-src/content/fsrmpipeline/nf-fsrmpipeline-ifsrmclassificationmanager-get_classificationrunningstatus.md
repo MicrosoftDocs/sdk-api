@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::get_ClassificationRunningStatus
 author: windows-sdk-content
 description: The running status of the classification.
 old-location: fsrm\ifsrmclassificationmanager_classificationrunningstatus.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: f0a10671-9383-4935-b773-31f047732e27
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ClassificationRunningStatus property [File Server Resource Manager], ClassificationRunningStatus property [File Server Resource Manager],FsrmClassificationManager class, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationRunningStatus property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager.ClassificationRunningStatus, IFsrmClassificationManager.get_ClassificationRunningStatus, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationRunningStatus property, IFsrmClassificationManager2.ClassificationRunningStatus, IFsrmClassificationManager2::get_ClassificationRunningStatus, IFsrmClassificationManager::ClassificationRunningStatus, IFsrmClassificationManager::get_ClassificationRunningStatus, fs.ifsrmclassificationmanager_classificationrunningstatus, fsrm.ifsrmclassificationmanager_classificationrunningstatus, fsrmpipeline/IFsrmClassificationManager2::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::ClassificationRunningStatus, fsrmpipeline/IFsrmClassificationManager::get_ClassificationRunningStatus, get_ClassificationRunningStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - FsrmClassificationManager.ClassificationRunningStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::get_ClassificationRunningStatus

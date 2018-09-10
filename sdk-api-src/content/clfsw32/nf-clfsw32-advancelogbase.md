@@ -4,17 +4,16 @@ title: AdvanceLogBase function
 author: windows-sdk-content
 description: Advances the base log sequence number (LSN) of a log stream to the specified LSN.
 old-location: fs\advancelogbase.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: aecdea3b-ac42-43d4-88b3-14cd810a4017
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AdvanceLogBase
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AdvanceLogBase function

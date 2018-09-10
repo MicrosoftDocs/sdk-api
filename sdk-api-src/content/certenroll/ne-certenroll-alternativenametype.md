@@ -4,7 +4,7 @@ title: AlternativeNameType
 author: windows-sdk-content
 description: Specifies the alternative name types that can be specified when initializing an IAlternativeName object.
 old-location: security\alternativenametype_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 79b675cc-c979-46ab-aee1-0031af2efd40
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AlternativeNameType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AlternativeNameType
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: AlternativeNameType
+req.redist: 
 ---
 
 # AlternativeNameType enumeration

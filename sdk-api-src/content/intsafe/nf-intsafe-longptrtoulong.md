@@ -4,17 +4,16 @@ title: LongPtrToULong function
 author: windows-sdk-content
 description: Converts a value of type LONG_PTR to a value of type ULONG.
 old-location: shell\LongPtrToULong.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fa263baa-e254-4ef4-8537-5722f6925da6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: LongPtrToDWord, LongPtrToULong, LongPtrToULong function [Windows Shell], SSIZETToDWord, SSIZETToUIntPtr, SSIZETToULong, _shell_LongPtrToULong, intsafe/LongPtrToULong, shell.LongPtrToULong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongPtrToULong
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongPtrToULong function

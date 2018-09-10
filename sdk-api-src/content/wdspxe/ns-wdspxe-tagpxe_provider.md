@@ -4,7 +4,7 @@ title: tagPXE_PROVIDER
 author: windows-sdk-content
 description: Describes a provider.
 old-location: wds\pxe_provider.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: a07afefd-7a97-42bb-8d70-2bc7c51ddef3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PXE_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
+req.redist: 
 ---
 
 # tagPXE_PROVIDER structure

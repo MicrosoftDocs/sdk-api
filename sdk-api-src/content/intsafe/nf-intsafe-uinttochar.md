@@ -4,17 +4,16 @@ title: UIntToChar function
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type CHAR.
 old-location: shell\UIntToChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 161c3056-3d17-4273-899f-9dc4adb85fb0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UIntToChar, UIntToChar function [Windows Shell], _shell_UIntToChar, intsafe/UIntToChar, shell.UIntToChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntToChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntToChar function

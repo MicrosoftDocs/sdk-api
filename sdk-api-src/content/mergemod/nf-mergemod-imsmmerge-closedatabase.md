@@ -4,17 +4,16 @@ title: IMsmMerge::CloseDatabase
 author: windows-sdk-content
 description: The CloseDatabase method closes the currently open Windows Installer database. For more information, see the CloseDatabase method of the Merge object.
 old-location: setup\imsmmerge_closedatabase.htm
-old-project: msi
+tech.root: msi
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IMsmMerge interface, IMsmMerge interface,CloseDatabase method, IMsmMerge.CloseDatabase, IMsmMerge::CloseDatabase, _msi_closedatabase_function, mergemod/IMsmMerge::CloseDatabase, setup.imsmmerge_closedatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMsmMerge.CloseDatabase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmMerge::CloseDatabase
@@ -67,7 +65,7 @@ The
 
 ### -param Commit
 
-
+TBD
 
 
 

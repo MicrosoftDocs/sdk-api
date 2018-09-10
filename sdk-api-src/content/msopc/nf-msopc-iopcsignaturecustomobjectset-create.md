@@ -4,17 +4,16 @@ title: IOpcSignatureCustomObjectSet::Create
 author: windows-sdk-content
 description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.
 old-location: opc\iopcsignaturecustomobjectset_create.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcSignatureCustomObjectSet.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcSignatureCustomObjectSet::Create

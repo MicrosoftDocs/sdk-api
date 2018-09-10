@@ -4,17 +4,16 @@ title: IMediaSeeking::GetStopPosition
 author: windows-sdk-content
 description: The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream.
 old-location: dshow\imediaseeking_getstopposition.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7205ea09-65c1-4cd5-b76d-55977b0fbab9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetStopPosition, GetStopPosition method [DirectShow], GetStopPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetStopPosition method, IMediaSeeking.GetStopPosition, IMediaSeeking::GetStopPosition, IMediaSeekingGetStopPosition, dshow.imediaseeking_getstopposition, strmif/IMediaSeeking::GetStopPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSeeking.GetStopPosition
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSeeking::GetStopPosition

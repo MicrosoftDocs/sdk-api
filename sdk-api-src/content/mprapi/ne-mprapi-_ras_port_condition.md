@@ -4,7 +4,7 @@ title: "_RAS_PORT_CONDITION"
 author: windows-sdk-content
 description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
 old-location: rras\ras_port_condition.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_PORT_CONDITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_PORT_CONDITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_PORT_CONDITION
+req.redist: 
 ---
 
 # _RAS_PORT_CONDITION enumeration

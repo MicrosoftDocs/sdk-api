@@ -4,17 +4,16 @@ title: GetNotificationResourceManager function
 author: windows-sdk-content
 description: Requests and receives a notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanager.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: d606f960-e843-4478-8ba7-5201f85c44ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNotificationResourceManager, GetNotificationResourceManager function [Files], fs.getnotificationresourcemanager, ktmw32/GetNotificationResourceManager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: KtmW32.lib
+req.dll: KtmW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNotificationResourceManager
 product: Windows
 targetos: Windows
-req.lib: KtmW32.lib
-req.dll: KtmW32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetNotificationResourceManager function

@@ -4,17 +4,16 @@ title: IAudioStreamVolume::GetAllVolumes
 author: windows-sdk-content
 description: The GetAllVolumes method retrieves the volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getallvolumes.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 6469ae01-d84d-4711-9b1e-cd8e685fcdd8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetAllVolumes method, IAudioStreamVolume.GetAllVolumes, IAudioStreamVolume::GetAllVolumes, IAudioStreamVolumeGetAllVolumes, audioclient/IAudioStreamVolume::GetAllVolumes, coreaudio.iaudiostreamvolume_getallvolumes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioStreamVolume.GetAllVolumes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioStreamVolume::GetAllVolumes

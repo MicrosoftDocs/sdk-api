@@ -4,7 +4,7 @@ title: DFS_NAMESPACE_VERSION_ORIGIN
 author: windows-sdk-content
 description: Identifies the origin of DFS namespace version information.
 old-location: dfs\dfs_namespace_version_origin.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: b260e132-41fd-460b-87e6-c6e0490dc8b4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_NAMESPACE_VERSION_ORIGIN, *PDFS_NAMESPACE_VERSION_ORIGIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_NAMESPACE_VERSION_ORIGIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_NAMESPACE_VERSION_ORIGIN, *PDFS_NAMESPACE_VERSION_ORIGIN
+req.redist: 
 ---
 
 # DFS_NAMESPACE_VERSION_ORIGIN enumeration

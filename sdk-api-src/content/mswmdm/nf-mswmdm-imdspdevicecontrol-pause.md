@@ -4,17 +4,16 @@ title: IMDSPDeviceControl::Pause
 author: windows-sdk-content
 description: The Pause method pauses the current play or record session at the current position within the content.
 old-location: wmdm\imdspdevicecontrol_pause.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: d97edbd0-afac-4197-b9bc-e538c2b145b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Pause method, IMDSPDeviceControl.Pause, IMDSPDeviceControl::Pause, IMDSPDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Pause, wmdm.imdspdevicecontrol_pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDeviceControl.Pause
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDeviceControl::Pause

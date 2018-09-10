@@ -4,17 +4,16 @@ title: ClearCommError function
 author: windows-sdk-content
 description: Retrieves information about a communications error and reports the current status of a communications device.
 old-location: base\clearcommerror.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 9cc52104-aa5e-4baa-86f1-8c6dcdd661ef
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ClearCommError
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ClearCommError function

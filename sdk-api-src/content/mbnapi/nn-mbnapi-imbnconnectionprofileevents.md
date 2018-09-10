@@ -4,7 +4,7 @@ title: IMbnConnectionProfileEvents
 author: windows-sdk-content
 description: This notification interface signals an application when IMbnConnectionProfile methods change the Mobile Broadband profile state.
 old-location: mbn\imbnconnectionprofileevents.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 235fa0ef-4fc2-4a36-8ad7-2dceb597498f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfileEvents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfileEvents interface

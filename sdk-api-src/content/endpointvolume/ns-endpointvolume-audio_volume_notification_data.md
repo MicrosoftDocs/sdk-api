@@ -4,7 +4,7 @@ title: AUDIO_VOLUME_NOTIFICATION_DATA
 author: windows-sdk-content
 description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
 old-location: coreaudio\audio_volume_notification_data.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUDIO_VOLUME_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.redist: 
 ---
 
 # AUDIO_VOLUME_NOTIFICATION_DATA structure

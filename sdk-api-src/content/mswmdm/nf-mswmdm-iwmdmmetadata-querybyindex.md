@@ -4,17 +4,16 @@ title: IWMDMMetaData::QueryByIndex
 author: windows-sdk-content
 description: The QueryByIndex method retrieves the value of a property specified by index.
 old-location: wmdm\iwmdmmetadata_querybyindex.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 5d27e1e9-ab91-433d-8216-ace195386d44
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMMetaData.QueryByIndex
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMMetaData::QueryByIndex

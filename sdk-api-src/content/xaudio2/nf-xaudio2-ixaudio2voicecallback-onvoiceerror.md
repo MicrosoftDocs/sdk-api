@@ -4,17 +4,16 @@ title: IXAudio2VoiceCallback::OnVoiceError
 author: windows-sdk-content
 description: Called when a critical error occurs during voice processing.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceerror.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceError(void,HRESULT)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceError method, IXAudio2VoiceCallback.OnVoiceError, IXAudio2VoiceCallback::OnVoiceError, OnVoiceError, OnVoiceError method [XAudio2 Audio Mixing APIs], OnVoiceError method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceerror, xaudio2/IXAudio2VoiceCallback::OnVoiceError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2VoiceCallback.OnVoiceError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2VoiceCallback::OnVoiceError

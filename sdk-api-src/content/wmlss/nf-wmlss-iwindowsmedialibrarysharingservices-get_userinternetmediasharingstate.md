@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
 author: windows-sdk-content
 description: The get_userInternetMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the Internet.
 old-location: wmlss\IWMLSSget_userInternetMediaSharingState.htm
-old-project: WMLSS
+tech.root: WMLSS
 ms.assetid: 577fb416-1ff4-4206-8916-9b54577e4cd3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userInternetMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState, IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState, get_userInternetMediaSharingState, get_userInternetMediaSharingState method [Windows Media Library Sharing Services], get_userInternetMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userInternetMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingServices.get_userInternetMediaSharingState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingServices::get_userInternetMediaSharingState

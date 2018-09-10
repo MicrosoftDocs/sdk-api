@@ -4,17 +4,16 @@ title: AuxUlibIsDLLSynchronizationHeld function
 author: windows-sdk-content
 description: Determines whether the caller is holding a synchronization primitive.
 old-location: winprog\auxulibisdllsynchronizationheld.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aux_ulib.h
 req.include-header: 
-req.redist: Windows Auxiliary API library version 2.0
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
+req.lib: Aux_ulib.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AuxUlibIsDLLSynchronizationHeld
 product: Windows
 targetos: Windows
-req.lib: Aux_ulib.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: Windows Auxiliary API library version 2.0
 ---
 
 # AuxUlibIsDLLSynchronizationHeld function

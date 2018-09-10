@@ -4,17 +4,16 @@ title: IWMPContentPartnerCallback::Notify
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_notify.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: e8402662-7e14-4be7-bc2d-45338bf2a226
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],Notify method, IWMPContentPartnerCallback.Notify, IWMPContentPartnerCallback::Notify, IWMPContentPartnerCallbackNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::Notify, wmp.iwmpcontentpartnercallback_notify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartnerCallback.Notify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartnerCallback::Notify

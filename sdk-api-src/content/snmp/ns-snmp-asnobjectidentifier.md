@@ -4,7 +4,7 @@ title: AsnObjectIdentifier
 author: windows-sdk-content
 description: The AsnObjectIdentifier structure represents object identifiers. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnobjectidentifier_str.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 695e5581-00df-49af-8abe-1dd1b25cb215
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsnObjectIdentifier
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AsnObjectIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: AsnObjectIdentifier
+req.redist: 
 ---
 
 # AsnObjectIdentifier structure

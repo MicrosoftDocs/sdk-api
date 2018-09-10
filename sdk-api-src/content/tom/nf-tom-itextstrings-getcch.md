@@ -4,17 +4,16 @@ title: ITextStrings::GetCch
 author: windows-sdk-content
 description: Gets the count of characters for a selected string index.
 old-location: controls\itextstrings_getcch.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 73b88019-f74b-4345-95f3-9f924c999b8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCch method, ITextStrings.GetCch, ITextStrings::GetCch, controls.itextstrings_getcch, tom/ITextStrings::GetCch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.GetCch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::GetCch

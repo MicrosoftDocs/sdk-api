@@ -4,7 +4,7 @@ title: linecardentry_tag
 author: windows-sdk-content
 description: The LINECARDENTRY structure describes a calling card. The LINETRANSLATECAPS structure can contain an array of LINECARDENTRY structures.
 old-location: tapi2\linecardentry_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 8b2a4eaf-6c59-4d3b-839f-52915bff6116
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECARDENTRY, *LPLINECARDENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECARDENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECARDENTRY, *LPLINECARDENTRY
+req.redist: 
 ---
 
 # linecardentry_tag structure

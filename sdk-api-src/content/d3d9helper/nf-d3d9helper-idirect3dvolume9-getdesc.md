@@ -4,17 +4,16 @@ title: IDirect3DVolume9::GetDesc
 author: windows-sdk-content
 description: Retrieves a description of the volume.
 old-location: direct3d9\idirect3dvolume9__getdesc.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getdesc.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 6ce3365b-f9f8-dd10-e1a5-c17ea631f175, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetDesc method, IDirect3DVolume9.GetDesc, IDirect3DVolume9::GetDesc, d3d9helper/IDirect3DVolume9::GetDesc, direct3d9.idirect3dvolume9__getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DVolume9.GetDesc
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DVolume9::GetDesc

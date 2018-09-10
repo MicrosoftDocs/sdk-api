@@ -4,17 +4,16 @@ title: IFolderViewOptions::GetFolderViewOptions
 author: windows-sdk-content
 description: Retrieves the current set of options for the view.
 old-location: shell\IFolderViewOptions_GetFolderViewOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9733c2b0-608f-4f20-b379-81de0c333473
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFolderViewOptions, GetFolderViewOptions method [Windows Shell], GetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, IFolderViewOptions interface [Windows Shell],GetFolderViewOptions method, IFolderViewOptions.GetFolderViewOptions, IFolderViewOptions::GetFolderViewOptions, _shell_IFolderViewOptions_GetFolderViewOptions, shell.IFolderViewOptions_GetFolderViewOptions, shobjidl/IFolderViewOptions::GetFolderViewOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: ExplorerFrame.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewOptions.GetFolderViewOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: ExplorerFrame.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewOptions::GetFolderViewOptions

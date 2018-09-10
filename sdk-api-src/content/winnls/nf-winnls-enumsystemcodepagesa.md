@@ -4,17 +4,16 @@ title: EnumSystemCodePagesA function
 author: windows-sdk-content
 description: Enumerates the code pages that are either installed on or supported by an operating system.
 old-location: intl\enumsystemcodepages.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4ef4d30f-3e38-47ee-8f68-fbb286b7b5c3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePages function [Internationalization for Windows Applications], EnumSystemCodePagesA, EnumSystemCodePagesW, _win32_EnumSystemCodePages, intl.enumsystemcodepages, winnls/EnumSystemCodePages, winnls/EnumSystemCodePagesA, winnls/EnumSystemCodePagesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - EnumSystemCodePagesW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumSystemCodePagesA function

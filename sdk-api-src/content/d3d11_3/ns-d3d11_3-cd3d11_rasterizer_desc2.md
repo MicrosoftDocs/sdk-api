@@ -4,7 +4,7 @@ title: CD3D11_RASTERIZER_DESC2
 author: windows-sdk-content
 description: Describes rasterizer state.
 old-location: direct3d11\d3d11_rasterizer_desc2.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_RASTERIZER_DESC2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CD3D11_RASTERIZER_DESC2 structure

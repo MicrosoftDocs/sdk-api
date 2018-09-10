@@ -4,17 +4,16 @@ title: ISharingConfigurationManager::GetSharePermissions
 author: windows-sdk-content
 description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d9ca5acf-2dd1-4fbe-a67f-91578d68b955
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSharePermissions, GetSharePermissions method [Windows Shell], GetSharePermissions method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],GetSharePermissions method, ISharingConfigurationManager.GetSharePermissions, ISharingConfigurationManager::GetSharePermissions, _shell_ISharingConfigurationManager_GetSharePermissions, shell.ISharingConfigurationManager_GetSharePermissions, shobjidl_core/ISharingConfigurationManager::GetSharePermissions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISharingConfigurationManager.GetSharePermissions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISharingConfigurationManager::GetSharePermissions

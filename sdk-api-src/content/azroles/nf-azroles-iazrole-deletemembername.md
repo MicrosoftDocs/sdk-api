@@ -4,17 +4,16 @@ title: IAzRole::DeleteMemberName
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that belong to the role.
 old-location: security\iazrole_deletemembername.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzRole object, DeleteMemberName method [Security],IAzRole interface, IAzRole interface [Security],DeleteMemberName method, IAzRole.DeleteMemberName, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.DeleteMemberName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::DeleteMemberName

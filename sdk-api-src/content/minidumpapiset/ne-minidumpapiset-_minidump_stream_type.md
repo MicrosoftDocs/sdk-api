@@ -4,7 +4,7 @@ title: "_MINIDUMP_STREAM_TYPE"
 author: windows-sdk-content
 description: Represents the type of a minidump data stream.
 old-location: base\minidump_stream_type.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 495136a0-2fed-47ca-8233-7e813b43b82f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_STREAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_STREAM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_STREAM_TYPE
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_STREAM_TYPE enumeration

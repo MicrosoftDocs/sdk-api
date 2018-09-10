@@ -4,17 +4,16 @@ title: ISpatialAudioObjectBase::SetEndOfStream
 author: windows-sdk-content
 description: Instructs the system that the final block of audio data has been submitted for the ISpatialAudioObject so that the object can be deactivated and it's resources reused.
 old-location: coreaudio\ispatialaudioobject_setendofstream.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 17294E5D-04D7-43B9-AD41-392344309308
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],SetEndOfStream method, ISpatialAudioObjectBase.SetEndOfStream, ISpatialAudioObjectBase::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Core Audio], SetEndOfStream method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_setendofstream, spatialaudioclient/ISpatialAudioObjectBase::SetEndOfStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectBase.SetEndOfStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectBase::SetEndOfStream

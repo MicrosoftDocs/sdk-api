@@ -4,7 +4,7 @@ title: "_SP_TROUBLESHOOTER_PARAMS_W"
 author: windows-sdk-content
 description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request.
 old-location: devinst\sp_troubleshooter_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: f92e9aa4-ee29-4e69-be05-9c3c916197eb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_TROUBLESHOOTER_PARAMS_W, *PSP_TROUBLESHOOTER_PARAMS_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_TROUBLESHOOTER_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_TROUBLESHOOTER_PARAMS_W, *PSP_TROUBLESHOOTER_PARAMS_W
+req.redist: 
 ---
 
 # _SP_TROUBLESHOOTER_PARAMS_W structure

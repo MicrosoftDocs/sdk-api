@@ -4,7 +4,7 @@ title: ID3D12FunctionParameterReflection
 author: windows-sdk-content
 description: A function-parameter-reflection interface accesses function-parameter info.
 old-location: direct3d12\id3d12functionparameterreflection.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12FunctionParameterReflection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12FunctionParameterReflection interface

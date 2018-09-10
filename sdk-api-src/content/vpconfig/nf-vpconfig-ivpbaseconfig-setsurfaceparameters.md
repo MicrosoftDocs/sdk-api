@@ -4,17 +4,16 @@ title: IVPBaseConfig::SetSurfaceParameters
 author: windows-sdk-content
 description: The SetSurfaceParameters method informs the device of the layout of the overlay surface. The downstream filter (the Overlay Mixer, VBI Surface Allocator, or Video Port Manager) calls this method after it creates the overlay surface.
 old-location: dshow\ivpbaseconfig_setsurfaceparameters.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4af0092e-5866-45ca-b0be-e97d9dd51b0f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetSurfaceParameters method, IVPBaseConfig.SetSurfaceParameters, IVPBaseConfig::SetSurfaceParameters, IVPBaseConfigSetSurfaceParameters, SetSurfaceParameters, SetSurfaceParameters method [DirectShow], SetSurfaceParameters method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setsurfaceparameters, vpconfig/IVPBaseConfig::SetSurfaceParameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.SetSurfaceParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::SetSurfaceParameters

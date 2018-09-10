@@ -4,17 +4,16 @@ title: ITfThreadMgrEventSink::OnInitDocumentMgr
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnInitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_oninitdocumentmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 18586e51-66b6-4071-88b4-9b92d5449a45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnInitDocumentMgr method, ITfThreadMgrEventSink.OnInitDocumentMgr, ITfThreadMgrEventSink::OnInitDocumentMgr, OnInitDocumentMgr, OnInitDocumentMgr method [Text Services Framework], OnInitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_oninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnInitDocumentMgr, tsf.itfthreadmgreventsink_oninitdocumentmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgrEventSink.OnInitDocumentMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgrEventSink::OnInitDocumentMgr

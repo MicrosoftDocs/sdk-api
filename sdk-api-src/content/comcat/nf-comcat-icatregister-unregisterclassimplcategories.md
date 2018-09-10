@@ -4,17 +4,16 @@ title: ICatRegister::UnRegisterClassImplCategories
 author: windows-sdk-content
 description: Removes one or more implemented category identifiers from a class.
 old-location: com\icatregister_unregisterclassimplcategories.htm
-old-project: com
+tech.root: com
 ms.assetid: 4a227fd1-6cbc-4354-a3e2-04aceb73ab65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, ICatRegister.UnRegisterClassImplCategories, ICatRegister::UnRegisterClassImplCategories, UnRegisterClassImplCategories, UnRegisterClassImplCategories method [COM], UnRegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassimplcategories, com.icatregister_unregisterclassimplcategories, comcat/ICatRegister::UnRegisterClassImplCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatRegister.UnRegisterClassImplCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatRegister::UnRegisterClassImplCategories

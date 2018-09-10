@@ -4,17 +4,16 @@ title: IBasicVideo::put_SourceTop
 author: windows-sdk-content
 description: The put_SourceTop method sets the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourcetop.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0a76518d-f79d-45ef-8e19-a3e5ee1e4db0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceTop method, IBasicVideo.put_SourceTop, IBasicVideo::put_SourceTop, IBasicVideoput_SourceTop, control/IBasicVideo::put_SourceTop, dshow.ibasicvideo_put_sourcetop, put_SourceTop, put_SourceTop method [DirectShow], put_SourceTop method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.put_SourceTop
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::put_SourceTop

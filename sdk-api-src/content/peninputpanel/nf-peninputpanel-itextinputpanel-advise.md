@@ -4,17 +4,16 @@ title: ITextInputPanel::Advise
 author: windows-sdk-content
 description: Establishes an advisory connection between the Tablet PC Input Panel and the specified sink object.
 old-location: tablet\itextinputpanel_advise.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet PC], Advise method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],Advise method, ITextInputPanel.Advise, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanel.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::Advise

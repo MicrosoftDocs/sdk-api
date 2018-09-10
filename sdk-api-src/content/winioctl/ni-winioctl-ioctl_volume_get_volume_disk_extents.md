@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 author: windows-sdk-content
 description: Retrieves the physical location of a specified volume on one or more disks.
 old-location: fs\ioctl_volume_get_volume_disk_extents.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8faff037-d815-48f8-8b59-d63f4ff4a746
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL

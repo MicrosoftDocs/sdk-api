@@ -4,17 +4,16 @@ title: IMMEndpoint::GetDataFlow
 author: windows-sdk-content
 description: The GetDataFlow method indicates whether the audio endpoint device is a rendering device or a capture device.
 old-location: coreaudio\immendpoint_getdataflow.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 01882c44-bf0c-4180-846e-c1e98c6fb472
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IMMEndpoint interface, IMMEndpoint interface [Core Audio],GetDataFlow method, IMMEndpoint.GetDataFlow, IMMEndpoint::GetDataFlow, IMMEndpointGetDataFlow, coreaudio.immendpoint_getdataflow, mmdeviceapi/IMMEndpoint::GetDataFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMEndpoint.GetDataFlow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMEndpoint::GetDataFlow

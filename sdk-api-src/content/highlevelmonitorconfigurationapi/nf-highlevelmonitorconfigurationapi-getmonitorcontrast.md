@@ -4,17 +4,16 @@ title: GetMonitorContrast function
 author: windows-sdk-content
 description: Retrieves a monitor's minimum, maximum, and current contrast settings.
 old-location: monitor\getmonitorcontrast.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_SIZE_TYPE
+req.lib: Dxva2.lib
+req.dll: Dxva2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMonitorContrast
 product: Windows
 targetos: Windows
-req.lib: Dxva2.lib
-req.dll: Dxva2.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetMonitorContrast function

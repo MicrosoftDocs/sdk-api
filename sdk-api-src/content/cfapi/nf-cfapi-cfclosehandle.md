@@ -4,17 +4,16 @@ title: CfCloseHandle function
 author: windows-sdk-content
 description: Closes the file or directory handle returned by CfOpenFileWithOplock. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
 old-location: cloudapi\cfclosehandle.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: ECBEF685-0769-4AEA-8A0F-D5FBB70CBB09
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfCloseHandle, CfCloseHandle function, cfapi/CfCloseHandle, cloudApi.cfclosehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfCloseHandle
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfCloseHandle function

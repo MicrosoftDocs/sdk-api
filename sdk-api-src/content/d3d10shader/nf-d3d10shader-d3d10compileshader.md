@@ -4,17 +4,16 @@ title: D3D10CompileShader function
 author: windows-sdk-content
 description: Compile an HLSL shader.
 old-location: direct3d10\d3d10compileshader.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10compileshader.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 8461622f-7f35-e519-3be6-83d985b2cece, D3D10CompileShader, D3D10CompileShader function [Direct3D 10], d3d10shader/D3D10CompileShader, direct3d10.d3d10compileshader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10CompileShader
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10CompileShader function

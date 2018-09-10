@@ -4,17 +4,16 @@ title: IXpsOMPartUriCollection::GetCount
 author: windows-sdk-content
 description: Gets the number of IOpcPartUri interface pointers in the collection.
 old-location: xps\ixpsomparturicollection_getcount.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: fa716168-4584-4622-bfdf-7b022ff202c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPartUriCollection.GetCount, IXpsOMPartUriCollection::GetCount, xps.ixpsomparturicollection_getcount, xpsobjectmodel/IXpsOMPartUriCollection::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPartUriCollection.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPartUriCollection::GetCount

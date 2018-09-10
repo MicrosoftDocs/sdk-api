@@ -4,17 +4,16 @@ title: IBPCSatelliteTuner::put_DefaultSubChannelTypes
 author: windows-sdk-content
 description: Note  The IBPCSatelliteTuner interface is deprecated. Sets the default sub-channel types.
 old-location: dshow\ibpcsatellitetuner_put_defaultsubchanneltypes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 90f73ca0-1d9a-4161-bc86-d69cc71e88c6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],put_DefaultSubChannelTypes method, IBPCSatelliteTuner.put_DefaultSubChannelTypes, IBPCSatelliteTuner::put_DefaultSubChannelTypes, IBPCSatelliteTunerput_DefaultSubChannelTypes, dshow.ibpcsatellitetuner_put_defaultsubchanneltypes, put_DefaultSubChannelTypes, put_DefaultSubChannelTypes method [DirectShow], put_DefaultSubChannelTypes method [DirectShow],IBPCSatelliteTuner interface, strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBPCSatelliteTuner.put_DefaultSubChannelTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IBPCSatelliteTuner::put_DefaultSubChannelTypes

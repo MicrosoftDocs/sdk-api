@@ -4,7 +4,7 @@ title: IX509EndorsementKey
 author: windows-sdk-content
 description: X.509 Endorsement Key Interface
 old-location: security\ix509endorsementkey.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EndorsementKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EndorsementKey interface

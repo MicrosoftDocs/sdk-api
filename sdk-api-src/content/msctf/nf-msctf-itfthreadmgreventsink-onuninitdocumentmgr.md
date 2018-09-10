@@ -4,17 +4,16 @@ title: ITfThreadMgrEventSink::OnUninitDocumentMgr
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnUninitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_onuninitdocumentmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: da4532e4-aa00-41af-8dfc-1880dc5b3b22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnUninitDocumentMgr method, ITfThreadMgrEventSink.OnUninitDocumentMgr, ITfThreadMgrEventSink::OnUninitDocumentMgr, OnUninitDocumentMgr, OnUninitDocumentMgr method [Text Services Framework], OnUninitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onuninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnUninitDocumentMgr, tsf.itfthreadmgreventsink_onuninitdocumentmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfThreadMgrEventSink.OnUninitDocumentMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfThreadMgrEventSink::OnUninitDocumentMgr

@@ -4,17 +4,16 @@ title: IMFPMPClientApp::SetPMPHost
 author: windows-sdk-content
 description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.
 old-location: mf\imfpmpclientapp_setpmphost.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8809e691-f0cf-4c1f-8409-5e7fbac46b16
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMPClientApp interface [Media Foundation],SetPMPHost method, IMFPMPClientApp.SetPMPHost, IMFPMPClientApp::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClientApp interface, mf.imfpmpclientapp_setpmphost, mfidl/IMFPMPClientApp::SetPMPHost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPMPClientApp.SetPMPHost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMPClientApp::SetPMPHost

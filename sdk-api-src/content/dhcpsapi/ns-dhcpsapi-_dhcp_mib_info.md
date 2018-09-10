@@ -4,7 +4,7 @@ title: "_DHCP_MIB_INFO"
 author: windows-sdk-content
 description: Defines information returned from the DHCP-specific SNMP Management Information Block (MIB) about the current DHCP service.
 old-location: dhcp\dhcp_mib_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 58f3e3a3-8246-48ff-be45-20a7eed1ed0e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_MIB_INFO, *LPDHCP_MIB_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_MIB_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_MIB_INFO, *LPDHCP_MIB_INFO
+req.redist: 
 ---
 
 # _DHCP_MIB_INFO structure

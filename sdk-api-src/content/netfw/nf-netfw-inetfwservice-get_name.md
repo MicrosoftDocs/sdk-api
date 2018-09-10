@@ -4,17 +4,16 @@ title: INetFwService::get_Name
 author: windows-sdk-content
 description: Retrieves the friendly name of the service.
 old-location: ics\inetfwservice_name.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 3b6179d0-c16d-43f7-8575-b173841cffe9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwService interface [ICS/ICF],Name property, INetFwService.Name, INetFwService.get_Name, INetFwService::Name, INetFwService::get_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwService interface, get_Name, ics.inetfwservice_name, netfw/INetFwService::Name, netfw/INetFwService::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwService.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwService::get_Name

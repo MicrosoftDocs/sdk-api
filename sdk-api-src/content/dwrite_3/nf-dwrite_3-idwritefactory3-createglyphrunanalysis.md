@@ -4,17 +4,16 @@ title: IDWriteFactory3::CreateGlyphRunAnalysis
 author: windows-sdk-content
 description: Creates a glyph-run-analysis object that encapsulates info that DirectWrite uses to render a glyph run.
 old-location: directwrite\idwritefactory3_createglyphrunanalysis.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 5BF8BA9C-F07F-43F0-B712-71220E6535A5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory3.CreateGlyphRunAnalysis, IDWriteFactory3::CreateGlyphRunAnalysis, directwrite.idwritefactory3_createglyphrunanalysis, dwrite_3/IDWriteFactory3::CreateGlyphRunAnalysis
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory3.CreateGlyphRunAnalysis
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory3::CreateGlyphRunAnalysis

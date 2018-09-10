@@ -4,17 +4,16 @@ title: EditStreamPaste function
 author: windows-sdk-content
 description: The EditStreamPaste function copies a stream (or a portion of it) from one stream and pastes it within another stream at a specified location.
 old-location: multimedia\editstreampaste.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: c3c77ec1-0aa4-47ab-afc1-ed69d6aca201
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EditStreamPaste
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # EditStreamPaste function

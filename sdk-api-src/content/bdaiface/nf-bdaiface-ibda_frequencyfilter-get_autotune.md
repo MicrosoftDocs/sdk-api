@@ -4,17 +4,16 @@ title: IBDA_FrequencyFilter::get_Autotune
 author: windows-sdk-content
 description: The get_Autotune method retrieves the autotune frequency.
 old-location: mstv\ibda_frequencyfilter_get_autotune.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 146c4499-a8e9-4794-ab6c-b8e0e73ebad1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Autotune method, IBDA_FrequencyFilter.get_Autotune, IBDA_FrequencyFilter::get_Autotune, IBDA_FrequencyFilterget_Autotune, bdaiface/IBDA_FrequencyFilter::get_Autotune, get_Autotune, get_Autotune method [Microsoft TV Technologies], get_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_autotune
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FrequencyFilter.get_Autotune
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FrequencyFilter::get_Autotune

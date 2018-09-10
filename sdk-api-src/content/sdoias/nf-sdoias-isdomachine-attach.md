@@ -4,17 +4,16 @@ title: ISdoMachine::Attach
 author: windows-sdk-content
 description: The Attach method attaches to an SDO computer. Attaching to an SDO computer is the first step is using the SDO API to administer that computer.
 old-location: nps\SDO_isdomachine_attach.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 444ba670-8224-40bc-b0e4-585c682deafd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Attach, Attach method [Network Policy Server], Attach method [Network Policy Server],ISdoMachine interface, Attach method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],Attach method, ISdoMachine.Attach, ISdoMachine::Attach, SdoMachine object [Network Policy Server],Attach method, _sdo_isdomachine_attach, nps.SDO_isdomachine_attach, sdo.isdomachine_attach, sdoias/ISdoMachine::Attach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SdoMachine.Attach
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoMachine::Attach

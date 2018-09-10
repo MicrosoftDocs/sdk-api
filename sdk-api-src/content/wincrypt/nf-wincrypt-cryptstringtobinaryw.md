@@ -4,17 +4,16 @@ title: CryptStringToBinaryW function
 author: windows-sdk-content
 description: Converts a formatted string into an array of bytes.
 old-location: security\cryptstringtobinary.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 13b6f5ef-174a-4254-8492-6e7dcc58945f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_STRING_ANY, CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BASE64_ANY, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_HEX_ANY, CRYPT_STRING_STRICT, CryptStringToBinary, CryptStringToBinary function [Security], CryptStringToBinaryA, CryptStringToBinaryW, _crypto2_cryptstringtobinary, security.cryptstringtobinary, wincrypt/CryptStringToBinary, wincrypt/CryptStringToBinaryA, wincrypt/CryptStringToBinaryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptStringToBinaryW
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptStringToBinaryW function

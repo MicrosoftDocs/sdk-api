@@ -4,17 +4,16 @@ title: CryptFreeOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptFreeOIDFunctionAddress function releases a handle returned by CryptGetOIDFunctionAddress or CryptGetDefaultOIDFunctionAddress by decrementing the reference count on the function handle.
 old-location: security\cryptfreeoidfunctionaddress.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptFreeOIDFunctionAddress
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptFreeOIDFunctionAddress function

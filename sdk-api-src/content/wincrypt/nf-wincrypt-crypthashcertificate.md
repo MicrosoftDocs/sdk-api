@@ -4,17 +4,16 @@ title: CryptHashCertificate function
 author: windows-sdk-content
 description: The CryptHashCertificate function hashes the entire encoded content of a certificate including its signature.
 old-location: security\crypthashcertificate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptHashCertificate
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptHashCertificate function

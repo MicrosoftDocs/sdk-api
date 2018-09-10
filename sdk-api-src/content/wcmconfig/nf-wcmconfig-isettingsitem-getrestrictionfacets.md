@@ -4,17 +4,16 @@ title: ISettingsItem::GetRestrictionFacets
 author: windows-sdk-content
 description: Gets the restrictions defined for this item.
 old-location: smi\isettingsitem_getrestrictionfacets.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRestrictionFacets, GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestrictionFacets method, ISettingsItem.GetRestrictionFacets, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsItem.GetRestrictionFacets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsItem::GetRestrictionFacets

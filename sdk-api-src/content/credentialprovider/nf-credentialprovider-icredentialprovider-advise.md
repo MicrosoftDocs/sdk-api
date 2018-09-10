@@ -4,17 +4,16 @@ title: ICredentialProvider::Advise
 author: windows-sdk-content
 description: Allows a credential provider to initiate events in the Logon UI or Credential UI through a callback interface.
 old-location: shell\ICredentialProvider_Advise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],Advise method, ICredentialProvider.Advise, ICredentialProvider::Advise, credentialprovider/ICredentialProvider::Advise, shell.ICredentialProvider_Advise, shell_ICredentialProvider_Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProvider.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProvider::Advise

@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetStyluses
 author: windows-sdk-content
 description: Retrieves the collection of styluses the RealTimeStylus Class object has encountered.
 old-location: tablet\irealtimestylus_getstyluses.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses, GetStyluses method [Tablet PC], GetStyluses method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStyluses method, IRealTimeStylus.GetStyluses, IRealTimeStylus::GetStyluses, rtscom/IRealTimeStylus::GetStyluses, tablet.irealtimestylus_getstyluses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetStyluses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetStyluses

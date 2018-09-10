@@ -4,17 +4,16 @@ title: ID3D11ModuleInstance::BindUnorderedAccessViewByName
 author: windows-sdk-content
 description: Rebinds an unordered access view (UAV) by name to destination slots.
 old-location: direct3d11\id3d11moduleinstance_bindunorderedaccessviewbyname.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 439C12FD-4BAE-4609-88D3-D7B006816716
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BindUnorderedAccessViewByName, BindUnorderedAccessViewByName method [Direct3D 11], BindUnorderedAccessViewByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindUnorderedAccessViewByName method, ID3D11ModuleInstance.BindUnorderedAccessViewByName, ID3D11ModuleInstance::BindUnorderedAccessViewByName, d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessViewByName, direct3d11.id3d11moduleinstance_bindunorderedaccessviewbyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ModuleInstance.BindUnorderedAccessViewByName
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ModuleInstance::BindUnorderedAccessViewByName

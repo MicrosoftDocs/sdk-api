@@ -4,7 +4,7 @@ title: ILanguageExceptionErrorInfo
 author: windows-sdk-content
 description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.
 old-location: winrt\ilanguageexceptionerrorinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILanguageExceptionErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILanguageExceptionErrorInfo interface

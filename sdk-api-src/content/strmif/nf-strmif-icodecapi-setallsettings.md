@@ -4,17 +4,16 @@ title: ICodecAPI::SetAllSettings
 author: windows-sdk-content
 description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
 old-location: dshow\icodecapi_setallsettings.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.SetAllSettings
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::SetAllSettings
@@ -63,7 +61,7 @@ The <b>SetAllSettings</b> method reads codec properties from a stream and sets t
 
 ### -param __MIDL__ICodecAPI0001
 
-
+TBD
 
 
 

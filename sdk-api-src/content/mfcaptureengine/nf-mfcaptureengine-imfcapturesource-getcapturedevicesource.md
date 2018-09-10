@@ -4,17 +4,16 @@ title: IMFCaptureSource::GetCaptureDeviceSource
 author: windows-sdk-content
 description: Gets the current capture device's IMFMediaSource object pointer.
 old-location: mf\imfcapturesource_getcapturedevicesource.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 98bce6e3-02f2-449e-aba4-4bfc9de6d1db
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureSource.GetCaptureDeviceSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureSource::GetCaptureDeviceSource

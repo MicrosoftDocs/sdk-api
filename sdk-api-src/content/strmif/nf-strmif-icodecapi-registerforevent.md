@@ -4,17 +4,16 @@ title: ICodecAPI::RegisterForEvent
 author: windows-sdk-content
 description: The RegisterForEvent method registers the application to receive events from the codec.
 old-location: dshow\icodecapi_registerforevent.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.RegisterForEvent
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::RegisterForEvent

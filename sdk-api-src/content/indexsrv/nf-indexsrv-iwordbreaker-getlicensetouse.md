@@ -4,17 +4,16 @@ title: IWordBreaker::GetLicenseToUse
 author: windows-sdk-content
 description: Gets a pointer to the license information for this implementation of the IWordBreaker interface.
 old-location: search\_search_IWordBreaker_GetLicenseToUse.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
-req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWordBreaker.GetLicenseToUse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows NT 4.0 Option Pack
 ---
 
 # IWordBreaker::GetLicenseToUse

@@ -4,7 +4,7 @@ title: IUPnPDeviceDocumentAccess
 author: windows-sdk-content
 description: The IUPnPDeviceDocumentAccess interface enables an application to obtain the URL of the device description document.
 old-location: upnp\iupnpdevicedocumentaccess.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 6d71425e-3e33-44e0-845a-4bcd05939d24
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceDocumentAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceDocumentAccess interface

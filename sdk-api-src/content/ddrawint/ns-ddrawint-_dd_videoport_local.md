@@ -4,7 +4,7 @@ title: "_DD_VIDEOPORT_LOCAL"
 author: windows-sdk-content
 description: The DD_VIDEOPORT_LOCAL structure contains video port extensions (VPE)-related data that is unique to an individual Microsoft DirectDraw VPE object.
 old-location: display\dd_videoport_local.htm
-old-project: display
+tech.root: display
 ms.assetid: c497d1ef-0eb1-465f-978c-60cf5606de93
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_VIDEOPORT_LOCAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
+req.redist: 
 ---
 
 # _DD_VIDEOPORT_LOCAL structure

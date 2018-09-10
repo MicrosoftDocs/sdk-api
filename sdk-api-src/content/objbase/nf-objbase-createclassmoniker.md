@@ -4,17 +4,16 @@ title: CreateClassMoniker function
 author: windows-sdk-content
 description: Creates a class moniker that refers to the specified class.
 old-location: com\createclassmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 9361b2c1-ef26-4225-92ff-e0bef0285bc4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateClassMoniker, com.createclassmoniker, objbase/CreateClassMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateClassMoniker
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateClassMoniker function

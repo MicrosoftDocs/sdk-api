@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::put_ReminderDuration
 author: windows-sdk-content
 description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.
 old-location: security\iocspcaconfiguration_reminderduration_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 861289e7-b2f1-433f-a896-47f4b161712e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ReminderDuration property, IOCSPCAConfiguration.ReminderDuration, IOCSPCAConfiguration.put_ReminderDuration, IOCSPCAConfiguration::ReminderDuration, IOCSPCAConfiguration::get_ReminderDuration, IOCSPCAConfiguration::put_ReminderDuration, ReminderDuration property [Security], ReminderDuration property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ReminderDuration, certadm/IOCSPCAConfiguration::get_ReminderDuration, certadm/IOCSPCAConfiguration::put_ReminderDuration, put_ReminderDuration, security.iocspcaconfiguration_reminderduration_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPCAConfiguration.put_ReminderDuration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::put_ReminderDuration

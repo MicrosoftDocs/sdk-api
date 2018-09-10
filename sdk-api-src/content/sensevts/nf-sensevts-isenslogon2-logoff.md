@@ -4,17 +4,16 @@ title: ISensLogon2::Logoff
 author: windows-sdk-content
 description: The Logoff method notifies an application that a user is logged off.
 old-location: sens\isenslogon2_logoff.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: a366a9ca-ce3a-4800-90c6-e1ba53e4cb30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensLogon2 interface [SENS],Logoff method, ISensLogon2.Logoff, ISensLogon2::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon2 interface, _zaw_isenslogon2_logoff, sens.isenslogon2_logoff, sensevts/ISensLogon2::Logoff, syncmgr.isenslogon2_logoff
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon2.Logoff
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon2::Logoff

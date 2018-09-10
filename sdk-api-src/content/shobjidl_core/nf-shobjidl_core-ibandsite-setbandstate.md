@@ -4,17 +4,16 @@ title: IBandSite::SetBandState
 author: windows-sdk-content
 description: Set the state of a band in the band site.
 old-location: shell\IBandSite_SetBandState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBandSite.SetBandState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBandSite::SetBandState

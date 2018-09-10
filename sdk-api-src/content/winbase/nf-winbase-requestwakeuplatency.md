@@ -4,17 +4,16 @@ title: RequestWakeupLatency function
 author: windows-sdk-content
 description: Has no effect and returns STATUS_NOT_SUPPORTED. This function is provided only for compatibility with earlier versions of Windows.Windows Server 2008 and Windows Vista:  Has no effect and always returns success.
 old-location: base\requestwakeuplatency.htm
-old-project: power
+tech.root: power
 ms.assetid: f30fdfb6-dc7e-47fd-93ad-36655e65d0ae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RequestWakeupLatency
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # RequestWakeupLatency function

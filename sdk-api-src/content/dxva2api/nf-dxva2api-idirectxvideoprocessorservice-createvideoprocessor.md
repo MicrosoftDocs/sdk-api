@@ -4,17 +4,16 @@ title: IDirectXVideoProcessorService::CreateVideoProcessor
 author: windows-sdk-content
 description: Creates a video processor device.
 old-location: mf\idirectxvideoprocessorservice_createvideoprocessor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 18178a10-f902-4d25-992e-a27145204321
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 18178a10-f902-4d25-992e-a27145204321, CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],CreateVideoProcessor method, IDirectXVideoProcessorService.CreateVideoProcessor, IDirectXVideoProcessorService::CreateVideoProcessor, dxva2api/IDirectXVideoProcessorService::CreateVideoProcessor, mf.idirectxvideoprocessorservice_createvideoprocessor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessorService.CreateVideoProcessor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessorService::CreateVideoProcessor
@@ -63,7 +61,7 @@ Creates a video processor device.
 
 ### -param VideoProcDeviceGuid
 
-
+TBD
 
 
 ### -param pVideoDesc [in]

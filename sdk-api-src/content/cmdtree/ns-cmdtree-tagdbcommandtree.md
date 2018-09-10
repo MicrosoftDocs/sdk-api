@@ -4,7 +4,7 @@ title: tagDBCOMMANDTREE
 author: windows-sdk-content
 description: The DBCOMMANDTREE structure is the primary data structure used to represent any node in an OLE DB command tree, as described in the Data Manipulation Operators and Data Definition Operators section of this reference.
 old-location: indexsrv\dbcommandtree.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_29lx.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cmdtree.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBCOMMANDTREE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DBCOMMANDTREE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DBCOMMANDTREE
+req.redist: 
 ---
 
 # tagDBCOMMANDTREE structure

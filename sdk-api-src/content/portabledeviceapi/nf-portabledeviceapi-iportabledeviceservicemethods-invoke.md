@@ -4,17 +4,16 @@ title: IPortableDeviceServiceMethods::Invoke
 author: windows-sdk-content
 description: Synchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invoke.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceServiceMethods.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceServiceMethods::Invoke

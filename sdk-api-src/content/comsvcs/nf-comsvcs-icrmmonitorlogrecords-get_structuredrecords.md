@@ -4,17 +4,16 @@ title: ICrmMonitorLogRecords::get_StructuredRecords
 author: windows-sdk-content
 description: Retrieves a flag indicating whether the log records written by this CRM clerk were structured.
 old-location: cos\icrmmonitorlogrecords_get_structuredrecords.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a9b687c9-1e78-4896-a407-b069328ce66d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_StructuredRecords method, ICrmMonitorLogRecords.get_StructuredRecords, ICrmMonitorLogRecords::get_StructuredRecords, _dtc_ICrmMonitorLogRecords_StructuredRecords, comsvcs/ICrmMonitorLogRecords::get_StructuredRecords, cos.icrmmonitorlogrecords_get_structuredrecords, get_StructuredRecords, get_StructuredRecords method [COM+], get_StructuredRecords method [COM+],ICrmMonitorLogRecords interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorLogRecords.get_StructuredRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorLogRecords::get_StructuredRecords

@@ -4,17 +4,16 @@ title: GetTcpStatisticsEx function
 author: windows-sdk-content
 description: The GetTcpStatisticsEx function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
 old-location: iphlp\gettcpstatisticsex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 78cfc69d-eae8-49c1-a460-6527a61f773d
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx, GetTcpStatisticsEx function [IP Helper], _iphlp_gettcpstatisticsex, iphlp.gettcpstatisticsex, iphlpapi/GetTcpStatisticsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetTcpStatisticsEx
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetTcpStatisticsEx function

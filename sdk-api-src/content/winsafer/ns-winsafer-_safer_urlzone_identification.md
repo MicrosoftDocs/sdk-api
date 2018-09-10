@@ -4,7 +4,7 @@ title: "_SAFER_URLZONE_IDENTIFICATION"
 author: windows-sdk-content
 description: Represents a URL zone identification rule.
 old-location: security\safer_urlzone_identification.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 8f165956-9ef0-469e-a71b-f9341a347e59
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAFER_URLZONE_IDENTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
+req.redist: 
 ---
 
 # _SAFER_URLZONE_IDENTIFICATION structure

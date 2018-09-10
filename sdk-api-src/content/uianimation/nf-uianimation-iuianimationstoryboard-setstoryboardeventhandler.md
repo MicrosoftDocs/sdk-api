@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard::SetStoryboardEventHandler
 author: windows-sdk-content
 description: Specifies a handler for storyboard events.
 old-location: uianimation\iuianimationstoryboard_setstoryboardeventhandler.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 8fbe8e94-8585-4adc-8643-3962aff6a031
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard.SetStoryboardEventHandler, IUIAnimationStoryboard::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard.SetStoryboardEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard::SetStoryboardEventHandler

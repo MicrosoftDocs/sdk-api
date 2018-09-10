@@ -4,17 +4,16 @@ title: IPersistQuery::ReadInt
 author: windows-sdk-content
 description: Reads an integer value from the query store.
 old-location: ad\ipersistquery_readint.htm
-old-project: ad
+tech.root: ad
 ms.assetid: e7db105f-d331-4048-8d75-e85af94a5c54
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadInt method, IPersistQuery.ReadInt, IPersistQuery::ReadInt, ReadInt, ReadInt method [Active Directory], ReadInt method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readint, ad.ipersistquery__readint, ad.ipersistquery_readint, cmnquery/IPersistQuery::ReadInt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBTEXT
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPersistQuery.ReadInt
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistQuery::ReadInt

@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_PolicyReaders
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.
 old-location: security\azauthorizationstore_policyreaders.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 22479ced-b393-40d3-bb16-f3c3e595dacf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyReaders property, IAzAuthorizationStore interface [Security],PolicyReaders property, IAzAuthorizationStore.PolicyReaders, IAzAuthorizationStore.get_PolicyReaders, IAzAuthorizationStore::PolicyReaders, IAzAuthorizationStore::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzAuthorizationStore object, PolicyReaders property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReaders, azroles/IAzAuthorizationStore::get_PolicyReaders, get_PolicyReaders, security.azauthorizationstore_policyreaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.PolicyReaders
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_PolicyReaders

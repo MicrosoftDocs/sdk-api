@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 author: windows-sdk-content
 description: Windows applications can use this control code to query the storage device for detailed firmware information.
 old-location: fs\ioctl_storage_firmware_get_info.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRITE_THROUGH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_STORAGE_FIRMWARE_GET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_STORAGE_FIRMWARE_GET_INFO IOCTL

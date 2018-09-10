@@ -4,17 +4,16 @@ title: ShellExecuteW function
 author: windows-sdk-content
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecute.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: NULL, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShellExecute, ShellExecute function [Windows Shell], ShellExecuteA, ShellExecuteW, _win32_ShellExecute, _win32_ShellExecute_cpp, edit, explore, find, open, print, shell.ShellExecute, shellapi/ShellExecute, shellapi/ShellExecuteA, shellapi/ShellExecuteW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 3.51 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - ShellExecuteW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 3.51 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ShellExecuteW function

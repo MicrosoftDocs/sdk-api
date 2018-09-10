@@ -4,7 +4,7 @@ title: "_SP_ALTPLATFORM_INFO_V1"
 author: windows-sdk-content
 description: This structure is used to pass information for an alternate platform to SetupQueryInfOriginalFileInformation.
 old-location: setup\sp_altplatform_info_v1.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 33872a84-8f7f-4508-a326-2d95ac0fcfd7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_ALTPLATFORM_INFO_V1, *PSP_ALTPLATFORM_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_ALTPLATFORM_INFO_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_ALTPLATFORM_INFO_V1, *PSP_ALTPLATFORM_INFO_V1
+req.redist: 
 ---
 
 # _SP_ALTPLATFORM_INFO_V1 structure

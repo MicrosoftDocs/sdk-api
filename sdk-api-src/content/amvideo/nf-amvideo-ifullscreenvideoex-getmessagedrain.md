@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::GetMessageDrain
 author: windows-sdk-content
 description: The GetMessageDrain method retrieves the window that receives mouse and keyboard messages, if any.
 old-location: dshow\ifullscreenvideoex_getmessagedrain.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c1a83ad9-be4b-4adf-a316-d5dfb3df05ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMessageDrain, GetMessageDrain method [DirectShow], GetMessageDrain method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMessageDrain method, IFullScreenVideoEx.GetMessageDrain, IFullScreenVideoEx::GetMessageDrain, IFullScreenVideoGetMessageDrain, amvideo/IFullScreenVideoEx::GetMessageDrain, dshow.ifullscreenvideoex_getmessagedrain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.GetMessageDrain
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::GetMessageDrain

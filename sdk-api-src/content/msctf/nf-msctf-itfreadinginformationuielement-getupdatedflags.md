@@ -4,17 +4,16 @@ title: ITfReadingInformationUIElement::GetUpdatedFlags
 author: windows-sdk-content
 description: This method returns the flag that tells which part of this element was updated.
 old-location: tsf\itfreadinginformationuielement_getupdatedflags.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 6a5b1a50-9d0b-440a-a98f-80fd33c6cd95
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfReadingInformationUIElement.GetUpdatedFlags, ITfReadingInformationUIElement::GetUpdatedFlags, TF_RIUIE_CONTEXT, TF_RIUIE_ERRORINDEX, TF_RIUIE_MAXREADINGSTRINGLENGTH, TF_RIUIE_STRING, TF_RIUIE_VERTICALORDER, msctf/ITfReadingInformationUIElement::GetUpdatedFlags, tsf.iitfreadinginformationuielement_getupdatedflags, tsf.itfreadinginformationuielement_getupdatedflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfReadingInformationUIElement.GetUpdatedFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfReadingInformationUIElement::GetUpdatedFlags

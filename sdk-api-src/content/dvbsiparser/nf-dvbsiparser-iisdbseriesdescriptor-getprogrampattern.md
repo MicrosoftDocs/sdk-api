@@ -4,17 +4,16 @@ title: IIsdbSeriesDescriptor::GetProgramPattern
 author: windows-sdk-content
 description: Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getprogrampattern.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ba37c512-bbde-42ad-80fe-9d67f48299b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProgramPattern, GetProgramPattern method [Microsoft TV Technologies], GetProgramPattern method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetProgramPattern method, IIsdbSeriesDescriptor.GetProgramPattern, IIsdbSeriesDescriptor::GetProgramPattern, dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern, mstv.iisdbseriesdescriptor_getprogrampattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSeriesDescriptor.GetProgramPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSeriesDescriptor::GetProgramPattern

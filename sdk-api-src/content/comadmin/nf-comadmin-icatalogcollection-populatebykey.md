@@ -4,17 +4,16 @@ title: ICatalogCollection::PopulateByKey
 author: windows-sdk-content
 description: Populates a selected list of items in the collection from the COM+ catalog, based on the specified keys.
 old-location: cos\icatalogcollection_populatebykey.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 57329c32-2852-47ff-bf8c-dbb63f69841f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByKey method, ICatalogCollection.PopulateByKey, ICatalogCollection::PopulateByKey, PopulateByKey, PopulateByKey method [COM+], PopulateByKey method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByKey, comadmin/ICatalogCollection::PopulateByKey, cos.icatalogcollection_populatebykey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatalogCollection.PopulateByKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::PopulateByKey

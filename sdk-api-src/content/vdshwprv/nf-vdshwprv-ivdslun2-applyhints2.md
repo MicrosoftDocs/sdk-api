@@ -4,17 +4,16 @@ title: IVdsLun2::ApplyHints2
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the IVdsLun::ApplyHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdslun2_applyhints2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0032dce3-876c-4a02-8e06-203b3f83ca08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplyHints2, ApplyHints2 method, ApplyHints2 method,IVdsLun2 interface, IVdsLun2 interface,ApplyHints2 method, IVdsLun2.ApplyHints2, IVdsLun2::ApplyHints2, base.ivdslun2_applyhints2, vds/IVdsLun2::ApplyHints2, vdshwprv/IVdsLun2::ApplyHints2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun2.ApplyHints2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun2::ApplyHints2

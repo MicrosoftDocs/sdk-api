@@ -4,17 +4,16 @@ title: ID3D12Device::SetStablePowerState
 author: windows-sdk-content
 description: A development-time aid for certain types of profiling and experimental prototyping.
 old-location: direct3d12\id3d12device_setstablepowerstate.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 6078DAEF-DD8B-4F1F-86C8-96CE7BD691E4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Device interface,SetStablePowerState method, ID3D12Device.SetStablePowerState, ID3D12Device::SetStablePowerState, SetStablePowerState, SetStablePowerState method, SetStablePowerState method,ID3D12Device interface, d3d12/ID3D12Device::SetStablePowerState, direct3d12.id3d12device_setstablepowerstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device.SetStablePowerState
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device::SetStablePowerState

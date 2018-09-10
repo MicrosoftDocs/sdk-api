@@ -4,17 +4,16 @@ title: ITDigitsGatheredEvent::get_TickCount
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDigitsGatheredEvent.get_TickCount
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITDigitsGatheredEvent::get_TickCount

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxRecipients.get_Count
 title: IFaxRecipients::get_Count
 author: windows-sdk-content
-description: The Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
-old-location: fax\_mfax_faxrecipients_count_vb.htm
-old-project: Fax
+description: The IFaxRecipients::get_Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
+old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxRecipients object, FaxRecipients object [Fax Service],Count property, FaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Count property, IFaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp, faxcomex/IFaxRecipients::Count, faxcomex/IFaxRecipients::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxRecipients.Count
+ - IFaxRecipients.Count
+ - IFaxRecipients.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxRecipients::get_Count
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
+The <b>IFaxRecipients::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. This is the total number of recipients associated with the fax server or fax document.
 
 This property is read-only.
 

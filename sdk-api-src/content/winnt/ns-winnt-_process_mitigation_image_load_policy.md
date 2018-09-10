@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_IMAGE_LOAD_POLICY"
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images from a remote device.
 old-location: base\process_mitigation_image_load_policy.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: C5B414D0-C209-4669-9E02-D7E453E242B1
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MITIGATION_IMAGE_LOAD_POLICY, *PPROCESS_MITIGATION_IMAGE_LOAD_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESS_MITIGATION_IMAGE_LOAD_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESS_MITIGATION_IMAGE_LOAD_POLICY, *PPROCESS_MITIGATION_IMAGE_LOAD_POLICY
+req.redist: 
 ---
 
 # _PROCESS_MITIGATION_IMAGE_LOAD_POLICY structure

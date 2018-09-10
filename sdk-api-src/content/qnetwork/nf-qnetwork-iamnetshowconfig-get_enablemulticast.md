@@ -4,17 +4,16 @@ title: IAMNetShowConfig::get_EnableMulticast
 author: windows-sdk-content
 description: The get_EnableMulticast method queries whether multicast-type streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enablemulticast.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dae5c0ad-a41e-424c-a04d-69dbe7264143
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableMulticast method, IAMNetShowConfig.get_EnableMulticast, IAMNetShowConfig::get_EnableMulticast, IAMNetShowConfigget_EnableMulticast, dshow.iamnetshowconfig_get_enablemulticast, get_EnableMulticast, get_EnableMulticast method [DirectShow], get_EnableMulticast method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableMulticast
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowConfig.get_EnableMulticast
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowConfig::get_EnableMulticast

@@ -4,7 +4,7 @@ title: "_PUBKEYVER3"
 author: windows-sdk-content
 description: Contains information specific to the particular public key contained in the key BLOB.
 old-location: security\dhpubkey_ver3.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 02f702dd-be9d-4a9a-a3af-4db1802386b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHPUBKEY_VER3, DSSPUBKEY_VER3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DHPUBKEY_VER3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DHPUBKEY_VER3, DSSPUBKEY_VER3
+req.redist: 
 ---
 
 # _PUBKEYVER3 structure

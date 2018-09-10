@@ -4,17 +4,16 @@ title: ClusterGroupSetOpenEnum function
 author: windows-sdk-content
 description: Starts the enumeration of groupset for a cluster.
 old-location: mscs\clustergroupcollectionopenenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterGroupSetOpenEnum, ClusterGroupSetOpenEnum function [Failover Cluster], clusapi/ClusterGroupSetOpenEnum, mscs.clustergroupcollectionopenenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterGroupSetOpenEnum
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterGroupSetOpenEnum function

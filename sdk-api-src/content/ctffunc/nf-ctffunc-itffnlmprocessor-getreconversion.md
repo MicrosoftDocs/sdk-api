@@ -4,17 +4,16 @@ title: ITfFnLMProcessor::GetReconversion
 author: windows-sdk-content
 description: ITfFnLMProcessor::GetReconversion method
 old-location: tsf\itffnlmprocessor_getreconversion.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnLMProcessor.GetReconversion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfFnLMProcessor::GetReconversion

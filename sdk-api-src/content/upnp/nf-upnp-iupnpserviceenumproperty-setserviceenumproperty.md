@@ -4,17 +4,16 @@ title: IUPnPServiceEnumProperty::SetServiceEnumProperty
 author: windows-sdk-content
 description: The SetServiceEnumProperty method is used to indicate opt-in to the delayed Service Control Protocol Description (SCPD) download and event subscription for the IUPnPService objects enumerated from the IUPnPServices object.
 old-location: upnp\iupnpserviceenumproperty_setserviceenumproperty.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: B138A230-7523-4803-ACE8-4F636DD54D86
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPServiceEnumProperty interface [UPnP APIs],SetServiceEnumProperty method, IUPnPServiceEnumProperty.SetServiceEnumProperty, IUPnPServiceEnumProperty::SetServiceEnumProperty, SetServiceEnumProperty, SetServiceEnumProperty method [UPnP APIs], SetServiceEnumProperty method [UPnP APIs],IUPnPServiceEnumProperty interface, upnp.iupnpserviceenumproperty_setserviceenumproperty, upnp/IUPnPServiceEnumProperty::SetServiceEnumProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServiceEnumProperty.SetServiceEnumProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServiceEnumProperty::SetServiceEnumProperty
@@ -62,7 +60,7 @@ The <b>SetServiceEnumProperty</b> method is used to indicate opt-in to the delay
 
 ### -param dwMask
 
-
+TBD
 
 
 

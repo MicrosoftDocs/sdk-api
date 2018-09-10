@@ -4,7 +4,7 @@ title: FWP_FILTER_ENUM_TYPE_
 author: windows-sdk-content
 description: Specifies how the filter enum conditions should be interpreted.
 old-location: fwp\fwp_filter_enum_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 842ddac3-52d0-4c29-9db3-8534a0c84659
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_FILTER_ENUM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_FILTER_ENUM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_FILTER_ENUM_TYPE
+req.redist: 
 ---
 
 # FWP_FILTER_ENUM_TYPE_ enumeration

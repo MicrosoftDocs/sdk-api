@@ -4,17 +4,16 @@ title: IAdviseSink2::OnLinkSrcChange
 author: windows-sdk-content
 description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.
 old-location: com\iadvisesink2_onlinksrcchange.htm
-old-project: com
+tech.root: com
 ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAdviseSink2 interface [COM],OnLinkSrcChange method, IAdviseSink2.OnLinkSrcChange, IAdviseSink2::OnLinkSrcChange, OnLinkSrcChange, OnLinkSrcChange method [COM], OnLinkSrcChange method [COM],IAdviseSink2 interface, _ole_iadvisesink2_onlinksrcchange, com.iadvisesink2_onlinksrcchange, objidl/IAdviseSink2::OnLinkSrcChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdviseSink2.OnLinkSrcChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAdviseSink2::OnLinkSrcChange

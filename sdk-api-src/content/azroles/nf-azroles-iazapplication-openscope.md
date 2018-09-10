@@ -4,17 +4,16 @@ title: IAzApplication::OpenScope
 author: windows-sdk-content
 description: Opens an IAzScope object with the specified name.
 old-location: security\iazapplication_openscope.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c2959a6c-5c87-495b-8025-c6b9c330a0bc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],OpenScope method, IAzApplication interface [Security],OpenScope method, IAzApplication.OpenScope, IAzApplication::OpenScope, OpenScope, OpenScope method [Security], OpenScope method [Security],AzApplication object, OpenScope method [Security],IAzApplication interface, azroles/IAzApplication::OpenScope, security.iazapplication_openscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.OpenScope
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::OpenScope

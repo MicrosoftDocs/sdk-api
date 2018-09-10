@@ -4,17 +4,16 @@ title: PrepareEnlistment function
 author: windows-sdk-content
 description: Prepares the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\prepareenlistment.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: 5f1b1eb2-e2f5-4daf-b549-7f0c195414f0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PrepareEnlistment, PrepareEnlistment function [Files], fs.prepareenlistment, ktmw32/PrepareEnlistment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: KtmW32.lib
+req.dll: KtmW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrepareEnlistment
 product: Windows
 targetos: Windows
-req.lib: KtmW32.lib
-req.dll: KtmW32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # PrepareEnlistment function

@@ -4,17 +4,16 @@ title: INetFwRule2::get_EdgeTraversalOptions
 author: windows-sdk-content
 description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2_edgetraversaloptions.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 99dfbe4c-dac5-4d04-890c-dbb32f07e556
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF],INetFwRule2 interface, INetFwRule2 interface [ICS/ICF],EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2.get_EdgeTraversalOptions, INetFwRule2::EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, get_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule2.put_EdgeTraversalOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule2::get_EdgeTraversalOptions

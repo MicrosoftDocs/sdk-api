@@ -4,17 +4,16 @@ title: IIOCancelInformation::SetCancelInformation
 author: windows-sdk-content
 description: Sets information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_SetCancelInformation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ed7a2a43-8944-4e17-af0a-d64f0cb493e6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IIOCancelInformation interface [Windows Shell],SetCancelInformation method, IIOCancelInformation.SetCancelInformation, IIOCancelInformation::SetCancelInformation, SetCancelInformation, SetCancelInformation method [Windows Shell], SetCancelInformation method [Windows Shell],IIOCancelInformation interface, _shell_IIOCancelInformation_SetCancelInformation, shell.IIOCancelInformation_SetCancelInformation, shobjidl_core/IIOCancelInformation::SetCancelInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIOCancelInformation.SetCancelInformation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IIOCancelInformation::SetCancelInformation

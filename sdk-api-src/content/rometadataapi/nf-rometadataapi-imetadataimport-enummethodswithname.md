@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumMethodsWithName
 author: windows-sdk-content
 description: Enumerates methods that have the specified name and that are defined by the type referenced by the specified TypeDef token.
 old-location: winrt\imetadataimport_enummethodswithname.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumMethodsWithName, EnumMethodsWithName method [Windows Runtime], EnumMethodsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodsWithName method, IMetaDataImport.EnumMethodsWithName, IMetaDataImport::EnumMethodsWithName, rometadataapi/IMetaDataImport::EnumMethodsWithName, winrt.imetadataimport_enummethodswithname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumMethodsWithName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumMethodsWithName

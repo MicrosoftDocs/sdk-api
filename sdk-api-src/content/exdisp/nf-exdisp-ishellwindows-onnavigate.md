@@ -4,17 +4,16 @@ title: IShellWindows::OnNavigate
 author: windows-sdk-content
 description: Occurs when a Shell window is navigated to a new location.
 old-location: shell\IShellWindows_OnNavigate.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b65bc979-db32-48b3-b71f-fd389957b265
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnNavigate method, IShellWindows.OnNavigate, IShellWindows::OnNavigate, OnNavigate, OnNavigate method [Windows Shell], OnNavigate method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnNavigate, exdisp/IShellWindows::OnNavigate, shell.IShellWindows_OnNavigate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IShellWindows.OnNavigate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5
 ---
 

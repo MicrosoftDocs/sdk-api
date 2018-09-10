@@ -4,17 +4,16 @@ title: IShellFolderViewDual::get_Parent
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IShellFolderViewDual_get_Parent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 36a893b3-6c4e-4cca-949b-707fd2aed125
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Parent method, IShellFolderViewDual.get_Parent, IShellFolderViewDual::get_Parent, _shell_IShellFolderViewDual_get_Parent, get_Parent, get_Parent method [Windows Shell], get_Parent method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Parent, shldisp/IShellFolderViewDual::get_Parent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: Shldisp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.get_Parent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::get_Parent

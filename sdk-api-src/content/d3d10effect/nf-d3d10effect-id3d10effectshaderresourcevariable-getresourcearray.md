@@ -4,17 +4,16 @@ title: ID3D10EffectShaderResourceVariable::GetResourceArray
 author: windows-sdk-content
 description: Get an array of shader resources.
 old-location: direct3d10\id3d10effectshaderresourcevariable_getresourcearray.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_getresourcearray.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetResourceArray, GetResourceArray method [Direct3D 10], GetResourceArray method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, ID3D10EffectShaderResourceVariable interface [Direct3D 10],GetResourceArray method, ID3D10EffectShaderResourceVariable.GetResourceArray, ID3D10EffectShaderResourceVariable::GetResourceArray, be202163-a9e9-5354-d781-12b5b98cda4b, d3d10effect/ID3D10EffectShaderResourceVariable::GetResourceArray, direct3d10.id3d10effectshaderresourcevariable_getresourcearray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectShaderResourceVariable.GetResourceArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectShaderResourceVariable::GetResourceArray

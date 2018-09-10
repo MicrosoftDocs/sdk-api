@@ -4,7 +4,7 @@ title: ItsPubPlugin
 author: windows-sdk-content
 description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.
 old-location: termserv\itspubplugin.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 37d33f27-a811-4c97-bc80-ff8a5b8fcb7c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tspubplugincom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: pluginResource2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin interface

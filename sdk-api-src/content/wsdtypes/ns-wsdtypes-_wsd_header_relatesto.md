@@ -4,7 +4,7 @@ title: "_WSD_HEADER_RELATESTO"
 author: windows-sdk-content
 description: Represents a RelatesTo SOAP envelope header block, as specified by the WS-Addressing specification.
 old-location: ncd\wsd_header_relatesto.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 6085620e-2e3d-4e77-90cd-7cb9fd2c197e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_HEADER_RELATESTO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_HEADER_RELATESTO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_HEADER_RELATESTO
+req.redist: 
 ---
 
 # _WSD_HEADER_RELATESTO structure

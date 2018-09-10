@@ -4,7 +4,7 @@ title: PBEGIN_RESCALL_AS_USER_ROUTINE
 author: windows-sdk-content
 description: The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrolasuser.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - BeginResourceControlAsUser callback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PBEGIN_RESCALL_AS_USER_ROUTINE callback function

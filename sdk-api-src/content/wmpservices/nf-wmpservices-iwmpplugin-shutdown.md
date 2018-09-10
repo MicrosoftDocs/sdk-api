@@ -4,17 +4,16 @@ title: IWMPPlugin::Shutdown
 author: windows-sdk-content
 description: The IWMPPlugin::Shutdown method is called when Windows Media Player shuts down the plug-in.
 old-location: wmp\iwmpplugin_shutdown.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 80a8fe19-3660-49cb-8bbb-0267b3f11b63
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],Shutdown method, IWMPPlugin.Shutdown, IWMPPlugin::Shutdown, IWMPPluginShutdownDSP, Shutdown, Shutdown method [Windows Media Player], Shutdown method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_shutdown, wmpservices/IWMPPlugin::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlugin.Shutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlugin::Shutdown

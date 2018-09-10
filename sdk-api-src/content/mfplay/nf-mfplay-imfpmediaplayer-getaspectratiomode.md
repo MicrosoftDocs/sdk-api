@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::GetAspectRatioMode
 author: windows-sdk-content
 description: Gets the current aspect-ratio correction mode. This mode controls whether the aspect ratio of the video is preserved during playback.
 old-location: mf\imfpmediaplayer_getaspectratiomode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: eaeb20d2-d547-4f88-a69f-7c3f46fe95ff
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetAspectRatioMode method, IMFPMediaPlayer.GetAspectRatioMode, IMFPMediaPlayer::GetAspectRatioMode, mf.imfpmediaplayer_getaspectratiomode, mfplay/IMFPMediaPlayer::GetAspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.GetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::GetAspectRatioMode

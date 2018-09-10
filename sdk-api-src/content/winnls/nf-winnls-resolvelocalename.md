@@ -4,17 +4,16 @@ title: ResolveLocaleName function
 author: windows-sdk-content
 description: Finds a possible locale name match for the supplied name.
 old-location: intl\resolvelocalename.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 99264b22-3fb5-47e2-b0b9-42a6768e67c1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ResolveLocaleName, ResolveLocaleName function [Internationalization for Windows Applications], intl.resolvelocalename, winnls/ResolveLocaleName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ResolveLocaleName
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ResolveLocaleName function

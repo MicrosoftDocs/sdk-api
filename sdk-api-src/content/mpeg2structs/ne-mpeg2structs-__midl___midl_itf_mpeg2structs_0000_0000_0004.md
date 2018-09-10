@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004"
 author: windows-sdk-content
 description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
 old-location: mstv\mpeg_current_next_bit.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mpeg2structs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_CURRENT_NEXT_BIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG_CURRENT_NEXT_BIT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG_CURRENT_NEXT_BIT
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004 enumeration

@@ -4,17 +4,16 @@ title: IADsPropertyList::PutPropertyItem
 author: windows-sdk-content
 description: Updates the values for an item in the property list.
 old-location: adsi\iadspropertylist_putpropertyitem.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyList.PutPropertyItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyList::PutPropertyItem
@@ -62,7 +60,7 @@ The <b>IADsPropertyList::PutPropertyItem</b> method updates the values for an it
 
 ### -param varData
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ICertAdmin::GetCRL
 author: windows-sdk-content
 description: Retrieves the current certificate revocation list (CRL) for the Certificate Services certification authority (CA).
 old-location: security\icertadmin2_getcrl.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL, GetCRL method [Security], GetCRL method [Security],CCertAdmin object, GetCRL method [Security],ICertAdmin interface, GetCRL method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetCRL method, ICertAdmin.GetCRL, ICertAdmin2 interface [Security],GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertAdmin.GetCRL
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin::GetCRL
@@ -113,7 +112,7 @@ Binary format.
 
 ### -param pstrCRL
 
-
+TBD
 
 
 

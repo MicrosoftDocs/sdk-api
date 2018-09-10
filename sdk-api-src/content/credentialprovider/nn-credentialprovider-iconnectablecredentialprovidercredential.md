@@ -4,7 +4,7 @@ title: IConnectableCredentialProviderCredential
 author: windows-sdk-content
 description: Exposes methods for connecting and disconnecting IConnectableCredentialProviderCredential objects.
 old-location: shell\IConnectableCredentialProviderCredential.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IConnectableCredentialProviderCredential
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectableCredentialProviderCredential interface

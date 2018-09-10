@@ -4,17 +4,16 @@ title: IPersistSerializedPropStorage::SetFlags
 author: windows-sdk-content
 description: Toggles the property store object between the read-only and read/write state.
 old-location: shell\IPersistSerializedPropStorage_SetFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: df7a817e-de81-4e27-ab37-192e668bf7fa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FPSPS_DEFAULT, FPSPS_READONLY, FPSPS_TREAT_NEW_VALUES_AS_DIRTY, IPersistSerializedPropStorage interface [Windows Shell],SetFlags method, IPersistSerializedPropStorage.SetFlags, IPersistSerializedPropStorage::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetFlags, propsys/IPersistSerializedPropStorage::SetFlags, shell.IPersistSerializedPropStorage_SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistSerializedPropStorage.SetFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistSerializedPropStorage::SetFlags

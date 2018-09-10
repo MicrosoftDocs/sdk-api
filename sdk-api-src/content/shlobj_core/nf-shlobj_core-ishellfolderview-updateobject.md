@@ -4,17 +4,16 @@ title: IShellFolderView::UpdateObject
 author: windows-sdk-content
 description: UpdateObject may be altered or unavailable.
 old-location: shell\IShellFolderView_UpdateObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: aacc326f-30e3-4794-b158-77ccf24f8d01
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],UpdateObject method, IShellFolderView.UpdateObject, IShellFolderView::UpdateObject, UpdateObject, UpdateObject method [Windows Shell], UpdateObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_UpdateObject, shell.IShellFolderView_UpdateObject, shlobj_core/IShellFolderView::UpdateObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.UpdateObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::UpdateObject

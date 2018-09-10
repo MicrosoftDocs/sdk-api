@@ -4,7 +4,7 @@ title: "_FD_DEVICEMETRICS"
 author: windows-sdk-content
 description: The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the iMode parameter of the driver-supplied DrvQueryFontData function is QFD_MAXEXTENTS.
 old-location: display\fd_devicemetrics.htm
-old-project: display
+tech.root: display
 ms.assetid: c6518325-7efc-46dd-831b-7cb7d2f37ddb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FD_DEVICEMETRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
+req.redist: 
 ---
 
 # _FD_DEVICEMETRICS structure

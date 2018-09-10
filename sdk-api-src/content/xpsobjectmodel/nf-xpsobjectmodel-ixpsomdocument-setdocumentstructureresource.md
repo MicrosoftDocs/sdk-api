@@ -4,17 +4,16 @@ title: IXpsOMDocument::SetDocumentStructureResource
 author: windows-sdk-content
 description: Sets the IXpsOMDocumentStructureResource interface for the document.
 old-location: xps\ixpsomdocument_setdocumentstructureresource.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMDocument.SetDocumentStructureResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMDocument::SetDocumentStructureResource

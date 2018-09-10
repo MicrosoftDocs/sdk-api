@@ -4,17 +4,16 @@ title: WICSerializeMetadataContent function
 author: windows-sdk-content
 description: Writes metadata into a given stream.
 old-location: wic\_wic_codec_wicserializemetadatacontent.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 726b5e83-d5ab-4053-8f4c-34826fc0db55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WICSerializeMetadataContent, WICSerializeMetadataContent function [Windows Imaging Component], _wic_codec_wicserializemetadatacontent, wic._wic_codec_wicserializemetadatacontent, wincodecsdk/WICSerializeMetadataContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: 
+req.dll: Windowscodecs.dll; Wincodec.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WICSerializeMetadataContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WICSerializeMetadataContent function

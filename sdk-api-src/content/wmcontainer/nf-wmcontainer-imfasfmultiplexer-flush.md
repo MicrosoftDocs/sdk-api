@@ -4,17 +4,16 @@ title: IMFASFMultiplexer::Flush
 author: windows-sdk-content
 description: Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 old-location: mf\imfasfmultiplexer_flush.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 44a66374-ad9d-4c76-8c95-21a15e071c6d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],Flush method, IMFASFMultiplexer.Flush, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFMultiplexer.Flush
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFMultiplexer::Flush

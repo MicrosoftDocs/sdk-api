@@ -4,17 +4,16 @@ title: IFsrmFileScreen::get_UserSid
 author: windows-sdk-content
 description: The SID of the user whose files will be screened.
 old-location: fsrm\ifsrmfilescreen_usersid.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 7f5c549d-52a3-4013-9f86-844d823636f6
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileScreen.get_UserSid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreen::get_UserSid

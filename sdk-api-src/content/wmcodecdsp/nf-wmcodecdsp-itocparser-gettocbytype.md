@@ -4,17 +4,16 @@ title: ITocParser::GetTocByType
 author: windows-sdk-content
 description: The GetTocByType retrieves all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_gettocbytype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 97a3b835-5d99-4b37-8f1d-2469e85faf9b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTocByType, GetTocByType method [Media Foundation], GetTocByType method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByType method, ITocParser.GetTocByType, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.GetTocByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::GetTocByType
@@ -60,9 +58,9 @@ The <b>GetTocByType</b> retrieves all tables of contents of a specified type fro
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param guidTocType [in]

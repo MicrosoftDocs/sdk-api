@@ -4,17 +4,16 @@ title: IDvdInfo::GetCurrentAudioAttributes
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current audio stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentaudioattributes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b6cb0162-747a-468d-a28f-49621dd27df0
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetCurrentAudioAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetCurrentAudioAttributes

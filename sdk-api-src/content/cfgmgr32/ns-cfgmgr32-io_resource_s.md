@@ -4,7 +4,7 @@ title: IO_Resource_s
 author: windows-sdk-content
 description: The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance.
 old-location: devinst\io_resource.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: d18a1f92-b76c-4240-9a0e-7474c258436c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IO_RESOURCE, *PIO_RESOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IO_RESOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IO_RESOURCE, *PIO_RESOURCE
+req.redist: 
 ---
 
 # IO_Resource_s structure

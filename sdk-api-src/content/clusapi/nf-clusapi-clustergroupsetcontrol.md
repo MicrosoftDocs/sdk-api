@@ -4,17 +4,16 @@ title: ClusterGroupSetControl function
 author: windows-sdk-content
 description: Initiates an operation affecting a groupset.
 old-location: mscs\clustergroupcollectioncontrol.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster], clusapi/ClusterGroupSetControl, clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterGroupSetControl
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterGroupSetControl function

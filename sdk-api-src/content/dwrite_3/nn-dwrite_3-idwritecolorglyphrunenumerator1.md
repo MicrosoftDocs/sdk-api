@@ -4,7 +4,7 @@ title: IDWriteColorGlyphRunEnumerator1
 author: windows-sdk-content
 description: Enumerator for an ordered collection of color glyph runs.
 old-location: directwrite\idwritecolorglyphrunenumerator1.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 692CB5FF-3E74-4D3E-B961-E4AF5995A1B2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteColorGlyphRunEnumerator1
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteColorGlyphRunEnumerator1 interface

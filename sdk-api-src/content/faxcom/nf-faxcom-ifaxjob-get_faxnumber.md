@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_FaxNumber
 title: IFaxJob::get_FaxNumber
 author: windows-sdk-content
-description: The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The FaxNumber property applies only to outgoing fax transmissions.
-old-location: fax\_mfax_ifaxjob_get_faxnumber_vb.htm
-old-project: Fax
+description: The IFaxJob::get_FaxNumber property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The IFaxJob::get_FaxNumber property applies only to outgoing fax transmissions.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_42wi.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],FaxNumber property, FaxJob.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxJob object, IFaxJob.get_FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber_vb, get_FaxNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],FaxNumber property, IFaxJob.FaxNumber, IFaxJob.get_FaxNumber, IFaxJob::FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp, faxcom/IFaxJob::FaxNumber, faxcom/IFaxJob::get_FaxNumber, get_FaxNumber
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.FaxNumber
+ - IFaxJob.FaxNumber
+ - IFaxJob.get_FaxNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_FaxNumber
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FaxNumber</b> property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The <b>FaxNumber</b> property applies only to outgoing fax transmissions.
+The <b>IFaxJob::get_FaxNumber</b> property is a null-terminated string that contains the fax number to which the fax server will transmit the fax job. The <b>IFaxJob::get_FaxNumber</b> property applies only to outgoing fax transmissions.
 
 This property is read-only.
 
@@ -64,9 +63,9 @@ This property is read-only.
 
 
 
-A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>FaxNumber</b> property contains an empty string.
+A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>IFaxJob::get_FaxNumber</b> property contains an empty string.
 
-<b>FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+<b>IFaxJob::get_FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 
@@ -84,19 +83,15 @@ A fax number is only available for faxes that have a <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/c6e95bae-c1f8-4636-9847-7c66187cfc8d">FaxJob</a>
-
-
-
 <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a>
+
+
+
 <a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
-
-
-
-<a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a>
  
 
  

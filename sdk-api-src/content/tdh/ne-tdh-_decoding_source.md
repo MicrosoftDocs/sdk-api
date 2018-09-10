@@ -4,7 +4,7 @@ title: "_DECODING_SOURCE"
 author: windows-sdk-content
 description: Defines the source of the event data.
 old-location: etw\decoding_source_enum.htm
-old-project: etw
+tech.root: etw
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DECODING_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DECODING_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: DECODING_SOURCE
+req.redist: 
 ---
 
 # _DECODING_SOURCE enumeration

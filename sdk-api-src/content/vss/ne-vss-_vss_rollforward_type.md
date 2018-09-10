@@ -4,7 +4,7 @@ title: "_VSS_ROLLFORWARD_TYPE"
 author: windows-sdk-content
 description: The VSS_ROLLFORWARD_TYPE enumeration is used by a requester to indicate the type of roll-forward operation it is about to perform.
 old-location: base\vss_rollforward_type.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3a1f3123-659f-48e1-864d-d5abee64f819
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_ROLLFORWARD_TYPE, *PVSS_ROLLFORWARD_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_ROLLFORWARD_TYPE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_ROLLFORWARD_TYPE, *PVSS_ROLLFORWARD_TYPE
+req.redist: 
 ---
 
 # _VSS_ROLLFORWARD_TYPE enumeration

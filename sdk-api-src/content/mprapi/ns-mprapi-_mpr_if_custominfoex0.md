@@ -4,7 +4,7 @@ title: "_MPR_IF_CUSTOMINFOEX0"
 author: windows-sdk-content
 description: Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 old-location: rras\mpr_if_custominfoex0.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 53c4b7ae-db73-4d97-a99f-a98354c48a92
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_IF_CUSTOMINFOEX0, *PMPR_IF_CUSTOMINFOEX0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_IF_CUSTOMINFOEX0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_IF_CUSTOMINFOEX0, *PMPR_IF_CUSTOMINFOEX0
+req.redist: 
 ---
 
 # _MPR_IF_CUSTOMINFOEX0 structure

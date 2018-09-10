@@ -4,17 +4,16 @@ title: IMetaDataImport::GetMethodSemantics
 author: windows-sdk-content
 description: Gets flags indicating the relationship between the method referenced by the specified MethodDef token and the paired property and event referenced by the specified EventProp token.
 old-location: winrt\imetadataimport_getmethodsemantics.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: b4133bf8-4ae4-43ad-8d07-4f7805e9ef2c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMethodSemantics, GetMethodSemantics method [Windows Runtime], GetMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodSemantics method, IMetaDataImport.GetMethodSemantics, IMetaDataImport::GetMethodSemantics, rometadataapi/IMetaDataImport::GetMethodSemantics, winrt.imetadataimport_getmethodsemantics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetMethodSemantics
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetMethodSemantics

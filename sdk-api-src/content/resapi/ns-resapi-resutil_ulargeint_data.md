@@ -4,7 +4,7 @@ title: RESUTIL_ULARGEINT_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for an unsigned large integer.
 old-location: mscs\resutil_ulargeint_data.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 44b937dc-e2f1-4c2d-9689-35b772103b8d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESUTIL_ULARGEINT_DATA, *PRESUTIL_ULARGEINT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESUTIL_ULARGEINT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESUTIL_ULARGEINT_DATA, *PRESUTIL_ULARGEINT_DATA
+req.redist: 
 ---
 
 # RESUTIL_ULARGEINT_DATA structure

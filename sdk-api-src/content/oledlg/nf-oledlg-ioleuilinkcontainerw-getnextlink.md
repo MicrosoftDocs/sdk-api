@@ -4,17 +4,16 @@ title: IOleUILinkContainerW::GetNextLink
 author: windows-sdk-content
 description: Enumerates the links in a container.
 old-location: com\ioleuilinkcontainer_getnextlink.htm
-old-project: com
+tech.root: com
 ms.assetid: 60246b31-3677-4424-a131-840feeca030f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNextLink, GetNextLink method [COM], GetNextLink method [COM],IOleUILinkContainer interface, GetNextLink method [COM],IOleUILinkContainerA interface, GetNextLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetNextLink method, IOleUILinkContainer::GetNextLink, IOleUILinkContainerA interface [COM],GetNextLink method, IOleUILinkContainerA::GetNextLink, IOleUILinkContainerW interface [COM],GetNextLink method, IOleUILinkContainerW.GetNextLink, IOleUILinkContainerW::GetNextLink, _ole_IOleUILinkContainer_GetNextLink, com.ioleuilinkcontainer_getnextlink, oledlg/IOleUILinkContainer::GetNextLink, oledlg/IOleUILinkContainerA::GetNextLink, oledlg/IOleUILinkContainerW::GetNextLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUILinkContainerW.GetNextLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUILinkContainerW::GetNextLink

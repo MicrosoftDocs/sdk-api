@@ -4,7 +4,7 @@ title: "_IPX_PATTERN"
 author: windows-sdk-content
 description: The IPX_PATTERN structure applies a specific pattern or corresponding mask for the IPX protocol. The IPX_PATTERN structure designation is used by the traffic control interface in the application of packet filters.
 old-location: qos\ipx_pattern.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: bbb5466c-3ec4-48a7-a50e-4859d074d001
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPX_PATTERN, *PIPX_PATTERN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPX_PATTERN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: IPX_PATTERN, *PIPX_PATTERN
+req.redist: 
 ---
 
 # _IPX_PATTERN structure

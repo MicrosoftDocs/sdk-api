@@ -4,17 +4,16 @@ title: IMDSPDevice3::DeviceIoControl
 author: windows-sdk-content
 description: The DeviceIoControl method calls the device I/O control.
 old-location: wmdm\imdspdevice3_deviceiocontrol.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 1f41c3f9-8eb6-4d51-87f9-c8b035a73cce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeviceIoControl, DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],DeviceIoControl method, IMDSPDevice3.DeviceIoControl, IMDSPDevice3::DeviceIoControl, IMDSPDevice3DeviceIoControl, mswmdm/IMDSPDevice3::DeviceIoControl, wmdm.imdspdevice3_deviceiocontrol
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice3.DeviceIoControl
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice3::DeviceIoControl

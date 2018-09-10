@@ -4,17 +4,16 @@ title: ICertRequest3::GetRequestIdString
 author: windows-sdk-content
 description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
 old-location: security\icertrequest3_getrequestidstring.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetRequestIdString method, GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],CCertRequest object, GetRequestIdString method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRequestIdString method, ICertRequest3.GetRequestIdString, ICertRequest3::GetRequestIdString, certcli/ICertRequest3::GetRequestIdString, security.icertrequest3_getrequestidstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertRequest.GetRequestIdString
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest3::GetRequestIdString

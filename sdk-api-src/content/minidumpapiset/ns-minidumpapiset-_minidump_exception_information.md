@@ -4,7 +4,7 @@ title: "_MINIDUMP_EXCEPTION_INFORMATION"
 author: windows-sdk-content
 description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_exception_information_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_EXCEPTION_INFORMATION, *PMINIDUMP_EXCEPTION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_EXCEPTION_INFORMATION, *PMINIDUMP_EXCEPTION_INFORMATION
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_EXCEPTION_INFORMATION structure

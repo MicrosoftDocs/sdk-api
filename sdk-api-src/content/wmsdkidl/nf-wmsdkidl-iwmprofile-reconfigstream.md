@@ -4,17 +4,16 @@ title: IWMProfile::ReconfigStream
 author: windows-sdk-content
 description: The ReconfigStream method enables changes made to a stream configuration to be included in the profile. Use this method when you have made changes to a stream that has already been included in the profile.
 old-location: wmformat\iwmprofile_reconfigstream.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: ac6de14b-b754-4f61-9f9a-656885641fbc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMProfile interface [windows Media Format],ReconfigStream method, IWMProfile.ReconfigStream, IWMProfile2 interface [windows Media Format],ReconfigStream method, IWMProfile2::ReconfigStream, IWMProfile3 interface [windows Media Format],ReconfigStream method, IWMProfile3::ReconfigStream, IWMProfile::ReconfigStream, IWMProfileReconfigStream, ReconfigStream, ReconfigStream method [windows Media Format], ReconfigStream method [windows Media Format],IWMProfile interface, ReconfigStream method [windows Media Format],IWMProfile2 interface, ReconfigStream method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_reconfigstream, wmsdkidl/IWMProfile2::ReconfigStream, wmsdkidl/IWMProfile3::ReconfigStream, wmsdkidl/IWMProfile::ReconfigStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - IWMProfile3.ReconfigStream
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile::ReconfigStream

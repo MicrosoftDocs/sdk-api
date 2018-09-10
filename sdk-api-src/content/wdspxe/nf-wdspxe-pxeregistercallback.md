@@ -4,17 +4,16 @@ title: PxeRegisterCallback function
 author: windows-sdk-content
 description: Registers callback functions for different notification events.
 old-location: wds\pxeregistercallback.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: e4d7295a-99ef-4dcb-8e40-b5a5383356b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_CONTROL, PXE_CALLBACK_SHUTDOWN, PxeRegisterCallback, PxeRegisterCallback function [Windows Deployment Services], wds.pxeregistercallback, wdspxe/PxeRegisterCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeRegisterCallback
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeRegisterCallback function

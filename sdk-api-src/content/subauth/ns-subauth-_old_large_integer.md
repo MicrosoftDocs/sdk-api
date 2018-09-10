@@ -4,7 +4,7 @@ title: "_OLD_LARGE_INTEGER"
 author: windows-sdk-content
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLD_LARGE_INTEGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
+req.redist: 
 ---
 
 # _OLD_LARGE_INTEGER structure

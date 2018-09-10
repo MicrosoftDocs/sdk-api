@@ -4,7 +4,7 @@ title: "_TRACE_PROVIDER_INFO"
 author: windows-sdk-content
 description: Defines the GUID and name for a provider.
 old-location: etw\trace_provider_info_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_PROVIDER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACE_PROVIDER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TRACE_PROVIDER_INFO
+req.redist: 
 ---
 
 # _TRACE_PROVIDER_INFO structure

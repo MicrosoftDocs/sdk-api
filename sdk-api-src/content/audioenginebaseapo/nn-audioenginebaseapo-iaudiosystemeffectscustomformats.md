@@ -4,7 +4,7 @@ title: IAudioSystemEffectsCustomFormats
 author: windows-sdk-content
 description: The IAudioSystemEffectsCustomFormats interface is supported in Windows Vista and later versions of Windows.
 old-location: audio\iaudiosystemeffectscustomformats.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSystemEffectsCustomFormats
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: All levels.
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSystemEffectsCustomFormats interface

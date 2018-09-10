@@ -1,0 +1,115 @@
+---
+UID: NF:directxmath.XMVector2Equal
+title: XMVector2Equal function
+author: windows-sdk-content
+description: Tests whether two 2D vectors are equal.
+old-location: dxmath\xmvector2equal.htm
+tech.root: dxmath
+ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2Equal(XMVECTOR,XMVECTOR)
+ms.author: windowssdkdev
+ms.date: 07/30/2018
+ms.keywords: Use DirectX..XMVector2Equal, XMVector2Equal, XMVector2Equal method [DirectX Math Support APIs], dxmath.xmvector2equal
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: directxmath.h
+req.include-header: DirectXMath.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: Use DirectX.
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVector2Equal
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# XMVector2Equal function
+
+
+## -description
+
+
+Tests whether two 2D vectors are equal.
+
+
+## -parameters
+
+
+
+
+### -param V1 [in]
+
+2D vector.
+
+
+### -param V2 [in]
+
+2D vector.
+
+
+## -returns
+
+
+
+Returns true if the 2D vectors are equal and false otherwise.
+
+
+
+
+## -remarks
+
+
+
+The following pseudocode demonstrates the operation of the function:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>return ( V1.x == V2.x &amp;&amp; V1.y == V2.y );</pre>
+</td>
+</tr>
+</table></span></div>
+<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
+Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/16e8348b-c6cf-06a5-12be-5954de3522c1">DirectXMath Library 2D Vector Comparison Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/5b1c5572-2118-4e70-937b-c1e9d0557f43">XMVector2EqualR</a>
+ 
+
+ 
+

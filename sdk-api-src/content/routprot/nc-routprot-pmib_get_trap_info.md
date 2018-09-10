@@ -4,7 +4,7 @@ title: PMIB_GET_TRAP_INFO
 author: windows-sdk-content
 description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
 old-location: rras\mibgettrapinfo.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MibGetTrapInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PMIB_GET_TRAP_INFO callback function

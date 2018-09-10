@@ -4,17 +4,16 @@ title: IOfflineFilesItemFilter::GetFilterFlags
 author: windows-sdk-content
 description: Provides flags to control flag-based filtering of items.
 old-location: of\iofflinefilesitemfilter_getfilterflags.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 75466fc7-d14c-4ce7-82e9-9622287a50d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFilterFlags, GetFilterFlags method [Offline Files], GetFilterFlags method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetFilterFlags method, IOfflineFilesItemFilter.GetFilterFlags, IOfflineFilesItemFilter::GetFilterFlags, cscobj/IOfflineFilesItemFilter::GetFilterFlags, of.iofflinefilesitemfilter_getfilterflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesItemFilter.GetFilterFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesItemFilter::GetFilterFlags

@@ -4,17 +4,16 @@ title: NCryptTranslateHandle function
 author: windows-sdk-content
 description: Translates a CryptoAPI handle into a CNG key handle.
 old-location: security\ncrypttranslatehandle.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptTranslateHandle
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptTranslateHandle function

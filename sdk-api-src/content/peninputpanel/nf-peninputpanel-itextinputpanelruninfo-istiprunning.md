@@ -4,17 +4,16 @@ title: ITextInputPanelRunInfo::IsTipRunning
 author: windows-sdk-content
 description: Indicates if the Tablet PC Input Panel is running at the time the method is called.
 old-location: tablet\itextinputpanelruninfo_istiprunning.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo interface [Tablet PC],IsTipRunning method, ITextInputPanelRunInfo.IsTipRunning, ITextInputPanelRunInfo::IsTipRunning, IsTipRunning, IsTipRunning method [Tablet PC], IsTipRunning method [Tablet PC],ITextInputPanelRunInfo interface, peninputpanel/ITextInputPanelRunInfo::IsTipRunning, tablet.itextinputpanelruninfo_istiprunning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelRunInfo.IsTipRunning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelRunInfo::IsTipRunning

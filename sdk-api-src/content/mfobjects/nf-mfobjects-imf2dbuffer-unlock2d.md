@@ -4,17 +4,16 @@ title: IMF2DBuffer::Unlock2D
 author: windows-sdk-content
 description: Unlocks a buffer that was previously locked. Call this method once for each call to IMF2DBuffer::Lock2D.
 old-location: mf\imf2dbuffer_unlock2d.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 535452a3-0b38-467e-b556-80a069e4c0a5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 535452a3-0b38-467e-b556-80a069e4c0a5, IMF2DBuffer interface [Media Foundation],Unlock2D method, IMF2DBuffer.Unlock2D, IMF2DBuffer::Unlock2D, Unlock2D, Unlock2D method [Media Foundation], Unlock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_unlock2d, mfobjects/IMF2DBuffer::Unlock2D
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMF2DBuffer.Unlock2D
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMF2DBuffer::Unlock2D

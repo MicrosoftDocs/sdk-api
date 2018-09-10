@@ -4,17 +4,16 @@ title: IXAudio2::CreateSubmixVoice
 author: windows-sdk-content
 description: Creates and configures a submix voice.
 old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateSubmixVoice, CreateSubmixVoice method [XAudio2 Audio Mixing APIs], CreateSubmixVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSubmixVoice method, IXAudio2.CreateSubmixVoice, IXAudio2::CreateSubmixVoice, xaudio2.ixaudio2_interface_createsubmixvoice, xaudio2/IXAudio2::CreateSubmixVoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAudio2.CreateSubmixVoice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAudio2::CreateSubmixVoice
@@ -79,7 +77,7 @@ Sample rate of the input audio data of submix voice. This rate must be a multipl
 
 ### -param X2DEFAULT
 
-
+TBD
 
 
 

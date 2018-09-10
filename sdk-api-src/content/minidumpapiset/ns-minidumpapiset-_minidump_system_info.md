@@ -4,7 +4,7 @@ title: "_MINIDUMP_SYSTEM_INFO"
 author: windows-sdk-content
 description: Contains processor and operating system information.
 old-location: base\minidump_system_info_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 1d4e2a78-2184-4846-b51d-441bf1133ec0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_SYSTEM_INFO, *PMINIDUMP_SYSTEM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_SYSTEM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_SYSTEM_INFO, *PMINIDUMP_SYSTEM_INFO
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_SYSTEM_INFO structure

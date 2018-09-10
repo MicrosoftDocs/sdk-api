@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_INFO_ARRAY"
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_ARRAY structure defines an array of DHCP_CLIENT_INFO structures for use with enumeration functions.
 old-location: dhcp\dhcp_client_info_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 32bb0664-5227-4c84-a2d8-c3b348ae451c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_INFO_ARRAY, *LPDHCP_CLIENT_INFO_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_INFO_ARRAY, *LPDHCP_CLIENT_INFO_ARRAY
+req.redist: 
 ---
 
 # _DHCP_CLIENT_INFO_ARRAY structure

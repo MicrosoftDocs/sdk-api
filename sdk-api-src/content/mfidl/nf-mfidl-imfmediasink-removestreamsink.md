@@ -4,17 +4,16 @@ title: IMFMediaSink::RemoveStreamSink
 author: windows-sdk-content
 description: Removes a stream sink from the media sink.
 old-location: mf\imfmediasink_removestreamsink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f99ee960-7fea-4867-bc24-d7e1d6fcafa5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],RemoveStreamSink method, IMFMediaSink.RemoveStreamSink, IMFMediaSink::RemoveStreamSink, RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation],IMFMediaSink interface, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSink.RemoveStreamSink
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSink::RemoveStreamSink

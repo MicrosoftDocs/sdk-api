@@ -4,17 +4,16 @@ title: IMFPMediaItem::IsProtected
 author: windows-sdk-content
 description: Queries whether the media item contains protected content.
 old-location: mf\imfpmediaitem_isprotected.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.IsProtected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::IsProtected

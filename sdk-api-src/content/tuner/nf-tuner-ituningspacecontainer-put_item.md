@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::put_Item
 author: windows-sdk-content
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.put_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::put_Item
@@ -70,7 +68,7 @@ The <b>put_Item</b> method saves changes to an existing tuning space in the coll
 
 ### -param TuningSpace
 
-
+TBD
 
 
 

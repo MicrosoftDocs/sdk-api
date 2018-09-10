@@ -4,7 +4,7 @@ title: tagELEMDESC
 author: windows-sdk-content
 description: Contains the type description and process-transfer information for a variable, a function, or a function parameter.
 old-location: automat\elemdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2187a4c6-f8ba-4373-9240-1b1a9af92507
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ELEMDESC, *LPELEMDESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ELEMDESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ELEMDESC, *LPELEMDESC
+req.redist: 
 ---
 
 # tagELEMDESC structure

@@ -4,17 +4,16 @@ title: IDirectoryObject::DeleteDSObject
 author: windows-sdk-content
 description: Deletes a leaf object in a directory tree.
 old-location: adsi\idirectoryobject_deletedsobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: bb7bed74-1420-4b46-92a9-ebe31f2d88fd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: DeleteDSObject, DeleteDSObject method [ADSI], DeleteDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],DeleteDSObject method, IDirectoryObject.DeleteDSObject, IDirectoryObject::DeleteDSObject, _ds_idirectoryobject_deletedsobject, adsi.idirectoryobject__deletedsobject, adsi.idirectoryobject_deletedsobject, iads/IDirectoryObject::DeleteDSObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectoryObject.DeleteDSObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectoryObject::DeleteDSObject

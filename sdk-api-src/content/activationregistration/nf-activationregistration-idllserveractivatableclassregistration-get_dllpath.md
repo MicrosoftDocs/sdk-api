@@ -4,17 +4,16 @@ title: IDllServerActivatableClassRegistration::get_DllPath
 author: windows-sdk-content
 description: Gets the fully qualified path to the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_dllpath.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B46BB464-C993-49A7-86C8-4945E69AA9CC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_DllPath method, IDllServerActivatableClassRegistration.get_DllPath, IDllServerActivatableClassRegistration::get_DllPath, activationregistration/IDllServerActivatableClassRegistration::get_DllPath, get_DllPath, get_DllPath method [Windows Runtime], get_DllPath method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_dllpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDllServerActivatableClassRegistration.get_DllPath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDllServerActivatableClassRegistration::get_DllPath

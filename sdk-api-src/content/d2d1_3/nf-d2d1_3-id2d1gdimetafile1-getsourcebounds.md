@@ -4,17 +4,16 @@ title: ID2D1GdiMetafile1::GetSourceBounds
 author: windows-sdk-content
 description: Gets the bounds of the metafile in source space in DIPs. This corresponds to the frame rect in an EMF/EMF+.
 old-location: direct2d\id2d1gdimetafile1_getsourcebounds.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 7e7502ee-678e-ce26-cc0b-266faa1c320b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSourceBounds, GetSourceBounds method [Direct2D], GetSourceBounds method [Direct2D],ID2D1GdiMetafile1 interface, ID2D1GdiMetafile1 interface [Direct2D],GetSourceBounds method, ID2D1GdiMetafile1.GetSourceBounds, ID2D1GdiMetafile1::GetSourceBounds, d2d1_3/ID2D1GdiMetafile1::GetSourceBounds, direct2d.id2d1gdimetafile1_getsourcebounds
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1GdiMetafile1.GetSourceBounds
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1GdiMetafile1::GetSourceBounds

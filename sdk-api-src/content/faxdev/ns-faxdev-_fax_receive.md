@@ -4,7 +4,7 @@ title: "_FAX_RECEIVE"
 author: windows-sdk-content
 description: The FAX_RECEIVE structure contains information about an inbound fax document. This information includes the name of the file that will receive the fax data stream, and the name and telephone number of the receiving device.
 old-location: fax\_mfax_fax_receive_str.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxdev.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_RECEIVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
+req.redist: 
 ---
 
 # _FAX_RECEIVE structure

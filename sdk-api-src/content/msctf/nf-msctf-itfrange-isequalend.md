@@ -4,17 +4,16 @@ title: ITfRange::IsEqualEnd
 author: windows-sdk-content
 description: The ITfRange::IsEqualStart method verifies that the end anchor of this range of text matches an anchor of another specified range.
 old-location: tsf\itfrange_isequalend.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 03b87230-457f-4483-a183-d8a8cc7cead4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITfRange.IsEqualEnd, ITfRange::IsEqualEnd, IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfRange.IsEqualEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfRange::IsEqualEnd

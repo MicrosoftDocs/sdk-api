@@ -4,17 +4,16 @@ title: IHWEventHandler::Initialize
 author: windows-sdk-content
 description: Initializes an object that contains an implementation of the IHWEventHandler interface.
 old-location: shell\IHWEventHandler_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shimgvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHWEventHandler.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shimgvw.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IHWEventHandler::Initialize

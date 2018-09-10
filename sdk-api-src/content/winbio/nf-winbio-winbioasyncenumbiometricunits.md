@@ -4,17 +4,16 @@ title: WinBioAsyncEnumBiometricUnits function
 author: windows-sdk-content
 description: Asynchronously enumerates all attached biometric units that match the input factor type.
 old-location: secbiomet\winbioasyncenumbiometricunits.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 3A7CEC71-7352-43B7-83D3-447D487C4703
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinBioAsyncEnumBiometricUnits, WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioasyncenumbiometricunits, winbio/WinBioAsyncEnumBiometricUnits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WinBioAsyncEnumBiometricUnits
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioAsyncEnumBiometricUnits function

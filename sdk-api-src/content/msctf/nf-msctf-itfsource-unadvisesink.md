@@ -4,17 +4,16 @@ title: ITfSource::UnadviseSink
 author: windows-sdk-content
 description: ITfSource::UnadviseSink method
 old-location: tsf\itfsource_unadvisesink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, ITfSource.UnadviseSink, ITfSource::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITfSource interface, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfSource.UnadviseSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSource::UnadviseSink

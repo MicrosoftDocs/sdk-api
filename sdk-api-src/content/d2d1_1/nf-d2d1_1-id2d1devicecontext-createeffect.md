@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::CreateEffect
 author: windows-sdk-content
 description: Creates an effect for the specified class ID.
 old-location: direct2d\id2d1devicecontext_createeffect.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: dfe587f9-e92f-4367-a503-edd446a91cb8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateEffect, CreateEffect method [Direct2D], CreateEffect method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateEffect method, ID2D1DeviceContext.CreateEffect, ID2D1DeviceContext::CreateEffect, d2d1_1/ID2D1DeviceContext::CreateEffect, direct2d.id2d1devicecontext_createeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.CreateEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::CreateEffect

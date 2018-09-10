@@ -4,17 +4,16 @@ title: IComTrackingInfoObject::GetValue
 author: windows-sdk-content
 description: Retrieves the value of the specified property.
 old-location: cos\icomtrackinginfoobject_getvalue.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTrackingInfoObject interface, IComTrackingInfoObject interface [COM+],GetValue method, IComTrackingInfoObject.GetValue, IComTrackingInfoObject::GetValue, _dtc_IComTrackingInfoObject_GetValue, comsvcs/IComTrackingInfoObject::GetValue, cos.icomtrackinginfoobject_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTrackingInfoObject.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTrackingInfoObject::GetValue

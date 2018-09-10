@@ -4,17 +4,16 @@ title: FwpmSubLayerSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current sub-layer change notification subscriptions.
 old-location: fwp\fwpmsublayersubscriptionsget0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: ca00c768-d8fe-4f61-8b23-2f3a79b4116c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 function [Filtering], fwp.fwpmsublayersubscriptionsget0_func, fwpmu/FwpmSubLayerSubscriptionsGet0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmSubLayerSubscriptionsGet0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmSubLayerSubscriptionsGet0 function

@@ -4,17 +4,16 @@ title: IFileOperation::MoveItem
 author: windows-sdk-content
 description: Declares a single item that is to be moved to a specified destination.
 old-location: shell\IFileOperation_MoveItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b1e66c9-5264-42cb-9554-d1ea92625c6f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],MoveItem method, IFileOperation.MoveItem, IFileOperation::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_MoveItem, shell.IFileOperation_MoveItem, shobjidl_core/IFileOperation::MoveItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.MoveItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::MoveItem

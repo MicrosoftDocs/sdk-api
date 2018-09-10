@@ -4,7 +4,7 @@ title: IVBFormat
 author: windows-sdk-content
 description: Provides formatting support for controls on a Visual Basic container.
 old-location: com\ivbformat.htm
-old-project: com
+tech.root: com
 ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVBFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVBFormat interface

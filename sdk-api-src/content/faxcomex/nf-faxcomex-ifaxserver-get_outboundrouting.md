@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxServer.get_OutboundRouting
 title: IFaxServer::get_OutboundRouting
 author: windows-sdk-content
-description: The OutboundRouting property creates a FaxOutboundRouting configuration object. The object permits users to configure outbound routing groups and rules.
-old-location: fax\_mfax_faxserver_outboundrouting.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_6y1z.htm
+description: The IFaxServer::get_OutboundRouting property creates a IFaxOutboundRouting configuration interface. The interface permits users to configure outbound routing groups and rules.
+old-location: fax\_mfax_faxserver_outboundrouting_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_6y1z_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxServer object [Fax Service],OutboundRouting property, FaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.outboundrouting, fax._mfax_faxserver_outboundrouting, get_OutboundRouting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxServer interface [Fax Service],OutboundRouting property, IFaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.outboundrouting_cpp, fax._mfax_faxserver_outboundrouting_cpp, faxcomex/IFaxServer::OutboundRouting, faxcomex/IFaxServer::get_OutboundRouting, get_OutboundRouting
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxServer.OutboundRouting
+ - IFaxServer.OutboundRouting
  - IFaxServer.get_OutboundRouting
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxServer::get_OutboundRouting
@@ -53,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/64ff05d6-6ebe-4155-96cd-7b925c979492">FaxOutboundRouting</a> configuration object. The object permits users to configure outbound routing groups and rules.
+The <b>IFaxServer::get_OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/47e35e11-b288-47c6-bfed-3af7716e7d6b">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
 
 This property is read-only.
 

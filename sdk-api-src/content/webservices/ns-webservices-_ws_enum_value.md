@@ -4,7 +4,7 @@ title: "_WS_ENUM_VALUE"
 author: windows-sdk-content
 description: Provides serialization information about a single value that is part of an enumeration (WS_ENUM_DESCRIPTION).
 old-location: wsw\ws_enum_value.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ENUM_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ENUM_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ENUM_VALUE
+req.redist: 
 ---
 
 # _WS_ENUM_VALUE structure

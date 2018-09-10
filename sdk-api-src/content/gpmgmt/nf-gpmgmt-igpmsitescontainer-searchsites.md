@@ -4,17 +4,16 @@ title: IGPMSitesContainer::SearchSites
 author: windows-sdk-content
 description: Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
 old-location: gpmc\igpmsitescontainer_searchsites.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: bcbe1d94-ae82-4b33-8831-039896816a2d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMSitesContainer class [GPMC],SearchSites method, IGPMSitesContainer interface [GPMC],SearchSites method, IGPMSitesContainer.SearchSites, IGPMSitesContainer::SearchSites, SearchSites, SearchSites method [GPMC], SearchSites method [GPMC],GPMSitesContainer class, SearchSites method [GPMC],IGPMSitesContainer interface, _win32_igpmsitescontainer_searchsites, gpmc.igpmsitescontainer_searchsites, gpmgmt/IGPMSitesContainer::SearchSites, somLinks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMSitesContainer.SearchSites
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMSitesContainer::SearchSites

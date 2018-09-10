@@ -4,7 +4,7 @@ title: "_WCM_TIME_INTERVAL"
 author: windows-sdk-content
 description: Defines a time interval.
 old-location: wcm\wcm_time_interval.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: 7744a577-5f3d-4cdd-b74d-a1430ea20b37
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_TIME_INTERVAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_TIME_INTERVAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_TIME_INTERVAL
+req.redist: 
 ---
 
 # _WCM_TIME_INTERVAL structure

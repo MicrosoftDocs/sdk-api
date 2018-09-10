@@ -4,17 +4,16 @@ title: IBDA_EasMessage::get_EasMessage
 author: windows-sdk-content
 description: The get_EasMessage method retrieves an EAS message.
 old-location: mstv\ibda_easmessage_get_easmessage.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ac6454f2-28e6-4cb2-8b48-517d4dd8509c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_EasMessage interface [Microsoft TV Technologies],get_EasMessage method, IBDA_EasMessage.get_EasMessage, IBDA_EasMessage::get_EasMessage, IBDA_EasMessageget_EasMessage, bdaiface/IBDA_EasMessage::get_EasMessage, get_EasMessage, get_EasMessage method [Microsoft TV Technologies], get_EasMessage method [Microsoft TV Technologies],IBDA_EasMessage interface, mstv.ibda_easmessage_get_easmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_EasMessage.get_EasMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_EasMessage::get_EasMessage

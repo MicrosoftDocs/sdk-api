@@ -4,7 +4,7 @@ title: "_FILEPATHS_SIGNERINFO_A"
 author: windows-sdk-content
 description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
 old-location: setup\filepaths_signerinfo.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: c651933f-cf61-4012-9d08-195336f2cb3d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILEPATHS_SIGNERINFO_A, *PFILEPATHS_SIGNERINFO_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEPATHS_SIGNERINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FILEPATHS_SIGNERINFO_A, *PFILEPATHS_SIGNERINFO_A
+req.redist: 
 ---
 
 # _FILEPATHS_SIGNERINFO_A structure

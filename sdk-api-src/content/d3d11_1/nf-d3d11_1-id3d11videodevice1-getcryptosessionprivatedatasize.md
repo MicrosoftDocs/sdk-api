@@ -4,17 +4,16 @@ title: ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize
 author: windows-sdk-content
 description: Retrieves optional sizes for private driver data.
 old-location: mf\id3d11videodevice1_getcryptosessionprivatedatasize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3F973DA0-F722-4EC2-A578-F01B6999F16B
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCryptoSessionPrivateDataSize, GetCryptoSessionPrivateDataSize method [Media Foundation], GetCryptoSessionPrivateDataSize method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetCryptoSessionPrivateDataSize method, ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize, ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, d3d11_1/ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize, mf.id3d11videodevice1_getcryptosessionprivatedatasize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoDevice1.GetCryptoSessionPrivateDataSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize

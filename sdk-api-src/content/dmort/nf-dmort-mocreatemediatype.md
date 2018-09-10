@@ -4,17 +4,16 @@ title: MoCreateMediaType function
 author: windows-sdk-content
 description: The MoCreateMediaType function allocates a new media type structure.
 old-location: dshow\mocreatemediatype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MoCreateMediaType
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MoCreateMediaType function

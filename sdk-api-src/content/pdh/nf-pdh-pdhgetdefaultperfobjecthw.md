@@ -4,17 +4,16 @@ title: PdhGetDefaultPerfObjectHW function
 author: windows-sdk-content
 description: Retrieves the name of the default object.
 old-location: perf\pdhgetdefaultperfobjecth.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf], PdhGetDefaultPerfObjectHA, PdhGetDefaultPerfObjectHW, _win32_pdhgetdefaultperfobjecth, base.pdhgetdefaultperfobjecth, pdh/PdhGetDefaultPerfObjectH, pdh/PdhGetDefaultPerfObjectHA, pdh/PdhGetDefaultPerfObjectHW, perf.pdhgetdefaultperfobjecth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhGetDefaultPerfObjectHW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetDefaultPerfObjectHW function

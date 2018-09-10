@@ -4,17 +4,16 @@ title: IWbemEventSink::SetBatchingParameters
 author: windows-sdk-content
 description: The IWbemEventSink::SetBatchingParameters method is used to set the maximum event buffer size and its associated processing latency value.
 old-location: wmi\iwbemeventsink_setbatchingparameters.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 7fcc1598-bc0c-4d4a-ad6f-69317bd789a4
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetBatchingParameters method, IWbemEventSink.SetBatchingParameters, IWbemEventSink::SetBatchingParameters, SetBatchingParameters, SetBatchingParameters method [Windows Management Instrumentation], SetBatchingParameters method [Windows Management Instrumentation],IWbemEventSink interface, WBEM_FLAG_BATCH_IF_NEEDED, WBEM_FLAG_MUST_BATCH, WBEM_FLAG_MUST_NOT_BATCH, _hmm_iwbemeventsink_setbatchingparameters, wbemprov/IWbemEventSink::SetBatchingParameters, wmi.iwbemeventsink_setbatchingparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemEventSink.SetBatchingParameters
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemEventSink::SetBatchingParameters

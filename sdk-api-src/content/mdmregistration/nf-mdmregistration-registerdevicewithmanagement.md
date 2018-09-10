@@ -4,17 +4,16 @@ title: RegisterDeviceWithManagement function
 author: windows-sdk-content
 description: Registers a device with a MDM service, using the [MS-MDE]:\_Mobile Device Enrollment Protocol.
 old-location: mdmreg\registerdevicewithmanagement.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
 ms.author: windowssdkdev
 ms.date: 02/21/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: MDMRegistration.lib
+req.dll: MDMRegistration.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RegisterDeviceWithManagement
 product: Windows
 targetos: Windows
-req.lib: MDMRegistration.lib
-req.dll: MDMRegistration.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterDeviceWithManagement function

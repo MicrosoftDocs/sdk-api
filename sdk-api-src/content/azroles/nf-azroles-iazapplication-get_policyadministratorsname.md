@@ -4,17 +4,16 @@ title: IAzApplication::get_PolicyAdministratorsName
 author: windows-sdk-content
 description: The IAzApplication::PolicyAdministratorsName property retrieves the account names of principals that act as policy administrators.
 old-location: security\iazapplication_policyadministratorsname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: fdabb04b-deb4-494a-bdde-264a301388b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],PolicyAdministratorsName property, IAzApplication interface [Security],PolicyAdministratorsName property, IAzApplication.PolicyAdministratorsName, IAzApplication.get_PolicyAdministratorsName, IAzApplication::PolicyAdministratorsName, IAzApplication::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security],AzApplication object, PolicyAdministratorsName property [Security],IAzApplication interface, azroles/IAzApplication::PolicyAdministratorsName, azroles/IAzApplication::get_PolicyAdministratorsName, get_PolicyAdministratorsName, security.iazapplication_policyadministratorsname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplication.PolicyAdministratorsName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::get_PolicyAdministratorsName

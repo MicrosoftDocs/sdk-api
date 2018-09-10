@@ -4,17 +4,16 @@ title: TokenBindingGenerateID function
 author: windows-sdk-content
 description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
 old-location: security\tokenbindinggenerateid.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: F3E30DF8-2A1D-445E-914B-62999428BB6F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TokenBindingGenerateID, TokenBindingGenerateID function [Security], security.tokenbindinggenerateid, tokenbinding/TokenBindingGenerateID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_TYPE
+req.lib: Tokenbinding.lib
+req.dll: Tokenbinding.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TokenBindingGenerateID
 product: Windows
 targetos: Windows
-req.lib: Tokenbinding.lib
-req.dll: Tokenbinding.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TokenBindingGenerateID function

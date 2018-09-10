@@ -4,17 +4,16 @@ title: IAudioSessionManager2::RegisterDuckNotification
 author: windows-sdk-content
 description: The RegisterDuckNotification method registers the application with the session manager to receive ducking notifications.
 old-location: coreaudio\iaudiosessionmanager2_registerducknotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: bed27f3f-6293-4a25-baa0-39562d45bddc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterDuckNotification method, IAudioSessionManager2.RegisterDuckNotification, IAudioSessionManager2::RegisterDuckNotification, RegisterDuckNotification, RegisterDuckNotification method [Core Audio], RegisterDuckNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterDuckNotification, coreaudio.iaudiosessionmanager2_registerducknotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager2.RegisterDuckNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager2::RegisterDuckNotification
@@ -61,7 +60,7 @@ The <b>RegisterDuckNotification</b> method registers the application with the se
 
 ### -param sessionID
 
-
+TBD
 
 
 ### -param duckNotification

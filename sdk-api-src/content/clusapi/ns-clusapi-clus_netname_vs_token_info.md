@@ -4,7 +4,7 @@ title: CLUS_NETNAME_VS_TOKEN_INFO
 author: windows-sdk-content
 description: Contains the data needed to request a token. It is used as the input parameter of the CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN control code.
 old-location: mscs\clus_netname_vs_token_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 9b4fc589-f4e4-4fcf-b3df-3b0b6f9f4e65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_NETNAME_VS_TOKEN_INFO, CLUS_VS_TOKEN_INFO, *PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_NETNAME_VS_TOKEN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_NETNAME_VS_TOKEN_INFO, CLUS_VS_TOKEN_INFO, *PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO
+req.redist: 
 ---
 
 # CLUS_NETNAME_VS_TOKEN_INFO structure

@@ -4,7 +4,7 @@ title: "_MIB_IF_TABLE_LEVEL"
 author: windows-sdk-content
 description: The MIB_IF_TABLE_LEVEL enumeration type defines the level of interface information to retrieve.
 old-location: netvista\mib_if_table_level.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: ffbde22e-9851-4acd-b820-b71f2788b4d2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netioapi.h
 req.include-header: Netioapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IF_TABLE_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
+req.redist: 
 ---
 
 # _MIB_IF_TABLE_LEVEL enumeration

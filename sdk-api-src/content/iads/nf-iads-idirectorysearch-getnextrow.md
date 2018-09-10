@@ -4,17 +4,16 @@ title: IDirectorySearch::GetNextRow
 author: windows-sdk-content
 description: Gets the next row of the search result.
 old-location: adsi\idirectorysearch_getnextrow.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 9fb0b765-0162-418d-b0cd-7e9b1b53e1b9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNextRow, GetNextRow method [ADSI], GetNextRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextRow method, IDirectorySearch.GetNextRow, IDirectorySearch::GetNextRow, _ds_idirectorysearch_getnextrow, adsi.idirectorysearch__getnextrow, adsi.idirectorysearch_getnextrow, iads/IDirectorySearch::GetNextRow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.GetNextRow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::GetNextRow
@@ -64,7 +62,7 @@ The <b>GetNextRow</b> method gets the next row of the search result. If  <a href
 
 ### -param hSearchResult
 
-
+TBD
 
 
 

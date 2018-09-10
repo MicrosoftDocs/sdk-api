@@ -4,7 +4,7 @@ title: IDCompositionDeviceDebug
 author: windows-sdk-content
 description: Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.
 old-location: directcomp\idcompositiondevicedebug.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDeviceDebug
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDeviceDebug interface

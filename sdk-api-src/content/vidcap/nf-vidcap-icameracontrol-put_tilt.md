@@ -4,17 +4,16 @@ title: ICameraControl::put_Tilt
 author: windows-sdk-content
 description: The put_Tilt method sets the camera's tilt angle.
 old-location: dshow\icameracontrol_put_tilt.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Tilt method, ICameraControl.put_Tilt, ICameraControl::put_Tilt, ICameraControlput_Tilt, dshow.icameracontrol_put_tilt, put_Tilt, put_Tilt method [DirectShow], put_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Tilt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.put_Tilt
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::put_Tilt

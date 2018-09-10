@@ -4,17 +4,16 @@ title: TreeResetNamedSecurityInfoW function
 author: windows-sdk-content
 description: Resets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treeresetnamedsecurityinfo.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - TreeResetNamedSecurityInfoW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeResetNamedSecurityInfoW function

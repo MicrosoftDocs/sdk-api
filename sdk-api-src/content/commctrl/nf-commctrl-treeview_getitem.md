@@ -4,17 +4,16 @@ title: TreeView_GetItem macro
 author: windows-sdk-content
 description: Retrieves some or all of a tree-view item's attributes. You can use this macro or send the TVM_GETITEM message explicitly.
 old-location: controls\TreeView_GetItem.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitem.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TreeView_GetItem, TreeView_GetItem macro [Windows Controls], _win32_TreeView_GetItem, _win32_TreeView_GetItem_cpp, commctrl/TreeView_GetItem, controls.TreeView_GetItem, controls._win32_TreeView_GetItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_GetItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_GetItem macro

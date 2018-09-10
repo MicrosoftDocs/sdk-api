@@ -4,7 +4,7 @@ title: tagNMVIEWCHANGE
 author: windows-sdk-content
 description: Stores information required to process the MCN_VIEWCHANGE notification code.
 old-location: controls\NMVIEWCHANGE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmviewchange.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMVIEWCHANGE, *LPNMVIEWCHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMVIEWCHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMVIEWCHANGE, *LPNMVIEWCHANGE
+req.redist: 
 ---
 
 # tagNMVIEWCHANGE structure

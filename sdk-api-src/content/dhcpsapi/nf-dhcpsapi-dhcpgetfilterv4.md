@@ -4,17 +4,16 @@ title: DhcpGetFilterV4 function
 author: windows-sdk-content
 description: Retrieves the enable/disable settings for the DHCPv4 server's allow/deny lists.
 old-location: dhcp\dhcpgetfilterv4.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2acee985-48b1-4a76-9ca1-2fc27d990032
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpGetFilterV4, DhcpGetFilterV4 function [DHCP], dhcp.dhcpgetfilterv4, dhcpsapi/DhcpGetFilterV4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpGetFilterV4
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpGetFilterV4 function

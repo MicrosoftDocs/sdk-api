@@ -4,17 +4,16 @@ title: ADsBuildVarArrayStr function
 author: windows-sdk-content
 description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
 old-location: adsi\adsbuildvararraystr.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsBuildVarArrayStr
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsBuildVarArrayStr function

@@ -4,7 +4,7 @@ title: DWRITE_PANOSE_STROKE_VARIATION
 author: windows-sdk-content
 description: The DWRITE_PANOSE_STROKE_VARIATION enumeration contains values that specify the relationship between thin and thick stems of text characters.
 old-location: directwrite\dwrite_panose_stroke_variation.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 3E30D318-1A88-4563-93D7-7E84893D04CE
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_PANOSE_STROKE_VARIATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_PANOSE_STROKE_VARIATION enumeration

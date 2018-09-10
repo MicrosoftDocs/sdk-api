@@ -4,17 +4,16 @@ title: StgOpenAsyncDocfileOnIFillLockBytes function
 author: windows-sdk-content
 description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
 old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StgOpenAsyncDocfileOnIFillLockBytes
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # StgOpenAsyncDocfileOnIFillLockBytes function

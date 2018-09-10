@@ -4,17 +4,16 @@ title: SendScsiReadCapacity function
 author: windows-sdk-content
 description: SendScsiReadCapacity function sends a SCSI READ CAPACITY command to the indicated target.
 old-location: iscsidisc\sendscsireadcapacity.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 1a12848f-4b2d-45f6-971b-d8e4ccd00c21
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SendScsiReadCapacity, SendScsiReadCapacity function [iSCSI Discovery Library API], iscsidisc.sendscsireadcapacity, iscsidsc/SendScsiReadCapacity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SendScsiReadCapacity
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SendScsiReadCapacity function

@@ -4,17 +4,16 @@ title: OleIconToCursor function
 author: windows-sdk-content
 description: Converts an icon to a cursor.
 old-location: com\oleicontocursor.htm
-old-project: com
+tech.root: com
 ms.assetid: f5de0b9e-6e3d-424c-aeeb-1c272606aea0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleIconToCursor, OleIconToCursor function [COM], _com_OleIconToCursor, com.oleicontocursor, olectl/OleIconToCursor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARAMDATA, *LPPARAMDATA
+req.lib: Oleaut32.lib
+req.dll: Oleaut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleIconToCursor
 product: Windows
 targetos: Windows
-req.lib: Oleaut32.lib
-req.dll: Oleaut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleIconToCursor function

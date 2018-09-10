@@ -4,7 +4,7 @@ title: "_EVENT_PROPERTY_INFO"
 author: windows-sdk-content
 description: Provides information about a single property of the event or filter.
 old-location: etw\event_property_info_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_PROPERTY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_PROPERTY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: EVENT_PROPERTY_INFO
+req.redist: 
 ---
 
 # _EVENT_PROPERTY_INFO structure

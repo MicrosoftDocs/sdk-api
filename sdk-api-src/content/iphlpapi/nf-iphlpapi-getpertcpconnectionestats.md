@@ -4,17 +4,16 @@ title: GetPerTcpConnectionEStats function
 author: windows-sdk-content
 description: Retrieves extended statistics for an IPv4 TCP connection.
 old-location: iphlp\getpertcpconnectionestats.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 71b9d795-6050-4a1a-9949-2c970801f52c
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetPerTcpConnectionEStats, GetPerTcpConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcpconnectionestats, iphlpapi/GetPerTcpConnectionEStats
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetPerTcpConnectionEStats
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetPerTcpConnectionEStats function

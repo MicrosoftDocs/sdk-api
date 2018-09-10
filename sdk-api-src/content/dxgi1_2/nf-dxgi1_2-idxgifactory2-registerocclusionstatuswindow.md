@@ -4,17 +4,16 @@ title: IDXGIFactory2::RegisterOcclusionStatusWindow
 author: windows-sdk-content
 description: Registers an application window to receive notification messages of changes of occlusion status.
 old-location: direct3ddxgi\idxgifactory2_registerocclusionstatuswindow.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 8E8E3C2A-F973-4DC3-A226-DB3FF32F9CC4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterOcclusionStatusWindow method, IDXGIFactory2.RegisterOcclusionStatusWindow, IDXGIFactory2::RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow, RegisterOcclusionStatusWindow method [DXGI], RegisterOcclusionStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_registerocclusionstatuswindow, dxgi1_2/IDXGIFactory2::RegisterOcclusionStatusWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory2.RegisterOcclusionStatusWindow
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory2::RegisterOcclusionStatusWindow

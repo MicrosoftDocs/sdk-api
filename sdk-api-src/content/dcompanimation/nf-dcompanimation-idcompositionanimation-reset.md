@@ -4,17 +4,16 @@ title: IDCompositionAnimation::Reset
 author: windows-sdk-content
 description: Resets the animation function so that it contains no segments.
 old-location: directcomp\idcompositionanimation_reset.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 3745fff0-eefa-4262-9ce3-9ab812264c1d
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],Reset method, IDCompositionAnimation.Reset, IDCompositionAnimation::Reset, Reset, Reset method [DirectComposition], Reset method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::Reset, directcomp.idcompositionanimation_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionAnimation.Reset
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionAnimation::Reset

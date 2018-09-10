@@ -4,7 +4,7 @@ title: "_AM_LINE21_CCSERVICE"
 author: windows-sdk-content
 description: Indicates the closed captioning service.
 old-location: dshow\am_line21_ccservice.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dd2b618f-ffbf-4d48-bbe8-6d237a0f54e8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Iketypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_LINE21_CCSERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
+req.redist: 
 ---
 
 # _AM_LINE21_CCSERVICE enumeration

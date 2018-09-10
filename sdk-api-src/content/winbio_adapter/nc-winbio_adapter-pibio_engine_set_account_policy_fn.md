@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN
 author: windows-sdk-content
 description: Sets the extended default and per-user antispoofing policies used by the engine adapter.
 old-location: secbiomet\engineadaptersetaccountpolicy.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 9D2C6CF9-A069-40AD-9BB7-81797F7B2FE6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterSetAccountPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback function

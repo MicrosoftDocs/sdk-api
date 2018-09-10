@@ -4,17 +4,16 @@ title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
 author: windows-sdk-content
 description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm
-old-project: nla
+tech.root: nla
 ms.assetid: F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConnectionDataPlanStatusChanged, ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged

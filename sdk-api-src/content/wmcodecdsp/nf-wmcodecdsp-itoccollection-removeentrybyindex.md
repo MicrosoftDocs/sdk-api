@@ -4,17 +4,16 @@ title: ITocCollection::RemoveEntryByIndex
 author: windows-sdk-content
 description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_removeentrybyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1fc6abad-2e9b-47f5-8b00-48ae480f3dd8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex method, ITocCollection.RemoveEntryByIndex, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocCollection interface, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocCollection.RemoveEntryByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocCollection::RemoveEntryByIndex

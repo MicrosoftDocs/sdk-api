@@ -4,7 +4,7 @@ title: RESUTIL_PROPERTY_ITEM
 author: windows-sdk-content
 description: Contains information about a cluster object property. An array of RESUTIL_PROPERTY_ITEM structures forms a property table which can be used in property operations.
 old-location: mscs\resutil_property_item.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: f65ee50f-59f7-44db-ad69-b29b3e693c7e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESUTIL_PROPERTY_ITEM, *PRESUTIL_PROPERTY_ITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESUTIL_PROPERTY_ITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESUTIL_PROPERTY_ITEM, *PRESUTIL_PROPERTY_ITEM
+req.redist: 
 ---
 
 # RESUTIL_PROPERTY_ITEM structure

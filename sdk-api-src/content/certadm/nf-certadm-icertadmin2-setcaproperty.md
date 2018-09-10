@@ -4,17 +4,16 @@ title: ICertAdmin2::SetCAProperty
 author: windows-sdk-content
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertAdmin2.SetCAProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin2::SetCAProperty

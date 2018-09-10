@@ -4,7 +4,7 @@ title: InkRecognitionStatus
 author: windows-sdk-content
 description: Specifies whether an error occurred during recognition and, if so, which error occurred.
 old-location: tablet\inkrecognitionstatus.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d6ff29a8-d100-4bfe-848b-941367d8b2dd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecognitionStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkRecognitionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkRecognitionStatus
+req.redist: 
 ---
 
 # InkRecognitionStatus enumeration

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0003"
 author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 old-location: bits\bits_job_property_value.htm
-old-project: bits
+tech.root: bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits5_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITS_JOB_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BITS_JOB_PROPERTY_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BITS_JOB_PROPERTY_VALUE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_bits5_0_0000_0000_0003 structure

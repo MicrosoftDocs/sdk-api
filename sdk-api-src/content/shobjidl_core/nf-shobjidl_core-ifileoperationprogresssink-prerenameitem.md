@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::PreRenameItem
 author: windows-sdk-content
 description: Performs caller-implemented actions before the rename process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreRenameItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 444fe15b-cbed-46d8-ae25-ab6a569d18e0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreRenameItem method, IFileOperationProgressSink.PreRenameItem, IFileOperationProgressSink::PreRenameItem, PreRenameItem, PreRenameItem method [Windows Shell], PreRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreRenameItem, shell.IFileOperationProgressSink_PreRenameItem, shobjidl_core/IFileOperationProgressSink::PreRenameItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.PreRenameItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::PreRenameItem

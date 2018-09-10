@@ -4,7 +4,7 @@ title: "_DELETE_SNAPSHOT_VHDSET_PARAMETERS"
 author: windows-sdk-content
 description: Contains snapshot deletion parameters, designating which snapshot to delete from the VHD Set.
 old-location: vhd\delete_snapshot_vhdset_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: A10EB006-2FE5-4445-9E2F-DF2C1AF0A44F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DELETE_SNAPSHOT_VHDSET_PARAMETERS, *PDELETE_SNAPSHOT_VHDSET_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DELETE_SNAPSHOT_VHDSET_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: DELETE_SNAPSHOT_VHDSET_PARAMETERS, *PDELETE_SNAPSHOT_VHDSET_PARAMETERS
+req.redist: 
 ---
 
 # _DELETE_SNAPSHOT_VHDSET_PARAMETERS structure

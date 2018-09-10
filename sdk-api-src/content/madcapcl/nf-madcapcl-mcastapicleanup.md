@@ -4,17 +4,16 @@ title: McastApiCleanup function
 author: windows-sdk-content
 description: The McastApiCleanup function deallocates resources that are allocated with McastApiStartup. The McastApiCleanup function must only be called after a successful call to McastApiStartup.
 old-location: madcap\mcastapicleanup.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: eccf52ee-8145-4a8f-9d34-5a56bfc8a48c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - McastApiCleanup
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # McastApiCleanup function

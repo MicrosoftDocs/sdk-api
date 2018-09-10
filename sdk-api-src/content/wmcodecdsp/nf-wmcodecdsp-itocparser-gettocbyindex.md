@@ -4,17 +4,16 @@ title: ITocParser::GetTocByIndex
 author: windows-sdk-content
 description: The GetTocByIndex method retrieves a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_gettocbyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.GetTocByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::GetTocByIndex
@@ -60,9 +58,9 @@ The <b>GetTocByIndex</b> method retrieves a table of contents, specified by an i
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param dwTocIndex [in]

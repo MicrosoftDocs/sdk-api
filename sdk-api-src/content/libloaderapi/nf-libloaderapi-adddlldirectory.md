@@ -4,17 +4,16 @@ title: AddDllDirectory function
 author: windows-sdk-content
 description: Adds a directory to the process DLL search path.
 old-location: base\adddlldirectory.htm
-old-project: dlls
+tech.root: dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only],KB2533623      on Windows 7, Windows Server 2008 R2, Windows Vista, and      Windows Server 2008
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddDllDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AddDllDirectory function

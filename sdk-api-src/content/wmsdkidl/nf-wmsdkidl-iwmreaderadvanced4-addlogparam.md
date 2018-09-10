@@ -4,17 +4,16 @@ title: IWMReaderAdvanced4::AddLogParam
 author: windows-sdk-content
 description: The AddLogParam method adds a named value to the logging information that the reader object will send to the sever.
 old-location: wmformat\iwmreaderadvanced4_addlogparam.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 7d117895-b61f-4890-8cb6-3e4ecf49ca99
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddLogParam, AddLogParam method [windows Media Format], AddLogParam method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],AddLogParam method, IWMReaderAdvanced4.AddLogParam, IWMReaderAdvanced4::AddLogParam, IWMReaderAdvanced4AddLogParam, wmformat.iwmreaderadvanced4_addlogparam, wmsdkidl/IWMReaderAdvanced4::AddLogParam
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderAdvanced4.AddLogParam
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderAdvanced4::AddLogParam

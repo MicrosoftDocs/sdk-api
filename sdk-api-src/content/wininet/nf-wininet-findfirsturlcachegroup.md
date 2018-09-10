@@ -4,17 +4,16 @@ title: FindFirstUrlCacheGroup function
 author: windows-sdk-content
 description: Initiates the enumeration of the cache groups in the Internet cache.
 old-location: wininet\findfirsturlcachegroup.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FindFirstUrlCacheGroup
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstUrlCacheGroup function

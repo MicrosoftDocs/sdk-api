@@ -4,7 +4,7 @@ title: "_TXF_LOG_RECORD_TRUNCATE"
 author: windows-sdk-content
 description: Contains the record for a truncate operation.
 old-location: fs\txf_log_record_truncate.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9b6e9be5-39e7-47e3-846f-ea2e5e04597f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXF_LOG_RECORD_TRUNCATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
+req.redist: 
 ---
 
 # _TXF_LOG_RECORD_TRUNCATE structure

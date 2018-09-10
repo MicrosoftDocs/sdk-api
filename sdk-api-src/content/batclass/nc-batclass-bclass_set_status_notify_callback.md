@@ -4,7 +4,7 @@ title: BCLASS_SET_STATUS_NOTIFY_CALLBACK
 author: windows-sdk-content
 description: BatteryMiniSetStatusNotify sets the battery capacity and power state levels at which the class driver requires notification.
 old-location: battery\batteryminisetstatusnotify.htm
-old-project: battery
+tech.root: battery
 ms.assetid: ec463202-4c08-475a-b612-73413f1376fc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BatteryMiniSetStatusNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.typenames: 
+req.redist: 
 ---
 
 # BCLASS_SET_STATUS_NOTIFY_CALLBACK callback function

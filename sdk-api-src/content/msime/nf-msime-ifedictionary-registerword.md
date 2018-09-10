@@ -4,17 +4,16 @@ title: IFEDictionary::RegisterWord
 author: windows-sdk-content
 description: Registers a new word or deletes an existing word in the IFEDictionary.
 old-location: intl\ifedictionary_registerword.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: CD79FBF5-E540-4B5C-A398-B7FE95F86701
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary interface [Internationalization for Windows Applications],RegisterWord method, IFEDictionary.RegisterWord, IFEDictionary::RegisterWord, RegisterWord, RegisterWord method [Internationalization for Windows Applications], RegisterWord method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_registerword, msime/IFEDictionary::RegisterWord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFEDictionary.RegisterWord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFEDictionary::RegisterWord

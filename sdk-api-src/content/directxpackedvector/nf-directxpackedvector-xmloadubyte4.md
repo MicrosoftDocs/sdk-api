@@ -4,17 +4,16 @@ title: XMLoadUByte4 function
 author: windows-sdk-content
 description: Loads an XMUBYTE4 into an XMVECTOR.
 old-location: dxmath\xmloadubyte4.htm
-old-project: dxmath
+tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByte4(const XMUBYTE4)
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByte4, XMLoadUByte4, XMLoadUByte4 method [DirectX Math Support APIs], dxmath.xmloadubyte4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: DirectX::PackedVector
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - XMLoadUByte4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # XMLoadUByte4 function

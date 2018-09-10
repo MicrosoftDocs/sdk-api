@@ -4,17 +4,16 @@ title: IDVBSLocator::get_SignalPolarisation
 author: windows-sdk-content
 description: The get_SignalPolarisation method retrieves the signal polarisation.
 old-location: mstv\idvbslocator_get_signalpolarisation.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: adb9d7b6-5876-4b3f-9d82-f5e740feb1eb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_SignalPolarisation method, IDVBSLocator.get_SignalPolarisation, IDVBSLocator::get_SignalPolarisation, IDVBSLocatorget_SignalPolarisation, get_SignalPolarisation, get_SignalPolarisation method [Microsoft TV Technologies], get_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_signalpolarisation, tuner/IDVBSLocator::get_SignalPolarisation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSLocator.get_SignalPolarisation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSLocator::get_SignalPolarisation
@@ -65,7 +63,7 @@ The <b>get_SignalPolarisation</b> method retrieves the signal polarisation.
 
 ### -param PolarisationVal
 
-
+TBD
 
 
 

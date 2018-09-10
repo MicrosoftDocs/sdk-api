@@ -4,17 +4,16 @@ title: ResUtilSetPropertyParameterBlockEx function
 author: windows-sdk-content
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblockex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX function [Failover Cluster], ResUtilSetPropertyParameterBlockEx, ResUtilSetPropertyParameterBlockEx function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, resapi/ResUtilSetPropertyParameterBlockEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilSetPropertyParameterBlockEx
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilSetPropertyParameterBlockEx function

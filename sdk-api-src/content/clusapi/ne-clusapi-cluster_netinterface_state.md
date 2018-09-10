@@ -4,7 +4,7 @@ title: CLUSTER_NETINTERFACE_STATE
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network interface.
 old-location: mscs\cluster_netinterface_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NETINTERFACE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_NETINTERFACE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_NETINTERFACE_STATE
+req.redist: 
 ---
 
 # CLUSTER_NETINTERFACE_STATE enumeration

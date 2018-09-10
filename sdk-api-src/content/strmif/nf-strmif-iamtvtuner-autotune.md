@@ -4,17 +4,16 @@ title: IAMTVTuner::AutoTune
 author: windows-sdk-content
 description: The AutoTune method scans for a precise signal on the channel's frequency.
 old-location: dshow\iamtvtuner_autotune.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae8338e4-b75d-42d5-bcb7-84352921458c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AutoTune, AutoTune method [DirectShow], AutoTune method [DirectShow],IAMTVTuner interface, IAMTVTuner interface [DirectShow],AutoTune method, IAMTVTuner.AutoTune, IAMTVTuner::AutoTune, IAMTVTunerAutoTune, dshow.iamtvtuner_autotune, strmif/IAMTVTuner::AutoTune
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVTuner.AutoTune
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVTuner::AutoTune

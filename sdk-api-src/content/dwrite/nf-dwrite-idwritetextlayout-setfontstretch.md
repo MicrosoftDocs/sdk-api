@@ -4,17 +4,16 @@ title: IDWriteTextLayout::SetFontStretch
 author: windows-sdk-content
 description: Sets the font stretch for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetFontStretch.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 34e7e476-abed-4b0f-a18d-662a277548b1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStretch method, IDWriteTextLayout.SetFontStretch, IDWriteTextLayout::SetFontStretch, SetFontStretch, SetFontStretch method [Direct Write], SetFontStretch method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStretch, dwrite/IDWriteTextLayout::SetFontStretch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout.SetFontStretch
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout::SetFontStretch

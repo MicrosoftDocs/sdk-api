@@ -4,17 +4,16 @@ title: ISyncMgrSynchronize::Initialize
 author: windows-sdk-content
 description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
 old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Initialize method, ISyncMgrSynchronize.Initialize, ISyncMgrSynchronize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Initialize, shell.syncmgr_isyncmgrsynchronize_initialize, syncmgr.isyncmgrsynchronize_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRSTATUS
+req.lib: 
+req.dll: Mobsync.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSynchronize.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mobsync.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSynchronize::Initialize

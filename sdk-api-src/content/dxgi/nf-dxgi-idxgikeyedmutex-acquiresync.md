@@ -4,17 +4,16 @@ title: IDXGIKeyedMutex::AcquireSync
 author: windows-sdk-content
 description: Using a key, acquires exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync method [DXGI], AcquireSync method [DXGI],IDXGIKeyedMutex interface, IDXGIKeyedMutex interface [DXGI],AcquireSync method, IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIKeyedMutex.AcquireSync
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIKeyedMutex::AcquireSync

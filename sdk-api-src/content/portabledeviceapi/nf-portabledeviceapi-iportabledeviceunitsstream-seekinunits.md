@@ -4,17 +4,16 @@ title: IPortableDeviceUnitsStream::SeekInUnits
 author: windows-sdk-content
 description: The SeekInUnits method performs a seek on a stream, based on alternate units.
 old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],SeekInUnits method, IPortableDeviceUnitsStream.SeekInUnits, IPortableDeviceUnitsStream::SeekInUnits, SeekInUnits, SeekInUnits method [Windows Portable Devices SDK], SeekInUnits method [Windows Portable Devices SDK],IPortableDeviceUnitsStream interface, portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits, wpdsdk.iportabledeviceunitsstream_seekinunits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceUnitsStream.SeekInUnits
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceUnitsStream::SeekInUnits

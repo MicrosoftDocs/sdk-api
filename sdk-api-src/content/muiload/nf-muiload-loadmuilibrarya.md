@@ -4,17 +4,16 @@ title: LoadMUILibraryA function
 author: windows-sdk-content
 description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
 old-location: intl\loadmuilibrary.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for Windows Applications], LoadMUILibraryA, LoadMUILibraryW, MUI_LANGUAGE_EXACT, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_LoadMUILibrary, intl.loadmuilibrary, muiload/LoadMUILibrary, muiload/LoadMUILibraryA, muiload/LoadMUILibraryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: muiload.h
 req.include-header: 
-req.redist: Muiload.lib, included in the Windows SDK for Windows 7 which can be run on Windows 2000 Professional, Windows 2000 Server, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7.
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
+req.lib: Muiload.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LoadMUILibraryW
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Muiload.lib, included in the Windows SDK for Windows 7 which can be run on Windows 2000 Professional, Windows 2000 Server, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7.
 ---
 
 # LoadMUILibraryA function

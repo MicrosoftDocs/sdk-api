@@ -4,17 +4,16 @@ title: IMbnInterfaceEvents::OnEmergencyModeChange
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.
 old-location: mbn\imbninterfaceevents_onemergencymodechange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterfaceEvents.OnEmergencyModeChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterfaceEvents::OnEmergencyModeChange

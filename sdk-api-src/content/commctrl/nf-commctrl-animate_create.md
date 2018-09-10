@@ -4,17 +4,16 @@ title: Animate_Create macro
 author: windows-sdk-content
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
 old-location: controls\Animate_Create.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Animate_Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Animate_Create macro

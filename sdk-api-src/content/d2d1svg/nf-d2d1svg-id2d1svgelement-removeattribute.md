@@ -4,17 +4,16 @@ title: ID2D1SvgElement::RemoveAttribute
 author: windows-sdk-content
 description: Removes the attribute from this element.
 old-location: direct2d\id2d1svgelement_removeattribute.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 608BB970-CC78-4CF3-BD8C-02DCBBFA287E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],RemoveAttribute method, ID2D1SvgElement.RemoveAttribute, ID2D1SvgElement::RemoveAttribute, RemoveAttribute, RemoveAttribute method [Direct2D], RemoveAttribute method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::RemoveAttribute, direct2d.id2d1svgelement_removeattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgElement.RemoveAttribute
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgElement::RemoveAttribute

@@ -4,17 +4,16 @@ title: IADsSecurityUtility::SetSecurityDescriptor
 author: windows-sdk-content
 description: Sets the security descriptor for the specified file, file share, or registry key.
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: File, File share, IADsSecurityUtility interface [ADSI],SetSecurityDescriptor method, IADsSecurityUtility.SetSecurityDescriptor, IADsSecurityUtility::SetSecurityDescriptor, Registry key, SetSecurityDescriptor, SetSecurityDescriptor method [ADSI], SetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, _ds_iadssecurityutility_setsecuritydescriptor, adsi.iadssecurityutility__setsecuritydescriptor, adsi.iadssecurityutility_setsecuritydescriptor, iads/IADsSecurityUtility::SetSecurityDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsSecurityUtility.SetSecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsSecurityUtility::SetSecurityDescriptor
@@ -90,7 +88,7 @@ Contains one of the <a href="https://msdn.microsoft.com/3ae0ec98-9184-4ab3-b859-
 
 ### -param varData
 
-
+TBD
 
 
 ### -param lDataFormat [in]

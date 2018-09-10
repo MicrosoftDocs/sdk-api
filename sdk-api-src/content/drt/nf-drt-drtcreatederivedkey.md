@@ -4,17 +4,16 @@ title: DrtCreateDerivedKey function
 author: windows-sdk-content
 description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.
 old-location: p2p\drtcreatederivedkey.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtCreateDerivedKey
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtCreateDerivedKey function

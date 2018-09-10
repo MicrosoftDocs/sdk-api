@@ -4,17 +4,16 @@ title: IMDSPObject2::ReadOnClearChannel
 author: windows-sdk-content
 description: The ReadOnClearChannel method reads data from the object at the current position without using secure authenticated channels.
 old-location: wmdm\imdspobject2_readonclearchannel.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a7ccf074-e033-46e4-a7ce-d0086f4b1dc9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],ReadOnClearChannel method, IMDSPObject2.ReadOnClearChannel, IMDSPObject2::ReadOnClearChannel, IMDSPObject2ReadOnClearChannel, ReadOnClearChannel, ReadOnClearChannel method [windows Media Device Manager], ReadOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::ReadOnClearChannel, wmdm.imdspobject2_readonclearchannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject2.ReadOnClearChannel
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject2::ReadOnClearChannel

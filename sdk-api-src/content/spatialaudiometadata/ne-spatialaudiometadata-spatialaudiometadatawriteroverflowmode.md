@@ -4,7 +4,7 @@ title: SpatialAudioMetadataWriterOverflowMode
 author: windows-sdk-content
 description: Specifies the desired behavior when an ISpatialAudioMetadataWriter attempts to write more items into the metadata buffer than was specified when the client was initialized.
 old-location: coreaudio\spatialaudiometadatawriteroverflowmode.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: B61C8D75-FCC3-42A6-84DE-01DBA7492962
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioMetadataWriterOverflowMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.redist: 
 ---
 
 # SpatialAudioMetadataWriterOverflowMode enumeration

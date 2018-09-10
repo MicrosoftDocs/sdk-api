@@ -4,17 +4,16 @@ title: IWSDDeviceProxy::GetAllMetadata
 author: windows-sdk-content
 description: Retrieves all metadata for this device.
 old-location: ncd\iwsddeviceproxy_getallmetadata_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 3a0a3954-348f-4a9d-9e52-f72d29ec0425
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetAllMetadata method, IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceProxy.GetAllMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceProxy::GetAllMetadata

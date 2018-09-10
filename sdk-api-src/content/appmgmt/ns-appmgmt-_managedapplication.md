@@ -4,7 +4,7 @@ title: "_MANAGEDAPPLICATION"
 author: windows-sdk-content
 description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
 old-location: policy\managedapplication_str.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANAGEDAPPLICATION, *PMANAGEDAPPLICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MANAGEDAPPLICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MANAGEDAPPLICATION, *PMANAGEDAPPLICATION
+req.redist: 
 ---
 
 # _MANAGEDAPPLICATION structure

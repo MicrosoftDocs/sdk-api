@@ -4,17 +4,16 @@ title: TraceLoggingEventTag macro
 author: windows-sdk-content
 description: Wrapper macro for setting the event's tag(s).
 old-location: tracelogging\traceloggingeventtag.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: D7BD0AC7-2330-4DE7-8C46-CF210B102704
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingEventTag, TraceLoggingEventTag macro, tracelogging.traceloggingeventtag, traceloggingprovider/TraceLoggingEventTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingEventTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingEventTag macro

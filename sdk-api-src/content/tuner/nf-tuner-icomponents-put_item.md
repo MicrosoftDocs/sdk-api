@@ -4,17 +4,16 @@ title: IComponents::put_Item
 author: windows-sdk-content
 description: The put_Item method inserts a component into the collection, replacing the item that is identified by the specified index.
 old-location: mstv\icomponents_put_item.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponents.put_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponents::put_Item
@@ -70,7 +68,7 @@ Specifies the index to assign to the component. This parameter is a value of typ
 
 ### -param ppComponent
 
-
+TBD
 
 
 

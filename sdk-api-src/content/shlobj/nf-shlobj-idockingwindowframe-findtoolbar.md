@@ -4,17 +4,16 @@ title: IDockingWindowFrame::FindToolbar
 author: windows-sdk-content
 description: Finds the specified IDockingWindow object in the toolbar frame and returns an interface pointer to it.
 old-location: shell\IDockingWindowFrame_FindToolbar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9086f8ae-6a81-463d-9482-7a60701ab8de
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FindToolbar, FindToolbar method [Windows Shell], FindToolbar method [Windows Shell],IDockingWindowFrame interface, IDockingWindowFrame interface [Windows Shell],FindToolbar method, IDockingWindowFrame.FindToolbar, IDockingWindowFrame::FindToolbar, _win32_IDockingWindowFrame_FindToolbar, shell.IDockingWindowFrame_FindToolbar, shlobj/IDockingWindowFrame::FindToolbar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDockingWindowFrame.FindToolbar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDockingWindowFrame::FindToolbar

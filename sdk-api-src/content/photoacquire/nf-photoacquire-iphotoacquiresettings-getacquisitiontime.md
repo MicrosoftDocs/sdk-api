@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::GetAcquisitionTime
 author: windows-sdk-content
 description: The GetAcquisitionTime method retrieves the acquisition time of the current session.
 old-location: picacq\iphotoacquiresettings_getacquisitiontime.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 0acafc4d-e4f5-4dce-a192-18d27024ad83
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition], GetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetAcquisitionTime method, IPhotoAcquireSettings.GetAcquisitionTime, IPhotoAcquireSettings::GetAcquisitionTime, IPhotoAcquireSettingsGetAcquisitionTime, photoacquire/IPhotoAcquireSettings::GetAcquisitionTime, picacq.iphotoacquiresettings_getacquisitiontime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.GetAcquisitionTime
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::GetAcquisitionTime

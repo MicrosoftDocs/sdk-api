@@ -4,17 +4,16 @@ title: EngMapEvent function
 author: windows-sdk-content
 description: The EngMapEvent function maps a user-mode event object to kernel mode.
 old-location: display\engmapevent.htm
-old-project: display
+tech.root: display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngMapEvent
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngMapEvent function

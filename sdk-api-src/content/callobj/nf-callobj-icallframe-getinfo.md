@@ -4,17 +4,16 @@ title: ICallFrame::GetInfo
 author: windows-sdk-content
 description: Retrieves information about the call frame.
 old-location: com\icallframe_getinfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 807b4542-c18d-48e4-8493-c40a85e5e1de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInfo, GetInfo method [COM], GetInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetInfo method, ICallFrame.GetInfo, ICallFrame::GetInfo, _com_icallframe_getinfo, callobj/ICallFrame::GetInfo, com.icallframe_getinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.GetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::GetInfo

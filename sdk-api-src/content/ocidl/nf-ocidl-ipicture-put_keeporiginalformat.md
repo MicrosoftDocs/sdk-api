@@ -4,17 +4,16 @@ title: IPicture::put_KeepOriginalFormat
 author: windows-sdk-content
 description: Sets the value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_put_keeporiginalformat.htm
-old-project: com
+tech.root: com
 ms.assetid: 04d952cf-a3c0-4220-9d24-8188ce52f862
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.put_KeepOriginalFormat, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM],IPicture interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPicture.put_KeepOriginalFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPicture::put_KeepOriginalFormat

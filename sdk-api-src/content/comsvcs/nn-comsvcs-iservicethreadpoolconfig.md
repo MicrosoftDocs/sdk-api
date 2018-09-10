@@ -4,7 +4,7 @@ title: IServiceThreadPoolConfig
 author: windows-sdk-content
 description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
 old-location: cos\iservicethreadpoolconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServiceThreadPoolConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServiceThreadPoolConfig interface

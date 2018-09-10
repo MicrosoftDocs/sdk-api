@@ -4,17 +4,16 @@ title: IRDPSRAPIAudioStream::Start
 author: windows-sdk-content
 description: Starts the audio stream.
 old-location: rdp\irdpsrapiaudiostream_start.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 23ADA8F5-9F44-45E6-88DC-852D8F62F03F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIAudioStream.Start
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIAudioStream::Start

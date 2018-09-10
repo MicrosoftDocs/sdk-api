@@ -4,17 +4,16 @@ title: DrtDeleteNullSecurityProvider function
 author: windows-sdk-content
 description: DrtDeleteNullSecurityProvider function deletes a null security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletenullsecurityprovider.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 950a43f3-1c1d-4fb3-988b-d58ac9eff2f8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtDeleteNullSecurityProvider, DrtDeleteNullSecurityProvider function [Distributed Routing Tables], drt/DrtDeleteNullSecurityProvider, p2p.drtdeletenullsecurityprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drtprov.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtDeleteNullSecurityProvider
 product: Windows
 targetos: Windows
-req.lib: Drtprov.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtDeleteNullSecurityProvider function

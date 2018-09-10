@@ -4,7 +4,7 @@ title: "_DHCP_OPTION"
 author: windows-sdk-content
 description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.
 old-location: dhcp\dhcp_option.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION, *LPDHCP_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION, *LPDHCP_OPTION
+req.redist: 
 ---
 
 # _DHCP_OPTION structure

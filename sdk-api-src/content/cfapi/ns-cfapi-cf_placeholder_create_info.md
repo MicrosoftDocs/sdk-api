@@ -4,7 +4,7 @@ title: CF_PLACEHOLDER_CREATE_INFO
 author: windows-sdk-content
 description: Contains placeholder information for creating new placeholder files or directories.
 old-location: cloudapi\cf_placeholder_create_info.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 2DC1FF5F-FBFD-45CA-8CD5-B2F586C22778
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_PLACEHOLDER_CREATE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_PLACEHOLDER_CREATE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_PLACEHOLDER_CREATE_INFO
+req.redist: 
 ---
 
 # CF_PLACEHOLDER_CREATE_INFO structure

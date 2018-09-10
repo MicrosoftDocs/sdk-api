@@ -4,7 +4,7 @@ title: IBrowserService4
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6054bdef-05c9-487f-8df1-4cbdd1c6d749
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBrowserService4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBrowserService4 interface

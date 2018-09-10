@@ -4,17 +4,16 @@ title: IDXGIFactory1::IsCurrent
 author: windows-sdk-content
 description: Informs an application of the possible need to re-enumerate adapters.
 old-location: direct3ddxgi\idxgifactory1_iscurrent.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: e1337b20-85c2-48e1-9205-aa729c0d0edc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIFactory1 interface [DXGI],IsCurrent method, IDXGIFactory1.IsCurrent, IDXGIFactory1::IsCurrent, IsCurrent, IsCurrent method [DXGI], IsCurrent method [DXGI],IDXGIFactory1 interface, a9f61d9d-ccf9-6f3c-a7a3-9545c2b59500, direct3ddxgi.idxgifactory1_iscurrent, dxgi/IDXGIFactory1::IsCurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory1.IsCurrent
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory1::IsCurrent

@@ -4,17 +4,16 @@ title: DhcpHlprAddV4PolicyExpr function
 author: windows-sdk-content
 description: Allocates, initializes, and adds a DHCP server policy expression to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyexpr.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 549d86ed-81c1-4126-9f43-f7e5340990d3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprAddV4PolicyExpr, DhcpHlprAddV4PolicyExpr function [DHCP], dhcp.dhcphlpraddv4policyexpr, dhcpsapi/DhcpHlprAddV4PolicyExpr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprAddV4PolicyExpr
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprAddV4PolicyExpr function

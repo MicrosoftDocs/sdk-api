@@ -4,17 +4,16 @@ title: CredIsProtectedW function
 author: windows-sdk-content
 description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
 old-location: security\credisprotected.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CredIsProtectedW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredIsProtectedW function

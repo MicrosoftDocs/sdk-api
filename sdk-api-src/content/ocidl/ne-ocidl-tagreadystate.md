@@ -4,7 +4,7 @@ title: tagREADYSTATE
 author: windows-sdk-content
 description: The ReadyState property retrieves the ReadyState of the MSWebDVD object.
 old-location: dshow\readystate_property.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e43b0fa4-4a5a-4492-a6a9-bf271f58e11b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: READYSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - READYSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: READYSTATE
+req.redist: 
 ---
 
 # tagREADYSTATE enumeration

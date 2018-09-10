@@ -4,17 +4,16 @@ title: IInkStrokeDisp::Shear
 author: windows-sdk-content
 description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors.
 old-location: tablet\iinkstrokedisp_shear.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 887dd883-1a24-4a78-8f08-f4cd45bf4840
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokeDisp interface [Tablet PC],Shear method, IInkStrokeDisp.Shear, IInkStrokeDisp::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Shear, tablet.iinkstrokedisp_shear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokeDisp.Shear
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::Shear

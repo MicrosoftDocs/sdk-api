@@ -4,7 +4,7 @@ title: MBN_PROVIDER_CONSTANTS
 author: windows-sdk-content
 description: The MBN_PROVIDER_CONSTANTS enumerated type contains values that define the buffer lengths of MBN_PROVIDER members.
 old-location: mbn\mbn_provider_constants.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 1cfe230c-16b5-490d-938f-604489a4a936
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_PROVIDER_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_PROVIDER_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_PROVIDER_CONSTANTS
+req.redist: 
 ---
 
 # MBN_PROVIDER_CONSTANTS enumeration

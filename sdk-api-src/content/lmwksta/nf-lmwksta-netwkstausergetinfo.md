@@ -4,17 +4,16 @@ title: NetWkstaUserGetInfo function
 author: windows-sdk-content
 description: The NetWkstaUserGetInfo function returns information about the currently logged-on user. This function must be called in the context of the logged-on user.
 old-location: netmgmt\netwkstausergetinfo.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmwksta.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetWkstaUserGetInfo
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetWkstaUserGetInfo function

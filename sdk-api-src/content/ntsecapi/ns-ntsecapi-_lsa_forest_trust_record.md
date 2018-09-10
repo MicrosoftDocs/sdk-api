@@ -4,7 +4,7 @@ title: "_LSA_FOREST_TRUST_RECORD"
 author: windows-sdk-content
 description: Represents a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 19b4ee56-664f-4f37-bfc9-129032ebeb22
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_FOREST_TRUST_RECORD, *PLSA_FOREST_TRUST_RECORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_FOREST_TRUST_RECORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_FOREST_TRUST_RECORD, *PLSA_FOREST_TRUST_RECORD
+req.redist: 
 ---
 
 # _LSA_FOREST_TRUST_RECORD structure

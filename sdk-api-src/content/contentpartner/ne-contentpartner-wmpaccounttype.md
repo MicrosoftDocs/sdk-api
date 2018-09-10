@@ -4,7 +4,7 @@ title: WMPAccountType
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPAccountType enumeration defines account types for an online store.
 old-location: wmp\wmpaccounttype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: daab6937-0906-4b69-8d00-c68e43b8214f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPAccountType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WMPAccountType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: WMPAccountType
+req.redist: 
 ---
 
 # WMPAccountType enumeration

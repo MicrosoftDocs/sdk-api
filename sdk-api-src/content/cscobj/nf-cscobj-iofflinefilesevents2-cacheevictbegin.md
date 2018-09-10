@@ -4,17 +4,16 @@ title: IOfflineFilesEvents2::CacheEvictBegin
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents2_cacheevictbegin.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: be1c5e7f-d3fe-4cf7-99ef-6c055b07aba6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CacheEvictBegin, CacheEvictBegin method [Offline Files], CacheEvictBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictBegin method, IOfflineFilesEvents2.CacheEvictBegin, IOfflineFilesEvents2::CacheEvictBegin, cscobj/IOfflineFilesEvents2::CacheEvictBegin, of.iofflinefilesevents2_cacheevictbegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents2.CacheEvictBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents2::CacheEvictBegin

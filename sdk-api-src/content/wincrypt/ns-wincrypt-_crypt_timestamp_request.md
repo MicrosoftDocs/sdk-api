@@ -4,7 +4,7 @@ title: "_CRYPT_TIMESTAMP_REQUEST"
 author: windows-sdk-content
 description: Defines a time stamp request structure that corresponds to the Abstract Syntax Notation One (ASN.1) definition of a TimeStampReq type.
 old-location: security\crypt_timestamp_request.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1576986c-1a9b-4fcf-9dab-987b472a8671
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_REQUEST, *PCRYPT_TIMESTAMP_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_REQUEST, *PCRYPT_TIMESTAMP_REQUEST
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_REQUEST structure

@@ -4,17 +4,16 @@ title: IDXGISwapChain::ResizeBuffers
 author: windows-sdk-content
 description: Changes the swap chain's back buffer size, format, and number of buffers. This should be called when the application window is resized.
 old-location: direct3ddxgi\idxgiswapchain_resizebuffers.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizebuffers.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 615c7678-59c9-07b2-5960-4a5b881f779d, IDXGISwapChain interface [DXGI],ResizeBuffers method, IDXGISwapChain.ResizeBuffers, IDXGISwapChain::ResizeBuffers, ResizeBuffers, ResizeBuffers method [DXGI], ResizeBuffers method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizebuffers, dxgi/IDXGISwapChain::ResizeBuffers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain.ResizeBuffers
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain::ResizeBuffers

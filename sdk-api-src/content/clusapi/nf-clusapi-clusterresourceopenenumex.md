@@ -4,17 +4,16 @@ title: ClusterResourceOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to a resource enumeration that enables iteration through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenumex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: B43460F1-4BFE-48E0-889A-56370320E4E6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterResourceOpenEnumEx, ClusterResourceOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, mscs.clusterresourceopenenumex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterResourceOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterResourceOpenEnumEx function

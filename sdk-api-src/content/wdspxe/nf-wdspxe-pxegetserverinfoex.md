@@ -4,17 +4,16 @@ title: PxeGetServerInfoEx function
 author: windows-sdk-content
 description: Returns information about the PXE server.
 old-location: wds\pxegetserverinfoex.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeGetServerInfoEx
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeGetServerInfoEx function

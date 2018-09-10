@@ -4,17 +4,16 @@ title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex
 author: windows-sdk-content
 description: Gets an output trust authority (OTA), specified by index.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityByIndex method, IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTrustedOutput::GetOutputTrustAuthorityByIndex

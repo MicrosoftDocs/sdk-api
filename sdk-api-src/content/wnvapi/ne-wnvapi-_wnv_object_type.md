@@ -4,7 +4,7 @@ title: "_WNV_OBJECT_TYPE"
 author: windows-sdk-content
 description: Specifies the object type of a given Windows Network Virtualization (WNV) notification when the WNV notification type is WnvObjectChangeType.
 old-location: wnv\wnv_object_type.htm
-old-project: wnv
+tech.root: wnv
 ms.assetid: 817C86BB-1267-4174-93C2-515288A33055
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wnvapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNV_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
+req.redist: 
 ---
 
 # _WNV_OBJECT_TYPE enumeration

@@ -4,17 +4,16 @@ title: ITextRange::GetStart
 author: windows-sdk-content
 description: Gets the start character position of the range.
 old-location: controls\ITextRange_GetStart.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstart.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStart, GetStart method [Windows Controls], GetStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStart method, ITextRange.GetStart, ITextRange::GetStart, _win32_ITextRange_GetStart, _win32_ITextRange_GetStart_cpp, controls.ITextRange_GetStart, controls._win32_ITextRange_GetStart, tom/ITextRange::GetStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.GetStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::GetStart

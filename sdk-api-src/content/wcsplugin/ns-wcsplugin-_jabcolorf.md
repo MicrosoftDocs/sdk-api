@@ -4,7 +4,7 @@ title: "_JabColorF"
 author: windows-sdk-content
 description: TBD.
 old-location: wcs\jabcolorf.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JabColorF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - JabColorF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: JabColorF
+req.redist: 
 ---
 
 # _JabColorF structure

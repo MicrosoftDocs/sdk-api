@@ -4,17 +4,16 @@ title: IVssAsync::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels an incomplete asynchronous operation.
 old-location: base\ivssasync_cancel.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cancel, Cancel method [VSS], Cancel method [VSS],IVssAsync interface, IVssAsync interface [VSS],Cancel method, IVssAsync.Cancel, IVssAsync::Cancel, _win32_ivssasync_cancel, base.ivssasync_cancel, vss/IVssAsync::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssAsync.Cancel
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssAsync::Cancel

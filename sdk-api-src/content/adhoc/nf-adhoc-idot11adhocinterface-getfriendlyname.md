@@ -4,17 +4,16 @@ title: IDot11AdHocInterface::GetFriendlyName
 author: windows-sdk-content
 description: Gets the friendly name of the NIC.
 old-location: nwifi\idot11adhocinterface_getfriendlyname.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 945947e9-99ea-4420-95db-5b831e59e894
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [NativeWIFI], GetFriendlyName method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetFriendlyName method, IDot11AdHocInterface.GetFriendlyName, IDot11AdHocInterface::GetFriendlyName, adhoc/IDot11AdHocInterface::GetFriendlyName, nwifi.idot11adhocinterface_getfriendlyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDot11AdHocInterface.GetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDot11AdHocInterface::GetFriendlyName

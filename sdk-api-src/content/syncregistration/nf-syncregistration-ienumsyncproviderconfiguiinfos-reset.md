@@ -4,17 +4,16 @@ title: IEnumSyncProviderConfigUIInfos::Reset
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the collection of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_reset.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncProviderConfigUIInfos.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncProviderConfigUIInfos::Reset

@@ -4,17 +4,16 @@ title: MFPutWorkItemEx2 function
 author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue, with a specified priority.
 old-location: mf\mfputworkitemex2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFPutWorkItemEx2, MFPutWorkItemEx2 function [Media Foundation], mf.mfputworkitemex2, mfapi/MFPutWorkItemEx2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPutWorkItemEx2
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFPutWorkItemEx2 function

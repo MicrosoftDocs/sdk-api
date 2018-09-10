@@ -4,17 +4,16 @@ title: IActionProgress::UpdateText
 author: windows-sdk-content
 description: Called if descriptive text associated with the action will be changed.
 old-location: shell\IActionProgress_UpdateText.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dfb8a996-89df-4975-ac13-d871598a2787
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateText method, IActionProgress.UpdateText, IActionProgress::UpdateText, UpdateText, UpdateText method [Windows Shell], UpdateText method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateText, shell_IActionProgress_UpdateText, shobjidl_core/IActionProgress::UpdateText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shobjidl.idl
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActionProgress.UpdateText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shobjidl.idl
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActionProgress::UpdateText

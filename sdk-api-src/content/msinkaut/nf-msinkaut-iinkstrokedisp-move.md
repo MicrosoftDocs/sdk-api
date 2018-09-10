@@ -4,17 +4,16 @@ title: IInkStrokeDisp::Move
 author: windows-sdk-content
 description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
 old-location: tablet\iinkstrokedisp_move.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tablet PC],Move method, IInkStrokeDisp.Move, IInkStrokeDisp::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokeDisp.Move
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::Move

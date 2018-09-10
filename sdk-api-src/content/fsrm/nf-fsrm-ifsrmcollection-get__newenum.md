@@ -4,17 +4,16 @@ title: IFsrmCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmCollection::get__NewEnum

@@ -4,17 +4,16 @@ title: IPenInputPanel::get_Visible
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the PenInputPanel object is visible.
 old-location: tablet\peninputpanel_visible.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7, IPenInputPanel interface [Tablet PC],Visible property, IPenInputPanel.Visible, IPenInputPanel.get_Visible, IPenInputPanel::Visible, IPenInputPanel::get_Visible, IPenInputPanel::putref_Visible, PenInputPanel.get_Visible, Visible property [Tablet PC], Visible property [Tablet PC],IPenInputPanel interface, get_Visible, peninputpanel/IPenInputPanel::Visible, peninputpanel/IPenInputPanel::get_Visible, peninputpanel/IPenInputPanel::putref_Visible, put_Visible, tablet.peninputpanel_visible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PenInputPanel.get_Visible
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::get_Visible

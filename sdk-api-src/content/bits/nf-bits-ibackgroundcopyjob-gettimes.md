@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::GetTimes
 author: windows-sdk-content
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
 old-location: bits\ibackgroundcopyjob_gettimes.htm
-old-project: bits
+tech.root: bits
 ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.GetTimes
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::GetTimes
@@ -61,7 +60,7 @@ Retrieves job-related time stamps, such as the time that the job was created or 
 
 ### -param pVal
 
-
+TBD
 
 
 

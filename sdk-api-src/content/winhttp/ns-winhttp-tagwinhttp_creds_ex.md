@@ -4,7 +4,7 @@ title: tagWINHTTP_CREDS_EX
 author: windows-sdk-content
 description: Contains user credential information used for server and proxy authentication.
 old-location: http\winhttp_creds_ex.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_CREDS_EX, *PWINHTTP_CREDS_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_CREDS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_CREDS_EX, *PWINHTTP_CREDS_EX
+req.redist: 
 ---
 
 # tagWINHTTP_CREDS_EX structure

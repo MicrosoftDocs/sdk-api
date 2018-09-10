@@ -4,17 +4,16 @@ title: CryptCATAdminAcquireContext function
 author: windows-sdk-content
 description: Acquires a handle to a catalog administrator context.
 old-location: security\cryptcatadminacquirecontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATAdminAcquireContext
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATAdminAcquireContext function

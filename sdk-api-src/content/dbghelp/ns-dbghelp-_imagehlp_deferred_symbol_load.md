@@ -4,7 +4,7 @@ title: "_IMAGEHLP_DEFERRED_SYMBOL_LOAD"
 author: windows-sdk-content
 description: Contains information about a deferred symbol load.
 old-location: base\imagehlp_deferred_symbol_load64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_DEFERRED_SYMBOL_LOAD, *PIMAGEHLP_DEFERRED_SYMBOL_LOAD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMAGEHLP_DEFERRED_SYMBOL_LOAD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_DEFERRED_SYMBOL_LOAD, *PIMAGEHLP_DEFERRED_SYMBOL_LOAD
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_DEFERRED_SYMBOL_LOAD structure

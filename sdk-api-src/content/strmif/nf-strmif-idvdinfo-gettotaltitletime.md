@@ -4,17 +4,16 @@ title: IDvdInfo::GetTotalTitleTime
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo_gettotaltitletime.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 90f3a053-edc8-4e42-ae00-31d66d9e3115
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTotalTitleTime method, IDvdInfo.GetTotalTitleTime, IDvdInfo::GetTotalTitleTime, IDvdInfoGetTotalTitleTime, dshow.idvdinfo_gettotaltitletime, strmif/IDvdInfo::GetTotalTitleTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetTotalTitleTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetTotalTitleTime
@@ -67,7 +65,7 @@ Retrieves the total playback time for the current title.
 
 ### -param pulTotalTime
 
-
+TBD
 
 
 

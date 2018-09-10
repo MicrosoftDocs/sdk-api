@@ -4,7 +4,7 @@ title: TabletHardwareCapabilities
 author: windows-sdk-content
 description: Specifies the hardware capabilities of the Tablet PC.
 old-location: tablet\tablethardwarecapabilities.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ab8dfca3-df5e-40a7-9da2-d19447bc746b
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletHardwareCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TabletHardwareCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TabletHardwareCapabilities
+req.redist: 
 ---
 
 # TabletHardwareCapabilities enumeration

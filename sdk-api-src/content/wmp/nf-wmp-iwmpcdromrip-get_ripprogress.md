@@ -4,17 +4,16 @@ title: IWMPCdromRip::get_ripProgress
 author: windows-sdk-content
 description: The get_ripProgress method retrieves the CD ripping progress as percent complete.
 old-location: wmp\iwmpcdromrip_get_ripprogress.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: d7140bc9-bf79-48f0-aaf0-155660c8b2c9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripProgress method, IWMPCdromRip.get_ripProgress, IWMPCdromRip::get_ripProgress, IWMPCdromRipget_ripProgress, get_ripProgress, get_ripProgress method [Windows Media Player], get_ripProgress method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripprogress, wmp/IWMPCdromRip::get_ripProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromRip.get_ripProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromRip::get_ripProgress

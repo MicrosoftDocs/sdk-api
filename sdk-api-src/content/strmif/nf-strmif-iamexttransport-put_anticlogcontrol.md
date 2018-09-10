@@ -4,17 +4,16 @@ title: IAMExtTransport::put_AntiClogControl
 author: windows-sdk-content
 description: The put_AntiClogControl method enables or disables anti-headclog control on the transport.
 old-location: dshow\iamexttransport_put_anticlogcontrol.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 02d1e400-9959-4c68-ad8e-bc1700205179
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_AntiClogControl method, IAMExtTransport.put_AntiClogControl, IAMExtTransport::put_AntiClogControl, IAMExtTransportput_AntiClogControl, dshow.iamexttransport_put_anticlogcontrol, put_AntiClogControl, put_AntiClogControl method [DirectShow], put_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_AntiClogControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.put_AntiClogControl
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::put_AntiClogControl

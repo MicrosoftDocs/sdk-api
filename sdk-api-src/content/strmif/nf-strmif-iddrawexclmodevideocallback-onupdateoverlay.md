@@ -4,17 +4,16 @@ title: IDDrawExclModeVideoCallback::OnUpdateOverlay
 author: windows-sdk-content
 description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.
 old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDDrawExclModeVideoCallback.OnUpdateOverlay
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDDrawExclModeVideoCallback::OnUpdateOverlay
@@ -66,7 +64,7 @@ The <code>OnUpdateOverlay</code> method informs the application when the overlay
 
 ### -param bBefore
 
-
+TBD
 
 
 ### -param dwFlags [in]
@@ -81,12 +79,12 @@ Boolean value specifying whether the old window is visible. <b>TRUE</b> means th
 
 ### -param prcOldSrc
 
-
+TBD
 
 
 ### -param prcOldDest
 
-
+TBD
 
 
 ### -param bNewVisible [in]
@@ -96,12 +94,12 @@ Boolean specifying whether the new window is visible. <b>TRUE</b> means the new 
 
 ### -param prcNewSrc
 
-
+TBD
 
 
 ### -param prcNewDest
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: InternetCrackUrlA function
 author: windows-sdk-content
 description: Cracks a URL into its component parts.
 old-location: wininet\internetcrackurl.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetCrackUrlW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetCrackUrlA function

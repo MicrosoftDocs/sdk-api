@@ -4,7 +4,7 @@ title: "_CRYPT_CONTEXT_CONFIG"
 author: windows-sdk-content
 description: Contains configuration information for a CNG context.
 old-location: security\crypt_context_config.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_CONTEXT_CONFIG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG
+req.redist: 
 ---
 
 # _CRYPT_CONTEXT_CONFIG structure

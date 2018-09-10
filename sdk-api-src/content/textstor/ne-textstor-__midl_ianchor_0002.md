@@ -4,7 +4,7 @@ title: "__MIDL_IAnchor_0002"
 author: windows-sdk-content
 description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
 old-location: tsf\tsshiftdir.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsShiftDir
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TsShiftDir
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TsShiftDir
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_IAnchor_0002 enumeration

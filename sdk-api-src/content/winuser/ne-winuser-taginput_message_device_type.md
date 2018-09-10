@@ -4,7 +4,7 @@ title: tagINPUT_MESSAGE_DEVICE_TYPE
 author: windows-sdk-content
 description: The type of device that sent the input message.
 old-location: input_sourceid\input_message_device_type.htm
-old-project: Input_SourceId
+tech.root: Input_SourceId
 ms.assetid: aaaa8d9b-1056-4fa3-afcf-43d2c4b41c0e
 ms.author: windowssdkdev
 ms.date: 03/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INPUT_MESSAGE_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INPUT_MESSAGE_DEVICE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: INPUT_MESSAGE_DEVICE_TYPE
+req.redist: 
 ---
 
 # tagINPUT_MESSAGE_DEVICE_TYPE enumeration

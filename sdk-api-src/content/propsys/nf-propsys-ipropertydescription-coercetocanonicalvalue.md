@@ -4,17 +4,16 @@ title: IPropertyDescription::CoerceToCanonicalValue
 author: windows-sdk-content
 description: Coerces the value to the canonical value, according to the property description.
 old-location: properties\IPropertyDescription_CoerceToCanonicalValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: bc51ec1b-c1ec-4162-a60d-b67d19d5b591
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CoerceToCanonicalValue, CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],CoerceToCanonicalValue method, IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.CoerceToCanonicalValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::CoerceToCanonicalValue

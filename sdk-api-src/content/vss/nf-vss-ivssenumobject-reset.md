@@ -4,17 +4,16 @@ title: IVssEnumObject::Reset
 author: windows-sdk-content
 description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.
 old-location: base\ivssenumobject_reset.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssEnumObject interface [VSS],Reset method, IVssEnumObject.Reset, IVssEnumObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumObject interface, _win32_ivssenumobject_reset, base.ivssenumobject_reset, vss/IVssEnumObject::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssEnumObject.Reset
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumObject::Reset

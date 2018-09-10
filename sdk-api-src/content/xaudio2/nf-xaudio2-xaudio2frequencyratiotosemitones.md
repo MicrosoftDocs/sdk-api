@@ -4,17 +4,16 @@ title: XAudio2FrequencyRatioToSemitones function
 author: windows-sdk-content
 description: Inline function that converts a frequency ratio value to a semitone value.
 old-location: xaudio2\xaudio2frequencyratiotosemitones.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2FrequencyRatioToSemitones(float)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: XAudio2FrequencyRatioToSemitones, XAudio2FrequencyRatioToSemitones function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2frequencyratiotosemitones, xaudio2/XAudio2FrequencyRatioToSemitones
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAUDIO2_FILTER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XAudio2FrequencyRatioToSemitones
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # XAudio2FrequencyRatioToSemitones function

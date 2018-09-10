@@ -4,17 +4,16 @@ title: TRefPointerCollection::Add
 author: windows-sdk-content
 description: The Add method adds a reference to the collection.
 old-location: wmi\trefpointercollection_add.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection.Add
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection::Add

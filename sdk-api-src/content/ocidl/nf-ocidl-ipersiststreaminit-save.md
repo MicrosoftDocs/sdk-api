@@ -4,17 +4,16 @@ title: IPersistStreamInit::Save
 author: windows-sdk-content
 description: Saves an object to the specified stream.
 old-location: com\ipersiststreaminit_save.htm
-old-project: com
+tech.root: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.Save, IPersistStreamInit::Save, Save, Save method [COM], Save method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistStreamInit.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistStreamInit::Save

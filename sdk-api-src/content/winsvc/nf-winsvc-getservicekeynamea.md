@@ -4,17 +4,16 @@ title: GetServiceKeyNameA function
 author: windows-sdk-content
 description: Retrieves the service name of the specified service.
 old-location: base\getservicekeyname.htm
-old-project: Services
+tech.root: Services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetServiceKeyNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetServiceKeyNameA function

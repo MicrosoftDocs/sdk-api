@@ -4,7 +4,7 @@ title: "_RTL_USER_PROCESS_PARAMETERS"
 author: windows-sdk-content
 description: Contains process parameter information.
 old-location: base\rtl_user_process_parameters.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTL_USER_PROCESS_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
+req.redist: 
 ---
 
 # _RTL_USER_PROCESS_PARAMETERS structure

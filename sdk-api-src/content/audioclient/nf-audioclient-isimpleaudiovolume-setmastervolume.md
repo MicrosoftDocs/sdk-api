@@ -4,17 +4,16 @@ title: ISimpleAudioVolume::SetMasterVolume
 author: windows-sdk-content
 description: The SetMasterVolume method sets the master volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISimpleAudioVolume.SetMasterVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleAudioVolume::SetMasterVolume

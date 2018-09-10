@@ -4,17 +4,16 @@ title: IDvdControl::TitlePlay
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.
 old-location: dshow\idvdcontrol_titleplay.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.TitlePlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::TitlePlay
@@ -67,7 +65,7 @@ Finds the media file with the specified title index and plays it back.
 
 ### -param ulTitle
 
-
+TBD
 
 
 

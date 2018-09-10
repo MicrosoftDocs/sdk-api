@@ -4,17 +4,16 @@ title: IMFActivate::ShutdownObject
 author: windows-sdk-content
 description: Shuts down the created object.
 old-location: mf\imfactivate_shutdownobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1f88ff31-5a91-4838-bfce-673a5a85c766
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media Foundation],ShutdownObject method, IMFActivate.ShutdownObject, IMFActivate::ShutdownObject, ShutdownObject, ShutdownObject method [Media Foundation], ShutdownObject method [Media Foundation],IMFActivate interface, mf.imfactivate_shutdownobject, mfobjects/IMFActivate::ShutdownObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFActivate.ShutdownObject
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFActivate::ShutdownObject

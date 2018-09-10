@@ -4,17 +4,16 @@ title: IPreviewHandler::SetWindow
 author: windows-sdk-content
 description: Sets the parent window of the previewer window, as well as the area within the parent to be used for the previewer window.
 old-location: shell\IPreviewHandler_SetWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a323811a-8244-40a0-a6b2-68572639be5f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetWindow method, IPreviewHandler.SetWindow, IPreviewHandler::SetWindow, SetWindow, SetWindow method [Windows Shell], SetWindow method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetWindow, shell.IPreviewHandler_SetWindow, shobjidl_core/IPreviewHandler::SetWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandler.SetWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandler::SetWindow

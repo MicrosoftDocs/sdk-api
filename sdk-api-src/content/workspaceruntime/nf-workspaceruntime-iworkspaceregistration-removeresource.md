@@ -4,17 +4,16 @@ title: IWorkspaceRegistration::RemoveResource
 author: windows-sdk-content
 description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
 old-location: termserv\iworkspaceregistration_removeresource.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: f700e3c2-06fe-4f98-9b1e-aeadc339ed7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceRegistration interface [Remote Desktop Services],RemoveResource method, IWorkspaceRegistration.RemoveResource, IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResource method, IWorkspaceRegistration2::RemoveResource, IWorkspaceRegistration::RemoveResource, RemoveResource, RemoveResource method [Remote Desktop Services], RemoveResource method [Remote Desktop Services],IWorkspaceRegistration interface, RemoveResource method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResource method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResource method, termserv.iworkspaceregistration_removeresource, workspaceruntime/IWorkspaceRegistration2::RemoveResource, workspaceruntime/IWorkspaceRegistration::RemoveResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wksprt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Workspace.RemoveResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceRegistration::RemoveResource

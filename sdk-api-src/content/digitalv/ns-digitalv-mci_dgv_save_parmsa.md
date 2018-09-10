@@ -4,7 +4,7 @@ title: MCI_DGV_SAVE_PARMSA
 author: windows-sdk-content
 description: The MCI_DGV_SAVE_PARMS structure contains information for the MCI_SAVE command for digital-video devices.
 old-location: multimedia\mci_dgv_save_parms.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a647099c-f5f8-4728-99a1-8b5b8c6b67bf
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCI_DGV_SAVE_PARMSA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MCI_DGV_SAVE_PARMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MCI_DGV_SAVE_PARMSA
+req.redist: 
 ---
 
 # MCI_DGV_SAVE_PARMSA structure

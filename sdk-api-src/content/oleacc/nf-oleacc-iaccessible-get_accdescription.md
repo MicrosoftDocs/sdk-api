@@ -4,17 +4,16 @@ title: IAccessible::get_accDescription
 author: windows-sdk-content
 description: The IAccessible::get_accDescription method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accDescription
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accDescription
@@ -63,7 +61,7 @@ properties supported by UI Automation elements and control patterns.</div><div>�
 
 ### -param varChild
 
-
+TBD
 
 
 ### -param pszDescription [out, retval]

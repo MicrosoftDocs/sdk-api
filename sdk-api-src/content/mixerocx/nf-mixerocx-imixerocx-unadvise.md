@@ -4,17 +4,16 @@ title: IMixerOCX::UnAdvise
 author: windows-sdk-content
 description: The UnAdvise method instructs the Overlay Mixer to release its pointer to the client's IMixerOCXNotify interface.
 old-location: dshow\imixerocx_unadvise.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9c2837c6-ee0f-45f4-b98a-9b8957e75b48
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMixerOCX interface [DirectShow],UnAdvise method, IMixerOCX.UnAdvise, IMixerOCX::UnAdvise, IMixerOCXUnAdvise, UnAdvise, UnAdvise method [DirectShow], UnAdvise method [DirectShow],IMixerOCX interface, dshow.imixerocx_unadvise, mixerocx/IMixerOCX::UnAdvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMixerOCX.UnAdvise
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMixerOCX::UnAdvise

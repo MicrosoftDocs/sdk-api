@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxDevices.get_Count
 title: IFaxDevices::get_Count
 author: windows-sdk-content
-description: The Count property represents the number of objects in the FaxDevices collection. This is the total number of devices used by the fax server.
-old-location: fax\_mfax_faxdevices_count_vb.htm
-old-project: Fax
+description: The IFaxDevices::get_Count property represents the number of objects in the FaxDevices collection. This is the total number of devices used by the fax server.
+old-location: fax\_mfax_faxdevices_cpp_mfax_faxdevices_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9ypg.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxDevices object, FaxDevices object [Fax Service],Count property, FaxDevices.Count, IFaxDevices.get_Count, IFaxDevices::get_Count, _mfax_faxdevices.count, fax._mfax_faxdevices_count, fax._mfax_faxdevices_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDevices interface, IFaxDevices interface [Fax Service],Count property, IFaxDevices.Count, IFaxDevices.get_Count, IFaxDevices::Count, IFaxDevices::get_Count, _mfax_faxdevices.count, fax._mfax_faxdevices_count, fax._mfax_faxdevices_cpp_mfax_faxdevices_count_cpp, faxcomex/IFaxDevices::Count, faxcomex/IFaxDevices::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDevices.Count
+ - IFaxDevices.Count
+ - IFaxDevices.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDevices::get_Count
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> collection. This is the total number of devices used by the fax server.
+The <b>IFaxDevices::get_Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> collection. This is the total number of devices used by the fax server.
 
 This property is read-only.
 

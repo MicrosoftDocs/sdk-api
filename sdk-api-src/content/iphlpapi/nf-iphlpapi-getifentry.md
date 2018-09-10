@@ -4,17 +4,16 @@ title: GetIfEntry function
 author: windows-sdk-content
 description: The GetIfEntry function retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIfEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetIfEntry function

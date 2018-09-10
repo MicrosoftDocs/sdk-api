@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::put_CurrentPartition
 author: windows-sdk-content
 description: Sets the current destination partition.
 old-location: cos\icomadmincatalog2_currentpartition.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1df71c0b-0abe-48c3-baa2-8c04b2aa171d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CurrentPartition property [COM+], CurrentPartition property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartition property, ICOMAdminCatalog2.CurrentPartition, ICOMAdminCatalog2.put_CurrentPartition, ICOMAdminCatalog2::CurrentPartition, ICOMAdminCatalog2::put_CurrentPartition, _cos_IComAdminCatalog2_put_CurrentPartition, comadmin/ICOMAdminCatalog2::CurrentPartition, comadmin/ICOMAdminCatalog2::put_CurrentPartition, cos.icomadmincatalog2_currentpartition, put_CurrentPartition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICOMAdminCatalog2.put_CurrentPartition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::put_CurrentPartition

@@ -4,17 +4,16 @@ title: IRdcFileWriter::Write
 author: windows-sdk-content
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Write method, IRdcFileWriter.Write, IRdcFileWriter::Write, Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcFileWriter.Write
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcFileWriter::Write

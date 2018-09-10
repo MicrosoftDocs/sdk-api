@@ -4,17 +4,16 @@ title: IClassFactory2::CreateInstanceLic
 author: windows-sdk-content
 description: Creates an instance of the licensed object for the specified license key. This method is the only possible means to create an object on an otherwise unlicensed machine.
 old-location: com\iclassfactory2_createinstancelic.htm
-old-project: com
+tech.root: com
 ms.assetid: f33c7223-da7d-4582-9a23-7dc34be97a9f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateInstanceLic, CreateInstanceLic method [COM], CreateInstanceLic method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],CreateInstanceLic method, IClassFactory2.CreateInstanceLic, IClassFactory2::CreateInstanceLic, _com_iclassfactory2_createinstancelic, com.iclassfactory2_createinstancelic, ocidl/IClassFactory2::CreateInstanceLic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IClassFactory2.CreateInstanceLic
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IClassFactory2::CreateInstanceLic

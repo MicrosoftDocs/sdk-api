@@ -4,17 +4,16 @@ title: SetNtmsObjectInformation function
 author: windows-sdk-content
 description: The SetNtmsObjectInformation function changes the information structure of the specified object.
 old-location: fs\setntmsobjectinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetNtmsObjectInformationW
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetNtmsObjectInformation function

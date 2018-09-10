@@ -4,7 +4,7 @@ title: "_MIB_UDPROW"
 author: windows-sdk-content
 description: Contains an entry from the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udprow.htm
-old-project: mib
+tech.root: mib
 ms.assetid: db366802-962f-4e83-838e-1e2f51beab92
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_UDPROW, *PMIB_UDPROW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_UDPROW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_UDPROW, *PMIB_UDPROW
+req.redist: 
 ---
 
 # _MIB_UDPROW structure

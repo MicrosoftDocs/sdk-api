@@ -4,17 +4,16 @@ title: IMSVidPlayback::get_CurrentPosition
 author: windows-sdk-content
 description: The get_CurrentPosition method returns the current playback position of the source.
 old-location: mstv\imsvidplayback_get_currentposition.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 08facda5-3c17-4dac-b06f-6032f9490087
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CurrentPosition method, IMSVidPlayback.get_CurrentPosition, IMSVidPlayback::get_CurrentPosition, IMSVidPlaybackget_CurrentPosition, get_CurrentPosition, get_CurrentPosition method [Microsoft TV Technologies], get_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_currentposition, segment/IMSVidPlayback::get_CurrentPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidPlayback.get_CurrentPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidPlayback::get_CurrentPosition

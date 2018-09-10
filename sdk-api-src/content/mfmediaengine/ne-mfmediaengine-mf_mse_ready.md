@@ -4,7 +4,7 @@ title: MF_MSE_READY
 author: windows-sdk-content
 description: Defines the different ready states of the Media Source Extension.
 old-location: mf\mf_mse_ready.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MSE_READY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_MSE_READY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_MSE_READY
+req.redist: 
 ---
 
 # MF_MSE_READY enumeration

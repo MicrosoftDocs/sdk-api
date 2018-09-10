@@ -4,17 +4,16 @@ title: RpcNsMgmtEntryDeleteW function
 author: windows-sdk-content
 description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrydelete.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsMgmtEntryDelete, RpcNsMgmtEntryDelete function [RPC], RpcNsMgmtEntryDeleteA, RpcNsMgmtEntryDeleteW, _rpc_rpcnsmgmtentrydelete, rpc.rpcnsmgmtentrydelete, rpcnsi/RpcNsMgmtEntryDelete, rpcnsi/RpcNsMgmtEntryDeleteA, rpcnsi/RpcNsMgmtEntryDeleteW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsMgmtEntryDeleteW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsMgmtEntryDeleteW function

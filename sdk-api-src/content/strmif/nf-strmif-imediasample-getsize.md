@@ -4,17 +4,16 @@ title: IMediaSample::GetSize
 author: windows-sdk-content
 description: The GetSize method retrieves the size of the buffer.
 old-location: dshow\imediasample_getsize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6dc50db2-dc75-4c04-ac30-78275ee35ce8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetSize method, IMediaSample.GetSize, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSample.GetSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample::GetSize

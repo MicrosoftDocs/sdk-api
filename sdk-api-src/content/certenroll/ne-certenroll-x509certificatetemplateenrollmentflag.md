@@ -4,7 +4,7 @@ title: X509CertificateTemplateEnrollmentFlag
 author: windows-sdk-content
 description: Contains values that specify server and client actions during enrollment.
 old-location: security\x509certificatetemplateenrollmentflag.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: eefb2120-637d-45ae-91be-e18a9d9cb14f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509CertificateTemplateEnrollmentFlag
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509CertificateTemplateEnrollmentFlag
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509CertificateTemplateEnrollmentFlag
+req.redist: 
 ---
 
 # X509CertificateTemplateEnrollmentFlag enumeration

@@ -4,7 +4,7 @@ title: peer_graph_property_flags_tag
 author: windows-sdk-content
 description: The PEER_GRAPH_PROPERTY_FLAGS enumeration specifies properties of a peer graph.
 old-location: p2p\peer_graph_property_flags.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_GRAPH_PROPERTY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_GRAPH_PROPERTY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_GRAPH_PROPERTY_FLAGS
+req.redist: 
 ---
 
 # peer_graph_property_flags_tag enumeration

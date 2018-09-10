@@ -4,17 +4,16 @@ title: IVssAdmin::RegisterProvider
 author: windows-sdk-content
 description: Registers a new shadow copy provider.
 old-location: base\ivssadmin_registerprovider.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.RegisterProvider, IVssAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VSS], RegisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_registerprovider, vsadmin/IVssAdmin::RegisterProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssAdmin.RegisterProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssAdmin::RegisterProvider

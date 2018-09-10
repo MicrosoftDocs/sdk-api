@@ -4,7 +4,7 @@ title: "_CRYPT_TIMESTAMP_RESPONSE"
 author: windows-sdk-content
 description: Is used internally to encapsulate an Abstract Syntax Notation One (ASN.1) Distinguished Encoding Rules (DER) encoded response.
 old-location: security\crypt_timestamp_response.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 81647cb7-e5da-4a8b-a50f-83bedd9c0aba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_TIMESTAMP_RESPONSE, *PCRYPT_TIMESTAMP_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_TIMESTAMP_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_TIMESTAMP_RESPONSE, *PCRYPT_TIMESTAMP_RESPONSE
+req.redist: 
 ---
 
 # _CRYPT_TIMESTAMP_RESPONSE structure

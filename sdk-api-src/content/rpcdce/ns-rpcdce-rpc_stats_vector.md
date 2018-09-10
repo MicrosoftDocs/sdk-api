@@ -4,7 +4,7 @@ title: RPC_STATS_VECTOR
 author: windows-sdk-content
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 old-location: rpc\rpc_stats_vector.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_STATS_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_STATS_VECTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_STATS_VECTOR
+req.redist: 
 ---
 
 # RPC_STATS_VECTOR structure

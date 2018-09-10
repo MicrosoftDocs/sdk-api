@@ -4,17 +4,16 @@ title: IAMNetShowExProps::get_CodecCount
 author: windows-sdk-content
 description: The get_CodecCount method retrieves the number codecs needed to play the file.
 old-location: dshow\iamnetshowexprops_get_codeccount.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowExProps.get_CodecCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowExProps::get_CodecCount

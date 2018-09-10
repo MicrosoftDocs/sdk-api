@@ -4,7 +4,7 @@ title: WS_FIELD_MAPPING
 author: windows-sdk-content
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_field_mapping.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 14f4dbc6-0870-4b1c-8f6b-544f771771e8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FIELD_MAPPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FIELD_MAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FIELD_MAPPING
+req.redist: 
 ---
 
 # WS_FIELD_MAPPING enumeration

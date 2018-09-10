@@ -4,7 +4,7 @@ title: IPreviewHandler
 author: windows-sdk-content
 description: Exposes methods for the display of rich previews.
 old-location: shell\IPreviewHandler.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a4e6507c-10b1-4c21-9359-92ba635a2a2c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: Windows Search 4 or later
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPreviewHandler
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: Windows Search 4 or later
 ---
 
 # IPreviewHandler interface

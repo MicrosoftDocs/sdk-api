@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyGroups::Reset
 author: windows-sdk-content
 description: Use the Reset method to reset the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopygroups_reset.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 16bcfd69-9fb2-4214-8a7d-4188c6516ebb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Reset method, IEnumBackgroundCopyGroups.Reset, IEnumBackgroundCopyGroups::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_reset, qmgr/IEnumBackgroundCopyGroups::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumBackgroundCopyGroups.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyGroups::Reset

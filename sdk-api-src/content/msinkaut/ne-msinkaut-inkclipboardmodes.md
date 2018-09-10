@@ -4,7 +4,7 @@ title: InkClipboardModes
 author: windows-sdk-content
 description: Specifies the copy options of the Clipboard.
 old-location: tablet\inkclipboardmodes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a9718b79-8f98-4bfc-a5db-208899d1f59e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkClipboardModes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkClipboardModes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkClipboardModes
+req.redist: 
 ---
 
 # InkClipboardModes enumeration

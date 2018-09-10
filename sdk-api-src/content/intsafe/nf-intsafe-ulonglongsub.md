@@ -4,17 +4,16 @@ title: ULongLongSub function
 author: windows-sdk-content
 description: Subtracts one value of type SIZE_T from another.
 old-location: shell\SIZETSub_1.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIZETSub
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ULongLongSub function

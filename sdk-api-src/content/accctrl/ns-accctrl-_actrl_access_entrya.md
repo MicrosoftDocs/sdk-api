@@ -4,7 +4,7 @@ title: "_ACTRL_ACCESS_ENTRYA"
 author: windows-sdk-content
 description: Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an ACE.
 old-location: com\actrl_access_entry.htm
-old-project: com
+tech.root: com
 ms.assetid: bcb2ad72-7b00-4582-b05e-e00720a4db77
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTRL_ACCESS_ENTRYA, *PACTRL_ACCESS_ENTRYA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - ACTRL_ACCESS_ENTRYW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: ACTRL_ACCESS_ENTRYA, *PACTRL_ACCESS_ENTRYA
+req.redist: 
 ---
 
 # _ACTRL_ACCESS_ENTRYA structure

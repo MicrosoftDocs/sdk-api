@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0003"
 author: windows-sdk-content
 description: Specifies the values that represent the default input areas of the Tablet PC Input Panel.
 old-location: tablet\panelinputarea.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: fc262f07-aa73-49c8-a26a-1f0a47f8269a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PanelInputArea
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InputArea2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PanelInputArea
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0003 enumeration

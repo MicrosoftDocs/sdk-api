@@ -4,17 +4,16 @@ title: IUPnPEventSink::OnStateChangedSafe
 author: windows-sdk-content
 description: The OnStateChangedSafe method sends an event to the device host with the list of DISPIDs that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
 old-location: upnp\iupnpeventsink_onstatechangedsafe.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 95792229-287c-43f1-b03a-45aa63a9682f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPEventSink interface [UPnP APIs],OnStateChangedSafe method, IUPnPEventSink.OnStateChangedSafe, IUPnPEventSink::OnStateChangedSafe, OnStateChangedSafe, OnStateChangedSafe method [UPnP APIs], OnStateChangedSafe method [UPnP APIs],IUPnPEventSink interface, _upnp_iupnpeventsink_onstatechangedsafe, upnp.iupnpeventsink_onstatechangedsafe, upnphost/IUPnPEventSink::OnStateChangedSafe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPEventSink.OnStateChangedSafe
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPEventSink::OnStateChangedSafe

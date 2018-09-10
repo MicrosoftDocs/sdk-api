@@ -4,17 +4,16 @@ title: ISynchronizeHandle::GetHandle
 author: windows-sdk-content
 description: Retrieves a handle to the synchronization object.
 old-location: com\isynchronizehandle_gethandle.htm
-old-project: com
+tech.root: com
 ms.assetid: 951bc2e4-2ef9-48cf-91a1-1a39c2361f42
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetHandle, GetHandle method [COM], GetHandle method [COM],ISynchronizeHandle interface, ISynchronizeHandle interface [COM],GetHandle method, ISynchronizeHandle.GetHandle, ISynchronizeHandle::GetHandle, _com_isynchronizehandle_gethandle, com.isynchronizehandle_gethandle, objidlbase/ISynchronizeHandle::GetHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronizeHandle.GetHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronizeHandle::GetHandle

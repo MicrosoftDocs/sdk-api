@@ -4,17 +4,16 @@ title: SafeArrayReleaseData function
 author: windows-sdk-content
 description: Decreases the pinning reference count for the specified safe array data by one. When that count reaches 0, the memory for that data is no longer prevented from being freed.
 old-location: automat\safearrayreleasedata.htm
-old-project: automat
+tech.root: automat
 ms.assetid: AF3C36A3-2B3A-4159-8183-DB082FBFD215
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], automat.safearrayreleasedata, oleauto/SafeArrayReleaseData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: Mincore.lib
+req.dll: Oleaut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayReleaseData
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Oleaut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayReleaseData function

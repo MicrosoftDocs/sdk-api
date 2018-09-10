@@ -4,17 +4,16 @@ title: IXpsSignatureManager::CreateSigningOptions
 author: windows-sdk-content
 description: Creates a new IXpsSigningOptions interface.
 old-location: xps\ixpssignaturemanager_createsigningoptions.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 0f64f46a-905a-48cf-9e7a-f6cc1b2d6450
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [XPS Documents and Packaging], CreateSigningOptions method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],CreateSigningOptions method, IXpsSignatureManager.CreateSigningOptions, IXpsSignatureManager::CreateSigningOptions, xps.ixpssignaturemanager_createsigningoptions, xpsdigitalsignature/IXpsSignatureManager::CreateSigningOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureManager.CreateSigningOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureManager::CreateSigningOptions

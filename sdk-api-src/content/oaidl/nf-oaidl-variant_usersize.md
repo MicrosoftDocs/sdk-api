@@ -4,17 +4,16 @@ title: VARIANT_UserSize function
 author: windows-sdk-content
 description: Calculates the wire size of the VARIANT object, and gets its handle and data.
 old-location: automat\variant_usersize.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 64dc64e5-3de3-4133-835c-b832f5bb20ae
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VARIANT_UserSize, automat.variant_usersize, oaidl/VARIANT_UserSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VARIANT_UserSize
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VARIANT_UserSize function

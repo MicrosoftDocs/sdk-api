@@ -4,17 +4,16 @@ title: ISensorCollection::RemoveByID
 author: windows-sdk-content
 description: Removes a sensor from the collection. The sensor to be removed is specified by its ID.
 old-location: winsensors_com_ref\isensorcollection_removebyid.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 933ea072-d62c-4274-a2c0-69282ecb79d2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensorCollection interface,RemoveByID method, ISensorCollection.RemoveByID, ISensorCollection::RemoveByID, RemoveByID, RemoveByID method, RemoveByID method,ISensorCollection interface, sensorsapi/ISensorCollection::RemoveByID, winsensors_com_ref.isensorcollection_removebyid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorCollection.RemoveByID
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorCollection::RemoveByID

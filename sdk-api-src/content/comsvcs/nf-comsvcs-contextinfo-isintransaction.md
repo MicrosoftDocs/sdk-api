@@ -4,17 +4,16 @@ title: ContextInfo::IsInTransaction
 author: windows-sdk-content
 description: Indicates whether the current object is executing in a transaction.
 old-location: cos\contextinfo_isintransaction.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 587805a4-6713-40be-83b6-5c772b5396cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextInfo interface [COM+],IsInTransaction method, ContextInfo.IsInTransaction, ContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_IsInTransaction, comsvcs/ContextInfo::IsInTransaction, cos.contextinfo_isintransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ContextInfo.IsInTransaction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ContextInfo::IsInTransaction

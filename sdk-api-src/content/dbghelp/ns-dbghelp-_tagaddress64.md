@@ -4,7 +4,7 @@ title: "_tagADDRESS64"
 author: windows-sdk-content
 description: Represents an address. It is used in the STACKFRAME64 structure.
 old-location: base\address64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRESS64, *LPADDRESS64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ADDRESS64, *LPADDRESS64
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _tagADDRESS64 structure

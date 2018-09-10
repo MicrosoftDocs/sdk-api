@@ -4,7 +4,7 @@ title: "_WCM_PROFILE_INFO_LIST"
 author: windows-sdk-content
 description: Contains a list of profiles in preferred order.
 old-location: wcm\wcm_profile_info_list.htm
-old-project: wcm
+tech.root: wcm
 ms.assetid: 73ddb610-233a-470b-900d-ae62a1e7121a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCM_PROFILE_INFO_LIST, *PWCM_PROFILE_INFO_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCM_PROFILE_INFO_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCM_PROFILE_INFO_LIST, *PWCM_PROFILE_INFO_LIST
+req.redist: 
 ---
 
 # _WCM_PROFILE_INFO_LIST structure

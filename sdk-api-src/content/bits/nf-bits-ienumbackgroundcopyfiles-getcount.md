@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyFiles::GetCount
 author: windows-sdk-content
 description: Retrieves a count of the number of files in the enumeration.
 old-location: bits\ienumbackgroundcopyfiles_getcount.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 24a9d5f9-e923-4b20-8abf-8ce50fc2602b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],GetCount method, IEnumBackgroundCopyFiles.GetCount, IEnumBackgroundCopyFiles::GetCount, _drz_ienumbackgroundcopyfiles_getcount, bits.ienumbackgroundcopyfiles_getcount, bits/IEnumBackgroundCopyFiles::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumBackgroundCopyFiles.GetCount
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyFiles::GetCount
@@ -61,7 +60,7 @@ Retrieves a count of the number of files in the enumeration.
 
 ### -param puCount
 
-
+TBD
 
 
 

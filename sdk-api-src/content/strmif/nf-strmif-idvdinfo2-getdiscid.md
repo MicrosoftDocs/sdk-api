@@ -4,17 +4,16 @@ title: IDvdInfo2::GetDiscID
 author: windows-sdk-content
 description: The GetDiscID method retrieves a system-generated 64-bit identification number for the specified DVD.
 old-location: dshow\idvdinfo2_getdiscid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 53c244ff-026f-4838-b805-316ef3d872d1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDiscID method, IDvdInfo2.GetDiscID, IDvdInfo2::GetDiscID, IDvdInfo2GetDiscID, dshow.idvdinfo2_getdiscid, strmif/IDvdInfo2::GetDiscID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetDiscID
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetDiscID

@@ -4,17 +4,16 @@ title: MonthCal_GetCalendarGridInfo macro
 author: windows-sdk-content
 description: Gets information about a calendar grid.
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MonthCal_GetCalendarGridInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # MonthCal_GetCalendarGridInfo macro

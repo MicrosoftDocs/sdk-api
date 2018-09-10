@@ -4,17 +4,16 @@ title: IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcentery_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 32E8FCBD-75D8-4162-9388-57B0348BD46B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform.SetCenterY, IDCompositionScaleTransform.SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY, IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterY, directcomp.idcompositionscaletransform_setcentery_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionScaleTransform.SetCenterY
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionScaleTransform::SetCenterY(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the CenterY property of a 2D scale transform. The CenterY p
 
 ### -param animation
 
-
+TBD
 
 
 

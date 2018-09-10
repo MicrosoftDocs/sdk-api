@@ -4,7 +4,7 @@ title: "_SEC_WINNT_AUTH_IDENTITY_EXA"
 author: windows-sdk-content
 description: Contains information about a user. Both an ANSI and Unicode form of this structure are provided.
 old-location: security\sec_winnt_auth_identity_ex.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6b95bce8-5613-4403-9bda-16262596bb1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_IDENTITY_EXA, *PSEC_WINNT_AUTH_IDENTITY_EXA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_IDENTITY_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_IDENTITY_EXA, *PSEC_WINNT_AUTH_IDENTITY_EXA
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_EXA structure

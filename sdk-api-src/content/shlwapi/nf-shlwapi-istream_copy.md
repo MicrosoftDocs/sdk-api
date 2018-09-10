@@ -4,17 +4,16 @@ title: IStream_Copy function
 author: windows-sdk-content
 description: Copies a stream to another stream.
 old-location: shell\IStream_Copy.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IStream_Copy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStream_Copy function

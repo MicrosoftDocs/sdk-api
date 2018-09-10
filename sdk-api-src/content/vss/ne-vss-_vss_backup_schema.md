@@ -4,7 +4,7 @@ title: "_VSS_BACKUP_SCHEMA"
 author: windows-sdk-content
 description: Used by a writer to indicate the types of backup operations it can participate in.
 old-location: base\vss_backup_schema.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3541c8bd-2712-458b-9153-1fffe6bf5688
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_BACKUP_SCHEMA
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
+req.redist: 
 ---
 
 # _VSS_BACKUP_SCHEMA enumeration

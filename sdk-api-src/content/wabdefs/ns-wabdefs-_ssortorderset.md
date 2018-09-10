@@ -4,7 +4,7 @@ title: "_SSortOrderSet"
 author: windows-sdk-content
 description: Do not use. Defines a collection of keys for a table to be used for standard or categorized sorting.
 old-location: wab\_wab_SSortOrderSet.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorderset.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSortOrderSet, *LPSSortOrderSet
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SSortOrderSet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SSortOrderSet, *LPSSortOrderSet
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

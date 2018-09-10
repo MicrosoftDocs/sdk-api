@@ -4,17 +4,16 @@ title: SHRegOpenUSKeyW function
 author: windows-sdk-content
 description: Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegOpenUSKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHRegOpenUSKeyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegOpenUSKeyW function

@@ -4,17 +4,16 @@ title: IUIAutomationSelectionItemPattern::AddToSelection
 author: windows-sdk-content
 description: Adds the current element to the collection of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_AddToSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: e3d90861-1926-4294-b14b-f4c61a4f9176
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],AddToSelection method, IUIAutomationSelectionItemPattern.AddToSelection, IUIAutomationSelectionItemPattern::AddToSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSelectionItemPattern.AddToSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSelectionItemPattern::AddToSelection

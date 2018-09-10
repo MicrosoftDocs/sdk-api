@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_FILTER_STATUS_INFO"
 author: windows-sdk-content
 description: Defines information about the DHCPv4 client, including filter status information.
 old-location: dhcp\dhcp_client_filter_status_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 71b36ce1-e3de-4904-bbf2-8d305bae06b0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO, *LPDHCP_CLIENT_FILTER_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_FILTER_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO, *LPDHCP_CLIENT_FILTER_STATUS_INFO
+req.redist: 
 ---
 
 # _DHCP_CLIENT_FILTER_STATUS_INFO structure

@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
 old-location: direct2d\id2d1rendertarget_fillellipse.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), ID2D1RenderTarget::FillEllipse, ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush), d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget::FillEllipse
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush)

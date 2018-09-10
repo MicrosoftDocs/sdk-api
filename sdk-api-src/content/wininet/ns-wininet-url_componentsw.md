@@ -4,7 +4,7 @@ title: URL_COMPONENTSW
 author: windows-sdk-content
 description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions.
 old-location: wininet\url_components.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: faebdd29-f746-486b-b779-cceeecac9163
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URL_COMPONENTSW, *LPURL_COMPONENTSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - URL_COMPONENTSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: URL_COMPONENTSW, *LPURL_COMPONENTSW
+req.redist: 
 ---
 
 # URL_COMPONENTSW structure

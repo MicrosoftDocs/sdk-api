@@ -4,17 +4,16 @@ title: IProvideWinSATResultsInfo::GetAssessmentInfo
 author: windows-sdk-content
 description: Retrieves summary information for a subcomponent of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProvideWinSATResultsInfo.GetAssessmentInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideWinSATResultsInfo::GetAssessmentInfo

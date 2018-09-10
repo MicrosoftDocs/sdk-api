@@ -4,7 +4,7 @@ title: INotificationActivationCallback
 author: windows-sdk-content
 description: Receives notification messages when an app is triggered through a toast from the action center.
 old-location: win32_tile_badge_notif\inotificationactivationcallback.htm
-old-project: win32_tile_badge_notif
+tech.root: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: notificationactivationcallback.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INotificationActivationCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INotificationActivationCallback interface

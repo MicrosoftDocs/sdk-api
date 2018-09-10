@@ -4,17 +4,16 @@ title: ITargetInfo::SetSchemaHiveLocation
 author: windows-sdk-content
 description: Sets the location of the schema hive.
 old-location: smi\itargetinfo_setschemahivelocation.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 223ce821-4f31-4673-95e2-ec9cf94d5726
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveLocation method, ITargetInfo.SetSchemaHiveLocation, ITargetInfo::SetSchemaHiveLocation, SetSchemaHiveLocation, SetSchemaHiveLocation method [SMI], SetSchemaHiveLocation method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivelocation, wcmconfig/ITargetInfo::SetSchemaHiveLocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITargetInfo.SetSchemaHiveLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITargetInfo::SetSchemaHiveLocation

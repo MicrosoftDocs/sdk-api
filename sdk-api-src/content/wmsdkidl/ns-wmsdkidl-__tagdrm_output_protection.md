@@ -4,7 +4,7 @@ title: "__tagDRM_OUTPUT_PROTECTION"
 author: windows-sdk-content
 description: The DRM_VIDEO_OUTPUT_PROTECTION structure holds a video output technology identifier and the configuration data required by that technology.
 old-location: wmformat\drm_video_output_protection.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 73c7b2ab-3680-462a-ab7f-d3270ea0127b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_OUTPUT_PROTECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DRM_VIDEO_OUTPUT_PROTECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DRM_OUTPUT_PROTECTION
+req.redist: 
 ---
 
 # __tagDRM_OUTPUT_PROTECTION structure

@@ -4,17 +4,16 @@ title: IDeskBand2::CanRenderComposited
 author: windows-sdk-content
 description: Indicates the deskband's ability to be displayed as translucent.
 old-location: shell\IDeskBand2_CanRenderComposited.htm
-old-project: shell
+tech.root: shell
 ms.assetid: af42c03f-04aa-42b2-9be4-b3bfa0a8c47e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CanRenderComposited, CanRenderComposited method [Windows Shell], CanRenderComposited method [Windows Shell],IDeskBand2 interface, IDeskBand2 interface [Windows Shell],CanRenderComposited method, IDeskBand2.CanRenderComposited, IDeskBand2::CanRenderComposited, _shell_IDeskBand2_CanRenderComposited, shell.IDeskBand2_CanRenderComposited, shobjidl/IDeskBand2::CanRenderComposited
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeskBand2.CanRenderComposited
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IDeskBand2::CanRenderComposited

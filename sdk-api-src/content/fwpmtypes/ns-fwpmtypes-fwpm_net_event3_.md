@@ -4,7 +4,7 @@ title: FWPM_NET_EVENT3_
 author: windows-sdk-content
 description: Contains information about all event types.
 old-location: fwp\fwpm_net_event3.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_NET_EVENT3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_NET_EVENT3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_NET_EVENT3
+req.redist: 
 ---
 
 # FWPM_NET_EVENT3_ structure

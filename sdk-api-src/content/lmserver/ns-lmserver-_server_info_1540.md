@@ -4,7 +4,7 @@ title: "_SERVER_INFO_1540"
 author: windows-sdk-content
 description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.
 old-location: netmgmt\server_info_1540_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 918c568d-392a-4efc-9c32-fa6b01614040
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1540, *PSERVER_INFO_1540, *LPSERVER_INFO_1540
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1540
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1540, *PSERVER_INFO_1540, *LPSERVER_INFO_1540
+req.redist: 
 ---
 
 # _SERVER_INFO_1540 structure

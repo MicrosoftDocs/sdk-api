@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\azauthorizationstore_addpropertyitem.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 88ac498c-2871-4260-8011-0aea9e6c346d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzAuthorizationStore object, AddPropertyItem method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPropertyItem method, IAzAuthorizationStore interface [Security],AddPropertyItem method, IAzAuthorizationStore.AddPropertyItem, IAzAuthorizationStore::AddPropertyItem, azroles/IAzAuthorizationStore::AddPropertyItem, security.azauthorizationstore_addpropertyitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAzAuthorizationStore.AddPropertyItem
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::AddPropertyItem

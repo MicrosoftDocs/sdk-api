@@ -4,17 +4,16 @@ title: IDXGIDecodeSwapChain::GetSourceRect
 author: windows-sdk-content
 description: Gets the source region that is used for the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 67DD1267-997A-4D84-BC91-D124ED1E8946
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetSourceRect method, IDXGIDecodeSwapChain.GetSourceRect, IDXGIDecodeSwapChain::GetSourceRect, direct3ddxgi.idxgidecodeswapchain_getsourcerect, dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDecodeSwapChain.GetSourceRect
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDecodeSwapChain::GetSourceRect

@@ -4,7 +4,7 @@ title: "_VDS_ISCSI_IPSEC_KEY"
 author: windows-sdk-content
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ISCSI_IPSEC_KEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ISCSI_IPSEC_KEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ISCSI_IPSEC_KEY
+req.redist: VDS 1.1
 ---
 
 # _VDS_ISCSI_IPSEC_KEY structure

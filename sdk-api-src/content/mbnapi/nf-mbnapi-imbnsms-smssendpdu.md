@@ -4,17 +4,16 @@ title: IMbnSms::SmsSendPdu
 author: windows-sdk-content
 description: Sends a message in PDU format.
 old-location: mbn\imbnsms_smssendpdu.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c8f5bde5-d28c-4799-9f46-7b02745e6bfb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendPdu method, IMbnSms.SmsSendPdu, IMbnSms::SmsSendPdu, SmsSendPdu, SmsSendPdu method [Microsoft Broadband Networks], SmsSendPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendpdu, mbnapi/IMbnSms::SmsSendPdu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSms.SmsSendPdu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSms::SmsSendPdu

@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetWriterComponentsCount
 author: windows-sdk-content
 description: The GetWriterComponentsCount method returns the number of writers whose components have been added to a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponentscount.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 39ab6179-2828-46dc-bfcd-0dd62c34ce95
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetWriterComponentsCount, GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponentsCount method, IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetWriterComponentsCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetWriterComponentsCount

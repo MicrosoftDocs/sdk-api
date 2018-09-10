@@ -4,17 +4,16 @@ title: IBrowserService::SetNavigateState
 author: windows-sdk-content
 description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.
 old-location: shell\IBrowserService_SetNavigateState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3cdbe902-f208-43f8-9019-d61c22635196
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService interface [Windows Shell],SetNavigateState method, IBrowserService.SetNavigateState, IBrowserService::SetNavigateState, SetNavigateState, SetNavigateState method [Windows Shell], SetNavigateState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetNavigateState, shell.IBrowserService_SetNavigateState, zone_IBrowserService_SetNavigateState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.SetNavigateState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

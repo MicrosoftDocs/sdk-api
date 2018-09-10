@@ -4,17 +4,16 @@ title: IEnumSyncProviderConfigUIInfos::Clone
 author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsyncproviderconfiguiinfos_clone.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 30f2a85a-86c2-4547-a18f-448a01d64d9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, IEnumSyncProviderConfigUIInfos interface [Windows Sync],Clone method, IEnumSyncProviderConfigUIInfos.Clone, IEnumSyncProviderConfigUIInfos::Clone, syncregistration/IEnumSyncProviderConfigUIInfos::Clone, winsync.ienumsyncproviderconfiguiinfos_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncProviderConfigUIInfos.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncProviderConfigUIInfos::Clone

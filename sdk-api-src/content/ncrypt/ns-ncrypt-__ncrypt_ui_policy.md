@@ -4,7 +4,7 @@ title: "__NCRYPT_UI_POLICY"
 author: windows-sdk-content
 description: Used with the NCRYPT_UI_POLICY_PROPERTY property to contain strong key user interface information for a key.
 old-location: security\ncrypt_ui_policy.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NCRYPT_UI_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCRYPT_UI_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NCRYPT_UI_POLICY
+req.redist: 
 ---
 
 # __NCRYPT_UI_POLICY structure

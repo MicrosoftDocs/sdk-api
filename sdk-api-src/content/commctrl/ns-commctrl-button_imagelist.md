@@ -4,7 +4,7 @@ title: BUTTON_IMAGELIST
 author: windows-sdk-content
 description: Contains information about an image list that is used with a button control.
 old-location: controls\BUTTON_IMAGELIST.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_imagelist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BUTTON_IMAGELIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
+req.redist: 
 ---
 
 # BUTTON_IMAGELIST structure

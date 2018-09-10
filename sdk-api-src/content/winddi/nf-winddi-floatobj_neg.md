@@ -4,17 +4,16 @@ title: FLOATOBJ_Neg function
 author: windows-sdk-content
 description: The FLOATOBJ_Neg function negates the FLOATOBJ.
 old-location: display\floatobj_neg.htm
-old-project: display
+tech.root: display
 ms.assetid: 08a4c47f-8bf5-4849-8ce9-e5999c02f263
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_Neg, FLOATOBJ_Neg function [Display Devices], display.floatobj_neg, gdifncs_7fe9b86a-abdd-44d6-b815-1ac5f37203db.xml, winddi/FLOATOBJ_Neg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_Neg
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_Neg function

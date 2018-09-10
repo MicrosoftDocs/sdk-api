@@ -4,7 +4,7 @@ title: INATNumberOfEntriesCallback
 author: windows-sdk-content
 description: The INATNumberOfEntriesCallback interface provides a method that the system calls if the number of port mappings changes.
 old-location: ics\inatnumberofentriescallback.htm
-old-project: ics
+tech.root: ics
 ms.assetid: c64e5ce3-78f6-4f51-8ae1-c871c4716d26
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INATNumberOfEntriesCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INATNumberOfEntriesCallback interface

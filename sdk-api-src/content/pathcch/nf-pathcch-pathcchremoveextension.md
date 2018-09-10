@@ -4,17 +4,16 @@ title: PathCchRemoveExtension function
 author: windows-sdk-content
 description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveExtension.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathCchRemoveExtension
 product: Windows
 targetos: Windows
-req.lib: Pathcch.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PathCchRemoveExtension function

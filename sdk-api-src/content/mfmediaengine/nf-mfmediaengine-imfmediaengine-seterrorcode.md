@@ -4,17 +4,16 @@ title: IMFMediaEngine::SetErrorCode
 author: windows-sdk-content
 description: Sets the current error code.
 old-location: mf\imfmediaengine_seterrorcode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B40AFD99-1048-44C5-A3FA-ED57720956B4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetErrorCode method, IMFMediaEngine.SetErrorCode, IMFMediaEngine::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngine.SetErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngine::SetErrorCode

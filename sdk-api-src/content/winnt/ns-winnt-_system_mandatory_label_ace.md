@@ -4,7 +4,7 @@ title: "_SYSTEM_MANDATORY_LABEL_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the mandatory access level and policy for a securable object.
 old-location: security\system_mandatory_label_ace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 77b7716c-b445-4473-a2e3-4a78f9fbebe3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_MANDATORY_LABEL_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
+req.redist: 
 ---
 
 # _SYSTEM_MANDATORY_LABEL_ACE structure

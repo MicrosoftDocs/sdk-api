@@ -4,17 +4,16 @@ title: FNFDINOTIFY macro
 author: windows-sdk-content
 description: The FNFDINOTIFY macro provides the declaration for the application-defined callback notification function to update the application on the status of the decoder.
 old-location: winprog\fnfdinotify.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNFDINOTIFY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNFDINOTIFY macro

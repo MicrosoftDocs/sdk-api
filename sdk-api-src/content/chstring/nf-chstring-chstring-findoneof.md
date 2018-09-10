@@ -4,17 +4,16 @@ title: CHString::FindOneOf
 author: windows-sdk-content
 description: The FindOneOf method searches a string for the first character that matches any character contained in lpszCharSet.
 old-location: wmi\chstring_findoneof.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString.FindOneOf
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::FindOneOf

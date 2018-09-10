@@ -4,17 +4,16 @@ title: ITfCandidateList::SetResult
 author: windows-sdk-content
 description: ITfCandidateList::SetResult method
 old-location: tsf\itfcandidatelist_setresult.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfCandidateList interface [Text Services Framework],SetResult method, ITfCandidateList.SetResult, ITfCandidateList::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfCandidateList interface, _tsf_itfcandidatelist_setresult_ref, ctffunc/ITfCandidateList::SetResult, tsf.itfcandidatelist_setresult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfCandidateList.SetResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateList::SetResult

@@ -4,17 +4,16 @@ title: IEnumSyncProviderInfos::Next
 author: windows-sdk-content
 description: Returns the next ISyncProviderInfo object.
 old-location: winsync\ienumsyncproviderinfos_next.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b56cacfd-9cfe-4f5a-a945-dca299e43497
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Next method, IEnumSyncProviderInfos.Next, IEnumSyncProviderInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Next, winsync.ienumsyncproviderinfos_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncProviderInfos.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncProviderInfos::Next

@@ -4,17 +4,16 @@ title: capGrabFrame macro
 author: windows-sdk-content
 description: The capGrabFrame macro retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can use this macro or explicitly call the WM_CAP_GRAB_FRAME message.
 old-location: multimedia\capgrabframe.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: bd306414-74a9-4683-ad63-797a37152e8f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capGrabFrame, capGrabFrame, capGrabFrame macro [Windows Multimedia], multimedia.capgrabframe, vfw/capGrabFrame"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capGrabFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capGrabFrame macro

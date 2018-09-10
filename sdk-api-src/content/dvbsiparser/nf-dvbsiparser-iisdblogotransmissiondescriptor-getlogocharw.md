@@ -4,17 +4,16 @@ title: IIsdbLogoTransmissionDescriptor::GetLogoCharW
 author: windows-sdk-content
 description: Gets the character string for a simple logo from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogocharw.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bb4ba9f1-f633-4cb4-adc4-6671bb5fc239
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLogoCharW, GetLogoCharW method [Microsoft TV Technologies], GetLogoCharW method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoCharW method, IIsdbLogoTransmissionDescriptor.GetLogoCharW, IIsdbLogoTransmissionDescriptor::GetLogoCharW, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoCharW, mstv.iisdblogotransmissiondescriptor_getlogocharw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbLogoTransmissionDescriptor.GetLogoCharW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbLogoTransmissionDescriptor::GetLogoCharW

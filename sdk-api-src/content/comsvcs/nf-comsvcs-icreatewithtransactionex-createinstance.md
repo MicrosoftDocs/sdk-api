@@ -4,17 +4,16 @@ title: ICreateWithTransactionEx::CreateInstance
 author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of a manual transaction specified with a reference to an ITransaction interface.
 old-location: cos\icreatewithtransactionex_createinstance.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 71d3b8ad-195b-47a6-8197-05df6311ed2a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTransactionEx interface, ICreateWithTransactionEx interface [COM+],CreateInstance method, ICreateWithTransactionEx.CreateInstance, ICreateWithTransactionEx::CreateInstance, _dtc_ICreateWithTransactionEx_CreateInstance, comsvcs/ICreateWithTransactionEx::CreateInstance, cos.icreatewithtransactionex_createinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICreateWithTransactionEx.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateWithTransactionEx::CreateInstance

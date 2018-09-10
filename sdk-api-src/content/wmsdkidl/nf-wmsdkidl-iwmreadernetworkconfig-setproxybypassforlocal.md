@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig::SetProxyBypassForLocal
 author: windows-sdk-content
 description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.
 old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyBypassForLocal method, IWMReaderNetworkConfig.SetProxyBypassForLocal, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig.SetProxyBypassForLocal
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig::SetProxyBypassForLocal

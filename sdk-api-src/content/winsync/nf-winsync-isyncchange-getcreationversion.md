@@ -4,17 +4,16 @@ title: ISyncChange::GetCreationVersion
 author: windows-sdk-content
 description: Gets the creation version of the changed item.
 old-location: winsync\isyncchange_getcreationversion.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 2c795cbe-b587-42ef-9200-b7d0d972e7c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetCreationVersion method, ISyncChange.GetCreationVersion, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChange.GetCreationVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChange::GetCreationVersion

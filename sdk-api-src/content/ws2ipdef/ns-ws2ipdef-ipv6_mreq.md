@@ -4,7 +4,7 @@ title: ipv6_mreq
 author: windows-sdk-content
 description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
 old-location: winsock\ipv6_mreq.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPV6_MREQ, *PIPV6_MREQ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPV6_MREQ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IPV6_MREQ, *PIPV6_MREQ
+req.redist: 
 ---
 
 # ipv6_mreq structure

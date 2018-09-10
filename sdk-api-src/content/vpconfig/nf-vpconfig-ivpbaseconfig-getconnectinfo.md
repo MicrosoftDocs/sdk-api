@@ -4,17 +4,16 @@ title: IVPBaseConfig::GetConnectInfo
 author: windows-sdk-content
 description: The GetConnectInfo method retrieves information about the connections supported by the VPE object.
 old-location: dshow\ivpbaseconfig_getconnectinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b428e77a-83c3-42ce-95e4-1cdde4da066d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetConnectInfo method, IVPBaseConfig.GetConnectInfo, IVPBaseConfig::GetConnectInfo, IVPBaseConfigGetConnectInfo, dshow.ivpbaseconfig_getconnectinfo, vpconfig/IVPBaseConfig::GetConnectInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.GetConnectInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::GetConnectInfo

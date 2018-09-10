@@ -4,17 +4,16 @@ title: ITuneRequest::get_Components
 author: windows-sdk-content
 description: The get_Components method retrieves the components contained in this tune request.
 old-location: mstv\itunerequest_get_components.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Components method, ITuneRequest.get_Components, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuneRequest.get_Components
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuneRequest::get_Components
@@ -65,7 +63,7 @@ The <b>get_Components</b> method retrieves the components contained in this tune
 
 ### -param Components
 
-
+TBD
 
 
 

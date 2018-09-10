@@ -4,7 +4,7 @@ title: tagWPC_ARGS_MEDIAPLAYBACKEVENT
 author: windows-sdk-content
 description: Indicates information about the playback of a media file.
 old-location: parcon\wpc_args_mediaplaybackevent.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 1d541892-25f2-4a7b-918d-3445751d5f8d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WPC_ARGS_MEDIAPLAYBACKEVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPC_ARGS_MEDIAPLAYBACKEVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WPC_ARGS_MEDIAPLAYBACKEVENT
+req.redist: 
 ---
 
 # tagWPC_ARGS_MEDIAPLAYBACKEVENT enumeration

@@ -4,17 +4,16 @@ title: ITriggerCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets the collection enumerator for the trigger collection.
 old-location: taskschd\itriggercollection__newenum.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: a5df593a-8771-4a96-a9dd-abd4e3f1721f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, ITriggerCollection._NewEnum, ITriggerCollection.get__NewEnum, ITriggerCollection::_NewEnum, ITriggerCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITriggerCollection interface, get__NewEnum, taskschd.itriggercollection__newenum, taskschd/ITriggerCollection::_NewEnum, taskschd/ITriggerCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITriggerCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITriggerCollection::get__NewEnum

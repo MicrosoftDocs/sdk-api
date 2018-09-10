@@ -4,7 +4,7 @@ title: HrtfDirectivityCardioid
 author: windows-sdk-content
 description: Describes a cardioid directivity pattern.
 old-location: xaudio2\hrtfdirectivitycardioid.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: 0705BB4C-01FE-434A-889B-F0D24D06DEF3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: hrtfapoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HrtfDirectivityCardioid
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HrtfDirectivityCardioid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HrtfDirectivityCardioid
+req.redist: 
 ---
 
 # HrtfDirectivityCardioid structure

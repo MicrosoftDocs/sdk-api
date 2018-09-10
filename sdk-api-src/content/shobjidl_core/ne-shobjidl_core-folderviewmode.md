@@ -4,7 +4,7 @@ title: FOLDERVIEWMODE
 author: windows-sdk-content
 description: Specifies the folder view type.
 old-location: shell\FOLDERVIEWMODE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 16b92115-6e7d-41d3-960d-6783d779224c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shobjidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDERVIEWMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FOLDERVIEWMODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FOLDERVIEWMODE
+req.redist: 
 ---
 
 # FOLDERVIEWMODE enumeration

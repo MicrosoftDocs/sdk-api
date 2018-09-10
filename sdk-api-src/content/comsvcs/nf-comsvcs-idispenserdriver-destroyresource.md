@@ -4,17 +4,16 @@ title: IDispenserDriver::DestroyResource
 author: windows-sdk-content
 description: Destroys a resource.
 old-location: cos\idispenserdriver_destroyresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 94e3e340-7dde-4b7f-82a9-83cd2400bde5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DestroyResource, DestroyResource method [COM+], DestroyResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResource method, IDispenserDriver.DestroyResource, IDispenserDriver::DestroyResource, _dtc_IDispenserDriver_DestroyResource, comsvcs/IDispenserDriver::DestroyResource, cos.idispenserdriver_destroyresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDispenserDriver.DestroyResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDispenserDriver::DestroyResource

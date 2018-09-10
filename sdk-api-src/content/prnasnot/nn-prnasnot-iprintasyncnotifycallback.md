@@ -4,7 +4,7 @@ title: IPrintAsyncNotifyCallback
 author: windows-sdk-content
 description: Creates and manages a communication channel used by applications and components that are hosted by the print spooler.
 old-location: gdi\iprintasyncnotifycallback.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: e2b021cd-1cfd-42b7-b6e4-7f8671b013f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrintAsyncNotifyCallback
 product: Windows
 targetos: Windows
-req.lib: WinSpool.lib
-req.dll: Spoolss.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintAsyncNotifyCallback interface

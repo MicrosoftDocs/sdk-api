@@ -4,7 +4,7 @@ title: "_SOCKADDR_INET"
 author: windows-sdk-content
 description: Contains an IPv4, an IPv6 address, or an address family.
 old-location: iphlp\sockaddr_inet.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKADDR_INET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.redist: 
 ---
 
 # _SOCKADDR_INET structure

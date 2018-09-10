@@ -4,17 +4,16 @@ title: IMFTopologyNode::SetTopoNodeID
 author: windows-sdk-content
 description: Sets the identifier for the node.
 old-location: mf\imftopologynode_settoponodeid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Media Foundation],SetTopoNodeID method, IMFTopologyNode.SetTopoNodeID, IMFTopologyNode::SetTopoNodeID, SetTopoNodeID, SetTopoNodeID method [Media Foundation], SetTopoNodeID method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_settoponodeid, mfidl/IMFTopologyNode::SetTopoNodeID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.SetTopoNodeID
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::SetTopoNodeID
@@ -63,7 +61,7 @@ Sets the identifier for the node.
 
 ### -param ullTopoID
 
-
+TBD
 
 
 

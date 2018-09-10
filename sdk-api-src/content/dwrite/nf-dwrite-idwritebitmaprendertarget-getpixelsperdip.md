@@ -4,17 +4,16 @@ title: IDWriteBitmapRenderTarget::GetPixelsPerDip
 author: windows-sdk-content
 description: Gets the number of bitmap pixels per DIP.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetPixelsPerDip.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 4bf0488d-cc2e-4a95-8d95-f0bd8e5029d6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetPixelsPerDip method, IDWriteBitmapRenderTarget.GetPixelsPerDip, IDWriteBitmapRenderTarget::GetPixelsPerDip, directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip, dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteBitmapRenderTarget.GetPixelsPerDip
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteBitmapRenderTarget::GetPixelsPerDip

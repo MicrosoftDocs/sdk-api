@@ -4,17 +4,16 @@ title: ITraceEvent::GetEventRecord
 author: windows-sdk-content
 description: Retrieves the event record that describes an event.
 old-location: etw\ievent_geteventrecord.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9a1c2313-431a-4243-9272-99dec1bf78dd
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: GetEventRecord, GetEventRecord method [ETW], GetEventRecord method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetEventRecord method, ITraceEvent.GetEventRecord, ITraceEvent::GetEventRecord, etw.ievent_geteventrecord, relogger/ITraceEvent::GetEventRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.GetEventRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::GetEventRecord

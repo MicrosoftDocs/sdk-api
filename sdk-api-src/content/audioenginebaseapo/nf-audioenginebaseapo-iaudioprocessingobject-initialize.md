@@ -4,17 +4,16 @@ title: IAudioProcessingObject::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes the APO and supports data of variable length.
 old-location: audio\iaudioprocessingobject_initialize.htm
-old-project: audio
+tech.root: audio
 ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],Initialize method, IAudioProcessingObject.Initialize, IAudioProcessingObject::Initialize, Initialize, Initialize method [Audio Devices], Initialize method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_initialize, audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml, audioenginebaseapo/IAudioProcessingObject::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: Any level
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAudioProcessingObject.Initialize
 product: Windows
 targetos: Windows
-req.lib: Audioenginebaseapo.idl
-req.dll: 
-req.irql: Any level
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObject::Initialize

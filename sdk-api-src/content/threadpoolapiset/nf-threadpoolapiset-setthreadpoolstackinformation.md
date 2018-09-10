@@ -4,17 +4,16 @@ title: SetThreadpoolStackInformation function
 author: windows-sdk-content
 description: Sets the stack reserve and commit sizes for new threads in the specified thread pool. Stack reserve and commit sizes for existing threads are not changed.
 old-location: base\setthreadpoolstackinformation.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: dbed0a95-30d8-4e63-b141-743401103c53
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SetThreadpoolStackInformation, SetThreadpoolStackInformation function, base.setthreadpoolstackinformation, threadpoolapiset/SetThreadpoolStackInformation, winbase/SetThreadpoolStackInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SetThreadpoolStackInformation
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadpoolStackInformation function

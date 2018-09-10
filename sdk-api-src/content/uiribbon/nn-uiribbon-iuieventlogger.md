@@ -4,7 +4,7 @@ title: IUIEventLogger
 author: windows-sdk-content
 description: The IUIEventLogger interface is implemented by the application and defines the ribbon events callback method.
 old-location: windowsribbon\iuieventlogger.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Uiribbon.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIEventLogger
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiribbon.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUIEventLogger interface

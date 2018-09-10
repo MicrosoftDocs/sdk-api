@@ -4,17 +4,16 @@ title: ID2D1SvgElement::AppendChild
 author: windows-sdk-content
 description: Appends an element to the list of children.
 old-location: direct2d\id2d1svgelement_appendchild.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: BE9F0820-D66E-4B20-8790-3D5B3652754B
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AppendChild, AppendChild method [Direct2D], AppendChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],AppendChild method, ID2D1SvgElement.AppendChild, ID2D1SvgElement::AppendChild, d2d1svg/ID2D1SvgElement::AppendChild, direct2d.id2d1svgelement_appendchild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgElement.AppendChild
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgElement::AppendChild

@@ -4,7 +4,7 @@ title: "_EXPLICIT_ACCESS_W"
 author: windows-sdk-content
 description: Defines access control information for a specified trustee.
 old-location: security\explicit_access.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 6fe09542-10dd-439c-adf8-a4e06943ddb2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXPLICIT_ACCESS_W, *PEXPLICIT_ACCESS_W, EXPLICIT_ACCESSW, *PEXPLICIT_ACCESSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - EXPLICIT_ACCESS_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: EXPLICIT_ACCESS_W, *PEXPLICIT_ACCESS_W, EXPLICIT_ACCESSW, *PEXPLICIT_ACCESSW
+req.redist: 
 ---
 
 # _EXPLICIT_ACCESS_W structure

@@ -4,17 +4,16 @@ title: ICredentialProviderCredential::CommandLinkClicked
 author: windows-sdk-content
 description: Enables the Logon UI and Credential UI to indicate that a link was clicked.
 old-location: shell\ICredentialProviderCredential_CommandLinkClicked.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 04e371cb-f968-4a15-9285-e676dff59899
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CommandLinkClicked, CommandLinkClicked method [Windows Shell], CommandLinkClicked method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],CommandLinkClicked method, ICredentialProviderCredential.CommandLinkClicked, ICredentialProviderCredential::CommandLinkClicked, _shell_ICredentialProviderCredential_CommandLinkClicked, credentialprovider/ICredentialProviderCredential::CommandLinkClicked, shell.ICredentialProviderCredential_CommandLinkClicked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredential.CommandLinkClicked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredential::CommandLinkClicked

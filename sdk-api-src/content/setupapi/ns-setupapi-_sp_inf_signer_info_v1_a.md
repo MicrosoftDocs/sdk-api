@@ -4,7 +4,7 @@ title: "_SP_INF_SIGNER_INFO_V1_A"
 author: windows-sdk-content
 description: The SP_INF_SIGNER_INFO structure stores information about an INF file's digital signature.
 old-location: setup\sp_inf_signer_info.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 50ceee47-3a89-4bd7-8508-5a4d75514861
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_INF_SIGNER_INFO_V1_A, *PSP_INF_SIGNER_INFO_V1_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_INF_SIGNER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_INF_SIGNER_INFO_V1_A, *PSP_INF_SIGNER_INFO_V1_A
+req.redist: 
 ---
 
 # _SP_INF_SIGNER_INFO_V1_A structure

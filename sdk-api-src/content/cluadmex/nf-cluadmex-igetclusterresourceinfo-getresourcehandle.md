@@ -4,17 +4,16 @@ title: IGetClusterResourceInfo::GetResourceHandle
 author: windows-sdk-content
 description: Returns a handle to a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcehandle.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a03436da-e12a-45ac-9ac1-1d1896f87fd7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetResourceHandle, GetResourceHandle method [Failover Cluster], GetResourceHandle method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceHandle method, IGetClusterResourceInfo.GetResourceHandle, IGetClusterResourceInfo::GetResourceHandle, _wolf_igetclusterresourceinfo_getresourcehandle, cluadmex/IGetClusterResourceInfo::GetResourceHandle, mscs.igetclusterresourceinfo_getresourcehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterResourceInfo.GetResourceHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterResourceInfo::GetResourceHandle

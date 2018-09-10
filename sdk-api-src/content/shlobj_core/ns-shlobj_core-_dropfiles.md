@@ -4,7 +4,7 @@ title: "_DROPFILES"
 author: windows-sdk-content
 description: Defines the CF_HDROP clipboard format. The data that follows is a double null-terminated list of file names.
 old-location: shell\DROPFILES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e1f80529-2151-4ff6-95e0-afff67f2f117
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DROPFILES, *LPDROPFILES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DROPFILES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: DROPFILES, *LPDROPFILES
+req.redist: 
 ---
 
 # _DROPFILES structure

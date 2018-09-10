@@ -4,17 +4,16 @@ title: IRichEditOleCallback::GetInPlaceContext
 author: windows-sdk-content
 description: Provides the application and document-level interfaces and information required to support in-place activation.
 old-location: controls\IRichEditOleCallback_GetInPlaceContext.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetinplacecontext.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInPlaceContext, GetInPlaceContext method [Windows Controls], GetInPlaceContext method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetInPlaceContext method, IRichEditOleCallback.GetInPlaceContext, IRichEditOleCallback::GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext, _win32_IRichEditOleCallback_GetInPlaceContext_cpp, controls.IRichEditOleCallback_GetInPlaceContext, controls._win32_IRichEditOleCallback_GetInPlaceContext, richole/IRichEditOleCallback::GetInPlaceContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOleCallback.GetInPlaceContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOleCallback::GetInPlaceContext

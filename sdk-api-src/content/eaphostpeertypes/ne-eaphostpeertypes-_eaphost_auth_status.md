@@ -4,7 +4,7 @@ title: "_EAPHOST_AUTH_STATUS"
 author: windows-sdk-content
 description: Defines the set of possible EAP authentication session status values during the authentication process.
 old-location: eaphost\eaphost_auth_status.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: e1d0ff30-955c-4998-ae01-5dbadf3f4123
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAPHOST_AUTH_STATUS
 product: Windows
 targetos: Windows
-req.lib: Eappcfg.lib
-req.dll: Eappcfg.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAPHOST_AUTH_STATUS
+req.redist: 
 ---
 
 # _EAPHOST_AUTH_STATUS enumeration

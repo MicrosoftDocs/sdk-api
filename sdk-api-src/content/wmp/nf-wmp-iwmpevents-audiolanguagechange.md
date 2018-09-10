@@ -4,17 +4,16 @@ title: IWMPEvents::AudioLanguageChange
 author: windows-sdk-content
 description: The AudioLanguageChange event occurs when the current audio language changes.
 old-location: wmp\iwmpevents_iwmpevents__audiolanguagechange.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c1dbe76f-5cc0-4c12-98bb-2586ee8773d5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AudioLanguageChange, AudioLanguageChange method [Windows Media Player], AudioLanguageChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],AudioLanguageChange method, IWMPEvents.AudioLanguageChange, IWMPEvents::AudioLanguageChange, IWMPEventsAudioLanguageChange, wmp.iwmpevents_iwmpevents__audiolanguagechange, wmp/IWMPEvents::AudioLanguageChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.AudioLanguageChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::AudioLanguageChange

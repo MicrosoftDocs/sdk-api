@@ -4,7 +4,7 @@ title: "_SEC_WINNT_AUTH_PACKED_CREDENTIALS"
 author: windows-sdk-content
 description: Specifies serialized credentials.
 old-location: security\sec_winnt_auth_packed_credentials.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_PACKED_CREDENTIALS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_PACKED_CREDENTIALS structure

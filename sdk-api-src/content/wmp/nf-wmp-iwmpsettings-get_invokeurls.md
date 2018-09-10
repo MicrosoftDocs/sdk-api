@@ -4,17 +4,16 @@ title: IWMPSettings::get_invokeURLs
 author: windows-sdk-content
 description: The get_invokeURLs method retrieves a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_get_invokeurls.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a29ea1ba-8994-4d0f-8c53-8abba8fe997d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_invokeURLs method, IWMPSettings.get_invokeURLs, IWMPSettings::get_invokeURLs, IWMPSettingsget_invokeURLs, get_invokeURLs, get_invokeURLs method [Windows Media Player], get_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_invokeurls, wmp/IWMPSettings::get_invokeURLs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSettings.get_invokeURLs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSettings::get_invokeURLs

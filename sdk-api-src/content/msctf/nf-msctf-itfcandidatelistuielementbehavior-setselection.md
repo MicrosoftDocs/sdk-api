@@ -4,17 +4,16 @@ title: ITfCandidateListUIElementBehavior::SetSelection
 author: windows-sdk-content
 description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCandidateListUIElementBehavior.SetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateListUIElementBehavior::SetSelection

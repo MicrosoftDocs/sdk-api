@@ -4,7 +4,7 @@ title: ITTAPIEventNotification
 author: windows-sdk-content
 description: The ITTAPIEventNotification interface is an outgoing interface that allows an application to control the processing of event information.
 old-location: tapi3\ittapieventnotification.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPIEventNotification
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPIEventNotification interface

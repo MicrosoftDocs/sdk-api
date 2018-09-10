@@ -4,7 +4,7 @@ title: "_MF_VIDEO_PROCESSOR_MIRROR"
 author: windows-sdk-content
 description: Specifies how to flip a video image.
 old-location: mf\mf_video_processor_mirror.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_VIDEO_PROCESSOR_MIRROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_VIDEO_PROCESSOR_MIRROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_VIDEO_PROCESSOR_MIRROR
+req.redist: 
 ---
 
 # _MF_VIDEO_PROCESSOR_MIRROR enumeration

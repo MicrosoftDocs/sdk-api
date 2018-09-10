@@ -4,7 +4,7 @@ title: "_EVENT_DATA_DESCRIPTOR"
 author: windows-sdk-content
 description: The EVENT_DATA_DESCRIPTOR structure is used with the user mode EventWrite and the kernel mode EtwWrite functions to send events. The EVENT_DATA_DESCRIPTOR structure describes the event payload.
 old-location: devtest\event_data_descriptor.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: eb2b7ab6-52da-4d16-b315-6adab3131a05
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: Wdm.h, Ntddk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_DATA_DESCRIPTOR, *PEVENT_DATA_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_DATA_DESCRIPTOR, *PEVENT_DATA_DESCRIPTOR
+req.redist: 
 ---
 
 # _EVENT_DATA_DESCRIPTOR structure

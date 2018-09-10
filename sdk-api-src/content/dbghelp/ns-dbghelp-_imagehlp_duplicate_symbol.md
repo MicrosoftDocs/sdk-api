@@ -4,7 +4,7 @@ title: "_IMAGEHLP_DUPLICATE_SYMBOL"
 author: windows-sdk-content
 description: Contains duplicate symbol information.
 old-location: base\imagehlp_duplicate_symbol64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 47ef96d5-94ba-487c-8678-59ddd18ad449
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_DUPLICATE_SYMBOL, *PIMAGEHLP_DUPLICATE_SYMBOL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMAGEHLP_DUPLICATE_SYMBOL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_DUPLICATE_SYMBOL, *PIMAGEHLP_DUPLICATE_SYMBOL
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_DUPLICATE_SYMBOL structure

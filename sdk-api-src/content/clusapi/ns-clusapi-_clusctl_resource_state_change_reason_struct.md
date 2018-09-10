@@ -4,7 +4,7 @@ title: "_CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT"
 author: windows-sdk-content
 description: Sent with the CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code to provide the reason for a resource state change.
 old-location: mscs\clusctl_resource_state_change_reason_struct.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 5effbb81-eec4-4e5a-b079-b404df8fd801
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSCTL_RESOURCE_STATE_CHANGE_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+req.redist: 
 ---
 
 # _CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure

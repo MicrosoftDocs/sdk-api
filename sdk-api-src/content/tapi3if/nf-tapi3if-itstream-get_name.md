@@ -4,17 +4,16 @@ title: ITStream::get_Name
 author: windows-sdk-content
 description: The get_Name method gets a BSTR representing the name of the stream. This name is used for informational or display purposes.
 old-location: tapi3\itstream_get_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b3b81bd7-f99a-4cb1-8d60-6be8c1e68722
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Name method, ITStream.get_Name, ITStream::get_Name, _tapi3_itstream_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITStream interface, tapi3.itstream_get_name, tapi3if/ITStream::get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITStream.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITStream::get_Name

@@ -4,17 +4,16 @@ title: IBackgroundCopyFile3::GetTemporaryName
 author: windows-sdk-content
 description: Gets the full path of the temporary file that contains the content of the download.
 old-location: bits\ibackgroundcopyfile3_gettemporaryname.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTemporaryName, GetTemporaryName method [BITS], GetTemporaryName method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetTemporaryName method, IBackgroundCopyFile3.GetTemporaryName, IBackgroundCopyFile3::GetTemporaryName, bits.ibackgroundcopyfile3_gettemporaryname, bits3_0/IBackgroundCopyFile3::GetTemporaryName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile3.GetTemporaryName
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile3::GetTemporaryName
@@ -62,7 +61,7 @@ Gets the full path of the temporary file that contains the content of the downlo
 
 ### -param pFilename
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IVdsDisk::SetFlags
 author: windows-sdk-content
 description: Sets the flags of a disk object.
 old-location: base\ivdsdisk_setflags.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0ede6a22-b15c-4afd-8d49-c963ea7e2052
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDisk.SetFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk::SetFlags

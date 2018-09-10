@@ -4,17 +4,16 @@ title: SymSrvDeltaName function
 author: windows-sdk-content
 description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
 old-location: base\symsrvdeltaname.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymSrvDeltaNameW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # SymSrvDeltaName function

@@ -4,17 +4,16 @@ title: IMbnMultiCarrier::GetCurrentCellularClass
 author: windows-sdk-content
 description: Gets the current cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft Broadband Networks], GetCurrentCellularClass method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetCurrentCellularClass method, IMbnMultiCarrier.GetCurrentCellularClass, IMbnMultiCarrier::GetCurrentCellularClass, mbn.imbnmulticarrier_getcurrentcellularclass, mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrier.GetCurrentCellularClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrier::GetCurrentCellularClass

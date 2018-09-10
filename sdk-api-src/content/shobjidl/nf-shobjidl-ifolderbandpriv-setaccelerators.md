@@ -4,17 +4,16 @@ title: IFolderBandPriv::SetAccelerators
 author: windows-sdk-content
 description: Sets accelerators.
 old-location: shell\IFolderBandPriv_SetAccelerators.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c8461870-2fe7-49ae-8a8e-c5d929d963e5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, IFolderBandPriv.SetAccelerators, IFolderBandPriv::SetAccelerators, SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderBandPriv.SetAccelerators
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderBandPriv::SetAccelerators

@@ -4,17 +4,16 @@ title: IFileOperation::SetProperties
 author: windows-sdk-content
 description: Declares a set of properties and values to be set on an item or items.
 old-location: shell\IFileOperation_SetProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b54efc12-42e9-4a90-a4d9-0e75bcdba0d6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProperties method, IFileOperation.SetProperties, IFileOperation::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProperties, shell.IFileOperation_SetProperties, shobjidl_core/IFileOperation::SetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.SetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::SetProperties

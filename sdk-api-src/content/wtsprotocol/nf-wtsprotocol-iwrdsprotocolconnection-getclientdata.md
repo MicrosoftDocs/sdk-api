@@ -4,17 +4,16 @@ title: IWRdsProtocolConnection::GetClientData
 author: windows-sdk-content
 description: Requests client settings from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getclientdata.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4005ff92-56ea-46ae-a546-e08a80303ef5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientData method, IWRdsProtocolConnection.GetClientData, IWRdsProtocolConnection::GetClientData, termserv.iwrdsprotocolconnection_getclientdata, wtsprotocol/IWRdsProtocolConnection::GetClientData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolConnection.GetClientData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolConnection::GetClientData

@@ -4,7 +4,7 @@ title: "_AVRF_BACKTRACE_INFORMATION"
 author: windows-sdk-content
 description: Contains information about backtraces performed.
 old-location: winprog\avrf_backtrace_information.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVRF_BACKTRACE_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
+req.redist: 
 ---
 
 # _AVRF_BACKTRACE_INFORMATION structure

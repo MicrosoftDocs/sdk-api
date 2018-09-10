@@ -4,17 +4,16 @@ title: IEnumNames::Clone
 author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumnames_clone.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interface, IEnumNames interface [COM+],Clone method, IEnumNames.Clone, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumNames.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNames::Clone

@@ -4,17 +4,16 @@ title: IStartMenuPinnedList::RemoveFromList
 author: windows-sdk-content
 description: Windows Vista:\_Removes an item from the Start menu pinned list, which is the list in the upper left position of the Start menu.
 old-location: shell\IStartMenuPinnedList_RemoveFromList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStartMenuPinnedList.RemoveFromList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStartMenuPinnedList::RemoveFromList

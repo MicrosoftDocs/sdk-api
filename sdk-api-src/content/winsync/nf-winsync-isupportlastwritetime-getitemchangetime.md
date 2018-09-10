@@ -4,17 +4,16 @@ title: ISupportLastWriteTime::GetItemChangeTime
 author: windows-sdk-content
 description: Gets the date and time when the specified item was last changed.
 old-location: winsync\isupportlastwritetime_getitemchangetime.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 15cbd398-81d9-4ea6-bfe4-1bf00510b419
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetItemChangeTime method, ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISupportLastWriteTime.GetItemChangeTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISupportLastWriteTime::GetItemChangeTime

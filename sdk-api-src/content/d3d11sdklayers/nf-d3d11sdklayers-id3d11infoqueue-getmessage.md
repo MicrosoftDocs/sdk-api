@@ -4,17 +4,16 @@ title: ID3D11InfoQueue::GetMessage
 author: windows-sdk-content
 description: Get a message from the message queue.
 old-location: direct3d11\id3d11infoqueue_getmessage.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 685cddc5-cedd-410f-a693-665d2d69402e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMessage, GetMessage method [Direct3D 11], GetMessage method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetMessage method, ID3D11InfoQueue.GetMessage, ID3D11InfoQueue::GetMessage, d3d11sdklayers/ID3D11InfoQueue::GetMessage, direct3d11.id3d11infoqueue_getmessage, fcb657d8-1742-cfff-a8cc-5af0bec46085
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11InfoQueue.GetMessage
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11InfoQueue::GetMessage

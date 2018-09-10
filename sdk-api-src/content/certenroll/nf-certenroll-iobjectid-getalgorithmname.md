@@ -4,17 +4,16 @@ title: IObjectId::GetAlgorithmName
 author: windows-sdk-content
 description: Retrieves the display name associated with an algorithm object identifier (OID).
 old-location: security\iobjectid_getalgorithmname.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectId.GetAlgorithmName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectId::GetAlgorithmName

@@ -4,17 +4,16 @@ title: IMFCaptureRecordSink::SetSampleCallback
 author: windows-sdk-content
 description: Sets a callback to receive the recording data for one stream.
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1D7BB0D1-3F77-4AF3-9624-73EE4D0D0BCE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback method, IMFCaptureRecordSink.SetSampleCallback, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureRecordSink.SetSampleCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureRecordSink::SetSampleCallback

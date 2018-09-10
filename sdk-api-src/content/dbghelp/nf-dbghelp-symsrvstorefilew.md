@@ -4,17 +4,16 @@ title: SymSrvStoreFileW function
 author: windows-sdk-content
 description: Stores a file in the specified symbol store.
 old-location: base\symsrvstorefile.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SymSrvStoreFileW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # SymSrvStoreFileW function

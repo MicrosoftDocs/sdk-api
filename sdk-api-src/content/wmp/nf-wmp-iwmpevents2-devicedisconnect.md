@@ -4,17 +4,16 @@ title: IWMPEvents2::DeviceDisconnect
 author: windows-sdk-content
 description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.
 old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DeviceDisconnect, DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceDisconnect method, IWMPEvents2.DeviceDisconnect, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents2.DeviceDisconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents2::DeviceDisconnect

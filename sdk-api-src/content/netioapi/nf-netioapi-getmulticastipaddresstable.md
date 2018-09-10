@@ -4,17 +4,16 @@ title: GetMulticastIpAddressTable function
 author: windows-sdk-content
 description: Retrieves the multicast IP address table on the local computer.
 old-location: iphlp\getmulticastipaddresstable.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetMulticastIpAddressTable, GetMulticastIpAddressTable function [IP Helper], iphlp.getmulticastipaddresstable, netioapi/GetMulticastIpAddressTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetMulticastIpAddressTable
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetMulticastIpAddressTable function

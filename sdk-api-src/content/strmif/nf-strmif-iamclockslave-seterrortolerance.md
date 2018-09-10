@@ -4,17 +4,16 @@ title: IAMClockSlave::SetErrorTolerance
 author: windows-sdk-content
 description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_seterrortolerance.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMClockSlave interface [DirectShow],SetErrorTolerance method, IAMClockSlave.SetErrorTolerance, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow],IAMClockSlave interface, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMClockSlave.SetErrorTolerance
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMClockSlave::SetErrorTolerance

@@ -4,17 +4,16 @@ title: WerReportSetParameter function
 author: windows-sdk-content
 description: Sets the parameters that uniquely identify an event for the specified report.
 old-location: wer\werreportsetparameter.htm
-old-project: wer
+tech.root: wer
 ms.assetid: accf423d-6f03-41e2-b5e9-4a0b630bc918
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WER_P0, WER_P1, WER_P2, WER_P3, WER_P4, WER_P5, WER_P6, WER_P7, WER_P8, WER_P9, WerReportSetParameter, WerReportSetParameter function [Windows Error Reporting], base.werreportsetparameter, wer.werreportsetparameter, werapi/WerReportSetParameter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Wer.lib
+req.dll: Wer.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WerReportSetParameter
 product: Windows
 targetos: Windows
-req.lib: Wer.lib
-req.dll: Wer.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerReportSetParameter function

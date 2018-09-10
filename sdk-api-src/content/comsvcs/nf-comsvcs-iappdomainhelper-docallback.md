@@ -4,17 +4,16 @@ title: IAppDomainHelper::DoCallback
 author: windows-sdk-content
 description: Switches into a given application domain (which the calling object must be bound to), executes the supplied callback function in that application domain, and then returns to the original application domain.
 old-location: cos\iappdomainhelper_docallback.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: a82c2539-56cd-45ee-b673-a9440818bbc7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DoCallback, DoCallback method [COM+], DoCallback method [COM+],IAppDomainHelper interface, IAppDomainHelper interface [COM+],DoCallback method, IAppDomainHelper.DoCallback, IAppDomainHelper::DoCallback, _cos_IAppDomainHelper_DoCallback, comsvcs/IAppDomainHelper::DoCallback, cos.iappdomainhelper_docallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppDomainHelper.DoCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppDomainHelper::DoCallback
@@ -66,7 +65,7 @@ Reference to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08
 
 ### -param __MIDL__IAppDomainHelper0001
 
-
+TBD
 
 
 ### -param pPool [in]

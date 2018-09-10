@@ -4,7 +4,7 @@ title: "_WRDS_LISTENER_SETTINGS_1"
 author: windows-sdk-content
 description: Contains listener settings for a remote session.
 old-location: termserv\wrds_listener_settings_1.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRDS_LISTENER_SETTINGS_1, *PWRDS_LISTENER_SETTINGS_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WRDS_LISTENER_SETTINGS_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WRDS_LISTENER_SETTINGS_1, *PWRDS_LISTENER_SETTINGS_1
+req.redist: 
 ---
 
 # _WRDS_LISTENER_SETTINGS_1 structure

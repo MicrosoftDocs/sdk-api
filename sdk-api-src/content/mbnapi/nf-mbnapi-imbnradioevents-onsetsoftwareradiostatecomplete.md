@@ -4,17 +4,16 @@ title: IMbnRadioEvents::OnSetSoftwareRadioStateComplete
 author: windows-sdk-content
 description: Notification that a set software radio state operation has completed.
 old-location: mbn\imbnradioevents_onsetsoftwareradiostatecomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 0e62ff68-0a6b-4e22-9cce-0df5da14fa6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnSetSoftwareRadioStateComplete method, IMbnRadioEvents.OnSetSoftwareRadioStateComplete, IMbnRadioEvents::OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks], OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks],IMbnRadioEvents interface, S_OK, mbn.imbnradioevents_onsetsoftwareradiostatecomplete, mbnapi/IMbnRadioEvents::OnSetSoftwareRadioStateComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRadioEvents.OnSetSoftwareRadioStateComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRadioEvents::OnSetSoftwareRadioStateComplete

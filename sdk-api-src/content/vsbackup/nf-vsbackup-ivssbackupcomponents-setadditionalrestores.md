@@ -4,17 +4,16 @@ title: IVssBackupComponents::SetAdditionalRestores
 author: windows-sdk-content
 description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.SetAdditionalRestores
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::SetAdditionalRestores
@@ -69,7 +67,7 @@ Writer identifier.
 
 ### -param ct
 
-
+TBD
 
 
 ### -param wszLogicalPath [in]
@@ -100,7 +98,7 @@ The value of the string should not be <b>NULL</b>, and should contain the same c
 
 ### -param bAdditionalRestores
 
-
+TBD
 
 
 

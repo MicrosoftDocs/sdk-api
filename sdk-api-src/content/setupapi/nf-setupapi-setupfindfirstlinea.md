@@ -4,17 +4,16 @@ title: SetupFindFirstLineA function
 author: windows-sdk-content
 description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section.
 old-location: setup\setupfindfirstline.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetupFindFirstLineW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupFindFirstLineA function

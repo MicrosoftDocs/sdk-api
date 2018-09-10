@@ -4,17 +4,16 @@ title: IOleObject::InitFromData
 author: windows-sdk-content
 description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
 old-location: com\ioleobject_initfromdata.htm
-old-project: com
+tech.root: com
 ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.InitFromData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::InitFromData

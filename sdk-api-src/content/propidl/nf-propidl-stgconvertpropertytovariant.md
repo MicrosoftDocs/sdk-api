@@ -4,17 +4,16 @@ title: StgConvertPropertyToVariant function
 author: windows-sdk-content
 description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
 old-location: stg\stgconvertpropertytovariant.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StgConvertPropertyToVariant
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # StgConvertPropertyToVariant function

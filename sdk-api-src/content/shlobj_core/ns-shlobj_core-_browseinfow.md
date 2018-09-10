@@ -4,7 +4,7 @@ title: "_browseinfoW"
 author: windows-sdk-content
 description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
 old-location: shell\BROWSEINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BROWSEINFOW, *PBROWSEINFOW, *LPBROWSEINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - BROWSEINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: BROWSEINFOW, *PBROWSEINFOW, *LPBROWSEINFOW
+req.redist: 
 ---
 
 # _browseinfoW structure

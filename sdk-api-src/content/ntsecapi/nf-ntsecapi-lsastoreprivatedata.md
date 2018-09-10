@@ -4,17 +4,16 @@ title: LsaStorePrivateData function
 author: windows-sdk-content
 description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
 old-location: security\lsastoreprivatedata.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 95d6cf30-fd08-473e-b0b3-3f7ca5e85357
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_lsastoreprivatedata, ntsecapi/LsaStorePrivateData, security.lsastoreprivatedata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LsaStorePrivateData
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaStorePrivateData function

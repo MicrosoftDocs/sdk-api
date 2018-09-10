@@ -4,17 +4,16 @@ title: IComThreadingInfo::GetCurrentThreadType
 author: windows-sdk-content
 description: Retrieves the type of thread in which the caller is executing.
 old-location: com\icomthreadinginfo_getcurrentthreadtype.htm
-old-project: com
+tech.root: com
 ms.assetid: 93437e45-f1e7-4f1f-bffb-ef234c7f5a6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCurrentThreadType, GetCurrentThreadType method [COM], GetCurrentThreadType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentThreadType method, IComThreadingInfo.GetCurrentThreadType, IComThreadingInfo::GetCurrentThreadType, _com_icomthreadinginfo_getcurrentthreadtype, com.icomthreadinginfo_getcurrentthreadtype, objidlbase/IComThreadingInfo::GetCurrentThreadType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComThreadingInfo.GetCurrentThreadType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IComThreadingInfo::GetCurrentThreadType

@@ -4,17 +4,16 @@ title: IMFSensorProfile::GetProfileId
 author: windows-sdk-content
 description: Retrieves the sensor profile ID.
 old-location: mf\imfsensorprofile_getprofileid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EBBDCC39-8FF9-421B-867D-0AD950C2DDF5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],GetProfileId method, IMFSensorProfile.GetProfileId, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSensorProfile.GetProfileId
 product: Windows
 targetos: Windows
-req.lib: Mfsensorgroup.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProfile::GetProfileId

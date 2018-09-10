@@ -4,17 +4,16 @@ title: IXMLHTTPRequest2::SetProperty
 author: windows-sdk-content
 description: Sets a property on an outgoing HTTP request.
 old-location: ixhr2\ixmlhttprequest2_setproperty.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: 4BBA4E21-29ED-413D-90D6-161D31CC13C9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps],MSXML 6.0 and later
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XHR_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXMLHTTPRequest2.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXMLHTTPRequest2::SetProperty

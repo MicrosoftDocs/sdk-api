@@ -4,17 +4,16 @@ title: IEnumBackgroundCopyGroups::Skip
 author: windows-sdk-content
 description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopygroups_skip.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 27e907d0-1b2a-44d2-b401-0b28d5a8b340
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Skip method, IEnumBackgroundCopyGroups.Skip, IEnumBackgroundCopyGroups::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_skip, qmgr/IEnumBackgroundCopyGroups::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GROUPPROP
+req.lib: 
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumBackgroundCopyGroups.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: QmgrPrxy.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumBackgroundCopyGroups::Skip

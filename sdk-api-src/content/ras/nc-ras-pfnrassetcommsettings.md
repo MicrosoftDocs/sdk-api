@@ -4,7 +4,7 @@ title: PFNRASSETCOMMSETTINGS
 author: windows-sdk-content
 description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
 old-location: rras\rassetcommsettings.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasSetCommSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PFNRASSETCOMMSETTINGS callback function

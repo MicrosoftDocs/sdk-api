@@ -4,17 +4,16 @@ title: IQueryParserManager::SetOption
 author: windows-sdk-content
 description: Changes a single option in this IQueryParserManager object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
 old-location: search\_search_IQueryParserManager_SetOption.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\setoption.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IQueryParserManager interface [search],SetOption method, IQueryParserManager.SetOption, IQueryParserManager::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParserManager interface, _search_IQueryParserManager_SetOption, search._search_IQueryParserManager_SetOption, structuredquery/IQueryParserManager::SetOption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryParserManager.SetOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IQueryParserManager::SetOption

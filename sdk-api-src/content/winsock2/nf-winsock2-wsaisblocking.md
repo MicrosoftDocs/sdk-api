@@ -4,17 +4,16 @@ title: WSAIsBlocking function
 author: windows-sdk-content
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsaisblocking_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 2721fb73-4c2e-43c4-aea8-232ba531122f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAIsBlocking, WSAIsBlocking function [Winsock], _win32_wsaisblocking_2, winsock.wsaisblocking_2, winsock2/WSAIsBlocking
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAIsBlocking
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAIsBlocking function

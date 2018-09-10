@@ -4,17 +4,16 @@ title: ICryptAttribute::InitializeFromValues
 author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an IX509Attributes object.
 old-location: security\icryptattribute_initializefromvalues_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 763fd244-173d-4b0b-8809-e98c18b8e5b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromValues method, ICryptAttribute.InitializeFromValues, ICryptAttribute::InitializeFromValues, InitializeFromValues, InitializeFromValues method [Security], InitializeFromValues method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromValues, security.icryptattribute_initializefromvalues_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICryptAttribute.InitializeFromValues
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttribute::InitializeFromValues

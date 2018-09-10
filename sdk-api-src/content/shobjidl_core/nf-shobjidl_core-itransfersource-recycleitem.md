@@ -4,17 +4,16 @@ title: ITransferSource::RecycleItem
 author: windows-sdk-content
 description: Recycle the item into the provided recycle location and return the item in its new location.
 old-location: shell\ITransferSource_RecycleItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ee99a1ff-1a3e-46a4-82c6-df5f6c26c396
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],RecycleItem method, ITransferSource.RecycleItem, ITransferSource::RecycleItem, RecycleItem, RecycleItem method [Windows Shell], RecycleItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RecycleItem, shell.ITransferSource_RecycleItem, shobjidl_core/ITransferSource::RecycleItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.RecycleItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::RecycleItem
@@ -76,7 +74,7 @@ A pointer to the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a87
 
 ### -param flags
 
-
+TBD
 
 
 ### -param ppsiNewDest [out]

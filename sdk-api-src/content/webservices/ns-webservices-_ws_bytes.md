@@ -4,7 +4,7 @@ title: "_WS_BYTES"
 author: windows-sdk-content
 description: Used to serialize and deserialize an array of bytes.
 old-location: wsw\ws_bytes.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 0106e372-80bf-4a62-b941-1a4501c92a9c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_BYTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_BYTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_BYTES
+req.redist: 
 ---
 
 # _WS_BYTES structure

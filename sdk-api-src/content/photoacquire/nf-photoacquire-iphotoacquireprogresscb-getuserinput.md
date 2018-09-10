@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::GetUserInput
 author: windows-sdk-content
 description: The GetUserInput method overrides the default functionality that displays a message prompting the user for string input during acquisition. The application provides the implementation of the GetUserInput method.
 old-location: picacq\iphotoacquireprogresscb_getuserinput.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: db0d924b-a586-4f81-a367-e8fbdf3e9bd9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetUserInput method, IPhotoAcquireProgressCB.GetUserInput, IPhotoAcquireProgressCB::GetUserInput, IPhotoAcquireProgressCBGetUserInput, photoacquire/IPhotoAcquireProgressCB::GetUserInput, picacq.iphotoacquireprogresscb_getuserinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.GetUserInput
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::GetUserInput

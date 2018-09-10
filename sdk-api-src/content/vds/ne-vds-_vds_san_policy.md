@@ -4,7 +4,7 @@ title: "_VDS_SAN_POLICY"
 author: windows-sdk-content
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SAN_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_SAN_POLICY
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SAN_POLICY
+req.redist: 
 ---
 
 # _VDS_SAN_POLICY enumeration

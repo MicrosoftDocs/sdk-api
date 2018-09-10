@@ -4,7 +4,7 @@ title: "_RPC_BINDING_HANDLE_OPTIONS_V1"
 author: windows-sdk-content
 description: Contains additional options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_options_v1.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: e2bd03cf-4d45-449f-9434-ec8ef405737b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_BINDING_HANDLE_OPTIONS_V1, *PRPC_BINDING_HANDLE_OPTIONS_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_BINDING_HANDLE_OPTIONS_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_BINDING_HANDLE_OPTIONS_V1, *PRPC_BINDING_HANDLE_OPTIONS_V1
+req.redist: 
 ---
 
 # _RPC_BINDING_HANDLE_OPTIONS_V1 structure

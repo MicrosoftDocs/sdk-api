@@ -4,7 +4,7 @@ title: "_SERVER_INFO_1541"
 author: windows-sdk-content
 description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1541_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 22ae4f90-822b-4594-8484-893630f6b680
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_INFO_1541, *PSERVER_INFO_1541, *LPSERVER_INFO_1541
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVER_INFO_1541
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SERVER_INFO_1541, *PSERVER_INFO_1541, *LPSERVER_INFO_1541
+req.redist: 
 ---
 
 # _SERVER_INFO_1541 structure

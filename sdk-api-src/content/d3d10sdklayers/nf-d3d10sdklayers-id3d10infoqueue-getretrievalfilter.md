@@ -4,17 +4,16 @@ title: ID3D10InfoQueue::GetRetrievalFilter
 author: windows-sdk-content
 description: Get the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_getretrievalfilter.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getretrievalfilter.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 2b23a290-1dc3-6619-a573-ee54c7ce9984, GetRetrievalFilter, GetRetrievalFilter method [Direct3D 10], GetRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetRetrievalFilter method, ID3D10InfoQueue.GetRetrievalFilter, ID3D10InfoQueue::GetRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetRetrievalFilter, direct3d10.id3d10infoqueue_getretrievalfilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10InfoQueue.GetRetrievalFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10InfoQueue::GetRetrievalFilter

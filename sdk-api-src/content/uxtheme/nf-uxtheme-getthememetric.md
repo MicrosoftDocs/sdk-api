@@ -4,17 +4,16 @@ title: GetThemeMetric function
 author: windows-sdk-content
 description: Retrieves the value of a metric property.
 old-location: controls\GetThemeMetric.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememetric.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetThemeMetric, GetThemeMetric function [Windows Controls], TMT_ALPHALEVEL, TMT_ALPHATHRESHOLD, TMT_BORDERSIZE, TMT_GLYPHINDEX, TMT_GRADIENTRATIO1, TMT_GRADIENTRATIO2, TMT_GRADIENTRATIO3, TMT_GRADIENTRATIO4, TMT_GRADIENTRATIO5, TMT_HEIGHT, TMT_IMAGECOUNT, TMT_MINDPI1, TMT_MINDPI2, TMT_MINDPI3, TMT_MINDPI4, TMT_MINDPI5, TMT_PROGRESSCHUNKSIZE, TMT_PROGRESSSPACESIZE, TMT_ROUNDCORNERHEIGHT, TMT_ROUNDCORNERWIDTH, TMT_SATURATION, TMT_TEXTBORDERSIZE, TMT_TRUESIZESTRETCHMARK, TMT_WIDTH, controls.GetThemeMetric, controls.inet_GetThemeMetric, inet_GetThemeMetric, inet_GetThemeMetric_cpp, uxtheme/GetThemeMetric
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetThemeMetric
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetThemeMetric function

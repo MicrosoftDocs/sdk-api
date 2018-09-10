@@ -4,17 +4,16 @@ title: IAccessible::accLocation
 author: windows-sdk-content
 description: The IAccessible::accLocation method retrieves the specified object's current screen location. All visual objects must support this method. Sound objects do not support this method.
 old-location: winauto\iaccessible_iaccessible__acclocation.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1eb6f075-a8bf-4c03-96ee-460728317955
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.accLocation
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::accLocation

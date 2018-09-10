@@ -4,17 +4,16 @@ title: IGetSecurityCallContext::GetSecurityCallContext
 author: windows-sdk-content
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+],IGetSecurityCallContext interface, IGetSecurityCallContext interface [COM+],GetSecurityCallContext method, IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetSecurityCallContext.GetSecurityCallContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetSecurityCallContext::GetSecurityCallContext

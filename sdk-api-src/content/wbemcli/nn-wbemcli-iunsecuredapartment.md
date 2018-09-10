@@ -4,7 +4,7 @@ title: IUnsecuredApartment
 author: windows-sdk-content
 description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
 old-location: wmi\iunsecuredapartment.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Unsecapp.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UnsecuredApartment
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Unsecapp.exe
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUnsecuredApartment interface

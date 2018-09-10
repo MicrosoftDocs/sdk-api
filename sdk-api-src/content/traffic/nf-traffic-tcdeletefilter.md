@@ -4,17 +4,16 @@ title: TcDeleteFilter function
 author: windows-sdk-content
 description: The TcDeleteFilter function deletes a filter previously added with the TcAddFilter function.
 old-location: qos\tcdeletefilter.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 3a9eaffc-78d8-4473-a2d3-c060b104abd3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcDeleteFilter
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcDeleteFilter function

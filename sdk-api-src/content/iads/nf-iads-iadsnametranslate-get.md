@@ -4,17 +4,16 @@ title: IADsNameTranslate::Get
 author: windows-sdk-content
 description: Retrieves the name of a directory object in the specified format.
 old-location: adsi\iadsnametranslate_get.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsNameTranslate.Get
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsNameTranslate::Get

@@ -4,17 +4,16 @@ title: IWICJpegFrameDecode::GetQuantizationTable
 author: windows-sdk-content
 description: Retrieves a copy of the quantization table.
 old-location: wic\iwicjpegframedecode_getquantizationtable.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 58A0FA55-7626-4FB7-BA35-1806B6C3AAAA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameDecode.GetQuantizationTable, IWICJpegFrameDecode::GetQuantizationTable, wic.iwicjpegframedecode_getquantizationtable, wincodec/IWICJpegFrameDecode::GetQuantizationTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICJpegFrameDecode.GetQuantizationTable
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICJpegFrameDecode::GetQuantizationTable

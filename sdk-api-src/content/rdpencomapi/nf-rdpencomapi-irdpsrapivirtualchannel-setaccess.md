@@ -4,17 +4,16 @@ title: IRDPSRAPIVirtualChannel::SetAccess
 author: windows-sdk-content
 description: Enables the channel for an attendee.
 old-location: rdp\irdpsrapivirtualchannel_setaccess.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 7d4a19d3-b089-4689-9062-a5b52251776f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, IRDPSRAPIVirtualChannel interface [RDP],SetAccess method, IRDPSRAPIVirtualChannel.SetAccess, IRDPSRAPIVirtualChannel::SetAccess, SetAccess, SetAccess method [RDP], SetAccess method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_setaccess, rdpencomapi/IRDPSRAPIVirtualChannel::SetAccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIVirtualChannel.SetAccess
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIVirtualChannel::SetAccess

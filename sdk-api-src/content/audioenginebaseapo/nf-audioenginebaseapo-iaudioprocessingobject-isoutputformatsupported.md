@@ -4,17 +4,16 @@ title: IAudioProcessingObject::IsOutputFormatSupported
 author: windows-sdk-content
 description: The IsOutputFormatSupported method is used to verify that a specific output format is supported.
 old-location: audio\iaudioprocessingobject_isoutputformatsupported.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 19609332-9fc2-4a21-b947-f103a1cf2675
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsOutputFormatSupported method, IAudioProcessingObject.IsOutputFormatSupported, IAudioProcessingObject::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [Audio Devices], IsOutputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isoutputformatsupported, audio_syseffects_r_542151d0-145f-4504-a282-e6473f1ae3c7.xml, audioenginebaseapo/IAudioProcessingObject::IsOutputFormatSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_FLAG
+req.lib: Audioenginebaseapo.idl
+req.dll: 
+req.irql: All Levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAudioProcessingObject.IsOutputFormatSupported
 product: Windows
 targetos: Windows
-req.lib: Audioenginebaseapo.idl
-req.dll: 
-req.irql: All Levels
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioProcessingObject::IsOutputFormatSupported

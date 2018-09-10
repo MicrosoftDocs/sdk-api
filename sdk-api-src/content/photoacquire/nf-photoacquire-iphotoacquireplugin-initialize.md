@@ -4,17 +4,16 @@ title: IPhotoAcquirePlugin::Initialize
 author: windows-sdk-content
 description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.
 old-location: picacq\iphotoacquireplugin_initialize.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],Initialize method, IPhotoAcquirePlugin.Initialize, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquirePlugin.Initialize
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquirePlugin::Initialize

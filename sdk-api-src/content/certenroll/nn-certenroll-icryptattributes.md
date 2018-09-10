@@ -4,7 +4,7 @@ title: ICryptAttributes
 author: windows-sdk-content
 description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
 old-location: security\icryptattributes.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICryptAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttributes interface

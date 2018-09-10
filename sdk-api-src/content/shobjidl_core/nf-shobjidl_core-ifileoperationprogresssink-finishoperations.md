@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::FinishOperations
 author: windows-sdk-content
 description: Performs caller-implemented actions after the last operation performed by the call to IFileOperation is complete.
 old-location: shell\IFileOperationProgressSink_FinishOperations.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5d2d05c3-525d-4113-bb08-63395facf191
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FinishOperations, FinishOperations method [Windows Shell], FinishOperations method [Windows Shell],IFileOperationProgressSink interface, IFileOperationProgressSink interface [Windows Shell],FinishOperations method, IFileOperationProgressSink.FinishOperations, IFileOperationProgressSink::FinishOperations, _shell_IFileOperationProgressSink_FinishOperations, shell.IFileOperationProgressSink_FinishOperations, shobjidl_core/IFileOperationProgressSink::FinishOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.FinishOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::FinishOperations

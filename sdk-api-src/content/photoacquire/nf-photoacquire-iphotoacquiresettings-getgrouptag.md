@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::GetGroupTag
 author: windows-sdk-content
 description: The GetGroupTag method retrieves a tag string for the group of files being downloaded from the device.
 old-location: picacq\iphotoacquiresettings_getgrouptag.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 4e65c5b2-ea1c-4376-a4bb-afbad7efb5ed
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetGroupTag, GetGroupTag method [Picture Acquisition], GetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetGroupTag method, IPhotoAcquireSettings.GetGroupTag, IPhotoAcquireSettings::GetGroupTag, IPhotoAcquireSettingsGetGroupTag, photoacquire/IPhotoAcquireSettings::GetGroupTag, picacq.iphotoacquiresettings_getgrouptag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.GetGroupTag
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::GetGroupTag

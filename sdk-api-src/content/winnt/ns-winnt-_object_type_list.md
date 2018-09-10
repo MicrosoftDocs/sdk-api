@@ -4,7 +4,7 @@ title: "_OBJECT_TYPE_LIST"
 author: windows-sdk-content
 description: Identifies an object type element in a hierarchy of object types.
 old-location: security\object_type_list.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OBJECT_TYPE_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
+req.redist: 
 ---
 
 # _OBJECT_TYPE_LIST structure

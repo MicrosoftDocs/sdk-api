@@ -4,17 +4,16 @@ title: IEnumPublishedApps::Next
 author: windows-sdk-content
 description: Gets the next IPublishedApp object in the enumeration.
 old-location: shell\IEnumPublishedApps_Next.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumPublishedApps.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumPublishedApps::Next
@@ -63,7 +61,7 @@ Gets the next <a href="https://msdn.microsoft.com/a5a44e74-494a-4c9b-8bf3-85c609
 
 ### -param pia
 
-
+TBD
 
 
 

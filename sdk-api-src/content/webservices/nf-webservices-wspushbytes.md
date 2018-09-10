@@ -4,17 +4,16 @@ title: WsPushBytes function
 author: windows-sdk-content
 description: Establishes a callback to be invoked to write bytes within an element. In some encodings this can be more efficient by eliminating a copy of the data.
 old-location: wsw\wspushbytes.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 295eb530-00f1-4e80-bd8a-ffb3eb1fad5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsPushBytes, WsPushBytes function [Web Services for Windows], webservices/WsPushBytes, wsw.wspushbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsPushBytes
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsPushBytes function

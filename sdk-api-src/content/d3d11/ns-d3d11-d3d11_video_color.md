@@ -4,7 +4,7 @@ title: D3D11_VIDEO_COLOR
 author: windows-sdk-content
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: mf\d3d11_video_color.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_COLOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_COLOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_COLOR
+req.redist: 
 ---
 
 # D3D11_VIDEO_COLOR structure

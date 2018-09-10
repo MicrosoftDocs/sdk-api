@@ -4,7 +4,7 @@ title: IWMDMOperation
 author: windows-sdk-content
 description: This optional, application-implemented IWMDMOperation interface allows the application to control how data is read from or written to the computer during a file transfer.
 old-location: wmdm\iwmdmoperation.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7277a8fe-3006-4456-b2e7-6041d3324f35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMOperation
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation interface

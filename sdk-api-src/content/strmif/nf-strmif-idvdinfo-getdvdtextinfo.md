@@ -4,17 +4,16 @@ title: IDvdInfo::GetDVDTextInfo
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the TXTDT_MG structure, which can contain text descriptions for title name, volume name, producer name, vocalist name, and so on, in various languages.
 old-location: dshow\idvdinfo_getdvdtextinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e58fcd07-682a-4c41-9501-d55ba092a150
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDVDTextInfo, GetDVDTextInfo method [DirectShow], GetDVDTextInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetDVDTextInfo method, IDvdInfo.GetDVDTextInfo, IDvdInfo::GetDVDTextInfo, IDvdInfoGetDVDTextInfo, dshow.idvdinfo_getdvdtextinfo, strmif/IDvdInfo::GetDVDTextInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetDVDTextInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetDVDTextInfo
@@ -72,12 +70,12 @@ Pointer to the retrieved text manager.
 
 ### -param ulBufSize
 
-
+TBD
 
 
 ### -param pulActualSize
 
-
+TBD
 
 
 

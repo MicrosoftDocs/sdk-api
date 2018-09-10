@@ -4,7 +4,7 @@ title: "_RASIKEV2_PROJECTION_INFO"
 author: windows-sdk-content
 description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\rasikev2_projection_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASIKEV2_PROJECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
+req.redist: 
 ---
 
 # _RASIKEV2_PROJECTION_INFO structure

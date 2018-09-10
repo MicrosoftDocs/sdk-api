@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001"
 author: windows-sdk-content
 description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\aaauthschemes.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ff80f8ac-8378-4087-aa95-a081d2dd710a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAuthSchemes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AAAuthSchemes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: AAAuthSchemes
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001 enumeration

@@ -4,7 +4,7 @@ title: IDesktopGadget
 author: windows-sdk-content
 description: Exposes a method that allows the programmatic addition of an installed gadget to the user's desktop.
 old-location: shell\IDesktopGadget.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7b3b273a-41ed-4d45-bde9-8250d74d10a9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Sbdrop.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDesktopGadget
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Sbdrop.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IDesktopGadget interface

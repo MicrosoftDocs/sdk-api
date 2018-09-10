@@ -4,17 +4,16 @@ title: Int32x32To64 macro
 author: windows-sdk-content
 description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.
 old-location: winprog\int32x32to64.htm
-old-project: WinProg
+tech.root: WinProg
 ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Int32x32To64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Int32x32To64 macro

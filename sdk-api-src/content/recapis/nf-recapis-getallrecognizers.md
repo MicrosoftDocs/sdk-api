@@ -4,17 +4,16 @@ title: GetAllRecognizers function
 author: windows-sdk-content
 description: Gets all recognizers.
 old-location: tablet\getallrecognizers.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: F2039094-E3B0-4FF4-9B69-ED29D681B388
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetAllRecognizers, GetAllRecognizers function [Tablet PC], recapis/GetAllRecognizers, tablet.getallrecognizers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetAllRecognizers
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetAllRecognizers function

@@ -4,7 +4,7 @@ title: "_WTS_LOGON_ERROR_REDIRECTOR_RESPONSE"
 author: windows-sdk-content
 description: Contains values that specify the preferred response of the protocol to a logon error.
 old-location: termserv\wts_logon_error_redirector_response.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 67ed8d6f-641c-4739-911c-e61379e14048
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: WTS_SESSION_INFO_1W (Unicode) and WTS_SESSION_INFO_1A (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+req.redist: 
 ---
 
 # _WTS_LOGON_ERROR_REDIRECTOR_RESPONSE enumeration

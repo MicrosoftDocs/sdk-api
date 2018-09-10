@@ -4,17 +4,16 @@ title: IComponent2::GetResultViewType2
 author: windows-sdk-content
 description: The GetResultViewType2 method retrieves the result view type. This method supersedes the IComponent::GetResultViewType method.
 old-location: mmc\icomponent2_getresultviewtype2.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 687ddb0a-6e10-4553-9885-fd85bf8dd6ff
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetResultViewType2, GetResultViewType2 method [MMC], GetResultViewType2 method [MMC],IComponent2 interface, IComponent2 interface [MMC],GetResultViewType2 method, IComponent2.GetResultViewType2, IComponent2::GetResultViewType2, _slate_icomponent2_getresultviewtype2, mmc.icomponent2_getresultviewtype2, mmc/IComponent2::GetResultViewType2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent2.GetResultViewType2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent2::GetResultViewType2

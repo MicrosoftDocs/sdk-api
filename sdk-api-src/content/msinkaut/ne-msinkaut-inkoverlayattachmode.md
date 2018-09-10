@@ -4,7 +4,7 @@ title: InkOverlayAttachMode
 author: windows-sdk-content
 description: Specifies where to attach the new InkOverlay object, behind or in front of the active layer.
 old-location: tablet\inkoverlayattachmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkOverlayAttachMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkOverlayAttachMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkOverlayAttachMode
+req.redist: 
 ---
 
 # InkOverlayAttachMode enumeration

@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManagerStatusCallback
 author: windows-sdk-content
 description: Notifies the caller of the progress of the requested operation or any resulting errors.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tpmvscmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Vscmgr.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITpmVirtualSmartCardManagerStatusCallback
 product: Windows
 targetos: Windows
-req.lib: Vscmgr.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITpmVirtualSmartCardManagerStatusCallback interface

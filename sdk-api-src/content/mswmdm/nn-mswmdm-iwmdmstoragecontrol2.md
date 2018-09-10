@@ -4,7 +4,7 @@ title: IWMDMStorageControl2
 author: windows-sdk-content
 description: The IWMDMStorageControl2 interface extends IWMDMStorageControl by making it possible to set the name of the destination file when inserting content into a storage.
 old-location: wmdm\iwmdmstoragecontrol2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: c5a17642-5253-4d01-895a-09d00284f341
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDMStorageControl2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl2 interface

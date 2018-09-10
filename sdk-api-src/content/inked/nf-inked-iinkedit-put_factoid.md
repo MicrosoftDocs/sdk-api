@@ -4,17 +4,16 @@ title: IInkEdit::put_Factoid
 author: windows-sdk-content
 description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result.
 old-location: tablet\inkedit_factoid.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Factoid property, IInkEdit.Factoid, IInkEdit.put_Factoid, IInkEdit::Factoid, IInkEdit::get_Factoid, IInkEdit::put_Factoid, InkEdit.get_Factoid, InkEdit.put_Factoid, get_Factoid, inked/IInkEdit::Factoid, inked/IInkEdit::get_Factoid, inked/IInkEdit::put_Factoid, put_Factoid, tablet.inkedit_factoid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_Factoid
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_Factoid

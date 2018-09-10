@@ -4,7 +4,7 @@ title: tagNMCUSTOMSPLITRECTINFO
 author: windows-sdk-content
 description: Contains information about the two rectangles of a split button. Sent with the NM_GETCUSTOMSPLITRECT notification.
 old-location: controls\NMCUSTOMSPLITRECTINFO.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMCUSTOMSPLITRECTINFO, *LPNMCUSTOMSPLITRECTINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMCUSTOMSPLITRECTINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMCUSTOMSPLITRECTINFO, *LPNMCUSTOMSPLITRECTINFO
+req.redist: 
 ---
 
 # tagNMCUSTOMSPLITRECTINFO structure

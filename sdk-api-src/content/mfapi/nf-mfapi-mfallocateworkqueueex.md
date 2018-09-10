@@ -4,17 +4,16 @@ title: MFAllocateWorkQueueEx function
 author: windows-sdk-content
 description: Creates a new work queue.
 old-location: mf\mfallocateworkqueueex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 422b8bc2-0616-4f7f-9908-775940f8c1ab
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFAllocateWorkQueueEx, MFAllocateWorkQueueEx function [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfallocateworkqueueex, mfapi/MFAllocateWorkQueueEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFAllocateWorkQueueEx
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFAllocateWorkQueueEx function

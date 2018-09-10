@@ -4,7 +4,7 @@ title: sockaddr_in
 author: windows-sdk-content
 description: The SOCKADDR_IN structure specifies a transport address and port for the AF_INET address family.
 old-location: netvista\sockaddr_in.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 96379562-403f-451c-ac7a-f0eec34bfe5e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOCKADDR_IN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
+req.redist: 
 ---
 
 # sockaddr_in structure

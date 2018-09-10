@@ -4,17 +4,16 @@ title: IAMStats::GetIndex
 author: windows-sdk-content
 description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.
 old-location: dshow\iamstats_getindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMStats.GetIndex
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStats::GetIndex

@@ -4,17 +4,16 @@ title: GlobalDiscard macro
 author: windows-sdk-content
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm
-old-project: memory
+tech.root: memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GlobalDiscard
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GlobalDiscard macro

@@ -4,17 +4,16 @@ title: IMFCaptureSink::Prepare
 author: windows-sdk-content
 description: Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
 old-location: mf\imfcapturesink_prepare.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureSink.Prepare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureSink::Prepare

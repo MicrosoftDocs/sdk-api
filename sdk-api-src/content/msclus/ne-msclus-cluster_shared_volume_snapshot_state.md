@@ -4,7 +4,7 @@ title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 author: windows-sdk-content
 description: Specifies the various snapshot states for a shared volume.
 old-location: mscs\cluster_shared_volume_snapshot_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+req.redist: 
 ---
 
 # CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration

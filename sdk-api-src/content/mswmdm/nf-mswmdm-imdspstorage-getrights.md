@@ -4,17 +4,16 @@ title: IMDSPStorage::GetRights
 author: windows-sdk-content
 description: The GetRights method retrieves the rights information for an object.
 old-location: wmdm\imdspstorage_getrights.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: b4fb3ace-ebb5-4d95-8fce-780b5dc8e21a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetRights method, IMDSPStorage.GetRights, IMDSPStorage::GetRights, IMDSPStorageGetRights, mswmdm/IMDSPStorage::GetRights, wmdm.imdspstorage_getrights
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage.GetRights
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage::GetRights
@@ -76,7 +74,7 @@ Pointer to the number of <b>WMDMRIGHTS</b> structures in the <i>ppRights</i> arr
 
 ### -param abMac
 
-
+TBD
 
 
 

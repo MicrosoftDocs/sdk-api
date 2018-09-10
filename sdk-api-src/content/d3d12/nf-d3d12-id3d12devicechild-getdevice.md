@@ -4,17 +4,16 @@ title: ID3D12DeviceChild::GetDevice
 author: windows-sdk-content
 description: Gets a pointer to the device that created this interface.
 old-location: direct3d12\id3d12devicechild_getdevice.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: FFF72E85-4382-420B-82C9-CE72B223F703
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild interface, ID3D12DeviceChild interface,GetDevice method, ID3D12DeviceChild.GetDevice, ID3D12DeviceChild::GetDevice, d3d12/ID3D12DeviceChild::GetDevice, direct3d12.id3d12devicechild_getdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DeviceChild.GetDevice
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DeviceChild::GetDevice

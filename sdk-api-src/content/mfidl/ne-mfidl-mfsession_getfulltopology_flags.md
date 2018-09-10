@@ -4,7 +4,7 @@ title: MFSESSION_GETFULLTOPOLOGY_FLAGS
 author: windows-sdk-content
 description: Defines flags for the IMFMediaSession::GetFullTopology method.
 old-location: mf\mfsession_getfulltopology_flags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a635b9c8-f01f-4757-8dc2-f470c2270efa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSESSION_GETFULLTOPOLOGY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFSESSION_GETFULLTOPOLOGY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFSESSION_GETFULLTOPOLOGY_FLAGS
+req.redist: 
 ---
 
 # MFSESSION_GETFULLTOPOLOGY_FLAGS enumeration

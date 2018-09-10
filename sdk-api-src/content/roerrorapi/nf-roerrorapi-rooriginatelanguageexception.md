@@ -4,17 +4,16 @@ title: RoOriginateLanguageException function
 author: windows-sdk-content
 description: Reports an error, an informative string, and an error object to an attached debugger.
 old-location: winrt\rooriginatelanguageexception.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RoOriginateLanguageException
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoOriginateLanguageException function

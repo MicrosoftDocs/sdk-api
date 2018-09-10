@@ -4,17 +4,16 @@ title: IX509Enrollment::get_Status
 author: windows-sdk-content
 description: Retrieves an IX509EnrollmentStatus object that can be used to monitor the status of the enrollment process and retrieve error information.
 old-location: security\ix509enrollment_status_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 9ebceb0b-bd78-48a8-ae57-c11fda0fe8a6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509Enrollment interface [Security],Status property, IX509Enrollment.Status, IX509Enrollment.get_Status, IX509Enrollment::Status, IX509Enrollment::get_Status, Status property [Security], Status property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Status, certenroll/IX509Enrollment::get_Status, get_Status, security.ix509enrollment_status_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509Enrollment.get_Status
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::get_Status

@@ -4,17 +4,16 @@ title: OleUIInsertObjectW function
 author: windows-sdk-content
 description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
 old-location: com\oleuiinsertobject.htm
-old-project: com
+tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIInsertObjectW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIInsertObjectW function

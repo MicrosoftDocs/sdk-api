@@ -4,7 +4,7 @@ title: PREAD_PROCESS_MEMORY_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs to read memory from the address space of the process.
 old-location: base\readprocessmemoryproc64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 84ff0085-295d-48bd-baa5-d6b2845520a6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ReadProcessMemoryProc64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # PREAD_PROCESS_MEMORY_ROUTINE callback function

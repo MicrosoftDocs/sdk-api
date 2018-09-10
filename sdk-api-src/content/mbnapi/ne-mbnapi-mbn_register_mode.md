@@ -4,7 +4,7 @@ title: MBN_REGISTER_MODE
 author: windows-sdk-content
 description: The MBN_REGISTER_MODE enumerated type indicates the network selection mode of a device.
 old-location: mbn\mbn_register_mode.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: be64aa55-5a31-4909-9f34-634f7b14fc30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_REGISTER_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_REGISTER_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_REGISTER_MODE
+req.redist: 
 ---
 
 # MBN_REGISTER_MODE enumeration

@@ -4,7 +4,7 @@ title: "__MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001"
 author: windows-sdk-content
 description: Elements of the TKBLayoutType enumeration are passed by an IME in a call to ITfFnGetPreferredTouchKeyboardLayout::GetLayout to specify the type of layout.
 old-location: tsf\tkblayouttype.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TKBLayoutType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TKBLayoutType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: TKBLayoutType
+req.redist: 
 ---
 
 # __MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001 enumeration

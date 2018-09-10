@@ -4,17 +4,16 @@ title: IExplorerCommand::GetState
 author: windows-sdk-content
 description: Gets state information associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bb600cb5-9b7e-45dc-beca-0a913c214084
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetState method, IExplorerCommand.GetState, IExplorerCommand::GetState, _shell_IExplorerCommand_GetState, shell.IExplorerCommand_GetState, shobjidl_core/IExplorerCommand::GetState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommand.GetState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommand::GetState

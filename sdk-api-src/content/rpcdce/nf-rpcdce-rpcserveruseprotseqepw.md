@@ -4,17 +4,16 @@ title: RpcServerUseProtseqEpW function
 author: windows-sdk-content
 description: The RpcServerUseProtseqEp function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqep.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 1914a90a-6dee-4517-9de1-d332124eb0a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerUseProtseqEp, RpcServerUseProtseqEp function [RPC], RpcServerUseProtseqEpA, RpcServerUseProtseqEpW, _rpc_rpcserveruseprotseqep, rpc.rpcserveruseprotseqep, rpcdce/RpcServerUseProtseqEp, rpcdce/RpcServerUseProtseqEpA, rpcdce/RpcServerUseProtseqEpW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcServerUseProtseqEpW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerUseProtseqEpW function

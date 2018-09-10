@@ -4,17 +4,16 @@ title: IUIAutomationElement::BuildUpdatedCache
 author: windows-sdk-content
 description: Retrieves a new UI Automation element with an updated cache.
 old-location: winauto\uiauto_IUIAutomationElement_BuildUpdatedCache.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: b2499b3c-433f-4e2f-937c-78da66c16203
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BuildUpdatedCache, BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],BuildUpdatedCache method, IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationElement.BuildUpdatedCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::BuildUpdatedCache

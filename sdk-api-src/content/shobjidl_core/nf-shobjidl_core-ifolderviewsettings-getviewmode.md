@@ -4,17 +4,16 @@ title: IFolderViewSettings::GetViewMode
 author: windows-sdk-content
 description: Gets a folder's logical view mode.
 old-location: shell\IFolderViewSettings_GetViewMode.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4b050a69-39df-41f8-8d54-8c576bad3c2d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderViewSettings.GetViewMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderViewSettings::GetViewMode

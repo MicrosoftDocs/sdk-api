@@ -4,17 +4,16 @@ title: BIT_MASKS_MATCH macro
 author: windows-sdk-content
 description: The BIT_MASKS_MATCH macro compares the color masks for two VIDEOINFO structures.
 old-location: dshow\bit_masks_match.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2b9d18fd-3251-4ab4-bb79-33829190f1b8
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BIT_MASKS_MATCH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BIT_MASKS_MATCH macro

@@ -4,17 +4,16 @@ title: IEnumVARIANT::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: automat\ienumvariant_reset.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumVARIANT.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumVARIANT::Reset

@@ -4,17 +4,16 @@ title: IWMPMedia::get_isIdentical
 author: windows-sdk-content
 description: The get_isIdentical method retrieves a value indicating whether the specified object is the same as the current one.
 old-location: wmp\iwmpmedia_get_isidentical.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 6ec54350-0359-4759-a6ba-6132ce33feff
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_isIdentical method, IWMPMedia.get_isIdentical, IWMPMedia2 interface [Windows Media Player],get_isIdentical method, IWMPMedia2::get_isIdentical, IWMPMedia3 interface [Windows Media Player],get_isIdentical method, IWMPMedia3::get_isIdentical, IWMPMedia::get_isIdentical, IWMPMediaget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPMedia interface, get_isIdentical method [Windows Media Player],IWMPMedia2 interface, get_isIdentical method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_isidentical, wmp/IWMPMedia2::get_isIdentical, wmp/IWMPMedia3::get_isIdentical, wmp/IWMPMedia::get_isIdentical
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWMPMedia3.get_isIdentical
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMedia::get_isIdentical

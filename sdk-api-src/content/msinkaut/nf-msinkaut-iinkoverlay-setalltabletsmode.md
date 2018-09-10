@@ -4,17 +4,16 @@ title: IInkOverlay::SetAllTabletsMode
 author: windows-sdk-content
 description: Allows an ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from any tablet attached to the Tablet PC.
 old-location: tablet\inkoverlay_setalltabletsmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 33c659af-ffa1-4fd8-8f85-feb22a6e58fe
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetAllTabletsMode method, IInkOverlay.SetAllTabletsMode, IInkOverlay::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkOverlay interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkOverlay::SetAllTabletsMode, tablet.inkoverlay_setalltabletsmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkOverlay.SetAllTabletsMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::SetAllTabletsMode
@@ -66,7 +64,7 @@ Allows an ink collector  (<a href="https://msdn.microsoft.com/189f430e-9d00-4e29
 
 ### -param UseMouseForInput
 
-
+TBD
 
 
 

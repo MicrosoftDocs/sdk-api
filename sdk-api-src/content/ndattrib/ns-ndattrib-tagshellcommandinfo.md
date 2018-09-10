@@ -4,7 +4,7 @@ title: tagShellCommandInfo
 author: windows-sdk-content
 description: The ShellCommandInfo structure contains data required to launch an additional application for manual repair options.
 old-location: ndf\shellcommandinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 54e23cfc-52bf-482a-a3e8-49fd6aa505e3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellCommandInfo, *PShellCommandInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShellCommandInfo, *PShellCommandInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: ShellCommandInfo, *PShellCommandInfo
+req.redist: 
 ---
 
 # tagShellCommandInfo structure

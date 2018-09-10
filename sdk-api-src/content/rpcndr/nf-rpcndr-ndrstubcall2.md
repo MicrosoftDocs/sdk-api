@@ -4,17 +4,16 @@ title: NdrStubCall2 function
 author: windows-sdk-content
 description: The NdrStubCall2 function is the server-side entry point for /Oicf mode stubs.
 old-location: rpc\ndrstubcall2.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr/NdrStubCall2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrStubCall2
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrStubCall2 function
@@ -52,7 +50,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/">/Oicf</a> mode stubs.  
 
 
 ## -parameters

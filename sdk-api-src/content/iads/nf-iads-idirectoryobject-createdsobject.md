@@ -4,17 +4,16 @@ title: IDirectoryObject::CreateDSObject
 author: windows-sdk-content
 description: Creates a child of the current directory service object.
 old-location: adsi\idirectoryobject_createdsobject.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectoryObject.CreateDSObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectoryObject::CreateDSObject

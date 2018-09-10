@@ -4,17 +4,16 @@ title: ICatInformation::EnumReqCategoriesOfClass
 author: windows-sdk-content
 description: Retrieves an enumerator for the CATIDs required by the specified class.
 old-location: com\icatinformation_enumreqcategoriesofclass.htm
-old-project: com
+tech.root: com
 ms.assetid: 1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], EnumReqCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumReqCategoriesOfClass method, ICatInformation.EnumReqCategoriesOfClass, ICatInformation::EnumReqCategoriesOfClass, _com_icatinformation_enumreqcategoriesofclass, com.icatinformation_enumreqcategoriesofclass, comcat/ICatInformation::EnumReqCategoriesOfClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatInformation.EnumReqCategoriesOfClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatInformation::EnumReqCategoriesOfClass

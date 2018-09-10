@@ -4,17 +4,16 @@ title: IManipulationProcessor::GetAngularVelocity
 author: windows-sdk-content
 description: The GetAngularVelocity method calculates the rotational velocity that the target object is moving at.
 old-location: wintouch\imanipulationprocessor_getangularvelocity.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 3253837f-c5ea-47f7-ba0a-86e0ed4e228e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAngularVelocity, GetAngularVelocity method [Windows Touch], GetAngularVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetAngularVelocity method, IManipulationProcessor.GetAngularVelocity, IManipulationProcessor::GetAngularVelocity, manipulations/IManipulationProcessor::GetAngularVelocity, wintouch.imanipulationprocessor_getangularvelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IManipulationProcessor.GetAngularVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::GetAngularVelocity
@@ -62,7 +60,7 @@ The <b>GetAngularVelocity</b> method calculates the rotational velocity that the
 
 ### -param angularVelocity
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: NL_ROUTE_PROTOCOL
 author: windows-sdk-content
 description: The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP route was added with, as described in RFC 4292.
 old-location: netvista\nl_route_protocol.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4bf6256d-e07e-45a8-a269-e32e88642b79
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NL_ROUTE_PROTOCOL
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL
+req.redist: 
 ---
 
 # NL_ROUTE_PROTOCOL enumeration

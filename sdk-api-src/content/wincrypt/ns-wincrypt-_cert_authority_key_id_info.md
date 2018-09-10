@@ -4,7 +4,7 @@ title: "_CERT_AUTHORITY_KEY_ID_INFO"
 author: windows-sdk-content
 description: Identifies the key used to sign a certificate or certificate revocation list (CRL).
 old-location: security\cert_authority_key_id_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_AUTHORITY_KEY_ID_INFO, *PCERT_AUTHORITY_KEY_ID_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_AUTHORITY_KEY_ID_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_AUTHORITY_KEY_ID_INFO, *PCERT_AUTHORITY_KEY_ID_INFO
+req.redist: 
 ---
 
 # _CERT_AUTHORITY_KEY_ID_INFO structure

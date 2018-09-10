@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0011"
 author: windows-sdk-content
 description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.
 old-location: coreaudio\dataflow.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Deviceaccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DataFlow
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DataFlow
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: DataFlow
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_devicetopology_0000_0000_0011 enumeration

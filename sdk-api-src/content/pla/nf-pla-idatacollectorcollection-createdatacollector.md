@@ -4,17 +4,16 @@ title: IDataCollectorCollection::CreateDataCollector
 author: windows-sdk-content
 description: Creates a data collector of the specified type.
 old-location: pla\idatacollectorcollection_createdatacollector.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorCollection.CreateDataCollector
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorCollection::CreateDataCollector

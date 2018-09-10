@@ -4,17 +4,16 @@ title: UShortToUChar function
 author: windows-sdk-content
 description: Converts a value of type USHORT to a value of type UCHAR.
 old-location: shell\UShortToUChar.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b50c8e95-929f-4c16-abd2-7b03bc0d5063
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar, _shell_UShortToUChar, intsafe/UShortToUChar, shell.UShortToUChar
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UShortToUChar
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UShortToUChar function

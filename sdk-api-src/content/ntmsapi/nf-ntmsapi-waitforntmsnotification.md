@@ -4,17 +4,16 @@ title: WaitForNtmsNotification function
 author: windows-sdk-content
 description: The WaitForNtmsNotification function waits for the next object change notification.
 old-location: fs\waitforntmsnotification.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WaitForNtmsNotification
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # WaitForNtmsNotification function

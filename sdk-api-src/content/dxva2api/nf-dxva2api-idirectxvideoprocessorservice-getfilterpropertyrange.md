@@ -4,17 +4,16 @@ title: IDirectXVideoProcessorService::GetFilterPropertyRange
 author: windows-sdk-content
 description: Retrieves the range of values for an image filter supported by a video processor device.
 old-location: mf\idirectxvideoprocessorservice_getfilterpropertyrange.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a, GetFilterPropertyRange, GetFilterPropertyRange method [Media Foundation], GetFilterPropertyRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetFilterPropertyRange method, IDirectXVideoProcessorService.GetFilterPropertyRange, IDirectXVideoProcessorService::GetFilterPropertyRange, dxva2api/IDirectXVideoProcessorService::GetFilterPropertyRange, mf.idirectxvideoprocessorservice_getfilterpropertyrange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessorService.GetFilterPropertyRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessorService::GetFilterPropertyRange

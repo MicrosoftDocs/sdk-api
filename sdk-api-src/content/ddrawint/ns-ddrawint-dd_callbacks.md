@@ -4,7 +4,7 @@ title: DD_CALLBACKS
 author: windows-sdk-content
 description: The DD_CALLBACKS structure contains entry pointers to the callback functions that a device driver supports.
 old-location: display\dd_callbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: d68b2772-dca6-417a-8e03-d3b2843fb69d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_CALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_CALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_CALLBACKS
+req.redist: 
 ---
 
 # DD_CALLBACKS structure

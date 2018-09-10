@@ -4,17 +4,16 @@ title: GetIpNetEntry2 function
 author: windows-sdk-content
 description: Retrieves information for a neighbor IP address entry on the local computer.
 old-location: iphlp\getipnetentry2.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c77e01da-2d5a-4c74-b581-62fa6ee52c9e
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetIpNetEntry2, GetIpNetEntry2 function [IP Helper], iphlp.getipnetentry2, netioapi/GetIpNetEntry2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIpNetEntry2
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetIpNetEntry2 function

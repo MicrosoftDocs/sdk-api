@@ -4,17 +4,16 @@ title: IMFSpatialAudioObjectBuffer::GetID
 author: windows-sdk-content
 description: Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_getid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_INFO
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSpatialAudioObjectBuffer.GetID
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSpatialAudioObjectBuffer::GetID

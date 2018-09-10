@@ -4,17 +4,16 @@ title: IAMExtDevice::get_ExternalDeviceVersion
 author: windows-sdk-content
 description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.
 old-location: dshow\iamextdevice_get_externaldeviceversion.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceVersion method, IAMExtDevice.get_ExternalDeviceVersion, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtDevice.get_ExternalDeviceVersion
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtDevice::get_ExternalDeviceVersion

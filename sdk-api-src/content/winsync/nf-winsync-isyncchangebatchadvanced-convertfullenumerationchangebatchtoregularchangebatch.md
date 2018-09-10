@@ -4,17 +4,16 @@ title: ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChang
 author: windows-sdk-content
 description: Converts an ISyncFullEnumerationChangeBatch object to an ISyncChangeBatch object.
 old-location: winsync\isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 073369ab-232e-410f-b6f1-c43bf15cc652
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch, ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch

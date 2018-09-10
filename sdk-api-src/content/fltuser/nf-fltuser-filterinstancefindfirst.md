@@ -4,17 +4,16 @@ title: FilterInstanceFindFirst function
 author: windows-sdk-content
 description: The FilterInstanceFindFirst function returns information about a minifilter driver instance and is used as a starting point for scanning the instances of a minifilter.
 old-location: ifsk\filterinstancefindfirst.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4d397383-eb65-4646-80cd-203495513285
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterInstanceFindFirst, FilterInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_c49ec801-8b52-42c5-9495-7fd4eb999480.xml, fltuser/FilterInstanceFindFirst, ifsk.filterinstancefindfirst
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterInstanceFindFirst
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterInstanceFindFirst function

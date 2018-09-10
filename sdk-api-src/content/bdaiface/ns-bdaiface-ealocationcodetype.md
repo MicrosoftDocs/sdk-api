@@ -4,7 +4,7 @@ title: EALocationCodeType
 author: windows-sdk-content
 description: The EALocationCodeType structure defines an Emergency Alert (EA) location code, as defined in ANSI/SCTE 28.
 old-location: mstv\ealocationcodetype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bdaiface.h
 req.include-header: Bdaiface.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EALocationCodeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EALocationCodeType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: EALocationCodeType
+req.redist: 
 ---
 
 # EALocationCodeType structure

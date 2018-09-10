@@ -4,7 +4,7 @@ title: MSVidCtlStateList
 author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\msvidctlstatelist.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b4da9c6e-3235-4c78-b9e1-57c9d06fccbc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msvidctl.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSVidCtlStateList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MSVidCtlStateList
+req.redist: 
 ---
 
 # MSVidCtlStateList enumeration

@@ -4,17 +4,16 @@ title: DPA_SortedInsertPtr macro
 author: windows-sdk-content
 description: Inserts a new item before or after a specified existing item.
 old-location: controls\DPA_SortedInsertPtr.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_SortedInsertPtr macro [Windows Controls], _shell_DPA_SortedInsertPtr, _shell_DPA_SortedInsertPtr_cpp, controls.DPA_SortedInsertPtr, controls._shell_DPA_SortedInsertPtr, dpa_dsa/DPA_SortedInsertPtr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DPA_SortedInsertPtr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DPA_SortedInsertPtr macro

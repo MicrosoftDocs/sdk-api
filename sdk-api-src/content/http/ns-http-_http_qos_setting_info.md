@@ -4,7 +4,7 @@ title: "_HTTP_QOS_SETTING_INFO"
 author: windows-sdk-content
 description: Contains information about a QOS setting.
 old-location: http\http_qos_setting_info.htm
-old-project: http
+tech.root: http
 ms.assetid: 6c220063-02d0-44c0-b3a3-e7bfd5c57e1f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_QOS_SETTING_INFO, *PHTTP_QOS_SETTING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_QOS_SETTING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_QOS_SETTING_INFO, *PHTTP_QOS_SETTING_INFO
+req.redist: 
 ---
 
 # _HTTP_QOS_SETTING_INFO structure

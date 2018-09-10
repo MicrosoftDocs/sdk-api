@@ -4,7 +4,7 @@ title: "_WS_METADATA_ENDPOINTS"
 author: windows-sdk-content
 description: Information about all endpoints that were read from metadata documents.
 old-location: wsw\ws_metadata_endpoints.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 96d4b938-80df-412a-9d0e-153d42ec73cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_METADATA_ENDPOINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_METADATA_ENDPOINTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_METADATA_ENDPOINTS
+req.redist: 
 ---
 
 # _WS_METADATA_ENDPOINTS structure

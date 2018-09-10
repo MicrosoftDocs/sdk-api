@@ -4,7 +4,7 @@ title: AM_SimpleRateChange
 author: windows-sdk-content
 description: The AM_SimpleRateChange structure is used to change the playback rate for an MPEG-2 stream.
 old-location: dshow\am_simpleratechange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_SimpleRateChange
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_SimpleRateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_SimpleRateChange
+req.redist: 
 ---
 
 # AM_SimpleRateChange structure

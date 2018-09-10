@@ -4,17 +4,16 @@ title: ITextInputPanelEventSink::TextInserted
 author: windows-sdk-content
 description: Occurs when the Tablet PC Input Panel has inserted text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
 old-location: tablet\itextinputpaneleventsink_textinserted.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 61f3c21f-8658-421b-8494-d39a2faacc66
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink interface [Tablet PC],TextInserted method, ITextInputPanelEventSink.TextInserted, ITextInputPanelEventSink::TextInserted, TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelEventSink.TextInserted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelEventSink::TextInserted

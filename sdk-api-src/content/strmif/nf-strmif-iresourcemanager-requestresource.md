@@ -4,17 +4,16 @@ title: IResourceManager::RequestResource
 author: windows-sdk-content
 description: The RequestResource method requests the use of a given registered resource.
 old-location: dshow\iresourcemanager_requestresource.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b52dc38a-9246-4cef-ba1a-cf1927223183
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IResourceManager interface [DirectShow],RequestResource method, IResourceManager.RequestResource, IResourceManager::RequestResource, IResourceManagerRequestResource, RequestResource, RequestResource method [DirectShow], RequestResource method [DirectShow],IResourceManager interface, dshow.iresourcemanager_requestresource, strmif/IResourceManager::RequestResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResourceManager.RequestResource
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IResourceManager::RequestResource

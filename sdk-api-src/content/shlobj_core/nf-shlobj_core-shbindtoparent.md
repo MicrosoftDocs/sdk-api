@@ -4,17 +4,16 @@ title: SHBindToParent function
 author: windows-sdk-content
 description: Takes a pointer to a fully qualified item identifier list (PIDL), and returns a specified interface pointer on the parent object.
 old-location: shell\SHBindToParent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHBindToParent
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHBindToParent function

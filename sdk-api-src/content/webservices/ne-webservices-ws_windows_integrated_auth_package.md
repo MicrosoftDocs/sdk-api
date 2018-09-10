@@ -4,7 +4,7 @@ title: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 author: windows-sdk-content
 description: Defines the specific SSP package to be used for Windows Integrated Authentication.
 old-location: wsw\ws_windows_integrated_auth_package.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 7aa0bbf3-afc0-4deb-9cb3-62e297dd8702
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+req.redist: 
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration

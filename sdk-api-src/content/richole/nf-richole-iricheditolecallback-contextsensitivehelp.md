@@ -4,17 +4,16 @@ title: IRichEditOleCallback::ContextSensitiveHelp
 author: windows-sdk-content
 description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackcontextsensitivehelp.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],ContextSensitiveHelp method, IRichEditOleCallback.ContextSensitiveHelp, IRichEditOleCallback::ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp_cpp, controls.IRichEditOleCallback_ContextSensitiveHelp, controls._win32_IRichEditOleCallback_ContextSensitiveHelp, richole/IRichEditOleCallback::ContextSensitiveHelp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOleCallback.ContextSensitiveHelp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOleCallback::ContextSensitiveHelp

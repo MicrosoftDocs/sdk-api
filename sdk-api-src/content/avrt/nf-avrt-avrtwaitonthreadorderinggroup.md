@@ -4,17 +4,16 @@ title: AvRtWaitOnThreadOrderingGroup function
 author: windows-sdk-content
 description: Enables client threads of a thread ordering group to wait until they should execute.
 old-location: base\avrtwaitonthreadorderinggroup.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: avrt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: Avrt.lib
+req.dll: Avrt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AvRtWaitOnThreadOrderingGroup
 product: Windows
 targetos: Windows
-req.lib: Avrt.lib
-req.dll: Avrt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AvRtWaitOnThreadOrderingGroup function

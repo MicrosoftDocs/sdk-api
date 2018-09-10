@@ -4,17 +4,16 @@ title: IDirectDraw7::SetCooperativeLevel
 author: windows-sdk-content
 description: Determines the top-level behavior of the application.
 old-location: directdraw\idirectdraw7_setcooperativelevel.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: f791732d-9dab-470a-9243-6f71fd3bcd54
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7 interface [DirectDraw],SetCooperativeLevel method, IDirectDraw7.SetCooperativeLevel, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.SetCooperativeLevel
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::SetCooperativeLevel
@@ -59,9 +58,14 @@ Determines the top-level behavior of the application.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

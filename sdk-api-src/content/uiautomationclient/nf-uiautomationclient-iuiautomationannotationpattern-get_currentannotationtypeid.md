@@ -4,17 +4,16 @@ title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId
 author: windows-sdk-content
 description: Retrieves a value that identifies the annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: BFE58005-31DC-40A5-836C-9E2750DC03BD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAnnotationTypeId property [Windows Accessibility], CurrentAnnotationTypeId property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeId property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeId, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, get_CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeId, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeId

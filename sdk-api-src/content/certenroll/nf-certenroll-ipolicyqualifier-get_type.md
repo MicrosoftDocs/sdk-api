@@ -4,17 +4,16 @@ title: IPolicyQualifier::get_Type
 author: windows-sdk-content
 description: Retrieves the qualifier type.
 old-location: security\ipolicyqualifier_type_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPolicyQualifier interface [Security],Type property, IPolicyQualifier.Type, IPolicyQualifier.get_Type, IPolicyQualifier::Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type, security.ipolicyqualifier_type_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IPolicyQualifier.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPolicyQualifier::get_Type

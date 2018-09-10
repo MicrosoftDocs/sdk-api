@@ -4,7 +4,7 @@ title: "_VDS_INTERCONNECT_FLAG"
 author: windows-sdk-content
 description: Defines the set of interconnect types that subsystems can support.
 old-location: base\vds_interconnect_flag.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: ada895cb-1ff0-43df-8cd5-8ebc70cb97e2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_INTERCONNECT_FLAG, *PVDS_INTERCONNECT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_INTERCONNECT_FLAG
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_INTERCONNECT_FLAG, *PVDS_INTERCONNECT_FLAG
+req.redist: 
 ---
 
 # _VDS_INTERCONNECT_FLAG enumeration

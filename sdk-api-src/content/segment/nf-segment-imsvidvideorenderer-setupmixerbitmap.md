@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::SetupMixerBitmap
 author: windows-sdk-content
 description: The SetupMixerBitmap method configures the Video Mixing Renderer (VMR) to display an alpha-blended bitmap on top of the video.
 old-location: mstv\imsvidvideorenderer_setupmixerbitmap.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: a91561e3-469b-412a-b5ab-af2a5a0855a6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],SetupMixerBitmap method, IMSVidVideoRenderer.SetupMixerBitmap, IMSVidVideoRenderer::SetupMixerBitmap, IMSVidVideoRendererSetupMixerBitmap, SetupMixerBitmap, SetupMixerBitmap method [Microsoft TV Technologies], SetupMixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_setupmixerbitmap, segment/IMSVidVideoRenderer::SetupMixerBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.SetupMixerBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::SetupMixerBitmap
@@ -62,7 +60,7 @@ The <b>SetupMixerBitmap</b> method configures the Video Mixing Renderer (VMR) to
 
 ### -param MixerPictureDisp
 
-
+TBD
 
 
 ### -param Opacity [in]
@@ -72,7 +70,7 @@ Specifies the opacity of the bitmap, as an integer from 0 (transparent) to 100 (
 
 ### -param rDest
 
-
+TBD
 
 
 

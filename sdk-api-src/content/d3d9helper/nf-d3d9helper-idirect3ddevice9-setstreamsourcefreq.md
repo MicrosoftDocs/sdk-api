@@ -4,17 +4,16 @@ title: IDirect3DDevice9::SetStreamSourceFreq
 author: windows-sdk-content
 description: Sets the stream source frequency divider value. This may be used to draw several instances of geometry.
 old-location: direct3d9\idirect3ddevice9__setstreamsourcefreq.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setstreamsourcefreq.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetStreamSourceFreq method, IDirect3DDevice9.SetStreamSourceFreq, IDirect3DDevice9::SetStreamSourceFreq, SetStreamSourceFreq, SetStreamSourceFreq method [Direct3D 9], SetStreamSourceFreq method [Direct3D 9],IDirect3DDevice9 interface, c801693e-69ab-254b-92c2-993cfa9ec78a, d3d9helper/IDirect3DDevice9::SetStreamSourceFreq, direct3d9.idirect3ddevice9__setstreamsourcefreq
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.SetStreamSourceFreq
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::SetStreamSourceFreq
@@ -69,7 +68,7 @@ Stream source number.
 
 ### -param Divider
 
-
+TBD
 
 
 

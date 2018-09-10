@@ -4,17 +4,16 @@ title: IADsContainer::Create
 author: windows-sdk-content
 description: Sets up a request to create a directory object of the specified schema class and a given name in the container.
 old-location: adsi\iadscontainer_create.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Create, Create method [ADSI], Create method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Create method, IADsContainer.Create, IADsContainer::Create, _ds_iadscontainer_create, adsi.iadscontainer__create, adsi.iadscontainer_create, iads/IADsContainer::Create
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsContainer.Create
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsContainer::Create
@@ -62,17 +60,17 @@ The <b>IADsContainer::Create</b> method sets up a request to create a directory 
 
 ### -param ClassName
 
-
+TBD
 
 
 ### -param RelativeName
 
-
+TBD
 
 
 ### -param ppObject
 
-
+TBD
 
 
 

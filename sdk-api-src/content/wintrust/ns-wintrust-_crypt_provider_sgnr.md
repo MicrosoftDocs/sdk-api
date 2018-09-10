@@ -4,7 +4,7 @@ title: "_CRYPT_PROVIDER_SGNR"
 author: windows-sdk-content
 description: Provides information about a signer or countersigner.
 old-location: security\crypt_provider_sgnr.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_PROVIDER_SGNR, *PCRYPT_PROVIDER_SGNR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_PROVIDER_SGNR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CRYPT_PROVIDER_SGNR, *PCRYPT_PROVIDER_SGNR
+req.redist: 
 ---
 
 # _CRYPT_PROVIDER_SGNR structure

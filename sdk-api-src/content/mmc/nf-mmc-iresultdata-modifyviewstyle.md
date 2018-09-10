@@ -4,17 +4,16 @@ title: IResultData::ModifyViewStyle
 author: windows-sdk-content
 description: The IResultData::ModifyViewStyle method enables the snap-in to set the result pane's view style.
 old-location: mmc\iresultdata_modifyviewstyle.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: f33a427c-6952-4877-bbfb-09ac976ea188
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IResultData interface [MMC],ModifyViewStyle method, IResultData.ModifyViewStyle, IResultData2 interface [MMC],ModifyViewStyle method, IResultData2::ModifyViewStyle, IResultData::ModifyViewStyle, MMC_NOSORTHEADER, MMC_SHOWSELALWAYS, MMC_SINGLESEL, ModifyViewStyle, ModifyViewStyle method [MMC], ModifyViewStyle method [MMC],IResultData interface, ModifyViewStyle method [MMC],IResultData2 interface, _slate_iresultdata_modifyviewstyle, mmc.iresultdata_modifyviewstyle, mmc/IResultData2::ModifyViewStyle, mmc/IResultData::ModifyViewStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResultData2.ModifyViewStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IResultData::ModifyViewStyle

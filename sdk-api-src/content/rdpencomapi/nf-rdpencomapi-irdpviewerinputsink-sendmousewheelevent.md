@@ -4,17 +4,16 @@ title: IRDPViewerInputSink::SendMouseWheelEvent
 author: windows-sdk-content
 description: Sends a mouse wheel event message.
 old-location: rdp\irdpviewerinputsink_sendmousewheelevent.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRDPViewerInputSink.SendMouseWheelEvent, IRDPViewerInputSink::SendMouseWheelEvent, SendMouseWheelEvent, SendMouseWheelEvent method [RDP], SendMouseWheelEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousewheelevent, rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPViewerInputSink.SendMouseWheelEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPViewerInputSink::SendMouseWheelEvent

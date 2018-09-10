@@ -4,7 +4,7 @@ title: "_POLICY_DOMAIN_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Defines the type of policy domain information.
 old-location: security\policy_domain_information_class.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DOMAIN_INFORMATION_CLASS, *PPOLICY_DOMAIN_INFORMATION_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_DOMAIN_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_DOMAIN_INFORMATION_CLASS, *PPOLICY_DOMAIN_INFORMATION_CLASS
+req.redist: 
 ---
 
 # _POLICY_DOMAIN_INFORMATION_CLASS enumeration

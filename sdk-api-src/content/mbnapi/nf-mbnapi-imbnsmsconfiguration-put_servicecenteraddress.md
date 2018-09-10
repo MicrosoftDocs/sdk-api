@@ -4,17 +4,16 @@ title: IMbnSmsConfiguration::put_ServiceCenterAddress
 author: windows-sdk-content
 description: SMS default Service Center address.
 old-location: mbn\imbnsmsconfiguration_servicecenteraddress.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 10f34db2-2f1b-4e51-96c7-70a080804fd4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],ServiceCenterAddress property, IMbnSmsConfiguration.ServiceCenterAddress, IMbnSmsConfiguration.put_ServiceCenterAddress, IMbnSmsConfiguration::ServiceCenterAddress, IMbnSmsConfiguration::get_ServiceCenterAddress, IMbnSmsConfiguration::put_ServiceCenterAddress, ServiceCenterAddress property [Microsoft Broadband Networks], ServiceCenterAddress property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_servicecenteraddress, mbnapi/IMbnSmsConfiguration::ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::get_ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::put_ServiceCenterAddress, put_ServiceCenterAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMbnSmsConfiguration.put_ServiceCenterAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSmsConfiguration::put_ServiceCenterAddress

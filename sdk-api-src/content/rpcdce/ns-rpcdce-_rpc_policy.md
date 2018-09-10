@@ -4,7 +4,7 @@ title: "_RPC_POLICY"
 author: windows-sdk-content
 description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.
 old-location: rpc\rpc_policy.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_POLICY, *PRPC_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_POLICY, *PRPC_POLICY
+req.redist: 
 ---
 
 # _RPC_POLICY structure

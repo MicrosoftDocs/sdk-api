@@ -4,17 +4,16 @@ title: IFolderFilter::GetEnumFlags
 author: windows-sdk-content
 description: Allows a client to specify which classes of objects in a Shell folder should be enumerated. When used with SHBrowseForFolder, specifies the class or classes of items that should be shown in the dialog box tree view and which class or classes should not.
 old-location: shell\IFolderFilter_GetEnumFlags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b02b103c-b82e-455b-9498-dfc387806c36
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEnumFlags, GetEnumFlags method [Windows Shell], GetEnumFlags method [Windows Shell],IFolderFilter interface, IFolderFilter interface [Windows Shell],GetEnumFlags method, IFolderFilter.GetEnumFlags, IFolderFilter::GetEnumFlags, _shell_IFolderFilter_GetEnumFlags, shell.IFolderFilter_GetEnumFlags, shobjidl_core/IFolderFilter::GetEnumFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderFilter.GetEnumFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderFilter::GetEnumFlags

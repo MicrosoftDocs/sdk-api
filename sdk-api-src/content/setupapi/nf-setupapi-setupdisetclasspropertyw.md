@@ -4,17 +4,16 @@ title: SetupDiSetClassPropertyW function
 author: windows-sdk-content
 description: The SetupDiSetClassProperty function sets a class property for a device setup class or a device interface class.
 old-location: devinst\setupdisetclassproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Set_Class_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupDiSetClassPropertyW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetClassPropertyW function

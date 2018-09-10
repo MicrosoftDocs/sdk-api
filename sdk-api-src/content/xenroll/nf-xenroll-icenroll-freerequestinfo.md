@@ -4,17 +4,16 @@ title: ICEnroll::freeRequestInfo
 author: windows-sdk-content
 description: Releases session identifiers when they are no longer needed.
 old-location: security\icenroll4_freerequestinfo.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2d3fd4d4-779f-4e28-9b07-4de17262ac5e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],freeRequestInfo method, ICEnroll interface [Security],freeRequestInfo method, ICEnroll.freeRequestInfo, ICEnroll2 interface [Security],freeRequestInfo method, ICEnroll2::freeRequestInfo, ICEnroll3 interface [Security],freeRequestInfo method, ICEnroll3::freeRequestInfo, ICEnroll4 interface [Security],freeRequestInfo method, ICEnroll4::freeRequestInfo, ICEnroll::freeRequestInfo, freeRequestInfo, freeRequestInfo method [Security], freeRequestInfo method [Security],CEnroll object, freeRequestInfo method [Security],ICEnroll interface, freeRequestInfo method [Security],ICEnroll2 interface, freeRequestInfo method [Security],ICEnroll3 interface, freeRequestInfo method [Security],ICEnroll4 interface, security.icenroll4_freerequestinfo, xenroll/ICEnroll2::freeRequestInfo, xenroll/ICEnroll3::freeRequestInfo, xenroll/ICEnroll4::freeRequestInfo, xenroll/ICEnroll::freeRequestInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CEnroll.freeRequestInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll::freeRequestInfo

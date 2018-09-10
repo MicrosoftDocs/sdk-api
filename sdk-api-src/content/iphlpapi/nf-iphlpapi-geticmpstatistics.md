@@ -4,17 +4,16 @@ title: GetIcmpStatistics function
 author: windows-sdk-content
 description: The GetIcmpStatistics function retrieves the Internet Control Message Protocol (ICMP) for IPv4 statistics for the local computer.
 old-location: iphlp\geticmpstatistics.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: b10ec58b-54fe-4068-beb9-6909ad7cecf7
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: GetIcmpStatistics, GetIcmpStatistics function [IP Helper], _iphlp_geticmpstatistics, iphlp.geticmpstatistics, iphlpapi/GetIcmpStatistics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIcmpStatistics
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetIcmpStatistics function

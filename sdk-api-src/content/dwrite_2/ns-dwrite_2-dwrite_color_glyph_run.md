@@ -4,7 +4,7 @@ title: DWRITE_COLOR_GLYPH_RUN
 author: windows-sdk-content
 description: Contains the information needed by renderers to draw glyph runs with glyph color information.
 old-location: directwrite\dwrite_color_glyph_run.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: E70CEE54-80BB-42D2-BBD7-97472AAA4B56
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_COLOR_GLYPH_RUN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_COLOR_GLYPH_RUN structure

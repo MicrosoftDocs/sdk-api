@@ -4,7 +4,7 @@ title: SpatialAudioHrtfDirectivity
 author: windows-sdk-content
 description: Represents an omnidirectional model for an ISpatialAudioObjectForHrtf. The omnidirectional emission is interpolated linearly with the directivity model specified in the Type field based on the value of the Scaling field.
 old-location: coreaudio\spatialaudiohrtfdirectivity.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: A3D149E0-F2C1-47C7-8858-35C5F51C7F75
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDirectivity
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDirectivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDirectivity
+req.redist: 
 ---
 
 # SpatialAudioHrtfDirectivity structure

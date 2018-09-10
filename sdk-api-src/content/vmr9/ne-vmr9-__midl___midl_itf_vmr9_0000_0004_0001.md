@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_vmr9_0000_0004_0001"
 author: windows-sdk-content
 description: The VMR9AspectRatioMode enumeration type is used with the IVMRWindowlessControl9::GetAspectRatioMode and IVMRWindowlessControl9::SetAspectRatioMode methods to set and retrieve the aspect ratio mode (VMR-9 only).
 old-location: dshow\vmr9aspectratiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 745e7aad-a598-4be6-b28b-bb5969ef0c77
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9AspectRatioMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9AspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9AspectRatioMode
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_vmr9_0000_0004_0001 enumeration

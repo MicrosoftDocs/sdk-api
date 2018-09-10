@@ -4,17 +4,16 @@ title: IMetaDataImport::EnumFieldsWithName
 author: windows-sdk-content
 description: Enumerates FieldDef tokens of the specified type with the specified name.
 old-location: winrt\imetadataimport_enumfieldswithname.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6035f267-778d-4d7d-84eb-1081f33ff619
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.EnumFieldsWithName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::EnumFieldsWithName

@@ -4,17 +4,16 @@ title: IWMReaderCallbackAdvanced::OnOutputPropsChanged
 author: windows-sdk-content
 description: The OnOutputPropsChanged method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the IWMReader::SetOutputProps method.
 old-location: wmformat\iwmreadercallbackadvanced_onoutputpropschanged.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 5e8193c4-5fc7-4b19-9f6e-6873ebe5156a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnOutputPropsChanged method, IWMReaderCallbackAdvanced.OnOutputPropsChanged, IWMReaderCallbackAdvanced::OnOutputPropsChanged, IWMReaderCallbackAdvancedOnOutputPropsChanged, OnOutputPropsChanged, OnOutputPropsChanged method [windows Media Format], OnOutputPropsChanged method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onoutputpropschanged, wmsdkidl/IWMReaderCallbackAdvanced::OnOutputPropsChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMReaderCallbackAdvanced.OnOutputPropsChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderCallbackAdvanced::OnOutputPropsChanged

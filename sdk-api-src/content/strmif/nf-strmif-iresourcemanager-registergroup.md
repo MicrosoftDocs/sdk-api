@@ -4,17 +4,16 @@ title: IResourceManager::RegisterGroup
 author: windows-sdk-content
 description: The RegisterGroup method registers a named resource group with the resource manager.
 old-location: dshow\iresourcemanager_registergroup.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f2d3deb2-8f22-42ac-846c-2f158f347ca7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IResourceManager interface [DirectShow],RegisterGroup method, IResourceManager.RegisterGroup, IResourceManager::RegisterGroup, IResourceManagerRegisterGroup, RegisterGroup, RegisterGroup method [DirectShow], RegisterGroup method [DirectShow],IResourceManager interface, dshow.iresourcemanager_registergroup, strmif/IResourceManager::RegisterGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IResourceManager.RegisterGroup
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IResourceManager::RegisterGroup

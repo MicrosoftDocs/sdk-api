@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Blocked
 title: IFaxOutgoingQueue::get_Blocked
 author: windows-sdk-content
-description: The Blocked property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked.
-old-location: fax\_mfax_faxoutgoingqueue_blocked_vb.htm
-old-project: Fax
+description: The IFaxOutgoingQueue::get_Blocked property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked.
+old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_blocked_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59d0.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],Blocked property, FaxOutgoingQueue.Blocked, IFaxOutgoingQueue.get_Blocked, IFaxOutgoingQueue::get_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_blocked_vb, get_Blocked
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Blocked property, IFaxOutgoingQueue.Blocked, IFaxOutgoingQueue.get_Blocked, IFaxOutgoingQueue::Blocked, IFaxOutgoingQueue::get_Blocked, IFaxOutgoingQueue::put_Blocked, _mfax_faxoutgoingqueue.blocked, fax._mfax_faxoutgoingqueue_blocked, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_blocked_cpp, faxcomex/IFaxOutgoingQueue::Blocked, faxcomex/IFaxOutgoingQueue::get_Blocked, faxcomex/IFaxOutgoingQueue::put_Blocked, get_Blocked
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingQueue.Blocked
+ - IFaxOutgoingQueue.Blocked
+ - IFaxOutgoingQueue.get_Blocked
+ - IFaxOutgoingQueue.put_Blocked
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingQueue::get_Blocked
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Blocked</b> property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked. 
+The <b>IFaxOutgoingQueue::get_Blocked</b> property is a Boolean value that indicates whether the job queue for outgoing faxes is blocked. 
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-If this property is equal to <b>True</b>, the outbound job queue is blocked and the fax service is not accepting outbound fax submissions. If this property is equal to <b>False</b>, the queue is not blocked.
+If this property is equal to <b>TRUE</b>, the outbound job queue is blocked and the fax service is not accepting outbound fax submissions. If this property is equal to <b>FALSE</b>, the queue is not blocked.
 
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 

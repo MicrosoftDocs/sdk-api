@@ -4,17 +4,16 @@ title: IJolietDiscMaster::AddData
 author: windows-sdk-content
 description: Adds the contents of a root storage to the staged image file. This storage will be enumerated to place all substorages and streams in the root file system of the stage image file. Substorages become folders and streams become files.
 old-location: imapi\ijolietdiscmaster_adddata.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 91517103-71c5-450c-9d93-584f94cd2c45
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddData, AddData method [IMAPI], AddData method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],AddData method, IJolietDiscMaster.AddData, IJolietDiscMaster::AddData, _win32_ijolietdiscmaster_adddata, base.ijolietdiscmaster_adddata, imapi.ijolietdiscmaster_adddata, imapi/IJolietDiscMaster::AddData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IJolietDiscMaster.AddData
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IJolietDiscMaster::AddData

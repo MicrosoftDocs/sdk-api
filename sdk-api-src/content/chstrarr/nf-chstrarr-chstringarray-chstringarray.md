@@ -4,17 +4,16 @@ title: CHStringArray::CHStringArray
 author: windows-sdk-content
 description: The CHStringArray constructor constructs an empty CHStringArray array.
 old-location: wmi\chstringarray_chstringarray.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: b20e3476-7caa-4fcf-98cc-44ffafafe94a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "??0CHStringArray@@QAE@XZ, ??0CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray interface [Windows Management Instrumentation],CHStringArray method, CHStringArray method [Windows Management Instrumentation], CHStringArray method [Windows Management Instrumentation],CHStringArray interface, CHStringArray.CHStringArray, CHStringArray::CHStringArray, _hmm_chstringarray_chstringarray, chstrarr/CHStringArray::CHStringArray, wmi.chstringarray_chstringarray"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ??0CHStringArray@@QEAA@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHStringArray::CHStringArray

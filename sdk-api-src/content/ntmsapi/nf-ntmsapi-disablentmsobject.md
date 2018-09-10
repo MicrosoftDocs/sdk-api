@@ -4,17 +4,16 @@ title: DisableNtmsObject function
 author: windows-sdk-content
 description: The DisableNtmsObject function disables the specified RSM object.
 old-location: fs\disablentmsobject.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DisableNtmsObject
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DisableNtmsObject function

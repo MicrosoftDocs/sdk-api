@@ -4,17 +4,16 @@ title: RecycleSurrogate function
 author: windows-sdk-content
 description: Recycles the calling process.
 old-location: cos\recyclesurrogate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: ComSvcs.lib
+req.dll: ComSvcs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RecycleSurrogate
 product: Windows
 targetos: Windows
-req.lib: ComSvcs.lib
-req.dll: ComSvcs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RecycleSurrogate function

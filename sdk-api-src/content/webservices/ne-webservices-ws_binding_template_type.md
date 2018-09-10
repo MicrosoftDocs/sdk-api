@@ -4,7 +4,7 @@ title: WS_BINDING_TEMPLATE_TYPE
 author: windows-sdk-content
 description: An enumeration of the different security binding combinations that are supported.
 old-location: wsw\ws_binding_template_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 831001f4-619d-4128-a645-85077701c28c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_BINDING_TEMPLATE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_BINDING_TEMPLATE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_BINDING_TEMPLATE_TYPE
+req.redist: 
 ---
 
 # WS_BINDING_TEMPLATE_TYPE enumeration

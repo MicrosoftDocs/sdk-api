@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_ctffunc_0000_0011_0001"
 author: windows-sdk-content
 description: Elements of the TfSapiObject enumeration are used with the ITfFnGetSAPIObject::Get method to specify a specific type of Speech API (SAPI) object.
 old-location: tsf\tfsapiobject.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 82fb6417-efee-4f04-a9a9-4e52934e2e86
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfSapiObject
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TfSapiObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: TfSapiObject
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL___MIDL_itf_ctffunc_0000_0011_0001 enumeration

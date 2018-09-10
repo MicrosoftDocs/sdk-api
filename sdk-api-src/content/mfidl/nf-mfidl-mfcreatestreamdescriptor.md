@@ -4,17 +4,16 @@ title: MFCreateStreamDescriptor function
 author: windows-sdk-content
 description: Creates a stream descriptor.
 old-location: mf\mfcreatestreamdescriptor.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateStreamDescriptor
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateStreamDescriptor function

@@ -4,17 +4,16 @@ title: IOleDocumentView::GetRect
 author: windows-sdk-content
 description: Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
 old-location: com\ioledocumentview_getrect.htm
-old-project: com
+tech.root: com
 ms.assetid: 65d27354-c278-4d9e-b1b7-6fa3651a343d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetRect method, IOleDocumentView.GetRect, IOleDocumentView::GetRect, _ole_ioledocumentview_getrect, com.ioledocumentview_getrect, docobj/IOleDocumentView::GetRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentView.GetRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentView::GetRect

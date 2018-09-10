@@ -4,7 +4,7 @@ title: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 author: windows-sdk-content
 description: Values that specify debug message severity levels for an information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message_severity.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 99F9DDC8-5CCF-4991-94AD-0A399932F5B3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+req.redist: 
 ---
 
 # DXGI_INFO_QUEUE_MESSAGE_SEVERITY enumeration

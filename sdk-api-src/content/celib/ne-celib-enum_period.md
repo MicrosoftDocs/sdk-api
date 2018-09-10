@@ -4,7 +4,7 @@ title: ENUM_PERIOD
 author: windows-sdk-content
 description: Specifies the units of a time span.
 old-location: security\enum_period.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1bd8c906-7e17-4d8c-93e8-8901f9104d58
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: celib.h
 req.include-header: Certca.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ENUM_PERIOD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ENUM_PERIOD enumeration

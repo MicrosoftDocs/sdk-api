@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::get_LastRun
 author: windows-sdk-content
 description: The last time the file management job was run.
 old-location: fsrm\ifsrmfilemanagementjob_lastrun.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 07559b06-4744-466a-a8b0-e907eff7227d
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],LastRun property, IFsrmFileManagementJob.LastRun, IFsrmFileManagementJob.get_LastRun, IFsrmFileManagementJob::LastRun, IFsrmFileManagementJob::get_LastRun, LastRun property [File Server Resource Manager], LastRun property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_lastrun, fsrm.ifsrmfilemanagementjob_lastrun, fsrmreports/IFsrmFileManagementJob::LastRun, fsrmreports/IFsrmFileManagementJob::get_LastRun, get_LastRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmFileManagementJob.get_LastRun
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::get_LastRun

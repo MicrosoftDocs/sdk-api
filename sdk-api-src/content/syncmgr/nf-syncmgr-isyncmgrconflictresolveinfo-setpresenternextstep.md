@@ -4,17 +4,16 @@ title: ISyncMgrConflictResolveInfo::SetPresenterNextStep
 author: windows-sdk-content
 description: Sets what the presenter wants to do as the next step in the sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterNextStep.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a56ca252-89e5-4ad0-bc9a-f8c7b70bd536
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterNextStep method, ISyncMgrConflictResolveInfo.SetPresenterNextStep, ISyncMgrConflictResolveInfo::SetPresenterNextStep, SetPresenterNextStep, SetPresenterNextStep method [Windows Shell], SetPresenterNextStep method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterNextStep, shell.ISyncMgrConflictResolveInfo_SetPresenterNextStep, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterNextStep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictResolveInfo.SetPresenterNextStep
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictResolveInfo::SetPresenterNextStep

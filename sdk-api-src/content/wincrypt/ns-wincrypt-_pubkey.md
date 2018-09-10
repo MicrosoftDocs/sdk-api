@@ -4,7 +4,7 @@ title: "_PUBKEY"
 author: windows-sdk-content
 description: Contains information specific to the particular Diffie-Hellman public key contained in the key BLOB.
 old-location: security\dhpubkey.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHPUBKEY, DSSPUBKEY, KEAPUBKEY, TEKPUBKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DHPUBKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DHPUBKEY, DSSPUBKEY, KEAPUBKEY, TEKPUBKEY
+req.redist: 
 ---
 
 # _PUBKEY structure

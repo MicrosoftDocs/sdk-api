@@ -4,17 +4,16 @@ title: IXpsOMGlyphs::GetFillBrush
 author: windows-sdk-content
 description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrush.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 0deadd8e-24c5-4be1-8eaf-43cd59e22243
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMGlyphs.GetFillBrush
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMGlyphs::GetFillBrush

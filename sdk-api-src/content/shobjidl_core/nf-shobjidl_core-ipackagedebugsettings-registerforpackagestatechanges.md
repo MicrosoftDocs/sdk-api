@@ -4,17 +4,16 @@ title: IPackageDebugSettings::RegisterForPackageStateChanges
 author: windows-sdk-content
 description: Register for package state-change notifications.
 old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],RegisterForPackageStateChanges method, IPackageDebugSettings.RegisterForPackageStateChanges, IPackageDebugSettings::RegisterForPackageStateChanges, RegisterForPackageStateChanges, RegisterForPackageStateChanges method [Windows Shell], RegisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_RegisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPackageDebugSettings.RegisterForPackageStateChanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPackageDebugSettings::RegisterForPackageStateChanges

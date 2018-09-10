@@ -4,17 +4,16 @@ title: IAzClientContext::get_UserSamCompat
 author: windows-sdk-content
 description: Retrieves the name of the current client in a format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_usersamcompat.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3b1f9e8a-cc3b-4be6-b2d9-8e8b3164d46a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzClientContext object [Security],UserSamCompat property, IAzClientContext interface [Security],UserSamCompat property, IAzClientContext.UserSamCompat, IAzClientContext.get_UserSamCompat, IAzClientContext::UserSamCompat, IAzClientContext::get_UserSamCompat, UserSamCompat property [Security], UserSamCompat property [Security],AzClientContext object, UserSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserSamCompat, azroles/IAzClientContext::get_UserSamCompat, get_UserSamCompat, security.iazclientcontext_usersamcompat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzClientContext.UserSamCompat
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext::get_UserSamCompat

@@ -4,17 +4,16 @@ title: UalStart function
 author: windows-sdk-content
 description: Starts a User Access Logging (UAL) session.
 old-location: ual\ualstart.htm
-old-project: ual
+tech.root: ual
 ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ual.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECORD_READING_POLICY
+req.lib: Ualapi.lib
+req.dll: Ualapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UalStart
 product: Windows
 targetos: Windows
-req.lib: Ualapi.lib
-req.dll: Ualapi.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UalStart function

@@ -4,17 +4,16 @@ title: IADs::GetInfoEx
 author: windows-sdk-content
 description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.
 old-location: adsi\iads_getinfoex.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs interface, IADs interface [ADSI],GetInfoEx method, IADs.GetInfoEx, IADs::GetInfoEx, _ds_iads_getinfoex, adsi.iads__getinfoex, adsi.iads_getinfoex, iads/IADs::GetInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADs.GetInfoEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADs::GetInfoEx

@@ -4,17 +4,16 @@ title: Provider::DeleteInstance(ParsedObjectPath,long,MethodContext)
 author: windows-sdk-content
 description: The DeleteInstance method is called by WMI to delete an instance.
 old-location: wmi\provider_deleteinstance.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 469d2481-95ea-4d17-b0ef-095ced9c8319
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],DeleteInstance method, Provider.DeleteInstance, Provider.DeleteInstance(ParsedObjectPath,long,MethodContext), Provider::DeleteInstance, Provider::DeleteInstance(ParsedObjectPath,long,MethodContext), _hmm_provider_deleteinstance, provider/Provider::DeleteInstance, wmi.provider_deleteinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Provider.DeleteInstance
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::DeleteInstance(ParsedObjectPath,long,MethodContext)
@@ -69,7 +67,7 @@ The <b>DeleteInstance</b> method is called by WMI to delete an instance.
 
 ### -param pParsedObjectPath
 
-
+TBD
 
 
 ### -param lFlags
@@ -84,7 +82,7 @@ The following flag is handled by (and filtered out) by WMI:
 
 ### -param pContext
 
-
+TBD
 
 
 

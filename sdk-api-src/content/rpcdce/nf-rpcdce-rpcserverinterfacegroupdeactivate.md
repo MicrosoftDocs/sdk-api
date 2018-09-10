@@ -4,17 +4,16 @@ title: RpcServerInterfaceGroupDeactivate function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupDeactivate function tells the RPC runtime to attempt to close the given interface group, optionally aborting the operation if there is outstanding client activity.
 old-location: rpc\rpcserverinterfacegroupdeactivate.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 625D8E6E-278F-4A96-879B-64294531D21B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerInterfaceGroupDeactivate, RpcServerInterfaceGroupDeactivate function [RPC], rpc.rpcserverinterfacegroupdeactivate, rpcdce/RpcServerInterfaceGroupDeactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerInterfaceGroupDeactivate
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerInterfaceGroupDeactivate function

@@ -4,17 +4,16 @@ title: IWMProximityDetection::StartDetection
 author: windows-sdk-content
 description: The StartDetection method begins the proximity detection process. After calling this method, do not release the IWMProximityDetection until you recieve the WMT_PROXIMITY_COMPLETED message.
 old-location: wmformat\iwmproximitydetection_startdetection.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 90db4712-cf3e-4526-b07b-ea74c521dbc3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMProximityDetection interface [windows Media Format],StartDetection method, IWMProximityDetection.StartDetection, IWMProximityDetection::StartDetection, IWMProximityDetectionStartDetection, StartDetection, StartDetection method [windows Media Format], StartDetection method [windows Media Format],IWMProximityDetection interface, wmformat.iwmproximitydetection_startdetection, wmsdkidl/IWMProximityDetection::StartDetection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMProximityDetection.StartDetection
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProximityDetection::StartDetection

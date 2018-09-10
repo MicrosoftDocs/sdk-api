@@ -4,17 +4,16 @@ title: ChangeServiceConfig2W function
 author: windows-sdk-content
 description: Changes the optional configuration parameters of a service.
 old-location: base\changeserviceconfig2.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 6e5b79ed-52e1-460e-b076-01afbd08775c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceConfig2A, ChangeServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_changeserviceconfig2, base.changeserviceconfig2, winsvc/ChangeServiceConfig2, winsvc/ChangeServiceConfig2A, winsvc/ChangeServiceConfig2W
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ChangeServiceConfig2W
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ChangeServiceConfig2W function

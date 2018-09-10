@@ -4,17 +4,16 @@ title: IPhotoAcquireItem::GetProperty
 author: windows-sdk-content
 description: The GetProperty method retrieves the value of a property of an item.
 old-location: picacq\iphotoacquireitem_getproperty.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 47ee6a23-5a0b-4f45-b278-9ebbeebf4fbb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProperty, GetProperty method [Picture Acquisition], GetProperty method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetProperty method, IPhotoAcquireItem.GetProperty, IPhotoAcquireItem::GetProperty, IPhotoAcquireItemGetProperty, photoacquire/IPhotoAcquireItem::GetProperty, picacq.iphotoacquireitem_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireItem.GetProperty
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireItem::GetProperty

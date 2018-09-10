@@ -4,17 +4,16 @@ title: IQueryAssociations::GetData
 author: windows-sdk-content
 description: Searches for and retrieves file or protocol association-related binary data from the registry.
 old-location: shell\IQueryAssociations_GetData.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryAssociations.GetData
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryAssociations::GetData
@@ -76,7 +74,7 @@ The <a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">AS
 
 ### -param pszExtra
 
-
+TBD
 
 
 ### -param pvOut [out, optional]

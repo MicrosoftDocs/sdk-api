@@ -4,17 +4,16 @@ title: ICertSrvSetup::InitializeDefaults
 author: windows-sdk-content
 description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
 old-location: security\icertsrvsetup_initializedefaults.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertSrvSetup interface [Security],InitializeDefaults method, ICertSrvSetup.InitializeDefaults, ICertSrvSetup::InitializeDefaults, InitializeDefaults, InitializeDefaults method [Security], InitializeDefaults method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::InitializeDefaults, security.icertsrvsetup_initializedefaults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.InitializeDefaults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::InitializeDefaults

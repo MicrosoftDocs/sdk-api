@@ -4,7 +4,7 @@ title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
 author: windows-sdk-content
 description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.
 old-location: direct3d12\d3d12_debug_device_parameter_type.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 477155FF-9DF7-4E21-AF52-21EB3DBC3550
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_DEBUG_DEVICE_PARAMETER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_DEBUG_DEVICE_PARAMETER_TYPE
+req.redist: 
 ---
 
 # D3D12_DEBUG_DEVICE_PARAMETER_TYPE enumeration

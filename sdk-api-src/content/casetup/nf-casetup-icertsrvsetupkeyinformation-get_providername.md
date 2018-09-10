@@ -4,17 +4,16 @@ title: ICertSrvSetupKeyInformation::get_ProviderName
 author: windows-sdk-content
 description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
 old-location: security\icertsrvsetupkeyinformation_providername.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a8f50b34-0403-40c0-9ecb-f663ccbd622a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],ProviderName property, ICertSrvSetupKeyInformation.ProviderName, ICertSrvSetupKeyInformation.get_ProviderName, ICertSrvSetupKeyInformation::ProviderName, ICertSrvSetupKeyInformation::get_ProviderName, ICertSrvSetupKeyInformation::put_ProviderName, ProviderName property [Security], ProviderName property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::ProviderName, casetup/ICertSrvSetupKeyInformation::get_ProviderName, casetup/ICertSrvSetupKeyInformation::put_ProviderName, get_ProviderName, security.icertsrvsetupkeyinformation_providername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ICertSrvSetupKeyInformation.put_ProviderName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetupKeyInformation::get_ProviderName

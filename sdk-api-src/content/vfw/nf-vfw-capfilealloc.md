@@ -4,17 +4,16 @@ title: capFileAlloc macro
 author: windows-sdk-content
 description: The capFileAlloc macro creates (preallocates) a capture file of a specified size. You can use this macro or explicitly send the WM_CAP_FILE_ALLOCATE message.
 old-location: multimedia\capfilealloc.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 579c5406-f44a-4ea2-9822-f09a890489fb
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capFileAlloc, capFileAlloc, capFileAlloc macro [Windows Multimedia], multimedia.capfilealloc, vfw/capFileAlloc"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capFileAlloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capFileAlloc macro

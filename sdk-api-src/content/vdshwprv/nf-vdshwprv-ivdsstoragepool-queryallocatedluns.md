@@ -4,17 +4,16 @@ title: IVdsStoragePool::QueryAllocatedLuns
 author: windows-sdk-content
 description: Returns an object that enumerates the allocated LUNs for a storage pool.
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsStoragePool.QueryAllocatedLuns
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsStoragePool::QueryAllocatedLuns

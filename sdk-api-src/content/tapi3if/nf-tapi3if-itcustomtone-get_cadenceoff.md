@@ -4,17 +4,16 @@ title: ITCustomTone::get_CadenceOff
 author: windows-sdk-content
 description: The get_CadenceOff method retrieves the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceoff.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0d561ab6-fc38-4058-9443-d7825eae2dc5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOff method, ITCustomTone.get_CadenceOff, ITCustomTone::get_CadenceOff, _tapi3_itcustomtone_get_cadenceoff, get_CadenceOff, get_CadenceOff method [TAPI 2.2], get_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceoff, tapi3if/ITCustomTone::get_CadenceOff
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCustomTone.get_CadenceOff
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCustomTone::get_CadenceOff

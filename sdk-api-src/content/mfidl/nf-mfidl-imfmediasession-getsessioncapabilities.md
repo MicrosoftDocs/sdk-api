@@ -4,17 +4,16 @@ title: IMFMediaSession::GetSessionCapabilities
 author: windows-sdk-content
 description: Retrieves the capabilities of the Media Session, based on the current presentation.
 old-location: mf\imfmediasession_getsessioncapabilities.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetSessionCapabilities method, IMFMediaSession.GetSessionCapabilities, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.GetSessionCapabilities
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::GetSessionCapabilities

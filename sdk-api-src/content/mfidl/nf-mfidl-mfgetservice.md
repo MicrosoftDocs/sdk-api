@@ -4,17 +4,16 @@ title: MFGetService function
 author: windows-sdk-content
 description: Queries an object for a specified service interface.
 old-location: mf\mfgetservice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetService
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetService function

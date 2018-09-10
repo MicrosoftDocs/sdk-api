@@ -4,7 +4,7 @@ title: "_VDS_DRIVE_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a drive object. This structure is identical to the VDS_DRIVE_PROP structure, except that it includes the enclosure number, bus type, and spindle speed as members.
 old-location: base\vds_drive_prop2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: af932865-abb3-4dee-a7dc-3aa06fd167f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DRIVE_PROP2, *PVDS_DRIVE_PROP2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_DRIVE_PROP2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DRIVE_PROP2, *PVDS_DRIVE_PROP2
+req.redist: 
 ---
 
 # _VDS_DRIVE_PROP2 structure

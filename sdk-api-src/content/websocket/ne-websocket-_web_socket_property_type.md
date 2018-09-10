@@ -4,7 +4,7 @@ title: "_WEB_SOCKET_PROPERTY_TYPE"
 author: windows-sdk-content
 description: Specifies a WebSocket property type.
 old-location: websock\web_socket_property_type.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: d9442e90-a74f-452d-b1b5-9f4285b39f10
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WEB_SOCKET_PROPERTY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WEB_SOCKET_PROPERTY_TYPE
+req.redist: 
 ---
 
 # _WEB_SOCKET_PROPERTY_TYPE enumeration

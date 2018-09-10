@@ -4,17 +4,16 @@ title: IMFSensorActivityReport::GetSymbolicLink
 author: windows-sdk-content
 description: Gets the symbolic link for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getsymboliclink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorActivityReport.GetSymbolicLink
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorActivityReport::GetSymbolicLink

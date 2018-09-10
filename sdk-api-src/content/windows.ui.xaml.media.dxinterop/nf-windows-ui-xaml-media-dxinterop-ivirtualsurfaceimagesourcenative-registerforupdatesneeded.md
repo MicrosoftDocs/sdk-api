@@ -4,17 +4,16 @@ title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Registers for the callback that will perform the drawing when an update to the shared surface is requested.
 old-location: winrt\ivirtualsurfaceimagesourcenative_registerforupdatesneeded.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: D12AE5FD-ED3D-49E5-8E41-B1598C64A108
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],RegisterForUpdatesNeeded method, IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative::xaml, RegisterForUpdatesNeeded, RegisterForUpdatesNeeded method [Windows Runtime], RegisterForUpdatesNeeded method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, winrt.ivirtualsurfaceimagesourcenative_registerforupdatesneeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualSurfaceImageSourceNative::xaml
@@ -62,7 +60,7 @@ Registers for the callback that will perform the drawing when an update to the s
 
 ### -param callback
 
-
+TBD
 
 
 

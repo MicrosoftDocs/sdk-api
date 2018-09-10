@@ -4,17 +4,16 @@ title: IMSVidGenericSink2::AddFilter
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_addfilter.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies],IMSVidGenericSink2 interface, IMSVidGenericSink2 interface [Microsoft TV Technologies],AddFilter method, IMSVidGenericSink2.AddFilter, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidGenericSink2.AddFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidGenericSink2::AddFilter
@@ -70,7 +68,7 @@ The <b>AddFilter</b> method specifies a DirectShow filter that is added to the g
 
 ### -param bstrName
 
-
+TBD
 
 
 

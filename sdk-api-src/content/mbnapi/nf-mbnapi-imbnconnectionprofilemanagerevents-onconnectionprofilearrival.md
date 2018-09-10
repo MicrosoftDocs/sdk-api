@@ -4,17 +4,16 @@ title: IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
 author: windows-sdk-content
 description: Notification method that indicates a new connection profile has been added to the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofilearrival.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 94338c8c-2a89-412f-811e-5c50ecd9be70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileArrival method, IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival, IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival, OnConnectionProfileArrival, OnConnectionProfileArrival method [Microsoft Broadband Networks], OnConnectionProfileArrival method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofilearrival, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfileManagerEvents.OnConnectionProfileArrival
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfileManagerEvents::OnConnectionProfileArrival

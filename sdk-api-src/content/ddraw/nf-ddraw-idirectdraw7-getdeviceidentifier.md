@@ -4,17 +4,16 @@ title: IDirectDraw7::GetDeviceIdentifier
 author: windows-sdk-content
 description: Obtains information about the device driver. This method can be used, with caution, to recognize specific hardware installations to implement workarounds for poor driver or chipset behavior.
 old-location: directdraw\idirectdraw7_getdeviceidentifier.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 1524dae8-e383-47f4-8e18-c8ef235b3176
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DDGDI_GETHOSTIDENTIFIER, GetDeviceIdentifier, GetDeviceIdentifier method [DirectDraw], GetDeviceIdentifier method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDeviceIdentifier method, IDirectDraw7.GetDeviceIdentifier, IDirectDraw7::GetDeviceIdentifier, ddraw/IDirectDraw7::GetDeviceIdentifier, directdraw.idirectdraw7_getdeviceidentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.GetDeviceIdentifier
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::GetDeviceIdentifier
@@ -60,9 +59,14 @@ Obtains information about the device driver. This method can be used, with cauti
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IApiTracingDataCollector::get_IncludeModules
 author: windows-sdk-content
 description: Retrieves or sets the list of modules to include in the trace.
 old-location: pla\iapitracingdatacollector_includemodules.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: ec97533c-88a7-4360-bc2d-8e6465256032
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],IncludeModules property, IApiTracingDataCollector.IncludeModules, IApiTracingDataCollector.get_IncludeModules, IApiTracingDataCollector::IncludeModules, IApiTracingDataCollector::get_IncludeModules, IApiTracingDataCollector::put_IncludeModules, IncludeModules property [PLA], IncludeModules property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_includemodules, get_IncludeModules, pla.iapitracingdatacollector_includemodules, pla/IApiTracingDataCollector::IncludeModules, pla/IApiTracingDataCollector::get_IncludeModules, pla/IApiTracingDataCollector::put_IncludeModules
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IApiTracingDataCollector.put_IncludeModules
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApiTracingDataCollector::get_IncludeModules

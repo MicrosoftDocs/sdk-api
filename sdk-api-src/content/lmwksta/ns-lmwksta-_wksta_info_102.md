@@ -4,7 +4,7 @@ title: "_WKSTA_INFO_102"
 author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_102_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 01607fb5-c433-439c-aaaa-3736697f7c07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WKSTA_INFO_102, *PWKSTA_INFO_102, *LPWKSTA_INFO_102
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WKSTA_INFO_102
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WKSTA_INFO_102, *PWKSTA_INFO_102, *LPWKSTA_INFO_102
+req.redist: 
 ---
 
 # _WKSTA_INFO_102 structure

@@ -4,7 +4,7 @@ title: "_OCSP_REQUEST_INFO"
 author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request as specified by RFC 2560.
 old-location: security\ocsp_request_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ec939c3b-f155-45f2-b507-6c2e6069a868
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCSP_REQUEST_INFO, *POCSP_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCSP_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: OCSP_REQUEST_INFO, *POCSP_REQUEST_INFO
+req.redist: 
 ---
 
 # _OCSP_REQUEST_INFO structure

@@ -4,17 +4,16 @@ title: IMFByteStreamCacheControl2::SetCacheLimit
 author: windows-sdk-content
 description: Limits the cache size.
 old-location: mf\imfbytestreamcachecontrol2_setcachelimit.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1DDC3D76-E28B-4B8C-B2CD-FE77E840D949
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],SetCacheLimit method, IMFByteStreamCacheControl2.SetCacheLimit, IMFByteStreamCacheControl2::SetCacheLimit, SetCacheLimit, SetCacheLimit method [Media Foundation], SetCacheLimit method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_setcachelimit, mfidl/IMFByteStreamCacheControl2::SetCacheLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFByteStreamCacheControl2.SetCacheLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStreamCacheControl2::SetCacheLimit

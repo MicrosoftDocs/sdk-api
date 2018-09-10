@@ -4,17 +4,16 @@ title: IVdsHwProvider::QuerySubSystems
 author: windows-sdk-content
 description: Returns an enumeration of the subsystems managed by the provider.
 old-location: base\ivdshwprovider_querysubsystems.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsHwProvider interface [VDS],QuerySubSystems method, IVdsHwProvider.QuerySubSystems, IVdsHwProvider::QuerySubSystems, QuerySubSystems, QuerySubSystems method [VDS], QuerySubSystems method [VDS],IVdsHwProvider interface, base.ivdshwprovider_querysubsystems, vds/IVdsHwProvider::QuerySubSystems, vdshwprv/IVdsHwProvider::QuerySubSystems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsHwProvider.QuerySubSystems
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProvider::QuerySubSystems

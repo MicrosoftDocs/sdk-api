@@ -4,17 +4,16 @@ title: IVdsLunMpio::GetLoadBalancePolicy
 author: windows-sdk-content
 description: Returns the current load balance policy on the LUN.
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetLoadBalancePolicy method, IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy, vdshwprv/IVdsLunMpio::GetLoadBalancePolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLunMpio.GetLoadBalancePolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLunMpio::GetLoadBalancePolicy

@@ -4,17 +4,16 @@ title: MprAdminConnectionHangupNotificationEx function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotificationex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: de251e1b-53ff-45c8-8e2e-65ac26b4a7f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminConnectionHangupNotificationEx, MprAdminConnectionHangupNotificationEx callback, MprAdminConnectionHangupNotificationEx callback function [RAS], mprapi/MprAdminConnectionHangupNotificationEx, rras.mpradminconnectionhangupnotificationex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminConnectionHangupNotificationEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminConnectionHangupNotificationEx function

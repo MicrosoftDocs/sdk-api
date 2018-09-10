@@ -4,17 +4,16 @@ title: ICrmMonitorClerks::Description
 author: windows-sdk-content
 description: Retrieves the description of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_description.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3603d898-1601-419b-b3f8-3ad49f2070a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Description, Description method [COM+], Description method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],Description method, ICrmMonitorClerks.Description, ICrmMonitorClerks::Description, _dtc_ICrmMonitorClerks_Description, comsvcs/ICrmMonitorClerks::Description, cos.icrmmonitorclerks_description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorClerks.Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorClerks::Description

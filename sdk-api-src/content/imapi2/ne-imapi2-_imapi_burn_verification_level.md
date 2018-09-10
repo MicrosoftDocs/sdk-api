@@ -4,7 +4,7 @@ title: "_IMAPI_BURN_VERIFICATION_LEVEL"
 author: windows-sdk-content
 description: Defines values for the burn verification implemented by the IBurnVerification interface.
 old-location: imapi\imapi_burn_verification_level.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMAPI_BURN_VERIFICATION_LEVEL
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
+req.redist: 
 ---
 
 # _IMAPI_BURN_VERIFICATION_LEVEL enumeration

@@ -4,17 +4,16 @@ title: ITextFont2::SetUnderlinePositionMode
 author: windows-sdk-content
 description: Sets the underline position mode.
 old-location: controls\itextfont2_setunderlinepositionmode.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetUnderlinePositionMode method, ITextFont2.SetUnderlinePositionMode, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.SetUnderlinePositionMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::SetUnderlinePositionMode

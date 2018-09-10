@@ -4,17 +4,16 @@ title: GetContextPreferenceFlags function
 author: windows-sdk-content
 description: Gets the context preference flags.
 old-location: tablet\getcontextpreferenceflags.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 0804cd56-7baf-4b93-97b5-4131118b72b6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tablet PC], recapis/GetContextPreferenceFlags, tablet.getcontextpreferenceflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetContextPreferenceFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetContextPreferenceFlags function

@@ -4,17 +4,16 @@ title: IHolder::AllocResource
 author: windows-sdk-content
 description: Allocates a resource from the inventory.
 old-location: cos\iholder_allocresource.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AllocResource, AllocResource method [COM+], AllocResource method [COM+],IHolder interface, IHolder interface [COM+],AllocResource method, IHolder.AllocResource, IHolder::AllocResource, _dtc_IHolder_AllocResource, comsvcs/IHolder::AllocResource, cos.iholder_allocresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IHolder.AllocResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IHolder::AllocResource
@@ -61,12 +60,12 @@ Allocates a resource from the inventory.
 
 ### -param __MIDL__IHolder0000
 
-
+TBD
 
 
 ### -param __MIDL__IHolder0001
 
-
+TBD
 
 
 

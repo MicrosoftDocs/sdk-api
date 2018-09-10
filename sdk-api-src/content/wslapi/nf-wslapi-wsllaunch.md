@@ -4,17 +4,16 @@ title: WslLaunch function
 author: windows-sdk-content
 description: Launches a Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunch.htm
-old-project: wsl
+tech.root: wsl
 ms.assetid: 0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WslLaunch, WslLaunch function, wsl.wsllaunch, wslapi/WslLaunch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSL_DISTRIBUTION_FLAGS
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WslLaunch
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WslLaunch function

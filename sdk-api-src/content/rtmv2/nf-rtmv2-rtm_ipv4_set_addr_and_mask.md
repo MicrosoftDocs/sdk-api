@@ -4,17 +4,16 @@ title: RTM_IPV4_SET_ADDR_AND_MASK macro
 author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_mask.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 23849eed-309a-41b8-b853-1267806166fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_mask, rras.rtm_ipv4_set_addr_and_mask, rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_IPV4_SET_ADDR_AND_MASK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RTM_IPV4_SET_ADDR_AND_MASK macro

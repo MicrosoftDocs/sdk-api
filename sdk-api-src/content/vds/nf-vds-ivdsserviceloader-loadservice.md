@@ -4,17 +4,16 @@ title: IVdsServiceLoader::LoadService
 author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLoader.LoadService, IVdsServiceLoader::LoadService, LoadService, LoadService method [VDS], LoadService method [VDS],IVdsServiceLoader interface, base.ivdsserviceloader_loadservice, vds/IVdsServiceLoader::LoadService
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceLoader.LoadService
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsServiceLoader::LoadService

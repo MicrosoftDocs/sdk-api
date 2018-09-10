@@ -4,17 +4,16 @@ title: ITTerminalManager2::GetPluggableTerminalClasses
 author: windows-sdk-content
 description: The GetPluggableTerminalClasses method lists the terminal classes for all pluggable terminals registered under a terminal superclass.
 old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetPluggableTerminalClasses, GetPluggableTerminalClasses method [TAPI 2.2], GetPluggableTerminalClasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableTerminalClasses method, ITTerminalManager2.GetPluggableTerminalClasses, ITTerminalManager2::GetPluggableTerminalClasses, _tapi3_itterminalmanager2_getpluggableterminalclasses, tapi3.itterminalmanager2_getpluggableterminalclasses, termmgr/ITTerminalManager2::GetPluggableTerminalClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalManager2.GetPluggableTerminalClasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalManager2::GetPluggableTerminalClasses

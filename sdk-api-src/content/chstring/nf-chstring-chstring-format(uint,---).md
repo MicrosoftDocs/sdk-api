@@ -4,17 +4,16 @@ title: CHString::Format(UINT,
 author: windows-sdk-content
 description: The Format method formats and stores a series of characters and values in a CHString string.
 old-location: wmi\chstring_format.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CHString.Format, CHString.Format(UINT,, CHString::Format, CHString::Format methods [Windows Management Instrumentation], CHString::Format(UINT,, Format, chstring/CHString::Format, wmi.chstring_format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString::Format
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::Format(UINT,

@@ -4,17 +4,16 @@ title: IDvdGraphBuilder::GetFiltergraph
 author: windows-sdk-content
 description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.
 old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdGraphBuilder.GetFiltergraph
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdGraphBuilder::GetFiltergraph

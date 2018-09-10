@@ -4,17 +4,16 @@ title: IBackgroundCopyJob::GetProgress
 author: windows-sdk-content
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\ibackgroundcopyjob_getprogress.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_PROXY_USAGE
+req.lib: Bits.lib
+req.dll: QmgrPrxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob.GetProgress
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: QmgrPrxy.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJob::GetProgress
@@ -61,7 +60,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 
 ### -param pVal
 
-
+TBD
 
 
 

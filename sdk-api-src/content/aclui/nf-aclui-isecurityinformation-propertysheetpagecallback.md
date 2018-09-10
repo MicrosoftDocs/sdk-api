@@ -4,17 +4,16 @@ title: ISecurityInformation::PropertySheetPageCallback
 author: windows-sdk-content
 description: The PropertySheetPageCallback method notifies an EditSecurity or CreateSecurityPage caller that an access control editor property page is being created or destroyed.
 old-location: security\isecurityinformation_propertysheetpagecallback.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 9b891e64-e648-44a4-add6-d4c214394be8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISecurityInformation interface [Security],PropertySheetPageCallback method, ISecurityInformation.PropertySheetPageCallback, ISecurityInformation::PropertySheetPageCallback, PSPCB_CREATE, PSPCB_RELEASE, PSPCB_SI_INITDIALOG, PropertySheetPageCallback, PropertySheetPageCallback method [Security], PropertySheetPageCallback method [Security],ISecurityInformation interface, _win32_isecurityinformation_propertysheetpagecallback, aclui/ISecurityInformation::PropertySheetPageCallback, security.isecurityinformation_propertysheetpagecallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation.PropertySheetPageCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation::PropertySheetPageCallback

@@ -4,17 +4,16 @@ title: NPGetUser function
 author: windows-sdk-content
 description: Retrieves the value of the current default user name or the user name used to establish a network connection.
 old-location: security\npgetuser.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPGetUser
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPGetUser function

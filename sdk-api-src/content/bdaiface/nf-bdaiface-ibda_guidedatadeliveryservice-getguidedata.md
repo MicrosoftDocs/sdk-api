@@ -4,17 +4,16 @@ title: IBDA_GuideDataDeliveryService::GetGuideData
 author: windows-sdk-content
 description: Gets the next set of guide data that is available.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetGuideData, GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideData method, IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_GuideDataDeliveryService.GetGuideData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_GuideDataDeliveryService::GetGuideData

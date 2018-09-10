@@ -4,7 +4,7 @@ title: "_NOTIFYICONDATAA"
 author: windows-sdk-content
 description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
 old-location: shell\NOTIFYICONDATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NOTIFYICONDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA
+req.redist: 
 ---
 
 # _NOTIFYICONDATAA structure

@@ -4,17 +4,16 @@ title: IMFCapturePhotoSink::SetSampleCallback
 author: windows-sdk-content
 description: Sets a callback to receive the still-image data.
 old-location: mf\imfcapturephotosink_setsamplecallback.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 595716F6-8059-4B56-9FB3-906846BA3CBB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetSampleCallback method, IMFCapturePhotoSink.SetSampleCallback, IMFCapturePhotoSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setsamplecallback, mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCapturePhotoSink.SetSampleCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCapturePhotoSink::SetSampleCallback

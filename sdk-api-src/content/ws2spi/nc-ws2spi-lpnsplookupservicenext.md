@@ -4,7 +4,7 @@ title: LPNSPLOOKUPSERVICENEXT
 author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\nsplookupservicenext_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSPLookupServiceNext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LPNSPLOOKUPSERVICENEXT callback function

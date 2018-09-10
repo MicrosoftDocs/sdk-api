@@ -4,17 +4,16 @@ title: ITuner::put_PreferredComponentTypes
 author: windows-sdk-content
 description: The put_PreferredComponentTypes method sets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_put_preferredcomponenttypes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cca12a71-c842-4340-9233-f4143f6e0eea
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_PreferredComponentTypes method, ITuner.put_PreferredComponentTypes, ITuner::put_PreferredComponentTypes, ITunerput_PreferredComponentTypes, mstv.ituner_put_preferredcomponenttypes, put_PreferredComponentTypes, put_PreferredComponentTypes method [Microsoft TV Technologies], put_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_PreferredComponentTypes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuner.put_PreferredComponentTypes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuner::put_PreferredComponentTypes
@@ -65,7 +63,7 @@ The <b>put_PreferredComponentTypes</b> method sets the collection of <b>Componen
 
 ### -param ComponentTypes
 
-
+TBD
 
 
 

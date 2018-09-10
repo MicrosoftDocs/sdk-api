@@ -4,17 +4,16 @@ title: WsCheckMustUnderstandHeaders function
 author: windows-sdk-content
 description: Verifies that the specified headers were understood by the receiver. Note  This function should be called after all headers have been read for a received message.  .
 old-location: wsw\wscheckmustunderstandheaders.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsCheckMustUnderstandHeaders
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsCheckMustUnderstandHeaders function

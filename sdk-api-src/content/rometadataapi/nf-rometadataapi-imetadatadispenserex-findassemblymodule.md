@@ -4,17 +4,16 @@ title: IMetaDataDispenserEx::FindAssemblyModule
 author: windows-sdk-content
 description: Finds the name of the assembly module.
 old-location: winrt\imetadatadispenserex_findassemblymodule.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 258d670b-6a94-4151-8746-a3df69677c5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindAssemblyModule, FindAssemblyModule method [Windows Runtime], FindAssemblyModule method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssemblyModule method, IMetaDataDispenserEx.FindAssemblyModule, IMetaDataDispenserEx::FindAssemblyModule, rometadataapi/IMetaDataDispenserEx::FindAssemblyModule, winrt.imetadatadispenserex_findassemblymodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataDispenserEx.FindAssemblyModule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataDispenserEx::FindAssemblyModule

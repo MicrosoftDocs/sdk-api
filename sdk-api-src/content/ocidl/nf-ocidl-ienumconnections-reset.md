@@ -4,17 +4,16 @@ title: IEnumConnections::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumconnections_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: 444c9398-199f-4d87-9b1e-075d5af0b649
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumConnections interface [COM],Reset method, IEnumConnections.Reset, IEnumConnections::Reset, Reset, Reset method [COM], Reset method [COM],IEnumConnections interface, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumConnections.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumConnections::Reset

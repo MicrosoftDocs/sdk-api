@@ -4,7 +4,7 @@ title: "_EAP_METHOD_PROPERTY_VALUE_TYPE"
 author: windows-sdk-content
 description: Defines the set of possible data types for an EAP method property value.
 old-location: eaphost\eap_method_property_value_type.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_METHOD_PROPERTY_VALUE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_METHOD_PROPERTY_VALUE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_METHOD_PROPERTY_VALUE_TYPE
+req.redist: 
 ---
 
 # _EAP_METHOD_PROPERTY_VALUE_TYPE enumeration

@@ -4,17 +4,16 @@ title: SCODE_FACILITY macro
 author: windows-sdk-content
 description: Extracts the facility of the specified SCODE.
 old-location: com\scode_facility_macro.htm
-old-project: com
+tech.root: com
 ms.assetid: 646e2d98-69c4-43ac-b939-c67a61d7cbce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCODE_FACILITY, SCODE_FACILITY macro [COM], _com_SCODE_FACILITY, com.scode_facility, com.scode_facility_macro, winerror/SCODE_FACILITY
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCODE_FACILITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SCODE_FACILITY macro

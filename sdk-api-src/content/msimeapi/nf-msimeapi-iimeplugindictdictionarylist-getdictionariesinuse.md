@@ -4,17 +4,16 @@ title: IImePlugInDictDictionaryList::GetDictionariesInUse
 author: windows-sdk-content
 description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msimeapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POSTBL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IImePlugInDictDictionaryList.GetDictionariesInUse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IImePlugInDictDictionaryList::GetDictionariesInUse

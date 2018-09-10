@@ -4,17 +4,16 @@ title: GetLogicalProcessorInformationEx function
 author: windows-sdk-content
 description: Retrieves information about the relationships of logical processors and related hardware.
 old-location: base\getlogicalprocessorinformationex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - GetLogicalProcessorInformationEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetLogicalProcessorInformationEx function

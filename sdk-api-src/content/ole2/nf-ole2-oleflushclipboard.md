@@ -4,17 +4,16 @@ title: OleFlushClipboard function
 author: windows-sdk-content
 description: Carries out the clipboard shutdown sequence. It also releases the IDataObject pointer that was placed on the clipboard by the OleSetClipboard function.
 old-location: com\oleflushclipboard.htm
-old-project: com
+tech.root: com
 ms.assetid: 18291a91-be7d-42ec-a44a-d1bbfb017c6e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushClipboard, com.oleflushclipboard, ole2/OleFlushClipboard
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - OleFlushClipboard
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleFlushClipboard function

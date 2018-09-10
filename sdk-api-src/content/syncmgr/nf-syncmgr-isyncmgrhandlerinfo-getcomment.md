@@ -4,17 +4,16 @@ title: ISyncMgrHandlerInfo::GetComment
 author: windows-sdk-content
 description: Gets a string that contains commentary regarding the handler.
 old-location: shell\ISyncMgrHandlerInfo_GetComment.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 755d3038-934f-42b7-a807-7037fa0ea21e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetComment method, ISyncMgrHandlerInfo.GetComment, ISyncMgrHandlerInfo::GetComment, _shell_ISyncMgrHandlerInfo_GetComment, shell.ISyncMgrHandlerInfo_GetComment, syncmgr/ISyncMgrHandlerInfo::GetComment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandlerInfo.GetComment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandlerInfo::GetComment

@@ -4,17 +4,16 @@ title: IAutoComplete2::SetOptions
 author: windows-sdk-content
 description: Sets the current autocomplete options.
 old-location: shell\IAutoComplete2_SetOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d3562845-fc28-4726-a520-29720f9924fc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAutoComplete2 interface [Windows Shell],SetOptions method, IAutoComplete2.SetOptions, IAutoComplete2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IAutoComplete2 interface, _win32_IAutoComplete2_SetOptions, shell.IAutoComplete2_SetOptions, shldisp/IAutoComplete2::SetOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAutoComplete2.SetOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAutoComplete2::SetOptions

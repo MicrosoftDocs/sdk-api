@@ -4,17 +4,16 @@ title: IFolderView::Items
 author: windows-sdk-content
 description: Gets the address of an enumeration object based on the collection of items in the folder view.
 old-location: shell\IFolderView_Items.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f93e2d30-7b50-48e8-a3e7-6fa29abb8a32
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderView interface [Windows Shell],Items method, IFolderView.Items, IFolderView::Items, Items, Items method [Windows Shell], Items method [Windows Shell],IFolderView interface, _shell_IFolderView_Items, shell.IFolderView_Items, shobjidl_core/IFolderView::Items
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView.Items
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView::Items

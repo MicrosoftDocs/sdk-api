@@ -4,17 +4,16 @@ title: IWdsTransportTftpClient::get_FileSize
 author: windows-sdk-content
 description: Receives the size in bytes of the file being transferred.
 old-location: wds\iwdstransporttftpclient_filesize.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 1F9E948E-BE0B-4B7C-8693-5B01D1B4098F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FileSize property [Windows Deployment Services], FileSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileSize property, IWdsTransportTftpClient.FileSize, IWdsTransportTftpClient.get_FileSize, IWdsTransportTftpClient::FileSize, IWdsTransportTftpClient::get_FileSize, get_FileSize, wds.iwdstransporttftpclient_filesize, wdstptmgmt/IWdsTransportTftpClient::FileSize, wdstptmgmt/IWdsTransportTftpClient::get_FileSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWdsTransportTftpClient.get_FileSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportTftpClient::get_FileSize

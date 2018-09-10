@@ -4,7 +4,7 @@ title: "_CRYPT_AES_128_KEY_STATE"
 author: windows-sdk-content
 description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_128_key_state.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 1a472caa-e57a-4b3a-ab28-8aacf8e39ad1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_AES_128_KEY_STATE, *PCRYPT_AES_128_KEY_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_AES_128_KEY_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_AES_128_KEY_STATE, *PCRYPT_AES_128_KEY_STATE
+req.redist: 
 ---
 
 # _CRYPT_AES_128_KEY_STATE structure

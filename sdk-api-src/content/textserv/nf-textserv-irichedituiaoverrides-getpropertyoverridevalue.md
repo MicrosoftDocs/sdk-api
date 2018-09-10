@@ -4,17 +4,16 @@ title: IRicheditUiaOverrides::GetPropertyOverrideValue
 author: windows-sdk-content
 description: Retrieves the host container's override value for the specified Microsoft UI Automation accessibility property of a windowless rich edit control.
 old-location: controls\irichedituiaoverrides_getpropertyoverridevalue.htm
-old-project: controls
+tech.root: controls
 ms.assetid: C949A3DA-F98E-4035-8986-A76EB8F54558
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyOverrideValue, GetPropertyOverrideValue method [Windows Controls], GetPropertyOverrideValue method [Windows Controls],IRicheditUiaOverrides interface, IRicheditUiaOverrides interface [Windows Controls],GetPropertyOverrideValue method, IRicheditUiaOverrides.GetPropertyOverrideValue, IRicheditUiaOverrides::GetPropertyOverrideValue, controls.irichedituiaoverrides_getpropertyoverridevalue, textserv/IRicheditUiaOverrides::GetPropertyOverrideValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRicheditUiaOverrides.GetPropertyOverrideValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRicheditUiaOverrides::GetPropertyOverrideValue

@@ -4,17 +4,16 @@ title: ComboBox_SetMinVisible macro
 author: windows-sdk-content
 description: Sets the minimum number of visible items in the drop-down list of a combo box.
 old-location: controls\ComboBox_SetMinVisible.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setminvisible.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComboBox_SetMinVisible, ComboBox_SetMinVisible macro [Windows Controls], _win32_ComboBox_SetMinVisible, _win32_ComboBox_SetMinVisible_cpp, commctrl/ComboBox_SetMinVisible, controls.ComboBox_SetMinVisible, controls._win32_ComboBox_SetMinVisible
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ComboBox_SetMinVisible
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ComboBox_SetMinVisible macro

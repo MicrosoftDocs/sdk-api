@@ -4,17 +4,16 @@ title: ITextDocument::Undo
 author: windows-sdk-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocument.Undo, ITextDocument::Undo, Undo, Undo method [Windows Controls], Undo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument.Undo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument::Undo
@@ -69,7 +67,7 @@ The specified number of undo operations. If the value of this parameter is <b>to
 
 ### -param pCount
 
-
+TBD
 
 
 

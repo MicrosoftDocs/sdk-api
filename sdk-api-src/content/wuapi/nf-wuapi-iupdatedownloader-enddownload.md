@@ -4,17 +4,16 @@ title: IUpdateDownloader::EndDownload
 author: windows-sdk-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUpdateDownloader.EndDownload
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateDownloader::EndDownload

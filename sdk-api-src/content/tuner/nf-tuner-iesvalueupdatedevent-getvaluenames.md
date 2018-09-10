@@ -4,17 +4,16 @@ title: IESValueUpdatedEvent::GetValueNames
 author: windows-sdk-content
 description: For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated.
 old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESValueUpdatedEvent.GetValueNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESValueUpdatedEvent::GetValueNames

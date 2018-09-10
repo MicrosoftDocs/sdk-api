@@ -4,17 +4,16 @@ title: ICertServerPolicy::SetContext
 author: windows-sdk-content
 description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
 old-location: security\icertserverpolicy_setcontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],SetContext method, ICertServerPolicy interface [Security],SetContext method, ICertServerPolicy.SetContext, ICertServerPolicy::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerPolicy object, SetContext method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerPolicy.SetContext
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerPolicy::SetContext

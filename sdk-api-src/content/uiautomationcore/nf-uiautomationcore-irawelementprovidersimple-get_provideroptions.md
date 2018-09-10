@@ -4,17 +4,16 @@ title: IRawElementProviderSimple::get_ProviderOptions
 author: windows-sdk-content
 description: Specifies the type of Microsoft UI Automation provider; for example, whether it is a client-side (proxy) or server-side provider.
 old-location: winauto\uiauto_IRawElementProviderSimple_ProviderOptions.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: fd41bb43-bbf1-4022-9472-0ad2816074c6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRawElementProviderSimple interface [Windows Accessibility],ProviderOptions property, IRawElementProviderSimple.ProviderOptions, IRawElementProviderSimple.get_ProviderOptions, IRawElementProviderSimple::ProviderOptions, IRawElementProviderSimple::get_ProviderOptions, ProviderOptions property [Windows Accessibility], ProviderOptions property [Windows Accessibility],IRawElementProviderSimple interface, get_ProviderOptions, uiauto.uiauto_IRawElementProviderSimple_ProviderOptions, uiauto_IRawElementProviderSimple_ProviderOptions, uiautomationcore/IRawElementProviderSimple::ProviderOptions, uiautomationcore/IRawElementProviderSimple::get_ProviderOptions, winauto.uiauto_IRawElementProviderSimple_ProviderOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRawElementProviderSimple.get_ProviderOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderSimple::get_ProviderOptions

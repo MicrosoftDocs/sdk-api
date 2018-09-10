@@ -4,7 +4,7 @@ title: "_SC_ACTION"
 author: windows-sdk-content
 description: Represents an action that the service control manager can perform.
 old-location: base\sc_action_str.htm
-old-project: Services
+tech.root: Services
 ms.assetid: e2c355a6-affe-46bf-a3e6-f8c420422d46
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SC_ACTION, *LPSC_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SC_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SC_ACTION, *LPSC_ACTION
+req.redist: 
 ---
 
 # _SC_ACTION structure

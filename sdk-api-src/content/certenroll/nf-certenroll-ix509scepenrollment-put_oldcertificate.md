@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::put_OldCertificate
 author: windows-sdk-content
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: caa88227-b068-4b3d-9334-c0283153b1ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment.put_OldCertificate, IX509SCEPEnrollment::OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, put_OldCertificate, security.ix509scepenrollment_oldcertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509SCEPEnrollment.put_OldCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::put_OldCertificate

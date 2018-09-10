@@ -4,17 +4,16 @@ title: IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 3A7E562C-52ED-45A4-B473-6ACBF6A9C0E9
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRotateTransform3D.SetCenterY
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the CenterY property of a 3D rotation transform. The Center
 
 ### -param animation
 
-
+TBD
 
 
 

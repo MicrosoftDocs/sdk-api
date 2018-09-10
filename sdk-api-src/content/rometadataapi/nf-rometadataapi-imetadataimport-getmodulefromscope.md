@@ -4,17 +4,16 @@ title: IMetaDataImport::GetModuleFromScope
 author: windows-sdk-content
 description: Gets a metadata token for the module referenced in the current metadata scope.
 old-location: winrt\imetadataimport_getmodulefromscope.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetModuleFromScope, GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleFromScope method, IMetaDataImport.GetModuleFromScope, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetModuleFromScope
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetModuleFromScope

@@ -4,17 +4,16 @@ title: WNetOpenEnumA function
 author: windows-sdk-content
 description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.
 old-location: wnet\wnetopenenum.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: 0, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ALL, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, RESOURCE_REMEMBERED, WNetOpenEnum, WNetOpenEnum function [Windows Networking (WNet)], WNetOpenEnumA, WNetOpenEnumW, _win32_wnetopenenum, winnetwk/WNetOpenEnum, winnetwk/WNetOpenEnumA, winnetwk/WNetOpenEnumW, wnet.wnetopenenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetOpenEnumW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetOpenEnumA function

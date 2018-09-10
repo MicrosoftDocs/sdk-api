@@ -4,7 +4,7 @@ title: "_PS_SHAPER_STATS"
 author: windows-sdk-content
 description: The PS_SHAPER_STATS structure provides statistical packet shaper information about the computer's packet shaper component. Note that the PS_SHAPER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_shaper_stats.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: fd2ef45d-154a-47b0-ba40-a823f9dd6dce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PS_SHAPER_STATS, *PPS_SHAPER_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PS_SHAPER_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PS_SHAPER_STATS, *PPS_SHAPER_STATS
+req.redist: 
 ---
 
 # _PS_SHAPER_STATS structure

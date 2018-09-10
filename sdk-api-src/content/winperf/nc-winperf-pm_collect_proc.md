@@ -4,7 +4,7 @@ title: PM_COLLECT_PROC
 author: windows-sdk-content
 description: Collects the performance data and returns it to the consumer.
 old-location: perf\collectperformancedata.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winperf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOW64_LDT_ENTRY, *PWOW64_LDT_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CollectPerformanceData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PM_COLLECT_PROC callback function

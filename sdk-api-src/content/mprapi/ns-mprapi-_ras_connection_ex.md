@@ -4,7 +4,7 @@ title: "_RAS_CONNECTION_EX"
 author: windows-sdk-content
 description: Contains specific information for the connection that includes:\_the user name, domain, and Globally Unique Identifier (GUID) associated with the connection, its Network Access Protection (NAP) quarantine state, its packet statistics, as well as its Point-to-Point(PPP) and Internet Key Exchange version 2 (IKEv2) related information.
 old-location: rras\ras_connection_ex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 48526073-caeb-463e-b85b-1ef46ca1e2b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_CONNECTION_EX, *PRAS_CONNECTION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_CONNECTION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_CONNECTION_EX, *PRAS_CONNECTION_EX
+req.redist: 
 ---
 
 # _RAS_CONNECTION_EX structure

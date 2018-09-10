@@ -4,17 +4,16 @@ title: ITocEntry::SetTitle
 author: windows-sdk-content
 description: The SetTitle method sets the title of the entry.
 old-location: mf\itocentry_settitle.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocEntry.SetTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocEntry::SetTitle

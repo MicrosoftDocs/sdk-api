@@ -4,17 +4,16 @@ title: IADsTSUserEx::get_TerminalServicesWorkDirectory
 author: windows-sdk-content
 description: The working directory path for the user.
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 66048329-ae5a-4e70-b6a4-dcdc312a74df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesWorkDirectory property, IADsTSUserEx.TerminalServicesWorkDirectory, IADsTSUserEx.get_TerminalServicesWorkDirectory, IADsTSUserEx::TerminalServicesWorkDirectory, IADsTSUserEx::get_TerminalServicesWorkDirectory, IADsTSUserEx::put_TerminalServicesWorkDirectory, TerminalServicesWorkDirectory property [Remote Desktop Services], TerminalServicesWorkDirectory property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesWorkDirectory, termserv.iadstsuserex_terminalservicesworkdirectory, tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_TerminalServicesWorkDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::get_TerminalServicesWorkDirectory

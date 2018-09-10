@@ -4,17 +4,16 @@ title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout
 author: windows-sdk-content
 description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
 old-location: tsf\itffngetpreferredtouchkeyboardlayout_getlayout.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 03C14744-A4A3-4C62-8E7F-CDCC638BBCA1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetLayout, GetLayout method [Text Services Framework], GetLayout method [Text Services Framework],ITfFnGetPreferredTouchKeyboardLayout interface, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],GetLayout method, ITfFnGetPreferredTouchKeyboardLayout.GetLayout, ITfFnGetPreferredTouchKeyboardLayout::GetLayout, ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout, tsf.itffngetpreferredtouchkeyboardlayout_getlayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITfFnGetPreferredTouchKeyboardLayout::GetLayout

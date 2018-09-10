@@ -4,17 +4,16 @@ title: CertIsValidCRLForCertificate function
 author: windows-sdk-content
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertIsValidCRLForCertificate
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertIsValidCRLForCertificate function

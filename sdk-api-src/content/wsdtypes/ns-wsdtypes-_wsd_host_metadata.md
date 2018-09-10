@@ -4,7 +4,7 @@ title: "_WSD_HOST_METADATA"
 author: windows-sdk-content
 description: Provides metadata for all services hosted by a device.
 old-location: ncd\wsd_host_metadata_struct.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: da774582-3b27-470d-9b6a-ac2b106a47b9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_HOST_METADATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_HOST_METADATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_HOST_METADATA
+req.redist: 
 ---
 
 # _WSD_HOST_METADATA structure

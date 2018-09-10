@@ -4,17 +4,16 @@ title: IWdsTransportConfigurationManager::get_DiagnosticsPolicy
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager's Diagnostics Policy object. The object can be used to configure diagnostics settings that WDS transport server components enable for diagnostic event logging.
 old-location: wds\iwdstransportconfigurationmanager_diagnosticspolicy.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 80a84495-724c-4198-8262-dcf8cabce3f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DiagnosticsPolicy property [Windows Deployment Services], DiagnosticsPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DiagnosticsPolicy property, IWdsTransportConfigurationManager.DiagnosticsPolicy, IWdsTransportConfigurationManager.get_DiagnosticsPolicy, IWdsTransportConfigurationManager::DiagnosticsPolicy, IWdsTransportConfigurationManager::get_DiagnosticsPolicy, get_DiagnosticsPolicy, wds.iwdstransportconfigurationmanager_diagnosticspolicy, wdstptmgmt/IWdsTransportConfigurationManager::DiagnosticsPolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_DiagnosticsPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWdsTransportConfigurationManager.get_DiagnosticsPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportConfigurationManager::get_DiagnosticsPolicy

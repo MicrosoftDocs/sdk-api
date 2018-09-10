@@ -4,17 +4,16 @@ title: IReconcileInitiator::SetAbortCallback
 author: windows-sdk-content
 description: Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction.
 old-location: lwef\ireconcileinitiator_setabortcallback.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 9c251e14-e080-480a-80c2-f3686429689f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetAbortCallback method, IReconcileInitiator.SetAbortCallback, IReconcileInitiator::SetAbortCallback, SetAbortCallback, SetAbortCallback method [Legacy Windows Environment Features], SetAbortCallback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetAbortCallback, lwef.ireconcileinitiator_setabortcallback, reconcil/IReconcileInitiator::SetAbortCallback, shell.ireconcileinitiator_setabortcallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: reconcil.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReconcileInitiator.SetAbortCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IReconcileInitiator::SetAbortCallback
@@ -62,7 +60,7 @@ Sets the object through which the initiator can asynchronously terminate a recon
 
 ### -param punkForAbort
 
-
+TBD
 
 
 

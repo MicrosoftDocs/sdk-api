@@ -4,17 +4,16 @@ title: IWMDeviceManager::GetRevision
 author: windows-sdk-content
 description: The GetRevision method retrieves the version number of Windows Media Device Manager currently in use.
 old-location: wmdm\iwmdevicemanager_getrevision.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 3ecb84cc-eaa5-436c-b5f1-50705462b88b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRevision, GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetRevision method, IWMDeviceManager.GetRevision, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDeviceManager.GetRevision
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDeviceManager::GetRevision

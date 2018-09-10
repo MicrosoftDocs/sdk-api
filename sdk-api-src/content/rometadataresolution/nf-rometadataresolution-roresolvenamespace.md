@@ -4,17 +4,16 @@ title: RoResolveNamespace function
 author: windows-sdk-content
 description: Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
 old-location: winrt\roresolvenamespace.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 597E8B18-B9D9-42E5-B260-595370BEEAC0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: WinTypes.lib
+req.dll: WinTypes.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RoResolveNamespace
 product: Windows
 targetos: Windows
-req.lib: WinTypes.lib
-req.dll: WinTypes.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoResolveNamespace function

@@ -4,17 +4,16 @@ title: IRdcSignatureReader::ReadHeader
 author: windows-sdk-content
 description: Reads the signature header and returns a copy of the parameters used to generate the signatures.
 old-location: rdc\irdcsignaturereader_readheader.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadHeader method, IRdcSignatureReader.ReadHeader, IRdcSignatureReader::ReadHeader, ReadHeader, ReadHeader method [Remote Differential Compression], ReadHeader method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readheader, msrdc/IRdcSignatureReader::ReadHeader, rdc.irdcsignaturereader_readheader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcSignatureReader.ReadHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcSignatureReader::ReadHeader

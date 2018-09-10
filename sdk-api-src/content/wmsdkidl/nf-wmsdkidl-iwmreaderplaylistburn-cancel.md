@@ -4,17 +4,16 @@ title: IWMReaderPlaylistBurn::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels an initiated playlist burn before initialization is finished.
 old-location: wmformat\iwmreaderplaylistburn_cancel.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: d126f13b-90ac-489e-8dd0-e507f4003a7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],Cancel method, IWMReaderPlaylistBurn.Cancel, IWMReaderPlaylistBurn::Cancel, IWMReaderPlaylistBurnCancel, wmformat.iwmreaderplaylistburn_cancel, wmsdkidl/IWMReaderPlaylistBurn::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderPlaylistBurn.Cancel
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderPlaylistBurn::Cancel

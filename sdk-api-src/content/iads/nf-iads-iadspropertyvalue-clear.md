@@ -4,17 +4,16 @@ title: IADsPropertyValue::Clear
 author: windows-sdk-content
 description: Clears the current values of the property value object.
 old-location: adsi\iadspropertyvalue_clear.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsPropertyValue.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsPropertyValue::Clear

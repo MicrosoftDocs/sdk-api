@@ -4,17 +4,16 @@ title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints
 author: windows-sdk-content
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PropertyConstraint
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionDiscoveryProviderQuery::GetPropertyConstraints

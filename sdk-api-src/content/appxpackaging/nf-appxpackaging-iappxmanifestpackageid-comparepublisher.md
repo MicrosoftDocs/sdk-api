@@ -4,17 +4,16 @@ title: IAppxManifestPackageId::ComparePublisher
 author: windows-sdk-content
 description: Compares the specified publisher with the publisher defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 8AC811D0-D5C5-47DF-92FD-C66BC018B668
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: ComparePublisher, ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],ComparePublisher method, IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestPackageId.ComparePublisher
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestPackageId::ComparePublisher

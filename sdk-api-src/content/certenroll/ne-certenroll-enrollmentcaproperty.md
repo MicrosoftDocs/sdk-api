@@ -4,7 +4,7 @@ title: EnrollmentCAProperty
 author: windows-sdk-content
 description: Specifies certification authority property values.
 old-location: security\enrollmentcaproperty.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: d4908ef0-aaf0-4396-9b89-cd7f3a9f6188
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnrollmentCAProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnrollmentCAProperty
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: EnrollmentCAProperty
+req.redist: 
 ---
 
 # EnrollmentCAProperty enumeration

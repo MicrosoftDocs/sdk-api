@@ -4,7 +4,7 @@ title: CFP_FREEPROC
 author: windows-sdk-content
 description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to free memory.
 old-location: gdi\cfp_freeproc.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: cd99e704-b3a8-4d55-946f-76dd47b2a030
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: fontsub.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CFP_FREEPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # CFP_FREEPROC callback function

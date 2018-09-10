@@ -4,17 +4,16 @@ title: DefDlgProcW function
 author: windows-sdk-content
 description: Calls the default dialog box window procedure to provide default processing for any window messages that a dialog box with a private window class does not process.
 old-location: dlgbox\defdlgproc.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\defdlgproc.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DefDlgProc, DefDlgProc function [Dialog Boxes], DefDlgProcW, _win32_DefDlgProc, _win32_defdlgproc_cpp, dlgbox.defdlgproc, winui._win32_defdlgproc, winuser/DefDlgProc, winuser/DefDlgProcW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DefDlgProcW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DefDlgProcW function

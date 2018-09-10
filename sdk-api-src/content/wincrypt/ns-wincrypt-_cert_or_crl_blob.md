@@ -4,7 +4,7 @@ title: "_CERT_OR_CRL_BLOB"
 author: windows-sdk-content
 description: Encapsulates certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_blob.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_OR_CRL_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
+req.redist: 
 ---
 
 # _CERT_OR_CRL_BLOB structure

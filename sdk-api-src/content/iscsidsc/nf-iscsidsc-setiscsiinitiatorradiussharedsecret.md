@@ -4,17 +4,16 @@ title: SetIScsiInitiatorRADIUSSharedSecret function
 author: windows-sdk-content
 description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.
 old-location: iscsidisc\setiscsiinitiatorradiussharedsecret.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetIscsiInitiatorRADIUSSharedSecret
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIScsiInitiatorRADIUSSharedSecret function

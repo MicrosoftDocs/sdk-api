@@ -4,7 +4,7 @@ title: DVDMenuIDConstants
 author: windows-sdk-content
 description: The DVDMenuID constants define menu type ID numbers used to display specific menus.
 old-location: mstv\dvdmenuid_constants.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f58ce7b6-6fc4-4766-bf8a-180a5568d27c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVDMenuIDConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVDMenuIDConstants
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: DVDMenuIDConstants
+req.redist: 
 ---
 
 # DVDMenuIDConstants enumeration

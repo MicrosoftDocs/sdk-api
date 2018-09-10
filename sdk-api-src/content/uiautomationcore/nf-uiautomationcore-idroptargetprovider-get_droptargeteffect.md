@@ -4,17 +4,16 @@ title: IDropTargetProvider::get_DropTargetEffect
 author: windows-sdk-content
 description: Retrieves a localized string that describes the effect that happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffect.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: F94D0513-543D-4B9D-A665-2197349C3B55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DropTargetEffect property [Windows Accessibility], DropTargetEffect property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffect property, IDropTargetProvider.DropTargetEffect, IDropTargetProvider.get_DropTargetEffect, IDropTargetProvider::DropTargetEffect, IDropTargetProvider::get_DropTargetEffect, get_DropTargetEffect, uiautomationcore/IDropTargetProvider::DropTargetEffect, uiautomationcore/IDropTargetProvider::get_DropTargetEffect, winauto.uiauto_idroptargetprovider_droptargeteffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDropTargetProvider.get_DropTargetEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTargetProvider::get_DropTargetEffect

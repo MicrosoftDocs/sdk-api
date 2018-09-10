@@ -4,7 +4,7 @@ title: "_BATTERY_WMI_STATIC_DATA"
 author: windows-sdk-content
 description: Defines static data about a battery.
 old-location: battery\battery_wmi_static_data.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 39930853-AB5A-4DA5-A544-7913770C4D88
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_WMI_STATIC_DATA, *PBATTERY_WMI_STATIC_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_WMI_STATIC_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_WMI_STATIC_DATA, *PBATTERY_WMI_STATIC_DATA
+req.redist: 
 ---
 
 # _BATTERY_WMI_STATIC_DATA structure

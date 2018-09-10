@@ -4,17 +4,16 @@ title: IPhotoAcquireProgressCB::EndSession
 author: windows-sdk-content
 description: The EndSession method provides extended functionality when an acquisition session is completed. The application provides the implementation of the EndSession method.
 old-location: picacq\iphotoacquireprogresscb_endsession.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireProgressCB.EndSession
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireProgressCB::EndSession

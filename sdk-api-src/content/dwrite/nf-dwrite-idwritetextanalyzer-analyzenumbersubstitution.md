@@ -4,17 +4,16 @@ title: IDWriteTextAnalyzer::AnalyzeNumberSubstitution
 author: windows-sdk-content
 description: Analyzes a text range for spans where number substitution is applicable, reading attributes from the source and reporting substitutable ranges to the sink callback SetNumberSubstitution.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeNumberSubstitution.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1cd53f79-5bbc-4a70-b66a-b807fe163a98
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AnalyzeNumberSubstitution, AnalyzeNumberSubstitution method [Direct Write], AnalyzeNumberSubstitution method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeNumberSubstitution method, IDWriteTextAnalyzer.AnalyzeNumberSubstitution, IDWriteTextAnalyzer::AnalyzeNumberSubstitution, directwrite.IDWriteTextAnalyzer_AnalyzeNumberSubstitution, dwrite/IDWriteTextAnalyzer::AnalyzeNumberSubstitution
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalyzer.AnalyzeNumberSubstitution
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalyzer::AnalyzeNumberSubstitution

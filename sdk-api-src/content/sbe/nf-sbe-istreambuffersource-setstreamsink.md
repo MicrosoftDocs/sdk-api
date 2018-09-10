@@ -4,17 +4,16 @@ title: IStreamBufferSource::SetStreamSink
 author: windows-sdk-content
 description: The SetStreamSink method sets a pointer to the Stream Buffer Sink filter, so that the Stream Buffer Source filter can stream data from the sink filter.
 old-location: mstv\istreambuffersource_setstreamsink.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IStreamBufferSource interface [Microsoft TV Technologies],SetStreamSink method, IStreamBufferSource.SetStreamSink, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies],IStreamBufferSource interface, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferSource.SetStreamSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferSource::SetStreamSink

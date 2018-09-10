@@ -4,17 +4,16 @@ title: IPersistFolder2::GetCurFolder
 author: windows-sdk-content
 description: Gets the ITEMIDLIST for the folder object.
 old-location: shell\IPersistFolder2_GetCurFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6aaf6ed5-ae8e-4521-80cb-ec45af8827aa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCurFolder, GetCurFolder method [Windows Shell], GetCurFolder method [Windows Shell],IPersistFolder2 interface, IPersistFolder2 interface [Windows Shell],GetCurFolder method, IPersistFolder2.GetCurFolder, IPersistFolder2::GetCurFolder, _win32_IPersistFolder2_GetCurFolder, shell.IPersistFolder2_GetCurFolder, shobjidl_core/IPersistFolder2::GetCurFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFolder2.GetCurFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFolder2::GetCurFolder

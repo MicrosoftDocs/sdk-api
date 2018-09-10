@@ -4,17 +4,16 @@ title: ITAMMediaFormat::put_MediaFormat
 author: windows-sdk-content
 description: The put_MediaFormat method sets the media format.
 old-location: tapi3\itammediaformat_put_mediaformat.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],put_MediaFormat method, ITAMMediaFormat.put_MediaFormat, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAMMediaFormat.put_MediaFormat
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAMMediaFormat::put_MediaFormat

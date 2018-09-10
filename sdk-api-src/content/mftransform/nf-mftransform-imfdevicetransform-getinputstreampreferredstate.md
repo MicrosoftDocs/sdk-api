@@ -4,17 +4,16 @@ title: IMFDeviceTransform::GetInputStreamPreferredState
 author: windows-sdk-content
 description: The GetInputStreamPreferredState method gets a Device MFT input stream’s preferred state and media type.
 old-location: stream\imfdevicetransform_getinputstreampreferredstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 56334B73-DCBC-4999-9685-2489D6C15E2E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.GetInputStreamPreferredState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::GetInputStreamPreferredState
@@ -67,7 +65,7 @@ Stream ID of the input stream whose state needs to be retrieved.
 
 ### -param value
 
-
+TBD
 
 
 ### -param ppMediaType [out]

@@ -4,7 +4,7 @@ title: WINML_RESOURCE_BINDING_DESC
 author: windows-sdk-content
 description: Contains description properties of the resource binding.
 old-location: machinelearning\winml_resource_binding_desc.htm
-old-project: MachineLearning
+tech.root: MachineLearning
 ms.assetid: 14008D12-1F46-4629-A7A3-190EA2B4DC76
 ms.author: windowssdkdev
 ms.date: 03/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_RESOURCE_BINDING_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINML_RESOURCE_BINDING_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINML_RESOURCE_BINDING_DESC
+req.redist: 
 ---
 
 # WINML_RESOURCE_BINDING_DESC structure

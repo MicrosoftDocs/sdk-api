@@ -4,7 +4,7 @@ title: "_MP_Type"
 author: windows-sdk-content
 description: The MP_TYPE enumeration specifies the data type for a parameter.
 old-location: dshow\mp_type.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9c8851c7-1a72-4dfd-ba2f-e64d8e22f6dc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MP_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MP_TYPE
+req.redist: 
 ---
 
 # _MP_Type enumeration

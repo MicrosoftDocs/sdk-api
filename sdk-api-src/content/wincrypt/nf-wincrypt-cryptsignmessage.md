@@ -4,17 +4,16 @@ title: CryptSignMessage function
 author: windows-sdk-content
 description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
 old-location: security\cryptsignmessage.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSignMessage
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSignMessage function

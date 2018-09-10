@@ -4,17 +4,16 @@ title: ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex
 author: windows-sdk-content
 description: Gets a shader-reflection variable by index.
 old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyindex.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: F7083A4D-ADD4-4C6F-A031-ABF16A3C351C
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetVariableByIndex, GetVariableByIndex method, GetVariableByIndex method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex

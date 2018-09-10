@@ -4,17 +4,16 @@ title: IWMPEffects::GetCapabilities
 author: windows-sdk-content
 description: The GetCapabilities method gets the capabilities of the visualization.
 old-location: wmp\iwmpeffects_getcapabilities.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player version 7.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEffects.GetCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEffects::GetCapabilities

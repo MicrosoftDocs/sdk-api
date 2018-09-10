@@ -4,17 +4,16 @@ title: HSTRING_UserSize64 function
 author: windows-sdk-content
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize64.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - HSTRING_UserSize64
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HSTRING_UserSize64 function

@@ -4,17 +4,16 @@ title: IImageList::GetIcon
 author: windows-sdk-content
 description: Creates an icon from an image and a mask in an image list.
 old-location: controls\IImageList_GetIcon.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticon.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIcon, GetIcon method [Windows Controls], GetIcon method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIcon method, IImageList.GetIcon, IImageList::GetIcon, comctl_IImageList_GetIcon, comctl_IImageList_GetIcon_cpp, commoncontrols/IImageList::GetIcon, controls.IImageList_GetIcon, controls.comctl_IImageList_GetIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.GetIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::GetIcon

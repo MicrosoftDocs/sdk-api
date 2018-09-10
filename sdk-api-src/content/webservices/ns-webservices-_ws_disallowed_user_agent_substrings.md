@@ -4,7 +4,7 @@ title: "_WS_DISALLOWED_USER_AGENT_SUBSTRINGS"
 author: windows-sdk-content
 description: Specifies the list of blocked UserAgent sub-string's. This is used with the WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT listener property.
 old-location: wsw\ws_disallowed_user_agent_substrings.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3a37275b-11e6-484a-adc2-1e9503d1b309
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_DISALLOWED_USER_AGENT_SUBSTRINGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_DISALLOWED_USER_AGENT_SUBSTRINGS
+req.redist: 
 ---
 
 # _WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure

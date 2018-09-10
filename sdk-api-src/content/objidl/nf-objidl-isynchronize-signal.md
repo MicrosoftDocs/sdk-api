@@ -4,17 +4,16 @@ title: ISynchronize::Signal
 author: windows-sdk-content
 description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
 old-location: com\isynchronize_signal.htm
-old-project: com
+tech.root: com
 ms.assetid: c55b9ffc-2e28-427b-8c77-349f554469e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, ISynchronize::Signal, Signal, Signal method [COM], Signal method [COM],ISynchronize interface, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronize.Signal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronize::Signal

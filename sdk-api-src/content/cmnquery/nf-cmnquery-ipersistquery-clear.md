@@ -4,17 +4,16 @@ title: IPersistQuery::Clear
 author: windows-sdk-content
 description: Empties the contents of the query store.
 old-location: ad\ipersistquery_clear.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 1ce97afa-6d59-446c-9af2-595ec18db2b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clear, Clear method [Active Directory], Clear method [Active Directory],IPersistQuery interface, IPersistQuery interface [Active Directory],Clear method, IPersistQuery.Clear, IPersistQuery::Clear, _glines_ipersistquery_clear, ad.ipersistquery__clear, ad.ipersistquery_clear, cmnquery/IPersistQuery::Clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBTEXT
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPersistQuery.Clear
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistQuery::Clear

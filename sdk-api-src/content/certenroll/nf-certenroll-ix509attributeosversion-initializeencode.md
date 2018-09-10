@@ -4,17 +4,16 @@ title: IX509AttributeOSVersion::InitializeEncode
 author: windows-sdk-content
 description: Initializes the attribute from operating system version information.
 old-location: security\ix509attributeosversioner_initializeencode_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 1eee63f8-8345-4f3d-9fee-d8d67bcebb8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],InitializeEncode method, IX509AttributeOSVersion.InitializeEncode, IX509AttributeOSVersion::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::InitializeEncode, security.ix509attributeosversioner_initializeencode_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509AttributeOSVersion.InitializeEncode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeOSVersion::InitializeEncode

@@ -4,17 +4,16 @@ title: UnregisterAppStateChangeNotification function
 author: windows-sdk-content
 description: Cancels a change notification registered through RegisterAppStateChangeNotification.
 old-location: shell\UnregisterAppStateChangeNotification.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 97D92C75-5C73-4DCF-BE65-2558A1101789
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UnregisterAppStateChangeNotification, UnregisterAppStateChangeNotification function [Windows Shell], appnotify/UnregisterAppStateChangeNotification, shell.UnregisterAppStateChangeNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appnotify.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PACKAGE_VERSION
+req.lib: Appnotify.lib
+req.dll: Twinapi.core.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - UnregisterAppStateChangeNotification
 product: Windows
 targetos: Windows
-req.lib: Appnotify.lib
-req.dll: Twinapi.core.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # UnregisterAppStateChangeNotification function

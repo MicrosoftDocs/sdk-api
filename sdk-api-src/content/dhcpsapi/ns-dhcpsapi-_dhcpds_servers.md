@@ -4,7 +4,7 @@ title: "_DHCPDS_SERVERS"
 author: windows-sdk-content
 description: The DHCPDS_SERVERS structure defines a list of DHCP servers in the context of directory services.
 old-location: dhcp\dhcpds_servers.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 0f5fe4f3-4eaa-498b-ab48-bfb5ee8f5527
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPDS_SERVERS, *LPDHCPDS_SERVERS, *PDHCPDS_SERVERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPDS_SERVERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPDS_SERVERS, *LPDHCPDS_SERVERS, *PDHCPDS_SERVERS
+req.redist: 
 ---
 
 # _DHCPDS_SERVERS structure

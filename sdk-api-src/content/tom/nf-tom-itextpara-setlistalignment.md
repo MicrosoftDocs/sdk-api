@@ -4,17 +4,16 @@ title: ITextPara::SetListAlignment
 author: windows-sdk-content
 description: Sets the alignment of bulleted or numbered text used for paragraphs.
 old-location: controls\ITextPara_SetListAlignment.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistalignment.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListAlignment method, ITextPara.SetListAlignment, ITextPara::SetListAlignment, SetListAlignment, SetListAlignment method [Windows Controls], SetListAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListAlignment, _win32_ITextPara_SetListAlignment_cpp, controls.ITextPara_SetListAlignment, controls._win32_ITextPara_SetListAlignment, tom/ITextPara::SetListAlignment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.SetListAlignment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::SetListAlignment

@@ -4,17 +4,16 @@ title: SHDeleteKeyW function
 author: windows-sdk-content
 description: Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry.
 old-location: shell\SHDeleteKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3c46db08-52d8-48fa-bda5-3c087908a1d3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteKey, SHDeleteKey function [Windows Shell], SHDeleteKeyA, SHDeleteKeyW, _win32_SHDeleteKey, _win32_SHDeleteKey_cpp, shell.SHDeleteKey, shlwapi/SHDeleteKey, shlwapi/SHDeleteKeyA, shlwapi/SHDeleteKeyW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHDeleteKeyW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHDeleteKeyW function

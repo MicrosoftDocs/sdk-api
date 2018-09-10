@@ -4,17 +4,16 @@ title: IRawCDImageCreator::AddTrack
 author: windows-sdk-content
 description: Accepts the provided IStream object and saves the interface pointer as the next track in the image.
 old-location: imapi\irawcdimagecreator_addtrack.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 913393e8-6d60-4b1a-b482-32225860f714
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.AddTrack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::AddTrack

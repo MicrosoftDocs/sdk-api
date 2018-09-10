@@ -4,17 +4,16 @@ title: IndexFilePath function
 author: windows-sdk-content
 description: Indexes a file path for file and folder naming conventions.
 old-location: menurc\indexfilepath.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WitnessTagUpdateHelper
+req.lib: Mrmsupport.lib
+req.dll: Mrmsupport.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IndexFilePath
 product: Windows
 targetos: Windows
-req.lib: Mrmsupport.lib
-req.dll: Mrmsupport.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IndexFilePath function

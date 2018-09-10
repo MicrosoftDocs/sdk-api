@@ -4,17 +4,16 @@ title: SetupDiOpenDeviceInterfaceRegKey function
 author: windows-sdk-content
 description: The SetupDiOpenDeviceInterfaceRegKey function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
 old-location: devinst\setupdiopendeviceinterfaceregkey.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 950dddcb-2a59-4c2d-826b-147e9acf401a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiOpenDeviceInterfaceRegKey, SetupDiOpenDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdiopendeviceinterfaceregkey, di-rtns_420dfbe9-7cb3-4ecb-9341-b40fbc76a50e.xml, setupapi/SetupDiOpenDeviceInterfaceRegKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Open_Device_Interface_Key
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiOpenDeviceInterfaceRegKey
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiOpenDeviceInterfaceRegKey function

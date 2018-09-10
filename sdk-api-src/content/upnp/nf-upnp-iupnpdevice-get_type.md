@@ -4,17 +4,16 @@ title: IUPnPDevice::get_Type
 author: windows-sdk-content
 description: The Type method specifies the device type uniform resource identifier (URI) for the device.
 old-location: upnp\iupnpdevice_type.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 3db09e94-4211-44ff-850e-2e34719909d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Type method, IUPnPDevice.get_Type, IUPnPDevice::get_Type, _upnp_iupnpdevice_type, get_Type, get_Type method [UPnP APIs], get_Type method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_type, upnp/IUPnPDevice::get_Type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_Type

@@ -4,17 +4,16 @@ title: MAPISendMailHelper function
 author: windows-sdk-content
 description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
 old-location: mapi\mapisendmailhelper.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mapiunicodehelp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MapiRecipDescW, *lpMapiRecipDescW
+req.lib: 
+req.dll: Mapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPISendMailHelper
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPISendMailHelper function

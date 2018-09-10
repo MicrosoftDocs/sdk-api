@@ -4,7 +4,7 @@ title: AGENT_SESSION_STATE
 author: windows-sdk-content
 description: This AGENT_SESSION_STATE enum defines the agent session indicators used by the ITAgentSession::get_State and the ITAgentSession::put_State methods.
 old-location: tapi3\agent_session_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0c902924-e142-4ab9-9b20-661d7c2e3629
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_SESSION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AGENT_SESSION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: AGENT_SESSION_STATE
+req.redist: 
 ---
 
 # AGENT_SESSION_STATE enumeration

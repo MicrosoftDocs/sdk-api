@@ -4,7 +4,7 @@ title: "_GET_MEDIA_TYPES"
 author: windows-sdk-content
 description: Contains information about the media types supported by a device.
 old-location: base\get_media_types_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 07d1ccc5-5f8a-4272-a9be-74fa7a9e1bbc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GET_MEDIA_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
+req.redist: 
 ---
 
 # _GET_MEDIA_TYPES structure

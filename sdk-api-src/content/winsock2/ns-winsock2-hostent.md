@@ -4,7 +4,7 @@ title: hostent
 author: windows-sdk-content
 description: The hostent structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth.
 old-location: winsock\hostent_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HOSTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
+req.redist: 
 ---
 
 # hostent structure

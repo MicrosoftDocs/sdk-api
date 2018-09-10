@@ -4,17 +4,16 @@ title: DeriveCapabilitySidsFromName function
 author: windows-sdk-content
 description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 old-location: security\derivecapabilitysidsfromname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: 
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeriveCapabilitySidsFromName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DeriveCapabilitySidsFromName function

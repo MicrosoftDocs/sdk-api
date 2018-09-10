@@ -4,17 +4,16 @@ title: ITDirectory::get_DirectoryType
 author: windows-sdk-content
 description: The get_DirectoryType method gets DIRECTORY_TYPE indicator of the type of the directory.
 old-location: tapi3\itdirectory_get_directorytype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3f0ca4c2-4ba9-4a6e-877b-36486086368f
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryType method, ITDirectory.get_DirectoryType, ITDirectory::get_DirectoryType, _tapi3_itdirectory_get_directorytype, get_DirectoryType, get_DirectoryType method [TAPI 2.2], get_DirectoryType method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryType, tapi3.itdirectory_get_directorytype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectory.get_DirectoryType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectory::get_DirectoryType

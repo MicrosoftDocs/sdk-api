@@ -4,7 +4,7 @@ title: D3D11_FEATURE_DATA_D3D9_OPTIONS1
 author: windows-sdk-content
 description: Describes Direct3D 9 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d9_options1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 4894B4FC-1E95-42B1-B92D-E3B484ABDC74
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FEATURE_DATA_D3D9_OPTIONS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FEATURE_DATA_D3D9_OPTIONS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FEATURE_DATA_D3D9_OPTIONS1
+req.redist: 
 ---
 
 # D3D11_FEATURE_DATA_D3D9_OPTIONS1 structure

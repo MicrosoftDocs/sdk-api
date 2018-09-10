@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
 author: windows-sdk-content
 description: Determines the input data format preferred by the engine adapter.
 old-location: secbiomet\engineadapterquerypreferredformat.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterQueryPreferredFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback function

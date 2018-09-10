@@ -4,17 +4,16 @@ title: IMathInputControl::GetPreviewHeight
 author: windows-sdk-content
 description: Retrieves the height in pixels of the preview area.
 old-location: tablet\imathinputcontrol_getpreviewheight.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3b3404f5-b775-483f-b3a9-9467c937226b
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetPreviewHeight, GetPreviewHeight method [Tablet PC], GetPreviewHeight method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPreviewHeight method, IMathInputControl.GetPreviewHeight, IMathInputControl::GetPreviewHeight, micaut/IMathInputControl::GetPreviewHeight, tablet.imathinputcontrol_getpreviewheight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMathInputControl.GetPreviewHeight
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMathInputControl::GetPreviewHeight

@@ -4,17 +4,16 @@ title: IDataManager::Extract
 author: windows-sdk-content
 description: Extracts the specified CAB file.
 old-location: pla\idatamanager_extract.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Extract, Extract method [PLA], Extract method [PLA],IDataManager interface, IDataManager interface [PLA],Extract method, IDataManager.Extract, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataManager.Extract
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataManager::Extract
@@ -62,7 +60,7 @@ Extracts the specified CAB file.
 
 ### -param CabFilename
 
-
+TBD
 
 
 ### -param DestinationPath [in]

@@ -4,7 +4,7 @@ title: "_CTL_FIND_SUBJECT_PARA"
 author: windows-sdk-content
 description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).
 old-location: security\ctl_find_subject_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b3a63010-9025-4a86-aa48-bfb6e800a07a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_FIND_SUBJECT_PARA, *PCTL_FIND_SUBJECT_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CTL_FIND_SUBJECT_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CTL_FIND_SUBJECT_PARA, *PCTL_FIND_SUBJECT_PARA
+req.redist: 
 ---
 
 # _CTL_FIND_SUBJECT_PARA structure

@@ -4,17 +4,16 @@ title: IBDA_Topology::GetNodeInterfaces
 author: windows-sdk-content
 description: The GetNodeInterfaces method retrieves a list of the interfaces supported by a node type.
 old-location: mstv\ibda_topology_getnodeinterfaces.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c3dc4b38-933c-4aeb-b6eb-7273ce334ba2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetNodeInterfaces, GetNodeInterfaces method [Microsoft TV Technologies], GetNodeInterfaces method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeInterfaces method, IBDA_Topology.GetNodeInterfaces, IBDA_Topology::GetNodeInterfaces, IBDA_TopologyGetNodeInterfaces, bdaiface/IBDA_Topology::GetNodeInterfaces, mstv.ibda_topology_getnodeinterfaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_Topology.GetNodeInterfaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_Topology::GetNodeInterfaces

@@ -4,17 +4,16 @@ title: IVssBackupComponents::GatherWriterStatus
 author: windows-sdk-content
 description: The GatherWriterStatus method prompts each writer to send a status message.
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GatherWriterStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GatherWriterStatus
@@ -64,7 +62,7 @@ The
 
 ### -param pAsync
 
-
+TBD
 
 
 

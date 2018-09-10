@@ -4,17 +4,16 @@ title: IGPMStatusMessage::ErrorCode
 author: windows-sdk-content
 description: Returns the error that occurred during the GPMC operation.
 old-location: gpmc\igpmstatusmessage_errorcode.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 87a50523-1acb-4b58-b867-ec19b0cf960a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ErrorCode, ErrorCode method [GPMC], ErrorCode method [GPMC],GPMStatusMessage class, ErrorCode method [GPMC],IGPMStatusMessage interface, GPMStatusMessage class [GPMC],ErrorCode method, IGPMStatusMessage interface [GPMC],ErrorCode method, IGPMStatusMessage.ErrorCode, IGPMStatusMessage::ErrorCode, _win32_igpmstatusmessage_errorcode, gpmc.igpmstatusmessage_errorcode, gpmgmt/IGPMStatusMessage::ErrorCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMStatusMessage.ErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMStatusMessage::ErrorCode

@@ -4,7 +4,7 @@ title: tagQOCINFO
 author: windows-sdk-content
 description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.
 old-location: sens\qocinfo.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sensapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOCINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOCINFO, *LPQOCINFO
+req.redist: 
 ---
 
 # tagQOCINFO structure

@@ -4,17 +4,16 @@ title: CancelNtmsOperatorRequest function
 author: windows-sdk-content
 description: The CancelNtmsOperatorRequest function cancels the specified RSM operator request.
 old-location: fs\cancelntmsoperatorrequest.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: d0ba65fe-0355-4bd6-b9ad-98e8f7992827
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CancelNtmsOperatorRequest, CancelNtmsOperatorRequest function [Files], _zaw_cancelntmsoperatorrequest, base.cancelntmsoperatorrequest, fs.cancelntmsoperatorrequest, ntmsapi/CancelNtmsOperatorRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CancelNtmsOperatorRequest
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CancelNtmsOperatorRequest function

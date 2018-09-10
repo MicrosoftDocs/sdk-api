@@ -4,17 +4,16 @@ title: IMDSPObject::Seek
 author: windows-sdk-content
 description: The Seek method sets the current position within the object. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_seek.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 89494180-9dd7-41f3-b510-a59c38415d75
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Seek method, IMDSPObject.Seek, IMDSPObject::Seek, IMDSPObjectSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObject.Seek
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObject::Seek

@@ -4,7 +4,7 @@ title: "_EVENT_INFO_CLASS"
 author: windows-sdk-content
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_INFO_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_INFO_CLASS
+req.redist: 
 ---
 
 # _EVENT_INFO_CLASS enumeration

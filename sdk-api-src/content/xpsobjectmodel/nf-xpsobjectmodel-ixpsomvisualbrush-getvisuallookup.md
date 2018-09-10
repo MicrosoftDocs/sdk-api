@@ -4,17 +4,16 @@ title: IXpsOMVisualBrush::GetVisualLookup
 author: windows-sdk-content
 description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisuallookup.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 091cb7f3-6302-40a0-b509-c72e20109f75
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetVisualLookup, GetVisualLookup method [XPS Documents and Packaging], GetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLookup method, IXpsOMVisualBrush.GetVisualLookup, IXpsOMVisualBrush::GetVisualLookup, xps.ixpsomvisualbrush_getvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMVisualBrush.GetVisualLookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMVisualBrush::GetVisualLookup

@@ -4,17 +4,16 @@ title: IAudioStreamVolume::SetAllVolumes
 author: windows-sdk-content
 description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_setallvolumes.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 2eabbc37-a0f6-4e56-b68d-18e634d65394
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioStreamVolume interface [Core Audio],SetAllVolumes method, IAudioStreamVolume.SetAllVolumes, IAudioStreamVolume::SetAllVolumes, IAudioStreamVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetAllVolumes, coreaudio.iaudiostreamvolume_setallvolumes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioStreamVolume.SetAllVolumes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioStreamVolume::SetAllVolumes

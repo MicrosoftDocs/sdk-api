@@ -4,7 +4,7 @@ title: tagFixupInfo
 author: windows-sdk-content
 description: Contains fix-up information for the Sysytem Health Agent (SHA).
 old-location: nap\fixupinfo_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: 8f91534e-3281-4d5a-9af7-5f08eb0243f0
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FixupInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FixupInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: FixupInfo
+req.redist: 
 ---
 
 # tagFixupInfo structure

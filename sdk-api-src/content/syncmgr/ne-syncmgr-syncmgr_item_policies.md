@@ -4,7 +4,7 @@ title: SYNCMGR_ITEM_POLICIES
 author: windows-sdk-content
 description: Specifies an item's policies to control how they can be enabled or disabled by group policy.
 old-location: shell\SYNCMGR_ITEM_POLICIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d894beca-855c-472f-931a-db5c6f3f891e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_ITEM_POLICIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_ITEM_POLICIES
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_ITEM_POLICIES
+req.redist: 
 ---
 
 # SYNCMGR_ITEM_POLICIES enumeration

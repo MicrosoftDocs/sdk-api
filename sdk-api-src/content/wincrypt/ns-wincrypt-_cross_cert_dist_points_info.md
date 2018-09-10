@@ -4,7 +4,7 @@ title: "_CROSS_CERT_DIST_POINTS_INFO"
 author: windows-sdk-content
 description: Provides information used to update dynamic cross certificates.
 old-location: security\cross_cert_dist_points_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 13358822-c690-40af-ba9d-2fafa0233a5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CROSS_CERT_DIST_POINTS_INFO, *PCROSS_CERT_DIST_POINTS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CROSS_CERT_DIST_POINTS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CROSS_CERT_DIST_POINTS_INFO, *PCROSS_CERT_DIST_POINTS_INFO
+req.redist: 
 ---
 
 # _CROSS_CERT_DIST_POINTS_INFO structure

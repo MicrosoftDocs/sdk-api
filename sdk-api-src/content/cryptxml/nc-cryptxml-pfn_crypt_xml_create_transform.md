@@ -4,7 +4,7 @@ title: PFN_CRYPT_XML_CREATE_TRANSFORM
 author: windows-sdk-content
 description: Creates a transform for a specified data provider.
 old-location: security\pfn_crypt_xml_create_transform.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d9228015-d5e7-4c72-9561-be4ee5fa4264
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PFN_CRYPT_XML_CREATE_TRANSFORM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CRYPT_XML_CREATE_TRANSFORM callback function

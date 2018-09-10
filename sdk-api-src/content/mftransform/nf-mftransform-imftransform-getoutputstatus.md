@@ -4,17 +4,16 @@ title: IMFTransform::GetOutputStatus
 author: windows-sdk-content
 description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
 old-location: mf\imftransform_getoutputstatus.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d, GetOutputStatus, GetOutputStatus method [Media Foundation], GetOutputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStatus method, IMFTransform.GetOutputStatus, IMFTransform::GetOutputStatus, mf.imftransform_getoutputstatus, mftransform/IMFTransform::GetOutputStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTransform.GetOutputStatus
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTransform::GetOutputStatus

@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_READ_CERT
 author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the certificate context.
 old-location: security\certstoreprovreadcertcallback.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PFN_CERT_STORE_PROV_READ_CERT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CERT_STORE_PROV_READ_CERT callback function

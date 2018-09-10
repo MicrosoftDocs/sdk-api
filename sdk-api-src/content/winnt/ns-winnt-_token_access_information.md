@@ -4,7 +4,7 @@ title: "_TOKEN_ACCESS_INFORMATION"
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary to perform an access check.
 old-location: security\token_access_information.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cb727b91-c88f-48f3-8329-020d3f727dc7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_ACCESS_INFORMATION, *PTOKEN_ACCESS_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_ACCESS_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_ACCESS_INFORMATION, *PTOKEN_ACCESS_INFORMATION
+req.redist: 
 ---
 
 # _TOKEN_ACCESS_INFORMATION structure

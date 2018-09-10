@@ -4,7 +4,7 @@ title: translateurl_in_flags
 author: windows-sdk-content
 description: The TRANSLATEURL_IN_FLAGS enumerated values are used with the TranslateURL function to determine how it will execute.
 old-location: shell\TRANSLATEURL_IN_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b04d5c7d-6d3f-4904-8de5-7586437320e9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: intshcut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSLATEURL_IN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSLATEURL_IN_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TRANSLATEURL_IN_FLAGS
+req.redist: 
 ---
 
 # translateurl_in_flags enumeration

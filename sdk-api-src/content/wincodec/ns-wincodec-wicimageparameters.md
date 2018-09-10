@@ -4,7 +4,7 @@ title: WICImageParameters
 author: windows-sdk-content
 description: This defines parameters that you can use to override the default parameters normally used when encoding an image.
 old-location: wic\wicimageparameters.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0B461697-C7ED-48C9-A880-1B5F4A26FCFC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICImageParameters
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICImageParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICImageParameters
+req.redist: 
 ---
 
 # WICImageParameters structure

@@ -4,7 +4,7 @@ title: "_SecPkgCredentials_NamesA"
 author: windows-sdk-content
 description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_names.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgCredentials_NamesA, *PSecPkgCredentials_NamesA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecPkgCredentials_NamesW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgCredentials_NamesA, *PSecPkgCredentials_NamesA
+req.redist: 
 ---
 
 # _SecPkgCredentials_NamesA structure

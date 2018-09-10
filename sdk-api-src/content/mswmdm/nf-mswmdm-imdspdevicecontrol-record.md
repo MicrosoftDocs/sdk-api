@@ -4,17 +4,16 @@ title: IMDSPDeviceControl::Record
 author: windows-sdk-content
 description: The Record method begins recording from the device's external record input at the current seek position. The Seek method must be called first.
 old-location: wmdm\imdspdevicecontrol_record.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Record method, IMDSPDeviceControl.Record, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDeviceControl.Record
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDeviceControl::Record

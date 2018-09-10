@@ -4,17 +4,16 @@ title: ISpellCheckProvider::Suggest
 author: windows-sdk-content
 description: Retrieves spelling suggestions for the supplied text.
 old-location: intl\ispellcheckprovider_suggest.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpellCheckProvider.Suggest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckProvider::Suggest

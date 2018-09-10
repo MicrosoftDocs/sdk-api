@@ -4,7 +4,7 @@ title: tagSources
 author: windows-sdk-content
 description: The Sources structure contains a Video Present Network (VidPN) topology.
 old-location: display\sources.htm
-old-project: display
+tech.root: display
 ms.assetid: 5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Sources
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: Sources
+req.redist: 
 ---
 
 # tagSources structure

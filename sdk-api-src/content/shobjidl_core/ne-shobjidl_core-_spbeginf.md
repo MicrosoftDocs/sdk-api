@@ -4,7 +4,7 @@ title: "_SPBEGINF"
 author: windows-sdk-content
 description: Used by IActionProgress::Begin, these constants specify certain UI operations that are to be enabled or disabled.
 old-location: shell\SPBEGINF_Constants.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dc5215ca-17c8-47c1-8059-f46400ff1d0f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SPBEGINF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Outlook Express 6.0
 ---
 

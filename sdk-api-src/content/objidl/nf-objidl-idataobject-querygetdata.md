@@ -4,17 +4,16 @@ title: IDataObject::QueryGetData
 author: windows-sdk-content
 description: Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling IDataObject::GetData to get an indication of whether the operation may be successful.
 old-location: com\idataobject_querygetdata.htm
-old-project: com
+tech.root: com
 ms.assetid: 38a1bb4f-7762-4e74-a386-4ae05e59d15f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IDataObject interface [COM],QueryGetData method, IDataObject.QueryGetData, IDataObject::QueryGetData, QueryGetData, QueryGetData method [COM], QueryGetData method [COM],IDataObject interface, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObject.QueryGetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObject::QueryGetData

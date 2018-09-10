@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_Type
 title: IFaxJob::get_Type
 author: windows-sdk-content
-description: The Type property is a number that describes the type of fax job represented by the object.
-old-location: fax\_mfax_ifaxjob_get_type_vb.htm
-old-project: Fax
+description: The IFaxJob::get_Type property is a number that describes the type of fax job represented by the object.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_type_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5jad.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],Type property, FaxJob.Type, IFaxJob.get_Type, IFaxJob::get_Type, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, Type property [Fax Service], Type property [Fax Service],FaxJob object, _mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type_vb, get_Type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxJob interface [Fax Service],Type property, IFaxJob.Type, IFaxJob.get_Type, IFaxJob::Type, IFaxJob::get_Type, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, Type property [Fax Service], Type property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type, fax._mfax_ifaxjob_mfax_ifaxjob_get_type_cpp, faxcom/IFaxJob::Type, faxcom/IFaxJob::get_Type, get_Type
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.Type
+ - IFaxJob.Type
+ - IFaxJob.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_Type
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Type</b> property is a number that describes the type of fax job represented by the object. 
+The <b>IFaxJob::get_Type</b> property is a number that describes the type of fax job represented by the object. 
 
 This property is read-only.
 
@@ -70,10 +69,6 @@ This property is read-only.
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/c6e95bae-c1f8-4636-9847-7c66187cfc8d">FaxJob</a>
 
 
 

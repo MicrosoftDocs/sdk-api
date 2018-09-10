@@ -4,17 +4,16 @@ title: IAppxBundleWriter3::AddPackageReference
 author: windows-sdk-content
 description: Adds a reference to an optional app package or a payload file within an app bundle.
 old-location: appxpkg\iappxbundlewriter3_addpackagereference.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 99969971-9153-47C9-AF9C-7BF1D56EC54D
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter3.AddPackageReference, IAppxBundleWriter3::AddPackageReference, appxpackaging/IAppxBundleWriter3::AddPackageReference, appxpkg.iappxbundlewriter3_addpackagereference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleWriter3.AddPackageReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleWriter3::AddPackageReference

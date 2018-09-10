@@ -4,17 +4,16 @@ title: IMFSpatialAudioObjectBuffer::GetType
 author: windows-sdk-content
 description: Gets the type of the spatial audio object represented by the buffer. If SetType has not been called previously, this method returns the default value of AudioObjectType_None.
 old-location: mf\imfspatialaudioobjectbuffer_gettype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CF0285D2-E56B-44A5-B7E0-3227213D9523
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetType method, IMFSpatialAudioObjectBuffer.GetType, IMFSpatialAudioObjectBuffer::GetType, mf.imfspatialaudioobjectbuffer_gettype, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEVICE_INFO
+req.lib: Mfobjects.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSpatialAudioObjectBuffer.GetType
 product: Windows
 targetos: Windows
-req.lib: Mfobjects.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSpatialAudioObjectBuffer::GetType

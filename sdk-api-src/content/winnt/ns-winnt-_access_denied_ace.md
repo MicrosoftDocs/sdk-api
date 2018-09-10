@@ -4,7 +4,7 @@ title: "_ACCESS_DENIED_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-denied ACE denies access to an object for a specific trustee identified by a security identifier (SID).
 old-location: security\access_denied_ace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: d76a92d0-ccd0-4e73-98b6-43bcd661134d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCESS_DENIED_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCESS_DENIED_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACCESS_DENIED_ACE
+req.redist: 
 ---
 
 # _ACCESS_DENIED_ACE structure

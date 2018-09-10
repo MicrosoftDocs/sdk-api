@@ -4,17 +4,16 @@ title: wglMakeCurrent function
 author: windows-sdk-content
 description: The wglMakeCurrent function makes a specified OpenGL rendering context the calling thread's current rendering context.
 old-location: opengl\wglmakecurrent.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Opengl32.lib
+req.dll: Opengl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - wglMakeCurrent
 product: Windows
 targetos: Windows
-req.lib: Opengl32.lib
-req.dll: Opengl32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # wglMakeCurrent function

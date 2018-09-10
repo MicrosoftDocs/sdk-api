@@ -4,17 +4,16 @@ title: RpcErrorGetNumberOfRecords function
 author: windows-sdk-content
 description: The RpcErrorGetNumberOfRecords function returns the number of records in the extended error information.
 old-location: rpc\rpcerrorgetnumberofrecords.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcErrorGetNumberOfRecords
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcErrorGetNumberOfRecords function

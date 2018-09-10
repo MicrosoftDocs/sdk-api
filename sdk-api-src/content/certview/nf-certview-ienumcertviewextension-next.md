@@ -4,17 +4,16 @@ title: IEnumCERTVIEWEXTENSION::Next
 author: windows-sdk-content
 description: Moves to the next extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_next.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 658daf9d-0f61-4c93-9688-a7c74464ca89
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Next method, IEnumCERTVIEWEXTENSION object [Security],Next method, IEnumCERTVIEWEXTENSION.Next, IEnumCERTVIEWEXTENSION::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWEXTENSION interface, Next method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_next, certview/IEnumCERTVIEWEXTENSION::Next, security.ienumcertviewextension_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWEXTENSION.Next
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWEXTENSION::Next

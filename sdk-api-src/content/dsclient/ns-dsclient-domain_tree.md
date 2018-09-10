@@ -4,7 +4,7 @@ title: DOMAIN_TREE
 author: windows-sdk-content
 description: The DOMAINTREE structure contains data about a node in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method. Each of the domains in the tree node are represented by a DOMAINDESC structure.
 old-location: ad\domaintree.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c4b3f81c-0632-407c-834e-8eec6fefde68
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOMAIN_TREE, DOMAINTREE, *PDOMAIN_TREE, *LPDOMAINTREE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DOMAINTREE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOMAIN_TREE, DOMAINTREE, *PDOMAIN_TREE, *LPDOMAINTREE
+req.redist: 
 ---
 
 # DOMAIN_TREE structure

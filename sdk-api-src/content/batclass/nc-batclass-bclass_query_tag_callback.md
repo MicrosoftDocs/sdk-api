@@ -4,7 +4,7 @@ title: BCLASS_QUERY_TAG_CALLBACK
 author: windows-sdk-content
 description: BatteryMiniQueryTag returns the current battery tag.
 old-location: battery\batteryminiquerytag.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BatteryMiniQueryTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: PASSIVE_LEVEL
+req.typenames: 
+req.redist: 
 ---
 
 # BCLASS_QUERY_TAG_CALLBACK callback function

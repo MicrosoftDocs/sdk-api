@@ -4,7 +4,7 @@ title: "_MFT_REGISTRATION_INFO"
 author: windows-sdk-content
 description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
 old-location: mf\mft_registration_info.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFT_REGISTRATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFT_REGISTRATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFT_REGISTRATION_INFO
+req.redist: 
 ---
 
 # _MFT_REGISTRATION_INFO structure

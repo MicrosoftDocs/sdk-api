@@ -4,7 +4,7 @@ title: drt_bootstrap_provider_tag
 author: windows-sdk-content
 description: DRT_BOOTSTRAP_PROVIDER structure defines the DRT interface that must be implemented by a bootstrap provider.
 old-location: p2p\drt_bootstrap_provider.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: f64edf7f-379f-41e2-9a86-ba9aeee0f2d7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_BOOTSTRAP_PROVIDER, *PDRT_BOOTSTRAP_PROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRT_BOOTSTRAP_PROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRT_BOOTSTRAP_PROVIDER, *PDRT_BOOTSTRAP_PROVIDER
+req.redist: 
 ---
 
 # drt_bootstrap_provider_tag structure

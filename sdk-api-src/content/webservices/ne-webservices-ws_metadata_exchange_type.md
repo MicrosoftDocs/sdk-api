@@ -4,7 +4,7 @@ title: WS_METADATA_EXCHANGE_TYPE
 author: windows-sdk-content
 description: WS_METADATA_EXCHANGE_TYPE enumeration
 old-location: wsw\ws_metadata_exchange_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_METADATA_EXCHANGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_METADATA_EXCHANGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_METADATA_EXCHANGE_TYPE
+req.redist: 
 ---
 
 # WS_METADATA_EXCHANGE_TYPE enumeration

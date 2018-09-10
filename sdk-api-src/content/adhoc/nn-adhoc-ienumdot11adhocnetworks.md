@@ -4,7 +4,7 @@ title: IEnumDot11AdHocNetworks
 author: windows-sdk-content
 description: Represents the collection of currently visible 802.11 ad hoc networks.
 old-location: nwifi\ienumdot11adhocnetworks.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 5818e921-86bc-4f96-9ecd-3cb9c9a1a488
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumDot11AdHocNetworks
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumDot11AdHocNetworks interface

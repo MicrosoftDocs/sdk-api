@@ -4,17 +4,16 @@ title: SetSecurityDescriptorOwner function
 author: windows-sdk-content
 description: Sets the owner information of an absolute-format security descriptor. It replaces any owner information already present in the security descriptor.
 old-location: security\setsecuritydescriptorowner.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cb3ba617-322a-4b8c-a9d5-32910315fb56
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetSecurityDescriptorOwner
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetSecurityDescriptorOwner function

@@ -4,17 +4,16 @@ title: IAzApplicationGroup::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplicationGroup.DeletePropertyItem
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::DeletePropertyItem

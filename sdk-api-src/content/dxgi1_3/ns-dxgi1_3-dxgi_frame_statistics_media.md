@@ -4,7 +4,7 @@ title: DXGI_FRAME_STATISTICS_MEDIA
 author: windows-sdk-content
 description: Used to verify system approval for the app's custom present duration (custom refresh rate).
 old-location: direct3ddxgi\dxgi_frame_statistics_media.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: BC23B5C1-8257-4556-B930-E09FE60D536C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FRAME_STATISTICS_MEDIA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_FRAME_STATISTICS_MEDIA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_FRAME_STATISTICS_MEDIA
+req.redist: 
 ---
 
 # DXGI_FRAME_STATISTICS_MEDIA structure

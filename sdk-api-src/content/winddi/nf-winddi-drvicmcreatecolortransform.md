@@ -4,17 +4,16 @@ title: DrvIcmCreateColorTransform function
 author: windows-sdk-content
 description: The DrvIcmCreateColorTransform function creates an ICM color transform.
 old-location: display\drvicmcreatecolortransform.htm
-old-project: display
+tech.root: display
 ms.assetid: a4fda665-ba26-4799-820d-c4d82a58d6fd
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvIcmCreateColorTransform, DrvIcmCreateColorTransform function [Display Devices], ddifncs_eec39816-8aa5-44a8-8fed-b800db94d315.xml, display.drvicmcreatecolortransform, winddi/DrvIcmCreateColorTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvIcmCreateColorTransform
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvIcmCreateColorTransform function

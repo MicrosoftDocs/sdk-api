@@ -4,17 +4,16 @@ title: ICertSrvSetup::GetProviderNameList
 author: windows-sdk-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
 old-location: security\icertsrvsetup_getprovidernamelist.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.GetProviderNameList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::GetProviderNameList

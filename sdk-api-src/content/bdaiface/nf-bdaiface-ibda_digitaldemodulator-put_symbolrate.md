@@ -4,17 +4,16 @@ title: IBDA_DigitalDemodulator::put_SymbolRate
 author: windows-sdk-content
 description: The put_SymbolRate method specifies the symbol rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_symbolrate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ec37e7a5-d2e8-468a-8b5b-d1a1fa538bfe
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SymbolRate method, IBDA_DigitalDemodulator.put_SymbolRate, IBDA_DigitalDemodulator::put_SymbolRate, IBDA_DigitalDemodulatorput_SymbolRate, bdaiface/IBDA_DigitalDemodulator::put_SymbolRate, mstv.ibda_digitaldemodulator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DigitalDemodulator.put_SymbolRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DigitalDemodulator::put_SymbolRate

@@ -4,17 +4,16 @@ title: ICertExit::Initialize
 author: windows-sdk-content
 description: Called by the server engine when it initializes itself.
 old-location: security\icertexit2_initialize.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certexit.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertExit.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertExit::Initialize

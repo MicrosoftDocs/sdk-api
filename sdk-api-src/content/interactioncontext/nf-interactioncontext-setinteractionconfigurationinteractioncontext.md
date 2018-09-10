@@ -4,17 +4,16 @@ title: SetInteractionConfigurationInteractionContext function
 author: windows-sdk-content
 description: Configures the Interaction Context object to process the specified manipulations.
 old-location: input_intcontext\setinteractionconfigurationinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: e792e7bc-1c7f-4fa1-810d-97391cbcf797
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll; Edgehtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetInteractionConfigurationInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll; Edgehtml.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetInteractionConfigurationInteractionContext function

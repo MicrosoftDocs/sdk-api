@@ -4,17 +4,16 @@ title: ICertificationAuthorities::ComputeSiteCosts
 author: windows-sdk-content
 description: Is not currently used.
 old-location: security\icertificationauthorities_computesitecosts.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 8dae92da-e4b9-4512-b4f4-463b5a92a0d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComputeSiteCosts, ComputeSiteCosts method [Security], ComputeSiteCosts method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],ComputeSiteCosts method, ICertificationAuthorities.ComputeSiteCosts, ICertificationAuthorities::ComputeSiteCosts, certenroll/ICertificationAuthorities::ComputeSiteCosts, security.icertificationauthorities_computesitecosts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificationAuthorities.ComputeSiteCosts
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificationAuthorities::ComputeSiteCosts

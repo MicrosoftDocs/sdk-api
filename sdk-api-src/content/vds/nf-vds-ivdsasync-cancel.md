@@ -4,17 +4,16 @@ title: IVdsAsync::Cancel
 author: windows-sdk-content
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAsync.Cancel
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAsync::Cancel

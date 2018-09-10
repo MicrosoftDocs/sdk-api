@@ -4,17 +4,16 @@ title: EqualSid function
 author: windows-sdk-content
 description: Tests two security identifier (SID) values for equality. Two SIDs must match exactly to be considered equal.
 old-location: security\equalsid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 08420df3-f6e6-462e-a2e6-d2a7a90be8ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.equalsid, securitybaseapi/EqualSid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - EqualSid
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EqualSid function

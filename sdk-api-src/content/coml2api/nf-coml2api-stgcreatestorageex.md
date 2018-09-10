@@ -4,17 +4,16 @@ title: StgCreateStorageEx function
 author: windows-sdk-content
 description: Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.
 old-location: stg\stgcreatestorageex.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - StgCreateStorageEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StgCreateStorageEx function

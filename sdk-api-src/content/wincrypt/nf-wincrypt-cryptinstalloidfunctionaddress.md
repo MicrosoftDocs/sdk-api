@@ -4,17 +4,16 @@ title: CryptInstallOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptInstallOIDFunctionAddress function installs a set of callable object identifier (OID) function addresses.
 old-location: security\cryptinstalloidfunctionaddress.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 934e8278-0e0b-4402-a2b6-ff1e913d54c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptInstallOIDFunctionAddress, CryptInstallOIDFunctionAddress function [Security], _crypto2_cryptinstalloidfunctionaddress, security.cryptinstalloidfunctionaddress, wincrypt/CryptInstallOIDFunctionAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptInstallOIDFunctionAddress
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptInstallOIDFunctionAddress function

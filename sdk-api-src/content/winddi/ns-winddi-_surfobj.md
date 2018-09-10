@@ -4,7 +4,7 @@ title: "_SURFOBJ"
 author: windows-sdk-content
 description: The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a device-managed surface.
 old-location: display\surfobj.htm
-old-project: display
+tech.root: display
 ms.assetid: cee7cb50-1e8a-422b-aebe-7030ae96fb34
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SURFOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SURFOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: SURFOBJ
+req.redist: 
 ---
 
 # _SURFOBJ structure

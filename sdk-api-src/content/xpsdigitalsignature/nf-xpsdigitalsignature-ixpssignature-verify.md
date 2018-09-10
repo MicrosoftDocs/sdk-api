@@ -4,17 +4,16 @@ title: IXpsSignature::Verify
 author: windows-sdk-content
 description: Verifies the signature against a specified X.509 certificate.
 old-location: xps\ixpssignature_verify.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6f3239dd-e29f-4340-a4ad-49ceb6a151de
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],Verify method, IXpsSignature.Verify, IXpsSignature::Verify, Verify, Verify method [XPS Documents and Packaging], Verify method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_verify, xpsdigitalsignature/IXpsSignature::Verify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignature.Verify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignature::Verify

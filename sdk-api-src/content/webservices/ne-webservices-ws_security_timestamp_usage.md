@@ -4,7 +4,7 @@ title: WS_SECURITY_TIMESTAMP_USAGE
 author: windows-sdk-content
 description: With message security and mixed-mode security, this defines when a timestamp element should be generated and demanded in the WS-Security header.
 old-location: wsw\ws_security_timestamp_usage.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 72e2a404-7988-40b8-b9ec-f9b9b3d767c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_TIMESTAMP_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_TIMESTAMP_USAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_TIMESTAMP_USAGE
+req.redist: 
 ---
 
 # WS_SECURITY_TIMESTAMP_USAGE enumeration

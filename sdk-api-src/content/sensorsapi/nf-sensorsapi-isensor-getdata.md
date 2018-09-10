@@ -4,17 +4,16 @@ title: ISensor::GetData
 author: windows-sdk-content
 description: Retrieves the most recent sensor data report.
 old-location: winsensors_com_ref\isensor_getdata.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetData
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetData

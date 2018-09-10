@@ -4,7 +4,7 @@ title: tagSTGOPTIONS
 author: windows-sdk-content
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: coml2api.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - STGOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: STGOPTIONS
+req.redist: 
 ---
 
 # tagSTGOPTIONS structure

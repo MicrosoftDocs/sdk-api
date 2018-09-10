@@ -4,7 +4,7 @@ title: "_CMSG_KEY_TRANS_RECIPIENT_INFO"
 author: windows-sdk-content
 description: The CMSG_KEY_TRANS_RECIPIENT_INFO structure contains information used in key transport algorithms.
 old-location: security\cmsg_key_trans_recipient_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 956b0646-50a5-46d1-aa9a-91194c35d2b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_KEY_TRANS_RECIPIENT_INFO, *PCMSG_KEY_TRANS_RECIPIENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_KEY_TRANS_RECIPIENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_KEY_TRANS_RECIPIENT_INFO, *PCMSG_KEY_TRANS_RECIPIENT_INFO
+req.redist: 
 ---
 
 # _CMSG_KEY_TRANS_RECIPIENT_INFO structure

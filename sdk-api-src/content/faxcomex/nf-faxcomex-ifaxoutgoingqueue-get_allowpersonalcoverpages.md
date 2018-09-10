@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxOutgoingQueue.get_AllowPersonalCoverPages
 title: IFaxOutgoingQueue::get_AllowPersonalCoverPages
 author: windows-sdk-content
 description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
-old-location: fax\_mfax_faxoutgoingqueue_allowpersonalcoverpages_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5cc3.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AllowPersonalCoverPages property, FaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.get_AllowPersonalCoverPages, IFaxOutgoingQueue::get_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages_vb, get_AllowPersonalCoverPages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],AllowPersonalCoverPages property, IFaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.get_AllowPersonalCoverPages, IFaxOutgoingQueue::AllowPersonalCoverPages, IFaxOutgoingQueue::get_AllowPersonalCoverPages, IFaxOutgoingQueue::put_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp, faxcomex/IFaxOutgoingQueue::AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::get_AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::put_AllowPersonalCoverPages, get_AllowPersonalCoverPages
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxOutgoingQueue.AllowPersonalCoverPages
+ - IFaxOutgoingQueue.AllowPersonalCoverPages
+ - IFaxOutgoingQueue.get_AllowPersonalCoverPages
+ - IFaxOutgoingQueue.put_AllowPersonalCoverPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxOutgoingQueue::get_AllowPersonalCoverPages
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-If this property is equal to <b>True</b>, clients can include personal cover page files with fax transmissions. If this property is equal to <b>False</b>, clients must use a common cover page file stored on the fax server. 
+If this property is equal to <b>TRUE</b>, clients can include personal cover page files with fax transmissions. If this property is equal to <b>FALSE</b>, clients must use a common cover page file stored on the fax server. 
 
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 

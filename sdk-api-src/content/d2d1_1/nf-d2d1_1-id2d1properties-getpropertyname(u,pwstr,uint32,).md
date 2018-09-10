@@ -4,17 +4,16 @@ title: ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,)
 author: windows-sdk-content
 description: Gets the property name that corresponds to the given index.
 old-location: direct2d\id2d1properties_getpropertyname.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 36873134-cb0e-4ba2-bddb-95b2cc92afff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyName, GetPropertyName method [Direct2D], GetPropertyName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyName method, ID2D1Properties.GetPropertyName, ID2D1Properties.GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName, ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,), ID2D1Properties::GetPropertyName(UINT32,PWSTR,UINT32), d2d1_1/ID2D1Properties::GetPropertyName, direct2d.id2d1properties_getpropertyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Properties.GetPropertyName
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,)
@@ -80,9 +79,9 @@ Type: <b>UINT32</b>
 The number of characters in the <i>name</i> buffer.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ICertAdmin2::GetArchivedKey
 author: windows-sdk-content
 description: Retrieves an archived key recovery BLOB.
 old-location: security\icertadmin2_getarchivedkey.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2da85485-99ef-4381-888b-f0ac930b70dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],GetArchivedKey method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CV_OUT_BINARY, GetArchivedKey, GetArchivedKey method [Security], GetArchivedKey method [Security],CCertAdmin object, GetArchivedKey method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetArchivedKey method, ICertAdmin2.GetArchivedKey, ICertAdmin2::GetArchivedKey, _certsrv_icertadmin2_getarchivedkey, certadm/ICertAdmin2::GetArchivedKey, security.icertadmin2_getarchivedkey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertAdmin.GetArchivedKey
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertAdmin2::GetArchivedKey

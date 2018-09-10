@@ -4,17 +4,16 @@ title: IAccPropServices::ComposeHwndIdentityString
 author: windows-sdk-content
 description: Callers use ComposeHwndIdentityString to retrieve an identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__composehwndidentitystring.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: e6712e47-7f00-4932-9a12-40ecafdbf584
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHwndIdentityString method, IAccPropServices.ComposeHwndIdentityString, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccPropServices.ComposeHwndIdentityString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccPropServices::ComposeHwndIdentityString

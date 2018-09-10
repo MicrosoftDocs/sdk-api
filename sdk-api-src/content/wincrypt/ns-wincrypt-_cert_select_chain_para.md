@@ -4,7 +4,7 @@ title: "_CERT_SELECT_CHAIN_PARA"
 author: windows-sdk-content
 description: Contains the parameters used for building and selecting chains.
 old-location: security\cert_select_chain_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 55c6c063-2a65-40ad-8d3f-7723b83cf021
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_SELECT_CHAIN_PARA, *PCERT_SELECT_CHAIN_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_SELECT_CHAIN_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_SELECT_CHAIN_PARA, *PCERT_SELECT_CHAIN_PARA
+req.redist: 
 ---
 
 # _CERT_SELECT_CHAIN_PARA structure

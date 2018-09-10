@@ -4,17 +4,16 @@ title: Bitmap::InitializePalette
 author: windows-sdk-content
 description: The Bitmap::InitializePalette method initializes a standard, optimal, or custom color palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_InitializePalette_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\initializepalette.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],InitializePalette method, Bitmap.InitializePalette, Bitmap::InitializePalette, InitializePalette, InitializePalette method [GDI+], InitializePalette method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_InitializePalette_, gdiplus._gdiplus_CLASS_Bitmap_InitializePalette_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Bitmap.InitializePalette
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.1
 ---
 

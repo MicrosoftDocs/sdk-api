@@ -4,7 +4,7 @@ title: IADsTSUserEx
 author: windows-sdk-content
 description: Used to examine and configure Remote Desktop Services user properties.
 old-location: termserv\iadstsuserex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsTSUserEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx interface

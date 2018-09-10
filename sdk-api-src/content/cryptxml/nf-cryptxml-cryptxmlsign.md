@@ -4,17 +4,16 @@ title: CryptXmlSign function
 author: windows-sdk-content
 description: Creates a cryptographic signature of a SignedInfo element.
 old-location: security\cryptxmlsign.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptXmlSign
 product: Windows
 targetos: Windows
-req.lib: Cryptxml.lib
-req.dll: Cryptxml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptXmlSign function

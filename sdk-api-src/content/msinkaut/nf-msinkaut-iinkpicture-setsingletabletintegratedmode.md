@@ -4,17 +4,16 @@ title: IInkPicture::SetSingleTabletIntegratedMode
 author: windows-sdk-content
 description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
 old-location: tablet\inkpicture_setsingletabletintegratedmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b611a078-b38e-4f9b-834f-9a2aa9684931
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkPicture interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkPicture.SetSingleTabletIntegratedMode, IInkPicture::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::SetSingleTabletIntegratedMode, tablet.inkpicture_setsingletabletintegratedmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkPicture.SetSingleTabletIntegratedMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::SetSingleTabletIntegratedMode

@@ -4,17 +4,16 @@ title: ConvertThreadToFiberEx function
 author: windows-sdk-content
 description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
 old-location: base\convertthreadtofiberex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: cb0473f8-bc49-44c9-a8b7-6d5b55aa37a5
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: ConvertThreadToFiberEx, ConvertThreadToFiberEx function, _win32_convertthreadtofiberex, base.convertthreadtofiberex, winbase/ConvertThreadToFiberEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ConvertThreadToFiberEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertThreadToFiberEx function

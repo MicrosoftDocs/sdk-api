@@ -4,17 +4,16 @@ title: IShellFolderViewDual::get_ViewOptions
 author: windows-sdk-content
 description: Gets a set of flags that indicate the current options of the view.
 old-location: shell\IShellFolderViewDual_get_ViewOptions.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1ef3a163-bc38-40b2-aa3e-dcd36f87964f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_ViewOptions method, IShellFolderViewDual.get_ViewOptions, IShellFolderViewDual::get_ViewOptions, _shell_IShellFolderViewDual_get_ViewOptions, get_ViewOptions, get_ViewOptions method [Windows Shell], get_ViewOptions method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_ViewOptions, shldisp/IShellFolderViewDual::get_ViewOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderViewDual.get_ViewOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderViewDual::get_ViewOptions

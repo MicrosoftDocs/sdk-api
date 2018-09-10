@@ -4,17 +4,16 @@ title: IMbnVendorSpecificEvents::OnEventNotification
 author: windows-sdk-content
 description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificevents_oneventnotification.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c3d10e9c-b60f-42e8-adaa-2c0ba3c77718
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnVendorSpecificEvents.OnEventNotification, IMbnVendorSpecificEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_oneventnotification, mbnapi/IMbnVendorSpecificEvents::OnEventNotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnVendorSpecificEvents.OnEventNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnVendorSpecificEvents::OnEventNotification

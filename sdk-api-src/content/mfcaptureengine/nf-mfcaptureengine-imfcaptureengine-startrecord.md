@@ -4,17 +4,16 @@ title: IMFCaptureEngine::StartRecord
 author: windows-sdk-content
 description: Starts recording audio and/or video to a file.
 old-location: mf\imfcaptureengine_startrecord.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartRecord method, IMFCaptureEngine.StartRecord, IMFCaptureEngine::StartRecord, StartRecord, StartRecord method [Media Foundation], StartRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startrecord, mfcaptureengine/IMFCaptureEngine::StartRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngine.StartRecord
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngine::StartRecord

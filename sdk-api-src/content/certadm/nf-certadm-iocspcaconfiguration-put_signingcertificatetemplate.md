@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::put_SigningCertificateTemplate
 author: windows-sdk-content
 description: Gets or sets the template name for a signing certificate.
 old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificateTemplate property, IOCSPCAConfiguration.SigningCertificateTemplate, IOCSPCAConfiguration.put_SigningCertificateTemplate, IOCSPCAConfiguration::SigningCertificateTemplate, IOCSPCAConfiguration::get_SigningCertificateTemplate, IOCSPCAConfiguration::put_SigningCertificateTemplate, SigningCertificateTemplate property [Security], SigningCertificateTemplate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificateTemplate, certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate, certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate, put_SigningCertificateTemplate, security.iocspcaconfiguration_signingcertificatetemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IOCSPCAConfiguration.SigningCertificateTemplate
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::put_SigningCertificateTemplate

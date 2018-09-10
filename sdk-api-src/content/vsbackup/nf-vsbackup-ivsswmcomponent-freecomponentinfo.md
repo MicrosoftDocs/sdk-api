@@ -4,17 +4,16 @@ title: IVssWMComponent::FreeComponentInfo
 author: windows-sdk-content
 description: The FreeComponentInfo method deallocates system resources devoted to the specified component information.
 old-location: base\ivsswmcomponent_freecomponentinfo.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3f0c4634-2b1c-4a9b-9c13-ace38e03a7ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeComponentInfo, FreeComponentInfo method [VSS], FreeComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],FreeComponentInfo method, IVssWMComponent.FreeComponentInfo, IVssWMComponent::FreeComponentInfo, _win32_ivsswmcomponent_freecomponentinfo, base.ivsswmcomponent_freecomponentinfo, vsbackup/IVssWMComponent::FreeComponentInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMComponent.FreeComponentInfo
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMComponent::FreeComponentInfo

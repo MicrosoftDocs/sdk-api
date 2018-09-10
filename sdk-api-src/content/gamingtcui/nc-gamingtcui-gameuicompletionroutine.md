@@ -4,7 +4,7 @@ title: GameUICompletionRoutine
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\gameuicompletionroutine.htm
-old-project: tcui
+tech.root: tcui
 ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: gamingtcui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GAMING_DEVICE_MODEL_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GameUICompletionRoutine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GameUICompletionRoutine callback function

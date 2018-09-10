@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataCopier::CopyMetadataForFrames
 author: windows-sdk-content
 description: Copies metadata items from the source ISpatialAudioMetadataItems, provided to the Open method, object to the destination ISpatialAudioMetadataItems object, specified with the dstMetadataItems parameter.
 old-location: coreaudio\ispatialaudiometadatacopier_copymetadataforframes.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 12ABAD23-7EDF-4F74-AE2E-26C75FA6AB37
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CopyMetadataForFrames, CopyMetadataForFrames method [Core Audio], CopyMetadataForFrames method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],CopyMetadataForFrames method, ISpatialAudioMetadataCopier.CopyMetadataForFrames, ISpatialAudioMetadataCopier::CopyMetadataForFrames, coreaudio.ispatialaudiometadatacopier_copymetadataforframes, spatialaudiometadata/ISpatialAudioMetadataCopier::CopyMetadataForFrames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataCopier.CopyMetadataForFrames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataCopier::CopyMetadataForFrames

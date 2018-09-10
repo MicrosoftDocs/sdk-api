@@ -4,17 +4,16 @@ title: StgMakeUniqueName function
 author: windows-sdk-content
 description: Creates a unique name for a stream or storage object from a template.
 old-location: shell\StgMakeUniqueName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StgMakeUniqueName
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # StgMakeUniqueName function

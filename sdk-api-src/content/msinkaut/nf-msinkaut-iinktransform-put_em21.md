@@ -4,17 +4,16 @@ title: IInkTransform::put_eM21
 author: windows-sdk-content
 description: Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_em21.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 66fd4f89-7e50-4594-9010-54baed20f2e6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 66fd4f89-7e50-4594-9010-54baed20f2e6, IInkTransform interface [Tablet PC],eM21 property, IInkTransform.eM21, IInkTransform.put_eM21, IInkTransform::eM21, IInkTransform::get_eM21, IInkTransform::put_eM21, InkTransform.get_eM21, InkTransform.put_eM21, eM21 property [Tablet PC], eM21 property [Tablet PC],IInkTransform interface, get_eM21, msinkaut/IInkTransform::eM21, msinkaut/IInkTransform::get_eM21, msinkaut/IInkTransform::put_eM21, put_eM21, tablet.inktransform_em21
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkTransform.put_eM21
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::put_eM21

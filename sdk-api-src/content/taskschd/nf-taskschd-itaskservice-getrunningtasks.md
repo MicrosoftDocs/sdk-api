@@ -4,17 +4,16 @@ title: ITaskService::GetRunningTasks
 author: windows-sdk-content
 description: Gets a collection of running tasks.
 old-location: taskschd\itaskservice_getrunningtasks.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskService.GetRunningTasks
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskService::GetRunningTasks
@@ -69,7 +67,7 @@ A value from the <a href="https://msdn.microsoft.com/c77e597b-c8d9-426c-aa9d-7bb
 
 ### -param ppRunningTasks
 
-
+TBD
 
 
 

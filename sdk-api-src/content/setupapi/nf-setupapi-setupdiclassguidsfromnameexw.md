@@ -4,17 +4,16 @@ title: SetupDiClassGuidsFromNameExW function
 author: windows-sdk-content
 description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer.
 old-location: devinst\setupdiclassguidsfromnameex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5a692ed0-2e3a-464e-934e-2fe98d9c217b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [Device and Driver Installation], SetupDiClassGuidsFromNameExA, SetupDiClassGuidsFromNameExW, devinst.setupdiclassguidsfromnameex, di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml, setupapi/SetupDiClassGuidsFromNameEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiClassGuidsFromNameEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiClassGuidsFromNameExW function

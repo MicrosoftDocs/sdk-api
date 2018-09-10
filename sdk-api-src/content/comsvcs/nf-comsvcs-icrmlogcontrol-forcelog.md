@@ -4,17 +4,16 @@ title: ICrmLogControl::ForceLog
 author: windows-sdk-content
 description: Forces all log records to be durable on disk.
 old-location: cos\icrmlogcontrol_forcelog.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 547c9e31-62a0-413e-8371-20356bfe8906
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ForceLog, ForceLog method [COM+], ForceLog method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceLog method, ICrmLogControl.ForceLog, ICrmLogControl::ForceLog, _dtc_ICrmLogControl_ForceLog, comsvcs/ICrmLogControl::ForceLog, cos.icrmlogcontrol_forcelog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.ForceLog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::ForceLog

@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition
 author: windows-sdk-content
 description: Creates a cubic Bézier linear vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: AA1630D4-7E8B-4B1D-B3F8-1BDB9C3F73C7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateCubicBezierLinearVectorTransition, CreateCubicBezierLinearVectorTransition method [Windows Animation], CreateCubicBezierLinearVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicBezierLinearVectorTransition method, IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition, IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition, uianimation.iuianimationtransitionlibrary2_createcubicbezierlinearvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2.CreateCubicBezierLinearVectorTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateCubicBezierLinearVectorTransition

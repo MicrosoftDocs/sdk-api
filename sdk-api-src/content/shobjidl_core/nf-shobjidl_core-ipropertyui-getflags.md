@@ -4,17 +4,16 @@ title: IPropertyUI::GetFlags
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets property feature flags for a specified property.
 old-location: properties\IPropertyUI_GetFlags.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetFlags method, IPropertyUI.GetFlags, IPropertyUI::GetFlags, _shell_IPropertyUI_GetFlags, properties.IPropertyUI_GetFlags, shell.IPropertyUI_GetFlags, shobjidl_core/IPropertyUI::GetFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyUI.GetFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyUI::GetFlags

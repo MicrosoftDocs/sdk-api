@@ -4,17 +4,16 @@ title: ID3D10Effect::GetTechniqueByName
 author: windows-sdk-content
 description: Get a technique by name.
 old-location: direct3d10\id3d10effect_gettechniquebyname.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_gettechniquebyname.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 85db30ea-1e49-0b62-caca-5e0cf8959361, GetTechniqueByName, GetTechniqueByName method [Direct3D 10], GetTechniqueByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetTechniqueByName method, ID3D10Effect.GetTechniqueByName, ID3D10Effect::GetTechniqueByName, d3d10effect/ID3D10Effect::GetTechniqueByName, direct3d10.id3d10effect_gettechniquebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Effect.GetTechniqueByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Effect::GetTechniqueByName

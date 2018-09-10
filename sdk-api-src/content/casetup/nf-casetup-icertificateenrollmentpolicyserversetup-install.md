@@ -4,17 +4,16 @@ title: ICertificateEnrollmentPolicyServerSetup::Install
 author: windows-sdk-content
 description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentPolicyServerSetup.Install
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::Install

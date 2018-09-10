@@ -4,7 +4,7 @@ title: "_CACHE_DESCRIPTOR"
 author: windows-sdk-content
 description: Describes the cache attributes.
 old-location: base\cache_descriptor.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 38cfa605-831c-45ef-a99f-55f42b2b56e9
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CACHE_DESCRIPTOR, *PCACHE_DESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CACHE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: CACHE_DESCRIPTOR, *PCACHE_DESCRIPTOR
+req.redist: 
 ---
 
 # _CACHE_DESCRIPTOR structure

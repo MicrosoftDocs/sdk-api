@@ -4,17 +4,16 @@ title: IOleUndoUnit::OnNextAdd
 author: windows-sdk-content
 description: Notifies the last undo unit in the collection that a new unit has been added.
 old-location: com\ioleundounit_onnextadd.htm
-old-project: com
+tech.root: com
 ms.assetid: 79bbdb6c-cae3-4f9a-b335-565aacec6d3e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleUndoUnit interface [COM],OnNextAdd method, IOleUndoUnit.OnNextAdd, IOleUndoUnit::OnNextAdd, OnNextAdd, OnNextAdd method [COM], OnNextAdd method [COM],IOleUndoUnit interface, _ole_ioleundounit_onnextadd, com.ioleundounit_onnextadd, ocidl/IOleUndoUnit::OnNextAdd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleUndoUnit.OnNextAdd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUndoUnit::OnNextAdd

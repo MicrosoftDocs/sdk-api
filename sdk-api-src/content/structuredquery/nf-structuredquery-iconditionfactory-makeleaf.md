@@ -4,17 +4,16 @@ title: IConditionFactory::MakeLeaf
 author: windows-sdk-content
 description: Creates a leaf condition node that represents a comparison of property value and constant value.
 old-location: search\_search_IConditionFactory_MakeLeaf.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeleaf.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IConditionFactory interface [search],MakeLeaf method, IConditionFactory.MakeLeaf, IConditionFactory::MakeLeaf, MakeLeaf, MakeLeaf method [search], MakeLeaf method [search],IConditionFactory interface, _search_IConditionFactory_MakeLeaf, search._search_IConditionFactory_MakeLeaf, structuredquery/IConditionFactory::MakeLeaf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConditionFactory.MakeLeaf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IConditionFactory::MakeLeaf

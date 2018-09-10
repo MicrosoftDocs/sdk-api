@@ -4,7 +4,7 @@ title: CollectionElementValue
 author: windows-sdk-content
 description: Represents an element in a collection.
 old-location: xaml_diagnostics\collectionelementvalue.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CollectionElementValue
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CollectionElementValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: CollectionElementValue
+req.redist: 
 ---
 
 # CollectionElementValue structure

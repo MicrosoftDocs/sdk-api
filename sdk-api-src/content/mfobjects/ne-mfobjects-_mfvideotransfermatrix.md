@@ -4,7 +4,7 @@ title: "_MFVideoTransferMatrix"
 author: windows-sdk-content
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 old-location: mf\mfvideotransfermatrix.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 08a05ee8-b053-4480-b7f9-6d96e541ccd9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoTransferMatrix
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoTransferMatrix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoTransferMatrix
+req.redist: 
 ---
 
 # _MFVideoTransferMatrix enumeration

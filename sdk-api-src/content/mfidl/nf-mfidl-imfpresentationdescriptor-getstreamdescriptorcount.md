@@ -4,17 +4,16 @@ title: IMFPresentationDescriptor::GetStreamDescriptorCount
 author: windows-sdk-content
 description: Retrieves the number of stream descriptors in the presentation. Each stream descriptor contains information about one stream in the media source. To retrieve a stream descriptor, call the IMFPresentationDescriptor::GetStreamDescriptorByIndex method.
 old-location: mf\imfpresentationdescriptor_getstreamdescriptorcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a01b8f91-b42a-4910-8afb-6134f5f65759
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamDescriptorCount, GetStreamDescriptorCount method [Media Foundation], GetStreamDescriptorCount method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],GetStreamDescriptorCount method, IMFPresentationDescriptor.GetStreamDescriptorCount, IMFPresentationDescriptor::GetStreamDescriptorCount, a01b8f91-b42a-4910-8afb-6134f5f65759, mf.imfpresentationdescriptor_getstreamdescriptorcount, mfidl/IMFPresentationDescriptor::GetStreamDescriptorCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPresentationDescriptor.GetStreamDescriptorCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPresentationDescriptor::GetStreamDescriptorCount

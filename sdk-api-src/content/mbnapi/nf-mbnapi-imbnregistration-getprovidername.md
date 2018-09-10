@@ -4,17 +4,16 @@ title: IMbnRegistration::GetProviderName
 author: windows-sdk-content
 description: Gets the provider name for the currently registered network.
 old-location: mbn\imbnregistration_getprovidername.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networks], GetProviderName method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderName method, IMbnRegistration.GetProviderName, IMbnRegistration::GetProviderName, mbn.imbnregistration_getprovidername, mbnapi/IMbnRegistration::GetProviderName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRegistration.GetProviderName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRegistration::GetProviderName

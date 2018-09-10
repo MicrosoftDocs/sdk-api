@@ -4,7 +4,7 @@ title: "_IMAGE_OPTIONAL_HEADER"
 author: windows-sdk-content
 description: Represents the optional header format.
 old-location: base\image_optional_header_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b6a50ffc-49f8-4824-9b51-7e381eaf8852
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGE_OPTIONAL_HEADER32, *PIMAGE_OPTIONAL_HEADER32
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PIMAGE_OPTIONAL_HEADER64
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IMAGE_OPTIONAL_HEADER32, *PIMAGE_OPTIONAL_HEADER32
+req.redist: 
 ---
 
 # _IMAGE_OPTIONAL_HEADER structure

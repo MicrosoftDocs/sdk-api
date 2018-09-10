@@ -4,17 +4,16 @@ title: IWMSecureChannel::WMSC_IsConnected
 author: windows-sdk-content
 description: The WMSC_IsConnected method checks to see if the secure connection is valid.
 old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_IsConnected method, IWMSecureChannel.WMSC_IsConnected, IWMSecureChannel::WMSC_IsConnected, WMSC_IsConnected, WMSC_IsConnected method [windows Media Format], WMSC_IsConnected method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_isconnected, wmsecure/IWMSecureChannel::WMSC_IsConnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMSecureChannel.WMSC_IsConnected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSecureChannel::WMSC_IsConnected

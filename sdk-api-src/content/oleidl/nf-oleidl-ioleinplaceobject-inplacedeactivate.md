@@ -4,17 +4,16 @@ title: IOleInPlaceObject::InPlaceDeactivate
 author: windows-sdk-content
 description: Deactivates an active in-place object and discards the object's undo state.
 old-location: com\ioleinplaceobject_inplacedeactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 174a8bde-0795-4d4d-a294-7708c7d1823a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceObject interface [COM],InPlaceDeactivate method, IOleInPlaceObject.InPlaceDeactivate, IOleInPlaceObject::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [COM], InPlaceDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_inplacedeactivate, com.ioleinplaceobject_inplacedeactivate, oleidl/IOleInPlaceObject::InPlaceDeactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceObject.InPlaceDeactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceObject::InPlaceDeactivate

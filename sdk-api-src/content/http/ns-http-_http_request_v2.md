@@ -4,7 +4,7 @@ title: "_HTTP_REQUEST_V2"
 author: windows-sdk-content
 description: Extends the HTTP_REQUEST_V1 request structure with more information about the request.
 old-location: http\http_request_v2.htm
-old-project: http
+tech.root: http
 ms.assetid: 02ac6f4f-ca54-42d5-9acb-5a1e81b2cb1c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_REQUEST_V2, *PHTTP_REQUEST_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_REQUEST_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_REQUEST_V2, *PHTTP_REQUEST_V2
+req.redist: 
 ---
 
 # _HTTP_REQUEST_V2 structure

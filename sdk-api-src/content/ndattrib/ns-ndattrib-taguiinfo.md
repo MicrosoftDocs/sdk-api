@@ -4,7 +4,7 @@ title: tagUiInfo
 author: windows-sdk-content
 description: The UiInfo structure is used to display repair messages to the user.
 old-location: ndf\uiinfo.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiInfo, *PUiInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: UiInfo, *PUiInfo
+req.redist: 
 ---
 
 # tagUiInfo structure

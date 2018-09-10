@@ -4,17 +4,16 @@ title: IExplorerCommand::Invoke
 author: windows-sdk-content
 description: Invokes a Windows Explorer command.
 old-location: shell\IExplorerCommand_Invoke.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3ea545a4-5f4c-4f98-9e56-b7c7eed5f821
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IExplorerCommand interface [Windows Shell],Invoke method, IExplorerCommand.Invoke, IExplorerCommand::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IExplorerCommand interface, _shell_IExplorerCommand_Invoke, shell.IExplorerCommand_Invoke, shobjidl_core/IExplorerCommand::Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExplorerCommand.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExplorerCommand::Invoke

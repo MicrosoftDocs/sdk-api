@@ -4,17 +4,16 @@ title: ILCloneFirst function
 author: windows-sdk-content
 description: Clones the first SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILCloneFirst.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 931df0c7-6acb-4c49-aa2b-464255e97347
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ILCloneFirst, ILCloneFirst function [Windows Shell], _win32_ILCloneFirst, shell.ILCloneFirst, shlobj_core/ILCloneFirst
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ILCloneFirst
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILCloneFirst function

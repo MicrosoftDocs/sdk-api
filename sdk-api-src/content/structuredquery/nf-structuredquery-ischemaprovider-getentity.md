@@ -4,17 +4,16 @@ title: ISchemaProvider::GetEntity
 author: windows-sdk-content
 description: Retrieves an entity by name from the loaded schema.
 old-location: search\_search_ISchemaProvider_GetEntity.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISchemaProvider.GetEntity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISchemaProvider::GetEntity

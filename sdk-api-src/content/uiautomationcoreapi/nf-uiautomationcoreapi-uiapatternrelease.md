@@ -4,17 +4,16 @@ title: UiaPatternRelease function
 author: windows-sdk-content
 description: Deletes an allocated pattern object from memory.
 old-location: winauto\uiauto_UiaPatternReleaseMemManMeth.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: caa7231b-5b31-499e-b548-479501ddf016
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaPatternRelease, UiaPatternRelease function [Windows Accessibility], uiauto.uiauto_UiaPatternReleaseMemManMeth, uiauto_UiaPatternReleaseMemManMeth, uiautomationcoreapi/UiaPatternRelease, winauto.uiauto_UiaPatternReleaseMemManMeth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaPatternRelease
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaPatternRelease function

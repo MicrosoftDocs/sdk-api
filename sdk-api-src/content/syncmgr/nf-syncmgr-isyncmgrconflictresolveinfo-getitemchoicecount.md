@@ -4,17 +4,16 @@ title: ISyncMgrConflictResolveInfo::GetItemChoiceCount
 author: windows-sdk-content
 description: Gets the number of items that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoiceCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7604455c-35ab-4f94-8e5a-3f6aa83fc9cf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemChoiceCount, GetItemChoiceCount method [Windows Shell], GetItemChoiceCount method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoiceCount method, ISyncMgrConflictResolveInfo.GetItemChoiceCount, ISyncMgrConflictResolveInfo::GetItemChoiceCount, _shell_ISyncMgrConflictResolveInfo_GetItemChoiceCount, shell.ISyncMgrConflictResolveInfo_GetItemChoiceCount, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoiceCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrConflictResolveInfo.GetItemChoiceCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrConflictResolveInfo::GetItemChoiceCount

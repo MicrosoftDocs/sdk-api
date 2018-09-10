@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_dxva2api_0000_0006_0001"
 author: windows-sdk-content
 description: Describes a DirectX surface type for DirectX Video Acceleration (DXVA).
 old-location: mf\dxva2_surfacetype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7ede2247-7878-4b70-9a74-56b626013989
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_SurfaceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_SurfaceType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_dxva2api_0000_0006_0001 enumeration

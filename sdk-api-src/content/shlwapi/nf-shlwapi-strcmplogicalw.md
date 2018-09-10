@@ -4,17 +4,16 @@ title: StrCmpLogicalW function
 author: windows-sdk-content
 description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
 old-location: shell\StrCmpLogicalW.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.5 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - StrCmpLogicalW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.5 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrCmpLogicalW function

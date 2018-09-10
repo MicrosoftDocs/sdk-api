@@ -4,7 +4,7 @@ title: GenTspec
 author: windows-sdk-content
 description: The GenTspec structure stores generic Tspec information.
 old-location: qos\gentspec.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GenTspec
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GenTspec
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GenTspec
+req.redist: 
 ---
 
 # GenTspec structure

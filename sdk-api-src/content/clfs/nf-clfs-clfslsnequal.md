@@ -4,17 +4,16 @@ title: ClfsLsnEqual function
 author: windows-sdk-content
 description: Determines whether two LSNs from the same stream are equal.
 old-location: fs\lsnequal.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LsnEqual
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClfsLsnEqual function

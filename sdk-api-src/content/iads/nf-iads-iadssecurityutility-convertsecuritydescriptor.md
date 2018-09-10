@@ -4,17 +4,16 @@ title: IADsSecurityUtility::ConvertSecurityDescriptor
 author: windows-sdk-content
 description: Converts a security descriptor from one format to another.
 old-location: adsi\iadssecurityutility_convertsecuritydescriptor.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: ea6509bd-5625-458b-be7a-abb43ba2f46e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, ConvertSecurityDescriptor, ConvertSecurityDescriptor method [ADSI], ConvertSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],ConvertSecurityDescriptor method, IADsSecurityUtility.ConvertSecurityDescriptor, IADsSecurityUtility::ConvertSecurityDescriptor, _ds_iadssecurityutility_convertsecuritydescriptor, adsi.iadssecurityutility__convertsecuritydescriptor, adsi.iadssecurityutility_convertsecuritydescriptor, iads/IADsSecurityUtility::ConvertSecurityDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsSecurityUtility.ConvertSecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsSecurityUtility::ConvertSecurityDescriptor
@@ -113,7 +111,7 @@ Contains one of the <a href="https://msdn.microsoft.com/503247b6-3119-4514-9831-
 
 ### -param pResult
 
-
+TBD
 
 
 

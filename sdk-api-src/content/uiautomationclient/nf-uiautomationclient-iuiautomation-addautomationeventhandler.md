@@ -4,17 +4,16 @@ title: IUIAutomation::AddAutomationEventHandler
 author: windows-sdk-content
 description: Registers a method that handles Microsoft UI Automation events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddAutomationEventHandler.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 15ceca71-33e8-4d66-afd6-3d50fe81c127
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomation.AddAutomationEventHandler, IUIAutomation::AddAutomationEventHandler, uiauto.uiauto_IUIAutomation_AddAutomationEventHandler, uiauto_IUIAutomation_AddAutomationEventHandler, uiautomationclient/IUIAutomation::AddAutomationEventHandler, winauto.uiauto_IUIAutomation_AddAutomationEventHandler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.AddAutomationEventHandler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::AddAutomationEventHandler
@@ -74,9 +72,9 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element to associate with the event handler.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param cacheRequest [in]

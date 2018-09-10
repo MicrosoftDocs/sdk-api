@@ -4,17 +4,16 @@ title: IDXGISwapChain::GetBuffer
 author: windows-sdk-content
 description: Accesses one of the swap-chain's back buffers.
 old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getbuffer.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetBuffer method, IDXGISwapChain.GetBuffer, IDXGISwapChain::GetBuffer, bd427578-fb6a-3136-aa3f-221b9262700c, direct3ddxgi.idxgiswapchain_getbuffer, dxgi/IDXGISwapChain::GetBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain::GetBuffer

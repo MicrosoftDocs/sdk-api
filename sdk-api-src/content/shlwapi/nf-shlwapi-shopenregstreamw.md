@@ -4,17 +4,16 @@ title: SHOpenRegStreamW function
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\SHOpenRegStream.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2f839b89-8584-4b4d-91e7-166b6e2b6892
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHOpenRegStream, SHOpenRegStream function [Windows Shell], SHOpenRegStreamA, SHOpenRegStreamW, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream, shell.SHOpenRegStream, shlwapi/SHOpenRegStream, shlwapi/SHOpenRegStreamA, shlwapi/SHOpenRegStreamW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SHOpenRegStreamW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHOpenRegStreamW function

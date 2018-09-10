@@ -4,17 +4,16 @@ title: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_ACQUIRE_USER_CREDENTIAL_EVENT pointer.
 old-location: mf\mfp_get_acquire_user_credential_event.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4079acb8-8ae2-46e3-b7d9-50a700696fd6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro [Media Foundation], mf.mfp_get_acquire_user_credential_event, mfplay/MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFP_GET_ACQUIRE_USER_CREDENTIAL_EVENT macro

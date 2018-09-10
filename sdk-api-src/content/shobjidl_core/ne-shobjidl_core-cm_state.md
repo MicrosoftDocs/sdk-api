@@ -4,7 +4,7 @@ title: CM_STATE
 author: windows-sdk-content
 description: Specifies column state values. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_STATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a614dfdc-9535-40c4-9a17-5ab032113508
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CM_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: CM_STATE
+req.redist: 
 ---
 
 # CM_STATE enumeration

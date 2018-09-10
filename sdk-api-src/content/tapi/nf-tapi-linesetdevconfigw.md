@@ -4,17 +4,16 @@ title: lineSetDevConfigW function
 author: windows-sdk-content
 description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
 old-location: tapi2\linesetdevconfig.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - lineSetDevConfigW
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineSetDevConfigW function

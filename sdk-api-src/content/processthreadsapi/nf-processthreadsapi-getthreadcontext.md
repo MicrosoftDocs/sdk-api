@@ -4,17 +4,16 @@ title: GetThreadContext function
 author: windows-sdk-content
 description: Retrieves the context of the specified thread.
 old-location: base\getthreadcontext.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 3b65283e-34d2-4374-87fe-fa8ae45fbbcf
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetThreadContext, GetThreadContext function, _win32_getthreadcontext, base.getthreadcontext, processthreadsapi/GetThreadContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetThreadContext
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetThreadContext function

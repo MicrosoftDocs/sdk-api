@@ -4,17 +4,16 @@ title: ReadEventLogW function
 author: windows-sdk-content
 description: Reads the specified number of entries from the specified event log.
 old-location: base\readeventlog.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 10b37174-661a-4dc6-a7fe-752739494156
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ, EVENTLOG_SEQUENTIAL_READ, ReadEventLog, ReadEventLog function, ReadEventLogA, ReadEventLogW, _win32_readeventlog, base.readeventlog, winbase/ReadEventLog, winbase/ReadEventLogA, winbase/ReadEventLogW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ReadEventLogW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ReadEventLogW function

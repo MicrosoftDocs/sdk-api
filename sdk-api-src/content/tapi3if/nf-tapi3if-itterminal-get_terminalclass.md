@@ -4,17 +4,16 @@ title: ITTerminal::get_TerminalClass
 author: windows-sdk-content
 description: The get_TerminalClass method gets the Terminal Class of the terminal.
 old-location: tapi3\itterminal_get_terminalclass.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a31543da-4cb8-4719-8e33-fcb4d9d630b1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalClass method, ITTerminal.get_TerminalClass, ITTerminal::get_TerminalClass, _tapi3_itterminal_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminalclass, tapi3if/ITTerminal::get_TerminalClass
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminal.get_TerminalClass
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminal::get_TerminalClass

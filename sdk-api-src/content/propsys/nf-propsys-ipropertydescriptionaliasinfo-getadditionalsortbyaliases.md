@@ -4,17 +4,16 @@ title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
 author: windows-sdk-content
 description: Gets the address of a pointer to the IPropertyDescriptionList interface, which contains additional sort column values.
 old-location: properties\IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases.htm
-old-project: properties
+tech.root: properties
 ms.assetid: fb7c105b-6e81-4837-ad00-8886abbe108f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAdditionalSortByAliases, GetAdditionalSortByAliases method [Windows Properties], GetAdditionalSortByAliases method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetAdditionalSortByAliases method, IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases, IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, _shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases

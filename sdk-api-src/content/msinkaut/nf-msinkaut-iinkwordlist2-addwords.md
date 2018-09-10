@@ -4,17 +4,16 @@ title: IInkWordList2::AddWords
 author: windows-sdk-content
 description: Adds more than one word to an InkWordList in a single operation.
 old-location: tablet\iinkwordlist2_addwords.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 65afd260-f2ef-4744-a623-bcec4c742d61
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 65afd260-f2ef-4744-a623-bcec4c742d61, AddWords, AddWords method [Tablet PC], AddWords method [Tablet PC],IInkWordList2 interface, IInkWordList2 interface [Tablet PC],AddWords method, IInkWordList2.AddWords, IInkWordList2::AddWords, msinkaut/IInkWordList2::AddWords, tablet.iinkwordlist2_addwords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkWordList2.AddWords
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkWordList2::AddWords

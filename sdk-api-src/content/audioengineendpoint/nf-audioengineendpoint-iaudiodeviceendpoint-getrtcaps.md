@@ -4,17 +4,16 @@ title: IAudioDeviceEndpoint::GetRTCaps
 author: windows-sdk-content
 description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.
 old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ba8aa8c2-8d62-477a-b5c0-338c989c57a6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRTCaps, GetRTCaps method [Remote Desktop Services], GetRTCaps method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetRTCaps method, IAudioDeviceEndpoint.GetRTCaps, IAudioDeviceEndpoint::GetRTCaps, audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps, termserv.iaudiodeviceendpoint_getrtcaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioDeviceEndpoint.GetRTCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioDeviceEndpoint::GetRTCaps

@@ -4,17 +4,16 @@ title: IVdsIscsiPortal::GetIpsecSecurity
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_getipsecsecurity.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c815856f-94a2-4748-b9ac-54a2ef69c97e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,IVdsIscsiPortal interface, IVdsIscsiPortal interface,GetIpsecSecurity method, IVdsIscsiPortal.GetIpsecSecurity, IVdsIscsiPortal::GetIpsecSecurity, base.ivdsiscsiportal_getipsecsecurity, vds/IVdsIscsiPortal::GetIpsecSecurity, vdshwprv/IVdsIscsiPortal::GetIpsecSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortal.GetIpsecSecurity
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortal::GetIpsecSecurity

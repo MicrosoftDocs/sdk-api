@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxDocument.put_CoverPage
 title: IFaxDocument::put_CoverPage
 author: windows-sdk-content
-description: The CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
-old-location: fax\_mfax_faxdocument_coverpage_vb.htm
-old-project: Fax
+description: The IFaxDocument::get_CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
+old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fol.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPage property, FaxDocument.CoverPage, IFaxDocument.put_CoverPage, IFaxDocument::put_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_coverpage_vb, put_CoverPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPage property, IFaxDocument.CoverPage, IFaxDocument.put_CoverPage, IFaxDocument::CoverPage, IFaxDocument::get_CoverPage, IFaxDocument::put_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp, faxcomex/IFaxDocument::CoverPage, faxcomex/IFaxDocument::get_CoverPage, faxcomex/IFaxDocument::put_CoverPage, put_CoverPage
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxDocument.CoverPage
+ - IFaxDocument.CoverPage
+ - IFaxDocument.get_CoverPage
+ - IFaxDocument.put_CoverPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDocument::put_CoverPage
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>CoverPage</b> property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
+The <b>IFaxDocument::get_CoverPage</b> property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
 
 This property is read/write.
 
@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/6313301b-06ec-494d-9671-66dc06a2ec1c">CoverPageType</a> property to 2.
+To specify a server-based cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptSERVER</a>.
 
                 
 
-To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/6313301b-06ec-494d-9671-66dc06a2ec1c">CoverPageType</a> property to 1.
+To specify a local or personal cover page file, you must set the <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptLOCAL</a>.
 
 
 

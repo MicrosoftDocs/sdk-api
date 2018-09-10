@@ -4,7 +4,7 @@ title: CF_IN_SYNC_STATE
 author: windows-sdk-content
 description: Specifies the in-sync state for placeholder files and folders.
 old-location: cloudapi\cf_in_sync_state.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 05F99E47-00EE-422C-BDDF-CCCDDD4DADED
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_IN_SYNC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_IN_SYNC_STATE
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_IN_SYNC_STATE
+req.redist: 
 ---
 
 # CF_IN_SYNC_STATE enumeration

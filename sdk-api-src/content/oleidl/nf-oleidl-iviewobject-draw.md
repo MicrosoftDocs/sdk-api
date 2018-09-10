@@ -4,17 +4,16 @@ title: IViewObject::Draw
 author: windows-sdk-content
 description: Draws a representation of an object onto the specified device context.
 old-location: com\iviewobject_draw.htm
-old-project: com
+tech.root: com
 ms.assetid: 913593ff-07fe-44bd-88dc-8e58da82089b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Draw, Draw method [COM], Draw method [COM],IViewObject interface, IViewObject interface [COM],Draw method, IViewObject.Draw, IViewObject::Draw, _ole_iviewobject_draw, com.iviewobject_draw, oleidl/IViewObject::Draw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObject.Draw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObject::Draw

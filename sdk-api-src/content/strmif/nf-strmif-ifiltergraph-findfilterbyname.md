@@ -4,17 +4,16 @@ title: IFilterGraph::FindFilterByName
 author: windows-sdk-content
 description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
 old-location: dshow\ifiltergraph_findfilterbyname.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFilterGraph.FindFilterByName
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IFilterGraph::FindFilterByName

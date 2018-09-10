@@ -4,17 +4,16 @@ title: WSARecvEx function
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecvex_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 0ed639f7-e7bd-49a2-a7c0-177699a2cf5e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSARecvEx
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # WSARecvEx function

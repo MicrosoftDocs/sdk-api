@@ -4,17 +4,16 @@ title: ID3DX11SegmentedScan::SegScan
 author: windows-sdk-content
 description: Performs a segmented scan of a sequence.
 old-location: direct3d11\id3dx11segmentedscan_segscan.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 096e1cc1-0bab-4e23-8c4c-47a2a0ff49fb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 2c2b420b-cc9a-9f73-245d-047f419f53b4, ID3DX11SegmentedScan interface [Direct3D 11],SegScan method, ID3DX11SegmentedScan.SegScan, ID3DX11SegmentedScan::SegScan, SegScan, SegScan method [Direct3D 11], SegScan method [Direct3D 11],ID3DX11SegmentedScan interface, d3dcsx/ID3DX11SegmentedScan::SegScan, direct3d11.id3dx11segmentedscan_segscan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DX11_SCAN_OPCODE
+req.lib: D3dcsx.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3DX11SegmentedScan.SegScan
 product: Windows
 targetos: Windows
-req.lib: D3dcsx.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DX11SegmentedScan::SegScan

@@ -4,17 +4,16 @@ title: ISpellCheckProvider::get_LanguageTag
 author: windows-sdk-content
 description: Gets the BCP47 language tag this instance of the spell checker supports.
 old-location: intl\ispellcheckprovider_languagetag.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 74ED381D-3BF5-4E43-85DA-8CD53C821979
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LanguageTag property, ISpellCheckProvider.LanguageTag, ISpellCheckProvider.get_LanguageTag, ISpellCheckProvider::LanguageTag, ISpellCheckProvider::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LanguageTag, intl.ispellcheckprovider_languagetag, spellcheckprovider/ISpellCheckProvider::LanguageTag, spellcheckprovider/ISpellCheckProvider::get_LanguageTag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISpellCheckProvider.get_LanguageTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpellCheckProvider::get_LanguageTag

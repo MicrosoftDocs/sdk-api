@@ -4,7 +4,7 @@ title: KEYMODIFIER
 author: windows-sdk-content
 description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.
 old-location: tablet\keymodifier.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ffb27356-9ad2-4759-bdc4-1025813a7258
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KEYMODIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KEYMODIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: KEYMODIFIER
+req.redist: 
 ---
 
 # KEYMODIFIER enumeration

@@ -4,17 +4,16 @@ title: MI_Context_NewParameters function
 author: windows-sdk-content
 description: Creates a new instance of a method given a method declaration.
 old-location: wmi_v2\mi_context_newparameters.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 8fb80e6f-627c-4897-9776-7454c0258809
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: MI_Context_NewParameters, MI_Context_NewParameters function [Windows Management Infrastructure (MI)], mi/MI_Context_NewParameters, wmi.mi_newparameters, wmi_v2.mi_context_newparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 
-req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Type
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Context_NewParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ---
 
 # MI_Context_NewParameters function

@@ -4,7 +4,7 @@ title: APPX_CAPABILITIES
 author: windows-sdk-content
 description: Specifies the capabilities or privileges requested by a package.
 old-location: appxpkg\appx_capabilities.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 4912BCB0-424B-40F9-BBD1-3AD0A60B3320
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: Appnotify.lib
-req.dll: Twinapi.core.dll
-req.irql: 
+req.typenames: APPX_CAPABILITIES
+req.redist: 
 ---
 
 # APPX_CAPABILITIES enumeration

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3
 author: windows-sdk-content
 description: Extends the IAzAuthorizationStore2 interface with methods that manage business rule (BizRule) support and caching.
 old-location: security\iazauthorizationstore3.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 7063416c-b132-4b3a-bb2b-d27fccea25e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzAuthorizationStore3
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzAuthorizationStore3 interface

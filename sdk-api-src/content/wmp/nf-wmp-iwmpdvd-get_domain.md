@@ -4,17 +4,16 @@ title: IWMPDVD::get_domain
 author: windows-sdk-content
 description: The get_domain method retrieves the current domain of the DVD.
 old-location: wmp\iwmpdvd_get_domain.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPDVD.get_domain
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPDVD::get_domain

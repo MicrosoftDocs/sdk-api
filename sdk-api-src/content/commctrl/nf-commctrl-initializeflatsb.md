@@ -4,17 +4,16 @@ title: InitializeFlatSB function
 author: windows-sdk-content
 description: Initializes flat scroll bars for a particular window.
 old-location: controls\InitializeFlatSB.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: Comctl32.lib
+req.dll: Comctl32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - InitializeFlatSB
 product: Windows
 targetos: Windows
-req.lib: Comctl32.lib
-req.dll: Comctl32.dll (version 4.71 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # InitializeFlatSB function

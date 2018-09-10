@@ -4,7 +4,7 @@ title: "_TOKEN_USER_CLAIMS"
 author: windows-sdk-content
 description: Defines the user claims for the token.
 old-location: security\token_user_claims.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_USER_CLAIMS, *PTOKEN_USER_CLAIMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_USER_CLAIMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_USER_CLAIMS, *PTOKEN_USER_CLAIMS
+req.redist: 
 ---
 
 # _TOKEN_USER_CLAIMS structure

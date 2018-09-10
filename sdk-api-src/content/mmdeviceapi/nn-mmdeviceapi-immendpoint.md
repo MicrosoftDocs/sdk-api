@@ -4,7 +4,7 @@ title: IMMEndpoint
 author: windows-sdk-content
 description: The IMMEndpoint interface represents an audio endpoint device.
 old-location: coreaudio\immendpoint.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMEndpoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmdevapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMEndpoint interface

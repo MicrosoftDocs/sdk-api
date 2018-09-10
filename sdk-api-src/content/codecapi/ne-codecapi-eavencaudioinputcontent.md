@@ -4,7 +4,7 @@ title: eAVEncAudioInputContent
 author: windows-sdk-content
 description: Specifies whether the audio content contains music or voice. This enumeration is used with the AVEncAudioInputContent property.
 old-location: dshow\eavencaudioinputcontent.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e9de2468-3676-4b4b-8eec-385c33b3f44b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - eAVEncAudioInputContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # eAVEncAudioInputContent enumeration

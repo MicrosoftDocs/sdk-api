@@ -4,17 +4,16 @@ title: IEnumAgentSession::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagentsession_skip.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 57358984-b874-46ac-9370-aab6a5136b87
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Skip method, IEnumAgentSession.Skip, IEnumAgentSession::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_skip, tapi3.ienumagentsession_skip, tapi3cc/IEnumAgentSession::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumAgentSession.Skip
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumAgentSession::Skip

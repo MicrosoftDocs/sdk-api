@@ -4,7 +4,7 @@ title: sockaddr_gen
 author: windows-sdk-content
 description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.
 old-location: winsock\sockaddr_gen.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: sockaddr_gen
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - sockaddr_gen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: sockaddr_gen
+req.redist: 
 ---
 
 # sockaddr_gen structure

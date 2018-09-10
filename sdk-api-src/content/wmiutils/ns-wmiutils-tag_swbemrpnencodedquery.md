@@ -4,7 +4,7 @@ title: tag_SWbemRpnEncodedQuery
 author: windows-sdk-content
 description: The SWbemRpnEncodedQuery structure contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_RPN_SEQUENCE analysis type. Not all the fields in the structure are used actively, because some are reserved for future use.
 old-location: wmi\swbemrpnencodedquery.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0f7e77a8-4ee6-421b-be4a-b58055a58c39
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SWbemRpnEncodedQuery
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SWbemRpnEncodedQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SWbemRpnEncodedQuery
+req.redist: 
 ---
 
 # tag_SWbemRpnEncodedQuery structure

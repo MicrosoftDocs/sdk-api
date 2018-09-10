@@ -4,17 +4,16 @@ title: ITTerminalSupport2::get_PluggableTerminalClasses
 author: windows-sdk-content
 description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableTerminalClasses method, ITTerminalSupport2.get_PluggableTerminalClasses, ITTerminalSupport2::get_PluggableTerminalClasses, _tapi3_itterminalsupport2_get_pluggableterminalclasses, get_PluggableTerminalClasses, get_PluggableTerminalClasses method [TAPI 2.2], get_PluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggableterminalclasses, tapi3if/ITTerminalSupport2::get_PluggableTerminalClasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalSupport2.get_PluggableTerminalClasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalSupport2::get_PluggableTerminalClasses

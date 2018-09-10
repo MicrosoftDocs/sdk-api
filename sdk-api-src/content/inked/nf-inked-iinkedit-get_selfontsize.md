@@ -4,17 +4,16 @@ title: IInkEdit::get_SelFontSize
 author: windows-sdk-content
 description: Gets or sets the font size of the selected text within the InkEdit control (run time only).
 old-location: tablet\inkedit_selfontsize.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a6e3de31-e821-4f14-a3ec-f4ea0ed6f339
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelFontSize property, IInkEdit.SelFontSize, IInkEdit.get_SelFontSize, IInkEdit::SelFontSize, IInkEdit::get_SelFontSize, IInkEdit::put_SelFontSize, InkEdit.get_SelFontSize, InkEdit.put_SelFontSize, SelFontSize property [Tablet PC], SelFontSize property [Tablet PC],IInkEdit interface, get_SelFontSize, inked/IInkEdit::SelFontSize, inked/IInkEdit::get_SelFontSize, inked/IInkEdit::put_SelFontSize, put_SelFontSize, tablet.inkedit_selfontsize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_SelFontSize
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::get_SelFontSize

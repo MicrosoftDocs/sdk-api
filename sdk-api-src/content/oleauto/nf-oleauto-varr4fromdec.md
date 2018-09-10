@@ -4,17 +4,16 @@ title: VarR4FromDec function
 author: windows-sdk-content
 description: Converts a decimal value to a float value.
 old-location: automat\varr4fromdec.htm
-old-project: automat
+tech.root: automat
 ms.assetid: d8cee8c9-fe6c-4470-a3a7-00ffbc07d2c0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarR4FromDec, VarR4FromDec function [Automation], _oa96_VarR4FromDec, automat.varr4fromdec, oleauto/VarR4FromDec
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarR4FromDec
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarR4FromDec function

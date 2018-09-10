@@ -4,17 +4,16 @@ title: IDynamicRenderer::put_DataCacheEnabled
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_datacacheenabled.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1b2435ee-4682-4499-aa5c-35201ab2ba95
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, put_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IDynamicRenderer.put_DataCacheEnabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDynamicRenderer::put_DataCacheEnabled

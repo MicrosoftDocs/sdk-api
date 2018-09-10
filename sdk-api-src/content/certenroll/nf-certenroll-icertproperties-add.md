@@ -4,17 +4,16 @@ title: ICertProperties::Add
 author: windows-sdk-content
 description: Adds a property to the collection.
 old-location: security\icertproperties_add_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperties.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperties::Add
@@ -61,7 +60,7 @@ The <b>Add</b> method adds a property to the collection. This method is web enab
 
 ### -param pVal
 
-
+TBD
 
 
 

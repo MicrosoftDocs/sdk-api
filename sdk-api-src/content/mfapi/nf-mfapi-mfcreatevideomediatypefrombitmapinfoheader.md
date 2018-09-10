@@ -4,17 +4,16 @@ title: MFCreateVideoMediaTypeFromBitMapInfoHeader function
 author: windows-sdk-content
 description: This function is not implemented.
 old-location: mf\mfcreatevideomediatypefrombitmapinfoheader.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640, MFCreateVideoMediaTypeFromBitMapInfoHeader, MFCreateVideoMediaTypeFromBitMapInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheader, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateVideoMediaTypeFromBitMapInfoHeader
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateVideoMediaTypeFromBitMapInfoHeader function

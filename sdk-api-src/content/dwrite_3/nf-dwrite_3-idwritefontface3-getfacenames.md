@@ -4,17 +4,16 @@ title: IDWriteFontFace3::GetFaceNames
 author: windows-sdk-content
 description: Creates a localized strings object that contains the face names for the font (for example, Regular or Bold), indexed by locale name.
 old-location: directwrite\idwritefontface3_getfacenames.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 81FBE594-3429-4E61-9A83-513605879D2D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFaceNames, GetFaceNames method [Direct Write], GetFaceNames method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetFaceNames method, IDWriteFontFace3.GetFaceNames, IDWriteFontFace3::GetFaceNames, directwrite.idwritefontface3_getfacenames, dwrite_3/IDWriteFontFace3::GetFaceNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace3.GetFaceNames
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace3::GetFaceNames

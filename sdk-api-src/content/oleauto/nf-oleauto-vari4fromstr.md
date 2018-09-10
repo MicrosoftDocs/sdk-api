@@ -4,17 +4,16 @@ title: VarI4FromStr function
 author: windows-sdk-content
 description: Converts an OLECHAR string to a long value.
 old-location: automat\vari4fromstr.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 61a1ad0c-f0bd-4437-85c2-7edd6ade06bd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI4FromStr, VarI4FromStr function [Automation], _oa96_VarI4FromStr, automat.vari4fromstr, oleauto/VarI4FromStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI4FromStr
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI4FromStr function

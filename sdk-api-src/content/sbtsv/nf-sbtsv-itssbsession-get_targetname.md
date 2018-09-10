@@ -4,17 +4,16 @@ title: ITsSbSession::get_TargetName
 author: windows-sdk-content
 description: Retrieves the name of the target on which this session was created.
 old-location: termserv\itssbsession_targetname.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],TargetName property, ITsSbSession.TargetName, ITsSbSession.get_TargetName, ITsSbSession::TargetName, ITsSbSession::get_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbSession interface, get_TargetName, sbtsv/ITsSbSession::TargetName, sbtsv/ITsSbSession::get_TargetName, termserv.itssbsession_targetname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbSession.get_TargetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbSession::get_TargetName

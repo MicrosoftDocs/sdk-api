@@ -4,17 +4,16 @@ title: GetDiskFreeSpaceA function
 author: windows-sdk-content
 description: Retrieves information about the specified disk, including the amount of free space on the disk.
 old-location: fs\getdiskfreespace.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 4fe14c49-3fd6-48b7-92de-a0c867b2e042
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDiskFreeSpace, GetDiskFreeSpace function [Files], GetDiskFreeSpaceA, GetDiskFreeSpaceW, _win32_getdiskfreespace, base.getdiskfreespace, fileapi/GetDiskFreeSpace, fileapi/GetDiskFreeSpaceA, fileapi/GetDiskFreeSpaceW, fs.getdiskfreespace, winbase/GetDiskFreeSpace, winbase/GetDiskFreeSpaceA, winbase/GetDiskFreeSpaceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - GetDiskFreeSpaceW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetDiskFreeSpaceA function

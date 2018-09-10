@@ -4,7 +4,7 @@ title: "_CERT_POLICY_MAPPING"
 author: windows-sdk-content
 description: Contains a mapping between issuer domain and subject domain policy OIDs.
 old-location: security\cert_policy_mapping.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 6270888a-1c61-472d-8ec7-10c24b890220
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_POLICY_MAPPING, *PCERT_POLICY_MAPPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_POLICY_MAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_POLICY_MAPPING, *PCERT_POLICY_MAPPING
+req.redist: 
 ---
 
 # _CERT_POLICY_MAPPING structure

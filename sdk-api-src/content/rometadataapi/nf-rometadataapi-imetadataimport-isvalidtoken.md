@@ -4,17 +4,16 @@ title: IMetaDataImport::IsValidToken
 author: windows-sdk-content
 description: Gets a value indicating whether the specified token holds a valid reference to a code object.
 old-location: winrt\imetadataimport_isvalidtoken.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 9829a600-38fb-48ac-a486-abb56d17afdf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IMetaDataImport.IsValidToken, IMetaDataImport::IsValidToken, IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.IsValidToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::IsValidToken

@@ -4,17 +4,16 @@ title: StringCbGetsExA function
 author: windows-sdk-content
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcbgetsex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgetsex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbGetsEx, StringCbGetsEx function [Menus and Other Resources], StringCbGetsExA, StringCbGetsExW, _shell_StringCbGetsEx, _shell_stringcbgetsex_cpp, menurc.stringcbgetsex, strsafe/StringCbGetsEx, strsafe/StringCbGetsExA, strsafe/StringCbGetsExW, winui._shell_stringcbgetsex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCbGetsExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCbGetsExA function

@@ -4,17 +4,16 @@ title: LZRead function
 author: windows-sdk-content
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
 old-location: fs\lzread.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Lz32.lib
+req.dll: Lz32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LZRead
 product: Windows
 targetos: Windows
-req.lib: Lz32.lib
-req.dll: Lz32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LZRead function

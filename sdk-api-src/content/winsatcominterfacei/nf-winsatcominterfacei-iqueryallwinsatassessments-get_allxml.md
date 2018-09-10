@@ -4,17 +4,16 @@ title: IQueryAllWinSATAssessments::get_AllXML
 author: windows-sdk-content
 description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
 old-location: winsat\iqueryallwinsatassessments_allxml.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT],IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments interface [WinSAT],AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments.get_AllXML, IQueryAllWinSATAssessments::AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IQueryAllWinSATAssessments.get_AllXML
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryAllWinSATAssessments::get_AllXML

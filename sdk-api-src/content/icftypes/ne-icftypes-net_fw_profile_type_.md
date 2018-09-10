@@ -4,7 +4,7 @@ title: NET_FW_PROFILE_TYPE_
 author: windows-sdk-content
 description: Specifies the type of profile.
 old-location: ics\net_fw_profile_type.htm
-old-project: ics
+tech.root: ics
 ms.assetid: abf59405-86c7-4a20-a3e9-b12b27290b00
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_PROFILE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_FW_PROFILE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_FW_PROFILE_TYPE
+req.redist: 
 ---
 
 # NET_FW_PROFILE_TYPE_ enumeration

@@ -4,17 +4,16 @@ title: IEnumFsiItems::Clone
 author: windows-sdk-content
 description: Creates another enumerator that contains the same enumeration state as the current one.
 old-location: imapi\ienumfsiitems_clone.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems interface, IEnumFsiItems interface [IMAPI],Clone method, IEnumFsiItems.Clone, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFsiItems.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFsiItems::Clone

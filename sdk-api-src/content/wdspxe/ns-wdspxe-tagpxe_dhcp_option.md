@@ -4,7 +4,7 @@ title: tagPXE_DHCP_OPTION
 author: windows-sdk-content
 description: The PXE_DHCP_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_option.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 3acc7641-07aa-4a95-a31c-74b48a749f5a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PXE_DHCP_OPTION, *PPXE_DHCP_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PXE_DHCP_OPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PXE_DHCP_OPTION, *PPXE_DHCP_OPTION
+req.redist: 
 ---
 
 # tagPXE_DHCP_OPTION structure

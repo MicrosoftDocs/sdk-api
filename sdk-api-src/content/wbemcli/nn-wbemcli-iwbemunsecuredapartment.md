@@ -4,7 +4,7 @@ title: IWbemUnsecuredApartment
 author: windows-sdk-content
 description: Allows client applications to determine whether Unsecapp.exe performs access checks on asynchronous callbacks.
 old-location: wmi\iwbemunsecuredapartment.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e77a9ea0-a4cc-4e86-8506-414ecced88f2
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Unsecapp.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemUnsecuredApartment
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Unsecapp.exe
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemUnsecuredApartment interface

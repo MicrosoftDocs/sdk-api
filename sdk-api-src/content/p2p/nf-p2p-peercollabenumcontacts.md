@@ -4,17 +4,16 @@ title: PeerCollabEnumContacts function
 author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.
 old-location: p2p\peercollabenumcontacts.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabEnumContacts
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabEnumContacts function

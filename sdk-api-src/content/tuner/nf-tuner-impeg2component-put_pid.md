@@ -4,17 +4,16 @@ title: IMPEG2Component::put_PID
 author: windows-sdk-content
 description: The put_PID method sets the packet identifier (PID) for this substream.
 old-location: mstv\impeg2component_put_pid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0bc19b79-1586-470d-85d5-3ef1babe60e2
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PID method, IMPEG2Component.put_PID, IMPEG2Component::put_PID, IMPEG2Componentput_PID, mstv.impeg2component_put_pid, put_PID, put_PID method [Microsoft TV Technologies], put_PID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMPEG2Component.put_PID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMPEG2Component::put_PID

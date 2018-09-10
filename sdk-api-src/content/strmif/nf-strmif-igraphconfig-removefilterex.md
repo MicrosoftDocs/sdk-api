@@ -4,17 +4,16 @@ title: IGraphConfig::RemoveFilterEx
 author: windows-sdk-content
 description: The RemoveFilterEx method removes a filter from the filter graph.
 old-location: dshow\igraphconfig_removefilterex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterEx method, IGraphConfig.RemoveFilterEx, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.RemoveFilterEx
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::RemoveFilterEx

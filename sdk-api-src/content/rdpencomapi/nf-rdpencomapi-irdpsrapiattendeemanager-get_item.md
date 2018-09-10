@@ -4,17 +4,16 @@ title: IRDPSRAPIAttendeeManager::get_Item
 author: windows-sdk-content
 description: An item in the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager_item.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 963f795a-3da4-45d0-b609-8fcc2d6e5700
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager.get_Item, IRDPSRAPIAttendeeManager::Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIAttendeeManager interface, Item property [RDP],RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP],Item property, get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIAttendeeManager.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIAttendeeManager::get_Item

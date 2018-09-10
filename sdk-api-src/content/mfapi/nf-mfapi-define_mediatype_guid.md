@@ -4,17 +4,16 @@ title: DEFINE_MEDIATYPE_GUID macro
 author: windows-sdk-content
 description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.
 old-location: mf\define_mediatype_guid_macro.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundation], be094ccc-a475-480a-a345-bdad70b11f45, mf.define_mediatype_guid_macro, mfapi/DEFINE_MEDIATYPE_GUID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DEFINE_MEDIATYPE_GUID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # DEFINE_MEDIATYPE_GUID macro

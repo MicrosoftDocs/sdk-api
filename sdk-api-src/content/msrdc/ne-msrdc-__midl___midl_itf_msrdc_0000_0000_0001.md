@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msrdc_0000_0000_0001"
 author: windows-sdk-content
 description: Defines the set of RDC-specific error codes.
 old-location: rdc\rdc_errorcode.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDC_ErrorCode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDC_ErrorCode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: RDC_ErrorCode
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msrdc_0000_0000_0001 enumeration

@@ -4,17 +4,16 @@ title: IInkDisp::ExtractWithRectangle
 author: windows-sdk-content
 description: Cuts or copies strokes from an existing InkDisp object and pastes them into a new InkDisp object, by using the known rectangle to determine which strokes to extract.
 old-location: tablet\inkdisp_extractwithrectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b32467a8-a677-4a80-8029-d364e6e372c6
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], ExtractWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractWithRectangle method, IInkDisp.ExtractWithRectangle, IInkDisp::ExtractWithRectangle, b32467a8-a677-4a80-8029-d364e6e372c6, msinkaut/IInkDisp::ExtractWithRectangle, tablet.inkdisp_extractwithrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.ExtractWithRectangle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::ExtractWithRectangle

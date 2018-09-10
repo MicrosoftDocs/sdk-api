@@ -4,7 +4,7 @@ title: value_entW
 author: windows-sdk-content
 description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
 old-location: base\valent_str.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VALENTW, *PVALENTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - VALENTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: VALENTW, *PVALENTW
+req.redist: 
 ---
 
 # value_entW structure

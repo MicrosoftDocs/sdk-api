@@ -4,17 +4,16 @@ title: IVssComponent::GetRestoreSubcomponentCount
 author: windows-sdk-content
 description: The GetRestoreSubcomponentCount method returns the number of subcomponents associated with a component.
 old-location: base\ivsscomponent_getrestoresubcomponentcount.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 04c1dcdc-7672-4b7c-a9db-eafca80ab257
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRestoreSubcomponentCount, GetRestoreSubcomponentCount method [VSS], GetRestoreSubcomponentCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponentCount method, IVssComponent.GetRestoreSubcomponentCount, IVssComponent::GetRestoreSubcomponentCount, _win32_ivsscomponent_getrestoresubcomponentcount, base.ivsscomponent_getrestoresubcomponentcount, vswriter/IVssComponent::GetRestoreSubcomponentCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetRestoreSubcomponentCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetRestoreSubcomponentCount

@@ -4,17 +4,16 @@ title: IAMPushSource::SetPushSourceFlags
 author: windows-sdk-content
 description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
 old-location: dshow\iampushsource_setpushsourceflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMPushSource.SetPushSourceFlags
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMPushSource::SetPushSourceFlags

@@ -4,7 +4,7 @@ title: tagAspectInfoFlag
 author: windows-sdk-content
 description: Indicates whether an object can support optimized drawing of itself.
 old-location: com\dvaspectinfoflag.htm
-old-project: com
+tech.root: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVASPECTINFOFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVASPECTINFOFLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DVASPECTINFOFLAG
+req.redist: 
 ---
 
 # tagAspectInfoFlag enumeration

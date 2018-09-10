@@ -4,17 +4,16 @@ title: MprAdminServerGetCredentials function
 author: windows-sdk-content
 description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.
 old-location: rras\mpradminservergetcredentials.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 76211b14-8f6c-48e4-846f-bd5d3a04285d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminServerGetCredentials, MprAdminServerGetCredentials function [RAS], _mpr_mpradminservergetcredentials, mprapi/MprAdminServerGetCredentials, rras.mpradminservergetcredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminServerGetCredentials
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminServerGetCredentials function

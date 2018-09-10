@@ -4,17 +4,16 @@ title: SHRegSetPathW function
 author: windows-sdk-content
 description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.
 old-location: shell\SHRegSetPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegSetPath, SHRegSetPath function [Windows Shell], SHRegSetPathA, SHRegSetPathW, _win32_SHRegSetPath, shell.SHRegSetPath, shlwapi/SHRegSetPath, shlwapi/SHRegSetPathA, shlwapi/SHRegSetPathW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHRegSetPathW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegSetPathW function

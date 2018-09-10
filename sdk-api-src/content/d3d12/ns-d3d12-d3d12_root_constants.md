@@ -4,7 +4,7 @@ title: D3D12_ROOT_CONSTANTS
 author: windows-sdk-content
 description: Describes constants inline in the root signature that appear in shaders as one constant buffer.
 old-location: direct3d12\d3d12_root_constants.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B6630700-4F01-4D91-A8FF-3E9CB6505F51
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_ROOT_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_ROOT_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_ROOT_CONSTANTS
+req.redist: 
 ---
 
 # D3D12_ROOT_CONSTANTS structure

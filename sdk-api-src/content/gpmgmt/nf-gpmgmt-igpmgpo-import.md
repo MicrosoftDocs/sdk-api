@@ -4,17 +4,16 @@ title: IGPMGPO::Import
 author: windows-sdk-content
 description: Imports the policy settings from the specified GPMBackup object.
 old-location: gpmc\igpmgpo_import.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMGPO.Import
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPO::Import

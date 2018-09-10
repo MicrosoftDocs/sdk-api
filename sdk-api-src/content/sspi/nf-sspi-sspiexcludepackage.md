@@ -4,17 +4,16 @@ title: SspiExcludePackage function
 author: windows-sdk-content
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: SspiCli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SspiExcludePackage
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: SspiCli.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SspiExcludePackage function

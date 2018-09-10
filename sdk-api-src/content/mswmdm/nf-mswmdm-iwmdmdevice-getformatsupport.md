@@ -4,17 +4,16 @@ title: IWMDMDevice::GetFormatSupport
 author: windows-sdk-content
 description: The GetFormatSupport method retrieves all the formats supported by the device, including codecs and file formats.
 old-location: wmdm\iwmdmdevice_getformatsupport.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a917660d-300f-4ac4-befe-a3f78172411e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetFormatSupport method, IWMDMDevice.GetFormatSupport, IWMDMDevice::GetFormatSupport, IWMDMDeviceGetFormatSupport, mswmdm/IWMDMDevice::GetFormatSupport, wmdm.iwmdmdevice_getformatsupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice.GetFormatSupport
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice::GetFormatSupport

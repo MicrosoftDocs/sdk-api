@@ -4,7 +4,7 @@ title: WICDdsDimension
 author: windows-sdk-content
 description: Specifies the dimension type of the data contained in DDS image.
 old-location: wic\wicddsdimension.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 76CEBFD7-EE7D-48C4-9F88-9AD82C9FED55
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICDdsDimension
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICDdsDimension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICDdsDimension
+req.redist: 
 ---
 
 # WICDdsDimension enumeration

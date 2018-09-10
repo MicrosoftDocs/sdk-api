@@ -4,17 +4,16 @@ title: IWMPSyncDevice::get_connected
 author: windows-sdk-content
 description: The get_connected method retrieves a value indicating whether the device is connected to Windows Media Player.
 old-location: wmp\iwmpsyncdevice_get_connected.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_connected method, IWMPSyncDevice.get_connected, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSyncDevice.get_connected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSyncDevice::get_connected

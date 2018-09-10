@@ -4,17 +4,16 @@ title: IVisualProperties::SetFont
 author: windows-sdk-content
 description: Sets attributes of the font.
 old-location: shell\IVisualProperties_SetFont.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ecdf8652-0e1c-47df-bd19-80390bdf6c7f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetFont method, IVisualProperties.SetFont, IVisualProperties::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualProperties.SetFont
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualProperties::SetFont

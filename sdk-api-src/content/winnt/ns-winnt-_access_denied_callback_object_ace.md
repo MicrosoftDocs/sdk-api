@@ -4,7 +4,7 @@ title: "_ACCESS_DENIED_CALLBACK_OBJECT_ACE"
 author: windows-sdk-content
 description: The ACCESS_DENIED_CALLBACK_OBJECT_ACE structure defines an access control entry that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_callback_object_ace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 945d9c3b-922f-481d-bb1d-3dca50fb9edb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACCESS_DENIED_CALLBACK_OBJECT_ACE, *PACCESS_DENIED_CALLBACK_OBJECT_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACCESS_DENIED_CALLBACK_OBJECT_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACCESS_DENIED_CALLBACK_OBJECT_ACE, *PACCESS_DENIED_CALLBACK_OBJECT_ACE
+req.redist: 
 ---
 
 # _ACCESS_DENIED_CALLBACK_OBJECT_ACE structure

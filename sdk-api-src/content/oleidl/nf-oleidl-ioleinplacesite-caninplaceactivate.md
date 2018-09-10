@@ -4,17 +4,16 @@ title: IOleInPlaceSite::CanInPlaceActivate
 author: windows-sdk-content
 description: Determines whether the container can activate the object in place.
 old-location: com\ioleinplacesite_caninplaceactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSite.CanInPlaceActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::CanInPlaceActivate

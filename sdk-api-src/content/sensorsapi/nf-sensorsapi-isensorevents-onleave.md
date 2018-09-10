@@ -4,17 +4,16 @@ title: ISensorEvents::OnLeave
 author: windows-sdk-content
 description: Provides notification that a sensor device is no longer connected.
 old-location: winsensors_com_ref\isensorevents_onleave.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 541ef7a4-c238-4fc5-9b2d-1fadb1472b2d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensorEvents interface,OnLeave method, ISensorEvents.OnLeave, ISensorEvents::OnLeave, OnLeave, OnLeave method, OnLeave method,ISensorEvents interface, sensorsapi/ISensorEvents::OnLeave, winsensors_com_ref.isensorevents_onleave
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorEvents.OnLeave
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorEvents::OnLeave
@@ -62,7 +60,7 @@ Provides notification that a sensor device is no longer connected.
 
 ### -param ID
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ITDirectoryObjectUser::put_IPPhonePrimary
 author: windows-sdk-content
 description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],put_IPPhonePrimary method, ITDirectoryObjectUser.put_IPPhonePrimary, ITDirectoryObjectUser::put_IPPhonePrimary, _tapi3_itdirectoryobjectuser_put_ipphoneprimary, put_IPPhonePrimary, put_IPPhonePrimary method [TAPI 2.2], put_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::put_IPPhonePrimary, tapi3.itdirectoryobjectuser_put_ipphoneprimary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectUser.put_IPPhonePrimary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectUser::put_IPPhonePrimary

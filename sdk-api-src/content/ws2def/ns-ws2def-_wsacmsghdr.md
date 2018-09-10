@@ -4,7 +4,7 @@ title: "_WSACMSGHDR"
 author: windows-sdk-content
 description: The CMSGHDR structure defines the header for a control data object that is associated with a datagram.
 old-location: netvista\cmsghdr.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c07dd974-7a23-44c2-b55a-aadfe8936954
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Wsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSACMSGHDR, *PWSACMSGHDR, *LPWSACMSGHDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSGHDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSACMSGHDR, *PWSACMSGHDR, *LPWSACMSGHDR
+req.redist: 
 ---
 
 # _WSACMSGHDR structure

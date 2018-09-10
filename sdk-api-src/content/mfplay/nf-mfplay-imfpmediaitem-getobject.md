@@ -4,17 +4,16 @@ title: IMFPMediaItem::GetObject
 author: windows-sdk-content
 description: Gets the object that was used to create the media item.
 old-location: mf\imfpmediaitem_getobject.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6a6abc57-149d-4e4b-a29f-7b712d24e6df
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetObject method, IMFPMediaItem.GetObject, IMFPMediaItem::GetObject, mf.imfpmediaitem_getobject, mfplay/IMFPMediaItem::GetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::GetObject

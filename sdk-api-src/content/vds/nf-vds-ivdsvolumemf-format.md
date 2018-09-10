@@ -4,17 +4,16 @@ title: IVdsVolumeMF::Format
 author: windows-sdk-content
 description: Formats a file system on the current volume.
 old-location: base\ivdsvolumemf_format.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8203ac16-99af-4962-bafc-12c0d238d062
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Format, Format method [VDS], Format method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Format method, IVdsVolumeMF.Format, IVdsVolumeMF::Format, base.ivdsvolumemf_format, vds/IVdsVolumeMF::Format
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF.Format
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF::Format

@@ -4,17 +4,16 @@ title: ISensNetwork::ConnectionMadeNoQOCInfo
 author: windows-sdk-content
 description: The ConnectionMadeNoQOCInfo method notifies your application that the specified connection has been established with no Quality of Connection information available.
 old-location: sens\isensnetwork_connectionmadenoqocinfo.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: a27dd3c7-e3f6-4ccb-b23a-17b15235245c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectionMadeNoQOCInfo, ConnectionMadeNoQOCInfo method [SENS], ConnectionMadeNoQOCInfo method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMadeNoQOCInfo method, ISensNetwork.ConnectionMadeNoQOCInfo, ISensNetwork::ConnectionMadeNoQOCInfo, _zaw_isensnetwork_connectionmadenoqocinfo, sens.isensnetwork_connectionmadenoqocinfo, sensevts/ISensNetwork::ConnectionMadeNoQOCInfo, syncmgr.isensnetwork_connectionmadenoqocinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensNetwork.ConnectionMadeNoQOCInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensNetwork::ConnectionMadeNoQOCInfo

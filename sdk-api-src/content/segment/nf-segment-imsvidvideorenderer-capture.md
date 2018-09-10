@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer::Capture
 author: windows-sdk-content
 description: The Capture method captures the video frame that is currently being rendered by the Video Mixing Renderer (VMR).
 old-location: mstv\imsvidvideorenderer_capture.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Capture, Capture method [Microsoft TV Technologies], Capture method [Microsoft TV Technologies],IMSVidVideoRenderer interface, IMSVidVideoRenderer interface [Microsoft TV Technologies],Capture method, IMSVidVideoRenderer.Capture, IMSVidVideoRenderer::Capture, IMSVidVideoRendererCapture, mstv.imsvidvideorenderer_capture, segment/IMSVidVideoRenderer::Capture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer.Capture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer::Capture
@@ -62,7 +60,7 @@ The <b>Capture</b> method captures the video frame that is currently being rende
 
 ### -param currentImage
 
-
+TBD
 
 
 

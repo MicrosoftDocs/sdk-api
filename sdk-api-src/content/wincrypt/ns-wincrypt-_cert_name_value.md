@@ -4,7 +4,7 @@ title: "_CERT_NAME_VALUE"
 author: windows-sdk-content
 description: Contains a relative distinguished name (RDN) attribute value.
 old-location: security\cert_name_value.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_NAME_VALUE, *PCERT_NAME_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_NAME_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_NAME_VALUE, *PCERT_NAME_VALUE
+req.redist: 
 ---
 
 # _CERT_NAME_VALUE structure

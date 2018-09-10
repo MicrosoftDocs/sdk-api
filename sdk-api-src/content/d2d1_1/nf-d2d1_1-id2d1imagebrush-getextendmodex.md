@@ -4,17 +4,16 @@ title: ID2D1ImageBrush::GetExtendModeX
 author: windows-sdk-content
 description: Gets the extend mode of the image brush on the x-axis.
 old-location: direct2d\id2d1imagebrush_getextendmodex.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 272b3d4d-ff76-42fa-8765-b44b1a834dbe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetExtendModeX method, ID2D1ImageBrush.GetExtendModeX, ID2D1ImageBrush::GetExtendModeX, d2d1_1/ID2D1ImageBrush::GetExtendModeX, direct2d.id2d1imagebrush_getextendmodex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1ImageBrush.GetExtendModeX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ImageBrush::GetExtendModeX

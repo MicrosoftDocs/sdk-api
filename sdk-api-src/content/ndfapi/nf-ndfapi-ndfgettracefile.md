@@ -4,17 +4,16 @@ title: NdfGetTraceFile function
 author: windows-sdk-content
 description: Used to retrieve the path containing an Event Trace Log (ETL) file that contains Event Tracing for Windows (ETW) events from a diagnostic session.
 old-location: ndf\ndfgettracefile.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: a9ce6471-20f3-4c53-92e5-6fd4f7bd10e3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: NdfGetTraceFile, NdfGetTraceFile function [NDF], ndf.ndfgettracefile, ndfapi/NdfGetTraceFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UiInfo, *PUiInfo
+req.lib: Ndfapi.lib
+req.dll: Ndfapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdfGetTraceFile
 product: Windows
 targetos: Windows
-req.lib: Ndfapi.lib
-req.dll: Ndfapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NdfGetTraceFile function

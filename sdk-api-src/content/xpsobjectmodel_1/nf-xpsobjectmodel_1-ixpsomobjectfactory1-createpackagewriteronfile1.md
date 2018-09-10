@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory1::CreatePackageWriterOnFile1
 author: windows-sdk-content
 description: Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronfile1.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 6ad569a1-8b7a-473c-8bce-ad1fd843ec29
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1.CreatePackageWriterOnFile1, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: None
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 product: Windows
 targetos: Windows
-req.lib: None
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory1::CreatePackageWriterOnFile1

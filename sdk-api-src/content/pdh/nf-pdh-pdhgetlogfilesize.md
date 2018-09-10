@@ -4,17 +4,16 @@ title: PdhGetLogFileSize function
 author: windows-sdk-content
 description: Returns the size of the specified log file.
 old-location: perf\pdhgetlogfilesize.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 2bb94019-c664-4144-98b6-a0a545f7e4c1
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhgetlogfilesize, base.pdhgetlogfilesize, pdh/PdhGetLogFileSize, perf.pdhgetlogfilesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdhGetLogFileSize
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhGetLogFileSize function

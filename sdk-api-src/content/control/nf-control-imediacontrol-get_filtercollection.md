@@ -4,17 +4,16 @@ title: IMediaControl::get_FilterCollection
 author: windows-sdk-content
 description: The get_FilterCollection method retrieves a collection of the filters in the filter graph.
 old-location: dshow\imediacontrol_get_filtercollection.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9a14e971-365e-4061-8d07-01216e793864
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaControl interface [DirectShow],get_FilterCollection method, IMediaControl.get_FilterCollection, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow],IMediaControl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaControl.get_FilterCollection
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaControl::get_FilterCollection

@@ -4,17 +4,16 @@ title: IFsrmClassifierModuleDefinition::put_PropertiesUsed
 author: windows-sdk-content
 description: The list of property names that the classifier inspects.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesused.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 89bf8836-8d6d-41a1-a47c-ec92d2fd4a36
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesUsed property, IFsrmClassifierModuleDefinition.PropertiesUsed, IFsrmClassifierModuleDefinition.put_PropertiesUsed, IFsrmClassifierModuleDefinition::PropertiesUsed, IFsrmClassifierModuleDefinition::get_PropertiesUsed, IFsrmClassifierModuleDefinition::put_PropertiesUsed, PropertiesUsed property [File Server Resource Manager], PropertiesUsed property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesused, fsrm.ifsrmclassifiermoduledefinition_propertiesused, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesUsed, put_PropertiesUsed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmClassifierModuleDefinition.put_PropertiesUsed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassifierModuleDefinition::put_PropertiesUsed

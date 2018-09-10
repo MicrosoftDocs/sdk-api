@@ -4,17 +4,16 @@ title: TraceLoggingActivity::Provider
 author: windows-sdk-content
 description: Returns the handle to the TraceLogging provider associated with this activity.
 old-location: tracelogging\traceloggingactivity_provider.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingActivity interface, TraceLoggingActivity interface,Provider method, TraceLoggingActivity.Provider, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingActivity.Provider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingActivity::Provider

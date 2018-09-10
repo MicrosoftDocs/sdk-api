@@ -4,17 +4,16 @@ title: IDDrawExclModeVideo::SetDDrawObject
 author: windows-sdk-content
 description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.
 old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawObject method, IDDrawExclModeVideo.SetDDrawObject, IDDrawExclModeVideo::SetDDrawObject, IDDrawExclModeVideoSetDDrawObject, SetDDrawObject, SetDDrawObject method [DirectShow], SetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawobject, strmif/IDDrawExclModeVideo::SetDDrawObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDDrawExclModeVideo.SetDDrawObject
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDDrawExclModeVideo::SetDDrawObject

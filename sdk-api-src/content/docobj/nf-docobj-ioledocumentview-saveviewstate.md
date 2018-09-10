@@ -4,17 +4,16 @@ title: IOleDocumentView::SaveViewState
 author: windows-sdk-content
 description: Saves the view state into the specified stream.
 old-location: com\ioledocumentview_saveviewstate.htm
-old-project: com
+tech.root: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentView.SaveViewState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentView::SaveViewState

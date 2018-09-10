@@ -4,17 +4,16 @@ title: SetupDiGetDriverInfoDetailA function
 author: windows-sdk-content
 description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set.
 old-location: devinst\setupdigetdriverinfodetail.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetDriverInfoDetail, SetupDiGetDriverInfoDetail function [Device and Driver Installation], SetupDiGetDriverInfoDetailA, SetupDiGetDriverInfoDetailW, devinst.setupdigetdriverinfodetail, di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml, setupapi/SetupDiGetDriverInfoDetail
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetDriverInfoDetail
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDriverInfoDetailA function

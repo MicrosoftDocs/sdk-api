@@ -4,17 +4,16 @@ title: IGetClusterGroupInfo::GetGroupHandle
 author: windows-sdk-content
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster],IGetClusterGroupInfo interface, IGetClusterGroupInfo interface [Failover Cluster],GetGroupHandle method, IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterGroupInfo.GetGroupHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterGroupInfo::GetGroupHandle

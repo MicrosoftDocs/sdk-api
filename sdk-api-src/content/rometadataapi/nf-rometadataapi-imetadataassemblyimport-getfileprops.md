@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::GetFileProps
 author: windows-sdk-content
 description: Gets the properties of the file with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getfileprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 28c884de-3b3c-48cd-9f6f-b2d56005de13
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFileProps, GetFileProps method [Windows Runtime], GetFileProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetFileProps method, IMetaDataAssemblyImport.GetFileProps, IMetaDataAssemblyImport::GetFileProps, rometadataapi/IMetaDataAssemblyImport::GetFileProps, winrt.imetadataassemblyimport_getfileprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.GetFileProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::GetFileProps

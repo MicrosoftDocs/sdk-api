@@ -4,17 +4,16 @@ title: IEnumGUID::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumguid_next.htm
-old-project: com
+tech.root: com
 ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::Next, Next, Next method [COM], Next method [COM],IEnumGUID interface, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumGUID.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumGUID::Next

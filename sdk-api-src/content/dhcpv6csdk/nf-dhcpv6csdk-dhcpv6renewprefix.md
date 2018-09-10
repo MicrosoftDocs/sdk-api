@@ -4,17 +4,16 @@ title: Dhcpv6RenewPrefix function
 author: windows-sdk-content
 description: Renews a prefix.
 old-location: dhcp\dhcpv6renewprefix.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StatusCode
+req.lib: Dhcpcsvc6.lib
+req.dll: Dhcpcsvc6.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Dhcpv6RenewPrefix
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc6.lib
-req.dll: Dhcpcsvc6.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Dhcpv6RenewPrefix function

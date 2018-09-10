@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_SNAPPOINT_TYPE
 author: windows-sdk-content
 description: Modifies how the final inertia end position is calculated.
 old-location: directmanipulation\directmanipulation_snappoint_type.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 4ba8c216-a5bb-409d-bce8-fc85023b63d9
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_SNAPPOINT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_SNAPPOINT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_SNAPPOINT_TYPE
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_SNAPPOINT_TYPE enumeration

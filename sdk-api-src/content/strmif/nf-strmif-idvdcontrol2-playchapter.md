@@ -4,17 +4,16 @@ title: IDvdControl2::PlayChapter
 author: windows-sdk-content
 description: The PlayChapter method starts playback from the specified chapter in the current title.
 old-location: dshow\idvdcontrol2_playchapter.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b624aa7e-ff88-417c-8536-4ac38e8ae1ca
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapter method, IDvdControl2.PlayChapter, IDvdControl2::PlayChapter, IDvdControl2PlayChapter, PlayChapter, PlayChapter method [DirectShow], PlayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapter, strmif/IDvdControl2::PlayChapter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.PlayChapter
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::PlayChapter

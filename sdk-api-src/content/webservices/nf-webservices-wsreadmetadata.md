@@ -4,17 +4,16 @@ title: WsReadMetadata function
 author: windows-sdk-content
 description: Reads a Metadata element and adds it to the Metadata documents of the Metadata object.
 old-location: wsw\wsreadmetadata.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadMetadata
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadMetadata function

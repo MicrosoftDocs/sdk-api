@@ -4,17 +4,16 @@ title: MAKESORTLCID macro
 author: windows-sdk-content
 description: Constructs a locale identifier (LCID) from a language identifier, a sort order identifier, and the sort version.
 old-location: intl\makesortlcid.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 58327bfc-8a00-4fdc-bd5a-cef9c0b29faa
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAKESORTLCID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MAKESORTLCID macro

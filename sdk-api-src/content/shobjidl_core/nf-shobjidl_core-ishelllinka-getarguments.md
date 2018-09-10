@@ -4,17 +4,16 @@ title: IShellLinkA::GetArguments
 author: windows-sdk-content
 description: Gets the command-line arguments associated with a Shell link object.
 old-location: shell\IShellLink_GetArguments.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bd807387-1998-4b38-996f-6dbacefffa48
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetArguments, GetArguments method [Windows Shell], GetArguments method [Windows Shell],IShellLink interface, IShellLink interface [Windows Shell],GetArguments method, IShellLink::GetArguments, IShellLinkA.GetArguments, IShellLinkA::GetArguments, IShellLinkW.GetArguments, _win32_IShellLink_GetArguments, shell.IShellLink_GetArguments, shobjidl_core/IShellLink::GetArguments
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IShellLinkA.GetArguments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLinkA::GetArguments
@@ -71,7 +69,7 @@ A pointer to the buffer that, when this method returns successfully, receives th
 
 ### -param cch
 
-
+TBD
 
 
 

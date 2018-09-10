@@ -4,17 +4,16 @@ title: GetGeoInfoEx function
 author: windows-sdk-content
 description: Retrieves information about a geographic location that you specify by using a two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
 old-location: intl\getgeoinfoex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetGeoInfoEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetGeoInfoEx function

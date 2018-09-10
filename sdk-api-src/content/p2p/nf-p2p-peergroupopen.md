@@ -4,17 +4,16 @@ title: PeerGroupOpen function
 author: windows-sdk-content
 description: The PeerGroupOpen function opens a peer group that a peer has created or joined. After a peer group is opened, the peer can register for event notifications.
 old-location: p2p\peergroupopen.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: cfaf244f-8786-4801-926d-f6c79bfa4275
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerGroupOpen, PeerGroupOpen function [Peer Networking], p2p.peergroupopen, p2p/PeerGroupOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerGroupOpen
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerGroupOpen function

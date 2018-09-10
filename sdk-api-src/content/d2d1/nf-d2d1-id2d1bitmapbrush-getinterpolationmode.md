@@ -4,17 +4,16 @@ title: ID2D1BitmapBrush::GetInterpolationMode
 author: windows-sdk-content
 description: Gets the interpolation method used when the brush bitmap is scaled or rotated.
 old-location: direct2d\ID2D1BitmapBrush_GetInterpolationMode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: b0bc487b-3259-4f25-b4ab-7468ccf96d98
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetInterpolationMode method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetInterpolationMode method, ID2D1BitmapBrush.GetInterpolationMode, ID2D1BitmapBrush::GetInterpolationMode, d2d1/ID2D1BitmapBrush::GetInterpolationMode, direct2d.ID2D1BitmapBrush_GetInterpolationMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1BitmapBrush.GetInterpolationMode
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1BitmapBrush::GetInterpolationMode

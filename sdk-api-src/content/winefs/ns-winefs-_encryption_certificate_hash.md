@@ -4,7 +4,7 @@ title: "_ENCRYPTION_CERTIFICATE_HASH"
 author: windows-sdk-content
 description: Contains a certificate hash and display information for the certificate.
 old-location: fs\encryption_certificate_hash_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6930446c-5338-4ff9-a662-791fc9e7cefe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENCRYPTION_CERTIFICATE_HASH, *PENCRYPTION_CERTIFICATE_HASH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENCRYPTION_CERTIFICATE_HASH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ENCRYPTION_CERTIFICATE_HASH, *PENCRYPTION_CERTIFICATE_HASH
+req.redist: 
 ---
 
 # _ENCRYPTION_CERTIFICATE_HASH structure

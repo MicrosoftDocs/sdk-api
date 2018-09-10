@@ -4,17 +4,16 @@ title: D2D1Vec3Length function
 author: windows-sdk-content
 description: Returns the length of a 3 dimensional vector.
 old-location: direct2d\d2d1vec3length.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3Length, direct2d.d2d1vec3length
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1Vec3Length
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D2D1Vec3Length function

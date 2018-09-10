@@ -4,7 +4,7 @@ title: "_LSA_ENUMERATION_INFORMATION"
 author: windows-sdk-content
 description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
 old-location: security\lsa_enumeration_information.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_ENUMERATION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
+req.redist: 
 ---
 
 # _LSA_ENUMERATION_INFORMATION structure

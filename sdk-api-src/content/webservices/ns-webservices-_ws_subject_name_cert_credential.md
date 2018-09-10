@@ -4,7 +4,7 @@ title: "_WS_SUBJECT_NAME_CERT_CREDENTIAL"
 author: windows-sdk-content
 description: The type for specifying a certificate credential using the certificate's subject name, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
 old-location: wsw\ws_subject_name_cert_credential.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SUBJECT_NAME_CERT_CREDENTIAL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SUBJECT_NAME_CERT_CREDENTIAL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SUBJECT_NAME_CERT_CREDENTIAL
+req.redist: 
 ---
 
 # _WS_SUBJECT_NAME_CERT_CREDENTIAL structure

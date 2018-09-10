@@ -4,17 +4,16 @@ title: ITextFont2::IsEqual2
 author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\itextfont2_isequal2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: c423bbdb-a108-4f29-8dc4-3dd35849f39a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont2 interface [Windows Controls],IsEqual2 method, ITextFont2.IsEqual2, ITextFont2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_isequal2, tom/ITextFont2::IsEqual2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.IsEqual2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::IsEqual2

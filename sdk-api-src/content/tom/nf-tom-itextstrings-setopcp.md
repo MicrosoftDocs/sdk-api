@@ -4,17 +4,16 @@ title: ITextStrings::SetOpCp
 author: windows-sdk-content
 description: Sets the character position in the source range's story that has desired character formatting attributes.
 old-location: controls\itextstrings_setopcp.htm
-old-project: controls
+tech.root: controls
 ms.assetid: c869a42a-0937-4051-9cb0-d454255989d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStrings interface [Windows Controls],SetOpCp method, ITextStrings.SetOpCp, ITextStrings::SetOpCp, SetOpCp, SetOpCp method [Windows Controls], SetOpCp method [Windows Controls],ITextStrings interface, controls.itextstrings_setopcp, tom/ITextStrings::SetOpCp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.SetOpCp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::SetOpCp

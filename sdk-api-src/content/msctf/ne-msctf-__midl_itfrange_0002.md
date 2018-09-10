@@ -4,7 +4,7 @@ title: "__MIDL_ITfRange_0002"
 author: windows-sdk-content
 description: Elements of the TfShiftDir enumeration specify which direction a range anchor is moved.
 old-location: tsf\tfshiftdir.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f6a9f9a2-9691-49c7-a481-47ad2cd67a4d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: TfShiftDir
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TfShiftDir
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TfShiftDir
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_ITfRange_0002 enumeration

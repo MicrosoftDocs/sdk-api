@@ -4,17 +4,16 @@ title: WSAGetOverlappedResult function
 author: windows-sdk-content
 description: The WSAGetOverlappedResult function retrieves the results of an overlapped operation on the specified socket.
 old-location: winsock\wsagetoverlappedresult_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSAGetOverlappedResult, WSAGetOverlappedResult function [Winsock], _win32_wsagetoverlappedresult_2, winsock.wsagetoverlappedresult_2, winsock2/WSAGetOverlappedResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAGetOverlappedResult
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSAGetOverlappedResult function

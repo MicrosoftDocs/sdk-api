@@ -4,7 +4,7 @@ title: WTS_FLAGS
 author: windows-sdk-content
 description: Values used by IThumbnailCache::GetThumbnail to specify options for the extraction and display of the thumbnail image.
 old-location: shell\WTS_FLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: D9C84E86-35AF-437f-966E-BABD02B824C0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTS_FLAGS
+req.redist: 
 ---
 
 # WTS_FLAGS enumeration

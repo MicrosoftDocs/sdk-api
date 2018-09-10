@@ -4,7 +4,7 @@ title: "_DISK_EXTENT"
 author: windows-sdk-content
 description: Represents a disk extent.
 old-location: fs\disk_extent_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISK_EXTENT, *PDISK_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISK_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISK_EXTENT, *PDISK_EXTENT
+req.redist: 
 ---
 
 # _DISK_EXTENT structure

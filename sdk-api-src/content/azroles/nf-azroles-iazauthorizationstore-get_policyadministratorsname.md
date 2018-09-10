@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_PolicyAdministratorsName
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy administrators.
 old-location: security\azauthorizationstore_policyadministratorsname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 20f84f75-ad27-4329-90a8-46e7d817863f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyAdministratorsName property, IAzAuthorizationStore interface [Security],PolicyAdministratorsName property, IAzAuthorizationStore.PolicyAdministratorsName, IAzAuthorizationStore.get_PolicyAdministratorsName, IAzAuthorizationStore::PolicyAdministratorsName, IAzAuthorizationStore::get_PolicyAdministratorsName, PolicyAdministratorsName property [Security], PolicyAdministratorsName property [Security],AzAuthorizationStore object, PolicyAdministratorsName property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministratorsName, azroles/IAzAuthorizationStore::get_PolicyAdministratorsName, get_PolicyAdministratorsName, security.azauthorizationstore_policyadministratorsname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.PolicyAdministratorsName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_PolicyAdministratorsName

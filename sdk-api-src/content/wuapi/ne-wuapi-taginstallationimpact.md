@@ -4,7 +4,7 @@ title: tagInstallationImpact
 author: windows-sdk-content
 description: Defines the possible levels of impact that can be caused by installing or uninstalling an update.
 old-location: wua\installationimpact.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InstallationImpact
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InstallationImpact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: InstallationImpact
+req.redist: 
 ---
 
 # tagInstallationImpact enumeration

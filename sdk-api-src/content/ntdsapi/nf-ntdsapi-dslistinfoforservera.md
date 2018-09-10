@@ -4,17 +4,16 @@ title: DsListInfoForServerA function
 author: windows-sdk-content
 description: The DsListInfoForServer function lists miscellaneous data for a server.
 old-location: ad\dslistinfoforserver.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 15dcc7ac-4edb-42fa-8466-033794762046
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_LIST_ACCOUNT_OBJECT_FOR_SERVER, DS_LIST_DNS_HOST_NAME_FOR_SERVER, DS_LIST_DSA_OBJECT_FOR_SERVER, DsListInfoForServer, DsListInfoForServer function [Active Directory], DsListInfoForServerA, DsListInfoForServerW, _glines_dslistinfoforserver, ad.dslistinfoforserver, ntdsapi/DsListInfoForServer, ntdsapi/DsListInfoForServerA, ntdsapi/DsListInfoForServerW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsListInfoForServerW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsListInfoForServerA function

@@ -4,17 +4,16 @@ title: IShellBrowser::QueryActiveShellView
 author: windows-sdk-content
 description: Retrieves the currently active (displayed) Shell view object.
 old-location: shell\IShellBrowser_QueryActiveShellView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d03e41dc-72dc-4f34-ae5b-b5ef8b2f146d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],QueryActiveShellView method, IShellBrowser.QueryActiveShellView, IShellBrowser::QueryActiveShellView, QueryActiveShellView, QueryActiveShellView method [Windows Shell], QueryActiveShellView method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_QueryActiveShellView, shell.IShellBrowser_QueryActiveShellView, shobjidl_core/IShellBrowser::QueryActiveShellView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.QueryActiveShellView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::QueryActiveShellView

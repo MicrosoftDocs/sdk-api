@@ -4,7 +4,7 @@ title: "_SECPKG_GSS_INFO"
 author: windows-sdk-content
 description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
 old-location: security\secpkg_gss_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_GSS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
+req.redist: 
 ---
 
 # _SECPKG_GSS_INFO structure

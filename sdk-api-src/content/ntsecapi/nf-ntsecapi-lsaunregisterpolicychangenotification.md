@@ -4,17 +4,16 @@ title: LsaUnregisterPolicyChangeNotification function
 author: windows-sdk-content
 description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
 old-location: security\lsaunregisterpolicychangenotification.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaUnregisterPolicyChangeNotification
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaUnregisterPolicyChangeNotification function

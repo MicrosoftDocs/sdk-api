@@ -4,7 +4,7 @@ title: "_MAPPING_DATA_RANGE"
 author: windows-sdk-content
 description: Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a MAPPING_PROPERTY_BAG structure.
 old-location: intl\mappingdatarange.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: elscore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPPING_DATA_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
+req.redist: 
 ---
 
 # _MAPPING_DATA_RANGE structure

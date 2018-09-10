@@ -4,7 +4,7 @@ title: peerdist_status_info_tag
 author: windows-sdk-content
 description: The PEERDIST_STATUS_INFO structure contains information about the current status and capabilities of the BranchCache service on the local computer.
 old-location: p2p\peerdist_status_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 6EE58EA9-BA0A-4A96-9F9C-EFAF2ABA37C6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_STATUS_INFO, *PPEERDIST_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEERDIST_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEERDIST_STATUS_INFO, *PPEERDIST_STATUS_INFO
+req.redist: 
 ---
 
 # peerdist_status_info_tag structure

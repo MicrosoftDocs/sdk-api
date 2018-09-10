@@ -4,17 +4,16 @@ title: IAVIEditStream::Paste
 author: windows-sdk-content
 description: The Paste method copies a stream or a portion of it in another stream. Called when an application uses the EditStreamPaste function.
 old-location: multimedia\iavieditstream_paste.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: bdb6de96-6a1e-49ca-a824-ed6d7b43fd13
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],Paste method, IAVIEditStream.Paste, IAVIEditStream::Paste, Paste, Paste method [Windows Multimedia], Paste method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_Paste, multimedia.iavieditstream_paste, vfw/IAVIEditStream::Paste
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIEditStream.Paste
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIEditStream::Paste
@@ -86,7 +84,7 @@ Starting position of the copy operation within the source stream.
 
 ### -param lEnd
 
-
+TBD
 
 
 

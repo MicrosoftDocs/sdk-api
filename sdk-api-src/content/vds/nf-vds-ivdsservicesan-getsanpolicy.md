@@ -4,17 +4,16 @@ title: IVdsServiceSAN::GetSANPolicy
 author: windows-sdk-content
 description: Gets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_getsanpolicy.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 59602d97-2fdf-4d1b-b158-e545619397e0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSANPolicy, GetSANPolicy method, GetSANPolicy method,IVdsServiceSAN interface, IVdsServiceSAN interface,GetSANPolicy method, IVdsServiceSAN.GetSANPolicy, IVdsServiceSAN::GetSANPolicy, base.ivdsservicesan_getsanpolicy, vds/IVdsServiceSAN::GetSANPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceSAN.GetSANPolicy
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsServiceSAN::GetSANPolicy

@@ -4,17 +4,16 @@ title: IRichEditOle::HandsOffStorage
 author: windows-sdk-content
 description: Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's IRichEditOle::HandsOffStorage method; the caller must do that.
 old-location: controls\IRichEditOle_HandsOffStorage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolehandsoffstorage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [Windows Controls], HandsOffStorage method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],HandsOffStorage method, IRichEditOle.HandsOffStorage, IRichEditOle::HandsOffStorage, _win32_IRichEditOle_HandsOffStorage, _win32_IRichEditOle_HandsOffStorage_cpp, controls.IRichEditOle_HandsOffStorage, controls._win32_IRichEditOle_HandsOffStorage, richole/IRichEditOle::HandsOffStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEXTRANGEW
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRichEditOle.HandsOffStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRichEditOle::HandsOffStorage

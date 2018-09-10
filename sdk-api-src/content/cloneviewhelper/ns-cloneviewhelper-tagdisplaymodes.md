@@ -4,7 +4,7 @@ title: tagDisplayModes
 author: windows-sdk-content
 description: The DisplayModes structure contains a list of display modes.
 old-location: display\displaymodes.htm
-old-project: display
+tech.root: display
 ms.assetid: 0add7a43-571f-4854-b019-d3601f915d48
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DisplayModes
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DisplayModes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DisplayModes
+req.redist: 
 ---
 
 # tagDisplayModes structure

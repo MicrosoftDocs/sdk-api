@@ -4,17 +4,16 @@ title: DsEnumerateDomainTrustsW function
 author: windows-sdk-content
 description: Obtains domain trust data for a specified domain.
 old-location: ad\dsenumeratedomaintrusts.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 6c3b788f-ee53-4637-acdb-04316e8464fe
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DsEnumerateDomainTrusts, DsEnumerateDomainTrusts function [Active Directory], DsEnumerateDomainTrustsA, DsEnumerateDomainTrustsW, _glines_dsenumeratedomaintrusts, ad.dsenumeratedomaintrusts, dsgetdc/DsEnumerateDomainTrusts, dsgetdc/DsEnumerateDomainTrustsA, dsgetdc/DsEnumerateDomainTrustsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DsEnumerateDomainTrustsW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsEnumerateDomainTrustsW function

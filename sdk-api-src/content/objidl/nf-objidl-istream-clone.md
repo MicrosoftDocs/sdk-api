@@ -4,17 +4,16 @@ title: IStream::Clone
 author: windows-sdk-content
 description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.
 old-location: stg\istream_clone.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 677c37fb-598f-4bb0-b5d6-600e0befc722
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IStream interface, IStream interface [Structured Storage],Clone method, IStream.Clone, IStream::Clone, _stg_istream_clone, objidl/IStream::Clone, stg.istream_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStream.Clone
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStream::Clone

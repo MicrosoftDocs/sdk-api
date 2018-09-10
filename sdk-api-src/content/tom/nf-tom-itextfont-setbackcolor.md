@@ -4,17 +4,16 @@ title: ITextFont::SetBackColor
 author: windows-sdk-content
 description: Sets the background color.
 old-location: controls\ITextFont_SetBackColor.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextFont interface [Windows Controls],SetBackColor method, ITextFont.SetBackColor, ITextFont::SetBackColor, SetBackColor, SetBackColor method [Windows Controls], SetBackColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBackColor, _win32_ITextFont_SetBackColor_cpp, controls.ITextFont_SetBackColor, controls._win32_ITextFont_SetBackColor, tom/ITextFont::SetBackColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont.SetBackColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont::SetBackColor

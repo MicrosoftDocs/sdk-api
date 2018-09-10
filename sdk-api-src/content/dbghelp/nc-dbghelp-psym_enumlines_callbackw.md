@@ -4,7 +4,7 @@ title: PSYM_ENUMLINES_CALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.
 old-location: base\symenumlinesproc.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SymEnumLinesProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.1 or later
 ---
 
 # PSYM_ENUMLINES_CALLBACKW callback function

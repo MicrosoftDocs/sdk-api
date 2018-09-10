@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxTiff.put_Image
 title: IFaxTiff::put_Image
 author: windows-sdk-content
 description: Sets or retrieves the Image property for a FaxTiff object.
-old-location: fax\_mfax_ifaxtiff_get_image_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cdh.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxTiff object [Fax Service],Image property, FaxTiff.Image, IFaxTiff.put_Image, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image_vb, put_Image
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxTiff interface [Fax Service],Image property, IFaxTiff.Image, IFaxTiff.put_Image, IFaxTiff::Image, IFaxTiff::get_Image, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp, faxcom/IFaxTiff::Image, faxcom/IFaxTiff::get_Image, faxcom/IFaxTiff::put_Image, put_Image
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxTiff.Image
+ - IFaxTiff.Image
+ - IFaxTiff.get_Image
+ - IFaxTiff.put_Image
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxTiff::put_Image
@@ -85,10 +85,6 @@ The <b>get_Image</b> method allocates the memory required for the buffer pointed
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/98d385be-cebb-428e-92f7-22a1fc814c3c">FaxTiff</a>
 
 
 

@@ -4,17 +4,16 @@ title: LoadBitmapW function
 author: windows-sdk-content
 description: The LoadBitmap function loads the specified bitmap resource from a module's executable file.
 old-location: gdi\loadbitmap.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - LoadBitmapW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # LoadBitmapW function

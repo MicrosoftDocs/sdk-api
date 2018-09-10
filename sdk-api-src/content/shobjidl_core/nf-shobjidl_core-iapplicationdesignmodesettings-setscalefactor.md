@@ -4,17 +4,16 @@ title: IApplicationDesignModeSettings::SetScaleFactor
 author: windows-sdk-content
 description: Sets a spoofed device scale factor to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetScaleFactor.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 55b80010-a71e-44c2-8105-e9f5b9a833f5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetScaleFactor method, IApplicationDesignModeSettings.SetScaleFactor, IApplicationDesignModeSettings::SetScaleFactor, SetScaleFactor, SetScaleFactor method [Windows Shell], SetScaleFactor method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetScaleFactor, shobjidl_core/IApplicationDesignModeSettings::SetScaleFactor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Twinapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDesignModeSettings.SetScaleFactor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Twinapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDesignModeSettings::SetScaleFactor

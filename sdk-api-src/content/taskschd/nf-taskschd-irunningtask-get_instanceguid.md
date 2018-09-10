@@ -4,17 +4,16 @@ title: IRunningTask::get_InstanceGuid
 author: windows-sdk-content
 description: Gets the GUID identifier for this instance of the task.
 old-location: taskschd\irunningtask_instanceguid.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 993682d1-c77c-48d8-bec6-aab810c8bcda
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask.get_InstanceGuid, IRunningTask::InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler],IRunningTask interface, get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRunningTask.get_InstanceGuid
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningTask::get_InstanceGuid

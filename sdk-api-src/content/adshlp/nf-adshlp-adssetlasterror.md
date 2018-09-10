@@ -4,17 +4,16 @@ title: ADsSetLastError function
 author: windows-sdk-content
 description: The ADsSetLastError sets the last-error code value for the calling thread.
 old-location: adsi\adssetlasterror.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Activeds.lib
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsSetLastError
 product: Windows
 targetos: Windows
-req.lib: Activeds.lib
-req.dll: Activeds.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsSetLastError function

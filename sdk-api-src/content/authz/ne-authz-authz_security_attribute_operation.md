@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 author: windows-sdk-content
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 old-location: security\authz_security_attribute_operation.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: c1716cdb-87f9-47d6-bfc3-ae6cc043e917
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authz.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
+req.redist: 
 ---
 
 # AUTHZ_SECURITY_ATTRIBUTE_OPERATION enumeration

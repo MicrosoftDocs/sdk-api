@@ -4,17 +4,16 @@ title: MAKEINTATOM macro
 author: windows-sdk-content
 description: Converts the specified atom into a string, so it can be passed to functions which accept either atoms or strings.
 old-location: dataxchg\makeintatom.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atommacros\makeintatom.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAKEINTATOM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MAKEINTATOM macro

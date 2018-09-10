@@ -4,7 +4,7 @@ title: tagPERCEIVED
 author: windows-sdk-content
 description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.
 old-location: shell\PERCEIVED.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dbaf5894-1ed6-446f-ac15-12ba4c7326e7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERCEIVED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERCEIVED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: PERCEIVED
+req.redist: 
 ---
 
 # tagPERCEIVED enumeration

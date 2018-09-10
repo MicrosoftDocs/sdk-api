@@ -4,17 +4,16 @@ title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
 author: windows-sdk-content
 description: Creates and registers a new synchronization provider.
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider

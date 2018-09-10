@@ -4,17 +4,16 @@ title: ldap_extended_operationA function
 author: windows-sdk-content
 description: The ldap_extended_operation function enables you to pass extended LDAP operations to the server.
 old-location: ldap\ldap_extended_operation.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 02dda7c5-9779-4390-9395-aa917fa82546
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_extended_operation, ldap.ldap__extended__operation, ldap.ldap_extended_operation, ldap_extended_operation, ldap_extended_operation function [LDAP], ldap_extended_operationA, ldap_extended_operationW, winldap/ldap_extended_operation, winldap/ldap_extended_operationA, winldap/ldap_extended_operationW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_extended_operationW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_extended_operationA function

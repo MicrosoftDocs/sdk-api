@@ -4,7 +4,7 @@ title: "_SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT"
 author: windows-sdk-content
 description: Describes a retrieved set of replicated disks.
 old-location: mscs\sr_resource_type_replicated_disks_result.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1A4FA103-542A-4B9B-83F5-4ED5AE266389
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, *PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, *PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT
+req.redist: 
 ---
 
 # _SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure

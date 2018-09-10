@@ -4,7 +4,7 @@ title: "_RM_FILTER_ACTION"
 author: windows-sdk-content
 description: Specifies the type of modification that is applied to restart or shutdown actions.
 old-location: rstmgr\rm_filter_action.htm
-old-project: RstMgr
+tech.root: RstMgr
 ms.assetid: 68f77dbc-14cb-4b87-9589-328b1cef38d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_FILTER_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_FILTER_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RM_FILTER_ACTION
+req.redist: 
 ---
 
 # _RM_FILTER_ACTION enumeration

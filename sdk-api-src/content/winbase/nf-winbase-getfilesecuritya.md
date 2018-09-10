@@ -4,17 +4,16 @@ title: GetFileSecurityA function
 author: windows-sdk-content
 description: Obtains specified information about the security of a file or directory. The information obtained is constrained by the caller's access rights and privileges.
 old-location: security\getfilesecurity.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 4043b76b-76b9-4111-8a29-a808b2412be0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - GetFileSecurityW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileSecurityA function

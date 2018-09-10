@@ -4,17 +4,16 @@ title: TokenBindingGenerateMessage function
 author: windows-sdk-content
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_TYPE
+req.lib: Tokenbinding.lib
+req.dll: Tokenbinding.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TokenBindingGenerateMessage
 product: Windows
 targetos: Windows
-req.lib: Tokenbinding.lib
-req.dll: Tokenbinding.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TokenBindingGenerateMessage function

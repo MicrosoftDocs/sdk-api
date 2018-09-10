@@ -4,17 +4,16 @@ title: ICameraUIControl::Show
 author: windows-sdk-content
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_MARSHALCONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICameraUIControl.Show
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraUIControl::Show
@@ -71,7 +70,7 @@ Specifies whether the user interface will be presented in a browseable or linear
 
 ### -param selectionMode
 
-
+TBD
 
 
 ### -param captureMode [in]

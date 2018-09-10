@@ -4,17 +4,16 @@ title: IApplicationDesignModeSettings2::SetNativeDisplayOrientation
 author: windows-sdk-content
 description: Sets the orientation of the emulated display for the design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetNativeDisplayOrientation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9473724C-3FD2-48D0-BCFA-EA148F0C4569
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetNativeDisplayOrientation method, IApplicationDesignModeSettings2.SetNativeDisplayOrientation, IApplicationDesignModeSettings2::SetNativeDisplayOrientation, NDO_LANDSCAPE, NDO_PORTRAIT, SetNativeDisplayOrientation, SetNativeDisplayOrientation method [Windows Shell], SetNativeDisplayOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetNativeDisplayOrientation, shobjidl_core/IApplicationDesignModeSettings2::SetNativeDisplayOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Twinapi.lib
+req.dll: Twinapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDesignModeSettings2.SetNativeDisplayOrientation
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Twinapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDesignModeSettings2::SetNativeDisplayOrientation

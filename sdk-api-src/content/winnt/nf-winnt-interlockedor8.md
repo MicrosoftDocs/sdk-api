@@ -4,17 +4,16 @@ title: InterlockedOr8 function
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified char values.
 old-location: base\interlockedor8.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedOr8, InterlockedOr8 function, base.interlockedor8, winnt/InterlockedOr8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedOr8
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedOr8 function

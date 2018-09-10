@@ -4,17 +4,16 @@ title: ISurfaceImageSourceNative::xaml
 author: windows-sdk-content
 description: Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
 old-location: winrt\isurfaceimagesourcenative_setdevice.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 24DF51D3-3438-4AB4-BCA9-D5E2051B3CEA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISurfaceImageSourceNative interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNative.SetDevice, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::SetDevice, ISurfaceImageSourceNative::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNative interface, windows/ISurfaceImageSourceNative::SetDevice, winrt.isurfaceimagesourcenative_setdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurfaceImageSourceNative.SetDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISurfaceImageSourceNative::xaml
@@ -62,7 +60,7 @@ Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will d
 
 ### -param device
 
-
+TBD
 
 
 

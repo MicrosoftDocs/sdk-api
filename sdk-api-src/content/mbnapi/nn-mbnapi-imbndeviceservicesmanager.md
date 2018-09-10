@@ -4,7 +4,7 @@ title: IMbnDeviceServicesManager
 author: windows-sdk-content
 description: Provides access to IMbnDeviceServicesContext objects and Mobile Broadband device service notifications.
 old-location: mbn\imbndeviceservicesmanager.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 6CFF2275-0649-4009-84F2-0657B2FF281C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceServicesManager
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceServicesManager interface

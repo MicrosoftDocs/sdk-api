@@ -4,7 +4,7 @@ title: enumLINE_METRICS
 author: windows-sdk-content
 description: Represents the lines found in a recognition segment.
 old-location: tablet\line_metrics.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1317badb-38e1-41fe-9918-c28da88aa511
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINE_METRICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINE_METRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: LINE_METRICS
+req.redist: 
 ---
 
 # enumLINE_METRICS enumeration

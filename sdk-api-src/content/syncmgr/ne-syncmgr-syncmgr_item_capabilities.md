@@ -4,7 +4,7 @@ title: SYNCMGR_ITEM_CAPABILITIES
 author: windows-sdk-content
 description: Specifies the actions that can be performed against an item.
 old-location: shell\SYNCMGR_ITEM_CAPABILITIES.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 55f72e18-fba6-4a59-b553-06c6c7c3ee52
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_ITEM_CAPABILITIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_ITEM_CAPABILITIES
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_ITEM_CAPABILITIES
+req.redist: 
 ---
 
 # SYNCMGR_ITEM_CAPABILITIES enumeration

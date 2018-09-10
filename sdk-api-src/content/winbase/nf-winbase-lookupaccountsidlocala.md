@@ -4,17 +4,16 @@ title: LookupAccountSidLocalA function
 author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LookupAccountSidLocalW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LookupAccountSidLocalA function

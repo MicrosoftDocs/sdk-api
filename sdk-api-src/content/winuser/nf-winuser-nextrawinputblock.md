@@ -4,17 +4,16 @@ title: NEXTRAWINPUTBLOCK macro
 author: windows-sdk-content
 description: Retrieves the location of the next structure in an array of RAWINPUT structures.
 old-location: inputdev\nextrawinputblock.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputmacros\nextrawinputblock.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: NEXTRAWINPUTBLOCK, NEXTRAWINPUTBLOCK macro [Keyboard and Mouse Input], _win32_NEXTRAWINPUTBLOCK, _win32_nextrawinputblock_cpp, inputdev.nextrawinputblock, winui._win32_nextrawinputblock, winuser/NEXTRAWINPUTBLOCK
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NEXTRAWINPUTBLOCK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # NEXTRAWINPUTBLOCK macro

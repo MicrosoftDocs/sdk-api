@@ -4,7 +4,7 @@ title: "_MSV1_0_SUBAUTH_REQUEST"
 author: windows-sdk-content
 description: Contains information to pass to an subauthentication package.
 old-location: security\msv1_0_subauth_request.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 5a408c0a-56d4-48f6-8289-6f203ef998df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_SUBAUTH_REQUEST, *PMSV1_0_SUBAUTH_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_SUBAUTH_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_SUBAUTH_REQUEST, *PMSV1_0_SUBAUTH_REQUEST
+req.redist: 
 ---
 
 # _MSV1_0_SUBAUTH_REQUEST structure

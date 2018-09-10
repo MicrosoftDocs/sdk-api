@@ -4,17 +4,16 @@ title: ITfMessagePump::GetMessageA
 author: windows-sdk-content
 description: ITfMessagePump::GetMessageA method
 old-location: tsf\itfmessagepump_getmessagea.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: a1d66377-fca1-4c9c-ac59-a1417d8ab190
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetMessageA, GetMessageA method [Text Services Framework], GetMessageA method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageA method, ITfMessagePump.GetMessageA, ITfMessagePump::GetMessageA, _tsf_itfmessagepump_getmessagea_ref, msctf/ITfMessagePump::GetMessageA, tsf.itfmessagepump_getmessagea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfMessagePump.GetMessageA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfMessagePump::GetMessageA

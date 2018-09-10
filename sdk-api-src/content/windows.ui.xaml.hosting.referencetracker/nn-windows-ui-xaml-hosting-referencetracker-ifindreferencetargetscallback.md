@@ -4,7 +4,7 @@ title: IFindReferenceTargetsCallback
 author: windows-sdk-content
 description: Defines the interface for callbacks from IReferenceTracker::FindTrackerTargets. The implementation of this interface must pass any IReferenceTrackerTarget instances it finds to the FoundTrackerTarget method.
 old-location: winrt\ifindreferencetargetscallback.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 1733680a-6b14-4541-b30d-407f5185ac14
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFindReferenceTargetsCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFindReferenceTargetsCallback interface

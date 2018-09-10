@@ -4,17 +4,16 @@ title: IApplicationAssociationRegistration::ClearUserAssociations
 author: windows-sdk-content
 description: Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_ClearUserAssociations.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dcc0990a-f678-47bb-9462-905940ac87d6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ClearUserAssociations, ClearUserAssociations method [Windows Shell], ClearUserAssociations method [Windows Shell],IApplicationAssociationRegistration interface, IApplicationAssociationRegistration interface [Windows Shell],ClearUserAssociations method, IApplicationAssociationRegistration.ClearUserAssociations, IApplicationAssociationRegistration::ClearUserAssociations, _shell_IApplicationAssociationRegistration_ClearUserAssociations, shell.IApplicationAssociationRegistration_ClearUserAssociations, shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationAssociationRegistration.ClearUserAssociations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationAssociationRegistration::ClearUserAssociations

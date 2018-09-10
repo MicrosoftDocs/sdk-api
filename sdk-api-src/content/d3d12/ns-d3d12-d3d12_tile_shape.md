@@ -4,7 +4,7 @@ title: D3D12_TILE_SHAPE
 author: windows-sdk-content
 description: Describes the shape of a tile by specifying its dimensions.
 old-location: direct3d12\d3d12_tile_shape.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 9FCF949C-B2B8-404F-9E4C-8CC6B636B687
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_TILE_SHAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_TILE_SHAPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_TILE_SHAPE
+req.redist: 
 ---
 
 # D3D12_TILE_SHAPE structure

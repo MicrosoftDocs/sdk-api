@@ -4,7 +4,7 @@ title: SENS_QOCINFO
 author: windows-sdk-content
 description: The SENS_QOCINFO structure is used by the ISensNetwork::ConnectionMade method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
 old-location: sens\sens_qocinfo.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 33f5e790-1100-46a9-a90c-3fc51379c175
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -26,9 +25,10 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: SENS_QOCINFO
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SENS_QOCINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SENS_QOCINFO
+req.redist: 
 ---
 
 # SENS_QOCINFO structure

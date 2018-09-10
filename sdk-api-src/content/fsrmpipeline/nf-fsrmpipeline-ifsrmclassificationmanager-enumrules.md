@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::EnumRules
 author: windows-sdk-content
 description: Enumerates the rules of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enumrules.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 2f67527c-cde3-4907-9e61-4d9e18b18859
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumRules, EnumRules method [File Server Resource Manager], EnumRules method [File Server Resource Manager],FsrmClassificationManager class, EnumRules method [File Server Resource Manager],IFsrmClassificationManager interface, EnumRules method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumRules method, IFsrmClassificationManager interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager.EnumRules, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager2::EnumRules, IFsrmClassificationManager::EnumRules, fs.ifsrmclassificationmanager_enumrules, fsrm.ifsrmclassificationmanager_enumrules, fsrmpipeline/IFsrmClassificationManager2::EnumRules, fsrmpipeline/IFsrmClassificationManager::EnumRules
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.EnumRules
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::EnumRules
@@ -85,7 +83,7 @@ One or more options for enumerating the property definitions. For possible value
 
 ### -param Rules
 
-
+TBD
 
 
 

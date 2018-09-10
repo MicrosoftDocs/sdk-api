@@ -4,17 +4,16 @@ title: ISimilarityTraitsMapping::ResizeMapping
 author: windows-sdk-content
 description: Resizes the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_resizemapping.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: ea4fe3f9-7422-4673-90e4-4907fb8dd690
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],ResizeMapping method, ISimilarityTraitsMapping.ResizeMapping, ISimilarityTraitsMapping::ResizeMapping, ResizeMapping, ResizeMapping method [Remote Differential Compression], ResizeMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_resizemapping, msrdc/ISimilarityTraitsMapping::ResizeMapping, rdc.isimilaritytraitsmapping_resizemapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMapping.ResizeMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMapping::ResizeMapping

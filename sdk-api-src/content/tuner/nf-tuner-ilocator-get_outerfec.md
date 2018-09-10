@@ -4,17 +4,16 @@ title: ILocator::get_OuterFEC
 author: windows-sdk-content
 description: The get_OuterFEC method gets the type of outer FEC that is used.
 old-location: mstv\ilocator_get_outerfec.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocator.get_OuterFEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILocator::get_OuterFEC

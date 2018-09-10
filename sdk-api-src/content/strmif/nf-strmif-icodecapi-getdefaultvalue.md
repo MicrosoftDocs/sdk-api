@@ -4,17 +4,16 @@ title: ICodecAPI::GetDefaultValue
 author: windows-sdk-content
 description: The GetDefaultValue method gets the default value of a codec property.
 old-location: dshow\icodecapi_getdefaultvalue.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 749f5235-2f62-4609-84b8-a880a38cd9cb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICodecAPI.GetDefaultValue
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICodecAPI::GetDefaultValue

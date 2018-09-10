@@ -4,17 +4,16 @@ title: IPhotoAcquireOptionsDialog::SaveData
 author: windows-sdk-content
 description: The SaveData method saves acquisition settings from the options dialog box to the registry so that a subsequent instance of the dialog can be initialized with the same settings.
 old-location: picacq\iphotoacquireoptionsdialog_savedata.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 271c2bfb-67a9-4998-90d1-4ed61f89aa03
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],SaveData method, IPhotoAcquireOptionsDialog.SaveData, IPhotoAcquireOptionsDialog::SaveData, IPhotoAcquireOptionsDialogSaveData, SaveData, SaveData method [Picture Acquisition], SaveData method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::SaveData, picacq.iphotoacquireoptionsdialog_savedata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireOptionsDialog.SaveData
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireOptionsDialog::SaveData

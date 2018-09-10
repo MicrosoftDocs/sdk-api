@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002"
 author: windows-sdk-content
 description: Defines the possible states of an assessment.
 old-location: winsat\winsat_assessment_state.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: 8d2afd18-9764-44d2-b01d-dfefc1506c6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_ASSESSMENT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINSAT_ASSESSMENT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WINSAT_ASSESSMENT_STATE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002 enumeration

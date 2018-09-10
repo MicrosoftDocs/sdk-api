@@ -4,17 +4,16 @@ title: IVssCreateWriterMetadata::AddDatabaseFiles
 author: windows-sdk-content
 description: The AddDatabaseFiles method indicates the file set (the specified file or files) that make up the database component to be backed up.
 old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssCreateWriterMetadata.AddDatabaseFiles
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssCreateWriterMetadata::AddDatabaseFiles

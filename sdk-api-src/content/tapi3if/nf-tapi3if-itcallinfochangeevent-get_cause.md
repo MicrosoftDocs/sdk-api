@@ -4,17 +4,16 @@ title: ITCallInfoChangeEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets a CALLINFOCHANGE_CAUSE description of the change.
 old-location: tapi3\itcallinfochangeevent_get_cause.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c49a5624-8867-46c0-acf6-5e60667fc969
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Cause method, ITCallInfoChangeEvent.get_Cause, ITCallInfoChangeEvent::get_Cause, _tapi3_itcallinfochangeevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_cause, tapi3if/ITCallInfoChangeEvent::get_Cause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallInfoChangeEvent.get_Cause
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallInfoChangeEvent::get_Cause

@@ -4,17 +4,16 @@ title: IPortableDeviceDataStream::GetObjectID
 author: windows-sdk-content
 description: The GetObjectID method retrieves the object ID of the resource that was written to the device. This method is only valid after calling IStream::Commit on the data stream.
 old-location: wpdsdk\iportabledevicedatastream_getobjectid.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: bd506e52-723d-4a3c-b73e-425700ccd3ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObjectID, GetObjectID method [Windows Portable Devices SDK], GetObjectID method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],GetObjectID method, IPortableDeviceDataStream.GetObjectID, IPortableDeviceDataStream::GetObjectID, IPortableDeviceDataStreamGetObjectID, portabledeviceapi/IPortableDeviceDataStream::GetObjectID, wpdsdk.iportabledevicedatastream_getobjectid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceDataStream.GetObjectID
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceDataStream::GetObjectID

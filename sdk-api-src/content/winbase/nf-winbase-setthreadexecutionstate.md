@@ -4,17 +4,16 @@ title: SetThreadExecutionState function
 author: windows-sdk-content
 description: Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 old-location: base\setthreadexecutionstate.htm
-old-project: power
+tech.root: power
 ms.assetid: 9214ea84-7636-4a78-91fd-a5a5da8199a1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, ES_USER_PRESENT, SetThreadExecutionState, SetThreadExecutionState function, _win32_setthreadexecutionstate, base.setthreadexecutionstate, winbase/SetThreadExecutionState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetThreadExecutionState
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetThreadExecutionState function

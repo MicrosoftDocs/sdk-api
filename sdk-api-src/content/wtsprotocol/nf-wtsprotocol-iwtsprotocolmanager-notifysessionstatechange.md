@@ -4,17 +4,16 @@ title: IWTSProtocolManager::NotifySessionStateChange
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifySessionStateChange.
 old-location: termserv\iwtsprotocolmanager_notifysessionstatechange.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 59c284bf-8175-46d2-ab44-8b2975574c14
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWTSProtocolManager.NotifySessionStateChange, IWTSProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWTSProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwtsprotocolmanager_notifysessionstatechange, wtsprotocol/IWTSProtocolManager::NotifySessionStateChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolManager.NotifySessionStateChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolManager::NotifySessionStateChange

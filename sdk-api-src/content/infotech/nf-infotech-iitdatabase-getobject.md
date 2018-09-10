@@ -4,17 +4,16 @@ title: IITDatabase::GetObject
 author: windows-sdk-content
 description: Retrieves a specified IUnknown-based interface on the object identified by the dwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_getobject.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasegetobject.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetObject, GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],GetObject method, IITDatabase.GetObject, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITDatabase.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITDatabase::GetObject

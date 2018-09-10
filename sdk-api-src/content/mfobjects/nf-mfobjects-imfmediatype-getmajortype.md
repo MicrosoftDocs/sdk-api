@@ -4,17 +4,16 @@ title: IMFMediaType::GetMajorType
 author: windows-sdk-content
 description: Gets the major type of the format.
 old-location: mf\imfmediatype_getmajortype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaType.GetMajorType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaType::GetMajorType

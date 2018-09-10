@@ -4,17 +4,16 @@ title: IMFSensorProcessActivity::GetStreamingState
 author: windows-sdk-content
 description: Gets a value indicating whether the sensor is currently streaming.
 old-location: mf\imfsensorprocessactivity_getstreamingstate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C8A99D4B-F3D5-41D2-A956-C147900F28ED
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamingState, GetStreamingState method [Media Foundation], GetStreamingState method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingState method, IMFSensorProcessActivity.GetStreamingState, IMFSensorProcessActivity::GetStreamingState, mf.imfsensorprocessactivity_getstreamingstate, mfidl/IMFSensorProcessActivity::GetStreamingState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorProcessActivity.GetStreamingState
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProcessActivity::GetStreamingState

@@ -4,17 +4,16 @@ title: IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier
 author: windows-sdk-content
 description: Gets the data from a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_getprivatedataspecifier.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bb5b7d8a-6699-49b4-8935-8bfd07d85290
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPrivateDataSpecifier, GetPrivateDataSpecifier method [Microsoft TV Technologies], GetPrivateDataSpecifier method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetPrivateDataSpecifier method, IDvbPrivateDataSpecifierDescriptor.GetPrivateDataSpecifier, IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, mstv.idvbprivatedataspecifierdescriptor_getprivatedataspecifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbPrivateDataSpecifierDescriptor.GetPrivateDataSpecifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier

@@ -4,17 +4,16 @@ title: IMFASFProfile::CreateStreamPrioritization
 author: windows-sdk-content
 description: IMFASFProfile::CreateStreamPrioritization method
 old-location: mf\imfasfprofile_createstreamprioritization.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStreamPrioritization method, IMFASFProfile.CreateStreamPrioritization, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFProfile.CreateStreamPrioritization
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFProfile::CreateStreamPrioritization

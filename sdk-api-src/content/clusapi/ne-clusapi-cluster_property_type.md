@@ -4,7 +4,7 @@ title: CLUSTER_PROPERTY_TYPE
 author: windows-sdk-content
 description: Defines the property types that are supported by a cluster property list.
 old-location: mscs\cluster_property_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4a10d4f1-2a50-42e7-a143-e9a93d9fcc42
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_PROPERTY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_PROPERTY_TYPE
+req.redist: 
 ---
 
 # CLUSTER_PROPERTY_TYPE enumeration

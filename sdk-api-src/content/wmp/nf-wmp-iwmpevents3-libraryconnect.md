@@ -4,17 +4,16 @@ title: IWMPEvents3::LibraryConnect
 author: windows-sdk-content
 description: The LibraryConnect event occurs when a library becomes available.
 old-location: wmp\iwmpevents3_iwmpevents3__libraryconnect.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b9e1feb7-c894-4f37-9756-378740637f6e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryConnect method, IWMPEvents3.LibraryConnect, IWMPEvents3::LibraryConnect, IWMPEvents3LibraryConnect, LibraryConnect, LibraryConnect method [Windows Media Player], LibraryConnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__libraryconnect, wmp/IWMPEvents3::LibraryConnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents3.LibraryConnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents3::LibraryConnect

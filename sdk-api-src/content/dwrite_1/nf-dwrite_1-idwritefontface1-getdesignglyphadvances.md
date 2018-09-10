@@ -4,17 +4,16 @@ title: IDWriteFontFace1::GetDesignGlyphAdvances
 author: windows-sdk-content
 description: Retrieves the advances in design units for a sequences of glyphs.
 old-location: directwrite\idwritefontface1_getdesignglyphadvances.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1E40518F-51E0-48F6-99ED-BE9407B61B6E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDesignGlyphAdvances, GetDesignGlyphAdvances method [Direct Write], GetDesignGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetDesignGlyphAdvances method, IDWriteFontFace1.GetDesignGlyphAdvances, IDWriteFontFace1::GetDesignGlyphAdvances, directwrite.idwritefontface1_getdesignglyphadvances, dwrite_1/IDWriteFontFace1::GetDesignGlyphAdvances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1.GetDesignGlyphAdvances
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace1::GetDesignGlyphAdvances

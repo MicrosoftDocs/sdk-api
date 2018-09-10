@@ -4,7 +4,7 @@ title: "_COPYFILE2_COPY_PHASE"
 author: windows-sdk-content
 description: Indicates the phase of a copy at the time of an error.
 old-location: fs\copyfile2_copy_phase.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 92bf9028-78a3-4ea3-bfbb-b53a8df557ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPYFILE2_COPY_PHASE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPYFILE2_COPY_PHASE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COPYFILE2_COPY_PHASE
+req.redist: 
 ---
 
 # _COPYFILE2_COPY_PHASE enumeration

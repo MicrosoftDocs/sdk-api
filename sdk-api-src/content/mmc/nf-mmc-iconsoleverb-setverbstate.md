@@ -4,17 +4,16 @@ title: IConsoleVerb::SetVerbState
 author: windows-sdk-content
 description: The SetVerbState method enables a snap-in to set a given verb's button state.
 old-location: mmc\iconsoleverb_setverbstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 55cf5f73-a113-430e-be16-d7a88abe15b6
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IConsoleVerb interface [MMC],SetVerbState method, IConsoleVerb.SetVerbState, IConsoleVerb::SetVerbState, SetVerbState, SetVerbState method [MMC], SetVerbState method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setverbstate, mmc.iconsoleverb_setverbstate, mmc/IConsoleVerb::SetVerbState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsoleVerb.SetVerbState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsoleVerb::SetVerbState

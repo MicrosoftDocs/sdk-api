@@ -4,17 +4,16 @@ title: IESEvent::GetData
 author: windows-sdk-content
 description: Gets data from an event that is derived from the IESEvent interface. This method gets a byte array that contains the data in an IESEvent object, which is passed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getdata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetData method, IESEvent.GetData, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESEvent.GetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESEvent::GetData

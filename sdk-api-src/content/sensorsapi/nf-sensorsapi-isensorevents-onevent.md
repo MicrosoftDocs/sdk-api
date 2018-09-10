@@ -4,17 +4,16 @@ title: ISensorEvents::OnEvent
 author: windows-sdk-content
 description: Provides custom event notifications.
 old-location: winsensors_com_ref\isensorevents_onevent.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 7dfe25d1-dc0e-4e97-8dad-ca66a829aa4c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensorEvents interface,OnEvent method, ISensorEvents.OnEvent, ISensorEvents::OnEvent, OnEvent, OnEvent method, OnEvent method,ISensorEvents interface, sensorsapi/ISensorEvents::OnEvent, winsensors_com_ref.isensorevents_onevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorEvents.OnEvent
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorEvents::OnEvent

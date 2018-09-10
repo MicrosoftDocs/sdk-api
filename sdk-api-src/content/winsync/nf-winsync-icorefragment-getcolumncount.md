@@ -4,17 +4,16 @@ title: ICoreFragment::GetColumnCount
 author: windows-sdk-content
 description: Gets the number of columns that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getcolumncount.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 5f1aff6d-4fdf-48e1-9c7b-c003ec27f354
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetColumnCount method, ICoreFragment.GetColumnCount, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICoreFragment.GetColumnCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ICoreFragment::GetColumnCount

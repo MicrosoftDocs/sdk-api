@@ -4,17 +4,16 @@ title: CreateRandomAccessStreamOnFile function
 author: windows-sdk-content
 description: Creates a Windows Runtime random access stream for a file.
 old-location: winrt\createrandomaccessstreamonfile.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shcore.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BSOS_OPTIONS
+req.lib: Shcore.lib
+req.dll: Shcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CreateRandomAccessStreamOnFile
 product: Windows
 targetos: Windows
-req.lib: Shcore.lib
-req.dll: Shcore.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateRandomAccessStreamOnFile function

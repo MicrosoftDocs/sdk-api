@@ -4,17 +4,16 @@ title: InitNetworkAddressControl function
 author: windows-sdk-content
 description: Initializes the network address control window class.
 old-location: shell\InitNetworkAddressControl.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 52b475e3-7335-4c34-80d7-ccd81af0e0ec
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: InitNetworkAddressControl, InitNetworkAddressControl function [Windows Shell], _shell_InitNetworkAddressControl, shell.InitNetworkAddressControl, shellapi/InitNetworkAddressControl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitNetworkAddressControl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InitNetworkAddressControl function

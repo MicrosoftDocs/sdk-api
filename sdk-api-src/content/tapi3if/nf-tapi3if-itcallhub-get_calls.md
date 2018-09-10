@@ -4,17 +4,16 @@ title: ITCallHub::get_Calls
 author: windows-sdk-content
 description: The get_Calls method creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 old-location: tapi3\itcallhub_get_calls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 56634ab6-b905-48bb-a4d1-7ca1f0c4c0cf
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_Calls method, ITCallHub.get_Calls, ITCallHub::get_Calls, _tapi3_itcallhub_get_calls, get_Calls, get_Calls method [TAPI 2.2], get_Calls method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_calls, tapi3if/ITCallHub::get_Calls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallHub.get_Calls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallHub::get_Calls

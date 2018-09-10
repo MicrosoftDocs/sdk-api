@@ -4,17 +4,16 @@ title: CryptCATClose function
 author: windows-sdk-content
 description: Closes a catalog handle opened previously by the CryptCATOpen function.
 old-location: security\cryptcatclose.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATClose
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATClose function

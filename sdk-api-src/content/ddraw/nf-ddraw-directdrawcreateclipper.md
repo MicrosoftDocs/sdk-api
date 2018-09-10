@@ -4,17 +4,16 @@ title: DirectDrawCreateClipper function
 author: windows-sdk-content
 description: Creates an instance of a DirectDrawClipper object that is not associated with a DirectDraw object.
 old-location: directdraw\directdrawcreateclipper.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 12d499d2-dd4a-4831-9290-c225aec1a160
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDraw], ddraw/DirectDrawCreateClipper, directdraw.directdrawcreateclipper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DirectDrawCreateClipper
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DirectDrawCreateClipper function

@@ -4,17 +4,16 @@ title: StringCchVPrintfExA function
 author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments.
 old-location: menurc\stringcchvprintfex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintfex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintfEx, StringCchVPrintfEx function [Menus and Other Resources], StringCchVPrintfExA, StringCchVPrintfExW, _shell_StringCchVPrintfEx, _shell_stringcchvprintfex_cpp, menurc.stringcchvprintfex, strsafe/StringCchVPrintfEx, strsafe/StringCchVPrintfExA, strsafe/StringCchVPrintfExW, winui._shell_stringcchvprintfex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVD_RENDERSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - StringCchVPrintfExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # StringCchVPrintfExA function

@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.put_RecipientName
 title: IFaxDoc::put_RecipientName
 author: windows-sdk-content
 description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_recipientname_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5xut.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],RecipientName property, FaxDoc.RecipientName, IFaxDoc.put_RecipientName, IFaxDoc::put_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname_vb, put_RecipientName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],RecipientName property, IFaxDoc.RecipientName, IFaxDoc.put_RecipientName, IFaxDoc::RecipientName, IFaxDoc::get_RecipientName, IFaxDoc::put_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientname_cpp, faxcom/IFaxDoc::RecipientName, faxcom/IFaxDoc::get_RecipientName, faxcom/IFaxDoc::put_RecipientName, put_RecipientName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.RecipientName
+ - IFaxDoc.RecipientName
+ - IFaxDoc.get_RecipientName
+ - IFaxDoc.put_RecipientName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::put_RecipientName
@@ -81,10 +81,6 @@ The <b>get_RecipientName</b> method allocates the memory required for the buffer
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

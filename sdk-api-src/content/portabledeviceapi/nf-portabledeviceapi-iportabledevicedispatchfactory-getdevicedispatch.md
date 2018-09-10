@@ -4,17 +4,16 @@ title: IPortableDeviceDispatchFactory::GetDeviceDispatch
 author: windows-sdk-content
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm
-old-project: wpdauto
+tech.root: wpdauto
 ms.assetid: 80aa36cd-3831-4eb5-a5bb-a8e48f20fc62
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation],IPortableDeviceDispatchFactory interface, IPortableDeviceDispatchFactory interface [WPD Automation],GetDeviceDispatch method, IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceDispatchFactory.GetDeviceDispatch
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceDispatchFactory::GetDeviceDispatch

@@ -4,17 +4,16 @@ title: IEnumRegFilters::Clone
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
 old-location: dshow\ienumregfilters_clone.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ba4366fa-57ba-4057-b3b9-5380e0fca006
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumRegFilters interface, IEnumRegFilters interface [DirectShow],Clone method, IEnumRegFilters.Clone, IEnumRegFilters::Clone, IEnumRegFiltersClone, dshow.ienumregfilters_clone, strmif/IEnumRegFilters::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumRegFilters.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumRegFilters::Clone

@@ -4,17 +4,16 @@ title: IVdsSubSystem::QueryLuns
 author: windows-sdk-content
 description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
 old-location: base\ivdssubsystem_queryluns.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem.QueryLuns
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem::QueryLuns

@@ -4,17 +4,16 @@ title: ITypeInfo::AddressOfMember
 author: windows-sdk-content
 description: Retrieves the addresses of static functions or variables, such as those defined in a DLL.
 old-location: automat\itypeinfo_addressofmember.htm
-old-project: automat
+tech.root: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo.AddressOfMember
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo::AddressOfMember

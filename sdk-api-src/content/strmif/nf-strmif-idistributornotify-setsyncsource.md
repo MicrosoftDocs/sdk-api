@@ -4,17 +4,16 @@ title: IDistributorNotify::SetSyncSource
 author: windows-sdk-content
 description: The SetSyncSource method is called when a new clock is registered.
 old-location: dshow\idistributornotify_setsyncsource.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 671af56f-a333-441e-9a97-04226b1c3225
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDistributorNotify interface [DirectShow],SetSyncSource method, IDistributorNotify.SetSyncSource, IDistributorNotify::SetSyncSource, IDistributorNotifySetSyncSource, SetSyncSource, SetSyncSource method [DirectShow], SetSyncSource method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_setsyncsource, strmif/IDistributorNotify::SetSyncSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDistributorNotify.SetSyncSource
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDistributorNotify::SetSyncSource

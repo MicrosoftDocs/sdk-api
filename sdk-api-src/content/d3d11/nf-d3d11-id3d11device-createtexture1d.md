@@ -4,17 +4,16 @@ title: ID3D11Device::CreateTexture1D
 author: windows-sdk-content
 description: Creates an array of 1D textures.
 old-location: direct3d11\id3d11device_createtexture1d.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 34cdf984-8b2e-4ed3-a77b-b373752539f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 26bbf961-5a2a-c5ce-e1d3-3723caf1e453, CreateTexture1D, CreateTexture1D method [Direct3D 11], CreateTexture1D method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateTexture1D method, ID3D11Device.CreateTexture1D, ID3D11Device::CreateTexture1D, d3d11/ID3D11Device::CreateTexture1D, direct3d11.id3d11device_createtexture1d
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CreateTexture1D
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CreateTexture1D

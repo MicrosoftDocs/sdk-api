@@ -4,17 +4,16 @@ title: IMMNotificationClient::OnDefaultDeviceChanged
 author: windows-sdk-content
 description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.
 old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDefaultDeviceChanged method, IMMNotificationClient.OnDefaultDeviceChanged, IMMNotificationClient::OnDefaultDeviceChanged, IMMNotificationClientOnDefaultDeviceChanged, OnDefaultDeviceChanged, OnDefaultDeviceChanged method [Core Audio], OnDefaultDeviceChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondefaultdevicechanged, mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMNotificationClient.OnDefaultDeviceChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMNotificationClient::OnDefaultDeviceChanged
@@ -87,7 +85,7 @@ eCommunications
 
 ### -param pwstrDefaultDeviceId
 
-
+TBD
 
 
 

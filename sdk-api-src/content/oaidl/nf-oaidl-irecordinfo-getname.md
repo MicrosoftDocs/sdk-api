@@ -4,17 +4,16 @@ title: IRecordInfo::GetName
 author: windows-sdk-content
 description: Gets the name of the record type.
 old-location: automat\irecordinfo_getname.htm
-old-project: automat
+tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::GetName

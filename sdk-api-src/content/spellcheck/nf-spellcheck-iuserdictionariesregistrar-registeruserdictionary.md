@@ -4,17 +4,16 @@ title: IUserDictionariesRegistrar::RegisterUserDictionary
 author: windows-sdk-content
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserDictionariesRegistrar.RegisterUserDictionary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUserDictionariesRegistrar::RegisterUserDictionary

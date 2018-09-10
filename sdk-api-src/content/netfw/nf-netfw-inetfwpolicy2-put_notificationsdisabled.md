@@ -4,17 +4,16 @@ title: INetFwPolicy2::put_NotificationsDisabled
 author: windows-sdk-content
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwpolicy2_notificationsdisabled.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 490442a4-3b60-4891-9d0e-71f8d2147999
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],NotificationsDisabled property, INetFwPolicy2.NotificationsDisabled, INetFwPolicy2.put_NotificationsDisabled, INetFwPolicy2::NotificationsDisabled, INetFwPolicy2::get_NotificationsDisabled, INetFwPolicy2::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_notificationsdisabled, netfw/INetFwPolicy2::NotificationsDisabled, netfw/INetFwPolicy2::get_NotificationsDisabled, netfw/INetFwPolicy2::put_NotificationsDisabled, put_NotificationsDisabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwPolicy2.put_NotificationsDisabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwPolicy2::put_NotificationsDisabled

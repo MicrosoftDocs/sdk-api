@@ -4,17 +4,16 @@ title: IDCompositionDevice::CreateRotateTransform
 author: windows-sdk-content
 description: Creates a 2D rotation transform object.
 old-location: directcomp\idcompositiondevice_createrotatetransform.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 26a58b2c-1c68-4e38-963c-4df7512347f0
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateRotateTransform, CreateRotateTransform method [DirectComposition], CreateRotateTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform method, IDCompositionDevice.CreateRotateTransform, IDCompositionDevice::CreateRotateTransform, dcomp/IDCompositionDevice::CreateRotateTransform, directcomp.idcompositiondevice_createrotatetransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.CreateRotateTransform
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::CreateRotateTransform

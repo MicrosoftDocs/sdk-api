@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_SCOPE_TYPE6"
 author: windows-sdk-content
 description: Defines the set of possible scopes for DHCP options.
 old-location: dhcp\dhcp_option_scope_type6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_SCOPE_TYPE6, *LPDHCP_OPTION_SCOPE_TYPE6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_SCOPE_TYPE6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_SCOPE_TYPE6, *LPDHCP_OPTION_SCOPE_TYPE6
+req.redist: 
 ---
 
 # _DHCP_OPTION_SCOPE_TYPE6 enumeration

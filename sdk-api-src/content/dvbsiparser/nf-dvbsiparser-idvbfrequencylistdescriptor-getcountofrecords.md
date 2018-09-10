@@ -4,17 +4,16 @@ title: IDvbFrequencyListDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getcountofrecords.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9bce2abf-2673-49c6-8b87-7c8825544156
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbFrequencyListDescriptor.GetCountOfRecords, IDvbFrequencyListDescriptor::GetCountOfRecords, IDvbFrequencyListDescriptorGetCountOfRecords, dvbsiparser/IDvbFrequencyListDescriptor::GetCountOfRecords, mstv.idvbfrequencylistdescriptor_getcountofrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbFrequencyListDescriptor.GetCountOfRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbFrequencyListDescriptor::GetCountOfRecords

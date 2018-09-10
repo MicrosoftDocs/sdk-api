@@ -4,7 +4,7 @@ title: "_EVENTLOG_FULL_INFORMATION"
 author: windows-sdk-content
 description: Indicates whether the event log is full.
 old-location: base\eventlog_full_information_str.htm
-old-project: eventlog
+tech.root: eventlog
 ms.assetid: 3ca41d6b-51a6-4226-89be-ab2c37628289
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENTLOG_FULL_INFORMATION, *LPEVENTLOG_FULL_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENTLOG_FULL_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVENTLOG_FULL_INFORMATION, *LPEVENTLOG_FULL_INFORMATION
+req.redist: 
 ---
 
 # _EVENTLOG_FULL_INFORMATION structure

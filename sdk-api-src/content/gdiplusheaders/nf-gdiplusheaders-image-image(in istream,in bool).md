@@ -4,17 +4,16 @@ title: Image::Image(IN IStream,IN BOOL)
 author: windows-sdk-content
 description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image(IN IStream,IN BOOL), Image::Image, Image::Image(IN IStream,IN BOOL), _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Image.Image
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # Image::Image(IN IStream,IN BOOL)

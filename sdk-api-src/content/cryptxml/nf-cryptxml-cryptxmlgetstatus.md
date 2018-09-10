@@ -4,17 +4,16 @@ title: CryptXmlGetStatus function
 author: windows-sdk-content
 description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
 old-location: security\cryptxmlgetstatus.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_PROPERTY_ID
+req.lib: Cryptxml.lib
+req.dll: Cryptxml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptXmlGetStatus
 product: Windows
 targetos: Windows
-req.lib: Cryptxml.lib
-req.dll: Cryptxml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptXmlGetStatus function

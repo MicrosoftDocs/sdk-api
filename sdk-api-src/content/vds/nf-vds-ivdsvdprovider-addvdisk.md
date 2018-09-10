@@ -4,17 +4,16 @@ title: IVdsVdProvider::AddVDisk
 author: windows-sdk-content
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVdProvider.AddVDisk
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVdProvider::AddVDisk

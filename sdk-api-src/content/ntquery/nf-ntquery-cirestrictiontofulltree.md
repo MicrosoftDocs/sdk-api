@@ -4,17 +4,16 @@ title: CIRestrictionToFullTree function
 author: windows-sdk-content
 description: Converts a query restriction tree with columns, sort columns, and grouping columns to a DBCOMMANDTREE structure.
 old-location: indexsrv\cirestrictiontofulltree.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2c2t.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CIRestrictionToFullTree, CIRestrictionToFullTree function [Indexing Service], _idxs_CIRestrictionToFullTree, indexsrv.cirestrictiontofulltree, ntquery/CIRestrictionToFullTree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CIRestrictionToFullTree
 product: Windows
 targetos: Windows
-req.lib: Ntquery.lib
-req.dll: Ntquery.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CIRestrictionToFullTree function

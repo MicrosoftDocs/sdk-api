@@ -4,17 +4,16 @@ title: MsiEnableLogA function
 author: windows-sdk-content
 description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
 old-location: setup\msienablelog.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiEnableLogW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiEnableLogA function

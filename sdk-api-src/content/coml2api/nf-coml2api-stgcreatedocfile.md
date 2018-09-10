@@ -4,17 +4,16 @@ title: StgCreateDocfile function
 author: windows-sdk-content
 description: Creates a new compound file storage object using the COM-provided compound file implementation for the IStorage interface.
 old-location: stg\stgcreatedocfile.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,9 +47,8 @@ api_name:
  - StgCreateDocfile
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # StgCreateDocfile function

@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::QueryChanges
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the template or certification authority collections have changed in Active Directory.
 old-location: security\ix509enrollmentpolicyserver_querychanges.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: c83faaba-0355-4765-bc08-5e0e02afe8c2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],QueryChanges method, IX509EnrollmentPolicyServer.QueryChanges, IX509EnrollmentPolicyServer::QueryChanges, QueryChanges, QueryChanges method [Security], QueryChanges method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::QueryChanges, security.ix509enrollmentpolicyserver_querychanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.QueryChanges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::QueryChanges

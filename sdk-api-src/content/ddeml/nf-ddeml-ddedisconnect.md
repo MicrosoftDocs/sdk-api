@@ -4,17 +4,16 @@ title: DdeDisconnect function
 author: windows-sdk-content
 description: Terminates a conversation started by either the DdeConnect or DdeConnectList function and invalidates the specified conversation handle.
 old-location: dataxchg\ddedisconnect.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdeDisconnect, DdeDisconnect function [Data Exchange], _win32_DdeDisconnect, _win32_ddedisconnect_cpp, dataxchg.ddedisconnect, ddeml/DdeDisconnect, winui._win32_ddedisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdeDisconnect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdeDisconnect function

@@ -4,7 +4,7 @@ title: MBN_PIN_TYPE
 author: windows-sdk-content
 description: The MBN_PIN_TYPE enumerated type indicates the type of password required for unlocking the information stored on the interface.
 old-location: mbn\mbn_pin_type.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 79791522-cf6b-4dae-a9c2-68e9e2fc394f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_PIN_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_PIN_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_PIN_TYPE
+req.redist: 
 ---
 
 # MBN_PIN_TYPE enumeration

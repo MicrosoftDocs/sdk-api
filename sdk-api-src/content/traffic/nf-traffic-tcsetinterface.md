@@ -4,17 +4,16 @@ title: TcSetInterface function
 author: windows-sdk-content
 description: The TcSetInterface function sets individual parameters for a given interface.
 old-location: qos\tcsetinterface.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcSetInterface
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcSetInterface function

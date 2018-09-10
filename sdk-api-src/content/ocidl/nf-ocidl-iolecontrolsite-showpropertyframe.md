@@ -4,17 +4,16 @@ title: IOleControlSite::ShowPropertyFrame
 author: windows-sdk-content
 description: Instructs a container to display a property sheet for the control embedded in this site.
 old-location: com\iolecontrolsite_showpropertyframe.htm
-old-project: com
+tech.root: com
 ms.assetid: 88421303-8f90-4ff3-90e4-74cb6d64a541
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleControlSite interface [COM],ShowPropertyFrame method, IOleControlSite.ShowPropertyFrame, IOleControlSite::ShowPropertyFrame, ShowPropertyFrame, ShowPropertyFrame method [COM], ShowPropertyFrame method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_showpropertyframe, com.iolecontrolsite_showpropertyframe, ocidl/IOleControlSite::ShowPropertyFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.ShowPropertyFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::ShowPropertyFrame

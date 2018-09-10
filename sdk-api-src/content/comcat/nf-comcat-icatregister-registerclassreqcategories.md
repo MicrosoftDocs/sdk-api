@@ -4,17 +4,16 @@ title: ICatRegister::RegisterClassReqCategories
 author: windows-sdk-content
 description: Registers the class as requiring one or more component categories.
 old-location: com\icatregister_registerclassreqcategories.htm
-old-project: com
+tech.root: com
 ms.assetid: 56aa5fcd-b46a-4807-ba51-9b4b6d28ceeb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatRegister interface [COM],RegisterClassReqCategories method, ICatRegister.RegisterClassReqCategories, ICatRegister::RegisterClassReqCategories, RegisterClassReqCategories, RegisterClassReqCategories method [COM], RegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_registerclassreqcategories, com.icatregister_registerclassreqcategories, comcat/ICatRegister::RegisterClassReqCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatRegister.RegisterClassReqCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatRegister::RegisterClassReqCategories

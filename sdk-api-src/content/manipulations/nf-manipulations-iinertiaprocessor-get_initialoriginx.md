@@ -4,17 +4,16 @@ title: IInertiaProcessor::get_InitialOriginX
 author: windows-sdk-content
 description: The InitialOriginX property specifies the starting horizontal location for a target with inertia.
 old-location: wintouch\iinertiaprocessor_initialoriginx.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 6c710bd7-6fbe-4bc3-8966-b83d4500625a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginX property, IInertiaProcessor.InitialOriginX, IInertiaProcessor.get_InitialOriginX, IInertiaProcessor::InitialOriginX, IInertiaProcessor::get_InitialOriginX, IInertiaProcessor::put_InitialOriginX, InitialOriginX property [Windows Touch], InitialOriginX property [Windows Touch],IInertiaProcessor interface, get_InitialOriginX, manipulations/IInertiaProcessor::InitialOriginX, manipulations/IInertiaProcessor::get_InitialOriginX, manipulations/IInertiaProcessor::put_InitialOriginX, wintouch.iinertiaprocessor_initialoriginx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IInertiaProcessor.put_InitialOriginX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::get_InitialOriginX

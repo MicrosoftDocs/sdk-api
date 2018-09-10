@@ -4,7 +4,7 @@ title: "_SE_OBJECT_TYPE"
 author: windows-sdk-content
 description: Contains values that correspond to the types of Windows objects that support security.
 old-location: security\se_object_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1dee5e3d-0d41-4717-811b-7e05b4deb55f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SE_OBJECT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,6 +40,8 @@ api_name:
  - SE_OBJECT_TYPE
 product: Windows
 targetos: Windows
+req.typenames: SE_OBJECT_TYPE
+req.redist: 
 ---
 
 # _SE_OBJECT_TYPE enumeration

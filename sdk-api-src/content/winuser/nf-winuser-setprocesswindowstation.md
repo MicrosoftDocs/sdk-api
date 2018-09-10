@@ -4,17 +4,16 @@ title: SetProcessWindowStation function
 author: windows-sdk-content
 description: Assigns the specified window station to the calling process.
 old-location: winstation\setprocesswindowstation.htm
-old-project: winstation
+tech.root: winstation
 ms.assetid: d64814a7-945c-4e73-a977-5f696d60610e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetProcessWindowStation, SetProcessWindowStation function [Windows Stations and Desktops], _win32_setprocesswindowstation, base.setprocesswindowstation, winstation.setprocesswindowstation, winuser/SetProcessWindowStation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetProcessWindowStation
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetProcessWindowStation function

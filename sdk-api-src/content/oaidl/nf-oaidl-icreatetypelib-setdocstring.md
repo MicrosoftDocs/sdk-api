@@ -4,17 +4,16 @@ title: ICreateTypeLib::SetDocString
 author: windows-sdk-content
 description: Sets the documentation string associated with the library.
 old-location: automat\icreatetypelib_setdocstring.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 5fe93ad2-f3c2-4559-a64a-cbbc17448e05
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetDocString method, ICreateTypeLib.SetDocString, ICreateTypeLib::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetDocString, automat.icreatetypelib_setdocstring, oaidl/ICreateTypeLib::SetDocString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeLib.SetDocString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeLib::SetDocString

@@ -4,17 +4,16 @@ title: Direct3DCreate9 function
 author: windows-sdk-content
 description: Create an IDirect3D9 object and return an interface to it.
 old-location: direct3d9\direct3dcreate9.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3d9.lib
+req.dll: D3d9.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - Direct3DCreate9
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: D3d9.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Direct3DCreate9 function

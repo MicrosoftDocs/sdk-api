@@ -4,17 +4,16 @@ title: WsWriteEnvelopeStart function
 author: windows-sdk-content
 description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
 old-location: wsw\wswriteenvelopestart.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsWriteEnvelopeStart
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsWriteEnvelopeStart function

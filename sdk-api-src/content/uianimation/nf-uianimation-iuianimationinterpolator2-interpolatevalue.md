@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator2::InterpolateValue
 author: windows-sdk-content
 description: Interpolates the value of an animation variable at the specified offset and for the given dimension.
 old-location: uianimation\iuianimationinterpolator2_interpolatevalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: A512B264-642A-4E4B-9AEA-DE80B9D99A53
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator2.InterpolateValue, IUIAnimationInterpolator2::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_interpolatevalue, uianimation/IUIAnimationInterpolator2::InterpolateValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator2.InterpolateValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator2::InterpolateValue

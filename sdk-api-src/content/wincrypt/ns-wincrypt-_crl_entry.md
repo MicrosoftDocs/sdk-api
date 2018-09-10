@@ -4,7 +4,7 @@ title: "_CRL_ENTRY"
 author: windows-sdk-content
 description: Contains information about a single revoked certificate. It is a member of a CRL_INFO structure.
 old-location: security\crl_entry.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRL_ENTRY, *PCRL_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRL_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRL_ENTRY, *PCRL_ENTRY
+req.redist: 
 ---
 
 # _CRL_ENTRY structure

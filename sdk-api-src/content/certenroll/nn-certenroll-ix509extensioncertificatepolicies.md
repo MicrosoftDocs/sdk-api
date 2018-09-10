@@ -4,7 +4,7 @@ title: IX509ExtensionCertificatePolicies
 author: windows-sdk-content
 description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.
 old-location: security\ix509extensioncertificatepolicies.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509ExtensionCertificatePolicies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionCertificatePolicies interface

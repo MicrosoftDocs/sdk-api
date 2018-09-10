@@ -4,17 +4,16 @@ title: IOleInPlaceSite::GetWindowContext
 author: windows-sdk-content
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
 old-location: com\ioleinplacesite_getwindowcontext.htm
-old-project: com
+tech.root: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSite.GetWindowContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::GetWindowContext

@@ -4,17 +4,16 @@ title: IWMSyncReader2::SetRangeByTimecode
 author: windows-sdk-content
 description: The SetRangeByTimecode method sets a starting and ending time, based on SMPTE time codes, for playback of a file.
 old-location: wmformat\iwmsyncreader2_setrangebytimecode.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 304564b1-6ae3-4e1c-bea9-7a49c522a914
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByTimecode method, IWMSyncReader2.SetRangeByTimecode, IWMSyncReader2::SetRangeByTimecode, IWMSyncReader2SetRangeByTimecode, SetRangeByTimecode, SetRangeByTimecode method [windows Media Format], SetRangeByTimecode method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebytimecode, wmsdkidl/IWMSyncReader2::SetRangeByTimecode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMSyncReader2.SetRangeByTimecode
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMSyncReader2::SetRangeByTimecode

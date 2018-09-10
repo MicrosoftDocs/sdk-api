@@ -4,17 +4,16 @@ title: IX509CertificateRequest::get_ParentWindow
 author: windows-sdk-content
 description: Specifies and retrieves the ID of the window used by key-related user interface dialogs.
 old-location: security\ix509certificaterequest_parentwindow_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 86e82a6c-7689-4bf3-8f64-e512040abd6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequest interface [Security],ParentWindow property, IX509CertificateRequest.ParentWindow, IX509CertificateRequest.get_ParentWindow, IX509CertificateRequest::ParentWindow, IX509CertificateRequest::get_ParentWindow, IX509CertificateRequest::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ParentWindow, certenroll/IX509CertificateRequest::get_ParentWindow, certenroll/IX509CertificateRequest::put_ParentWindow, get_ParentWindow, security.ix509certificaterequest_parentwindow_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequest.put_ParentWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequest::get_ParentWindow

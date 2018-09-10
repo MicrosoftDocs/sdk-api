@@ -4,17 +4,16 @@ title: ITSGPolicyEngine::Refresh
 author: windows-sdk-content
 description: This method is reserved.
 old-location: termserv\itsgpolicyengine_refresh.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],Refresh method, ITSGPolicyEngine.Refresh, ITSGPolicyEngine::Refresh, Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITSGPolicyEngine.Refresh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITSGPolicyEngine::Refresh

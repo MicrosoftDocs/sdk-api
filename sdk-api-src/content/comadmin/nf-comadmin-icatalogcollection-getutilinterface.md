@@ -4,17 +4,16 @@ title: ICatalogCollection::GetUtilInterface
 author: windows-sdk-content
 description: Retrieves the utility interface for the collection.
 old-location: cos\icatalogcollection_getutilinterface.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: bac2153d-253b-4be1-be14-2c1207799ada
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetUtilInterface, GetUtilInterface method [COM+], GetUtilInterface method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetUtilInterface method, ICatalogCollection.GetUtilInterface, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatalogCollection.GetUtilInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogCollection::GetUtilInterface

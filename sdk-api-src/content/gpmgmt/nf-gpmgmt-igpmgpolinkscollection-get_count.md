@@ -4,17 +4,16 @@ title: IGPMGPOLinksCollection::get_Count
 author: windows-sdk-content
 description: Returns the number of GPO links in the collection.
 old-location: gpmc\igpmgpolinkscollection_get_count.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 09307f35-d90f-4ef8-9eee-2ef33b765c19
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOLinksCollection class, Count property [GPMC],IGPMGPOLinksCollection interface, GPMGPOLinksCollection class [GPMC],Count property, IGPMGPOLinksCollection interface [GPMC],Count property, IGPMGPOLinksCollection.Count, IGPMGPOLinksCollection.get_Count, IGPMGPOLinksCollection::Count, IGPMGPOLinksCollection::get_Count, _win32_igpmgpolinkscollection_get_count, get_Count, gpmc.igpmgpolinkscollection_get_count, gpmgmt/IGPMGPOLinksCollection::Count, gpmgmt/IGPMGPOLinksCollection::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMGPOLinksCollection.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMGPOLinksCollection::get_Count

@@ -4,17 +4,16 @@ title: CoQueryProxyBlanket function
 author: windows-sdk-content
 description: Retrieves the authentication information the client uses to make calls on the specified proxy.
 old-location: com\coqueryproxyblanket.htm
-old-project: com
+tech.root: com
 ms.assetid: e613e06a-0900-413e-bde2-39ce1612fed1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoQueryProxyBlanket, CoQueryProxyBlanket function [COM], _com_CoQueryProxyBlanket, com.coqueryproxyblanket, combaseapi/CoQueryProxyBlanket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoQueryProxyBlanket
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoQueryProxyBlanket function

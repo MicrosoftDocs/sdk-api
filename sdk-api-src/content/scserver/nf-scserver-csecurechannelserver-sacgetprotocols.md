@@ -4,17 +4,16 @@ title: CSecureChannelServer::SACGetProtocols
 author: windows-sdk-content
 description: The SACGetProtocols method reports the protocols supported by a component.
 old-location: wmdm\csecurechannelserver_sacgetprotocols.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 42878774-9c8b-4d80-a17e-6682da4d34ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SACGetProtocols method, CSecureChannelServer.SACGetProtocols, CSecureChannelServer::SACGetProtocols, CSecureChannelServerSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SACGetProtocols, wmdm.csecurechannelserver_sacgetprotocols
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CSecureChannelServer.SACGetProtocols
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CSecureChannelServer::SACGetProtocols

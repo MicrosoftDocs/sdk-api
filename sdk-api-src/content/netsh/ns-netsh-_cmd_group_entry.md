@@ -4,7 +4,7 @@ title: "_CMD_GROUP_ENTRY"
 author: windows-sdk-content
 description: Defines a group of helper commands.
 old-location: netshell\cmd_group_entry.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMD_GROUP_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
+req.redist: 
 ---
 
 # _CMD_GROUP_ENTRY structure

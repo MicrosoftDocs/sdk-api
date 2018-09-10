@@ -4,17 +4,16 @@ title: IAMStats::GetValueByName
 author: windows-sdk-content
 description: The GetValueByName method retrieves a statistic, by name.
 old-location: dshow\iamstats_getvaluebyname.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMStats.GetValueByName
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStats::GetValueByName

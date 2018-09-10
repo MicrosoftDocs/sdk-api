@@ -4,17 +4,16 @@ title: ISearchCrawlScopeManager2::GetVersion
 author: windows-sdk-content
 description: Causes file mapping to be mapped into the address space of the calling process, and informs clients if the state of the Crawl Scope Manager (CSM) has changed.
 old-location: search\_search_ISearchCrawlScopeManager2_GetVersion.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\getversion.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetVersion, GetVersion method [search], GetVersion method [search],ISearchCrawlScopeManager2 interface, ISearchCrawlScopeManager2 interface [search],GetVersion method, ISearchCrawlScopeManager2.GetVersion, ISearchCrawlScopeManager2::GetVersion, _search_ISearchCrawlScopeManager2_GetVersion, search._search_ISearchCrawlScopeManager2_GetVersion, searchapi/ISearchCrawlScopeManager2::GetVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCrawlScopeManager2.GetVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchCrawlScopeManager2::GetVersion

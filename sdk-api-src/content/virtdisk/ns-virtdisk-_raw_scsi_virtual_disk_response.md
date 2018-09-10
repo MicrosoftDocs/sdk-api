@@ -4,7 +4,7 @@ title: "_RAW_SCSI_VIRTUAL_DISK_RESPONSE"
 author: windows-sdk-content
 description: Contains raw SCSI virtual disk response parameters.
 old-location: vhd\raw_scsi_virtual_disk_response.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: CF3240A0-134B-4494-8451-7F8C6429D435
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAW_SCSI_VIRTUAL_DISK_RESPONSE, *PRAW_SCSI_VIRTUAL_DISK_RESPONSE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RAW_SCSI_VIRTUAL_DISK_RESPONSE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: RAW_SCSI_VIRTUAL_DISK_RESPONSE, *PRAW_SCSI_VIRTUAL_DISK_RESPONSE
+req.redist: 
 ---
 
 # _RAW_SCSI_VIRTUAL_DISK_RESPONSE structure

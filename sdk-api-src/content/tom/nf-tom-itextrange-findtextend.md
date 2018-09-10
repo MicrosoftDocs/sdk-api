@@ -4,17 +4,16 @@ title: ITextRange::FindTextEnd
 author: windows-sdk-content
 description: Searches up to Count characters for the string, bstr, starting from the range's End cp.
 old-location: controls\ITextRange_FindTextEnd.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextend.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindTextEnd, FindTextEnd method [Windows Controls], FindTextEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextEnd method, ITextRange.FindTextEnd, ITextRange::FindTextEnd, _win32_ITextRange_FindTextEnd, _win32_ITextRange_FindTextEnd_cpp, controls.ITextRange_FindTextEnd, controls._win32_ITextRange_FindTextEnd, tom/ITextRange::FindTextEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.FindTextEnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::FindTextEnd

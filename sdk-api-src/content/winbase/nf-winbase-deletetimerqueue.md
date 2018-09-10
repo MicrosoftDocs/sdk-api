@@ -4,17 +4,16 @@ title: DeleteTimerQueue function
 author: windows-sdk-content
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueue.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteTimerQueue
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteTimerQueue function

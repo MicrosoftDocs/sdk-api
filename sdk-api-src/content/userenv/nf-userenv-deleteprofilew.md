@@ -4,17 +4,16 @@ title: DeleteProfileW function
 author: windows-sdk-content
 description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
 old-location: shell\DeleteProfile.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DeleteProfileW
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteProfileW function

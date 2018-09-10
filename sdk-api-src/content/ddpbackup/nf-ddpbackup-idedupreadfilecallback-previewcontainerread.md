@@ -4,17 +4,16 @@ title: IDedupReadFileCallback::PreviewContainerRead
 author: windows-sdk-content
 description: Provides the application with a preview of the sequence of reads that are pending for a given container file extent.
 old-location: dedup\idedupreadfilecallback_previewcontainerread.htm
-old-project: dedup
+tech.root: dedup
 ms.assetid: A3AFB530-ED97-4BEC-BF9D-668115E36A36
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDedupReadFileCallback.PreviewContainerRead
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDedupReadFileCallback::PreviewContainerRead

@@ -4,17 +4,16 @@ title: IToolbar::AddBitmap
 author: windows-sdk-content
 description: Enables a snap-in to add an image to the toolbar.
 old-location: mmc\itoolbar_addbitmap.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: f2ef31a7-61ce-4ac6-814a-c3a46964c4f1
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: AddBitmap, AddBitmap method [MMC], AddBitmap method [MMC],IToolbar interface, IToolbar interface [MMC],AddBitmap method, IToolbar.AddBitmap, IToolbar::AddBitmap, _slate_itoolbar_addbitmap, mmc.itoolbar_addbitmap, mmc/IToolbar::AddBitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IToolbar.AddBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IToolbar::AddBitmap

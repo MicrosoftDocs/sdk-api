@@ -4,17 +4,16 @@ title: SHSetThreadRef function
 author: windows-sdk-content
 description: Stores a per-thread reference to a Component Object Model (COM) object. This allows the caller to control the thread's lifetime so that it can ensure that Windows won't shut down the thread before the caller is ready.
 old-location: shell\SHSetThreadRef.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1d0d70ca-a0e6-4620-9a01-8d4986990b9c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHSetThreadRef, SHSetThreadRef function [Windows Shell], _win32_SHSetThreadRef, shell.SHSetThreadRef, shlwapi/SHSetThreadRef
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later); ShCore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHSetThreadRef
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later); ShCore.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHSetThreadRef function

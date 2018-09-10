@@ -4,17 +4,16 @@ title: LsaQueryCAPs function
 author: windows-sdk-content
 description: Returns the Central Access Policies (CAPs) for the specified IDs.
 old-location: security\lsaquerycaps.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntlsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VBS_ENCLAVE_REPORT_VARDATA_HEADER
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaQueryCAPs
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaQueryCAPs function

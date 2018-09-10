@@ -4,7 +4,7 @@ title: "_LSA_TOKEN_INFORMATION_NULL"
 author: windows-sdk-content
 description: Used in cases where a non-authenticated system access is needed.
 old-location: security\lsa_token_information_null.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: fbcd0f78-1ad5-4bea-a95f-d19fb3894537
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TOKEN_INFORMATION_NULL, *PLSA_TOKEN_INFORMATION_NULL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TOKEN_INFORMATION_NULL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_TOKEN_INFORMATION_NULL, *PLSA_TOKEN_INFORMATION_NULL
+req.redist: 
 ---
 
 # _LSA_TOKEN_INFORMATION_NULL structure

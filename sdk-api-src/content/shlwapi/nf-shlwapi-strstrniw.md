@@ -4,17 +4,16 @@ title: StrStrNIW function
 author: windows-sdk-content
 description: Finds the first occurrence of a substring within a string. The comparison is case-insensitive.
 old-location: shell\StrStrNIW.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 743f74f6-a0a6-4c03-b3bf-7f819bbc665f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrStrNIW, StrStrNIW function [Windows Shell], _shell_StrStrNIW, shell.StrStrNIW, shlwapi/StrStrNIW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - StrStrNIW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrStrNIW function

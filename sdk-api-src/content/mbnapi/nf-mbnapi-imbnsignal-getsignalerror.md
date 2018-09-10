@@ -4,17 +4,16 @@ title: IMbnSignal::GetSignalError
 author: windows-sdk-content
 description: Gets the received signal error rate.
 old-location: mbn\imbnsignal_getsignalerror.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalError method, IMbnSignal.GetSignalError, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnSignal.GetSignalError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnSignal::GetSignalError

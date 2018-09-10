@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0012_0001"
 author: windows-sdk-content
 description: Defines the behavior of a timer when the animation manager is idle.
 old-location: uianimation\ui_animation_idle_behavior.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_IDLE_BEHAVIOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_IDLE_BEHAVIOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_IDLE_BEHAVIOR
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0012_0001 enumeration

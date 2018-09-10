@@ -4,7 +4,7 @@ title: ID3D12FunctionReflection
 author: windows-sdk-content
 description: A function-reflection interface accesses function info.
 old-location: direct3d12\id3d12functionreflection.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: F0BF4AA9-66D7-4A33-A51C-B03C1D61F537
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12FunctionReflection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12FunctionReflection interface

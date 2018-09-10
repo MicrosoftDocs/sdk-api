@@ -4,17 +4,16 @@ title: DrvResetPDEV function
 author: windows-sdk-content
 description: The DrvResetPDEV function allows a graphics driver to transfer the state of the driver from an old PDEV structure to a new PDEV structure when a Win32 application calls ResetDC.
 old-location: display\drvresetpdev.htm
-old-project: display
+tech.root: display
 ms.assetid: 8e530874-7774-4f8f-852c-001b2ce4a707
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvResetPDEV, DrvResetPDEV function [Display Devices], ddifncs_839f09e0-67dc-4c1f-a17b-dd0fd5316258.xml, display.drvresetpdev, winddi/DrvResetPDEV
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvResetPDEV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvResetPDEV function

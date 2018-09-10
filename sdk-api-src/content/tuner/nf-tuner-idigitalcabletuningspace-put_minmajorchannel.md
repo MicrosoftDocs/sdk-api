@@ -4,17 +4,16 @@ title: IDigitalCableTuningSpace::put_MinMajorChannel
 author: windows-sdk-content
 description: The put_MinMajorChannel method sets the lowest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_put_minmajorchannel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3b5e1a01-5471-4bf4-9f08-ce910c69ba26
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MinMajorChannel method, IDigitalCableTuningSpace.put_MinMajorChannel, IDigitalCableTuningSpace::put_MinMajorChannel, IDigitalCableTuningSpaceput_MinMajorChannel, mstv.idigitalcabletuningspace_put_minmajorchannel, put_MinMajorChannel, put_MinMajorChannel method [Microsoft TV Technologies], put_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MinMajorChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDigitalCableTuningSpace.put_MinMajorChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDigitalCableTuningSpace::put_MinMajorChannel

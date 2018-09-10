@@ -4,17 +4,16 @@ title: IMFNetProxyLocator::FindNextProxy
 author: windows-sdk-content
 description: Determines the next proxy to use.
 old-location: mf\imfnetproxylocator_findnextproxy.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 91a6046f-f5c3-4239-af71-d25e9d5b5838
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 91a6046f-f5c3-4239-af71-d25e9d5b5838, FindNextProxy, FindNextProxy method [Media Foundation], FindNextProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindNextProxy method, IMFNetProxyLocator.FindNextProxy, IMFNetProxyLocator::FindNextProxy, mf.imfnetproxylocator_findnextproxy, mfidl/IMFNetProxyLocator::FindNextProxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetProxyLocator.FindNextProxy
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetProxyLocator::FindNextProxy

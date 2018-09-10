@@ -4,17 +4,16 @@ title: EventProviderEnabled function
 author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventproviderenabled_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - EventProviderEnabled
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventProviderEnabled function

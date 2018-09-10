@@ -4,17 +4,16 @@ title: IAzOperation::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzOperation object.
 old-location: security\iazoperation_submit.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzOperation object [Security],Submit method, IAzOperation interface [Security],Submit method, IAzOperation.Submit, IAzOperation::Submit, Submit, Submit method [Security], Submit method [Security],AzOperation object, Submit method [Security],IAzOperation interface, azroles/IAzOperation::Submit, security.iazoperation_submit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzOperation.Submit
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzOperation::Submit

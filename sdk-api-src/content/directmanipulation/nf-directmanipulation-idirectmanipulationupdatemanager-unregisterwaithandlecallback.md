@@ -4,17 +4,16 @@ title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
 author: windows-sdk-content
 description: Deregisters a callback.
 old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwaithandlecallback.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: d932a4a9-827f-4e23-b30a-3a4b85a60c6e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],UnregisterWaitHandleCallback method, IDirectManipulationUpdateManager.UnregisterWaitHandleCallback, IDirectManipulationUpdateManager::UnregisterWaitHandleCallback, UnregisterWaitHandleCallback, UnregisterWaitHandleCallback method [Direct Manipulation], UnregisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationUpdateManager::UnregisterWaitHandleCallback

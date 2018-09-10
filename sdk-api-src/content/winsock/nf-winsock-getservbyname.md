@@ -4,17 +4,16 @@ title: getservbyname function
 author: windows-sdk-content
 description: The getservbyname function retrieves service information corresponding to a service name and protocol.
 old-location: winsock\getservbyname_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - getservbyname
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # getservbyname function

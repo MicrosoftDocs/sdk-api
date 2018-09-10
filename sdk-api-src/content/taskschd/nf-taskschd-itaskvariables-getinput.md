@@ -4,17 +4,16 @@ title: ITaskVariables::GetInput
 author: windows-sdk-content
 description: Gets the input variables for a task.
 old-location: taskschd\itaskvariables_getinput.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskVariables.GetInput
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskVariables::GetInput

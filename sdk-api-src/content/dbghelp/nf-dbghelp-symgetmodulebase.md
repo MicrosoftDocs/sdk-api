@@ -4,17 +4,16 @@ title: SymGetModuleBase function
 author: windows-sdk-content
 description: Retrieves the base address of the module that contains the specified address.
 old-location: base\symgetmodulebase64.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 964d0fdb-d982-4509-8c49-0ad0a3491226
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SymGetModuleBase
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymGetModuleBase function

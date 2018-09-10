@@ -4,17 +4,16 @@ title: ITraceEvent::SetEventDescriptor
 author: windows-sdk-content
 description: Sets the event descriptor for an event.
 old-location: etw\ievent_seteventdescriptor.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 729a887e-1759-44d5-a7d5-8385d648eebf
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceEvent interface [ETW],SetEventDescriptor method, ITraceEvent.SetEventDescriptor, ITraceEvent::SetEventDescriptor, SetEventDescriptor, SetEventDescriptor method [ETW], SetEventDescriptor method [ETW],ITraceEvent interface, etw.ievent_seteventdescriptor, relogger/ITraceEvent::SetEventDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.SetEventDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::SetEventDescriptor

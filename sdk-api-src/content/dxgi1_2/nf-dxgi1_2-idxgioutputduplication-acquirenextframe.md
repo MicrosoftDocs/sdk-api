@@ -4,17 +4,16 @@ title: IDXGIOutputDuplication::AcquireNextFrame
 author: windows-sdk-content
 description: Indicates that the application is ready to process the next desktop image.
 old-location: direct3ddxgi\idxgioutputduplication_acquirenextframe.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: C4F8C462-C8D8-4418-9543-7C8C32CE9498
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AcquireNextFrame, AcquireNextFrame method [DXGI], AcquireNextFrame method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],AcquireNextFrame method, IDXGIOutputDuplication.AcquireNextFrame, IDXGIOutputDuplication::AcquireNextFrame, direct3ddxgi.idxgioutputduplication_acquirenextframe, dxgi1_2/IDXGIOutputDuplication::AcquireNextFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutputDuplication.AcquireNextFrame
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutputDuplication::AcquireNextFrame

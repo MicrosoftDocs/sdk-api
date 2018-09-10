@@ -4,17 +4,16 @@ title: IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
 author: windows-sdk-content
 description: Indicates a change in the AVDecCommonOutput codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonoutputformat.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: fe25dc52-bf79-488f-a897-e533c5209001
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AVDecCommonOutputFormat, AVDecCommonOutputFormat method [Microsoft TV Technologies], AVDecCommonOutputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonOutputFormat method, IMSVidAudioRendererEvent2.AVDecCommonOutputFormat, IMSVidAudioRendererEvent2::AVDecCommonOutputFormat, mstv.imsvidaudiorendererevent2_avdeccommonoutputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonOutputFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAudioRendererEvent2.AVDecCommonOutputFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAudioRendererEvent2::AVDecCommonOutputFormat

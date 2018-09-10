@@ -4,17 +4,16 @@ title: IAMStreamSelect::Enable
 author: windows-sdk-content
 description: The Enable method enables or disables a given stream.
 old-location: dshow\iamstreamselect_enable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Enable, Enable method [DirectShow], Enable method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Enable method, IAMStreamSelect.Enable, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMStreamSelect.Enable
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStreamSelect::Enable

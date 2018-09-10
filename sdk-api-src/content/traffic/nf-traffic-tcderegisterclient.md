@@ -4,17 +4,16 @@ title: TcDeregisterClient function
 author: windows-sdk-content
 description: The TcDeregisterClient function deregisters a client with the Traffic Control Interface (TCI).
 old-location: qos\tcderegisterclient.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcDeregisterClient
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcDeregisterClient function

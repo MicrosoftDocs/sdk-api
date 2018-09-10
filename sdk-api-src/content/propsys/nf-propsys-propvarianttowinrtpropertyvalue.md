@@ -4,17 +4,16 @@ title: PropVariantToWinRTPropertyValue function
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a Windows Runtime property value.
 old-location: properties\propvarianttowinrtpropertyvalue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantToWinRTPropertyValue, PropVariantToWinRTPropertyValue function [Windows Properties], properties.propvarianttowinrtpropertyvalue, propsys/PropVariantToWinRTPropertyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: Windows.Foundation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantToWinRTPropertyValue
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropVariantToWinRTPropertyValue function

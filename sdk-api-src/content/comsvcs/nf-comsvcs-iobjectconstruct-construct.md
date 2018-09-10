@@ -4,17 +4,16 @@ title: IObjectConstruct::Construct
 author: windows-sdk-content
 description: Constructs an object using the specified parameters.
 old-location: cos\iobjectconstruct_construct.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6bbb25c7-bd60-46cb-baed-114c50feb1f3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Construct, Construct method [COM+], Construct method [COM+],IObjectConstruct interface, IObjectConstruct interface [COM+],Construct method, IObjectConstruct.Construct, IObjectConstruct::Construct, _cos_IObjectConstruct_Construct, comsvcs/IObjectConstruct::Construct, cos.iobjectconstruct_construct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectConstruct.Construct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectConstruct::Construct

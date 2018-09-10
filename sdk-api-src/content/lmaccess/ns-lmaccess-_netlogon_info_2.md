@@ -4,7 +4,7 @@ title: "_NETLOGON_INFO_2"
 author: windows-sdk-content
 description: Defines a level-2 control query response from a domain controller.
 old-location: winprog\netlogon_info_2.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: ab29013d-e93a-4f15-84e1-c0e3e55b288d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETLOGON_INFO_2, *PNETLOGON_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NETLOGON_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NETLOGON_INFO_2, *PNETLOGON_INFO_2
+req.redist: 
 ---
 
 # _NETLOGON_INFO_2 structure

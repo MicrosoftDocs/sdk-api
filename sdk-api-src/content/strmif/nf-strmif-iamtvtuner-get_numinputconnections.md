@@ -4,17 +4,16 @@ title: IAMTVTuner::get_NumInputConnections
 author: windows-sdk-content
 description: The get_NumInputConnections method retrieves the number of TV sources plugged into the tuner filter.
 old-location: dshow\iamtvtuner_get_numinputconnections.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 06841331-3b85-4532-8c0c-96022885f92c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_NumInputConnections method, IAMTVTuner.get_NumInputConnections, IAMTVTuner::get_NumInputConnections, IAMTVTunerget_NumInputConnections, dshow.iamtvtuner_get_numinputconnections, get_NumInputConnections, get_NumInputConnections method [DirectShow], get_NumInputConnections method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_NumInputConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVTuner.get_NumInputConnections
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVTuner::get_NumInputConnections

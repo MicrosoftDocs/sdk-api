@@ -4,17 +4,16 @@ title: SetupDefaultQueueCallbackW function
 author: windows-sdk-content
 description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function.
 old-location: setup\setupdefaultqueuecallback.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: e03f43b9-fe34-4340-86f3-c353df6c6db0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SPFILENOTIFY_COPYERROR, SPFILENOTIFY_DELETEERROR, SPFILENOTIFY_ENDCOPY, SPFILENOTIFY_ENDDELETE, SPFILENOTIFY_ENDQUEUE, SPFILENOTIFY_ENDRENAME, SPFILENOTIFY_ENDSUBQUEUE, SPFILENOTIFY_LANGMISMATCH, SPFILENOTIFY_NEEDMEDIA, SPFILENOTIFY_RENAMEERROR, SPFILENOTIFY_STARTCOPY, SPFILENOTIFY_STARTDELETE, SPFILENOTIFY_STARTQUEUE, SPFILENOTIFY_STARTRENAME, SPFILENOTIFY_STARTSUBQUEUE, SPFILENOTIFY_TARGETEXISTS, SPFILENOTIFY_TARGETNEWER, SetupDefaultQueueCallback, SetupDefaultQueueCallback function [Setup API], SetupDefaultQueueCallbackA, SetupDefaultQueueCallbackW, _setupapi_setupdefaultqueuecallback, setup.setupdefaultqueuecallback, setupapi/SetupDefaultQueueCallback, setupapi/SetupDefaultQueueCallbackA, setupapi/SetupDefaultQueueCallbackW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupDefaultQueueCallbackW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDefaultQueueCallbackW function

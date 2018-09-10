@@ -4,7 +4,7 @@ title: "_DEPENDENT_DISK_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) dependency information flags.
 old-location: vhd\dependent_disk_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: f22bcf17-59fd-4a05-9516-2e14f173ed33
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEPENDENT_DISK_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DEPENDENT_DISK_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: DEPENDENT_DISK_FLAG
+req.redist: 
 ---
 
 # _DEPENDENT_DISK_FLAG enumeration

@@ -4,17 +4,16 @@ title: PeerDistServerOpenContentInformationEx function
 author: windows-sdk-content
 description: PeerDistServerOpenContentInformationEx function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
 old-location: p2p\peerdistserveropencontentinformationex.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerDistServerOpenContentInformationEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerDistServerOpenContentInformationEx function

@@ -4,17 +4,16 @@ title: IExecuteCommand::SetShowWindow
 author: windows-sdk-content
 description: Sets the specified window's visual state.
 old-location: shell\IExecuteCommand_SetShowWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 57ac201e-0680-4856-ab05-9f8b49aecd62
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetShowWindow method, IExecuteCommand.SetShowWindow, IExecuteCommand::SetShowWindow, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, SetShowWindow, SetShowWindow method [Windows Shell], SetShowWindow method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetShowWindow, shell.IExecuteCommand_SetShowWindow, shobjidl_core/IExecuteCommand::SetShowWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IExecuteCommand.SetShowWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IExecuteCommand::SetShowWindow

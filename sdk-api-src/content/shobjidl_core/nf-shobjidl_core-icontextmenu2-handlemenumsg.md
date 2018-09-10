@@ -4,17 +4,16 @@ title: IContextMenu2::HandleMenuMsg
 author: windows-sdk-content
 description: Enables client objects of the IContextMenu interface to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu2_HandleMenuMsg.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 06ea4563-a299-4587-906f-4f312c21498a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: HandleMenuMsg, HandleMenuMsg method [Windows Shell], HandleMenuMsg method [Windows Shell],IContextMenu2 interface, IContextMenu2 interface [Windows Shell],HandleMenuMsg method, IContextMenu2.HandleMenuMsg, IContextMenu2::HandleMenuMsg, _win32_IContextMenu2_HandleMenuMsg, shell.IContextMenu2_HandleMenuMsg, shobjidl_core/IContextMenu2::HandleMenuMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenu2.HandleMenuMsg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenu2::HandleMenuMsg

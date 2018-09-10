@@ -4,17 +4,16 @@ title: IDirect3DResource9::SetPrivateData
 author: windows-sdk-content
 description: Associates data with the resource that is intended for use by the application, not by Direct3D. Data is passed by value, and multiple sets of data can be associated with a single resource.
 old-location: direct3d9\idirect3dresource9__setprivatedata.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__setprivatedata.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9 interface [Direct3D 9],SetPrivateData method, IDirect3DResource9.SetPrivateData, IDirect3DResource9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPrivateData, direct3d9.idirect3dresource9__setprivatedata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DResource9.SetPrivateData
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DResource9::SetPrivateData

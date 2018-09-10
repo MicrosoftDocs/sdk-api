@@ -4,17 +4,16 @@ title: IUPnPServices::get__NewEnum
 author: windows-sdk-content
 description: The _NewEnum property specifies either the IEnumVARIANT or IEnumUnknown enumerator interface for the collection.
 old-location: upnp\iupnpservices__newenum.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 8ca3156a-f33f-4fa4-b043-3ecde3f55d5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get__NewEnum method, IUPnPServices.get__NewEnum, IUPnPServices::get__NewEnum, _upnp_iupnpservices__newenum, get__NewEnum, get__NewEnum method [UPnP APIs], get__NewEnum method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices__newenum, upnp/IUPnPServices::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPServices.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPServices::get__NewEnum

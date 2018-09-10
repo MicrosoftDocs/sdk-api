@@ -4,17 +4,16 @@ title: ID3D11VideoContext::NegotiateCryptoSessionKeyExchange
 author: windows-sdk-content
 description: Establishes the session key for a cryptographic session.
 old-location: mf\id3d11videocontext_negotiatecryptosessionkeyexchange.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 76160B03-6F7F-4618-859B-0A7E73540CA4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],NegotiateCryptoSessionKeyExchange method, ID3D11VideoContext.NegotiateCryptoSessionKeyExchange, ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange method [Media Foundation], NegotiateCryptoSessionKeyExchange method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, mf.id3d11videocontext_negotiatecryptosessionkeyexchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.NegotiateCryptoSessionKeyExchange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::NegotiateCryptoSessionKeyExchange

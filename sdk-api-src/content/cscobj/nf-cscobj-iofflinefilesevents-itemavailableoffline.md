@@ -4,17 +4,16 @@ title: IOfflineFilesEvents::ItemAvailableOffline
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.
 old-location: of\iofflinefilesevents_itemavailableoffline.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 6c629ede-00ee-4f5e-9f75-022e3c5b3957
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAvailableOffline method, IOfflineFilesEvents.ItemAvailableOffline, IOfflineFilesEvents::ItemAvailableOffline, ItemAvailableOffline, ItemAvailableOffline method [Offline Files], ItemAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAvailableOffline, of.iofflinefilesevents_itemavailableoffline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesEvents.ItemAvailableOffline
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesEvents::ItemAvailableOffline

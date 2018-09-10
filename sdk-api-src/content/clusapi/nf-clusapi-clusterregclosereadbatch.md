@@ -4,17 +4,16 @@ title: ClusterRegCloseReadBatch function
 author: windows-sdk-content
 description: Executes a read batch and returns results from the read batch executions.
 old-location: mscs\clusterregclosereadbatch.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterRegCloseReadBatch
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegCloseReadBatch function

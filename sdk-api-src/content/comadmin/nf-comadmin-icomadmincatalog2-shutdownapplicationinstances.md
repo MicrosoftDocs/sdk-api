@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::ShutdownApplicationInstances
 author: windows-sdk-content
 description: Initiates shutdown of the specified application server processes.
 old-location: cos\icomadmincatalog2_shutdownapplicationinstances.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1de6c76b-f6f1-44d3-9bd4-4b6ac921893a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ShutdownApplicationInstances method, ICOMAdminCatalog2.ShutdownApplicationInstances, ICOMAdminCatalog2::ShutdownApplicationInstances, ShutdownApplicationInstances, ShutdownApplicationInstances method [COM+], ShutdownApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ShutdownApplicationInstances, comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances, cos.icomadmincatalog2_shutdownapplicationinstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.ShutdownApplicationInstances
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::ShutdownApplicationInstances

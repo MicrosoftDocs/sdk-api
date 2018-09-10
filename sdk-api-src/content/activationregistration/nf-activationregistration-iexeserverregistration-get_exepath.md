@@ -4,17 +4,16 @@ title: IExeServerRegistration::get_ExePath
 author: windows-sdk-content
 description: Gets the file path to the out-of-process server.
 old-location: winrt\iexeserverregistration_exepath.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 69E8D576-B842-4CD4-8D93-87E4E08D11CA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ExePath method, IExeServerRegistration.get_ExePath, IExeServerRegistration::get_ExePath, activationregistration/IExeServerRegistration::get_ExePath, get_ExePath, get_ExePath method [Windows Runtime], get_ExePath method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_exepath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerRegistration.get_ExePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerRegistration::get_ExePath

@@ -4,17 +4,16 @@ title: TextPattern_get_SupportedTextSelection function
 author: windows-sdk-content
 description: Ascertains whether the text container's contents can be selected and deselected.
 old-location: winauto\uiauto_TextPattern_get_SupportedTextSelectionConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d938197b-9500-4744-a0d7-0d0ac5dd58b9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextPattern_get_SupportedTextSelection, TextPattern_get_SupportedTextSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_get_SupportedTextSelectionConPat, uiauto_TextPattern_get_SupportedTextSelectionConPat, uiautomationcoreapi/TextPattern_get_SupportedTextSelection, winauto.uiauto_TextPattern_get_SupportedTextSelectionConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextPattern_get_SupportedTextSelection
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextPattern_get_SupportedTextSelection function

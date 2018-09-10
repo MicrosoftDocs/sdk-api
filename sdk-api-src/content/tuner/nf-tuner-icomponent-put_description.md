@@ -4,17 +4,16 @@ title: IComponent::put_Description
 author: windows-sdk-content
 description: The put_Description method sets the description of the component.
 old-location: mstv\icomponent_put_description.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e45ea3ea-e9e2-41f9-b171-bc95aa5cc590
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Description method, IComponent.put_Description, IComponent::put_Description, IComponentput_Description, mstv.icomponent_put_description, put_Description, put_Description method [Microsoft TV Technologies], put_Description method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.put_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::put_Description

@@ -4,17 +4,16 @@ title: ITextDocument2::GetProperty
 author: windows-sdk-content
 description: Retrieves the value of a property.
 old-location: controls\itextdocument2_getproperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 30775a51-0e63-453e-ac94-39d4510002f0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetProperty method, ITextDocument2.GetProperty, ITextDocument2::GetProperty, controls.itextdocument2_getproperty, tom/ITextDocument2::GetProperty, tomCanCopy, tomCanRedo, tomCanUndo, tomDocMathBuild, tomEllipsisMode, tomEllipsisState, tomMathInterSpace, tomMathIntraSpace, tomMathLMargin, tomMathPostSpace, tomMathPreSpace, tomMathRMargin, tomMathWrapIndent, tomMathWrapRight, tomUndoLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::GetProperty

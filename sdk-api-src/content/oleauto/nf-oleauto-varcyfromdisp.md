@@ -4,17 +4,16 @@ title: VarCyFromDisp function
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a currency value.
 old-location: automat\varcyfromdisp.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 197f2169-2d32-429e-a338-717e7bf43d1e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyFromDisp, VarCyFromDisp function [Automation], _oa96_VarCyFromDisp, automat.varcyfromdisp, oleauto/VarCyFromDisp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyFromDisp
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyFromDisp function

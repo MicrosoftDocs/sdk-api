@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs10::get_SmimeCapabilities
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer.
 old-location: security\ix509certificaterequestpkcs10_smimecapabilities_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 5aa027d7-3c31-4b70-92a5-d15d2c410366
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SmimeCapabilities property, IX509CertificateRequestPkcs10.SmimeCapabilities, IX509CertificateRequestPkcs10.get_SmimeCapabilities, IX509CertificateRequestPkcs10::SmimeCapabilities, IX509CertificateRequestPkcs10::get_SmimeCapabilities, IX509CertificateRequestPkcs10::put_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::get_SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::put_SmimeCapabilities, get_SmimeCapabilities, security.ix509certificaterequestpkcs10_smimecapabilities_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestPkcs10.put_SmimeCapabilities
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10::get_SmimeCapabilities

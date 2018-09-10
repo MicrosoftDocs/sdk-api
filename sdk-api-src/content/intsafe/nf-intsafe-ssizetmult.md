@@ -4,17 +4,16 @@ title: SSIZETMult function
 author: windows-sdk-content
 description: Multiplies one SSIZE_T value by another.
 old-location: shell\SSIZETMult.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SSIZETMult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SSIZETMult function

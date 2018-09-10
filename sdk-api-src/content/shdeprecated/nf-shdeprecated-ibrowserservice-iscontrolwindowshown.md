@@ -4,17 +4,16 @@ title: IBrowserService::IsControlWindowShown
 author: windows-sdk-content
 description: Deprecated. Retrieves a value that indicates whether a specified frame control is currently visible.
 old-location: shell\IBrowserService_IsControlWindowShown.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fbbb83ce-be7c-4763-b2c4-2a05a460cbd6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],IsControlWindowShown method, IBrowserService.IsControlWindowShown, IBrowserService::IsControlWindowShown, IsControlWindowShown, IsControlWindowShown method [Windows Shell], IsControlWindowShown method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IsControlWindowShown, shell.IBrowserService_IsControlWindowShown, zone_IBrowserService_IsControlWindowShown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService.IsControlWindowShown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

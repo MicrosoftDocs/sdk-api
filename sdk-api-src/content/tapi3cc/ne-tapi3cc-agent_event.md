@@ -4,7 +4,7 @@ title: AGENT_EVENT
 author: windows-sdk-content
 description: The AGENT_EVENT enum describes agent events. The ITAgentEvent::get_Event method returns a member of this enum to indicate the type of agent event that occurred.
 old-location: tapi3\agent_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 9dec832a-98da-436a-89c8-d5c69053082a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AGENT_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: AGENT_EVENT
+req.redist: 
 ---
 
 # AGENT_EVENT enumeration

@@ -4,17 +4,16 @@ title: IMetaDataDispenserEx::OpenScopeOnITypeInfo
 author: windows-sdk-content
 description: Opens the specified scope type.
 old-location: winrt\imetadatadispenserex_openscopeonitypeinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: e76d295a-bce9-42c2-9a9b-a4d31741f47f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],OpenScopeOnITypeInfo method, IMetaDataDispenserEx.OpenScopeOnITypeInfo, IMetaDataDispenserEx::OpenScopeOnITypeInfo, OpenScopeOnITypeInfo, OpenScopeOnITypeInfo method [Windows Runtime], OpenScopeOnITypeInfo method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::OpenScopeOnITypeInfo, winrt.imetadatadispenserex_openscopeonitypeinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataDispenserEx.OpenScopeOnITypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataDispenserEx::OpenScopeOnITypeInfo

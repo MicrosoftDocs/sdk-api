@@ -4,7 +4,7 @@ title: D3D12_FEATURE_DATA_D3D12_OPTIONS1
 author: windows-sdk-content
 description: Describes the level of support for HLSL 6.0 wave operations.
 old-location: direct3d12\d3d12_feature_data_d3d12_options1.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 39BF7632-AC73-471B-94F9-3128BD0DAB89
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_FEATURE_DATA_D3D12_OPTIONS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS1
+req.redist: 
 ---
 
 # D3D12_FEATURE_DATA_D3D12_OPTIONS1 structure

@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::SetRate
 author: windows-sdk-content
 description: Sets the playback rate.
 old-location: mf\imfpmediaplayer_setrate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7e9d4a0d-b61f-47d9-af47-d8a07cd728f6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetRate method, IMFPMediaPlayer.SetRate, IMFPMediaPlayer::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setrate, mfplay/IMFPMediaPlayer::SetRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.SetRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::SetRate

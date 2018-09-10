@@ -4,17 +4,16 @@ title: IMbnPin::Unblock
 author: windows-sdk-content
 description: Unblocks a blocked PIN.
 old-location: mbn\imbnpin_unblock.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 7e5ec24c-681c-4259-9f6a-949bf40d5b3e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],Unblock method, IMbnPin.Unblock, IMbnPin::Unblock, Unblock, Unblock method [Microsoft Broadband Networks], Unblock method [Microsoft Broadband Networks],IMbnPin interface, mbn.imbnpin_unblock, mbnapi/IMbnPin::Unblock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnPin.Unblock
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPin::Unblock

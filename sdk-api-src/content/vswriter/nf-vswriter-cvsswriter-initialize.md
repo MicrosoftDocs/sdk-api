@@ -4,17 +4,16 @@ title: CVssWriter::Initialize
 author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.Initialize
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::Initialize
@@ -72,22 +70,22 @@ The globally unique identifier (GUID) of the writer class.
 
 ### -param wszWriterName
 
-
+TBD
 
 
 ### -param ut
 
-
+TBD
 
 
 ### -param st
 
-
+TBD
 
 
 ### -param nLevel
 
-
+TBD
 
 
 ### -param dwTimeoutFreeze [in]

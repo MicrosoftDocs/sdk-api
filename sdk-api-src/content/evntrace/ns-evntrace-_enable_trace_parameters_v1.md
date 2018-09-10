@@ -4,7 +4,7 @@ title: "_ENABLE_TRACE_PARAMETERS_V1"
 author: windows-sdk-content
 description: Defines the information used to enable a provider.
 old-location: etw\enable_trace_parameters_v1.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENABLE_TRACE_PARAMETERS_V1, *PENABLE_TRACE_PARAMETERS_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ENABLE_TRACE_PARAMETERS_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: ENABLE_TRACE_PARAMETERS_V1, *PENABLE_TRACE_PARAMETERS_V1
+req.redist: 
 ---
 
 # _ENABLE_TRACE_PARAMETERS_V1 structure

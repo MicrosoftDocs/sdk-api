@@ -4,17 +4,16 @@ title: ITAgentSession::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
 old-location: tapi3\itagentsession_get_address.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: addd088d-5bca-4865-8cae-3c013554dafd
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_Address method, ITAgentSession.get_Address, ITAgentSession::get_Address, _tapi3_itagentsession_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_address, tapi3cc/ITAgentSession::get_Address
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_Address
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_Address

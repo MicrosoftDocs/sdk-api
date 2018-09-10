@@ -4,17 +4,16 @@ title: ID2D1CommandSink::SetUnitMode
 author: windows-sdk-content
 description: The unit mode changes the meaning of subsequent units from device-independent pixels (DIPs) to pixels or the other way. The command sink does not record a DPI, this is implied by the playback context or other playback interface such as ID2D1PrintControl.
 old-location: direct2d\id2d1commandsink_setunitmode.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: e524aa51-2499-4333-9562-a4893666b666
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetUnitMode method, ID2D1CommandSink.SetUnitMode, ID2D1CommandSink::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetUnitMode, direct2d.id2d1commandsink_setunitmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink.SetUnitMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink::SetUnitMode

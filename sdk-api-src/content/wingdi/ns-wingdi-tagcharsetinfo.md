@@ -4,7 +4,7 @@ title: tagCHARSETINFO
 author: windows-sdk-content
 description: Contains information about a character set.
 old-location: intl\charsetinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4f815f53-9fac-41f3-9493-bd8d68cff543
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHARSETINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHARSETINFO, *PCHARSETINFO, *NPCHARSETINFO, *LPCHARSETINFO
+req.redist: 
 ---
 
 # tagCHARSETINFO structure

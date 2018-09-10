@@ -4,17 +4,16 @@ title: IWMDMStorageControl3::Insert3
 author: windows-sdk-content
 description: The Insert3 method puts content into/next to the storage. This method extends IWMDMStorageControl2::Insert2 by allowing the application to explicitly specify the metadata and type of the object being sent.
 old-location: wmdm\iwmdmstoragecontrol3_insert3.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl3 interface [windows Media Device Manager],Insert3 method, IWMDMStorageControl3.Insert3, IWMDMStorageControl3::Insert3, IWMDMStorageControl3Insert3, Insert3, Insert3 method [windows Media Device Manager], Insert3 method [windows Media Device Manager],IWMDMStorageControl3 interface, mswmdm/IWMDMStorageControl3::Insert3, wmdm.iwmdmstoragecontrol3_insert3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageControl3.Insert3
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl3::Insert3

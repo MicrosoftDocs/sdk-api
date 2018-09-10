@@ -4,17 +4,16 @@ title: IQueryCodePage::SetCodePage
 author: windows-sdk-content
 description: Sets the numeric value of the ANSI code page to a specified code page identifier.
 old-location: shell\IQueryCodePage_SetCodePage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 19b9d796-e5a7-4b82-a299-95ee912db010
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IQueryCodePage interface [Windows Shell],SetCodePage method, IQueryCodePage.SetCodePage, IQueryCodePage::SetCodePage, SetCodePage, SetCodePage method [Windows Shell], SetCodePage method [Windows Shell],IQueryCodePage interface, _shell_IQueryCodePage_SetCodePage, shell.IQueryCodePage_SetCodePage, shobjidl/IQueryCodePage::SetCodePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryCodePage.SetCodePage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryCodePage::SetCodePage

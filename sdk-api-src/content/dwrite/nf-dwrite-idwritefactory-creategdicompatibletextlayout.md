@@ -4,17 +4,16 @@ title: IDWriteFactory::CreateGdiCompatibleTextLayout
 author: windows-sdk-content
 description: Takes a string, format, and associated constraints, and produces an object representing the result, formatted for a particular display resolution and measuring mode.
 old-location: directwrite\IDWriteFactory_CreateDisplayTextLayout.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: f9205ce6-1586-461a-9c48-3f3f25780dd0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateGdiCompatibleTextLayout, CreateGdiCompatibleTextLayout method [Direct Write], CreateGdiCompatibleTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGdiCompatibleTextLayout method, IDWriteFactory.CreateGdiCompatibleTextLayout, IDWriteFactory::CreateGdiCompatibleTextLayout, directwrite.IDWriteFactory_CreateDisplayTextLayout, dwrite/IDWriteFactory::CreateGdiCompatibleTextLayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory.CreateGdiCompatibleTextLayout
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory::CreateGdiCompatibleTextLayout

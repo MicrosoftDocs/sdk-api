@@ -4,7 +4,7 @@ title: tagAdapter
 author: windows-sdk-content
 description: The Adapter structure describes a graphics adapter.
 old-location: display\adapter.htm
-old-project: display
+tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Adapter
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Adapter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: Adapter
+req.redist: 
 ---
 
 # tagAdapter structure

@@ -4,17 +4,16 @@ title: IOCSPAdmin::GetMyRoles
 author: windows-sdk-content
 description: Gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getmyroles_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPAdmin.GetMyRoles
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPAdmin::GetMyRoles

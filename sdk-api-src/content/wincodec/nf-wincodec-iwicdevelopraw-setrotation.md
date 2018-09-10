@@ -4,17 +4,16 @@ title: IWICDevelopRaw::SetRotation
 author: windows-sdk-content
 description: Sets the desired rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_setrotation.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 1eba6004-d22e-4168-9207-358c072c3a17
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRotation method, IWICDevelopRaw.SetRotation, IWICDevelopRaw::SetRotation, SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICDevelopRaw.SetRotation
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::SetRotation

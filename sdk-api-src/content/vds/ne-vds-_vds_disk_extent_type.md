@@ -4,7 +4,7 @@ title: "_VDS_DISK_EXTENT_TYPE"
 author: windows-sdk-content
 description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
 old-location: base\vds_disk_extent_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3f7a5dba-315b-4757-bd4c-1335c18739eb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_EXTENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_EXTENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_EXTENT_TYPE
+req.redist: 
 ---
 
 # _VDS_DISK_EXTENT_TYPE enumeration

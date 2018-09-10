@@ -4,17 +4,16 @@ title: IMFSample::SetSampleFlags
 author: windows-sdk-content
 description: Sets flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_setsampleflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample interface [Media Foundation],SetSampleFlags method, IMFSample.SetSampleFlags, IMFSample::SetSampleFlags, SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation],IMFSample interface, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.SetSampleFlags
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::SetSampleFlags

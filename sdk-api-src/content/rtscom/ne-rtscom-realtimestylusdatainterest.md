@@ -4,7 +4,7 @@ title: RealTimeStylusDataInterest
 author: windows-sdk-content
 description: Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
 old-location: tablet\realtimestylusdatainterest.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f50cfafb-e709-4819-9e1a-679fbb54c7e0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RealTimeStylusDataInterest
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RealTimeStylusDataInterest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RealTimeStylusDataInterest
+req.redist: 
 ---
 
 # RealTimeStylusDataInterest enumeration

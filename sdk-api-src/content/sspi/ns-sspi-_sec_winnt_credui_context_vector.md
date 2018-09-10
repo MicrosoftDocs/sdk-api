@@ -4,7 +4,7 @@ title: "_SEC_WINNT_CREDUI_CONTEXT_VECTOR"
 author: windows-sdk-content
 description: Specifies the offset and size of the credential context data in a SEC_WINNT_CREDUI_CONTEXT structure.
 old-location: security\sec_winnt_credui_context_vector.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 11a82e82-f5c5-4549-8e5f-9d479e9c8249
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_CREDUI_CONTEXT_VECTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_CREDUI_CONTEXT_VECTOR, *PSEC_WINNT_CREDUI_CONTEXT_VECTOR
+req.redist: 
 ---
 
 # _SEC_WINNT_CREDUI_CONTEXT_VECTOR structure

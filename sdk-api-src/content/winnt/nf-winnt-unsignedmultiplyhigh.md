@@ -4,17 +4,16 @@ title: UnsignedMultiplyHigh function
 author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high unsigned 64 bits.
 old-location: winprog\unsignedmulitplyhigh.htm
-old-project: WinProg
+tech.root: WinProg
 ms.assetid: 2275A6AC-E9F9-4469-884B-38D86B53E0DE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UnsignedMultiplyHigh
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # UnsignedMultiplyHigh function

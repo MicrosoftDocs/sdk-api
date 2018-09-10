@@ -4,17 +4,16 @@ title: IDirectDrawMediaSample::GetSurfaceAndReleaseLock
 author: windows-sdk-content
 description: The GetSurfaceAndReleaseLock method retrieves and unlocks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_getsurfaceandreleaselock.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f2b30974-ed4a-4783-bda5-9e7f4f9b4aab
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSurfaceAndReleaseLock, GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow],IDirectDrawMediaSample interface, IDirectDrawMediaSample interface [DirectShow],GetSurfaceAndReleaseLock method, IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirectDrawMediaSample.GetSurfaceAndReleaseLock
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawMediaSample::GetSurfaceAndReleaseLock

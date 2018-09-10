@@ -4,7 +4,7 @@ title: PcCard_Des_s
 author: windows-sdk-content
 description: The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\pccard_des.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: d1bf4d50-70e1-4eff-8973-0b83a31f55fc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PCCARD_DES, *PPCCARD_DES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PCCARD_DES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: PCCARD_DES, *PPCCARD_DES
+req.redist: 
 ---
 
 # PcCard_Des_s structure

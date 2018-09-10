@@ -4,17 +4,16 @@ title: MFCreateASFMediaSink function
 author: windows-sdk-content
 description: Creates the ASF media sink.
 old-location: mf\mfcreateasfmediasink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mf.lib
+req.dll: Mf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateASFMediaSink
 product: Windows
 targetos: Windows
-req.lib: Mf.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateASFMediaSink function

@@ -4,7 +4,7 @@ title: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 author: windows-sdk-content
 description: Specifies the type of shader patching used by GPU-Based Validation at either the device or command list level.
 old-location: direct3d12\d3d12_gpu_based_validation_shader_patch_mode.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: A7E7D1E5-8547-4898-B139-EF909D8B5630
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+req.redist: 
 ---
 
 # D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE enumeration

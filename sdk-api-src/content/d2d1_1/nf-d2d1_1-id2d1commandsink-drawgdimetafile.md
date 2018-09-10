@@ -4,17 +4,16 @@ title: ID2D1CommandSink::DrawGdiMetafile
 author: windows-sdk-content
 description: Draw a metafile to the device context.
 old-location: direct2d\id2d1commandsink_drawmetafile.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 5D986C99-BB7D-4A46-A147-E907F1031E92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGdiMetafile method, ID2D1CommandSink.DrawGdiMetafile, ID2D1CommandSink::DrawGdiMetafile, d2d1_1/ID2D1CommandSink::DrawGdiMetafile, direct2d.id2d1commandsink_drawmetafile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1CommandSink.DrawGdiMetafile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1CommandSink::DrawGdiMetafile

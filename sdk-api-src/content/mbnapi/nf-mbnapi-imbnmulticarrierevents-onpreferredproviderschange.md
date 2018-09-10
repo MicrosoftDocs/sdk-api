@@ -4,17 +4,16 @@ title: IMbnMultiCarrierEvents::OnPreferredProvidersChange
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetPreferredProviders operation and a change in a device's preferred provider list.
 old-location: mbn\imbnmulticarrierevents_onpreferredproviderschange.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: B2E7C42B-32B0-47D1-AA88-8A22B379B500
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnPreferredProvidersChange method, IMbnMultiCarrierEvents.OnPreferredProvidersChange, IMbnMultiCarrierEvents::OnPreferredProvidersChange, OnPreferredProvidersChange, OnPreferredProvidersChange method [Microsoft Broadband Networks], OnPreferredProvidersChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_onpreferredproviderschange, mbnapi/IMbnMultiCarrierEvents::OnPreferredProvidersChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnMultiCarrierEvents.OnPreferredProvidersChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnMultiCarrierEvents::OnPreferredProvidersChange

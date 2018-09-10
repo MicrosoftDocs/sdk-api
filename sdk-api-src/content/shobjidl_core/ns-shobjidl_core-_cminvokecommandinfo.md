@@ -4,7 +4,7 @@ title: "_CMINVOKECOMMANDINFO"
 author: windows-sdk-content
 description: Contains information needed by IContextMenu::InvokeCommand to invoke a shortcut menu command.
 old-location: shell\CMINVOKECOMMANDINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1da79d98-5a2f-4c43-aab2-8ae7c3b345b2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Shobjidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMINVOKECOMMANDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMINVOKECOMMANDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CMINVOKECOMMANDINFO
+req.redist: 
 ---
 
 # _CMINVOKECOMMANDINFO structure

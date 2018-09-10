@@ -4,7 +4,7 @@ title: "_SecPkgContext_SessionInfo"
 author: windows-sdk-content
 description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
 old-location: security\secpkgcontext_sessioninfo.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: d7725803-1f4c-4d5d-8c53-81ec24d5a9d8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_SessionInfo, *PSecPkgContext_SessionInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_SessionInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_SessionInfo, *PSecPkgContext_SessionInfo
+req.redist: 
 ---
 
 # _SecPkgContext_SessionInfo structure

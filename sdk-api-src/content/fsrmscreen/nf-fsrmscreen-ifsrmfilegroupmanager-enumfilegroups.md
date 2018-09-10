@@ -4,17 +4,16 @@ title: IFsrmFileGroupManager::EnumFileGroups
 author: windows-sdk-content
 description: Enumerates the file groups in FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_enumfilegroups.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 317eb6cf-7bcc-4042-a7b7-05efac84a0c2
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumFileGroups, EnumFileGroups method [File Server Resource Manager], EnumFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, EnumFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],EnumFileGroups method, IFsrmFileGroupManager.EnumFileGroups, IFsrmFileGroupManager::EnumFileGroups, fs.ifsrmfilegroupmanager_enumfilegroups, fsrm.ifsrmfilegroupmanager_enumfilegroups, fsrmscreen/IFsrmFileGroupManager::EnumFileGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileGroupManager.EnumFileGroups
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileGroupManager::EnumFileGroups

@@ -4,7 +4,7 @@ title: tagEMRCREATECOLORSPACEW
 author: windows-sdk-content
 description: The EMRCREATECOLORSPACEW structure contains members for the CreateColorSpace enhanced metafile record. It differs from EMRCREATECOLORSPACE in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
 old-location: gdi\emrcreatecolorspacew.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: eac364ad-ef17-4f60-ac4c-39d8a9af618b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRCREATECOLORSPACEW, *PEMRCREATECOLORSPACEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMRCREATECOLORSPACEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRCREATECOLORSPACEW, *PEMRCREATECOLORSPACEW
+req.redist: 
 ---
 
 # tagEMRCREATECOLORSPACEW structure

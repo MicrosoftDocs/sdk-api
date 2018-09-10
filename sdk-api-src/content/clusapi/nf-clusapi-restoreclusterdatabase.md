@@ -4,17 +4,16 @@ title: RestoreClusterDatabase function
 author: windows-sdk-content
 description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
 old-location: mscs\restoreclusterdatabase.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RestoreClusterDatabase
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RestoreClusterDatabase function

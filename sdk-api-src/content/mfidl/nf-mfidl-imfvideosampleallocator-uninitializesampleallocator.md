@@ -4,17 +4,16 @@ title: IMFVideoSampleAllocator::UninitializeSampleAllocator
 author: windows-sdk-content
 description: Releases all of the video samples that have been allocated.
 old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoSampleAllocator.UninitializeSampleAllocator
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoSampleAllocator::UninitializeSampleAllocator

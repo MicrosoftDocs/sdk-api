@@ -4,17 +4,16 @@ title: IMFAsyncCallbackLogging::GetObjectPointer
 author: windows-sdk-content
 description: Gets the pointer to the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging_getobjectpointer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a2628b3f-37b7-4317-960e-cbd2339aade6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetObjectPointer, GetObjectPointer method [Media Foundation], GetObjectPointer method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectPointer method, IMFAsyncCallbackLogging.GetObjectPointer, IMFAsyncCallbackLogging::GetObjectPointer, mf.imfasynccallbacklogging_getobjectpointer, mfobjects/IMFAsyncCallbackLogging::GetObjectPointer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFAsyncCallbackLogging.GetObjectPointer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAsyncCallbackLogging::GetObjectPointer

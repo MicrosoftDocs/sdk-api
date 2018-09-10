@@ -4,17 +4,16 @@ title: IAudioSessionEnumerator::GetCount
 author: windows-sdk-content
 description: The GetCount method gets the total number of audio sessions that are open on the audio device.
 old-location: coreaudio\iaudiosessionenumerator_getcount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a1fbfbf5-a79b-40bc-97c7-a76a181bbfec
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetCount method, IAudioSessionEnumerator.GetCount, IAudioSessionEnumerator::GetCount, audiopolicy/IAudioSessionEnumerator::GetCount, coreaudio.iaudiosessionenumerator_getcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionEnumerator.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionEnumerator::GetCount

@@ -4,17 +4,16 @@ title: MsiAdvertiseProductW function
 author: windows-sdk-content
 description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproduct.htm
-old-project: msi
+tech.root: msi
 ms.assetid: b28736cb-7097-4f6e-a158-a525a32d9b58
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MsiAdvertiseProduct, MsiAdvertiseProduct function, MsiAdvertiseProductA, MsiAdvertiseProductW, _msi_msiadvertiseproduct, msi/MsiAdvertiseProduct, msi/MsiAdvertiseProductA, msi/MsiAdvertiseProductW, setup.msiadvertiseproduct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiAdvertiseProductW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiAdvertiseProductW function

@@ -4,17 +4,16 @@ title: WinHttpFreeProxyResult function
 author: windows-sdk-content
 description: The WinHttpFreeProxyResult function frees the data retrieved from a previous call to WinHttpGetProxyResult.
 old-location: http\winhttpfreeproxyresult.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 0484bf54-066f-4a7f-8d1a-079eb4b001bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpFreeProxyResult, WinHttpFreeProxyResult function [WinHTTP], http.winhttpfreeproxyresult, winhttp/WinHttpFreeProxyResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpFreeProxyResult
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpFreeProxyResult function

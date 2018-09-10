@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder::SetOutputFileName
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
 old-location: dshow\icapturegraphbuilder_setoutputfilename.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f410465f-c560-49ab-9194-66d708274f77
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Reference:\_Dshowh
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: Quartz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICaptureGraphBuilder.SetOutputFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Quartz.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder::SetOutputFileName
@@ -72,7 +70,7 @@ Pointer to a <b>GUID</b> representing the media subtype. Must be <code>&amp;MEDI
 
 ### -param lpstrFile
 
-
+TBD
 
 
 ### -param ppf [out]
@@ -82,7 +80,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b5
 
 ### -param ppSink
 
-
+TBD
 
 
 

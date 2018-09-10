@@ -4,17 +4,16 @@ title: IUPnPDescriptionDocument::get_ReadyState
 author: windows-sdk-content
 description: The ReadyState property specifies the status of the document load operation.
 old-location: upnp\iupnpdescriptiondocument_readystate.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 592939fa-ebce-419f-a813-ecbbe788fd8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],get_ReadyState method, IUPnPDescriptionDocument.get_ReadyState, IUPnPDescriptionDocument::get_ReadyState, READYSTATE _COMPLETE, READYSTATE _INTERACTIVE, READYSTATE _LOADED, READYSTATE _LOADING, READYSTATE_UNINITIALIZED, _upnp_iupnpdescriptiondocument_readystate, get_ReadyState, get_ReadyState method [UPnP APIs], get_ReadyState method [UPnP APIs],IUPnPDescriptionDocument interface, upnp.iupnpdescriptiondocument_readystate, upnp/IUPnPDescriptionDocument::get_ReadyState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDescriptionDocument.get_ReadyState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDescriptionDocument::get_ReadyState

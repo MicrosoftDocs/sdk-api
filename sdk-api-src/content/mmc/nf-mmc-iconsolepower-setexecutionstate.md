@@ -4,17 +4,16 @@ title: IConsolePower::SetExecutionState
 author: windows-sdk-content
 description: The SetExecutionState method sets the execution state for the current thread.
 old-location: mmc\iconsolepower_setexecutionstate.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 1fbdc155-ea95-43b6-8aea-f47ff0c89859
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],SetExecutionState method, IConsolePower.SetExecutionState, IConsolePower::SetExecutionState, SetExecutionState, SetExecutionState method [MMC], SetExecutionState method [MMC],IConsolePower interface, _slate_iconsolepower_setexecutionstate, mmc.iconsolepower_setexecutionstate, mmc/IConsolePower::SetExecutionState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsolePower.SetExecutionState
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsolePower::SetExecutionState

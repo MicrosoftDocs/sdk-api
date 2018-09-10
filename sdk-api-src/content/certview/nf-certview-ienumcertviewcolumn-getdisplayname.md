@@ -4,17 +4,16 @@ title: IEnumCERTVIEWCOLUMN::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the localized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getdisplayname.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Security], GetDisplayName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetDisplayName method, IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN::GetDisplayName

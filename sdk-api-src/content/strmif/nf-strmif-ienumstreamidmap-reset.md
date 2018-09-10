@@ -4,17 +4,16 @@ title: IEnumStreamIdMap::Reset
 author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumstreamidmap_reset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Reset method, IEnumStreamIdMap.Reset, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumStreamIdMap.Reset
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumStreamIdMap::Reset

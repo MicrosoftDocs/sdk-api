@@ -4,7 +4,7 @@ title: "_SHChangeProductKeyAsIDList"
 author: windows-sdk-content
 description: SHChangeProductKeyAsIDList structure
 old-location: shell\SHChangeProductKeyAsIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHChangeProductKeyAsIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
+req.redist: 
 ---
 
 # _SHChangeProductKeyAsIDList structure

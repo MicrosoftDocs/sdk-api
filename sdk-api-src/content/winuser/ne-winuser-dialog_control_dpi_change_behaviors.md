@@ -4,7 +4,7 @@ title: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
 author: windows-sdk-content
 description: Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. The values in this enumeration are bitfields and can be combined.
 old-location: hidpi\dialog_scaling_behavior.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: B368D997-F409-491A-8578-004C7408A160
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIALOG_SCALING_BEHAVIOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
+req.redist: 
 ---
 
 # DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS enumeration

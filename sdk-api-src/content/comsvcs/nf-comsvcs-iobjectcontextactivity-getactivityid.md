@@ -4,17 +4,16 @@ title: IObjectContextActivity::GetActivityId
 author: windows-sdk-content
 description: Retrieves the GUID associated with the current activity.
 old-location: cos\iobjectcontextactivity_getactivityid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 027d92b7-17dc-4ee5-a85a-e00b425a7a7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextActivity interface, IObjectContextActivity interface [COM+],GetActivityId method, IObjectContextActivity.GetActivityId, IObjectContextActivity::GetActivityId, _cos_IObjectContextActivity_GetActivityID, comsvcs/IObjectContextActivity::GetActivityId, cos.iobjectcontextactivity_getactivityid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextActivity.GetActivityId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextActivity::GetActivityId

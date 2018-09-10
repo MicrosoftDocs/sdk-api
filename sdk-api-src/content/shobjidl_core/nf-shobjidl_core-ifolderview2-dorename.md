@@ -4,17 +4,16 @@ title: IFolderView2::DoRename
 author: windows-sdk-content
 description: Starts a rename operation on the current selection.
 old-location: shell\IFolderView2_DoRename.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 194804bc-c446-491b-9452-996132a65fcf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DoRename, DoRename method [Windows Shell], DoRename method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],DoRename method, IFolderView2.DoRename, IFolderView2::DoRename, _shell_IFolderView2_DoRename, shell.IFolderView2_DoRename, shobjidl_core/IFolderView2::DoRename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.DoRename
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::DoRename

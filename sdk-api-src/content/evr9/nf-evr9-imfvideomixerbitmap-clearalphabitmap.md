@@ -4,17 +4,16 @@ title: IMFVideoMixerBitmap::ClearAlphaBitmap
 author: windows-sdk-content
 description: Removes the current bitmap and releases any resources associated with it.
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMixerBitmap.ClearAlphaBitmap
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerBitmap::ClearAlphaBitmap

@@ -4,17 +4,16 @@ title: IStemmer::GenerateWordForms
 author: windows-sdk-content
 description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.
 old-location: search\_search_IStemmer_GenerateWordForms.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordForms method [search],IStemmer interface, IStemmer interface [search],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _search_IStemmer_GenerateWordForms, indexsrv/IStemmer::GenerateWordForms, search._search_IStemmer_GenerateWordForms
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 
-req.redist: Windows NT 4.0 Option Pack
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDREP_BREAK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStemmer.GenerateWordForms
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Windows NT 4.0 Option Pack
 ---
 
 # IStemmer::GenerateWordForms
@@ -76,7 +74,7 @@ Number of characters in <i>pwcInBuf</i>.
 
 ### -param pStemSink
 
-
+TBD
 
 
 

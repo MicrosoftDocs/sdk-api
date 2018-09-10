@@ -4,17 +4,16 @@ title: ITTerminalSupport::GetDefaultStaticTerminal
 author: windows-sdk-content
 description: The GetDefaultStaticTerminal method gets the default static terminal for the media type specified.
 old-location: tapi3\itterminalsupport_getdefaultstaticterminal.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: aad3a566-eb95-402c-b26f-da6bd89e52ea
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetDefaultStaticTerminal, GetDefaultStaticTerminal method [TAPI 2.2], GetDefaultStaticTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],GetDefaultStaticTerminal method, ITTerminalSupport.GetDefaultStaticTerminal, ITTerminalSupport::GetDefaultStaticTerminal, _tapi3_itterminalsupport_getdefaultstaticterminal, tapi3.itterminalsupport_getdefaultstaticterminal, tapi3if/ITTerminalSupport::GetDefaultStaticTerminal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalSupport.GetDefaultStaticTerminal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalSupport::GetDefaultStaticTerminal

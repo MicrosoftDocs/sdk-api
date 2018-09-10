@@ -4,17 +4,16 @@ title: IInkDisp::ClipboardCopyWithRectangle
 author: windows-sdk-content
 description: Copies the IInkStrokeDisp objects that are contained within the known rectangle to the Clipboard.
 old-location: tablet\inkdisp_clipboardcopywithrectangle.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a4e6a183-242a-40af-871b-43a0b177a27a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ClipboardCopyWithRectangle, ClipboardCopyWithRectangle method [Tablet PC], ClipboardCopyWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopyWithRectangle method, IInkDisp.ClipboardCopyWithRectangle, IInkDisp::ClipboardCopyWithRectangle, a4e6a183-242a-40af-871b-43a0b177a27a, msinkaut/IInkDisp::ClipboardCopyWithRectangle, tablet.inkdisp_clipboardcopywithrectangle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.ClipboardCopyWithRectangle
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::ClipboardCopyWithRectangle

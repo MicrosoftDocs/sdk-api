@@ -4,17 +4,16 @@ title: IComponent::get_Type
 author: windows-sdk-content
 description: The get_Type method retrieves an IComponentType interface describing the general characteristics of the component.
 old-location: mstv\icomponent_get_type.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 19eb345f-24a2-4522-87cc-fc4953faf343
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Type method, IComponent.get_Type, IComponent::get_Type, IComponentget_Type, get_Type, get_Type method [Microsoft TV Technologies], get_Type method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_type, tuner/IComponent::get_Type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponent.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponent::get_Type
@@ -65,7 +63,7 @@ The <b>get_Type</b> method retrieves an <a href="https://msdn.microsoft.com/e83b
 
 ### -param CT
 
-
+TBD
 
 
 

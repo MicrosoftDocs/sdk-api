@@ -4,7 +4,7 @@ title: "_avimetaindex"
 author: windows-sdk-content
 description: The base structure for an AVI 2.0 index ('indx' format).
 old-location: dshow\avimetaindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d27b2b14-55a1-4992-ad85-75244369accc
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVIMETAINDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVIMETAINDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVIMETAINDEX
+req.redist: 
 ---
 
 # _avimetaindex structure

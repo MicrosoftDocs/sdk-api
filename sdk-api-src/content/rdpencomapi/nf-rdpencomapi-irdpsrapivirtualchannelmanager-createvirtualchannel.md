@@ -4,17 +4,16 @@ title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 author: windows-sdk-content
 description: Creates a virtual channel.
 old-location: rdp\irdpsrapivirtualchannelmanager_createvirtualchannel.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 0185af26-a29d-4227-bad6-2633de18617e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, CreateVirtualChannel, CreateVirtualChannel method [RDP], CreateVirtualChannel method [RDP],IRDPSRAPIVirtualChannelManager interface, IRDPSRAPIVirtualChannelManager interface [RDP],CreateVirtualChannel method, IRDPSRAPIVirtualChannelManager.CreateVirtualChannel, IRDPSRAPIVirtualChannelManager::CreateVirtualChannel, rdp.irdpsrapivirtualchannelmanager_createvirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPIVirtualChannelManager.CreateVirtualChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIVirtualChannelManager::CreateVirtualChannel

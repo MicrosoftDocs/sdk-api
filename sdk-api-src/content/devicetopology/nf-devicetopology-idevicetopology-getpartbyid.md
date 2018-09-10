@@ -4,17 +4,16 @@ title: IDeviceTopology::GetPartById
 author: windows-sdk-content
 description: The GetPartById method gets a part that is identified by its local ID.
 old-location: coreaudio\idevicetopology_getpartbyid.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 03310040-2081-47cf-88aa-6281c6bea56e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPartById, GetPartById method [Core Audio], GetPartById method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetPartById method, IDeviceTopology.GetPartById, IDeviceTopology::GetPartById, IDeviceTopologyGetPartById, coreaudio.idevicetopology_getpartbyid, devicetopology/IDeviceTopology::GetPartById
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceTopology.GetPartById
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceTopology::GetPartById

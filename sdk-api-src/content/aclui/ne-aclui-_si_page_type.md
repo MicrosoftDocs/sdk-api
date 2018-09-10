@@ -4,7 +4,7 @@ title: "_SI_PAGE_TYPE"
 author: windows-sdk-content
 description: Contains values that indicate the types of property pages in an access control editor property sheet.
 old-location: security\si_page_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 122b2dcb-5557-4692-a0d6-4a0accf71740
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: TreeSetNamedSecurityInfoW (Unicode) and TreeSetNamedSecurityInfoA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SI_PAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: SI_PAGE_TYPE
+req.redist: 
 ---
 
 # _SI_PAGE_TYPE enumeration

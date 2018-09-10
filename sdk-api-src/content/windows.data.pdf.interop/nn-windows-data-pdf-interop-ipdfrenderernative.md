@@ -4,7 +4,7 @@ title: IPdfRendererNative
 author: windows-sdk-content
 description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.
 old-location: winrt\ipdfrenderernative.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.data.pdf.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPdfRendererNative
 product: Windows
 targetos: Windows
-req.lib: Windows.data.pdf.lib
-req.dll: Windows.Data.Pdf.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPdfRendererNative interface

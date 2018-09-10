@@ -4,17 +4,16 @@ title: IQueryAssociations::Init
 author: windows-sdk-content
 description: Initializes the IQueryAssociations interface and sets the root key to the appropriate ProgID.
 old-location: shell\IQueryAssociations_Init.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cb1bcfc1-dbaa-48f8-8547-408f6560753e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CLSID, Executable name, File name extension, IQueryAssociations interface [Windows Shell],Init method, IQueryAssociations.Init, IQueryAssociations::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IQueryAssociations interface, ProgID, _win32_IQueryAssociations_Init, shell.IQueryAssociations_Init, shlwapi/IQueryAssociations::Init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IQueryAssociations.Init
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryAssociations::Init
@@ -82,7 +80,7 @@ A flag that specifies how the search is to be initialized. It is typically set t
 
 ### -param pszAssoc
 
-
+TBD
 
 
 ### -param hkProgid [in, optional]

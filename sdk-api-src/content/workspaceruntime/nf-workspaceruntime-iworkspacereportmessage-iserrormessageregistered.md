@@ -4,17 +4,16 @@ title: IWorkspaceReportMessage::IsErrorMessageRegistered
 author: windows-sdk-content
 description: Determines whether a specified error message is registered in a specified workspace.
 old-location: termserv\iworkspacereportmessage_iserrormessageregistered.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ea66553b-915b-4244-add7-08c7bc255203
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],IsErrorMessageRegistered method, IWorkspaceReportMessage.IsErrorMessageRegistered, IWorkspaceReportMessage::IsErrorMessageRegistered, IsErrorMessageRegistered, IsErrorMessageRegistered method [Remote Desktop Services], IsErrorMessageRegistered method [Remote Desktop Services],IWorkspaceReportMessage interface, IsErrorMessageRegistered method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsErrorMessageRegistered method, termserv.iworkspacereportmessage_iserrormessageregistered, workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WkspRt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Workspace.IsErrorMessageRegistered
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceReportMessage::IsErrorMessageRegistered

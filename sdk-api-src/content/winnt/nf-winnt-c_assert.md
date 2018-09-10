@@ -4,17 +4,16 @@ title: C_ASSERT macro
 author: windows-sdk-content
 description: Checks assertions at compile time.
 old-location: base\c_assert.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - C_ASSERT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # C_ASSERT macro

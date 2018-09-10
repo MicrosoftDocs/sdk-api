@@ -4,17 +4,16 @@ title: IInkOverlay::get_AttachMode
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether the InkOverlay object is attached behind or in front of the known window.
 old-location: tablet\inkoverlay_attachmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 638da0e4-10cc-47e7-91ad-807be3ff8c2d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 638da0e4-10cc-47e7-91ad-807be3ff8c2d, AttachMode property [Tablet PC], AttachMode property [Tablet PC],IInkOverlay interface, Behind, IInkOverlay interface [Tablet PC],AttachMode property, IInkOverlay.AttachMode, IInkOverlay.get_AttachMode, IInkOverlay::AttachMode, IInkOverlay::get_AttachMode, IInkOverlay::put_AttachMode, InFront, InkOverlay.get_AttachMode, InkOverlay.put_AttachMode, get_AttachMode, msinkaut/IInkOverlay::AttachMode, msinkaut/IInkOverlay::get_AttachMode, msinkaut/IInkOverlay::put_AttachMode, put_AttachMode, tablet.inkoverlay_attachmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_AttachMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::get_AttachMode

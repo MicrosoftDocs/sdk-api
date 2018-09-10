@@ -4,17 +4,16 @@ title: IUIAnimationTransitionLibrary2::CreateCubicTransition
 author: windows-sdk-content
 description: Creates a cubic scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubictransition.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 63ADBD53-2552-4D68-AABD-E3B1F83831EB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary2.CreateCubicTransition, IUIAnimationTransitionLibrary2::CreateCubicTransition, uianimation.iuianimationtransitionlibrary2_createcubictransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransitionLibrary2.CreateCubicTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransitionLibrary2::CreateCubicTransition

@@ -4,7 +4,7 @@ title: "_DFS_INFO_103"
 author: windows-sdk-content
 description: Contains properties that set specific behaviors for a DFS root or link.
 old-location: dfs\dfs_info_103.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: d3d31087-770e-4434-8ee0-6183102a9a6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008, Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_103, *PDFS_INFO_103, *LPDFS_INFO_103
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_103
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_103, *PDFS_INFO_103, *LPDFS_INFO_103
+req.redist: 
 ---
 
 # _DFS_INFO_103 structure

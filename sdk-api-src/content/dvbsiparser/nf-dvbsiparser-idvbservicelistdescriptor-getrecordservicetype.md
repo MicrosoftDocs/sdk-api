@@ -4,17 +4,16 @@ title: IDvbServiceListDescriptor::GetRecordServiceType
 author: windows-sdk-content
 description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicelistdescriptor_getrecordservicetype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceType method, IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbServiceListDescriptor.GetRecordServiceType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbServiceListDescriptor::GetRecordServiceType

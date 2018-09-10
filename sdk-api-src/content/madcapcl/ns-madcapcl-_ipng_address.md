@@ -4,7 +4,7 @@ title: "_IPNG_ADDRESS"
 author: windows-sdk-content
 description: The IPNG_ADDRESS union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
 old-location: madcap\ipng_address.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: c3dc76aa-d903-49be-a4a2-1f66cafff40a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPNG_ADDRESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
+req.redist: 
 ---
 
 # _IPNG_ADDRESS structure

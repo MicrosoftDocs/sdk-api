@@ -4,17 +4,16 @@ title: IInkRecognitionAlternate::get_Strokes
 author: windows-sdk-content
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkrecognitionalternate_strokes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 60ce6ed5-67d3-4471-a7a1-4653e8a122a1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Strokes property, IInkRecognitionAlternate.Strokes, IInkRecognitionAlternate.get_Strokes, IInkRecognitionAlternate::Strokes, IInkRecognitionAlternate::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionAlternate interface, get_Strokes, msinkaut/IInkRecognitionAlternate::Strokes, msinkaut/IInkRecognitionAlternate::get_Strokes, tablet.iinkrecognitionalternate_strokes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionAlternate.get_Strokes
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionAlternate::get_Strokes

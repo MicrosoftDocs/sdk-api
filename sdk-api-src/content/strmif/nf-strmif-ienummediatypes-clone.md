@@ -4,17 +4,16 @@ title: IEnumMediaTypes::Clone
 author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienummediatypes_clone.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7a81496d-34e5-43d2-aad9-510ab515adc2
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumMediaTypes interface, IEnumMediaTypes interface [DirectShow],Clone method, IEnumMediaTypes.Clone, IEnumMediaTypes::Clone, IEnumMediaTypesClone, dshow.ienummediatypes_clone, strmif/IEnumMediaTypes::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEnumMediaTypes.Clone
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMediaTypes::Clone

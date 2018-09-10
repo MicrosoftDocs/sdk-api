@@ -4,17 +4,16 @@ title: SetupDiSetSelectedDriverW function
 author: windows-sdk-content
 description: The SetupDiSetSelectedDriver function sets, or resets, the selected driver for a device information element or the selected class driver for a device information set.
 old-location: devinst\setupdisetselecteddriver.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSetSelectedDriver, SetupDiSetSelectedDriver function [Device and Driver Installation], SetupDiSetSelectedDriverA, SetupDiSetSelectedDriverW, devinst.setupdisetselecteddriver, di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml, setupapi/SetupDiSetSelectedDriver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiSetSelectedDriver
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetSelectedDriverW function

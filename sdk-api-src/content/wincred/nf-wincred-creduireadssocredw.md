@@ -4,17 +4,16 @@ title: CredUIReadSSOCredW function
 author: windows-sdk-content
 description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
 old-location: security\creduireadssocredw.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Credui.lib
+req.dll: Credui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CredUIReadSSOCredW
 product: Windows
 targetos: Windows
-req.lib: Credui.lib
-req.dll: Credui.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredUIReadSSOCredW function

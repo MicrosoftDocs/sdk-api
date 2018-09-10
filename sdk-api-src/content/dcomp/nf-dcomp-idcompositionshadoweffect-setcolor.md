@@ -4,17 +4,16 @@ title: IDCompositionShadowEffect::SetColor
 author: windows-sdk-content
 description: Sets color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setcolor.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 1C08E464-087A-41BF-9B0E-E1370576E64A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetColor method, IDCompositionShadowEffect.SetColor, IDCompositionShadowEffect::SetColor, SetColor, SetColor method [DirectComposition], SetColor method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetColor, directcomp.idcompositionshadoweffect_setcolor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionShadowEffect.SetColor
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionShadowEffect::SetColor

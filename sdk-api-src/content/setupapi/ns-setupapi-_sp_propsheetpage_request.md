@@ -4,7 +4,7 @@ title: "_SP_PROPSHEETPAGE_REQUEST"
 author: windows-sdk-content
 description: An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (lpv) to the ExtensionPropSheetPageProc entry point in the SetupAPI DLL.
 old-location: devinst\sp_propsheetpage_request.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_PROPSHEETPAGE_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
+req.redist: 
 ---
 
 # _SP_PROPSHEETPAGE_REQUEST structure

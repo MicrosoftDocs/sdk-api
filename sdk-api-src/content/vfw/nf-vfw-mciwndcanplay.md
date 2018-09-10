@@ -4,17 +4,16 @@ title: MCIWndCanPlay macro
 author: windows-sdk-content
 description: The MCIWndCanPlay macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the MCIWNDM_CAN_PLAY message.
 old-location: multimedia\mciwndcanplay.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCIWndCanPlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # MCIWndCanPlay macro

@@ -4,17 +4,16 @@ title: IWdsTransportNamespaceManager::RetrieveNamespaces
 author: windows-sdk-content
 description: Returns a collection of objects of the IWdsTransportNamespace interface that represent namespaces on the server that match specified criteria.
 old-location: wds\iwdstransportnamespacemanager_retrievenamespaces.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 3151ab6b-7ceb-4ecc-8480-cb5f9700ca9a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Services],RetrieveNamespaces method, IWdsTransportNamespaceManager.RetrieveNamespaces, IWdsTransportNamespaceManager::RetrieveNamespaces, RetrieveNamespaces, RetrieveNamespaces method [Windows Deployment Services], RetrieveNamespaces method [Windows Deployment Services],IWdsTransportNamespaceManager interface, wds.iwdstransportnamespacemanager_retrievenamespaces, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportNamespaceManager.RetrieveNamespaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportNamespaceManager::RetrieveNamespaces

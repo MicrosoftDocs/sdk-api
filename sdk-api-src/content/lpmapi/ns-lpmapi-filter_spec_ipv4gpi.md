@@ -4,7 +4,7 @@ title: Filter_Spec_IPv4GPI
 author: windows-sdk-content
 description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.
 old-location: qos\filter_spec_ipv4gpi.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: c1546673-d1b5-4a7f-82d0-a8cc1c7c8752
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Filter_Spec_IPv4GPI
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Filter_Spec_IPv4GPI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: Filter_Spec_IPv4GPI
+req.redist: 
 ---
 
 # Filter_Spec_IPv4GPI structure

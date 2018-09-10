@@ -4,7 +4,7 @@ title: AppPolicyMediaFoundationCodecLoading
 author: windows-sdk-content
 description: The AppPolicyMediaFoundationCodecLoading enumeration indicates whether a process’s policy allows it to load non-Windows (third-party) plugins.
 old-location: appxpkg\apppolicymediafoundationcodecloading.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 23572AF3-DD47-41A7-9C55-A4E36BB55541
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyMediaFoundationCodecLoading
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyMediaFoundationCodecLoading
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyMediaFoundationCodecLoading
+req.redist: 
 ---
 
 # AppPolicyMediaFoundationCodecLoading enumeration

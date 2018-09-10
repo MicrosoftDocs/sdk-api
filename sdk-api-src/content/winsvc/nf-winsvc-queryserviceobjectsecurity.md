@@ -4,17 +4,16 @@ title: QueryServiceObjectSecurity function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor associated with a service object.
 old-location: security\queryserviceobjectsecurity.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 5d95945f-f11b-42af-b302-8d924917b9ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - QueryServiceObjectSecurity
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # QueryServiceObjectSecurity function

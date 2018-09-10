@@ -4,17 +4,16 @@ title: ITextHost::TxSetTimer
 author: windows-sdk-content
 description: Requests the text host to create a timer with a specified time-out.
 old-location: controls\ITextHost_TxSetTimer.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettimer.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetTimer method, ITextHost.TxSetTimer, ITextHost::TxSetTimer, TxSetTimer, TxSetTimer method [Windows Controls], TxSetTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetTimer, _win32_ITextHost_TxSetTimer_cpp, controls.ITextHost_TxSetTimer, controls._win32_ITextHost_TxSetTimer, textserv/ITextHost::TxSetTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxSetTimer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxSetTimer

@@ -4,17 +4,16 @@ title: NetDfsGetInfo function
 author: windows-sdk-content
 description: Retrieves information about a specified Distributed File System (DFS) root or link in a DFS namespace.
 old-location: dfs\netdfsgetinfo.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: bbb2f24d-1c49-4016-a16b-60fde4a78193
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetInfo function [Distributed File System], _win32_netdfsgetinfo, dfs.netdfsgetinfo, fs.netdfsgetinfo, lmdfs/NetDfsGetInfo, netmgmt.netdfsgetinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_TARGET_PRIORITY_CLASS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetDfsGetInfo
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetDfsGetInfo function

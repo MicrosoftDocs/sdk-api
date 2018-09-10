@@ -4,17 +4,16 @@ title: IDvdInfo::GetAllSPRMs
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all system parameter registers (SPRMs).
 old-location: dshow\idvdinfo_getallsprms.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c96e0e7c-eee3-47ca-9350-94db895f1c6c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllSPRMs method, IDvdInfo.GetAllSPRMs, IDvdInfo::GetAllSPRMs, IDvdInfoGetAllSPRMs, dshow.idvdinfo_getallsprms, strmif/IDvdInfo::GetAllSPRMs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdInfo.GetAllSPRMs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo::GetAllSPRMs

@@ -4,17 +4,16 @@ title: IAudioEndpointVolumeEx::GetVolumeRangeChannel
 author: windows-sdk-content
 description: The GetVolumeRangeChannel method gets the volume range for a specified channel.
 old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioEndpointVolumeEx.GetVolumeRangeChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointVolumeEx::GetVolumeRangeChannel
@@ -67,17 +65,17 @@ The channel number for which to get the volume range. If the audio stream has <i
 
 ### -param pflVolumeMindB
 
-
+TBD
 
 
 ### -param pflVolumeMaxdB
 
-
+TBD
 
 
 ### -param pflVolumeIncrementdB
 
-
+TBD
 
 
 

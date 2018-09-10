@@ -4,7 +4,7 @@ title: DS_REPSYNCALL_UPDATEA
 author: windows-sdk-content
 description: The DS_REPSYNCALL_UPDATE structure contains status data about the replication performed by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_update.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 3b0005cb-0fb6-492c-89e5-8a18a88f881b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPSYNCALL_UPDATEA, *PDS_REPSYNCALL_UPDATEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DS_REPSYNCALL_UPDATEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPSYNCALL_UPDATEA, *PDS_REPSYNCALL_UPDATEA
+req.redist: 
 ---
 
 # DS_REPSYNCALL_UPDATEA structure

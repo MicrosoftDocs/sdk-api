@@ -4,17 +4,16 @@ title: IWMDMStorageControl::Rename
 author: windows-sdk-content
 description: The Rename method renames the current storage.
 old-location: wmdm\iwmdmstoragecontrol_rename.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 06cd302b-7876-4256-aa75-27127eb45ac9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Rename method, IWMDMStorageControl.Rename, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageControl.Rename
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl::Rename

@@ -4,7 +4,7 @@ title: "_MINIDUMP_MODULE_LIST"
 author: windows-sdk-content
 description: Contains a list of modules.
 old-location: base\minidump_module_list_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 9c30026d-9c72-472f-9d71-b15274459aae
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_MODULE_LIST, *PMINIDUMP_MODULE_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_MODULE_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_MODULE_LIST, *PMINIDUMP_MODULE_LIST
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_MODULE_LIST structure

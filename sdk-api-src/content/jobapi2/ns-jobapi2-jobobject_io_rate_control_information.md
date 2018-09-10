@@ -4,7 +4,7 @@ title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 author: windows-sdk-content
 description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.
 old-location: base\jobobject_io_rate_control_information.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: jobapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+req.redist: 
 ---
 
 # JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure

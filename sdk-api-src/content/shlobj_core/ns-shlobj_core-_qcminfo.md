@@ -4,7 +4,7 @@ title: "_QCMINFO"
 author: windows-sdk-content
 description: Contains information for merging menu items into Windows Explorer menus.
 old-location: shell\QCMINFO_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3f991ebb-d66c-4bdc-b9d2-2bf6bb5a269a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QCMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QCMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: QCMINFO
+req.redist: 
 ---
 
 # _QCMINFO structure

@@ -4,7 +4,7 @@ title: "_AUDCLNT_SHAREMODE"
 author: windows-sdk-content
 description: The AUDCLNT_SHAREMODE enumeration defines constants that indicate whether an audio stream will run in shared mode or in exclusive mode.
 old-location: coreaudio\audclnt_sharemode.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: f4870d0f-85d1-48ad-afe0-2f5a960c08fb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: audiosessiontypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDCLNT_SHAREMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUDCLNT_SHAREMODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUDCLNT_SHAREMODE
+req.redist: 
 ---
 
 # _AUDCLNT_SHAREMODE enumeration

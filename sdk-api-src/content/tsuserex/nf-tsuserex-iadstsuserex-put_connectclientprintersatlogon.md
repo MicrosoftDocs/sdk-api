@@ -4,17 +4,16 @@ title: IADsTSUserEx::put_ConnectClientPrintersAtLogon
 author: windows-sdk-content
 description: A value that specifies whether to reconnect to mapped client printers at logon.
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 78fdb301-ea8c-4806-b24a-f40449e77b9a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], ConnectClientPrintersAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientPrintersAtLogon property, IADsTSUserEx.ConnectClientPrintersAtLogon, IADsTSUserEx.put_ConnectClientPrintersAtLogon, IADsTSUserEx::ConnectClientPrintersAtLogon, IADsTSUserEx::get_ConnectClientPrintersAtLogon, IADsTSUserEx::put_ConnectClientPrintersAtLogon, put_ConnectClientPrintersAtLogon, termserv.iadstsuserex_connectclientprintersatlogon, tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Tsuserex.tlb
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: Tsuserex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IADsTSUserEx.put_ConnectClientPrintersAtLogon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tsuserex.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTSUserEx::put_ConnectClientPrintersAtLogon

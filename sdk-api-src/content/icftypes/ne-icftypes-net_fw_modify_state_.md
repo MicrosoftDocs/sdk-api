@@ -4,7 +4,7 @@ title: NET_FW_MODIFY_STATE_
 author: windows-sdk-content
 description: Specifies the effect of modifications to the current policy.
 old-location: ics\net_fw_modify_state.htm
-old-project: ics
+tech.root: ics
 ms.assetid: c9bfe7e8-2668-499f-9b75-3457235655b8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: icftypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_MODIFY_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_FW_MODIFY_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_FW_MODIFY_STATE
+req.redist: 
 ---
 
 # NET_FW_MODIFY_STATE_ enumeration

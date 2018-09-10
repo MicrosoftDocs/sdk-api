@@ -4,17 +4,16 @@ title: capPaletteOpen macro
 author: windows-sdk-content
 description: The capPaletteOpen macro loads a new palette from a palette file and passes it to a capture driver.
 old-location: multimedia\cappaletteopen.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 1d50795e-c414-4bf5-a255-76532a34d944
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capPaletteOpen, capPaletteOpen, capPaletteOpen macro [Windows Multimedia], multimedia.cappaletteopen, vfw/capPaletteOpen"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capPaletteOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capPaletteOpen macro

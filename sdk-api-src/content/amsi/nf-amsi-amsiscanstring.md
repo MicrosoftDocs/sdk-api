@@ -4,17 +4,16 @@ title: AmsiScanString function
 author: windows-sdk-content
 description: Scans a string for malware.
 old-location: amsi\amsiscanstring.htm
-old-project: AMSI
+tech.root: AMSI
 ms.assetid: 7D26C57B-014B-4506-A29D-33699808B111
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: Amsi.lib
+req.dll: Amsi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AmsiScanString
 product: Windows
 targetos: Windows
-req.lib: Amsi.lib
-req.dll: Amsi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AmsiScanString function

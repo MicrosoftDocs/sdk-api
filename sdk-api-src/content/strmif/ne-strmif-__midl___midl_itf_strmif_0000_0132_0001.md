@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_strmif_0000_0132_0001"
 author: windows-sdk-content
 description: Indicates which user operation (UOP) commands are currently allowed by the DVD.
 old-location: dshow\valid_uop_flag.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 419d3d5f-e775-438e-9754-0291df6a1ed7
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VALID_UOP_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VALID_UOP_FLAG
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: VALID_UOP_FLAG
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_strmif_0000_0132_0001 enumeration

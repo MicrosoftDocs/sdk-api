@@ -4,17 +4,16 @@ title: ITAllocatorProperties::GetBufferSize
 author: windows-sdk-content
 description: The GetBufferSize method gets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_getbuffersize.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GetBufferSize, GetBufferSize method [TAPI 2.2], GetBufferSize method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetBufferSize method, ITAllocatorProperties.GetBufferSize, ITAllocatorProperties::GetBufferSize, _tapi3_itallocatorproperties_getbuffersize, tapi3.itallocatorproperties_getbuffersize, tapi3ds/ITAllocatorProperties::GetBufferSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAllocatorProperties.GetBufferSize
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAllocatorProperties::GetBufferSize

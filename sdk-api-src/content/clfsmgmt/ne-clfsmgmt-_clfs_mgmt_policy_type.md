@@ -4,7 +4,7 @@ title: "_CLFS_MGMT_POLICY_TYPE"
 author: windows-sdk-content
 description: The CLFS_MGMT_POLICY_TYPE enumeration lists the valid policy types.
 old-location: fs\clfs_mgmt_policy_type.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: eaa817be-04ac-48c2-b7de-60509b1f65c7
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clfsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLFS_MGMT_POLICY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE
+req.redist: 
 ---
 
 # _CLFS_MGMT_POLICY_TYPE enumeration

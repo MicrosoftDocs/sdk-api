@@ -4,17 +4,16 @@ title: IContextState::GetDeactivateOnReturn
 author: windows-sdk-content
 description: Retrieves the value of the done flag.
 old-location: cos\icontextstate_getdeactivateonreturn.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4e9623eb-1bf1-4649-9071-b731bf95a401
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDeactivateOnReturn, GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+],IContextState interface, IContextState interface [COM+],GetDeactivateOnReturn method, IContextState.GetDeactivateOnReturn, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContextState.GetDeactivateOnReturn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContextState::GetDeactivateOnReturn

@@ -4,17 +4,16 @@ title: RpcBindingServerFromClient function
 author: windows-sdk-content
 description: An application calls RpcBindingServerFromClient to convert a client binding handle into a partially-bound server binding handle.
 old-location: rpc\rpcbindingserverfromclient.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcBindingServerFromClient, RpcBindingServerFromClient function [RPC], _rpc_rpcbindingserverfromclient, rpc.rpcbindingserverfromclient, rpcdce/RpcBindingServerFromClient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcBindingServerFromClient
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcBindingServerFromClient function
@@ -157,7 +155,7 @@ The following protocol sequences support
 <li>
 <a href="https://msdn.microsoft.com/02961bb8-faf0-42e5-b134-dd2983e6d146">ncacn_np</a> (effective with Windows 2000)</li>
 <li>
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
+<a href="https://msdn.microsoft.com/">ncacn_http</a>
 </li>
 <li>ncalrpc</li>
 </ul>
@@ -169,7 +167,7 @@ Calling
 <ul>
 <li>The server handle is a partially-bound handle. It contains a network address for the calling client, but lacks an endpoint.</li>
 <li>The server handle contains the same object 
-<a href="https://msdn.microsoft.com/">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
 <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingsetObject</a>, 
 <a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a>, 
 <a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>, and 

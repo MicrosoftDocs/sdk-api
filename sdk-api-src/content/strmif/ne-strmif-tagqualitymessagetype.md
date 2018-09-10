@@ -4,7 +4,7 @@ title: tagQualityMessageType
 author: windows-sdk-content
 description: Describes a quality message type.
 old-location: dshow\qualitymessagetype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QualityMessageType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QualityMessageType
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: QualityMessageType
+req.redist: 
 ---
 
 # tagQualityMessageType enumeration

@@ -4,17 +4,16 @@ title: NetFileEnum function
 author: windows-sdk-content
 description: Returns information about some or all open files on a server, depending on the parameters specified.
 old-location: fs\netfileenum.htm
-old-project: netshare
+tech.root: netshare
 ms.assetid: 1375b337-efb0-4be1-94f7-473456a825b5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 2, 3, NetFileEnum, NetFileEnum function [Files], _win32_netfileenum, fs.netfileenum, lmshare/NetFileEnum, netmgmt.netfileenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetFileEnum
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetFileEnum function

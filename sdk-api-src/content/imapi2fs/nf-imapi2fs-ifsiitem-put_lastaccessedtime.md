@@ -4,17 +4,16 @@ title: IFsiItem::put_LastAccessedTime
 author: windows-sdk-content
 description: Sets the date and time that the directory or file item was last accessed in the file system image.
 old-location: imapi\ifsiitem_put_lastaccessedtime.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6192bff5-9535-4845-9c99-d5ceeea0335f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFsiItem interface [IMAPI],put_LastAccessedTime method, IFsiItem.put_LastAccessedTime, IFsiItem::put_LastAccessedTime, imapi.ifsiitem_put_lastaccessedtime, imapi2fs/IFsiItem::put_LastAccessedTime, put_LastAccessedTime, put_LastAccessedTime method [IMAPI], put_LastAccessedTime method [IMAPI],IFsiItem interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiItem.put_LastAccessedTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiItem::put_LastAccessedTime

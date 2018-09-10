@@ -4,17 +4,16 @@ title: IShellView2::CreateViewWindow2
 author: windows-sdk-content
 description: Used to request the creation of a new Shell view window. It can be either the right pane of Windows Explorer or the client window of a folder window.
 old-location: shell\IShellView2_CreateViewWindow2.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3b829f5f-26ea-4987-be05-6725eeff5fed
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateViewWindow2, CreateViewWindow2 method [Windows Shell], CreateViewWindow2 method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],CreateViewWindow2 method, IShellView2.CreateViewWindow2, IShellView2::CreateViewWindow2, _win32_IShellView2_CreateViewWindow2, shell.IShellView2_CreateViewWindow2, shobjidl_core/IShellView2::CreateViewWindow2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView2.CreateViewWindow2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView2::CreateViewWindow2

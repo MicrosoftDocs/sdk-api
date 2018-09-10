@@ -4,7 +4,7 @@ title: "_FILE_IN_CABINET_INFO_W"
 author: windows-sdk-content
 description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.
 old-location: setup\file_in_cabinet_info_str.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_IN_CABINET_INFO_W, *PFILE_IN_CABINET_INFO_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_IN_CABINET_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FILE_IN_CABINET_INFO_W, *PFILE_IN_CABINET_INFO_W
+req.redist: 
 ---
 
 # _FILE_IN_CABINET_INFO_W structure

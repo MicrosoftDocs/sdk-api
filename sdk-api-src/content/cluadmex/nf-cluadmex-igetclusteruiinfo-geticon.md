@@ -4,17 +4,16 @@ title: IGetClusterUIInfo::GetIcon
 author: windows-sdk-content
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterUIInfo.GetIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterUIInfo::GetIcon

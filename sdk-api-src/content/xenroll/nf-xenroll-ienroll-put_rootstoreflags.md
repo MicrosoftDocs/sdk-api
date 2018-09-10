@@ -4,17 +4,16 @@ title: IEnroll::put_RootStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the root store.
 old-location: security\ienroll4_rootstoreflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll interface [Security],RootStoreFlags property, IEnroll.RootStoreFlags, IEnroll.put_RootStoreFlags, IEnroll::RootStoreFlags, IEnroll::get_RootStoreFlags, IEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],IEnroll interface, put_RootStoreFlags, security.ienroll4_rootstoreflags, xenroll/IEnroll::RootStoreFlags, xenroll/IEnroll::get_RootStoreFlags, xenroll/IEnroll::put_RootStoreFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_RootStoreFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::put_RootStoreFlags

@@ -4,7 +4,7 @@ title: "_RM_UNIQUE_PROCESS"
 author: windows-sdk-content
 description: Uniquely identifies a process by its PID and the time the process began.
 old-location: rstmgr\rm_unique_process.htm
-old-project: RstMgr
+tech.root: RstMgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: restartmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RM_UNIQUE_PROCESS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
+req.redist: 
 ---
 
 # _RM_UNIQUE_PROCESS structure

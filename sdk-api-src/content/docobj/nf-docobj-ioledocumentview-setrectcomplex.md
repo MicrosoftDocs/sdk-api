@@ -4,17 +4,16 @@ title: IOleDocumentView::SetRectComplex
 author: windows-sdk-content
 description: Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 old-location: com\ioledocumentview_setrectcomplex.htm
-old-project: com
+tech.root: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentView.SetRectComplex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentView::SetRectComplex

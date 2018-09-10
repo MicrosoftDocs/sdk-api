@@ -4,17 +4,16 @@ title: ITextRangeProvider2::ShowContextMenu
 author: windows-sdk-content
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_ITextRangeProvider2_ShowContextMenu.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7CE8B351-6103-1A73-8E74-7B21C90EC953
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRangeProvider2 interface [Windows Accessibility],ShowContextMenu method, ITextRangeProvider2.ShowContextMenu, ITextRangeProvider2::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],ITextRangeProvider2 interface, uiautomationcore/ITextRangeProvider2::ShowContextMenu, winauto.uiauto_ITextRangeProvider2_ShowContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider2.ShowContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider2::ShowContextMenu

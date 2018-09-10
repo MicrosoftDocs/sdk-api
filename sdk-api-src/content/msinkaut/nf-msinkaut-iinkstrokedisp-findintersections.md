@@ -4,17 +4,16 @@ title: IInkStrokeDisp::FindIntersections
 author: windows-sdk-content
 description: Retrieves the points where this IInkStrokeDisp object intersects other IInkStrokeDisp objects within a known InkStrokes collection.
 old-location: tablet\iinkstrokedisp_findintersections.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],FindIntersections method, IInkStrokeDisp.FindIntersections, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokeDisp.FindIntersections
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokeDisp::FindIntersections

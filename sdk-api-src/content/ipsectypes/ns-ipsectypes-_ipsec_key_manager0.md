@@ -4,7 +4,7 @@ title: "_IPSEC_KEY_MANAGER0"
 author: windows-sdk-content
 description: Used to register key management callbacks with IPsec.
 old-location: fwp\ipsec_key_manager0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_KEY_MANAGER0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_KEY_MANAGER0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_KEY_MANAGER0
+req.redist: 
 ---
 
 # _IPSEC_KEY_MANAGER0 structure

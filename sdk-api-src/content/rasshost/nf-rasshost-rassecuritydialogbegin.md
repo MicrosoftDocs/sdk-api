@@ -4,17 +4,16 @@ title: RasSecurityDialogBegin function
 author: windows-sdk-content
 description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
 old-location: rras\rassecuritydialogbegin.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RasSecurityDialogBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasSecurityDialogBegin function

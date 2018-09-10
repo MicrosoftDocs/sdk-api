@@ -4,17 +4,16 @@ title: NetUserModalsSet function
 author: windows-sdk-content
 description: The NetUserModalsSet function sets global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netusermodalsset.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetUserModalsSet
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetUserModalsSet function

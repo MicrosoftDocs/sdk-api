@@ -4,7 +4,7 @@ title: "_IP_ADAPTER_ADDRESSES_XP"
 author: windows-sdk-content
 description: The header node for a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_addresses.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADAPTER_ADDRESSES_XP, *PIP_ADAPTER_ADDRESSES_XP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADAPTER_ADDRESSES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADAPTER_ADDRESSES_XP, *PIP_ADAPTER_ADDRESSES_XP
+req.redist: 
 ---
 
 # _IP_ADAPTER_ADDRESSES_XP structure

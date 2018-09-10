@@ -4,7 +4,7 @@ title: "_MTP_COMMAND_DATA_IN"
 author: windows-sdk-content
 description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.
 old-location: wmdm\mtp_command_data_in.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mtpext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Msxml6.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MTP_COMMAND_DATA_IN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
+req.redist: 
 ---
 
 # _MTP_COMMAND_DATA_IN structure

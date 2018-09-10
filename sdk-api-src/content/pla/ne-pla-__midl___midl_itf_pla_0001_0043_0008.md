@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_pla_0001_0043_0008"
 author: windows-sdk-content
 description: Defines the type of the value.
 old-location: pla\valuemaptype.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
 ms.author: windowssdkdev
 ms.date: 02/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ValueMapType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ValueMapType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ValueMapType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_pla_0001_0043_0008 enumeration

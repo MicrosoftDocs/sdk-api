@@ -4,17 +4,16 @@ title: ScrollBar_GetPos macro
 author: windows-sdk-content
 description: Retrieves the position of the scroll box (thumb) in the specified scroll bar.
 old-location: controls\ScrollBar_GetPos.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getpos.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ScrollBar_GetPos, ScrollBar_GetPos macro [Windows Controls], _win32_ScrollBar_GetPos, _win32_ScrollBar_GetPos_cpp, controls.ScrollBar_GetPos, controls._win32_ScrollBar_GetPos, windowsx/ScrollBar_GetPos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ScrollBar_GetPos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ScrollBar_GetPos macro

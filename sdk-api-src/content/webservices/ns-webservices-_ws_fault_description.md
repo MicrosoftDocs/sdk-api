@@ -4,7 +4,7 @@ title: "_WS_FAULT_DESCRIPTION"
 author: windows-sdk-content
 description: Information about a mapping between an WS_FAULT and an XML element.
 old-location: wsw\ws_fault_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6634faec-5491-4332-b815-be2effa263f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FAULT_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FAULT_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FAULT_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_FAULT_DESCRIPTION structure

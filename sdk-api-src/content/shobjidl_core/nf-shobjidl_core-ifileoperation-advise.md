@@ -4,17 +4,16 @@ title: IFileOperation::Advise
 author: windows-sdk-content
 description: Enables a handler to provide status and error information for all operations.
 old-location: shell\IFileOperation_Advise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 458c24b0-9288-4ed7-9a4b-7534f26dd32e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],Advise method, IFileOperation.Advise, IFileOperation::Advise, _shell_IFileOperation_Advise, shell.IFileOperation_Advise, shobjidl_core/IFileOperation::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::Advise

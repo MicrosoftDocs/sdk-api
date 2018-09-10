@@ -4,7 +4,7 @@ title: PAPPSTATE_CHANGE_ROUTINE
 author: windows-sdk-content
 description: Specifies an app-defined callback function that notifies the app when the app is entering or leaving a suspended state.
 old-location: shell\PAPPSTATE_CHANGE_ROUTINE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: AA5B09FA-2016-4C9D-8DE3-CD3C6141B45A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: appnotify.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PACKAGE_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - PAPPSTATE_CHANGE_ROUTINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PAPPSTATE_CHANGE_ROUTINE callback function

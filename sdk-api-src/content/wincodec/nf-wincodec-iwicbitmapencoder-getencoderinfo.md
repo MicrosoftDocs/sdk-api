@@ -4,17 +4,16 @@ title: IWICBitmapEncoder::GetEncoderInfo
 author: windows-sdk-content
 description: Retrieves an IWICBitmapEncoderInfo for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getencoderinfo.htm
-old-project: wic
+tech.root: wic
 ms.assetid: af723a68-89c8-4d0c-88ef-cda4abaad6f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEncoderInfo, GetEncoderInfo method [Windows Imaging Component], GetEncoderInfo method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetEncoderInfo method, IWICBitmapEncoder.GetEncoderInfo, IWICBitmapEncoder::GetEncoderInfo, _wic_codec_iwicbitmapencoder_getencoderinfo, wic._wic_codec_iwicbitmapencoder_getencoderinfo, wincodec/IWICBitmapEncoder::GetEncoderInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICBitmapEncoder.GetEncoderInfo
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapEncoder::GetEncoderInfo

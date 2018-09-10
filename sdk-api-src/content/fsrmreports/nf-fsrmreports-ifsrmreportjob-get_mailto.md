@@ -4,17 +4,16 @@ title: IFsrmReportJob::get_MailTo
 author: windows-sdk-content
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.get_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, get_MailTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmReportJob.put_MailTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmReportJob::get_MailTo

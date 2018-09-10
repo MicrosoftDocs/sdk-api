@@ -4,17 +4,16 @@ title: FilterUnload function
 author: windows-sdk-content
 description: An application that has loaded a supporting minifilter by calling FilterLoad can unload the minifilter by calling the FilterUnload function.
 old-location: ifsk\filterunload.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 74de2531-1666-420e-b500-131622f1b76f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterUnload, FilterUnload function [Installable File System Drivers], FltWin32ApiRef_d6c75950-e58b-4f4c-8707-85566c03d219.xml, fltuser/FilterUnload, ifsk.filterunload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterUnload
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterUnload function

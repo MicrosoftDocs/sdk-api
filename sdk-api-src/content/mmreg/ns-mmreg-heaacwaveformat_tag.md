@@ -4,7 +4,7 @@ title: heaacwaveformat_tag
 author: windows-sdk-content
 description: Contains format data for an AAC or HE-AAC stream that includes AudioSpecificConfig() data.
 old-location: dshow\heaacwaveformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0809eaa7-3c4c-467d-afa0-d9555ab6d71f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HEAACWAVEFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HEAACWAVEFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HEAACWAVEFORMAT
+req.redist: 
 ---
 
 # heaacwaveformat_tag structure

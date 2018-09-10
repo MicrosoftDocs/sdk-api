@@ -4,17 +4,16 @@ title: GetExtendedUdpTable function
 author: windows-sdk-content
 description: Retrieves a table that contains a list of UDP endpoints available to the application.
 old-location: iphlp\getextendedudptable.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: c936d5a0-ca5e-487e-b304-bfd81403ab40
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedUdpTable, GetExtendedUdpTable function [IP Helper], iphlp.getextendedudptable, iphlpapi/GetExtendedUdpTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetExtendedUdpTable
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetExtendedUdpTable function

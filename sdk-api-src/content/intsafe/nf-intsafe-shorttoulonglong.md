@@ -4,17 +4,16 @@ title: ShortToULongLong function
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type ULONGLONG.
 old-location: shell\ShortToULongLong.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e6183208-14c3-4f84-9ff5-a5412f8c762d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ShortToULongLong, ShortToULongLong function [Windows Shell], intsafe/ShortToULongLong, shell.ShortToULongLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShortToULongLong
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ShortToULongLong function

@@ -4,17 +4,16 @@ title: IShellItemArray::GetItemAt
 author: windows-sdk-content
 description: Gets the item at the given index in the IShellItemArray.
 old-location: shell\IShellItemArray_GetItemAt.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemAt, GetItemAt method [Windows Shell], GetItemAt method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetItemAt method, IShellItemArray.GetItemAt, IShellItemArray::GetItemAt, _shell_IShellItemArray_GetItemAt, shell.IShellItemArray_GetItemAt, shobjidl_core/IShellItemArray::GetItemAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemArray.GetItemAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemArray::GetItemAt

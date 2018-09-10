@@ -4,17 +4,16 @@ title: IWbemQualifierSet::Next
 author: windows-sdk-content
 description: The IWbemQualifierSet::Next method retrieves the next qualifier in an enumeration that started with IWbemQualifierSet::BeginEnumeration.
 old-location: wmi\iwbemqualifierset_next.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 76afa293-1bd9-442b-bc9b-2247459bd49c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Next method, IWbemQualifierSet.Next, IWbemQualifierSet::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemQualifierSet interface, _hmm_iwbemqualifierset_next, wbemcli/IWbemQualifierSet::Next, wmi.iwbemqualifierset_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.Next
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::Next

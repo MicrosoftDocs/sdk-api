@@ -4,17 +4,16 @@ title: BCryptFinishHash function
 author: windows-sdk-content
 description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
 old-location: security\bcryptfinishhash_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptFinishHash
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptFinishHash function

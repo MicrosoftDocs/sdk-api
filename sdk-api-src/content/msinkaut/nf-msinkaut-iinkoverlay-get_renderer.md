@@ -4,17 +4,16 @@ title: IInkOverlay::get_Renderer
 author: windows-sdk-content
 description: Gets or sets the InkRenderer object that is used to draw ink.
 old-location: tablet\inkoverlay_renderer.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1f43fa5a-1b08-41bc-9871-f4e0c53b61e9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Renderer property, IInkOverlay.Renderer, IInkOverlay.get_Renderer, IInkOverlay::Renderer, IInkOverlay::get_Renderer, IInkOverlay::put_Renderer, InkOverlay.get_Renderer, InkOverlay.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkOverlay interface, get_Renderer, msinkaut/IInkOverlay::Renderer, msinkaut/IInkOverlay::get_Renderer, msinkaut/IInkOverlay::put_Renderer, putref_Renderer, tablet.inkoverlay_renderer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_Renderer
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::get_Renderer

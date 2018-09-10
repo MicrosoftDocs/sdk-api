@@ -4,7 +4,7 @@ title: ip_mreq_source
 author: windows-sdk-content
 description: The ip_mreq_source structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq_source.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 237bc55f-0b24-4615-85af-30ae6ad163fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_MREQ_SOURCE, *PIP_MREQ_SOURCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IP_MREQ_SOURCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IP_MREQ_SOURCE, *PIP_MREQ_SOURCE
+req.redist: 
 ---
 
 # ip_mreq_source structure

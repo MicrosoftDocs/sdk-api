@@ -4,7 +4,7 @@ title: CLUSPROP_WORD
 author: windows-sdk-content
 description: Describes numeric data.
 old-location: mscs\clusprop_word.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_WORD, *PCLUSPROP_WORD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_WORD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_WORD, *PCLUSPROP_WORD
+req.redist: 
 ---
 
 # CLUSPROP_WORD structure

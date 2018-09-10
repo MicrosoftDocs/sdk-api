@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::SetQueueDepth
 author: windows-sdk-content
 description: Sets the threshold number of execution requests above which a new thread is added to the pool.
 old-location: cos\ithreadpoolknobs_setqueuedepth.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 42c12d8b-d7e6-4dd3-926c-176638433839
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetQueueDepth method, IThreadPoolKnobs.SetQueueDepth, IThreadPoolKnobs::SetQueueDepth, SetQueueDepth, SetQueueDepth method [COM+], SetQueueDepth method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetQueueDepth, comsvcs/IThreadPoolKnobs::SetQueueDepth, cos.ithreadpoolknobs_setqueuedepth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.SetQueueDepth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::SetQueueDepth

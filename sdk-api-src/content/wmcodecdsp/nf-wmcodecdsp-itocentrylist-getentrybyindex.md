@@ -4,17 +4,16 @@ title: ITocEntryList::GetEntryByIndex
 author: windows-sdk-content
 description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_getentrybyindex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocEntryList.GetEntryByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocEntryList::GetEntryByIndex

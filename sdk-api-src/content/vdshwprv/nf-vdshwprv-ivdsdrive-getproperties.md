@@ -4,17 +4,16 @@ title: IVdsDrive::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive_getproperties.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 31556be6-ff03-492f-a7a6-dec37a63e88d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetProperties method, IVdsDrive.GetProperties, IVdsDrive::GetProperties, base.ivdsdrive_getproperties, vds/IVdsDrive::GetProperties, vdshwprv/IVdsDrive::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDrive.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDrive::GetProperties

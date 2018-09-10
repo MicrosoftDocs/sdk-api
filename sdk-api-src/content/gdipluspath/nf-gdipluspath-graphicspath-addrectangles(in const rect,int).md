@@ -4,17 +4,16 @@ title: GraphicsPath::AddRectangles(IN const Rect,INT)
 author: windows-sdk-content
 description: This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_Methods.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglesmethods.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddRectangles, AddRectangles methods [GDI+], GraphicsPath.AddRectangles, GraphicsPath.AddRectangles(IN const Rect,INT), GraphicsPath::AddRectangles, GraphicsPath::AddRectangles(IN const Rect,INT), _gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangles_Methods, gdipluspath/AddRectangles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GraphicsPath.AddRectangles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # GraphicsPath::AddRectangles(IN const Rect,INT)

@@ -4,17 +4,16 @@ title: RefreshIScsiSendTargetPortalW function
 author: windows-sdk-content
 description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshiscsisendtargetportal.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RefreshIScsiSendTargetPortalW, RefreshIscsiSendTargetPortal, RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API], RefreshIscsiSendTargetPortalA, RefreshIscsiSendTargetPortalW, iscsidisc.refreshiscsisendtargetportal, iscsidsc/RefreshIscsiSendTargetPortal, iscsidsc/RefreshIscsiSendTargetPortalA, iscsidsc/RefreshIscsiSendTargetPortalW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RefreshIscsiSendTargetPortalW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RefreshIScsiSendTargetPortalW function

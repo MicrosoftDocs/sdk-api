@@ -4,17 +4,16 @@ title: DisassociateCurrentThreadFromCallback function
 author: windows-sdk-content
 description: Removes the association between the currently executing callback function and the object that initiated the callback. The current thread will no longer count as executing a callback on behalf of the object.
 old-location: base\disassociatecurrentthreadfromcallback.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: DisassociateCurrentThreadFromCallback, DisassociateCurrentThreadFromCallback function, base.disassociatecurrentthreadfromcallback, threadpoolapiset/DisassociateCurrentThreadFromCallback, winbase/DisassociateCurrentThreadFromCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - DisassociateCurrentThreadFromCallback
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # DisassociateCurrentThreadFromCallback function

@@ -4,17 +4,16 @@ title: IUPnPDescriptionDocument::Abort
 author: windows-sdk-content
 description: The Abort method stops an asynchronous load operation started by IUPnPDescriptionDocument::LoadAsync.
 old-location: upnp\iupnpdescriptiondocument_abort.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 26f5a7f0-7d29-47a6-9f43-6b0d921342ae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Abort, Abort method [UPnP APIs], Abort method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],Abort method, IUPnPDescriptionDocument.Abort, IUPnPDescriptionDocument::Abort, _upnp_iupnpdescriptiondocument_abort, upnp.iupnpdescriptiondocument_abort, upnp/IUPnPDescriptionDocument::Abort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDescriptionDocument.Abort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDescriptionDocument::Abort

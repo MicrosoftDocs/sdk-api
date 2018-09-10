@@ -4,17 +4,16 @@ title: IUrlAccessor4::ShouldIndexItemContent
 author: windows-sdk-content
 description: Identifies whether the item's content should be indexed.
 old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUrlAccessor4.ShouldIndexItemContent, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search],IUrlAccessor4 interface, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUrlAccessor4.ShouldIndexItemContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Search (WS) 4.0
 ---
 
 # IUrlAccessor4::ShouldIndexItemContent

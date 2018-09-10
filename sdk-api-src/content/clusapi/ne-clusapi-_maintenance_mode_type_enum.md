@@ -4,7 +4,7 @@ title: "_MAINTENANCE_MODE_TYPE_ENUM"
 author: windows-sdk-content
 description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.
 old-location: mscs\maintenance_mode_type_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MAINTENANCE_MODE_TYPE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
+req.redist: 
 ---
 
 # _MAINTENANCE_MODE_TYPE_ENUM enumeration

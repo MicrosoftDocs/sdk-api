@@ -4,17 +4,16 @@ title: FwpmProviderUnsubscribeChanges0 function
 author: windows-sdk-content
 description: Is used to cancel a provider change subscription and stop receiving change notifications.
 old-location: fwp\fwpmproviderunsubscribechanges0_func.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 8dd403c1-7740-4f60-8b74-02e3b0a645e4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmProviderUnsubscribeChanges0, FwpmProviderUnsubscribeChanges0 function [Filtering], fwp.fwpmproviderunsubscribechanges0_func, fwpmu/FwpmProviderUnsubscribeChanges0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmProviderUnsubscribeChanges0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmProviderUnsubscribeChanges0 function

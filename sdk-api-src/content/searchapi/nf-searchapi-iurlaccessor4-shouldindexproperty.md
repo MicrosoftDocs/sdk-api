@@ -4,17 +4,16 @@ title: IUrlAccessor4::ShouldIndexProperty
 author: windows-sdk-content
 description: Identifies whether a property should be indexed.
 old-location: search\iurlaccessor4_shouldindexproperty.htm
-old-project: search
+tech.root: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Search (WS) 4.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUrlAccessor4.ShouldIndexProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Search (WS) 4.0
 ---
 
 # IUrlAccessor4::ShouldIndexProperty

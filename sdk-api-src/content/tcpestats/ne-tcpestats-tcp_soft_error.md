@@ -4,7 +4,7 @@ title: TCP_SOFT_ERROR
 author: windows-sdk-content
 description: Defines the reason for non-fatal or soft errors recorded on a TCP connection.
 old-location: iphlp\tcp_soft_error.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: dd179e9b-86e6-48e8-bb4b-05d69b9794b2
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_SOFT_ERROR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
+req.redist: 
 ---
 
 # TCP_SOFT_ERROR enumeration

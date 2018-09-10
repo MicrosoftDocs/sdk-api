@@ -4,17 +4,16 @@ title: IValueProvider::get_Value
 author: windows-sdk-content
 description: The value of the control.
 old-location: winauto\uiauto_IValueProvider_Value.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 83cd0b99-32e4-4a25-aebb-b769745df78f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],Value property, IValueProvider.Value, IValueProvider.get_Value, IValueProvider::Value, IValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IValueProvider interface, get_Value, uiauto.uiauto_IValueProvider_Value, uiauto_IValueProvider_Value, uiautomationcore/IValueProvider::Value, uiautomationcore/IValueProvider::get_Value, winauto.uiauto_IValueProvider_Value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IValueProvider.get_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IValueProvider::get_Value

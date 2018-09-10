@@ -4,17 +4,16 @@ title: ISyncKnowledge::GetSingleItemExceptions
 author: windows-sdk-content
 description: Gets an object that can enumerate the ISingleItemException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.GetSingleItemExceptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::GetSingleItemExceptions

@@ -4,17 +4,16 @@ title: IAMTimecodeGenerator::put_VITCLine
 author: windows-sdk-content
 description: The put_VITCLine method specifies which line to insert the vertical interval timecode information into.
 old-location: dshow\iamtimecodegenerator_put_vitcline.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 351bf80b-f14c-454f-9d20-ceff4a437fcd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],put_VITCLine method, IAMTimecodeGenerator.put_VITCLine, IAMTimecodeGenerator::put_VITCLine, IAMTimecodeGeneratorput_VITCLine, dshow.iamtimecodegenerator_put_vitcline, put_VITCLine, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::put_VITCLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTimecodeGenerator.put_VITCLine
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTimecodeGenerator::put_VITCLine

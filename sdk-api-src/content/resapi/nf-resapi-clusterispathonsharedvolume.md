@@ -4,17 +4,16 @@ title: ClusterIsPathOnSharedVolume function
 author: windows-sdk-content
 description: Determines whether a path is on a cluster shared volume.
 old-location: mscs\clusterispathonsharedvolume.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterIsPathOnSharedVolume, ClusterIsPathOnSharedVolume function [Failover Cluster], PCLUSTER_IS_PATH_ON_SHARED_VOLUME, PCLUSTER_IS_PATH_ON_SHARED_VOLUME function [Failover Cluster], mscs.clusterispathonsharedvolume, resapi/ClusterIsPathOnSharedVolume, resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.Lib
+req.dll: ResUtils.Dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ClusterIsPathOnSharedVolume
 product: Windows
 targetos: Windows
-req.lib: ResUtils.Lib
-req.dll: ResUtils.Dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterIsPathOnSharedVolume function

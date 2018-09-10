@@ -4,7 +4,7 @@ title: DXGI_FRAME_PRESENTATION_MODE
 author: windows-sdk-content
 description: Indicates options for presenting frames to the swap chain.
 old-location: direct3ddxgi\dxgi_frame_presentation_mode.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F9D26722-E8E8-4A2F-A411-D461B96F3F9C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FRAME_PRESENTATION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_FRAME_PRESENTATION_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_FRAME_PRESENTATION_MODE
+req.redist: 
 ---
 
 # DXGI_FRAME_PRESENTATION_MODE enumeration

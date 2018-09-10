@@ -4,7 +4,7 @@ title: "_EVENT_TRACE_PROPERTIES_V2"
 author: windows-sdk-content
 description: The EVENT_TRACE_PROPERTIES_V2 structure contains information about an event tracing session.
 old-location: etw\event_trace_properties_v2.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 2EEDB53B-75BC-48AC-A70D-9AEAED526C40
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_TRACE_PROPERTIES_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2
+req.redist: 
 ---
 
 # _EVENT_TRACE_PROPERTIES_V2 structure

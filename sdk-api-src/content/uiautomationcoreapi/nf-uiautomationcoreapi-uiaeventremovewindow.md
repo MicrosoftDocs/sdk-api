@@ -4,17 +4,16 @@ title: UiaEventRemoveWindow function
 author: windows-sdk-content
 description: Removes a window from the event listener.
 old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UiaEventRemoveWindow
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # UiaEventRemoveWindow function

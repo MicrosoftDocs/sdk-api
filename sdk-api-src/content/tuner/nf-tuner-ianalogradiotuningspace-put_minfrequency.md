@@ -4,17 +4,16 @@ title: IAnalogRadioTuningSpace::put_MinFrequency
 author: windows-sdk-content
 description: The put_MinFrequency method sets the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_put_minfrequency.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 5a7bb5e8-ed21-4b3b-96eb-861aa77621ca
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MinFrequency method, IAnalogRadioTuningSpace.put_MinFrequency, IAnalogRadioTuningSpace::put_MinFrequency, IAnalogRadioTuningSpaceput_MinFrequency, mstv.ianalogradiotuningspace_put_minfrequency, put_MinFrequency, put_MinFrequency method [Microsoft TV Technologies], put_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MinFrequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnalogRadioTuningSpace.put_MinFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IAnalogRadioTuningSpace::put_MinFrequency

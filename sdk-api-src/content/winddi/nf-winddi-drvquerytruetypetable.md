@@ -4,17 +4,16 @@ title: DrvQueryTrueTypeTable function
 author: windows-sdk-content
 description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
 old-location: display\drvquerytruetypetable.htm
-old-project: display
+tech.root: display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvQueryTrueTypeTable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvQueryTrueTypeTable function

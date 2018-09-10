@@ -4,7 +4,7 @@ title: "_IO_COUNTERS"
 author: windows-sdk-content
 description: Contains I/O accounting information for a process or a job object.
 old-location: base\io_counters_str.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 78729cbe-5256-4939-a7cc-c393662f8361
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IO_COUNTERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IO_COUNTERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: IO_COUNTERS
+req.redist: 
 ---
 
 # _IO_COUNTERS structure

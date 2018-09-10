@@ -4,7 +4,7 @@ title: KNOWN_FOLDER_FLAG
 author: windows-sdk-content
 description: Specify special retrieval options for known folders. These values supersede CSIDL values, which have parallel meanings.
 old-location: shell\KNOWN_FOLDER_FLAG.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWN_FOLDER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KNOWN_FOLDER_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: KNOWN_FOLDER_FLAG
+req.redist: 
 ---
 
 # KNOWN_FOLDER_FLAG enumeration

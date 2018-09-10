@@ -4,17 +4,16 @@ title: DSA_Sort function
 author: windows-sdk-content
 description: Sorts the items in a dynamic structure array (DSA).
 old-location: controls\DSA_Sort.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_sort.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_Sort, DSA_Sort function [Windows Controls], _shell_DSA_Sort, _shell_DSA_Sort_cpp, controls.DSA_Sort, controls._shell_DSA_Sort, dpa_dsa/DSA_Sort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: Comctl32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DSA_Sort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DSA_Sort function

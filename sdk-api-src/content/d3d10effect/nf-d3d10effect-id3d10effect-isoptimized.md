@@ -4,17 +4,16 @@ title: ID3D10Effect::IsOptimized
 author: windows-sdk-content
 description: Test an effect to see if the reflection metadata has been removed from memory.
 old-location: direct3d10\id3d10effect_isoptimized.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isoptimized.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 0d82fdb1-e0b0-7198-dd16-2dfcd0280bfe, ID3D10Effect interface [Direct3D 10],IsOptimized method, ID3D10Effect.IsOptimized, ID3D10Effect::IsOptimized, IsOptimized, IsOptimized method [Direct3D 10], IsOptimized method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsOptimized, direct3d10.id3d10effect_isoptimized
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Effect.IsOptimized
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Effect::IsOptimized

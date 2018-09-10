@@ -4,17 +4,16 @@ title: IWMResizerProps::SetInterlaceMode
 author: windows-sdk-content
 description: The SetInterlaceMode method specifies whether the input video stream is interlaced.
 old-location: mf\iwmresizerpropssetinterlacemode.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a5ce36aa-d46c-4c17-bc8d-4840ea496980
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetInterlaceMode method, IWMResizerProps.SetInterlaceMode, IWMResizerProps::SetInterlaceMode, SetInterlaceMode, SetInterlaceMode method [Media Foundation], SetInterlaceMode method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetinterlacemode, mf.iwmresizerpropssetinterlacemode, wmcodecdsp/IWMResizerProps::SetInterlaceMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMResizerProps.SetInterlaceMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMResizerProps::SetInterlaceMode

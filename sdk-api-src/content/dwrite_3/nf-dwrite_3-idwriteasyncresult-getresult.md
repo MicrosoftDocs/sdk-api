@@ -4,17 +4,16 @@ title: IDWriteAsyncResult::GetResult
 author: windows-sdk-content
 description: Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 old-location: directwrite\idwriteasyncresult_getresult.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 40588741-958D-4D7E-8E39-206D7CFCBFB6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetResult method, IDWriteAsyncResult.GetResult, IDWriteAsyncResult::GetResult, directwrite.idwriteasyncresult_getresult, dwrite_3/IDWriteAsyncResult::GetResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteAsyncResult.GetResult
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteAsyncResult::GetResult

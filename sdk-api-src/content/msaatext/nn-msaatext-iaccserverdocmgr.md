@@ -4,7 +4,7 @@ title: IAccServerDocMgr
 author: windows-sdk-content
 description: Exposes methods that make documents accessible to client applications.
 old-location: winauto\iaccserverdocmgr.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: a69d46b1-26d2-4121-b89a-42c53343d426
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccServerDocMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msaatext.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IAccServerDocMgr interface

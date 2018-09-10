@@ -4,17 +4,16 @@ title: IVdsAdviseSink::OnNotify
 author: windows-sdk-content
 description: Passes notifications from providers to VDS, and from VDS to applications.
 old-location: base\ivdsadvisesink_onnotify.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0cf7bf55-922e-4092-bb2f-6423d9addb0c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAdviseSink.OnNotify
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAdviseSink::OnNotify

@@ -4,7 +4,7 @@ title: IPersistSerializedPropStorage
 author: windows-sdk-content
 description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
 old-location: shell\IPersistSerializedPropStorage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: Propsys.dll (version 6.0.6001 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistSerializedPropStorage
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0.6001 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistSerializedPropStorage interface

@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::GetClipper
 author: windows-sdk-content
 description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
 old-location: directdraw\idirectdrawsurface7_getclipper.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetClipper method, IDirectDrawSurface7.GetClipper, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.GetClipper
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::GetClipper

@@ -4,7 +4,7 @@ title: IWMDeviceManager2
 author: windows-sdk-content
 description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.
 old-location: wmdm\iwmdevicemanager2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMDeviceManager2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDeviceManager2 interface

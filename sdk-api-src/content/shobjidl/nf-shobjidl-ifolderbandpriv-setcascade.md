@@ -4,17 +4,16 @@ title: IFolderBandPriv::SetCascade
 author: windows-sdk-content
 description: Sets a cascade folder.
 old-location: shell\IFolderBandPriv_SetCascade.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll (version 5.00 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderBandPriv.SetCascade
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.00 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderBandPriv::SetCascade

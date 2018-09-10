@@ -4,7 +4,7 @@ title: "_RTM_NEXTHOP_LIST"
 author: windows-sdk-content
 description: The RTM_NEXTHOP_LIST structure contains a list of next hops used to determine equal-cost paths in a route.
 old-location: rras\rtm_nexthop_list.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_NEXTHOP_LIST, *PRTM_NEXTHOP_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_NEXTHOP_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_NEXTHOP_LIST, *PRTM_NEXTHOP_LIST
+req.redist: 
 ---
 
 # _RTM_NEXTHOP_LIST structure

@@ -4,7 +4,7 @@ title: "_SFVM_HELPTOPIC_DATA"
 author: windows-sdk-content
 description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SFVM_HELPTOPIC_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SFVM_HELPTOPIC_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SFVM_HELPTOPIC_DATA
+req.redist: 
 ---
 
 # _SFVM_HELPTOPIC_DATA structure

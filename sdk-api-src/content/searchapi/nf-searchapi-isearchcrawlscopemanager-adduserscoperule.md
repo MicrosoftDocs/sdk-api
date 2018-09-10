@@ -4,17 +4,16 @@ title: ISearchCrawlScopeManager::AddUserScopeRule
 author: windows-sdk-content
 description: Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
 old-location: search\_search_ISearchCrawlScopeManager_AddUserScopeRule.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adduserscoperule.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddUserScopeRule, AddUserScopeRule method [search], AddUserScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddUserScopeRule method, ISearchCrawlScopeManager.AddUserScopeRule, ISearchCrawlScopeManager::AddUserScopeRule, _search_ISearchCrawlScopeManager_AddUserScopeRule, search._search_ISearchCrawlScopeManager_AddUserScopeRule, searchapi/ISearchCrawlScopeManager::AddUserScopeRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchCrawlScopeManager.AddUserScopeRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchCrawlScopeManager::AddUserScopeRule

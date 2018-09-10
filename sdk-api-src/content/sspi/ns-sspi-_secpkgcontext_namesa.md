@@ -4,7 +4,7 @@ title: "_SecPkgContext_NamesA"
 author: windows-sdk-content
 description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_names.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_NamesA, *PSecPkgContext_NamesA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecPkgContext_NamesW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_NamesA, *PSecPkgContext_NamesA
+req.redist: 
 ---
 
 # _SecPkgContext_NamesA structure

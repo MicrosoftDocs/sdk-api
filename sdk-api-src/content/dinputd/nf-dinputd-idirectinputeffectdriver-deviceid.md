@@ -4,17 +4,16 @@ title: IDirectInputEffectDriver::DeviceID
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::DeviceID method sends the driver the identity of the device.
 old-location: hid\idirectinputeffectdriver_deviceid.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 80abcfef-edd9-48df-8e47-96731ae41f8a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: DeviceID, DeviceID method [Human Input Devices], DeviceID method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DeviceID method, IDirectInputEffectDriver.DeviceID, IDirectInputEffectDriver::DeviceID, di_ref_80f2cc7f-de04-4497-a245-b6abaf0a98d1.xml, dinputd/IDirectInputEffectDriver::DeviceID, hid.idirectinputeffectdriver_deviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver.DeviceID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver::DeviceID
@@ -59,9 +58,29 @@ The <b>IDirectInputEffectDriver::DeviceID </b>method sends the driver the identi
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
 
 
 

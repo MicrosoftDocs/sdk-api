@@ -4,17 +4,16 @@ title: IBDA_FDC::AddPid
 author: windows-sdk-content
 description: Adds one or more packet identifiers (PIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addpid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 28bc019c-1b5e-43e2-9fb4-7274d9c0e275
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: AddPid, AddPid method [Microsoft TV Technologies], AddPid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddPid method, IBDA_FDC.AddPid, IBDA_FDC::AddPid, bdaiface/IBDA_FDC::AddPid, mstv.ibda_fdc_addpid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FDC.AddPid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FDC::AddPid

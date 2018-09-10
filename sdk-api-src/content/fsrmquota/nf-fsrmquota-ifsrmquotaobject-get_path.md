@@ -4,17 +4,16 @@ title: IFsrmQuotaObject::get_Path
 author: windows-sdk-content
 description: Retrieves the path to which the quota applies.
 old-location: fsrm\ifsrmquotaobject_path.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: de587430-5179-4c9e-9ad0-86bb57757d1c
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],Path property, IFsrmQuotaObject.Path, IFsrmQuotaObject.get_Path, IFsrmQuotaObject::Path, IFsrmQuotaObject::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_path, fsrm.ifsrmquotaobject_path, fsrmquota/IFsrmQuotaObject::Path, fsrmquota/IFsrmQuotaObject::get_Path, get_Path
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmQuotaObject.get_Path
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaObject::get_Path

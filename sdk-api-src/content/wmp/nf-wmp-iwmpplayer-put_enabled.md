@@ -4,17 +4,16 @@ title: IWMPPlayer::put_enabled
 author: windows-sdk-content
 description: The put_enabled method specifies a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_put_enabled.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c0e29724-1689-4b59-a9bd-b9cc3f391b68
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enabled method, IWMPPlayer.put_enabled, IWMPPlayer::put_enabled, IWMPPlayerput_enabled, put_enabled, put_enabled method [Windows Media Player], put_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enabled, wmp/IWMPPlayer::put_enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlayer.put_enabled
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlayer::put_enabled

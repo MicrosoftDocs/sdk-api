@@ -4,17 +4,16 @@ title: EvtGetLogInfo function
 author: windows-sdk-content
 description: Gets information about a channel or log file.
 old-location: wes\evtgetloginfo.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 5261f367-3010-4b6d-9a53-77c908c867d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EvtGetLogInfo, EvtGetLogInfo function [EventLog], wes.evtgetloginfo, winevt/EvtGetLogInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EvtGetLogInfo
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtGetLogInfo function

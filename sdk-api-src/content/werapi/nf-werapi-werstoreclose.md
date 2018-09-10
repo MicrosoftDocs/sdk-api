@@ -4,17 +4,16 @@ title: WerStoreClose function
 author: windows-sdk-content
 description: Closes the collection of stored reports.
 old-location: wer\werstoreclose.htm
-old-project: wer
+tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Wer.lib
+req.dll: Wer.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerStoreClose
 product: Windows
 targetos: Windows
-req.lib: Wer.lib
-req.dll: Wer.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerStoreClose function

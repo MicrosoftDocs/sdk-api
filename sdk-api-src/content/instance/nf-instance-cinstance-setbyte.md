@@ -4,17 +4,16 @@ title: CInstance::SetByte
 author: windows-sdk-content
 description: The SetByte method sets a BYTE property.
 old-location: wmi\cinstance_setbyte.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetByte method, CInstance.SetByte, CInstance::SetByte, SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CInstance.SetByte
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetByte

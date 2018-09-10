@@ -4,17 +4,16 @@ title: SaslGetProfilePackageA function
 author: windows-sdk-content
 description: Returns the package information for the specified package.
 old-location: security\saslgetprofilepackage.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SaslGetProfilePackageW
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SaslGetProfilePackageA function

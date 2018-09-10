@@ -4,7 +4,7 @@ title: DESKBANDINFO
 author: windows-sdk-content
 description: Receives information about a band object. This structure is used with the deprecated IDeskBand::GetBandInfo method.
 old-location: shell\DESKBANDINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f44ef8a7-b05d-4908-95eb-b07d085e0c29
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DESKBANDINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DESKBANDINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DESKBANDINFO
+req.redist: 
 ---
 
 # DESKBANDINFO structure

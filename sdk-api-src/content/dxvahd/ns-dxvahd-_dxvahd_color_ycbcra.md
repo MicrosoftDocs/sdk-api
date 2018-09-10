@@ -4,7 +4,7 @@ title: "_DXVAHD_COLOR_YCbCrA"
 author: windows-sdk-content
 description: Specifies a YCbCr color value.
 old-location: mf\dxvahd_color_ycbcra.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3e37daf1-5529-4042-ab6e-89a7f77d5e15
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_COLOR_YCbCrA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_COLOR_YCbCrA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_COLOR_YCbCrA
+req.redist: 
 ---
 
 # _DXVAHD_COLOR_YCbCrA structure

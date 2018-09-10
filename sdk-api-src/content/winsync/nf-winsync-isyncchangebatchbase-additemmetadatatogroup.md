@@ -4,17 +4,16 @@ title: ISyncChangeBatchBase::AddItemMetadataToGroup
 author: windows-sdk-content
 description: Adds a specified item change to the group that is currently open.
 old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: cb5b5a35-70d9-413d-8bf6-7003fe7681c8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync], AddItemMetadataToGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],AddItemMetadataToGroup method, ISyncChangeBatchBase.AddItemMetadataToGroup, ISyncChangeBatchBase::AddItemMetadataToGroup, winsync.isyncchangebatchbase_additemmetadatatogroup, winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChangeBatchBase.AddItemMetadataToGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChangeBatchBase::AddItemMetadataToGroup

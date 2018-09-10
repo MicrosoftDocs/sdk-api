@@ -4,17 +4,16 @@ title: SetupDiSelectDevice function
 author: windows-sdk-content
 description: The SetupDiSelectDevice function is the default handler for the DIF_SELECTDEVICE request.
 old-location: devinst\setupdiselectdevice.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: c6a512ad-bcc6-4dc5-873e-33bdaab129e2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSelectDevice, SetupDiSelectDevice function [Device and Driver Installation], devinst.setupdiselectdevice, di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml, setupapi/SetupDiSelectDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiSelectDevice
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSelectDevice function

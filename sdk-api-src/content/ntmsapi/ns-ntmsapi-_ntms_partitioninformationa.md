@@ -4,7 +4,7 @@ title: "_NTMS_PARTITIONINFORMATIONA"
 author: windows-sdk-content
 description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
 old-location: fs\ntms_partitioninformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 75ba3b8d-4b44-49be-b238-e02e62c3def6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_PARTITIONINFORMATIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_PARTITIONINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_PARTITIONINFORMATIONA
+req.redist: 
 ---
 
 # _NTMS_PARTITIONINFORMATIONA structure

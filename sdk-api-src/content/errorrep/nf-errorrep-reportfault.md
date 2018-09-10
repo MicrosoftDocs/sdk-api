@@ -4,17 +4,16 @@ title: ReportFault function
 author: windows-sdk-content
 description: Enables an application that performs its own exception handling to report faults to Microsoft.
 old-location: wer\reportfault.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 9f7c2abc-4d9a-4f3b-a540-e4546ed709de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: errorrep.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: Faultrep.lib
+req.dll: Faultrep.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ReportFault
 product: Windows
 targetos: Windows
-req.lib: Faultrep.lib
-req.dll: Faultrep.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # ReportFault function

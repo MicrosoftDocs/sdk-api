@@ -4,17 +4,16 @@ title: IAMExtDevice::get_DevicePort
 author: windows-sdk-content
 description: The get_DevicePort method retrieves the communication port to which the external device is connected.
 old-location: dshow\iamextdevice_get_deviceport.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 307ad6ee-1084-4a83-bb19-f766f2328a0d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePort method, IAMExtDevice.get_DevicePort, IAMExtDevice::get_DevicePort, IAMExtDeviceget_DevicePort, dshow.iamextdevice_get_deviceport, get_DevicePort, get_DevicePort method [DirectShow], get_DevicePort method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtDevice.get_DevicePort
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtDevice::get_DevicePort

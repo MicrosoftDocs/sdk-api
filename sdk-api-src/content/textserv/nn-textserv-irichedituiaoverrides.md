@@ -4,7 +4,7 @@ title: IRicheditUiaOverrides
 author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
 old-location: controls\irichedituiaoverrides.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRicheditUiaOverrides
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRicheditUiaOverrides interface

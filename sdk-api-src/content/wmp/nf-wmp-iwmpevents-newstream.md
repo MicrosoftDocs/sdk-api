@@ -4,17 +4,16 @@ title: IWMPEvents::NewStream
 author: windows-sdk-content
 description: The NewStream event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__newstream.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 829cb422-eb24-4280-b565-de42c5a77b5f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],NewStream method, IWMPEvents.NewStream, IWMPEvents::NewStream, IWMPEventsNewStream, NewStream, NewStream method [Windows Media Player], NewStream method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__newstream, wmp/IWMPEvents::NewStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.NewStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::NewStream

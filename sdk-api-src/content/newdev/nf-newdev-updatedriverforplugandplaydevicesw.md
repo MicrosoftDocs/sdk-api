@@ -4,17 +4,16 @@ title: UpdateDriverForPlugAndPlayDevicesW function
 author: windows-sdk-content
 description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.
 old-location: devinst\updatedriverforplugandplaydevices.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+req.lib: Newdev.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - UpdateDriverForPlugAndPlayDevices
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateDriverForPlugAndPlayDevicesW function

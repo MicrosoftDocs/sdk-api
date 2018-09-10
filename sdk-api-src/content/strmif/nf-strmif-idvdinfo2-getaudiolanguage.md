@@ -4,17 +4,16 @@ title: IDvdInfo2::GetAudioLanguage
 author: windows-sdk-content
 description: The GetAudioLanguage method retrieves the language of the specified audio stream within the current title.
 old-location: dshow\idvdinfo2_getaudiolanguage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c95afa36-879b-4fd5-bf92-0b9b93c708ef
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioLanguage method, IDvdInfo2.GetAudioLanguage, IDvdInfo2::GetAudioLanguage, IDvdInfo2GetAudioLanguage, dshow.idvdinfo2_getaudiolanguage, strmif/IDvdInfo2::GetAudioLanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdInfo2.GetAudioLanguage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdInfo2::GetAudioLanguage

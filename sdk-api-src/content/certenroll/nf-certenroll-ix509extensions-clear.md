@@ -4,17 +4,16 @@ title: IX509Extensions::Clear
 author: windows-sdk-content
 description: Removes all IX509Extension objects from the collection.
 old-location: security\ix509extensions_clear_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: a985521d-7fcc-49e6-b625-4038939da2ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Extensions interface, IX509Extensions interface [Security],Clear method, IX509Extensions.Clear, IX509Extensions::Clear, certenroll/IX509Extensions::Clear, security.ix509extensions_clear_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Extensions.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extensions::Clear

@@ -4,17 +4,16 @@ title: CreatePointerMoniker function
 author: windows-sdk-content
 description: Creates a pointer moniker based on a pointer to an object.
 old-location: com\createpointermoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - CreatePointerMoniker
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreatePointerMoniker function

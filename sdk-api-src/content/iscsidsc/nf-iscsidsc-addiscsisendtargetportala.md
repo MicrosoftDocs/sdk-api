@@ -4,17 +4,16 @@ title: AddIScsiSendTargetPortalA function
 author: windows-sdk-content
 description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests.
 old-location: iscsidisc\addiscsisendtargetportal.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddIScsiSendTargetPortalA, AddIscsiSendTargetPortal, AddIscsiSendTargetPortal function [iSCSI Discovery Library API], AddIscsiSendTargetPortalA, AddIscsiSendTargetPortalW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsisendtargetportal, iscsidsc/AddIscsiSendTargetPortal, iscsidsc/AddIscsiSendTargetPortalA, iscsidsc/AddIscsiSendTargetPortalW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AddIscsiSendTargetPortalW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # AddIScsiSendTargetPortalA function

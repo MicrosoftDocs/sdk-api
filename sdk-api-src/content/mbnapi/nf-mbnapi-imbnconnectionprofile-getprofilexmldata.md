@@ -4,17 +4,16 @@ title: IMbnConnectionProfile::GetProfileXmlData
 author: windows-sdk-content
 description: Gets the XML data of the current profile.
 old-location: mbn\imbnconnectionprofile_getprofilexmldata.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 4a94dd33-1dad-4d0a-98e8-1ccce83f345e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProfileXmlData, GetProfileXmlData method [Microsoft Broadband Networks], GetProfileXmlData method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],GetProfileXmlData method, IMbnConnectionProfile.GetProfileXmlData, IMbnConnectionProfile::GetProfileXmlData, mbn.imbnconnectionprofile_getprofilexmldata, mbnapi/IMbnConnectionProfile::GetProfileXmlData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfile.GetProfileXmlData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfile::GetProfileXmlData

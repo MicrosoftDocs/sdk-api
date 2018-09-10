@@ -4,17 +4,16 @@ title: IMFSensorProcessActivity::GetProcessId
 author: windows-sdk-content
 description: Gets the ID of the process with which the activity is associated.
 old-location: mf\imfsensorprocessactivity_getprocessid.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorProcessActivity.GetProcessId
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProcessActivity::GetProcessId

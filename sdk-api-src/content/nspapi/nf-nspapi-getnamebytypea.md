@@ -4,17 +4,16 @@ title: GetNameByTypeA function
 author: windows-sdk-content
 description: The GetNameByType function retrieves the name of a network service for the specified service type.
 old-location: winsock\getnamebytype_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNameByType, GetNameByType function [Winsock], GetNameByTypeA, GetNameByTypeW, _win32_getnamebytype_2, nspapi/GetNameByType, nspapi/GetNameByTypeA, nspapi/GetNameByTypeW, winsock.getnamebytype_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetNameByTypeW
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetNameByTypeA function

@@ -4,7 +4,7 @@ title: "_WSMAN_SHELL_DISCONNECT_INFO"
 author: windows-sdk-content
 description: Specifies the maximum duration, in milliseconds, the shell will stay open after the client has disconnected.
 old-location: winrm\wsman_shell_disconnect_info.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: CFC855E8-25C9-45A1-8D59-55AD5D4A75F3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSMAN_SHELL_DISCONNECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSMAN_SHELL_DISCONNECT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSMAN_SHELL_DISCONNECT_INFO
+req.redist: 
 ---
 
 # _WSMAN_SHELL_DISCONNECT_INFO structure

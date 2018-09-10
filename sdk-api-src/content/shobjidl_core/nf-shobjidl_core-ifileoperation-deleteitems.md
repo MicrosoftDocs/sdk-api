@@ -4,17 +4,16 @@ title: IFileOperation::DeleteItems
 author: windows-sdk-content
 description: Declares a set of items that are to be deleted.
 old-location: shell\IFileOperation_DeleteItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 708072c4-c0c7-4d7d-a54f-234c57ff08e6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DeleteItems, DeleteItems method [Windows Shell], DeleteItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],DeleteItems method, IFileOperation.DeleteItems, IFileOperation::DeleteItems, _shell_IFileOperation_DeleteItems, shell.IFileOperation_DeleteItems, shobjidl_core/IFileOperation::DeleteItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.DeleteItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::DeleteItems

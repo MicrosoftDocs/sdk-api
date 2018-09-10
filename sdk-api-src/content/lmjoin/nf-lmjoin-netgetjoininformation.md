@@ -4,17 +4,16 @@ title: NetGetJoinInformation function
 author: windows-sdk-content
 description: The NetGetJoinInformation function retrieves join status information for the specified computer.
 old-location: netmgmt\netgetjoininformation.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll; Wkscli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - NetGetJoinInformation
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll; Wkscli.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetGetJoinInformation function

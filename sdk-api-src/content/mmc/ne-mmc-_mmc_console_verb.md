@@ -4,7 +4,7 @@ title: "_MMC_CONSOLE_VERB"
 author: windows-sdk-content
 description: The MMC_CONSOLE_VERB enumeration defines the command identifiers available for MMC verbs. These values are used in the m_eCmdID parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, and IConsoleVerb::SetDefaultVerb.
 old-location: mmc\mmc_console_verb.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 153d89f4-03de-429a-9f52-36a5f6a9762f
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_CONSOLE_VERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_CONSOLE_VERB
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_CONSOLE_VERB
+req.redist: 
 ---
 
 # _MMC_CONSOLE_VERB enumeration

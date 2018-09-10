@@ -4,17 +4,16 @@ title: BluetoothAuthenticateDeviceEx function
 author: windows-sdk-content
 description: The BluetoothAuthenticateDeviceEx function sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedeviceex.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothAuthenticateDeviceEx
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothAuthenticateDeviceEx function

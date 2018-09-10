@@ -4,17 +4,16 @@ title: IFileOperation::Unadvise
 author: windows-sdk-content
 description: Terminates an advisory connection previously established through IFileOperation::Advise.
 old-location: shell\IFileOperation_Unadvise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 684b3e94-50b9-465e-b4c3-b244fc7209f5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],Unadvise method, IFileOperation.Unadvise, IFileOperation::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileOperation interface, _shell_IFileOperation_Unadvise, shell.IFileOperation_Unadvise, shobjidl_core/IFileOperation::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::Unadvise

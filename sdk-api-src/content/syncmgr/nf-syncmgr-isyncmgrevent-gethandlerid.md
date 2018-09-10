@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetHandlerID
 author: windows-sdk-content
 description: Gets the ID of the handler for which the event was logged.
 old-location: shell\ISyncMgrEvent_GetHandlerID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b2f3bcbf-f14d-41ce-b4fc-3f491465ce84
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetHandlerID, GetHandlerID method [Windows Shell], GetHandlerID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetHandlerID method, ISyncMgrEvent.GetHandlerID, ISyncMgrEvent::GetHandlerID, _shell_ISyncMgrEvent_GetHandlerID, shell.ISyncMgrEvent_GetHandlerID, syncmgr/ISyncMgrEvent::GetHandlerID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetHandlerID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetHandlerID

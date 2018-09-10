@@ -4,17 +4,16 @@ title: IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
@@ -97,7 +95,7 @@ Type: <b>__RPC__in_opt_string</b>
 
 ### -param body
 
-
+TBD
 
 
 ### -param bodySize
@@ -107,12 +105,12 @@ Type: <b>__RPC__in_ecount_full_opt</b>
 
 ### -param forceRefresh
 
-
+TBD
 
 
 ### -param result
 
-
+TBD
 
 
 

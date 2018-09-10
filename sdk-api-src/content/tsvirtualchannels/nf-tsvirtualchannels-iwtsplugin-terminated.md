@@ -4,17 +4,16 @@ title: IWTSPlugin::Terminated
 author: windows-sdk-content
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.
 old-location: termserv\iwtsplugin_terminated.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: face8f79-f02d-465f-b716-1fa170fd6a33
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Terminated method, IWTSPlugin.Terminated, IWTSPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_terminated, tsvirtualchannels/IWTSPlugin::Terminated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSPlugin.Terminated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSPlugin::Terminated

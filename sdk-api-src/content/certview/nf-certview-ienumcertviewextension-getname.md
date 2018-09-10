@@ -4,17 +4,16 @@ title: IEnumCERTVIEWEXTENSION::GetName
 author: windows-sdk-content
 description: Retrieves the name of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getname.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CEnumCERTVIEWEXTENSION.GetName
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWEXTENSION::GetName

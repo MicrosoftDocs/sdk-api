@@ -4,7 +4,7 @@ title: IKE_AUTHENTICATION_PRESHARED_KEY
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_PRESHARED_KEY structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol.
 old-location: iscsidisc\ike_authentication_preshared_key.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 52a188b5-6b59-4ea8-89e0-d05440344dde
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKE_AUTHENTICATION_PRESHARED_KEY, *PIKE_AUTHENTICATION_PRESHARED_KEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKE_AUTHENTICATION_PRESHARED_KEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKE_AUTHENTICATION_PRESHARED_KEY, *PIKE_AUTHENTICATION_PRESHARED_KEY
+req.redist: 
 ---
 
 # IKE_AUTHENTICATION_PRESHARED_KEY structure

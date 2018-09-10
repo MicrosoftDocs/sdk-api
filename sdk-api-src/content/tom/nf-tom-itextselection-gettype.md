@@ -4,17 +4,16 @@ title: ITextSelection::GetType
 author: windows-sdk-content
 description: Gets the type of text selection.
 old-location: controls\ITextSelection_GetType.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetType method, ITextSelection.GetType, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextSelection.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextSelection::GetType

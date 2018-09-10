@@ -4,17 +4,16 @@ title: IPerChannelDbLevel::SetLevelAllChannels
 author: windows-sdk-content
 description: The SetLevelAllChannels method sets the volume levels, in decibels, of all the channels in the audio stream.
 old-location: coreaudio\iperchanneldblevel_setlevelallchannels.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 92c06b38-954d-4bab-b4ea-0f30e64aa9e4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelAllChannels method, IPerChannelDbLevel.SetLevelAllChannels, IPerChannelDbLevel::SetLevelAllChannels, IPerChannelDbLevelSetLevelAllChannels, SetLevelAllChannels, SetLevelAllChannels method [Core Audio], SetLevelAllChannels method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevelallchannels, devicetopology/IPerChannelDbLevel::SetLevelAllChannels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPerChannelDbLevel.SetLevelAllChannels
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPerChannelDbLevel::SetLevelAllChannels
@@ -64,7 +63,7 @@ The <b>SetLevelAllChannels</b> method sets the volume levels, in decibels, of al
 
 ### -param aLevelsDB
 
-
+TBD
 
 
 ### -param cChannels [in]

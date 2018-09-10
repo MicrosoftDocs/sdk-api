@@ -4,17 +4,16 @@ title: IAppxPackageReader::GetManifest
 author: windows-sdk-content
 description: Retrieves the object model of the app manifest of the package.
 old-location: appxpkg\iappxpackagereader_getmanifest.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetManifest method, IAppxPackageReader.GetManifest, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageReader.GetManifest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageReader::GetManifest

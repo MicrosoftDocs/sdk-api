@@ -4,17 +4,16 @@ title: IWMAuthorizer::GetSharedData
 author: windows-sdk-content
 description: Retrieves shared data for the specified certificate.
 old-location: wmformat\iwmauthorizer_getshareddata.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 575df33a-b29e-43eb-84c2-6f9875f26196
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSharedData, GetSharedData method [windows Media Format], GetSharedData method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetSharedData method, IWMAuthorizer.GetSharedData, IWMAuthorizer::GetSharedData, wmformat.iwmauthorizer_getshareddata, wmsecure/IWMAuthorizer::GetSharedData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMT_WATERMARK_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMAuthorizer.GetSharedData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMAuthorizer::GetSharedData

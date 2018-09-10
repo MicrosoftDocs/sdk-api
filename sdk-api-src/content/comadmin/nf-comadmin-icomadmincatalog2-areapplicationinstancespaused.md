@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::AreApplicationInstancesPaused
 author: windows-sdk-content
 description: Determines whether any of the specified application instances (processes) are paused.
 old-location: cos\icomadmincatalog2_areapplicationinstancespaused.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: b526dc2e-107c-4936-95ac-2c0c91f5c09b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AreApplicationInstancesPaused, AreApplicationInstancesPaused method [COM+], AreApplicationInstancesPaused method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AreApplicationInstancesPaused method, ICOMAdminCatalog2.AreApplicationInstancesPaused, ICOMAdminCatalog2::AreApplicationInstancesPaused, _cos_icomadmincatalog2_AreApplicationInstancesPaused, comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused, cos.icomadmincatalog2_areapplicationinstancespaused
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.AreApplicationInstancesPaused
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::AreApplicationInstancesPaused

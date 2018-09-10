@@ -4,17 +4,16 @@ title: IComTrackingInfoProperties::PropCount
 author: windows-sdk-content
 description: Retrieves the number of properties defined for a tracking information object.
 old-location: cos\icomtrackinginfoproperties_propcount.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComTrackingInfoProperties interface [COM+],PropCount method, IComTrackingInfoProperties.PropCount, IComTrackingInfoProperties::PropCount, PropCount, PropCount method [COM+], PropCount method [COM+],IComTrackingInfoProperties interface, _dtc_IComTrackingInfoProperties_PropCount, comsvcs/IComTrackingInfoProperties::PropCount, cos.icomtrackinginfoproperties_propcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTrackingInfoProperties.PropCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTrackingInfoProperties::PropCount

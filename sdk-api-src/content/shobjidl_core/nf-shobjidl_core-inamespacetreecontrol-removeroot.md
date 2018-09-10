@@ -4,17 +4,16 @@ title: INameSpaceTreeControl::RemoveRoot
 author: windows-sdk-content
 description: Removes a root and its children from a tree.
 old-location: shell\INameSpaceTreeControl_RemoveRoot.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e27e4eca-60f3-47b7-95cd-c004cda78d77
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveRoot method, INameSpaceTreeControl.RemoveRoot, INameSpaceTreeControl::RemoveRoot, RemoveRoot, RemoveRoot method [Windows Shell], RemoveRoot method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveRoot, shell.INameSpaceTreeControl_RemoveRoot, shobjidl_core/INameSpaceTreeControl::RemoveRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl.RemoveRoot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl::RemoveRoot

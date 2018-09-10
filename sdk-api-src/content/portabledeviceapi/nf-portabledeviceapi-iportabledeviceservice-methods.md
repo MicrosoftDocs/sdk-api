@@ -4,17 +4,16 @@ title: IPortableDeviceService::Methods
 author: windows-sdk-content
 description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
 old-location: wpdsdk\iportabledeviceservice_methods.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceService.Methods
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceService::Methods

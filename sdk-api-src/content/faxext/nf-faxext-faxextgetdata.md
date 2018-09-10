@@ -4,17 +4,16 @@ title: FaxExtGetData function
 author: windows-sdk-content
 description: The FaxExtGetData callback function retrieves configuration data for a specific device and GUID.
 old-location: fax\_mfax_faxextgetdata.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4s0x.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtGetData, FaxExtGetData function [Fax Service], _mfax_faxextgetdata, fax._mfax_faxextgetdata, faxext/FaxExtGetData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: faxext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SEND, *PFAX_SEND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FaxExtGetData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FaxExtGetData function

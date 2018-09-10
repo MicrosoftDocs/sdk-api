@@ -4,17 +4,16 @@ title: IMonthlyDOWTrigger::get_DaysOfWeek
 author: windows-sdk-content
 description: Gets or sets the days of the week during which the task runs.
 old-location: taskschd\imonthlydowtrigger_daysofweek.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IMonthlyDOWTrigger interface, IMonthlyDOWTrigger interface [Task Scheduler],DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger.get_DaysOfWeek, IMonthlyDOWTrigger::DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMonthlyDOWTrigger.put_DaysOfWeek
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMonthlyDOWTrigger::get_DaysOfWeek

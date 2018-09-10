@@ -4,7 +4,7 @@ title: "_IPX_SERVICE"
 author: windows-sdk-content
 description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
 old-location: rras\ipx_service.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPX_SERVICE, *PIPX_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPX_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: IPX_SERVICE, *PIPX_SERVICE
+req.redist: 
 ---
 
 # _IPX_SERVICE structure

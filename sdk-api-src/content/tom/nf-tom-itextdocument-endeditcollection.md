@@ -4,17 +4,16 @@ title: ITextDocument::EndEditCollection
 author: windows-sdk-content
 description: Turns off edit collection (also called undo grouping).
 old-location: controls\ITextDocument_EndEditCollection.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EndEditCollection, EndEditCollection method [Windows Controls], EndEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],EndEditCollection method, ITextDocument.EndEditCollection, ITextDocument::EndEditCollection, _win32_ITextDocument_EndEditCollection, _win32_ITextDocument_EndEditCollection_cpp, controls.ITextDocument_EndEditCollection, controls._win32_ITextDocument_EndEditCollection, tom/ITextDocument::EndEditCollection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument.EndEditCollection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument::EndEditCollection

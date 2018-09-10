@@ -4,17 +4,16 @@ title: RegOpenKeyExW function
 author: windows-sdk-content
 description: Opens the specified registry key. Note that key names are not case sensitive.
 old-location: base\regopenkeyex.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: REG_OPTION_OPEN_LINK, RegOpenKeyEx, RegOpenKeyEx function, RegOpenKeyExA, RegOpenKeyExW, _win32_regopenkeyex, base.regopenkeyex, winreg/RegOpenKeyEx, winreg/RegOpenKeyExA, winreg/RegOpenKeyExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegOpenKeyExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegOpenKeyExW function

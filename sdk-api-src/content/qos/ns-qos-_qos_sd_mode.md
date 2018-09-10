@@ -4,7 +4,7 @@ title: "_QOS_SD_MODE"
 author: windows-sdk-content
 description: The QOS object QOS_SD_MODE defines the behavior of the traffic control-packet shaper component.
 old-location: qos\qos_sd_mode.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: a1ae9920-3e6f-4611-abce-905df7a516f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_SD_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
+req.redist: 
 ---
 
 # _QOS_SD_MODE structure

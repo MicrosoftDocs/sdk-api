@@ -4,17 +4,16 @@ title: IWMDMProgress2::End2
 author: windows-sdk-content
 description: The End2 method extends IWMDMProgress::End by providing a completion status indicator.
 old-location: wmdm\iwmdmprogress2_end2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 85265eb7-0702-4890-b6cb-b247296fe392
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [windows Media Device Manager],IWMDMProgress2 interface, IWMDMProgress2 interface [windows Media Device Manager],End2 method, IWMDMProgress2.End2, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMProgress2.End2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMProgress2::End2

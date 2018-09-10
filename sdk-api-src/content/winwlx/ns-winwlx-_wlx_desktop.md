@@ -4,7 +4,7 @@ title: "_WLX_DESKTOP"
 author: windows-sdk-content
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 old-location: security\wlx_desktop.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLX_DESKTOP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
+req.redist: 
 ---
 
 # _WLX_DESKTOP structure

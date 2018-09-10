@@ -4,17 +4,16 @@ title: IFileDialog::AddPlace
 author: windows-sdk-content
 description: Adds a folder to the list of places available for the user to open or save items.
 old-location: shell\IFileDialog_AddPlace.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2196e73f-4e0f-4213-b0a2-13a047486f40
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],AddPlace method, IFileDialog.AddPlace, IFileDialog::AddPlace, shell.IFileDialog_AddPlace, shell_IFileDialog_AddPlace, shobjidl_core/IFileDialog::AddPlace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.AddPlace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::AddPlace

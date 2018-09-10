@@ -4,17 +4,16 @@ title: CObjectPathParser::Parse
 author: windows-sdk-content
 description: Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_parse.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c39dbef5-9050-487a-8e06-17087753330d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser interface [Windows Management Instrumentation],Parse method, CObjectPathParser.Parse, CObjectPathParser::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objpath.h
 req.include-header: ObjPath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CObjectPathParser::Parse
@@ -71,7 +69,7 @@ Parses a string that contains a WMI path into a structure the contains the path 
 
 ### -param RawPath
 
-
+TBD
 
 
 ### -param pOutput [out]

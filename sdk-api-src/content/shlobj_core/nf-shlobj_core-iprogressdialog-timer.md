@@ -4,17 +4,16 @@ title: IProgressDialog::Timer
 author: windows-sdk-content
 description: Resets the progress dialog box timer to zero.
 old-location: shell\IProgressDialog_Timer.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ab048787-e555-4d5d-994a-1fc6f273312b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IProgressDialog interface [Windows Shell],Timer method, IProgressDialog.Timer, IProgressDialog::Timer, PDTIMER_PAUSE, PDTIMER_RESET, PDTIMER_RESUME, Timer, Timer method [Windows Shell], Timer method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_Timer, shell.IProgressDialog_Timer, shlobj_core/IProgressDialog::Timer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressDialog.Timer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressDialog::Timer
@@ -87,7 +85,7 @@ Progress has been resumed.
 
 ### -param pvResevered
 
-
+TBD
 
 
 

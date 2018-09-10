@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::EnumerateSelectedCalls
 author: windows-sdk-content
 description: The EnumerateSelectedCalls method retrieves an enumerator object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_enumerateselectedcalls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 534d453c-f47c-48e1-af59-bfa452e2d8d8
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateSelectedCalls, EnumerateSelectedCalls method [TAPI 2.2], EnumerateSelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, ITAutomatedPhoneControl interface [TAPI 2.2],EnumerateSelectedCalls method, ITAutomatedPhoneControl.EnumerateSelectedCalls, ITAutomatedPhoneControl::EnumerateSelectedCalls, _tapi3_itautomatedphonecontrol_enumerateselectedcalls, tapi3.itautomatedphonecontrol_enumerateselectedcalls, tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.EnumerateSelectedCalls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::EnumerateSelectedCalls

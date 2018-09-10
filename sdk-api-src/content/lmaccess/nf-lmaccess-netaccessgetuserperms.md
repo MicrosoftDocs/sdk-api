@@ -4,17 +4,16 @@ title: NetAccessGetUserPerms function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAccessGetUserPerms
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetAccessGetUserPerms function

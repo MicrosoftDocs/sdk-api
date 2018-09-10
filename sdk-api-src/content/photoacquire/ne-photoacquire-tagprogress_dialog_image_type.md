@@ -4,7 +4,7 @@ title: tagPROGRESS_DIALOG_IMAGE_TYPE
 author: windows-sdk-content
 description: The PROGRESS_DIALOG_IMAGE_TYPE enumeration type indicates the image type set in IPhotoProgressDialog::SetImage.
 old-location: picacq\progress_dialog_image_type.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 05da00c6-e8de-4482-ab2c-f1b969cfa877
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROGRESS_DIALOG_IMAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROGRESS_DIALOG_IMAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROGRESS_DIALOG_IMAGE_TYPE
+req.redist: 
 ---
 
 # tagPROGRESS_DIALOG_IMAGE_TYPE enumeration

@@ -4,17 +4,16 @@ title: SHFormatDrive function
 author: windows-sdk-content
 description: SHFormatDrive may be altered or unavailable.
 old-location: shell\SHFormatDrive.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4aa255fa-c407-47db-9b1f-d449e0a0e94f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHFMT_ID_DEFAULT, SHFMT_OPT_FULL, SHFMT_OPT_SYSONLY, SHFormatDrive, SHFormatDrive function [Windows Shell], shell.SHFormatDrive, shell_SHFormatDrive, shlobj_core/SHFormatDrive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHFormatDrive
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHFormatDrive function

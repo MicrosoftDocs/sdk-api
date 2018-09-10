@@ -4,7 +4,7 @@ title: tagLAYERPLANEDESCRIPTOR
 author: windows-sdk-content
 description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\layerplanedescriptor.htm
-old-project: OpenGL
+tech.root: OpenGL
 ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LAYERPLANEDESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
+req.redist: 
 ---
 
 # tagLAYERPLANEDESCRIPTOR structure

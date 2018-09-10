@@ -4,17 +4,16 @@ title: MFCreateAlignedMemoryBuffer function
 author: windows-sdk-content
 description: Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
 old-location: mf\mfcreatealignedmemorybuffer.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateAlignedMemoryBuffer
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateAlignedMemoryBuffer function

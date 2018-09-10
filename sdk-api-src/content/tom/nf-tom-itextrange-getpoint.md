@@ -4,17 +4,16 @@ title: ITextRange::GetPoint
 author: windows-sdk-content
 description: Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
 old-location: controls\ITextRange_GetPoint.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpoint.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPoint, GetPoint method [Windows Controls], GetPoint method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPoint method, ITextRange.GetPoint, ITextRange::GetPoint, _win32_ITextRange_GetPoint, _win32_ITextRange_GetPoint_cpp, controls.ITextRange_GetPoint, controls._win32_ITextRange_GetPoint, tom/ITextRange::GetPoint, tomAllowOffClient, tomClientCoord, tomEnd, tomObjectArg, tomStart, tomTransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.GetPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::GetPoint

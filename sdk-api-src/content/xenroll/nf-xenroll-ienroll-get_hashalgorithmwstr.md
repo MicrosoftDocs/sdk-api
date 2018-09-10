@@ -4,17 +4,16 @@ title: IEnroll::get_HashAlgorithmWStr
 author: windows-sdk-content
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
 old-location: security\ienroll4_hashalgorithmwstr.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.get_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, get_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_HashAlgorithmWStr
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::get_HashAlgorithmWStr

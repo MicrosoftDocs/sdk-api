@@ -4,17 +4,16 @@ title: IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)
 author: windows-sdk-content
 description: Changes the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisz_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 2150E564-0E19-40E9-9D33-53EA17917A8F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisZ(float), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionRotateTransform3D.SetAxisZ
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)
@@ -61,7 +60,7 @@ Changes the value of the AxisZ property of a 3D rotation transform. The AxisZ pr
 
 ### -param animation
 
-
+TBD
 
 
 

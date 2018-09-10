@@ -4,17 +4,16 @@ title: ITfCandidateList::GetCandidate
 author: windows-sdk-content
 description: ITfCandidateList::GetCandidate method
 old-location: tsf\itfcandidatelist_getcandidate.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfIntegratableCandidateListSelectionStyle
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfCandidateList.GetCandidate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCandidateList::GetCandidate

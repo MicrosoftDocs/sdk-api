@@ -4,17 +4,16 @@ title: IEnumSyncMgrSyncItems::Skip
 author: windows-sdk-content
 description: Skips forward in the enumeration the specified number of items.
 old-location: shell\IEnumSyncMgrSyncItems_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a07038de-84dc-4371-b72f-c835efd73ffc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Skip method, IEnumSyncMgrSyncItems.Skip, IEnumSyncMgrSyncItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Skip, shell.IEnumSyncMgrSyncItems_Skip, syncmgr/IEnumSyncMgrSyncItems::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrSyncItems.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrSyncItems::Skip

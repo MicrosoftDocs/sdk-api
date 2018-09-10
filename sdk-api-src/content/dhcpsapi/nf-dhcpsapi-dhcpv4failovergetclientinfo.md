@@ -4,17 +4,16 @@ title: DhcpV4FailoverGetClientInfo function
 author: windows-sdk-content
 description: Retrieves the DHCPv4 client lease information.
 old-location: dhcp\dhcpv4failovergetclientinfo.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 125665d1-5af6-4d8f-b7fe-cdbff6a7b415
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4FailoverGetClientInfo, DhcpV4FailoverGetClientInfo function [DHCP], dhcp.dhcpv4failovergetclientinfo, dhcpsapi/DhcpV4FailoverGetClientInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4FailoverGetClientInfo
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4FailoverGetClientInfo function

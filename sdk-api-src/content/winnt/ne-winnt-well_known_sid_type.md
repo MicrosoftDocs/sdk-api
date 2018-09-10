@@ -4,7 +4,7 @@ title: WELL_KNOWN_SID_TYPE
 author: windows-sdk-content
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the CreateWellKnownSid function to create a SID from this list.
 old-location: security\well_known_sid_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 6f1fa59e-17c0-412b-937b-ddf746ed68bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WELL_KNOWN_SID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WELL_KNOWN_SID_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WELL_KNOWN_SID_TYPE
+req.redist: 
 ---
 
 # WELL_KNOWN_SID_TYPE enumeration

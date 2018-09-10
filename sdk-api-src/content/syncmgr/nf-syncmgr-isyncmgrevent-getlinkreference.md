@@ -4,17 +4,16 @@ title: ISyncMgrEvent::GetLinkReference
 author: windows-sdk-content
 description: Gets the reference for the hot link for the event. The hot link is a displayed property that the user can click to execute an action. This allows the handler to show an available action that the user can see at a glance in the folder.
 old-location: shell\ISyncMgrEvent_GetLinkReference.htm
-old-project: shell
+tech.root: shell
 ms.assetid: de625328-59ba-4574-9b7b-3e8fc643c8ad
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetLinkReference, GetLinkReference method [Windows Shell], GetLinkReference method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkReference method, ISyncMgrEvent.GetLinkReference, ISyncMgrEvent::GetLinkReference, _shell_ISyncMgrEvent_GetLinkReference, shell.ISyncMgrEvent_GetLinkReference, syncmgr/ISyncMgrEvent::GetLinkReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEvent.GetLinkReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEvent::GetLinkReference

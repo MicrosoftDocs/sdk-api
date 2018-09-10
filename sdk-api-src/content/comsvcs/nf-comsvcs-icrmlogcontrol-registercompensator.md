@@ -4,17 +4,16 @@ title: ICrmLogControl::RegisterCompensator
 author: windows-sdk-content
 description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
 old-location: cos\icrmlogcontrol_registercompensator.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f7907dff-a4a1-4526-8dab-547e819199ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmLogControl interface [COM+],RegisterCompensator method, ICrmLogControl.RegisterCompensator, ICrmLogControl::RegisterCompensator, RegisterCompensator, RegisterCompensator method [COM+], RegisterCompensator method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_RegisterCompensator, comsvcs/ICrmLogControl::RegisterCompensator, cos.icrmlogcontrol_registercompensator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmLogControl.RegisterCompensator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmLogControl::RegisterCompensator

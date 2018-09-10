@@ -4,7 +4,7 @@ title: "_WER_REPORT_INFORMATION"
 author: windows-sdk-content
 description: Contains information used by the WerReportCreate function.
 old-location: wer\wer_report_information.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 3efe2b43-53ac-48e3-bc39-4a9fe6041fca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WER_REPORT_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
+req.redist: 
 ---
 
 # _WER_REPORT_INFORMATION structure

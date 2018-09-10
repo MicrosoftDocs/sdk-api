@@ -4,7 +4,7 @@ title: VSS_ALTERNATE_WRITER_STATE
 author: windows-sdk-content
 description: Used to indicate whether a given writer has an associated alternate writer.
 old-location: base\vss_alternate_writer_state.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 8d41fd9d-6448-4bec-a669-4aa50f37cada
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_ALTERNATE_WRITER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_ALTERNATE_WRITER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_ALTERNATE_WRITER_STATE
+req.redist: 
 ---
 
 # VSS_ALTERNATE_WRITER_STATE enumeration

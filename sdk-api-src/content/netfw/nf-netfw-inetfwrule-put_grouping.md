@@ -4,17 +4,16 @@ title: INetFwRule::put_Grouping
 author: windows-sdk-content
 description: Specifies the group to which an individual rule belongs.
 old-location: ics\inetfwrule_grouping.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.put_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Grouping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_Grouping

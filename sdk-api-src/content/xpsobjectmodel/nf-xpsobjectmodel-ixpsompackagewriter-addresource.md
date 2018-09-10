@@ -4,17 +4,16 @@ title: IXpsOMPackageWriter::AddResource
 author: windows-sdk-content
 description: Creates a new part resource in the package.
 old-location: xps\ixpsompackagewriter_addresource.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: eb81efb8-f3cd-448d-ab60-34acf13db4cd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddResource, AddResource method [XPS Documents and Packaging], AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddResource method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter.AddResource, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddResource method, IXpsOMPackageWriter3D::AddResource, IXpsOMPackageWriter::AddResource, xps.ixpsompackagewriter_addresource, xpsobjectmodel/IXpsOMPackageWriter3D::AddResource, xpsobjectmodel/IXpsOMPackageWriter::AddResource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IXpsOMPackageWriter3D.AddResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPackageWriter::AddResource

@@ -4,17 +4,16 @@ title: ISpatialAudioObject::SetPosition
 author: windows-sdk-content
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObject audio data will be rendered.
 old-location: coreaudio\ispatialaudioobject_setposition.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: DDF4859E-6510-45D5-82E7-2C5A7F2EC679
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetPosition method, ISpatialAudioObject.SetPosition, ISpatialAudioObject::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setposition, spatialaudioclient/ISpatialAudioObject::SetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObject.SetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObject::SetPosition

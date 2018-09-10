@@ -4,7 +4,7 @@ title: "_NORMALIZEDRECT"
 author: windows-sdk-content
 description: The NORMALIZEDRECT structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
 old-location: dshow\normalizedrect.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c40a0feb-f33e-40e3-9c58-0a22d2aa1858
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORMALIZEDRECT, *PNORMALIZEDRECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NORMALIZEDRECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: NORMALIZEDRECT, *PNORMALIZEDRECT
+req.redist: 
 ---
 
 # _NORMALIZEDRECT structure

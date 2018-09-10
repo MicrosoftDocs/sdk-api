@@ -4,17 +4,16 @@ title: ldap_compare_s function
 author: windows-sdk-content
 description: Use the ldap_compare_s function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare_s.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 44a7001d-d7ad-4b29-80bf-8d4b06e0fa43
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_compare_s, ldap.ldap__compare__s, ldap.ldap_compare_s, ldap_compare_s, ldap_compare_s function [LDAP], ldap_compare_sA, ldap_compare_sW, winldap/ldap_compare_s, winldap/ldap_compare_sA, winldap/ldap_compare_sW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_compare_sW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_compare_s function

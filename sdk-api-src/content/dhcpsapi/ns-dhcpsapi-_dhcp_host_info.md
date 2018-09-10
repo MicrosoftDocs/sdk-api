@@ -4,7 +4,7 @@ title: "_DHCP_HOST_INFO"
 author: windows-sdk-content
 description: The DHCP_HOST_INFO structure defines information on a DHCP server (host).
 old-location: dhcp\dhcp_host_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3d38f69d-2808-4e52-a3da-b6142578c981
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_HOST_INFO, *LPDHCP_HOST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_HOST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_HOST_INFO, *LPDHCP_HOST_INFO
+req.redist: 
 ---
 
 # _DHCP_HOST_INFO structure

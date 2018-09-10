@@ -4,7 +4,7 @@ title: "_WS_ASYNC_STATE"
 author: windows-sdk-content
 description: Used by WsAsyncExecute to manage the state of an asynchronous operation.
 old-location: wsw\ws_async_state.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: ca7f14a9-bee8-46ed-a082-7e64a41f7493
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ASYNC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ASYNC_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ASYNC_STATE
+req.redist: 
 ---
 
 # _WS_ASYNC_STATE structure

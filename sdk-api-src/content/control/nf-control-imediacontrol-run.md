@@ -4,17 +4,16 @@ title: IMediaControl::Run
 author: windows-sdk-content
 description: The Run method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.
 old-location: dshow\imediacontrol_run.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b52a5fa7-96f8-4949-9cf0-2d526f23bee1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaControl interface [DirectShow],Run method, IMediaControl.Run, IMediaControl::Run, IMediaControlRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaControl interface, control/IMediaControl::Run, dshow.imediacontrol_run
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IMediaControl.Run
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaControl::Run

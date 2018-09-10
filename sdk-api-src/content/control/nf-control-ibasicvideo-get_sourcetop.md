@@ -4,17 +4,16 @@ title: IBasicVideo::get_SourceTop
 author: windows-sdk-content
 description: The get_SourceTop method retrieves the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourcetop.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 87ad3699-5a1b-4fa0-b7bd-5ec87758e9fa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_SourceTop method, IBasicVideo.get_SourceTop, IBasicVideo::get_SourceTop, IBasicVideoget_SourceTop, control/IBasicVideo::get_SourceTop, dshow.ibasicvideo_get_sourcetop, get_SourceTop, get_SourceTop method [DirectShow], get_SourceTop method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_SourceTop
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_SourceTop

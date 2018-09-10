@@ -4,17 +4,16 @@ title: TcGetFlowNameA function
 author: windows-sdk-content
 description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
 old-location: qos\tcgetflowname.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetFlowNameW, _gqos_tcgetflowname, qos.tcgetflowname, traffic/TcGetFlowName, traffic/TcGetFlowNameA, traffic/TcGetFlowNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - TcGetFlowNameW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcGetFlowNameA function

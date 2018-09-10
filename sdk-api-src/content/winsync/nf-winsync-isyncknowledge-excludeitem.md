@@ -4,17 +4,16 @@ title: ISyncKnowledge::ExcludeItem
 author: windows-sdk-content
 description: Removes knowledge about the specified item from the knowledge.
 old-location: winsync\isyncknowledge_excludeitem.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ExcludeItem, ExcludeItem method [Windows Sync], ExcludeItem method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeItem method, ISyncKnowledge.ExcludeItem, ISyncKnowledge::ExcludeItem, winsync.isyncknowledge_excludeitem, winsync/ISyncKnowledge::ExcludeItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.ExcludeItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::ExcludeItem

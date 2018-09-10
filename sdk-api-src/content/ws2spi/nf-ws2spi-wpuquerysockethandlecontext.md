@@ -4,17 +4,16 @@ title: WPUQuerySocketHandleContext function
 author: windows-sdk-content
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPUQuerySocketHandleContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WPUQuerySocketHandleContext function

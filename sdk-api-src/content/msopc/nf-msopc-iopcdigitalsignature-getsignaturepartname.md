@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetSignaturePartName
 author: windows-sdk-content
 description: Gets the part name of the part that contains the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturepartname.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 0a7f9413-d44d-4d3d-bb4e-01ef14ee7a1c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartName method, IOpcDigitalSignature.GetSignaturePartName, IOpcDigitalSignature::GetSignaturePartName, msopc/IOpcDigitalSignature::GetSignaturePartName, opc.iopcdigitalsignature_getsignaturepartname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetSignaturePartName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetSignaturePartName

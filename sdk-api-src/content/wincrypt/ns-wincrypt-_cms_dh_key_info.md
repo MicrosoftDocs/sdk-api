@@ -4,7 +4,7 @@ title: "_CMS_DH_KEY_INFO"
 author: windows-sdk-content
 description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.
 old-location: security\cms_dh_key_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ecfd8a63-95f9-4026-b31b-671ea58b683f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMS_DH_KEY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
+req.redist: 
 ---
 
 # _CMS_DH_KEY_INFO structure

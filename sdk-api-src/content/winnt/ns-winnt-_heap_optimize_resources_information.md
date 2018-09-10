@@ -4,7 +4,7 @@ title: "_HEAP_OPTIMIZE_RESOURCES_INFORMATION"
 author: windows-sdk-content
 description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.
 old-location: base\heap_optimize_resources_information.htm
-old-project: memory
+tech.root: memory
 ms.assetid: c801a08a-0b1a-4ffe-8ec7-c3ea8d913ec8
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HEAP_OPTIMIZE_RESOURCES_INFORMATION, *PHEAP_OPTIMIZE_RESOURCES_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HEAP_OPTIMIZE_RESOURCES_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: HEAP_OPTIMIZE_RESOURCES_INFORMATION, *PHEAP_OPTIMIZE_RESOURCES_INFORMATION
+req.redist: 
 ---
 
 # _HEAP_OPTIMIZE_RESOURCES_INFORMATION structure

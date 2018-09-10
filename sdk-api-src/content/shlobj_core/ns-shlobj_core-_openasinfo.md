@@ -4,7 +4,7 @@ title: "_openasinfo"
 author: windows-sdk-content
 description: Stores information for the SHOpenWithDialog function.
 old-location: shell\OPENASINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5486c4d3-c6c5-459d-aa7f-426971184876
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPENASINFO, *POPENASINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OPENASINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: OPENASINFO, *POPENASINFO
+req.redist: 
 ---
 
 # _openasinfo structure

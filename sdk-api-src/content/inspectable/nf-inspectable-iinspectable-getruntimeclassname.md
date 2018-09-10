@@ -4,17 +4,16 @@ title: IInspectable::GetRuntimeClassName
 author: windows-sdk-content
 description: Gets the fully qualified name of the current Windows Runtime object.
 old-location: winrt\iinspectable_getruntimeclassname.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: E0A0B56D-E676-46FD-873D-11309102DFFD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRuntimeClassName, GetRuntimeClassName method [Windows Runtime], GetRuntimeClassName method [Windows Runtime],IInputPaneInterop interface, GetRuntimeClassName method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetRuntimeClassName method, IInputPaneInterop::GetRuntimeClassName, IInspectable interface [Windows Runtime],GetRuntimeClassName method, IInspectable.GetRuntimeClassName, IInspectable::GetRuntimeClassName, inspectable/IInputPaneInterop::GetRuntimeClassName, inspectable/IInspectable::GetRuntimeClassName, winrt.iinspectable_getruntimeclassname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inspectable.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInputPaneInterop.GetRuntimeClassName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInspectable::GetRuntimeClassName

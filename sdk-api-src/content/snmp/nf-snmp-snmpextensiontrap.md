@@ -4,17 +4,16 @@ title: SnmpExtensionTrap function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
 old-location: snmp\snmpextensiontrap.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_NONGENUINE_UI_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpExtensionTrap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpExtensionTrap function

@@ -4,17 +4,16 @@ title: ITypeLib::GetTypeInfoOfGuid
 author: windows-sdk-content
 description: Retrieves the type description that corresponds to the specified GUID.
 old-location: automat\itypelib_gettypeinfoofguid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypeInfoOfGuid, GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoOfGuid method, ITypeLib.GetTypeInfoOfGuid, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeLib.GetTypeInfoOfGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeLib::GetTypeInfoOfGuid

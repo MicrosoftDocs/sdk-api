@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig::SetBufferingTime
 author: windows-sdk-content
 description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.
 old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetBufferingTime method, IWMReaderNetworkConfig.SetBufferingTime, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig.SetBufferingTime
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig::SetBufferingTime

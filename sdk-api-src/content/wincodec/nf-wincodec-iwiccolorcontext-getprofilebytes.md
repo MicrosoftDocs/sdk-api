@@ -4,17 +4,16 @@ title: IWICColorContext::GetProfileBytes
 author: windows-sdk-content
 description: Retrieves the color context profile.
 old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProfileBytes, GetProfileBytes method [Windows Imaging Component], GetProfileBytes method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetProfileBytes method, IWICColorContext.GetProfileBytes, IWICColorContext::GetProfileBytes, _wic_codec_iwiccolorcontext_getprofilebytes, wic._wic_codec_iwiccolorcontext_getprofilebytes, wincodec/IWICColorContext::GetProfileBytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICColorContext.GetProfileBytes
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICColorContext::GetProfileBytes

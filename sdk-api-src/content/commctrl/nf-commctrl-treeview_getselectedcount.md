@@ -4,17 +4,16 @@ title: TreeView_GetSelectedCount macro
 author: windows-sdk-content
 description: TreeView_GetSelectedCount macro
 old-location: controls\TreeView_GetSelectedCount.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_GetSelectedCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_GetSelectedCount macro

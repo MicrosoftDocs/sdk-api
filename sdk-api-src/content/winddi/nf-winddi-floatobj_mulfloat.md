@@ -4,17 +4,16 @@ title: FLOATOBJ_MulFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_MulFloat function multiplies the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_mulfloat.htm
-old-project: display
+tech.root: display
 ms.assetid: 7b4189f7-b80b-4543-b713-b0b2d06ef81e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_MulFloat, FLOATOBJ_MulFloat function [Display Devices], display.floatobj_mulfloat, gdifncs_39da7310-f7d3-4ceb-8bd5-c2a0eaab0068.xml, winddi/FLOATOBJ_MulFloat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_MulFloat
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_MulFloat function

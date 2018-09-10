@@ -4,17 +4,16 @@ title: IMSVidCtl::put_InputActive
 author: windows-sdk-content
 description: The put_InputActive method specifies the input device to use in the filter graph.
 old-location: mstv\imsvidctl_put_inputactive.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 696d8ece-a377-4fe8-a790-a68d1a24e65a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_InputActive method, IMSVidCtl.put_InputActive, IMSVidCtl::put_InputActive, IMSVidCtlput_InputActive, mstv.imsvidctl_put_inputactive, msvidctl/IMSVidCtl::put_InputActive, put_InputActive, put_InputActive method [Microsoft TV Technologies], put_InputActive method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.put_InputActive
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::put_InputActive

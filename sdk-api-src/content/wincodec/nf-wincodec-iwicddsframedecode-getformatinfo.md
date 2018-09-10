@@ -4,17 +4,16 @@ title: IWICDdsFrameDecode::GetFormatInfo
 author: windows-sdk-content
 description: Gets information about the format in which the DDS image is stored.
 old-location: wic\iwicddsframedecode_getformatinfo.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDdsFrameDecode.GetFormatInfo
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDdsFrameDecode::GetFormatInfo

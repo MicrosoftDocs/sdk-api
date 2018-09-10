@@ -4,17 +4,16 @@ title: IX509Enrollment::put_ParentWindow
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display the enrollment information.
 old-location: security\ix509enrollment_parentwindow_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 154a73ae-e007-437b-87c3-33c2abb27aa4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509Enrollment interface [Security],ParentWindow property, IX509Enrollment.ParentWindow, IX509Enrollment.put_ParentWindow, IX509Enrollment::ParentWindow, IX509Enrollment::get_ParentWindow, IX509Enrollment::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::ParentWindow, certenroll/IX509Enrollment::get_ParentWindow, certenroll/IX509Enrollment::put_ParentWindow, put_ParentWindow, security.ix509enrollment_parentwindow_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509Enrollment.put_ParentWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::put_ParentWindow

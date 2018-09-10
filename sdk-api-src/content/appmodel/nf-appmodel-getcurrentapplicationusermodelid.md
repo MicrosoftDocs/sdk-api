@@ -4,17 +4,16 @@ title: GetCurrentApplicationUserModelId function
 author: windows-sdk-content
 description: Gets the application user model ID for the current process.
 old-location: appxpkg\getcurrentapplicationusermodelid.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PackageOrigin
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - GetCurrentApplicationUserModelId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetCurrentApplicationUserModelId function

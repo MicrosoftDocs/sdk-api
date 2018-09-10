@@ -4,17 +4,16 @@ title: IDefaultExtractIconInit::SetKey
 author: windows-sdk-content
 description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.
 old-location: shell\IDefaultExtractIconInit_SetKey.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dce75b90-f569-4983-a540-82a021377287
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetKey method, IDefaultExtractIconInit.SetKey, IDefaultExtractIconInit::SetKey, SetKey, SetKey method [Windows Shell], SetKey method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetKey, shell.IDefaultExtractIconInit_SetKey, shobjidl_core/IDefaultExtractIconInit::SetKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDefaultExtractIconInit.SetKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDefaultExtractIconInit::SetKey

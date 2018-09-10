@@ -4,17 +4,16 @@ title: IImageList::DragEnter
 author: windows-sdk-content
 description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
 old-location: controls\IImageList_DragEnter.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragEnter method, IImageList.DragEnter, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.DragEnter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::DragEnter

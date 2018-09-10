@@ -4,7 +4,7 @@ title: "_DRMTIMETYPE"
 author: windows-sdk-content
 description: The DRMTIMETYPE enumeration specifies a time type.
 old-location: rm\drmtimetype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 0adb6824-0b6e-414a-b9d2-a3266c80df23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMTIMETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMTIMETYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRMTIMETYPE
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

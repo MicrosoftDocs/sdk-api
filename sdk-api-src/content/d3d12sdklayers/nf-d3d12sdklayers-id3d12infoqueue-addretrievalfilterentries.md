@@ -4,17 +4,16 @@ title: ID3D12InfoQueue::AddRetrievalFilterEntries
 author: windows-sdk-content
 description: Add storage filters to the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_addretrievalfilterentries.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 66430A0A-0279-4D2D-A34D-D49C7940DB87
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method, AddRetrievalFilterEntries method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddRetrievalFilterEntries method, ID3D12InfoQueue.AddRetrievalFilterEntries, ID3D12InfoQueue::AddRetrievalFilterEntries, d3d12sdklayers/ID3D12InfoQueue::AddRetrievalFilterEntries, direct3d12.id3d12infoqueue_addretrievalfilterentries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12InfoQueue.AddRetrievalFilterEntries
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12InfoQueue::AddRetrievalFilterEntries

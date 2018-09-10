@@ -4,7 +4,7 @@ title: tagBITMAPFILEHEADER
 author: windows-sdk-content
 description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.
 old-location: gdi\bitmapfileheader.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: ae24c4db-fc29-4c97-bf78-069794c8d844
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAPFILEHEADER, *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BITMAPFILEHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BITMAPFILEHEADER, *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER
+req.redist: 
 ---
 
 # tagBITMAPFILEHEADER structure

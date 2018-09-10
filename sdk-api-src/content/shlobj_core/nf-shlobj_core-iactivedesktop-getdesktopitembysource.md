@@ -4,17 +4,16 @@ title: IActiveDesktop::GetDesktopItemBySource
 author: windows-sdk-content
 description: Gets a desktop item using its source URL.
 old-location: lwef\iactivedesktop_getdesktopitembysource.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: 9449238a-c1af-493c-9c23-503317fe6656
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDesktopItemBySource, GetDesktopItemBySource method [Legacy Windows Environment Features], GetDesktopItemBySource method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemBySource method, IActiveDesktop.GetDesktopItemBySource, IActiveDesktop::GetDesktopItemBySource, _win32_IActiveDesktop_GetDesktopItemBySource, lwef.iactivedesktop_getdesktopitembysource, shell.iactivedesktop_getdesktopitembysource, shlobj_core/IActiveDesktop::GetDesktopItemBySource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.GetDesktopItemBySource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::GetDesktopItemBySource
@@ -62,7 +60,7 @@ Gets a desktop item using its source URL.
 
 ### -param pwszSource
 
-
+TBD
 
 
 ### -param pcomp [in, out]

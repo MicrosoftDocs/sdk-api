@@ -4,17 +4,16 @@ title: RtmCreateRouteList function
 author: windows-sdk-content
 description: The RtmCreateRouteList function creates a list in which the caller can keep a copy of the routes it owns.
 old-location: rras\rtmcreateroutelist.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmCreateRouteList
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmCreateRouteList function

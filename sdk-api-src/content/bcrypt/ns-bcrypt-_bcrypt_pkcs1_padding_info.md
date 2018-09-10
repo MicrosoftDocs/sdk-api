@@ -4,7 +4,7 @@ title: "_BCRYPT_PKCS1_PADDING_INFO"
 author: windows-sdk-content
 description: Used to provide options for the PKCS #1 padding scheme.
 old-location: security\bcrypt_pkcs1_padding_info.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_PKCS1_PADDING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_PKCS1_PADDING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_PKCS1_PADDING_INFO
+req.redist: 
 ---
 
 # _BCRYPT_PKCS1_PADDING_INFO structure

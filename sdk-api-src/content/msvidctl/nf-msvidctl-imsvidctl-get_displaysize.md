@@ -4,17 +4,16 @@ title: IMSVidCtl::get_DisplaySize
 author: windows-sdk-content
 description: The get_DisplaySize method retrieves the display size.
 old-location: mstv\imsvidctl_get_displaysize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f3d5ed73-4781-46fb-8df4-a7dc339b755c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_DisplaySize method, IMSVidCtl.get_DisplaySize, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidCtl.get_DisplaySize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidCtl::get_DisplaySize
@@ -62,7 +60,7 @@ The <b>get_DisplaySize</b> method retrieves the display size.
 
 ### -param CurrentValue
 
-
+TBD
 
 
 

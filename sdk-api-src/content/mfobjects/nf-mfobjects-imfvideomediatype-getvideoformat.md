@@ -4,17 +4,16 @@ title: IMFVideoMediaType::GetVideoFormat
 author: windows-sdk-content
 description: GetVideoFormat is no longer available for use as of Windows 7.
 old-location: mf\imfvideomediatype_getvideoformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoFormat method, IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMediaType.GetVideoFormat
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMediaType::GetVideoFormat

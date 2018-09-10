@@ -4,17 +4,16 @@ title: RoGetServerActivatableClasses function
 author: windows-sdk-content
 description: Retrieves the activatable classes that are registered for a given executable (EXE) server, which was registered under the package ID of the calling process.
 old-location: winrt\rogetserveractivatableclasses.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 845AC938-DE04-4151-8500-B8657234201C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoGetServerActivatableClasses, RoGetServerActivatableClasses function [Windows Runtime], roregistrationapi/RoGetServerActivatableClasses, winrt.rogetserveractivatableclasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roregistrationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Runtimeobject.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RoGetServerActivatableClasses
 product: Windows
 targetos: Windows
-req.lib: Runtimeobject.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoGetServerActivatableClasses function

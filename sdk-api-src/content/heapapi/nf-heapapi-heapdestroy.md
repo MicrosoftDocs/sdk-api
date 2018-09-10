@@ -4,17 +4,16 @@ title: HeapDestroy function
 author: windows-sdk-content
 description: Destroys the specified heap object. It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: base\heapdestroy.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - HeapDestroy
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HeapDestroy function

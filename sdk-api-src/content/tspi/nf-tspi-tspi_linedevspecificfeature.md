@@ -4,17 +4,16 @@ title: TSPI_lineDevSpecificFeature function
 author: windows-sdk-content
 description: The TSPI_lineDevSpecificFeature function is used as an extension mechanism to enable service providers to provide access to features not described in other operations.
 old-location: tspi\tspi_linedevspecificfeature.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0c42d932-f359-4557-bf26-daecca48781b
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineDevSpecificFeature, TSPI_lineDevSpecificFeature function [TAPI 2.2], _tspi_tspi_linedevspecificfeature, tspi.tspi_linedevspecificfeature, tspi/TSPI_lineDevSpecificFeature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineDevSpecificFeature
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineDevSpecificFeature function

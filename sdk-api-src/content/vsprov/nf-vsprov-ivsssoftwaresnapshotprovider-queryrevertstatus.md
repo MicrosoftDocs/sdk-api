@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider::QueryRevertStatus
 author: windows-sdk-content
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider.QueryRevertStatus
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider::QueryRevertStatus

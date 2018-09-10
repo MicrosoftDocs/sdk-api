@@ -4,17 +4,16 @@ title: IDirectDrawMediaStream::SetFormat
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the format of the current media stream.
 old-location: dshow\idirectdrawmediastream_setformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 465b4f0c-40e1-4aec-be62-0b55c29fa05e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDirectDrawMediaStream interface [DirectShow],SetFormat method, IDirectDrawMediaStream.SetFormat, IDirectDrawMediaStream::SetFormat, IDirectDrawMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IDirectDrawMediaStream interface, ddstream/IDirectDrawMediaStream::SetFormat, dshow.idirectdrawmediastream_setformat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawMediaStream.SetFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawMediaStream::SetFormat

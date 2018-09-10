@@ -4,7 +4,7 @@ title: "_SECPKG_CONTEXT_THUNKS"
 author: windows-sdk-content
 description: The SECPKG_CONTEXT_THUNKS structure contains information about QueryContextAttributes (General) calls to be executed in LSA mode.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_context_thunks.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 66604eaf-37f1-4c46-a62a-d8c821ad9039
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CONTEXT_THUNKS, *PSECPKG_CONTEXT_THUNKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CONTEXT_THUNKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_CONTEXT_THUNKS, *PSECPKG_CONTEXT_THUNKS
+req.redist: 
 ---
 
 # _SECPKG_CONTEXT_THUNKS structure

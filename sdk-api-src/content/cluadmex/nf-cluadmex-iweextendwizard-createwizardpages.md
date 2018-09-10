@@ -4,17 +4,16 @@ title: IWEExtendWizard::CreateWizardPages
 author: windows-sdk-content
 description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard_createwizardpages.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWEExtendWizard.CreateWizardPages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWEExtendWizard::CreateWizardPages

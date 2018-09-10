@@ -4,17 +4,16 @@ title: IMFCollection::AddElement
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: mf\imfcollection_addelement.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFCollection.AddElement
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCollection::AddElement

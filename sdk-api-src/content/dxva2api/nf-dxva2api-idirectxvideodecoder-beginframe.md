@@ -4,17 +4,16 @@ title: IDirectXVideoDecoder::BeginFrame
 author: windows-sdk-content
 description: Starts the decoding operation.
 old-location: mf\idirectxvideodecoder_beginframe.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 17759e7b-e6d4-4270-abd3-0f73c1df7ccb, BeginFrame, BeginFrame method [Media Foundation], BeginFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],BeginFrame method, IDirectXVideoDecoder.BeginFrame, IDirectXVideoDecoder::BeginFrame, dxva2api/IDirectXVideoDecoder::BeginFrame, mf.idirectxvideodecoder_beginframe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoDecoder.BeginFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoDecoder::BeginFrame

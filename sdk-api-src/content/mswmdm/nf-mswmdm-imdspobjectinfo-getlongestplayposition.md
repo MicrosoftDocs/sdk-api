@@ -4,17 +4,16 @@ title: IMDSPObjectInfo::GetLongestPlayPosition
 author: windows-sdk-content
 description: The GetLongestPlayPosition method retrieves the longest play position of the object. The object must be a music file on the media device.
 old-location: wmdm\imdspobjectinfo_getlongestplayposition.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f83ff62c-63e3-4b15-9c5f-0ef39eaa3e0c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetLongestPlayPosition method, IMDSPObjectInfo.GetLongestPlayPosition, IMDSPObjectInfo::GetLongestPlayPosition, IMDSPObjectInfoGetLongestPlayPosition, mswmdm/IMDSPObjectInfo::GetLongestPlayPosition, wmdm.imdspobjectinfo_getlongestplayposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPObjectInfo.GetLongestPlayPosition
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPObjectInfo::GetLongestPlayPosition

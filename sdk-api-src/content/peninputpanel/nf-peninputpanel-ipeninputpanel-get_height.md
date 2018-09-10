@@ -4,17 +4,16 @@ title: IPenInputPanel::get_Height
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates.
 old-location: tablet\peninputpanel_height.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5815f184-1ae4-4617-9aa6-acf727aff202
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 5815f184-1ae4-4617-9aa6-acf727aff202, Height property [Tablet PC], Height property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Height property, IPenInputPanel.Height, IPenInputPanel.get_Height, IPenInputPanel::Height, IPenInputPanel::get_Height, PenInputPanel.get_Height, get_Height, peninputpanel/IPenInputPanel::Height, peninputpanel/IPenInputPanel::get_Height, tablet.peninputpanel_height
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - PenInputPanel.get_Height
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::get_Height

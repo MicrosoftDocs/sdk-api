@@ -4,7 +4,7 @@ title: "_MIB_IFSTATUS"
 author: windows-sdk-content
 description: Stores status information for a particular interface.
 old-location: mib\mib_ifstatus.htm
-old-project: mib
+tech.root: mib
 ms.assetid: ab5afe84-1e14-4ffd-9bf6-f3b319554608
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_IFSTATUS, *PMIB_IFSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_IFSTATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_IFSTATUS, *PMIB_IFSTATUS
+req.redist: 
 ---
 
 # _MIB_IFSTATUS structure

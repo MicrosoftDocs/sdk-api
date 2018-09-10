@@ -4,17 +4,16 @@ title: IX509EnrollmentStatus::put_Text
 author: windows-sdk-content
 description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_text_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.put_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text, security.ix509enrollmentstatus_text_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509EnrollmentStatus.put_Text
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentStatus::put_Text

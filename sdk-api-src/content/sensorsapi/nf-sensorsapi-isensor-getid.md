@@ -4,17 +4,16 @@ title: ISensor::GetID
 author: windows-sdk-content
 description: Retrieves the unique identifier of the sensor.
 old-location: winsensors_com_ref\isensor_getid.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetID
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetID

@@ -4,17 +4,16 @@ title: IWICEnumMetadataItem::Skip
 author: windows-sdk-content
 description: Skips to given number of objects.
 old-location: wic\_wic_codec_iwicenummetadataitem_skip.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 05c1c69c-ad87-42ff-947d-1f39a70605f3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Skip method, IWICEnumMetadataItem.Skip, IWICEnumMetadataItem::Skip, Skip, Skip method [Windows Imaging Component], Skip method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_skip, wic._wic_codec_iwicenummetadataitem_skip, wincodec/IWICEnumMetadataItem::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICEnumMetadataItem.Skip
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICEnumMetadataItem::Skip

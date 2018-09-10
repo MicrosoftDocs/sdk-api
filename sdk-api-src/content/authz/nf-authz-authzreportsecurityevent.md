@@ -4,17 +4,16 @@ title: AuthzReportSecurityEvent function
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source.
 old-location: security\authzreportsecurityevent.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AuthzReportSecurityEvent
 product: Windows
 targetos: Windows
-req.lib: Authz.lib
-req.dll: Authz.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # AuthzReportSecurityEvent function

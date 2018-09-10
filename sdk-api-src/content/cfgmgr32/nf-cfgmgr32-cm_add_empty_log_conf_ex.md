@@ -4,17 +4,16 @@ title: CM_Add_Empty_Log_Conf_Ex function
 author: windows-sdk-content
 description: The CM_Add_Empty_Log_Conf_Ex function creates an empty logical configuration, for a specified configuration type and a specified device instance, on either the local or a remote machine.
 old-location: devinst\cm_add_empty_log_conf_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: cb34e5ec-4257-4c30-890a-40f669f1dfeb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Add_Empty_Log_Conf_Ex, CM_Add_Empty_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf_Ex, cfgmgrfn_5cbb39e6-bde8-4677-b099-25e30e618569.xml, devinst.cm_add_empty_log_conf_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Add_Empty_Log_Conf_Ex
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Add_Empty_Log_Conf_Ex function

@@ -4,17 +4,16 @@ title: IWMPEvents::EndOfStream
 author: windows-sdk-content
 description: The EndOfStream event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__endofstream.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 1f4e3a69-da55-4adf-87ab-118954070096
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: EndOfStream, EndOfStream method [Windows Media Player], EndOfStream method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],EndOfStream method, IWMPEvents.EndOfStream, IWMPEvents::EndOfStream, IWMPEventsEndOfStream, wmp.iwmpevents_iwmpevents__endofstream, wmp/IWMPEvents::EndOfStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.EndOfStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::EndOfStream

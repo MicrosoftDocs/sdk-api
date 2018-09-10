@@ -4,7 +4,7 @@ title: heaacwaveinfo_tag
 author: windows-sdk-content
 description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
 old-location: dshow\heaacwaveinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HEAACWAVEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HEAACWAVEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HEAACWAVEINFO
+req.redist: 
 ---
 
 # heaacwaveinfo_tag structure

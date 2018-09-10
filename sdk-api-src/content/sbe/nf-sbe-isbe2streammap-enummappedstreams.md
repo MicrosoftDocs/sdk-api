@@ -4,17 +4,16 @@ title: ISBE2StreamMap::EnumMappedStreams
 author: windows-sdk-content
 description: Enumerates streams that are mapped to output pins in a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_enummappedstreams.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bb98db94-3aa1-4f29-b98a-7594e27466ef
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EnumMappedStreams, EnumMappedStreams method [Microsoft TV Technologies], EnumMappedStreams method [Microsoft TV Technologies],ISBE2StreamMap interface, ISBE2StreamMap interface [Microsoft TV Technologies],EnumMappedStreams method, ISBE2StreamMap.EnumMappedStreams, ISBE2StreamMap::EnumMappedStreams, mstv.isbe2streammap_enummappedstreams, sbe/ISBE2StreamMap::EnumMappedStreams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2StreamMap.EnumMappedStreams
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2StreamMap::EnumMappedStreams

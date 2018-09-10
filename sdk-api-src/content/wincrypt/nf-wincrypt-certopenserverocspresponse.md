@@ -4,17 +4,16 @@ title: CertOpenServerOcspResponse function
 author: windows-sdk-content
 description: Opens a handle to an online certificate status protocol (OCSP) response associated with a server certificate chain.
 old-location: security\certopenserverocspresponse.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertOpenServerOcspResponse
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertOpenServerOcspResponse function

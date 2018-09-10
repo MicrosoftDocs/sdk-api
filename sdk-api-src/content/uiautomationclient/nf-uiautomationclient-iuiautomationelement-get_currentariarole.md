@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentAriaRole
 author: windows-sdk-content
 description: Retrieves the Accessible Rich Internet Applications (ARIA) role of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAriaRole.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 469c0d3d-3063-4000-b18c-82b2c81482fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAriaRole property [Windows Accessibility], CurrentAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAriaRole property, IUIAutomationElement.CurrentAriaRole, IUIAutomationElement.get_CurrentAriaRole, IUIAutomationElement::CurrentAriaRole, IUIAutomationElement::get_CurrentAriaRole, get_CurrentAriaRole, uiauto.uiauto_IUIAutomationElement_CurrentAriaRole, uiauto_IUIAutomationElement_CurrentAriaRole, uiautomationclient/IUIAutomationElement::CurrentAriaRole, uiautomationclient/IUIAutomationElement::get_CurrentAriaRole, winauto.uiauto_IUIAutomationElement_CurrentAriaRole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentAriaRole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentAriaRole

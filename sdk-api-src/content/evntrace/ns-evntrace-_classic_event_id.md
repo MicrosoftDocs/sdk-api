@@ -4,7 +4,7 @@ title: "_CLASSIC_EVENT_ID"
 author: windows-sdk-content
 description: Identifies the kernel event for which you want to enable call stack tracing.
 old-location: etw\classic_event_id.htm
-old-project: etw
+tech.root: etw
 ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLASSIC_EVENT_ID, *PCLASSIC_EVENT_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLASSIC_EVENT_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: CLASSIC_EVENT_ID, *PCLASSIC_EVENT_ID
+req.redist: 
 ---
 
 # _CLASSIC_EVENT_ID structure

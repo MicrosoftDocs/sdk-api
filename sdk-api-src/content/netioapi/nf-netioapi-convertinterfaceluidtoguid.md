@@ -4,17 +4,16 @@ title: ConvertInterfaceLuidToGuid function
 author: windows-sdk-content
 description: Converts a locally unique identifier (LUID) for a network interface to a globally unique identifier (GUID) for the interface.
 old-location: iphlp\convertinterfaceluidtoguid.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 9d5bd1e9-0bf1-405a-8726-8e2c9ba4e022
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: ConvertInterfaceLuidToGuid, ConvertInterfaceLuidToGuid function [IP Helper], iphlp.convertinterfaceluidtoguid, netioapi/ConvertInterfaceLuidToGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ConvertInterfaceLuidToGuid
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertInterfaceLuidToGuid function

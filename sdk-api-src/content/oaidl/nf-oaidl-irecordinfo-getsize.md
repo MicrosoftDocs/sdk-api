@@ -4,17 +4,16 @@ title: IRecordInfo::GetSize
 author: windows-sdk-content
 description: Gets the number of bytes of memory necessary to hold the record instance.
 old-location: automat\irecordinfo_getsize.htm
-old-project: automat
+tech.root: automat
 ms.assetid: ca0f43b2-2b8f-4b22-8674-8223f0c607ab
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSize, GetSize method [Automation], GetSize method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetSize method, IRecordInfo.GetSize, IRecordInfo::GetSize, _oa96_IRecordInfo_GetSize, automat.irecordinfo_getsize, oaidl/IRecordInfo::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRecordInfo.GetSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRecordInfo::GetSize

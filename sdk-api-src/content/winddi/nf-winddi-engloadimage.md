@@ -4,17 +4,16 @@ title: EngLoadImage macro
 author: windows-sdk-content
 description: The EngLoadImage function loads the specified executable image into kernel-mode memory.
 old-location: display\engloadimage.htm
-old-project: display
+tech.root: display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngLoadImage
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngLoadImage macro

@@ -4,7 +4,7 @@ title: "_CLUSTER_CSV_VOLUME_FAULT_STATE"
 author: windows-sdk-content
 description: Defines the various fault states for a cluster shared volume (CSV).
 old-location: mscs\cluster_csv_volume_fault_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CSV_VOLUME_FAULT_STATE, *PCLUSTER_CSV_VOLUME_FAULT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_CSV_VOLUME_FAULT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_CSV_VOLUME_FAULT_STATE, *PCLUSTER_CSV_VOLUME_FAULT_STATE
+req.redist: 
 ---
 
 # _CLUSTER_CSV_VOLUME_FAULT_STATE enumeration

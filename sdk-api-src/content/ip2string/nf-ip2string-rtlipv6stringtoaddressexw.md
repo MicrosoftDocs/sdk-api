@@ -4,17 +4,16 @@ title: RtlIpv6StringToAddressExW function
 author: windows-sdk-content
 description: Converts a string representation of an IPv6 address, scope ID, and port number to a binary IPv6 address, scope ID, and port.
 old-location: iphlp\rtlipv6stringtoaddressex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 3a95c405-3f2c-4bd5-805e-3e879c4c20e2
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: RtlIpv6StringToAddressEx, RtlIpv6StringToAddressEx function [IP Helper], RtlIpv6StringToAddressExW, ip2string/RtlIpv6StringToAddressEx, ip2string/RtlIpv6StringToAddressExW, iphlp.rtlipv6stringtoaddressex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RtlIpv6StringToAddressExW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RtlIpv6StringToAddressExW function

@@ -4,17 +4,16 @@ title: IThumbnailSettings::SetContext
 author: windows-sdk-content
 description: Enables a thumbnail provider to return a thumbnail specific to the user's context.
 old-location: shell\IThumbnailSettings_SetContext.htm
-old-project: shell
+tech.root: shell
 ms.assetid: AD333075-3358-4fee-BDEE-087B7012C93E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IThumbnailSettings interface [Windows Shell],SetContext method, IThumbnailSettings.SetContext, IThumbnailSettings::SetContext, SetContext, SetContext method [Windows Shell], SetContext method [Windows Shell],IThumbnailSettings interface, shell.IThumbnailSettings_SetContext, thumbcache/IThumbnailSettings::SetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailSettings.SetContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailSettings::SetContext

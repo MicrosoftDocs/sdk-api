@@ -4,17 +4,16 @@ title: RsopAccessCheckByType function
 author: windows-sdk-content
 description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.
 old-location: policy\rsopaccesscheckbytype.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RSoPAccessCheckByType
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # RsopAccessCheckByType function

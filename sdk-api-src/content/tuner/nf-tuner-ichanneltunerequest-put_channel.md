@@ -4,17 +4,16 @@ title: IChannelTuneRequest::put_Channel
 author: windows-sdk-content
 description: The put_Channel method sets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_put_channel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 67a08647-a2b5-43b2-b5d2-3917beb6dd27
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],put_Channel method, IChannelTuneRequest.put_Channel, IChannelTuneRequest::put_Channel, IChannelTuneRequestput_Channel, mstv.ichanneltunerequest_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, tuner/IChannelTuneRequest::put_Channel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IChannelTuneRequest.put_Channel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IChannelTuneRequest::put_Channel

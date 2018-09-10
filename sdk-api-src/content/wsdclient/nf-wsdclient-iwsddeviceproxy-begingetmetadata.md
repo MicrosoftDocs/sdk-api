@@ -4,17 +4,16 @@ title: IWSDDeviceProxy::BeginGetMetadata
 author: windows-sdk-content
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 8aa71ef1-61b9-411b-9e8c-75470c638469
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,BeginGetMetadata method, IWSDDeviceProxy.BeginGetMetadata, IWSDDeviceProxy::BeginGetMetadata, ncd.iwsddeviceproxy_begingetmetadata, wsdclient/IWSDDeviceProxy::BeginGetMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDDeviceProxy.BeginGetMetadata
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDDeviceProxy::BeginGetMetadata

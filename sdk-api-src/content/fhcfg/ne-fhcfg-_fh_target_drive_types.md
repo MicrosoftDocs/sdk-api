@@ -4,7 +4,7 @@ title: "_FH_TARGET_DRIVE_TYPES"
 author: windows-sdk-content
 description: Specifies the type of a File History backup target.
 old-location: winprog\fh_target_drive_types.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 4D3F3B57-BD6E-4334-8DF6-ECD317A051EC
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_DRIVE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FH_TARGET_DRIVE_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FH_TARGET_DRIVE_TYPES
+req.redist: 
 ---
 
 # _FH_TARGET_DRIVE_TYPES enumeration

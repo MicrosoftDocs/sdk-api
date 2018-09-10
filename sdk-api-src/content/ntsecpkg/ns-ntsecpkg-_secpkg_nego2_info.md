@@ -4,7 +4,7 @@ title: "_SECPKG_NEGO2_INFO"
 author: windows-sdk-content
 description: Contains extended package information used for NEGO2 negotiations.
 old-location: security\secpkg_nego2_info.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_NEGO2_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO
+req.redist: 
 ---
 
 # _SECPKG_NEGO2_INFO structure

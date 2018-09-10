@@ -4,17 +4,16 @@ title: ConvertAuxiliaryCounterToPerformanceCounter function
 author: windows-sdk-content
 description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 old-location: base\convertauxiliarycountertoperformancecounter.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConvertAuxiliaryCounterToPerformanceCounter, ConvertAuxiliaryCounterToPerformanceCounter function, base.convertauxiliarycountertoperformancecounter, realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: Mincore.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ConvertAuxiliaryCounterToPerformanceCounter
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ConvertAuxiliaryCounterToPerformanceCounter function

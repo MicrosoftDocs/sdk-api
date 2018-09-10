@@ -4,17 +4,16 @@ title: FNFCIALLOC macro
 author: windows-sdk-content
 description: The FNFCIALLOC provides the declaration for the application-defined callback function to allocate memory within an FCI context.
 old-location: winprog\fnfcialloc.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNFCIALLOC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNFCIALLOC macro

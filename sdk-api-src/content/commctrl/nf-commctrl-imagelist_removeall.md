@@ -4,17 +4,16 @@ title: ImageList_RemoveAll macro
 author: windows-sdk-content
 description: Calls the ImageList_Remove function to remove all of the images from an image list.
 old-location: controls\ImageList_RemoveAll.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_removeall.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ImageList_RemoveAll, ImageList_RemoveAll macro [Windows Controls], _win32_ImageList_RemoveAll, _win32_ImageList_RemoveAll_cpp, commctrl/ImageList_RemoveAll, controls.ImageList_RemoveAll, controls._win32_ImageList_RemoveAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageList_RemoveAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ImageList_RemoveAll macro

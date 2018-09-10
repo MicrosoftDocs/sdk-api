@@ -4,7 +4,7 @@ title: PHONECAPS_STRING
 author: windows-sdk-content
 description: The PHONECAPS_STRING enum is used by methods that set or get phone capabilities described by a string.
 old-location: tapi3\phonecaps_string.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3ff60aa8-9a77-48a1-a60f-1e1d31653728
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PHONECAPS_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PHONECAPS_STRING
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PHONECAPS_STRING
+req.redist: 
 ---
 
 # PHONECAPS_STRING enumeration

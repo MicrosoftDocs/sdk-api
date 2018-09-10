@@ -4,7 +4,7 @@ title: "_CERT_REQUEST_INFO"
 author: windows-sdk-content
 description: The CERT_REQUEST_INFO structure contains information for a certificate request. The subject, subject public key, and attribute BLOBs are encoded.
 old-location: security\cert_request_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 6edeed33-16e1-4295-90e9-769929ab916a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_REQUEST_INFO, *PCERT_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_REQUEST_INFO, *PCERT_REQUEST_INFO
+req.redist: 
 ---
 
 # _CERT_REQUEST_INFO structure

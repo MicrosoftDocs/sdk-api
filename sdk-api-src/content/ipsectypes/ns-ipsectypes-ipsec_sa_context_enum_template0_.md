@@ -4,7 +4,7 @@ title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Enumeration template used to enumerate security association (SA) contexts.
 old-location: fwp\ipsec_sa_context_enum_template0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
+req.redist: 
 ---
 
 # IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_ structure

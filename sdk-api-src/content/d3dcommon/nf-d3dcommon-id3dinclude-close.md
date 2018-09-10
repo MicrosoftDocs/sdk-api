@@ -4,17 +4,16 @@ title: ID3DInclude::Close
 author: windows-sdk-content
 description: A user-implemented method for closing a shader #include file.
 old-location: direct3d11\id3dinclude_close.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_VARIABLE_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3DInclude.Close
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3DInclude::Close

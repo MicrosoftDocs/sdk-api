@@ -4,17 +4,16 @@ title: ILocator::put_OuterFECRate
 author: windows-sdk-content
 description: The put_OuterFECRate method sets the outer FEC rate.
 old-location: mstv\ilocator_put_outerfecrate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0fd3fa42-4ed6-459b-a6a2-23ed67832780
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalLocatorput_OuterFECRate, ILocator interface [Microsoft TV Technologies],put_OuterFECRate method, ILocator.put_OuterFECRate, ILocator::put_OuterFECRate, mstv.ilocator_put_outerfecrate, put_OuterFECRate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFECRate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILocator.put_OuterFECRate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILocator::put_OuterFECRate

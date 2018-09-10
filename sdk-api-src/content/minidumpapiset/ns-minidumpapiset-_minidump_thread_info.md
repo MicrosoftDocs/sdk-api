@@ -4,7 +4,7 @@ title: "_MINIDUMP_THREAD_INFO"
 author: windows-sdk-content
 description: Contains thread state information.
 old-location: base\minidump_thread_info_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 855bbccb-a7c8-4744-b314-8692f785b1c0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_THREAD_INFO, *PMINIDUMP_THREAD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_THREAD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_THREAD_INFO, *PMINIDUMP_THREAD_INFO
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # _MINIDUMP_THREAD_INFO structure

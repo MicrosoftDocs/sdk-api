@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo::GetNameChoice
 author: windows-sdk-content
 description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getnamechoice.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeCRLDistInfo.GetNameChoice
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo::GetNameChoice

@@ -4,7 +4,7 @@ title: "_USER_INFO_1011"
 author: windows-sdk-content
 description: The USER_INFO_1011 structure contains the full name of a network user. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1011_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: f60075b4-19c5-4998-b8c3-61e960e76035
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1011, *PUSER_INFO_1011, *LPUSER_INFO_1011
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1011
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1011, *PUSER_INFO_1011, *LPUSER_INFO_1011
+req.redist: 
 ---
 
 # _USER_INFO_1011 structure

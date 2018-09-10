@@ -4,7 +4,7 @@ title: tagFolderSetData
 author: windows-sdk-content
 description: Deprecated. Data used in IBrowserService2::GetFolderSetData.
 old-location: shell\FOLDERSETDATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: eb47cd77-5788-4130-8d9c-cc84582e5d8e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDERSETDATA, *LPFOLDERSETDATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - FOLDERSETDATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: FOLDERSETDATA, *LPFOLDERSETDATA
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

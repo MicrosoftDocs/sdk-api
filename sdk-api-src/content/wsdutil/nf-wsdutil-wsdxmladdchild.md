@@ -4,17 +4,16 @@ title: WSDXMLAddChild function
 author: windows-sdk-content
 description: Adds a child element.
 old-location: ncd\wsdxmladdchild.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESPONSEBODY_SubscriptionEnd
+req.lib: Wsdapi.lib
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDXMLAddChild
 product: Windows
 targetos: Windows
-req.lib: Wsdapi.lib
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSDXMLAddChild function

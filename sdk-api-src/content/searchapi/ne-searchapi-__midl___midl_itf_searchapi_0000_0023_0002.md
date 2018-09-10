@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_searchapi_0000_0023_0002"
 author: windows-sdk-content
 description: Describes the type of change to the rowset's data.
 old-location: search\_search_ROWSETEVENT_TYPE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ROWSETEVENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: ROWSETEVENT_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_searchapi_0000_0023_0002 enumeration

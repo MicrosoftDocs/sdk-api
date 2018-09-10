@@ -4,17 +4,16 @@ title: ClusterGroupCloseEnumEx function
 author: windows-sdk-content
 description: Closes the enumeration and frees any memory held by the hGroupEnumEx handle.
 old-location: mscs\clustergroupcloseenumex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4777BB89-FB90-43F9-81B4-FCAE4E50889F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterGroupCloseEnumEx, ClusterGroupCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, mscs.clustergroupcloseenumex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterGroupCloseEnumEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterGroupCloseEnumEx function

@@ -4,7 +4,7 @@ title: CLUSCTL_NODE_CODES
 author: windows-sdk-content
 description: Enumerates node control codes.
 old-location: mscs\clusctl_node_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 6f69e61a-10f8-4d8d-b504-ee35ddc17ed4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_NODE_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSCTL_NODE_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSCTL_NODE_CODES
+req.redist: 
 ---
 
 # CLUSCTL_NODE_CODES enumeration

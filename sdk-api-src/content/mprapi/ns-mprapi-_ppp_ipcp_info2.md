@@ -4,7 +4,7 @@ title: "_PPP_IPCP_INFO2"
 author: windows-sdk-content
 description: The PPP_IPCP_INFO2 structure contains the result of a PPP Internet Protocol (IP) negotiation.
 old-location: rras\ppp_ipcp_info2.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: e12cde70-51af-484b-a700-f3976a3abc4a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PPP_IPCP_INFO2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PPP_IPCP_INFO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PPP_IPCP_INFO2
+req.redist: 
 ---
 
 # _PPP_IPCP_INFO2 structure

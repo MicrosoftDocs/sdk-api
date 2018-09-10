@@ -4,17 +4,16 @@ title: CoHandlePriorityEventsFromMessagePump function
 author: windows-sdk-content
 description: Called by message dispatchers on an ASTA thread after dispatching a windows message to provide an opportunity for short-running infrastructural COM calls and other high-priority or short-running COM work to be dispatched between messages.
 old-location: com\cohandlepriorityeventsfrommessagepump.htm
-old-project: com
+tech.root: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: messagedispatcherapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CoHandlePriorityEventsFromMessagePump
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CoHandlePriorityEventsFromMessagePump function

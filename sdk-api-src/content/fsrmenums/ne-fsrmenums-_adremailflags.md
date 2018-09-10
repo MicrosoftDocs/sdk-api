@@ -4,7 +4,7 @@ title: "_AdrEmailFlags"
 author: windows-sdk-content
 description: Describes the options for access denied remediation (ADR) email.
 old-location: fsrm\adremailflags.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 149c0f4b-b30b-4439-b8a8-d0423be41c64
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AdrEmailFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AdrEmailFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: AdrEmailFlags
+req.redist: 
 ---
 
 # _AdrEmailFlags enumeration

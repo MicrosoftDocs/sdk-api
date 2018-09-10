@@ -4,17 +4,16 @@ title: ISettingsEngine::GetNamespaces
 author: windows-sdk-content
 description: Returns an enumerator to the installed namespaces.
 old-location: smi\isettingsengine_getnamespaces.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 0beb20a5-3dbf-48c8-9b0c-aa3dd094b59d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespaces method, ISettingsEngine.GetNamespaces, ISettingsEngine::GetNamespaces, smi.isettingsengine_getnamespaces, wcmconfig/ISettingsEngine::GetNamespaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.GetNamespaces
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::GetNamespaces

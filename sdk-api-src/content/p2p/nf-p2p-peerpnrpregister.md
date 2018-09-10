@@ -4,17 +4,16 @@ title: PeerPnrpRegister function
 author: windows-sdk-content
 description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.
 old-location: p2p\peerpnrpregister.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 18c26779-f50d-43bd-a772-763ceba25da8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerPnrpRegister, PeerPnrpRegister function [Peer Networking], p2p.peerpnrpregister, p2p/PeerPnrpRegister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerPnrpRegister
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerPnrpRegister function

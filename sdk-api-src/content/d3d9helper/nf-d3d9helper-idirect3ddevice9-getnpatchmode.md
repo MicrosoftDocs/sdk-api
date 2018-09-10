@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetNPatchMode
 author: windows-sdk-content
 description: Gets the N-patch mode segments.
 old-location: direct3d9\idirect3ddevice9__getnpatchmode.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getnpatchmode.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetNPatchMode, GetNPatchMode method [Direct3D 9], GetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNPatchMode method, IDirect3DDevice9.GetNPatchMode, IDirect3DDevice9::GetNPatchMode, a14b100f-853a-c4a3-4c40-bb1bf093d57c, d3d9helper/IDirect3DDevice9::GetNPatchMode, direct3d9.idirect3ddevice9__getnpatchmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetNPatchMode
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetNPatchMode

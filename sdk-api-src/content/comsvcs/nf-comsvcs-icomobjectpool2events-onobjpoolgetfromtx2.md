@@ -4,17 +4,16 @@ title: IComObjectPool2Events::OnObjPoolGetFromTx2
 author: windows-sdk-content
 description: Generated when a transactional object is obtained from the pool.
 old-location: cos\icomobjectpool2events_onobjpoolgetfromtx2.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d1c8b02a-8262-48f6-a160-5bef21bed5ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolGetFromTx2 method, IComObjectPool2Events.OnObjPoolGetFromTx2, IComObjectPool2Events::OnObjPoolGetFromTx2, OnObjPoolGetFromTx2, OnObjPoolGetFromTx2 method [COM+], OnObjPoolGetFromTx2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolGetFromTx2, comsvcs/IComObjectPool2Events::OnObjPoolGetFromTx2, cos.icomobjectpool2events_onobjpoolgetfromtx2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComObjectPool2Events.OnObjPoolGetFromTx2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComObjectPool2Events::OnObjPoolGetFromTx2

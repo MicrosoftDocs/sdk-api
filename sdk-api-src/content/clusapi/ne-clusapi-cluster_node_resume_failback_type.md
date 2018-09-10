@@ -4,7 +4,7 @@ title: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 author: windows-sdk-content
 description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.
 old-location: mscs\cluster_node_resume_failback_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NODE_RESUME_FAILBACK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_NODE_RESUME_FAILBACK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_NODE_RESUME_FAILBACK_TYPE
+req.redist: 
 ---
 
 # CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration

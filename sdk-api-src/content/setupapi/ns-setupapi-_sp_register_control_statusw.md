@@ -4,7 +4,7 @@ title: "_SP_REGISTER_CONTROL_STATUSW"
 author: windows-sdk-content
 description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000.
 old-location: setup\sp_register_control_status.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: aeeedba8-f788-4f95-9583-e76dbb116db9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_REGISTER_CONTROL_STATUSW, *PSP_REGISTER_CONTROL_STATUSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_REGISTER_CONTROL_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_REGISTER_CONTROL_STATUSW, *PSP_REGISTER_CONTROL_STATUSW
+req.redist: 
 ---
 
 # _SP_REGISTER_CONTROL_STATUSW structure

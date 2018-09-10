@@ -4,7 +4,7 @@ title: PFNBLUETOOTH_GATT_EVENT_CALLBACK
 author: windows-sdk-content
 description: Profile drivers implement a Bluetooth GATT event callback to be called whenever the value of a specific characteristic changes.
 old-location: bltooth\bluetooth_gatt_notification_callback_function.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: bthledef.h
 req.include-header: 
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BluetoothGattEventCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PFNBLUETOOTH_GATT_EVENT_CALLBACK callback function

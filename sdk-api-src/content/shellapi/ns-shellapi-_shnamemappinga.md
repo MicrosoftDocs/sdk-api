@@ -4,7 +4,7 @@ title: "_SHNAMEMAPPINGA"
 author: windows-sdk-content
 description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
 old-location: shell\SHNAMEMAPPING.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHNAMEMAPPINGA, *LPSHNAMEMAPPINGA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHNAMEMAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHNAMEMAPPINGA, *LPSHNAMEMAPPINGA
+req.redist: 
 ---
 
 # _SHNAMEMAPPINGA structure

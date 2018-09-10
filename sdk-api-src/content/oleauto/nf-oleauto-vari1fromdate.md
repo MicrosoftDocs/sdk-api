@@ -4,17 +4,16 @@ title: VarI1FromDate function
 author: windows-sdk-content
 description: Converts a date value to a char value.
 old-location: automat\vari1fromdate.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 248dff64-8847-40ef-a081-7653e459d3d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI1FromDate, VarI1FromDate function [Automation], _oa96_VarI1FromDate, automat.vari1fromdate, oleauto/VarI1FromDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI1FromDate
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI1FromDate function

@@ -4,17 +4,16 @@ title: IDXGIOutput6::CheckHardwareCompositionSupport
 author: windows-sdk-content
 description: Notifies applications that hardware stretching is supported.
 old-location: direct3ddxgi\idxgioutput6_checkhardwarecompositionsupport.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport method [DXGI], CheckHardwareCompositionSupport method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],CheckHardwareCompositionSupport method, IDXGIOutput6.CheckHardwareCompositionSupport, IDXGIOutput6::CheckHardwareCompositionSupport, direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport, dxgi1_6/IDXGIOutput6::CheckHardwareCompositionSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput6.CheckHardwareCompositionSupport
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput6::CheckHardwareCompositionSupport

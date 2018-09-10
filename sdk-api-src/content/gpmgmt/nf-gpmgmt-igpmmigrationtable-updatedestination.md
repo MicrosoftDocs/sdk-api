@@ -4,17 +4,16 @@ title: IGPMMigrationTable::UpdateDestination
 author: windows-sdk-content
 description: Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
 old-location: gpmc\igpmmigrationtable_updatedestination.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMigrationTable.UpdateDestination
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::UpdateDestination

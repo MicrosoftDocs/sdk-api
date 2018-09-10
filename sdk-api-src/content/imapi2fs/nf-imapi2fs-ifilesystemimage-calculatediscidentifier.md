@@ -4,17 +4,16 @@ title: IFileSystemImage::CalculateDiscIdentifier
 author: windows-sdk-content
 description: Retrieves a string that identifies a disc and the sessions recorded on the disc.
 old-location: imapi\ifilesystemimage_calculatediscidentifier.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: c1d1fc83-326e-4d9f-b771-c520ee956ed5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CalculateDiscIdentifier, CalculateDiscIdentifier method [IMAPI], CalculateDiscIdentifier method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CalculateDiscIdentifier method, IFileSystemImage.CalculateDiscIdentifier, IFileSystemImage::CalculateDiscIdentifier, imapi.ifilesystemimage_calculatediscidentifier, imapi2fs/IFileSystemImage::CalculateDiscIdentifier
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImage.CalculateDiscIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImage::CalculateDiscIdentifier

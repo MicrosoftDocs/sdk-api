@@ -4,17 +4,16 @@ title: WdsCliGetImageNamespace function
 author: windows-sdk-content
 description: Returns the namespace of the current image.
 old-location: wds\wdscligetimagenamespace.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 30396f0b-77bb-4c43-86a0-2d4454a05b72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientApi.lib
+req.dll: WdsClientApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliGetImageNamespace
 product: Windows
 targetos: Windows
-req.lib: WdsClientApi.lib
-req.dll: WdsClientApi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliGetImageNamespace function

@@ -4,17 +4,16 @@ title: ISimilarityTableDumpState::GetNextData
 author: windows-sdk-content
 description: Retrieves one or more SimilarityDumpData structures from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate_getnextdata.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 40ec97fc-052d-474e-9a55-822aa113ac03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression],ISimilarityTableDumpState interface, ISimilarityTableDumpState interface [Remote Differential Compression],GetNextData method, ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTableDumpState.GetNextData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTableDumpState::GetNextData

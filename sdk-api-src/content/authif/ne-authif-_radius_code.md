@@ -4,7 +4,7 @@ title: "_RADIUS_CODE"
 author: windows-sdk-content
 description: The RADIUS_CODE enumeration type enumerates the possible RADIUS packet codes.
 old-location: nps\IAS_radius_code.htm
-old-project: nps
+tech.root: nps
 ms.assetid: cb971643-82ca-4302-a961-9d567da04c27
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_CODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_CODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_CODE
+req.redist: 
 ---
 
 # _RADIUS_CODE enumeration

@@ -4,17 +4,16 @@ title: IFileDialog::Unadvise
 author: windows-sdk-content
 description: Removes an event handler that was attached through the IFileDialog::Advise method.
 old-location: shell\IFileDialog_Unadvise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 48504141-6612-43fe-8470-a9871b560f1a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],Unadvise method, IFileDialog.Unadvise, IFileDialog::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileDialog interface, shell.IFileDialog_Unadvise, shell_IFileDialog_Unadvise, shobjidl_core/IFileDialog::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::Unadvise

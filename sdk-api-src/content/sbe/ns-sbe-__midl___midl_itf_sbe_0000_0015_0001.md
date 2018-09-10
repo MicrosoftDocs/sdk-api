@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_sbe_0000_0015_0001"
 author: windows-sdk-content
 description: Describes a stream produced by the stream buffer engine.
 old-location: mstv\sbe2_stream_desc.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ab7ccd5b-1ac8-4d33-aea6-49383025270b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SBE2_STREAM_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SBE2_STREAM_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SBE2_STREAM_DESC
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_sbe_0000_0015_0001 structure

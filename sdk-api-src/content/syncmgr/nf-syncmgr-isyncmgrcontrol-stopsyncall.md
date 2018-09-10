@@ -4,17 +4,16 @@ title: ISyncMgrControl::StopSyncAll
 author: windows-sdk-content
 description: Stops the synchronization of all items managed by all handlers.
 old-location: shell\ISyncMgrControl_StopSyncAll.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c6f75833-a1b8-46d0-a339-99e5bf814f7f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopSyncAll method, ISyncMgrControl.StopSyncAll, ISyncMgrControl::StopSyncAll, StopSyncAll, StopSyncAll method [Windows Shell], StopSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopSyncAll, shell.ISyncMgrControl_StopSyncAll, syncmgr/ISyncMgrControl::StopSyncAll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrControl.StopSyncAll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrControl::StopSyncAll

@@ -4,17 +4,16 @@ title: DWRITE_MAKE_OPENTYPE_TAG macro
 author: windows-sdk-content
 description: Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.
 old-location: directwrite\dwrite_make_opentype_tag.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DWRITE_MAKE_OPENTYPE_TAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_MAKE_OPENTYPE_TAG macro

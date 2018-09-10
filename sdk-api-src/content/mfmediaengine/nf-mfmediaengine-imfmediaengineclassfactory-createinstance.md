@@ -4,17 +4,16 @@ title: IMFMediaEngineClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates a new instance of the Media Engine.
 old-location: mf\imfmediaengineclassfactory_createinstance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaEngineClassFactory.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaEngineClassFactory::CreateInstance

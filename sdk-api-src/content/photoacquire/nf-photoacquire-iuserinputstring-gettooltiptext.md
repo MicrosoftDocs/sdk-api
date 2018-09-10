@@ -4,17 +4,16 @@ title: IUserInputString::GetTooltipText
 author: windows-sdk-content
 description: The GetTooltipText method retrieves the tooltip text displayed for a control.
 old-location: picacq\iuserinputstring_gettooltiptext.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: f57b247c-bd6d-46ea-be95-a239c1b087ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetTooltipText
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetTooltipText

@@ -4,17 +4,16 @@ title: ITextStrings::PrefixTop
 author: windows-sdk-content
 description: Prefixes a string to the top string in the collection.
 old-location: controls\itextstrings_prefixtop.htm
-old-project: controls
+tech.root: controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStrings interface [Windows Controls],PrefixTop method, ITextStrings.PrefixTop, ITextStrings::PrefixTop, PrefixTop, PrefixTop method [Windows Controls], PrefixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_prefixtop, tom/ITextStrings::PrefixTop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStrings.PrefixTop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStrings::PrefixTop

@@ -4,17 +4,16 @@ title: IDWriteTextFormat::SetLineSpacing
 author: windows-sdk-content
 description: Sets the line spacing.
 old-location: directwrite\IDWriteTextFormat_SetLineSpacing.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 3629779a-5e50-43ea-b161-dd17598b5b43
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetLineSpacing method, IDWriteTextFormat.SetLineSpacing, IDWriteTextFormat::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetLineSpacing, dwrite/IDWriteTextFormat::SetLineSpacing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextFormat.SetLineSpacing
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextFormat::SetLineSpacing

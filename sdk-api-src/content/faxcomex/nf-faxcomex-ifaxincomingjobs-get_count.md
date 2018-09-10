@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingJobs.get_Count
 title: IFaxIncomingJobs::get_Count
 author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxIncomingJobs collection. This is the total number of incoming jobs for the fax server.
-old-location: fax\_mfax_faxincomingjobs_count_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4p2s.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxIncomingJobs object, FaxIncomingJobs object [Fax Service],Count property, FaxIncomingJobs.Count, IFaxIncomingJobs.get_Count, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_count_vb, get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxIncomingJobs interface, IFaxIncomingJobs interface [Fax Service],Count property, IFaxIncomingJobs.Count, IFaxIncomingJobs.get_Count, IFaxIncomingJobs::Count, IFaxIncomingJobs::get_Count, _mfax_faxincomingjobs.count, fax._mfax_faxincomingjobs_count, fax._mfax_faxincomingjobs_cpp_mfax_faxincomingjobs_count_cpp, faxcomex/IFaxIncomingJobs::Count, faxcomex/IFaxIncomingJobs::get_Count, get_Count
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingJobs.Count
+ - IFaxIncomingJobs.Count
+ - IFaxIncomingJobs.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingJobs::get_Count

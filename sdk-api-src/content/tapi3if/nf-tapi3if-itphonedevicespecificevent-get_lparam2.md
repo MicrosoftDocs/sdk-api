@@ -4,17 +4,16 @@ title: ITPhoneDeviceSpecificEvent::get_lParam2
 author: windows-sdk-content
 description: The get_lParam2 method retrieves the second of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itphonedevicespecificevent_get_lparam2.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 58784ca2-ca2e-4a89-9b8c-3a6118b0ef2d
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 method, ITPhoneDeviceSpecificEvent.get_lParam2, ITPhoneDeviceSpecificEvent::get_lParam2, _tapi3_itphonedevicespecificevent_get_lparam2, get_lParam2, get_lParam2 method [TAPI 2.2], get_lParam2 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam2, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPhoneDeviceSpecificEvent.get_lParam2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPhoneDeviceSpecificEvent::get_lParam2

@@ -4,7 +4,7 @@ title: MapiRecipDescW
 author: windows-sdk-content
 description: A MapiRecipDescW structure contains information about a message sender or recipient.
 old-location: mapi\mapirecipdescw.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: 70050D1A-DA06-4D3B-90AF-F997E3B332EB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MapiRecipDescW, *lpMapiRecipDescW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MapiRecipDescW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MapiRecipDescW, *lpMapiRecipDescW
+req.redist: 
 ---
 
 # MapiRecipDescW structure

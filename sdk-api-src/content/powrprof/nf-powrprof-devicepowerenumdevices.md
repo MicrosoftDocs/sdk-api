@@ -4,17 +4,16 @@ title: DevicePowerEnumDevices function
 author: windows-sdk-content
 description: Enumerates devices on the system that meet the specified criteria.
 old-location: base\devicepowerenumdevices.htm
-old-project: power
+tech.root: power
 ms.assetid: bb67634c-69d9-4194-ac27-4f9740d73a1a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DEVICEPOWER_AND_OPERATION, DEVICEPOWER_FILTER_DEVICES_PRESENT, DEVICEPOWER_FILTER_ON_NAME, DEVICEPOWER_FILTER_WAKEENABLED, DEVICEPOWER_HARDWAREID, DevicePowerEnumDevices, DevicePowerEnumDevices function, PDCAP_D0_SUPPORTED, PDCAP_D1_SUPPORTED, PDCAP_D2_SUPPORTED, PDCAP_D3_SUPPORTED, PDCAP_S0_SUPPORTED, PDCAP_S1_SUPPORTED, PDCAP_S2_SUPPORTED, PDCAP_S3_SUPPORTED, PDCAP_S4_SUPPORTED, PDCAP_S5_SUPPORTED, PDCAP_WAKE_FROM_D0_SUPPORTED, PDCAP_WAKE_FROM_D1_SUPPORTED, PDCAP_WAKE_FROM_D2_SUPPORTED, PDCAP_WAKE_FROM_D3_SUPPORTED, PDCAP_WAKE_FROM_S0_SUPPORTED, PDCAP_WAKE_FROM_S1_SUPPORTED, PDCAP_WAKE_FROM_S2_SUPPORTED, PDCAP_WAKE_FROM_S3_SUPPORTED, PDCAP_WARM_EJECT_SUPPORTED, base.devicepowerenumdevices, powrprof/DevicePowerEnumDevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DevicePowerEnumDevices
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DevicePowerEnumDevices function

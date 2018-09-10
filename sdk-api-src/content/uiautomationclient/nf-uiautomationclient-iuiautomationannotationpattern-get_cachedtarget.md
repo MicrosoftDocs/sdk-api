@@ -4,17 +4,16 @@ title: IUIAutomationAnnotationPattern::get_CachedTarget
 author: windows-sdk-content
 description: Retrieves the cached element that is being annotated.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedTarget.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: AAE5557B-4851-4B72-8C42-083457CD75CC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedTarget property [Windows Accessibility], CachedTarget property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedTarget property, IUIAutomationAnnotationPattern.CachedTarget, IUIAutomationAnnotationPattern.get_CachedTarget, IUIAutomationAnnotationPattern::CachedTarget, IUIAutomationAnnotationPattern::get_CachedTarget, get_CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::CachedTarget, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedTarget, winauto.uiauto_IUIAutomationAnnotationPattern_CachedTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationAnnotationPattern.get_CachedTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationAnnotationPattern::get_CachedTarget

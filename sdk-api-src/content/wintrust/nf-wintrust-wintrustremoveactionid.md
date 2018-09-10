@@ -4,17 +4,16 @@ title: WintrustRemoveActionID function
 author: windows-sdk-content
 description: Removes an action added by the WintrustAddActionID function. This function has no associated import library.
 old-location: security\wintrustremoveactionid.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d1c84b69-4886-4cb4-99c5-294bd9d8228b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEB, *PTEB
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WintrustRemoveActionID
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WintrustRemoveActionID function

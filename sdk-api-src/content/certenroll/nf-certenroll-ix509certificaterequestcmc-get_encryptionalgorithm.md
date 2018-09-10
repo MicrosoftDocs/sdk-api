@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc::get_EncryptionAlgorithm
 author: windows-sdk-content
 description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: c46b3373-6d9e-46d9-a36a-b73a718ddaf7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc.get_EncryptionAlgorithm, IX509CertificateRequestCmc::EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, get_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequestCmc.put_EncryptionAlgorithm
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc::get_EncryptionAlgorithm

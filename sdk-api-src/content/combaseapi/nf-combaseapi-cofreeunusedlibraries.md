@@ -4,17 +4,16 @@ title: CoFreeUnusedLibraries function
 author: windows-sdk-content
 description: Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.
 old-location: com\cofreeunusedlibraries.htm
-old-project: com
+tech.root: com
 ms.assetid: 188e9a3b-39cc-454e-af65-4ac797e275d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoFreeUnusedLibraries, CoFreeUnusedLibraries function [COM], _com_CoFreeUnusedLibraries, com.cofreeunusedlibraries, combaseapi/CoFreeUnusedLibraries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoFreeUnusedLibraries
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoFreeUnusedLibraries function

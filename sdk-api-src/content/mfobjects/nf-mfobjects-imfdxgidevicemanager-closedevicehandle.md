@@ -4,17 +4,16 @@ title: IMFDXGIDeviceManager::CloseDeviceHandle
 author: windows-sdk-content
 description: Closes a Microsoft Direct3D device handle.
 old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDXGIDeviceManager.CloseDeviceHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDXGIDeviceManager::CloseDeviceHandle

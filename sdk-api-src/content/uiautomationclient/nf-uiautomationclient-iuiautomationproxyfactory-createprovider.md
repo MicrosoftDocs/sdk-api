@@ -4,17 +4,16 @@ title: IUIAutomationProxyFactory::CreateProvider
 author: windows-sdk-content
 description: Creates a proxy object that provides Microsoft UI Automation support for a UI element.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_CreateProvider.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: c7ac43d3-443f-42cf-98d5-e558034c9d40
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Accessibility], CreateProvider method [Windows Accessibility],IUIAutomationProxyFactory interface, IUIAutomationProxyFactory interface [Windows Accessibility],CreateProvider method, IUIAutomationProxyFactory.CreateProvider, IUIAutomationProxyFactory::CreateProvider, uiauto.uiauto_IUIAutomationProxyFactory_CreateProvider, uiauto_IUIAutomationProxyFactory_CreateProvider, uiautomationclient/IUIAutomationProxyFactory::CreateProvider, winauto.uiauto_IUIAutomationProxyFactory_CreateProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationProxyFactory.CreateProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationProxyFactory::CreateProvider

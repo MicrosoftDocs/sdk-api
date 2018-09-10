@@ -4,17 +4,16 @@ title: IDirect3D9::GetAdapterCount
 author: windows-sdk-content
 description: Returns the number of adapters on the system.
 old-location: direct3d9\idirect3d9__getadaptercount.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptercount.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 7f2637d0-4165-4508-af2d-ac07385cee3e, GetAdapterCount, GetAdapterCount method [Direct3D 9], GetAdapterCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterCount method, IDirect3D9.GetAdapterCount, IDirect3D9::GetAdapterCount, d3d9helper/IDirect3D9::GetAdapterCount, direct3d9.idirect3d9__getadaptercount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9.GetAdapterCount
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9::GetAdapterCount

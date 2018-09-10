@@ -4,7 +4,7 @@ title: X509RequestInheritOptions
 author: windows-sdk-content
 description: Specifies how keys, extension values, and external properties are inherited when a new request is created from an existing certificate.
 old-location: security\x509requestinheritoptions_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 6aa8d72d-bf6a-476b-812b-9ceafed5e5e7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestInheritOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509RequestInheritOptions
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509RequestInheritOptions
+req.redist: 
 ---
 
 # X509RequestInheritOptions enumeration

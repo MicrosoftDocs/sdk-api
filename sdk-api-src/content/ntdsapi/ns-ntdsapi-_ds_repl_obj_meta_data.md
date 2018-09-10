@@ -4,7 +4,7 @@ title: "_DS_REPL_OBJ_META_DATA"
 author: windows-sdk-content
 description: The DS_REPL_OBJ_META_DATA structure contains an array of DS_REPL_ATTR_META_DATA structures. These structures contain replication state data for past and present attributes for a given object.
 old-location: ad\ds_repl_obj_meta_data.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OBJ_META_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_REPL_OBJ_META_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_REPL_OBJ_META_DATA
+req.redist: 
 ---
 
 # _DS_REPL_OBJ_META_DATA structure

@@ -4,17 +4,16 @@ title: HttpCreateServerSession function
 author: windows-sdk-content
 description: Creates a server session for the specified version.
 old-location: http\httpcreateserversession.htm
-old-project: http
+tech.root: http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpCreateServerSession
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpCreateServerSession function

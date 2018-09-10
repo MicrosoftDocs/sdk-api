@@ -4,7 +4,7 @@ title: tagSystemHealthAgentState
 author: windows-sdk-content
 description: Stores the dynamic state of the SHA.
 old-location: nap\systemhealthagentstate_struct.htm
-old-project: nap
+tech.root: nap
 ms.assetid: c5a5bc72-363d-4c2d-8b91-fda64fac281e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SystemHealthAgentState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SystemHealthAgentState
+req.redist: 
 ---
 
 # tagSystemHealthAgentState structure

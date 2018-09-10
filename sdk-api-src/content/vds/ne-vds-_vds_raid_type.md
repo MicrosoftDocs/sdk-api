@@ -4,7 +4,7 @@ title: "_VDS_RAID_TYPE"
 author: windows-sdk-content
 description: Defines the set enumeration values that can be used to specify the underlying RAID type of a storage pool.
 old-location: base\vds_raid_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c818d8f4-5ae5-4e40-91b9-a4405524066c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_RAID_TYPE, *PVDS_RAID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_RAID_TYPE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_RAID_TYPE, *PVDS_RAID_TYPE
+req.redist: 
 ---
 
 # _VDS_RAID_TYPE enumeration

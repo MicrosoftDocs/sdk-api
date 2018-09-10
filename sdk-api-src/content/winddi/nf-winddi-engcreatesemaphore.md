@@ -4,17 +4,16 @@ title: EngCreateSemaphore function
 author: windows-sdk-content
 description: The EngCreateSemaphore function creates a semaphore object.
 old-location: display\engcreatesemaphore.htm
-old-project: display
+tech.root: display
 ms.assetid: 02b68914-5007-4bfb-ac8a-0269447ab26b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngCreateSemaphore, EngCreateSemaphore function [Display Devices], display.engcreatesemaphore, gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml, winddi/EngCreateSemaphore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - EngCreateSemaphore
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngCreateSemaphore function

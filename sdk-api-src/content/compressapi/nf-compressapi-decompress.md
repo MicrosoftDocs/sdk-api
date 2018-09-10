@@ -4,17 +4,16 @@ title: Decompress function
 author: windows-sdk-content
 description: Takes a block of compressed information and decompresses it.
 old-location: cmpapi\decompress.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Decompress
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Decompress function

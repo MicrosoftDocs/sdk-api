@@ -4,17 +4,16 @@ title: IDVB_TOT::GetTableDescriptorByTag
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tot_gettabledescriptorbytag.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 64830b54-f89d-44cc-9b05-e188b8f28f55
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_TOT.GetTableDescriptorByTag, IDVB_TOT::GetTableDescriptorByTag, IDVB_TOTGetTableDescriptorByTag, dvbsiparser/IDVB_TOT::GetTableDescriptorByTag, mstv.idvb_tot_gettabledescriptorbytag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_TOT.GetTableDescriptorByTag
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_TOT::GetTableDescriptorByTag

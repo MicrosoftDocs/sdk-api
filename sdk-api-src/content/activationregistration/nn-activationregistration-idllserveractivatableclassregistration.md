@@ -4,7 +4,7 @@ title: IDllServerActivatableClassRegistration
 author: windows-sdk-content
 description: Enables getting the registration info for an in-process server.
 old-location: winrt\idllserveractivatableclassregistration.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDllServerActivatableClassRegistration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDllServerActivatableClassRegistration interface

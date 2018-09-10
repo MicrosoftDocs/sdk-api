@@ -4,7 +4,7 @@ title: CLUSPROP_SZ
 author: windows-sdk-content
 description: Describes multiple NULL-terminated Unicode strings.
 old-location: mscs\clusprop_multi_sz.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3c508ed6-eec8-4fa9-9ae7-9c8d7f4c8b98
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_SZ, *PCLUSPROP_SZ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_MULTI_SZ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_SZ, *PCLUSPROP_SZ
+req.redist: 
 ---
 
 # CLUSPROP_SZ structure

@@ -4,17 +4,16 @@ title: ISurrogateService::ProcessShutdown
 author: windows-sdk-content
 description: Shuts down the process.
 old-location: com\isurrogateservice_processshutdown.htm
-old-project: com
+tech.root: com
 ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogateService.ProcessShutdown, ISurrogateService::ProcessShutdown, ProcessShutdown, ProcessShutdown method [COM], ProcessShutdown method [COM],ISurrogateService interface, _com_isurrogateservice_processshutdown, com.isurrogateservice_processshutdown, objidl/ISurrogateService::ProcessShutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISurrogateService.ProcessShutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISurrogateService::ProcessShutdown

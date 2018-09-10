@@ -4,17 +4,16 @@ title: IApplicationDestinations::SetAppID
 author: windows-sdk-content
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application from whose taskbar button's Jump List the methods of this interface will remove destinations. This method is optional.
 old-location: shell\IApplicationDestinations_SetAppID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d1cb0646-f028-48e4-b40d-f90a08152513
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],SetAppID method, IApplicationDestinations.SetAppID, IApplicationDestinations::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_SetAppID, shell.IApplicationDestinations_SetAppID, shobjidl_core/IApplicationDestinations::SetAppID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDestinations.SetAppID
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDestinations::SetAppID

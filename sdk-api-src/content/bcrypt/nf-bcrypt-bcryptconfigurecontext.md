@@ -4,17 +4,16 @@ title: BCryptConfigureContext function
 author: windows-sdk-content
 description: Sets the configuration information for an existing CNG context.
 old-location: security\bcryptconfigurecontext.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 7989fefc-64fe-4ab3-9a48-7992edac171f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptConfigureContext, BCryptConfigureContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptConfigureContext, security.bcryptconfigurecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptConfigureContext
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptConfigureContext function

@@ -4,17 +4,16 @@ title: BCryptGenRandom function
 author: windows-sdk-content
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptGenRandom
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptGenRandom function

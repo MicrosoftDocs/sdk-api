@@ -4,17 +4,16 @@ title: IInkPicture::get_EditingMode
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkpicture_editingmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5767f768-d59c-404e-9098-ab5e0c427c7d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 5767f768-d59c-404e-9098-ab5e0c427c7d, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EditingMode property, IInkPicture.EditingMode, IInkPicture.get_EditingMode, IInkPicture::EditingMode, IInkPicture::get_EditingMode, IInkPicture::put_EditingMode, InkPicture.get_EditingMode, InkPicture.put_EditingMode, get_EditingMode, msinkaut/IInkPicture::EditingMode, msinkaut/IInkPicture::get_EditingMode, msinkaut/IInkPicture::put_EditingMode, put_EditingMode, tablet.inkpicture_editingmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_EditingMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_EditingMode

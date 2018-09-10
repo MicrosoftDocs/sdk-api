@@ -4,7 +4,7 @@ title: CRYPTCATCDF_
 author: windows-sdk-content
 description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).
 old-location: security\cryptcatcdf.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTCATCDF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPTCATCDF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CRYPTCATCDF
+req.redist: 
 ---
 
 # CRYPTCATCDF_ structure

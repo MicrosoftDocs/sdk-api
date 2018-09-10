@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::GetByteAlignmentMask
 author: windows-sdk-content
 description: Retrieves the byte alignment mask for the device.
 old-location: imapi\idiscrecorder2ex_getbytealignmentmask.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6a92efb1-4da8-4cf4-8011-b06a0f82a3eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetByteAlignmentMask, GetByteAlignmentMask method [IMAPI], GetByteAlignmentMask method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetByteAlignmentMask method, IDiscRecorder2Ex.GetByteAlignmentMask, IDiscRecorder2Ex::GetByteAlignmentMask, imapi.idiscrecorder2ex_getbytealignmentmask, imapi2/IDiscRecorder2Ex::GetByteAlignmentMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.GetByteAlignmentMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::GetByteAlignmentMask

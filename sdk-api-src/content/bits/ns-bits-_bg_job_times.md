@@ -4,7 +4,7 @@ title: "_BG_JOB_TIMES"
 author: windows-sdk-content
 description: The BG_JOB_TIMES structure provides job-related time stamps.
 old-location: bits\bg_job_times.htm
-old-project: bits
+tech.root: bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Bits.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_JOB_TIMES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_JOB_TIMES
+req.redist: 
 ---
 
 # _BG_JOB_TIMES structure

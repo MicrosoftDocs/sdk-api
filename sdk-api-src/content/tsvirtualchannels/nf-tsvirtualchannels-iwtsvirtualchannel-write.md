@@ -4,17 +4,16 @@ title: IWTSVirtualChannel::Write
 author: windows-sdk-content
 description: Starts a write request on the channel.
 old-location: termserv\iwtsvirtualchannel_write.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method, IWTSVirtualChannel.Write, IWTSVirtualChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWTSVirtualChannel interface, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_SESSION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSVirtualChannel.Write
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSVirtualChannel::Write

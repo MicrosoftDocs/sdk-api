@@ -4,17 +4,16 @@ title: BCryptResolveProviders function
 author: windows-sdk-content
 description: Obtains a collection of all of the providers that meet the specified criteria.
 old-location: security\bcryptresolveproviders.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: cf30f635-4918-4911-9db0-df90d26a2f1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security], CRYPT_ALL_FUNCTIONS, CRYPT_ALL_PROVIDERS, CRYPT_KM, CRYPT_MM, CRYPT_UM, bcrypt/BCryptResolveProviders, security.bcryptresolveproviders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptResolveProviders
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptResolveProviders function

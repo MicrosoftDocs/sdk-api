@@ -4,17 +4,16 @@ title: IBlockRange::get_StartLba
 author: windows-sdk-content
 description: Retrieves the start sector of the range described by IBlockRange.
 old-location: imapi\iblockrange_get_startlba.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 6891aebd-3795-4e1c-a065-1579a984de41
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBlockRange interface [IMAPI],get_StartLba method, IBlockRange.get_StartLba, IBlockRange::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_startlba, imapi2/IBlockRange::get_StartLba
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBlockRange.get_StartLba
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IBlockRange::get_StartLba

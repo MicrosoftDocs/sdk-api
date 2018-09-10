@@ -4,17 +4,16 @@ title: IAudioSessionManager2::RegisterSessionNotification
 author: windows-sdk-content
 description: The RegisterSessionNotification method registers the application to receive a notification when a session is created.
 old-location: coreaudio\iaudiosessionmanager2_registersessionnotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: cff43da7-70b2-4887-8a6c-6100cf7d696e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterSessionNotification method, IAudioSessionManager2.RegisterSessionNotification, IAudioSessionManager2::RegisterSessionNotification, RegisterSessionNotification, RegisterSessionNotification method [Core Audio], RegisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterSessionNotification, coreaudio.iaudiosessionmanager2_registersessionnotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager2.RegisterSessionNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager2::RegisterSessionNotification

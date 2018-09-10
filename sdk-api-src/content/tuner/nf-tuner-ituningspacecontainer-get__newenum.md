@@ -4,17 +4,16 @@ title: ITuningSpaceContainer::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method supports For...Each loops in Automation clients.
 old-location: mstv\ituningspacecontainer_get__newenum.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f2bcd80b-b36c-44b1-9a87-beda7ae12117
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaceContainer.get__NewEnum, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpaceContainer.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpaceContainer::get__NewEnum
@@ -65,7 +63,7 @@ The <b>get__NewEnum</b> method supports <code>For...Each</code> loops in Automat
 
 ### -param NewEnum
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ICallFrame::Marshal
 author: windows-sdk-content
 description: Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
 old-location: com\icallframe_marshal.htm
-old-project: com
+tech.root: com
 ms.assetid: cab40c31-1f89-4da9-a1e0-ef946b34665c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICallFrame interface [COM],Marshal method, ICallFrame.Marshal, ICallFrame::Marshal, Marshal, Marshal method [COM], Marshal method [COM],ICallFrame interface, _com_icallframe_marshal, callobj/ICallFrame::Marshal, com.icallframe_marshal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallFrame.Marshal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallFrame::Marshal

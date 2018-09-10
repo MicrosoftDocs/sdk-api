@@ -4,17 +4,16 @@ title: ITextStory::SetProperty
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextstory_setproperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextStory.SetProperty, ITextStory::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextStory interface, controls.itextstory_setproperty, tom/ITextStory::SetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStory.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStory::SetProperty

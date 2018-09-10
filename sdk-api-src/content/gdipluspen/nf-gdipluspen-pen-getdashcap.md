@@ -4,17 +4,16 @@ title: Pen::GetDashCap
 author: windows-sdk-content
 description: The Pen::GetDashCap method gets the dash cap style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashCap_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashcap.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDashCap, GetDashCap method [GDI+], GetDashCap method [GDI+],Pen class, Pen class [GDI+],GetDashCap method, Pen.GetDashCap, Pen::GetDashCap, _gdiplus_CLASS_Pen_GetDashCap_, gdiplus._gdiplus_CLASS_Pen_GetDashCap_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Pen.GetDashCap
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

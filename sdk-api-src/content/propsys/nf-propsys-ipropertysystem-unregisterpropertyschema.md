@@ -4,17 +4,16 @@ title: IPropertySystem::UnregisterPropertySchema
 author: windows-sdk-content
 description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
 old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
-old-project: properties
+tech.root: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPropertySystem interface [Windows Properties],UnregisterPropertySchema method, IPropertySystem.UnregisterPropertySchema, IPropertySystem::UnregisterPropertySchema, UnregisterPropertySchema, UnregisterPropertySchema method [Windows Properties], UnregisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_UnregisterPropertySchema, propsys/IPropertySystem::UnregisterPropertySchema, shell.IPropertySystem_UnregisterPropertySchema, shell_IPropertySystem_UnregisterPropertySchema
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.UnregisterPropertySchema
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::UnregisterPropertySchema

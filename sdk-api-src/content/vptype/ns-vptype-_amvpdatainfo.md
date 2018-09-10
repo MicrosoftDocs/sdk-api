@@ -4,7 +4,7 @@ title: "_AMVPDATAINFO"
 author: windows-sdk-content
 description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.
 old-location: dshow\amvpdatainfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AMVPDATAINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
+req.redist: 
 ---
 
 # _AMVPDATAINFO structure

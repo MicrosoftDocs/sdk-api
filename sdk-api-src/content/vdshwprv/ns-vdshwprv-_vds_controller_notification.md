@@ -4,7 +4,7 @@ title: "_VDS_CONTROLLER_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of controller events.
 old-location: base\vds_controller_notification.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: de2aa5d8-b9b0-4e3d-9846-e886ac1d4241
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_CONTROLLER_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_CONTROLLER_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_CONTROLLER_NOTIFICATION
+req.redist: 
 ---
 
 # _VDS_CONTROLLER_NOTIFICATION structure

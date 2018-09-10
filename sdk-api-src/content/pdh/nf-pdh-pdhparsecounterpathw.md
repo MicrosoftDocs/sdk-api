@@ -4,17 +4,16 @@ title: PdhParseCounterPathW function
 author: windows-sdk-content
 description: Parses the elements of the counter path and stores the results in the PDH_COUNTER_PATH_ELEMENTS structure.
 old-location: perf\pdhparsecounterpath.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 760b94e9-88df-4f7d-92e9-333d682779f6
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseCounterPathA, PdhParseCounterPathW, _win32_pdhparsecounterpath, base.pdhparsecounterpath, pdh/PdhParseCounterPath, pdh/PdhParseCounterPathA, pdh/PdhParseCounterPathW, perf.pdhparsecounterpath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PdhParseCounterPathW
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhParseCounterPathW function

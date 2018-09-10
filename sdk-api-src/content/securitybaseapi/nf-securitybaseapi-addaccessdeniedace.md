@@ -4,17 +4,16 @@ title: AddAccessDeniedAce function
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to an access control list (ACL). The access is denied to a specified security identifier (SID).
 old-location: security\addaccessdeniedace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 5b4c4164-48f4-4cd5-b60e-554f2498d547
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAccessDeniedAce, AddAccessDeniedAce function [Security], _win32_addaccessdeniedace, security.addaccessdeniedace, securitybaseapi/AddAccessDeniedAce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddAccessDeniedAce
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddAccessDeniedAce function

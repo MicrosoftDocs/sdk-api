@@ -4,17 +4,16 @@ title: ITravelEntry::GetPidl
 author: windows-sdk-content
 description: Deprecated. Gets the pointer to an item identifier list (PIDL) associated with the travel entry.
 old-location: shell\ITravelEntry_GetPidl.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9a3a156f-4d61-4987-b1d8-9e77564d3962
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],ITravelEntry interface, ITravelEntry interface [Windows Shell],GetPidl method, ITravelEntry.GetPidl, ITravelEntry::GetPidl, shdeprecated/ITravelEntry::GetPidl, shell.ITravelEntry_GetPidl, zone_ITravelEntry_GetPidl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelEntry.GetPidl
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

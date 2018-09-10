@@ -4,17 +4,16 @@ title: IIdentityProvider::Delete
 author: windows-sdk-content
 description: Removes the specified identity from the identity store or the specified properties from the identity.
 old-location: security\iidentityprovider_delete.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Delete method, IIdentityProvider.Delete, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDENTITY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIdentityProvider.Delete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IIdentityProvider::Delete

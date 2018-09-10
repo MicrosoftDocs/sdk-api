@@ -4,17 +4,16 @@ title: IAccessibilityDockingService::UndockWindow
 author: windows-sdk-content
 description: Undocks the specified window handle if it is currently docked.
 old-location: com\iaccessibilitydockingservice_undockwindow.htm
-old-project: com
+tech.root: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessibilityDockingService.UndockWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessibilityDockingService::UndockWindow
@@ -62,7 +60,7 @@ Undocks the specified window handle if it is currently docked.
 
 ### -param hwnd
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: D3D12_TEX2D_ARRAY_UAV
 author: windows-sdk-content
 description: Describes an array of unordered-access 2D texture resources.
 old-location: direct3d12\d3d12_tex2d_array_uav.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 6E1B9843-F6E8-4A31-8E2B-92E2FADAA03B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_TEX2D_ARRAY_UAV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_TEX2D_ARRAY_UAV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_TEX2D_ARRAY_UAV
+req.redist: 
 ---
 
 # D3D12_TEX2D_ARRAY_UAV structure

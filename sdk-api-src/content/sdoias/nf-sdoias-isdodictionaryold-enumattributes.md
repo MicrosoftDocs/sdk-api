@@ -4,17 +4,16 @@ title: ISdoDictionaryOld::EnumAttributes
 author: windows-sdk-content
 description: The EnumAttributes method retrieves the values of the specified attributes.
 old-location: nps\SDO_isdodictionaryold_enumattributes.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 45327428-1442-43f7-bf5b-0b6fcf06a246
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Network Policy Server], EnumAttributes method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributes method, ISdoDictionaryOld.EnumAttributes, ISdoDictionaryOld::EnumAttributes, _sdo_isdodictionaryold_enumattributes, nps.SDO_isdodictionaryold_enumattributes, sdo.isdodictionaryold_enumattributes, sdoias/ISdoDictionaryOld::EnumAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VENDORPROPERTIES
+req.lib: 
+req.dll: Iassdo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISdoDictionaryOld.EnumAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISdoDictionaryOld::EnumAttributes

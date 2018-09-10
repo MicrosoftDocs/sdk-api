@@ -4,17 +4,16 @@ title: IObjectContextInfo2::GetPartitionId
 author: windows-sdk-content
 description: Retrieves the identifier of the partition of the current object context.
 old-location: cos\iobjectcontextinfo2_getpartitionid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 090afcec-d124-4b7c-822a-ecb56f9037a6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetPartitionId method, IObjectContextInfo2.GetPartitionId, IObjectContextInfo2::GetPartitionId, _cos_IObjectContextInfo2_GetPartitionId, comsvcs/IObjectContextInfo2::GetPartitionId, cos.iobjectcontextinfo2_getpartitionid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextInfo2.GetPartitionId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextInfo2::GetPartitionId

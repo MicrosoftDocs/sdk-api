@@ -4,17 +4,16 @@ title: IWMDMDevice3::FindStorage
 author: windows-sdk-content
 description: The FindStorage method finds a storage by its persistent unique identifier. Unlike other methods, this method can search recursively from the root storage.
 old-location: wmdm\iwmdmdevice3_findstorage.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 481e6c2d-4103-4818-9ad4-733629af9f9d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],FindStorage method, IWMDMDevice3.FindStorage, IWMDMDevice3::FindStorage, IWMDMDevice3FindStorage, mswmdm/IWMDMDevice3::FindStorage, wmdm.iwmdmdevice3_findstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice3.FindStorage
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice3::FindStorage

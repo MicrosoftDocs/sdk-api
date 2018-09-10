@@ -4,17 +4,16 @@ title: MprAdminServerDisconnect function
 author: windows-sdk-content
 description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.
 old-location: rras\mpradminserverdisconnect.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 905b5296-ae6b-40a6-ba49-837db96de152
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminServerDisconnect, MprAdminServerDisconnect function [RAS], _mpr_mpradminserverdisconnect, mprapi/MprAdminServerDisconnect, rras.mpradminserverdisconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminServerDisconnect
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminServerDisconnect function

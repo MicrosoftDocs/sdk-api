@@ -4,17 +4,16 @@ title: ISyncKnowledge::FindClockVectorForChangeUnit
 author: windows-sdk-content
 description: Gets the clock vector that is associated with the specified change unit ID.
 old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForChangeUnit method, ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.FindClockVectorForChangeUnit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::FindClockVectorForChangeUnit

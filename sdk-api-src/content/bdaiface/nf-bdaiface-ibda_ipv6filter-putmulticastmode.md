@@ -4,17 +4,16 @@ title: IBDA_IPV6Filter::PutMulticastMode
 author: windows-sdk-content
 description: The PutMulticastMode method specifies the multicast mode.
 old-location: mstv\ibda_ipv6filter_putmulticastmode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2c8dc746-3610-4d54-b4d3-ca21f8674c57
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_IPV6Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV6Filter.PutMulticastMode, IBDA_IPV6Filter::PutMulticastMode, IBDA_IPV6FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV6Filter interface, bdaiface/IBDA_IPV6Filter::PutMulticastMode, mstv.ibda_ipv6filter_putmulticastmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_IPV6Filter.PutMulticastMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_IPV6Filter::PutMulticastMode

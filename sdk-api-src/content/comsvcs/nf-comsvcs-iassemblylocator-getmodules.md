@@ -4,17 +4,16 @@ title: IAssemblyLocator::GetModules
 author: windows-sdk-content
 description: Used to get the names of the modules that are contained in an assembly.
 old-location: cos\iassemblylocator_getmodules.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 5483c500-ac11-4f1d-b89c-37b6a718a735
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetModules, GetModules method [COM+], GetModules method [COM+],IAssemblyLocator interface, IAssemblyLocator interface [COM+],GetModules method, IAssemblyLocator.GetModules, IAssemblyLocator::GetModules, _cos_IAssemblyLocator_GetModules, comsvcs/IAssemblyLocator::GetModules, cos.iassemblylocator_getmodules
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAssemblyLocator.GetModules
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyLocator::GetModules

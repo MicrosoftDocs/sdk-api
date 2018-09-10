@@ -4,17 +4,16 @@ title: IPropertyStore::GetAt
 author: windows-sdk-content
 description: Gets a property key from the property array of an item.
 old-location: audio\ipropertystore_getat.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 4f93949a-d5d5-4fbf-8538-6171861e5884
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetAt, GetAt (IPropertyStore), GetAt method [Audio Devices], GetAt method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetAt method, IPropertyStore.GetAt, IPropertyStore::GetAt, audio.ipropertystore_getat, audio_syseffects_r_3a52a0be-2e51-468f-9a93-86bd242b422e.xml, propsys/IPropertyStore::GetAt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows Vista and later versions of the Windows operating system.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.idl
+req.dll: 
+req.irql: All levels
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPropertyStore.GetAt
 product: Windows
 targetos: Windows
-req.lib: Propsys.idl
-req.dll: 
-req.irql: All levels
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyStore::GetAt
@@ -68,7 +66,7 @@ The index of the property key in the array of PROPERTYKEY structures. This is a 
 
 ### -param pkey
 
-
+TBD
 
 
 

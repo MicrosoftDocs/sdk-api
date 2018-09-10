@@ -4,17 +4,16 @@ title: IVssComponent::GetBackupSucceeded
 author: windows-sdk-content
 description: The GetBackupSucceeded method returns the status of a complete attempt at backing up all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getbackupsucceeded.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9b2dce08-a4ab-4e55-aeef-819f71ddf9d2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBackupSucceeded, GetBackupSucceeded method [VSS], GetBackupSucceeded method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupSucceeded method, IVssComponent.GetBackupSucceeded, IVssComponent::GetBackupSucceeded, _win32_ivsscomponent_getbackupsucceeded, base.ivsscomponent_getbackupsucceeded, vswriter/IVssComponent::GetBackupSucceeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetBackupSucceeded
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetBackupSucceeded

@@ -4,17 +4,16 @@ title: VarDecFix function
 author: windows-sdk-content
 description: Retrieves the integer portion of a variant of type decimal.
 old-location: automat\vardecfix.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 714567f9-7159-4081-a5d2-afd4da789961
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarDecFix, VarDecFix function [Automation], _oa96_VarDecFix, automat.vardecfix, oleauto/VarDecFix
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarDecFix
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarDecFix function

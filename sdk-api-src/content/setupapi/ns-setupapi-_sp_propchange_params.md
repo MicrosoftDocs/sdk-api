@@ -4,7 +4,7 @@ title: "_SP_PROPCHANGE_PARAMS"
 author: windows-sdk-content
 description: An SP_PROPCHANGE_PARAMS structure corresponds to a DIF_PROPERTYCHANGE installation request.
 old-location: devinst\sp_propchange_params.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 7c64d352-3b9f-4c52-96d5-1a627f6b54a3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_PROPCHANGE_PARAMS, *PSP_PROPCHANGE_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_PROPCHANGE_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_PROPCHANGE_PARAMS, *PSP_PROPCHANGE_PARAMS
+req.redist: 
 ---
 
 # _SP_PROPCHANGE_PARAMS structure

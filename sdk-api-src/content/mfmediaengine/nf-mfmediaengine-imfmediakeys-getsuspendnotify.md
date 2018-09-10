@@ -4,17 +4,16 @@ title: IMFMediaKeys::GetSuspendNotify
 author: windows-sdk-content
 description: Gets the suspend notify interface of the Content Decryption Module (CDM).
 old-location: mf\imfmediakeys_getsuspendnotify.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 35d76cbc-04c7-49e7-9451-6b032ccd2937
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSuspendNotify, GetSuspendNotify method [Media Foundation], GetSuspendNotify method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],GetSuspendNotify method, IMFMediaKeys.GetSuspendNotify, IMFMediaKeys::GetSuspendNotify, mf.imfmediakeys_getsuspendnotify, mfmediaengine/IMFMediaKeys::GetSuspendNotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFMediaKeys.GetSuspendNotify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaKeys::GetSuspendNotify

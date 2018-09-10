@@ -4,7 +4,7 @@ title: "_RTM_ENTITY_ID"
 author: windows-sdk-content
 description: The RTM_ENTITY_ID structure is used to uniquely identify a client to the routing table manager. The protocol identifier and the instance identifier are the values that are used to uniquely identify a client.
 old-location: rras\rtm_entity_id.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 6c75fb17-60b9-44cb-a934-430a6de74ee7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_ENTITY_ID, *PRTM_ENTITY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_ENTITY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RTM_ENTITY_ID, *PRTM_ENTITY_ID
+req.redist: 
 ---
 
 # _RTM_ENTITY_ID structure

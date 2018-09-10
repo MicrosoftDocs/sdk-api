@@ -4,7 +4,7 @@ title: IDXGIDevice4
 author: windows-sdk-content
 description: This interface provides updated methods to offer and reclaim resources.
 old-location: direct3ddxgi\idxgidevice4.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.lib: Dxgi.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIDevice4
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice4 interface

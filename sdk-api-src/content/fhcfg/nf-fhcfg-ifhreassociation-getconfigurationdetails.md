@@ -4,17 +4,16 @@ title: IFhReassociation::GetConfigurationDetails
 author: windows-sdk-content
 description: This method enumerates File History configurations that were discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method and returns additional information about each of the discovered configurations.
 old-location: winprog\ifhreassociation_getconfigurationdetails.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 4B5259B7-D845-4CF1-AC33-56DF9D00F2E2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method, GetConfigurationDetails, GetConfigurationDetails method [Windows API], GetConfigurationDetails method [Windows API],FhReassociation class, GetConfigurationDetails method [Windows API],IFhReassociation interface, IFhReassociation interface [Windows API],GetConfigurationDetails method, IFhReassociation.GetConfigurationDetails, IFhReassociation::GetConfigurationDetails, fhcfg/IFhReassociation::GetConfigurationDetails, winprog.ifhreassociation_getconfigurationdetails
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhReassociation.GetConfigurationDetails
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFhReassociation::GetConfigurationDetails

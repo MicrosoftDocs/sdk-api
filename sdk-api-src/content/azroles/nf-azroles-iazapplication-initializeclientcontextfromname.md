@@ -4,17 +4,16 @@ title: IAzApplication::InitializeClientContextFromName
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the client identity as a (domain name, client name) pair.
 old-location: security\iazapplication_initializeclientcontextfromname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 25628f06-fea7-4acd-b1db-b3667fcd07a2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromName method, IAzApplication interface [Security],InitializeClientContextFromName method, IAzApplication.InitializeClientContextFromName, IAzApplication::InitializeClientContextFromName, InitializeClientContextFromName, InitializeClientContextFromName method [Security], InitializeClientContextFromName method [Security],AzApplication object, InitializeClientContextFromName method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromName, security.iazapplication_initializeclientcontextfromname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.InitializeClientContextFromName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::InitializeClientContextFromName

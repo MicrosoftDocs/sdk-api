@@ -4,17 +4,16 @@ title: Font::GetStyle
 author: windows-sdk-content
 description: The Font::GetStyle method gets the style of this font's typeface.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, GetStyle, GetStyle method [GDI+], GetStyle method [GDI+],Font class, _gdiplus_CLASS_Font_GetStyle_, gdiplus._gdiplus_CLASS_Font_GetStyle_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Font.GetStyle
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

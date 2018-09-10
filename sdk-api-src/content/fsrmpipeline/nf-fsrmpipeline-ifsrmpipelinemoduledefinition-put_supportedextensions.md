@@ -4,17 +4,16 @@ title: IFsrmPipelineModuleDefinition::put_SupportedExtensions
 author: windows-sdk-content
 description: The list of file extensions supported by this module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d83caabf-ea62-4d3d-83e3-7b95f4fcc103
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],SupportedExtensions property, IFsrmPipelineModuleDefinition.SupportedExtensions, IFsrmPipelineModuleDefinition.put_SupportedExtensions, IFsrmPipelineModuleDefinition::SupportedExtensions, IFsrmPipelineModuleDefinition::get_SupportedExtensions, IFsrmPipelineModuleDefinition::put_SupportedExtensions, SupportedExtensions property [File Server Resource Manager], SupportedExtensions property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_supportedextensions, fsrm.ifsrmpipelinemoduledefinition_supportedextensions, fsrmpipeline/IFsrmPipelineModuleDefinition::SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::get_SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::put_SupportedExtensions, put_SupportedExtensions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmPipelineModuleDefinition.put_SupportedExtensions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPipelineModuleDefinition::put_SupportedExtensions

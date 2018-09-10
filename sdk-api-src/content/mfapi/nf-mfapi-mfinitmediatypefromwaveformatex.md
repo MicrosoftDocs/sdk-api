@@ -4,17 +4,16 @@ title: MFInitMediaTypeFromWaveFormatEx function
 author: windows-sdk-content
 description: Initializes a media type from a WAVEFORMATEX structure.
 old-location: mf\mfinitmediatypefromwaveformatex.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFInitMediaTypeFromWaveFormatEx
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFInitMediaTypeFromWaveFormatEx function

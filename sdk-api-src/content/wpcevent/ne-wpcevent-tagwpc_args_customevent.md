@@ -4,7 +4,7 @@ title: tagWPC_ARGS_CUSTOMEVENT
 author: windows-sdk-content
 description: Indicates information about a user-defined event that is not covered by the general events.
 old-location: parcon\wpc_args_customevent.htm
-old-project: parcon
+tech.root: parcon
 ms.assetid: 7f08d847-6042-4e56-97fd-cdf4e75da680
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WPC_ARGS_CUSTOMEVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WPC_ARGS_CUSTOMEVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WPC_ARGS_CUSTOMEVENT
+req.redist: 
 ---
 
 # tagWPC_ARGS_CUSTOMEVENT enumeration

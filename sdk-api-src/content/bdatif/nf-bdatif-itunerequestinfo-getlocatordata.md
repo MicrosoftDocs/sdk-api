@@ -4,17 +4,16 @@ title: ITuneRequestInfo::GetLocatorData
 author: windows-sdk-content
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
 old-location: mstv\itunerequestinfo_getlocatordata.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITuneRequestInfo.GetLocatorData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ITuneRequestInfo::GetLocatorData
@@ -64,7 +63,7 @@ The <b>GetLocatorData</b> method fills in channel or program locator information
 
 ### -param Request
 
-
+TBD
 
 
 

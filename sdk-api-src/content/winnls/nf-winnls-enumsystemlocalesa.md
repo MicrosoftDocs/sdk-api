@@ -4,17 +4,16 @@ title: EnumSystemLocalesA function
 author: windows-sdk-content
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.
 old-location: intl\enumsystemlocales.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - EnumSystemLocalesW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumSystemLocalesA function

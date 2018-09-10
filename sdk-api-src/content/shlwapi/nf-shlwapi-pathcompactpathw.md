@@ -4,17 +4,16 @@ title: PathCompactPathW function
 author: windows-sdk-content
 description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
 old-location: shell\PathCompactPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - PathCompactPathW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathCompactPathW function

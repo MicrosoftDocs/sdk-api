@@ -4,17 +4,16 @@ title: IGetFrame::SetFormat
 author: windows-sdk-content
 description: The SetFormat method sets the decompressed image format of the frames being extracted and optionally provides a buffer for the decompression operation.
 old-location: multimedia\igetframe_setformat.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 96a2afa5-af90-47e0-949a-a1498ed7f82e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IGetFrame interface [Windows Multimedia],SetFormat method, IGetFrame.SetFormat, IGetFrame::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IGetFrame interface, _win32_IGetFrame_SetFormat, multimedia.igetframe_setformat, vfw/IGetFrame::SetFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGetFrame.SetFormat
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IGetFrame::SetFormat

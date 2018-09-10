@@ -4,7 +4,7 @@ title: D3D11_STENCIL_OP
 author: windows-sdk-content
 description: The stencil operations that can be performed during depth-stencil testing.
 old-location: direct3d11\d3d11_stencil_op.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 4a08ce69-a3e1-43d3-bf7e-e14b106fbecf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_STENCIL_OP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_STENCIL_OP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_STENCIL_OP
+req.redist: 
 ---
 
 # D3D11_STENCIL_OP enumeration

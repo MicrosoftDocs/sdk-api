@@ -4,7 +4,7 @@ title: PDD_MOCOMPCB_CREATE
 author: windows-sdk-content
 description: The DdMoCompCreate callback function notifies the driver that a software decoder will start using motion compensation with the specified GUID.
 old-location: display\ddmocompcreate.htm
-old-project: display
+tech.root: display
 ms.assetid: 9413108b-f9b5-4d1c-83a9-b663a9f444bf
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdMoCompCreate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PDD_MOCOMPCB_CREATE callback function

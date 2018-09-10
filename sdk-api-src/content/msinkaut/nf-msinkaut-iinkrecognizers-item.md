@@ -4,17 +4,16 @@ title: IInkRecognizers::Item
 author: windows-sdk-content
 description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.
 old-location: tablet\inkrecognizers_item.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizers.Item
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizers::Item
@@ -66,7 +64,7 @@ Retrieves the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc
 
 ### -param Index
 
-
+TBD
 
 
 ### -param InkRecognizer [out, retval]

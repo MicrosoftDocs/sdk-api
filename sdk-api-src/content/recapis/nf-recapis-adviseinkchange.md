@@ -4,17 +4,16 @@ title: AdviseInkChange function
 author: windows-sdk-content
 description: Stops the recognizer from processing ink because a stroke has been added or deleted.
 old-location: tablet\adviseinkchange.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AdviseInkChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AdviseInkChange function

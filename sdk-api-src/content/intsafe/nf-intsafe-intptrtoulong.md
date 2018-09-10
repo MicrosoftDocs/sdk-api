@@ -4,17 +4,16 @@ title: IntPtrToULong function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type ULONG.
 old-location: shell\IntPtrToULong.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 58d55c1e-46ab-40b1-9caf-d4f3a81c8aa6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntPtrToDWord, IntPtrToULong, IntPtrToULong function [Windows Shell], PtrdiffTToDWord, PtrdiffTToLong, PtrdiffTToULong, _shell_IntPtrToULong, intsafe/IntPtrToULong, shell.IntPtrToULong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntPtrToULong
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntPtrToULong function

@@ -4,7 +4,7 @@ title: KnownGamingPrivileges
 author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\KnownGamingPrivileges.htm
-old-project: tcui
+tech.root: tcui
 ms.assetid: 250410B2-DE8B-4BFC-8613-AC574B45E7FE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gamingtcui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KnownGamingPrivileges
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: KnownGamingPrivileges
+req.redist: 
 ---
 
 # KnownGamingPrivileges enumeration

@@ -4,17 +4,16 @@ title: IMtsGrp::Item
 author: windows-sdk-content
 description: Retrieves the IUnknown pointer for the specified package.
 old-location: cos\imtsgrp_item.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6360f38d-43e2-4b78-a9f5-9a525d4c596a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMtsGrp interface [COM+],Item method, IMtsGrp.Item, IMtsGrp::Item, Item, Item method [COM+], Item method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Item, comsvcs/IMtsGrp::Item, cos.imtsgrp_item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsGrp.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsGrp::Item

@@ -4,17 +4,16 @@ title: ShellMessageBoxW function
 author: windows-sdk-content
 description: ShellMessageBox may be altered or unavailable.
 old-location: shell\ShellMessageBox.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ShellMessageBox, ShellMessageBox function [Windows Shell], ShellMessageBoxA, ShellMessageBoxW, _win32_ShellMessageBox, shell.ShellMessageBox, shellapi/ShellMessageBox, shellapi/ShellMessageBoxA, shellapi/ShellMessageBoxW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ShellMessageBoxW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ShellMessageBoxW function

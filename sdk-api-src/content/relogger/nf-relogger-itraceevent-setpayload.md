@@ -4,17 +4,16 @@ title: ITraceEvent::SetPayload
 author: windows-sdk-content
 description: Sets the payload for an event.
 old-location: etw\ievent_setpayload.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 180e0487-5262-45ae-a701-3fcb575637ae
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: ITraceEvent interface [ETW],SetPayload method, ITraceEvent.SetPayload, ITraceEvent::SetPayload, SetPayload, SetPayload method [ETW], SetPayload method [ETW],ITraceEvent interface, etw.ievent_setpayload, relogger/ITraceEvent::SetPayload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.SetPayload
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::SetPayload

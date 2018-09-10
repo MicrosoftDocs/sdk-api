@@ -4,7 +4,7 @@ title: WS_HTTP_HEADER_AUTH_TARGET
 author: windows-sdk-content
 description: Defines the target for the HTTP header authentication security binding.
 old-location: wsw\ws_http_header_auth_target.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d8e9b1b9-70b7-41b3-bbf0-7cd04ebabf55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTP_HEADER_AUTH_TARGET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTP_HEADER_AUTH_TARGET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTP_HEADER_AUTH_TARGET
+req.redist: 
 ---
 
 # WS_HTTP_HEADER_AUTH_TARGET enumeration

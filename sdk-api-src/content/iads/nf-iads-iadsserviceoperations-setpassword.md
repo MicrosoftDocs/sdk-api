@@ -4,17 +4,16 @@ title: IADsServiceOperations::SetPassword
 author: windows-sdk-content
 description: The IADsServiceOperations::SetPassword method sets the password for the account used by the service manager. This method is called when the security context for this service is created.
 old-location: adsi\iadsserviceoperations_setpassword.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: a10684d1-be61-4599-b232-638b416aa127
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsServiceOperations interface [ADSI],SetPassword method, IADsServiceOperations.SetPassword, IADsServiceOperations::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsServiceOperations.SetPassword
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsServiceOperations::SetPassword

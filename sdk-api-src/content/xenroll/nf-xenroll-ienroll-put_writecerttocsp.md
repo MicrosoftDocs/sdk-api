@@ -4,17 +4,16 @@ title: IEnroll::put_WriteCertToCSP
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\ienroll4_writecerttocsp.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 07463f0d-f46c-4bc3-8170-0a480b826049
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll interface [Security],WriteCertToCSP property, IEnroll.WriteCertToCSP, IEnroll.put_WriteCertToCSP, IEnroll::WriteCertToCSP, IEnroll::get_WriteCertToCSP, IEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],IEnroll interface, put_WriteCertToCSP, security.ienroll4_writecerttocsp, xenroll/IEnroll::WriteCertToCSP, xenroll/IEnroll::get_WriteCertToCSP, xenroll/IEnroll::put_WriteCertToCSP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_WriteCertToCSP
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::put_WriteCertToCSP

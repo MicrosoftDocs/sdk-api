@@ -4,17 +4,16 @@ title: CryptExportPublicKeyInfoFromBCryptKeyHandle function
 author: windows-sdk-content
 description: Exports the public key information associated with a provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptExportPublicKeyInfoFromBCryptKeyHandle, CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security], security.cryptexportpublickeyinfofrombcryptkeyhandle, wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptExportPublicKeyInfoFromBCryptKeyHandle
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptExportPublicKeyInfoFromBCryptKeyHandle function

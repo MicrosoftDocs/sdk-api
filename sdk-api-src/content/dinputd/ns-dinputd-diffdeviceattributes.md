@@ -4,7 +4,7 @@ title: DIFFDEVICEATTRIBUTES
 author: windows-sdk-content
 description: The DIFFDEVICEATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the OEMForceFeedback registry key.
 old-location: hid\diffdeviceattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: d4011b83-955f-4af8-85f7-a901dc67c8ec
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIFFDEVICEATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
+req.redist: 
 ---
 
 # DIFFDEVICEATTRIBUTES structure

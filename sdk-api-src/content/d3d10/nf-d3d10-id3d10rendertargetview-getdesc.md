@@ -4,17 +4,16 @@ title: ID3D10RenderTargetView::GetDesc
 author: windows-sdk-content
 description: Get the properties of a render target view.
 old-location: direct3d10\id3d10rendertargetview_getdesc.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rendertargetview_getdesc.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 00748511-34f4-ea6c-71a8-8ee7172ca5af, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10RenderTargetView interface, ID3D10RenderTargetView interface [Direct3D 10],GetDesc method, ID3D10RenderTargetView.GetDesc, ID3D10RenderTargetView::GetDesc, d3d10/ID3D10RenderTargetView::GetDesc, direct3d10.id3d10rendertargetview_getdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10RenderTargetView.GetDesc
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10RenderTargetView::GetDesc

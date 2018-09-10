@@ -4,7 +4,7 @@ title: "_BCRYPT_DH_PARAMETER_HEADER"
 author: windows-sdk-content
 description: Used to contain parameter header information for a Diffie-Hellman key.
 old-location: security\bcrypt_dh_parameter_header.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 5d023653-6197-4f08-8c71-e1d10f6b1860
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_DH_PARAMETER_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_DH_PARAMETER_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_DH_PARAMETER_HEADER
+req.redist: 
 ---
 
 # _BCRYPT_DH_PARAMETER_HEADER structure

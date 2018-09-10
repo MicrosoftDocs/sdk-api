@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_STATE
 author: windows-sdk-content
 description: Enumerates the possible states of a group.
 old-location: mscs\cluster_group_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1dbc5494-a830-4ee7-b982-48792ad87c51
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_GROUP_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_GROUP_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_GROUP_STATE
+req.redist: 
 ---
 
 # CLUSTER_GROUP_STATE enumeration

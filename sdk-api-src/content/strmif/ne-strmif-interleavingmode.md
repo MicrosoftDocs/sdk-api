@@ -4,7 +4,7 @@ title: InterleavingMode
 author: windows-sdk-content
 description: Specifies how video frames and audio samples will be written to disk.
 old-location: dshow\interleavingmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 4011b1e4-4bcf-4a2e-9d9a-ccdc8e12cd5a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InterleavingMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterleavingMode
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: InterleavingMode
+req.redist: 
 ---
 
 # InterleavingMode enumeration

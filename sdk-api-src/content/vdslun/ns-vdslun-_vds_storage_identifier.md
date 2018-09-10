@@ -4,7 +4,7 @@ title: "_VDS_STORAGE_IDENTIFIER"
 author: windows-sdk-content
 description: Defines a storage device using a particular code set and type.
 old-location: base\vds_storage_identifier.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_IDENTIFIER
+req.redist: 
 ---
 
 # _VDS_STORAGE_IDENTIFIER structure

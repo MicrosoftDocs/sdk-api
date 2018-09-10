@@ -4,17 +4,16 @@ title: IOleInPlaceActiveObject::ResizeBorder
 author: windows-sdk-content
 description: Alerts the object that it needs to resize its border space.
 old-location: com\ioleinplaceactiveobject_resizeborder.htm
-old-project: com
+tech.root: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleInPlaceActiveObject.ResizeBorder, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceActiveObject.ResizeBorder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceActiveObject::ResizeBorder

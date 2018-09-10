@@ -4,7 +4,7 @@ title: "_SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS"
 author: windows-sdk-content
 description: Describes a set of retrieved data disks that can be used as target sites for replication.
 old-location: mscs\sr_resource_type_query_eligible_target_datadisks.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3179737F-E4E5-4123-ACFE-235BD0579C52
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, *PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS, *PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS
+req.redist: 
 ---
 
 # _SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS structure

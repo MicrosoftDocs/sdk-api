@@ -4,17 +4,16 @@ title: IOfflineFilesSuspend::SuspendRoot
 author: windows-sdk-content
 description: Suspend or release a share root or directory tree.
 old-location: of\iofflinefilessuspend_suspendroot.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, IOfflineFilesSuspend.SuspendRoot, IOfflineFilesSuspend::SuspendRoot, SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files],IOfflineFilesSuspend interface, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSuspend.SuspendRoot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSuspend::SuspendRoot

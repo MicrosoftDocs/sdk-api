@@ -4,17 +4,16 @@ title: IUICollection::RemoveAt
 author: windows-sdk-content
 description: Removes an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_removeat.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\removeat.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUICollection interface [Windows Ribbon],RemoveAt method, IUICollection.RemoveAt, IUICollection::RemoveAt, RemoveAt, RemoveAt method [Windows Ribbon], RemoveAt method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_RemoveAt, uiribbon/IUICollection::RemoveAt, windowsribbon.windowsribbon_iuicollection_removeat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUICollection.RemoveAt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

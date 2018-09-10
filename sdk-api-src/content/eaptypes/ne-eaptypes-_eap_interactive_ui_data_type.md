@@ -4,7 +4,7 @@ title: "_EAP_INTERACTIVE_UI_DATA_TYPE"
 author: windows-sdk-content
 description: Specifies the set of types of interactive UI context data supplied to certain supplicant API calls.
 old-location: eaphost\eap_interactive_ui_data_type.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 0b3cd58c-9396-4c79-842b-76bf03aa7d7a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_INTERACTIVE_UI_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_INTERACTIVE_UI_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: Eappprxy.lib
-req.dll: Eappprxy.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_INTERACTIVE_UI_DATA_TYPE
+req.redist: 
 ---
 
 # _EAP_INTERACTIVE_UI_DATA_TYPE enumeration

@@ -4,17 +4,16 @@ title: IAudioSessionManager2::UnregisterSessionNotification
 author: windows-sdk-content
 description: The UnregisterSessionNotification method deletes the registration to receive a notification when a session is created.
 old-location: coreaudio\iaudiosessionmanager2_unregistersessionnotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterSessionNotification method, IAudioSessionManager2.UnregisterSessionNotification, IAudioSessionManager2::UnregisterSessionNotification, UnregisterSessionNotification, UnregisterSessionNotification method [Core Audio], UnregisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterSessionNotification, coreaudio.iaudiosessionmanager2_unregistersessionnotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionManager2.UnregisterSessionNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionManager2::UnregisterSessionNotification

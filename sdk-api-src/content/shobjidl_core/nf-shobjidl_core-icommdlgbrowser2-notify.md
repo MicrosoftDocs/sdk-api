@@ -4,17 +4,16 @@ title: ICommDlgBrowser2::Notify
 author: windows-sdk-content
 description: Called by a Shell view to notify the common dialog box hosting it that an event has occurred.
 old-location: shell\ICommDlgBrowser2_Notify.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 486c306d-90ea-4ea4-afe1-2c3f5015ccf7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CDB2N_CONTEXTMENU_DONE, CDB2N_CONTEXTMENU_START, ICommDlgBrowser2 interface [Windows Shell],Notify method, ICommDlgBrowser2.Notify, ICommDlgBrowser2::Notify, Notify, Notify method [Windows Shell], Notify method [Windows Shell],ICommDlgBrowser2 interface, _win32_ICommDlgBrowser2_Notify, shell.ICommDlgBrowser2_Notify, shobjidl_core/ICommDlgBrowser2::Notify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICommDlgBrowser2.Notify
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICommDlgBrowser2::Notify
@@ -62,7 +60,7 @@ Called by a Shell view to notify the common dialog box hosting it that an event 
 
 ### -param ppshv
 
-
+TBD
 
 
 ### -param dwNotifyType

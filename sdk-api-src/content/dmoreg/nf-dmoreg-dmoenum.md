@@ -4,17 +4,16 @@ title: DMOEnum function
 author: windows-sdk-content
 description: The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.
 old-location: dshow\dmoenum.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Msdmo.lib
+req.dll: Msdmo.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DMOEnum
 product: Windows
 targetos: Windows
-req.lib: Msdmo.lib
-req.dll: Msdmo.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DMOEnum function

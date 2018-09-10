@@ -4,17 +4,16 @@ title: IX509CertificateRequestPkcs7::InitializeFromCertificate
 author: windows-sdk-content
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs7.InitializeFromCertificate, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs7.InitializeFromCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs7::InitializeFromCertificate

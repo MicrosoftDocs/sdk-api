@@ -4,17 +4,16 @@ title: GetConvertStg function
 author: windows-sdk-content
 description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.
 old-location: stg\getconvertstg.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - GetConvertStg
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetConvertStg function

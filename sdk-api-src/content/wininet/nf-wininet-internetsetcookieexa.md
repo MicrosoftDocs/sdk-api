@@ -4,17 +4,16 @@ title: InternetSetCookieExA function
 author: windows-sdk-content
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
 old-location: wininet\internetsetcookieex.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetSetCookieEx, InternetSetCookieEx function [WinINet], InternetSetCookieExA, InternetSetCookieExW, wininet.internetsetcookieex, wininet/InternetSetCookieEx, wininet/InternetSetCookieExA, wininet/InternetSetCookieExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetSetCookieExW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetSetCookieExA function

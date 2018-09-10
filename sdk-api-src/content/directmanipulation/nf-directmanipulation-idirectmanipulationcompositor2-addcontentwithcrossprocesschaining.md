@@ -4,17 +4,16 @@ title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
 author: windows-sdk-content
 description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor2_addcontentwithcrossprocesschaining.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: dd6052df-30b5-4872-89a7-b98126fcd44d
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChaining method [Direct Manipulation], AddContentWithCrossProcessChaining method [Direct Manipulation],IDirectManipulationCompositor2 interface, IDirectManipulationCompositor2 interface [Direct Manipulation],AddContentWithCrossProcessChaining method, IDirectManipulationCompositor2.AddContentWithCrossProcessChaining, IDirectManipulationCompositor2::AddContentWithCrossProcessChaining, directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining, directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationCompositor2::AddContentWithCrossProcessChaining

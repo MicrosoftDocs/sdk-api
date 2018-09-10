@@ -4,17 +4,16 @@ title: IWSDHttpMessageParameters::GetID
 author: windows-sdk-content
 description: Retrieves the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDHttpMessageParameters.GetID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDHttpMessageParameters::GetID

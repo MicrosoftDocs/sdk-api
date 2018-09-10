@@ -4,17 +4,16 @@ title: WintrustSetRegPolicyFlags function
 author: windows-sdk-content
 description: Sets policy flags for a policy provider.
 old-location: security\wintrustsetregpolicyflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8aaeecd0-3814-42a0-9e5b-82b0b220bc9a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustSetRegPolicyFlags, WintrustSetRegPolicyFlags function [Security], security.wintrustsetregpolicyflags, wintrust/WintrustSetRegPolicyFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TEB, *PTEB
+req.lib: 
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WintrustSetRegPolicyFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wintrust.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WintrustSetRegPolicyFlags function

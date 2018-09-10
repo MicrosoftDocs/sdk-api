@@ -4,7 +4,7 @@ title: IDirectInputEffectDriver
 author: windows-sdk-content
 description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
 old-location: hid\idirectinputeffectdriver.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputEffectDriver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputEffectDriver interface

@@ -4,17 +4,16 @@ title: ID3D11Multithread::SetMultithreadProtected
 author: windows-sdk-content
 description: Turns multithread protection on or off.
 old-location: direct3d11\id3d11multithread_setmultithreadprotected.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: E8BF9A25-CCEA-44F3-AE7C-376E5B672079
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11Multithread interface [Direct3D 11],SetMultithreadProtected method, ID3D11Multithread.SetMultithreadProtected, ID3D11Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 11], SetMultithreadProtected method [Direct3D 11],ID3D11Multithread interface, d3d11_4/ID3D11Multithread::SetMultithreadProtected, direct3d11.id3d11multithread_setmultithreadprotected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
+req.lib: D3d11_4.lib
+req.dll: D3d11_4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11Multithread.SetMultithreadProtected
 product: Windows
 targetos: Windows
-req.lib: D3d11_4.lib
-req.dll: D3d11_4.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Multithread::SetMultithreadProtected

@@ -4,7 +4,7 @@ title: "_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS"
 author: windows-sdk-content
 description: Defines flags that specify how to block data flow from an output pin.
 old-location: dshow\am_pin_connection_block_flags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ad059d7c-86dd-41a4-8cef-dbd154057c50
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS enumeration

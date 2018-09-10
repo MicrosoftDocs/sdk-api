@@ -4,7 +4,7 @@ title: "_GamutBoundaryDescription"
 author: windows-sdk-content
 description: Defines a gamut boundary.
 old-location: wcs\gamutboundarydescription.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GamutBoundaryDescription
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GamutBoundaryDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GamutBoundaryDescription
+req.redist: 
 ---
 
 # _GamutBoundaryDescription structure

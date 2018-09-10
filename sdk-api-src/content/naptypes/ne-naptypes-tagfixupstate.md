@@ -4,7 +4,7 @@ title: tagFixupState
 author: windows-sdk-content
 description: Defines the fix-up state of the System Health Agent (SHA).
 old-location: nap\fixupstate_enum.htm
-old-project: nap
+tech.root: nap
 ms.assetid: cde1f9df-f4d9-4601-a513-e00639ee9b6e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,21 +14,21 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: LoadMUILibraryW (Unicode) and LoadMUILibraryA (ANSI)
+req.unicode-ansi: 
 req.idl: NapTypes.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FixupState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FixupState
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: FixupState
+req.redist: 
 ---
 
 # tagFixupState enumeration

@@ -4,17 +4,16 @@ title: IFsrmProperty::get_Name
 author: windows-sdk-content
 description: The name of the property.
 old-location: fsrm\ifsrmproperty_name.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 86e21634-1cb9-42b2-ac50-d17535a4bf40
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Name property, IFsrmProperty.Name, IFsrmProperty.get_Name, IFsrmProperty::Name, IFsrmProperty::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_name, fsrm.ifsrmproperty_name, fsrmpipeline/IFsrmProperty::Name, fsrmpipeline/IFsrmProperty::get_Name, get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IFsrmProperty.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmProperty::get_Name

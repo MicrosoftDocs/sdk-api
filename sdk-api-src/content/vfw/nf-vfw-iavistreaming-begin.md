@@ -4,17 +4,16 @@ title: IAVIStreaming::Begin
 author: windows-sdk-content
 description: The Begin method prepares for the streaming operation. Called when an application uses the AVIStreamBeginStreaming function.
 old-location: multimedia\iavistreaming_begin.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9bd76fc3-6c31-4e29-b482-82ee0a505656
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],Begin method, IAVIStreaming.Begin, IAVIStreaming::Begin, _win32_IAVIStreaming_Begin, multimedia.iavistreaming_begin, vfw/IAVIStreaming::Begin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAVIStreaming.Begin
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAVIStreaming::Begin

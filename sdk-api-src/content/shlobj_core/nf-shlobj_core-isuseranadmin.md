@@ -4,17 +4,16 @@ title: IsUserAnAdmin function
 author: windows-sdk-content
 description: IsUserAnAdmin may be altered or unavailable.
 old-location: shell\IsUserAnAdmin.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsUserAnAdmin
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsUserAnAdmin function

@@ -4,17 +4,16 @@ title: IDWriteBitmapRenderTarget::GetSize
 author: windows-sdk-content
 description: Gets the dimensions of the target bitmap.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetSize.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1b73854c-674a-408a-8967-e72808ee296e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSize, GetSize method [Direct Write], GetSize method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetSize method, IDWriteBitmapRenderTarget.GetSize, IDWriteBitmapRenderTarget::GetSize, directwrite.IDWriteBitmapRenderTarget_GetSize, dwrite/IDWriteBitmapRenderTarget::GetSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteBitmapRenderTarget.GetSize
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteBitmapRenderTarget::GetSize

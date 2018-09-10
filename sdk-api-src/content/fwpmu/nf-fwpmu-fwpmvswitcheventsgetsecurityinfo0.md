@@ -4,17 +4,16 @@ title: FwpmvSwitchEventsGetSecurityInfo0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a vSwitch event.
 old-location: fwp\fwpmvswitcheventsgetsecurityinfo0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 20183a71-f750-4131-8d29-80a0624f8b8d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FwpmvSwitchEventsGetSecurityInfo0, FwpmvSwitchEventsGetSecurityInfo0 function [Filtering], fwp.fwpmvswitcheventsgetsecurityinfo0, fwpmu/FwpmvSwitchEventsGetSecurityInfo0
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
+req.lib: Fwpuclnt.lib
+req.dll: Fwpuclnt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FwpmvSwitchEventsGetSecurityInfo0
 product: Windows
 targetos: Windows
-req.lib: Fwpuclnt.lib
-req.dll: Fwpuclnt.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FwpmvSwitchEventsGetSecurityInfo0 function

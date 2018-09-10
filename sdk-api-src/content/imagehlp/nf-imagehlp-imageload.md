@@ -4,17 +4,16 @@ title: ImageLoad function
 author: windows-sdk-content
 description: Maintains a list of loaded DLLs.
 old-location: base\imageload.htm
-old-project: debug
+tech.root: debug
 ms.assetid: e88e6417-a805-43c2-9f47-5180228cf175
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, imagehlp/ImageLoad
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Imagehlp.lib
+req.dll: Imagehlp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ImageLoad
 product: Windows
 targetos: Windows
-req.lib: Imagehlp.lib
-req.dll: Imagehlp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImageLoad function

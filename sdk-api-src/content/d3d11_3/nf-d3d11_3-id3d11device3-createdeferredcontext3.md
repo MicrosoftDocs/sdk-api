@@ -4,17 +4,16 @@ title: ID3D11Device3::CreateDeferredContext3
 author: windows-sdk-content
 description: Creates a deferred context, which can record command lists.
 old-location: direct3d11\id3d11device3_createdeferredcontext3.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 78B52E38-3256-4151-96DA-4C81A2A516CF
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateDeferredContext3, CreateDeferredContext3 method [Direct3D 11], CreateDeferredContext3 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateDeferredContext3 method, ID3D11Device3.CreateDeferredContext3, ID3D11Device3::CreateDeferredContext3, d3d11_3/ID3D11Device3::CreateDeferredContext3, direct3d11.id3d11device3_createdeferredcontext3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device3.CreateDeferredContext3
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device3::CreateDeferredContext3

@@ -4,17 +4,16 @@ title: CoGetObject function
 author: windows-sdk-content
 description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.
 old-location: com\cogetobject.htm
-old-project: com
+tech.root: com
 ms.assetid: 0f5c9ef5-3918-4f93-bfd1-1017029b3dc1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.cogetobject, objbase/CoGetObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CoGetObject
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetObject function

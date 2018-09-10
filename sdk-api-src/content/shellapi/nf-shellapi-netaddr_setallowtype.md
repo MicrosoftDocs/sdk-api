@@ -4,17 +4,16 @@ title: NetAddr_SetAllowType macro
 author: windows-sdk-content
 description: Sets the network address types that a specified network address control accepts.
 old-location: shell\NetAddr_SetAllowType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2fa97abd-79c8-41ce-bd0e-75941bf4d005
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: NetAddr_SetAllowType, NetAddr_SetAllowType macro [Windows Shell], _shell_NetAddr_SetAllowType, shell.NetAddr_SetAllowType, shellapi/NetAddr_SetAllowType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetAddr_SetAllowType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # NetAddr_SetAllowType macro

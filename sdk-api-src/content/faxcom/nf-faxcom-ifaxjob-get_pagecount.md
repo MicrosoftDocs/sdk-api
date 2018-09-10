@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxJob.get_PageCount
 title: IFaxJob::get_PageCount
 author: windows-sdk-content
-description: The PageCount property is a number that represents the total number of pages in a fax transmission. The PageCount property applies only to outgoing fax transmissions.
-old-location: fax\_mfax_ifaxjob_get_pagecount_vb.htm
-old-project: Fax
+description: The IFaxJob::get_PageCount property is a number that represents the total number of pages in a fax transmission. The IFaxJob::get_PageCount property applies only to outgoing fax transmissions.
+old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0nlg.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxJob object [Fax Service],PageCount property, FaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],FaxJob object, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount_vb, get_PageCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxJob interface [Fax Service],PageCount property, IFaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp, faxcom/IFaxJob::PageCount, faxcom/IFaxJob::get_PageCount, get_PageCount
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxJob.PageCount
+ - IFaxJob.PageCount
+ - IFaxJob.get_PageCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxJob::get_PageCount
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>PageCount</b> property is a number that represents the total number of pages in a fax transmission. The <b>PageCount</b> property applies only to outgoing fax transmissions.
+The <b>IFaxJob::get_PageCount</b> property is a number that represents the total number of pages in a fax transmission. The <b>IFaxJob::get_PageCount</b> property applies only to outgoing fax transmissions.
 
 This property is read-only.
 
@@ -64,9 +63,9 @@ This property is read-only.
 
 
 
-The total page count is only available for faxes where <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> returns JT_SEND. If the page count is not available, <b>PageCount</b> returns zero.
+The total page count is only available for faxes where <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> returns JT_SEND. If the page count is not available, <b>IFaxJob::get_PageCount</b> returns zero.
 
-The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> property equal to JT_SEND. If the page count is not available, the <b>PageCount</b> property is zero.
+The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> property equal to JT_SEND. If the page count is not available, the <b>IFaxJob::get_PageCount</b> property is zero.
 
 
 
@@ -84,19 +83,15 @@ The total page count is only available for faxes that have a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/c6e95bae-c1f8-4636-9847-7c66187cfc8d">FaxJob</a>
-
-
-
 <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a>
+
+
+
 <a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
-
-
-
-<a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a>
  
 
  

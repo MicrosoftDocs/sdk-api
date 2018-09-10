@@ -4,17 +4,16 @@ title: FindFirstFileExW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
 old-location: fs\findfirstfileex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FIND_FIRST_EX_LARGE_FETCH, FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY, FindFirstFileEx, FindFirstFileEx function [Files], FindFirstFileExA, FindFirstFileExW, _win32_findfirstfileex, base.findfirstfileex, fileapi/FindFirstFileEx, fileapi/FindFirstFileExA, fileapi/FindFirstFileExW, fs.findfirstfileex, winbase/FindFirstFileEx, winbase/FindFirstFileExA, winbase/FindFirstFileExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - FindFirstFileExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FindFirstFileExW function

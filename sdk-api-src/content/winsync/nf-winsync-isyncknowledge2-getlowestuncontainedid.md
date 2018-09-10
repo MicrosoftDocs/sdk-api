@@ -4,17 +4,16 @@ title: ISyncKnowledge2::GetLowestUncontainedId
 author: windows-sdk-content
 description: Returns the lowest item ID that is not contained in this knowledge and that is contained in the specified knowledge.
 old-location: winsync\isyncknowledge2_getlowestuncontainedid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 06a1a380-3fe8-4c99-be97-d84b6be9838d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLowestUncontainedId, GetLowestUncontainedId method [Windows Sync], GetLowestUncontainedId method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetLowestUncontainedId method, ISyncKnowledge2.GetLowestUncontainedId, ISyncKnowledge2::GetLowestUncontainedId, winsync.isyncknowledge2_getlowestuncontainedid, winsync/ISyncKnowledge2::GetLowestUncontainedId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge2.GetLowestUncontainedId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge2::GetLowestUncontainedId

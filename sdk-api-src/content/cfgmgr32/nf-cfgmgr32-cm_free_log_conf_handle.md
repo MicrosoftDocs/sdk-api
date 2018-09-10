@@ -4,17 +4,16 @@ title: CM_Free_Log_Conf_Handle function
 author: windows-sdk-content
 description: The CM_Free_Log_Conf_Handle function invalidates a logical configuration handle and frees its associated memory allocation.
 old-location: devinst\cm_free_log_conf_handle.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Handle, cfgmgrfn_acfb6a9e-f12b-40af-a239-dba8aff1e22b.xml, devinst.cm_free_log_conf_handle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Free_Log_Conf_Handle
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Free_Log_Conf_Handle function

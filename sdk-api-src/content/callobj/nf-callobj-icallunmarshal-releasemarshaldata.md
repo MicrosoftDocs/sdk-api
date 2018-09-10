@@ -4,17 +4,16 @@ title: ICallUnmarshal::ReleaseMarshalData
 author: windows-sdk-content
 description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.
 old-location: com\icallunmarshal_releasemarshaldata.htm
-old-project: com
+tech.root: com
 ms.assetid: c7b1aff8-338a-491a-908f-5f85dddd89b7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICallUnmarshal interface [COM],ReleaseMarshalData method, ICallUnmarshal.ReleaseMarshalData, ICallUnmarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallUnmarshal interface, _com_icallunmarshal_releasemarshaldata, callobj/ICallUnmarshal::ReleaseMarshalData, com.icallunmarshal_releasemarshaldata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallUnmarshal.ReleaseMarshalData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallUnmarshal::ReleaseMarshalData

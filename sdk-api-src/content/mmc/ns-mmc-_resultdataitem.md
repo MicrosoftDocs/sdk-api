@@ -4,7 +4,7 @@ title: "_RESULTDATAITEM"
 author: windows-sdk-content
 description: The RESULTDATAITEM structure specifies or receives the attributes of result items in the result pane of the snap-in.
 old-location: mmc\resultdataitem.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: c8f4682e-e1f7-4f7f-9a56-508648ca8c07
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESULTDATAITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESULTDATAITEM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RESULTDATAITEM
+req.redist: 
 ---
 
 # _RESULTDATAITEM structure

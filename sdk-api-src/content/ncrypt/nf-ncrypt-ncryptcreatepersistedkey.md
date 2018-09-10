@@ -4,17 +4,16 @@ title: NCryptCreatePersistedKey function
 author: windows-sdk-content
 description: Creates a new key and stores it in the specified key storage provider.
 old-location: security\ncryptcreatepersistedkey_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_OVERWRITE_KEY_FLAG, NCryptCreatePersistedKey, NCryptCreatePersistedKey function [Security], ncrypt/NCryptCreatePersistedKey, security.ncryptcreatepersistedkey_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptCreatePersistedKey
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptCreatePersistedKey function

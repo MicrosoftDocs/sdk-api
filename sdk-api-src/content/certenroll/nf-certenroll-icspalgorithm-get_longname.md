@@ -4,17 +4,16 @@ title: ICspAlgorithm::get_LongName
 author: windows-sdk-content
 description: Retrieves the full name of the algorithm.
 old-location: security\icspalgorithm_longname_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspAlgorithm.get_LongName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspAlgorithm::get_LongName

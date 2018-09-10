@@ -4,17 +4,16 @@ title: RtlConvertSidToUnicodeString function
 author: windows-sdk-content
 description: Converts a security identifier (SID) to its Unicode character representation.
 old-location: security\rtlconvertsidtounicodestring.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 4b2584ad-6752-46d4-83fb-3de0b783e229
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_VERSION
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlConvertSidToUnicodeString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlConvertSidToUnicodeString function

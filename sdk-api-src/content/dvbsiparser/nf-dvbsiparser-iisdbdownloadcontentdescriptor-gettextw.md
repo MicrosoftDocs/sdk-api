@@ -4,17 +4,16 @@ title: IIsdbDownloadContentDescriptor::GetTextW
 author: windows-sdk-content
 description: Gets the text from an Integrated Services Digital Broadcasting (ISDB) download content descriptor that describes the descriptor contents, in Unicode text format.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettextw.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: cf26ff9b-02d8-4470-bde5-6a18c62c6511
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbDownloadContentDescriptor.GetTextW, IIsdbDownloadContentDescriptor::GetTextW, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextW, mstv.iisdbdownloadcontentdescriptor_gettextw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbDownloadContentDescriptor.GetTextW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbDownloadContentDescriptor::GetTextW

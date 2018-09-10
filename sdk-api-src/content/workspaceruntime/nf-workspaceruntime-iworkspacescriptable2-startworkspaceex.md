@@ -4,17 +4,16 @@ title: IWorkspaceScriptable2::StartWorkspaceEx
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
 old-location: termserv\iworkspacescriptable2_startworkspaceex.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 8383ee1c-ff6a-4251-8b0d-a2a8c0674873
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],StartWorkspaceEx method, IWorkspaceScriptable2.StartWorkspaceEx, IWorkspaceScriptable2::StartWorkspaceEx, IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspaceEx method, IWorkspaceScriptable3::StartWorkspaceEx, StartWorkspaceEx, StartWorkspaceEx method [Remote Desktop Services], StartWorkspaceEx method [Remote Desktop Services],IWorkspaceScriptable2 interface, StartWorkspaceEx method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspaceEx method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspaceEx method, termserv.iworkspacescriptable2_startworkspaceex, workspaceruntime/IWorkspaceScriptable2::StartWorkspaceEx, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WkspRt.exe
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Workspace.StartWorkspaceEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWorkspaceScriptable2::StartWorkspaceEx

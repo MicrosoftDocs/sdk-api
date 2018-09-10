@@ -4,7 +4,7 @@ title: ObjectParserFlags
 author: windows-sdk-content
 description: Flags used by constructor for CObjectPathParser.
 old-location: wmi\objectparserflags.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: objpath.h
 req.include-header: Objpath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ObjectParserFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: ObjectParserFlags
+req.redist: 
 ---
 
 # ObjectParserFlags enumeration

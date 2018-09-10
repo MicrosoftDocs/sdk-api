@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingJob.Cancel
 title: IFaxIncomingJob::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels the incoming fax job.
-old-location: fax\_mfax_faxincomingjob_cancel_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6g4s.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],Cancel method, FaxIncomingJob.Cancel, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cancel_vb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],Cancel method, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp, faxcomex/IFaxIncomingJob::Cancel
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingJob.Cancel
+ - IFaxIncomingJob.Cancel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingJob::Cancel
@@ -58,6 +56,17 @@ The <b>Cancel</b> method cancels the incoming fax job.
 ## -parameters
 
 
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

@@ -4,17 +4,16 @@ title: ITDirectoryObjectConference::put_Originator
 author: windows-sdk-content
 description: The put_Originator method sets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_put_originator.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 97e8b966-b65c-4c19-ac61-0b952657aec1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Originator method, ITDirectoryObjectConference.put_Originator, ITDirectoryObjectConference::put_Originator, _tapi3_itdirectoryobjectconference_put_originator, put_Originator, put_Originator method [TAPI 2.2], put_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Originator, tapi3.itdirectoryobjectconference_put_originator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObjectConference.put_Originator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObjectConference::put_Originator

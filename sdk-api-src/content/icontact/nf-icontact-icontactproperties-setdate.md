@@ -4,17 +4,16 @@ title: IContactProperties::SetDate
 author: windows-sdk-content
 description: Sets the date and time value at a specified property to a given FILETIME. All times are stored and returned as Coordinated Universal Time (UTC).
 old-location: wincontacts\_wincontacts_IContactProperties_SetDate.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: bbe0a788-7291-48f7-a36a-88e5b6b971dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetDate method, IContactProperties.SetDate, IContactProperties::SetDate, SetDate, SetDate method [Windows Contacts], SetDate method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetDate, icontact/IContactProperties::SetDate, wincontacts._wincontacts_IContactProperties_SetDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactProperties.SetDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactProperties::SetDate

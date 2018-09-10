@@ -4,7 +4,7 @@ title: CBADMITRESULT
 author: windows-sdk-content
 description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.
 old-location: qos\cbadmitresult.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CBADMITRESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CBADMITRESULT callback function

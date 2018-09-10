@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001"
 author: windows-sdk-content
 description: Provides predefined status codes to represent the progress of the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_status.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9E678584-D225-4BDD-8035-92818B977DE9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tpmvscmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Vscmgr.lib
-tech.root: 
-req.typenames: TPMVSCMGR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TPMVSCMGR_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TPMVSCMGR_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0001 enumeration

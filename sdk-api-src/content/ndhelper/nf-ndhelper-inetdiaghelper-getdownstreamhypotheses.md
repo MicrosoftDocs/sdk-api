@@ -4,17 +4,16 @@ title: INetDiagHelper::GetDownStreamHypotheses
 author: windows-sdk-content
 description: Asks the Helper Class Extension to generate hypotheses.
 old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm
-old-project: ndf
+tech.root: ndf
 ms.assetid: ac26fbb5-d30f-4b1f-b432-043a07bfa853
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDownStreamHypotheses, GetDownStreamHypotheses method [NDF], GetDownStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDownStreamHypotheses method, INetDiagHelper.GetDownStreamHypotheses, INetDiagHelper::GetDownStreamHypotheses, ndf.inetdiaghelpe_getdownstreamhypotheses, ndhelper/INetDiagHelper::GetDownStreamHypotheses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REPAIR_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetDiagHelper.GetDownStreamHypotheses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetDiagHelper::GetDownStreamHypotheses

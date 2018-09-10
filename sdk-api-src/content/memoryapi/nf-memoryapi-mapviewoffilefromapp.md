@@ -4,17 +4,16 @@ title: MapViewOfFileFromApp function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling Windows Store app.
 old-location: base\mapviewoffilefromapp.htm
-old-project: memory
+tech.root: memory
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_PARAMINFO
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - MapViewOfFileFromApp
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MapViewOfFileFromApp function

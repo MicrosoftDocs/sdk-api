@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord
 author: windows-sdk-content
 description: Use IBitsPeerCacheRecord to get information about a file in the cache.
 old-location: bits\ibitspeercacherecord.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheRecord
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx4.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheRecord interface

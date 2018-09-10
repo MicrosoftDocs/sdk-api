@@ -4,17 +4,16 @@ title: IShellBrowser::BrowseObject
 author: windows-sdk-content
 description: Informs Windows Explorer to browse to another folder.
 old-location: shell\IShellBrowser_BrowseObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e391ca11-25e3-4d97-8efd-0afd74a3e5c2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: BrowseObject, BrowseObject method [Windows Shell], BrowseObject method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],BrowseObject method, IShellBrowser.BrowseObject, IShellBrowser::BrowseObject, SBSP_ABSOLUTE, SBSP_ACTIVATE_NOFOCUS, SBSP_ALLOW_AUTONAVIGATE, SBSP_CALLERUNTRUSTED, SBSP_CREATENOHISTORY, SBSP_DEFBROWSER, SBSP_DEFMODE, SBSP_EXPLOREMODE, SBSP_FEEDNAVIGATION, SBSP_HELPMODE, SBSP_INITIATEDBYHLINKFRAME, SBSP_KEEPSAMETEMPLATE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_NEWBROWSER, SBSP_NOAUTOSELECT, SBSP_NOTRANSFERHIST, SBSP_OPENMODE, SBSP_PARENT, SBSP_PLAYNOSOUND, SBSP_REDIRECT, SBSP_RELATIVE, SBSP_SAMEBROWSER, SBSP_TRUSTEDFORACTIVEX, SBSP_TRUSTFIRSTDOWNLOAD, SBSP_UNTRUSTEDFORDOWNLOAD, SBSP_WRITENOHISTORY, _win32_IShellBrowser_BrowseObject, shell.IShellBrowser_BrowseObject, shobjidl_core/IShellBrowser::BrowseObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.BrowseObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::BrowseObject

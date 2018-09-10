@@ -4,17 +4,16 @@ title: IBackgroundCopyJob2::GetReplyData
 author: windows-sdk-content
 description: Retrieves an in-memory copy of the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY and its state is BG_JOB_STATE_TRANSFERRED.
 old-location: bits\ibackgroundcopyjob2_getreplydata.htm
-old-project: bits
+tech.root: bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyData method, IBackgroundCopyJob2.GetReplyData, IBackgroundCopyJob2::GetReplyData, _drz_ibackgroundcopyjob2_getreplydata, bits.ibackgroundcopyjob2_getreplydata, bits1_5/IBackgroundCopyJob2::GetReplyData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_SCHEME
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob2.GetReplyData
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx2.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBackgroundCopyJob2::GetReplyData
@@ -67,7 +66,7 @@ Buffer to contain the reply data. The method sets <i>ppBuffer</i> to <b>NULL</b>
 
 ### -param pLength
 
-
+TBD
 
 
 

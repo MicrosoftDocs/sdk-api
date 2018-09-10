@@ -4,7 +4,7 @@ title: "_FILE_STORAGE_TIER_MEDIA_TYPE"
 author: windows-sdk-content
 description: Specifies the storage media type.
 old-location: fs\file_storage_tier_media_type.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILE_STORAGE_TIER_MEDIA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_STORAGE_TIER_MEDIA_TYPE, *PFILE_STORAGE_TIER_MEDIA_TYPE
+req.redist: 
 ---
 
 # _FILE_STORAGE_TIER_MEDIA_TYPE enumeration

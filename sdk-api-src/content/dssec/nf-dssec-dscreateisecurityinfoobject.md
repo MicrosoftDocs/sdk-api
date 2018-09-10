@@ -4,17 +4,16 @@ title: DSCreateISecurityInfoObject function
 author: windows-sdk-content
 description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object.
 old-location: security\dscreateisecurityinfoobject.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 44cd8d55-7232-478a-a3d3-bbf5fc764bcd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DSCreateISecurityInfoObject, DSCreateISecurityInfoObject function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateISecurityInfoObject, security.dscreateisecurityinfoobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dssec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: DSSec.lib
+req.dll: DSSec.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSCreateISecurityInfoObject
 product: Windows
 targetos: Windows
-req.lib: DSSec.lib
-req.dll: DSSec.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DSCreateISecurityInfoObject function

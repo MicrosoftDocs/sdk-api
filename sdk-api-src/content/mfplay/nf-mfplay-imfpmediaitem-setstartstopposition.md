@@ -4,17 +4,16 @@ title: IMFPMediaItem::SetStartStopPosition
 author: windows-sdk-content
 description: Sets the start and stop time for the media item.
 old-location: mf\imfpmediaitem_setstartstopposition.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.SetStartStopPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::SetStartStopPosition

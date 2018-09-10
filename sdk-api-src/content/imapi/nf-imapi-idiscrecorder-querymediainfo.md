@@ -4,17 +4,16 @@ title: IDiscRecorder::QueryMediaInfo
 author: windows-sdk-content
 description: Retrieves information about the currently mounted media, such as the total number of blocks used on the media.
 old-location: imapi\idiscrecorder_querymediainfo.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 5e97d5e5-1a10-4ef2-b083-427d4070283f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaInfo method, IDiscRecorder.QueryMediaInfo, IDiscRecorder::QueryMediaInfo, QueryMediaInfo, QueryMediaInfo method [IMAPI], QueryMediaInfo method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediainfo, base.idiscrecorder_querymediainfo, imapi.idiscrecorder_querymediainfo, imapi/IDiscRecorder::QueryMediaInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Uuid.lib
+req.dll: Actxprxy.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder.QueryMediaInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Actxprxy.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder::QueryMediaInfo
@@ -62,27 +60,27 @@ Retrieves information about the currently mounted media, such as the total numbe
 
 ### -param pbSessions
 
-
+TBD
 
 
 ### -param pbLastTrack
 
-
+TBD
 
 
 ### -param ulStartAddress
 
-
+TBD
 
 
 ### -param ulNextWritable
 
-
+TBD
 
 
 ### -param ulFreeBlocks
 
-
+TBD
 
 
 

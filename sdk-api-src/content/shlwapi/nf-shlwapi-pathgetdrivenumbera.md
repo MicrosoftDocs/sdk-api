@@ -4,17 +4,16 @@ title: PathGetDriveNumberA function
 author: windows-sdk-content
 description: Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number.
 old-location: shell\PathGetDriveNumber.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 38914866-fdd4-47f2-b0e7-d09d1cfb0eee
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathGetDriveNumber, PathGetDriveNumber function [Windows Shell], PathGetDriveNumberA, PathGetDriveNumberW, _win32_PathGetDriveNumber, shell.PathGetDriveNumber, shlwapi/PathGetDriveNumber, shlwapi/PathGetDriveNumberA, shlwapi/PathGetDriveNumberW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathGetDriveNumberW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathGetDriveNumberA function

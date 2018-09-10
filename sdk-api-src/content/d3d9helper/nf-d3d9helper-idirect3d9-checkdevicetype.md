@@ -4,17 +4,16 @@ title: IDirect3D9::CheckDeviceType
 author: windows-sdk-content
 description: Verifies whether a hardware accelerated device type can be used on this adapter.
 old-location: direct3d9\idirect3d9__checkdevicetype.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicetype.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 74a3aa81-9498-9ce0-0ae8-0bc9d18d553b, CheckDeviceType, CheckDeviceType method [Direct3D 9], CheckDeviceType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceType method, IDirect3D9.CheckDeviceType, IDirect3D9::CheckDeviceType, d3d9helper/IDirect3D9::CheckDeviceType, direct3d9.idirect3d9__checkdevicetype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3D9.CheckDeviceType
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3D9::CheckDeviceType
@@ -62,12 +61,12 @@ Verifies whether a hardware accelerated device type can be used on this adapter.
 
 ### -param iAdapter
 
-
+TBD
 
 
 ### -param DevType
 
-
+TBD
 
 
 #### - DisplayFormat [in]
@@ -92,7 +91,7 @@ Back buffer format. For more information about formats, see <a href="https://msd
 
 ### -param bWindowed
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IXpsOMPackageWriter3D::AddModelTexture
 author: windows-sdk-content
 description: Creates a new 3D model texture from the specified texture part and stream.
 old-location: xps\ixpsompackagewriter3d_addmodeltexture.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 76FC9938-914C-4328-BE71-DC898241D9EA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packaging], AddModelTexture method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddModelTexture method, IXpsOMPackageWriter3D.AddModelTexture, IXpsOMPackageWriter3D::AddModelTexture, xps.ixpsompackagewriter3d_addmodeltexture, xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_DOCUMENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPackageWriter3D.AddModelTexture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPackageWriter3D::AddModelTexture

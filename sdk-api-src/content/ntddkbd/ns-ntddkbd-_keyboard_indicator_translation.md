@@ -4,7 +4,7 @@ title: "_KEYBOARD_INDICATOR_TRANSLATION"
 author: windows-sdk-content
 description: KEYBOARD_INDICATOR_TRANSLATION specifies a device-specific, variable length array of mappings between keyboard scan codes and LED indicators.
 old-location: hid\keyboard_indicator_translation.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KEYBOARD_INDICATOR_TRANSLATION, *PKEYBOARD_INDICATOR_TRANSLATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KEYBOARD_INDICATOR_TRANSLATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: KEYBOARD_INDICATOR_TRANSLATION, *PKEYBOARD_INDICATOR_TRANSLATION
+req.redist: 
 ---
 
 # _KEYBOARD_INDICATOR_TRANSLATION structure

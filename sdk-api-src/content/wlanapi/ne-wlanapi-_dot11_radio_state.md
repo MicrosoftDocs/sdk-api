@@ -4,7 +4,7 @@ title: "_DOT11_RADIO_STATE"
 author: windows-sdk-content
 description: Specifies an 802.11 radio state.
 old-location: nwifi\dot11_radio_state.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: dd44f256-9423-4f29-aba3-6b0554349864
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_RADIO_STATE, *PDOT11_RADIO_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DOT11_RADIO_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DOT11_RADIO_STATE, *PDOT11_RADIO_STATE
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # _DOT11_RADIO_STATE enumeration

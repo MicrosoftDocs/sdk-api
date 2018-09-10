@@ -4,17 +4,16 @@ title: IShellItem2::GetPropertyStore
 author: windows-sdk-content
 description: Gets a property store object for specified property store flags.
 old-location: shell\IShellItem2_GetPropertyStore.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 706b2551-a9b0-4368-babb-e54cea6d297e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStore method, IShellItem2.GetPropertyStore, IShellItem2::GetPropertyStore, _shell_IShellItem2_GetPropertyStore, shell.IShellItem2_GetPropertyStore, shobjidl_core/IShellItem2::GetPropertyStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetPropertyStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetPropertyStore

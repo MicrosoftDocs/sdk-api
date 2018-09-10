@@ -4,17 +4,16 @@ title: PropVariantCompare function
 author: windows-sdk-content
 description: Compares two PROPVARIANT structures, based on default comparison units and settings.
 old-location: properties\PropVariantCompare.htm
-old-project: properties
+tech.root: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropVariantCompare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PropVariantCompare function

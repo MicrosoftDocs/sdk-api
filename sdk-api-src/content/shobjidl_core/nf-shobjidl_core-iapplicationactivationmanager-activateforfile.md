@@ -4,17 +4,16 @@ title: IApplicationActivationManager::ActivateForFile
 author: windows-sdk-content
 description: Activates the specified Windows Store app for the file contract (Windows.File).
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
-old-project: shell
+tech.root: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationActivationManager.ActivateForFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationActivationManager::ActivateForFile

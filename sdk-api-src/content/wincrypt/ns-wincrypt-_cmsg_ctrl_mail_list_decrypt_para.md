@@ -4,7 +4,7 @@ title: "_CMSG_CTRL_MAIL_LIST_DECRYPT_PARA"
 author: windows-sdk-content
 description: Contains information on a mail list message recipient.
 old-location: security\cmsg_ctrl_mail_list_decrypt_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 30735e01-db6b-40fc-b4c8-cdc24e73defa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+req.redist: 
 ---
 
 # _CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure

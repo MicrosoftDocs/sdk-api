@@ -4,17 +4,16 @@ title: IRawCDImageCreator::put_DisableGaplessAudio
 author: windows-sdk-content
 description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
 old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_DisableGaplessAudio method, IRawCDImageCreator.put_DisableGaplessAudio, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageCreator.put_DisableGaplessAudio
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageCreator::put_DisableGaplessAudio

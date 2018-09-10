@@ -4,17 +4,16 @@ title: IPropertyChangeArray::GetCount
 author: windows-sdk-content
 description: Gets the number of change operations in the array.
 old-location: properties\IPropertyChangeArray_GetCount.htm
-old-project: properties
+tech.root: properties
 ms.assetid: b87db827-2eb1-4463-aa6a-10591b200adf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetCount method, IPropertyChangeArray.GetCount, IPropertyChangeArray::GetCount, _shell_IPropertyChangeArray_GetCount, properties.IPropertyChangeArray_GetCount, propsys/IPropertyChangeArray::GetCount, shell.IPropertyChangeArray_GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyChangeArray.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyChangeArray::GetCount

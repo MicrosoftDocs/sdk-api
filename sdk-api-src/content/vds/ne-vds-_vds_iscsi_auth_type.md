@@ -4,7 +4,7 @@ title: "_VDS_ISCSI_AUTH_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for authentication when logging into an iSCSI target.
 old-location: base\vds_iscsi_auth_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 7e445b10-552a-4a89-aee8-9699db79c5a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_ISCSI_AUTH_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_ISCSI_AUTH_TYPE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_ISCSI_AUTH_TYPE
+req.redist: VDS 1.1
 ---
 
 # _VDS_ISCSI_AUTH_TYPE enumeration

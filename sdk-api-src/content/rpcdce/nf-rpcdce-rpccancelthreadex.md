@@ -4,17 +4,16 @@ title: RpcCancelThreadEx function
 author: windows-sdk-content
 description: The RpcCancelThreadEx function stops the execution of a thread.
 old-location: rpc\rpccancelthreadex.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcCancelThreadEx
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcCancelThreadEx function
@@ -138,7 +136,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 <div class="alert"><b>Note</b>  You can use 
 <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>, and with any of the datagram protocols except 
+<a href="https://msdn.microsoft.com/">ncacn_http</a>, and with any of the datagram protocols except 
 <a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> and 
 <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>.</div>
 <div> </div>
@@ -162,7 +160,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
+<a href="https://msdn.microsoft.com/">ncacn_http</a>
 
 
 

@@ -4,17 +4,16 @@ title: MprConfigServerGetInfoEx function
 author: windows-sdk-content
 description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.
 old-location: rras\mprconfigservergetinfoex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 654d1410-b54c-4284-bf7f-f6ae6b7ef85e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprConfigServerGetInfoEx, MprConfigServerGetInfoEx function [RAS], mprapi/MprConfigServerGetInfoEx, rras.mprconfigservergetinfoex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigServerGetInfoEx
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigServerGetInfoEx function

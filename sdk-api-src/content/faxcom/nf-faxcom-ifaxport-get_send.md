@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxPort.get_Send
 title: IFaxPort::get_Send
 author: windows-sdk-content
-description: The Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
-old-location: fax\_mfax_ifaxport_get_send_vb.htm
-old-project: Fax
+description: The IFaxPort::get_Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
+old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_send_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxPort object [Fax Service],Send property, FaxPort.Send, IFaxPort.get_Send, IFaxPort::get_Send, Send property [Fax Service], Send property [Fax Service],FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, get_Send
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxPort interface [Fax Service],Send property, IFaxPort.Send, IFaxPort.get_Send, IFaxPort::Send, IFaxPort::get_Send, IFaxPort::put_Send, Send property [Fax Service], Send property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_mfax_ifaxport_get_send_cpp, faxcom/IFaxPort::Send, faxcom/IFaxPort::get_Send, faxcom/IFaxPort::put_Send, get_Send
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxPort.Send
+ - IFaxPort.Send
+ - IFaxPort.get_Send
+ - IFaxPort.put_Send
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxPort::get_Send
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Send</b> property is a Boolean value that indicates whether a fax port is enabled to send faxes. 
+The <b>IFaxPort::get_Send</b> property is a Boolean value that indicates whether a fax port is enabled to send faxes. 
 
 This property is read/write.
 
@@ -64,9 +64,9 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/c88c2855-51cd-404e-a89f-cc42f456f51c">CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
+<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/b09b6e5f-fa1d-4d0b-8581-e0ba779b72bb">IFaxPort::get_CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
 <div> </div>
-The <b>Send</b> property returns a value of TRUE if the fax port is enabled to send faxes. If a fax client application passes a value of TRUE to the property, it enables the fax port to send faxes. 
+The <b>IFaxPort::get_Send</b> property returns a value of <b>TRUE</b> if the fax port is enabled to send faxes. If a fax client application passes a value of <b>TRUE</b> to the property, it enables the fax port to send faxes. 
 
 
 
@@ -81,10 +81,6 @@ The <b>Send</b> property returns a value of TRUE if the fax port is enabled to s
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/7888d042-7d85-4921-b233-f6e95e0c80d9">FaxPort</a>
 
 
 

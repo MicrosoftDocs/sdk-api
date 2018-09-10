@@ -4,17 +4,16 @@ title: EvtNextPublisherId function
 author: windows-sdk-content
 description: Gets the identifier of a provider from the enumerator.
 old-location: wes\evtnextpublisherid.htm
-old-project: WES
+tech.root: WES
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EvtNextPublisherId
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtNextPublisherId function

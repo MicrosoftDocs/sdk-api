@@ -4,17 +4,16 @@ title: IDirectManipulationPrimaryContent::SetSnapInterval
 author: windows-sdk-content
 description: Specifies snap points for the inertia end position at uniform intervals.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapinterval.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 99d039fe-017a-47c5-95a1-5000efe92ba0
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapInterval method, IDirectManipulationPrimaryContent.SetSnapInterval, IDirectManipulationPrimaryContent::SetSnapInterval, SetSnapInterval, SetSnapInterval method [Direct Manipulation], SetSnapInterval method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapinterval, directmanipulation/IDirectManipulationPrimaryContent::SetSnapInterval
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationPrimaryContent.SetSnapInterval
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapInterval

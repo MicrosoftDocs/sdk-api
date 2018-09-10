@@ -4,17 +4,16 @@ title: ITTerminal::get_Direction
 author: windows-sdk-content
 description: The get_Direction method gets a TERMINAL_DIRECTION descriptor of the media stream direction for the terminal.
 old-location: tapi3\itterminal_get_direction.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e0a69c3d-1780-4088-8249-961788dbf184
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_Direction method, ITTerminal.get_Direction, ITTerminal::get_Direction, _tapi3_itterminal_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_direction, tapi3if/ITTerminal::get_Direction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminal.get_Direction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminal::get_Direction

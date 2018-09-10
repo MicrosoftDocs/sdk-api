@@ -4,17 +4,16 @@ title: ISimilarityTraitsMapping::SetFileSize
 author: windows-sdk-content
 description: Sets the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_setfilesize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 7f8afa56-6531-40dd-979f-12506ad8c286
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],SetFileSize method, ISimilarityTraitsMapping.SetFileSize, ISimilarityTraitsMapping::SetFileSize, SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMapping.SetFileSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMapping::SetFileSize

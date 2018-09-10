@@ -4,7 +4,7 @@ title: "_DSREG_JOIN_TYPE"
 author: windows-sdk-content
 description: Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_type.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmjoin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSREG_JOIN_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.redist: 
 ---
 
 # _DSREG_JOIN_TYPE enumeration

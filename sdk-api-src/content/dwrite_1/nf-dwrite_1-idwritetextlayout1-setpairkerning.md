@@ -4,17 +4,16 @@ title: IDWriteTextLayout1::SetPairKerning
 author: windows-sdk-content
 description: Enables or disables pair-kerning on a given text range.
 old-location: directwrite\idwritetextlayout1_setpairkerning.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: AE43D7E4-CD2D-4BBD-88C3-B5287FD235AF
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetPairKerning method, IDWriteTextLayout1.SetPairKerning, IDWriteTextLayout1::SetPairKerning, SetPairKerning, SetPairKerning method [Direct Write], SetPairKerning method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setpairkerning, dwrite_1/IDWriteTextLayout1::SetPairKerning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout1.SetPairKerning
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout1::SetPairKerning

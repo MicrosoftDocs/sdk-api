@@ -4,17 +4,16 @@ title: IADsFileServiceOperations::Resources
 author: windows-sdk-content
 description: The IADsFileServiceOperations::Resources method gets a pointer to a pointer to the IADsCollection interface on a collection of the resource objects representing the current open resources on this file service.
 old-location: adsi\iadsfileserviceoperations_resources.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsFileServiceOperations.Resources
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsFileServiceOperations::Resources

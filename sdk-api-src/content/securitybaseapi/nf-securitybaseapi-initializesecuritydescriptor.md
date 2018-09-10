@@ -4,17 +4,16 @@ title: InitializeSecurityDescriptor function
 author: windows-sdk-content
 description: Initializes a new security descriptor.
 old-location: security\initializesecuritydescriptor.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 234fcda4-7d30-4c3f-a036-7ace58ca8a3c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InitializeSecurityDescriptor, InitializeSecurityDescriptor function [Security], _win32_initializesecuritydescriptor, security.initializesecuritydescriptor, securitybaseapi/InitializeSecurityDescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - InitializeSecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # InitializeSecurityDescriptor function

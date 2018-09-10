@@ -4,7 +4,7 @@ title: "_QOS_TCP_TRAFFIC"
 author: windows-sdk-content
 description: The QOS_TCP_TRAFFIC structure is used to indicate that IP Precedence and UserPriority mappings for a given flow must be set to system defaults for TCP traffic.
 old-location: qos\qos_tcp_traffic.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: e71b0414-d449-42af-9d28-d2ae9fa1b6ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_TCP_TRAFFIC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC
+req.redist: 
 ---
 
 # _QOS_TCP_TRAFFIC structure

@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::GetMonitor
 author: windows-sdk-content
 description: The GetMonitor method queries which monitor the Full Screen Renderer is using. The Full Screen Renderer only supports the primary monitor, so the returned value is always zero.
 old-location: dshow\ifullscreenvideoex_getmonitor.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 18825029-2035-46b3-a6a5-9edd8e0437c6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.GetMonitor
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::GetMonitor

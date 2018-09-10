@@ -4,7 +4,7 @@ title: D3D11_TRACE_STATS
 author: windows-sdk-content
 description: Specifies statistics about a trace.
 old-location: direct3d11\d3d11_trace_stats.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: E4E44F7F-3760-490D-9BA3-677F63B93AA6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TRACE_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TRACE_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TRACE_STATS
+req.redist: 
 ---
 
 # D3D11_TRACE_STATS structure

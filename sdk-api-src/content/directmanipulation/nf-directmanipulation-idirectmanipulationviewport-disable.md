@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::Disable
 author: windows-sdk-content
 description: Stops input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_disable.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.Disable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::Disable

@@ -4,7 +4,7 @@ title: linecountrylist_tag
 author: windows-sdk-content
 description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.
 old-location: tapi2\linecountrylist_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINECOUNTRYLIST, *LPLINECOUNTRYLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINECOUNTRYLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINECOUNTRYLIST, *LPLINECOUNTRYLIST
+req.redist: 
 ---
 
 # linecountrylist_tag structure

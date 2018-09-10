@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::get_CurrentState
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility state identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 255e8900-e25a-43e4-b943-60a1814d342d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentState property [Windows Accessibility], CurrentState property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentState property, IUIAutomationLegacyIAccessiblePattern.CurrentState, IUIAutomationLegacyIAccessiblePattern.get_CurrentState, IUIAutomationLegacyIAccessiblePattern::CurrentState, IUIAutomationLegacyIAccessiblePattern::get_CurrentState, get_CurrentState, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentState, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.get_CurrentState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentState

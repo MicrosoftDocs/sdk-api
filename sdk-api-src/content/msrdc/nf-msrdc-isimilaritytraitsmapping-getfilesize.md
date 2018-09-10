@@ -4,17 +4,16 @@ title: ISimilarityTraitsMapping::GetFileSize
 author: windows-sdk-content
 description: Returns the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetFileSize method, ISimilarityTraitsMapping.GetFileSize, ISimilarityTraitsMapping::GetFileSize, fs.isimilaritytraitsmapping_getfilesize, msrdc/ISimilarityTraitsMapping::GetFileSize, rdc.isimilaritytraitsmapping_getfilesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMapping.GetFileSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMapping::GetFileSize

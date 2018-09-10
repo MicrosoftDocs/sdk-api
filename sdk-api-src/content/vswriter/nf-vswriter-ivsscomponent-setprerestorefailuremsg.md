@@ -4,17 +4,16 @@ title: IVssComponent::SetPreRestoreFailureMsg
 author: windows-sdk-content
 description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.
 old-location: base\ivsscomponent_setprerestorefailuremsg.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 5b273cba-9878-4494-81ef-af1367f1e0a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssComponent interface [VSS],SetPreRestoreFailureMsg method, IVssComponent.SetPreRestoreFailureMsg, IVssComponent::SetPreRestoreFailureMsg, SetPreRestoreFailureMsg, SetPreRestoreFailureMsg method [VSS], SetPreRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setprerestorefailuremsg, base.ivsscomponent_setprerestorefailuremsg, vswriter/IVssComponent::SetPreRestoreFailureMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.SetPreRestoreFailureMsg
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::SetPreRestoreFailureMsg

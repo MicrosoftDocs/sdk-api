@@ -4,7 +4,7 @@ title: "_DXVA2_VideoChromaSubSampling"
 author: windows-sdk-content
 description: Describes how chroma values are positioned relative to the luma samples in a YUV video frame.
 old-location: mf\dxva2_videochromasubsampling.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0f9d63fd-46fa-498c-8703-1beeaf09ce86
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_VideoChromaSubSampling
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_VideoChromaSubSampling
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_VideoChromaSubSampling
+req.redist: 
 ---
 
 # _DXVA2_VideoChromaSubSampling enumeration

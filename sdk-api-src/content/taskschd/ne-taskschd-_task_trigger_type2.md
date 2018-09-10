@@ -4,7 +4,7 @@ title: "_TASK_TRIGGER_TYPE2"
 author: windows-sdk-content
 description: Defines the type of triggers that can be used by tasks.
 old-location: taskschd\triggertype.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 489015a1-5a3c-4994-aa1f-bc02dfff149d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_TRIGGER_TYPE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TASK_TRIGGER_TYPE2
+req.redist: 
 ---
 
 # _TASK_TRIGGER_TYPE2 enumeration

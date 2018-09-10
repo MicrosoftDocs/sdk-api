@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataItems::GetInfo
 author: windows-sdk-content
 description: Gets the total frame count for the ISpatialAudioMetadataItems, which defines valid item offsets.
 old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: F54BF2B9-B9A4-47EF-8C18-DC58B24B617E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetInfo method, ISpatialAudioMetadataItems.GetInfo, ISpatialAudioMetadataItems::GetInfo, coreaudio.ispatialaudiometadataitems_getinfo, spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataItems.GetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataItems::GetInfo
@@ -62,7 +60,7 @@ Gets the total frame count for the <a href="https://msdn.microsoft.com/54A6B7DE-
 
 ### -param info
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: EnumDisplayMonitors function
 author: windows-sdk-content
 description: The EnumDisplayMonitors function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. EnumDisplayMonitors calls an application-defined MonitorEnumProc callback function once for each monitor that is enumerated. Note that GetSystemMetrics (SM_CMONITORS) counts only the display monitors.
 old-location: gdi\enumdisplaymonitors.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - EnumDisplayMonitors
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # EnumDisplayMonitors function

@@ -4,17 +4,16 @@ title: GetProfilesDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path to the root directory where user profiles are stored.
 old-location: shell\GetProfilesDirectory.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetProfilesDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # GetProfilesDirectoryW function

@@ -4,17 +4,16 @@ title: IGuideData::GetGuideProgramIDs
 author: windows-sdk-content
 description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.
 old-location: mstv\iguidedata_getguideprogramids.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetGuideProgramIDs, GetGuideProgramIDs method [Microsoft TV Technologies], GetGuideProgramIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetGuideProgramIDs method, IGuideData.GetGuideProgramIDs, IGuideData::GetGuideProgramIDs, IGuideDataGetGuideProgramIDs, bdatif/IGuideData::GetGuideProgramIDs, mstv.iguidedata_getguideprogramids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetGuideProgramIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetGuideProgramIDs
@@ -64,7 +63,7 @@ The <b>GetGuideProgramIDs</b> method returns a list of unique identifiers for al
 
 ### -param pEnumPrograms
 
-
+TBD
 
 
 

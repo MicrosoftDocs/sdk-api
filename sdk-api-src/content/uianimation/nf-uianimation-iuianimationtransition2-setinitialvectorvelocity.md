@@ -4,17 +4,16 @@ title: IUIAnimationTransition2::SetInitialVectorVelocity
 author: windows-sdk-content
 description: Sets the initial velocity of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvelocity.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 29EFBBE0-E877-4521-B4A7-E1828E0493B9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorVelocity method, IUIAnimationTransition2.SetInitialVectorVelocity, IUIAnimationTransition2::SetInitialVectorVelocity, SetInitialVectorVelocity, SetInitialVectorVelocity method [Windows Animation], SetInitialVectorVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvelocity, uianimation/IUIAnimationTransition2::SetInitialVectorVelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransition2.SetInitialVectorVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransition2::SetInitialVectorVelocity

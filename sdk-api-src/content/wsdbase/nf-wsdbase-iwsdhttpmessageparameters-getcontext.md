@@ -4,17 +4,16 @@ title: IWSDHttpMessageParameters::GetContext
 author: windows-sdk-content
 description: Retrieves the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDHttpMessageParameters.GetContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDHttpMessageParameters::GetContext

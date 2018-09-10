@@ -4,7 +4,7 @@ title: IDirectManipulationDragDropBehavior
 author: windows-sdk-content
 description: Represents behaviors for drag and drop interactions, which are triggered by cross-slide or press-and-hold gestures.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 99D99BB6-1DA1-4B49-88F8-16A9561A9098
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDragDropBehavior
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDragDropBehavior interface

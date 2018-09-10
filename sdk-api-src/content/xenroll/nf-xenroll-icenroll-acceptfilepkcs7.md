@@ -4,17 +4,16 @@ title: ICEnroll::acceptFilePKCS7
 author: windows-sdk-content
 description: Accepts and processes a file that contains a PKCS #7 message containing a certificate. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_acceptfilepkcs7.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: dae9f6b8-6690-47cc-9397-168c1ff54c55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],acceptFilePKCS7 method, ICEnroll interface [Security],acceptFilePKCS7 method, ICEnroll.acceptFilePKCS7, ICEnroll2 interface [Security],acceptFilePKCS7 method, ICEnroll2::acceptFilePKCS7, ICEnroll3 interface [Security],acceptFilePKCS7 method, ICEnroll3::acceptFilePKCS7, ICEnroll4 interface [Security],acceptFilePKCS7 method, ICEnroll4::acceptFilePKCS7, ICEnroll::acceptFilePKCS7, acceptFilePKCS7, acceptFilePKCS7 method [Security], acceptFilePKCS7 method [Security],CEnroll object, acceptFilePKCS7 method [Security],ICEnroll interface, acceptFilePKCS7 method [Security],ICEnroll2 interface, acceptFilePKCS7 method [Security],ICEnroll3 interface, acceptFilePKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptfilepkcs7, xenroll/ICEnroll2::acceptFilePKCS7, xenroll/ICEnroll3::acceptFilePKCS7, xenroll/ICEnroll4::acceptFilePKCS7, xenroll/ICEnroll::acceptFilePKCS7
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CEnroll.acceptFilePKCS7
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll::acceptFilePKCS7

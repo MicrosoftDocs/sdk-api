@@ -4,17 +4,16 @@ title: IUPnPDeviceDocumentAccessEx::GetDocument
 author: windows-sdk-content
 description: Retrieves the XML device description document for a UPnP device.
 old-location: upnp\iupnpdevicedocumentex_getdocument.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 12778bd4-9e62-42a4-b9b3-29ee9c6d2d40
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPDeviceDocumentAccessEx interface, IUPnPDeviceDocumentAccessEx interface [UPnP APIs],GetDocument method, IUPnPDeviceDocumentAccessEx.GetDocument, IUPnPDeviceDocumentAccessEx::GetDocument, upnp.iupnpdevicedocumentex_getdocument, upnp/IUPnPDeviceDocumentAccessEx::GetDocument
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceDocumentAccessEx.GetDocument
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceDocumentAccessEx::GetDocument
@@ -62,7 +60,7 @@ The <b>GetDocument</b> method retrieves the XML device description document for 
 
 ### -param pbstrDocument
 
-
+TBD
 
 
 

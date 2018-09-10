@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::get_MajorVersion
 author: windows-sdk-content
 description: Retrieves the major version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_majorversion.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: caa82b0e-435d-4d98-bef0-cd823213c518
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog.get_MajorVersion, ICOMAdminCatalog::MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICOMAdminCatalog.get_MajorVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::get_MajorVersion

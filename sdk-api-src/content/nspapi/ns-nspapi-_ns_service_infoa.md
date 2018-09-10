@@ -4,7 +4,7 @@ title: "_NS_SERVICE_INFOA"
 author: windows-sdk-content
 description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
 old-location: winsock\ns_service_info_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 5bcdeddf-2971-491b-9cf4-70595d3a7ff1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_SERVICE_INFOA, *PNS_SERVICE_INFOA, *LPNS_SERVICE_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - NS_SERVICE_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NS_SERVICE_INFOA, *PNS_SERVICE_INFOA, *LPNS_SERVICE_INFOA
+req.redist: 
 ---
 
 # _NS_SERVICE_INFOA structure

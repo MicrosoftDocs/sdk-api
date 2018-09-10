@@ -4,17 +4,16 @@ title: IUIAnimationVariable::GetFinalIntegerValue
 author: windows-sdk-content
 description: Gets the final value of the animation variable as an integer. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable_getfinalintegervalue.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 19d71abc-e3f8-48d4-9ceb-5920dcc9c007
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFinalIntegerValue, GetFinalIntegerValue method [Windows Animation], GetFinalIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalIntegerValue method, IUIAnimationVariable.GetFinalIntegerValue, IUIAnimationVariable::GetFinalIntegerValue, uianimation.iuianimationvariable_getfinalintegervalue, uianimation/IUIAnimationVariable::GetFinalIntegerValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable.GetFinalIntegerValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable::GetFinalIntegerValue

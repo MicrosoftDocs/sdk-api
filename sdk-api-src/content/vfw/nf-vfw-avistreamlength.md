@@ -4,17 +4,16 @@ title: AVIStreamLength function
 author: windows-sdk-content
 description: The AVIStreamLength function returns the length of the stream.
 old-location: multimedia\avistreamlength.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 5fc5dd31-9f2d-48c8-8d7e-76add4608473
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamLength, AVIStreamLength function [Windows Multimedia], _win32_AVIStreamLength, multimedia.avistreamlength, vfw/AVIStreamLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamLength
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamLength function

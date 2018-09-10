@@ -4,17 +4,16 @@ title: HTTP_NOT_EQUAL_VERSION macro
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTP_VERSION structure is greater or less than a specified major/minor version combination, or zero if it is equal.
 old-location: http\http_not_equal_version.htm
-old-project: http
+tech.root: http
 ms.assetid: 5ce37dd4-dc40-4e24-b6e3-bc9dccf4140b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HTTP_NOT_EQUAL_VERSION, HTTP_NOT_EQUAL_VERSION macro [HTTP], _http_http_not_equal_version, http.http_not_equal_version, http/HTTP_NOT_EQUAL_VERSION
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_NOT_EQUAL_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HTTP_NOT_EQUAL_VERSION macro

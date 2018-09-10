@@ -4,7 +4,7 @@ title: IGamutMapModelPlugIn
 author: windows-sdk-content
 description: Describes the methods that are defined for the IGamutMapModelPlugIn Component Object Model (COM) interface.
 old-location: wcs\igamutmapmodelplugin.htm
-old-project: WCS
+tech.root: WCS
 ms.assetid: 794eb94c-fdb3-42b3-8320-b13bf51324d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcsplugin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGamutMapModelPlugIn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IGamutMapModelPlugIn interface

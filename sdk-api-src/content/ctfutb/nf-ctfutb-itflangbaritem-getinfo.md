@@ -4,17 +4,16 @@ title: ITfLangBarItem::GetInfo
 author: windows-sdk-content
 description: ITfLangBarItem::GetInfo method
 old-location: tsf\itflangbaritem_getinfo.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b32e433a-c0d6-418e-bf11-2291c85373c2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetInfo method, ITfLangBarItem.GetInfo, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItem.GetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItem::GetInfo

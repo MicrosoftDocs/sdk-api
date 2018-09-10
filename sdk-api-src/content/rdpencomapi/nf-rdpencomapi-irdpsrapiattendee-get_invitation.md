@@ -4,17 +4,16 @@ title: IRDPSRAPIAttendee::get_Invitation
 author: windows-sdk-content
 description: The invitation used to grant the attendee access to the conference.
 old-location: rdp\irdpsrapiattendee_invitation.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 71fed876-8b9d-4b19-a278-45ab620fb61e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],Invitation property, IRDPSRAPIAttendee.Invitation, IRDPSRAPIAttendee.get_Invitation, IRDPSRAPIAttendee::Invitation, IRDPSRAPIAttendee::get_Invitation, Invitation property [RDP], Invitation property [RDP],IRDPSRAPIAttendee interface, Invitation property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Invitation property, get_Invitation, rdp.irdpsrapiattendee_invitation, rdpencomapi/IRDPSRAPIAttendee::Invitation, rdpencomapi/IRDPSRAPIAttendee::get_Invitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIAttendee.Invitation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIAttendee::get_Invitation

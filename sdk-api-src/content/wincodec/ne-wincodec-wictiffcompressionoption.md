@@ -4,7 +4,7 @@ title: WICTiffCompressionOption
 author: windows-sdk-content
 description: Specifies the Tagged Image File Format (TIFF) compression options.
 old-location: wic\_wic_codec_wictiffcompressionoption.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 787f6d71-6481-4236-8c3f-1b18bfb7ee88
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICTiffCompressionOption
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICTiffCompressionOption
+req.redist: 
 ---
 
 # WICTiffCompressionOption enumeration

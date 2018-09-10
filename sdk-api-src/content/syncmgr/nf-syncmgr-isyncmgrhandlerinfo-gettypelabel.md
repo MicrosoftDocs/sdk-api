@@ -4,17 +4,16 @@ title: ISyncMgrHandlerInfo::GetTypeLabel
 author: windows-sdk-content
 description: Gets a label for the handler type. This typically provides the model of the device or an equivalent handler-specific identity string.
 old-location: shell\ISyncMgrHandlerInfo_GetTypeLabel.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b1a30aad-bd8e-4375-a914-3010b86d83d9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrHandlerInfo.GetTypeLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrHandlerInfo::GetTypeLabel

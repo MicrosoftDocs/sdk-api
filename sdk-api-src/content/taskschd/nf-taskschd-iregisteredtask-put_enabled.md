@@ -4,17 +4,16 @@ title: IRegisteredTask::put_Enabled
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates if the registered task is enabled.
 old-location: taskschd\iregisteredtask_enabled.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 33486621-3984-4a07-8182-c193847a9f76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],Enabled property, IRegisteredTask.Enabled, IRegisteredTask.put_Enabled, IRegisteredTask::Enabled, IRegisteredTask::get_Enabled, IRegisteredTask::put_Enabled, put_Enabled, taskschd.iregisteredtask_enabled, taskschd/IRegisteredTask::Enabled, taskschd/IRegisteredTask::get_Enabled, taskschd/IRegisteredTask::put_Enabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRegisteredTask.put_Enabled
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredTask::put_Enabled

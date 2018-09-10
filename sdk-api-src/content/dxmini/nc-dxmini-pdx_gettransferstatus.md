@@ -4,7 +4,7 @@ title: PDX_GETTRANSFERSTATUS
 author: windows-sdk-content
 description: The DxGetTransferStatus callback function is used by DirectDraw to determine which hardware bus master has completed.
 old-location: display\dxgettransferstatus.htm
-old-project: display
+tech.root: display
 ms.assetid: e33ec8f0-2d1c-42cf-8b82-8f316f52e2a8
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DxGetTransferStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_GETTRANSFERSTATUS callback function

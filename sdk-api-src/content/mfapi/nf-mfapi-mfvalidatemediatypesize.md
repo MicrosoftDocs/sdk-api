@@ -4,17 +4,16 @@ title: MFValidateMediaTypeSize function
 author: windows-sdk-content
 description: Validates the size of a buffer for a video format block.
 old-location: mf\mfvalidatemediatypesize.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFValidateMediaTypeSize
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFValidateMediaTypeSize function

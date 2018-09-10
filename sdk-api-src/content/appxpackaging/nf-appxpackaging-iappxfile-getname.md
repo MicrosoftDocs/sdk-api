@@ -4,17 +4,16 @@ title: IAppxFile::GetName
 author: windows-sdk-content
 description: Retrieves the name of the file, including its path relative to the package root directory.
 old-location: appxpkg\iappxfile_getname.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFile.GetName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFile::GetName

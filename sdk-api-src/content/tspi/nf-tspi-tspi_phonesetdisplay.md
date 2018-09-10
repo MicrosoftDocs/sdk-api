@@ -4,17 +4,16 @@ title: TSPI_phoneSetDisplay function
 author: windows-sdk-content
 description: The TSPI_phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tspi\tspi_phonesetdisplay.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c320122c-037a-40f5-8314-6aa3352cc994
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_phoneSetDisplay, TSPI_phoneSetDisplay function [TAPI 2.2], _tspi_tspi_phonesetdisplay, tspi.tspi_phonesetdisplay, tspi/TSPI_phoneSetDisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_phoneSetDisplay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_phoneSetDisplay function

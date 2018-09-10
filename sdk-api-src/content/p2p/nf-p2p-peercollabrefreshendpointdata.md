@@ -4,17 +4,16 @@ title: PeerCollabRefreshEndpointData function
 author: windows-sdk-content
 description: Updates the calling peer node with new endpoint data.
 old-location: p2p\peercollabrefreshendpointdata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabRefreshEndpointData
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabRefreshEndpointData function

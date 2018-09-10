@@ -4,7 +4,7 @@ title: RESDLL_CONTEXT_OPERATION_TYPE
 author: windows-sdk-content
 description: Specifies the various types of context operations for the GET_OPERATION_CONTEXT_PARAMS structure.
 old-location: mscs\resdll_context_operation_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8C074E15-4060-4AC7-BB59-959854102EE0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESDLL_CONTEXT_OPERATION_TYPE, *PRESDLL_CONTEXT_OPERATION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RESDLL_CONTEXT_OPERATION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RESDLL_CONTEXT_OPERATION_TYPE, *PRESDLL_CONTEXT_OPERATION_TYPE
+req.redist: 
 ---
 
 # RESDLL_CONTEXT_OPERATION_TYPE enumeration

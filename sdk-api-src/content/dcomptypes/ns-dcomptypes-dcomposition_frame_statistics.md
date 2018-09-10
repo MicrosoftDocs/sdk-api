@@ -4,7 +4,7 @@ title: DCOMPOSITION_FRAME_STATISTICS
 author: windows-sdk-content
 description: Describes timing and composition statistics for a frame.
 old-location: directcomp\dcomposition_frame_statistics.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcomptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: DcompAnimation.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DCOMPOSITION_FRAME_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCOMPOSITION_FRAME_STATISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DCOMPOSITION_FRAME_STATISTICS
+req.redist: 
 ---
 
 # DCOMPOSITION_FRAME_STATISTICS structure

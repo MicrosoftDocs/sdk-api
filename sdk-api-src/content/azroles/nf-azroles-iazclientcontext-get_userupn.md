@@ -4,17 +4,16 @@ title: IAzClientContext::get_UserUpn
 author: windows-sdk-content
 description: Retrieves the name of the current client in user principal name (UPN) format.
 old-location: security\iazclientcontext_userupn.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e54d450b-7059-43c7-9c08-688975031401
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzClientContext object [Security],UserUpn property, IAzClientContext interface [Security],UserUpn property, IAzClientContext.UserUpn, IAzClientContext.get_UserUpn, IAzClientContext::UserUpn, IAzClientContext::get_UserUpn, UserUpn property [Security], UserUpn property [Security],AzClientContext object, UserUpn property [Security],IAzClientContext interface, azroles/IAzClientContext::UserUpn, azroles/IAzClientContext::get_UserUpn, get_UserUpn, security.iazclientcontext_userupn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzClientContext.UserUpn
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext::get_UserUpn

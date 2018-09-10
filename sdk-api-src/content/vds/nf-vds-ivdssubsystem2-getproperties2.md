@@ -4,17 +4,16 @@ title: IVdsSubSystem2::GetProperties2
 author: windows-sdk-content
 description: Returns the properties of a subsystem. This method is identical to the IVdsSubSystem::GetProperties method, except that it returns a VDS_SUB_SYSTEM_PROP2 structure instead of a VDS_SUB_SYSTEM_PROP structure.
 old-location: base\ivdssubsystem2_getproperties2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystem2.GetProperties2
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystem2::GetProperties2
@@ -65,7 +63,7 @@ Returns the properties of a subsystem. This method is identical to the <a href="
 
 ### -param pSubSystemProp2
 
-
+TBD
 
 
 

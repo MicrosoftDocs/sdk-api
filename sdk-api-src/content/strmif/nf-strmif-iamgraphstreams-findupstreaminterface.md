@@ -4,17 +4,16 @@ title: IAMGraphStreams::FindUpstreamInterface
 author: windows-sdk-content
 description: The FindUpstreamInterface method searches the filter graph for a specified interface, upstream from a specified pin.
 old-location: dshow\iamgraphstreams_findupstreaminterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 23106ef0-e5ce-47a6-97b0-518bb78ec67c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FindUpstreamInterface, FindUpstreamInterface method [DirectShow], FindUpstreamInterface method [DirectShow],IAMGraphStreams interface, IAMGraphStreams interface [DirectShow],FindUpstreamInterface method, IAMGraphStreams.FindUpstreamInterface, IAMGraphStreams::FindUpstreamInterface, IAMGraphStreamsFindUpstreamInterface, dshow.iamgraphstreams_findupstreaminterface, strmif/IAMGraphStreams::FindUpstreamInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMGraphStreams.FindUpstreamInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMGraphStreams::FindUpstreamInterface

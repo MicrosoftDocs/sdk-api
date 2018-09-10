@@ -4,17 +4,16 @@ title: ID2D1BitmapBrush::SetExtendModeX
 author: windows-sdk-content
 description: Specifies how the brush horizontally tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeX method, ID2D1BitmapBrush.SetExtendModeX, ID2D1BitmapBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeX, direct2d.ID2D1BitmapBrush_SetExtendModeX
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1BitmapBrush.SetExtendModeX
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1BitmapBrush::SetExtendModeX

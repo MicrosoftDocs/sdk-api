@@ -4,17 +4,16 @@ title: InitAtomTable function
 author: windows-sdk-content
 description: Initializes the local atom table and sets the number of hash buckets to the specified size.
 old-location: dataxchg\initatomtable.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\initatomtable.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitAtomTable, InitAtomTable function [Data Exchange], _win32_InitAtomTable, _win32_initatomtable_cpp, dataxchg.initatomtable, winbase/InitAtomTable, winui._win32_initatomtable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InitAtomTable
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InitAtomTable function

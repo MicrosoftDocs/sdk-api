@@ -4,17 +4,16 @@ title: TraceLoggingActivity::SetRelatedActivity
 author: windows-sdk-content
 description: Sets the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivity.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 3A756D11-2595-451B-9BE6-BBE950252D3F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetRelatedActivity, SetRelatedActivity method, SetRelatedActivity method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivity method, TraceLoggingActivity.SetRelatedActivity, TraceLoggingActivity::SetRelatedActivity, tracelogging.traceloggingactivity_setrelatedactivity, traceloggingactivity/TraceLoggingActivity::SetRelatedActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingActivity.SetRelatedActivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingActivity::SetRelatedActivity
@@ -65,9 +63,9 @@ Sets the related activity for this <a href="https://msdn.microsoft.com/75930876-
 The activity to associate with this instance.
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IServicePoolConfig::put_TransactionAffinity
 author: windows-sdk-content
 description: Sets whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_put_transactionaffinity.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 2f69bae2-560d-455b-b1b4-922c2fb4563a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_TransactionAffinity method, IServicePoolConfig.put_TransactionAffinity, IServicePoolConfig::put_TransactionAffinity, comsvcs/IServicePoolConfig::put_TransactionAffinity, cos.iservicepoolconfig_put_transactionaffinity, put_TransactionAffinity, put_TransactionAffinity method [COM+], put_TransactionAffinity method [COM+],IServicePoolConfig interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePoolConfig.put_TransactionAffinity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePoolConfig::put_TransactionAffinity

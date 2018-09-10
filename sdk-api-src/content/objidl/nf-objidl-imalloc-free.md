@@ -4,17 +4,16 @@ title: IMalloc::Free
 author: windows-sdk-content
 description: Frees a previously allocated block of memory.
 old-location: com\imalloc_free.htm
-old-project: com
+tech.root: com
 ms.assetid: d65411ea-13d5-4932-a757-d897311e9e28
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMalloc interface [COM],Free method, IMalloc.Free, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMalloc.Free
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMalloc::Free

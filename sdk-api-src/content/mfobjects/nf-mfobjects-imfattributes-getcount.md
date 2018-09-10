@@ -4,17 +4,16 @@ title: IMFAttributes::GetCount
 author: windows-sdk-content
 description: Retrieves the number of attributes that are set on this object.
 old-location: mf\imfattributes_getcount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5f511d5c-249c-4311-8380-a932a755eaaf, GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetCount method, IMFAttributes.GetCount, IMFAttributes::GetCount, mf.imfattributes_getcount, mfobjects/IMFAttributes::GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAttributes.GetCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAttributes::GetCount

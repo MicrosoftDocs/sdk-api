@@ -4,17 +4,16 @@ title: IMallocSpy::PreHeapMinimize
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::HeapMinimize.
 old-location: com\imallocspy_preheapminimize.htm
-old-project: com
+tech.root: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHeapMinimize, IMallocSpy::PreHeapMinimize, PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMallocSpy.PreHeapMinimize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMallocSpy::PreHeapMinimize

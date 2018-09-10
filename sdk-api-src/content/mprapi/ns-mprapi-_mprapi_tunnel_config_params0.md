@@ -4,7 +4,7 @@ title: "_MPRAPI_TUNNEL_CONFIG_PARAMS0"
 author: windows-sdk-content
 description: Used to get or set configuration of tunnel parameters on a RAS Server.
 old-location: rras\mprapi_tunnel_config_params.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 19ad3493-99b7-405f-9663-3886388b5640
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPRAPI_TUNNEL_CONFIG_PARAMS0, *PMPRAPI_TUNNEL_CONFIG_PARAMS0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPRAPI_TUNNEL_CONFIG_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPRAPI_TUNNEL_CONFIG_PARAMS0, *PMPRAPI_TUNNEL_CONFIG_PARAMS0
+req.redist: 
 ---
 
 # _MPRAPI_TUNNEL_CONFIG_PARAMS0 structure

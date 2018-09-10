@@ -4,7 +4,7 @@ title: WMPStreamingType
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
 old-location: wmp\wmpstreamingtype.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPStreamingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WMPStreamingType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: WMPStreamingType
+req.redist: 
 ---
 
 # WMPStreamingType enumeration

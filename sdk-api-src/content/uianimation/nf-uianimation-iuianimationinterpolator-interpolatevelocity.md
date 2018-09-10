@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator::InterpolateVelocity
 author: windows-sdk-content
 description: Interpolates the velocity, or rate of change, at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevelocity.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: ae0b6674-307b-454e-b8be-db564c234607
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator.InterpolateVelocity, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator.InterpolateVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator::InterpolateVelocity

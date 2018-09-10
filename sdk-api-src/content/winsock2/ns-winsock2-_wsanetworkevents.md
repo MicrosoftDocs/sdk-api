@@ -4,7 +4,7 @@ title: "_WSANETWORKEVENTS"
 author: windows-sdk-content
 description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.
 old-location: winsock\wsanetworkevents_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 72ae4aa8-4e15-4215-8dcb-45e394ac1313
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSANETWORKEVENTS, *LPWSANETWORKEVENTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSANETWORKEVENTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSANETWORKEVENTS, *LPWSANETWORKEVENTS
+req.redist: 
 ---
 
 # _WSANETWORKEVENTS structure

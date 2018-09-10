@@ -4,17 +4,16 @@ title: D2D1ComputeMaximumScaleFactor function
 author: windows-sdk-content
 description: Computes the maximum factor by which a given transform can stretch any vector.
 old-location: direct2d\d2d1computemaximumscalefactor.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 5BC10305-436F-4528-9647-E70713130505
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: D2D1ComputeMaximumScaleFactor, D2D1ComputeMaximumScaleFactor function [Direct2D], d2d1_2/D2D1ComputeMaximumScaleFactor, direct2d.d2d1computemaximumscalefactor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_2.h
 req.include-header: D2d1_1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_RENDERING_PRIORITY
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1ComputeMaximumScaleFactor
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D2D1ComputeMaximumScaleFactor function

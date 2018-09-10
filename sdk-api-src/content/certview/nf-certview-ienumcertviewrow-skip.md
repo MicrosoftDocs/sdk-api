@@ -4,17 +4,16 @@ title: IEnumCERTVIEWROW::Skip
 author: windows-sdk-content
 description: Skips a specified number of rows in the row enumeration sequence.
 old-location: security\ienumcertviewrow_skip.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWROW.Skip
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWROW::Skip

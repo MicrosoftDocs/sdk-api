@@ -4,17 +4,16 @@ title: NdrConformantStringUnmarshall function
 author: windows-sdk-content
 description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.
 old-location: rpc\ndrconformantstringunmarshall.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall function [RPC], rpc.ndrconformantstringunmarshall, rpcndr/NdrConformantStringUnmarshall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrConformantStringUnmarshall
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrConformantStringUnmarshall function

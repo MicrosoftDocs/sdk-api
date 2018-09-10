@@ -4,17 +4,16 @@ title: IMDSPStorage2::CreateStorage2
 author: windows-sdk-content
 description: The CreateStorage2 method creates a new storage with the specified name and returns a pointer to the IMDSPStorage interface on the newly created storage.
 old-location: wmdm\imdspstorage2_createstorage2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f79f4bf5-948e-4201-a9bc-edde4dd333ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],CreateStorage2 method, IMDSPStorage2.CreateStorage2, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage2.CreateStorage2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage2::CreateStorage2

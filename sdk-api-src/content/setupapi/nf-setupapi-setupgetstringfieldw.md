@@ -4,17 +4,16 @@ title: SetupGetStringFieldW function
 author: windows-sdk-content
 description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
 old-location: setup\setupgetstringfield.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupGetStringField, SetupGetStringField function [Setup API], SetupGetStringFieldA, SetupGetStringFieldW, _setupapi_setupgetstringfield, setup.setupgetstringfield, setupapi/SetupGetStringField, setupapi/SetupGetStringFieldA, setupapi/SetupGetStringFieldW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupGetStringFieldW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetStringFieldW function

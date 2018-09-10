@@ -4,17 +4,16 @@ title: IRegisteredSyncProvider::Init
 author: windows-sdk-content
 description: Initializes the synchronization provider before it is ready for a synchronization session.
 old-location: winsync\iregisteredsyncprovider_init.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Init method, IRegisteredSyncProvider.Init, IRegisteredSyncProvider::Init, Init, Init method [Windows Sync], Init method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Init, winsync.iregisteredsyncprovider_init
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRegisteredSyncProvider.Init
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredSyncProvider::Init

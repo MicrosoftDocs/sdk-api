@@ -4,7 +4,7 @@ title: "_EVT_VARIANT"
 author: windows-sdk-content
 description: Contains event data or property values.
 old-location: wes\evt_variant.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 4b0f338b-0b66-4ba5-9e29-b15afe15a2d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT, *PEVT_VARIANT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_VARIANT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_VARIANT, *PEVT_VARIANT
+req.redist: 
 ---
 
 # _EVT_VARIANT structure

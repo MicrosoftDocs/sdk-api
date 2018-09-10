@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::get_CSPName
 author: windows-sdk-content
 description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
 old-location: security\iocspcaconfiguration_cspname_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfiguration.get_CSPName
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::get_CSPName

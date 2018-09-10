@@ -4,17 +4,16 @@ title: CreateObjrefMoniker function
 author: windows-sdk-content
 description: Creates an OBJREF moniker based on a pointer to an object.
 old-location: com\createobjrefmoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateObjrefMoniker
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateObjrefMoniker function

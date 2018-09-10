@@ -4,17 +4,16 @@ title: IDWriteFontCollectionLoader::CreateEnumeratorFromKey
 author: windows-sdk-content
 description: Creates a font file enumerator object that encapsulates a collection of font files. The font system calls back to this interface to create a font collection.
 old-location: directwrite\IDWriteFontCollectionLoader_CreateEnumeratorFromKey.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 579893e8-5ef3-4e23-a139-b5c203805c5c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateEnumeratorFromKey, CreateEnumeratorFromKey method [Direct Write], CreateEnumeratorFromKey method [Direct Write],IDWriteFontCollectionLoader interface, IDWriteFontCollectionLoader interface [Direct Write],CreateEnumeratorFromKey method, IDWriteFontCollectionLoader.CreateEnumeratorFromKey, IDWriteFontCollectionLoader::CreateEnumeratorFromKey, directwrite.IDWriteFontCollectionLoader_CreateEnumeratorFromKey, dwrite/IDWriteFontCollectionLoader::CreateEnumeratorFromKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontCollectionLoader.CreateEnumeratorFromKey
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontCollectionLoader::CreateEnumeratorFromKey

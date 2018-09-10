@@ -4,7 +4,7 @@ title: "_MC_COLOR_TEMPERATURE"
 author: windows-sdk-content
 description: Describes a monitor's color temperature.
 old-location: monitor\mc_color_temperature.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: 890d1d84-6a7d-457b-8136-230be4c79e78
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_COLOR_TEMPERATURE, *LPMC_COLOR_TEMPERATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MC_COLOR_TEMPERATURE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MC_COLOR_TEMPERATURE, *LPMC_COLOR_TEMPERATURE
+req.redist: 
 ---
 
 # _MC_COLOR_TEMPERATURE enumeration

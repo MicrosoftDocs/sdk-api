@@ -4,17 +4,16 @@ title: IApplicationAssociationRegistration::SetAppAsDefault
 author: windows-sdk-content
 description: Sets an application as the default for a given type. For more information, see Default Programs. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationAssociationRegistration.SetAppAsDefault
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationAssociationRegistration::SetAppAsDefault

@@ -4,17 +4,16 @@ title: DisplayConfigSetDeviceInfo function
 author: windows-sdk-content
 description: The DisplayConfigSetDeviceInfo function sets the properties of a target.
 old-location: display\displayconfigsetdeviceinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 4050b1f0-a588-427c-a0df-eefdc488fc20
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: CCD_Functions_0124386b-2a62-4d91-9eca-9268a569c976.xml, DisplayConfigSetDeviceInfo, DisplayConfigSetDeviceInfo function [Display Devices], display.displayconfigsetdeviceinfo, winuser/DisplayConfigSetDeviceInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib; OneCoreUAP.lib on Windows 10
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - DisplayConfigSetDeviceInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib; OneCoreUAP.lib on Windows 10
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DisplayConfigSetDeviceInfo function

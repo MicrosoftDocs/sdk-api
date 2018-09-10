@@ -4,17 +4,16 @@ title: IX509CertificateTemplate::get_Property
 author: windows-sdk-content
 description: Retrieves a template property value.
 old-location: security\ix509certificatetemplate_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateTemplate.get_Property
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplate::get_Property

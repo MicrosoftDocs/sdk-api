@@ -4,7 +4,7 @@ title: "_PROPSHEETHEADERW_V2"
 author: windows-sdk-content
 description: Defines the frame and pages of a property sheet.
 old-location: controls\PROPSHEETHEADER.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPSHEETHEADERW_V2, *LPPROPSHEETHEADERW_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PROPSHEETHEADERW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPSHEETHEADERW_V2, *LPPROPSHEETHEADERW_V2
+req.redist: 
 ---
 
 # _PROPSHEETHEADERW_V2 structure

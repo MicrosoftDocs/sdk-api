@@ -4,17 +4,16 @@ title: PerfSetCounterSetInfo function
 author: windows-sdk-content
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfSetCounterSetInfo
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfSetCounterSetInfo function

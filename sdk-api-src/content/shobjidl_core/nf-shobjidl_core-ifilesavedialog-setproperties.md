@@ -4,17 +4,16 @@ title: IFileSaveDialog::SetProperties
 author: windows-sdk-content
 description: Provides a property store that defines the default values to be used for the item being saved.
 old-location: shell\IFileSaveDialog_SetProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSaveDialog.SetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSaveDialog::SetProperties

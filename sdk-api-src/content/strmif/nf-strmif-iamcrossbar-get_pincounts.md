@@ -4,17 +4,16 @@ title: IAMCrossbar::get_PinCounts
 author: windows-sdk-content
 description: The get_PinCounts method retrieves the number of input and output pins on the crossbar filter.
 old-location: dshow\iamcrossbar_get_pincounts.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 66ea86a6-82c3-4f91-a2d3-a08014f555be
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_PinCounts method, IAMCrossbar.get_PinCounts, IAMCrossbar::get_PinCounts, IAMCrossbarget_PinCounts, dshow.iamcrossbar_get_pincounts, get_PinCounts, get_PinCounts method [DirectShow], get_PinCounts method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_PinCounts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMCrossbar.get_PinCounts
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMCrossbar::get_PinCounts

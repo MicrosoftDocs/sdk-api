@@ -4,17 +4,16 @@ title: DhcpServerSetConfig function
 author: windows-sdk-content
 description: Configures a DHCPv4 server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
 old-location: dhcp\dhcpserversetconfig.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 06f0c6b2-a916-4b1b-9956-22dcaafcad1b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIProtocolSupport, Set_BackupInterval, Set_BackupPath, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_RestoreFlag, Set_Set_DebugFlag, dhcp.dhcpserversetconfig, dhcpsapi/DhcpServerSetConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpServerSetConfig
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpServerSetConfig function

@@ -4,17 +4,16 @@ title: ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)
 author: windows-sdk-content
 description: Indicates whether the render target supports the specified properties.
 old-location: direct2d\id2d1rendertarget_issupported.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: d9fbc313-fe82-4425-9c9a-79bfacc08019
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],IsSupported method, ID2D1RenderTarget.IsSupported, ID2D1RenderTarget.IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &), ID2D1RenderTarget::IsSupported, ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &), IsSupported, IsSupported method [Direct2D], IsSupported method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::IsSupported, direct2d.id2d1rendertarget_issupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1RenderTarget.IsSupported
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)

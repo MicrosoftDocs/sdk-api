@@ -4,17 +4,16 @@ title: ICryptAttributes::Add
 author: windows-sdk-content
 description: Adds an ICryptAttribute object to the collection.
 old-location: security\icryptattributes_add_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Add method, ICryptAttributes.Add, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICryptAttributes.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICryptAttributes::Add

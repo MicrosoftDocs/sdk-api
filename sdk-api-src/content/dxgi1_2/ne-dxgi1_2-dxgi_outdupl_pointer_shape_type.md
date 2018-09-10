@@ -4,7 +4,7 @@ title: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
 author: windows-sdk-content
 description: Identifies the type of pointer shape.
 old-location: direct3ddxgi\dxgi_outdupl_pointer_shape_type.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: A066B6D3-A72A-48A9-BAED-BC3488BD1BC7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_OUTDUPL_POINTER_SHAPE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+req.redist: 
 ---
 
 # DXGI_OUTDUPL_POINTER_SHAPE_TYPE enumeration

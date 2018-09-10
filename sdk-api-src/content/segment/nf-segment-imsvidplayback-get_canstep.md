@@ -4,17 +4,16 @@ title: IMSVidPlayback::get_CanStep
 author: windows-sdk-content
 description: The get_CanStep method queries whether the input source can step frame by frame.
 old-location: mstv\imsvidplayback_get_canstep.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 41aad247-1f04-4245-89df-8ac527926307
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CanStep method, IMSVidPlayback.get_CanStep, IMSVidPlayback::get_CanStep, IMSVidPlaybackget_CanStep, get_CanStep, get_CanStep method [Microsoft TV Technologies], get_CanStep method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_canstep, segment/IMSVidPlayback::get_CanStep
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidPlayback.get_CanStep
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidPlayback::get_CanStep

@@ -4,7 +4,7 @@ title: "_PaxosTagCStruct"
 author: windows-sdk-content
 description: Contains the Paxos tag values of a cluster node, which stores information about the cluster configuration version of the node when the cluster uses a File Share witness.
 old-location: mscs\paxostagcstruct.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PaxosTagCStruct, *PPaxosTagCStruct
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - PaxosTagCStruct
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PaxosTagCStruct, *PPaxosTagCStruct
+req.redist: 
 ---
 
 # _PaxosTagCStruct structure

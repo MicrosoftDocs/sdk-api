@@ -4,17 +4,16 @@ title: IEnumOleDocumentViews::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoledocumentviews_next.htm
-old-project: com
+tech.root: com
 ms.assetid: a58131bf-88ff-4661-9047-2d70b5e7931b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocumentViews.Next, IEnumOleDocumentViews::Next, Next, Next method [COM], Next method [COM],IEnumOleDocumentViews interface, com.ienumoledocumentviews_next, docobj/IEnumOleDocumentViews::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumOleDocumentViews.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOleDocumentViews::Next

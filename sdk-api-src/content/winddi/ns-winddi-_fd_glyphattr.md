@@ -4,7 +4,7 @@ title: "_FD_GLYPHATTR"
 author: windows-sdk-content
 description: The FD_GLYPHATTR structure is used to specify the return value for the FONTOBJ_pQueryGlyphAttrs and DrvQueryGlyphAttrs functions.
 old-location: display\fd_glyphattr.htm
-old-project: display
+tech.root: display
 ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FD_GLYPHATTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FD_GLYPHATTR, *PFD_GLYPHATTR
+req.redist: 
 ---
 
 # _FD_GLYPHATTR structure

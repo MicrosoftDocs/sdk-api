@@ -4,17 +4,16 @@ title: PeerDistServerCloseStreamHandle function
 author: windows-sdk-content
 description: PeerDistServerCloseStreamHandle function closes a handle returned by PeerDistServerPublishStream.
 old-location: p2p\peerdistserverclosestreamhandle.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+req.lib: PeerDist.lib
+req.dll: PeerDist.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerDistServerCloseStreamHandle
 product: Windows
 targetos: Windows
-req.lib: PeerDist.lib
-req.dll: PeerDist.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerDistServerCloseStreamHandle function

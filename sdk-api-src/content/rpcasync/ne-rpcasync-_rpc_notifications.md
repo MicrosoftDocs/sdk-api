@@ -4,7 +4,7 @@ title: "_RPC_NOTIFICATIONS"
 author: windows-sdk-content
 description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
 old-location: rpc\rpc_notifications.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_NOTIFICATIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_NOTIFICATIONS
+req.redist: 
 ---
 
 # _RPC_NOTIFICATIONS enumeration

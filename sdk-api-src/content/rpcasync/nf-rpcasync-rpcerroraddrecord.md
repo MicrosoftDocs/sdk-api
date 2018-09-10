@@ -4,17 +4,16 @@ title: RpcErrorAddRecord function
 author: windows-sdk-content
 description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.
 old-location: rpc\rpcerroraddrecord.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: b82708ef-0760-49b0-87d2-3d55a07b351f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcErrorAddRecord, RpcErrorAddRecord function [RPC], _rpc_rpcerroraddrecord, rpc.rpcerroraddrecord, rpcasync/RpcErrorAddRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcErrorAddRecord
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcErrorAddRecord function

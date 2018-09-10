@@ -4,7 +4,7 @@ title: "_CREATE_CLUSTER_NAME_ACCOUNT"
 author: windows-sdk-content
 description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
 old-location: mscs\create_cluster_name_account.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CREATE_CLUSTER_NAME_ACCOUNT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
+req.redist: 
 ---
 
 # _CREATE_CLUSTER_NAME_ACCOUNT structure

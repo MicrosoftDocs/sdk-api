@@ -4,17 +4,16 @@ title: RtmGetEntityMethods function
 author: windows-sdk-content
 description: The RtmGetEntityMethods function queries the specified client to determine which methods are available for another client to invoke.
 old-location: rras\rtmgetentitymethods.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmGetEntityMethods, RtmGetEntityMethods function [RAS], _rtmv2ref_rtmgetentitymethods, rras.rtmgetentitymethods, rtmv2/RtmGetEntityMethods
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetEntityMethods
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetEntityMethods function

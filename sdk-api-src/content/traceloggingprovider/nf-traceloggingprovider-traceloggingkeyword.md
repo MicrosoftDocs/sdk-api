@@ -4,17 +4,16 @@ title: TraceLoggingKeyword macro
 author: windows-sdk-content
 description: Wrapper macro for setting the event's keyword(s).
 old-location: tracelogging\traceloggingkeyword.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingKeyword
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingKeyword macro

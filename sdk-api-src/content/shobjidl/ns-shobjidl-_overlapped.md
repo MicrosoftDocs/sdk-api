@@ -4,7 +4,7 @@ title: "_OVERLAPPED"
 author: windows-sdk-content
 description: Contains information used in asynchronous (overlapped) input/output (I/O).
 old-location: shell\OVERLAPPED.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OVERLAPPED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.redist: 
 ---
 
 # _OVERLAPPED structure

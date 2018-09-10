@@ -4,17 +4,16 @@ title: BluetoothSetServiceState function
 author: windows-sdk-content
 description: Enables or disables services for a Bluetooth device.
 old-location: bluetooth\bluetoothsetservicestate.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 9c68139c-6f55-4b5a-bea0-64681e32a7c5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothSetServiceState, BluetoothSetServiceState function [Bluetooth], bluetooth.bluetoothsetservicestate, bluetoothapis/BluetoothSetServiceState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothSetServiceState
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothSetServiceState function

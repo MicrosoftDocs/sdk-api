@@ -4,17 +4,16 @@ title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
 author: windows-sdk-content
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml

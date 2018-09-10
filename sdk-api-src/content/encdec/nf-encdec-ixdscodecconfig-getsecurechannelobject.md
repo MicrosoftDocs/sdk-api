@@ -4,17 +4,16 @@ title: IXDSCodecConfig::GetSecureChannelObject
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ixdscodecconfig_getsecurechannelobject.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c7bf4efe-110a-4bcc-927c-f5e4798211df
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IXDSCodecConfig interface, IXDSCodecConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IXDSCodecConfig.GetSecureChannelObject, IXDSCodecConfig::GetSecureChannelObject, IXDSCodecConfigGetSecureChannelObject, encdec/IXDSCodecConfig::GetSecureChannelObject, mstv.ixdscodecconfig_getsecurechannelobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXDSCodecConfig.GetSecureChannelObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXDSCodecConfig::GetSecureChannelObject

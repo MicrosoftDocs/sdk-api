@@ -4,17 +4,16 @@ title: CreateMailslotW function
 author: windows-sdk-content
 description: Creates a mailslot with the specified name and returns a handle that a mailslot server can use to perform operations on the mailslot.
 old-location: base\createmailslot.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - CreateMailslotW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateMailslotW function

@@ -4,17 +4,16 @@ title: ISimilarityFileIdTable::Lookup
 author: windows-sdk-content
 description: Retrieves the file ID that corresponds to a given file index in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_lookup.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: bf9dbeb1-0182-4927-80ad-bb51fab2e637
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Lookup method, ISimilarityFileIdTable.Lookup, ISimilarityFileIdTable::Lookup, Lookup, Lookup method [Remote Differential Compression], Lookup method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_lookup, msrdc/ISimilarityFileIdTable::Lookup, rdc.isimilarityfileidtable_lookup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityFileIdTable.Lookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityFileIdTable::Lookup

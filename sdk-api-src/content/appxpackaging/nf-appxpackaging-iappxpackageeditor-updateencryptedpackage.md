@@ -4,17 +4,16 @@ title: IAppxPackageEditor::UpdateEncryptedPackage
 author: windows-sdk-content
 description: Updates an encrypted app package.
 old-location: appxpkg\iappxpackageeditor_updateencryptedpackage.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 4D5E2F4B-00CE-4A0A-A514-3B66EC3065ED
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateEncryptedPackage method, IAppxPackageEditor.UpdateEncryptedPackage, IAppxPackageEditor::UpdateEncryptedPackage, UpdateEncryptedPackage, UpdateEncryptedPackage method [App packaging and management], UpdateEncryptedPackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage, appxpkg.iappxpackageeditor_updateencryptedpackage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageEditor.UpdateEncryptedPackage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageEditor::UpdateEncryptedPackage

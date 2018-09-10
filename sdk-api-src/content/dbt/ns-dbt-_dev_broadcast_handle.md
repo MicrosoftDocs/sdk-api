@@ -4,7 +4,7 @@ title: "_DEV_BROADCAST_HANDLE"
 author: windows-sdk-content
 description: Contains information about a file system handle.
 old-location: base\dev_broadcast_handle_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 5e542abc-8db3-4251-8b68-11456aa2da5e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEV_BROADCAST_HANDLE, *PDEV_BROADCAST_HANDLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DEV_BROADCAST_HANDLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DEV_BROADCAST_HANDLE, *PDEV_BROADCAST_HANDLE
+req.redist: 
 ---
 
 # _DEV_BROADCAST_HANDLE structure

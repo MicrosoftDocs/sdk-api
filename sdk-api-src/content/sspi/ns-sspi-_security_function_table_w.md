@@ -4,7 +4,7 @@ title: "_SECURITY_FUNCTION_TABLE_W"
 author: windows-sdk-content
 description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
 old-location: security\securityfunctiontable.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6315e8d6-b40a-4dd6-b6a6-598a965f93dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecurityFunctionTableW, *PSecurityFunctionTableW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecurityFunctionTableW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecurityFunctionTableW, *PSecurityFunctionTableW
+req.redist: 
 ---
 
 # _SECURITY_FUNCTION_TABLE_W structure

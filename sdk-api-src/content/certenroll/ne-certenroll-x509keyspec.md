@@ -4,7 +4,7 @@ title: X509KeySpec
 author: windows-sdk-content
 description: Specifies the intended use of a key for a legacy cryptographic service provider (CSP).
 old-location: security\x509keyspec_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: d677d46c-3b36-4081-a6db-123ac1cef84b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509KeySpec
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - X509KeySpec
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: X509KeySpec
+req.redist: 
 ---
 
 # X509KeySpec enumeration

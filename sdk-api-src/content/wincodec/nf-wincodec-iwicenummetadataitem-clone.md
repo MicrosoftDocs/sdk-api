@@ -4,17 +4,16 @@ title: IWICEnumMetadataItem::Clone
 author: windows-sdk-content
 description: Creates a copy of the current IWICEnumMetadataItem.
 old-location: wic\_wic_codec_iwicenummetadataitem_clone.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 08477910-027e-497d-a3e7-16e92f1a53e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Windows Imaging Component], Clone method [Windows Imaging Component],IWICEnumMetadataItem interface, IWICEnumMetadataItem interface [Windows Imaging Component],Clone method, IWICEnumMetadataItem.Clone, IWICEnumMetadataItem::Clone, _wic_codec_iwicenummetadataitem_clone, wic._wic_codec_iwicenummetadataitem_clone, wincodec/IWICEnumMetadataItem::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICEnumMetadataItem.Clone
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICEnumMetadataItem::Clone

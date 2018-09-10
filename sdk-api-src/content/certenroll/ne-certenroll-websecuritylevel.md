@@ -4,7 +4,7 @@ title: WebSecurityLevel
 author: windows-sdk-content
 description: Specifies whether a web-enabled method or property is safe for scripting.
 old-location: security\websecuritylevel_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WebSecurityLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WebSecurityLevel
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: WebSecurityLevel
+req.redist: 
 ---
 
 # WebSecurityLevel enumeration

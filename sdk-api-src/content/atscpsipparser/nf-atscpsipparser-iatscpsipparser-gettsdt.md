@@ -4,17 +4,16 @@ title: IAtscPsipParser::GetTSDT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_gettsdt.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f9c25b9e-615d-4223-baf5-f4df2fc1473a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTSDT, GetTSDT method [Microsoft TV Technologies], GetTSDT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetTSDT method, IAtscPsipParser.GetTSDT, IAtscPsipParser::GetTSDT, IAtscPsipParserGetTSDT, atscpsipparser/IAtscPsipParser::GetTSDT, mstv.iatscpsipparser_gettsdt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAtscPsipParser.GetTSDT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAtscPsipParser::GetTSDT

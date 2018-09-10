@@ -4,17 +4,16 @@ title: CreateAntiMoniker function
 author: windows-sdk-content
 description: Creates and returns a new anti-moniker.
 old-location: com\createantimoniker.htm
-old-project: com
+tech.root: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateAntiMoniker
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CreateAntiMoniker function

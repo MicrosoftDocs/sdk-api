@@ -4,17 +4,16 @@ title: IDXGIOutput1::GetDisplaySurfaceData1
 author: windows-sdk-content
 description: Copies the display surface (front buffer) to a user-provided resource.
 old-location: direct3ddxgi\idxgioutput1_getdisplaysurfacedata1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 120BC7CD-A4B2-4688-9A11-0BD59761B5F1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDisplaySurfaceData1, GetDisplaySurfaceData1 method [DXGI], GetDisplaySurfaceData1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplaySurfaceData1 method, IDXGIOutput1.GetDisplaySurfaceData1, IDXGIOutput1::GetDisplaySurfaceData1, direct3ddxgi.idxgioutput1_getdisplaysurfacedata1, dxgi1_2/IDXGIOutput1::GetDisplaySurfaceData1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutput1.GetDisplaySurfaceData1
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutput1::GetDisplaySurfaceData1

@@ -4,7 +4,7 @@ title: IDWriteInMemoryFontFileLoader
 author: windows-sdk-content
 description: Represents a font file loader that can access in-memory fonts.
 old-location: directwrite\idwriteinmemoryfontfileloader.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteInMemoryFontFileLoader
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteInMemoryFontFileLoader interface

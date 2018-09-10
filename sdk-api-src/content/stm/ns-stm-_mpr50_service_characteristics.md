@@ -4,7 +4,7 @@ title: "_MPR50_SERVICE_CHARACTERISTICS"
 author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: stm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MPR_SERVICE_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: MPR50_SERVICE_CHARACTERISTICS
+req.redist: 
 ---
 
 # _MPR50_SERVICE_CHARACTERISTICS structure

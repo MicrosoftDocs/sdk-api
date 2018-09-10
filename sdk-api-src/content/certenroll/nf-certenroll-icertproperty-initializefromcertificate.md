@@ -4,17 +4,16 @@ title: ICertProperty::InitializeFromCertificate
 author: windows-sdk-content
 description: Initializes the object by using a property value associated with an existing certificate.
 old-location: security\icertproperty_initializefromcertificate_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertProperty.InitializeFromCertificate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertProperty::InitializeFromCertificate

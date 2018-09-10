@@ -4,17 +4,16 @@ title: AuditEnumeratePerUserPolicy function
 author: windows-sdk-content
 description: Enumerates users for whom per-user auditing policy is specified.
 old-location: security\auditenumerateperuserpolicy_func.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AuditEnumeratePerUserPolicy
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AuditEnumeratePerUserPolicy function

@@ -4,17 +4,16 @@ title: ID3D10Device::SetTextFilterSize
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: direct3d10\id3d10device_settextfiltersize.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_settextfiltersize.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 212dab36-4bb8-c796-336c-b8a6e4d0b9e4, ID3D10Device interface [Direct3D 10],SetTextFilterSize method, ID3D10Device.SetTextFilterSize, ID3D10Device::SetTextFilterSize, SetTextFilterSize, SetTextFilterSize method [Direct3D 10], SetTextFilterSize method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetTextFilterSize, direct3d10.id3d10device_settextfiltersize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Device.SetTextFilterSize
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::SetTextFilterSize

@@ -4,17 +4,16 @@ title: IDataObjectAsyncCapability::InOperation
 author: windows-sdk-content
 description: Called by the drop source to determine whether the target is extracting data asynchronously.
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataObjectAsyncCapability.InOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDataObjectAsyncCapability::InOperation

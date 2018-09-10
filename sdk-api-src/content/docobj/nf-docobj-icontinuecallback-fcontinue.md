@@ -4,17 +4,16 @@ title: IContinueCallback::FContinue
 author: windows-sdk-content
 description: Indicates whether a generic operation should continue.
 old-location: com\icontinuecallback_fcontinue.htm
-old-project: com
+tech.root: com
 ms.assetid: c84899df-fef1-473d-8278-d715a8ab8ee5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FContinue, FContinue method [COM], FContinue method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinue method, IContinueCallback.FContinue, IContinueCallback::FContinue, _com_icontinuecallback_fcontinue, com.icontinuecallback_fcontinue, docobj/IContinueCallback::FContinue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IContinueCallback.FContinue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IContinueCallback::FContinue

@@ -4,17 +4,16 @@ title: IWeakReference::Resolve(REFIID,IInspectable)
 author: windows-sdk-content
 description: Resolves a weak reference by returning a strong reference to the specified object.
 old-location: winrt\iweakreference_resolve.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(REFIID,IInspectable), IWeakReference::Resolve, IWeakReference::Resolve(REFIID,IInspectable), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: weakreference.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWeakReference.Resolve
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWeakReference::Resolve(REFIID,IInspectable)

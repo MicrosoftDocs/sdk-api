@@ -4,17 +4,16 @@ title: PropSheet_SetButtonText macro
 author: windows-sdk-content
 description: Sets the text of a button in an Aero wizard. You can use this macro or send the PSM_SETBUTTONTEXT message explicitly.
 old-location: controls\PropSheet_SetButtonText.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setbuttontext.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetButtonText, PropSheet_SetButtonText macro [Windows Controls], _win32_PropSheet_SetButtonText, _win32_PropSheet_SetButtonText_cpp, controls.PropSheet_SetButtonText, controls._win32_PropSheet_SetButtonText, prsht/PropSheet_SetButtonText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_SetButtonText
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_SetButtonText macro

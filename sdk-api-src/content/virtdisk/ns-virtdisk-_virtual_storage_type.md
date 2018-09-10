@@ -4,7 +4,7 @@ title: "_VIRTUAL_STORAGE_TYPE"
 author: windows-sdk-content
 description: Contains the type and provider (vendor) of the virtual storage device.
 old-location: vhd\virtual_storage_type.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 9f0c1848-fa8e-4747-a3b1-71a274695280
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VIRTUAL_STORAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
+req.redist: 
 ---
 
 # _VIRTUAL_STORAGE_TYPE structure

@@ -4,7 +4,7 @@ title: AVIPALCHANGE
 author: windows-sdk-content
 description: The AVIPALCHANGE structure defines a palette change in an AVI file.
 old-location: dshow\avipalchange.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: f8f38fe0-f506-4cf8-9a6d-381cf46b51a4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: avifmt.h
 req.include-header: Vfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVIPALCHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVIPALCHANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVIPALCHANGE
+req.redist: 
 ---
 
 # AVIPALCHANGE structure

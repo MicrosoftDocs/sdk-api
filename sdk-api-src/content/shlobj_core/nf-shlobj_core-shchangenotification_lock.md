@@ -4,17 +4,16 @@ title: SHChangeNotification_Lock function
 author: windows-sdk-content
 description: Locks the shared memory associated with a Shell change notification event.
 old-location: shell\SHChangeNotification_Lock.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHChangeNotification_Lock
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHChangeNotification_Lock function

@@ -4,17 +4,16 @@ title: ADsPropCheckIfWritable function
 author: windows-sdk-content
 description: The ADsPropCheckIfWritable function determines if an attribute can be written.
 old-location: ad\adspropcheckifwritable.htm
-old-project: ad
+tech.root: ad
 ms.assetid: ec0c3a70-58ad-4d92-85dc-63090b1fce94
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+req.lib: Dsprop.lib
+req.dll: Dsprop.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ADsPropCheckIfWritable
 product: Windows
 targetos: Windows
-req.lib: Dsprop.lib
-req.dll: Dsprop.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ADsPropCheckIfWritable function

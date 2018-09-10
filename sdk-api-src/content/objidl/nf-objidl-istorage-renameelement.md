@@ -4,17 +4,16 @@ title: IStorage::RenameElement
 author: windows-sdk-content
 description: The RenameElement method renames the specified substorage or stream in this storage object.
 old-location: stg\istorage_renameelement.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 9d88b2e0-8b68-4607-8f96-5e36e831c283
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IStorage interface [Structured Storage],RenameElement method, IStorage.RenameElement, IStorage::RenameElement, RenameElement, RenameElement method [Structured Storage], RenameElement method [Structured Storage],IStorage interface, _stg_istorage_renameelement, objidl/IStorage::RenameElement, stg.istorage_renameelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.RenameElement
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::RenameElement

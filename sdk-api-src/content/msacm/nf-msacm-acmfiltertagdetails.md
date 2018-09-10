@@ -4,17 +4,16 @@ title: acmFilterTagDetails function
 author: windows-sdk-content
 description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.
 old-location: multimedia\acmfiltertagdetails.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 6b1fd113-5753-4a45-974c-ecf3f5d27866
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - acmFilterTagDetailsW
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmFilterTagDetails function

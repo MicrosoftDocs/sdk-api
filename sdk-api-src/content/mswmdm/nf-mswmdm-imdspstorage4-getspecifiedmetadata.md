@@ -4,17 +4,16 @@ title: IMDSPStorage4::GetSpecifiedMetadata
 author: windows-sdk-content
 description: The GetSpecifiedMetadata method retrieves only the specified metadata object for a storage.
 old-location: wmdm\imdspstorage4_getspecifiedmetadata.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 0f7b3a68-97b3-4470-8ca8-e8eb8a5f83b7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IMDSPStorage4.GetSpecifiedMetadata, IMDSPStorage4::GetSpecifiedMetadata, IMDSPStorage4GetSpecifiedMetadata, mswmdm/IMDSPStorage4::GetSpecifiedMetadata, wmdm.imdspstorage4_getspecifiedmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage4.GetSpecifiedMetadata
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage4::GetSpecifiedMetadata
@@ -76,7 +74,7 @@ Array that contains the property names to be retrieved. The size of this array s
 
 ### -param pMetadata
 
-
+TBD
 
 
 

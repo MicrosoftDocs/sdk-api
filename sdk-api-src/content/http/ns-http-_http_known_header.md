@@ -4,7 +4,7 @@ title: "_HTTP_KNOWN_HEADER"
 author: windows-sdk-content
 description: Contains the header values for a known header from an HTTP request or HTTP response.
 old-location: http\http_known_header.htm
-old-project: http
+tech.root: http
 ms.assetid: 3f6c295c-f2c1-4070-a79e-9bb1e684ef92
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_KNOWN_HEADER, *PHTTP_KNOWN_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_KNOWN_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_KNOWN_HEADER, *PHTTP_KNOWN_HEADER
+req.redist: 
 ---
 
 # _HTTP_KNOWN_HEADER structure

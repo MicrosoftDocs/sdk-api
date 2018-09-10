@@ -4,7 +4,7 @@ title: "_XHR_COOKIE_STATE"
 author: windows-sdk-content
 description: Specifies the state of the cookie.
 old-location: ixhr2\xhr_cookie_state.htm
-old-project: ixhr2
+tech.root: ixhr2
 ms.assetid: 040a5ae8-ec18-44a6-a3e9-376637cc005a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msxml6.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Msxml.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Msxml.tlb
-tech.root: 
-req.typenames: XHR_COOKIE_STATE
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - XHR_COOKIE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msxml.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: XHR_COOKIE_STATE
+req.redist: 
 ---
 
 # _XHR_COOKIE_STATE enumeration

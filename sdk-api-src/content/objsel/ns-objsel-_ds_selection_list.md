@@ -4,7 +4,7 @@ title: "_DS_SELECTION_LIST"
 author: windows-sdk-content
 description: The DS_SELECTION_LIST structure contains data about the objects the user selected from an object picker dialog box.
 old-location: ad\ds_selection_list.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_SELECTION_LIST, *PDS_SELECTION_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_SELECTION_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DS_SELECTION_LIST, *PDS_SELECTION_LIST
+req.redist: 
 ---
 
 # _DS_SELECTION_LIST structure

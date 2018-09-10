@@ -4,17 +4,16 @@ title: ITQueue::get_TotalCallsAbandoned
 author: windows-sdk-content
 description: The get_TotalCallsAbandoned method gets the number of abandoned calls during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsabandoned.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2db1309e-f6df-47f8-a695-7bf05d360d99
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsAbandoned method, ITQueue.get_TotalCallsAbandoned, ITQueue::get_TotalCallsAbandoned, _tapi3_itqueue_get_totalcallsabandoned, get_TotalCallsAbandoned, get_TotalCallsAbandoned method [TAPI 2.2], get_TotalCallsAbandoned method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsabandoned, tapi3cc/ITQueue::get_TotalCallsAbandoned
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQueue.get_TotalCallsAbandoned
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQueue::get_TotalCallsAbandoned

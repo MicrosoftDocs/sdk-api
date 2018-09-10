@@ -4,17 +4,16 @@ title: ICredentialProvider::GetCredentialCount
 author: windows-sdk-content
 description: Gets the number of available credentials under this credential provider.
 old-location: shell\ICredentialProvider_GetCredentialCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProvider.GetCredentialCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProvider::GetCredentialCount

@@ -4,7 +4,7 @@ title: SHDRAGIMAGE
 author: windows-sdk-content
 description: Contains the information needed to create a drag image.
 old-location: shell\SHDRAGIMAGE_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP3, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHDRAGIMAGE, *LPSHDRAGIMAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHDRAGIMAGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SHDRAGIMAGE, *LPSHDRAGIMAGE
+req.redist: 
 ---
 
 # SHDRAGIMAGE structure

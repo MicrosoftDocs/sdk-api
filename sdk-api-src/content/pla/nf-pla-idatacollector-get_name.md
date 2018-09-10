@@ -4,17 +4,16 @@ title: IDataCollector::get_Name
 author: windows-sdk-content
 description: Retrieves or sets the name of the data collector.
 old-location: pla\idatacollector_name.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: d023fe2f-7b3c-4ce9-9950-ec30ea09181c
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],Name property, IDataCollector.Name, IDataCollector.get_Name, IDataCollector::Name, IDataCollector::get_Name, IDataCollector::put_Name, Name property [PLA], Name property [PLA],IDataCollector interface, base.idatacollector_name, get_Name, pla.idatacollector_name, pla/IDataCollector::Name, pla/IDataCollector::get_Name, pla/IDataCollector::put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDataCollector.put_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollector::get_Name

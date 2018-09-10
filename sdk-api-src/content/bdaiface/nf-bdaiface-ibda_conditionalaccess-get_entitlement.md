@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::get_Entitlement
 author: windows-sdk-content
 description: The get_Entitlement method retrieves the entitlement type for a virtual channel.
 old-location: mstv\ibda_conditionalaccess_get_entitlement.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 361fe0ee-5834-4474-9cc7-92ea9077571c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_Entitlement method, IBDA_ConditionalAccess.get_Entitlement, IBDA_ConditionalAccess::get_Entitlement, IBDA_ConditionalAccessget_Entitlement, bdaiface/IBDA_ConditionalAccess::get_Entitlement, get_Entitlement, get_Entitlement method [Microsoft TV Technologies], get_Entitlement method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_entitlement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.get_Entitlement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::get_Entitlement

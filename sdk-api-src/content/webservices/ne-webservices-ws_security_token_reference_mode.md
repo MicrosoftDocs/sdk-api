@@ -4,7 +4,7 @@ title: WS_SECURITY_TOKEN_REFERENCE_MODE
 author: windows-sdk-content
 description: With message and mixed-mode security bindings, the mechanism to use to refer to a security token from signatures, encrypted items and derived tokens.
 old-location: wsw\ws_security_token_reference_mode.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 09cd0350-d310-4335-9850-e0f6246be472
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_TOKEN_REFERENCE_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_TOKEN_REFERENCE_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_TOKEN_REFERENCE_MODE
+req.redist: 
 ---
 
 # WS_SECURITY_TOKEN_REFERENCE_MODE enumeration

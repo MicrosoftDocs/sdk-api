@@ -4,17 +4,16 @@ title: EnumTimeFormatsEx function
 author: windows-sdk-content
 description: Enumerates the time formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumTimeFormats if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumtimeformatsex.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: db2e297e-98db-4e34-b44c-c0ddcddf2a6e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: EnumTimeFormatsEx, EnumTimeFormatsEx function [Internationalization for Windows Applications], _win32_EnumTimeFormatsEx, intl.enumtimeformatsex, winnls/EnumTimeFormatsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EnumTimeFormatsEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EnumTimeFormatsEx function

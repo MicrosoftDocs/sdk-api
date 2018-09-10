@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_GenerateAudits
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\azauthorizationstore_generateaudits.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e9362ae0-488d-4b6b-9a7b-c70fd85042ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzAuthorizationStore object, GenerateAudits property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],GenerateAudits property, IAzAuthorizationStore.GenerateAudits, IAzAuthorizationStore.get_GenerateAudits, IAzAuthorizationStore::GenerateAudits, IAzAuthorizationStore::get_GenerateAudits, IAzAuthorizationStore::put_GenerateAudits, azroles/IAzAuthorizationStore::GenerateAudits, azroles/IAzAuthorizationStore::get_GenerateAudits, azroles/IAzAuthorizationStore::put_GenerateAudits, get_GenerateAudits, security.azauthorizationstore_generateaudits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzAuthorizationStore.GenerateAudits
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_GenerateAudits

@@ -4,7 +4,7 @@ title: "_SyncProviderConfiguration"
 author: windows-sdk-content
 description: Represents the information for a synchronization provider configuration.
 old-location: winsync\syncproviderconfiguration.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 2b8c9a94-4e11-4904-a6aa-da0433d5b237
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SyncProviderConfiguration
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SyncProviderConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SyncProviderConfiguration
+req.redist: 
 ---
 
 # _SyncProviderConfiguration structure

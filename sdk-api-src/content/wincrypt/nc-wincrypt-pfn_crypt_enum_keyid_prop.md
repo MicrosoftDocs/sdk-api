@@ -4,7 +4,7 @@ title: PFN_CRYPT_ENUM_KEYID_PROP
 author: windows-sdk-content
 description: The CRYPT_ENUM_KEYID_PROP callback function is used with the CryptEnumKeyIdentifierProperties function.
 old-location: security\crypt_enum_keyid_prop.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c4461b79-d216-4d4a-bd5d-9260ec897c14
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_ENUM_KEYID_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFN_CRYPT_ENUM_KEYID_PROP callback function

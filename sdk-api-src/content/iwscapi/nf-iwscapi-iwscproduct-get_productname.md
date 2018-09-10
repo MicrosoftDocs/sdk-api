@@ -4,17 +4,16 @@ title: IWscProduct::get_ProductName
 author: windows-sdk-content
 description: Returns the current product information for the security product.
 old-location: winprog\iwscproduct_productname.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 5270D8AF-AA69-4CC8-8ABC-F0716B3ED588
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductName method, IWscProduct.get_ProductName, IWscProduct::get_ProductName, get_ProductName, get_ProductName method [Windows API], get_ProductName method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_ProductName, winprog.iwscproduct_productname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWscProduct.get_ProductName
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWscProduct::get_ProductName

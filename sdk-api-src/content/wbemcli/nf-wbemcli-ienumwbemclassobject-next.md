@@ -4,17 +4,16 @@ title: IEnumWbemClassObject::Next
 author: windows-sdk-content
 description: Use the IEnumWbemClassObject::Next method to get one or more objects starting at the current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_next.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumWbemClassObject.Next
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumWbemClassObject::Next
@@ -65,7 +63,7 @@ Use the <b>IEnumWbemClassObject::Next</b> method to
 
 ### -param lTimeout
 
-
+TBD
 
 
 ### -param uCount [in]
@@ -75,7 +73,7 @@ Number of requested objects.
 
 ### -param apObjects
 
-
+TBD
 
 
 ### -param puReturned [out]

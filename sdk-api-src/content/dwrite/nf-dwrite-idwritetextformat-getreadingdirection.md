@@ -4,17 +4,16 @@ title: IDWriteTextFormat::GetReadingDirection
 author: windows-sdk-content
 description: Gets the current reading direction for text in a paragraph.
 old-location: directwrite\IDWriteTextFormat_GetReadingDirection.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: b89cfbab-5063-4c1b-92a8-d8ba067f7148
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetReadingDirection, GetReadingDirection method [Direct Write], GetReadingDirection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetReadingDirection method, IDWriteTextFormat.GetReadingDirection, IDWriteTextFormat::GetReadingDirection, directwrite.IDWriteTextFormat_GetReadingDirection, dwrite/IDWriteTextFormat::GetReadingDirection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextFormat.GetReadingDirection
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextFormat::GetReadingDirection

@@ -4,17 +4,16 @@ title: IMFVideoSampleAllocatorNotify::NotifyRelease
 author: windows-sdk-content
 description: Called when a video sample is returned to the allocator.
 old-location: mf\imfvideosampleallocatornotify_notifyrelease.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0467ebbe-b00d-41c1-8f50-77ca09337b15
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFVideoSampleAllocatorNotify interface [Media Foundation],NotifyRelease method, IMFVideoSampleAllocatorNotify.NotifyRelease, IMFVideoSampleAllocatorNotify::NotifyRelease, IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyRelease method, IMFVideoSampleAllocatorNotifyEx::NotifyRelease, NotifyRelease, NotifyRelease method [Media Foundation], NotifyRelease method [Media Foundation],IMFVideoSampleAllocatorNotify interface, NotifyRelease method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotify_notifyrelease, mfidl/IMFVideoSampleAllocatorNotify::NotifyRelease, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyRelease
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoSampleAllocatorNotifyEx.NotifyRelease
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoSampleAllocatorNotify::NotifyRelease

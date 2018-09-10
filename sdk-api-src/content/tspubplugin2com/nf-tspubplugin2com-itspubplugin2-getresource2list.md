@@ -4,17 +4,16 @@ title: ItsPubPlugin2::GetResource2List
 author: windows-sdk-content
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin2_getresource2list.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetResource2List, GetResource2List method [Remote Desktop Services], GetResource2List method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2List method, ItsPubPlugin2.GetResource2List, ItsPubPlugin2::GetResource2List, termserv.itspubplugin2_getresource2list, tspubplugin2com/ItsPubPlugin2::GetResource2List
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ItsPubPlugin2.GetResource2List
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ItsPubPlugin2::GetResource2List

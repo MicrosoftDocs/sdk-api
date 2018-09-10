@@ -4,17 +4,16 @@ title: WdsCliClose function
 author: windows-sdk-content
 description: Closes a handle to a WDS session or image, and releases resources.
 old-location: wds\wdscliclose.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 6a833209-b7a0-40d8-8eca-43c08287d67e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliClose, WdsCliClose function [Windows Deployment Services], wds.wdscliclose, wdsclientapi/WdsCliClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliClose
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliClose function

@@ -4,17 +4,16 @@ title: CHString::IsEmpty
 author: windows-sdk-content
 description: The IsEmpty method tests a CHString string for the empty condition.
 old-location: wmi\chstring_isempty.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?IsEmpty@CHString@@QEBAHXZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::IsEmpty

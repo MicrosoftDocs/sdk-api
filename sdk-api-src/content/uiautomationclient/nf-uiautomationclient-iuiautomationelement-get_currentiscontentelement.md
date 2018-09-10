@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentIsContentElement
 author: windows-sdk-content
 description: Indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsContentElement.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9fc8aada-cb6e-497e-b915-a22117788012
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentIsContentElement property [Windows Accessibility], CurrentIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsContentElement property, IUIAutomationElement.CurrentIsContentElement, IUIAutomationElement.get_CurrentIsContentElement, IUIAutomationElement::CurrentIsContentElement, IUIAutomationElement::get_CurrentIsContentElement, get_CurrentIsContentElement, uiauto.uiauto_IUIAutomationElement_CurrentIsContentElement, uiauto_IUIAutomationElement_CurrentIsContentElement, uiautomationclient/IUIAutomationElement::CurrentIsContentElement, uiautomationclient/IUIAutomationElement::get_CurrentIsContentElement, winauto.uiauto_IUIAutomationElement_CurrentIsContentElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentIsContentElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentIsContentElement

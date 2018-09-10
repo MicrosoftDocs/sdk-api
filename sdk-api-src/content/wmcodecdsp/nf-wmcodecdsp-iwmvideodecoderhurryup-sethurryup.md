@@ -4,17 +4,16 @@ title: IWMVideoDecoderHurryup::SetHurryup
 author: windows-sdk-content
 description: Sets the speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupsethurryup.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: ef01d2ab-2525-4caf-87d9-3acdc0b3b1b3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup method, IWMVideoDecoderHurryup.SetHurryup, IWMVideoDecoderHurryup::SetHurryup, SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/IWMVideoDecoderHurryup::SetHurryup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMVideoDecoderHurryup.SetHurryup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMVideoDecoderHurryup::SetHurryup

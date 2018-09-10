@@ -4,17 +4,16 @@ title: CryptGetDefaultOIDDllList function
 author: windows-sdk-content
 description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.
 old-location: security\cryptgetdefaultoiddlllist.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptGetDefaultOIDDllList
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptGetDefaultOIDDllList function

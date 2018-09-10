@@ -4,7 +4,7 @@ title: TF_LBBALLOONINFO
 author: windows-sdk-content
 description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.
 old-location: tsf\tf_lbballooninfo.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LBBALLOONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TF_LBBALLOONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: TF_LBBALLOONINFO
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_LBBALLOONINFO structure

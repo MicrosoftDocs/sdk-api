@@ -4,17 +4,16 @@ title: IComLTxEvents::OnLtxTransactionPrepare
 author: windows-sdk-content
 description: Generated when COM+ receives a prepare notification for a transaction.
 old-location: cos\icomltxevents_onltxtransactionprepare.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 31915d4c-7ac0-406b-b2d2-ab96b317be3f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPrepare method, IComLTxEvents.OnLtxTransactionPrepare, IComLTxEvents::OnLtxTransactionPrepare, OnLtxTransactionPrepare, OnLtxTransactionPrepare method [COM+], OnLtxTransactionPrepare method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPrepare, cos.icomltxevents_onltxtransactionprepare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComLTxEvents.OnLtxTransactionPrepare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComLTxEvents::OnLtxTransactionPrepare

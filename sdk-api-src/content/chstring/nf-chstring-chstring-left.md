@@ -4,17 +4,16 @@ title: CHString::Left
 author: windows-sdk-content
 description: Extracts the first nCount characters from a CHString string and returns a copy of the extracted substring.
 old-location: wmi\chstring_left.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 52219bbb-0a88-47b3-ac6c-ba54d15e8157
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?Left@CHString@@QBE?AV1@H@Z, ?Left@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Left method, CHString.Left, CHString::Left, Left, Left method [Windows Management Instrumentation], Left method [Windows Management Instrumentation],CHString interface, _hmm_chstring_left, chstring/CHString::Left, wmi.chstring_left"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?Left@CHString@@QEBA?AV1@H@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::Left

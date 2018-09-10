@@ -4,17 +4,16 @@ title: ISettingsItem::RemoveListElement
 author: windows-sdk-content
 description: Removes an existing list element of the supplied name.
 old-location: smi\isettingsitem_removelistelement.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 4dca22b5-b4e3-4bb6-9eb4-5507472b63b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISettingsItem interface [SMI],RemoveListElement method, ISettingsItem.RemoveListElement, ISettingsItem::RemoveListElement, RemoveListElement, RemoveListElement method [SMI], RemoveListElement method [SMI],ISettingsItem interface, smi.isettingsitem_removelistelement, wcmconfig/ISettingsItem::RemoveListElement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsItem.RemoveListElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsItem::RemoveListElement

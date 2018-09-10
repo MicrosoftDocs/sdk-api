@@ -4,7 +4,7 @@ title: "_DFS_INFO_3"
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, number of DFS targets, and information about each target of the root or link.
 old-location: dfs\dfs_info_3_str.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: fd60cb52-fa17-4cac-a7e8-9803303336dc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_3, *PDFS_INFO_3, *LPDFS_INFO_3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_3, *PDFS_INFO_3, *LPDFS_INFO_3
+req.redist: 
 ---
 
 # _DFS_INFO_3 structure

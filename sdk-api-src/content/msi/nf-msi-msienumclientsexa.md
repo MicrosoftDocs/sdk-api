@@ -4,17 +4,16 @@ title: MsiEnumClientsExA function
 author: windows-sdk-content
 description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called.
 old-location: setup\msienumclientsex.htm
-old-project: msi
+tech.root: msi
 ms.assetid: f7677202-1b3d-4039-86d3-242c3ce984e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumClientsEx, MsiEnumClientsEx function [Setup API], MsiEnumClientsExA, MsiEnumClientsExW, NULL, User SID, msi/MsiEnumClientsEx, msi/MsiEnumClientsExA, msi/MsiEnumClientsExW, s-1-1-0, setup.msienumclientsex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. See the Windows Installer Run-Time Requirements for information about the minimum Windows service pack that is required by a Windows Installer version.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiEnumClientsExW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiEnumClientsExA function

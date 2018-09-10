@@ -4,17 +4,16 @@ title: SysAllocStringLen function
 author: windows-sdk-content
 description: Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.
 old-location: automat\sysallocstringlen.htm
-old-project: automat
+tech.root: automat
 ms.assetid: f98bff39-bc5f-4a81-85d7-d5228e20fbc8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SysAllocStringLen, SysAllocStringLen function [Automation], _oa96_SysAllocStringLen, automat.sysallocstringlen, oleauto/SysAllocStringLen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SysAllocStringLen
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SysAllocStringLen function

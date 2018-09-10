@@ -4,17 +4,16 @@ title: ID3D10EffectSamplerVariable::GetSampler
 author: windows-sdk-content
 description: Get a pointer to a sampler interface.
 old-location: direct3d10\id3d10effectsamplervariable_getsampler.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getsampler.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSampler, GetSampler method [Direct3D 10], GetSampler method [Direct3D 10],ID3D10EffectSamplerVariable interface, ID3D10EffectSamplerVariable interface [Direct3D 10],GetSampler method, ID3D10EffectSamplerVariable.GetSampler, ID3D10EffectSamplerVariable::GetSampler, cd07e1d0-28d4-ba10-87d9-3768dd4f0157, d3d10effect/ID3D10EffectSamplerVariable::GetSampler, direct3d10.id3d10effectsamplervariable_getsampler
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectSamplerVariable.GetSampler
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectSamplerVariable::GetSampler

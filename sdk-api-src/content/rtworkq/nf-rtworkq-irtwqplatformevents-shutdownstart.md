@@ -4,17 +4,16 @@ title: IRtwqPlatformEvents::ShutdownStart
 author: windows-sdk-content
 description: Called before the platform is about to shutdown.
 old-location: base\irtwqplatformevents_shutdownstart.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRtwqPlatformEvents.ShutdownStart
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRtwqPlatformEvents::ShutdownStart

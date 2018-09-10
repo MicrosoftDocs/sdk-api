@@ -4,17 +4,16 @@ title: IXblIdpAuthManager::GetGamerAccount
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: 8AAE50DC-249A-4744-8B5B-CEFD9BE83A8D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetGamerAccount, GetGamerAccount method, GetGamerAccount method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetGamerAccount method, IXblIdpAuthManager.GetGamerAccount, IXblIdpAuthManager::GetGamerAccount, xblidp.ixblidpauthmanager_getgameraccount, xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthManager.GetGamerAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthManager::GetGamerAccount

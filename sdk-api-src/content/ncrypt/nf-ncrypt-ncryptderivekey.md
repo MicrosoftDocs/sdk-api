@@ -4,17 +4,16 @@ title: NCryptDeriveKey function
 author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\ncryptderivekey.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptDeriveKey
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptDeriveKey function

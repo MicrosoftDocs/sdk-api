@@ -4,7 +4,7 @@ title: "_ONEX_STATUS"
 author: windows-sdk-content
 description: Contains the current 802.1X authentication status.
 old-location: nwifi\onex_status.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ONEX_STATUS, *PONEX_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ONEX_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: ONEX_STATUS, *PONEX_STATUS
+req.redist: 
 ---
 
 # _ONEX_STATUS structure

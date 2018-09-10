@@ -4,17 +4,16 @@ title: BCryptDeriveKeyCapi function
 author: windows-sdk-content
 description: Derives a key from a hash value.
 old-location: security\bcryptderivekeycapi.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: bebb0767-8c54-48b7-864c-f53caea7120d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptDeriveKeyCapi, BCryptDeriveKeyCapi function [Security], bcrypt/BCryptDeriveKeyCapi, security.bcryptderivekeycapi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCryptDeriveKeyCapi
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDeriveKeyCapi function

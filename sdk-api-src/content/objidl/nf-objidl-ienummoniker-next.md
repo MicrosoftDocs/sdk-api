@@ -4,17 +4,16 @@ title: IEnumMoniker::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_next.htm
-old-project: com
+tech.root: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumMoniker::Next, Next, Next method [COM], Next method [COM],IEnumMoniker interface, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumMoniker.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMoniker::Next

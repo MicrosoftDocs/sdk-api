@@ -4,17 +4,16 @@ title: IWizardSite::GetPreviousPage
 author: windows-sdk-content
 description: Called when the user navigates backward out of the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page that is before the wizard extension page.
 old-location: shell\IWizardSite_GetPreviousPage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 998eabc5-a0d4-450f-92bf-cf81f74c48d2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetPreviousPage method, IWizardSite.GetPreviousPage, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWizardSite.GetPreviousPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IWizardSite::GetPreviousPage
@@ -62,7 +60,7 @@ Called when the user navigates backward out of the wizard extension. Gets the ha
 
 ### -param phpage
 
-
+TBD
 
 
 

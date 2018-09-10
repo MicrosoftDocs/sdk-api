@@ -4,17 +4,16 @@ title: IADsUser::Groups
 author: windows-sdk-content
 description: Obtains a collection of the ADSI group objects to which this user belongs.
 old-location: adsi\iadsuser_groups.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 0d250815-a7d8-4e61-b125-a66f1c2fde43
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Groups, Groups method [ADSI], Groups method [ADSI],IADsUser interface, IADsUser interface [ADSI],Groups method, IADsUser.Groups, IADsUser::Groups, _ds_iadsuser_groups, adsi.iadsuser__groups, adsi.iadsuser_groups, iads/IADsUser::Groups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsUser.Groups
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsUser::Groups

@@ -4,7 +4,7 @@ title: peer_name_pair_tag
 author: windows-sdk-content
 description: The PEER_NAME_PAIR structure contains the results of a call to PeerGetNextItem.
 old-location: p2p\peer_name_pair.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_NAME_PAIR, *PPEER_NAME_PAIR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_NAME_PAIR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_NAME_PAIR, *PPEER_NAME_PAIR
+req.redist: 
 ---
 
 # peer_name_pair_tag structure

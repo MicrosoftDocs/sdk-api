@@ -4,17 +4,16 @@ title: DhcpSetOptionValueV5 function
 author: windows-sdk-content
 description: The DhcpSetOptionValueV5 function sets information for a specific option value on the DHCP server. This function extends the functionality provided by DhcpSetOptionValue by allowing the caller to specify a class and/or vendor for the option.
 old-location: dhcp\dhcpsetoptionvaluev5.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 05e7930f-e5c1-42e7-a693-f9852cda9494
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionValueV5, DhcpSetOptionValueV5 function [DHCP], dhcp.dhcpsetoptionvaluev5, dhcpsapi/DhcpSetOptionValueV5
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpSetOptionValueV5
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpSetOptionValueV5 function

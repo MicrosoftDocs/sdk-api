@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_gpmgmt_0000_0030_0002"
 author: windows-sdk-content
 description: The Starter Group Policy object is a system Starter Group Policy object or a custom Starter Group Policy object.
 old-location: gpmc\gpmstartergpotype.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 19b84c06-d8dc-4a25-85f6-cfbe9937f30e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GPMStarterGPOType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GPMStarterGPOType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_gpmgmt_0000_0030_0002 enumeration

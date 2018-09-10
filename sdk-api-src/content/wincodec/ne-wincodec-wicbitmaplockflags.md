@@ -4,7 +4,7 @@ title: WICBitmapLockFlags
 author: windows-sdk-content
 description: Specifies access to an IWICBitmap.
 old-location: wic\_wic_codec_wicbitmaplockflags.htm
-old-project: wic
+tech.root: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICBitmapLockFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICBitmapLockFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICBitmapLockFlags
+req.redist: 
 ---
 
 # WICBitmapLockFlags enumeration

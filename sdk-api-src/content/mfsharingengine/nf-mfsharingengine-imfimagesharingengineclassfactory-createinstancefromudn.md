@@ -4,17 +4,16 @@ title: IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
 author: windows-sdk-content
 description: Creates an instance of the IMFImageSharingEngine from the provided unique device name.
 old-location: mf\imfimagesharingengineclassfactory_createinstancefromudn.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 343E9CB5-12CA-4AC9-857F-D8324D035F07
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateInstanceFromUDN, CreateInstanceFromUDN method [Media Foundation], CreateInstanceFromUDN method [Media Foundation],IMFImageSharingEngineClassFactory interface, IMFImageSharingEngineClassFactory interface [Media Foundation],CreateInstanceFromUDN method, IMFImageSharingEngineClassFactory.CreateInstanceFromUDN, IMFImageSharingEngineClassFactory::CreateInstanceFromUDN, mf.imfimagesharingengineclassfactory_createinstancefromudn, mfsharingengine/IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PLAYTO_SOURCE_CREATEFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFImageSharingEngineClassFactory::CreateInstanceFromUDN

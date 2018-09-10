@@ -4,7 +4,7 @@ title: "_TRANSMIT_FILE_BUFFERS"
 author: windows-sdk-content
 description: The TRANSMIT_FILE_BUFFERS structure specifies data to be transmitted before and after file data during a TransmitFile function file transfer operation.
 old-location: winsock\transmit_file_buffers_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 862dd8f8-5929-4426-b531-a87e36506634
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: Winsock.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSMIT_FILE_BUFFERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS
+req.redist: 
 ---
 
 # _TRANSMIT_FILE_BUFFERS structure

@@ -4,7 +4,7 @@ title: "_AppInfoData"
 author: windows-sdk-content
 description: Provides information about a published application to the Add/Remove Programs Control Panel utility.
 old-location: shell\APPINFODATA.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPINFODATA, *PAPPINFODATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APPINFODATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: APPINFODATA, *PAPPINFODATA
+req.redist: 
 ---
 
 # _AppInfoData structure

@@ -4,17 +4,16 @@ title: WNetCloseEnum function
 author: windows-sdk-content
 description: The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetcloseenum.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: c68fd9de-9f24-41f0-8b59-2d083fec8abf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetCloseEnum, WNetCloseEnum function [Windows Networking (WNet)], _win32_wnetcloseenum, winnetwk/WNetCloseEnum, wnet.wnetcloseenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNetCloseEnum
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetCloseEnum function

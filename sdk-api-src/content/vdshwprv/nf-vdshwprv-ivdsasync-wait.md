@@ -4,17 +4,16 @@ title: IVdsAsync::Wait
 author: windows-sdk-content
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsAsync.Wait
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsAsync::Wait

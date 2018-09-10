@@ -4,7 +4,7 @@ title: IOCTL_GENERICUSBFN_GET_CLASS_INFO
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by the user-mode service or application to retrieve information about a device's available pipes as configured in the registry.
 old-location: buses\ioctl_genericusbfn_get_class_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: DF30E838-9C5A-45DD-8E51-5642CF726918
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOCTL_GENERICUSBFN_GET_CLASS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IOCTL_GENERICUSBFN_GET_CLASS_INFO IOCTL

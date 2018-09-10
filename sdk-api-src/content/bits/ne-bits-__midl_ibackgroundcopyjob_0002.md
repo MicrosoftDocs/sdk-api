@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyJob_0002"
 author: windows-sdk-content
 description: The BG_JOB_STATE enumeration defines constant values for the different states of a job.
 old-location: bits\bg_job_state.htm
-old-project: bits
+tech.root: bits
 ms.assetid: a7857cf1-05b7-42df-b79e-50a2f6a406dc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_JOB_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_JOB_STATE
+req.redist: 
 ---
 
 # __MIDL_IBackgroundCopyJob_0002 enumeration

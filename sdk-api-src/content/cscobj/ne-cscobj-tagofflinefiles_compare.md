@@ -4,7 +4,7 @@ title: tagOFFLINEFILES_COMPARE
 author: windows-sdk-content
 description: Specifies the type of comparison to perform in the IOfflineFilesItemFilter::GetTimeFilter method.
 old-location: of\offlinefiles_compare.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 17972c96-4ce1-43c0-bb6d-730787f0f93a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_COMPARE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OFFLINEFILES_COMPARE
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: OFFLINEFILES_COMPARE
+req.redist: 
 ---
 
 # tagOFFLINEFILES_COMPARE enumeration

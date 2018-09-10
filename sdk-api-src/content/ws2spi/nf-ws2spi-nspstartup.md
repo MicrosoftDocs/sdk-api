@@ -4,17 +4,16 @@ title: NSPStartup function
 author: windows-sdk-content
 description: Retrieves the dynamic information about a provider, such as the list of the DLL entry points.
 old-location: winsock\nspstartup_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, winsock.nspstartup_2, ws2spi/NSPStartup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NSPStartup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # NSPStartup function

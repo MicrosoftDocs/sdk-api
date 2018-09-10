@@ -4,17 +4,16 @@ title: StrIsIntlEqualW function
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are equal.
 old-location: shell\StrIsIntlEqual.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrIsIntlEqualW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrIsIntlEqualW function

@@ -4,17 +4,16 @@ title: RpcServerTestCancel function
 author: windows-sdk-content
 description: The server calls RpcServerTestCancel to test for client cancel requests.
 old-location: rpc\rpcservertestcancel.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerTestCancel
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerTestCancel function

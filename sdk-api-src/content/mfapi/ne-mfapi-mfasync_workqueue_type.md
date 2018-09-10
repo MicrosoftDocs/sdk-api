@@ -4,7 +4,7 @@ title: MFASYNC_WORKQUEUE_TYPE
 author: windows-sdk-content
 description: Specifies the type of work queue for the MFAllocateWorkQueueEx function to create.
 old-location: mf\mfasync_workqueue_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a3627dbc-1794-4e2e-b7ed-869ed50ca893
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFASYNC_WORKQUEUE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFASYNC_WORKQUEUE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFASYNC_WORKQUEUE_TYPE
+req.redist: 
 ---
 
 # MFASYNC_WORKQUEUE_TYPE enumeration

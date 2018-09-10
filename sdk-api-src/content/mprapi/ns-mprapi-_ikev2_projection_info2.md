@@ -4,7 +4,7 @@ title: "_IKEV2_PROJECTION_INFO2"
 author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info2.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 577a276e-e2f4-46d6-ae0b-2ba0f0bac67f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEV2_PROJECTION_INFO2, *PIKEV2_PROJECTION_INFO2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEV2_PROJECTION_INFO2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEV2_PROJECTION_INFO2, *PIKEV2_PROJECTION_INFO2
+req.redist: 
 ---
 
 # _IKEV2_PROJECTION_INFO2 structure

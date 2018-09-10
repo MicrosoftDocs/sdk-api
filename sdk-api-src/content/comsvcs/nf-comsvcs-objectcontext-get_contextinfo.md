@@ -4,17 +4,16 @@ title: ObjectContext::get_ContextInfo
 author: windows-sdk-content
 description: Retrieves the context information object of the current object's context.
 old-location: cos\objectcontext_get_contextinfo.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1974edd5-3348-4ac4-a80c-c549f2d79161
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectContext.get_ContextInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectContext::get_ContextInfo

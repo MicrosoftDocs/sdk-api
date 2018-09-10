@@ -4,17 +4,16 @@ title: IInkCollector::put_DesiredPacketDescription
 author: windows-sdk-content
 description: Gets or sets the desired packet description of the InkCollector.
 old-location: tablet\inkcollector_desiredpacketdescription.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 320cc215-e4e5-4196-8e1b-ca0a30d01d37
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 320cc215-e4e5-4196-8e1b-ca0a30d01d37, DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DesiredPacketDescription property, IInkCollector.DesiredPacketDescription, IInkCollector.put_DesiredPacketDescription, IInkCollector::DesiredPacketDescription, IInkCollector::get_DesiredPacketDescription, IInkCollector::put_DesiredPacketDescription, InkCollector.get_DesiredPacketDescription, InkCollector.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkCollector::DesiredPacketDescription, msinkaut/IInkCollector::get_DesiredPacketDescription, msinkaut/IInkCollector::put_DesiredPacketDescription, put_DesiredPacketDescription, tablet.inkcollector_desiredpacketdescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkCollector.put_DesiredPacketDescription
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkCollector::put_DesiredPacketDescription

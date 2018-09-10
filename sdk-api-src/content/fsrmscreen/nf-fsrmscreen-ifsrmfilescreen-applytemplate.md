@@ -4,17 +4,16 @@ title: IFsrmFileScreen::ApplyTemplate
 author: windows-sdk-content
 description: Applies the property values of the specified file screen template to this file screen object.
 old-location: fsrm\ifsrmfilescreen_applytemplate.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d495cb92-09c4-4fa5-873c-5f07475eb7bf
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmFileScreen interface, IFsrmFileScreen interface [File Server Resource Manager],ApplyTemplate method, IFsrmFileScreen.ApplyTemplate, IFsrmFileScreen::ApplyTemplate, fs.ifsrmfilescreen_applytemplate, fsrm.ifsrmfilescreen_applytemplate, fsrmscreen/IFsrmFileScreen::ApplyTemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmFileScreen.ApplyTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreen::ApplyTemplate

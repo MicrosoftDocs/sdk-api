@@ -4,17 +4,16 @@ title: GetPointerDeviceProperties function
 author: windows-sdk-content
 description: Gets device properties that aren't included in the POINTER_DEVICE_INFO structure.
 old-location: input_pointerdevice\getpointerdeviceproperties.htm
-old-project: Input_PointerDevice
+tech.root: Input_PointerDevice
 ms.assetid: dbb81637-217a-49b1-9e81-2068cf4c0951
 ms.author: windowssdkdev
 ms.date: 03/27/2018
 ms.keywords: GetPointerDeviceProperties, GetPointerDeviceProperties function, input_pointerdevice.getpointerdeviceproperties, unifiedinputstack.getpointerdeviceproperties, winuser/GetPointerDeviceProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetPointerDeviceProperties
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetPointerDeviceProperties function

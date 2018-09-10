@@ -4,7 +4,7 @@ title: IEvalRat
 author: windows-sdk-content
 description: The IEvalRat interface is used to evaluate content ratings carried by a broadcast stream.
 old-location: mstv\ievalrat.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b37c7e7d-80fd-4a42-a698-c20ffb2a5052
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tvratings.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEvalRat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEvalRat interface

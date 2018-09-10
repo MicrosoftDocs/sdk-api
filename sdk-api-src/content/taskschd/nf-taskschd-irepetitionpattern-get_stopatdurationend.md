@@ -4,17 +4,16 @@ title: IRepetitionPattern::get_StopAtDurationEnd
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates if a running instance of the task is stopped at the end of the repetition pattern duration.
 old-location: taskschd\irepetitionpattern_stopatdurationend.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: a43b5b32-a496-4f59-89f2-4b8566332e03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],StopAtDurationEnd property, IRepetitionPattern.StopAtDurationEnd, IRepetitionPattern.get_StopAtDurationEnd, IRepetitionPattern::StopAtDurationEnd, IRepetitionPattern::get_StopAtDurationEnd, IRepetitionPattern::put_StopAtDurationEnd, StopAtDurationEnd property [Task Scheduler], StopAtDurationEnd property [Task Scheduler],IRepetitionPattern interface, get_StopAtDurationEnd, taskschd.irepetitionpattern_stopatdurationend, taskschd/IRepetitionPattern::StopAtDurationEnd, taskschd/IRepetitionPattern::get_StopAtDurationEnd, taskschd/IRepetitionPattern::put_StopAtDurationEnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRepetitionPattern.put_StopAtDurationEnd
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRepetitionPattern::get_StopAtDurationEnd

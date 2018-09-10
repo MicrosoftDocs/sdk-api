@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx2::SetAuthoritativeRestore
 author: windows-sdk-content
 description: Marks the restore of a component as authoritative for a replicated data store.
 old-location: base\ivssbackupcomponentsex2_setauthoritativerestore.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 3725a282-2df8-4a0a-a1bf-a73c2b259cbf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetAuthoritativeRestore method, IVssBackupComponentsEx2.SetAuthoritativeRestore, IVssBackupComponentsEx2::SetAuthoritativeRestore, SetAuthoritativeRestore, SetAuthoritativeRestore method, SetAuthoritativeRestore method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setauthoritativerestore, vsbackup/IVssBackupComponentsEx2::SetAuthoritativeRestore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponentsEx2.SetAuthoritativeRestore
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx2::SetAuthoritativeRestore

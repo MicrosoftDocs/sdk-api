@@ -4,7 +4,7 @@ title: ICertPropertyFriendlyName
 author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains the display name of a certificate.
 old-location: security\icertpropertyfriendlyname.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyFriendlyName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyFriendlyName interface

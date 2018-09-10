@@ -4,17 +4,16 @@ title: DrawTextExA function
 author: windows-sdk-content
 description: The DrawTextEx function draws formatted text in the specified rectangle.
 old-location: gdi\drawtextex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 77b9973b-77f1-4508-a021-52d61d576c23
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawTextEx, DrawTextEx function [Windows GDI], DrawTextExA, DrawTextExW, _win32_DrawTextEx, gdi.drawtextex, winuser/DrawTextEx, winuser/DrawTextExA, winuser/DrawTextExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - DrawTextExW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DrawTextExA function

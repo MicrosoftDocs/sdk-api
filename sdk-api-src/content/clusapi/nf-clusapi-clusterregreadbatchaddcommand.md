@@ -4,17 +4,16 @@ title: ClusterRegReadBatchAddCommand function
 author: windows-sdk-content
 description: Adds a read command to a batch that executes on a cluster registry key.
 old-location: mscs\clusterregreadbatchaddcommand.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2B665231-7325-43C4-92A4-4EDF28126BA1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterRegReadBatchAddCommand, ClusterRegReadBatchAddCommand function [Failover Cluster], clusapi/ClusterRegReadBatchAddCommand, mscs.clusterregreadbatchaddcommand
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterRegReadBatchAddCommand
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterRegReadBatchAddCommand function

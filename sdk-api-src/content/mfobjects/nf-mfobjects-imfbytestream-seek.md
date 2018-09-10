@@ -4,17 +4,16 @@ title: IMFByteStream::Seek
 author: windows-sdk-content
 description: Moves the current position in the stream by a specified offset.
 old-location: mf\imfbytestream_seek.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFByteStream.Seek
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFByteStream::Seek
@@ -72,7 +70,7 @@ Specifies the origin of the seek as a member of the <a href="https://msdn.micros
 
 ### -param llSeekOffset
 
-
+TBD
 
 
 ### -param dwSeekFlags [in]

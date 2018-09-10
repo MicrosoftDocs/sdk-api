@@ -4,17 +4,16 @@ title: IUnknown::Release
 author: windows-sdk-content
 description: Decrements the reference count for an interface on an object.
 old-location: com\iunknown_release.htm
-old-project: com
+tech.root: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwnbase/IUnknown::Release
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: unknwn.h
 req.include-header: Unknwn.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnknown.Release
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUnknown::Release

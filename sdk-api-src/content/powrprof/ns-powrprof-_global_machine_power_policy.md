@@ -4,7 +4,7 @@ title: "_GLOBAL_MACHINE_POWER_POLICY"
 author: windows-sdk-content
 description: Contains global computer power policy settings that apply to all power schemes for all users.
 old-location: base\global_machine_power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 79b57da4-0125-427b-aec7-7ca4c9bfb870
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLOBAL_MACHINE_POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
+req.redist: 
 ---
 
 # _GLOBAL_MACHINE_POWER_POLICY structure

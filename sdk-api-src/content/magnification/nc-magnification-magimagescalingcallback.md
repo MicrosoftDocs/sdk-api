@@ -4,7 +4,7 @@ title: MagImageScalingCallback
 author: windows-sdk-content
 description: Prototype for a callback function that implements a custom transform for image scaling.
 old-location: magapi\magapi_MagImageScalingCallback.htm
-old-project: magapi
+tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magimagescalingcallback.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: magnification.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MagImageScalingCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MagImageScalingCallback callback function

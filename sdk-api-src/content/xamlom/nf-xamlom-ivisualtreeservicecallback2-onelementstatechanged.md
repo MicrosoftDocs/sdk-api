@@ -4,17 +4,16 @@ title: IVisualTreeServiceCallback2::OnElementStateChanged
 author: windows-sdk-content
 description: Communicates the state of an element in the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2_onelementstatechanged.htm
-old-project: xaml_diagnostics
+tech.root: xaml_diagnostics
 ms.assetid: A832FDC6-1485-432C-9A87-A3C94D0AF8CA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVisualTreeServiceCallback2 interface,OnElementStateChanged method, IVisualTreeServiceCallback2.OnElementStateChanged, IVisualTreeServiceCallback2::OnElementStateChanged, OnElementStateChanged, OnElementStateChanged method, OnElementStateChanged method,IVisualTreeServiceCallback2 interface, xaml_diagnostics.ivisualtreeservicecallback2_onelementstatechanged, xamlom/IVisualTreeServiceCallback2::OnElementStateChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VisualMutationType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVisualTreeServiceCallback2.OnElementStateChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IVisualTreeServiceCallback2::OnElementStateChanged

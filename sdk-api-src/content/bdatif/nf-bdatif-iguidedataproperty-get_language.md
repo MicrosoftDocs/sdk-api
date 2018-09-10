@@ -4,17 +4,16 @@ title: IGuideDataProperty::get_Language
 author: windows-sdk-content
 description: The get_Language method retrieves the language associated with the property.
 old-location: mstv\iguidedataproperty_get_language.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideDataProperty.get_Language
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideDataProperty::get_Language
@@ -64,7 +63,7 @@ The <b>get_Language</b> method retrieves the language associated with the proper
 
 ### -param idLang
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::ClearUnorderedAccessViewUint
 author: windows-sdk-content
 description: Clears an unordered access resource with bit-precise values.
 old-location: direct3d11\id3d11devicecontext_clearunorderedaccessviewuint.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 73e70330-63cb-4ba6-b6e5-fc9707fb9f31
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 6de62b79-ec47-d4cc-7834-5acc4c87fa8d, ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method [Direct3D 11], ClearUnorderedAccessViewUint method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearUnorderedAccessViewUint method, ID3D11DeviceContext.ClearUnorderedAccessViewUint, ID3D11DeviceContext::ClearUnorderedAccessViewUint, d3d11/ID3D11DeviceContext::ClearUnorderedAccessViewUint, direct3d11.id3d11devicecontext_clearunorderedaccessviewuint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.ClearUnorderedAccessViewUint
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::ClearUnorderedAccessViewUint

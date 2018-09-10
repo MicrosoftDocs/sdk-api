@@ -4,17 +4,16 @@ title: IFeedClockVectorElement::GetSyncTime
 author: windows-sdk-content
 description: Gets a SYNC_TIME value that corresponds to the when value for the item.
 old-location: winsync\ifeedclockvectorelement_getsynctime.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f39b3bdf-a37e-4673-a620-5b14109718cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetSyncTime method, IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFeedClockVectorElement.GetSyncTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IFeedClockVectorElement::GetSyncTime

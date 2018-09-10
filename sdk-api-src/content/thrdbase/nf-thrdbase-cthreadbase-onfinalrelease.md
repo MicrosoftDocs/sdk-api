@@ -4,17 +4,16 @@ title: CThreadBase::OnFinalRelease
 author: windows-sdk-content
 description: The OnFinalRelease method is a virtual function called by Release when the reference count reaches zero. CThreadBase is called internally.
 old-location: wmi\cthreadbase_onfinalrelease.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a17a379d-60ba-4a76-8900-58fabadad5ea
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@MEAAXXZ, CThreadBase interface [Windows Management Instrumentation],OnFinalRelease method, CThreadBase.OnFinalRelease, CThreadBase::OnFinalRelease, OnFinalRelease, OnFinalRelease method [Windows Management Instrumentation], OnFinalRelease method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::OnFinalRelease, wmi.cthreadbase_onfinalrelease"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thrdbase.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?OnFinalRelease@CThreadBase@@MEAAXXZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CThreadBase::OnFinalRelease

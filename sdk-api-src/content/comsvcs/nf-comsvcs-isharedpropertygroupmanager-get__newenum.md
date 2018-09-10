@@ -4,17 +4,16 @@ title: ISharedPropertyGroupManager::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the named security call context properties.
 old-location: cos\isharedpropertygroupmanager_get__newenum.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 04e591c0-6bf4-4864-aaae-57ffd97c5414
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISharedPropertyGroupManager interface [COM+],get__NewEnum method, ISharedPropertyGroupManager.get__NewEnum, ISharedPropertyGroupManager::get__NewEnum, _cos_ISharedPropertyGroupManager_get__NewEnum, comsvcs/ISharedPropertyGroupManager::get__NewEnum, cos.isharedpropertygroupmanager_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISharedPropertyGroupManager interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISharedPropertyGroupManager.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISharedPropertyGroupManager::get__NewEnum

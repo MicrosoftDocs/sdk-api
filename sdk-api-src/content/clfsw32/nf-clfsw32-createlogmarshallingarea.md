@@ -4,17 +4,16 @@ title: CreateLogMarshallingArea function
 author: windows-sdk-content
 description: Creates a marshaling area for a log, and when successful it returns a marshaling context. Before creating a marshaling area, the log must have at least one container.
 old-location: fs\createlogmarshallingarea.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateLogMarshallingArea
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateLogMarshallingArea function

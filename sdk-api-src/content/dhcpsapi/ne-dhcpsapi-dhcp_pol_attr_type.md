@@ -4,7 +4,7 @@ title: DHCP_POL_ATTR_TYPE
 author: windows-sdk-content
 description: The DHCP_POL_ATTR_TYPE enumeration defines the attribute type for a condition in a DHCP server policy.
 old-location: dhcp\dhcp_pol_attr_type.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 02a84c55-402c-40fe-8dad-6ed3f58052a1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_ATTR_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_ATTR_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_ATTR_TYPE
+req.redist: 
 ---
 
 # DHCP_POL_ATTR_TYPE enumeration

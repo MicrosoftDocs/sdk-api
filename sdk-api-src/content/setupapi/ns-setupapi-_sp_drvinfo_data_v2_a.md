@@ -4,7 +4,7 @@ title: "_SP_DRVINFO_DATA_V2_A"
 author: windows-sdk-content
 description: An SP_DRVINFO_DATA structure contains information about a driver. This structure is a member of a driver information list that can be associated with a particular device instance or globally with a device information set.
 old-location: devinst\sp_drvinfo_data.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 13cdebad-6247-4651-a1d0-709e14af22f6
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_DRVINFO_DATA_V2_A, *PSP_DRVINFO_DATA_V2_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_DRVINFO_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_DRVINFO_DATA_V2_A, *PSP_DRVINFO_DATA_V2_A
+req.redist: 
 ---
 
 # _SP_DRVINFO_DATA_V2_A structure

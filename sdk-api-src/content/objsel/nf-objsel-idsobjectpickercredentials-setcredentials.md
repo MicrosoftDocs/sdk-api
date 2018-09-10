@@ -4,17 +4,16 @@ title: IDsObjectPickerCredentials::SetCredentials
 author: windows-sdk-content
 description: Use this method to override the user credentials, passing new credentials for the account profile to be used.
 old-location: ad\idsobjectpickercredentials_setcredentials.htm
-old-project: ad
+tech.root: ad
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: 
+req.dll: Objsel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDsObjectPickerCredentials.SetCredentials
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Objsel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDsObjectPickerCredentials::SetCredentials

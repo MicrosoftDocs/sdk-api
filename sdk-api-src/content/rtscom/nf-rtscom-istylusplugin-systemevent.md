@@ -4,17 +4,16 @@ title: IStylusPlugin::SystemEvent
 author: windows-sdk-content
 description: Notifies the implementing plug-in that a system event is available.
 old-location: tablet\istylusplugin_systemevent.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.SystemEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::SystemEvent

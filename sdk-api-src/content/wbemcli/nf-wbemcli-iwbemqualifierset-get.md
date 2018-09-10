@@ -4,17 +4,16 @@ title: IWbemQualifierSet::Get
 author: windows-sdk-content
 description: The IWbemQualifierSet::Get method gets the specified named qualifier, if found.
 old-location: wmi\iwbemqualifierset_get.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWbemQualifierSet.Get
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemQualifierSet::Get

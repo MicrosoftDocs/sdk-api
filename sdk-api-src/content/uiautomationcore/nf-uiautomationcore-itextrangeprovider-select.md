@@ -4,17 +4,16 @@ title: ITextRangeProvider::Select
 author: windows-sdk-content
 description: Selects the span of text that corresponds to this text range, and removes any previous selection.
 old-location: winauto\uiauto_ITextRangeProvider_Select.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 486a604f-cea7-48de-aca2-2e9355699845
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Select method, ITextRangeProvider.Select, ITextRangeProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRangeProvider.Select
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRangeProvider::Select

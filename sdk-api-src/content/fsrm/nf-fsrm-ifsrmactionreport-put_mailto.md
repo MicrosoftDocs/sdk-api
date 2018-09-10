@@ -4,17 +4,16 @@ title: IFsrmActionReport::put_MailTo
 author: windows-sdk-content
 description: Retrieves or sets the email address to which the reports are sent.
 old-location: fsrm\ifsrmactionreport_mailto.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.put_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, put_MailTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionReport.put_MailTo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionReport::put_MailTo

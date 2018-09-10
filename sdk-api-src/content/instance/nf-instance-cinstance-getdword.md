@@ -4,17 +4,16 @@ title: CInstance::GetDWORD
 author: windows-sdk-content
 description: The GetDWORD method retrieves a DWORD property.
 old-location: wmi\cinstance_getdword.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::GetDWORD

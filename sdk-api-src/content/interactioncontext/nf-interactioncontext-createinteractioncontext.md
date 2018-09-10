@@ -4,17 +4,16 @@ title: CreateInteractionContext function
 author: windows-sdk-content
 description: Creates and initializes an Interaction Context object.
 old-location: input_intcontext\createinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 90b81d1c-c1c0-442b-a534-f6e39e707230
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: CreateInteractionContext, CreateInteractionContext function, input_intcontext.createinteractioncontext, interactioncontext.createinteractioncontext, interactioncontext/CreateInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CreateInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CreateInteractionContext function

@@ -4,7 +4,7 @@ title: "_CLUSTER_SETUP_PHASE_SEVERITY"
 author: windows-sdk-content
 description: Describes the severity of the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase_severity.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_SETUP_PHASE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_SETUP_PHASE_SEVERITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_SETUP_PHASE_SEVERITY
+req.redist: 
 ---
 
 # _CLUSTER_SETUP_PHASE_SEVERITY enumeration

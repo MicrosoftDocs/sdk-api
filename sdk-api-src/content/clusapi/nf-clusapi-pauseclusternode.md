@@ -4,17 +4,16 @@ title: PauseClusterNode function
 author: windows-sdk-content
 description: Requests that a node temporarily suspend its cluster activity. The PCLUSAPI_PAUSE_CLUSTER_NODE type defines a pointer to this function.
 old-location: mscs\pauseclusternode.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 23b4ff74-f72f-4227-9b69-ff36fa6ed55b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE, PCLUSAPI_PAUSE_CLUSTER_NODE function [Failover Cluster], PauseClusterNode, PauseClusterNode function [Failover Cluster], _wolf_pauseclusternode, clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE, clusapi/PauseClusterNode, mscs.pauseclusternode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - PauseClusterNode
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PauseClusterNode function

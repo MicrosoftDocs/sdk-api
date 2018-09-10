@@ -4,17 +4,16 @@ title: IShellIcon::GetIconOf
 author: windows-sdk-content
 description: Gets an icon for an object inside a specific folder.
 old-location: shell\IShellIcon_GetIconOf.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 42ab02bf-7b94-447d-9a09-d1f4a47bef5d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 0, 1, 2, 3, 4, GIL_FORSHELL, GIL_OPENICON, GetIconOf, GetIconOf method [Windows Shell], GetIconOf method [Windows Shell],IShellIcon interface, IShellIcon interface [Windows Shell],GetIconOf method, IShellIcon.GetIconOf, IShellIcon::GetIconOf, _win32_IShellIcon_GetIconOf, shell.IShellIcon_GetIconOf, shobjidl_core/IShellIcon::GetIconOf
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellIcon.GetIconOf
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellIcon::GetIconOf
@@ -88,7 +86,7 @@ The icon should be in the open state if both open-state and closed-state images 
 
 ### -param pIconIndex
 
-
+TBD
 
 
 

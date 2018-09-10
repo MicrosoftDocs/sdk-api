@@ -4,17 +4,16 @@ title: IOleObject::SetHostNames
 author: windows-sdk-content
 description: Provides an object with the names of its container application and the compound document in which it is embedded.
 old-location: com\ioleobject_sethostnames.htm
-old-project: com
+tech.root: com
 ms.assetid: 38cccb3d-e198-4996-991b-6c56451d25e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],SetHostNames method, IOleObject.SetHostNames, IOleObject::SetHostNames, SetHostNames, SetHostNames method [COM], SetHostNames method [COM],IOleObject interface, _ole_ioleobject_sethostnames, com.ioleobject_sethostnames, oleidl/IOleObject::SetHostNames
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.SetHostNames
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::SetHostNames

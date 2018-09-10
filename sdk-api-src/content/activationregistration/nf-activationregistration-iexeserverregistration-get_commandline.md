@@ -4,17 +4,16 @@ title: IExeServerRegistration::get_CommandLine
 author: windows-sdk-content
 description: Gets the command line used to launch the out-of-process server.
 old-location: winrt\iexeserverregistration_commandline.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2A4B80B9-3590-411C-8834-6850A44AF46C
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_CommandLine method, IExeServerRegistration.get_CommandLine, IExeServerRegistration::get_CommandLine, activationregistration/IExeServerRegistration::get_CommandLine, get_CommandLine, get_CommandLine method [Windows Runtime], get_CommandLine method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_commandline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerRegistration.get_CommandLine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerRegistration::get_CommandLine

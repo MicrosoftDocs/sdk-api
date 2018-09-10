@@ -4,17 +4,16 @@ title: IInkOverlay::put_MarginY
 author: windows-sdk-content
 description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkoverlay_marginy.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4b2e4ad4-55ab-4b12-8c42-7aa0186289d9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MarginY property, IInkOverlay.MarginY, IInkOverlay.put_MarginY, IInkOverlay::MarginY, IInkOverlay::get_MarginY, IInkOverlay::put_MarginY, InkOverlay.get_MarginY, InkOverlay.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkOverlay interface, get_MarginY, msinkaut/IInkOverlay::MarginY, msinkaut/IInkOverlay::get_MarginY, msinkaut/IInkOverlay::put_MarginY, put_MarginY, tablet.inkoverlay_marginy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_MarginY
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::put_MarginY

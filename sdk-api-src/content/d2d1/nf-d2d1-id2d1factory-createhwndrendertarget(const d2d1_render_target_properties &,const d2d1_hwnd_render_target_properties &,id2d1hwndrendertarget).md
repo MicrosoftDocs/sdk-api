@@ -4,17 +4,16 @@ title: ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES 
 author: windows-sdk-content
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 old-location: direct2d\id2d1factory_createhwndrendertarget.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3b55b1b0-a423-40dc-9581-c1fbe8134ca5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), ID2D1Factory::CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget), d2d1/CreateHwndRenderTarget, direct2d.id2d1factory_createhwndrendertarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Factory::CreateHwndRenderTarget
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES &,const D2D1_HWND_RENDER_TARGET_PROPERTIES &,ID2D1HwndRenderTarget)

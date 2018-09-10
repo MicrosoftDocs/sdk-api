@@ -4,17 +4,16 @@ title: ISCPSession::BeginSession
 author: windows-sdk-content
 description: The BeginSession method indicates beginning of a transfer session. It can be used to optimize operations that need to occur only once per transfer session.
 old-location: wmdm\iscpsession_beginsession.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: da458458-5828-4ab4-8793-d59a07f46569
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],BeginSession method, ISCPSession.BeginSession, ISCPSession::BeginSession, ISCPSessionBeginSession, mswmdm/ISCPSession::BeginSession, wmdm.iscpsession_beginsession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSession.BeginSession
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSession::BeginSession

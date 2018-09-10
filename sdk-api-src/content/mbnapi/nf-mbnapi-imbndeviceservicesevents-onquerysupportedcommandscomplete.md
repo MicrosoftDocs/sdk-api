@@ -4,17 +4,16 @@ title: IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
 author: windows-sdk-content
 description: Notification method indicating that a query for the messages supported on a device service has completed.
 old-location: mbn\imbndeviceservicesevents_onquerysupportedcommandscomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: CA304FF5-B630-4CD5-8E23-844499D6A8D1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQuerySupportedCommandsComplete method, IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete, IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks], OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerysupportedcommandscomplete, mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete

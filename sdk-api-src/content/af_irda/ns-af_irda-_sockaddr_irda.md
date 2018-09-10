@@ -4,7 +4,7 @@ title: "_SOCKADDR_IRDA"
 author: windows-sdk-content
 description: The SOCKADDR_IRDA structure is used in conjunction with IrDA socket operations, defined by address family AF_IRDA.
 old-location: winsock\sockaddr_irda_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 6a5b8d70-f005-4d84-b575-22ad48564793
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: af_irda.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -26,9 +25,10 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Advpack.lib
-tech.root: 
-req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SOCKADDR_IRDA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
+req.redist: 
 ---
 
 # _SOCKADDR_IRDA structure

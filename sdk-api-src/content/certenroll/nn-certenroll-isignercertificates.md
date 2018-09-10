@@ -4,7 +4,7 @@ title: ISignerCertificates
 author: windows-sdk-content
 description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
 old-location: security\isignercertificates.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISignerCertificates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISignerCertificates interface

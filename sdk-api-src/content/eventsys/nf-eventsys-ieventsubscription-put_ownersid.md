@@ -4,17 +4,16 @@ title: IEventSubscription::put_OwnerSID
 author: windows-sdk-content
 description: The security ID of the subscription's creator.
 old-location: cos\ieventsubscription_ownersid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ab914aa3-04fc-424e-b799-c6268c014080
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventSubscription interface [COM+],OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription.put_OwnerSID, IEventSubscription::OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, put_OwnerSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventSubscription.put_OwnerSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::put_OwnerSID

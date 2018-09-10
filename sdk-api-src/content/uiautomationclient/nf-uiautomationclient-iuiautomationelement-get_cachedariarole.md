@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CachedAriaRole
 author: windows-sdk-content
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) role of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 8e3671b0-49f5-4d8b-b2ab-51a976316191
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedAriaRole property [Windows Accessibility], CachedAriaRole property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaRole property, IUIAutomationElement.CachedAriaRole, IUIAutomationElement.get_CachedAriaRole, IUIAutomationElement::CachedAriaRole, IUIAutomationElement::get_CachedAriaRole, get_CachedAriaRole, uiauto.uiauto_IUIAutomationElement_CachedAriaRole, uiauto_IUIAutomationElement_CachedAriaRole, uiautomationclient/IUIAutomationElement::CachedAriaRole, uiautomationclient/IUIAutomationElement::get_CachedAriaRole, winauto.uiauto_IUIAutomationElement_CachedAriaRole
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CachedAriaRole
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CachedAriaRole

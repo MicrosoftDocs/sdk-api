@@ -4,17 +4,16 @@ title: IADsADSystemInfo::GetDCSiteName
 author: windows-sdk-content
 description: Retrieves the name of the Active Directory site that contains the local computer.
 old-location: adsi\iadsadsysteminfo_getdcsitename.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDCSiteName, GetDCSiteName method [ADSI], GetDCSiteName method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetDCSiteName method, IADsADSystemInfo.GetDCSiteName, IADsADSystemInfo::GetDCSiteName, _ds_iadsadsysteminfo_getdcsitename, adsi.iadsadsysteminfo__getdcsitename, adsi.iadsadsysteminfo_getdcsitename, iads/IADsADSystemInfo::GetDCSiteName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsADSystemInfo.GetDCSiteName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsADSystemInfo::GetDCSiteName
@@ -67,7 +65,7 @@ DNS name of the service server.
 
 ### -param pszSiteName
 
-
+TBD
 
 
 

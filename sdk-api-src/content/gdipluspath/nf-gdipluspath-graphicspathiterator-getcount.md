@@ -4,17 +4,16 @@ title: GraphicsPathIterator::GetCount
 author: windows-sdk-content
 description: The GraphicsPathIterator::GetCount method returns the number of data points in the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetCount_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getcount.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCount, GetCount method [GDI+], GetCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetCount method, GraphicsPathIterator.GetCount, GraphicsPathIterator::GetCount, _gdiplus_CLASS_GraphicsPathIterator_GetCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetCount_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WmfPlaceableFileHeader
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GraphicsPathIterator.GetCount
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

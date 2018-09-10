@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::CSSetSamplers
 author: windows-sdk-content
 description: Set an array of sampler states to the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_cssetsamplers.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8b7f5c6d-0d9d-4b8b-a812-1e2b3b7386e9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CSSetSamplers, CSSetSamplers method [Direct3D 11], CSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetSamplers method, ID3D11DeviceContext.CSSetSamplers, ID3D11DeviceContext::CSSetSamplers, aa74392c-a8c7-cf2c-b761-f00d5b5b4fb9, d3d11/ID3D11DeviceContext::CSSetSamplers, direct3d11.id3d11devicecontext_cssetsamplers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.CSSetSamplers
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::CSSetSamplers

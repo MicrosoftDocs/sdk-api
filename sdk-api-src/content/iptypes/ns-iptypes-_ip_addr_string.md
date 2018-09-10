@@ -4,7 +4,7 @@ title: "_IP_ADDR_STRING"
 author: windows-sdk-content
 description: Represents a node in a linked-list of IPv4 addresses.
 old-location: iphlp\ip_addr_string.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 783c383d-7fd3-45bc-90f6-2e8ce01db3c3
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ipsectypes.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP_ADDR_STRING, *PIP_ADDR_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IP_ADDR_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IP_ADDR_STRING, *PIP_ADDR_STRING
+req.redist: 
 ---
 
 # _IP_ADDR_STRING structure

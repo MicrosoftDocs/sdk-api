@@ -4,7 +4,7 @@ title: MOVE_FILE_DATA
 author: windows-sdk-content
 description: Contains input data for the FSCTL_MOVE_FILE control code.
 old-location: fs\move_file_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 08bbeabc-b589-41b2-b3f2-70b2390f11f0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOVE_FILE_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
+req.redist: 
 ---
 
 # MOVE_FILE_DATA structure

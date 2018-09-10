@@ -4,17 +4,16 @@ title: IWSCProductList::get_Count
 author: windows-sdk-content
 description: Gathers the total number of all security product providers of the specified type on the computer.
 old-location: winprog\iwscproductlist_count.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: A28A6D3B-DC11-418B-987F-04711358B6EE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Count method, IWSCProductList.get_Count, IWSCProductList::get_Count, get_Count, get_Count method [Windows API], get_Count method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Count, winprog.iwscproductlist_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iwscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_SECURITY_SIGNATURE_STATUS
+req.lib: Wscapi.lib
+req.dll: Wscapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSCProductList.get_Count
 product: Windows
 targetos: Windows
-req.lib: Wscapi.lib
-req.dll: Wscapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IWSCProductList::get_Count

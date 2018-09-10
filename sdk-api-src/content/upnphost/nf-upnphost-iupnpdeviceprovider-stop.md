@@ -4,17 +4,16 @@ title: IUPnPDeviceProvider::Stop
 author: windows-sdk-content
 description: The Stop method stops the device provider.
 old-location: upnp\iupnpdeviceprovider_stop.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: c8e4cd95-a6dc-4bf9-921e-63fbac743028
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Stop method, IUPnPDeviceProvider.Stop, IUPnPDeviceProvider::Stop, Stop, Stop method [UPnP APIs], Stop method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_stop, upnp.iupnpdeviceprovider_stop, upnphost/IUPnPDeviceProvider::Stop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceProvider.Stop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceProvider::Stop

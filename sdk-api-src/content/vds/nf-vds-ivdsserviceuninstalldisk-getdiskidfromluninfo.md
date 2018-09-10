@@ -4,17 +4,16 @@ title: IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
 author: windows-sdk-content
 description: Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
 old-location: base\ivdsserviceuninstalldisk_getdiskidfromluninfo.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0059bb30-2799-4a41-8a5c-bae3aa2bcfc4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDiskIdFromLunInfo, GetDiskIdFromLunInfo method, GetDiskIdFromLunInfo method,IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,GetDiskIdFromLunInfo method, IVdsServiceUninstallDisk.GetDiskIdFromLunInfo, IVdsServiceUninstallDisk::GetDiskIdFromLunInfo, base.ivdsserviceuninstalldisk_getdiskidfromluninfo, vds/IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsServiceUninstallDisk::GetDiskIdFromLunInfo

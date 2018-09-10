@@ -4,17 +4,16 @@ title: GetThreadPreferredUILanguages function
 author: windows-sdk-content
 description: Retrieves the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
 old-location: intl\getthreadpreferreduilanguages.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 8501b8b3-c8bf-4bef-b65f-6c0f455f0c7d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetThreadPreferredUILanguages, GetThreadPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_MERGE_SYSTEM_FALLBACK, MUI_MERGE_USER_FALLBACK, MUI_THREAD_LANGUAGES, MUI_UI_FALLBACK, _win32_GetThreadPreferredUILanguages, intl.getthreadpreferreduilanguages, winnls/GetThreadPreferredUILanguages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetThreadPreferredUILanguages
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetThreadPreferredUILanguages function

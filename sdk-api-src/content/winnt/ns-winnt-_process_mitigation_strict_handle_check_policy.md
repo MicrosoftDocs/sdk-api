@@ -4,7 +4,7 @@ title: "_PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY"
 author: windows-sdk-content
 description: Used to impose new behavior on handle references that are not valid.
 old-location: base\process_mitigation_strict_handle_check_policy.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 32d97712-67fe-44f2-92d8-23855db5502d
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, *PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, *PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
+req.redist: 
 ---
 
 # _PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY structure

@@ -4,17 +4,16 @@ title: DhcpHlprAddV4PolicyRange function
 author: windows-sdk-content
 description: Adds a DHCP IPv4 range to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyrange.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 4e5b5fca-7583-43a8-8816-c1003d936233
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpHlprAddV4PolicyRange
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpHlprAddV4PolicyRange function

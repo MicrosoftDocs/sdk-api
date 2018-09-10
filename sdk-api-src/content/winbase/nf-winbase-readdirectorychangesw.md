@@ -4,17 +4,16 @@ title: ReadDirectoryChangesW function
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory.
 old-location: fs\readdirectorychangesw.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 14dfc93d-557e-43d0-be45-8414cfd92c29
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesW, ReadDirectoryChangesW function [Files], _win32_readdirectorychangesw, base.readdirectorychangesw, fs.readdirectorychangesw, winbase/ReadDirectoryChangesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - ReadDirectoryChangesW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ReadDirectoryChangesW function

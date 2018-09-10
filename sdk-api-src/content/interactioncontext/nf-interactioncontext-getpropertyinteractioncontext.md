@@ -4,17 +4,16 @@ title: GetPropertyInteractionContext function
 author: windows-sdk-content
 description: Gets Interaction Context object properties.
 old-location: input_intcontext\getpropertyinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: c54a3632-aa7a-416b-b9ed-5ad552403985
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: GetPropertyInteractionContext, GetPropertyInteractionContext function, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_OFF, INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS_ON, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_HIMETRIC, INTERACTION_CONTEXT_PROPERTY_MEASUREMENT_UNITS_SCREEN, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_OFF, INTERACTION_CONTEXT_PROPERTY_UI_FEEDBACK_ON, input_intcontext.getpropertyinteractioncontext, interactioncontext.getpropertyinteractioncontext, interactioncontext/GetPropertyInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetPropertyInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetPropertyInteractionContext function

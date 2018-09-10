@@ -4,17 +4,16 @@ title: ISystemAppEventData::OnDataChanged
 author: windows-sdk-content
 description: Generated when the configuration of a COM+ application instance is changed.
 old-location: cos\isystemappeventdata_ondatachanged.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: db30c40e-8dd8-4055-b2c4-71f9d0c2efc4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISystemAppEventData interface [COM+],OnDataChanged method, ISystemAppEventData.OnDataChanged, ISystemAppEventData::OnDataChanged, OnDataChanged, OnDataChanged method [COM+], OnDataChanged method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_OnDataChanged, comsvcs/ISystemAppEventData::OnDataChanged, cos.isystemappeventdata_ondatachanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISystemAppEventData.OnDataChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISystemAppEventData::OnDataChanged

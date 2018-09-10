@@ -4,17 +4,16 @@ title: IDigitalCableTuningSpace::get_MinSourceID
 author: windows-sdk-content
 description: The get_MinSourceID method retrieves the lowest source identifier for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minsourceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 54123d08-e01c-466e-833f-8412e06ac139
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinSourceID method, IDigitalCableTuningSpace.get_MinSourceID, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDigitalCableTuningSpace.get_MinSourceID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDigitalCableTuningSpace::get_MinSourceID

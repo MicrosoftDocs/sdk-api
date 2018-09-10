@@ -4,17 +4,16 @@ title: IDsBrowseDomainTree::FlushCachedDomains
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::FlushCachedDomains method frees the cached domain list.
 old-location: ad\idsbrowsedomaintree_flushcacheddomains.htm
-old-project: ad
+tech.root: ad
 ms.assetid: e6f4dbbb-5e2f-470a-bfc0-5bb6e96c7a6c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FlushCachedDomains, FlushCachedDomains method [Active Directory], FlushCachedDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],FlushCachedDomains method, IDsBrowseDomainTree.FlushCachedDomains, IDsBrowseDomainTree::FlushCachedDomains, _glines_idsbrowsedomaintree_flushcacheddomains, ad.idsbrowsedomaintree__flushcacheddomains, ad.idsbrowsedomaintree_flushcacheddomains, dsclient/IDsBrowseDomainTree::FlushCachedDomains
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsBrowseDomainTree.FlushCachedDomains
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsBrowseDomainTree::FlushCachedDomains

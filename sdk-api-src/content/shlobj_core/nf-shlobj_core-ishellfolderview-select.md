@@ -4,17 +4,16 @@ title: IShellFolderView::Select
 author: windows-sdk-content
 description: IShellFolderView::Select may be altered or unavailable.
 old-location: shell\IShellFolderView_Select.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 80ec6587-515f-4697-8a19-8c486bec3473
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],Select method, IShellFolderView.Select, IShellFolderView::Select, SFVS_SELECT_ALLITEMS, SFVS_SELECT_INVERT, SFVS_SELECT_NONE, Select, Select method [Windows Shell], Select method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_Select, shell.IShellFolderView_Select, shlobj_core/IShellFolderView::Select
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellFolderView.Select
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolderView::Select

@@ -4,17 +4,16 @@ title: IAzApplicationGroup::AddAppMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this application group.
 old-location: security\iazapplicationgroup_addappmember.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 35b6c928-0c11-420d-8ba7-f28b0c67f55d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzApplicationGroup object, AddAppMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppMember method, IAzApplicationGroup interface [Security],AddAppMember method, IAzApplicationGroup.AddAppMember, IAzApplicationGroup::AddAppMember, azroles/IAzApplicationGroup::AddAppMember, security.iazapplicationgroup_addappmember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplicationGroup.AddAppMember
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::AddAppMember

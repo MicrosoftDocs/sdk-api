@@ -4,17 +4,16 @@ title: IWSDAsyncResult::SetWaitHandle
 author: windows-sdk-content
 description: Specifies a wait handle to set when the operation completes.
 old-location: ncd\iwsdasyncresult_setwaithandle_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDAsyncResult.SetWaitHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDAsyncResult::SetWaitHandle

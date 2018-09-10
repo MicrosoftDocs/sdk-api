@@ -4,17 +4,16 @@ title: IMoniker::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the display name for the moniker.
 old-location: com\imoniker_getdisplayname.htm
-old-project: com
+tech.root: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::GetDisplayName

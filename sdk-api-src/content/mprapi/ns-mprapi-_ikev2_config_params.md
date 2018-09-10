@@ -4,7 +4,7 @@ title: "_IKEV2_CONFIG_PARAMS"
 author: windows-sdk-content
 description: Used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (RFC 4306).
 old-location: rras\ikev2_config_params.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: a494deb0-8f55-46cc-9ca0-a2097459de8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEV2_CONFIG_PARAMS, *PIKEV2_CONFIG_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEV2_CONFIG_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEV2_CONFIG_PARAMS, *PIKEV2_CONFIG_PARAMS
+req.redist: 
 ---
 
 # _IKEV2_CONFIG_PARAMS structure

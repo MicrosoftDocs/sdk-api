@@ -4,17 +4,16 @@ title: ImpersonateLoggedOnUser function
 author: windows-sdk-content
 description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.
 old-location: security\impersonateloggedonuser.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - ImpersonateLoggedOnUser
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ImpersonateLoggedOnUser function

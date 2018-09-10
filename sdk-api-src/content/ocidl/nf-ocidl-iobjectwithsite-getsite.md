@@ -4,17 +4,16 @@ title: IObjectWithSite::GetSite
 author: windows-sdk-content
 description: Retrieves the latest site passed using SetSite.
 old-location: com\iobjectwithsite_getsite.htm
-old-project: com
+tech.root: com
 ms.assetid: f88ef2b1-63c3-4307-a5e1-b9104c8aef29
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite interface, IObjectWithSite interface [COM],GetSite method, IObjectWithSite.GetSite, IObjectWithSite::GetSite, _ole_iobjectwithsite_getsite, com.iobjectwithsite_getsite, ocidl/IObjectWithSite::GetSite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectWithSite.GetSite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectWithSite::GetSite

@@ -4,17 +4,16 @@ title: IWICMetadataBlockWriter::AddWriter
 author: windows-sdk-content
 description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 25a0e662-a249-4218-a77e-37b11e0f8536
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],AddWriter method, IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataBlockWriter.AddWriter
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataBlockWriter::AddWriter

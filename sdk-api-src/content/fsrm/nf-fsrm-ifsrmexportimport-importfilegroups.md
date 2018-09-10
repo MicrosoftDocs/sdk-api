@@ -4,17 +4,16 @@ title: IFsrmExportImport::ImportFileGroups
 author: windows-sdk-content
 description: Imports one or more file groups from the specified file.
 old-location: fsrm\ifsrmexportimport_importfilegroups.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: d8d18971-ba3e-4e20-83ff-1290bc453b90
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportFileGroups method, IFsrmExportImport interface [File Server Resource Manager],ImportFileGroups method, IFsrmExportImport.ImportFileGroups, IFsrmExportImport::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmExportImport class, ImportFileGroups method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importfilegroups, fsrm.ifsrmexportimport_importfilegroups, fsrm/IFsrmExportImport::ImportFileGroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmExportImport.ImportFileGroups
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmExportImport::ImportFileGroups

@@ -4,17 +4,16 @@ title: IStorage::SetElementTimes
 author: windows-sdk-content
 description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
 old-location: stg\istorage_setelementtimes.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IStorage interface [Structured Storage],SetElementTimes method, IStorage.SetElementTimes, IStorage::SetElementTimes, SetElementTimes, SetElementTimes method [Structured Storage], SetElementTimes method [Structured Storage],IStorage interface, _stg_istorage_setelementtimes, objidl/IStorage::SetElementTimes, stg.istorage_setelementtimes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStorage.SetElementTimes
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStorage::SetElementTimes

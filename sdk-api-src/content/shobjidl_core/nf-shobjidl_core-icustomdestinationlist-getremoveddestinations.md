@@ -4,17 +4,16 @@ title: ICustomDestinationList::GetRemovedDestinations
 author: windows-sdk-content
 description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.
 old-location: shell\ICustomDestinationList_GetRemovedDestinations.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetRemovedDestinations, GetRemovedDestinations method [Windows Shell], GetRemovedDestinations method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],GetRemovedDestinations method, ICustomDestinationList.GetRemovedDestinations, ICustomDestinationList::GetRemovedDestinations, _shell_ICustomDestinationList_GetRemovedDestinations, shell.ICustomDestinationList_GetRemovedDestinations, shobjidl_core/ICustomDestinationList::GetRemovedDestinations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICustomDestinationList.GetRemovedDestinations
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.1 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ICustomDestinationList::GetRemovedDestinations

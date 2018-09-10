@@ -4,17 +4,16 @@ title: IMFTimedTextTrack::SetLabel
 author: windows-sdk-content
 description: Sets the label of a timed-text track.
 old-location: mf\imftimedtexttrack_setlabel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],SetLabel method, IMFTimedTextTrack.SetLabel, IMFTimedTextTrack::SetLabel, SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextTrack.SetLabel
 product: Windows
 targetos: Windows
-req.lib: Mfmediaengine.lib
-req.dll: Mfmediaengine.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextTrack::SetLabel

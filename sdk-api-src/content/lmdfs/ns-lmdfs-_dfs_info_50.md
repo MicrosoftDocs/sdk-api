@@ -4,7 +4,7 @@ title: "_DFS_INFO_50"
 author: windows-sdk-content
 description: Contains the DFS metadata version and capabilities of an existing DFS namespace.
 old-location: dfs\dfs_info_50.htm
-old-project: dfs
+tech.root: dfs
 ms.assetid: 1af2866c-fe83-43fc-b4cc-9976157fb269
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DFS_INFO_50, *PDFS_INFO_50, *LPDFS_INFO_50
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DFS_INFO_50
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: DFS_INFO_50, *PDFS_INFO_50, *LPDFS_INFO_50
+req.redist: 
 ---
 
 # _DFS_INFO_50 structure

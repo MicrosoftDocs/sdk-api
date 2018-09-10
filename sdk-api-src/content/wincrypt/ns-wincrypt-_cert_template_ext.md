@@ -4,7 +4,7 @@ title: "_CERT_TEMPLATE_EXT"
 author: windows-sdk-content
 description: A certificate template.
 old-location: security\cert_template_ext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 23cec38e-0d70-47bb-a2a4-6bbd3f4b018e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_TEMPLATE_EXT, *PCERT_TEMPLATE_EXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_TEMPLATE_EXT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_TEMPLATE_EXT, *PCERT_TEMPLATE_EXT
+req.redist: 
 ---
 
 # _CERT_TEMPLATE_EXT structure

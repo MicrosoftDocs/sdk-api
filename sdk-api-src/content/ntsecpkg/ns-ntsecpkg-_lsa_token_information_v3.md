@@ -4,7 +4,7 @@ title: "_LSA_TOKEN_INFORMATION_V3"
 author: windows-sdk-content
 description: Adds claim support to the LSA token and contains information an authentication package can place in a Version 3 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v3.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 927828CD-9763-4CE4-B3E7-376181EA7C70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TOKEN_INFORMATION_V3, *PLSA_TOKEN_INFORMATION_V3
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TOKEN_INFORMATION_V3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_TOKEN_INFORMATION_V3, *PLSA_TOKEN_INFORMATION_V3
+req.redist: 
 ---
 
 # _LSA_TOKEN_INFORMATION_V3 structure

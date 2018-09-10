@@ -4,17 +4,16 @@ title: ldap_close_extended_op function
 author: windows-sdk-content
 description: The ldap_close_extended_op function ends a request that was made by calling ldap_extended_operation.
 old-location: ldap\ldap_close_extended_op.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 829ffb8f-150b-438a-bcbd-42f2e9c01479
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_close_extended_op, ldap.ldap__close__extended__op, ldap.ldap_close_extended_op, ldap_close_extended_op, ldap_close_extended_op function [LDAP], winldap/ldap_close_extended_op"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_close_extended_op
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_close_extended_op function

@@ -4,17 +4,16 @@ title: IComCRMEvents::OnCRMWrite
 author: windows-sdk-content
 description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
 old-location: cos\icomcrmevents_oncrmwrite.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 095452e3-a38d-4602-a925-8fa6445ddbc8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMWrite method, IComCRMEvents.OnCRMWrite, IComCRMEvents::OnCRMWrite, OnCRMWrite, OnCRMWrite method [COM+], OnCRMWrite method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMWrite, comsvcs/IComCRMEvents::OnCRMWrite, cos.icomcrmevents_oncrmwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComCRMEvents.OnCRMWrite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComCRMEvents::OnCRMWrite

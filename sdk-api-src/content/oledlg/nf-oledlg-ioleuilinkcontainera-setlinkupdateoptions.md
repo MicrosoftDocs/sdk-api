@@ -4,17 +4,16 @@ title: IOleUILinkContainerA::SetLinkUpdateOptions
 author: windows-sdk-content
 description: Sets a link's update options to automatic or manual.
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm
-old-project: com
+tech.root: com
 ms.assetid: d2a7758d-9692-4e3c-8186-b74530299a6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkUpdateOptions method, IOleUILinkContainer::SetLinkUpdateOptions, IOleUILinkContainerA interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerA.SetLinkUpdateOptions, IOleUILinkContainerA::SetLinkUpdateOptions, IOleUILinkContainerW interface [COM],SetLinkUpdateOptions method, IOleUILinkContainerW::SetLinkUpdateOptions, SetLinkUpdateOptions, SetLinkUpdateOptions method [COM], SetLinkUpdateOptions method [COM],IOleUILinkContainer interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, SetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_SetLinkUpdateOptions, com.ioleuilinkcontainer_setlinkupdateoptions, oledlg/IOleUILinkContainer::SetLinkUpdateOptions, oledlg/IOleUILinkContainerA::SetLinkUpdateOptions, oledlg/IOleUILinkContainerW::SetLinkUpdateOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUILinkContainerW.SetLinkUpdateOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUILinkContainerA::SetLinkUpdateOptions

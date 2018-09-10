@@ -4,17 +4,16 @@ title: WlxNegotiate function
 author: windows-sdk-content
 description: The WlxNegotiate function must be implemented by a replacement GINA DLL. This is the first call made by Winlogon to the GINA DLL. WlxNegotiate allows the GINA to verify that it supports the installed version of Winlogon.
 old-location: security\wlxnegotiate.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9e7bab30-5cc6-4c55-82e4-d888e1af59ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WlxNegotiate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WlxNegotiate function

@@ -4,7 +4,7 @@ title: "_SCHANNEL_CRED"
 author: windows-sdk-content
 description: Contains the data for an Schannel credential.
 old-location: security\schannel_cred.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 8398e029-473e-488f-a861-c7ceae07e678
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: Schnlsp.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_CRED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
+req.redist: 
 ---
 
 # _SCHANNEL_CRED structure

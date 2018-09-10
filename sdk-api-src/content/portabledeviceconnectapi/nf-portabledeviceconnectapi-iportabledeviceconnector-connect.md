@@ -4,17 +4,16 @@ title: IPortableDeviceConnector::Connect
 author: windows-sdk-content
 description: Sends an asynchronous connection request to the MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_connect.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 2bb5b124-3018-4619-bb8f-67fcfc8981d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Connect, Connect method [Windows Portable Devices SDK], Connect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Connect method, IPortableDeviceConnector.Connect, IPortableDeviceConnector::Connect, devpkey/IPortableDeviceConnector::Connect, portabledeviceconnectapi/IPortableDeviceConnector::Connect, wpdsdk.iportabledeviceconnector_connect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGuids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceConnector.Connect
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGuids.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceConnector::Connect

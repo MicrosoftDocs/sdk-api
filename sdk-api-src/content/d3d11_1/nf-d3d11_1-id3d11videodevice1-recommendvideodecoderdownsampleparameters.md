@@ -4,17 +4,16 @@ title: ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters
 author: windows-sdk-content
 description: Allows the driver to recommend optimal output downsample parameters from the input parameters.
 old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters

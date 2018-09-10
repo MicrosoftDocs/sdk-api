@@ -4,17 +4,16 @@ title: IMFSampleGrabberSinkCallback::OnProcessSample
 author: windows-sdk-content
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback interface [Media Foundation],OnProcessSample method, IMFSampleGrabberSinkCallback.OnProcessSample, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation],IMFSampleGrabberSinkCallback interface, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSampleGrabberSinkCallback.OnProcessSample
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSampleGrabberSinkCallback::OnProcessSample

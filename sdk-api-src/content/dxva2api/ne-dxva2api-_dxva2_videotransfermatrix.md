@@ -4,7 +4,7 @@ title: "_DXVA2_VideoTransferMatrix"
 author: windows-sdk-content
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 old-location: mf\dxva2_videotransfermatrix.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 682fa0c7-8f17-457f-9f8a-dc9190866152
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_VideoTransferMatrix
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVA2_VideoTransferMatrix
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVA2_VideoTransferMatrix
+req.redist: 
 ---
 
 # _DXVA2_VideoTransferMatrix enumeration

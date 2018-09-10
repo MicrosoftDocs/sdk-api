@@ -4,7 +4,7 @@ title: SIP_ADD_NEWPROVIDER_
 author: windows-sdk-content
 description: Defines a subject interface package (SIP). This structure is used by the CryptSIPAddProvider function.
 old-location: security\sip_add_newprovider.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIP_ADD_NEWPROVIDER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
+req.redist: 
 ---
 
 # SIP_ADD_NEWPROVIDER_ structure

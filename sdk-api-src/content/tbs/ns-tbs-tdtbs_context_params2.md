@@ -4,7 +4,7 @@ title: tdTBS_CONTEXT_PARAMS2
 author: windows-sdk-content
 description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.
 old-location: tbs\tbs_context_params2.htm
-old-project: TBS
+tech.root: TBS
 ms.assetid: B113B422-A66E-4498-99DA-65D4ED0B84B1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TBS_CONTEXT_PARAMS2, *PTBS_CONTEXT_PARAMS2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TBS_CONTEXT_PARAMS2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TBS_CONTEXT_PARAMS2, *PTBS_CONTEXT_PARAMS2
+req.redist: 
 ---
 
 # tdTBS_CONTEXT_PARAMS2 structure

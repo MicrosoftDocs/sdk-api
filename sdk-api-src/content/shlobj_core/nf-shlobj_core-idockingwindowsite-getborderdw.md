@@ -4,17 +4,16 @@ title: IDockingWindowSite::GetBorderDW
 author: windows-sdk-content
 description: Gets the border space allocated for the specified IDockingWindow object.
 old-location: shell\IDockingWindowSite_GetBorderDW.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b1c30a49-8d87-4855-acc0-5f33eabe5e8a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBorderDW, GetBorderDW method [Windows Shell], GetBorderDW method [Windows Shell],IDockingWindowSite interface, IDockingWindowSite interface [Windows Shell],GetBorderDW method, IDockingWindowSite.GetBorderDW, IDockingWindowSite::GetBorderDW, _win32_IDockingWindowSite_GetBorderDW, shell.IDockingWindowSite_GetBorderDW, shlobj_core/IDockingWindowSite::GetBorderDW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDockingWindowSite.GetBorderDW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDockingWindowSite::GetBorderDW

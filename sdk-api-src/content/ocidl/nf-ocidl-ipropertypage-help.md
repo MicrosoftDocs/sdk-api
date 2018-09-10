@@ -4,17 +4,16 @@ title: IPropertyPage::Help
 author: windows-sdk-content
 description: Invokes the property page help in response to an end-user request.
 old-location: com\ipropertypage_help.htm
-old-project: com
+tech.root: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.Help
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::Help

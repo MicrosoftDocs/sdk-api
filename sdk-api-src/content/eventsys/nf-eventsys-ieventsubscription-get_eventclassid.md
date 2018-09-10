@@ -4,17 +4,16 @@ title: IEventSubscription::get_EventClassID
 author: windows-sdk-content
 description: The unique ID of the event class associated with the subscription.
 old-location: cos\ieventsubscription_eventclassid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: cba78857-0b59-4012-84d6-f5e7ae28b8bd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],EventClassID property, IEventSubscription.EventClassID, IEventSubscription.get_EventClassID, IEventSubscription::EventClassID, IEventSubscription::get_EventClassID, IEventSubscription::put_EventClassID, cos.ieventsubscription_eventclassid, eventsys/IEventSubscription::EventClassID, eventsys/IEventSubscription::get_EventClassID, eventsys/IEventSubscription::put_EventClassID, get_EventClassID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventSubscription.put_EventClassID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventSubscription::get_EventClassID

@@ -4,7 +4,7 @@ title: "_USER_INFO_22"
 author: windows-sdk-content
 description: The USER_INFO_22 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, a one-way encrypted LAN Manager 2.x-compatible password, and other user-related network statistics.
 old-location: netmgmt\user_info_22_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: ff8d2088-953b-4a8a-bdcb-86148dc66a7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_22, *PUSER_INFO_22, *LPUSER_INFO_22
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_22
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_22, *PUSER_INFO_22, *LPUSER_INFO_22
+req.redist: 
 ---
 
 # _USER_INFO_22 structure

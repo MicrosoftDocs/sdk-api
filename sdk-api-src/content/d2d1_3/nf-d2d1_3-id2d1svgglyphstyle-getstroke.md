@@ -4,17 +4,16 @@ title: ID2D1SvgGlyphStyle::GetStroke
 author: windows-sdk-content
 description: Returns the requested stroke parameters.
 old-location: direct2d\id2d1svgglyphstyle_getstroke.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 5EC78516-E0E2-4758-9C36-47F951D1BCAE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetStroke, GetStroke method [Direct2D], GetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, ID2D1SvgGlyphStyle interface [Direct2D],GetStroke method, ID2D1SvgGlyphStyle.GetStroke, ID2D1SvgGlyphStyle::GetStroke, d2d1_3/ID2D1SvgGlyphStyle::GetStroke, direct2d.id2d1svgglyphstyle_getstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgGlyphStyle.GetStroke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgGlyphStyle::GetStroke

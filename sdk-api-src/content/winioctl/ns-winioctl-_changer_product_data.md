@@ -4,7 +4,7 @@ title: "_CHANGER_PRODUCT_DATA"
 author: windows-sdk-content
 description: Represents product data for a changer device. It is used by the IOCTL_CHANGER_GET_PRODUCT_DATA control code.
 old-location: base\changer_product_data_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: b6756994-2c6f-4797-8fad-823d63632372
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CHANGER_PRODUCT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
+req.redist: 
 ---
 
 # _CHANGER_PRODUCT_DATA structure

@@ -4,17 +4,16 @@ title: IMFInputTrustAuthority::BindAccess
 author: windows-sdk-content
 description: Notifies the input trust authority (ITA) that a requested action is about to be performed.
 old-location: mf\imfinputtrustauthority_bindaccess.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess, BindAccess method [Media Foundation], BindAccess method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],BindAccess method, IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFInputTrustAuthority.BindAccess
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFInputTrustAuthority::BindAccess

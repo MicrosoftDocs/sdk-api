@@ -4,17 +4,16 @@ title: ICrmFormatLogRecords::GetColumnCount
 author: windows-sdk-content
 description: Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
 old-location: cos\icrmformatlogrecords_getcolumncount.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetColumnCount, GetColumnCount method [COM+], GetColumnCount method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnCount method, ICrmFormatLogRecords.GetColumnCount, ICrmFormatLogRecords::GetColumnCount, _dtc_ICrmFormatLogRecords_GetColumnCount, comsvcs/ICrmFormatLogRecords::GetColumnCount, cos.icrmformatlogrecords_getcolumncount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmFormatLogRecords.GetColumnCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmFormatLogRecords::GetColumnCount

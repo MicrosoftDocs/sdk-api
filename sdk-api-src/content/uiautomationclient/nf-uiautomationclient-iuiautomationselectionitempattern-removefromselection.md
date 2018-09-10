@@ -4,17 +4,16 @@ title: IUIAutomationSelectionItemPattern::RemoveFromSelection
 author: windows-sdk-content
 description: Removes this element from the selection.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 25f9a8da-4bc9-496e-888c-a270a2bf8fb3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationSelectionItemPattern interface [Windows Accessibility],RemoveFromSelection method, IUIAutomationSelectionItemPattern.RemoveFromSelection, IUIAutomationSelectionItemPattern::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, uiauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection, uiautomationclient/IUIAutomationSelectionItemPattern::RemoveFromSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationSelectionItemPattern.RemoveFromSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationSelectionItemPattern::RemoveFromSelection

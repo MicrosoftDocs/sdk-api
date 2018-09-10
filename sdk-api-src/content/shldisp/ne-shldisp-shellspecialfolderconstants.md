@@ -4,7 +4,7 @@ title: ShellSpecialFolderConstants
 author: windows-sdk-content
 description: Specifies unique, system-independent values that identify special folders.
 old-location: shell\ShellSpecialFolderConstants.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 35338102-f3a9-4bcf-ad62-d395462e6d2c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellSpecialFolderConstants
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ShellSpecialFolderConstants
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ShellSpecialFolderConstants
+req.redist: 
 ---
 
 # ShellSpecialFolderConstants enumeration

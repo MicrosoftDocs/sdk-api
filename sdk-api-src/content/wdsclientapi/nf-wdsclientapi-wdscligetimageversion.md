@@ -4,17 +4,16 @@ title: WdsCliGetImageVersion function
 author: windows-sdk-content
 description: Returns the version of the current image.
 old-location: wds\wdscligetimageversion.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliGetImageVersion
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliGetImageVersion function

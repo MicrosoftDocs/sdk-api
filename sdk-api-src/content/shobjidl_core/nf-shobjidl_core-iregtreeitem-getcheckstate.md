@@ -4,17 +4,16 @@ title: IRegTreeItem::GetCheckState
 author: windows-sdk-content
 description: Gets the state of a check box item in a tree-view control.
 old-location: shell\IRegTreeItem_GetCheckState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bfeff83e-8872-4df2-a519-1335be6e443c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FALSE, GetCheckState, GetCheckState method [Windows Shell], GetCheckState method [Windows Shell],IRegTreeItem interface, IRegTreeItem interface [Windows Shell],GetCheckState method, IRegTreeItem.GetCheckState, IRegTreeItem::GetCheckState, TRUE, _win32_IRegTreeItem_GetCheckState, shell.IRegTreeItem_GetCheckState, shobjidl_core/IRegTreeItem::GetCheckState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRegTreeItem.GetCheckState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IRegTreeItem::GetCheckState

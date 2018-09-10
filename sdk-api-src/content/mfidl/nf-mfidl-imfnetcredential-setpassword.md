@@ -4,17 +4,16 @@ title: IMFNetCredential::SetPassword
 author: windows-sdk-content
 description: Sets the password.
 old-location: mf\imfnetcredential_setpassword.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7de58b57-83fe-4c3a-9029-e9be556c84c9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 7de58b57-83fe-4c3a-9029-e9be556c84c9, IMFNetCredential interface [Media Foundation],SetPassword method, IMFNetCredential.SetPassword, IMFNetCredential::SetPassword, SetPassword, SetPassword method [Media Foundation], SetPassword method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setpassword, mfidl/IMFNetCredential::SetPassword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFNetCredential.SetPassword
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFNetCredential::SetPassword

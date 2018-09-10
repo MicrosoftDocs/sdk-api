@@ -4,7 +4,7 @@ title: "_MFPinholeCameraIntrinsics"
 author: windows-sdk-content
 description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
 old-location: mf\mfpinholecameraintrinsics.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFPinholeCameraIntrinsics
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPinholeCameraIntrinsics
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFPinholeCameraIntrinsics
+req.redist: 
 ---
 
 # _MFPinholeCameraIntrinsics structure

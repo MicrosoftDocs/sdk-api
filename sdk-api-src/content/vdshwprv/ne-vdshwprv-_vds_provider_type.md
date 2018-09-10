@@ -4,7 +4,7 @@ title: "_VDS_PROVIDER_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a provider.
 old-location: base\vds_provider_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a794e054-1389-4b54-9ad3-eb32b9dd0a5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PROVIDER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PROVIDER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PROVIDER_TYPE
+req.redist: 
 ---
 
 # _VDS_PROVIDER_TYPE enumeration

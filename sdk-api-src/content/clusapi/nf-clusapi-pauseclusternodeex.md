@@ -4,17 +4,16 @@ title: PauseClusterNodeEx function
 author: windows-sdk-content
 description: Requests that a node temporarily suspends its cluster activity.
 old-location: mscs\pauseclusternodeex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster], PauseClusterNodeEx, PauseClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, clusapi/PauseClusterNodeEx, mscs.pauseclusternodeex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - PauseClusterNodeEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # PauseClusterNodeEx function

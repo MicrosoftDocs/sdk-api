@@ -4,7 +4,7 @@ title: "_VDS_STORAGE_POOL_DRIVE_EXTENT"
 author: windows-sdk-content
 description: Defines a drive extent that could be used by a storage pool.
 old-location: base\vds_storage_pool_drive_extent.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: e8b4a4c7-04d5-48b5-ba44-bb99cbf9fc60
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_POOL_DRIVE_EXTENT, *PVDS_STORAGE_POOL_DRIVE_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_STORAGE_POOL_DRIVE_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_POOL_DRIVE_EXTENT, *PVDS_STORAGE_POOL_DRIVE_EXTENT
+req.redist: 
 ---
 
 # _VDS_STORAGE_POOL_DRIVE_EXTENT structure

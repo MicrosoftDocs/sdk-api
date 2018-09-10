@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentLabeledBy
 author: windows-sdk-content
 description: Retrieves the element that contains the text label for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLabeledBy.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: e461cc68-5a67-424b-9fc6-0768b9e13346
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentLabeledBy property [Windows Accessibility], CurrentLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLabeledBy property, IUIAutomationElement.CurrentLabeledBy, IUIAutomationElement.get_CurrentLabeledBy, IUIAutomationElement::CurrentLabeledBy, IUIAutomationElement::get_CurrentLabeledBy, get_CurrentLabeledBy, uiauto.uiauto_IUIAutomationElement_CurrentLabeledBy, uiauto_IUIAutomationElement_CurrentLabeledBy, uiautomationclient/IUIAutomationElement::CurrentLabeledBy, uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy, winauto.uiauto_IUIAutomationElement_CurrentLabeledBy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentLabeledBy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentLabeledBy

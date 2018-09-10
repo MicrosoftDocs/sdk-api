@@ -4,17 +4,16 @@ title: IViewObjectEx::GetNaturalExtent
 author: windows-sdk-content
 description: Provides sizing hints from the container for the object to use as the user resizes it.
 old-location: com\iviewobjectex_getnaturalextent.htm
-old-project: com
+tech.root: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent, GetNaturalExtent method [COM], GetNaturalExtent method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetNaturalExtent method, IViewObjectEx.GetNaturalExtent, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObjectEx.GetNaturalExtent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObjectEx::GetNaturalExtent

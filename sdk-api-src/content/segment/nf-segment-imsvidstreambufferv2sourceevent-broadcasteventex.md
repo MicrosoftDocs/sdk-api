@@ -4,17 +4,16 @@ title: IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
 author: windows-sdk-content
 description: Fired when an SBE2 source filter receives any event fired by a call to IBroadcastEventEx::FireEx.
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcasteventex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 731baecc-72f9-4ecd-bc01-40ad31c67051
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferV2SourceEvent.BroadcastEventEx, IMSVidStreamBufferV2SourceEvent::BroadcastEventEx, mstv.imsvidstreambufferv2sourceevent_broadcasteventex, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEventEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidStreamBufferV2SourceEvent.BroadcastEventEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidStreamBufferV2SourceEvent::BroadcastEventEx

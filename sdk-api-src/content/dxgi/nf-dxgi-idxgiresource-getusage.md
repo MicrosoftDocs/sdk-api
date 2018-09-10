@@ -4,17 +4,16 @@ title: IDXGIResource::GetUsage
 author: windows-sdk-content
 description: Get the expected resource usage.
 old-location: direct3ddxgi\idxgiresource_getusage.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getusage.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 1fc82eef-f409-1d78-ab65-dd0124809d16, GetUsage, GetUsage method [DXGI], GetUsage method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetUsage method, IDXGIResource.GetUsage, IDXGIResource::GetUsage, direct3ddxgi.idxgiresource_getusage, dxgi/IDXGIResource::GetUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIResource.GetUsage
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIResource::GetUsage

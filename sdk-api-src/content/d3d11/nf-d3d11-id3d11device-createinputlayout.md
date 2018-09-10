@@ -4,17 +4,16 @@ title: ID3D11Device::CreateInputLayout
 author: windows-sdk-content
 description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
 old-location: direct3d11\id3d11device_createinputlayout.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: fe233b7b-3729-428a-8611-e98ea4c5af35
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 7e1008d3-1c16-4b6f-6b61-949b59c5f6d2, CreateInputLayout, CreateInputLayout method [Direct3D 11], CreateInputLayout method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateInputLayout method, ID3D11Device.CreateInputLayout, ID3D11Device::CreateInputLayout, d3d11/ID3D11Device::CreateInputLayout, direct3d11.id3d11device_createinputlayout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.CreateInputLayout
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::CreateInputLayout

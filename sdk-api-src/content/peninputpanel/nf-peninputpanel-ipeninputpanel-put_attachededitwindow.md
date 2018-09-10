@@ -4,17 +4,16 @@ title: IPenInputPanel::put_AttachedEditWindow
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to.
 old-location: tablet\peninputpanel_attachededitwindow.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AttachedEditWindow property, IPenInputPanel.AttachedEditWindow, IPenInputPanel.put_AttachedEditWindow, IPenInputPanel::AttachedEditWindow, IPenInputPanel::get_AttachedEditWindow, IPenInputPanel::put_AttachedEditWindow, PenInputPanel.get_AttachedEditWindow, PenInputPanel.put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/IPenInputPanel::AttachedEditWindow, peninputpanel/IPenInputPanel::get_AttachedEditWindow, peninputpanel/IPenInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.peninputpanel_attachededitwindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - PenInputPanel.put_AttachedEditWindow
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::put_AttachedEditWindow

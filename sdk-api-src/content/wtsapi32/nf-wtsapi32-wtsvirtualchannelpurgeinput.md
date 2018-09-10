@@ -4,17 +4,16 @@ title: WTSVirtualChannelPurgeInput function
 author: windows-sdk-content
 description: Deletes all queued input data sent from the client to the server on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeinput.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: ec8ee90d-0871-466c-8da3-04813319216a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSVirtualChannelPurgeInput, WTSVirtualChannelPurgeInput function [Remote Desktop Services], _win32_wtsvirtualchannelpurgeinput, termserv.wtsvirtualchannelpurgeinput, wtsapi32/WTSVirtualChannelPurgeInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSVirtualChannelPurgeInput
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSVirtualChannelPurgeInput function

@@ -4,17 +4,16 @@ title: IAMNetShowPreroll::get_Preroll
 author: windows-sdk-content
 description: The get_Preroll method queries whether the filter is currently prerolling.
 old-location: dshow\iamnetshowpreroll_get_preroll.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetShowPreroll.get_Preroll
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetShowPreroll::get_Preroll

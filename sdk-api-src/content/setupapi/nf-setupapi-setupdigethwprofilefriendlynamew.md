@@ -4,17 +4,16 @@ title: SetupDiGetHwProfileFriendlyNameW function
 author: windows-sdk-content
 description: The SetupDiGetHwProfileFriendlyName function retrieves the friendly name associated with a hardware profile ID.
 old-location: devinst\setupdigethwprofilefriendlyname.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 92f08c8a-b31a-4f88-8ff5-c60d985b79bf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetHwProfileFriendlyName, SetupDiGetHwProfileFriendlyName function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameA, SetupDiGetHwProfileFriendlyNameW, devinst.setupdigethwprofilefriendlyname, di-rtns_3a055603-6e43-449a-bfd0-fbd7434bebfe.xml, setupapi/SetupDiGetHwProfileFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetHwProfileFriendlyName
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetHwProfileFriendlyNameW function

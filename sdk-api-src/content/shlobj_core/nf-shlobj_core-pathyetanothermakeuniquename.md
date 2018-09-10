@@ -4,17 +4,16 @@ title: PathYetAnotherMakeUniqueName function
 author: windows-sdk-content
 description: Creates a unique filename based on an existing filename.
 old-location: shell\PathYetAnotherMakeUniqueName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathYetAnotherMakeUniqueName, PathYetAnotherMakeUniqueName function [Windows Shell], _win32_PathYetAnotherMakeUniqueName, shell.PathYetAnotherMakeUniqueName, shlobj_core/PathYetAnotherMakeUniqueName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathYetAnotherMakeUniqueName
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PathYetAnotherMakeUniqueName function

@@ -4,7 +4,7 @@ title: "_KEYBOARD_ATTRIBUTES"
 author: windows-sdk-content
 description: KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
 old-location: hid\keyboard_attributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KEYBOARD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
+req.redist: 
 ---
 
 # _KEYBOARD_ATTRIBUTES structure

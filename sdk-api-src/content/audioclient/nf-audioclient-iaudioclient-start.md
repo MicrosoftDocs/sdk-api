@@ -4,17 +4,16 @@ title: IAudioClient::Start
 author: windows-sdk-content
 description: The Start method starts the audio stream.
 old-location: coreaudio\iaudioclient_start.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioClient.Start
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioClient::Start

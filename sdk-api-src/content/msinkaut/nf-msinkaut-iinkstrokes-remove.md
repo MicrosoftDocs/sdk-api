@@ -4,17 +4,16 @@ title: IInkStrokes::Remove
 author: windows-sdk-content
 description: Removes an IInkStrokeDisp object from a InkStrokes collection.
 old-location: tablet\inkstrokes_remove.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Remove method, IInkStrokes.Remove, IInkStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkStrokes interface, ce7a7842-c7c8-4f73-8f68-05b22c2199de, msinkaut/IInkStrokes::Remove, tablet.inkstrokes_remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokes.Remove
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::Remove
@@ -66,7 +64,7 @@ Removes an <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bc
 
 ### -param InkStroke
 
-
+TBD
 
 
 

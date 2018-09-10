@@ -4,17 +4,16 @@ title: ITextHost::TxSetCursor
 author: windows-sdk-content
 description: Establishes a new cursor shape (I-beam) in the text host's window.
 old-location: controls\ITextHost_TxSetCursor.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetcursor.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCursor method, ITextHost.TxSetCursor, ITextHost::TxSetCursor, TxSetCursor, TxSetCursor method [Windows Controls], TxSetCursor method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCursor, _win32_ITextHost_TxSetCursor_cpp, controls.ITextHost_TxSetCursor, controls._win32_ITextHost_TxSetCursor, textserv/ITextHost::TxSetCursor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxSetCursor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxSetCursor

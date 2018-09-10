@@ -4,17 +4,16 @@ title: IOfflineFilesCache::Pin
 author: windows-sdk-content
 description: Pins files, directories, and network shared folders.
 old-location: of\iofflinefilescache_pin.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 6005d755-5e1b-4eba-95a2-b6c9c00b1a64
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Pin method, IOfflineFilesCache.Pin, IOfflineFilesCache::Pin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Pin, Pin method [Offline Files], Pin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Pin, of.iofflinefilescache_pin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache.Pin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache::Pin

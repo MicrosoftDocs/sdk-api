@@ -4,7 +4,7 @@ title: D3D11_VIDEO_DECODER_BUFFER_DESC1
 author: windows-sdk-content
 description: Describes a compressed buffer for decoding.
 old-location: mf\d3d11_video_decoder_buffer_desc1.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B35E4E27-6D69-49D4-908E-6EBF6DF5689A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_DECODER_BUFFER_DESC1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_DECODER_BUFFER_DESC1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_DECODER_BUFFER_DESC1
+req.redist: 
 ---
 
 # D3D11_VIDEO_DECODER_BUFFER_DESC1 structure

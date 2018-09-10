@@ -4,17 +4,16 @@ title: ScriptItemizeOpenType function
 author: windows-sdk-content
 description: Breaks a Unicode string into individually shapeable items and provides an array of feature tags for each shapeable item for OpenType processing.
 old-location: intl\scriptitemizeopentype.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_JUSTIFY
+req.lib: Usp10.lib
+req.dll: Usp10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ScriptItemizeOpenType
 product: Windows
 targetos: Windows
-req.lib: Usp10.lib
-req.dll: Usp10.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ---
 
 # ScriptItemizeOpenType function

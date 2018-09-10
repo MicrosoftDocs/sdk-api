@@ -4,17 +4,16 @@ title: IEnroll2::SetHStoreCA
 author: windows-sdk-content
 description: The SetHStoreCA method specifies the handle to use for the CA store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreca.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d70fa8c0-7cdf-4023-9700-68f24d9116af
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreCA method, IEnroll2.SetHStoreCA, IEnroll2::SetHStoreCA, SetHStoreCA, SetHStoreCA method [Security], SetHStoreCA method [Security],IEnroll2 interface, security.ienroll4_sethstoreca, xenroll/IEnroll2::SetHStoreCA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll2.SetHStoreCA
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll2::SetHStoreCA

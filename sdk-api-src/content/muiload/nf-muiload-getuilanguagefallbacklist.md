@@ -4,17 +4,16 @@ title: GetUILanguageFallbackList function
 author: windows-sdk-content
 description: Gets a fallback list of UI languages represented as language names.
 old-location: intl\getuilanguagefallbacklist.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: muiload.h
 req.include-header: 
-req.redist: Muiload.lib, included in the Windows SDK for Windows 7 on Windows 2000 Professional, Windows Me/98/95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
+req.lib: Muiload.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetUILanguageFallbackList
 product: Windows
 targetos: Windows
-req.lib: Muiload.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: Muiload.lib, included in the Windows SDK for Windows 7 on Windows 2000 Professional, Windows Me/98/95
 ---
 
 # GetUILanguageFallbackList function

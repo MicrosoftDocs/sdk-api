@@ -4,17 +4,16 @@ title: ICredentialProviderCredential::GetBitmapValue
 author: windows-sdk-content
 description: Enables retrieval of bitmap data from a credential with a bitmap field.
 old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredential.GetBitmapValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredential::GetBitmapValue

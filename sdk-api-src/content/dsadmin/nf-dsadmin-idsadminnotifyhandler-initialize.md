@@ -4,17 +4,16 @@ title: IDsAdminNotifyHandler::Initialize
 author: windows-sdk-content
 description: Called to initialize the notification handler.
 old-location: ad\idsadminnotifyhandler_initialize.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7fcd49d3-ccdb-4d55-96ea-cc925a36c366
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Initialize method, IDsAdminNotifyHandler.Initialize, IDsAdminNotifyHandler::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNotifyHandler interface, ad.idsadminnotifyhandler_initialize, dsadmin/IDsAdminNotifyHandler::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNotifyHandler.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNotifyHandler::Initialize

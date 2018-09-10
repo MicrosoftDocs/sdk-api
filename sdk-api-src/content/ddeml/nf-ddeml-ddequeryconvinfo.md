@@ -4,17 +4,16 @@ title: DdeQueryConvInfo function
 author: windows-sdk-content
 description: Retrieves information about a Dynamic Data Exchange (DDE) transaction and about the conversation in which the transaction takes place.
 old-location: dataxchg\ddequeryconvinfo.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequeryconvinfo.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DdeQueryConvInfo, DdeQueryConvInfo function [Data Exchange], _win32_DdeQueryConvInfo, _win32_ddequeryconvinfo_cpp, dataxchg.ddequeryconvinfo, ddeml/DdeQueryConvInfo, winui._win32_ddequeryconvinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDEPOKE
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DdeQueryConvInfo
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DdeQueryConvInfo function

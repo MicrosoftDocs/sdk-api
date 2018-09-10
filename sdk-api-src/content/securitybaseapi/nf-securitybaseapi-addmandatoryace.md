@@ -4,17 +4,16 @@ title: AddMandatoryAce function
 author: windows-sdk-content
 description: Adds a SYSTEM_MANDATORY_LABEL_ACE access control entry (ACE) to the specified system access control list (SACL).
 old-location: security\addmandatoryace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 22c8f384-fdb7-4d5a-8854-d9fd25cd351e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ACL_REVISION, ACL_REVISION_DS, AddMandatoryAce, AddMandatoryAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, security.addmandatoryace, securitybaseapi/AddMandatoryAce, winbase/AddMandatoryAce
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - AddMandatoryAce
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AddMandatoryAce function

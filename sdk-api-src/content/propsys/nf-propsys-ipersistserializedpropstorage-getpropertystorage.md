@@ -4,17 +4,16 @@ title: IPersistSerializedPropStorage::GetPropertyStorage
 author: windows-sdk-content
 description: Gets the serialized property storage data from the property store instance.
 old-location: shell\IPersistSerializedPropStorage_GetPropertyStorage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 86a1d7ec-759a-4b8a-91e1-4cfa28a17b41
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, IPersistSerializedPropStorage interface [Windows Shell],GetPropertyStorage method, IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistSerializedPropStorage.GetPropertyStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistSerializedPropStorage::GetPropertyStorage

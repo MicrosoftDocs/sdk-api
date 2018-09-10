@@ -4,17 +4,16 @@ title: QOSQueryFlow function
 author: windows-sdk-content
 description: Requests information about a specific flow.
 old-location: qos\qosqueryflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSQueryFlow
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSQueryFlow function

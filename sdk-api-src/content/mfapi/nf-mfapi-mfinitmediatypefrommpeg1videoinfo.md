@@ -4,17 +4,16 @@ title: MFInitMediaTypeFromMPEG1VideoInfo function
 author: windows-sdk-content
 description: Initializes a media type from a DirectShow MPEG1VIDEOINFO structure.
 old-location: mf\mfinitmediatypefrommpeg1videoinfo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2506ae6e-a3bb-4d36-8c70-837a42cfb272
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFInitMediaTypeFromMPEG1VideoInfo
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFInitMediaTypeFromMPEG1VideoInfo function

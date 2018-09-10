@@ -4,17 +4,16 @@ title: IInkRecognitionAlternate::get_Midline
 author: windows-sdk-content
 description: Gets the midline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_midline.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: ff12de3d-f760-4227-9406-634b19e66b4c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionAlternate.get_Midline
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionAlternate::get_Midline

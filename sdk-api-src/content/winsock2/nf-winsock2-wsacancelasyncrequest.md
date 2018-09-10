@@ -4,17 +4,16 @@ title: WSACancelAsyncRequest function
 author: windows-sdk-content
 description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation.
 old-location: winsock\wsacancelasyncrequest_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 0e53eccf-ef85-43ec-a02c-12896471a7a9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _win32_wsacancelasyncrequest_2, winsock.wsacancelasyncrequest_2, winsock/WSACancelAsyncRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSACancelAsyncRequest
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSACancelAsyncRequest function

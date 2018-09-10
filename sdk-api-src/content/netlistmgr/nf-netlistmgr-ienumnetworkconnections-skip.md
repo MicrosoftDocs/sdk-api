@@ -4,17 +4,16 @@ title: IEnumNetworkConnections::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworkconnections_skip.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 0423e39e-6101-47dc-99cc-5920d720e47a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Skip method, IEnumNetworkConnections.Skip, IEnumNetworkConnections::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Skip, nla.ienumnetworkconnections_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumNetworkConnections.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNetworkConnections::Skip

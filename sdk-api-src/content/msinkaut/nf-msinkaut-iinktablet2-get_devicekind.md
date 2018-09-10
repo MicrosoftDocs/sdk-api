@@ -4,17 +4,16 @@ title: IInkTablet2::get_DeviceKind
 author: windows-sdk-content
 description: Gets the type of Tablet device being used.
 old-location: tablet\iinktablet2_devicekind.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: da5242d4-da28-4e0d-ac48-23918f5d63ef
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DeviceKind property [Tablet PC], DeviceKind property [Tablet PC],IInkTablet2 interface, DeviceKind property [Tablet PC],TBD object, IInkTablet2 interface [Tablet PC],DeviceKind property, IInkTablet2.DeviceKind, IInkTablet2.get_DeviceKind, IInkTablet2::DeviceKind, IInkTablet2::get_DeviceKind, TBD object [Tablet PC],DeviceKind property, get_DeviceKind, msinkaut/IInkTablet2::DeviceKind, msinkaut/IInkTablet2::get_DeviceKind, tablet.iinktablet2_devicekind
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IInkTablet2.get_DeviceKind
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTablet2::get_DeviceKind

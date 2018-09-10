@@ -4,7 +4,7 @@ title: DHCPV6_STATELESS_STATS
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
 old-location: dhcp\dhcpv6_stateless_stats.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 8C0E26F3-9496-497C-9E05-9995CC322189
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, *LPDHCPV6_STATELESS_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV6_STATELESS_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, *LPDHCPV6_STATELESS_STATS
+req.redist: 
 ---
 
 # DHCPV6_STATELESS_STATS structure

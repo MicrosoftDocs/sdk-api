@@ -4,7 +4,7 @@ title: "_DRMID"
 author: windows-sdk-content
 description: Identifies an object.
 old-location: rm\drmid.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRMID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRMID
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

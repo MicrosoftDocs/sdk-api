@@ -4,17 +4,16 @@ title: ID3D12Object::SetPrivateDataInterface
 author: windows-sdk-content
 description: Associates an IUnknown-derived interface with the device object and associates that interface with an application-defined GUID.
 old-location: direct3d12\id3d12object_setprivatedatainterface.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: B03B9420-7E85-4C1A-858C-37B20E4D9B52
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12Object interface,SetPrivateDataInterface method, ID3D12Object.SetPrivateDataInterface, ID3D12Object::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method, SetPrivateDataInterface method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateDataInterface, direct3d12.id3d12object_setprivatedatainterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Object.SetPrivateDataInterface
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Object::SetPrivateDataInterface

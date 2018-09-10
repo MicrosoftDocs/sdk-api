@@ -4,7 +4,7 @@ title: PDX_SKIPNEXTFIELD
 author: windows-sdk-content
 description: The DxSkipNextField callback function is called when the next field needs to be skipped or reenabled.
 old-location: display\dxskipnextfield.htm
-old-project: display
+tech.root: display
 ms.assetid: da19c8dc-fef5-41e6-b032-2a0ae05a73da
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DxSkipNextField
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_SKIPNEXTFIELD callback function

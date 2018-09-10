@@ -4,7 +4,7 @@ title: tagDVD_VIDEO_COMPRESSION
 author: windows-sdk-content
 description: Defines the possible DVD video compression types.
 old-location: dshow\dvd_video_compression.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_VIDEO_COMPRESSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_VIDEO_COMPRESSION
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_VIDEO_COMPRESSION
+req.redist: 
 ---
 
 # tagDVD_VIDEO_COMPRESSION enumeration

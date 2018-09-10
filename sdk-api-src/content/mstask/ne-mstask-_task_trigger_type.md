@@ -4,7 +4,7 @@ title: "_TASK_TRIGGER_TYPE"
 author: windows-sdk-content
 description: Defines the types of triggers associated with a task.
 old-location: taskschd\task_trigger_type.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 07cba55c-47af-4879-b7be-12952763e016
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TASK_TRIGGER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.redist: 
 ---
 
 # _TASK_TRIGGER_TYPE enumeration

@@ -4,17 +4,16 @@ title: NetworkIsolationSetAppContainerConfig function
 author: windows-sdk-content
 description: Used to set the configuration of one or more app containers.
 old-location: ics\networkisolationsetappcontainerconfig.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 88f97650-1896-43f9-acfa-f8411ded5cb8
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NetworkIsolationSetAppContainerConfig, NetworkIsolationSetAppContainerConfig function [ICS/ICF], ics.networkisolationsetappcontainerconfig, networkisolation/NetworkIsolationSetAppContainerConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: Firewallapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - NetworkIsolationSetAppContainerConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Firewallapi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NetworkIsolationSetAppContainerConfig function

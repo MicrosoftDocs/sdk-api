@@ -4,17 +4,16 @@ title: ICallIndirect::CallIndirect
 author: windows-sdk-content
 description: Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
 old-location: com\icallindirect_callindirect.htm
-old-project: com
+tech.root: com
 ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICallIndirect.CallIndirect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICallIndirect::CallIndirect

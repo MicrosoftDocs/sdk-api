@@ -4,17 +4,16 @@ title: IWICProgressiveLevelControl::GetCurrentLevel
 author: windows-sdk-content
 description: Gets the decoder's current progressive level.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getcurrentlevel.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c6f848a0-e373-4344-8923-3ad77165ef71
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCurrentLevel, GetCurrentLevel method [Windows Imaging Component], GetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetCurrentLevel method, IWICProgressiveLevelControl.GetCurrentLevel, IWICProgressiveLevelControl::GetCurrentLevel, _wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_getcurrentlevel, wincodec/IWICProgressiveLevelControl::GetCurrentLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICProgressiveLevelControl.GetCurrentLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICProgressiveLevelControl::GetCurrentLevel

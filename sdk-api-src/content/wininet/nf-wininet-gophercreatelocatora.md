@@ -4,17 +4,16 @@ title: GopherCreateLocatorA function
 author: windows-sdk-content
 description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
 old-location: wininet\gophercreatelocator.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GopherCreateLocatorW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GopherCreateLocatorA function

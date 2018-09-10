@@ -4,17 +4,16 @@ title: ObjectControl::Deactivate
 author: windows-sdk-content
 description: Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
 old-location: cos\objectcontrol_deactivate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 86ab7f50-6f2e-4c6c-ba4d-fd302cccf97d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Deactivate method, ObjectControl.Deactivate, ObjectControl::Deactivate, _cos_ObjectControl_Deactivate, comsvcs/ObjectControl::Deactivate, cos.objectcontrol_deactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectControl.Deactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectControl::Deactivate

@@ -4,17 +4,16 @@ title: PdhCollectQueryData function
 author: windows-sdk-content
 description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 old-location: perf\pdhcollectquerydata.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: Pdh.lib
+req.dll: Pdh.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PdhCollectQueryData
 product: Windows
 targetos: Windows
-req.lib: Pdh.lib
-req.dll: Pdh.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PdhCollectQueryData function

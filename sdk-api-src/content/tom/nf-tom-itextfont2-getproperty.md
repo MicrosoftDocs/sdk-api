@@ -4,17 +4,16 @@ title: ITextFont2::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextfont2_getproperty.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 1894788a-5612-43a2-af77-131d02fe1261
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetProperty method, ITextFont2.GetProperty, ITextFont2::GetProperty, controls.itextfont2_getproperty, tom/ITextFont2::GetProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextFont2.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextFont2::GetProperty

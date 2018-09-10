@@ -4,17 +4,16 @@ title: IViewObject::Unfreeze
 author: windows-sdk-content
 description: Releases a drawing that was previously frozen using IViewObject::Freeze. The most common use of this method is for banded printing.
 old-location: com\iviewobject_unfreeze.htm
-old-project: com
+tech.root: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObject.Unfreeze
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObject::Unfreeze

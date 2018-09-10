@@ -4,17 +4,16 @@ title: ICreateTypeInfo::SetTypeDescAlias
 author: windows-sdk-content
 description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
 old-location: automat\icreatetypeinfo_settypedescalias.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeDescAlias method, ICreateTypeInfo.SetTypeDescAlias, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICreateTypeInfo.SetTypeDescAlias
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateTypeInfo::SetTypeDescAlias

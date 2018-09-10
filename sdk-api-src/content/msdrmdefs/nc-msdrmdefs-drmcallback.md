@@ -4,7 +4,7 @@ title: DRMCALLBACK
 author: windows-sdk-content
 description: Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
 old-location: rm\callback_prototype.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 41c200df-afbc-43a5-8046-d131fec3261a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

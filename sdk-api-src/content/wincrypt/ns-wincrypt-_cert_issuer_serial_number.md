@@ -4,7 +4,7 @@ title: "_CERT_ISSUER_SERIAL_NUMBER"
 author: windows-sdk-content
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_ISSUER_SERIAL_NUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
+req.redist: 
 ---
 
 # _CERT_ISSUER_SERIAL_NUMBER structure

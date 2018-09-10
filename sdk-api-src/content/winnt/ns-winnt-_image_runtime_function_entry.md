@@ -4,7 +4,7 @@ title: "_IMAGE_RUNTIME_FUNCTION_ENTRY"
 author: windows-sdk-content
 description: Represents an entry in the function table on 64-bit Windows.
 old-location: base\_image_runtime_function_entry.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 9ed16f9a-3403-4ba9-9968-f51f6788a1f8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RUNTIME_FUNCTION, *PRUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, *_PIMAGE_RUNTIME_FUNCTION_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _IMAGE_RUNTIME_FUNCTION_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: RUNTIME_FUNCTION, *PRUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, *_PIMAGE_RUNTIME_FUNCTION_ENTRY
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGE_RUNTIME_FUNCTION_ENTRY structure

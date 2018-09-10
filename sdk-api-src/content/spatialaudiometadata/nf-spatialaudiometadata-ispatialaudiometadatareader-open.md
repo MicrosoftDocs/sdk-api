@@ -4,17 +4,16 @@ title: ISpatialAudioMetadataReader::Open
 author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for reading.
 old-location: coreaudio\ispatialaudiometadatareader_open.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 50007A27-D885-47F6-9D3A-1F5B6D47BCDD
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioMetadataReader interface [Core Audio],Open method, ISpatialAudioMetadataReader.Open, ISpatialAudioMetadataReader::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataReader interface, coreaudio.ispatialaudiometadatareader_open, spatialaudiometadata/ISpatialAudioMetadataReader::Open
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataWriterOverflowMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioMetadataReader.Open
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioMetadataReader::Open

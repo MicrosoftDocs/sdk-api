@@ -4,7 +4,7 @@ title: PINTERFACE_STATUS
 author: windows-sdk-content
 description: Router manager calls the InterfaceStatus function to change the status of an interface.
 old-location: rras\interfacestatus.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterfaceStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PINTERFACE_STATUS callback function

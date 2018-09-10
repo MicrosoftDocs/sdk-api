@@ -4,17 +4,16 @@ title: GetSystemDefaultUILanguage function
 author: windows-sdk-content
 description: Retrieves the language identifier for the system default UI language of the operating system, also known as the &#0034;install language&#0034; on Windows Vista and later. For more information, see User Interface Language Management.
 old-location: intl\getsystemdefaultuilanguage.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetSystemDefaultUILanguage
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetSystemDefaultUILanguage function

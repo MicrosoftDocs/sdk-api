@@ -4,17 +4,16 @@ title: IWMPClosedCaption::put_SAMIStyle
 author: windows-sdk-content
 description: The put_SAMIStyle method specifies the closed captioning style.
 old-location: wmp\iwmpclosedcaption_put_samistyle.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIStyle method, IWMPClosedCaption.put_SAMIStyle, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPClosedCaption.put_SAMIStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPClosedCaption::put_SAMIStyle

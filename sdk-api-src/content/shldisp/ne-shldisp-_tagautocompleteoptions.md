@@ -4,7 +4,7 @@ title: "_tagAUTOCOMPLETEOPTIONS"
 author: windows-sdk-content
 description: Specifies values used by IAutoComplete2::GetOptions and IAutoComplete2::SetOptions for options surrounding autocomplete.
 old-location: shell\AUTOCOMPLETEOPTIONS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e0a583da-c2bd-4757-868d-a63e697142e2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shldisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETEOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AUTOCOMPLETEOPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AUTOCOMPLETEOPTIONS
+req.redist: 
 ---
 
 # _tagAUTOCOMPLETEOPTIONS enumeration

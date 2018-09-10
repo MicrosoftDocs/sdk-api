@@ -4,7 +4,7 @@ title: "_SecPkgContext_EapPrfInfo"
 author: windows-sdk-content
 description: Specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) Transport Layer Security protocol (TLS) Authentication Protocol.
 old-location: security\secpkgcontext_eapprfinfo.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2772b83b-d1d1-4a8e-83d5-1f3dec3d66ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SecPkgContext_EapPrfInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
+req.redist: 
 ---
 
 # _SecPkgContext_EapPrfInfo structure

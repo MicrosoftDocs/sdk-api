@@ -4,17 +4,16 @@ title: IWbemShutdown::Shutdown
 author: windows-sdk-content
 description: The IWbemShutdown::Shutdown method indicates to the provider that the provider services are not required.
 old-location: wmi\iwbemshutdown_shutdown.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: b6eb56ae-5869-413f-a455-22616b04c18f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemShutdown interface [Windows Management Instrumentation],Shutdown method, IWbemShutdown.Shutdown, IWbemShutdown::Shutdown, Shutdown, Shutdown method [Windows Management Instrumentation], Shutdown method [Windows Management Instrumentation],IWbemShutdown interface, wbemcli/IWbemShutdown::Shutdown, wmi.iwbemshutdown_shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Fastprox.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemShutdown.Shutdown
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Fastprox.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemShutdown::Shutdown

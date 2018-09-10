@@ -4,17 +4,16 @@ title: setsockopt function
 author: windows-sdk-content
 description: Sets a socket option.
 old-location: winsock\setsockopt_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: smiVENDORINFO, *smiLPVENDORINFO
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - setsockopt
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # setsockopt function

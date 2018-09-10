@@ -4,17 +4,16 @@ title: IAzApplicationGroup::AddAppNonMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_addappnonmember.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 31b8538f-afe1-4fd3-bf6f-6f3f0641fc2a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAppNonMember, AddAppNonMember method [Security], AddAppNonMember method [Security],AzApplicationGroup object, AddAppNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppNonMember method, IAzApplicationGroup interface [Security],AddAppNonMember method, IAzApplicationGroup.AddAppNonMember, IAzApplicationGroup::AddAppNonMember, azroles/IAzApplicationGroup::AddAppNonMember, security.iazapplicationgroup_addappnonmember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplicationGroup.AddAppNonMember
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::AddAppNonMember

@@ -4,17 +4,16 @@ title: ITfContextView::GetRangeFromPoint
 author: windows-sdk-content
 description: The ITfContextView::GetRangeFromPoint method converts a point, in screen coordinates, to an empty range of text positioned at a corresponding location.
 old-location: tsf\itfcontextview_getrangefrompoint.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 543761fe-420e-4821-a69f-abc6c853677e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetRangeFromPoint, GetRangeFromPoint method [Text Services Framework], GetRangeFromPoint method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetRangeFromPoint method, ITfContextView.GetRangeFromPoint, ITfContextView::GetRangeFromPoint, _tsf_itfcontextview_getrangefrompoint_ref, msctf/ITfContextView::GetRangeFromPoint, tsf.itfcontextview_getrangefrompoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfContextView.GetRangeFromPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfContextView::GetRangeFromPoint

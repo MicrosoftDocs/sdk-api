@@ -4,7 +4,7 @@ title: "__MIDL_IWTSSBPlugin_0002"
 author: windows-sdk-content
 description: Contains values that indicate the session mode of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_session_mode.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 38894819-a39f-4c1f-aef9-ec3036b42877
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tssbx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTSSBX_MACHINE_SESSION_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSSBX_MACHINE_SESSION_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: WTSSBX_MACHINE_SESSION_MODE
+req.redist: 
 ---
 
 # __MIDL_IWTSSBPlugin_0002 enumeration

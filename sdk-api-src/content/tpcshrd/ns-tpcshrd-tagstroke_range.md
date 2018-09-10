@@ -4,7 +4,7 @@ title: tagSTROKE_RANGE
 author: windows-sdk-content
 description: Specifies a range of strokes in the InkDisp object.
 old-location: tablet\stroke_range.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: Tcpshrd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STROKE_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STROKE_RANGE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: STROKE_RANGE
+req.redist: 
 ---
 
 # tagSTROKE_RANGE structure

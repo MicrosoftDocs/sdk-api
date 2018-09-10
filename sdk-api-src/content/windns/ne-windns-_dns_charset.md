@@ -4,7 +4,7 @@ title: "_DNS_CHARSET"
 author: windows-sdk-content
 description: The DNS_CHARSET enumeration specifies the character set used.
 old-location: dns\dns_charset.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_CHARSET
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_CHARSET
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_CHARSET
+req.redist: 
 ---
 
 # _DNS_CHARSET enumeration

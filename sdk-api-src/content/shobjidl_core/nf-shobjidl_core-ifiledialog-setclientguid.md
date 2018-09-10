@@ -4,17 +4,16 @@ title: IFileDialog::SetClientGuid
 author: windows-sdk-content
 description: Enables a calling application to associate a GUID with a dialog's persisted state.
 old-location: shell\IFileDialog_SetClientGuid.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.SetClientGuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::SetClientGuid

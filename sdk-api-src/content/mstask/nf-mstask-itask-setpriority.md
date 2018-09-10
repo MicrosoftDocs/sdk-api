@@ -4,17 +4,16 @@ title: ITask::SetPriority
 author: windows-sdk-content
 description: This method sets the priority for the task.
 old-location: taskschd\itask_setpriority.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: f72e5fb8-761e-41bd-be64-b886ebc2c1e5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITask interface [Task Scheduler],SetPriority method, ITask.SetPriority, ITask::SetPriority, SetPriority, SetPriority method [Task Scheduler], SetPriority method [Task Scheduler],ITask interface, _msb_itask_setpriority, mstask/ITask::SetPriority, taskschd.itask_setpriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITask.SetPriority
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ITask::SetPriority

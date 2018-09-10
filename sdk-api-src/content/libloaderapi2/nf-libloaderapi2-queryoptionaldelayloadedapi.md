@@ -4,17 +4,16 @@ title: QueryOptionalDelayLoadedAPI function
 author: windows-sdk-content
 description: Determines whether the specified function in a delay-loaded DLL is available on the system.
 old-location: base\queryoptionaldelayloadedapi.htm
-old-project: dlls
+tech.root: dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
+req.lib: WindowsApp.lib
+req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - QueryOptionalDelayLoadedAPI
 product: Windows
 targetos: Windows
-req.lib: WindowsApp.lib
-req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # QueryOptionalDelayLoadedAPI function

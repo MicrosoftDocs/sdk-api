@@ -4,17 +4,16 @@ title: ID3D11VideoContext::QueryAuthenticatedChannel
 author: windows-sdk-content
 description: Sends a query to an authenticated channel.
 old-location: mf\id3d11videocontext_queryauthenticatedchannel.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4E059358-E1FD-4EDB-B1D4-982802385232
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],QueryAuthenticatedChannel method, ID3D11VideoContext.QueryAuthenticatedChannel, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.QueryAuthenticatedChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::QueryAuthenticatedChannel

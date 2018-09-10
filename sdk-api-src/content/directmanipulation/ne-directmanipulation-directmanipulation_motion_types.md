@@ -4,7 +4,7 @@ title: DIRECTMANIPULATION_MOTION_TYPES
 author: windows-sdk-content
 description: Defines the Direct Manipulation motion type.
 old-location: directmanipulation\directmanipulation_motion_types.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: a0b4da55-3ebb-4281-a372-4bc6b91e6789
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_MOTION_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIRECTMANIPULATION_MOTION_TYPES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIRECTMANIPULATION_MOTION_TYPES
+req.redist: 
 ---
 
 # DIRECTMANIPULATION_MOTION_TYPES enumeration

@@ -4,7 +4,7 @@ title: "_OBJECTS_AND_SID"
 author: windows-sdk-content
 description: Contains a security identifier (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_sid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 77ba8a3c-01e5-4a3e-835f-c7b9ef60035a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OBJECTS_AND_SID, *POBJECTS_AND_SID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,8 +40,8 @@ api_name:
  - OBJECTS_AND_SID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: OBJECTS_AND_SID, *POBJECTS_AND_SID
+req.redist: 
 ---
 
 # _OBJECTS_AND_SID structure

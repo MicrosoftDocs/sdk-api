@@ -4,17 +4,16 @@ title: IWICDevelopRaw::GetExposureCompensation
 author: windows-sdk-content
 description: Gets the exposure compensation stop value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getexposurecompensation.htm
-old-project: wic
+tech.root: wic
 ms.assetid: cdd71702-4696-4533-bd6f-ba9324b6b05b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetExposureCompensation, GetExposureCompensation method [Windows Imaging Component], GetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetExposureCompensation method, IWICDevelopRaw.GetExposureCompensation, IWICDevelopRaw::GetExposureCompensation, _wic_codec_iwicdevelopraw_getexposurecompensation, wic._wic_codec_iwicdevelopraw_getexposurecompensation, wincodec/IWICDevelopRaw::GetExposureCompensation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDevelopRaw.GetExposureCompensation
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDevelopRaw::GetExposureCompensation

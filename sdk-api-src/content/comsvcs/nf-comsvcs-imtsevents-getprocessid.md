@@ -4,17 +4,16 @@ title: IMtsEvents::GetProcessID
 author: windows-sdk-content
 description: Retrieves the identifier of the process in which the event occurred.
 old-location: cos\imtsevents_getprocessid.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9950eeab-0b90-4810-9163-8c5582d0b748
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProcessID, GetProcessID method [COM+], GetProcessID method [COM+],IMtsEvents interface, IMtsEvents interface [COM+],GetProcessID method, IMtsEvents.GetProcessID, IMtsEvents::GetProcessID, _dtc_IMtsEvents_GetProcessID, comsvcs/IMtsEvents::GetProcessID, cos.imtsevents_getprocessid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMtsEvents.GetProcessID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMtsEvents::GetProcessID

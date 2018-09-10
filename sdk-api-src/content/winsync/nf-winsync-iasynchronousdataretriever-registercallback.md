@@ -4,17 +4,16 @@ title: IAsynchronousDataRetriever::RegisterCallback
 author: windows-sdk-content
 description: Registers a callback interface that will be called by the IAsynchronousDataRetriever object when an asynchronous method finishes processing.
 old-location: winsync\iasynchronousdataretriever_registercallback.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 4148db4a-a460-40ca-863a-861065f89c5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RegisterCallback method, IAsynchronousDataRetriever.RegisterCallback, IAsynchronousDataRetriever::RegisterCallback, RegisterCallback, RegisterCallback method [Windows Sync], RegisterCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_registercallback, winsync/IAsynchronousDataRetriever::RegisterCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAsynchronousDataRetriever.RegisterCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAsynchronousDataRetriever::RegisterCallback

@@ -4,17 +4,16 @@ title: GetProcessIoCounters function
 author: windows-sdk-content
 description: Retrieves accounting information for all I/O operations performed by the specified process.
 old-location: base\getprocessiocounters.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetProcessIoCounters
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetProcessIoCounters function

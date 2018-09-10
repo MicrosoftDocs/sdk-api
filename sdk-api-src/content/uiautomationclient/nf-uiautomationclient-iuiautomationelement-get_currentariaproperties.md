@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentAriaProperties
 author: windows-sdk-content
 description: Retrieves the Accessible Rich Internet Applications (ARIA) properties of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAriaProperties.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 40c5ec95-9317-4123-8f9f-fe34b6c983b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAriaProperties property [Windows Accessibility], CurrentAriaProperties property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAriaProperties property, IUIAutomationElement.CurrentAriaProperties, IUIAutomationElement.get_CurrentAriaProperties, IUIAutomationElement::CurrentAriaProperties, IUIAutomationElement::get_CurrentAriaProperties, get_CurrentAriaProperties, uiauto.uiauto_IUIAutomationElement_CurrentAriaProperties, uiauto_IUIAutomationElement_CurrentAriaProperties, uiautomationclient/IUIAutomationElement::CurrentAriaProperties, uiautomationclient/IUIAutomationElement::get_CurrentAriaProperties, winauto.uiauto_IUIAutomationElement_CurrentAriaProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentAriaProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentAriaProperties

@@ -4,17 +4,16 @@ title: IWSDiscoveryPublisher::GetXMLContext
 author: windows-sdk-content
 description: Gets the XML context associated with the device.
 old-location: ncd\iwsdiscoverypublisher_getxmlcontext.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 9b849b17-0597-4e78-88c6-8ee95bcb754c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,GetXMLContext method, IWSDiscoveryPublisher.GetXMLContext, IWSDiscoveryPublisher::GetXMLContext, ncd.iwsdiscoverypublisher_getxmlcontext, wsddisco/IWSDiscoveryPublisher::GetXMLContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryPublisher.GetXMLContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryPublisher::GetXMLContext

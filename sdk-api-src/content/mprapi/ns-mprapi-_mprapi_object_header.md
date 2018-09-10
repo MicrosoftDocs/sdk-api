@@ -4,7 +4,7 @@ title: "_MPRAPI_OBJECT_HEADER"
 author: windows-sdk-content
 description: Defines the structure version for the RAS_CONNECTION_EX, MPR_SERVER_EX, MPR_SERVER_SET_CONFIG_EX, RAS_UPDATE_CONNECTION, AUTH_VALIDATION_EX structures, and the structure version used by the MprAdminConnectionEnumEx method.
 old-location: rras\mprapi_object_header.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 2f4e1ddc-7991-4091-9889-fdd2d75e702f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPRAPI_OBJECT_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
+req.redist: 
 ---
 
 # _MPRAPI_OBJECT_HEADER structure

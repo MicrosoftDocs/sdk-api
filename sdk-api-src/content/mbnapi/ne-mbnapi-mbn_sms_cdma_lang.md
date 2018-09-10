@@ -4,7 +4,7 @@ title: MBN_SMS_CDMA_LANG
 author: windows-sdk-content
 description: The MBN_SMS_CDMA_LANG enumerated type represents the different languages that can be used in a CDMA message.
 old-location: mbn\mbn_sms_cdma_lang.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 569d5e28-d741-429e-a020-6724138272ae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_CDMA_LANG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_CDMA_LANG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_CDMA_LANG
+req.redist: 
 ---
 
 # MBN_SMS_CDMA_LANG enumeration

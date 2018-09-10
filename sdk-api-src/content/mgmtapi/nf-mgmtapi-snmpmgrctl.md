@@ -4,17 +4,16 @@ title: SnmpMgrCtl function
 author: windows-sdk-content
 description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrctl.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpMgrCtl
 product: Windows
 targetos: Windows
-req.lib: Mgmtapi.lib
-req.dll: Mgmtapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpMgrCtl function

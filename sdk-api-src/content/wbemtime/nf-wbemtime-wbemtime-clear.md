@@ -4,17 +4,16 @@ title: WBEMTime::Clear
 author: windows-sdk-content
 description: The Clear method sets the time in the WBEMTime object to an invalid time.
 old-location: wmi\wbemtime_clear.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a6b3db6c-1cc8-4058-8d8b-c8126a373130
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Clear method, WBEMTime.Clear, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTime.Clear
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTime::Clear

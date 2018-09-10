@@ -4,7 +4,7 @@ title: "_RASPROJECTION_INFO_TYPE"
 author: windows-sdk-content
 description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
 old-location: rras\rasprojection_info_type.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASPROJECTION_INFO_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RASPROJECTION_INFO_TYPE
+req.redist: 
 ---
 
 # _RASPROJECTION_INFO_TYPE enumeration

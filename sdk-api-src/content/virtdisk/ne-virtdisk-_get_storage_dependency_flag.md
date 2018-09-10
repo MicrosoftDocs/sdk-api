@@ -4,7 +4,7 @@ title: "_GET_STORAGE_DEPENDENCY_FLAG"
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) storage dependency request flags.
 old-location: vhd\get_storage_dependency_flag.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 6a438edf-698b-4b2d-8864-c97fbf9eaa9f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GET_STORAGE_DEPENDENCY_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GET_STORAGE_DEPENDENCY_FLAG
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: GET_STORAGE_DEPENDENCY_FLAG
+req.redist: 
 ---
 
 # _GET_STORAGE_DEPENDENCY_FLAG enumeration

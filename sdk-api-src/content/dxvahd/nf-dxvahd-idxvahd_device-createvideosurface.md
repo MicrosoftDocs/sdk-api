@@ -4,17 +4,16 @@ title: IDXVAHD_Device::CreateVideoSurface
 author: windows-sdk-content
 description: Creates one or more Microsoft Direct3D video surfaces.
 old-location: mf\idxvahd_device_createvideosurface.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c467a077-104c-443d-896b-d69441aa5160
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateVideoSurface, CreateVideoSurface method [Media Foundation], CreateVideoSurface method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoSurface method, IDXVAHD_Device.CreateVideoSurface, IDXVAHD_Device::CreateVideoSurface, dxvahd/IDXVAHD_Device::CreateVideoSurface, mf.idxvahd_device_createvideosurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_SURFACE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXVAHD_Device.CreateVideoSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXVAHD_Device::CreateVideoSurface

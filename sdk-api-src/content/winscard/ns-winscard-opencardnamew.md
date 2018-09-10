@@ -4,7 +4,7 @@ title: OPENCARDNAMEW
 author: windows-sdk-content
 description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPENCARDNAMEW, *POPENCARDNAMEW, *LPOPENCARDNAMEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OPENCARDNAMEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: OPENCARDNAMEW, *POPENCARDNAMEW, *LPOPENCARDNAMEW
+req.redist: 
 ---
 
 # OPENCARDNAMEW structure

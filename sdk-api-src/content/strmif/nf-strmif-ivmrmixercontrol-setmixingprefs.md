@@ -4,17 +4,16 @@ title: IVMRMixerControl::SetMixingPrefs
 author: windows-sdk-content
 description: Sets the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRMixerControl.SetMixingPrefs
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRMixerControl::SetMixingPrefs

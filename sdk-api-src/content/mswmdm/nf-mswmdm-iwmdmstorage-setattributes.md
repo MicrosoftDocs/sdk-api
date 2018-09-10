@@ -4,17 +4,16 @@ title: IWMDMStorage::SetAttributes
 author: windows-sdk-content
 description: The SetAttributes method sets the attributes of the storage.
 old-location: wmdm\iwmdmstorage_setattributes.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 7484e29a-5faf-4a11-9fc1-75aa5c9d72ef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SetAttributes method, IWMDMStorage.SetAttributes, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorage.SetAttributes
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorage::SetAttributes

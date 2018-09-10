@@ -4,17 +4,16 @@ title: ITForwardInformation::get_ForwardTypeDestination
 author: windows-sdk-content
 description: The get_ForwardTypeDestination method gets the destination for a forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypedestination.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 84a5737c-3bcd-4fdf-9a51-ef726fe71682
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeDestination method, ITForwardInformation.get_ForwardTypeDestination, ITForwardInformation::get_ForwardTypeDestination, _tapi3_itforwardinformation_get_forwardtypedestination, get_ForwardTypeDestination, get_ForwardTypeDestination method [TAPI 2.2], get_ForwardTypeDestination method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypedestination, tapi3if/ITForwardInformation::get_ForwardTypeDestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITForwardInformation.get_ForwardTypeDestination
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITForwardInformation::get_ForwardTypeDestination

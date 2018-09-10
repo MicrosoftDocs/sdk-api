@@ -4,17 +4,16 @@ title: IOleInPlaceSite::DiscardUndoState
 author: windows-sdk-content
 description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.
 old-location: com\ioleinplacesite_discardundostate.htm
-old-project: com
+tech.root: com
 ms.assetid: 8fe69aa5-a526-4e95-920b-01f84ae4ca83
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DiscardUndoState, DiscardUndoState method [COM], DiscardUndoState method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DiscardUndoState method, IOleInPlaceSite.DiscardUndoState, IOleInPlaceSite::DiscardUndoState, IOleInPlaceSiteWindowless.DiscardUndoState, _ole_ioleinplacesite_discardundostate, com.ioleinplacesite_discardundostate, oleidl/IOleInPlaceSite::DiscardUndoState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleInPlaceSiteWindowless.DiscardUndoState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::DiscardUndoState

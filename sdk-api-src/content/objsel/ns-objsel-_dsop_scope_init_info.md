@@ -4,7 +4,7 @@ title: "_DSOP_SCOPE_INIT_INFO"
 author: windows-sdk-content
 description: The DSOP_SCOPE_INIT_INFO structure describes one or more scope types that have the same attributes.
 old-location: ad\dsop_scope_init_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 6262b520-1eee-48e0-b3af-636b66d78b3d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objsel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSOP_SCOPE_INIT_INFO, *PDSOP_SCOPE_INIT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSOP_SCOPE_INIT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DSOP_SCOPE_INIT_INFO, *PDSOP_SCOPE_INIT_INFO
+req.redist: 
 ---
 
 # _DSOP_SCOPE_INIT_INFO structure

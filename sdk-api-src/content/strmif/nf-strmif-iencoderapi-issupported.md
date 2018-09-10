@@ -4,17 +4,16 @@ title: IEncoderAPI::IsSupported
 author: windows-sdk-content
 description: The IsSupported method queries whether a given parameter is supported.
 old-location: mstv\iencoderapi_issupported.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEncoderAPI.IsSupported
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IEncoderAPI::IsSupported

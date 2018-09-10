@@ -4,17 +4,16 @@ title: ReadClassStm function
 author: windows-sdk-content
 description: Reads the CLSID previously written to a stream object with the WriteClassStm function.
 old-location: stg\readclassstm.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ReadClassStm, ReadClassStm function [Structured Storage], _stg_readclassstm, coml2api/ReadClassStm, stg.readclassstm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORYINFO, *LPCATEGORYINFO
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - ReadClassStm
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ReadClassStm function

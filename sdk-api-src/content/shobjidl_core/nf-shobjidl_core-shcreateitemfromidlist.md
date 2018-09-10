@@ -4,17 +4,16 @@ title: SHCreateItemFromIDList function
 author: windows-sdk-content
 description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.
 old-location: shell\SHCreateItemFromIDList.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SHCreateItemFromIDList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateItemFromIDList function

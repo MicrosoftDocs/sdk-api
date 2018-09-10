@@ -4,17 +4,16 @@ title: IAzAuthorizationStore3::GetSchemaVersion
 author: windows-sdk-content
 description: Gets the version number of this authorization store.
 old-location: security\iazauthorizationstore3_getschemaversion_method.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 263d8f04-8ed9-4801-86cf-51ede83436c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSchemaVersion, GetSchemaVersion method [Security], GetSchemaVersion method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],GetSchemaVersion method, IAzAuthorizationStore3.GetSchemaVersion, IAzAuthorizationStore3::GetSchemaVersion, azroles/IAzAuthorizationStore3::GetSchemaVersion, security.iazauthorizationstore3_getschemaversion_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzAuthorizationStore3.GetSchemaVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzAuthorizationStore3::GetSchemaVersion

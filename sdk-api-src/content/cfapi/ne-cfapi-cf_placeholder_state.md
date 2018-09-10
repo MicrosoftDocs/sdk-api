@@ -4,7 +4,7 @@ title: CF_PLACEHOLDER_STATE
 author: windows-sdk-content
 description: The state of a placeholder file or folder.
 old-location: cloudapi\cf_placeholder_state.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 5E814458-2045-4CFD-90AC-F1F53DEB4FD0
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_PLACEHOLDER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_PLACEHOLDER_STATE
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_PLACEHOLDER_STATE
+req.redist: 
 ---
 
 # CF_PLACEHOLDER_STATE enumeration

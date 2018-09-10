@@ -4,7 +4,7 @@ title: "_WS_CERT_SIGNED_SAML_AUTHENTICATOR"
 author: windows-sdk-content
 description: The type for specifying a SAML token authenticator based on an array of expected issuer certificates.
 old-location: wsw\ws_cert_signed_saml_authenticator.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_CERT_SIGNED_SAML_AUTHENTICATOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_CERT_SIGNED_SAML_AUTHENTICATOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_CERT_SIGNED_SAML_AUTHENTICATOR
+req.redist: 
 ---
 
 # _WS_CERT_SIGNED_SAML_AUTHENTICATOR structure

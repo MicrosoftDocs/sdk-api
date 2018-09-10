@@ -4,17 +4,16 @@ title: OfflineFilesStart function
 author: windows-sdk-content
 description: Starts the Offline Files service.
 old-location: of\offlinefilesstart.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cscapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_XML_X509DATA_ITEM
+req.lib: CscApi.lib
+req.dll: CscApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OfflineFilesStart
 product: Windows
 targetos: Windows
-req.lib: CscApi.lib
-req.dll: CscApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # OfflineFilesStart function

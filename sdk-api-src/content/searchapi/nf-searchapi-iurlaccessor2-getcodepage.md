@@ -4,17 +4,16 @@ title: IUrlAccessor2::GetCodePage
 author: windows-sdk-content
 description: Gets the code page for properties of the URL item.
 old-location: search\_search_IUrlAccessor2_GetCodePage.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getcodepage.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCodePage, GetCodePage method [search], GetCodePage method [search],IUrlAccessor2 interface, GetCodePage method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetCodePage method, IUrlAccessor2.GetCodePage, IUrlAccessor2::GetCodePage, IUrlAccessor4 interface [search],GetCodePage method, IUrlAccessor4::GetCodePage, _search_IUrlAccessor2_GetCodePage, search._search_IUrlAccessor2_GetCodePage, searchapi/IUrlAccessor2::GetCodePage, searchapi/IUrlAccessor4::GetCodePage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUrlAccessor4.GetCodePage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IUrlAccessor2::GetCodePage

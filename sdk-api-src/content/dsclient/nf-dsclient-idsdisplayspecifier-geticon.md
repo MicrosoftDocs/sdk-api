@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::GetIcon
 author: windows-sdk-content
 description: The IDsDisplaySpecifier::GetIcon method obtains the icon for a given object class.
 old-location: ad\idsdisplayspecifier_geticon.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 7057779b-4176-41a3-bc7e-0d6958baf245
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISMASK, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIcon, GetIcon method [Active Directory], GetIcon method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIcon method, IDsDisplaySpecifier.GetIcon, IDsDisplaySpecifier::GetIcon, _glines_idsdisplayspecifier_geticon, ad.idsdisplayspecifier__geticon, ad.idsdisplayspecifier_geticon, dsclient/IDsDisplaySpecifier::GetIcon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.GetIcon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::GetIcon

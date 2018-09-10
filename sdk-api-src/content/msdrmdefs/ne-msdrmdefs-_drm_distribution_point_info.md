@@ -4,7 +4,7 @@ title: "_DRM_DISTRIBUTION_POINT_INFO"
 author: windows-sdk-content
 description: Specifies the type of distribution point to retrieve information about when calling DRMGetIssuanceLicenseInfo.
 old-location: rm\drm_distribution_point_info.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: 09e586bc-bf0e-4831-be35-f00a6288231e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_DISTRIBUTION_POINT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRM_DISTRIBUTION_POINT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRM_DISTRIBUTION_POINT_INFO
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_CREATE_FLAGS
 author: windows-sdk-content
 description: Determines which resource monitor a given resource will be assigned to.
 old-location: mscs\cluster_resource_create_flags.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 16f5ab58-2507-431a-98f9-bd00a24485ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_CREATE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_CREATE_FLAGS enumeration

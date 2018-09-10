@@ -4,7 +4,7 @@ title: STARTING_LCN_INPUT_BUFFER
 author: windows-sdk-content
 description: Contains the starting LCN to the FSCTL_GET_VOLUME_BITMAP control code.
 old-location: fs\starting_lcn_input_buffer_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 94bdb166-fe75-4851-9dbb-a1a1f5836675
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STARTING_LCN_INPUT_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
+req.redist: 
 ---
 
 # STARTING_LCN_INPUT_BUFFER structure

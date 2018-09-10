@@ -4,17 +4,16 @@ title: IOperationsProgressDialog::UpdateLocations
 author: windows-sdk-content
 description: Called to specify the text elements stating the source and target in the current progress dialog.
 old-location: shell\IOperationsProgressDialog_UpdateLocations.htm
-old-project: shell
+tech.root: shell
 ms.assetid: df07833a-691c-4d93-a85e-8d21dd04ee64
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateLocations method, IOperationsProgressDialog.UpdateLocations, IOperationsProgressDialog::UpdateLocations, UpdateLocations, UpdateLocations method [Windows Shell], UpdateLocations method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateLocations, shell.IOperationsProgressDialog_UpdateLocations, shobjidl_core/IOperationsProgressDialog::UpdateLocations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOperationsProgressDialog.UpdateLocations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOperationsProgressDialog::UpdateLocations

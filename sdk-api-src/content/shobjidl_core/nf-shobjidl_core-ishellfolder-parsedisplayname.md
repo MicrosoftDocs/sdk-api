@@ -4,17 +4,16 @@ title: IShellFolder::ParseDisplayName
 author: windows-sdk-content
 description: Translates the display name of a file object or a folder into an item identifier list.
 old-location: shell\IShellFolder_ParseDisplayName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 099e71b0-04f2-4f82-aa00-7581bd357900
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, IShellFolder.ParseDisplayName, IShellFolder2 interface [Windows Shell],ParseDisplayName method, IShellFolder2::ParseDisplayName, IShellFolder::ParseDisplayName, ParseDisplayName, ParseDisplayName method [Windows Shell], ParseDisplayName method [Windows Shell],IShellFolder interface, ParseDisplayName method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_ParseDisplayName, shell.IShellFolder_ParseDisplayName, shobjidl_core/IShellFolder2::ParseDisplayName, shobjidl_core/IShellFolder::ParseDisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IShellFolder2.ParseDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellFolder::ParseDisplayName

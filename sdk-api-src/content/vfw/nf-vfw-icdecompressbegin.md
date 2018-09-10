@@ -4,17 +4,16 @@ title: ICDecompressBegin macro
 author: windows-sdk-content
 description: The ICDecompressBegin macro notifies a video decompression driver to prepare to decompress data. You can use this macro or explicitly call the ICM_DECOMPRESS_BEGIN message.
 old-location: multimedia\icdecompressbegin.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 3e9fb4b7-bdc6-402c-a5c6-3f837149c291
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressBegin, ICDecompressBegin macro [Windows Multimedia], _win32_ICDecompressBegin, multimedia.icdecompressbegin, vfw/ICDecompressBegin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressBegin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressBegin macro

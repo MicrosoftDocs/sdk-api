@@ -4,7 +4,7 @@ title: "_CERT_REVOCATION_PARA"
 author: windows-sdk-content
 description: Is passed in calls to the CertVerifyRevocation function to assist in finding the issuer of the context to be verified.
 old-location: security\cert_revocation_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_REVOCATION_PARA, *PCERT_REVOCATION_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_REVOCATION_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_REVOCATION_PARA, *PCERT_REVOCATION_PARA
+req.redist: 
 ---
 
 # _CERT_REVOCATION_PARA structure

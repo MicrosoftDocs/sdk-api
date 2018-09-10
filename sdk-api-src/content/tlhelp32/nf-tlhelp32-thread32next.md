@@ -4,17 +4,16 @@ title: Thread32Next function
 author: windows-sdk-content
 description: Retrieves information about the next thread of any process encountered in the system memory snapshot.
 old-location: toolhelp\thread32next.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 5efe514e-626c-4138-97a0-bdad217c424f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Thread32Next, Thread32Next function [ToolHelp], _win32_thread32next, base.thread32next, tlhelp32/Thread32Next, toolhelp.thread32next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - Thread32Next
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Thread32Next function

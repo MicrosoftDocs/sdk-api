@@ -4,7 +4,7 @@ title: "_INSTALLSPECTYPE"
 author: windows-sdk-content
 description: The INSTALLSPECTYPE enumeration values define the ways a group policy application can be specified to the InstallApplication function. The values are used in the Type member of INSTALLDATA.
 old-location: policy\installspectype_enum.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INSTALLSPECTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - INSTALLSPECTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Apphelp.dll
-req.irql: 
+req.typenames: INSTALLSPECTYPE
+req.redist: 
 ---
 
 # _INSTALLSPECTYPE enumeration

@@ -4,17 +4,16 @@ title: MFEndRegisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfendregisterworkqueuewithmmcss.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 42d71e1a-a538-45d3-bbf4-1835db15bff9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMCSS, MFEndRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfendregisterworkqueuewithmmcss, mfapi/MFEndRegisterWorkQueueWithMMCSS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFEndRegisterWorkQueueWithMMCSS
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFEndRegisterWorkQueueWithMMCSS function

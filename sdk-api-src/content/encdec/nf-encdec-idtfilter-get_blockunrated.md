@@ -4,17 +4,16 @@ title: IDTFilter::get_BlockUnRated
 author: windows-sdk-content
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\idtfilter_get_blockunrated.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9b8ecc6b-02e8-47e9-a8df-6e73d58dd177
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRated method, IDTFilter.get_BlockUnRated, IDTFilter::get_BlockUnRated, IDTFilterget_BlockUnRated, encdec/IDTFilter::get_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter.get_BlockUnRated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter::get_BlockUnRated

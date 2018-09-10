@@ -4,7 +4,7 @@ title: ISCPSecureQuery
 author: windows-sdk-content
 description: The ISCPSecureQuery interface is queried by Windows Media Device Manager to determine ownership of secured content.
 old-location: wmdm\iscpsecurequery.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: d5f96629-26a1-4e83-a6a8-2d60c463f407
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISCPSecureQuery
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureQuery interface

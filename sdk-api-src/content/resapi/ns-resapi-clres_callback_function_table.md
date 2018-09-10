@@ -4,7 +4,7 @@ title: CLRES_CALLBACK_FUNCTION_TABLE
 author: windows-sdk-content
 description: Represents a function table for the StartupEx callback function.
 old-location: mscs\clres_callback_function_table.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1B67B70B-330D-4BA5-AA6C-408588868C76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLRES_CALLBACK_FUNCTION_TABLE, *PCLRES_CALLBACK_FUNCTION_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLRES_CALLBACK_FUNCTION_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLRES_CALLBACK_FUNCTION_TABLE, *PCLRES_CALLBACK_FUNCTION_TABLE
+req.redist: 
 ---
 
 # CLRES_CALLBACK_FUNCTION_TABLE structure

@@ -4,7 +4,7 @@ title: "_PROPERTY_METRICS"
 author: windows-sdk-content
 description: Defines the range and resolution of a packet property.
 old-location: tablet\property_metrics.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPERTY_METRICS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
+req.redist: 
 ---
 
 # _PROPERTY_METRICS structure

@@ -4,17 +4,16 @@ title: SHGetIDListFromObject function
 author: windows-sdk-content
 description: Retrieves the pointer to an item identifier list (PIDL) of an object.
 old-location: shell\SHGetIDListFromObject.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 42821075-8123-4bfa-a6ba-8d3a77a9f50b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SHGetIDListFromObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetIDListFromObject function

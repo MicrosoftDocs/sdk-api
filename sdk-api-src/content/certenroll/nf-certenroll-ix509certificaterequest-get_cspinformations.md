@@ -4,17 +4,16 @@ title: IX509CertificateRequest::get_CspInformations
 author: windows-sdk-content
 description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
 old-location: security\ix509certificaterequest_cspinformations_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest.get_CspInformations, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, get_CspInformations, security.ix509certificaterequest_cspinformations_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509CertificateRequest.put_CspInformations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequest::get_CspInformations

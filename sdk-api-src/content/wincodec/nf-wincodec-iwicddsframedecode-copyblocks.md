@@ -4,17 +4,16 @@ title: IWICDdsFrameDecode::CopyBlocks
 author: windows-sdk-content
 description: Requests pixel data as it is natively stored within the DDS file.
 old-location: wic\iwicddsframedecode_copyblocks.htm
-old-project: wic
+tech.root: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyBlocks, CopyBlocks method [Windows Imaging Component], CopyBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],CopyBlocks method, IWICDdsFrameDecode.CopyBlocks, IWICDdsFrameDecode::CopyBlocks, wic.iwicddsframedecode_copyblocks, wincodec/IWICDdsFrameDecode::CopyBlocks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICDdsFrameDecode.CopyBlocks
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICDdsFrameDecode::CopyBlocks

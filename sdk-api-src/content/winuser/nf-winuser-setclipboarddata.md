@@ -4,17 +4,16 @@ title: SetClipboardData function
 author: windows-sdk-content
 description: Places data on the clipboard in a specified clipboard format.
 old-location: dataxchg\setclipboarddata.htm
-old-project: dataxchg
+tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboarddata.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetClipboardData, SetClipboardData function [Data Exchange], _win32_SetClipboardData, _win32_setclipboarddata_cpp, dataxchg.setclipboarddata, winui._win32_setclipboarddata, winuser/SetClipboardData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - SetClipboardData
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetClipboardData function

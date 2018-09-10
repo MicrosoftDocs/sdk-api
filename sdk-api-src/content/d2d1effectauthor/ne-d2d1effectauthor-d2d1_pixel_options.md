@@ -4,7 +4,7 @@ title: D2D1_PIXEL_OPTIONS
 author: windows-sdk-content
 description: Indicates how pixel shader sampling will be restricted.
 old-location: direct2d\d2d1_pixel_options.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: D2d1.lib; D2d1.dll
-tech.root: 
-req.typenames: D2D1_PIXEL_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - D2D1_PIXEL_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_PIXEL_OPTIONS
+req.redist: 
 ---
 
 # D2D1_PIXEL_OPTIONS enumeration

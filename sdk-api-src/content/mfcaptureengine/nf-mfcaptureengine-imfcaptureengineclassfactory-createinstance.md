@@ -4,17 +4,16 @@ title: IMFCaptureEngineClassFactory::CreateInstance
 author: windows-sdk-content
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory_createinstance.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D5E7D96B-9438-4332-AD05-249D2DA2481A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFCaptureEngineClassFactory interface, IMFCaptureEngineClassFactory interface [Media Foundation],CreateInstance method, IMFCaptureEngineClassFactory.CreateInstance, IMFCaptureEngineClassFactory::CreateInstance, mf.imfcaptureengineclassfactory_createinstance, mfcaptureengine/IMFCaptureEngineClassFactory::CreateInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngineClassFactory.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngineClassFactory::CreateInstance

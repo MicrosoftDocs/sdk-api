@@ -4,17 +4,16 @@ title: IWICMetadataBlockWriter::GetWriterByIndex
 author: windows-sdk-content
 description: Retrieves the IWICMetadataWriter that resides at the specified index.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_getwriterbyindex.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 14c8acb1-484a-46ad-8a38-79a4b1cfe0d1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetWriterByIndex, GetWriterByIndex method [Windows Imaging Component], GetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],GetWriterByIndex method, IWICMetadataBlockWriter.GetWriterByIndex, IWICMetadataBlockWriter::GetWriterByIndex, _wic_codec_iwicmetadatablockwriter_getwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_getwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::GetWriterByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataBlockWriter.GetWriterByIndex
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataBlockWriter::GetWriterByIndex

@@ -4,7 +4,7 @@ title: KERB_CRYPTO_KEY
 author: windows-sdk-content
 description: Contains information about a Kerberos cryptographic session key.
 old-location: security\kerb_crypto_key.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: ac7ea61c-b1e0-4dc0-931e-81bb6fd74888
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_CRYPTO_KEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
+req.redist: 
 ---
 
 # KERB_CRYPTO_KEY structure

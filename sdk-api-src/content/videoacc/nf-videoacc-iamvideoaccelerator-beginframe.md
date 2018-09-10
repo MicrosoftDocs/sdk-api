@@ -4,17 +4,16 @@ title: IAMVideoAccelerator::BeginFrame
 author: windows-sdk-content
 description: The BeginFrame method begins the processing to create a decoded picture.
 old-location: dshow\iamvideoaccelerator_beginframe.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoAccelerator.BeginFrame
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoAccelerator::BeginFrame
@@ -63,7 +61,7 @@ The <b>BeginFrame</b> method begins the processing to create a decoded picture.
 
 ### -param amvaBeginFrameInfo
 
-
+TBD
 
 
 

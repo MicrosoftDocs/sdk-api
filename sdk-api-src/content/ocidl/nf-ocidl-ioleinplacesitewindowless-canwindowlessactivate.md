@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::CanWindowlessActivate
 author: windows-sdk-content
 description: Informs an object if its container can support it as a windowless object that can be in-place activated.
 old-location: com\ioleinplacesitewindowless_canwindowlessactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 8e2f2820-e8d7-4f0e-921d-4fc88feca15f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CanWindowlessActivate, CanWindowlessActivate method [COM], CanWindowlessActivate method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],CanWindowlessActivate method, IOleInPlaceSiteWindowless.CanWindowlessActivate, IOleInPlaceSiteWindowless::CanWindowlessActivate, _ole_ioleinplacesitewindowless_canwindowlessactivate, com.ioleinplacesitewindowless_canwindowlessactivate, ocidl/IOleInPlaceSiteWindowless::CanWindowlessActivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.CanWindowlessActivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::CanWindowlessActivate

@@ -4,17 +4,16 @@ title: ICrmCompensator::EndPrepare
 author: windows-sdk-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensator_endprepare.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 97dfdd8c-1a33-4173-aa71-cb9c9b1ef5ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EndPrepare, EndPrepare method [COM+], EndPrepare method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndPrepare method, ICrmCompensator.EndPrepare, ICrmCompensator::EndPrepare, _dtc_ICrmCompensator_EndPrepare, comsvcs/ICrmCompensator::EndPrepare, cos.icrmcompensator_endprepare
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmCompensator.EndPrepare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmCompensator::EndPrepare

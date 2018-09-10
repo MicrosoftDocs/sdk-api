@@ -4,17 +4,16 @@ title: ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1
 author: windows-sdk-content
 description: Sets the color space information for the video processor output surface.
 old-location: mf\id3d11videocontext1_videoprocessorsetoutputcolorspace1.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 8DDD17AD-997F-406F-B337-E2256F67FC66
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetOutputColorSpace1 method, ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1, ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1, VideoProcessorSetOutputColorSpace1, VideoProcessorSetOutputColorSpace1 method [Media Foundation], VideoProcessorSetOutputColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1, mf.id3d11videocontext1_videoprocessorsetoutputcolorspace1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1

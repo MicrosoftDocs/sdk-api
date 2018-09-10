@@ -4,17 +4,16 @@ title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
 author: windows-sdk-content
 description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbCAContractInformationDescriptor::GetContractVerificationInfo

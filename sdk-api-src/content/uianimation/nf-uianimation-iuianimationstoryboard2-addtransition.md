@@ -4,17 +4,16 @@ title: IUIAnimationStoryboard2::AddTransition
 author: windows-sdk-content
 description: Adds a transition to the storyboard.
 old-location: uianimation\iuianimationstoryboard2_addtransition.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransition method, IUIAnimationStoryboard2.AddTransition, IUIAnimationStoryboard2::AddTransition, uianimation.iuianimationstoryboard2_addtransition, uianimation/IUIAnimationStoryboard2::AddTransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationStoryboard2.AddTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationStoryboard2::AddTransition

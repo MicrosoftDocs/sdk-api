@@ -4,17 +4,16 @@ title: CreateIpNetEntry function
 author: windows-sdk-content
 description: The CreateIpNetEntry function creates an Address Resolution Protocol (ARP) entry in the ARP table on the local computer.
 old-location: iphlp\createipnetentry.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: 607f9aad-2046-4ab2-9a62-4092f87ffa66
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: CreateIpNetEntry, CreateIpNetEntry function [IP Helper], _iphlp_createipnetentry, iphlp.createipnetentry, iphlpapi/CreateIpNetEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateIpNetEntry
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CreateIpNetEntry function

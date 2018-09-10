@@ -4,17 +4,16 @@ title: IMFDXGIDeviceManager::LockDevice
 author: windows-sdk-content
 description: Gives the caller exclusive access to the Microsoft Direct3D device.
 old-location: mf\imfdxgidevicemanager_lockdevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EFB458D5-40A9-4729-9C22-B66FE76D5680
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],LockDevice method, IMFDXGIDeviceManager.LockDevice, IMFDXGIDeviceManager::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_lockdevice, mfobjects/IMFDXGIDeviceManager::LockDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDXGIDeviceManager.LockDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDXGIDeviceManager::LockDevice

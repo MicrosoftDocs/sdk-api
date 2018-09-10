@@ -4,7 +4,7 @@ title: "_KERB_EXTERNAL_NAME"
 author: windows-sdk-content
 description: Contains information about an external name.
 old-location: security\kerb_external_name.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_EXTERNAL_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
+req.redist: 
 ---
 
 # _KERB_EXTERNAL_NAME structure

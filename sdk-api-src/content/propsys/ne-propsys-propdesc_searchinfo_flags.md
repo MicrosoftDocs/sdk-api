@@ -4,7 +4,7 @@ title: PROPDESC_SEARCHINFO_FLAGS
 author: windows-sdk-content
 description: Determines whether and how a property is indexed by Windows Search.
 old-location: properties\PROPDESC_SEARCHINFO_FLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 49e858e3-0231-45ce-a5a8-a1c4536577a8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_SEARCHINFO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_SEARCHINFO_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_SEARCHINFO_FLAGS
+req.redist: 
 ---
 
 # PROPDESC_SEARCHINFO_FLAGS enumeration

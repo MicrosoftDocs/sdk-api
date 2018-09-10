@@ -4,17 +4,16 @@ title: IOleDocumentSite::ActivateMe
 author: windows-sdk-content
 description: Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.
 old-location: com\ioledocumentsite_activateme.htm
-old-project: com
+tech.root: com
 ms.assetid: 4e4a746d-460a-478e-9ca5-be5f63b03d17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDocumentSite interface, IOleDocumentSite interface [COM],ActivateMe method, IOleDocumentSite.ActivateMe, IOleDocumentSite::ActivateMe, _ole_ioledocumentsite_activateme, com.ioledocumentsite_activateme, docobj/IOleDocumentSite::ActivateMe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOleDocumentSite.ActivateMe
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOleDocumentSite::ActivateMe

@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_SCOPE_INFO6"
 author: windows-sdk-content
 description: Defines the data associated with a DHCP option scope.
 old-location: dhcp\dhcp_option_scope_info6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_SCOPE_INFO6, *LPDHCP_OPTION_SCOPE_INFO6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_SCOPE_INFO6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_SCOPE_INFO6, *LPDHCP_OPTION_SCOPE_INFO6
+req.redist: 
 ---
 
 # _DHCP_OPTION_SCOPE_INFO6 structure

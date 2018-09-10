@@ -4,17 +4,16 @@ title: IFsrmActionCommand::get_ExecutablePath
 author: windows-sdk-content
 description: Retrieves or sets the full path to the executable program or script to run.
 old-location: fsrm\ifsrmactioncommand_executablepath.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: c15b09e3-a8b6-4c73-82d7-8de7c2635f77
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExecutablePath property [File Server Resource Manager], ExecutablePath property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],ExecutablePath property, IFsrmActionCommand.ExecutablePath, IFsrmActionCommand.get_ExecutablePath, IFsrmActionCommand::ExecutablePath, IFsrmActionCommand::get_ExecutablePath, IFsrmActionCommand::put_ExecutablePath, fs.ifsrmactioncommand_executablepath, fsrm.ifsrmactioncommand_executablepath, fsrm/IFsrmActionCommand::ExecutablePath, fsrm/IFsrmActionCommand::get_ExecutablePath, fsrm/IFsrmActionCommand::put_ExecutablePath, get_ExecutablePath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmActionCommand.put_ExecutablePath
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmActionCommand::get_ExecutablePath

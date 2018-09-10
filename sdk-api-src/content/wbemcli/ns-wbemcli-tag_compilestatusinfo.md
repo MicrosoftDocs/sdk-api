@@ -4,7 +4,7 @@ title: tag_CompileStatusInfo
 author: windows-sdk-content
 description: Describes an error for the IMofCompiler interface.
 old-location: wmi\wbem_compile_status_info.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_COMPILE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,10 +39,8 @@ api_name:
  - WBEM_COMPILE_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_COMPILE_STATUS_INFO
+req.redist: 
 ---
 
 # tag_CompileStatusInfo structure

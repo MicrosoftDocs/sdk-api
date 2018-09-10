@@ -4,7 +4,7 @@ title: tagOLEVERB
 author: windows-sdk-content
 description: Defines a verb that an object supports. The IOleObject::EnumVerbs method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's IEnumOLEVERB.
 old-location: com\oleverb.htm
-old-project: com
+tech.root: com
 ms.assetid: 657e3cc3-67fb-4458-8dad-f2a31df1b631
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OleIdl.Idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEVERB, *LPOLEVERB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEVERB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEVERB, *LPOLEVERB
+req.redist: 
 ---
 
 # tagOLEVERB structure

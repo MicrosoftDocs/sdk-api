@@ -4,17 +4,16 @@ title: CryptHashData function
 author: windows-sdk-content
 description: Adds data to a specified hash object.
 old-location: security\crypthashdata.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CryptHashData
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptHashData function

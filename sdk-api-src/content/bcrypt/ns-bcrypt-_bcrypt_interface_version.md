@@ -4,7 +4,7 @@ title: "_BCRYPT_INTERFACE_VERSION"
 author: windows-sdk-content
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_INTERFACE_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
+req.redist: 
 ---
 
 # _BCRYPT_INTERFACE_VERSION structure

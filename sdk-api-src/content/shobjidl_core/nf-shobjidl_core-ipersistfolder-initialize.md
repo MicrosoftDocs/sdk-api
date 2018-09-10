@@ -4,17 +4,16 @@ title: IPersistFolder::Initialize
 author: windows-sdk-content
 description: Instructs a Shell folder object to initialize itself based on the information passed.
 old-location: shell\IPersistFolder_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 179f13c9-7306-4ed5-935e-2620616b46c1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IPersistFolder interface [Windows Shell],Initialize method, IPersistFolder.Initialize, IPersistFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPersistFolder interface, _win32_IPersistFolder_Initialize, shell.IPersistFolder_Initialize, shobjidl_core/IPersistFolder::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFolder.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFolder::Initialize

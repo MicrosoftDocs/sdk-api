@@ -4,17 +4,16 @@ title: ISensorDataReport::GetSensorValue
 author: windows-sdk-content
 description: Retrieves a single data field value from the data report.
 old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensorDataReport.GetSensorValue
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensorDataReport::GetSensorValue

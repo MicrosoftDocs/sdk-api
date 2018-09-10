@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0015"
 author: windows-sdk-content
 description: The MPEG_PACKET_LIST structure contains a list of MPEG-2 sections.
 old-location: mstv\mpeg_packet_list.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 83131e71-3e06-4d42-9f71-f2da95400b63
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_PACKET_LIST, *PMPEG_PACKET_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG_PACKET_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG_PACKET_LIST, *PMPEG_PACKET_LIST
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mpeg2structs_0000_0000_0015 structure

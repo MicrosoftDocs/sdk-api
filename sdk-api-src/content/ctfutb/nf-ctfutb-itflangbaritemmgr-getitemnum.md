@@ -4,17 +4,16 @@ title: ITfLangBarItemMgr::GetItemNum
 author: windows-sdk-content
 description: ITfLangBarItemMgr::GetItemNum method
 old-location: tsf\itflangbaritemmgr_getitemnum.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0caf54b1-f862-4fc2-b593-c0e9f60d71cc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetItemNum, GetItemNum method [Text Services Framework], GetItemNum method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemNum method, ITfLangBarItemMgr.GetItemNum, ITfLangBarItemMgr::GetItemNum, _tsf_itflangbaritemmgr_getitemnum_ref, ctfutb/ITfLangBarItemMgr::GetItemNum, tsf.itflangbaritemmgr_getitemnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemMgr.GetItemNum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemMgr::GetItemNum

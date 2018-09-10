@@ -4,17 +4,16 @@ title: IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity
 author: windows-sdk-content
 description: Computes the effective permissions by using the secondary security for an object.
 old-location: security\ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 03B73103-D7C0-4BA2-B315-3CC0049B1B8E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComputeEffectivePermissionWithSecondarySecurity, ComputeEffectivePermissionWithSecondarySecurity method [Security], ComputeEffectivePermissionWithSecondarySecurity method [Security],IEffectivePermission2 interface, IEffectivePermission2 interface [Security],ComputeEffectivePermissionWithSecondarySecurity method, IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity, IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, aclui/IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, security.ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity

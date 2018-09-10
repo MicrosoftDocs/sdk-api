@@ -4,17 +4,16 @@ title: INetFwOpenPort::get_IpVersion
 author: windows-sdk-content
 description: Specifies the IP version setting for this port.
 old-location: ics\inetfwopenport_ipversion.htm
-old-project: ics
+tech.root: ics
 ms.assetid: fb5dfb78-fc0d-4dca-850a-683046b4e2a3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],IpVersion property, INetFwOpenPort.IpVersion, INetFwOpenPort.get_IpVersion, INetFwOpenPort::IpVersion, INetFwOpenPort::get_IpVersion, INetFwOpenPort::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwOpenPort interface, get_IpVersion, ics.inetfwopenport_ipversion, netfw/INetFwOpenPort::IpVersion, netfw/INetFwOpenPort::get_IpVersion, netfw/INetFwOpenPort::put_IpVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwOpenPort.put_IpVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwOpenPort::get_IpVersion

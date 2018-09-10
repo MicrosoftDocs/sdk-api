@@ -4,17 +4,16 @@ title: IEnumAgent::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagent_next.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 68a7842c-557a-4da4-aa2b-e7c15a6d4f4a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Next method, IEnumAgent.Next, IEnumAgent::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_next, tapi3.ienumagent_next, tapi3cc/IEnumAgent::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumAgent.Next
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumAgent::Next

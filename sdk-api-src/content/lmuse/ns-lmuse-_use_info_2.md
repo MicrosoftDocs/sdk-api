@@ -4,7 +4,7 @@ title: "_USE_INFO_2"
 author: windows-sdk-content
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 old-location: netmgmt\use_info_2_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmuse.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USE_INFO_2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
+req.redist: 
 ---
 
 # _USE_INFO_2 structure

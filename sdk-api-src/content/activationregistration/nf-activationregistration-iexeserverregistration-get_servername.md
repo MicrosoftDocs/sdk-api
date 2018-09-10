@@ -4,17 +4,16 @@ title: IExeServerRegistration::get_ServerName
 author: windows-sdk-content
 description: Gets the name of the current out-of-process server.
 old-location: winrt\iexeserverregistration_servername.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: CB7CAA65-4DA9-4948-AEB4-150A45629947
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ServerName method, IExeServerRegistration.get_ServerName, IExeServerRegistration::get_ServerName, activationregistration/IExeServerRegistration::get_ServerName, get_ServerName, get_ServerName method [Windows Runtime], get_ServerName method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_servername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerRegistration.get_ServerName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerRegistration::get_ServerName

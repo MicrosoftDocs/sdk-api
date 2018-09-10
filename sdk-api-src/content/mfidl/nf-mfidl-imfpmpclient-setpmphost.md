@@ -4,17 +4,16 @@ title: IMFPMPClient::SetPMPHost
 author: windows-sdk-content
 description: Provides a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient_setpmphost.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: d6e48f36-7896-4e6d-ba10-d8c0288ccffc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFPMPClient interface [Media Foundation],SetPMPHost method, IMFPMPClient.SetPMPHost, IMFPMPClient::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClient interface, d6e48f36-7896-4e6d-ba10-d8c0288ccffc, mf.imfpmpclient_setpmphost, mfidl/IMFPMPClient::SetPMPHost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFPMPClient.SetPMPHost
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMPClient::SetPMPHost

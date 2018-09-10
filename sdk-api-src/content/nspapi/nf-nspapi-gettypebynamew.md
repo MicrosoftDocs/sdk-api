@@ -4,17 +4,16 @@ title: GetTypeByNameW function
 author: windows-sdk-content
 description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
 old-location: winsock\gettypebyname_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetTypeByNameW
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetTypeByNameW function

@@ -4,17 +4,16 @@ title: IMFTimedTextNotify::Cue
 author: windows-sdk-content
 description: Called when a cue event occurs in a text track.
 old-location: mf\imftimedtextnotify_cue.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: EE577250-2D75-4130-BA50-95D3E455A574
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: Cue, Cue method [Media Foundation], Cue method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Cue method, IMFTimedTextNotify.Cue, IMFTimedTextNotify::Cue, mf.imftimedtextnotify_cue, mfmediaengine/IMFTimedTextNotify::Cue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextNotify.Cue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextNotify::Cue
@@ -76,7 +74,7 @@ The current time when the cue event occurred.
 
 ### -param cue
 
-
+TBD
 
 
 

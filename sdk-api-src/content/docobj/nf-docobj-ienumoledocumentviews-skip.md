@@ -4,17 +4,16 @@ title: IEnumOleDocumentViews::Skip
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoledocumentviews_skip.htm
-old-project: com
+tech.root: com
 ms.assetid: ea853e5a-ea73-441f-9b13-0425a4d734ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Skip method, IEnumOleDocumentViews.Skip, IEnumOleDocumentViews::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_skip, com.ienumoledocumentviews_skip, docobj/IEnumOleDocumentViews::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOCMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumOleDocumentViews.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOleDocumentViews::Skip

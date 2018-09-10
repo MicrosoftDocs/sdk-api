@@ -4,17 +4,16 @@ title: RemoveClusterResourceDependency function
 author: windows-sdk-content
 description: Removes a dependency relationship between two resources.
 old-location: mscs\removeclusterresourcedependency.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3640ad8d-db0d-4e55-bff0-35fb5d26776f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], RemoveClusterResourceDependency, RemoveClusterResourceDependency function [Failover Cluster], _wolf_removeclusterresourcedependency, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, clusapi/RemoveClusterResourceDependency, mscs.removeclusterresourcedependency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - RemoveClusterResourceDependency
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveClusterResourceDependency function

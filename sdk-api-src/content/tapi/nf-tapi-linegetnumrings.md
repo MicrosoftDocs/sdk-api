@@ -4,17 +4,16 @@ title: lineGetNumRings function
 author: windows-sdk-content
 description: The lineGetNumRings function determines the number of rings an incoming call on the given address should ring prior to answering the call.
 old-location: tapi2\linegetnumrings.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 7aee6396-6045-4e7b-9df9-3729159ea4b2
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_linegetnumrings, lineGetNumRings, lineGetNumRings function [TAPI 2.2], tapi/lineGetNumRings, tapi2.linegetnumrings"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - lineGetNumRings
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # lineGetNumRings function

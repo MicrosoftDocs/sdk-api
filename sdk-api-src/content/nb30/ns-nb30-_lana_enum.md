@@ -4,7 +4,7 @@ title: "_LANA_ENUM"
 author: windows-sdk-content
 description: The LANA_ENUM structure contains the numbers for the current LAN adapters.
 old-location: netbios\lana_enum.htm
-old-project: NetBIOS
+tech.root: NetBIOS
 ms.assetid: 19a16eae-8c3e-4c4e-957b-41f22b61e51b
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LANA_ENUM, *PLANA_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LANA_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: LANA_ENUM, *PLANA_ENUM
+req.redist: 
 ---
 
 # _LANA_ENUM structure

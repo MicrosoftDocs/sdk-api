@@ -4,17 +4,16 @@ title: IRangeValueProvider::get_IsReadOnly
 author: windows-sdk-content
 description: Indicates whether the value of a control is read-only.
 old-location: winauto\uiauto_IRangeValueProvider_IsReadOnly.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 5edb8de2-3c42-4df4-b6f8-5dd0e812d749
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],IsReadOnly property, IRangeValueProvider.IsReadOnly, IRangeValueProvider.get_IsReadOnly, IRangeValueProvider::IsReadOnly, IRangeValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IRangeValueProvider interface, get_IsReadOnly, uiauto.uiauto_IRangeValueProvider_IsReadOnly, uiauto_IRangeValueProvider_IsReadOnly, uiautomationcore/IRangeValueProvider::IsReadOnly, uiautomationcore/IRangeValueProvider::get_IsReadOnly, winauto.uiauto_IRangeValueProvider_IsReadOnly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRangeValueProvider.get_IsReadOnly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRangeValueProvider::get_IsReadOnly

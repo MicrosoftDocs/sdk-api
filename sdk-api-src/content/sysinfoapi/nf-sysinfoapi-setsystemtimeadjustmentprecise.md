@@ -4,17 +4,16 @@ title: SetSystemTimeAdjustmentPrecise function
 author: windows-sdk-content
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustmentprecise.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-version-l1-2-3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetSystemTimeAdjustmentPrecise
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Api-ms-win-core-version-l1-2-3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SetSystemTimeAdjustmentPrecise function

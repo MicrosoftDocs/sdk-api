@@ -4,17 +4,16 @@ title: IWMPMediaCollection2::createQuery
 author: windows-sdk-content
 description: The createQuery method retrieves a pointer to an IWMPQuery interface that represents a new query.
 old-location: wmp\iwmpmediacollection2_createquery.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],createQuery method, IWMPMediaCollection2.createQuery, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPMediaCollection2.createQuery
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMediaCollection2::createQuery

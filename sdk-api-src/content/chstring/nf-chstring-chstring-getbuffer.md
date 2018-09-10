@@ -4,17 +4,16 @@ title: CHString::GetBuffer
 author: windows-sdk-content
 description: The GetBuffer method returns a pointer to the internal character buffer for the CHString object.
 old-location: wmi\chstring_getbuffer.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 07fa7cae-8af6-491b-a561-8947afde47ab
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetBuffer@CHString@@QAEPAGH@Z, ?GetBuffer@CHString@@QEAAPEAGH@Z, CHString interface [Windows Management Instrumentation],GetBuffer method, CHString.GetBuffer, CHString::GetBuffer, GetBuffer, GetBuffer method [Windows Management Instrumentation], GetBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getbuffer, chstring/CHString::GetBuffer, wmi.chstring_getbuffer"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ?GetBuffer@CHString@@QEAAPEAGH@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::GetBuffer

@@ -4,7 +4,7 @@ title: "_GDIINFO"
 author: windows-sdk-content
 description: The GDIINFO structure describes the graphics capabilities of a given device.
 old-location: display\gdiinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GDIINFO, *PGDIINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GDIINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GDIINFO, *PGDIINFO
+req.redist: 
 ---
 
 # _GDIINFO structure

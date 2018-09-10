@@ -4,17 +4,16 @@ title: IStylusPlugin::TabletRemoved
 author: windows-sdk-content
 description: Notifies an implementing plug-in when an ITablet object is removed from the system.
 old-location: tablet\istylusplugin_tabletremoved.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPlugin.TabletRemoved, IStylusPlugin::TabletRemoved, TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC],IStylusPlugin interface, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStylusPlugin.TabletRemoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStylusPlugin::TabletRemoved

@@ -4,7 +4,7 @@ title: "_VSS_PROTECTION_FAULT"
 author: windows-sdk-content
 description: Defines the set of shadow copy protection faults.
 old-location: base\vss_protection_fault.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 65310c38-9fad-49ed-acf4-dacfa3947130
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_FAULT, *PVSS_PROTECTION_FAULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_PROTECTION_FAULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_PROTECTION_FAULT, *PVSS_PROTECTION_FAULT
+req.redist: 
 ---
 
 # _VSS_PROTECTION_FAULT enumeration

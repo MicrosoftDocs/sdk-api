@@ -4,7 +4,7 @@ title: MOUSE_WHEEL_PARAMETER
 author: windows-sdk-content
 description: Specifies the manipulations that can be mapped to mouse wheel rotation.
 old-location: input_intcontext\mouse_wheel_parameter.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: eafc5d3a-f547-45a2-9634-caf309e583f3
 ms.author: windowssdkdev
 ms.date: 05/09/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOUSE_WHEEL_PARAMETER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MOUSE_WHEEL_PARAMETER
+req.redist: 
 ---
 
 # MOUSE_WHEEL_PARAMETER enumeration

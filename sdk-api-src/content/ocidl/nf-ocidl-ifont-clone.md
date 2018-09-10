@@ -4,17 +4,16 @@ title: IFont::Clone
 author: windows-sdk-content
 description: Creates a duplicate font object.
 old-location: com\ifont_clone.htm
-old-project: com
+tech.root: com
 ms.assetid: de5da0d1-338a-455c-a04b-99dc025b95bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IFont interface, IFont interface [COM],Clone method, IFont.Clone, IFont::Clone, _ctrl_ifont_clone, com.ifont_clone, ocidl/IFont::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::Clone

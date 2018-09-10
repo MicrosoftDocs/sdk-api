@@ -4,7 +4,7 @@ title: "_CRYPT_IMAGE_REG"
 author: windows-sdk-content
 description: Contains image registration information about a CNG provider.
 old-location: security\crypt_image_reg.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: d7dc3bd8-3957-4a4c-9959-dc22505e129a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_IMAGE_REG, *PCRYPT_IMAGE_REG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_IMAGE_REG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_IMAGE_REG, *PCRYPT_IMAGE_REG
+req.redist: 
 ---
 
 # _CRYPT_IMAGE_REG structure

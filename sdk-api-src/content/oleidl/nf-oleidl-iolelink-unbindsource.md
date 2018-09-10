@@ -4,17 +4,16 @@ title: IOleLink::UnbindSource
 author: windows-sdk-content
 description: Breaks the connection between a linked object and its link source.
 old-location: com\iolelink_unbindsource.htm
-old-project: com
+tech.root: com
 ms.assetid: 3a678944-b4ba-47d8-9a89-470762efc6f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleLink interface [COM],UnbindSource method, IOleLink.UnbindSource, IOleLink::UnbindSource, UnbindSource, UnbindSource method [COM], UnbindSource method [COM],IOleLink interface, _ole_iolelink_unbindsource, com.iolelink_unbindsource, oleidl/IOleLink::UnbindSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleLink.UnbindSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleLink::UnbindSource

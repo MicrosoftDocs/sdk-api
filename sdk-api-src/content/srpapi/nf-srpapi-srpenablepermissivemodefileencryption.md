@@ -4,17 +4,16 @@ title: SrpEnablePermissiveModeFileEncryption function
 author: windows-sdk-content
 description: Enables permissive mode for file encryption on the current thread and all threads this thread will create or post work to.
 old-location: edp\srpenablepermissivemodefileencryption_.htm
-old-project: EDP
+tech.root: EDP
 ms.assetid: 4CC6D174-55FC-40D7-BE7B-5F56B27DA225
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EDP.srpenablepermissivemodefileencryption_, SrpEnablePermissiveModeFileEncryption, SrpEnablePermissiveModeFileEncryption , SrpEnablePermissiveModeFileEncryption function, srpapi/SrpEnablePermissiveModeFileEncryption
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENTERPRISE_DATA_POLICIES
+req.lib: Srpapi.lib
+req.dll: Srpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SrpEnablePermissiveModeFileEncryption
 product: Windows
 targetos: Windows
-req.lib: Srpapi.lib
-req.dll: Srpapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SrpEnablePermissiveModeFileEncryption function

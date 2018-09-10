@@ -4,17 +4,16 @@ title: MprConfigTransportCreate function
 author: windows-sdk-content
 description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
 old-location: rras\mprconfigtransportcreate.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprConfigTransportCreate
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprConfigTransportCreate function

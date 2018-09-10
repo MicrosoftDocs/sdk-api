@@ -4,17 +4,16 @@ title: SetWindowExtEx function
 author: windows-sdk-content
 description: The SetWindowExtEx function sets the horizontal and vertical extents of the window for a device context by using the specified values.
 old-location: gdi\setwindowextex.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SetWindowExtEx
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SetWindowExtEx function

@@ -4,17 +4,16 @@ title: IMetaDataImport::GetNameFromToken
 author: windows-sdk-content
 description: Gets the UTF-8 name of the object referenced by the specified metadata token. This method is obsolete.
 old-location: winrt\imetadataimport_getnamefromtoken.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 933d502a-c752-45ae-b51f-8c0a876856bc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNameFromToken, GetNameFromToken method [Windows Runtime], GetNameFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNameFromToken method, IMetaDataImport.GetNameFromToken, IMetaDataImport::GetNameFromToken, rometadataapi/IMetaDataImport::GetNameFromToken, winrt.imetadataimport_getnamefromtoken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetNameFromToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetNameFromToken

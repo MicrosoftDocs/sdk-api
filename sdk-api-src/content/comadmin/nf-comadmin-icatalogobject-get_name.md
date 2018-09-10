@@ -4,17 +4,16 @@ title: ICatalogObject::get_Name
 author: windows-sdk-content
 description: Retrieves the name property of the object.
 old-location: cos\icatalogobject_name.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 604b2d11-b204-4f78-8cf2-e13f594299b7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatalogObject interface [COM+],Name property, ICatalogObject.Name, ICatalogObject.get_Name, ICatalogObject::Name, ICatalogObject::get_Name, Name property [COM+], Name property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Name, comadmin/ICatalogObject::Name, comadmin/ICatalogObject::get_Name, cos.icatalogobject_name, get_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICatalogObject.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogObject::get_Name

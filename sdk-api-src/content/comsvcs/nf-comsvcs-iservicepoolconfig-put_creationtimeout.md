@@ -4,17 +4,16 @@ title: IServicePoolConfig::put_CreationTimeout
 author: windows-sdk-content
 description: Sets the time-out interval for activating a pooled object.
 old-location: cos\iservicepoolconfig_put_creationtimeout.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 04beabf7-831d-4c53-880e-f1fc22f2f20d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_CreationTimeout method, IServicePoolConfig.put_CreationTimeout, IServicePoolConfig::put_CreationTimeout, comsvcs/IServicePoolConfig::put_CreationTimeout, cos.iservicepoolconfig_put_creationtimeout, put_CreationTimeout, put_CreationTimeout method [COM+], put_CreationTimeout method [COM+],IServicePoolConfig interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePoolConfig.put_CreationTimeout
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePoolConfig::put_CreationTimeout

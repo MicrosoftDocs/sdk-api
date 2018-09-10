@@ -4,17 +4,16 @@ title: CM_Get_Device_ID_ListW function
 author: windows-sdk-content
 description: The CM_Get_Device_ID_List function retrieves a list of device instance IDs for the local computer's device instances.
 old-location: devinst\cm_get_device_id_list.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: CfgMgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CM_Get_Device_ID_ListW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: CfgMgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Device_ID_ListW function

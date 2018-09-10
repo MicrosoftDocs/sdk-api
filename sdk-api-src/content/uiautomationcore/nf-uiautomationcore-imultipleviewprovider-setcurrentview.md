@@ -4,17 +4,16 @@ title: IMultipleViewProvider::SetCurrentView
 author: windows-sdk-content
 description: Sets the current control-specific view.
 old-location: winauto\uiauto_IMultipleViewProvider_SetCurrentView.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: dfa652be-b6b6-44e3-b06a-8ead56f17d2d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentView method, IMultipleViewProvider.SetCurrentView, IMultipleViewProvider::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IMultipleViewProvider interface, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMultipleViewProvider.SetCurrentView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMultipleViewProvider::SetCurrentView

@@ -4,17 +4,16 @@ title: IPortableDeviceServiceCapabilities::GetEventParameterAttributes
 author: windows-sdk-content
 description: Retrieves the attributes of an event parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventparameterattributes.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: f842dc94-440f-4488-80e3-b10bf72e6269
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetEventParameterAttributes, GetEventParameterAttributes method [Windows Portable Devices SDK], GetEventParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventParameterAttributes method, IPortableDeviceServiceCapabilities.GetEventParameterAttributes, IPortableDeviceServiceCapabilities::GetEventParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceServiceCapabilities::GetEventParameterAttributes
@@ -62,7 +60,7 @@ The <b>GetEventParameterAttributes</b> method retrieves the attributes of an eve
 
 ### -param Event
 
-
+TBD
 
 
 ### -param ppAttributes [out]

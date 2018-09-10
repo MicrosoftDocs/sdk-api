@@ -4,17 +4,16 @@ title: INetSharingPrivateConnectionCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get__newenum.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 526da220-5999-4b84-b617-26edf23c15ab
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPrivateConnectionCollection.get__NewEnum, INetSharingPrivateConnectionCollection::get__NewEnum, _ics_inetsharingprivateconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get__newenum, netcon/INetSharingPrivateConnectionCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingPrivateConnectionCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingPrivateConnectionCollection::get__NewEnum

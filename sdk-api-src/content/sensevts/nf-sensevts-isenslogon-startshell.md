@@ -4,17 +4,16 @@ title: ISensLogon::StartShell
 author: windows-sdk-content
 description: The StartShell method notifies an application that the shell is started.
 old-location: sens\isenslogon_startshell.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 0bde3bda-c0ed-4303-b6c1-dd667e9b7504
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShell, ISensLogon::StartShell, StartShell, StartShell method [SENS], StartShell method [SENS],ISensLogon interface, _zaw_isenslogon_startshell, sens.isenslogon_startshell, sensevts/ISensLogon::StartShell, syncmgr.isenslogon_startshell
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon.StartShell
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon::StartShell

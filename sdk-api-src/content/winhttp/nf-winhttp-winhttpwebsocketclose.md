@@ -4,17 +4,16 @@ title: WinHttpWebSocketClose function
 author: windows-sdk-content
 description: Closes a WebSocket connection.
 old-location: http\winhttpwebsocketclose.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: bbfde3db-d9a7-4fce-9d8b-6b57f9e432e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpWebSocketClose, WinHttpWebSocketClose function [WinHTTP], http.winhttpwebsocketclose, winhttp/WinHttpWebSocketClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpWebSocketClose
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpWebSocketClose function

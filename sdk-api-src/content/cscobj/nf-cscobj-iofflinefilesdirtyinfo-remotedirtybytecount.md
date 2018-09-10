@@ -4,17 +4,16 @@ title: IOfflineFilesDirtyInfo::RemoteDirtyByteCount
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesdirtyinfo_remotedirtybytecount.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 3913dc9d-f640-407d-b3b9-77b33f26e726
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],RemoteDirtyByteCount method, IOfflineFilesDirtyInfo.RemoteDirtyByteCount, IOfflineFilesDirtyInfo::RemoteDirtyByteCount, RemoteDirtyByteCount, RemoteDirtyByteCount method [Offline Files], RemoteDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::RemoteDirtyByteCount, of.iofflinefilesdirtyinfo_remotedirtybytecount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesDirtyInfo.RemoteDirtyByteCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesDirtyInfo::RemoteDirtyByteCount

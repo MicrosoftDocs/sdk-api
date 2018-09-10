@@ -4,17 +4,16 @@ title: PeerDistClientStreamRead function
 author: windows-sdk-content
 description: PeerDistClientStreamRead reads a sequence of bytes from content stream.
 old-location: p2p\peerdistclientstreamread.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientStreamRead, PeerDistClientStreamRead function [Peer Networking], p2p.peerdistclientstreamread, peerdist/PeerDistClientStreamRead
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+req.lib: PeerDist.lib
+req.dll: PeerDist.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerDistClientStreamRead
 product: Windows
 targetos: Windows
-req.lib: PeerDist.lib
-req.dll: PeerDist.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerDistClientStreamRead function

@@ -4,7 +4,7 @@ title: "_MPR_SERVER_SET_CONFIG_EX0"
 author: windows-sdk-content
 description: Used to get or set the tunnel configuration information of a RAS server.
 old-location: rras\mpr_server_set_config_ex.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 6c993c9c-4522-4758-926a-fa7ef2a89418
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_SERVER_SET_CONFIG_EX0, *PMPR_SERVER_SET_CONFIG_EX0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_SERVER_SET_CONFIG_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_SERVER_SET_CONFIG_EX0, *PMPR_SERVER_SET_CONFIG_EX0
+req.redist: 
 ---
 
 # _MPR_SERVER_SET_CONFIG_EX0 structure

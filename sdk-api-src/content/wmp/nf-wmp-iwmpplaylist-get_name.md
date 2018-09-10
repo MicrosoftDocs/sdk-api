@@ -4,17 +4,16 @@ title: IWMPPlaylist::get_name
 author: windows-sdk-content
 description: The get_name method retrieves the name of the playlist.
 old-location: wmp\iwmpplaylist_get_name.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_name method, IWMPPlaylist.get_name, IWMPPlaylist::get_name, IWMPPlaylistget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_name, wmp/IWMPPlaylist::get_name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPPlaylist.get_name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPPlaylist::get_name

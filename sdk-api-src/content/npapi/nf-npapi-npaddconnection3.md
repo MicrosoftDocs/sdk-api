@@ -4,17 +4,16 @@ title: NPAddConnection3 function
 author: windows-sdk-content
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection3.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b0d730f7-595e-4ea7-8688-db479dcc40b4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NPAddConnection3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NPAddConnection3 function

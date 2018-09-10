@@ -4,17 +4,16 @@ title: IComponentTypes::put_Item
 author: windows-sdk-content
 description: The put_Item method replaces the ComponentType object at the specified index with a new ComponentType object.
 old-location: mstv\icomponenttypes_put_item.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1f38e844-d197-40c1-8715-ffe406274b3c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],put_Item method, IComponentTypes.put_Item, IComponentTypes::put_Item, IComponentTypesput_Item, mstv.icomponenttypes_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponentTypes interface, tuner/IComponentTypes::put_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentTypes.put_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentTypes::put_Item
@@ -70,7 +68,7 @@ Index number of the item to be replaced.
 
 ### -param ComponentType
 
-
+TBD
 
 
 

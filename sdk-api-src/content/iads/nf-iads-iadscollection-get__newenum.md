@@ -4,17 +4,16 @@ title: IADsCollection::get__NewEnum
 author: windows-sdk-content
 description: The IADsCollection::get__NewEnum method gets a dependent enumerator object that implements IEnumVARIANT for this ADSI collection object. Be aware that there are two underscore characters in the function name (get__NewEnum).
 old-location: adsi\iadscollection_get__newenum.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: db2630d0-26be-4cf1-811e-fc1d2007dda5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsCollection interface [ADSI],get__NewEnum method, IADsCollection.get__NewEnum, IADsCollection::get__NewEnum, _ds_iadscollection_get__newenum, adsi.iadscollection__get____newenum, adsi.iadscollection_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsCollection interface, iads/IADsCollection::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsCollection.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsCollection::get__NewEnum

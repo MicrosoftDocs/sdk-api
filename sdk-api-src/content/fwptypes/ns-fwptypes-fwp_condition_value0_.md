@@ -4,7 +4,7 @@ title: FWP_CONDITION_VALUE0_
 author: windows-sdk-content
 description: Contains values that are used in filter conditions when testing for matching filters.
 old-location: fwp\fwp_condition_value0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_CONDITION_VALUE0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_CONDITION_VALUE0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_CONDITION_VALUE0
+req.redist: 
 ---
 
 # FWP_CONDITION_VALUE0_ structure

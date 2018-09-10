@@ -4,17 +4,16 @@ title: ICertEncodeAltName::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName interface [Security],SetNameEntry method, ICertEncodeAltName.SetNameEntry, ICertEncodeAltName::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeAltName object, SetNameEntry method [Security],ICertEncodeAltName interface, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeAltName.SetNameEntry
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeAltName::SetNameEntry

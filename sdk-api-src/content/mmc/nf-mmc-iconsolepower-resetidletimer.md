@@ -4,17 +4,16 @@ title: IConsolePower::ResetIdleTimer
 author: windows-sdk-content
 description: The ResetIdleTimer method resets the specified power management idle timers.
 old-location: mmc\iconsolepower_resetidletimer.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 83de4b7f-3214-4354-a4a0-721054e2e899
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],ResetIdleTimer method, IConsolePower.ResetIdleTimer, IConsolePower::ResetIdleTimer, ResetIdleTimer, ResetIdleTimer method [MMC], ResetIdleTimer method [MMC],IConsolePower interface, _slate_iconsolepower_resetidletimer, mmc.iconsolepower_resetidletimer, mmc/IConsolePower::ResetIdleTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConsolePower.ResetIdleTimer
 product: Windows
 targetos: Windows
-req.lib: Mmc.lib
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IConsolePower::ResetIdleTimer

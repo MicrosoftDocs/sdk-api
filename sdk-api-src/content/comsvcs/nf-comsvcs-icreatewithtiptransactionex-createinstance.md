@@ -4,17 +4,16 @@ title: ICreateWithTipTransactionEx::CreateInstance
 author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 old-location: cos\icreatewithtiptransactionex_createinstance.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 3f0572eb-8633-4dc3-a013-9cf859241cd7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ICreateWithTipTransactionEx interface, ICreateWithTipTransactionEx interface [COM+],CreateInstance method, ICreateWithTipTransactionEx.CreateInstance, ICreateWithTipTransactionEx::CreateInstance, _dtc_ICreateWithTipTransactionEx_CreateInstance, comsvcs/ICreateWithTipTransactionEx::CreateInstance, cos.icreatewithtiptransactionex_createinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICreateWithTipTransactionEx.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICreateWithTipTransactionEx::CreateInstance

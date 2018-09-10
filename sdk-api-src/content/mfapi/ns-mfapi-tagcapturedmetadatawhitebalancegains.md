@@ -4,7 +4,7 @@ title: tagCapturedMetadataWhiteBalanceGains
 author: windows-sdk-content
 description: This structure describes the blob format for the MF_CAPTURE_METADATA_WHITEBALANCE_GAINS attribute.
 old-location: stream\capturedmetadatawhitebalancegains.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1F844204-0709-4203-80C5-C90949F96159
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CapturedMetadataWhiteBalanceGains
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CapturedMetadataWhiteBalanceGains
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CapturedMetadataWhiteBalanceGains
+req.redist: 
 ---
 
 # tagCapturedMetadataWhiteBalanceGains structure

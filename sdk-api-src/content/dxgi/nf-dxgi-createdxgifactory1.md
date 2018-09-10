@@ -4,17 +4,16 @@ title: CreateDXGIFactory1 function
 author: windows-sdk-content
 description: Creates a DXGI 1.1 factory that you can use to generate other DXGI objects.
 old-location: direct3ddxgi\createdxgifactory1.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 6fb9d7a3-0b59-4b7a-8871-b99d59811d46
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateDXGIFactory1, CreateDXGIFactory1 function [DXGI], cbbcd6f0-23c8-ef1c-0d0c-2b56092eb8b1, direct3ddxgi.createdxgifactory1, dxgi/CreateDXGIFactory1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: Dxgi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateDXGIFactory1
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDXGIFactory1 function

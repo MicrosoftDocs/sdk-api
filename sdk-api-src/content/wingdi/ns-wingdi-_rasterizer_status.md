@@ -4,7 +4,7 @@ title: "_RASTERIZER_STATUS"
 author: windows-sdk-content
 description: The RASTERIZER_STATUS structure contains information about whether TrueType is installed. This structure is filled when an application calls the GetRasterizerCaps function.
 old-location: gdi\rasterizer_status.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 40bb4b59-90a4-4780-ae5f-fef8a6fa62cb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASTERIZER_STATUS, *LPRASTERIZER_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RASTERIZER_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: RASTERIZER_STATUS, *LPRASTERIZER_STATUS
+req.redist: 
 ---
 
 # _RASTERIZER_STATUS structure

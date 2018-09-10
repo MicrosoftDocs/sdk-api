@@ -4,17 +4,16 @@ title: IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
 author: windows-sdk-content
 description: Receives the maximum number of multicast streams per transmission used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_multistreamstreamcount.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 34dd6dc0-3ff9-4dc3-9805-8fbfa972c4e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],MultistreamStreamCount property, IWdsTransportMulticastSessionPolicy.MultistreamStreamCount, IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount, MultistreamStreamCount property [Windows Deployment Services], MultistreamStreamCount property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_MultistreamStreamCount, wds.iwdstransportmulticastsessionpolicy_multistreamstreamcount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportMulticastSessionPolicy::put_MultistreamStreamCount

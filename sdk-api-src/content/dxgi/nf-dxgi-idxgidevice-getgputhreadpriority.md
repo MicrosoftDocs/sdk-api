@@ -4,17 +4,16 @@ title: IDXGIDevice::GetGPUThreadPriority
 author: windows-sdk-content
 description: Gets the GPU thread priority.
 old-location: direct3ddxgi\idxgidevice_getgputhreadpriority.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getgputhreadpriority.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetGPUThreadPriority, GetGPUThreadPriority method [DXGI], GetGPUThreadPriority method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetGPUThreadPriority method, IDXGIDevice.GetGPUThreadPriority, IDXGIDevice::GetGPUThreadPriority, direct3ddxgi.idxgidevice_getgputhreadpriority, dxgi/IDXGIDevice::GetGPUThreadPriority, fbea5e3b-9023-68ed-7a86-b421d1d2cf36
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_EFFECT
+req.lib: DXGI.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIDevice.GetGPUThreadPriority
 product: Windows
 targetos: Windows
-req.lib: DXGI.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIDevice::GetGPUThreadPriority

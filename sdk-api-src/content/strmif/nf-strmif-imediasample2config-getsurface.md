@@ -4,17 +4,16 @@ title: IMediaSample2Config::GetSurface
 author: windows-sdk-content
 description: The GetSurface method returns a pointer to the Direct3D surface managed by this media sample.
 old-location: dshow\imediasample2config_getsurface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c53306ec-cb5c-4f55-afb0-de72386a166d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IMediaSample2Config interface, IMediaSample2Config interface [DirectShow],GetSurface method, IMediaSample2Config.GetSurface, IMediaSample2Config::GetSurface, IMediaSample2ConfigGetSurface, dshow.imediasample2config_getsurface, strmif/IMediaSample2Config::GetSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSample2Config.GetSurface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSample2Config::GetSurface

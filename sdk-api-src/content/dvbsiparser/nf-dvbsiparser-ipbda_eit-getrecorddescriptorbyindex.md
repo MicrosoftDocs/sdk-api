@@ -4,17 +4,16 @@ title: IPBDA_EIT::GetRecordDescriptorByIndex
 author: windows-sdk-content
 description: Retrieves a descriptor for a specified record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 96ca5a6b-c515-4854-8e95-9cb155879b3b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPBDA_EIT.GetRecordDescriptorByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPBDA_EIT::GetRecordDescriptorByIndex

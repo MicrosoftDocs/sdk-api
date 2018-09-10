@@ -4,17 +4,16 @@ title: IAudioVolumeDuckNotification::OnVolumeDuckNotification
 author: windows-sdk-content
 description: The OnVolumeDuckNotification method sends a notification about a pending system ducking event.
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeducknotification.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioVolumeDuckNotification.OnVolumeDuckNotification
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioVolumeDuckNotification::OnVolumeDuckNotification
@@ -66,7 +65,7 @@ A string containing the session instance identifier of the communications sessio
 
 ### -param countCommunicationSessions
 
-
+TBD
 
 
 

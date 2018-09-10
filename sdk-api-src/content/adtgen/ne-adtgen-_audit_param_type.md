@@ -4,7 +4,7 @@ title: "_AUDIT_PARAM_TYPE"
 author: windows-sdk-content
 description: Defines the type of audit parameters that are available.
 old-location: security\audit_param_type.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1ECC866A-2DD3-4EE4-B2CC-7F5ADF7FFC99
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: adtgen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIT_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AUDIT_PARAM_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AUDIT_PARAM_TYPE
+req.redist: 
 ---
 
 # _AUDIT_PARAM_TYPE enumeration

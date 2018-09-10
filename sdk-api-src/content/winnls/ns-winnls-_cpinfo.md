@@ -4,7 +4,7 @@ title: "_cpinfo"
 author: windows-sdk-content
 description: Contains information about a code page. This structure is used by the GetCPInfo function.
 old-location: intl\cpinfo.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CPINFO, *LPCPINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CPINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CPINFO, *LPCPINFO
+req.redist: 
 ---
 
 # _cpinfo structure

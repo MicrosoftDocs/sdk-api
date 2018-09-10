@@ -4,7 +4,7 @@ title: "_MIB_OPAQUE_QUERY"
 author: windows-sdk-content
 description: Contains information for a MIB opaque query.
 old-location: mib\mib_opaque_query.htm
-old-project: mib
+tech.root: mib
 ms.assetid: cd87cbe4-3da4-4205-9a88-becf4f341ab5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_OPAQUE_QUERY, *PMIB_OPAQUE_QUERY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_OPAQUE_QUERY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MIB_OPAQUE_QUERY, *PMIB_OPAQUE_QUERY
+req.redist: 
 ---
 
 # _MIB_OPAQUE_QUERY structure

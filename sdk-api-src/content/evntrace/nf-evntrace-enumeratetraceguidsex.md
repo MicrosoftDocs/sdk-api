@@ -4,17 +4,16 @@ title: EnumerateTraceGuidsEx function
 author: windows-sdk-content
 description: Use this function to retrieve information about trace providers that are registered on the computer.
 old-location: etw\enumeratetraceguidsex.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - EnumerateTraceGuidsEx
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EnumerateTraceGuidsEx function

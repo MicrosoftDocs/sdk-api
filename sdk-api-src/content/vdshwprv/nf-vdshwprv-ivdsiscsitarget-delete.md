@@ -4,17 +4,16 @@ title: IVdsIscsiTarget::Delete
 author: windows-sdk-content
 description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
 old-location: base\ivdsiscsitarget_delete.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiTarget.Delete
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiTarget::Delete

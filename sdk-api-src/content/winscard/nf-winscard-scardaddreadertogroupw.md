@@ -4,17 +4,16 @@ title: SCardAddReaderToGroupW function
 author: windows-sdk-content
 description: Adds a reader to a reader group.
 old-location: security\scardaddreadertogroup.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SCardAddReaderToGroupW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardAddReaderToGroupW function

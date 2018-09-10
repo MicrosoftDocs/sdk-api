@@ -4,17 +4,16 @@ title: ICertRequest3::GetIssuedCertificate2
 author: windows-sdk-content
 description: Retrieves a certificate's disposition by specifying either the request ID string or the certificate serial number.
 old-location: security\icertrequest3_getissuedcertificate2.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c311acaf-983b-4d61-a674-0fc6b475d212
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate2 method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate2, GetIssuedCertificate2 method [Security], GetIssuedCertificate2 method [Security],CCertRequest object, GetIssuedCertificate2 method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetIssuedCertificate2 method, ICertRequest3.GetIssuedCertificate2, ICertRequest3::GetIssuedCertificate2, certcli/ICertRequest3::GetIssuedCertificate2, security.icertrequest3_getissuedcertificate2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertRequest.GetIssuedCertificate2
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertRequest3::GetIssuedCertificate2

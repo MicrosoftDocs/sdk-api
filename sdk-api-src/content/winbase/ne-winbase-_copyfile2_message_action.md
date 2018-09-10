@@ -4,7 +4,7 @@ title: "_COPYFILE2_MESSAGE_ACTION"
 author: windows-sdk-content
 description: Returned by the CopyFile2ProgressRoutine callback function to indicate what action should be taken for the pending copy operation.
 old-location: fs\copyfile2_message_action.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 0beae28e-f493-4ae1-a4d9-3df69de166b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPYFILE2_MESSAGE_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPYFILE2_MESSAGE_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: COPYFILE2_MESSAGE_ACTION
+req.redist: 
 ---
 
 # _COPYFILE2_MESSAGE_ACTION enumeration

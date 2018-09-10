@@ -4,17 +4,16 @@ title: ITQOSEvent::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method gets the media type indicator.
 old-location: tapi3\itqosevent_get_mediatype.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0f062eea-386d-4f25-8d51-88adbce1aefe
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_MediaType method, ITQOSEvent.get_MediaType, ITQOSEvent::get_MediaType, _tapi3_itqosevent_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_mediatype, tapi3if/ITQOSEvent::get_MediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITQOSEvent.get_MediaType
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITQOSEvent::get_MediaType

@@ -4,17 +4,16 @@ title: ITfLangBarItemBitmapButton::DrawBitmap
 author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::DrawBitmap method
 old-location: tsf\itflangbaritembitmapbutton_drawbitmap.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 412b2e74-0569-4f72-bc8e-23edec72ea35
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmapButton.DrawBitmap, ITfLangBarItemBitmapButton::DrawBitmap, _tsf_itflangbaritembitmapbutton_drawbitmap_ref, ctfutb/ITfLangBarItemBitmapButton::DrawBitmap, tsf.itflangbaritembitmapbutton_drawbitmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemBitmapButton.DrawBitmap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemBitmapButton::DrawBitmap

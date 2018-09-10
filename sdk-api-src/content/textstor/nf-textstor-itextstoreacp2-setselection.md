@@ -4,17 +4,16 @@ title: ITextStoreACP2::SetSelection
 author: windows-sdk-content
 description: Selects text within the document. The application must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_setselection.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 0ed72ddd-523e-476a-ba4c-bbfef9483015
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetSelection method, ITextStoreACP2.SetSelection, ITextStoreACP2::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::SetSelection, tsf.itextstoreacp2_setselection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP2.SetSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoreACP2::SetSelection

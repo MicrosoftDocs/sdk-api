@@ -4,17 +4,16 @@ title: IGuideData::GetScheduleEntryProperties
 author: windows-sdk-content
 description: The GetScheduleEntryProperties method retrieves the properties for a specified schedule entry.
 old-location: mstv\iguidedata_getscheduleentryproperties.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryProperties method, IGuideData.GetScheduleEntryProperties, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGuideData.GetScheduleEntryProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGuideData::GetScheduleEntryProperties

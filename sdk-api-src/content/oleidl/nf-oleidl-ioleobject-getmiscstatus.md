@@ -4,17 +4,16 @@ title: IOleObject::GetMiscStatus
 author: windows-sdk-content
 description: Retrieves the status of an object at creation and loading.
 old-location: com\ioleobject_getmiscstatus.htm
-old-project: com
+tech.root: com
 ms.assetid: 0c5e9f73-8eec-48e0-a172-4d3d49e56071
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [COM],IOleObject interface, IOleObject interface [COM],GetMiscStatus method, IOleObject.GetMiscStatus, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.GetMiscStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::GetMiscStatus

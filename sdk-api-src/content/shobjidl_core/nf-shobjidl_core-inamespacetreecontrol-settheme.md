@@ -4,17 +4,16 @@ title: INameSpaceTreeControl::SetTheme
 author: windows-sdk-content
 description: Sets the desktop theme for the current window only.
 old-location: shell\INameSpaceTreeControl_SetTheme.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1b518d58-716b-4ae1-8633-e43117363541
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetTheme method, INameSpaceTreeControl.SetTheme, INameSpaceTreeControl::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetTheme, shell.INameSpaceTreeControl_SetTheme, shobjidl_core/INameSpaceTreeControl::SetTheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl.SetTheme
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl::SetTheme

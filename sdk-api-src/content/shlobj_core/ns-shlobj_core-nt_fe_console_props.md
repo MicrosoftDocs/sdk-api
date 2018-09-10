@@ -4,7 +4,7 @@ title: NT_FE_CONSOLE_PROPS
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds the console's code page.
 old-location: shell\NT_FE_CONSOLE_PROPS_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2f22676d-2b46-4a94-9517-64d1caeead43
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NT_FE_CONSOLE_PROPS, *LPNT_FE_CONSOLE_PROPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NT_FE_CONSOLE_PROPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: NT_FE_CONSOLE_PROPS, *LPNT_FE_CONSOLE_PROPS
+req.redist: 
 ---
 
 # NT_FE_CONSOLE_PROPS structure

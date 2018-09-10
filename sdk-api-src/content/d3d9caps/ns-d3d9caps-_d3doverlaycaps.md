@@ -4,7 +4,7 @@ title: "_D3DOVERLAYCAPS"
 author: windows-sdk-content
 description: Specifies hardware overlay capabilities for a Direct3D device.
 old-location: mf\d3doverlaycaps.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4d9e031d-af01-4b8a-b90c-9d83b09c24da
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d9caps.h
 req.include-header: D3d9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DOVERLAYCAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3DOVERLAYCAPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3DOVERLAYCAPS
+req.redist: 
 ---
 
 # _D3DOVERLAYCAPS structure

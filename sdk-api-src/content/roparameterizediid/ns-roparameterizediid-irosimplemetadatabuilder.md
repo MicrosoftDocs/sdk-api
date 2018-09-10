@@ -4,7 +4,7 @@ title: IRoSimpleMetaDataBuilder
 author: windows-sdk-content
 description: Provides a metadata locator with a destination for the metadata it has discovered.
 old-location: winrt\irosimplemetadatabuilder_struct.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 031B9F9B-FF77-4524-87B7-D786459569C3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRoSimpleMetaDataBuilder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRoSimpleMetaDataBuilder structure

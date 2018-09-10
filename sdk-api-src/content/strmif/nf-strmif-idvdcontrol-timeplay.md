@@ -4,17 +4,16 @@ title: IDvdControl::TimePlay
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Plays the media file with the specified title index, starting at the specified time.
 old-location: dshow\idvdcontrol_timeplay.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 56b4b086-e315-486c-8dbd-97960f5b76d1
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],TimePlay method, IDvdControl.TimePlay, IDvdControl::TimePlay, IDvdControlTimePlay, TimePlay, TimePlay method [DirectShow], TimePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timeplay, strmif/IDvdControl::TimePlay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvdControl.TimePlay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl::TimePlay
@@ -67,7 +65,7 @@ Plays the media file with the specified title index, starting at the specified t
 
 ### -param ulTitle
 
-
+TBD
 
 
 ### -param bcdTime

@@ -4,17 +4,16 @@ title: IGPMMigrationTable::Save
 author: windows-sdk-content
 description: Saves the migration table currently in memory in a specified location.
 old-location: gpmc\igpmmigrationtable_save.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: ce33306a-c72f-4231-a19c-eb733d87b361
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMMigrationTable class [GPMC],Save method, IGPMMigrationTable interface [GPMC],Save method, IGPMMigrationTable.Save, IGPMMigrationTable::Save, Save, Save method [GPMC], Save method [GPMC],GPMMigrationTable class, Save method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_save, gpmgmt/IGPMMigrationTable::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::Save

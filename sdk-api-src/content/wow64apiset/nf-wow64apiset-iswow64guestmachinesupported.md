@@ -4,17 +4,16 @@ title: IsWow64GuestMachineSupported function
 author: windows-sdk-content
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 old-location: base\iswow64guestmachinesupported.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wow64apiset.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
+req.lib: Kernel32.dll
+req.dll: Kernel32.lib
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsWow64GuestMachineSupported
 product: Windows
 targetos: Windows
-req.lib: Kernel32.dll
-req.dll: Kernel32.lib
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IsWow64GuestMachineSupported function

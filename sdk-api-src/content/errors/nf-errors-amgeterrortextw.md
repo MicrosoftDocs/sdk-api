@@ -4,17 +4,16 @@ title: AMGetErrorTextW function
 author: windows-sdk-content
 description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.
 old-location: dshow\amgeterrortext.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTextA, AMGetErrorTextW, dshow.amgeterrortext, errors/AMGetErrorText
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: errors.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: Quartz.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AMGetErrorText
 product: Windows
 targetos: Windows
-req.lib: Quartz.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # AMGetErrorTextW function

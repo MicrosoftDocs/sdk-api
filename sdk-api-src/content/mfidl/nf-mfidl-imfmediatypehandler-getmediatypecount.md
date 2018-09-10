@@ -4,17 +4,16 @@ title: IMFMediaTypeHandler::GetMediaTypeCount
 author: windows-sdk-content
 description: Retrieves the number of media types in the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypecount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeCount method, IMFMediaTypeHandler.GetMediaTypeCount, IMFMediaTypeHandler::GetMediaTypeCount, c5ee41bc-ee8b-4990-ae9d-92ef54597f31, mf.imfmediatypehandler_getmediatypecount, mfidl/IMFMediaTypeHandler::GetMediaTypeCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaTypeHandler.GetMediaTypeCount
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaTypeHandler::GetMediaTypeCount

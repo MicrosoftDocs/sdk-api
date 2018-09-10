@@ -4,7 +4,7 @@ title: "_MSV1_0_PROTOCOL_MESSAGE_TYPE"
 author: windows-sdk-content
 description: Lists the types of messages that can be sent to the MSV1_0 Authentication Package by calling the LsaCallAuthenticationPackage function.
 old-location: security\msv1_0_protocol_message_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9498558c-8daf-4dfb-aa1c-0598154ca8c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MSV1_0_PROTOCOL_MESSAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
+req.redist: 
 ---
 
 # _MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration

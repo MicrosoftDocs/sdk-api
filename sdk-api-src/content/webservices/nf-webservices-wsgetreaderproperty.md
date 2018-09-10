@@ -4,17 +4,16 @@ title: WsGetReaderProperty function
 author: windows-sdk-content
 description: This function returns a property of the specified XML Reader.
 old-location: wsw\wsgetreaderproperty.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 32a42d65-c551-4a40-b44d-5ef44e782d30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsGetReaderProperty, WsGetReaderProperty function [Web Services for Windows], webservices/WsGetReaderProperty, wsw.wsgetreaderproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetReaderProperty
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetReaderProperty function

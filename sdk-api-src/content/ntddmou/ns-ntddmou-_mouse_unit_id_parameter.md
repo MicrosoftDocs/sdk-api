@@ -4,7 +4,7 @@ title: "_MOUSE_UNIT_ID_PARAMETER"
 author: windows-sdk-content
 description: MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
 old-location: hid\mouse_unit_id_parameter.htm
-old-project: hid
+tech.root: hid
 ms.assetid: c121e9af-29c3-4638-9c21-2dc45c572858
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_UNIT_ID_PARAMETER, *PMOUSE_UNIT_ID_PARAMETER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MOUSE_UNIT_ID_PARAMETER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MOUSE_UNIT_ID_PARAMETER, *PMOUSE_UNIT_ID_PARAMETER
+req.redist: 
 ---
 
 # _MOUSE_UNIT_ID_PARAMETER structure

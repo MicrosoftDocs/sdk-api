@@ -4,17 +4,16 @@ title: WsDateTimeToFileTime function
 author: windows-sdk-content
 description: Converts a WS_DATETIME object into a FILETIME object. A reference to the FILETIME object is returned by output parameter.
 old-location: wsw\wsdatetimetofiletime.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 19e987d8-fe20-4bc6-a887-77bc1cfa65cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsDateTimeToFileTime, WsDateTimeToFileTime function [Web Services for Windows], webservices/WsDateTimeToFileTime, wsw.wsdatetimetofiletime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsDateTimeToFileTime
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsDateTimeToFileTime function

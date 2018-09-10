@@ -4,17 +4,16 @@ title: AddFontResourceA function
 author: windows-sdk-content
 description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
 old-location: gdi\addfontresource.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - AddFontResourceW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AddFontResourceA function

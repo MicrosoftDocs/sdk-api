@@ -4,17 +4,16 @@ title: InterlockedCompareExchange128 function
 author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 128-bit values and exchanges with another 128-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange128.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedCompareExchange128
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedCompareExchange128 function

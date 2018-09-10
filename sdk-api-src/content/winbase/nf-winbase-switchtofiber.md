@@ -4,17 +4,16 @@ title: SwitchToFiber function
 author: windows-sdk-content
 description: Schedules a fiber. The function must be called on a fiber.
 old-location: base\switchtofiber.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 020a8c97-848d-4b33-9cfb-77e5bff644fd
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: SwitchToFiber, SwitchToFiber function, _win32_switchtofiber, base.switchtofiber, winbase/SwitchToFiber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - SwitchToFiber
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SwitchToFiber function

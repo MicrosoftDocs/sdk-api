@@ -4,7 +4,7 @@ title: ITfSpeechUIServer
 author: windows-sdk-content
 description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.
 old-location: tsf\itfspeechuiserver.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_LMLATTELEMENT
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfSpeechUIServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfSpeechUIServer interface

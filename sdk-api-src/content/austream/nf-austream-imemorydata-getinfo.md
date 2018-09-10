@@ -4,17 +4,16 @@ title: IMemoryData::GetInfo
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves information describing an audio data object.
 old-location: dshow\imemorydata_getinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IMemoryData.GetInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMemoryData::GetInfo

@@ -4,17 +4,16 @@ title: IMFSinkWriter::SendStreamTick
 author: windows-sdk-content
 description: Indicates a gap in an input stream.
 old-location: mf\imfsinkwriter_sendstreamtick.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3b4b76b7-1a39-4323-94e7-0b2d159a8038
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, IMFSinkWriter.SendStreamTick, IMFSinkWriter::SendStreamTick, SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update Supplement for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_SOURCE_READER_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSinkWriter.SendStreamTick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSinkWriter::SendStreamTick

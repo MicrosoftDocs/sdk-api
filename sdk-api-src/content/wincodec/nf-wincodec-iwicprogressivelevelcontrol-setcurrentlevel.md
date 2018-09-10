@@ -4,17 +4,16 @@ title: IWICProgressiveLevelControl::SetCurrentLevel
 author: windows-sdk-content
 description: Specifies the level to retrieve on the next call to CopyPixels.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_setcurrentlevel.htm
-old-project: wic
+tech.root: wic
 ms.assetid: b4a2c279-385d-4177-bd8f-a49f545c692a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICProgressiveLevelControl interface [Windows Imaging Component],SetCurrentLevel method, IWICProgressiveLevelControl.SetCurrentLevel, IWICProgressiveLevelControl::SetCurrentLevel, SetCurrentLevel, SetCurrentLevel method [Windows Imaging Component], SetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, _wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wincodec/IWICProgressiveLevelControl::SetCurrentLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: 
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICProgressiveLevelControl.SetCurrentLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICProgressiveLevelControl::SetCurrentLevel

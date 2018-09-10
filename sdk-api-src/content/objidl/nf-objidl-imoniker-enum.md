@@ -4,17 +4,16 @@ title: IMoniker::Enum
 author: windows-sdk-content
 description: Retrieves a pointer to an enumerator for the components of a composite moniker.
 old-location: com\imoniker_enum.htm
-old-project: com
+tech.root: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMoniker.Enum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMoniker::Enum

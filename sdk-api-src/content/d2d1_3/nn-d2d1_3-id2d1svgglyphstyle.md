@@ -4,7 +4,7 @@ title: ID2D1SvgGlyphStyle
 author: windows-sdk-content
 description: This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
 old-location: direct2d\id2d1svgglyphstyle.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: FE01771A-D82A-4610-8014-E0C0C0C5402E
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgGlyphStyle
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgGlyphStyle interface

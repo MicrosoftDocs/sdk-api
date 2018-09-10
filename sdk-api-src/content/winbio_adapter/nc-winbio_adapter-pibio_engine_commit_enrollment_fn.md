@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_COMMIT_ENROLLMENT_FN
 author: windows-sdk-content
 description: Finalizes the enrollment object, converts it to a template, and saves the template in the database.
 old-location: secbiomet\engineadaptercommitenrollment.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: f8eb3dd9-b993-4b45-b7f4-e1925c233a80
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterCommitEnrollment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_COMMIT_ENROLLMENT_FN callback function

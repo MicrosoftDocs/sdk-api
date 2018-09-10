@@ -4,17 +4,16 @@ title: IUIAnimationInterpolator::GetDependencies
 author: windows-sdk-content
 description: Gets the aspects of the interpolator that depend on the initial value or velocity passed to SetInitialValueAndVelocity, or that depend on the duration passed to SetDuration.
 old-location: uianimation\iuianimationinterpolator_getdependencies.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationInterpolator.GetDependencies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationInterpolator::GetDependencies

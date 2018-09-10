@@ -4,17 +4,16 @@ title: WinBioEnumDatabases function
 author: windows-sdk-content
 description: Enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioenumdatabases.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
+req.lib: Winbio.lib
+req.dll: Winbio.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WinBioEnumDatabases
 product: Windows
 targetos: Windows
-req.lib: Winbio.lib
-req.dll: Winbio.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinBioEnumDatabases function

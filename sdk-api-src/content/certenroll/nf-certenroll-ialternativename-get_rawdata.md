@@ -4,17 +4,16 @@ title: IAlternativeName::get_RawData
 author: windows-sdk-content
 description: Retrieves the Distinguished Encoding Rules (DER) encoded byte array that contains the name.
 old-location: security\ialternativename_rawdata_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7385654d-03f8-4796-a95c-000fa8ab65a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAlternativeName interface [Security],RawData property, IAlternativeName.RawData, IAlternativeName.get_RawData, IAlternativeName::RawData, IAlternativeName::get_RawData, RawData property [Security], RawData property [Security],IAlternativeName interface, certenroll/IAlternativeName::RawData, certenroll/IAlternativeName::get_RawData, get_RawData, security.ialternativename_rawdata_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAlternativeName.get_RawData
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAlternativeName::get_RawData

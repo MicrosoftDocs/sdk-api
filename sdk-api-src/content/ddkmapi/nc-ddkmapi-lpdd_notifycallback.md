@@ -4,7 +4,7 @@ title: LPDD_NOTIFYCALLBACK
 author: windows-sdk-content
 description: The NotifyCallback callback function performs operations related to an event that occurred.
 old-location: display\notifycallback.htm
-old-project: display
+tech.root: display
 ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NotifyCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDD_NOTIFYCALLBACK callback function

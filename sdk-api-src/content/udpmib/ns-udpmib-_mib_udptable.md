@@ -4,7 +4,7 @@ title: "_MIB_UDPTABLE"
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
 old-location: mib\mib_udptable.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_UDPTABLE, *PMIB_UDPTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - MIB_UDPTABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_UDPTABLE, *PMIB_UDPTABLE
+req.redist: 
 ---
 
 # _MIB_UDPTABLE structure

@@ -4,17 +4,16 @@ title: ITaskService::NewTask
 author: windows-sdk-content
 description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
 old-location: taskschd\itaskservice_newtask.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskService.NewTask
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskService::NewTask

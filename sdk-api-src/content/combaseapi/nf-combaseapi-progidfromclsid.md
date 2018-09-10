@@ -4,17 +4,16 @@ title: ProgIDFromCLSID function
 author: windows-sdk-content
 description: Retrieves the ProgID for a given CLSID.
 old-location: com\progidfromclsid.htm
-old-project: com
+tech.root: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - ProgIDFromCLSID
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ProgIDFromCLSID function

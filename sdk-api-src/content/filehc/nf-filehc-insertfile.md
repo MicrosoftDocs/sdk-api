@@ -4,17 +4,16 @@ title: InsertFile function
 author: windows-sdk-content
 description: Inserts a file into the cache.
 old-location: winprog\_insertfile.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
+req.lib: Fcachdll.lib
+req.dll: Fcachdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InsertFile
 product: Windows
 targetos: Windows
-req.lib: Fcachdll.lib
-req.dll: Fcachdll.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # InsertFile function

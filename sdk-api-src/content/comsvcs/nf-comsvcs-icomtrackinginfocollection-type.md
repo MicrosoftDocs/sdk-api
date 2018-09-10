@@ -4,17 +4,16 @@ title: IComTrackingInfoCollection::Type
 author: windows-sdk-content
 description: Retrieves the type of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_type.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Type method, IComTrackingInfoCollection.Type, IComTrackingInfoCollection::Type, Type, Type method [COM+], Type method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Type, comsvcs/IComTrackingInfoCollection::Type, cos.icomtrackinginfocollection_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTrackingInfoCollection.Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTrackingInfoCollection::Type

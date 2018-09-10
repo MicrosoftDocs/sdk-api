@@ -4,7 +4,7 @@ title: lineforwardlist_tag
 author: windows-sdk-content
 description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
 old-location: tapi2\lineforwardlist_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEFORWARDLIST, *LPLINEFORWARDLIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEFORWARDLIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEFORWARDLIST, *LPLINEFORWARDLIST
+req.redist: 
 ---
 
 # lineforwardlist_tag structure

@@ -4,7 +4,7 @@ title: "_MMC_MENU_COMMAND_IDS"
 author: windows-sdk-content
 description: The MMC_MENU_COMMAND_IDS enumeration defines the Command Identifiers that are reserved by MMC.
 old-location: mmc\mmc_menu_command_ids.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 4e3e4289-ced2-4d94-af5e-e01a3d7afa32
 ms.author: windowssdkdev
 ms.date: 08/14/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_MENU_COMMAND_IDS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MMC_MENU_COMMAND_IDS
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MMC_MENU_COMMAND_IDS
+req.redist: 
 ---
 
 # _MMC_MENU_COMMAND_IDS enumeration

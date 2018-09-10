@@ -4,17 +4,16 @@ title: IMbnPin::Change
 author: windows-sdk-content
 description: Changes the PIN.
 old-location: mbn\imbnpin_change.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: cf4fac68-65c8-456e-8381-e3f582fc836c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Change, Change method [Microsoft Broadband Networks], Change method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Change method, IMbnPin.Change, IMbnPin::Change, mbn.imbnpin_change, mbnapi/IMbnPin::Change
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnPin.Change
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPin::Change

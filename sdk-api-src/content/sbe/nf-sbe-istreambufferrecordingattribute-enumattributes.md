@@ -4,17 +4,16 @@ title: IStreamBufferRecordingAttribute::EnumAttributes
 author: windows-sdk-content
 description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.
 old-location: mstv\istreambufferrecordingattribute_enumattributes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],EnumAttributes method, IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStreamBufferRecordingAttribute.EnumAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IStreamBufferRecordingAttribute::EnumAttributes

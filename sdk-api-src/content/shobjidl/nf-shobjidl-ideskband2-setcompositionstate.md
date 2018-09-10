@@ -4,17 +4,16 @@ title: IDeskBand2::SetCompositionState
 author: windows-sdk-content
 description: Sets the composition state.
 old-location: shell\IDeskBand2_SetCompositionState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 183cc6fa-4dc4-4272-8d61-a0a426aeefda
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDeskBand2 interface [Windows Shell],SetCompositionState method, IDeskBand2.SetCompositionState, IDeskBand2::SetCompositionState, SetCompositionState, SetCompositionState method [Windows Shell], SetCompositionState method [Windows Shell],IDeskBand2 interface, _shell_IDeskBand2_SetCompositionState, shell.IDeskBand2_SetCompositionState, shobjidl/IDeskBand2::SetCompositionState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDeskBand2.SetCompositionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IDeskBand2::SetCompositionState

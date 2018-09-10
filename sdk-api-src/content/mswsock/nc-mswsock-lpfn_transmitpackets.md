@@ -4,7 +4,7 @@ title: LPFN_TRANSMITPACKETS
 author: windows-sdk-content
 description: Transmits in-memory data or file data over a connected socket.
 old-location: winsock\transmitpackets_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mswsock.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPFN_TRANSMITPACKETS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # LPFN_TRANSMITPACKETS callback function

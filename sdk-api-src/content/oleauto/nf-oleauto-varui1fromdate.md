@@ -4,17 +4,16 @@ title: VarUI1FromDate function
 author: windows-sdk-content
 description: Converts a date value to an unsigned char value.
 old-location: automat\varui1fromdate.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 0085fef8-183d-4754-b831-30ee26f9c37d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarUI1FromDate, VarUI1FromDate function [Automation], _oa96_VarUI1FromDate, automat.varui1fromdate, oleauto/VarUI1FromDate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarUI1FromDate
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarUI1FromDate function

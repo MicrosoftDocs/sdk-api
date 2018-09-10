@@ -4,17 +4,16 @@ title: SetupDiGetClassDevPropertySheetsA function
 author: windows-sdk-content
 description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set.
 old-location: devinst\setupdigetclassdevpropertysheets.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: cf5e8511-37be-4fb8-bded-b9b1e6bd247b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassDevPropertySheets, SetupDiGetClassDevPropertySheets function [Device and Driver Installation], SetupDiGetClassDevPropertySheetsA, SetupDiGetClassDevPropertySheetsW, devinst.setupdigetclassdevpropertysheets, di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml, setupapi/SetupDiGetClassDevPropertySheets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiGetClassDevPropertySheets
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetClassDevPropertySheetsA function

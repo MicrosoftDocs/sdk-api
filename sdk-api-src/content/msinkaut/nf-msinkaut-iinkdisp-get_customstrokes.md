@@ -4,17 +4,16 @@ title: IInkDisp::get_CustomStrokes
 author: windows-sdk-content
 description: Gets the collection of custom strokes to be persisted with the ink.
 old-location: tablet\inkdisp_customstrokes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 33425e5b-2ba0-4026-ab19-33579e7bb9f5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 33425e5b-2ba0-4026-ab19-33579e7bb9f5, CustomStrokes property [Tablet PC], CustomStrokes property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CustomStrokes property, IInkDisp.CustomStrokes, IInkDisp.get_CustomStrokes, IInkDisp::CustomStrokes, IInkDisp::get_CustomStrokes, InkDisp.get_CustomStrokes, get_CustomStrokes, msinkaut/IInkDisp::CustomStrokes, msinkaut/IInkDisp::get_CustomStrokes, tablet.inkdisp_customstrokes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InkDisp.get_CustomStrokes
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::get_CustomStrokes

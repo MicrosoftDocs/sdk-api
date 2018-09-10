@@ -4,17 +4,16 @@ title: IShellIconOverlayManager::GetFileOverlayInfo
 author: windows-sdk-content
 description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes.
 old-location: shell\IShellIconOverlayManager_GetFileOverlayInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0dd918a4-64c7-4d7a-846c-0751e23c05a2
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileOverlayInfo, GetFileOverlayInfo method [Windows Shell], GetFileOverlayInfo method [Windows Shell],IShellIconOverlayManager interface, IShellIconOverlayManager interface [Windows Shell],GetFileOverlayInfo method, IShellIconOverlayManager.GetFileOverlayInfo, IShellIconOverlayManager::GetFileOverlayInfo, _win32_IShellIconOverlayManager_GetFileOverlayInfo, shell.IShellIconOverlayManager_GetFileOverlayInfo, shlobj_core/IShellIconOverlayManager::GetFileOverlayInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellIconOverlayManager.GetFileOverlayInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellIconOverlayManager::GetFileOverlayInfo

@@ -4,17 +4,16 @@ title: SetupDiInstallClassExA function
 author: windows-sdk-content
 description: The SetupDiInstallClassEx function installs a class installer or an interface class.
 old-location: devinst\setupdiinstallclassex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiInstallClassEx
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiInstallClassExA function

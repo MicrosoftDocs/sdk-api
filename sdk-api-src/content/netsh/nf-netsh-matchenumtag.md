@@ -4,17 +4,16 @@ title: MatchEnumTag function
 author: windows-sdk-content
 description: Searches a table of legal values to find a value that matches a specific token.
 old-location: netshell\matchenumtag.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NS_REQS
+req.lib: Netsh.lib
+req.dll: Netsh.exe
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MatchEnumTag
 product: Windows
 targetos: Windows
-req.lib: Netsh.lib
-req.dll: Netsh.exe
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MatchEnumTag function

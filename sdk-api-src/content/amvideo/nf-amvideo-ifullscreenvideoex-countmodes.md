@@ -4,17 +4,16 @@ title: IFullScreenVideoEx::CountModes
 author: windows-sdk-content
 description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.
 old-location: dshow\ifullscreenvideoex_countmodes.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: CountModes, CountModes method [DirectShow], CountModes method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoCountModes, IFullScreenVideoEx interface [DirectShow],CountModes method, IFullScreenVideoEx.CountModes, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IFullScreenVideoEx.CountModes
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IFullScreenVideoEx::CountModes

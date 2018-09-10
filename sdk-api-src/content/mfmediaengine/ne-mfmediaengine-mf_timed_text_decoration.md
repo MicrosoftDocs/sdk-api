@@ -4,7 +4,7 @@ title: MF_TIMED_TEXT_DECORATION
 author: windows-sdk-content
 description: Specifies how text is decorated (underlined and so on).
 old-location: mf\mf_timed_text_decoration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: CA2AFC99-F30F-4AFC-928A-45EA7218B851
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfmediaengine.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_TIMED_TEXT_DECORATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_TIMED_TEXT_DECORATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_TIMED_TEXT_DECORATION
+req.redist: 
 ---
 
 # MF_TIMED_TEXT_DECORATION enumeration

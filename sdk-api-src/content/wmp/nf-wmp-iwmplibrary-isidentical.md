@@ -4,17 +4,16 @@ title: IWMPLibrary::isIdentical
 author: windows-sdk-content
 description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
 old-location: wmp\iwmplibrary_isidentical.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IWMPLibrary.isIdentical, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPLibrary.isIdentical
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPLibrary::isIdentical

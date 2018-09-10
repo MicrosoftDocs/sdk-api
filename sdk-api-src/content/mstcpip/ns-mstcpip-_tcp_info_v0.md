@@ -4,7 +4,7 @@ title: "_TCP_INFO_v0"
 author: windows-sdk-content
 description: Contains the Transmission Control Protocol (TCP) statistics that were collected for a socket.
 old-location: winsock\tcp_info_v0.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstcpip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_INFO_v0, *PTCP_INFO_v0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_INFO_v0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TCP_INFO_v0, *PTCP_INFO_v0
+req.redist: 
 ---
 
 # _TCP_INFO_v0 structure

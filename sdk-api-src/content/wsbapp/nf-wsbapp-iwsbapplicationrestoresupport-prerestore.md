@@ -4,17 +4,16 @@ title: IWsbApplicationRestoreSupport::PreRestore
 author: windows-sdk-content
 description: Performs application-specific PreRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 2e1b73f9-a931-42a2-a1b1-f939f492c449
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PreRestore method, IWsbApplicationRestoreSupport.PreRestore, IWsbApplicationRestoreSupport::PreRestore, PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWsbApplicationRestoreSupport.PreRestore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWsbApplicationRestoreSupport::PreRestore

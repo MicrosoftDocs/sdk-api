@@ -4,7 +4,7 @@ title: WS_SECURITY_KEY_TYPE
 author: windows-sdk-content
 description: The key type of a security token. It is used as the return type when a security token is queried about its key. It is also used to specify the required key type when requesting a security token from a security token service.
 old-location: wsw\ws_security_key_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_KEY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_KEY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_KEY_TYPE
+req.redist: 
 ---
 
 # WS_SECURITY_KEY_TYPE enumeration

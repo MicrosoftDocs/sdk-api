@@ -4,7 +4,7 @@ title: D2D1_FACTORY_TYPE
 author: windows-sdk-content
 description: Specifies whether Direct2D provides synchronization for an ID2D1Factory and the resources it creates, so that they may be safely accessed from multiple threads.
 old-location: direct2d\D2D1_FACTORY_TYPE.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Ctxtcall.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_FACTORY_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_FACTORY_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_FACTORY_TYPE
+req.redist: 
 ---
 
 # D2D1_FACTORY_TYPE enumeration

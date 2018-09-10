@@ -4,7 +4,7 @@ title: CATEGORY_INFO
 author: windows-sdk-content
 description: Contains category information. A component category is a group of logically-related Component Object Model (COM) classes that share a common category identifier (CATID).
 old-location: shell\CATEGORY_INFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6198cd31-94db-4d31-9cc9-f8b90e661809
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CATEGORY_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CATEGORY_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CATEGORY_INFO
+req.redist: 
 ---
 
 # CATEGORY_INFO structure

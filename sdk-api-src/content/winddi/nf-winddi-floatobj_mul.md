@@ -4,17 +4,16 @@ title: FLOATOBJ_Mul function
 author: windows-sdk-content
 description: The FLOATOBJ_Mul function multiplies the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_mul.htm
-old-project: display
+tech.root: display
 ms.assetid: 95b4c3eb-5e62-4209-9c05-eae9ab48f7ab
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_Mul
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_Mul function

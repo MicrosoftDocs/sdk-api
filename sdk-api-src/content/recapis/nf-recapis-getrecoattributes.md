@@ -4,17 +4,16 @@ title: GetRecoAttributes function
 author: windows-sdk-content
 description: Retrieves the attributes of the recognizer.
 old-location: tablet\getrecoattributes.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetRecoAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetRecoAttributes function

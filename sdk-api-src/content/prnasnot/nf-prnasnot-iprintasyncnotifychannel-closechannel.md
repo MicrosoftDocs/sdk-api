@@ -4,17 +4,16 @@ title: IPrintAsyncNotifyChannel::CloseChannel
 author: windows-sdk-content
 description: Closes the channel.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PrintAsyncNotifyUserFilter
+req.lib: 
+req.dll: Prnasnot.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPrintAsyncNotifyChannel.CloseChannel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Prnasnot.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintAsyncNotifyChannel::CloseChannel

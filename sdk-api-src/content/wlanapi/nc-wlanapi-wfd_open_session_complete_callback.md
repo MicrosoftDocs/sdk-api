@@ -4,7 +4,7 @@ title: WFD_OPEN_SESSION_COMPLETE_CALLBACK
 author: windows-sdk-content
 description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.
 old-location: nwifi\wfd_open_session_complete_callback.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 2CB91D70-920A-4D97-B96D-B264F59150AC
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WFD_OPEN_SESSION_COMPLETE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function

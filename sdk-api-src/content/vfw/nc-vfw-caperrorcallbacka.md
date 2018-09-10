@@ -4,7 +4,7 @@ title: CAPERRORCALLBACKA
 author: windows-sdk-content
 description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\caperrorcallback.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CAPERRORCALLBACKW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CAPERRORCALLBACKA callback function

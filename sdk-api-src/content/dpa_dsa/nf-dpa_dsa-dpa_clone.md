@@ -4,17 +4,16 @@ title: DPA_Clone function
 author: windows-sdk-content
 description: Duplicates a dynamic pointer array (DPA).
 old-location: controls\DPA_Clone.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
+req.lib: 
+req.dll: Comctl32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DPA_Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 4.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DPA_Clone function

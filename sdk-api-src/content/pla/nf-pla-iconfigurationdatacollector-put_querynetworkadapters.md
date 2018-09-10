@@ -4,17 +4,16 @@ title: IConfigurationDataCollector::put_QueryNetworkAdapters
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 42ec786f-abfc-4331-9e75-ce894a2a5110
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector.put_QueryNetworkAdapters, IConfigurationDataCollector::QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters, put_QueryNetworkAdapters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IConfigurationDataCollector.put_QueryNetworkAdapters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigurationDataCollector::put_QueryNetworkAdapters

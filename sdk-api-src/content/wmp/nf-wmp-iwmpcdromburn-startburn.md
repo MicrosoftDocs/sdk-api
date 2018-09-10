@@ -4,17 +4,16 @@ title: IWMPCdromBurn::startBurn
 author: windows-sdk-content
 description: The startBurn method burns the CD.
 old-location: wmp\iwmpcdromburn_startburn.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 35357dca-4093-4c83-9cc9-f0dee1241e76
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],startBurn method, IWMPCdromBurn.startBurn, IWMPCdromBurn::startBurn, IWMPCdromBurnstartBurn, startBurn, startBurn method [Windows Media Player], startBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_startburn, wmp/IWMPCdromBurn::startBurn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPCdromBurn.startBurn
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPCdromBurn::startBurn

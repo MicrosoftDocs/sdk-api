@@ -4,17 +4,16 @@ title: IVssHardwareSnapshotProvider::AreLunsSupported
 author: windows-sdk-content
 description: Determines whether the hardware provider supports shadow copy creation for all LUNs that contribute to the volume.
 old-location: base\ivsshardwaresnapshotprovider_arelunssupported.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: f3615770-63a1-49eb-a3b9-b4d349fc33df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AreLunsSupported, AreLunsSupported method [VSS], AreLunsSupported method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],AreLunsSupported method, IVssHardwareSnapshotProvider.AreLunsSupported, IVssHardwareSnapshotProvider::AreLunsSupported, base.ivsshardwaresnapshotprovider_arelunssupported, vsprov/IVssHardwareSnapshotProvider::AreLunsSupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssHardwareSnapshotProvider.AreLunsSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssHardwareSnapshotProvider::AreLunsSupported

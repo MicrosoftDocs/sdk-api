@@ -4,17 +4,16 @@ title: IRandomAccessStreamFileAccessMode::GetMode
 author: windows-sdk-content
 description: Retrieves the file access mode that was used when the StorageFile.OpenAsync method was called to open the random-access byte stream.
 old-location: winrt\irandomaccessstreamfileaccessmode_getmode.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: F542C4E4-5B65-4909-AF08-C129297A1085
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMode, GetMode method [Windows Runtime], GetMode method [Windows Runtime],IRandomAccessStreamFileAccessMode interface, IRandomAccessStreamFileAccessMode interface [Windows Runtime],GetMode method, IRandomAccessStreamFileAccessMode.GetMode, IRandomAccessStreamFileAccessMode::GetMode, windowsstoragecom/IRandomAccessStreamFileAccessMode::GetMode, winrt.irandomaccessstreamfileaccessmode_getmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRandomAccessStreamFileAccessMode.GetMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IRandomAccessStreamFileAccessMode::GetMode

@@ -4,17 +4,16 @@ title: ITextStoreACP2::GetActiveView
 author: windows-sdk-content
 description: Gets a TsViewCookie that represents the current active view.
 old-location: tsf\itextstoreacp2_getactiveview.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 38db4fd3-3268-4b3d-9e2c-19d80afeba47
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetActiveView method, ITextStoreACP2.GetActiveView, ITextStoreACP2::GetActiveView, textstor/ITextStoreACP2::GetActiveView, tsf.itextstoreacp2_getactiveview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreACP2.GetActiveView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextStoreACP2::GetActiveView

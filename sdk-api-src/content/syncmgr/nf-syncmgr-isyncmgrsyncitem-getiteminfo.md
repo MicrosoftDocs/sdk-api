@@ -4,17 +4,16 @@ title: ISyncMgrSyncItem::GetItemInfo
 author: windows-sdk-content
 description: Gets the properties of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemInfo method, ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncItem.GetItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncItem::GetItemInfo

@@ -4,7 +4,7 @@ title: CLUSPROP_ULARGE_INTEGER
 author: windows-sdk-content
 description: Describes an unsigned large integer.
 old-location: mscs\clusprop_ularge_integer.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_ULARGE_INTEGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_ULARGE_INTEGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_ULARGE_INTEGER
+req.redist: 
 ---
 
 # CLUSPROP_ULARGE_INTEGER structure

@@ -4,17 +4,16 @@ title: IXpsOMCanvas::GetUseAliasedEdgeMode
 author: windows-sdk-content
 description: Gets a Boolean value that determines whether the edges of the objects in the canvas are to be rendered using the aliased edge mode.
 old-location: xps\ixpsomcanvas_getusealiasededgemode.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 9d3f0660-227a-4b0f-bd41-112bd89e4605
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FALSE, GetUseAliasedEdgeMode, GetUseAliasedEdgeMode method [XPS Documents and Packaging], GetUseAliasedEdgeMode method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetUseAliasedEdgeMode method, IXpsOMCanvas.GetUseAliasedEdgeMode, IXpsOMCanvas::GetUseAliasedEdgeMode, TRUE, xps.ixpsomcanvas_getusealiasededgemode, xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMCanvas.GetUseAliasedEdgeMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMCanvas::GetUseAliasedEdgeMode

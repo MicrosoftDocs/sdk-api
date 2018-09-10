@@ -4,17 +4,16 @@ title: Edit_SetHilite macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_SetHilite.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethilite.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_SetHilite, Edit_SetHilite macro [Windows Controls], _shell_Edit_SetHilite, _shell_Edit_SetHilite_cpp, commctrl/Edit_SetHilite, controls.Edit_SetHilite, controls._shell_Edit_SetHilite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Edit_SetHilite
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_SetHilite macro

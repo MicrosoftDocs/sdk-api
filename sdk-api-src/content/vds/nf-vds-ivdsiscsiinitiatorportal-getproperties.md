@@ -4,17 +4,16 @@ title: IVdsIscsiInitiatorPortal::GetProperties
 author: windows-sdk-content
 description: Returns the properties of an initiator portal.
 old-location: base\ivdsiscsiinitiatorportal_getproperties.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 7bf00853-ca26-40b4-a09a-dcb5e7e08f49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetProperties method, IVdsIscsiInitiatorPortal.GetProperties, IVdsIscsiInitiatorPortal::GetProperties, base.ivdsiscsiinitiatorportal_getproperties, vds/IVdsIscsiInitiatorPortal::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiInitiatorPortal.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiInitiatorPortal::GetProperties

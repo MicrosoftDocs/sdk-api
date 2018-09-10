@@ -4,7 +4,7 @@ title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
 author: windows-sdk-content
 description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
 old-location: secbiomet\engineadaptercheckforduplicate.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngineAdapterCheckForDuplicate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback function

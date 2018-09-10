@@ -4,7 +4,7 @@ title: DWRITE_RENDERING_MODE
 author: windows-sdk-content
 description: Represents a method of rendering glyphs.
 old-location: directwrite\dwrite_rendering_mode.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: c6b2c15a-be22-49ce-affd-1369e23f4d6b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -15,7 +15,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -28,8 +27,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - DWRITE_RENDERING_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DWRITE_RENDERING_MODE enumeration

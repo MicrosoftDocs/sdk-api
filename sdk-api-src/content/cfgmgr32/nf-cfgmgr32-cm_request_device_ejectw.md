@@ -4,17 +4,16 @@ title: CM_Request_Device_EjectW function
 author: windows-sdk-content
 description: The CM_Request_Device_Eject function prepares a local device instance for safe removal, if the device is removable. If the device can be physically ejected, it will be.
 old-location: devinst\cm_request_device_eject.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: a73317c8-52e4-4f2c-855c-94259dc77846
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Request_Device_Eject, CM_Request_Device_Eject function [Device and Driver Installation], CM_Request_Device_EjectW, cfgmgr32/CM_Request_Device_Eject, cfgmgr32/CM_Request_Device_EjectW, cfgmgrfn_2c8cc2aa-56fe-4ab3-8063-0db0dcbc3098.xml, devinst.cm_request_device_eject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Request_Device_EjectW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Request_Device_EjectW function

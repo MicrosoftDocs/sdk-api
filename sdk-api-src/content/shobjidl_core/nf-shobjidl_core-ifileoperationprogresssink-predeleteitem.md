@@ -4,17 +4,16 @@ title: IFileOperationProgressSink::PreDeleteItem
 author: windows-sdk-content
 description: Performs caller-implemented actions before the delete process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreDeleteItem method, IFileOperationProgressSink.PreDeleteItem, IFileOperationProgressSink::PreDeleteItem, PreDeleteItem, PreDeleteItem method [Windows Shell], PreDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreDeleteItem, shell.IFileOperationProgressSink_PreDeleteItem, shobjidl_core/IFileOperationProgressSink::PreDeleteItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperationProgressSink.PreDeleteItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperationProgressSink::PreDeleteItem

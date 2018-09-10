@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 author: windows-sdk-content
 description: Specifies the volumes to be included in a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx3::AddSnapshotToRecoverySet

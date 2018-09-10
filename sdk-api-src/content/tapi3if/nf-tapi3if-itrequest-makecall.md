@@ -4,17 +4,16 @@ title: ITRequest::MakeCall
 author: windows-sdk-content
 description: The MakeCall method makes a call to the designated party.
 old-location: tapi3\itrequest_makecall.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6896a18a-75ff-4f43-81e2-7b828bb16ff6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITRequest interface [TAPI 2.2],MakeCall method, ITRequest.MakeCall, ITRequest::MakeCall, MakeCall, MakeCall method [TAPI 2.2], MakeCall method [TAPI 2.2],ITRequest interface, _tapi3_itrequest_makecall, tapi3.itrequest_makecall, tapi3if/ITRequest::MakeCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRequest.MakeCall
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITRequest::MakeCall

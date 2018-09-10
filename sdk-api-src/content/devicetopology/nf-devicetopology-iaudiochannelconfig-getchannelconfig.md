@@ -4,17 +4,16 @@ title: IAudioChannelConfig::GetChannelConfig
 author: windows-sdk-content
 description: The GetChannelConfig method gets the current channel-configuration mask from a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_getchannelconfig.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 91331c34-9805-424b-b2c9-5705a11c594d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetChannelConfig, GetChannelConfig method [Core Audio], GetChannelConfig method [Core Audio],IAudioChannelConfig interface, IAudioChannelConfig interface [Core Audio],GetChannelConfig method, IAudioChannelConfig.GetChannelConfig, IAudioChannelConfig::GetChannelConfig, IAudioChannelConfigGetChannelConfig, coreaudio.iaudiochannelconfig_getchannelconfig, devicetopology/IAudioChannelConfig::GetChannelConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioChannelConfig.GetChannelConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioChannelConfig::GetChannelConfig

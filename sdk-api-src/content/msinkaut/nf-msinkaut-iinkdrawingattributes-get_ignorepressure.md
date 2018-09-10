@@ -4,17 +4,16 @@ title: IInkDrawingAttributes::get_IgnorePressure
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether drawn ink automatically gets wider with increased pressure of the pen tip on the tablet surface.
 old-location: tablet\inkdrawingattributes_ignorepressure.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: adf5beec-75df-46a3-91e4-33595340aca2
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],IgnorePressure property, IInkDrawingAttributes.IgnorePressure, IInkDrawingAttributes.get_IgnorePressure, IInkDrawingAttributes::IgnorePressure, IInkDrawingAttributes::get_IgnorePressure, IInkDrawingAttributes::put_IgnorePressure, IgnorePressure property [Tablet PC], IgnorePressure property [Tablet PC],IInkDrawingAttributes interface, InkDrawingAttributes.get_IgnorePressure, InkDrawingAttributes.put_IgnorePressure, adf5beec-75df-46a3-91e4-33595340aca2, get_IgnorePressure, get_Width, msinkaut/IInkDrawingAttributes::IgnorePressure, msinkaut/IInkDrawingAttributes::get_IgnorePressure, msinkaut/IInkDrawingAttributes::put_IgnorePressure, put_Width, tablet.inkdrawingattributes_ignorepressure
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkDrawingAttributes.put_IgnorePressure
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDrawingAttributes::get_IgnorePressure

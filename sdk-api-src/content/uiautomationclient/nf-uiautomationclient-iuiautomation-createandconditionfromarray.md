@@ -4,17 +4,16 @@ title: IUIAutomation::CreateAndConditionFromArray
 author: windows-sdk-content
 description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromArray.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ec9ad1a1-72c7-4fc6-8812-577b44b4c5eb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateAndConditionFromArray, CreateAndConditionFromArray method [Windows Accessibility], CreateAndConditionFromArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromArray method, IUIAutomation.CreateAndConditionFromArray, IUIAutomation::CreateAndConditionFromArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray, uiauto_IUIAutomation_CreateAndConditionFromArray, uiautomationclient/IUIAutomation::CreateAndConditionFromArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomation.CreateAndConditionFromArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomation::CreateAndConditionFromArray

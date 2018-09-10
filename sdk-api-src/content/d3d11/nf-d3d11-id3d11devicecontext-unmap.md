@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::Unmap
 author: windows-sdk-content
 description: Invalidate the pointer to a resource and reenable the GPU's access to that resource.
 old-location: direct3d11\id3d11devicecontext_unmap.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 67797b77-c0a5-47b4-ba54-4282b6aa5b13
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 83629121-3205-9ee6-6495-a815e1ef2ab5, ID3D11DeviceContext interface [Direct3D 11],Unmap method, ID3D11DeviceContext.Unmap, ID3D11DeviceContext::Unmap, Unmap, Unmap method [Direct3D 11], Unmap method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Unmap, direct3d11.id3d11devicecontext_unmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.Unmap
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::Unmap

@@ -4,7 +4,7 @@ title: "_WSD_LOCALIZED_STRING_LIST"
 author: windows-sdk-content
 description: Represents a node in a single-linked list of localized strings.
 old-location: ncd\wsd_localized_string_list_struct.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 4941885c-d349-4e43-838f-b60c3cdc32ba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_LOCALIZED_STRING_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_LOCALIZED_STRING_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_LOCALIZED_STRING_LIST
+req.redist: 
 ---
 
 # _WSD_LOCALIZED_STRING_LIST structure

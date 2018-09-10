@@ -4,17 +4,16 @@ title: IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
 author: windows-sdk-content
 description: The SetPrompt method sets the text displayed in the dialog box that prompts the user to select a device.
 old-location: picacq\iphotoacquiredeviceselectiondialog_setprompt.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 4685c4b8-8c56-4be1-a73f-6d984449d227
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetSubmitButtonText method, IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialogSetPrompt, SetSubmitButtonText, SetSubmitButtonText method [Picture Acquisition], SetSubmitButtonText method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, picacq.iphotoacquiredeviceselectiondialog_setprompt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
@@ -66,7 +64,7 @@ The <code>SetPrompt</code> method sets the text displayed in the dialog box that
 
 ### -param pszSubmitButtonText
 
-
+TBD
 
 
 

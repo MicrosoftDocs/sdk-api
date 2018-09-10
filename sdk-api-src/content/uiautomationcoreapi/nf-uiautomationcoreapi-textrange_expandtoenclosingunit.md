@@ -4,17 +4,16 @@ title: TextRange_ExpandToEnclosingUnit function
 author: windows-sdk-content
 description: Expands the text range to a larger or smaller unit such as Character, Word, Line, or Page.
 old-location: winauto\uiauto_TextRange_ExpandToEnclosingUnitConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: a95a4e34-d3b3-4aa0-a21e-9788874dcf9b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TextRange_ExpandToEnclosingUnit, TextRange_ExpandToEnclosingUnit function [Windows Accessibility], uiauto.uiauto_TextRange_ExpandToEnclosingUnitConPat, uiauto_TextRange_ExpandToEnclosingUnitConPat, uiautomationcoreapi/TextRange_ExpandToEnclosingUnit, winauto.uiauto_TextRange_ExpandToEnclosingUnitConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TextRange_ExpandToEnclosingUnit
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TextRange_ExpandToEnclosingUnit function

@@ -4,7 +4,7 @@ title: FWP_DATA_TYPE_
 author: windows-sdk-content
 description: Data types that can be stored in an FWP_VALUE0 or an FWP_CONDITION_VALUE0structure.
 old-location: fwp\fwp_data_type_enum.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: db605170-bfe0-4339-8a40-7b1ce435278b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fwptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWP_DATA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWP_DATA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWP_DATA_TYPE
+req.redist: 
 ---
 
 # FWP_DATA_TYPE_ enumeration

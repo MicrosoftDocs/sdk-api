@@ -4,7 +4,7 @@ title: "_CRYPTUI_WIZ_DIGITAL_SIGN_INFO"
 author: windows-sdk-content
 description: Contains information about digital signing.
 old-location: security\cryptui_wiz_digital_sign_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
+req.redist: 
 ---
 
 # _CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure

@@ -4,17 +4,16 @@ title: IWMPControls3::get_audioLanguageCount
 author: windows-sdk-content
 description: The get_audioLanguageCount method retrieves the count of supported audio languages.
 old-location: wmp\iwmpcontrols3_get_audiolanguagecount.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 7c714f97-4f6b-4a8b-904c-3ce0f8057533
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPControls3.get_audioLanguageCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPControls3::get_audioLanguageCount

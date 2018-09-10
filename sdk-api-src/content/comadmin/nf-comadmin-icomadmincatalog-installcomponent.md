@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::InstallComponent
 author: windows-sdk-content
 description: Installs all components (COM classes) from a DLL file into a COM+ application and registers the components in the COM+ class registration database.
 old-location: cos\icomadmincatalog_installcomponent.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 63af9aa4-a1f0-4277-bd36-8b4c64227b3f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallComponent method, ICOMAdminCatalog.InstallComponent, ICOMAdminCatalog::InstallComponent, InstallComponent, InstallComponent method [COM+], InstallComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallComponent, comadmin/ICOMAdminCatalog::InstallComponent, cos.icomadmincatalog_installcomponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.InstallComponent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::InstallComponent

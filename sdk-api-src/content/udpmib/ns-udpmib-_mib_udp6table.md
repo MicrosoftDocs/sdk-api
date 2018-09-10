@@ -4,7 +4,7 @@ title: "_MIB_UDP6TABLE"
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer.
 old-location: mib\mib_udp6table.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 49da9a1f-f244-464e-96b2-944a286445d4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_UDP6TABLE, *PMIB_UDP6TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_UDP6TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_UDP6TABLE, *PMIB_UDP6TABLE
+req.redist: 
 ---
 
 # _MIB_UDP6TABLE structure

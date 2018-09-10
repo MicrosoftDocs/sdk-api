@@ -4,17 +4,16 @@ title: SetSystemTimeAdjustment function
 author: windows-sdk-content
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustment.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 93c72511-057c-4b26-a4ae-1d225a80c572
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetSystemTimeAdjustment, SetSystemTimeAdjustment function, _win32_setsystemtimeadjustment, base.setsystemtimeadjustment, sysinfoapi/SetSystemTimeAdjustment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - SetSystemTimeAdjustment
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # SetSystemTimeAdjustment function

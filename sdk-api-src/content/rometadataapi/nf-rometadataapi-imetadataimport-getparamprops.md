@@ -4,17 +4,16 @@ title: IMetaDataImport::GetParamProps
 author: windows-sdk-content
 description: Gets metadata values for the parameter referenced by the specified ParamDef token.
 old-location: winrt\imetadataimport_getparamprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 76de324f-f371-4fac-ab0a-b7f359dd3abd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetParamProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetParamProps

@@ -4,17 +4,16 @@ title: IVdsServiceIscsi::SetIpsecGroupPresharedKey
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsserviceiscsi_setipsecgrouppresharedkey.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3d386eb3-5897-4ce7-91ab-99cf2bfa93bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetIpsecGroupPresharedKey method, IVdsServiceIscsi.SetIpsecGroupPresharedKey, IVdsServiceIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method [VDS], SetIpsecGroupPresharedKey method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setipsecgrouppresharedkey, vds/IVdsServiceIscsi::SetIpsecGroupPresharedKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsServiceIscsi.SetIpsecGroupPresharedKey
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsServiceIscsi::SetIpsecGroupPresharedKey

@@ -4,17 +4,16 @@ title: IMFTimedTextStyle::GetShowBackgroundAlways
 author: windows-sdk-content
 description: Determines whether the style of timed text always shows the background.
 old-location: mf\imftimedtextstyle_getshowbackgroundalways.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3FE2327F-542B-45D3-95F4-09CF0CE26403
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetShowBackgroundAlways, GetShowBackgroundAlways method [Media Foundation], GetShowBackgroundAlways method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetShowBackgroundAlways method, IMFTimedTextStyle.GetShowBackgroundAlways, IMFTimedTextStyle::GetShowBackgroundAlways, mf.imftimedtextstyle_getshowbackgroundalways, mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedTextStyle.GetShowBackgroundAlways
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedTextStyle::GetShowBackgroundAlways
@@ -62,7 +60,7 @@ Determines whether the style  of timed text always shows the background.
 
 ### -param showBackgroundAlways
 
-
+TBD
 
 
 

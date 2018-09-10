@@ -4,7 +4,7 @@ title: "_QUERY_SERVICE_CONFIGW"
 author: windows-sdk-content
 description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
 old-location: base\query_service_config_str.htm
-old-project: Services
+tech.root: Services
 ms.assetid: 069c1431-a04b-4e96-953b-14c5c0700857
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QUERY_SERVICE_CONFIGW, *LPQUERY_SERVICE_CONFIGW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - QUERY_SERVICE_CONFIGW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: QUERY_SERVICE_CONFIGW, *LPQUERY_SERVICE_CONFIGW
+req.redist: 
 ---
 
 # _QUERY_SERVICE_CONFIGW structure

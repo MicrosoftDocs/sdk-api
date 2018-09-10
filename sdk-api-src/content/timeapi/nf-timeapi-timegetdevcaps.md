@@ -4,17 +4,16 @@ title: timeGetDevCaps function
 author: windows-sdk-content
 description: The timeGetDevCaps function queries the timer device to determine its resolution.
 old-location: multimedia\timegetdevcaps.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 7b5a9675-1152-4c9e-bc79-fe9afa5c563c
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: timeapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThumbnailStreamCacheOptions
+req.lib: Winmm.lib
+req.dll: Winmm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - timeGetDevCaps
 product: Windows
 targetos: Windows
-req.lib: Winmm.lib
-req.dll: Winmm.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # timeGetDevCaps function

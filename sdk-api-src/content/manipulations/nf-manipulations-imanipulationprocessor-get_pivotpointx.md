@@ -4,17 +4,16 @@ title: IManipulationProcessor::get_PivotPointX
 author: windows-sdk-content
 description: The PivotPointX property is the horizontal center of the object.
 old-location: wintouch\imanipulationprocessor_pivotpointx.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 52afdf21-8c5d-4da8-aab2-7a8273df5147
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointX property, IManipulationProcessor.PivotPointX, IManipulationProcessor.get_PivotPointX, IManipulationProcessor::PivotPointX, IManipulationProcessor::get_PivotPointX, IManipulationProcessor::put_PivotPointX, PivotPointX property [Windows Touch], PivotPointX property [Windows Touch],IManipulationProcessor interface, get_PivotPointX, manipulations/IManipulationProcessor::PivotPointX, manipulations/IManipulationProcessor::get_PivotPointX, manipulations/IManipulationProcessor::put_PivotPointX, wintouch.imanipulationprocessor_pivotpointx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IManipulationProcessor.put_PivotPointX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IManipulationProcessor::get_PivotPointX

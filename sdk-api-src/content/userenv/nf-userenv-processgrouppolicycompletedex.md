@@ -4,17 +4,16 @@ title: ProcessGroupPolicyCompletedEx function
 author: windows-sdk-content
 description: The ProcessGroupPolicyCompletedEx function notifies the system that the specified policy extension has finished applying policy. The function also reports the status of Resultant Set of Policy (RSoP) logging.
 old-location: policy\processgrouppolicycompletedex.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 0d899190-7345-4762-ab59-b89e2e87d10f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx function [Group Policy], _win32_processgrouppolicycompletedex, policy.processgrouppolicycompletedex, userenv/ProcessGroupPolicyCompletedEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ProcessGroupPolicyCompletedEx
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ProcessGroupPolicyCompletedEx function

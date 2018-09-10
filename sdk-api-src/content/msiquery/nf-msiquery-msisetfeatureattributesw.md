@@ -4,17 +4,16 @@ title: MsiSetFeatureAttributesW function
 author: windows-sdk-content
 description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.
 old-location: setup\msisetfeatureattributes.htm
-old-project: msi
+tech.root: msi
 ms.assetid: d8dcd6db-9792-4b34-9c78-7d11ec2d4d0f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiSetFeatureAttributes, MsiSetFeatureAttributes function, MsiSetFeatureAttributesA, MsiSetFeatureAttributesW, _msi_msisetfeatureattributes, msiquery/MsiSetFeatureAttributes, msiquery/MsiSetFeatureAttributesA, msiquery/MsiSetFeatureAttributesW, setup.msisetfeatureattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on   Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkRecoGuide
+req.lib: Msi.lib
+req.dll: Msi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MsiSetFeatureAttributesW
 product: Windows
 targetos: Windows
-req.lib: Msi.lib
-req.dll: Msi.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # MsiSetFeatureAttributesW function

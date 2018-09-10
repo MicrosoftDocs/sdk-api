@@ -4,17 +4,16 @@ title: ITransferSource::Advise
 author: windows-sdk-content
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferSource_Advise.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5a546603-d409-4c8e-9fa8-892c5c4844e7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],Advise method, ITransferSource.Advise, ITransferSource::Advise, _shell_ITransferSource_Advise, shell.ITransferSource_Advise, shobjidl_core/ITransferSource::Advise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.Advise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::Advise

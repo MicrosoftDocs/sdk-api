@@ -4,17 +4,16 @@ title: RemoveIScsiConnection function
 author: windows-sdk-content
 description: RemoveIscsiConnection function removes a connection from an active session.
 old-location: iscsidisc\removeiscsiconnection.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RemoveIscsiConnection
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # RemoveIScsiConnection function

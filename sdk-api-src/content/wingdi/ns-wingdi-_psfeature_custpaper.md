@@ -4,7 +4,7 @@ title: "_PSFEATURE_CUSTPAPER"
 author: windows-sdk-content
 description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_custpaper.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 3858154c-425f-4333-a637-6d977caf7290
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSFEATURE_CUSTPAPER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: PSFEATURE_CUSTPAPER, *PPSFEATURE_CUSTPAPER
+req.redist: 
 ---
 
 # _PSFEATURE_CUSTPAPER structure

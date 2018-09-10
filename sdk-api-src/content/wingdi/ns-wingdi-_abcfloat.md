@@ -4,7 +4,7 @@ title: "_ABCFLOAT"
 author: windows-sdk-content
 description: The ABCFLOAT structure contains the A, B, and C widths of a font character.
 old-location: gdi\abcfloat.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ABCFLOAT, *PABCFLOAT, *NPABCFLOAT, *LPABCFLOAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ABCFLOAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ABCFLOAT, *PABCFLOAT, *NPABCFLOAT, *LPABCFLOAT
+req.redist: 
 ---
 
 # _ABCFLOAT structure

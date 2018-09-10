@@ -4,17 +4,16 @@ title: IDirectWriterLock::ReleaseWriteAccess
 author: windows-sdk-content
 description: The ReleaseWriteAccess method releases the write lock previously obtained.
 old-location: stg\idirectwriterlock_releasewriteaccess.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],ReleaseWriteAccess method, IDirectWriterLock.ReleaseWriteAccess, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectWriterLock.ReleaseWriteAccess
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectWriterLock::ReleaseWriteAccess

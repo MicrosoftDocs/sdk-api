@@ -4,17 +4,16 @@ title: IMFAudioPolicy::SetIconPath
 author: windows-sdk-content
 description: Sets the icon resource for the audio session. The Windows volume control displays this icon.
 old-location: mf\imfaudiopolicy_seticonpath.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 098ad6ae-b1fe-4e74-b494-572770906b14
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 098ad6ae-b1fe-4e74-b494-572770906b14, IMFAudioPolicy interface [Media Foundation],SetIconPath method, IMFAudioPolicy.SetIconPath, IMFAudioPolicy::SetIconPath, SetIconPath, SetIconPath method [Media Foundation], SetIconPath method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_seticonpath, mfidl/IMFAudioPolicy::SetIconPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFAudioPolicy.SetIconPath
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFAudioPolicy::SetIconPath

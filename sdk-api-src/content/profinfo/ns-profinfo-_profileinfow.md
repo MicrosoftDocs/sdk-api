@@ -4,7 +4,7 @@ title: "_PROFILEINFOW"
 author: windows-sdk-content
 description: Contains information used when loading or unloading a user profile.
 old-location: shell\PROFILEINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 09dae38c-3b2b-4f12-9c1e-90737cf0c7cc
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: profinfo.h
 req.include-header: Userenv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PROFILEINFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.redist: 
 ---
 
 # _PROFILEINFOW structure

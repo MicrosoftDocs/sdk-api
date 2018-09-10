@@ -4,17 +4,16 @@ title: IInkRecognizerContext::BackgroundRecognize
 author: windows-sdk-content
 description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a Recognition event when recognition is complete.
 old-location: tablet\inkrecognizercontext_backgroundrecognize.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d3fc8117-4acd-474a-aec0-cb421230ef94
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: BackgroundRecognize, BackgroundRecognize method [Tablet PC], BackgroundRecognize method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],BackgroundRecognize method, IInkRecognizerContext.BackgroundRecognize, IInkRecognizerContext::BackgroundRecognize, d3fc8117-4acd-474a-aec0-cb421230ef94, msinkaut/IInkRecognizerContext::BackgroundRecognize, tablet.inkrecognizercontext_backgroundrecognize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkRecognizerContext.BackgroundRecognize
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::BackgroundRecognize
@@ -66,7 +64,7 @@ Causes the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b
 
 ### -param CustomData
 
-
+TBD
 
 
 

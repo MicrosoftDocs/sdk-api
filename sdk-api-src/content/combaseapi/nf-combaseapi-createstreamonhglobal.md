@@ -4,17 +4,16 @@ title: CreateStreamOnHGlobal function
 author: windows-sdk-content
 description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.
 old-location: stg\createstreamonhglobal.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CreateStreamOnHGlobal
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateStreamOnHGlobal function

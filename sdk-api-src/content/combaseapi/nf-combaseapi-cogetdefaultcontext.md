@@ -4,17 +4,16 @@ title: CoGetDefaultContext function
 author: windows-sdk-content
 description: Retrieves a reference to the default context of the specified apartment.
 old-location: cos\cogetdefaultcontext.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 97a0e7da-e8bb-4bde-a8ba-35c90a1351d2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, CoGetDefaultContext, CoGetDefaultContext function [COM+], combaseapi/CoGetDefaultContext, cos.cogetdefaultcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoGetDefaultContext
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetDefaultContext function

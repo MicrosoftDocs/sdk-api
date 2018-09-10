@@ -4,17 +4,16 @@ title: SetSecurityDescriptorGroup function
 author: windows-sdk-content
 description: Sets the primary group information of an absolute-format security descriptor, replacing any primary group information already present in the security descriptor.
 old-location: security\setsecuritydescriptorgroup.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 060c375c-a313-4fa2-8d85-cee9369c26a8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetSecurityDescriptorGroup, SetSecurityDescriptorGroup function [Security], _win32_setsecuritydescriptorgroup, security.setsecuritydescriptorgroup, securitybaseapi/SetSecurityDescriptorGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetSecurityDescriptorGroup
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetSecurityDescriptorGroup function

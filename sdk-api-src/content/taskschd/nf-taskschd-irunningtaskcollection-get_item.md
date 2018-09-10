@@ -4,17 +4,16 @@ title: IRunningTaskCollection::get_Item
 author: windows-sdk-content
 description: Gets the specified task from the collection.
 old-location: taskschd\irunningtaskcollection_item.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: e82e7e1b-a3bd-4456-85a9-e0005f954618
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRunningTaskCollection interface [Task Scheduler],Item property, IRunningTaskCollection.Item, IRunningTaskCollection.get_Item, IRunningTaskCollection::Item, IRunningTaskCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IRunningTaskCollection interface, get_Item, taskschd.irunningtaskcollection_item, taskschd/IRunningTaskCollection::Item, taskschd/IRunningTaskCollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRunningTaskCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningTaskCollection::get_Item

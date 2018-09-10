@@ -4,17 +4,16 @@ title: IMFASFStreamConfig::GetMediaType
 author: windows-sdk-content
 description: Retrieves the media type of the stream.
 old-location: mf\imfasfstreamconfig_getmediatype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetMediaType method, IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFStreamConfig.GetMediaType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFStreamConfig::GetMediaType

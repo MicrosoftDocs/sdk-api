@@ -4,17 +4,16 @@ title: ISettingsItem::GetKeyValue
 author: windows-sdk-content
 description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.
 old-location: smi\isettingsitem_getkeyvalue.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsItem.GetKeyValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsItem::GetKeyValue

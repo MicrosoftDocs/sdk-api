@@ -4,7 +4,7 @@ title: WMPServices_StreamState
 author: windows-sdk-content
 description: The WMPServices_StreamState enumeration indicates whether the stream is currently stopped, paused, or playing.
 old-location: wmp\wmpservices_streamstate.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 82c4699a-197c-4429-afa8-b1fc47a1f47a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmpservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPServices_StreamState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMPServices_StreamState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMPServices_StreamState
+req.redist: 
 ---
 
 # WMPServices_StreamState enumeration

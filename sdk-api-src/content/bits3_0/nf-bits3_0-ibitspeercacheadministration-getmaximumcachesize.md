@@ -4,17 +4,16 @@ title: IBitsPeerCacheAdministration::GetMaximumCacheSize
 author: windows-sdk-content
 description: Gets the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 6ea0e6f7-c674-4088-9085-5f6246681009
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetMaximumCacheSize, GetMaximumCacheSize method [BITS], GetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumCacheSize method, IBitsPeerCacheAdministration.GetMaximumCacheSize, IBitsPeerCacheAdministration::GetMaximumCacheSize, bits.ibitspeercacheadministration_getmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::GetMaximumCacheSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBitsPeerCacheAdministration.GetMaximumCacheSize
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBitsPeerCacheAdministration::GetMaximumCacheSize

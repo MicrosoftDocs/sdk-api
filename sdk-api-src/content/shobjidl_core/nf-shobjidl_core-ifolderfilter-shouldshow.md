@@ -4,17 +4,16 @@ title: IFolderFilter::ShouldShow
 author: windows-sdk-content
 description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
 old-location: shell\IFolderFilter_ShouldShow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderFilter.ShouldShow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderFilter::ShouldShow

@@ -4,17 +4,16 @@ title: MAPIFreeBuffer function
 author: windows-sdk-content
 description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
 old-location: mapi\mapifreebuffer.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mapi.h
 req.include-header: Mapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPIFreeBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPIFreeBuffer function

@@ -4,17 +4,16 @@ title: IDWriteTextFormat::GetFontFamilyName
 author: windows-sdk-content
 description: Gets a copy of the font family name.
 old-location: directwrite\IDWriteTextFormat_GetFontFamilyName.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 44d294bf-ec0f-4c75-b10a-2f3e4883b58a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontFamilyName method, IDWriteTextFormat.GetFontFamilyName, IDWriteTextFormat::GetFontFamilyName, directwrite.IDWriteTextFormat_GetFontFamilyName, dwrite/IDWriteTextFormat::GetFontFamilyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextFormat.GetFontFamilyName
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextFormat::GetFontFamilyName

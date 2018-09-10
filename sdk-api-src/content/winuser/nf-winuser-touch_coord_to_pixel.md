@@ -4,17 +4,16 @@ title: TOUCH_COORD_TO_PIXEL macro
 author: windows-sdk-content
 description: Converts touch coordinates to pixels.
 old-location: wintouch\touch_coord_to_pixel.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOUCH_COORD_TO_PIXEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TOUCH_COORD_TO_PIXEL macro

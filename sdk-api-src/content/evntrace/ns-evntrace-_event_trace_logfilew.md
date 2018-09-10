@@ -4,7 +4,7 @@ title: "_EVENT_TRACE_LOGFILEW"
 author: windows-sdk-content
 description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
 old-location: etw\event_trace_logfile.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_TRACE_LOGFILEW, *PEVENT_TRACE_LOGFILEW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EVENT_TRACE_LOGFILEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_TRACE_LOGFILEW, *PEVENT_TRACE_LOGFILEW
+req.redist: 
 ---
 
 # _EVENT_TRACE_LOGFILEW structure

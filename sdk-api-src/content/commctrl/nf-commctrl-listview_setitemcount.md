@@ -4,17 +4,16 @@ title: ListView_SetItemCount macro
 author: windows-sdk-content
 description: Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCount.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcount.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ListView_SetItemCount, ListView_SetItemCount macro [Windows Controls], _win32_ListView_SetItemCount, _win32_ListView_SetItemCount_cpp, commctrl/ListView_SetItemCount, controls.ListView_SetItemCount, controls._win32_ListView_SetItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_SetItemCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_SetItemCount macro

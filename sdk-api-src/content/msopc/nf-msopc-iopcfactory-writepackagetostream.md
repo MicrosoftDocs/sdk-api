@@ -4,17 +4,16 @@ title: IOpcFactory::WritePackageToStream
 author: windows-sdk-content
 description: Serializes a package that is represented by a package object.
 old-location: opc\iopcfactory_writepackagetostream.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: b155700d-3037-4c6e-b2f2-bba39513d7d3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],WritePackageToStream method, IOpcFactory.WritePackageToStream, IOpcFactory::WritePackageToStream, WritePackageToStream, WritePackageToStream method [Open Packaging Conventions], WritePackageToStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::WritePackageToStream, opc.iopcfactory_writepackagetostream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcFactory.WritePackageToStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcFactory::WritePackageToStream

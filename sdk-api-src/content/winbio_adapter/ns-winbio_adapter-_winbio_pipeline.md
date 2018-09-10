@@ -4,7 +4,7 @@ title: "_WINBIO_PIPELINE"
 author: windows-sdk-content
 description: Contains shared context information used by the sensor, engine, and storage adapter components in a single biometric unit.
 old-location: secbiomet\winbio_pipeline.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: b5fc2b14-b0b6-4327-a42a-ecae41c3e12a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINBIO_PIPELINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
+req.redist: 
 ---
 
 # _WINBIO_PIPELINE structure

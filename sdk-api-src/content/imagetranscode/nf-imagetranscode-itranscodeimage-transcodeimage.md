@@ -4,17 +4,16 @@ title: ITranscodeImage::TranscodeImage
 author: windows-sdk-content
 description: Converts an image to JPEG or bitmap (BMP) image format.
 old-location: shell\TranscodeImage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 56b8c871-5c44-497d-beac-5bde01b8bd8b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITranscodeImage interface [Windows Shell],TranscodeImage method, ITranscodeImage.TranscodeImage, ITranscodeImage::TranscodeImage, TI_BITMAP, TI_JPEG, TranscodeImage, TranscodeImage method [Windows Shell], TranscodeImage method [Windows Shell],ITranscodeImage interface, _shell_TranscodeImage, imagetranscode/ITranscodeImage::TranscodeImage, shell.TranscodeImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imagetranscode.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITranscodeImage.TranscodeImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ITranscodeImage::TranscodeImage

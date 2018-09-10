@@ -4,17 +4,16 @@ title: IRawElementProviderWindowlessSite::GetAdjacentFragment
 author: windows-sdk-content
 description: Retrieves a fragment pointer for a fragment that is adjacent to the windowless Microsoft ActiveX control owned by this control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderWindowlessSite.GetAdjacentFragment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderWindowlessSite::GetAdjacentFragment
@@ -60,14 +58,14 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param ppParent
 
-
+TBD
 
 
 

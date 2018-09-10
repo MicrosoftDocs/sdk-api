@@ -4,7 +4,7 @@ title: FsiItemType
 author: windows-sdk-content
 description: Defines values for the file system item that was found using the IFileSystemImage::Exists method.
 old-location: imapi\fsiitemtype.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: b0ddf0fc-30db-464d-8761-da400386a609
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsiItemType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsiItemType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FsiItemType
+req.redist: 
 ---
 
 # FsiItemType enumeration

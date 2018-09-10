@@ -4,17 +4,16 @@ title: PathFileExistsW function
 author: windows-sdk-content
 description: Determines whether a path to a file system object such as a file or folder is valid.
 old-location: shell\PathFileExists.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 26d01e9f-cbf2-4e40-9970-a594879b424d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileExistsA, PathFileExistsW, _win32_PathFileExists, shell.PathFileExists, shlwapi/PathFileExists, shlwapi/PathFileExistsA, shlwapi/PathFileExistsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - PathFileExistsW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # PathFileExistsW function

@@ -4,17 +4,16 @@ title: ICDecompressSetPalette macro
 author: windows-sdk-content
 description: The ICDecompressSetPalette macro specifies a palette for a video decompression driver to use if it is decompressing to a format that uses a palette. You can use this macro or explicitly call the ICM_DECOMPRESS_SET_PALETTE message.
 old-location: multimedia\icdecompresssetpalette.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDecompressSetPalette
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICDecompressSetPalette macro

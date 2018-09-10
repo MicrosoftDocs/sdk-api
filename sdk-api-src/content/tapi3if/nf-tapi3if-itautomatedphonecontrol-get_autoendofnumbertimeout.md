@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
 author: windows-sdk-content
 description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: c5bc3176-7237-4c20-808a-b2d028ae4344
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoEndOfNumberTimeout method, ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout, ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout, _tapi3_itautomatedphonecontrol_get_autoendofnumbertimeout, get_AutoEndOfNumberTimeout, get_AutoEndOfNumberTimeout method [TAPI 2.2], get_AutoEndOfNumberTimeout method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autoendofnumbertimeout, tapi3if/ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.get_AutoEndOfNumberTimeout
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout

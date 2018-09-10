@@ -4,7 +4,7 @@ title: "_NTMS_NOTIFICATIONINFORMATION"
 author: windows-sdk-content
 description: The NTMS_NOTIFICATIONINFORMATION structure defines an object and operation that occurred in the RSM database.
 old-location: fs\ntms_notificationinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: d9c6904b-260d-4598-9575-49c7d7b6e66d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_NOTIFICATIONINFORMATION, *LPNTMS_NOTIFICATIONINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_NOTIFICATIONINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_NOTIFICATIONINFORMATION, *LPNTMS_NOTIFICATIONINFORMATION
+req.redist: 
 ---
 
 # _NTMS_NOTIFICATIONINFORMATION structure

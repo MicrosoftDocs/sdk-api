@@ -4,17 +4,16 @@ title: IDelegateFolder::SetItemAlloc
 author: windows-sdk-content
 description: Provides the delegate folder an IMalloc interface used to allocate and free item IDs.
 old-location: shell\IDelegateFolder_SetItemAlloc.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ce1ee472-e245-4112-858a-1d9739f5a36d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDelegateFolder interface [Windows Shell],SetItemAlloc method, IDelegateFolder.SetItemAlloc, IDelegateFolder::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],IDelegateFolder interface, shell.IDelegateFolder_SetItemAlloc, shell_IDelegateFolder_SetItemAlloc, shobjidl_core/IDelegateFolder::SetItemAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDelegateFolder.SetItemAlloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IDelegateFolder::SetItemAlloc

@@ -4,17 +4,16 @@ title: IBackgroundCopyJob2::GetReplyFileName
 author: windows-sdk-content
 description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_SCHEME
+req.lib: Bits.lib
+req.dll: BitsPrx2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob2.GetReplyFileName
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx2.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # IBackgroundCopyJob2::GetReplyFileName

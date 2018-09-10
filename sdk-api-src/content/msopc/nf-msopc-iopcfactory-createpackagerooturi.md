@@ -4,17 +4,16 @@ title: IOpcFactory::CreatePackageRootUri
 author: windows-sdk-content
 description: Creates an OPC URI object that represents the root of a package.
 old-location: opc\iopcfactory_createpackagerooturi.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackageRootUri method, IOpcFactory.CreatePackageRootUri, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcFactory.CreatePackageRootUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcFactory::CreatePackageRootUri

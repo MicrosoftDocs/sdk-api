@@ -4,17 +4,16 @@ title: IDVB_EIT::GetSegmentLastSectionNumber
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getsegmentlastsectionnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 01edaee4-1968-4e6c-8d4f-e1b518f54aaa
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSegmentLastSectionNumber, GetSegmentLastSectionNumber method [Microsoft TV Technologies], GetSegmentLastSectionNumber method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetSegmentLastSectionNumber method, IDVB_EIT.GetSegmentLastSectionNumber, IDVB_EIT::GetSegmentLastSectionNumber, IDVB_EITGetSegmentLastSectionNumber, dvbsiparser/IDVB_EIT::GetSegmentLastSectionNumber, mstv.idvb_eit_getsegmentlastsectionnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_EIT.GetSegmentLastSectionNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_EIT::GetSegmentLastSectionNumber

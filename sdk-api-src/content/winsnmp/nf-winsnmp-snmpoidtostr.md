@@ -4,17 +4,16 @@ title: SnmpOidToStr function
 author: windows-sdk-content
 description: The WinSNMP SnmpOidToStr function converts the internal binary representation of an SNMP object identifier to its dotted numeric string format, for example, to &#0034;1.2.3.4.5.6&#0034;.
 old-location: snmp\snmpoidtostr.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 20f0af32-8f4f-4326-ab6a-389dc95be73f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpOidToStr, SnmpOidToStr function [SNMP], _snmp_snmpoidtostr, snmp.snmpoidtostr, winsnmp/SnmpOidToStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpOidToStr
 product: Windows
 targetos: Windows
-req.lib: Wsnmp32.lib
-req.dll: Wsnmp32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpOidToStr function

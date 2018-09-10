@@ -4,7 +4,7 @@ title: addrinfoex2A
 author: windows-sdk-content
 description: Used by the GetAddrInfoEx function to hold host address information when both a canonical name and a fully qualified domain name have been requested.
 old-location: winsock\addrinfoex2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 9CB33347-A838-473D-B5CD-1149D6632CF2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: addrinfoex2W (Unicode) and addrinfoex2A (ANSI)
-req.idl: Wrdsgraphicschannels.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADDRINFOEX2A, *PADDRINFOEX2A, *LPADDRINFOEX2A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - addrinfoex2W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ADDRINFOEX2A, *PADDRINFOEX2A, *LPADDRINFOEX2A
+req.redist: 
 ---
 
 # addrinfoex2A structure

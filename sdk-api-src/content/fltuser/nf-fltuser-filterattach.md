@@ -4,17 +4,16 @@ title: FilterAttach function
 author: windows-sdk-content
 description: The FilterAttach function attaches a new minifilter instance to the given volume.
 old-location: ifsk\filterattach.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8f52fdd5-dfea-42c1-85ed-7431015eece8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterAttach, FilterAttach function [Installable File System Drivers], FltWin32ApiRef_023a1285-b933-438f-b493-33e6c7d74e56.xml, fltuser/FilterAttach, ifsk.filterattach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterAttach
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterAttach function

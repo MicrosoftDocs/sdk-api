@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_STATE
 author: windows-sdk-content
 description: Describes the operational condition of a resource.
 old-location: mscs\cluster_resource_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: bd5dee18-a06f-4e46-a27e-c907b1c25a68
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_RESOURCE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_RESOURCE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_RESOURCE_STATE
+req.redist: 
 ---
 
 # CLUSTER_RESOURCE_STATE enumeration

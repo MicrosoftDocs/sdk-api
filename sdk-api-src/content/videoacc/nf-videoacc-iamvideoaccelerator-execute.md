@@ -4,17 +4,16 @@ title: IAMVideoAccelerator::Execute
 author: windows-sdk-content
 description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
 old-location: dshow\iamvideoaccelerator_execute.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoAccelerator.Execute
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoAccelerator::Execute
@@ -81,7 +79,7 @@ Size of the input data, in bytes.
 
 ### -param lpPrivateOutputDat
 
-
+TBD
 
 
 ### -param cbPrivateOutputData [in]

@@ -4,7 +4,7 @@ title: "_MFNETSOURCE_PROTOCOL_TYPE"
 author: windows-sdk-content
 description: Indicates the type of control protocol that is used in streaming or downloading.
 old-location: mf\mfnetsource_protocol_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: dd628b9e-3c52-4c14-aa0f-5e0b811d3f57
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNETSOURCE_PROTOCOL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNETSOURCE_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNETSOURCE_PROTOCOL_TYPE
+req.redist: 
 ---
 
 # _MFNETSOURCE_PROTOCOL_TYPE enumeration

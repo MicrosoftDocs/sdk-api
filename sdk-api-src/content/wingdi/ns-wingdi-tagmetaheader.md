@@ -4,7 +4,7 @@ title: tagMETAHEADER
 author: windows-sdk-content
 description: The METAHEADER structure contains information about a Windows-format metafile.
 old-location: gdi\metaheader.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 3ad5be24-9558-442e-8c77-dd6a7d33c208
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: METAHEADER, *PMETAHEADER, *LPMETAHEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - METAHEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: METAHEADER, *PMETAHEADER, *LPMETAHEADER
+req.redist: 
 ---
 
 # tagMETAHEADER structure

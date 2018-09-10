@@ -4,17 +4,16 @@ title: ICrmMonitorLogRecords::get_TransactionState
 author: windows-sdk-content
 description: Retrieves the current state of the transaction.
 old-location: cos\icrmmonitorlogrecords_get_transactionstate.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9aaa3d6c-41b9-4661-8e7e-ef1d1abba4aa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_TransactionState method, ICrmMonitorLogRecords.get_TransactionState, ICrmMonitorLogRecords::get_TransactionState, _dtc_ICrmMonitorLogRecords_TransactionState, comsvcs/ICrmMonitorLogRecords::get_TransactionState, cos.icrmmonitorlogrecords_get_transactionstate, get_TransactionState, get_TransactionState method [COM+], get_TransactionState method [COM+],ICrmMonitorLogRecords interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorLogRecords.get_TransactionState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorLogRecords::get_TransactionState

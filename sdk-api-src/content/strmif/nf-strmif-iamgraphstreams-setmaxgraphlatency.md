@@ -4,17 +4,16 @@ title: IAMGraphStreams::SetMaxGraphLatency
 author: windows-sdk-content
 description: The SetMaxGraphLatency method sets the maximum latency for the graph. You must call the IAMGraphStreams::SyncUsingStreamOffset method before calling this method.
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMGraphStreams.SetMaxGraphLatency
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMGraphStreams::SetMaxGraphLatency

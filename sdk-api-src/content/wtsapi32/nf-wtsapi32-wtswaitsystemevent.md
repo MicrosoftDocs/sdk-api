@@ -4,17 +4,16 @@ title: WTSWaitSystemEvent function
 author: windows-sdk-content
 description: Waits for a Remote Desktop Services event before returning to the caller.
 old-location: termserv\wtswaitsystemevent.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 4139c009-6d2f-460b-b7a0-097bd2218505
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Services], WTS_EVENT_ALL, WTS_EVENT_CONNECT, WTS_EVENT_CREATE, WTS_EVENT_DELETE, WTS_EVENT_DISCONNECT, WTS_EVENT_LICENSE, WTS_EVENT_LOGOFF, WTS_EVENT_LOGON, WTS_EVENT_RENAME, WTS_EVENT_STATECHANGE, _win32_wtswaitsystemevent, termserv.wtswaitsystemevent, wtsapi32/WTSWaitSystemEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTSWaitSystemEvent
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSWaitSystemEvent function

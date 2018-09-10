@@ -4,17 +4,16 @@ title: ISyncMgrControl::EnableItem
 author: windows-sdk-content
 description: Enables or disables a sync item managed by a specified handler.
 old-location: shell\ISyncMgrControl_EnableItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrControl.EnableItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrControl::EnableItem

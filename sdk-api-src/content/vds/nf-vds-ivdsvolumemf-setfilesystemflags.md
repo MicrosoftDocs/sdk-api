@@ -4,17 +4,16 @@ title: IVdsVolumeMF::SetFileSystemFlags
 author: windows-sdk-content
 description: Sets the file-system flags.
 old-location: base\ivdsvolumemf_setfilesystemflags.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 836f4a8d-8736-4876-8de3-a6265d7eb66a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsVolumeMF interface [VDS],SetFileSystemFlags method, IVdsVolumeMF.SetFileSystemFlags, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeMF.SetFileSystemFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeMF::SetFileSystemFlags

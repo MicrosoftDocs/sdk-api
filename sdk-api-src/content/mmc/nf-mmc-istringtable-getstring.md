@@ -4,17 +4,16 @@ title: IStringTable::GetString
 author: windows-sdk-content
 description: Enables a snap-in to retrieve a string from the snap-in's string table.
 old-location: mmc\istringtable_getstring.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 34dbf92a-b54d-4f60-87ff-493c9946a57d
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: GetString, GetString method [MMC], GetString method [MMC],IStringTable interface, IStringTable interface [MMC],GetString method, IStringTable.GetString, IStringTable::GetString, _slate_istringtable_getstring, mmc.istringtable_getstring, mmc/IStringTable::GetString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStringTable.GetString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IStringTable::GetString

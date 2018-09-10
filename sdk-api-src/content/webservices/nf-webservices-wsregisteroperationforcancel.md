@@ -4,17 +4,16 @@ title: WsRegisterOperationForCancel function
 author: windows-sdk-content
 description: A service operation can use this function to register for a cancel notification. It is only valid to call this API when the service operation is executing. The behavior for calling it after the completion of Service Operation is not supported.
 old-location: wsw\wsregisteroperationforcancel.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 3e456814-f70f-47ab-b866-f0b73d5cd35e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsRegisterOperationForCancel, WsRegisterOperationForCancel function [Web Services for Windows], webservices/WsRegisterOperationForCancel, wsw.wsregisteroperationforcancel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsRegisterOperationForCancel
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsRegisterOperationForCancel function

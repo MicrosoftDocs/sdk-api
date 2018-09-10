@@ -4,17 +4,16 @@ title: IViewObjectEx::QueryHitPoint
 author: windows-sdk-content
 description: Indicates whether a point is within a given aspect of an object.
 old-location: com\iviewobjectex_queryhitpoint.htm
-old-project: com
+tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IViewObjectEx.QueryHitPoint
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IViewObjectEx::QueryHitPoint

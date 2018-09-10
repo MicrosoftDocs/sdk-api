@@ -4,17 +4,16 @@ title: LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &
 author: windows-sdk-content
 description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KnownGamingPrivileges
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LinearGradientBrush.LinearGradientBrush
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.0
+req.typenames: 
+req.redist: 
 ---
 
 # LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL)

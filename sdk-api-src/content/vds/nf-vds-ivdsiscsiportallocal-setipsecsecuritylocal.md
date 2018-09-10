@@ -4,17 +4,16 @@ title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsIscsiPortalLocal::SetIpsecSecurityLocal

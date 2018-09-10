@@ -4,17 +4,16 @@ title: IWMDMStorage3::SetMetadata
 author: windows-sdk-content
 description: The SetMetadata method sets metadata on the storage.
 old-location: wmdm\iwmdmstorage3_setmetadata.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f06eb965-af34-4247-b8a6-0ac1ee4e4839
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetMetadata method, IWMDMStorage3.SetMetadata, IWMDMStorage3::SetMetadata, IWMDMStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetMetadata, wmdm.iwmdmstorage3_setmetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorage3.SetMetadata
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorage3::SetMetadata

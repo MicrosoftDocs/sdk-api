@@ -4,7 +4,7 @@ title: MAPIRESOLVENAME
 author: windows-sdk-content
 description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
 old-location: mapi\mapiresolvename.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPIResolveName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPIRESOLVENAME callback function

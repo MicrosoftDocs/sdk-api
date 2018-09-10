@@ -4,17 +4,16 @@ title: IDWriteFontFace1::GetUnicodeRanges
 author: windows-sdk-content
 description: Retrieves a list of character ranges supported by a font.
 old-location: directwrite\idwritefontface1_getunicoderanges.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0464BA91-B098-463D-A4A9-8D3C05E45F0E
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetUnicodeRanges method, IDWriteFontFace1.GetUnicodeRanges, IDWriteFontFace1::GetUnicodeRanges, directwrite.idwritefontface1_getunicoderanges, dwrite_1/IDWriteFontFace1::GetUnicodeRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite_1.lib
+req.dll: Dwrite_1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFace1.GetUnicodeRanges
 product: Windows
 targetos: Windows
-req.lib: Dwrite_1.lib
-req.dll: Dwrite_1.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFace1::GetUnicodeRanges

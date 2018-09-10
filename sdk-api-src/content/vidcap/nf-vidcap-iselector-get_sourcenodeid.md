@@ -4,17 +4,16 @@ title: ISelector::get_SourceNodeId
 author: windows-sdk-content
 description: The get_SourceNodeId method returns the index of the active source node.
 old-location: dshow\iselector_get_sourcenodeid.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae2b0e1a-1527-4634-b2f9-47c9519b55a6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ISelector interface [DirectShow],get_SourceNodeId method, ISelector.get_SourceNodeId, ISelector::get_SourceNodeId, ISelectorget_SourceNodeId, dshow.iselector_get_sourcenodeid, get_SourceNodeId, get_SourceNodeId method [DirectShow], get_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::get_SourceNodeId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISelector.get_SourceNodeId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ISelector::get_SourceNodeId

@@ -4,17 +4,16 @@ title: SetClusterServiceAccountPassword function
 author: windows-sdk-content
 description: Changes the password for the Cluster service user account on all available cluster nodes.
 old-location: mscs\setclusterserviceaccountpassword.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD function [Failover Cluster], SetClusterServiceAccountPassword, SetClusterServiceAccountPassword function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, clusapi/SetClusterServiceAccountPassword, mscs.setclusterserviceaccountpassword
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Datacenter, Windows Server 2003 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SetClusterServiceAccountPassword
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # SetClusterServiceAccountPassword function

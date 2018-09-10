@@ -4,7 +4,7 @@ title: "_AM_COPY_MACROVISION"
 author: windows-sdk-content
 description: The AM_COPY_MACROVISION structure specifies the analog copy protection level for an NTSC encoder.
 old-location: dshow\am_copy_macrovision.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7fb1b12a-92f4-48e2-8ebe-359ebc33cd09
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_COPY_MACROVISION, *PAM_COPY_MACROVISION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_COPY_MACROVISION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_COPY_MACROVISION, *PAM_COPY_MACROVISION
+req.redist: 
 ---
 
 # _AM_COPY_MACROVISION structure

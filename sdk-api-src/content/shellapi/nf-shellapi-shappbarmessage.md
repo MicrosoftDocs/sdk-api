@@ -4,17 +4,16 @@ title: SHAppBarMessage function
 author: windows-sdk-content
 description: Sends an appbar message to the system.
 old-location: shell\SHAppBarMessage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 173d6eff-b33b-4d7d-bedd-5ebfb1e45954
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ABM_ACTIVATE, ABM_GETAUTOHIDEBAR, ABM_GETAUTOHIDEBAREX, ABM_GETSTATE, ABM_GETTASKBARPOS, ABM_NEW, ABM_QUERYPOS, ABM_REMOVE, ABM_SETAUTOHIDEBAR, ABM_SETAUTOHIDEBAREX, ABM_SETPOS, ABM_SETSTATE, ABM_WINDOWPOSCHANGED, SHAppBarMessage, SHAppBarMessage function [Windows Shell], _win32_SHAppBarMessage, shell.SHAppBarMessage, shellapi/SHAppBarMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHAppBarMessage
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHAppBarMessage function

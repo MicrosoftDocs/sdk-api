@@ -4,17 +4,16 @@ title: IAudioSessionNotification::OnSessionCreated
 author: windows-sdk-content
 description: The OnSessionCreated method notifies the registered processes that the audio session has been created.
 old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated method, IAudioSessionNotification.OnSessionCreated, IAudioSessionNotification::OnSessionCreated, OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio],IAudioSessionNotification interface, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionNotification.OnSessionCreated
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionNotification::OnSessionCreated

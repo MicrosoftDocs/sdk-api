@@ -4,7 +4,7 @@ title: "_RAS_CONNECTION_1"
 author: windows-sdk-content
 description: The RAS_CONNECTION_1 structure contains detailed information regarding a specific connection, such as error counts and bytes received. For more general information about a specific connection, such as user name or domain, see RAS_CONNECTION_0.
 old-location: rras\ras_connection_1.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RAS_CONNECTION_1, *PRAS_CONNECTION_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RAS_CONNECTION_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: RAS_CONNECTION_1, *PRAS_CONNECTION_1
+req.redist: 
 ---
 
 # _RAS_CONNECTION_1 structure

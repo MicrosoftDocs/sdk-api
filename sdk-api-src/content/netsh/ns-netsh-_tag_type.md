@@ -4,7 +4,7 @@ title: "_TAG_TYPE"
 author: windows-sdk-content
 description: Specifies tags used for the PreprocessCommand function.
 old-location: netshell\tag_type.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 3e87447e-5374-4411-96ab-3ad400948aa5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAG_TYPE, *PTAG_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TAG_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: TAG_TYPE, *PTAG_TYPE
+req.redist: 
 ---
 
 # _TAG_TYPE structure

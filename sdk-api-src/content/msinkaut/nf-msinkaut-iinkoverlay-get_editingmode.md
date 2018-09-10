@@ -4,17 +4,16 @@ title: IInkOverlay::get_EditingMode
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the object/control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkoverlay_editingmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3b734da3-5784-4504-b22e-b86844d42f4e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3b734da3-5784-4504-b22e-b86844d42f4e, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EditingMode property, IInkOverlay.EditingMode, IInkOverlay.get_EditingMode, IInkOverlay::EditingMode, IInkOverlay::get_EditingMode, IInkOverlay::put_EditingMode, InkOverlay.get_EditingMode, InkOverlay.put_EditingMode, get_EditingMode, msinkaut/IInkOverlay::EditingMode, msinkaut/IInkOverlay::get_EditingMode, msinkaut/IInkOverlay::put_EditingMode, put_EditingMode, tablet.inkoverlay_editingmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_EditingMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::get_EditingMode

@@ -4,17 +4,16 @@ title: IOleObject::Unadvise
 author: windows-sdk-content
 description: Deletes a previously established advisory connection.
 old-location: com\ioleobject_unadvise.htm
-old-project: com
+tech.root: com
 ms.assetid: e3d63a75-30b0-4fe5-9a1d-c70820583765
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IOleObject::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleObject interface, _ole_ioleobject_unadvise, com.ioleobject_unadvise, oleidl/IOleObject::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleObject.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleObject::Unadvise

@@ -4,17 +4,16 @@ title: IApartmentShutdown::OnUninitialize
 author: windows-sdk-content
 description: Called when a registered apartment is shut down.
 old-location: winrt\iapartmentshutdown_onuninitialize.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApartmentShutdown.OnUninitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IApartmentShutdown::OnUninitialize

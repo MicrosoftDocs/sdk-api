@@ -4,17 +4,16 @@ title: IX509AttributeCspProvider::get_ProviderName
 author: windows-sdk-content
 description: Retrieves the provider name.
 old-location: security\ix509attributecspprovider_providername_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 4a62d1e4-4d00-416b-b44a-23a9cbc53a5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],ProviderName property, IX509AttributeCspProvider.ProviderName, IX509AttributeCspProvider.get_ProviderName, IX509AttributeCspProvider::ProviderName, IX509AttributeCspProvider::get_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::ProviderName, certenroll/IX509AttributeCspProvider::get_ProviderName, get_ProviderName, security.ix509attributecspprovider_providername_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509AttributeCspProvider.get_ProviderName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeCspProvider::get_ProviderName

@@ -4,17 +4,16 @@ title: IAssemblyCacheItem::Commit
 author: windows-sdk-content
 description: The Commit method copies information into the side-by-side store. When this method returns, the assembly is visible in the side-by-side store.
 old-location: setup\iassemblycacheitem_commit.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: d8f8b6b3-72b4-400b-a780-fc25d1f4b9d0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Commit, Commit method [Side-by-side Assemblies], Commit method [Side-by-side Assemblies],IAssemblyCacheItem interface, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_ALREADY_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_REFRESHED, IASSEMBLYCACHEITEM_COMMIT_FLAG_FORCE_REFRESH, IASSEMBLYCACHEITEM_COMMIT_FLAG_REFRESH, IAssemblyCacheItem interface [Side-by-side Assemblies],Commit method, IAssemblyCacheItem.Commit, IAssemblyCacheItem::Commit, setup.iassemblycacheitem_commit, winsxs/IAssemblyCacheItem::Commit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
+req.lib: 
+req.dll: Sxs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssemblyCacheItem.Commit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sxs.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAssemblyCacheItem::Commit

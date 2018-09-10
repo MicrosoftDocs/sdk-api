@@ -4,7 +4,7 @@ title: ISyncMgrScheduleWizardUIOperation
 author: windows-sdk-content
 description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.
 old-location: shell\ISyncMgrScheduleWizardUIOperation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrScheduleWizardUIOperation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrScheduleWizardUIOperation interface

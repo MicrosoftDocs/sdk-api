@@ -4,17 +4,16 @@ title: ID2D1EffectContext::CreateTransformNodeFromEffect
 author: windows-sdk-content
 description: Wraps an effect graph into a single transform node and then inserted into a transform graph. This allows an effect to aggregate other effects.
 old-location: direct2d\id2d1contextinternal_createtransformnodefromeffect.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 75F1366A-4E82-4CAD-A843-6E53035CB520
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateTransformNodeFromEffect, CreateTransformNodeFromEffect method [Direct2D], CreateTransformNodeFromEffect method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateTransformNodeFromEffect method, ID2D1EffectContext.CreateTransformNodeFromEffect, ID2D1EffectContext::CreateTransformNodeFromEffect, d2d1effectauthor/ID2D1EffectContext::CreateTransformNodeFromEffect, direct2d.id2d1contextinternal_createtransformnodefromeffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1EffectContext.CreateTransformNodeFromEffect
 product: Windows
 targetos: Windows
-req.lib: D2D1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1EffectContext::CreateTransformNodeFromEffect

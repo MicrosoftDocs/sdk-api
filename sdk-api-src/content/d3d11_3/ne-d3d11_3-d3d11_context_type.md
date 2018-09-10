@@ -4,7 +4,7 @@ title: D3D11_CONTEXT_TYPE
 author: windows-sdk-content
 description: Specifies the context in which a query occurs.
 old-location: direct3d11\d3d11_context_type.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 5467F07C-E429-4324-B52E-FDC25B4DB9FE
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_CONTEXT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_CONTEXT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_CONTEXT_TYPE
+req.redist: 
 ---
 
 # D3D11_CONTEXT_TYPE enumeration

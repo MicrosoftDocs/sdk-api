@@ -4,7 +4,7 @@ title: IPSNMPInfo
 author: windows-sdk-content
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipsnmpinfo.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSNMPInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSNMPInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: IPSNMPInfo
+req.redist: 
 ---
 
 # IPSNMPInfo structure

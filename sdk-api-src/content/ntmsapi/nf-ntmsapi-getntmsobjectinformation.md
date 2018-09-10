@@ -4,17 +4,16 @@ title: GetNtmsObjectInformation function
 author: windows-sdk-content
 description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
 old-location: fs\getntmsobjectinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetNtmsObjectInformationW
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetNtmsObjectInformation function

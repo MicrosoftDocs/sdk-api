@@ -4,17 +4,16 @@ title: IContextMenuProvider::AddThirdPartyExtensionItems
 author: windows-sdk-content
 description: The IContextMenuProvider::AddThirdPartyExtensionItems method enables third-party extensions to add items at specified insertion points in this context menu.
 old-location: mmc\icontextmenuprovider_addthirdpartyextensionitems.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: 8974b463-d4b6-464d-9bea-8d482d4804f3
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: AddThirdPartyExtensionItems, AddThirdPartyExtensionItems method [MMC], AddThirdPartyExtensionItems method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],AddThirdPartyExtensionItems method, IContextMenuProvider.AddThirdPartyExtensionItems, IContextMenuProvider::AddThirdPartyExtensionItems, _slate_icontextmenuprovider_addthirdpartyextensionitems, mmc.icontextmenuprovider_addthirdpartyextensionitems, mmc/IContextMenuProvider::AddThirdPartyExtensionItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContextMenuProvider.AddThirdPartyExtensionItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContextMenuProvider::AddThirdPartyExtensionItems

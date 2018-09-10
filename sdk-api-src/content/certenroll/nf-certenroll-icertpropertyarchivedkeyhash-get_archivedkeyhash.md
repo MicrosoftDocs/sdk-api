@@ -4,17 +4,16 @@ title: ICertPropertyArchivedKeyHash::get_ArchivedKeyHash
 author: windows-sdk-content
 description: Retrieves a SHA-1 hash of the private key.
 old-location: security\icertpropertyarchivedkeyhash_archivedkeyhash.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b5f38bfc-58aa-42c6-a457-44bdfd013ce7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ArchivedKeyHash property [Security], ArchivedKeyHash property [Security],ICertPropertyArchivedKeyHash interface, ICertPropertyArchivedKeyHash interface [Security],ArchivedKeyHash property, ICertPropertyArchivedKeyHash.ArchivedKeyHash, ICertPropertyArchivedKeyHash.get_ArchivedKeyHash, ICertPropertyArchivedKeyHash::ArchivedKeyHash, ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, get_ArchivedKeyHash, security.icertpropertyarchivedkeyhash_archivedkeyhash
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyArchivedKeyHash::get_ArchivedKeyHash

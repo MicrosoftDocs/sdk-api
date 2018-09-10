@@ -4,17 +4,16 @@ title: IWMPContentPartner::Download
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Download method initiates the download of a set of media items.
 old-location: wmp\iwmpcontentpartner_download.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Download, Download method [Windows Media Player], Download method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Download method, IWMPContentPartner.Download, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartner.Download
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartner::Download

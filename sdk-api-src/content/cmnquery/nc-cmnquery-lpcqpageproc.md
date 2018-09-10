@@ -4,7 +4,7 @@ title: LPCQPAGEPROC
 author: windows-sdk-content
 description: Called by the query dialog box to notify the query form extension of events that occur in a query page.
 old-location: ad\cqpageproc.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 11d40439-0877-4870-80f8-88026c448a32
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPCQPAGEPROC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPCQPAGEPROC callback function

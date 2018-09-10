@@ -4,7 +4,7 @@ title: "_SEARCH_INDEXING_PHASE"
 author: windows-sdk-content
 description: Specifies the status of the current search indexing phase.
 old-location: search\_search_SEARCH_INDEXING_PHASE.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_indexing_phase.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEARCH_INDEXING_PHASE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEARCH_INDEXING_PHASE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Iassdo.dll
-req.irql: 
-req.product: ADAM
+req.typenames: SEARCH_INDEXING_PHASE
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # _SEARCH_INDEXING_PHASE enumeration

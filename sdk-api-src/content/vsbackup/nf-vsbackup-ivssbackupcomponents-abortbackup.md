@@ -4,17 +4,16 @@ title: IVssBackupComponents::AbortBackup
 author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.AbortBackup
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::AbortBackup

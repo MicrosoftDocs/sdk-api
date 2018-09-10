@@ -4,17 +4,16 @@ title: IShellItemFilter::GetEnumFlagsForItem
 author: windows-sdk-content
 description: Allows a client to specify which classes of objects in a Shell item should be enumerated for inclusion in the view.
 old-location: shell\IShellItemFilter_GetEnumFlagsForItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a84868ab-25c4-4cb7-84a1-aba0eff09b4a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEnumFlagsForItem, GetEnumFlagsForItem method [Windows Shell], GetEnumFlagsForItem method [Windows Shell],IShellItemFilter interface, IShellItemFilter interface [Windows Shell],GetEnumFlagsForItem method, IShellItemFilter.GetEnumFlagsForItem, IShellItemFilter::GetEnumFlagsForItem, _shell_IShellItemFilter_GetEnumFlagsForItem, shell.IShellItemFilter_GetEnumFlagsForItem, shobjidl_core/IShellItemFilter::GetEnumFlagsForItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItemFilter.GetEnumFlagsForItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItemFilter::GetEnumFlagsForItem

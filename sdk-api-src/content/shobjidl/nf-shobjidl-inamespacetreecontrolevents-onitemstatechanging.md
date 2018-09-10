@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnItemStateChanging
 author: windows-sdk-content
 description: Called before the state of an item changes.
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanging.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ed0f431a-f3e2-4a95-a16e-6e38568dd91f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemStateChanging method, INameSpaceTreeControlEvents.OnItemStateChanging, INameSpaceTreeControlEvents::OnItemStateChanging, OnItemStateChanging, OnItemStateChanging method [Windows Shell], OnItemStateChanging method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemStateChanging, shell.INameSpaceTreeControlEvents_OnItemStateChanging, shobjidl/INameSpaceTreeControlEvents::OnItemStateChanging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnItemStateChanging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnItemStateChanging

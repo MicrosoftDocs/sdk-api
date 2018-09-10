@@ -4,17 +4,16 @@ title: IEnumCERTVIEWCOLUMN::IsIndexed
 author: windows-sdk-content
 description: Reports whether the data in the column is indexed.
 old-location: security\ienumcertviewcolumn_isindexed.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN.IsIndexed
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN::IsIndexed

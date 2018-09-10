@@ -4,17 +4,16 @@ title: AVISaveA function
 author: windows-sdk-content
 description: The AVISave function builds a file by combining data streams from other files or from memory.
 old-location: multimedia\avisave.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVISave, AVISave function [Windows Multimedia], AVISaveA, AVISaveW, _win32_AVISave, multimedia.avisave, vfw/AVISave, vfw/AVISaveA, vfw/AVISaveW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Avifil32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - AVISaveW
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Avifil32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVISaveA function

@@ -4,17 +4,16 @@ title: FreeUrlCacheSpaceA function
 author: windows-sdk-content
 description: Frees space in the cache.
 old-location: wininet\freeurlcachespace.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 5853CA64-551F-484E-A992-25B9EA6C74C2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCacheSpaceA, FreeUrlCacheSpaceW, wininet.freeurlcachespace, winineti/FreeUrlCacheSpace, winineti/FreeUrlCacheSpaceA, winineti/FreeUrlCacheSpaceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FreeUrlCacheSpaceW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FreeUrlCacheSpaceA function

@@ -4,7 +4,7 @@ title: "_LSA_TRANSLATED_SID2"
 author: windows-sdk-content
 description: Contains SIDs that are retrieved based on account names.
 old-location: security\lsa_translated_sid2.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 792de958-8e24-46d8-b484-159435bc96e3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TRANSLATED_SID2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
+req.redist: 
 ---
 
 # _LSA_TRANSLATED_SID2 structure

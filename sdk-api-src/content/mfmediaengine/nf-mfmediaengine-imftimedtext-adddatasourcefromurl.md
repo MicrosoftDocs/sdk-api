@@ -4,17 +4,16 @@ title: IMFTimedText::AddDataSourceFromUrl
 author: windows-sdk-content
 description: Adds a timed-text data source from the specified URL.
 old-location: mf\imftimedtext_adddatasourcefromurl.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5E02BE3F-D0A8-492D-BBB2-F5A95B9C406D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddDataSourceFromUrl, AddDataSourceFromUrl method [Media Foundation], AddDataSourceFromUrl method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSourceFromUrl method, IMFTimedText.AddDataSourceFromUrl, IMFTimedText::AddDataSourceFromUrl, mf.imftimedtext_adddatasourcefromurl, mfmediaengine/IMFTimedText::AddDataSourceFromUrl
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedText.AddDataSourceFromUrl
 product: Windows
 targetos: Windows
-req.lib: Mfmediaengine.lib
-req.dll: Mfmediaengine.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedText::AddDataSourceFromUrl

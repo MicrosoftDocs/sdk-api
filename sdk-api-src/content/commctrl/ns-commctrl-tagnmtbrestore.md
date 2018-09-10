@@ -4,7 +4,7 @@ title: tagNMTBRESTORE
 author: windows-sdk-content
 description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.
 old-location: controls\NMTBRESTORE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMTBRESTORE, *LPNMTBRESTORE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMTBRESTORE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMTBRESTORE, *LPNMTBRESTORE
+req.redist: 
 ---
 
 # tagNMTBRESTORE structure

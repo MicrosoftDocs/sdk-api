@@ -4,17 +4,16 @@ title: IMbnDeviceService::get_IsDataSessionOpen
 author: windows-sdk-content
 description: Reports if the device service data session is open.
 old-location: mbn\imbndeviceservice_isdatasessionopen.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 97F58FC5-D960-4EBA-8441-12472F2771DE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsDataSessionOpen property, IMbnDeviceService.IsDataSessionOpen, IMbnDeviceService.get_IsDataSessionOpen, IMbnDeviceService::IsDataSessionOpen, IMbnDeviceService::get_IsDataSessionOpen, IsDataSessionOpen property [Microsoft Broadband Networks], IsDataSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsDataSessionOpen, mbn.imbndeviceservice_isdatasessionopen, mbnapi/IMbnDeviceService::IsDataSessionOpen, mbnapi/IMbnDeviceService::get_IsDataSessionOpen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnDeviceService.get_IsDataSessionOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnDeviceService::get_IsDataSessionOpen

@@ -4,7 +4,7 @@ title: linegeneratetone_tag
 author: windows-sdk-content
 description: The LINEGENERATETONE structure contains information about a tone to be generated. This structure is used by the lineGenerateTone and TSPI_lineGenerateTone functions.
 old-location: tapi2\linegeneratetone_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: e430d944-816b-4072-a40b-b9001c465713
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEGENERATETONE, *LPLINEGENERATETONE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEGENERATETONE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEGENERATETONE, *LPLINEGENERATETONE
+req.redist: 
 ---
 
 # linegeneratetone_tag structure

@@ -4,17 +4,16 @@ title: IMFTimedText::GetTracks
 author: windows-sdk-content
 description: Retrieves a list of all timed-text tracks registered with the IMFTimedText.
 old-location: mf\imftimedtext_gettracks.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4ECBC4CD-12A0-493A-A301-1E392F6EC280
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetTracks, GetTracks method [Media Foundation], GetTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTracks method, IMFTimedText.GetTracks, IMFTimedText::GetTracks, mf.imftimedtext_gettracks, mfmediaengine/IMFTimedText::GetTracks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_KEYERR
+req.lib: Mfmediaengine.lib
+req.dll: Mfmediaengine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimedText.GetTracks
 product: Windows
 targetos: Windows
-req.lib: Mfmediaengine.lib
-req.dll: Mfmediaengine.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimedText::GetTracks

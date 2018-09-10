@@ -4,17 +4,16 @@ title: ITableProvider::get_RowOrColumnMajor
 author: windows-sdk-content
 description: Specifies the primary direction of traversal for the table.
 old-location: winauto\uiauto_ITableProvider_RowOrColumnMajor.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9123bc22-2e48-4e4b-acc9-f11098970197
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITableProvider interface [Windows Accessibility],RowOrColumnMajor property, ITableProvider.RowOrColumnMajor, ITableProvider.get_RowOrColumnMajor, ITableProvider::RowOrColumnMajor, ITableProvider::get_RowOrColumnMajor, RowOrColumnMajor property [Windows Accessibility], RowOrColumnMajor property [Windows Accessibility],ITableProvider interface, get_RowOrColumnMajor, uiauto.uiauto_ITableProvider_RowOrColumnMajor, uiauto_ITableProvider_RowOrColumnMajor, uiautomationcore/ITableProvider::RowOrColumnMajor, uiautomationcore/ITableProvider::get_RowOrColumnMajor, winauto.uiauto_ITableProvider_RowOrColumnMajor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITableProvider.get_RowOrColumnMajor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITableProvider::get_RowOrColumnMajor

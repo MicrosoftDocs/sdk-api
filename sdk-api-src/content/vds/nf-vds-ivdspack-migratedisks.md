@@ -4,17 +4,16 @@ title: IVdsPack::MigrateDisks
 author: windows-sdk-content
 description: Migrates a set of disks from one pack to another pack.
 old-location: base\ivdspack_migratedisks.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.MigrateDisks
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::MigrateDisks

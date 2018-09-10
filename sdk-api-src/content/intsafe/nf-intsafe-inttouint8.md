@@ -4,17 +4,16 @@ title: IntToUInt8 function
 author: windows-sdk-content
 description: Converts a value of type INT to a value of type UINT8.
 old-location: shell\IntToUInt8.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4c3c8d81-d67b-4e5f-9606-2d21ddaf0786
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntToByte, IntToUInt8, IntToUInt8 function [Windows Shell], intsafe/IntToUInt8, shell.IntToUInt8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntToUInt8
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntToUInt8 function

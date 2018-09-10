@@ -4,7 +4,7 @@ title: tagRECO_ATTRS
 author: windows-sdk-content
 description: Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.
 old-location: tablet\reco_attrs.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_ATTRS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_ATTRS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_ATTRS
+req.redist: 
 ---
 
 # tagRECO_ATTRS structure

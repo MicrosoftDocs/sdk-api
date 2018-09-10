@@ -4,17 +4,16 @@ title: ColorRGBToHLS function
 author: windows-sdk-content
 description: Converts colors from RGB to hue-luminance-saturation (HLS) format.
 old-location: shell\ColorRGBToHLS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ed000f53-cc7e-4693-994c-a5dd7c789f1f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_ColorRGBToHLS, shell.ColorRGBToHLS, shlwapi/ColorRGBToHLS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ColorRGBToHLS
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # ColorRGBToHLS function

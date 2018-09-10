@@ -4,17 +4,16 @@ title: CreateFiberEx function
 author: windows-sdk-content
 description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
 old-location: base\createfiberex.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CreateFiberEx
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateFiberEx function

@@ -4,17 +4,16 @@ title: PropSheet_Changed macro
 author: windows-sdk-content
 description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.
 old-location: controls\PropSheet_Changed.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_changed.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PropSheet_Changed, PropSheet_Changed macro [Windows Controls], _win32_PropSheet_Changed, _win32_PropSheet_Changed_cpp, controls.PropSheet_Changed, controls._win32_PropSheet_Changed, prsht/PropSheet_Changed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_Changed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_Changed macro

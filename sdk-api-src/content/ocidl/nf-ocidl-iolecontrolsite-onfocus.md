@@ -4,17 +4,16 @@ title: IOleControlSite::OnFocus
 author: windows-sdk-content
 description: Indicates whether the control managed by this control site has gained or lost the focus.
 old-location: com\iolecontrolsite_onfocus.htm
-old-project: com
+tech.root: com
 ms.assetid: 22869326-2815-49cb-8d03-14dca5d45689
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleControlSite interface [COM],OnFocus method, IOleControlSite.OnFocus, IOleControlSite::OnFocus, OnFocus, OnFocus method [COM], OnFocus method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_onfocus, com.iolecontrolsite_onfocus, ocidl/IOleControlSite::OnFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.OnFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::OnFocus

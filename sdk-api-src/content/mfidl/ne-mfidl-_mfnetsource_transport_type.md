@@ -4,7 +4,7 @@ title: "_MFNETSOURCE_TRANSPORT_TYPE"
 author: windows-sdk-content
 description: Describes the type of transport used in streaming or downloading data (TCP or UDP).
 old-location: mf\mfnetsource_transport_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNETSOURCE_TRANSPORT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNETSOURCE_TRANSPORT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNETSOURCE_TRANSPORT_TYPE
+req.redist: 
 ---
 
 # _MFNETSOURCE_TRANSPORT_TYPE enumeration

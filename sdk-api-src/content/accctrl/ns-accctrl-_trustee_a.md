@@ -4,7 +4,7 @@ title: "_TRUSTEE_A"
 author: windows-sdk-content
 description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
 old-location: security\trustee.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,8 +42,8 @@ api_name:
  - TRUSTEE_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.typenames: TRUSTEE_A, *PTRUSTEE_A, TRUSTEEA, *PTRUSTEEA
+req.redist: 
 ---
 
 # _TRUSTEE_A structure

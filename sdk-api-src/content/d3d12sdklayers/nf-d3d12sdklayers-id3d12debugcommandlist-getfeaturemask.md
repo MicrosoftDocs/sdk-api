@@ -4,17 +4,16 @@ title: ID3D12DebugCommandList::GetFeatureMask
 author: windows-sdk-content
 description: Returns the debug feature flags that have been set on a command list.
 old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DebugCommandList.GetFeatureMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DebugCommandList::GetFeatureMask

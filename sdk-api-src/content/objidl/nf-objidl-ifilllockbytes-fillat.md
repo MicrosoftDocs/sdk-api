@@ -4,17 +4,16 @@ title: IFillLockBytes::FillAt
 author: windows-sdk-content
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFillLockBytes.FillAt
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFillLockBytes::FillAt
@@ -63,7 +61,7 @@ The
 
 ### -param ulOffset
 
-
+TBD
 
 
 ### -param pv [in]

@@ -4,17 +4,16 @@ title: MgmGetMfe function
 author: windows-sdk-content
 description: The MgmGetMfe function retrieves a specific MFE.
 old-location: rras\mgmgetmfe.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 15b1b096-9044-4983-9039-e7a13c2cca25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe, rras.mgmgetmfe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MGM_ENUM_TYPES
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MgmGetMfe
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MgmGetMfe function

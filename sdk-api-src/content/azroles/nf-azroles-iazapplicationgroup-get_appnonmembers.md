@@ -4,17 +4,16 @@ title: IAzApplicationGroup::get_AppNonMembers
 author: windows-sdk-content
 description: Retrieves the application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_appnonmembers.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: a85a9004-f3f5-44ce-a0d7-fa450af74917
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AppNonMembers property [Security], AppNonMembers property [Security],AzApplicationGroup object, AppNonMembers property [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AppNonMembers property, IAzApplicationGroup interface [Security],AppNonMembers property, IAzApplicationGroup.AppNonMembers, IAzApplicationGroup.get_AppNonMembers, IAzApplicationGroup::AppNonMembers, IAzApplicationGroup::get_AppNonMembers, azroles/IAzApplicationGroup::AppNonMembers, azroles/IAzApplicationGroup::get_AppNonMembers, get_AppNonMembers, security.iazapplicationgroup_appnonmembers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzApplicationGroup.AppNonMembers
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplicationGroup::get_AppNonMembers

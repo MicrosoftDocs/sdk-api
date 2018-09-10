@@ -4,7 +4,7 @@ title: IMFASFContentInfo
 author: windows-sdk-content
 description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.
 old-location: mf\imfasfcontentinfo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFContentInfo
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mf.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFContentInfo interface

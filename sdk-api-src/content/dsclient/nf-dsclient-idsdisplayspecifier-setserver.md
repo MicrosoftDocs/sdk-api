@@ -4,17 +4,16 @@ title: IDsDisplaySpecifier::SetServer
 author: windows-sdk-content
 description: Specifies the server from which display specifier data is obtained.
 old-location: ad\idsdisplayspecifier_setserver.htm
-old-project: ad
+tech.root: ad
 ms.assetid: f72cc711-7dec-4f5a-9cf1-57612240b435
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSSSF_DONTSIGNSEAL, DSSSF_DSAVAILABLE, DSSSF_SIMPLEAUTHENTICATE, IDsDisplaySpecifier interface [Active Directory],SetServer method, IDsDisplaySpecifier.SetServer, IDsDisplaySpecifier::SetServer, SetServer, SetServer method [Active Directory], SetServer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setserver, ad.idsdisplayspecifier__setserver, ad.idsdisplayspecifier_setserver, dsclient/IDsDisplaySpecifier::SetServer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
+req.lib: 
+req.dll: Dsadmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsDisplaySpecifier.SetServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dsadmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsDisplaySpecifier::SetServer

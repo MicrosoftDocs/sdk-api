@@ -4,7 +4,7 @@ title: tagFaceCharacterizationBlobHeader
 author: windows-sdk-content
 description: The FaceCharacterizationBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.
 old-location: stream\facecharacterizationblobheader.htm
-old-project: stream
+tech.root: stream
 ms.assetid: F3BDB935-A8CB-41BA-B912-0B9264FE0B09
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FaceCharacterizationBlobHeader
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FaceCharacterizationBlobHeader
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FaceCharacterizationBlobHeader
+req.redist: 
 ---
 
 # tagFaceCharacterizationBlobHeader structure

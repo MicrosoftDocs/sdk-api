@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm
-old-project: ics
+tech.root: ics
 ms.assetid: da3719a3-67b3-44a8-9cf8-0062f476bb2c
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, put_AllowOutboundDestinationUnreachable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowOutboundDestinationUnreachable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable

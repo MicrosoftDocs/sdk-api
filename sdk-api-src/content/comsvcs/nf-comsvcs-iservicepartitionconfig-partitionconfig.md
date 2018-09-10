@@ -4,17 +4,16 @@ title: IServicePartitionConfig::PartitionConfig
 author: windows-sdk-content
 description: Configures how partitions are used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0f8c5353-5740-4c7e-91be-f336424fb93a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionConfig method, IServicePartitionConfig.PartitionConfig, IServicePartitionConfig::PartitionConfig, PartitionConfig, PartitionConfig method [COM+], PartitionConfig method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionConfig, comsvcs/IServicePartitionConfig::PartitionConfig, cos.iservicepartitionconfig_partitionconfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePartitionConfig.PartitionConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePartitionConfig::PartitionConfig

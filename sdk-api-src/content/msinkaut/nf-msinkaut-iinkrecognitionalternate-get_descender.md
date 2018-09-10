@@ -4,17 +4,16 @@ title: IInkRecognitionAlternate::get_Descender
 author: windows-sdk-content
 description: Gets the decender line for an IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_descender.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 52507911-b48c-47a9-8046-3000ed61e3c8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 52507911-b48c-47a9-8046-3000ed61e3c8, Descender property [Tablet PC], Descender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Descender property, IInkRecognitionAlternate.Descender, IInkRecognitionAlternate.get_Descender, IInkRecognitionAlternate::Descender, IInkRecognitionAlternate::get_Descender, get_Descender, msinkaut/IInkRecognitionAlternate::Descender, msinkaut/IInkRecognitionAlternate::get_Descender, tablet.iinkrecognitionalternate_descender
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionAlternate.get_Descender
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionAlternate::get_Descender

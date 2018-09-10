@@ -4,17 +4,16 @@ title: IOCSPAdmin::GetConfiguration
 author: windows-sdk-content
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
 old-location: security\iocspadmin_getconfiguration_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IOCSPAdmin.GetConfiguration
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPAdmin::GetConfiguration

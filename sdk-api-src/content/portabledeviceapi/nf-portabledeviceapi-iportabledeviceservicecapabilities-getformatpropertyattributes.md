@@ -4,17 +4,16 @@ title: IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes
 author: windows-sdk-content
 description: Retrieves the attributes of a format property.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatpropertyattributes.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: a4120cfd-500d-47dd-87e9-418a32722332
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFormatPropertyAttributes, GetFormatPropertyAttributes method [Windows Portable Devices SDK], GetFormatPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatPropertyAttributes method, IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes, IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatpropertyattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes

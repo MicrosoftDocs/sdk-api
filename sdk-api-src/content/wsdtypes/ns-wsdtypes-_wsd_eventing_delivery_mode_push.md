@@ -4,7 +4,7 @@ title: "_WSD_EVENTING_DELIVERY_MODE_PUSH"
 author: windows-sdk-content
 description: Represents the endpoint reference used for push delivery of events in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode_push.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_EVENTING_DELIVERY_MODE_PUSH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSD_EVENTING_DELIVERY_MODE_PUSH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSD_EVENTING_DELIVERY_MODE_PUSH
+req.redist: 
 ---
 
 # _WSD_EVENTING_DELIVERY_MODE_PUSH structure

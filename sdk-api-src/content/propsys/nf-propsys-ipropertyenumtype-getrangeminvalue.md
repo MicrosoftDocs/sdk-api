@@ -4,17 +4,16 @@ title: IPropertyEnumType::GetRangeMinValue
 author: windows-sdk-content
 description: Gets a minimum value from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetRangeMinValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: e25f776d-f343-4c14-931e-ce2f2761ce2b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetRangeMinValue, GetRangeMinValue method [Windows Properties], GetRangeMinValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetRangeMinValue method, IPropertyEnumType.GetRangeMinValue, IPropertyEnumType::GetRangeMinValue, _shell_IPropertyEnumType_GetRangeMinValue, properties.IPropertyEnumType_GetRangeMinValue, propsys/IPropertyEnumType::GetRangeMinValue, shell.IPropertyEnumType_GetRangeMinValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyEnumType.GetRangeMinValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyEnumType::GetRangeMinValue

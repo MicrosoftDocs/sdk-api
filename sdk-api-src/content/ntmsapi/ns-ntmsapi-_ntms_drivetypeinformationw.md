@@ -4,7 +4,7 @@ title: "_NTMS_DRIVETYPEINFORMATIONW"
 author: windows-sdk-content
 description: The NTMS_DRIVETYPEINFORMATION structure defines the properties specific to a type of drive supported by RSM.
 old-location: fs\ntms_drivetypeinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 2c852397-540c-44f9-a94e-2100d1588d75
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_DRIVETYPEINFORMATIONW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_DRIVETYPEINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_DRIVETYPEINFORMATIONW
+req.redist: 
 ---
 
 # _NTMS_DRIVETYPEINFORMATIONW structure

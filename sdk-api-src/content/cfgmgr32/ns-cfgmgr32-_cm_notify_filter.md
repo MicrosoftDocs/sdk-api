@@ -4,7 +4,7 @@ title: "_CM_NOTIFY_FILTER"
 author: windows-sdk-content
 description: Device notification filter structure.
 old-location: devinst\cm_notify_filter.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_FILTER, *PCM_NOTIFY_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_NOTIFY_FILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CM_NOTIFY_FILTER, *PCM_NOTIFY_FILTER
+req.redist: 
 ---
 
 # _CM_NOTIFY_FILTER structure

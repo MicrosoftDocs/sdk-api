@@ -4,7 +4,7 @@ title: "_DHCPV4_FAILOVER_CLIENT_INFO"
 author: windows-sdk-content
 description: The DHCPV4_FAILOVER_CLIENT_INFO structure defines DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcpv4_failover_client_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 46e4fb62-5b8e-44f8-b3a0-92535ca690f0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCPV4_FAILOVER_CLIENT_INFO, *LPDHCPV4_FAILOVER_CLIENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCPV4_FAILOVER_CLIENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCPV4_FAILOVER_CLIENT_INFO, *LPDHCPV4_FAILOVER_CLIENT_INFO
+req.redist: 
 ---
 
 # _DHCPV4_FAILOVER_CLIENT_INFO structure

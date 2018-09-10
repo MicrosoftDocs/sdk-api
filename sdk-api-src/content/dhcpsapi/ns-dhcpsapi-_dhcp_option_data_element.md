@@ -4,7 +4,7 @@ title: "_DHCP_OPTION_DATA_ELEMENT"
 author: windows-sdk-content
 description: The DHCP_OPTION_DATA_ELEMENT structure defines a data element present (either singly or as a member of an array) within a DHCP_OPTION_DATA structure.
 old-location: dhcp\dhcp_option_data_element.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 2ffc8968-f903-4d8e-8b34-c8031a56ebfc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_OPTION_DATA_ELEMENT, *LPDHCP_OPTION_DATA_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_OPTION_DATA_ELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_OPTION_DATA_ELEMENT, *LPDHCP_OPTION_DATA_ELEMENT
+req.redist: 
 ---
 
 # _DHCP_OPTION_DATA_ELEMENT structure

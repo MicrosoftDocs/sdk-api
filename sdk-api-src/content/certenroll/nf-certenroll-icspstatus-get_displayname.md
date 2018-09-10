@@ -4,17 +4,16 @@ title: ICspStatus::get_DisplayName
 author: windows-sdk-content
 description: Retrieves a string that contains the name of the provider, the algorithm name, and the operations that can be performed by the algorithm.
 old-location: security\icspstatus_displayname.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 7c778f78-1e94-4e84-a51a-3c0171f19db6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisplayName property [Security], DisplayName property [Security],ICspStatus interface, ICspStatus interface [Security],DisplayName property, ICspStatus.DisplayName, ICspStatus.get_DisplayName, ICspStatus::DisplayName, ICspStatus::get_DisplayName, certenroll/ICspStatus::DisplayName, certenroll/ICspStatus::get_DisplayName, get_DisplayName, security.icspstatus_displayname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspStatus.get_DisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatus::get_DisplayName

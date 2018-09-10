@@ -4,17 +4,16 @@ title: IBasicVideo::get_VideoWidth
 author: windows-sdk-content
 description: The get_VideoWidth method retrieves the native width of the video.
 old-location: dshow\ibasicvideo_get_videowidth.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d5167b1e-1341-43b0-bc72-e990ee76e3c4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoWidth method, IBasicVideo.get_VideoWidth, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_VideoWidth
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_VideoWidth

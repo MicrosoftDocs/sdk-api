@@ -4,17 +4,16 @@ title: IWMPDVD::back
 author: windows-sdk-content
 description: The back method returns the display from a submenu to its parent menu.
 old-location: wmp\iwmpdvd_back.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Player 9 Series or later.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPDVD.back
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPDVD::back

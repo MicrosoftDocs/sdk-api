@@ -4,7 +4,7 @@ title: MS_ADDINFO_BLOB_
 author: windows-sdk-content
 description: Provides additional information for in-memory BLOB subject types.
 old-location: security\ms_addinfo_blob.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 236c8778-0b80-4157-8a81-24712ebf9a77
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MS_ADDINFO_BLOB, *PMS_ADDINFO_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MS_ADDINFO_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: MS_ADDINFO_BLOB, *PMS_ADDINFO_BLOB
+req.redist: 
 ---
 
 # MS_ADDINFO_BLOB_ structure

@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxAccountSet.AddAccount
 title: IFaxAccountSet::AddAccount
 author: windows-sdk-content
 description: Adds a fax account to the fax server and returns the new IFaxAccount object.
-old-location: fax\_mfax_faxaccountset_addaccount_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\addaccount.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax Service],FaxAccountSet object, FaxAccountSet object [Fax Service],AddAccount method, FaxAccountSet.AddAccount, IFaxAccountSet.AddAccount, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_addaccount_vb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],AddAccount method, IFaxAccountSet.AddAccount, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp, faxcomex/IFaxAccountSet::AddAccount
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxAccountSet.AddAccount
+ - IFaxAccountSet.AddAccount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxAccountSet::AddAccount
@@ -62,25 +60,32 @@ Adds a fax account to the fax server and returns the new <a href="https://msdn.m
 
 ### -param bstrAccountName [in]
 
-Type: <b>String</b>
+Type: <b>BSTR</b>
 
 Specifies a null-terminated string that contains a name for the new account.
 
 
 ### -param pFaxAccount
 
+TBD
 
 
 
+
+#### - ppFaxAccount [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+
+The address of a pointer to an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+Type: <b>HRESULT</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

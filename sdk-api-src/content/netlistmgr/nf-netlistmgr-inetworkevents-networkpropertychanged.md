@@ -4,17 +4,16 @@ title: INetworkEvents::NetworkPropertyChanged
 author: windows-sdk-content
 description: The NetworkPropertyChanged method is called when a network property change is detected.
 old-location: nla\inetworkevents_networkpropertychanged.htm
-old-project: nla
+tech.root: nla
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkEvents.NetworkPropertyChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkEvents::NetworkPropertyChanged
@@ -62,12 +60,12 @@ The <b>NetworkPropertyChanged</b> method is called when a network property chang
 
 ### -param networkId
 
-
+TBD
 
 
 ### -param flags
 
-
+TBD
 
 
 

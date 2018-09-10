@@ -4,17 +4,16 @@ title: ITextInputPanel::SetInPlacePosition
 author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel in screen coordinates.
 old-location: tablet\itextinputpanel_setinplaceposition.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanel.SetInPlacePosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanel::SetInPlacePosition

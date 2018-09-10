@@ -4,17 +4,16 @@ title: IXblIdpAuthTokenResult::GetMsaPolicy
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsapolicy.htm
-old-project: xblidp
+tech.root: xblidp
 ms.assetid: C2DFE2D9-EDDF-41BF-9E58-3D35054434DA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaPolicy method, IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXblIdpAuthTokenResult.GetMsaPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXblIdpAuthTokenResult::GetMsaPolicy

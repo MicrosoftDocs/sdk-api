@@ -4,7 +4,7 @@ title: "_TRANSFER_SOURCE_FLAGS"
 author: windows-sdk-content
 description: Used by methods of the ITransferSource and ITransferDestination interfaces to control their file operations.
 old-location: shell\TSF_constants.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 8a3da00a-1d96-444d-acbe-9327620b8d24
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRANSFER_SOURCE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # _TRANSFER_SOURCE_FLAGS enumeration

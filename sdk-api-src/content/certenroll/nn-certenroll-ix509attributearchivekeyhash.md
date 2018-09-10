@@ -4,7 +4,7 @@ title: IX509AttributeArchiveKeyHash
 author: windows-sdk-content
 description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekeyhash.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 52c92629-4c9e-4996-80a2-30e2212b3009
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509AttributeArchiveKeyHash
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509AttributeArchiveKeyHash interface

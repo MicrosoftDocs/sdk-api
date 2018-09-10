@@ -4,7 +4,7 @@ title: "_SCESVC_CALLBACK_INFO_"
 author: windows-sdk-content
 description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.
 old-location: security\scesvc_callback_info.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCESVC_CALLBACK_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCESVC_CALLBACK_INFO, *PSCESVC_CALLBACK_INFO
+req.redist: 
 ---
 
 # _SCESVC_CALLBACK_INFO_ structure

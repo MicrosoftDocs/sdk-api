@@ -4,17 +4,16 @@ title: IUIAutomationTextPattern2::RangeFromAnnotation
 author: windows-sdk-content
 description: Retrieves a text range containing the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_iuiautomationtextpattern2_rangefromannotation.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: C79678D7-2CF4-4DBC-BD0B-7DE22AF25AF9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationTextPattern2 interface [Windows Accessibility],RangeFromAnnotation method, IUIAutomationTextPattern2.RangeFromAnnotation, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],IUIAutomationTextPattern2 interface, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTextPattern2.RangeFromAnnotation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTextPattern2::RangeFromAnnotation

@@ -4,17 +4,16 @@ title: IUPnPDevice::get_ParentDevice
 author: windows-sdk-content
 description: The ParentDevice property specifies the parent of the device.
 old-location: upnp\iupnpdevice_parentdevice.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: 662a0bda-32f5-4756-8851-e7b2d0b9cc44
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ParentDevice method, IUPnPDevice.get_ParentDevice, IUPnPDevice::get_ParentDevice, _upnp_iupnpdevice_parentdevice, get_ParentDevice, get_ParentDevice method [UPnP APIs], get_ParentDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_parentdevice, upnp/IUPnPDevice::get_ParentDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDevice.get_ParentDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDevice::get_ParentDevice

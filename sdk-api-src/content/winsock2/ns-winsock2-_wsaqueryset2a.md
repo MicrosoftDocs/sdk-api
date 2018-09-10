@@ -4,7 +4,7 @@ title: "_WSAQuerySet2A"
 author: windows-sdk-content
 description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
 old-location: winsock\wsaqueryset2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAQUERYSET2A, *PWSAQUERYSET2A, *LPWSAQUERYSET2A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSAQUERYSET2W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAQUERYSET2A, *PWSAQUERYSET2A, *LPWSAQUERYSET2A
+req.redist: 
 ---
 
 # _WSAQuerySet2A structure

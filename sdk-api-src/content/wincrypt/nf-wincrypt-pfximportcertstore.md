@@ -4,17 +4,16 @@ title: PFXImportCertStore function
 author: windows-sdk-content
 description: Imports a PFX BLOB and returns the handle of a store that contains certificates and any associated private keys.
 old-location: security\pfximportcertstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2c83774a-f2df-4d28-9abd-e39aa507ba88
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PFXImportCertStore, PFXImportCertStore function [Security], PKCS12_ALLOW_OVERWRITE_KEY, PKCS12_ALWAYS_CNG_KSP, PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_NO_PERSIST_KEY, PKCS12_PREFER_CNG_KSP, _crypto2_pfximportcertstore, security.pfximportcertstore, wincrypt/PFXImportCertStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PFXImportCertStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PFXImportCertStore function

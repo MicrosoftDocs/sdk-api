@@ -4,17 +4,16 @@ title: ID3D11Fence::CreateSharedHandle
 author: windows-sdk-content
 description: Creates a shared handle to a fence object.
 old-location: direct3d11\id3d11fence_createsharedhandle.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 07447C9A-8F69-4FCA-B75C-D7015292F25D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [Direct3D 11], CreateSharedHandle method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],CreateSharedHandle method, ID3D11Fence.CreateSharedHandle, ID3D11Fence::CreateSharedHandle, d3d11_3/ID3D11Fence::CreateSharedHandle, direct3d11.id3d11fence_createsharedhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11Fence.CreateSharedHandle
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Fence::CreateSharedHandle
@@ -85,12 +84,12 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 ### -param dwAccess
 
-
+TBD
 
 
 ### -param lpName
 
-
+TBD
 
 
 ### -param pHandle [out]

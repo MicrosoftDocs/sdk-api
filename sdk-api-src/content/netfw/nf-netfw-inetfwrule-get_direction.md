@@ -4,17 +4,16 @@ title: INetFwRule::get_Direction
 author: windows-sdk-content
 description: Specifies the direction of traffic for which the rule applies.
 old-location: ics\inetfwrule_direction.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 4462c39a-27b8-497b-8393-ed63c7e4cc9b
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Direction property [ICS/ICF], Direction property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Direction property, INetFwRule.Direction, INetFwRule.get_Direction, INetFwRule::Direction, INetFwRule::get_Direction, INetFwRule::put_Direction, get_Direction, ics.inetfwrule_direction, netfw/INetFwRule::Direction, netfw/INetFwRule::get_Direction, netfw/INetFwRule::put_Direction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_Direction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::get_Direction

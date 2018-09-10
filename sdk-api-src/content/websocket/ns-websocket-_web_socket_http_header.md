@@ -4,7 +4,7 @@ title: "_WEB_SOCKET_HTTP_HEADER"
 author: windows-sdk-content
 description: Contains an HTTP header.
 old-location: websock\web_socket_http_header.htm
-old-project: WebSock
+tech.root: WebSock
 ms.assetid: d051c2fd-c21c-43dc-9160-5626fb1d6d49
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_HTTP_HEADER, *PWEB_SOCKET_HTTP_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WEB_SOCKET_HTTP_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WEB_SOCKET_HTTP_HEADER, *PWEB_SOCKET_HTTP_HEADER
+req.redist: 
 ---
 
 # _WEB_SOCKET_HTTP_HEADER structure

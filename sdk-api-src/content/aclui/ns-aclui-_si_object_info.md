@@ -4,7 +4,7 @@ title: "_SI_OBJECT_INFO"
 author: windows-sdk-content
 description: Used to initialize the access control editor.
 old-location: security\si_object_info.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: bdfd0753-4727-4ca1-ac36-0a77db0a16c5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SI_OBJECT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
+req.redist: 
 ---
 
 # _SI_OBJECT_INFO structure

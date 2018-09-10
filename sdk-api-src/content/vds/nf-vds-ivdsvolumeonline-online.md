@@ -4,17 +4,16 @@ title: IVdsVolumeOnline::Online
 author: windows-sdk-content
 description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
 old-location: base\ivdsvolumeonline_online.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsVolumeOnline interface,Online method, IVdsVolumeOnline.Online, IVdsVolumeOnline::Online, Online, Online method, Online method,IVdsVolumeOnline interface, base.ivdsvolumeonline_online, vds/IVdsVolumeOnline::Online
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsVolumeOnline.Online
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsVolumeOnline::Online

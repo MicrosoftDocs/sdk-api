@@ -4,17 +4,16 @@ title: IsSystemResumeAutomatic function
 author: windows-sdk-content
 description: Determines the current state of the computer.
 old-location: base\issystemresumeautomatic.htm
-old-project: power
+tech.root: power
 ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_issystemresumeautomatic, base.issystemresumeautomatic, winbase/IsSystemResumeAutomatic
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsSystemResumeAutomatic
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsSystemResumeAutomatic function

@@ -4,17 +4,16 @@ title: ISettingsEngine::GetStoreStatus
 author: windows-sdk-content
 description: Gets the status of the schema store.
 old-location: smi\isettingsengine_getstorestatus.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 212299b4-d7b3-4a11-b75e-7e752bb91932
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStoreStatus, GetStoreStatus method [SMI], GetStoreStatus method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetStoreStatus method, ISettingsEngine.GetStoreStatus, ISettingsEngine::GetStoreStatus, smi.isettingsengine_getstorestatus, wcmconfig/ISettingsEngine::GetStoreStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.GetStoreStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::GetStoreStatus

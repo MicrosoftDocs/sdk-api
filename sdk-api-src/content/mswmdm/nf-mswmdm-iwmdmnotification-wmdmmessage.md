@@ -4,17 +4,16 @@ title: IWMDMNotification::WMDMMessage
 author: windows-sdk-content
 description: The WMDMMessage method is a callback method implemented by a client, and called by Windows Media Device Manager when a Plug and Play compliant device or storage medium is connected or removed.
 old-location: wmdm\iwmdmnotification_wmdmmessage.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMNotification.WMDMMessage
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMNotification::WMDMMessage

@@ -4,17 +4,16 @@ title: IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
 author: windows-sdk-content
 description: Completes an asynchronous request to unregister a platform work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\imfworkqueueservices_endunregisterplatformworkqueuewithmmcss.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e6cce9d8-7f6c-4835-96a4-a2e836c61d08
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: EndUnregisterPlatformWorkQueueWithMMCSS, EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS, e6cce9d8-7f6c-4835-96a4-a2e836c61d08, mf.imfworkqueueservices_endunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS

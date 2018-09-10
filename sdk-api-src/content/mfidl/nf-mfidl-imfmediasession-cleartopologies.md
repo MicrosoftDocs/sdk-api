@@ -4,17 +4,16 @@ title: IMFMediaSession::ClearTopologies
 author: windows-sdk-content
 description: Clears all of the presentations that are queued for playback in the Media Session.
 old-location: mf\imfmediasession_cleartopologies.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.ClearTopologies
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::ClearTopologies

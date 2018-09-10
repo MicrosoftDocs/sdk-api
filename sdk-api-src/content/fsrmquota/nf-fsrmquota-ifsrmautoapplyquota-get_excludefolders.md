@@ -4,17 +4,16 @@ title: IFsrmAutoApplyQuota::get_ExcludeFolders
 author: windows-sdk-content
 description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota.
 old-location: fsrm\ifsrmautoapplyquota_excludefolders.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 1682e53c-f494-4fa4-b192-203b76e47394
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: ExcludeFolders property [File Server Resource Manager], ExcludeFolders property [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],ExcludeFolders property, IFsrmAutoApplyQuota.ExcludeFolders, IFsrmAutoApplyQuota.get_ExcludeFolders, IFsrmAutoApplyQuota::ExcludeFolders, IFsrmAutoApplyQuota::get_ExcludeFolders, IFsrmAutoApplyQuota::put_ExcludeFolders, fs.ifsrmautoapplyquota_excludefolders, fsrm.ifsrmautoapplyquota_excludefolders, fsrmquota/IFsrmAutoApplyQuota::ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::get_ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::put_ExcludeFolders, get_ExcludeFolders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmAutoApplyQuota.put_ExcludeFolders
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmAutoApplyQuota::get_ExcludeFolders

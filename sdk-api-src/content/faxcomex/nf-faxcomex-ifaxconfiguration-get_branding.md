@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.get_Branding
 title: IFaxConfiguration::get_Branding
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
-old-location: fax\_mfax_FaxConfiguration_Branding_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_Branding.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],Branding property, FaxConfiguration.Branding, IFaxConfiguration.get_Branding, IFaxConfiguration::get_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_FaxConfiguration_Branding_vb, get_Branding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],Branding property, IFaxConfiguration.Branding, IFaxConfiguration.get_Branding, IFaxConfiguration::Branding, IFaxConfiguration::get_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_IFaxConfiguration_Branding, faxcomex/IFaxConfiguration::Branding, faxcomex/IFaxConfiguration::get_Branding, faxcomex/IFaxConfiguration::put_Branding, get_Branding
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.Branding
+ - IFaxConfiguration.Branding
+ - IFaxConfiguration.get_Branding
+ - IFaxConfiguration.put_Branding
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::get_Branding
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

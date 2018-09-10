@@ -4,17 +4,16 @@ title: IWMProfile2::GetProfileID
 author: windows-sdk-content
 description: The GetProfileID method retrieves the globally unique identifier of a system profile.
 old-location: wmformat\iwmprofile2_getprofileid.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 82e3e086-4b19-4eb9-91ad-d30392f97a28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProfileID, GetProfileID method [windows Media Format], GetProfileID method [windows Media Format],IWMProfile2 interface, GetProfileID method [windows Media Format],IWMProfile3 interface, IWMProfile2 interface [windows Media Format],GetProfileID method, IWMProfile2.GetProfileID, IWMProfile2::GetProfileID, IWMProfile2GetProfileID, IWMProfile3 interface [windows Media Format],GetProfileID method, IWMProfile3::GetProfileID, wmformat.iwmprofile2_getprofileid, wmsdkidl/IWMProfile2::GetProfileID, wmsdkidl/IWMProfile3::GetProfileID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IWMProfile3.GetProfileID
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMProfile2::GetProfileID

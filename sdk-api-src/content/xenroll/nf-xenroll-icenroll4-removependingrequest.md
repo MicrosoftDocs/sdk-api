@@ -4,17 +4,16 @@ title: ICEnroll4::removePendingRequest
 author: windows-sdk-content
 description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_removependingrequest.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 interface [Security],removePendingRequest method, ICEnroll4.removePendingRequest, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest, removePendingRequest method [Security], removePendingRequest method [Security],CEnroll object, removePendingRequest method [Security],ICEnroll4 interface, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CEnroll.removePendingRequest
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::removePendingRequest

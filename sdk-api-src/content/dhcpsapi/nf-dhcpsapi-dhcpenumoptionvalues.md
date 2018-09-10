@@ -4,17 +4,16 @@ title: DhcpEnumOptionValues function
 author: windows-sdk-content
 description: Returns an enumerated list of option values (just the option data and the associated ID number) for a given scope.
 old-location: dhcp\dhcpenumoptionvalues.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 4054cab9-b5f9-4ffa-8151-3ea705bc0755
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpEnumOptionValues
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpEnumOptionValues function

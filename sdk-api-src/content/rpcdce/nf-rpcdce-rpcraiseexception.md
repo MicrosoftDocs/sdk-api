@@ -4,17 +4,16 @@ title: RpcRaiseException function
 author: windows-sdk-content
 description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.
 old-location: rpc\rpcraiseexception.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraiseexception, rpc.rpcraiseexception, rpcdce/RpcRaiseException
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcRaiseException
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcRaiseException function

@@ -4,17 +4,16 @@ title: IDvdControl2::PlayAtTimeInTitle
 author: windows-sdk-content
 description: The PlayAtTimeInTitle method starts playback from the specified time in the specified title.
 old-location: dshow\idvdcontrol2_playattimeintitle.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTimeInTitle method, IDvdControl2.PlayAtTimeInTitle, IDvdControl2::PlayAtTimeInTitle, IDvdControl2PlayAtTimeInTitle, PlayAtTimeInTitle, PlayAtTimeInTitle method [DirectShow], PlayAtTimeInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattimeintitle, strmif/IDvdControl2::PlayAtTimeInTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.PlayAtTimeInTitle
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::PlayAtTimeInTitle
@@ -66,12 +64,12 @@ The <code>PlayAtTimeInTitle</code> method starts playback from the specified tim
 
 ### -param ulTitle
 
-
+TBD
 
 
 ### -param pStartTime
 
-
+TBD
 
 
 ### -param dwFlags [in]

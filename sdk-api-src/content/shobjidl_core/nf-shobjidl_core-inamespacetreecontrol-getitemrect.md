@@ -4,17 +4,16 @@ title: INameSpaceTreeControl::GetItemRect
 author: windows-sdk-content
 description: Gets the RECT structure that describes the size and position of a given item.
 old-location: shell\INameSpaceTreeControl_GetItemRect.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 57e7707c-0fe2-4cde-87d8-2d58e7c06bba
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetItemRect, GetItemRect method [Windows Shell], GetItemRect method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemRect method, INameSpaceTreeControl.GetItemRect, INameSpaceTreeControl::GetItemRect, _shell_INameSpaceTreeControl_GetItemRect, shell.INameSpaceTreeControl_GetItemRect, shobjidl_core/INameSpaceTreeControl::GetItemRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl.GetItemRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl::GetItemRect

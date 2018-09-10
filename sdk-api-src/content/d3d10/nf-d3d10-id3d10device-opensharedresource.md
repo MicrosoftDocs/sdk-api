@@ -4,17 +4,16 @@ title: ID3D10Device::OpenSharedResource
 author: windows-sdk-content
 description: Give a device access to a shared resource created on a different Direct3d device.
 old-location: direct3d10\id3d10device_opensharedresource.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_opensharedresource.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OpenSharedResource method, ID3D10Device.OpenSharedResource, ID3D10Device::OpenSharedResource, OpenSharedResource, OpenSharedResource method [Direct3D 10], OpenSharedResource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OpenSharedResource, direct3d10.id3d10device_opensharedresource, e1b41a59-f80c-625e-e0a5-cc59636f10e1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Device.OpenSharedResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::OpenSharedResource

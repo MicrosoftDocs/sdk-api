@@ -4,7 +4,7 @@ title: "_CMSG_RECIPIENT_ENCODE_INFO"
 author: windows-sdk-content
 description: Contains information a message recipient's content encryption key management type.
 old-location: security\cmsg_recipient_encode_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: eb85f3e4-a5f8-45e7-9bbf-9c649db1e141
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_RECIPIENT_ENCODE_INFO, *PCMSG_RECIPIENT_ENCODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_RECIPIENT_ENCODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_RECIPIENT_ENCODE_INFO, *PCMSG_RECIPIENT_ENCODE_INFO
+req.redist: 
 ---
 
 # _CMSG_RECIPIENT_ENCODE_INFO structure

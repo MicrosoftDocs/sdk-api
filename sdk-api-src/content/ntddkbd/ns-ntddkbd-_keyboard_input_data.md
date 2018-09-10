@@ -4,7 +4,7 @@ title: "_KEYBOARD_INPUT_DATA"
 author: windows-sdk-content
 description: KEYBOARD_INPUT_DATA contains one packet of keyboard input data.
 old-location: hid\keyboard_input_data.htm
-old-project: hid
+tech.root: hid
 ms.assetid: ea0b592a-51d1-4407-9c66-b069af336e54
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KEYBOARD_INPUT_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
+req.redist: 
 ---
 
 # _KEYBOARD_INPUT_DATA structure

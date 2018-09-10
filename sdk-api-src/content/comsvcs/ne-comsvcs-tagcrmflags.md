@@ -4,7 +4,7 @@ title: tagCRMFLAGS
 author: windows-sdk-content
 description: Provides information about when a particular log record to the CRM compensator was written.
 old-location: cos\crmflags.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ef41c99c-9f57-430f-af43-ba0ee1eb7a03
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRMFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRMFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRMFLAGS
+req.redist: 
 ---
 
 # tagCRMFLAGS enumeration

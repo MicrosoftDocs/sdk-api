@@ -4,17 +4,16 @@ title: IOleInPlaceSite::OnInPlaceDeactivate
 author: windows-sdk-content
 description: Notifies the container that the object is no longer active in place.
 old-location: com\ioleinplacesite_oninplacedeactivate.htm
-old-project: com
+tech.root: com
 ms.assetid: 070aac4e-94b6-4e23-b132-1dc833774c8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceDeactivate method, IOleInPlaceSite.OnInPlaceDeactivate, IOleInPlaceSite::OnInPlaceDeactivate, OnInPlaceDeactivate, OnInPlaceDeactivate method [COM], OnInPlaceDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplacedeactivate, com.ioleinplacesite_oninplacedeactivate, oleidl/IOleInPlaceSite::OnInPlaceDeactivate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOleInPlaceSite.OnInPlaceDeactivate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSite::OnInPlaceDeactivate

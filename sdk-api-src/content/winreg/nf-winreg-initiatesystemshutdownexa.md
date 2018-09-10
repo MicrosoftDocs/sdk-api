@@ -4,17 +4,16 @@ title: InitiateSystemShutdownExA function
 author: windows-sdk-content
 description: Initiates a shutdown and optional restart of the specified computer, and optionally records the reason for the shutdown.
 old-location: base\initiatesystemshutdownex.htm
-old-project: Shutdown
+tech.root: Shutdown
 ms.assetid: 4536cf76-7669-42b1-8c44-9f5e368424cc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InitiateSystemShutdownEx, InitiateSystemShutdownEx function, InitiateSystemShutdownExA, InitiateSystemShutdownExW, _win32_initiatesystemshutdownex, base.initiatesystemshutdownex, winreg/InitiateSystemShutdownEx, winreg/InitiateSystemShutdownExA, winreg/InitiateSystemShutdownExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - InitiateSystemShutdownExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # InitiateSystemShutdownExA function

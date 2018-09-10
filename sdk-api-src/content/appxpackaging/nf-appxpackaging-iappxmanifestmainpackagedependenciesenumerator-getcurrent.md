@@ -4,17 +4,16 @@ title: IAppxManifestMainPackageDependenciesEnumerator::GetCurrent
 author: windows-sdk-content
 description: Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_getcurrent.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 14C7F3F9-38FE-4FC2-9255-0A728A1488C0
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestMainPackageDependenciesEnumerator interface, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestMainPackageDependenciesEnumerator.GetCurrent, IAppxManifestMainPackageDependenciesEnumerator::GetCurrent, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::GetCurrent, appxpkg.iappxmanifestmainpackagedependenciesenumerator_getcurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestMainPackageDependenciesEnumerator::GetCurrent

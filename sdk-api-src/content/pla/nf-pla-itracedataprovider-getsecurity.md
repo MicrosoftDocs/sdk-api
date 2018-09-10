@@ -4,17 +4,16 @@ title: ITraceDataProvider::GetSecurity
 author: windows-sdk-content
 description: Retrieves the security information for the trace data provider.
 old-location: pla\itracedataprovider_getsecurity.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceDataProvider.GetSecurity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataProvider::GetSecurity

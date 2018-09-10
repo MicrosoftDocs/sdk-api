@@ -4,17 +4,16 @@ title: TF_CreateLangBarItemMgr function
 author: windows-sdk-content
 description: The TF_CreateLangBarItemMgr function is used to create a language bar item manager object without having to initialize COM.
 old-location: tsf\tf_createlangbaritemmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: b7492732-ae06-4344-b5c0-97b3734af36a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TF_CreateLangBarItemMgr, TF_CreateLangBarItemMgr function [Text Services Framework], msctf/TF_CreateLangBarItemMgr, tsf.tf_createlangbaritemmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_CreateLangBarItemMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # TF_CreateLangBarItemMgr function

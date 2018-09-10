@@ -4,17 +4,16 @@ title: TranslateAcceleratorW function
 author: windows-sdk-content
 description: Processes accelerator keys for menu commands.
 old-location: menurc\translateaccelerator.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - TranslateAcceleratorW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # TranslateAcceleratorW function

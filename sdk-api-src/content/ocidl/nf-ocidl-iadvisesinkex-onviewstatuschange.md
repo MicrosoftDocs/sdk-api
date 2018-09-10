@@ -4,17 +4,16 @@ title: IAdviseSinkEx::OnViewStatusChange
 author: windows-sdk-content
 description: Notifies the sink that a view status of an object has changed.
 old-location: com\iadvisesinkex_onviewstatuschange.htm
-old-project: com
+tech.root: com
 ms.assetid: 9d5129aa-341c-4c69-8c0c-b7c3e62a57c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSinkEx.OnViewStatusChange, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM],IAdviseSinkEx interface, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAdviseSinkEx.OnViewStatusChange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAdviseSinkEx::OnViewStatusChange

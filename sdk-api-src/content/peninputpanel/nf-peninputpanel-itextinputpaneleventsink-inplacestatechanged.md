@@ -4,17 +4,16 @@ title: ITextInputPanelEventSink::InPlaceStateChanged
 author: windows-sdk-content
 description: Occurs when the In-Place state has changed.
 old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged method, ITextInputPanelEventSink.InPlaceStateChanged, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC],ITextInputPanelEventSink interface, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelEventSink.InPlaceStateChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelEventSink::InPlaceStateChanged

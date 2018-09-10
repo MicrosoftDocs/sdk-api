@@ -4,7 +4,7 @@ title: "_AM_DVDCOPY_DISCKEY"
 author: windows-sdk-content
 description: Specifies the DVD disc key.
 old-location: dshow\am_dvdcopy_disckey.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Dvbsiparser.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_DVDCOPY_DISCKEY, *PAM_DVDCOPY_DISCKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_DVDCOPY_DISCKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: AM_DVDCOPY_DISCKEY, *PAM_DVDCOPY_DISCKEY
+req.redist: 
 ---
 
 # _AM_DVDCOPY_DISCKEY structure

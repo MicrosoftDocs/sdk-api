@@ -4,7 +4,7 @@ title: "_CTL_MODIFY_REQUEST"
 author: windows-sdk-content
 description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
 old-location: security\ctl_modify_request.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CTL_MODIFY_REQUEST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.redist: 
 ---
 
 # _CTL_MODIFY_REQUEST structure

@@ -4,17 +4,16 @@ title: IWICJpegFrameEncode::WriteScan
 author: windows-sdk-content
 description: Writes scan data to a JPEG frame.
 old-location: wic\iwicjpegframeencode_writescan.htm
-old-project: wic
+tech.root: wic
 ms.assetid: FED02403-E696-4988-BFB6-F1E37D9FA5F1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICJpegFrameEncode interface [Windows Imaging Component],WriteScan method, IWICJpegFrameEncode.WriteScan, IWICJpegFrameEncode::WriteScan, WriteScan, WriteScan method [Windows Imaging Component], WriteScan method [Windows Imaging Component],IWICJpegFrameEncode interface, wic.iwicjpegframeencode_writescan, wincodec/IWICJpegFrameEncode::WriteScan
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICJpegFrameEncode.WriteScan
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICJpegFrameEncode::WriteScan

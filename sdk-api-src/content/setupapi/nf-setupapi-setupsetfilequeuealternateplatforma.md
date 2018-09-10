@@ -4,17 +4,16 @@ title: SetupSetFileQueueAlternatePlatformA function
 author: windows-sdk-content
 description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification.
 old-location: setup\setupsetfilequeuealternateplatform.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupSetFileQueueAlternatePlatform, SetupSetFileQueueAlternatePlatform function [Setup API], SetupSetFileQueueAlternatePlatformA, SetupSetFileQueueAlternatePlatformW, _setupapi_setupsetfilequeuealternateplatform, setup.setupsetfilequeuealternateplatform, setupapi/SetupSetFileQueueAlternatePlatform, setupapi/SetupSetFileQueueAlternatePlatformA, setupapi/SetupSetFileQueueAlternatePlatformW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupSetFileQueueAlternatePlatformW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupSetFileQueueAlternatePlatformA function

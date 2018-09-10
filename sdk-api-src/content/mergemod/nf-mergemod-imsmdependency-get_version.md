@@ -2,19 +2,18 @@
 UID: NF:mergemod.IMsmDependency.get_Version
 title: IMsmDependency::get_Version
 author: windows-sdk-content
-description: The read-only Version property returns the version of the module required by the current merge.
-old-location: setup\dependency_version.htm
-old-project: msi
-ms.assetid: 784fb75c-2ed2-411a-b441-9c81297b487d
+description: The get_Version method retrieves the Version property of the Dependency object. This method returns the version of the required module in the form of a BSTR.
+old-location: setup\imsmdependency_get_version.htm
+tech.root: msi
+ms.assetid: 122542f9-b7b5-4e22-b05f-bd5dd04e5a2f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: Dependency object,Version property, IMsmDependency interface,Version property, IMsmDependency.get_Version, IMsmDependency::Version, IMsmDependency::get_Version, Version property, Version property,IMsmDependency interface, _msi_version_property_dependency_object_, get_Version, setup.dependency_version
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IMsmDependency interface,get_Version method, IMsmDependency.get_Version, IMsmDependency::get_Version, _msi_get_version_function, get_Version, get_Version method, get_Version method,IMsmDependency interface, mergemod/IMsmDependency::get_Version, setup.imsmdependency_get_version
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 1.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,15 +37,11 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmDependency.Version
- - IMsmDependency.get_Version
  - IMsmDependency.get_Version
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmDependency::get_Version
@@ -54,11 +50,81 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The read-only 
-<b>Version</b> property returns the version of the module required by the current merge.
-
-This property is read-only.
+The 
+<b>get_Version</b> method retrieves the 
+<a href="https://msdn.microsoft.com/784fb75c-2ed2-411a-b441-9c81297b487d">Version</a> property of the 
+<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object. This method returns the version of the required module in the form of a <b>BSTR</b>.
 
 
 ## -parameters
+
+
+
+
+### -param Version [out]
+
+A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Version is null.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/517cf174-418a-4717-a25f-1736225016a1">IMsmDependency</a>
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
 

@@ -4,17 +4,16 @@ title: IUIContextualUI::ShowAtLocation
 author: windows-sdk-content
 description: Displays a ContextPopup.
 old-location: windowsribbon\windowsribbon_iuicontextualui_showatlocation.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\showatlocation.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIContextualUI interface [Windows Ribbon],ShowAtLocation method, IUIContextualUI.ShowAtLocation, IUIContextualUI::ShowAtLocation, ShowAtLocation, ShowAtLocation method [Windows Ribbon], ShowAtLocation method [Windows Ribbon],IUIContextualUI interface, scenicintent_IUIContextualUI_ShowAtLocation, uiribbon/IUIContextualUI::ShowAtLocation, windowsribbon.windowsribbon_iuicontextualui_showatlocation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIContextualUI.ShowAtLocation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

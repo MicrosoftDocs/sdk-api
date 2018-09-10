@@ -4,17 +4,16 @@ title: LocateCatalogsA function
 author: windows-sdk-content
 description: Finds the catalog that indexes a directory.
 old-location: indexsrv\locatecatalogs.htm
-old-project: IndexSrv
+tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MediaLabelInfo, *pMediaLabelInfo
+req.lib: Ntquery.lib
+req.dll: Ntquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - LocateCatalogsW
 product: Windows
 targetos: Windows
-req.lib: Ntquery.lib
-req.dll: Ntquery.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LocateCatalogsA function

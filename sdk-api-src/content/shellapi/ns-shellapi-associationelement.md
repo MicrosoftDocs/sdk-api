@@ -4,7 +4,7 @@ title: ASSOCIATIONELEMENT
 author: windows-sdk-content
 description: Defines information used by AssocCreateForClasses to retrieve an IQueryAssociations interface for a given file association.
 old-location: shell\ASSOCIATIONELEMENT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ASSOCIATIONELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ASSOCIATIONELEMENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: ASSOCIATIONELEMENT
+req.redist: 
 ---
 
 # ASSOCIATIONELEMENT structure

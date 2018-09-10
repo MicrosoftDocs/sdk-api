@@ -4,7 +4,7 @@ title: "_WSDEventType"
 author: windows-sdk-content
 description: Identifies the type of event produced by the session layer.
 old-location: ncd\wsdeventtype_enum.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: e65742da-57ef-44a8-be3b-5736714747d3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSDEventType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSDEventType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSDEventType
+req.redist: 
 ---
 
 # _WSDEventType enumeration

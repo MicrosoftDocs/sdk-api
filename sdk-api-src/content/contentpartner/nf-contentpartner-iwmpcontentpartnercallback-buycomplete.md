@@ -4,17 +4,16 @@ title: IWMPContentPartnerCallback::BuyComplete
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_buycomplete.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 4e9ab15f-3418-472d-afc4-0f9fae852da2
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BuyComplete, BuyComplete method [Windows Media Player], BuyComplete method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],BuyComplete method, IWMPContentPartnerCallback.BuyComplete, IWMPContentPartnerCallback::BuyComplete, IWMPContentPartnerCallbackBuyComplete, contentpartner/IWMPContentPartnerCallback::BuyComplete, wmp.iwmpcontentpartnercallback_buycomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPTransactionType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IWMPContentPartnerCallback.BuyComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPContentPartnerCallback::BuyComplete

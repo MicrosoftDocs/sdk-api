@@ -4,7 +4,7 @@ title: "_ads_vlv"
 author: windows-sdk-content
 description: Contains metadata used to conduct virtual list view (VLV) searches.
 old-location: adsi\ads_vlv.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: bd8eab9f-9b44-4cef-b828-6e7c7c3e19bb
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_VLV, *PADS_VLV
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ADS_VLV
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ADS_VLV, *PADS_VLV
+req.redist: 
 ---
 
 # _ads_vlv structure

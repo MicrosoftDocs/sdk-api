@@ -4,17 +4,16 @@ title: IWdsTransportClient::Disconnect
 author: windows-sdk-content
 description: Disconnects the WDS client from the session and specifies what action the client should take upon disconnection.
 old-location: wds\iwdstransportclient_disconnect.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: faf3ab18-2629-402f-96ad-41337c165fba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [Windows Deployment Services], Disconnect method [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],Disconnect method, IWdsTransportClient.Disconnect, IWdsTransportClient::Disconnect, wds.iwdstransportclient_disconnect, wdstptmgmt/IWdsTransportClient::Disconnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Wdstptmgmt.tlb
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: Wdstptmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWdsTransportClient.Disconnect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wdstptmgmt.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWdsTransportClient::Disconnect

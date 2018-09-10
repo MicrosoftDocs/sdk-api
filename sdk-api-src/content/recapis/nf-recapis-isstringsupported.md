@@ -4,17 +4,16 @@ title: IsStringSupported function
 author: windows-sdk-content
 description: Returns a value that indicates whether a word, date, time, number, or other text that is passed in is contained in the dictionary.The results of this test depend on the factoid setting.
 old-location: tablet\isstringsupported.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b646225a-0008-45f3-9c42-48adf4942ebd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IsStringSupported, IsStringSupported function [Tablet PC], b646225a-0008-45f3-9c42-48adf4942ebd, recapis/IsStringSupported, tablet.isstringsupported
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IsStringSupported
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IsStringSupported function

@@ -4,17 +4,16 @@ title: IDWriteFactory3::CreateFontCollectionFromFontSet
 author: windows-sdk-content
 description: Create a weight/width/slope tree from a set of fonts.
 old-location: directwrite\idwritefactory3_createfontcollectionfromfontset.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 22cc005f-6d34-f701-ff83-63ba819ab651
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory3.CreateFontCollectionFromFontSet, IDWriteFactory3::CreateFontCollectionFromFontSet, directwrite.idwritefactory3_createfontcollectionfromfontset, dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory3.CreateFontCollectionFromFontSet
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory3::CreateFontCollectionFromFontSet
@@ -62,7 +60,7 @@ Create a weight/width/slope tree from a set of fonts.
 
 ### -param fontSet
 
-
+TBD
 
 
 ### -param fontCollection [out]

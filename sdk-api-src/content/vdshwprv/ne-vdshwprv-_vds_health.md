@@ -4,7 +4,7 @@ title: "_VDS_HEALTH"
 author: windows-sdk-content
 description: Defines the set of health state values for a VDS object.
 old-location: base\vds_health.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: c65d9266-d691-4711-8225-a442e90d8ba3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_HEALTH
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_HEALTH
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_HEALTH
+req.redist: 
 ---
 
 # _VDS_HEALTH enumeration

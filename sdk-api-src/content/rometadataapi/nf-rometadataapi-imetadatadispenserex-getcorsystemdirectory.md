@@ -4,17 +4,16 @@ title: IMetaDataDispenserEx::GetCORSystemDirectory
 author: windows-sdk-content
 description: Gets the directory that holds the current common language runtime (CLR). This method is supported only for use by out-of-process debuggers. If called from another component, it will return E_NOTIMPL.
 old-location: winrt\imetadatadispenserex_getcorsystemdirectory.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4f061c7f-bcb8-4b1e-b84b-0398f08a6d69
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCORSystemDirectory, GetCORSystemDirectory method [Windows Runtime], GetCORSystemDirectory method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetCORSystemDirectory method, IMetaDataDispenserEx.GetCORSystemDirectory, IMetaDataDispenserEx::GetCORSystemDirectory, rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory, winrt.imetadatadispenserex_getcorsystemdirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataDispenserEx.GetCORSystemDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataDispenserEx::GetCORSystemDirectory

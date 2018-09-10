@@ -4,17 +4,16 @@ title: IXpsSignatureBlock::GetDocumentName
 author: windows-sdk-content
 description: Gets a pointer to the IOpcPartUri interface that contains the URI of the document part.
 old-location: xps\ixpssignatureblock_getdocumentname.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_SIGN_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsSignatureBlock.GetDocumentName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsSignatureBlock::GetDocumentName

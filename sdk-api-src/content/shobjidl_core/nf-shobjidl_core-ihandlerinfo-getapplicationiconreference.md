@@ -4,17 +4,16 @@ title: IHandlerInfo::GetApplicationIconReference
 author: windows-sdk-content
 description: Retrieves the icon of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationIconReference.htm
-old-project: shell
+tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetApplicationIconReference, GetApplicationIconReference method [Windows Shell], GetApplicationIconReference method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationIconReference method, IHandlerInfo.GetApplicationIconReference, IHandlerInfo::GetApplicationIconReference, shell.IHandlerInfo_GetApplicationIconReference, shobjidl_core/IHandlerInfo::GetApplicationIconReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHandlerInfo.GetApplicationIconReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IHandlerInfo::GetApplicationIconReference

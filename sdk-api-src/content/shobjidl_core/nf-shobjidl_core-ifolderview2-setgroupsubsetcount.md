@@ -4,17 +4,16 @@ title: IFolderView2::SetGroupSubsetCount
 author: windows-sdk-content
 description: Turns on group subsetting and sets the number of visible rows of items in each group.
 old-location: shell\IFolderView2_SetGroupSubsetCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5aacc63a-d129-4539-a43f-f4dd74ab4fea
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupSubsetCount method, IFolderView2.SetGroupSubsetCount, IFolderView2::SetGroupSubsetCount, SetGroupSubsetCount, SetGroupSubsetCount method [Windows Shell], SetGroupSubsetCount method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupSubsetCount, shell.IFolderView2_SetGroupSubsetCount, shobjidl_core/IFolderView2::SetGroupSubsetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFolderView2.SetGroupSubsetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFolderView2::SetGroupSubsetCount

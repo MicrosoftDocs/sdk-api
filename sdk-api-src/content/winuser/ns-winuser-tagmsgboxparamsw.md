@@ -4,7 +4,7 @@ title: tagMSGBOXPARAMSW
 author: windows-sdk-content
 description: Contains information used to display a message box. The MessageBoxIndirect function uses this structure.
 old-location: dlgbox\msgboxparams.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSGBOXPARAMSW, *PMSGBOXPARAMSW, *LPMSGBOXPARAMSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MSGBOXPARAMSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MSGBOXPARAMSW, *PMSGBOXPARAMSW, *LPMSGBOXPARAMSW
+req.redist: 
 ---
 
 # tagMSGBOXPARAMSW structure

@@ -4,7 +4,7 @@ title: D2D1_LAYER_OPTIONS1
 author: windows-sdk-content
 description: Specifies how the layer contents should be prepared.
 old-location: direct2d\d2d1_layer_options1.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 13C9EDE7-A1D0-4359-8EF3-77FF763B9244
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_LAYER_OPTIONS1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_LAYER_OPTIONS1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D2D1_LAYER_OPTIONS1
+req.redist: 
 ---
 
 # D2D1_LAYER_OPTIONS1 enumeration

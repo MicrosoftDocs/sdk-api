@@ -4,17 +4,16 @@ title: ICertSrvSetup::GetExistingCACertificates
 author: windows-sdk-content
 description: Gets the collection of CertSrvSetupKeyInformation objects that represent valid certification authority (CA) certificates currently installed on the computer.
 old-location: security\icertsrvsetup_getexistingcacertificates.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: fd8c7bac-b6db-41f2-a648-e01ebd09c41c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExistingCACertificates, GetExistingCACertificates method [Security], GetExistingCACertificates method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetExistingCACertificates method, ICertSrvSetup.GetExistingCACertificates, ICertSrvSetup::GetExistingCACertificates, casetup/ICertSrvSetup::GetExistingCACertificates, security.icertsrvsetup_getexistingcacertificates
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertSrvSetup.GetExistingCACertificates
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertSrvSetup::GetExistingCACertificates

@@ -4,17 +4,16 @@ title: GetPrivateProfileSectionNamesA function
 author: windows-sdk-content
 description: Retrieves the names of all sections in an initialization file.
 old-location: base\getprivateprofilesectionnames.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPrivateProfileSectionNames, GetPrivateProfileSectionNames function, GetPrivateProfileSectionNamesA, GetPrivateProfileSectionNamesW, _win32_getprivateprofilesectionnames, base.getprivateprofilesectionnames, winbase/GetPrivateProfileSectionNames, winbase/GetPrivateProfileSectionNamesA, winbase/GetPrivateProfileSectionNamesW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetPrivateProfileSectionNamesW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetPrivateProfileSectionNamesA function

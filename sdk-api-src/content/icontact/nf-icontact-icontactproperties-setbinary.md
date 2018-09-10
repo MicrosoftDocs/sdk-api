@@ -4,17 +4,16 @@ title: IContactProperties::SetBinary
 author: windows-sdk-content
 description: Sets the binary data at a specified property to the contents of a specified IStream interface [Structured Storage], which contains a null-terminated string (as MIME type) data.
 old-location: wincontacts\_wincontacts_IContactProperties_SetBinary.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 432c2417-e762-47ff-b2ce-a244120f0545
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetBinary method, IContactProperties.SetBinary, IContactProperties::SetBinary, SetBinary, SetBinary method [Windows Contacts], SetBinary method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetBinary, icontact/IContactProperties::SetBinary, wincontacts._wincontacts_IContactProperties_SetBinary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactProperties.SetBinary
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactProperties::SetBinary

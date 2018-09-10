@@ -4,17 +4,16 @@ title: IImageList::GetDragImage
 author: windows-sdk-content
 description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\IImageList_GetDragImage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getdragimage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDragImage, GetDragImage method [Windows Controls], GetDragImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetDragImage method, IImageList.GetDragImage, IImageList::GetDragImage, comctl_IImageList_GetDragImage, comctl_IImageList_GetDragImage_cpp, commoncontrols/IImageList::GetDragImage, controls.IImageList_GetDragImage, controls.comctl_IImageList_GetDragImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFNOTIFYW, *LPOFNOTIFYW
+req.lib: 
+req.dll: Comctl32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IImageList.GetDragImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comctl32.dll (version 6.0 or later)
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IImageList::GetDragImage

@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_RESOURCE_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a resource.
 old-location: mscs\cluster_change_resource_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3CA4EE2C-78CA-42CF-B053-E6B9C58B77E0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_RESOURCE_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - CLUSTER_CHANGE_RESOURCE_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_CHANGE_RESOURCE_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_RESOURCE_V2 enumeration

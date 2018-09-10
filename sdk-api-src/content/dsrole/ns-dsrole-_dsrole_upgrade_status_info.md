@@ -4,7 +4,7 @@ title: "_DSROLE_UPGRADE_STATUS_INFO"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain upgrade status data.
 old-location: ad\dsrole_upgrade_status_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c368d8d9-a91d-4013-880e-36a47d42a697
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSROLE_UPGRADE_STATUS_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.redist: 
 ---
 
 # _DSROLE_UPGRADE_STATUS_INFO structure

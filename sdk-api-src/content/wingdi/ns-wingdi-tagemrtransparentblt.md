@@ -4,7 +4,7 @@ title: tagEMRTRANSPARENTBLT
 author: windows-sdk-content
 description: The EMRTRANSPARENTBLT structure contains members for the TransparentBLT enhanced metafile record.
 old-location: gdi\emrtransparentblt.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: f343bc6a-87b8-4c6b-b2cb-3d7f2f515fc1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EMRTRANSPARENTBLT, *PEMRTRANSPARENTBLT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EMREMRTRANSPARENTBLT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EMRTRANSPARENTBLT, *PEMRTRANSPARENTBLT
+req.redist: 
 ---
 
 # tagEMRTRANSPARENTBLT structure

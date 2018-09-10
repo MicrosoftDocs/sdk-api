@@ -4,17 +4,16 @@ title: IVssWMFiledesc::GetBackupTypeMask
 author: windows-sdk-content
 description: The GetBackupTypeMask method returns the file backup specification for the files specified by the current file descriptor as a bit mask (or bitwise OR) of VSS_FILE_SPEC_BACKUP_TYPE values.
 old-location: base\ivsswmfiledesc_getbackuptypemask.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBackupTypeMask, GetBackupTypeMask method [VSS], GetBackupTypeMask method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetBackupTypeMask method, IVssWMFiledesc.GetBackupTypeMask, IVssWMFiledesc::GetBackupTypeMask, base.ivsswmfiledesc_getbackuptypemask, vswriter/IVssWMFiledesc::GetBackupTypeMask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssWMFiledesc.GetBackupTypeMask
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssWMFiledesc::GetBackupTypeMask

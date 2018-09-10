@@ -4,17 +4,16 @@ title: SHCreateDefaultContextMenu function
 author: windows-sdk-content
 description: Creates an object that represents the Shell's default context menu implementation.
 old-location: shell\SHCreateDefaultContextMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 6.0.6000 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCreateDefaultContextMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 6.0.6000 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateDefaultContextMenu function

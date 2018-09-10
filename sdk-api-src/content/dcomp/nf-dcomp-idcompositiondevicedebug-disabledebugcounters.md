@@ -4,17 +4,16 @@ title: IDCompositionDeviceDebug::DisableDebugCounters
 author: windows-sdk-content
 description: Disables display of performance debugging counters.
 old-location: directcomp\idcompositiondevicedebug_disabledebugcounters.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DisableDebugCounters, DisableDebugCounters method [DirectComposition], DisableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],DisableDebugCounters method, IDCompositionDeviceDebug.DisableDebugCounters, IDCompositionDeviceDebug::DisableDebugCounters, dcomp/IDCompositionDeviceDebug::DisableDebugCounters, directcomp.idcompositiondevicedebug_disabledebugcounters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDeviceDebug.DisableDebugCounters
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDeviceDebug::DisableDebugCounters

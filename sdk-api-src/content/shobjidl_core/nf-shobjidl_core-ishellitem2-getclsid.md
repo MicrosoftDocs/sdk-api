@@ -4,17 +4,16 @@ title: IShellItem2::GetCLSID
 author: windows-sdk-content
 description: Gets the class identifier (CLSID) value of specified property key.
 old-location: shell\IShellItem2_GetCLSID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 95b0c5fb-db09-4db0-8253-708f2dc2944b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Shell], GetCLSID method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetCLSID method, IShellItem2.GetCLSID, IShellItem2::GetCLSID, _shell_IShellItem2_GetCLSID, shell.IShellItem2_GetCLSID, shobjidl_core/IShellItem2::GetCLSID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellItem2.GetCLSID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellItem2::GetCLSID

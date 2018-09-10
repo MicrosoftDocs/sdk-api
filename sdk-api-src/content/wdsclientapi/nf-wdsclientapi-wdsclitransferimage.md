@@ -4,17 +4,16 @@ title: WdsCliTransferImage function
 author: windows-sdk-content
 description: Transfers an image from a WDS server to the WDS client.
 old-location: wds\wdsclitransferimage.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliTransferImage
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliTransferImage function

@@ -4,17 +4,16 @@ title: IDropTarget::Drop
 author: windows-sdk-content
 description: Incorporates the source data into the target window, removes target feedback, and releases the data object.
 old-location: com\idroptarget_drop.htm
-old-project: com
+tech.root: com
 ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDropTarget.Drop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDropTarget::Drop

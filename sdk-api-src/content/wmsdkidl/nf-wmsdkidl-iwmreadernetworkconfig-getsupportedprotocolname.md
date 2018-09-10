@@ -4,17 +4,16 @@ title: IWMReaderNetworkConfig::GetSupportedProtocolName
 author: windows-sdk-content
 description: The GetSupportedProtocolName method retrieves a protocol name by index.
 old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSupportedProtocolName, GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetSupportedProtocolName method, IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 7 SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMReaderNetworkConfig.GetSupportedProtocolName
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMReaderNetworkConfig::GetSupportedProtocolName

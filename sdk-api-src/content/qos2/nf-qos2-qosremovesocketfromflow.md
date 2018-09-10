@@ -4,17 +4,16 @@ title: QOSRemoveSocketFromFlow function
 author: windows-sdk-content
 description: Notifies the QOS subsystem that a previously added flow has been terminated.
 old-location: qos\qosremovesocketfromflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
+req.lib: Qwave.lib
+req.dll: Qwave.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOSRemoveSocketFromFlow
 product: Windows
 targetos: Windows
-req.lib: Qwave.lib
-req.dll: Qwave.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # QOSRemoveSocketFromFlow function

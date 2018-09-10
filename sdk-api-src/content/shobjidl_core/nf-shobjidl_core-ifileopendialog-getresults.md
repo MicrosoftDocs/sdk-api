@@ -4,17 +4,16 @@ title: IFileOpenDialog::GetResults
 author: windows-sdk-content
 description: Gets the user's choices in a dialog that allows multiple selection.
 old-location: shell\IFileOpenDialog_GetResults.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5c710dae-4988-4f19-beb5-2ff9cd11c596
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetResults method, IFileOpenDialog.GetResults, IFileOpenDialog::GetResults, shell.IFileOpenDialog_GetResults, shell_IFileOpenDialog_GetResults, shobjidl_core/IFileOpenDialog::GetResults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOpenDialog.GetResults
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOpenDialog::GetResults

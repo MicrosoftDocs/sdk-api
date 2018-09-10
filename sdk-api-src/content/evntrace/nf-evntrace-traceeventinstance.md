@@ -4,17 +4,16 @@ title: TraceEventInstance function
 author: windows-sdk-content
 description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 old-location: etw\traceeventinstance.htm
-old-project: etw
+tech.root: etw
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceEventInstance
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceEventInstance function

@@ -4,17 +4,16 @@ title: TxfLogCreateFileReadContext function
 author: windows-sdk-content
 description: Creates a context to be used to read replication records.
 old-location: fs\txflogcreatefilereadcontext.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: txfw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnTvRat_US_TV
+req.lib: TxfW32.lib
+req.dll: TxfW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TxfLogCreateFileReadContext
 product: Windows
 targetos: Windows
-req.lib: TxfW32.lib
-req.dll: TxfW32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TxfLogCreateFileReadContext function

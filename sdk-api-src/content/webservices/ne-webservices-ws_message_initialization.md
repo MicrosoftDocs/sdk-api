@@ -4,7 +4,7 @@ title: WS_MESSAGE_INITIALIZATION
 author: windows-sdk-content
 description: Specifies what headers the WsInitializeMessageshould add to the message.
 old-location: wsw\ws_message_initialization.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f4a674c1-4017-49c8-aa9a-68f1d2b84378
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_MESSAGE_INITIALIZATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_MESSAGE_INITIALIZATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_MESSAGE_INITIALIZATION
+req.redist: 
 ---
 
 # WS_MESSAGE_INITIALIZATION enumeration

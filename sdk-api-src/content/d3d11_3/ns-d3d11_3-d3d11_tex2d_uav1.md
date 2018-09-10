@@ -4,7 +4,7 @@ title: D3D11_TEX2D_UAV1
 author: windows-sdk-content
 description: Describes a unordered-access 2D texture resource.
 old-location: direct3d11\d3d11_tex2d_uav1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 79B0E8F5-416F-4729-AF36-BA16169CDB7C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEX2D_UAV1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_TEX2D_UAV1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_TEX2D_UAV1
+req.redist: 
 ---
 
 # D3D11_TEX2D_UAV1 structure

@@ -4,17 +4,16 @@ title: IWeeklyTrigger::get_RandomDelay
 author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\iweeklytrigger_randomdelay.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 1fa318b5-ef4e-4fb3-9119-1dd18afffb0b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWeeklyTrigger interface [Task Scheduler],RandomDelay property, IWeeklyTrigger.RandomDelay, IWeeklyTrigger.get_RandomDelay, IWeeklyTrigger::RandomDelay, IWeeklyTrigger::get_RandomDelay, IWeeklyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IWeeklyTrigger interface, get_RandomDelay, taskschd.iweeklytrigger_randomdelay, taskschd/IWeeklyTrigger::RandomDelay, taskschd/IWeeklyTrigger::get_RandomDelay, taskschd/IWeeklyTrigger::put_RandomDelay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWeeklyTrigger.put_RandomDelay
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWeeklyTrigger::get_RandomDelay

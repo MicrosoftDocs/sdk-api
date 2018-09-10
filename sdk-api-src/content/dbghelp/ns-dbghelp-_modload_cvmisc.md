@@ -4,7 +4,7 @@ title: "_MODLOAD_CVMISC"
 author: windows-sdk-content
 description: Contains CodeView and Misc records.
 old-location: base\modload_cvmisc.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 24f1ed20-ef7a-4c7b-9bbe-4aaf26c219e7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - MODLOAD_CVMISC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # _MODLOAD_CVMISC structure

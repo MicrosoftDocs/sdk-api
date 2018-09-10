@@ -4,17 +4,16 @@ title: FtpRemoveDirectoryA function
 author: windows-sdk-content
 description: Removes the specified directory on the FTP server.
 old-location: wininet\ftpremovedirectory.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 4c02af2f-ece8-409a-9c3e-495e1beb80ef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FtpRemoveDirectory, FtpRemoveDirectory function [WinINet], FtpRemoveDirectoryA, FtpRemoveDirectoryW, _inet_ftpremovedirectory_function, wininet.ftpremovedirectory, wininet/FtpRemoveDirectory, wininet/FtpRemoveDirectoryA, wininet/FtpRemoveDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FtpRemoveDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpRemoveDirectoryA function

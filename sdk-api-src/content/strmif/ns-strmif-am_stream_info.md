@@ -4,7 +4,7 @@ title: AM_STREAM_INFO
 author: windows-sdk-content
 description: The AM_STREAM_INFO structure contains stream-control information.
 old-location: dshow\am_stream_info.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 63b62f03-1973-41af-b6a4-e1bcb6ab803f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_STREAM_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_STREAM_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: AM_STREAM_INFO
+req.redist: 
 ---
 
 # AM_STREAM_INFO structure

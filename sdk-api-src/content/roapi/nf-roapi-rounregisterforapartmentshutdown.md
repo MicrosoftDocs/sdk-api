@@ -4,17 +4,16 @@ title: RoUnregisterForApartmentShutdown function
 author: windows-sdk-content
 description: Unregisters a previously registered IApartmentShutdown interface.
 old-location: winrt\rounregisterforapartmentshutdown.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B6E22C50-14EC-4B0F-8C97-7D1062BF6072
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RoUnregisterForApartmentShutdown, RoUnregisterForApartmentShutdown function [Windows Runtime], roapi/RoUnregisterForApartmentShutdown, winrt.rounregisterforapartmentshutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_INIT_TYPE
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - RoUnregisterForApartmentShutdown
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RoUnregisterForApartmentShutdown function

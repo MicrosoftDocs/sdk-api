@@ -4,17 +4,16 @@ title: WNetEnumResourceW function
 author: windows-sdk-content
 description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetenumresource.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetEnumResourceW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetEnumResourceW function

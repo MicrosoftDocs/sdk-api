@@ -4,7 +4,7 @@ title: IPV6_ADAPTER_BINDING_INFO
 author: windows-sdk-content
 description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.
 old-location: rras\ipv6_adapter_binding_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 1e964f09-96c6-432b-bb1a-026a3ea0deba
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPV6_ADAPTER_BINDING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
+req.redist: 
 ---
 
 # IPV6_ADAPTER_BINDING_INFO structure

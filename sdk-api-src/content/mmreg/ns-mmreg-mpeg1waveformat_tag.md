@@ -4,7 +4,7 @@ title: mpeg1waveformat_tag
 author: windows-sdk-content
 description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
 old-location: dshow\mpeg1waveformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG1WAVEFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPEG1WAVEFORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPEG1WAVEFORMAT
+req.redist: 
 ---
 
 # mpeg1waveformat_tag structure

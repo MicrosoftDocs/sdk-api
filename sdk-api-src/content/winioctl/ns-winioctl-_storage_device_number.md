@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_NUMBER"
 author: windows-sdk-content
 description: Contains information about a device. This structure is used by the IOCTL_STORAGE_GET_DEVICE_NUMBER control code.
 old-location: base\storage_device_number.htm
-old-project: devio
+tech.root: devio
 ms.assetid: e169f081-55de-4d6a-832b-bcc66c2b67e3
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STORAGE_DEVICE_NUMBER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
+req.redist: 
 ---
 
 # _STORAGE_DEVICE_NUMBER structure

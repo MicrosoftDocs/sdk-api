@@ -4,17 +4,16 @@ title: SetupGetThreadLogToken function
 author: windows-sdk-content
 description: The SetupGetThreadLogToken function retrieves the log token for the thread from which this function was called.
 old-location: devinst\setupgetthreadlogtoken.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: a4d870d0-2a1a-4319-9e52-e5bf469c4cdf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SetupGetThreadLogToken
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetThreadLogToken function

@@ -4,17 +4,16 @@ title: BluetoothUpdateDeviceRecord function
 author: windows-sdk-content
 description: Updates the local computer cache about a Bluetooth device.
 old-location: bluetooth\bluetoothupdatedevicerecord.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothUpdateDeviceRecord
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothUpdateDeviceRecord function

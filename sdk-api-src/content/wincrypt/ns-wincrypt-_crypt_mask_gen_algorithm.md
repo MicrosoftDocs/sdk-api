@@ -4,7 +4,7 @@ title: "_CRYPT_MASK_GEN_ALGORITHM"
 author: windows-sdk-content
 description: Identifies the algorithm used to generate an RSA PKCS #1 v2.1 signature mask.
 old-location: security\crypt_mask_gen_algorithm.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 26ccf26d-9cde-4653-b4ab-7362f4fad640
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_MASK_GEN_ALGORITHM, *PCRYPT_MASK_GEN_ALGORITHM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_MASK_GEN_ALGORITHM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_MASK_GEN_ALGORITHM, *PCRYPT_MASK_GEN_ALGORITHM
+req.redist: 
 ---
 
 # _CRYPT_MASK_GEN_ALGORITHM structure

@@ -4,17 +4,16 @@ title: INetFwMgr::get_LocalPolicy
 author: windows-sdk-content
 description: Retrieves the local firewall policy.
 old-location: ics\inetfwmgr_localpolicy.htm
-old-project: ics
+tech.root: ics
 ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr.get_LocalPolicy, INetFwMgr::LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF],INetFwMgr interface, get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwMgr.get_LocalPolicy
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwMgr::get_LocalPolicy

@@ -4,17 +4,16 @@ title: ISCPSecureQuery2::MakeDecision2
 author: windows-sdk-content
 description: The MakeDecision2 method determines whether the secure content provider is responsible for the content by examining data that Windows Media Device Manager passes to this method.
 old-location: wmdm\iscpsecurequery2_makedecision2.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: a3031585-7a56-49d9-ad4b-d2f9e687dd6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISCPSecureQuery2 interface [windows Media Device Manager],MakeDecision2 method, ISCPSecureQuery2.MakeDecision2, ISCPSecureQuery2::MakeDecision2, ISCPSecureQuery2MakeDecision2, MakeDecision2, MakeDecision2 method [windows Media Device Manager], MakeDecision2 method [windows Media Device Manager],ISCPSecureQuery2 interface, mswmdm/ISCPSecureQuery2::MakeDecision2, wmdm.iscpsecurequery2_makedecision2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureQuery2.MakeDecision2
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureQuery2::MakeDecision2
@@ -199,7 +197,7 @@ Pointer to an exchange object that receives the exchange interface.
 
 ### -param abMac
 
-
+TBD
 
 
 

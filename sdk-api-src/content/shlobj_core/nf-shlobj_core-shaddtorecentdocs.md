@@ -4,17 +4,16 @@ title: SHAddToRecentDocs function
 author: windows-sdk-content
 description: Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data.
 old-location: shell\SHAddToRecentDocs.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHAddToRecentDocs
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHAddToRecentDocs function

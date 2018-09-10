@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner::put_Channel
 author: windows-sdk-content
 description: The put_Channel method specifies the tuner's channel.
 old-location: mstv\imsvidanalogtuner_put_channel.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel method, IMSVidAnalogTuner.put_Channel, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_Channel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner.put_Channel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner::put_Channel

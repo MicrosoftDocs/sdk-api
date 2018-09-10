@@ -4,17 +4,16 @@ title: IWindowsMediaLibrarySharingServices::setAuthorizationState
 author: windows-sdk-content
 description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.
 old-location: wmlss\IWMLSSsetAuthorizationState.htm
-old-project: WMLSS
+tech.root: WMLSS
 ms.assetid: bd67b81c-9810-4f35-b0b2-c471b4747216
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setAuthorizationState method, IWindowsMediaLibrarySharingServices.setAuthorizationState, IWindowsMediaLibrarySharingServices::setAuthorizationState, setAuthorizationState, setAuthorizationState method [Windows Media Library Sharing Services], setAuthorizationState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetAuthorizationState, wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+req.lib: 
+req.dll: WMPMediaSharing.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWindowsMediaLibrarySharingServices.setAuthorizationState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WMPMediaSharing.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWindowsMediaLibrarySharingServices::setAuthorizationState

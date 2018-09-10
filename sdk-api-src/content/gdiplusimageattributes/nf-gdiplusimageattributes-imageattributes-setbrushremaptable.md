@@ -4,17 +4,16 @@ title: ImageAttributes::SetBrushRemapTable
 author: windows-sdk-content
 description: The ImageAttributes::SetBrushRemapTable method sets the color remap table for the brush category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setbrushremaptable.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ImageAttributes class [GDI+],SetBrushRemapTable method, ImageAttributes.SetBrushRemapTable, ImageAttributes::SetBrushRemapTable, SetBrushRemapTable, SetBrushRemapTable method [GDI+], SetBrushRemapTable method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_, gdiplus._gdiplus_CLASS_ImageAttributes_SetBrushRemapTable_mapSize_map_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageAttributes.SetBrushRemapTable
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

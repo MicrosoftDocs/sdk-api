@@ -4,17 +4,16 @@ title: IEventObjectCollection::get_Item
 author: windows-sdk-content
 description: An item in the collection.
 old-location: cos\ieventobjectcollection_item.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 6d037759-3b13-4f4d-b27d-a3a20be0f0aa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEventObjectCollection interface [COM+],Item property, IEventObjectCollection.Item, IEventObjectCollection.get_Item, IEventObjectCollection::Item, IEventObjectCollection::get_Item, Item property [COM+], Item property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_item, eventsys/IEventObjectCollection::Item, eventsys/IEventObjectCollection::get_Item, get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IEventObjectCollection.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventObjectCollection::get_Item

@@ -4,17 +4,16 @@ title: WdsCliObtainDriverPackages function
 author: windows-sdk-content
 description: This function obtains from a WDS image, the driver packages (INF files) that can be used on this computer.
 old-location: wds\wdscliobtaindriverpackages.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 2fb6bf5a-a46f-4664-be0a-6b4f2563986c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsCliObtainDriverPackages, WdsCliObtainDriverPackages function [Windows Deployment Services], wds.wdscliobtaindriverpackages, wdsclientapi/WdsCliObtainDriverPackages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: WdsClientAPI.lib
+req.dll: WdsClientAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsCliObtainDriverPackages
 product: Windows
 targetos: Windows
-req.lib: WdsClientAPI.lib
-req.dll: WdsClientAPI.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsCliObtainDriverPackages function

@@ -4,17 +4,16 @@ title: capSetCallbackOnError macro
 author: windows-sdk-content
 description: The capSetCallbackOnError macro sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_ERROR message.
 old-location: multimedia\capsetcallbackonerror.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 1f9d3dba-be6d-4f7d-a80c-5bca8632e13f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_capSetCallbackOnError, capSetCallbackOnError, capSetCallbackOnError macro [Windows Multimedia], multimedia.capsetcallbackonerror, vfw/capSetCallbackOnError"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - capSetCallbackOnError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # capSetCallbackOnError macro

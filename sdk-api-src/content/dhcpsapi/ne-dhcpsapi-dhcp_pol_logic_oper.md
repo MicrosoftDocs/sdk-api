@@ -4,7 +4,7 @@ title: DHCP_POL_LOGIC_OPER
 author: windows-sdk-content
 description: The DHCP_POL_LOGIC_OPER enumeration defines how to group the constituent conditions and sub-expressions of an expression in a DHCP server policy.
 old-location: dhcp\dhcp_pol_logic_oper.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_POL_LOGIC_OPER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_POL_LOGIC_OPER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_POL_LOGIC_OPER
+req.redist: 
 ---
 
 # DHCP_POL_LOGIC_OPER enumeration

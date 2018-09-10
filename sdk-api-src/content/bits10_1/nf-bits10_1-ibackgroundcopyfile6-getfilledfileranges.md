@@ -4,17 +4,16 @@ title: IBackgroundCopyFile6::GetFilledFileRanges
 author: windows-sdk-content
 description: Returns the set of file ranges that have been downloaded.
 old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
-old-project: bits
+tech.root: bits
 ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFileRanges method [BITS],IBackgroundCopyFile6 interface, IBackgroundCopyFile6 interface [BITS],GetFilledFileRanges method, IBackgroundCopyFile6.GetFilledFileRanges, IBackgroundCopyFile6::GetFilledFileRanges, bits.ibackgroundcopyfile6_getfilledfileranges, bits10_1/IBackgroundCopyFile6::GetFilledFileRanges
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits10_1.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_JOB_TIMES
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyFile6.GetFilledFileRanges
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile6::GetFilledFileRanges
@@ -62,12 +61,12 @@ Returns the set of file ranges that have been downloaded.
 
 ### -param rangeCount
 
-
+TBD
 
 
 ### -param ranges
 
-
+TBD
 
 
 

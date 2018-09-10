@@ -4,17 +4,16 @@ title: RpcServerRegisterIfEx function
 author: windows-sdk-content
 description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterifex.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcServerRegisterIfEx, RpcServerRegisterIfEx function [RPC], _rpc_rpcserverregisterifex, rpc.rpcserverregisterifex, rpcdce/RpcServerRegisterIfEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcServerRegisterIfEx
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcServerRegisterIfEx function

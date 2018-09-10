@@ -4,17 +4,16 @@ title: WdsTransportClientCloseSession function
 author: windows-sdk-content
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientclosesession.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 4c135502-a6be-4d5d-b6ce-34b55f6e08b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
+req.lib: Wdstptc.lib
+req.dll: Wdstptc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportClientCloseSession
 product: Windows
 targetos: Windows
-req.lib: Wdstptc.lib
-req.dll: Wdstptc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportClientCloseSession function

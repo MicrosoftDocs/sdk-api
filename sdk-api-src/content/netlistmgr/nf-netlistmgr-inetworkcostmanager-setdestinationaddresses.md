@@ -4,17 +4,16 @@ title: INetworkCostManager::SetDestinationAddresses
 author: windows-sdk-content
 description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.
 old-location: nla\inetworkcostmanager_setdestinationaddresses.htm
-old-project: nla
+tech.root: nla
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: INetworkCostManager interface [Network Awareness],SetDestinationAddresses method, INetworkCostManager.SetDestinationAddresses, INetworkCostManager::SetDestinationAddresses, SetDestinationAddresses, SetDestinationAddresses method [Network Awareness], SetDestinationAddresses method [Network Awareness],INetworkCostManager interface, netlistmgr/INetworkCostManager::SetDestinationAddresses, nla.inetworkcostmanager_setdestinationaddresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkCostManager.SetDestinationAddresses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkCostManager::SetDestinationAddresses

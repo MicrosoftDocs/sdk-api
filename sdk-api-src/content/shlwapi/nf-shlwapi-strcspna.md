@@ -4,17 +4,16 @@ title: StrCSpnA function
 author: windows-sdk-content
 description: Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating NULL character is included within the search pattern match.
 old-location: shell\StrCSpn.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 24e9ec52-a5d7-4220-8e71-f850b53c49dd
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: StrCSpn, StrCSpn function [Windows Shell], StrCSpnA, StrCSpnW, _win32_StrCSpn, shell.StrCSpn, shlwapi/StrCSpn, shlwapi/StrCSpnA, shlwapi/StrCSpnW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - StrCSpnW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # StrCSpnA function

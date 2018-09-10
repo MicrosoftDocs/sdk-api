@@ -4,17 +4,16 @@ title: IGetClusterNetInterfaceInfo::GetNetInterfaceHandle
 author: windows-sdk-content
 description: Retrieves a handle to a node.
 old-location: mscs\igetclusternetinterfaceinfo_getnetinterfacehandle.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: a11ebbed-72e3-4f57-af8d-8a14c4b0fad2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNetInterfaceHandle, GetNetInterfaceHandle method [Failover Cluster], GetNetInterfaceHandle method [Failover Cluster],IGetClusterNetInterfaceInfo interface, IGetClusterNetInterfaceInfo interface [Failover Cluster],GetNetInterfaceHandle method, IGetClusterNetInterfaceInfo.GetNetInterfaceHandle, IGetClusterNetInterfaceInfo::GetNetInterfaceHandle, _wolf_igetclusternetinterfaceinfo_getnetinterfacehandle, cluadmex/IGetClusterNetInterfaceInfo::GetNetInterfaceHandle, mscs.igetclusternetinterfaceinfo_getnetinterfacehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterNetInterfaceInfo.GetNetInterfaceHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterNetInterfaceInfo::GetNetInterfaceHandle

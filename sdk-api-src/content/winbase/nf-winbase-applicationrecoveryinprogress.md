@@ -4,17 +4,16 @@ title: ApplicationRecoveryInProgress function
 author: windows-sdk-content
 description: Indicates that the calling application is continuing to recover data.
 old-location: recovery\applicationrecoveryinprogress.htm
-old-project: Recovery
+tech.root: Recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ApplicationRecoveryInProgress
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ApplicationRecoveryInProgress function

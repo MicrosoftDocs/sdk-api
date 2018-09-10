@@ -4,17 +4,16 @@ title: IInkTransform::Translate
 author: windows-sdk-content
 description: Applies a translation to a transform.
 old-location: tablet\inktransform_translate.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3125e27b-a280-43bc-99d7-a6b5697366b2
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3125e27b-a280-43bc-99d7-a6b5697366b2, IInkTransform interface [Tablet PC],Translate method, IInkTransform.Translate, IInkTransform::Translate, Translate, Translate method [Tablet PC], Translate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Translate, tablet.inktransform_translate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.Translate
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::Translate

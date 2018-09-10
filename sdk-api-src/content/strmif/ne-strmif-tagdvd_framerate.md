@@ -4,7 +4,7 @@ title: tagDVD_FRAMERATE
 author: windows-sdk-content
 description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.
 old-location: dshow\dvd_framerate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_FRAMERATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_FRAMERATE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_FRAMERATE
+req.redist: 
 ---
 
 # tagDVD_FRAMERATE enumeration

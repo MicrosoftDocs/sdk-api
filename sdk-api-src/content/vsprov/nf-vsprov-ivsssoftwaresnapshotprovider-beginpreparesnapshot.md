@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
 author: windows-sdk-content
 description: VSS calls this method for each shadow copy that is added to the shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_beginpreparesnapshot.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 75e6a865-13e7-4bed-bd83-c74c4c1dc228
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method, BeginPrepareSnapshot method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,BeginPrepareSnapshot method, IVssSoftwareSnapshotProvider.BeginPrepareSnapshot, IVssSoftwareSnapshotProvider::BeginPrepareSnapshot, base.ivsssoftwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider::BeginPrepareSnapshot

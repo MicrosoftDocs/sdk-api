@@ -4,17 +4,16 @@ title: IAzClientContext2::GetAssignedScopesPage
 author: windows-sdk-content
 description: Retrieves a list of the scopes in which the client represented by the current IAzClientContext2 object is assigned to at least one role.
 old-location: security\iazclientcontext2_getassignedscopespage.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 496dd834-37d9-41f6-a552-39c558dd60b3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssignedScopesPage method [Security], GetAssignedScopesPage method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],GetAssignedScopesPage method, IAzClientContext2.GetAssignedScopesPage, IAzClientContext2::GetAssignedScopesPage, azroles/IAzClientContext2::GetAssignedScopesPage, security.iazclientcontext2_getassignedscopespage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzClientContext2.GetAssignedScopesPage
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzClientContext2::GetAssignedScopesPage

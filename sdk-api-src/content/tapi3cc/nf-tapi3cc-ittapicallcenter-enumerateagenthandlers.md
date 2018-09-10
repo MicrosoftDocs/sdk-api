@@ -4,17 +4,16 @@ title: ITTAPICallCenter::EnumerateAgentHandlers
 author: windows-sdk-content
 description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5bd0a926-0d99-4efe-a995-28654c97c97a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateAgentHandlers, EnumerateAgentHandlers method [TAPI 2.2], EnumerateAgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, ITTAPICallCenter interface [TAPI 2.2],EnumerateAgentHandlers method, ITTAPICallCenter.EnumerateAgentHandlers, ITTAPICallCenter::EnumerateAgentHandlers, _tapi3_ittapicallcenter_enumerateagenthandlers, tapi3.ittapicallcenter_enumerateagenthandlers, tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AGENT_STATE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPICallCenter.EnumerateAgentHandlers
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPICallCenter::EnumerateAgentHandlers

@@ -4,17 +4,16 @@ title: IInkOverlay::get_CollectionMode
 author: windows-sdk-content
 description: Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.
 old-location: tablet\inkoverlay_collectionmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 3538213f-b9c3-474c-a847-40915c8961dd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectionMode property, IInkOverlay.CollectionMode, IInkOverlay.get_CollectionMode, IInkOverlay::CollectionMode, IInkOverlay::get_CollectionMode, IInkOverlay::put_CollectionMode, InkOverlay.get_CollectionMode, InkOverlay.put_CollectionMode, get_CollectionMode, msinkaut/IInkOverlay::CollectionMode, msinkaut/IInkOverlay::get_CollectionMode, msinkaut/IInkOverlay::put_CollectionMode, tablet.inkoverlay_collectionmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkOverlay.put_CollectionMode
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkOverlay::get_CollectionMode

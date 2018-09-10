@@ -4,17 +4,16 @@ title: ICertPropertySHA1Hash::get_SHA1Hash
 author: windows-sdk-content
 description: Retrieves the SHA-1 hash of a certificate.
 old-location: security\icertpropertysha1hash_sha1hash_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 28c6efb3-1cf7-4f3b-ad42-6f5d72d3117b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],SHA1Hash property, ICertPropertySHA1Hash.SHA1Hash, ICertPropertySHA1Hash.get_SHA1Hash, ICertPropertySHA1Hash::SHA1Hash, ICertPropertySHA1Hash::get_SHA1Hash, SHA1Hash property [Security], SHA1Hash property [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::SHA1Hash, certenroll/ICertPropertySHA1Hash::get_SHA1Hash, get_SHA1Hash, security.icertpropertysha1hash_sha1hash_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICertPropertySHA1Hash.get_SHA1Hash
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertySHA1Hash::get_SHA1Hash

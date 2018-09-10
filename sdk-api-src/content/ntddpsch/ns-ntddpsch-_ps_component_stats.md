@@ -4,7 +4,7 @@ title: "_PS_COMPONENT_STATS"
 author: windows-sdk-content
 description: The PS_COMPONENT_STATS structure enables applications to get statistical information regarding their TC-enabled flow.
 old-location: qos\ps_component_stats.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 6263d80a-5486-4748-b3a7-4c9d9bb2162f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PS_COMPONENT_STATS, *PPS_COMPONENT_STATS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PS_COMPONENT_STATS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: PS_COMPONENT_STATS, *PPS_COMPONENT_STATS
+req.redist: 
 ---
 
 # _PS_COMPONENT_STATS structure

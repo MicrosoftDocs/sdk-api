@@ -4,7 +4,7 @@ title: D3D_NAME
 author: windows-sdk-content
 description: Values that identify shader parameters that use system-value semantics.
 old-location: direct3d11\d3d_name.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 16675331-36cf-4086-a753-6d80ee934ace
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D_NAME
 product: Windows
 targetos: Windows
-req.lib: D3d9.lib
-req.dll: 
-req.irql: 
+req.typenames: D3D_NAME
+req.redist: 
 ---
 
 # D3D_NAME enumeration

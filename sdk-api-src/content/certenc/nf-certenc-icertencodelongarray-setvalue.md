@@ -4,17 +4,16 @@ title: ICertEncodeLongArray::SetValue
 author: windows-sdk-content
 description: Sets a Long value at the specified index of the Long array.
 old-location: security\icertencodelongarray_setvalue.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeLongArray object [Security],SetValue method, ICertEncodeLongArray interface [Security],SetValue method, ICertEncodeLongArray.SetValue, ICertEncodeLongArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeLongArray object, SetValue method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeLongArray.SetValue
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeLongArray::SetValue

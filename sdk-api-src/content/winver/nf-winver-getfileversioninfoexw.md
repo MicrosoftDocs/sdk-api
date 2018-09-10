@@ -4,17 +4,16 @@ title: GetFileVersionInfoExW function
 author: windows-sdk-content
 description: Retrieves version information for the specified file.
 old-location: menurc\getfileversioninfoex.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfoex.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, FILE_VER_GET_PREFETCHED, GetFileVersionInfoEx, GetFileVersionInfoEx function [Menus and Other Resources], GetFileVersionInfoExA, GetFileVersionInfoExW, _win32_GetFileVersionInfoEx, _win32_getfileversioninfoex_cpp, menurc.getfileversioninfoex, winui._win32_getfileversioninfoex, winver/GetFileVersionInfoEx, winver/GetFileVersionInfoExA, winver/GetFileVersionInfoExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICONINFOEXW, *PICONINFOEXW
+req.lib: Mincore.lib
+req.dll: Api-ms-win-core-version-l1-1-0.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - GetFileVersionInfoExW
 product: Windows
 targetos: Windows
-req.lib: Mincore.lib
-req.dll: Api-ms-win-core-version-l1-1-0.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileVersionInfoExW function

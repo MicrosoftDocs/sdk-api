@@ -4,17 +4,16 @@ title: IValidate::OpenDatabase
 author: windows-sdk-content
 description: The OpenDatabase method opens a Windows Installer installation package or merge module for validation.
 old-location: setup\ivalidate_opendatabase.htm
-old-project: msi
+tech.root: msi
 ms.assetid: 3f295eea-5f6b-4afa-b0ac-55606086b2b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IValidate interface,OpenDatabase method, IValidate.OpenDatabase, IValidate::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IValidate interface, evalcom2/IValidate::OpenDatabase, setup.ivalidate_opendatabase
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evalcom2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Evalcom2.dll version 3.0.3790.371 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
+req.lib: 
+req.dll: Evalcom2.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValidate.OpenDatabase
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Evalcom2.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IValidate::OpenDatabase

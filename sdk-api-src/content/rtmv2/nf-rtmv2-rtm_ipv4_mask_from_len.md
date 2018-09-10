@@ -4,17 +4,16 @@ title: RTM_IPV4_MASK_FROM_LEN macro
 author: windows-sdk-content
 description: The RTM_IPV4_MASK_FROM_LEN macro converts a generic route length to an IPv4 mask.
 old-location: rras\rtm_ipv4_mask_from_len.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 7f4a67d9-e707-413e-8cc3-600eb7968b82
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RTM_IPV4_MASK_FROM_LEN, RTM_IPV4_MASK_FROM_LEN macro [RAS], _rtmv2ref_rtm_ipv4_mask_from_len, rras.rtm_ipv4_mask_from_len, rtmv2/RTM_IPV4_MASK_FROM_LEN
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RTM_IPV4_MASK_FROM_LEN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RTM_IPV4_MASK_FROM_LEN macro

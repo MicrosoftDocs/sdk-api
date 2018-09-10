@@ -4,17 +4,16 @@ title: IVPBaseConfig::SetDDSurfaceKernelHandles
 author: windows-sdk-content
 description: The SetDDSurfaceKernelHandles method specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
 old-location: dshow\ivpbaseconfig_setddsurfacekernelhandles.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e180f731-a540-4754-93ff-232ad4502c6f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetDDSurfaceKernelHandles method, IVPBaseConfig.SetDDSurfaceKernelHandles, IVPBaseConfig::SetDDSurfaceKernelHandles, IVPBaseConfigSetDDSurfaceKernelHandle, SetDDSurfaceKernelHandles, SetDDSurfaceKernelHandles method [DirectShow], SetDDSurfaceKernelHandles method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setddsurfacekernelhandles, vpconfig/IVPBaseConfig::SetDDSurfaceKernelHandles
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9VideoStreamInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVPBaseConfig.SetDDSurfaceKernelHandles
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVPBaseConfig::SetDDSurfaceKernelHandles

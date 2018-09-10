@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession2::ConnectUsingTransportStream
 author: windows-sdk-content
 description: Connects using the specified transport stream.
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],ConnectUsingTransportStream method, IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRDPSRAPISharingSession2.ConnectUsingTransportStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession2::ConnectUsingTransportStream

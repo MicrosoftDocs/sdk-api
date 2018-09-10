@@ -4,17 +4,16 @@ title: MFGetAttributesAsBlob function
 author: windows-sdk-content
 description: Converts the contents of an attribute store to a byte array.
 old-location: mf\mfgetattributesasblob.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetAttributesAsBlob
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetAttributesAsBlob function

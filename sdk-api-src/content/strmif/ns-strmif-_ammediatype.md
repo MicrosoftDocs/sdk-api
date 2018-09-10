@@ -4,7 +4,7 @@ title: "_AMMediaType"
 author: windows-sdk-content
 description: The AM_MEDIA_TYPE structure describes the format of a media sample.
 old-location: dshow\am_media_type.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_MEDIA_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AM_MEDIA_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP
+req.typenames: AM_MEDIA_TYPE
+req.redist: 
 ---
 
 # _AMMediaType structure

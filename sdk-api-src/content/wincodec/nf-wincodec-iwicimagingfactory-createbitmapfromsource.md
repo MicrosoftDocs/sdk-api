@@ -4,17 +4,16 @@ title: IWICImagingFactory::CreateBitmapFromSource
 author: windows-sdk-content
 description: Creates a IWICBitmap from a IWICBitmapSource.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromsource.htm
-old-project: wic
+tech.root: wic
 ms.assetid: b3b9057f-e39a-4e7b-a3dc-0942d55c25e0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateBitmapFromSource, CreateBitmapFromSource method [Windows Imaging Component], CreateBitmapFromSource method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSource method, IWICImagingFactory.CreateBitmapFromSource, IWICImagingFactory::CreateBitmapFromSource, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmapfromsource, wic._wic_codec_iwicimagingfactory_createbitmapfromsource, wincodec/IWICImagingFactory::CreateBitmapFromSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICImagingFactory.CreateBitmapFromSource
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICImagingFactory::CreateBitmapFromSource

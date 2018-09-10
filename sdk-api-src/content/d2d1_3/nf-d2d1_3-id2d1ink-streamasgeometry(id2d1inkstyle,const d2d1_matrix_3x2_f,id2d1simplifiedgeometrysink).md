@@ -4,17 +4,16 @@ title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1Sim
 author: windows-sdk-content
 description: Retrieves a geometric representation of this ink object.
 old-location: direct2d\id2d1ink_streamasgeometry.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 385A4C6F-69D9-46A2-ABA4-9E1AA77D6CF4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: D2d1_3.lib
+req.dll: D2d1_3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Ink.StreamAsGeometry
 product: Windows
 targetos: Windows
-req.lib: D2d1_3.lib
-req.dll: D2d1_3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)

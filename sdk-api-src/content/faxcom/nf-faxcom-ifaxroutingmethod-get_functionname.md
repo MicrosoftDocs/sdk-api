@@ -2,19 +2,18 @@
 UID: NF:faxcom.IFaxRoutingMethod.get_FunctionName
 title: IFaxRoutingMethod::get_FunctionName
 author: windows-sdk-content
-description: The FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
-old-location: fax\_mfax_ifaxroutingmethod_get_functionname_vb.htm
-old-project: Fax
+description: The IFaxRoutingMethod::get_FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
+old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_functionname_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1i5h.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxRoutingMethod object [Fax Service],FunctionName property, FaxRoutingMethod.FunctionName, FunctionName property [Fax Service], FunctionName property [Fax Service],FaxRoutingMethod object, IFaxRoutingMethod.get_FunctionName, IFaxRoutingMethod::get_FunctionName, _mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname_vb, get_FunctionName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FunctionName property, IFaxRoutingMethod.FunctionName, IFaxRoutingMethod.get_FunctionName, IFaxRoutingMethod::FunctionName, IFaxRoutingMethod::get_FunctionName, _mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_functionname_cpp, faxcom/IFaxRoutingMethod::FunctionName, faxcom/IFaxRoutingMethod::get_FunctionName, get_FunctionName
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxRoutingMethod.FunctionName
+ - IFaxRoutingMethod.FunctionName
+ - IFaxRoutingMethod.get_FunctionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxRoutingMethod::get_FunctionName
@@ -52,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>FunctionName</b> property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
+The <b>IFaxRoutingMethod::get_FunctionName</b> property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
 
 
 This property is read-only.
@@ -65,9 +64,9 @@ This property is read-only.
 
 
 
-A fax client application can use the <a href="https://msdn.microsoft.com/3108d8db-cdcf-4d5a-8e1e-caf93be6ed94">Guid</a> property to uniquely identify a fax routing method. It is possible for multiple routing methods to have the same user-friendly name and even the same function name. For more information, see <a href="https://msdn.microsoft.com/a2144af9-9101-478f-93b9-393101dc1936">Fax Routing Methods</a>.
+A fax client application can use the <a href="https://msdn.microsoft.com/a87834ee-be7c-4ffc-9482-177e96bfebd0">IFaxRoutingMethod::get_Guid</a> property to uniquely identify a fax routing method. It is possible for multiple routing methods to have the same user-friendly name and even the same function name. For more information, see <a href="https://msdn.microsoft.com/a2144af9-9101-478f-93b9-393101dc1936">Fax Routing Methods</a>.
 
-<b>FunctionName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+<b>IFaxRoutingMethod::get_FunctionName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 
@@ -89,15 +88,11 @@ A fax client application can use the <a href="https://msdn.microsoft.com/3108d8d
 
 
 
-<a href="https://msdn.microsoft.com/4ae5aa09-2961-4823-8c39-0b0a5b0bdc81">FaxRoutingMethod</a>
-
-
-
-<a href="https://msdn.microsoft.com/9fdcc223-f919-4e55-af89-4734888fdbf7">FriendlyName</a>
-
-
-
 <a href="https://msdn.microsoft.com/d61fd93e-814f-465e-a021-f454e33d6baf">IFaxRoutingMethod</a>
+
+
+
+<a href="https://msdn.microsoft.com/b2d01012-9c84-4f86-9b20-68d813f9f52a">IFaxRoutingMethod::get_FriendlyName</a>
 
 
 

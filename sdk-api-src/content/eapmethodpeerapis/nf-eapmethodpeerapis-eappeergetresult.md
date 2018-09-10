@@ -4,17 +4,16 @@ title: EapPeerGetResult function
 author: windows-sdk-content
 description: Obtains the result of an authentication session from the EAP method.
 old-location: eaphost\eappeergetresult.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerGetResult, EapPeerGetResult function [EAPHost], eaphost.eappeergetresult, eapmethodpeerapis/EapPeerGetResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerGetResult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerGetResult function

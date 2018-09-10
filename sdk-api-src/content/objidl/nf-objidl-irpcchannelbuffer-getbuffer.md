@@ -4,17 +4,16 @@ title: IRpcChannelBuffer::GetBuffer
 author: windows-sdk-content
 description: Retrieves a buffer into which data can be marshaled for transmission.
 old-location: com\irpcchannelbuffer_getbuffer.htm
-old-project: com
+tech.root: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBuffer, GetBuffer method [COM], GetBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetBuffer method, IRpcChannelBuffer.GetBuffer, IRpcChannelBuffer::GetBuffer, _com_irpcchannelbuffer_getbuffer, com.irpcchannelbuffer_getbuffer, objidlbase/IRpcChannelBuffer::GetBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcChannelBuffer.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcChannelBuffer::GetBuffer

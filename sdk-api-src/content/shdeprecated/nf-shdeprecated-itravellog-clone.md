@@ -4,17 +4,16 @@ title: ITravelLog::Clone
 author: windows-sdk-content
 description: Deprecated. Duplicates the contents of the current travel log.
 old-location: shell\ITravelLog_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 546581f1-648d-4817-b3d2-aca219b74911
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],Clone method, ITravelLog.Clone, ITravelLog::Clone, shdeprecated/ITravelLog::Clone, shell.ITravelLog_Clone, zone_ITravelLog_Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelLog.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

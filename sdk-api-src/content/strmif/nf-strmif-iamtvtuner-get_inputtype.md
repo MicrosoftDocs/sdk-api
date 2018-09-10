@@ -4,17 +4,16 @@ title: IAMTVTuner::get_InputType
 author: windows-sdk-content
 description: The get_InputType method retrieves the input type set in IAMTVTuner::put_InputType.
 old-location: dshow\iamtvtuner_get_inputtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 49763cc3-be8b-4620-b99f-af787844c97c
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_InputType method, IAMTVTuner.get_InputType, IAMTVTuner::get_InputType, IAMTVTunerget_InputType, dshow.iamtvtuner_get_inputtype, get_InputType, get_InputType method [DirectShow], get_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_InputType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTVTuner.get_InputType
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTVTuner::get_InputType

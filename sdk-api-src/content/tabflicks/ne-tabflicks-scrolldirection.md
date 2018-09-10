@@ -4,7 +4,7 @@ title: SCROLLDIRECTION
 author: windows-sdk-content
 description: Defines the direction of the scrolling command for a pen flick.
 old-location: tablet\scrolldirection.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 79d64632-a0ac-4c1b-83e3-76c9fbd11da9
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCROLLDIRECTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCROLLDIRECTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SCROLLDIRECTION
+req.redist: 
 ---
 
 # SCROLLDIRECTION enumeration

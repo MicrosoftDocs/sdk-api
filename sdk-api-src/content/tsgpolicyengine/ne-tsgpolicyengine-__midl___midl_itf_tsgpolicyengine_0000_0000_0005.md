@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005"
 author: windows-sdk-content
 description: Specifies the redirection settings associated with a connection.
 old-location: termserv\policyattributetype.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: e2e53f33-1fc5-4002-81ed-8c9cce58f28e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tsgpolicyengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PolicyAttributeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PolicyAttributeType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PolicyAttributeType
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0005 enumeration

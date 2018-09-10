@@ -4,17 +4,16 @@ title: ITLocationInfo::get_LocalAccessCode
 author: windows-sdk-content
 description: The get_LocalAccessCode method gets the local access code.
 old-location: tapi3\itlocationinfo_get_localaccesscode.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 15e13c34-911f-4e4f-b7d9-f044bfb6c6d0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocalAccessCode method, ITLocationInfo.get_LocalAccessCode, ITLocationInfo::get_LocalAccessCode, _tapi3_itlocationinfo_get_localaccesscode, get_LocalAccessCode, get_LocalAccessCode method [TAPI 2.2], get_LocalAccessCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_localaccesscode, tapi3if/ITLocationInfo::get_LocalAccessCode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLocationInfo.get_LocalAccessCode
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLocationInfo::get_LocalAccessCode

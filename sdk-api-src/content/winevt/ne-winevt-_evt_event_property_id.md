@@ -4,7 +4,7 @@ title: "_EVT_EVENT_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines the values that determine the query information to retrieve.
 old-location: wes\evt_subscription_event_property_id.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_EVENT_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_EVENT_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_EVENT_PROPERTY_ID
+req.redist: 
 ---
 
 # _EVT_EVENT_PROPERTY_ID enumeration

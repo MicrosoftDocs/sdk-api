@@ -4,17 +4,16 @@ title: IMathInputControl::RemoveFunctionName
 author: windows-sdk-content
 description: Removes a function-name definition from the list of custom math functions that the recognizer accepts.
 old-location: tablet\imathinputcontrol_removefunctionname.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 7c1a16c7-4490-480d-9831-ca297ccdde80
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IMathInputControl interface [Tablet PC],RemoveFunctionName method, IMathInputControl.RemoveFunctionName, IMathInputControl::RemoveFunctionName, RemoveFunctionName, RemoveFunctionName method [Tablet PC], RemoveFunctionName method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::RemoveFunctionName, tablet.imathinputcontrol_removefunctionname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMathInputControl.RemoveFunctionName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMathInputControl::RemoveFunctionName

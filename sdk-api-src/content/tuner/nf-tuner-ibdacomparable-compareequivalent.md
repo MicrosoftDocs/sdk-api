@@ -4,17 +4,16 @@ title: IBDAComparable::CompareEquivalent
 author: windows-sdk-content
 description: The CompareEquivalent method compares two objects to determine whether they contain equivalent tuning information.
 old-location: mstv\ibdacomparable_compareequivalent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBDAComparable.CompareEquivalent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IBDAComparable::CompareEquivalent

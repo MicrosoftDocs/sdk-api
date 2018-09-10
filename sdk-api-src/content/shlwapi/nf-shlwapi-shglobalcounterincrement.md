@@ -4,17 +4,16 @@ title: SHGlobalCounterIncrement function
 author: windows-sdk-content
 description: Increments a global counter.
 old-location: shell\SHGlobalCounterIncrement.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHGlobalCounterIncrement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHGlobalCounterIncrement function

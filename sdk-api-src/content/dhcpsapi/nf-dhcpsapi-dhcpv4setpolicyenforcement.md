@@ -4,17 +4,16 @@ title: DhcpV4SetPolicyEnforcement function
 author: windows-sdk-content
 description: Sets the policy enforcement state of the server or the specified IPv4 subnet on the DHCP Server.
 old-location: dhcp\dhcpv4setpolicyenforcement.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 1e87942a-3ee1-442a-a56a-8e63b3003d3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DhcpV4SetPolicyEnforcement, DhcpV4SetPolicyEnforcement function [DHCP], dhcp.dhcpv4setpolicyenforcement, dhcpsapi/DhcpV4SetPolicyEnforcement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QuarantineStatus
+req.lib: Dhcpsapi.lib
+req.dll: Dhcpsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DhcpV4SetPolicyEnforcement
 product: Windows
 targetos: Windows
-req.lib: Dhcpsapi.lib
-req.dll: Dhcpsapi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DhcpV4SetPolicyEnforcement function

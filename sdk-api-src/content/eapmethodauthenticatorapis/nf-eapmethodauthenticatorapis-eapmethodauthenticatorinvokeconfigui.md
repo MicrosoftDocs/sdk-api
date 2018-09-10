@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorInvokeConfigUI function
 author: windows-sdk-content
 description: Defines a function that raises the EAP method's connection configuration user interface dialog box on the client.
 old-location: eaphost\eapmethodauthenticatorinvokeconfigui.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorInvokeConfigUI, EapMethodAuthenticatorInvokeConfigUI function [EAPHost], eaphost.eapmethodauthenticatorinvokeconfigui, eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorInvokeConfigUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorInvokeConfigUI function

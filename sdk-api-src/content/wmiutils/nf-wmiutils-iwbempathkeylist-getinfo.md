@@ -4,17 +4,16 @@ title: IWbemPathKeyList::GetInfo
 author: windows-sdk-content
 description: The IWbemPathKeyList::GetInfo method retrieves the status bits for the key.
 old-location: wmi\iwbempathkeylist_getinfo.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e5df2222-988c-4f61-9b1a-9bccb647826d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetInfo, GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetInfo method, IWbemPathKeyList.GetInfo, IWbemPathKeyList::GetInfo, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_COMPOUND, _hmm_iwbempathkeylist_getinfo, wmi.iwbempathkeylist_getinfo, wmiutils/IWbemPathKeyList::GetInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPathKeyList.GetInfo
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPathKeyList::GetInfo

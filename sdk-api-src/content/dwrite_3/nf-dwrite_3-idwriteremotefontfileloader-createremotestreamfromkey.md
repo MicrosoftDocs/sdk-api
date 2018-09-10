@@ -4,17 +4,16 @@ title: IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
 author: windows-sdk-content
 description: Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
 old-location: directwrite\idwriteremotefontfileloader_createremotestreamfromkey.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 434B7349-0FD3-492F-8973-600A0A0DFA7B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateRemoteStreamFromKey, CreateRemoteStreamFromKey method [Direct Write], CreateRemoteStreamFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateRemoteStreamFromKey method, IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey, IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey, directwrite.idwriteremotefontfileloader_createremotestreamfromkey, dwrite_3/IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey

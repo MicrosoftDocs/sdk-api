@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_FileNamePattern
 author: windows-sdk-content
 description: A condition property:\_wildcard filter for names.
 old-location: fsrm\ifsrmfilemanagementjob_filenamepattern.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 6a51dbc2-8e60-4575-9e97-c798e73c02a4
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: FileNamePattern property [File Server Resource Manager], FileNamePattern property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],FileNamePattern property, IFsrmFileManagementJob.FileNamePattern, IFsrmFileManagementJob.put_FileNamePattern, IFsrmFileManagementJob::FileNamePattern, IFsrmFileManagementJob::get_FileNamePattern, IFsrmFileManagementJob::put_FileNamePattern, fs.ifsrmfilemanagementjob_filenamepattern, fsrm.ifsrmfilemanagementjob_filenamepattern, fsrmreports/IFsrmFileManagementJob::FileNamePattern, fsrmreports/IFsrmFileManagementJob::get_FileNamePattern, fsrmreports/IFsrmFileManagementJob::put_FileNamePattern, put_FileNamePattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_FileNamePattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_FileNamePattern

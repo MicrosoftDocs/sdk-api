@@ -4,17 +4,16 @@ title: ISettingsEngine::GetNamespace
 author: windows-sdk-content
 description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
 old-location: smi\isettingsengine_getnamespace.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: 4f8193f5-9e9f-4819-aa2e-72b8623eca71
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNamespace, GetNamespace method [SMI], GetNamespace method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespace method, ISettingsEngine.GetNamespace, ISettingsEngine::GetNamespace, smi.isettingsengine_getnamespace, wcmconfig/ISettingsEngine::GetNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsEngine.GetNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsEngine::GetNamespace

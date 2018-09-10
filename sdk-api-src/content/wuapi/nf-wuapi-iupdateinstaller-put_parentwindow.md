@@ -4,17 +4,16 @@ title: IUpdateInstaller::put_ParentWindow
 author: windows-sdk-content
 description: Gets and sets the interface that represents the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parentwindow.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller.put_ParentWindow, IUpdateInstaller::ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent],IUpdateInstaller interface, put_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUpdateInstaller.put_ParentWindow
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IUpdateInstaller::put_ParentWindow

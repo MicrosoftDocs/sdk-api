@@ -4,17 +4,16 @@ title: IDownloadJob::GetProgress
 author: windows-sdk-content
 description: Returns an IDownloadProgress interface that describes the current progress of a download.
 old-location: wua\idownloadjob_getprogress.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: e87c85cf-0011-4edb-a409-0b4db3292caf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IDownloadJob interface, IDownloadJob interface [Windows Update Agent],GetProgress method, IDownloadJob.GetProgress, IDownloadJob::GetProgress, wua.idownloadjob_getprogress, wuapi/IDownloadJob::GetProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDownloadJob.GetProgress
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IDownloadJob::GetProgress

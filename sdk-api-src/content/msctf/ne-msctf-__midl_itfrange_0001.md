@@ -4,7 +4,7 @@ title: "__MIDL_ITfRange_0001"
 author: windows-sdk-content
 description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.
 old-location: tsf\tfgravity.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -26,9 +25,10 @@ req.idl: Msctf.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: MsClus.tlb
-tech.root: 
-req.typenames: TfGravity
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TfGravity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TfGravity
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # __MIDL_ITfRange_0001 enumeration

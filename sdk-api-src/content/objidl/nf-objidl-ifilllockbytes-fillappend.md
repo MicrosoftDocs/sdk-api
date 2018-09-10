@@ -4,17 +4,16 @@ title: IFillLockBytes::FillAppend
 author: windows-sdk-content
 description: The FillAppend method writes a new block of bytes to the end of a byte array.
 old-location: stg\ifilllockbytes_fillappend.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FillAppend, FillAppend method [Structured Storage], FillAppend method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAppend method, IFillLockBytes.FillAppend, IFillLockBytes::FillAppend, _stg_ifilllockbytes_fillappend, objidl/IFillLockBytes::FillAppend, stg.ifilllockbytes_fillappend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFillLockBytes.FillAppend
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFillLockBytes::FillAppend

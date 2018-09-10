@@ -4,7 +4,7 @@ title: "_WINHTTP_PROXY_RESULT_ENTRY"
 author: windows-sdk-content
 description: The WINHTTP_PROXY_RESULT_ENTRY structure contains a result entry from a call to WinHttpGetProxyResult.
 old-location: http\winhttp_proxy_result_entry.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: d1652b34-67a9-40ad-a495-836147e5cc88
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_PROXY_RESULT_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WINHTTP_PROXY_RESULT_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WINHTTP_PROXY_RESULT_ENTRY
+req.redist: 
 ---
 
 # _WINHTTP_PROXY_RESULT_ENTRY structure

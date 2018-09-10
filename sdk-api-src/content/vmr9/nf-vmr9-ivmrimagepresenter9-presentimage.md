@@ -4,17 +4,16 @@ title: IVMRImagePresenter9::PresentImage
 author: windows-sdk-content
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter9_presentimage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1c642958-88df-48b2-8eb1-0d032af71f71
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRImagePresenter9.PresentImage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRImagePresenter9::PresentImage

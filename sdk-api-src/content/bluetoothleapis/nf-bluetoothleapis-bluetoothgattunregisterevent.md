@@ -4,17 +4,16 @@ title: BluetoothGATTUnregisterEvent function
 author: windows-sdk-content
 description: Unregisters the given characteristic value change event.
 old-location: bltooth\bluetoothgattunregisterevent.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
+req.lib: BluetoothAPIs.lib
+req.dll: BluetoothAPIs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BluetoothGATTUnregisterEvent
 product: Windows
 targetos: Windows
-req.lib: BluetoothAPIs.lib
-req.dll: BluetoothAPIs.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothGATTUnregisterEvent function

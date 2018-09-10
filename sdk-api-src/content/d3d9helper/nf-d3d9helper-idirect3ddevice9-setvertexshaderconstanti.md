@@ -4,17 +4,16 @@ title: IDirect3DDevice9::SetVertexShaderConstantI
 author: windows-sdk-content
 description: Sets an integer vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstanti.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstanti.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 10342244-afff-6fcd-2e64-c19547f2f547, IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantI method, IDirect3DDevice9.SetVertexShaderConstantI, IDirect3DDevice9::SetVertexShaderConstantI, SetVertexShaderConstantI, SetVertexShaderConstantI method [Direct3D 9], SetVertexShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantI, direct3d9.idirect3ddevice9__setvertexshaderconstanti
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.SetVertexShaderConstantI
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::SetVertexShaderConstantI

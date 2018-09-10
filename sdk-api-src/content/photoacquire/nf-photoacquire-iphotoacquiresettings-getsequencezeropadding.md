@@ -4,17 +4,16 @@ title: IPhotoAcquireSettings::GetSequenceZeroPadding
 author: windows-sdk-content
 description: The GetSequenceZeroPadding method retrieves a value that indicates whether zeros or spaces will be used to pad sequential file names.
 old-location: picacq\iphotoacquiresettings_getsequencezeropadding.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 72dc052a-bf8e-4876-8ab6-d0f6857941d5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetSequenceZeroPadding, GetSequenceZeroPadding method [Picture Acquisition], GetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequenceZeroPadding method, IPhotoAcquireSettings.GetSequenceZeroPadding, IPhotoAcquireSettings::GetSequenceZeroPadding, IPhotoAcquireSettingsGetSequenceZeroPadding, photoacquire/IPhotoAcquireSettings::GetSequenceZeroPadding, picacq.iphotoacquiresettings_getsequencezeropadding
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquireSettings.GetSequenceZeroPadding
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquireSettings::GetSequenceZeroPadding

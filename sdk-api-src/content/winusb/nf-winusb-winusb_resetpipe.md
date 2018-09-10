@@ -4,17 +4,16 @@ title: WinUsb_ResetPipe function
 author: windows-sdk-content
 description: The WinUsb_ResetPipe function resets the data toggle and clears the stall condition on a pipe.
 old-location: buses\winusb_resetpipe.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 0fd30723-8cb9-4e29-942b-abe48c691d8e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_resetpipe, winusb/WinUsb_ResetPipe, winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_ResetPipe
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_ResetPipe function

@@ -4,17 +4,16 @@ title: IMFCaptureEngine::StartPreview
 author: windows-sdk-content
 description: Starts preview.
 old-location: mf\imfcaptureengine_startpreview.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C5BCF990-E7F9-48E9-B082-79953F5ED27C
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, IMFCaptureEngine.StartPreview, IMFCaptureEngine::StartPreview, StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCaptureEngine.StartPreview
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCaptureEngine::StartPreview

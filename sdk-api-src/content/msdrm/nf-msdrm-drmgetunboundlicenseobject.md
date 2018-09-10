@@ -4,17 +4,16 @@ title: DRMGetUnboundLicenseObject function
 author: windows-sdk-content
 description: Retrieves an object of a specified type in an unbound license.
 old-location: rm\drmgetunboundlicenseobject.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: d3e03d62-5202-4969-a4c7-5fbf89070436
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DRMGetUnboundLicenseObject, DRMGetUnboundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObject, rm.drmgetunboundlicenseobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_SELECTIONSTYLE
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRMGetUnboundLicenseObject
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

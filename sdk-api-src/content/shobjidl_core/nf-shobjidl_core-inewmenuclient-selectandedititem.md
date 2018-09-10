@@ -4,17 +4,16 @@ title: INewMenuClient::SelectAndEditItem
 author: windows-sdk-content
 description: INewMenuClient::SelectAndEditItem method
 old-location: shell\INewMenuClient_SelectAndEditItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f731e69f-8ff0-42ff-96f8-04236f53d962
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INewMenuClient interface [Windows Shell],SelectAndEditItem method, INewMenuClient.SelectAndEditItem, INewMenuClient::SelectAndEditItem, NMCSAEI_EDIT, NMCSAEI_SELECT, SelectAndEditItem, SelectAndEditItem method [Windows Shell], SelectAndEditItem method [Windows Shell],INewMenuClient interface, _shell_INewMenuClient_SelectAndEditItem, shell.INewMenuClient_SelectAndEditItem, shobjidl_core/INewMenuClient::SelectAndEditItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INewMenuClient.SelectAndEditItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INewMenuClient::SelectAndEditItem

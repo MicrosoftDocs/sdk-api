@@ -4,17 +4,16 @@ title: ITsSbTaskInfo::get_TargetId
 author: windows-sdk-content
 description: Retrieves the target identifier.
 old-location: termserv\itssbtaskinfo_targetid.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbTaskInfo.get_TargetId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbTaskInfo::get_TargetId

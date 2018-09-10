@@ -4,7 +4,7 @@ title: SpatialAudioMetadataItemsInfo
 author: windows-sdk-content
 description: Provides information about an ISpatialAudioMetadataItems object. Get a copy of this structure by calling GetInfo.
 old-location: coreaudio\spatialaudiometadataitemsinfo.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: EC694B26-988B-4765-8B9F-130FCF614166
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiometadata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioMetadataItemsInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioMetadataItemsInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioMetadataItemsInfo
+req.redist: 
 ---
 
 # SpatialAudioMetadataItemsInfo structure

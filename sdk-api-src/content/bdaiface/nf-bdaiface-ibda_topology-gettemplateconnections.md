@@ -4,17 +4,16 @@ title: IBDA_Topology::GetTemplateConnections
 author: windows-sdk-content
 description: The GetTemplateConnections method retrieves a list of all template connections that appear in the template topology for this filter and network type.
 old-location: mstv\ibda_topology_gettemplateconnections.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: eeceee7f-8e0f-4852-a69d-eced9772df1a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTemplateConnections, GetTemplateConnections method [Microsoft TV Technologies], GetTemplateConnections method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetTemplateConnections method, IBDA_Topology.GetTemplateConnections, IBDA_Topology::GetTemplateConnections, IBDA_TopologyGetTemplateConnections, bdaiface/IBDA_Topology::GetTemplateConnections, mstv.ibda_topology_gettemplateconnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_Topology.GetTemplateConnections
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_Topology::GetTemplateConnections

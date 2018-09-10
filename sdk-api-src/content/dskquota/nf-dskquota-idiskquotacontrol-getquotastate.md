@@ -4,17 +4,16 @@ title: IDiskQuotaControl::GetQuotaState
 author: windows-sdk-content
 description: Retrieves a set of flags describing the state of the quota system.
 old-location: fs\idiskquotacontrol_getquotastate.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 1e35be3e-095a-4299-933d-6ebf3ccc5a1c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DISKQUOTA_FILESTATE_INCOMPLETE, DISKQUOTA_FILESTATE_REBUILDING, DISKQUOTA_STATE_DISABLED, DISKQUOTA_STATE_ENFORCE, DISKQUOTA_STATE_TRACK, GetQuotaState, GetQuotaState method [Files], GetQuotaState method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetQuotaState method, IDiskQuotaControl.GetQuotaState, IDiskQuotaControl::GetQuotaState, _win32_idiskquotacontrol_getquotastate, base.idiskquotacontrol_getquotastate, dskquota/IDiskQuotaControl::GetQuotaState, fs.idiskquotacontrol_getquotastate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiskQuotaControl.GetQuotaState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Dskquota.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDiskQuotaControl::GetQuotaState

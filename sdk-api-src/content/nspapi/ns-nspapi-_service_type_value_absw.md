@@ -4,7 +4,7 @@ title: "_SERVICE_TYPE_VALUE_ABSW"
 author: windows-sdk-content
 description: Contains information about a network-service type value. This information may be specific to a namespace.
 old-location: winsock\service_type_value_abs_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SERVICE_TYPE_VALUE_ABSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
+req.redist: 
 ---
 
 # _SERVICE_TYPE_VALUE_ABSW structure

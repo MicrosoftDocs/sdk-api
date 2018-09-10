@@ -4,17 +4,16 @@ title: IDVBSLocator::get_WestPosition
 author: windows-sdk-content
 description: The get_WestPosition method retrieves a value indicating whether the orbital position is given in east or west longitude.
 old-location: mstv\idvbslocator_get_westposition.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 97bb32ba-02ca-4ea4-8364-6edddbb05d8c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_WestPosition method, IDVBSLocator.get_WestPosition, IDVBSLocator::get_WestPosition, IDVBSLocatorget_WestPosition, get_WestPosition, get_WestPosition method [Microsoft TV Technologies], get_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_westposition, tuner/IDVBSLocator::get_WestPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVBSLocator.get_WestPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVBSLocator::get_WestPosition
@@ -65,7 +63,7 @@ The <b>get_WestPosition</b> method retrieves a value indicating whether the orbi
 
 ### -param WestLongitude
 
-
+TBD
 
 
 

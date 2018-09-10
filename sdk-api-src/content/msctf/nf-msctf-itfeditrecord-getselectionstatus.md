@@ -4,17 +4,16 @@ title: ITfEditRecord::GetSelectionStatus
 author: windows-sdk-content
 description: ITfEditRecord::GetSelectionStatus method
 old-location: tsf\itfeditrecord_getselectionstatus.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: ad7dbd71-6241-45a0-9815-1f0eedc5213a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSelectionStatus, GetSelectionStatus method [Text Services Framework], GetSelectionStatus method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetSelectionStatus method, ITfEditRecord.GetSelectionStatus, ITfEditRecord::GetSelectionStatus, _tsf_itfeditrecord_getselectionstatus_ref, msctf/ITfEditRecord::GetSelectionStatus, tsf.itfeditrecord_getselectionstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfEditRecord.GetSelectionStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfEditRecord::GetSelectionStatus

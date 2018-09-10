@@ -4,17 +4,16 @@ title: IOfflineFilesPinInfo::IsPinned
 author: windows-sdk-content
 description: Determines whether the item is pinned.
 old-location: of\iofflinefilespininfo_ispinned.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesPinInfo.IsPinned
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesPinInfo::IsPinned

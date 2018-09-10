@@ -4,7 +4,7 @@ title: tagVMRALLOCATIONINFO
 author: windows-sdk-content
 description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.
 old-location: dshow\vmrallocationinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRALLOCATIONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRALLOCATIONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMRALLOCATIONINFO
+req.redist: 
 req.product: Windows XP
 ---
 

@@ -4,17 +4,16 @@ title: IDWriteTextRenderer::DrawGlyphRun
 author: windows-sdk-content
 description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.
 old-location: directwrite\IDWriteTextRenderer_DrawGlyphRun.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 95a0044c-dffd-4c6a-a6eb-2f87b02ef89a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawGlyphRun method, IDWriteTextRenderer.DrawGlyphRun, IDWriteTextRenderer::DrawGlyphRun, directwrite.IDWriteTextRenderer_DrawGlyphRun, dwrite/IDWriteTextRenderer::DrawGlyphRun
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextRenderer.DrawGlyphRun
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextRenderer::DrawGlyphRun

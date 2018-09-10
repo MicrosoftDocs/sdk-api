@@ -4,17 +4,16 @@ title: ILIsParent function
 author: windows-sdk-content
 description: Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure.
 old-location: shell\ILIsParent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 638df20b-aa7e-4557-abda-d36b58853aa1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ILIsParent, ILIsParent function [Windows Shell], _win32_ILIsParent, shell.ILIsParent, shlobj_core/ILIsParent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - ILIsParent
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILIsParent function

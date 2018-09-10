@@ -4,17 +4,16 @@ title: CInstance::SetWBEMINT16
 author: windows-sdk-content
 description: The SetWBEMINT16 method sets a 16-bit integer property.
 old-location: wmi\cinstance_setwbemint16.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: a39d3885-6344-4c05-8eea-da3f33fb998e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z, CInstance interface [Windows Management Instrumentation],SetWBEMINT16 method, CInstance.SetWBEMINT16, CInstance::SetWBEMINT16, SetWBEMINT16, SetWBEMINT16 method [Windows Management Instrumentation], SetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwbemint16, instance/CInstance::SetWBEMINT16, wmi.cinstance_setwbemint16"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetWBEMINT16

@@ -4,17 +4,16 @@ title: IMFDRMNetHelper::GetChainedLicenseResponse
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDRMNetHelper.GetChainedLicenseResponse
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDRMNetHelper::GetChainedLicenseResponse

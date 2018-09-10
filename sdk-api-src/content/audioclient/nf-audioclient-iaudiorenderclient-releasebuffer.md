@@ -4,17 +4,16 @@ title: IAudioRenderClient::ReleaseBuffer
 author: windows-sdk-content
 description: The ReleaseBuffer method releases the buffer space acquired in the previous call to the IAudioRenderClient::GetBuffer method.
 old-location: coreaudio\iaudiorenderclient_releasebuffer.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 19d89b5e-2e73-4693-b970-7ebf452ef9a1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioRenderClient interface [Core Audio],ReleaseBuffer method, IAudioRenderClient.ReleaseBuffer, IAudioRenderClient::ReleaseBuffer, IAudioRenderClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioRenderClient interface, audioclient/IAudioRenderClient::ReleaseBuffer, coreaudio.iaudiorenderclient_releasebuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioRenderClient.ReleaseBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioRenderClient::ReleaseBuffer

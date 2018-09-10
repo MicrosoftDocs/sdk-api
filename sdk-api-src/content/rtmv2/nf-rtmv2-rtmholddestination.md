@@ -4,17 +4,16 @@ title: RtmHoldDestination function
 author: windows-sdk-content
 description: The RtmHoldDestination function marks a destination to be put in the hold-down state for a certain amount of time. A hold down only happens if the last route for the destination in any view is deleted.
 old-location: rras\rtmholddestination.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 433d6d97-9541-496a-8d10-2a2fc31d043d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmHoldDestination, RtmHoldDestination function [RAS], _rtmv2ref_rtmholddestination, rras.rtmholddestination, rtmv2/RtmHoldDestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmHoldDestination
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmHoldDestination function

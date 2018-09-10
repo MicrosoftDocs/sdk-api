@@ -4,17 +4,16 @@ title: ISyncMgrSyncItemContainer::GetSyncItemCount
 author: windows-sdk-content
 description: Gets a count of the sync items in the container.
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItemCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bbe37dff-d758-41ca-872d-4607d605011d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemCount method, ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrSyncItemContainer.GetSyncItemCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrSyncItemContainer::GetSyncItemCount

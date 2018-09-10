@@ -4,7 +4,7 @@ title: "_DDSETSURFACETATE"
 author: windows-sdk-content
 description: The DDSETSURFACESTATE structure contains the surface state information.
 old-location: display\ddsetsurfacestate.htm
-old-project: display
+tech.root: display
 ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDSETSURFACESTATE, *LPDDSETSURFACESTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDSETSURFACESTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDSETSURFACESTATE, *LPDDSETSURFACESTATE
+req.redist: 
 ---
 
 # _DDSETSURFACETATE structure

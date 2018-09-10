@@ -4,17 +4,16 @@ title: IFileSystemImageResult::get_DiscId
 author: windows-sdk-content
 description: Retrieves the disc volume name for this file system image.
 old-location: imapi\ifilesystemimageresult_get_discid.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemImageResult.get_DiscId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemImageResult::get_DiscId

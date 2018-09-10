@@ -4,17 +4,16 @@ title: IUnknown_AddRef_Proxy function
 author: windows-sdk-content
 description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.
 old-location: rpc\iunknown_addref_proxy.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUnknown_AddRef_Proxy, IUnknown_AddRef_Proxy function [RPC], rpc.iunknown_addref_proxy, unknwnbase/IUnknown_AddRef_Proxy
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnknown_AddRef_Proxy
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUnknown_AddRef_Proxy function

@@ -4,17 +4,16 @@ title: FloodFill function
 author: windows-sdk-content
 description: The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the crFill parameter.
 old-location: gdi\floodfill.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FloodFill
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FloodFill function

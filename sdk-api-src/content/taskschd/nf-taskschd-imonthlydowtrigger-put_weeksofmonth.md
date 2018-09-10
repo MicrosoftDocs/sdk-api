@@ -4,17 +4,16 @@ title: IMonthlyDOWTrigger::put_WeeksOfMonth
 author: windows-sdk-content
 description: Gets or sets the weeks of the month during which the task runs.
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],WeeksOfMonth property, IMonthlyDOWTrigger.WeeksOfMonth, IMonthlyDOWTrigger.put_WeeksOfMonth, IMonthlyDOWTrigger::WeeksOfMonth, IMonthlyDOWTrigger::get_WeeksOfMonth, IMonthlyDOWTrigger::put_WeeksOfMonth, WeeksOfMonth property [Task Scheduler], WeeksOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, put_WeeksOfMonth, taskschd.imonthlydowtrigger_weeksofmonth, taskschd/IMonthlyDOWTrigger::WeeksOfMonth, taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth, taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IMonthlyDOWTrigger.put_WeeksOfMonth
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IMonthlyDOWTrigger::put_WeeksOfMonth

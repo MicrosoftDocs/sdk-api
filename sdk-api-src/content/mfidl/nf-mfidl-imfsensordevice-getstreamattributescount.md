@@ -4,17 +4,16 @@ title: IMFSensorDevice::GetStreamAttributesCount
 author: windows-sdk-content
 description: Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
 old-location: mf\imfsensordevice_getstreamattributescount.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorDevice.GetStreamAttributesCount
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorDevice::GetStreamAttributesCount

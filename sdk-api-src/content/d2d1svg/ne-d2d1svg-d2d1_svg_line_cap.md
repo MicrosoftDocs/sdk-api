@@ -4,7 +4,7 @@ title: D2D1_SVG_LINE_CAP
 author: windows-sdk-content
 description: Specifies a value for the SVG stroke-linecap property.
 old-location: direct2d\d2d1_svg_line_cap.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 9A44EF41-E2D6-4647-B5EB-D99F14ADFA2F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_LINE_CAP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_LINE_CAP
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_SVG_LINE_CAP
+req.redist: 
 ---
 
 # D2D1_SVG_LINE_CAP enumeration

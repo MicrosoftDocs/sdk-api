@@ -4,7 +4,7 @@ title: InkApplicationGesture
 author: windows-sdk-content
 description: Defines values that set the interest in a set of application-specific gesture.Application gestures are gestures that you can choose to have your application support.
 old-location: tablet\inkapplicationgesture.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: b429ec96-691f-4761-92bf-ef500cf0e1be
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkApplicationGesture
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkApplicationGesture
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkApplicationGesture
+req.redist: 
 ---
 
 # InkApplicationGesture enumeration

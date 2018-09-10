@@ -4,17 +4,16 @@ title: IIsdbSiParser2::GetLDT
 author: windows-sdk-content
 description: Gets a linked description table (LDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An LDT contains data that is used to collect reference information from other tables.
 old-location: mstv\iisdbsiparser2_getldt.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b4b91e95-cf0f-488b-9941-4d1d81dc7661
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSiParser2.GetLDT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSiParser2::GetLDT

@@ -4,17 +4,16 @@ title: WSCUpdateProvider function
 author: windows-sdk-content
 description: Modifies the specified transport provider in the system configuration database.
 old-location: winsock\wscupdateprovider_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 7777a2ff-2ece-4f28-88af-87fc96fdda9f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WSCUpdateProvider, WSCUpdateProvider function [Winsock], _win32_wscupdateprovider_2, winsock.wscupdateprovider_2, ws2spi/WSCUpdateProvider
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSC_PROVIDER_INFO_TYPE
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSCUpdateProvider
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSCUpdateProvider function

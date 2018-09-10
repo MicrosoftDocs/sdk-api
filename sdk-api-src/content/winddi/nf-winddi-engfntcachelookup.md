@@ -4,17 +4,16 @@ title: EngFntCacheLookUp function
 author: windows-sdk-content
 description: The EngFntCacheLookUp function retrieves the address of cached font file data.
 old-location: display\engfntcachelookup.htm
-old-project: display
+tech.root: display
 ms.assetid: daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: This function is available in Windows XP and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngFntCacheLookUp
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngFntCacheLookUp function

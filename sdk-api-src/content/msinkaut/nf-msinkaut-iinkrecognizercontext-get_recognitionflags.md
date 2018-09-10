@@ -4,17 +4,16 @@ title: IInkRecognizerContext::get_RecognitionFlags
 author: windows-sdk-content
 description: Gets or sets the flags that specify how the recognizer interprets the ink and determines the result string.
 old-location: tablet\inkrecognizercontext_recognitionflags.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 71b02f99-4076-4c56-b88a-4201b7033411
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 71b02f99-4076-4c56-b88a-4201b7033411, IInkRecognizerContext interface [Tablet PC],RecognitionFlags property, IInkRecognizerContext.RecognitionFlags, IInkRecognizerContext.get_RecognitionFlags, IInkRecognizerContext::RecognitionFlags, IInkRecognizerContext::get_RecognitionFlags, IInkRecognizerContext::put_RecognitionFlags, InkRecognizerContext.get_RecognitionFlags, InkRecognizerContext.put_RecognitionFlags, RecognitionFlags property [Tablet PC], RecognitionFlags property [Tablet PC],IInkRecognizerContext interface, get_RecognitionFlags, msinkaut/IInkRecognizerContext::RecognitionFlags, msinkaut/IInkRecognizerContext::get_RecognitionFlags, msinkaut/IInkRecognizerContext::put_RecognitionFlags, put_RecognitionFlags, tablet.inkrecognizercontext_recognitionflags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkRecognizerContext.put_RecognitionFlags
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognizerContext::get_RecognitionFlags

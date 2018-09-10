@@ -4,17 +4,16 @@ title: IUIAutomationCacheRequest::put_TreeFilter
 author: windows-sdk-content
 description: Specifies the view of the UI Automation element tree that is used when caching.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: da9c9c9a-7ada-4f72-a025-1202e500241d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeFilter property, IUIAutomationCacheRequest.TreeFilter, IUIAutomationCacheRequest.put_TreeFilter, IUIAutomationCacheRequest::TreeFilter, IUIAutomationCacheRequest::get_TreeFilter, IUIAutomationCacheRequest::put_TreeFilter, TreeFilter property [Windows Accessibility], TreeFilter property [Windows Accessibility],IUIAutomationCacheRequest interface, put_TreeFilter, uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter, uiauto_IUIAutomationCacheRequest_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::TreeFilter, uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter, winauto.uiauto_IUIAutomationCacheRequest_TreeFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IUIAutomationCacheRequest.put_TreeFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationCacheRequest::put_TreeFilter

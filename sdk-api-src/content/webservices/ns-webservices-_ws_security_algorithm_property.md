@@ -4,7 +4,7 @@ title: "_WS_SECURITY_ALGORITHM_PROPERTY"
 author: windows-sdk-content
 description: Specifies a cryptographic algorithm setting.
 old-location: wsw\ws_security_algorithm_property.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 6a0dbe45-65f6-41eb-aa94-5ed0cdd751cf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SECURITY_ALGORITHM_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SECURITY_ALGORITHM_PROPERTY
+req.redist: 
 ---
 
 # _WS_SECURITY_ALGORITHM_PROPERTY structure

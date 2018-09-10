@@ -4,17 +4,16 @@ title: IAMExtTransport::SetEditPropertySet
 author: windows-sdk-content
 description: The SetEditPropertySet method registers an edit property set that describes a group of edit properties.
 old-location: dshow\iamexttransport_seteditpropertyset.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 40695c7c-7381-44c0-b41f-7c838c9c83b5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditPropertySet method, IAMExtTransport.SetEditPropertySet, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.SetEditPropertySet
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::SetEditPropertySet

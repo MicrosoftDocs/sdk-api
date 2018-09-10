@@ -4,17 +4,16 @@ title: WTSLogoffSession function
 author: windows-sdk-content
 description: Logs off a specified Remote Desktop Services session.
 old-location: termserv\wtslogoffsession.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: dba7b6fb-f906-40d1-baae-6ee7b8cfe86d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WTSLogoffSession, WTSLogoffSession function [Remote Desktop Services], _win32_wtslogoffsession, termserv.wtslogoffsession, wtsapi32/WTSLogoffSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_VIRTUAL_CLASS
+req.lib: Wtsapi32.lib
+req.dll: Wtsapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WTSLogoffSession
 product: Windows
 targetos: Windows
-req.lib: Wtsapi32.lib
-req.dll: Wtsapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WTSLogoffSession function

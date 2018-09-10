@@ -4,17 +4,16 @@ title: ICrmMonitorLogRecords::get_Count
 author: windows-sdk-content
 description: Retrieves the number of log records written by this CRM clerk.
 old-location: cos\icrmmonitorlogrecords_get_count.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 51acc910-a38a-4747-bf99-b468f7ffddd1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_Count method, ICrmMonitorLogRecords.get_Count, ICrmMonitorLogRecords::get_Count, _dtc_ICrmMonitorLogRecords_Count, comsvcs/ICrmMonitorLogRecords::get_Count, cos.icrmmonitorlogrecords_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorLogRecords interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICrmMonitorLogRecords.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICrmMonitorLogRecords::get_Count

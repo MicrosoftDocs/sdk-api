@@ -4,17 +4,16 @@ title: IWSDXMLContext::AddNamespace
 author: windows-sdk-content
 description: Creates an object that represents a namespace in an XML context.
 old-location: ncd\iwsdxmlcontext_addnamespace_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 8815e01e-1879-48af-9011-84bb622259e9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddNamespace, AddNamespace method, AddNamespace method,IWSDXMLContext interface, IWSDXMLContext interface,AddNamespace method, IWSDXMLContext.AddNamespace, IWSDXMLContext::AddNamespace, ncd.iwsdxmlcontext_addnamespace_method, wsdxml/IWSDXMLContext::AddNamespace
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESPONSEBODY_SubscriptionEnd
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDXMLContext.AddNamespace
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDXMLContext::AddNamespace

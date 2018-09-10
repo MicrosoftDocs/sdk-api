@@ -4,17 +4,16 @@ title: IRpcStubBuffer::DebugServerRelease
 author: windows-sdk-content
 description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.
 old-location: com\irpcstubbuffer_debugserverrelease.htm
-old-project: com
+tech.root: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRpcStubBuffer.DebugServerRelease
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRpcStubBuffer::DebugServerRelease

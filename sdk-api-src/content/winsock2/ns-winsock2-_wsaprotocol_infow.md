@@ -4,7 +4,7 @@ title: "_WSAPROTOCOL_INFOW"
 author: windows-sdk-content
 description: Used to store or retrieve complete information for a given protocol.
 old-location: winsock\wsaprotocol_infow_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: be5f3e81-1442-43c7-9e4e-9eb2b2a05132
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAPROTOCOL_INFOW, *LPWSAPROTOCOL_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAPROTOCOL_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAPROTOCOL_INFOW, *LPWSAPROTOCOL_INFOW
+req.redist: 
 ---
 
 # _WSAPROTOCOL_INFOW structure

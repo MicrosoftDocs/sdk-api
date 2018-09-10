@@ -4,17 +4,16 @@ title: ImmReleaseContext function
 author: windows-sdk-content
 description: Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the ImmGetContext function.
 old-location: intl\immreleasecontext.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],East Asian language support installed.
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: Imm32.lib
+req.dll: Imm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ImmReleaseContext
 product: Windows
 targetos: Windows
-req.lib: Imm32.lib
-req.dll: Imm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ImmReleaseContext function

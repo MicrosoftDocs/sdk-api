@@ -4,7 +4,7 @@ title: IAccessible
 author: windows-sdk-content
 description: Exposes methods and properties that make a user interface element and its children accessible to client applications.
 old-location: winauto\iaccessible.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -69,10 +69,8 @@ api_name:
  - IAccessible.get_accState
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAccessible interface

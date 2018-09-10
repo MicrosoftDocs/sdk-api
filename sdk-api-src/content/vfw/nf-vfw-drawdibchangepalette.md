@@ -4,17 +4,16 @@ title: DrawDibChangePalette function
 author: windows-sdk-content
 description: The DrawDibChangePalette function sets the palette entries used for drawing DIBs.
 old-location: multimedia\drawdibchangepalette.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 8c94ecac-d12c-45c4-8a11-e17502bd7d5d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: Vfw32.lib
+req.dll: Msvfw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrawDibChangePalette
 product: Windows
 targetos: Windows
-req.lib: Vfw32.lib
-req.dll: Msvfw32.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # DrawDibChangePalette function

@@ -4,7 +4,7 @@ title: IPersistTuneXmlUtility2
 author: windows-sdk-content
 description: Defines utility methods for serializing tuning requests (objects that implement the ITuneRequest interface) to XML tuning request strings.
 old-location: mstv\ipersisttunexmlutility2.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d909d505-2ae9-4488-b4c1-42ca32661bf3
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistTuneXmlUtility2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistTuneXmlUtility2 interface

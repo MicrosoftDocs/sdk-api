@@ -4,7 +4,7 @@ title: "_HTTP_HEADER_ID"
 author: windows-sdk-content
 description: The HTTP_HEADER_ID enumeration type lists known headers for HTTP requests and responses, and associates an array index with each such header.
 old-location: http\http_header_id.htm
-old-project: http
+tech.root: http
 ms.assetid: 6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_HEADER_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
+req.redist: 
 ---
 
 # _HTTP_HEADER_ID enumeration

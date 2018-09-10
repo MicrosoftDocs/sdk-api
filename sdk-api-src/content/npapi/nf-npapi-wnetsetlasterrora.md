@@ -4,17 +4,16 @@ title: WNetSetLastErrorA function
 author: windows-sdk-content
 description: Sets extended error information. Network providers should call this function instead of SetLastError.
 old-location: security\wnetsetlasterror.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NOTIFICATION_USER_INPUT_DATA
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WNetSetLastErrorA
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # WNetSetLastErrorA function

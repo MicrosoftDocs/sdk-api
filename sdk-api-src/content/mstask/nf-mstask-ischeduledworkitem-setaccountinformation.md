@@ -4,17 +4,16 @@ title: IScheduledWorkItem::SetAccountInformation
 author: windows-sdk-content
 description: Sets the account name and password used to run the work item.
 old-location: taskschd\ischeduledworkitem_setaccountinformation.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduledWorkItem.SetAccountInformation
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduledWorkItem::SetAccountInformation

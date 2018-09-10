@@ -4,7 +4,7 @@ title: ACTCTX_REQUESTED_RUN_LEVEL
 author: windows-sdk-content
 description: The ACTCTX_REQUESTED_RUN_LEVEL enumeration describes the requested run level of the activation context.
 old-location: setup\actctx_requested_run_level.htm
-old-project: SbsCs
+tech.root: SbsCs
 ms.assetid: 3bf75a4d-a209-43e4-9fe2-f7da1602fc6c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACTCTX_REQUESTED_RUN_LEVEL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
+req.redist: 
 ---
 
 # ACTCTX_REQUESTED_RUN_LEVEL enumeration

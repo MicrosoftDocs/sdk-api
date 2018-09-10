@@ -4,17 +4,16 @@ title: ID3D10Device::DrawAuto
 author: windows-sdk-content
 description: Draw geometry of an unknown size that was created by the geometry shader stage. See remarks.
 old-location: direct3d10\id3d10device_drawauto.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawauto.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 8ce13c14-3a43-9492-8641-4e2c8d9cc273, DrawAuto, DrawAuto method [Direct3D 10], DrawAuto method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawAuto method, ID3D10Device.DrawAuto, ID3D10Device::DrawAuto, d3d10/ID3D10Device::DrawAuto, direct3d10.id3d10device_drawauto
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_USAGE
+req.lib: D3D10.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D10Device.DrawAuto
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Device::DrawAuto

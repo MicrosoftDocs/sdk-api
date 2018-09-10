@@ -4,17 +4,16 @@ title: FindNextUrlCacheEntryExW function
 author: windows-sdk-content
 description: Finds the next cache entry in a cache enumeration started by the FindFirstUrlCacheEntryEx function.
 old-location: wininet\findnexturlcacheentryex.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 39484e35-cd25-4e48-ace0-16033d3e6954
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FindNextUrlCacheEntryEx, FindNextUrlCacheEntryEx function [WinINet], FindNextUrlCacheEntryExA, FindNextUrlCacheEntryExW, _inet_findnexturlcacheentryex_function, wininet.findnexturlcacheentryex, wininet/FindNextUrlCacheEntryEx, wininet/FindNextUrlCacheEntryExA, wininet/FindNextUrlCacheEntryExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FindNextUrlCacheEntryExW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindNextUrlCacheEntryExW function

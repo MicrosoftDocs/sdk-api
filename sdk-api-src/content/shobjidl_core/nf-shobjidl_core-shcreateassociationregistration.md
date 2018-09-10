@@ -4,17 +4,16 @@ title: SHCreateAssociationRegistration function
 author: windows-sdk-content
 description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.
 old-location: shell\SHCreateAssociationRegistration.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - SHCreateAssociationRegistration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateAssociationRegistration function

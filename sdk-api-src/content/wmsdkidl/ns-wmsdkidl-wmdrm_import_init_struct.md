@@ -4,7 +4,7 @@ title: WMDRM_IMPORT_INIT_STRUCT
 author: windows-sdk-content
 description: The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content.
 old-location: wmformat\wmdrm_import_init_struct.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 11 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMDRM_IMPORT_INIT_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WMDRM_IMPORT_INIT_STRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WMDRM_IMPORT_INIT_STRUCT
+req.redist: 
 ---
 
 # WMDRM_IMPORT_INIT_STRUCT structure

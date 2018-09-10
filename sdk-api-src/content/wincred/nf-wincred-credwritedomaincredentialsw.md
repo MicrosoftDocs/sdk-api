@@ -4,17 +4,16 @@ title: CredWriteDomainCredentialsW function
 author: windows-sdk-content
 description: Writes domain credentials to the user's credential set.
 old-location: security\credwritedomaincredentials.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - CredWriteDomainCredentialsW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CredWriteDomainCredentialsW function

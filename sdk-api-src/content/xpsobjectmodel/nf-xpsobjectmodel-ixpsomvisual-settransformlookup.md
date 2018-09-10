@@ -4,17 +4,16 @@ title: IXpsOMVisual::SetTransformLookup
 author: windows-sdk-content
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 old-location: xps\ixpsomvisual_settransformlookup.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMVisual.SetTransformLookup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMVisual::SetTransformLookup

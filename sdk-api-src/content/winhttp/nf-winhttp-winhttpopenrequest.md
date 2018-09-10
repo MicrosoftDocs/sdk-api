@@ -4,17 +4,16 @@ title: WinHttpOpenRequest function
 author: windows-sdk-content
 description: The WinHttpOpenRequest function creates an HTTP request handle.
 old-location: http\winhttpopenrequest.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 9ecd035d-1abf-48ca-baf2-d9754f912c60
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WINHTTP_FLAG_BYPASS_PROXY_CACHE, WINHTTP_FLAG_ESCAPE_DISABLE, WINHTTP_FLAG_ESCAPE_DISABLE_QUERY, WINHTTP_FLAG_ESCAPE_PERCENT, WINHTTP_FLAG_NULL_CODEPAGE, WINHTTP_FLAG_REFRESH, WINHTTP_FLAG_SECURE, WinHttpOpenRequest, WinHttpOpenRequest function [WinHTTP], http.winhttpopenrequest, winhttp.winhttpopenrequest_function, winhttp/WinHttpOpenRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpOpenRequest
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ---
 
 # WinHttpOpenRequest function

@@ -4,17 +4,16 @@ title: IMemAllocator::GetBuffer
 author: windows-sdk-content
 description: The GetBuffer method retrieves a media sample that contains an empty buffer.
 old-location: dshow\imemallocator_getbuffer.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetBuffer method, IMemAllocator.GetBuffer, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMemAllocator.GetBuffer
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMemAllocator::GetBuffer

@@ -4,17 +4,16 @@ title: IPropertyDescription::GetEditInvitation
 author: windows-sdk-content
 description: Gets the text used in edit controls hosted in various dialog boxes.
 old-location: properties\IPropertyDescription_GetEditInvitation.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 4b7ce948-6501-4220-aa44-e7422e70d9e5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEditInvitation method, IPropertyDescription.GetEditInvitation, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetEditInvitation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetEditInvitation
@@ -62,7 +60,7 @@ Gets the text used in edit controls hosted in various dialog boxes.
 
 ### -param ppszInvite
 
-
+TBD
 
 
 

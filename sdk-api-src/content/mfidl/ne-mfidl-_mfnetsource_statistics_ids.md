@@ -4,7 +4,7 @@ title: "_MFNETSOURCE_STATISTICS_IDS"
 author: windows-sdk-content
 description: Defines statistics collected by the network source.
 old-location: mf\mfnetsource_statistics_ids.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4956e003-7f52-40af-8f6b-b1b73ba2a897
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNETSOURCE_STATISTICS_IDS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNETSOURCE_STATISTICS_IDS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNETSOURCE_STATISTICS_IDS
+req.redist: 
 ---
 
 # _MFNETSOURCE_STATISTICS_IDS enumeration

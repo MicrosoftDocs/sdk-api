@@ -4,7 +4,7 @@ title: "_D3D10_SHADER_DEBUG_SCOPETYPE"
 author: windows-sdk-content
 description: Scope types.
 old-location: direct3d10\d3d10_shader_debug_scopetype.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopetype.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_SHADER_DEBUG_SCOPETYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10_SHADER_DEBUG_SCOPETYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D10_SHADER_DEBUG_SCOPETYPE
+req.redist: 
 ---
 
 # _D3D10_SHADER_DEBUG_SCOPETYPE enumeration

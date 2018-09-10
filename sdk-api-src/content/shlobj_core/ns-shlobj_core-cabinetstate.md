@@ -4,7 +4,7 @@ title: CABINETSTATE
 author: windows-sdk-content
 description: CABINETSTATE may be altered or unavailable.
 old-location: shell\CABINETSTATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4b82b6a8-c4c0-4af2-9612-0551376c1c62
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CABINETSTATE, *LPCABINETSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CABINETSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: CABINETSTATE, *LPCABINETSTATE
+req.redist: 
 ---
 
 # CABINETSTATE structure

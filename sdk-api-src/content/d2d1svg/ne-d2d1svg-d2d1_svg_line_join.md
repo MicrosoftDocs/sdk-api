@@ -4,7 +4,7 @@ title: D2D1_SVG_LINE_JOIN
 author: windows-sdk-content
 description: Specifies a value for the SVG stroke-linejoin property.
 old-location: direct2d\d2d1_svg_line_join.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: C0D506E4-529D-41B1-AB1E-64E12526C7CD
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_LINE_JOIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_SVG_LINE_JOIN
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_SVG_LINE_JOIN
+req.redist: 
 ---
 
 # D2D1_SVG_LINE_JOIN enumeration

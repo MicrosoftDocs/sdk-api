@@ -4,17 +4,16 @@ title: IFsrmFileScreenManager::CreateFileScreenException
 author: windows-sdk-content
 description: Creates a file screen exception object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreenexception.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: b2a15f69-49fb-46fd-9219-aa970c9eb042
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateFileScreenException, CreateFileScreenException method [File Server Resource Manager], CreateFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager.CreateFileScreenException, IFsrmFileScreenManager::CreateFileScreenException, fs.ifsrmfilescreenmanager_createfilescreenexception, fsrm.ifsrmfilescreenmanager_createfilescreenexception, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenException
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FsrmFileScreenManager.CreateFileScreenException
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileScreenManager::CreateFileScreenException

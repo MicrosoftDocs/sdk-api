@@ -4,17 +4,16 @@ title: ICertificateAttestationChallenge::DecryptChallenge
 author: windows-sdk-content
 description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.
 old-location: security\icertificateattestationchallenge_decryptchallenge.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateAttestationChallenge.DecryptChallenge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateAttestationChallenge::DecryptChallenge

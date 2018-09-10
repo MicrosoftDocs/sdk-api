@@ -4,7 +4,7 @@ title: D3D11_GEOMETRY_SHADER_TRACE_DESC
 author: windows-sdk-content
 description: Describes an instance of a geometry shader to trace.
 old-location: direct3d11\d3d11_geometry_shader_trace_desc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 1E7E5BA5-C0CE-49ED-8AD3-A13300D867E0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_GEOMETRY_SHADER_TRACE_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_GEOMETRY_SHADER_TRACE_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_GEOMETRY_SHADER_TRACE_DESC
+req.redist: 
 ---
 
 # D3D11_GEOMETRY_SHADER_TRACE_DESC structure

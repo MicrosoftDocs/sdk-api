@@ -4,7 +4,7 @@ title: IMDSPDirectTransfer
 author: windows-sdk-content
 description: The IMDSPDirectTransfer interface enables Windows Media Device Manager to delegate content transfer to the service provider.
 old-location: wmdm\imdspdirecttransfer.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: b053158c-9a1e-4da4-a428-7edceeaaee1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPDirectTransfer
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDirectTransfer interface

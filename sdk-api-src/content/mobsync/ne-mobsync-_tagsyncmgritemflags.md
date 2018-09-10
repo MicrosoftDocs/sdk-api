@@ -4,7 +4,7 @@ title: "_tagSYNCMGRITEMFLAGS"
 author: windows-sdk-content
 description: Specifies information for the current item in the SYNCMGRITEM structure.
 old-location: shell\syncmgr_syncmgritemflags.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6297f10b-9a2c-4077-9dca-e5c0850d125a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGRITEMFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGRITEMFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SYNCMGRITEMFLAGS
+req.redist: 
 ---
 
 # _tagSYNCMGRITEMFLAGS enumeration

@@ -4,17 +4,16 @@ title: CancelNtmsLibraryRequest function
 author: windows-sdk-content
 description: The CancelNtmsLibraryRequest function cancels outstanding RSM requests, such as calls to the CleanNtmsDrive function. If the library is busy, RSM queues the cancellation and returns success.
 old-location: fs\cancelntmslibraryrequest.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 99626e6f-2716-4e36-b4ec-3fef0315ea41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CancelNtmsLibraryRequest
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CancelNtmsLibraryRequest function

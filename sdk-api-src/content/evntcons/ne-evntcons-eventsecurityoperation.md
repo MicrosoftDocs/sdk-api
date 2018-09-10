@@ -4,7 +4,7 @@ title: EVENTSECURITYOPERATION
 author: windows-sdk-content
 description: Defines what component of the security descriptor that the EventAccessControl function modifies.
 old-location: etw\eventsecurityoperation.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 81f6cf07-2705-4075-b085-d5aebba17121
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evntcons.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Eventtoken.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENTSECURITYOPERATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENTSECURITYOPERATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENTSECURITYOPERATION
+req.redist: 
 ---
 
 # EVENTSECURITYOPERATION enumeration

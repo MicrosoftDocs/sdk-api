@@ -4,17 +4,16 @@ title: ISearchLanguageSupport::IsPrefixNormalized
 author: windows-sdk-content
 description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
 old-location: search\_search_ISearchLanguageSupport_IsPrefixNormalized.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isprefixnormalized.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ISearchLanguageSupport interface [search],IsPrefixNormalized method, ISearchLanguageSupport.IsPrefixNormalized, ISearchLanguageSupport::IsPrefixNormalized, IsPrefixNormalized, IsPrefixNormalized method [search], IsPrefixNormalized method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_IsPrefixNormalized, search._search_ISearchLanguageSupport_IsPrefixNormalized, searchapi/ISearchLanguageSupport::IsPrefixNormalized
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchLanguageSupport.IsPrefixNormalized
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # ISearchLanguageSupport::IsPrefixNormalized

@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxServer.GetDevices
 title: IFaxServer::GetDevices
 author: windows-sdk-content
-description: The GetDevices method creates a FaxDevices object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
-old-location: fax\_mfax_faxserver_getdevices.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_7hrn.htm
+description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+old-location: fax\_mfax_faxserver_getdevices_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinto_z_7hrn_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxServer object [Fax Service],GetDevices method, FaxServer.GetDevices, GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],FaxServer object, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices, fax._mfax_faxserver_getdevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDevices method, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices_cpp, fax._mfax_faxserver_getdevices_cpp, faxcomex/IFaxServer::GetDevices
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxServer.GetDevices
  - IFaxServer.GetDevices
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxServer::GetDevices
@@ -53,7 +50,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+The <b>IFaxServer::GetDevices</b> method creates a <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 
 
 ## -parameters
@@ -61,20 +58,20 @@ The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/f0464
 
 
 
-### -param ppFaxDevices
+### -param ppFaxDevices [out, retval]
 
+Type: <b><a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a>**</b>
 
-
-
+An address of a pointer that receives a <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a>**</b>
+Type: <b>HRESULT</b>
 
-A <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> object.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -83,7 +80,7 @@ A <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxD
 
 
 
-You can use the <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> object to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a> objects for them.
+You can use the <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a> interfaces for them.
 
 To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 

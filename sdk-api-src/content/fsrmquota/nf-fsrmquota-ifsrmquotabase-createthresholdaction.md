@@ -4,17 +4,16 @@ title: IFsrmQuotaBase::CreateThresholdAction
 author: windows-sdk-content
 description: Creates an action and associates it with the specified threshold.
 old-location: fsrm\ifsrmquotabase_createthresholdaction.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 27813041-ee42-4412-982e-fce594c5e648
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmQuotaBase.CreateThresholdAction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmQuotaBase::CreateThresholdAction

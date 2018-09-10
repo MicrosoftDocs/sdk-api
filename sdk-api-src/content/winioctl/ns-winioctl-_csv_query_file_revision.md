@@ -4,7 +4,7 @@ title: "_CSV_QUERY_FILE_REVISION"
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been modified.
 old-location: fs\csv_query_file_revision.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8CF62F9F-9429-435A-B79D-3A97249356A5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CSV_QUERY_FILE_REVISION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
+req.redist: 
 ---
 
 # _CSV_QUERY_FILE_REVISION structure

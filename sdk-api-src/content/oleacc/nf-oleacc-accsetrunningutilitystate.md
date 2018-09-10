@@ -4,17 +4,16 @@ title: AccSetRunningUtilityState function
 author: windows-sdk-content
 description: Sets system values that indicate whether an assistive technology (AT) application's current state affects functionality that is typically provided by the system.
 old-location: winauto\accsetrunningutilitystate.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0AEDDE0D-D8E2-4C9E-AB2B-2FF0ACC3695D
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ANRUS_ON_SCREEN_KEYBOARD_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE, ANRUS_PRIORITY_AUDIO_ACTIVE_NODUCK, ANRUS_TOUCH_MODIFICATION_ACTIVE, AccSetRunningUtilityState, AccSetRunningUtilityState function [Windows Accessibility], oleacc/AccSetRunningUtilityState, winauto.accsetrunningutilitystate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AccSetRunningUtilityState
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # AccSetRunningUtilityState function

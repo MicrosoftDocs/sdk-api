@@ -4,7 +4,7 @@ title: "_BP_PAINTPARAMS"
 author: windows-sdk-content
 description: Defines paint operation parameters for BeginBufferedPaint.
 old-location: controls\BP_PAINTPARAMS.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_PAINTPARAMS, *PBP_PAINTPARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BP_PAINTPARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: BP_PAINTPARAMS, *PBP_PAINTPARAMS
+req.redist: 
 ---
 
 # _BP_PAINTPARAMS structure

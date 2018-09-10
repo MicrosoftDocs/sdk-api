@@ -4,17 +4,16 @@ title: IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator
 author: windows-sdk-content
 description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR-9 to use a custom allocator-presenter.
 old-location: dshow\ivmrsurfaceallocatornotify9_advisesurfaceallocator.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 99f9c549-e4b1-480b-97a4-7a29c9cdb649
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator, vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator

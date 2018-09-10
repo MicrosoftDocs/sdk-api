@@ -4,7 +4,7 @@ title: "_MINIDUMP_SECONDARY_FLAGS"
 author: windows-sdk-content
 description: Specifies the secondary flags for the minidump.
 old-location: base\minidump_secondary_flags.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c8485db1-0cc0-4baa-90fb-b5c1f9236b80
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll 6.6 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_SECONDARY_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_SECONDARY_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_SECONDARY_FLAGS
+req.redist: DbgHelp.dll 6.6 or later
 ---
 
 # _MINIDUMP_SECONDARY_FLAGS enumeration

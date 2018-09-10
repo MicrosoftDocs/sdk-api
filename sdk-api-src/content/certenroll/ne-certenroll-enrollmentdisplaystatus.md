@@ -4,7 +4,7 @@ title: EnrollmentDisplayStatus
 author: windows-sdk-content
 description: Specifies whether to display enrollment status information in a user interface.
 old-location: security\enrollmentdisplaystatus_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: bd5019de-1a72-42a6-9ade-74a9252a19eb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EnrollmentDisplayStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EnrollmentDisplayStatus
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: EnrollmentDisplayStatus
+req.redist: 
 ---
 
 # EnrollmentDisplayStatus enumeration

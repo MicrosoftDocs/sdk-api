@@ -4,17 +4,16 @@ title: MFGetUncompressedVideoFormat function
 author: windows-sdk-content
 description: Returns the FOURCC or D3DFORMAT value for an uncompressed video format.
 old-location: mf\mfgetuncompressedvideoformat.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFGetUncompressedVideoFormat
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFGetUncompressedVideoFormat function

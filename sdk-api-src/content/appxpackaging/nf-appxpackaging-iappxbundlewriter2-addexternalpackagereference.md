@@ -4,17 +4,16 @@ title: IAppxBundleWriter2::AddExternalPackageReference
 author: windows-sdk-content
 description: Adds a reference to an external package to the package bundle.
 old-location: appxpkg\iappxbundlewriter2_addexternalpackagereference.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxBundleWriter2 interface, IAppxBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBundleWriter2.AddExternalPackageReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBundleWriter2::AddExternalPackageReference

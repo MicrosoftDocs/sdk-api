@@ -4,17 +4,16 @@ title: SetupDiGetDevicePropertyKeys function
 author: windows-sdk-content
 description: The SetupDiGetDevicePropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
 old-location: devinst\setupdigetdevicepropertykeys.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: d4decdab-e412-4719-ad65-74f34cf8df27
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property_Keys
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetupDiGetDevicePropertyKeys
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiGetDevicePropertyKeys function

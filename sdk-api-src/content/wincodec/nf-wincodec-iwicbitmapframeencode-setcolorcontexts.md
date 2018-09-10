@@ -4,17 +4,16 @@ title: IWICBitmapFrameEncode::SetColorContexts
 author: windows-sdk-content
 description: Sets a given number IWICColorContext profiles to the frame.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setcolorcontexts.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICBitmapFrameEncode.SetColorContexts
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapFrameEncode::SetColorContexts

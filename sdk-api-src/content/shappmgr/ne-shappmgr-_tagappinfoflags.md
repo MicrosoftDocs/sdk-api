@@ -4,7 +4,7 @@ title: "_tagAppInfoFlags"
 author: windows-sdk-content
 description: Specifies application information to return from IShellApp::GetAppInfo. These flags are bitmasks used in the dwMask member of the APPINFODATA structure.
 old-location: shell\APPINFODATAFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 80cbc46f-9918-4cca-b41b-1b6caa9c26df
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPINFODATAFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - APPINFODATAFLAGS
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: APPINFODATAFLAGS
+req.redist: 
 ---
 
 # _tagAppInfoFlags enumeration

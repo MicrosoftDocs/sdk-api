@@ -4,7 +4,7 @@ title: "_SECPKG_WOW_CLIENT_DLL"
 author: windows-sdk-content
 description: Contains the path to the WOW-aware 32-bit DLL.
 old-location: security\secpkg_wow_client_dll.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: AA48B271-E63F-4742-9776-6C85ED3A2BAB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_WOW_CLIENT_DLL, *PSECPKG_WOW_CLIENT_DLL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_WOW_CLIENT_DLL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_WOW_CLIENT_DLL, *PSECPKG_WOW_CLIENT_DLL
+req.redist: 
 ---
 
 # _SECPKG_WOW_CLIENT_DLL structure

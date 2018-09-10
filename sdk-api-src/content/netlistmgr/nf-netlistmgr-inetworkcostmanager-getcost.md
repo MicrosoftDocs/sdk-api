@@ -4,17 +4,16 @@ title: INetworkCostManager::GetCost
 author: windows-sdk-content
 description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getcost.htm
-old-project: nla
+tech.root: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_NETWORK_PROPERTY_CHANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetworkCostManager.GetCost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetworkCostManager::GetCost
@@ -67,7 +65,7 @@ A DWORD value that indicates the cost of the connection. The lowest 16 bits repr
 
 ### -param pDestIPAddr
 
-
+TBD
 
 
 

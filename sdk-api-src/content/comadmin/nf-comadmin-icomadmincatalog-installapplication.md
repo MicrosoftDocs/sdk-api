@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::InstallApplication
 author: windows-sdk-content
 description: Installs a COM+ application or application proxy from the specified file.
 old-location: cos\icomadmincatalog_installapplication.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 668f73e1-7238-42f5-b68c-a0b0c2595d18
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFiles, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog interface [COM+],InstallApplication method, ICOMAdminCatalog.InstallApplication, ICOMAdminCatalog::InstallApplication, InstallApplication, InstallApplication method [COM+], InstallApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallApplication, comadmin/ICOMAdminCatalog::InstallApplication, cos.icomadmincatalog_installapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.InstallApplication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::InstallApplication

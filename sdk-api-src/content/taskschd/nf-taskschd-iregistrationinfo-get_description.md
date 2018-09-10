@@ -4,17 +4,16 @@ title: IRegistrationInfo::get_Description
 author: windows-sdk-content
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Description property, IRegistrationInfo.Description, IRegistrationInfo.get_Description, IRegistrationInfo::Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, get_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IRegistrationInfo.put_Description
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegistrationInfo::get_Description

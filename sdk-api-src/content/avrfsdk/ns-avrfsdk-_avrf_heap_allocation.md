@@ -4,7 +4,7 @@ title: "_AVRF_HEAP_ALLOCATION"
 author: windows-sdk-content
 description: Stores metadata information about heap allocation.
 old-location: winprog\avrf_heap_allocation.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVRF_HEAP_ALLOCATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
+req.redist: 
 ---
 
 # _AVRF_HEAP_ALLOCATION structure

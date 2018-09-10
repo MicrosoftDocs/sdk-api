@@ -4,17 +4,16 @@ title: ClusterNetworkCloseEnum function
 author: windows-sdk-content
 description: Closes a network enumeration handle.
 old-location: mscs\clusternetworkcloseenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 725164c5-dc6d-42f4-a703-06336711e72e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterNetworkCloseEnum, ClusterNetworkCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM function [Failover Cluster], _wolf_clusternetworkcloseenum, clusapi/ClusterNetworkCloseEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, mscs.clusternetworkcloseenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ClusterNetworkCloseEnum
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterNetworkCloseEnum function

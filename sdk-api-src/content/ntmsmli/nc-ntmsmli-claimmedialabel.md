@@ -4,7 +4,7 @@ title: CLAIMMEDIALABEL
 author: windows-sdk-content
 description: The ClaimMediaLabel callback function determines whether a specified media label was created by the media's associated application.
 old-location: fs\claimmedialabel.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: ac957769-0513-436b-94f0-e3894f7a703b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_STORAGESLOTINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ClaimMediaLabel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CLAIMMEDIALABEL callback function

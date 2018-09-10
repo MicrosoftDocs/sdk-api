@@ -4,17 +4,16 @@ title: ITCallHub::get_State
 author: windows-sdk-content
 description: The get_State method gets the current state of the CallHub.
 old-location: tapi3\itcallhub_get_state.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_State method, ITCallHub.get_State, ITCallHub::get_State, _tapi3_itcallhub_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_state, tapi3if/ITCallHub::get_State
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallHub.get_State
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallHub::get_State

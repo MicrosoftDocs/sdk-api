@@ -4,17 +4,16 @@ title: BuildTrusteeWithSidA function
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 old-location: security\buildtrusteewithsid.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - BuildTrusteeWithSidW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BuildTrusteeWithSidA function

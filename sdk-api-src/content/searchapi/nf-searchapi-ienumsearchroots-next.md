@@ -4,17 +4,16 @@ title: IEnumSearchRoots::Next
 author: windows-sdk-content
 description: Retrieves the specified number of ISearchRoot elements.
 old-location: search\_search_IEnumSearchRoots_Next.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROWSETEVENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSearchRoots.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IEnumSearchRoots::Next

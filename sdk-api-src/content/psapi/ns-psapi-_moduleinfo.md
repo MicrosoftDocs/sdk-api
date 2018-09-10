@@ -4,7 +4,7 @@ title: "_MODULEINFO"
 author: windows-sdk-content
 description: Contains the module load address, size, and entry point.
 old-location: psapi\moduleinfo_str.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: 583caafe-7fa3-4041-b5bc-4e8899b3a08a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODULEINFO, *LPMODULEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MODULEINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: MODULEINFO, *LPMODULEINFO
+req.redist: 
 ---
 
 # _MODULEINFO structure

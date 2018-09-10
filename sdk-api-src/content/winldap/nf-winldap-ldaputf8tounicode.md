@@ -4,17 +4,16 @@ title: LdapUTF8ToUnicode function
 author: windows-sdk-content
 description: Used to translate strings for modules that do not have the UTF-8 code page.
 old-location: ldap\ldaputf8tounicode.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 4c36ce90-8cc6-4dee-b990-5d283613ba11
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LdapUTF8ToUnicode, LdapUTF8ToUnicode function [LDAP], _ldap_ldaputf8tounicode, ldap.ldaputf8tounicode, winldap/LdapUTF8ToUnicode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LdapUTF8ToUnicode
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LdapUTF8ToUnicode function

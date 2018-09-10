@@ -4,17 +4,16 @@ title: BatteryClassStatusNotify function
 author: windows-sdk-content
 description: BatteryClassStatusNotify notifies the battery class driver of changes in battery status.
 old-location: battery\batteryclassstatusnotify.htm
-old-project: battery
+tech.root: battery
 ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Battc.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BatteryClassStatusNotify
 product: Windows
 targetos: Windows
-req.lib: Battc.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BatteryClassStatusNotify function

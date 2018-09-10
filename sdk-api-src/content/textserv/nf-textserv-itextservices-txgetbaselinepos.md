@@ -4,17 +4,16 @@ title: ITextServices::TxGetBaseLinePos
 author: windows-sdk-content
 description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
 old-location: controls\ITextServices_TxGetBaseLinePos.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbaselinepos.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetBaseLinePos method, ITextServices.TxGetBaseLinePos, ITextServices::TxGetBaseLinePos, TxGetBaseLinePos, TxGetBaseLinePos method [Windows Controls], TxGetBaseLinePos method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetBaseLinePos, _win32_ITextServices_TxGetBaseLinePos_cpp, controls.ITextServices_TxGetBaseLinePos, controls._win32_ITextServices_TxGetBaseLinePos, textserv/ITextServices::TxGetBaseLinePos
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextServices.TxGetBaseLinePos
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextServices::TxGetBaseLinePos

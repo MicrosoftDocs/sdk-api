@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0008_0001"
 author: windows-sdk-content
 description: Defines potential effects on a storyboard if a priority comparison returns false.
 old-location: uianimation\ui_animation_priority_effect.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 2da8fa3b-0947-46cb-bdb1-725da08b9aaa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_PRIORITY_EFFECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_PRIORITY_EFFECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_PRIORITY_EFFECT
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0008_0001 enumeration

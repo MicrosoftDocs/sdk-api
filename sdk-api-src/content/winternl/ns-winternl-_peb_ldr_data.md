@@ -4,7 +4,7 @@ title: "_PEB_LDR_DATA"
 author: windows-sdk-content
 description: Contains information about the loaded modules for the process.
 old-location: base\peb_ldr_data.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEB_LDR_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
+req.redist: 
 ---
 
 # _PEB_LDR_DATA structure

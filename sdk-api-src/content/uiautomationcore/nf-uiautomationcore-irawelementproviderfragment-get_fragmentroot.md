@@ -4,17 +4,16 @@ title: IRawElementProviderFragment::get_FragmentRoot
 author: windows-sdk-content
 description: Specifies the root node of the fragment.
 old-location: winauto\uiauto_IRawElementProviderFragment_FragmentRoot.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FragmentRoot property [Windows Accessibility], FragmentRoot property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],FragmentRoot property, IRawElementProviderFragment.FragmentRoot, IRawElementProviderFragment.get_FragmentRoot, IRawElementProviderFragment::FragmentRoot, IRawElementProviderFragment::get_FragmentRoot, get_FragmentRoot, uiauto.uiauto_IRawElementProviderFragment_FragmentRoot, uiauto_IRawElementProviderFragment_FragmentRoot, uiautomationcore/IRawElementProviderFragment::FragmentRoot, uiautomationcore/IRawElementProviderFragment::get_FragmentRoot, winauto.uiauto_IRawElementProviderFragment_FragmentRoot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRawElementProviderFragment.get_FragmentRoot
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderFragment::get_FragmentRoot

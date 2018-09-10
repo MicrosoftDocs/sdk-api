@@ -4,17 +4,16 @@ title: IPortableDeviceResources::GetSupportedResources
 author: windows-sdk-content
 description: The GetSupportedResources method retrieves a list of resources that are supported by a specific object.
 old-location: wpdsdk\iportabledeviceresources_getsupportedresources.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 415c3256-1385-48d7-999a-91dc3ad795f8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSupportedResources, GetSupportedResources method [Windows Portable Devices SDK], GetSupportedResources method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetSupportedResources method, IPortableDeviceResources.GetSupportedResources, IPortableDeviceResources::GetSupportedResources, IPortableDeviceResourcesGetSupportedResources, portabledeviceapi/IPortableDeviceResources::GetSupportedResources, wpdsdk.iportabledeviceresources_getsupportedresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceResources.GetSupportedResources
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceResources::GetSupportedResources

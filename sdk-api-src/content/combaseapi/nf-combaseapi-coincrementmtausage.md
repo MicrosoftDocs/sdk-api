@@ -4,17 +4,16 @@ title: CoIncrementMTAUsage function
 author: windows-sdk-content
 description: Keeps MTA support active when no MTA threads are running.
 old-location: com\coincrementmtausage.htm
-old-project: com
+tech.root: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - CoIncrementMTAUsage
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoIncrementMTAUsage function

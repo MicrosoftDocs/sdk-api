@@ -4,17 +4,16 @@ title: IVdsSubSystemInterconnect::GetSupportedInterconnects
 author: windows-sdk-content
 description: Returns the interconnect types that the subsystem supports.
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 5e8e69b4-023d-49f7-a363-bae1ae9536ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSupportedInterconnects, GetSupportedInterconnects method, GetSupportedInterconnects method,IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,GetSupportedInterconnects method, IVdsSubSystemInterconnect.GetSupportedInterconnects, IVdsSubSystemInterconnect::GetSupportedInterconnects, base.ivdssubsysteminterconnect_getsupportedinterconnects, vds/IVdsSubSystemInterconnect::GetSupportedInterconnects, vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystemInterconnect.GetSupportedInterconnects
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsSubSystemInterconnect::GetSupportedInterconnects

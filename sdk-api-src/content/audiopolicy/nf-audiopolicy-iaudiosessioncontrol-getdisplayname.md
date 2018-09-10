@@ -4,17 +4,16 @@ title: IAudioSessionControl::GetDisplayName
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getdisplayname.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Core Audio], GetDisplayName method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetDisplayName method, IAudioSessionControl.GetDisplayName, IAudioSessionControl::GetDisplayName, IAudioSessionControlGetDisplayName, audiopolicy/IAudioSessionControl::GetDisplayName, coreaudio.iaudiosessioncontrol_getdisplayname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl.GetDisplayName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl::GetDisplayName

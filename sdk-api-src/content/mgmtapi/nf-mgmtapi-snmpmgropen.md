@@ -4,17 +4,16 @@ title: SnmpMgrOpen function
 author: windows-sdk-content
 description: The SnmpMgrOpen function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgropen.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: e2827352-f1aa-477e-933c-942c73cea487
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpMgrOpen, SnmpMgrOpen function [SNMP], _snmp_snmpmgropen, mgmtapi/SnmpMgrOpen, snmp.snmpmgropen
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpMgrOpen
 product: Windows
 targetos: Windows
-req.lib: Mgmtapi.lib
-req.dll: Mgmtapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpMgrOpen function

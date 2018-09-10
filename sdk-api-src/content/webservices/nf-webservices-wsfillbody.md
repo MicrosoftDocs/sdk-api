@@ -4,17 +4,16 @@ title: WsFillBody function
 author: windows-sdk-content
 description: Ensures that there are a sufficient number of bytes available in a message for reading.
 old-location: wsw\wsfillbody.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: fe70338d-d2bf-4126-96b2-30ef6ebfa74d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsFillBody
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsFillBody function

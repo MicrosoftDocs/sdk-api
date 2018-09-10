@@ -4,17 +4,16 @@ title: IServicePool::GetObject
 author: windows-sdk-content
 description: Retrieves an object from the object pool.
 old-location: cos\iservicepool_getobject.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional with SP4, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IServicePool.GetObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IServicePool::GetObject

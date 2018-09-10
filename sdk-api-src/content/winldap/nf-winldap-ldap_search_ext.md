@@ -4,17 +4,16 @@ title: ldap_search_ext function
 author: windows-sdk-content
 description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_ext.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 25ba88f3-44f6-42b8-9d33-6e57f2484738
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_ext, ldap.ldap__search__ext, ldap.ldap_search_ext, ldap_search_ext, ldap_search_ext function [LDAP], ldap_search_extA, ldap_search_extW, winldap/ldap_search_ext, winldap/ldap_search_extA, winldap/ldap_search_extW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ldap_search_extW
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_search_ext function

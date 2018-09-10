@@ -4,7 +4,7 @@ title: "_DLLVERSIONINFO"
 author: windows-sdk-content
 description: Receives DLL-specific version information.
 old-location: shell\DLLVERSIONINFO_0rjh.htm
-old-project: shell
+tech.root: shell
 ms.assetid: bc6d856c-027f-43df-9bbc-a76f560dddb0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DLLVERSIONINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DLLVERSIONINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: DLLVERSIONINFO
+req.redist: 
 ---
 
 # _DLLVERSIONINFO structure

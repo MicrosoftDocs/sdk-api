@@ -4,17 +4,16 @@ title: IInstallationBehavior::get_CanRequestUserInput
 author: windows-sdk-content
 description: Gets a Boolean value thast indicates whether the installation or uninstallation of an update can prompt for user input.
 old-location: wua\iinstallationbehavior_canrequestuserinput.htm
-old-project: wua_sdk
+tech.root: wua_sdk
 ms.assetid: 083fad34-e2e7-4f33-8eb2-01dba00fd985
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CanRequestUserInput property [Windows Update Agent], CanRequestUserInput property [Windows Update Agent],IInstallationBehavior interface, IInstallationBehavior interface [Windows Update Agent],CanRequestUserInput property, IInstallationBehavior.CanRequestUserInput, IInstallationBehavior.get_CanRequestUserInput, IInstallationBehavior::CanRequestUserInput, IInstallationBehavior::get_CanRequestUserInput, get_CanRequestUserInput, wua.iinstallationbehavior_canrequestuserinput, wuapi/IInstallationBehavior::CanRequestUserInput, wuapi/IInstallationBehavior::get_CanRequestUserInput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003, Windows 2000 Server with SP3 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateType
+req.lib: Wuguid.lib
+req.dll: Wuapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInstallationBehavior.get_CanRequestUserInput
 product: Windows
 targetos: Windows
-req.lib: Wuguid.lib
-req.dll: Wuapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IInstallationBehavior::get_CanRequestUserInput

@@ -4,17 +4,16 @@ title: IsValidNLSVersion function
 author: windows-sdk-content
 description: Determines if the NLS version is valid for a given NLS function.
 old-location: intl\isvalidnlsversion.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 29556DB4-E569-4161-9E47-149E4C12DD3B
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IsValidNLSVersion, IsValidNLSVersion function [Internationalization for Windows Applications], intl.isvalidnlsversion, winnls/IsValidNLSVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - IsValidNLSVersion
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IsValidNLSVersion function

@@ -4,17 +4,16 @@ title: IXDSCodec::GetXDSPacket
 author: windows-sdk-content
 description: The GetXDSPacket method retrieves the most recent XDS packet.
 old-location: mstv\ixdscodec_getxdspacket.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXDSCodec.GetXDSPacket
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IXDSCodec::GetXDSPacket

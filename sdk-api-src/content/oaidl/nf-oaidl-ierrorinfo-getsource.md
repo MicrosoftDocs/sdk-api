@@ -4,17 +4,16 @@ title: IErrorInfo::GetSource
 author: windows-sdk-content
 description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
 old-location: automat\ierrorinfo_getsource.htm
-old-project: automat
+tech.root: automat
 ms.assetid: b7bbf4ac-7c02-4abe-83fb-bc9fcd52129e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSource, GetSource method [Automation], GetSource method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetSource method, IErrorInfo.GetSource, IErrorInfo::GetSource, _oa96_IErrorInfo_GetSource, automat.ierrorinfo_getsource, oaidl/IErrorInfo::GetSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IErrorInfo.GetSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IErrorInfo::GetSource

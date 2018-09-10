@@ -4,17 +4,16 @@ title: RpcEpRegisterW function
 author: windows-sdk-content
 description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
 old-location: rpc\rpcepregister.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcEpRegisterW
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcEpRegisterW function
@@ -192,7 +190,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 <ul>
 <li>Interface 
-<a href="https://msdn.microsoft.com/">UUID</a>
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>
 </li>
 <li>Interface version (major and minor)</li>
 <li>Binding handle</li>

@@ -4,7 +4,7 @@ title: IPlayToManagerInterop
 author: windows-sdk-content
 description: Enables access to PlayToManager methods in a Windows Store app that manages multiple windows.
 old-location: winrt\iplaytomanagerinterop.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: e7a8df61-e5ae-4eff-a4eb-e0a5cdae3b7f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: playtomanagerinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPlayToManagerInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPlayToManagerInterop interface

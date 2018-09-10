@@ -4,17 +4,16 @@ title: IPenInputPanel::MoveTo
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets the position of the PenInputPanel object to a static screen position.
 old-location: tablet\peninputpanel_moveto.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d99e5ef8-fa91-4507-bfe5-f30a039ca72d
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IPenInputPanel interface [Tablet PC],MoveTo method, IPenInputPanel.MoveTo, IPenInputPanel::MoveTo, MoveTo, MoveTo method [Tablet PC], MoveTo method [Tablet PC],IPenInputPanel interface, d99e5ef8-fa91-4507-bfe5-f30a039ca72d, peninputpanel/IPenInputPanel::MoveTo, tablet.peninputpanel_moveto
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPenInputPanel.MoveTo
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPenInputPanel::MoveTo

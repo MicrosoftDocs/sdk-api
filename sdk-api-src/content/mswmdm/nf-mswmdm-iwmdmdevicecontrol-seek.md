@@ -4,17 +4,16 @@ title: IWMDMDeviceControl::Seek
 author: windows-sdk-content
 description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
 old-location: wmdm\iwmdmdevicecontrol_seek.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDeviceControl.Seek
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDeviceControl::Seek

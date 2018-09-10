@@ -4,17 +4,16 @@ title: HttpFlushResponseCache function
 author: windows-sdk-content
 description: Removes from the HTTP Server API cache associated with a given request queue all response fragments that have a name whose site portion matches a specified UrlPrefix.
 old-location: http\httpflushresponsecache.htm
-old-project: http
+tech.root: http
 ms.assetid: 5b7377cf-b4a9-45c7-8456-72a52c3778a0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _http_httpflushresponsecache, http.httpflushresponsecache, http/HttpFlushResponseCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_VERB, *PHTTP_VERB
+req.lib: Httpapi.lib
+req.dll: Httpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HttpFlushResponseCache
 product: Windows
 targetos: Windows
-req.lib: Httpapi.lib
-req.dll: Httpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # HttpFlushResponseCache function

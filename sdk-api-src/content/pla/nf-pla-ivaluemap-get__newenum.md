@@ -4,17 +4,16 @@ title: IValueMap::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ivaluemap__newenum.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 1d40104c-c0a4-41d2-8427-364c37b52e02
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IValueMap interface [PLA],_NewEnum property, IValueMap._NewEnum, IValueMap.get__NewEnum, IValueMap::_NewEnum, IValueMap::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IValueMap interface, get__NewEnum, pla.ivaluemap__newenum, pla/IValueMap::_NewEnum, pla/IValueMap::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IValueMap.get__NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::get__NewEnum

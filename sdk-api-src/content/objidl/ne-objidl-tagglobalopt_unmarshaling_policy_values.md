@@ -4,7 +4,7 @@ title: tagGLOBALOPT_UNMARSHALING_POLICY_VALUES
 author: windows-sdk-content
 description: Provides values for the COM unmarshaling policy global option.
 old-location: com\globalopt_unmarshaling_policy_values.htm
-old-project: com
+tech.root: com
 ms.assetid: 7F557290-7162-4B32-880B-9A445A083F91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GLOBALOPT_UNMARSHALING_POLICY_VALUES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: GLOBALOPT_UNMARSHALING_POLICY_VALUES
+req.redist: 
 ---
 
 # tagGLOBALOPT_UNMARSHALING_POLICY_VALUES enumeration

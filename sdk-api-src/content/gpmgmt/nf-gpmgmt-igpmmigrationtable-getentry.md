@@ -4,17 +4,16 @@ title: IGPMMigrationTable::GetEntry
 author: windows-sdk-content
 description: The GetEntry method gets the entry in the migration table for a specified source field.
 old-location: gpmc\igpmmigrationtable_getentry.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 3d6985ab-dbea-446c-9666-5fa19b97b40c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntry method, GetEntry, GetEntry method [GPMC], GetEntry method [GPMC],GPMMigrationTable class, GetEntry method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntry method, IGPMMigrationTable.GetEntry, IGPMMigrationTable::GetEntry, gpmc.igpmmigrationtable_getentry, gpmgmt/IGPMMigrationTable::GetEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMMigrationTable.GetEntry
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMMigrationTable::GetEntry

@@ -4,7 +4,7 @@ title: InternetCookieState
 author: windows-sdk-content
 description: The InternetCookieState enumeration defines the state of the cookie.
 old-location: wininet\internetcookiestate.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 3f43f492-3133-4cbd-9ab9-3c9600ef5263
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InternetCookieState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: InternetCookieState
+req.redist: 
 ---
 
 # InternetCookieState enumeration

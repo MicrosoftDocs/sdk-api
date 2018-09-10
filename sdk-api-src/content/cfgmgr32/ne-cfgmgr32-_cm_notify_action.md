@@ -4,7 +4,7 @@ title: "_CM_NOTIFY_ACTION"
 author: windows-sdk-content
 description: This enumeration identifies Plug and Play device event types.
 old-location: devinst\cm_notify_action.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 587AF979-8BA2-45A3-90C2-7E0EBB2390EC
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfgmgr32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_NOTIFY_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.redist: 
 ---
 
 # _CM_NOTIFY_ACTION enumeration

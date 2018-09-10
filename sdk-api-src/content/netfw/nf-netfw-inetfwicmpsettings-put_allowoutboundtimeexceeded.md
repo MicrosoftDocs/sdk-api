@@ -4,17 +4,16 @@ title: INetFwIcmpSettings::put_AllowOutboundTimeExceeded
 author: windows-sdk-content
 description: Indicates whether exceeding the outbound time is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundtimeexceeded.htm
-old-project: ics
+tech.root: ics
 ms.assetid: b0a78d16-ce10-4978-bd66-e4841a4c52b6
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AllowOutboundTimeExceeded property [ICS/ICF], AllowOutboundTimeExceeded property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundTimeExceeded property, INetFwIcmpSettings.AllowOutboundTimeExceeded, INetFwIcmpSettings.put_AllowOutboundTimeExceeded, INetFwIcmpSettings::AllowOutboundTimeExceeded, INetFwIcmpSettings::get_AllowOutboundTimeExceeded, INetFwIcmpSettings::put_AllowOutboundTimeExceeded, ics.inetfwicmpsettings_allowoutboundtimeexceeded, netfw/INetFwIcmpSettings::AllowOutboundTimeExceeded, netfw/INetFwIcmpSettings::get_AllowOutboundTimeExceeded, netfw/INetFwIcmpSettings::put_AllowOutboundTimeExceeded, put_AllowOutboundTimeExceeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - INetFwIcmpSettings.put_AllowOutboundTimeExceeded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwIcmpSettings::put_AllowOutboundTimeExceeded

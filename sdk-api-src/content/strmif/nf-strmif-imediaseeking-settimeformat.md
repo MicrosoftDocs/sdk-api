@@ -4,17 +4,16 @@ title: IMediaSeeking::SetTimeFormat
 author: windows-sdk-content
 description: The SetTimeFormat method sets the time format for subsequent seek operations.
 old-location: dshow\imediaseeking_settimeformat.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b6f64f8a-67b8-4297-8f0d-389001fa1681
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetTimeFormat method, IMediaSeeking.SetTimeFormat, IMediaSeeking::SetTimeFormat, IMediaSeekingSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_settimeformat, strmif/IMediaSeeking::SetTimeFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaSeeking.SetTimeFormat
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaSeeking::SetTimeFormat

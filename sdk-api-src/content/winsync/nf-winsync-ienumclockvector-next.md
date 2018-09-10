@@ -4,17 +4,16 @@ title: IEnumClockVector::Next
 author: windows-sdk-content
 description: Returns the next elements in the clock vector, if they are available.
 old-location: winsync\ienumclockvector_next.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 40aa741a-b536-4a8b-9f97-b7b599e49aef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Next method, IEnumClockVector.Next, IEnumClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_next, winsync/IEnumClockVector::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumClockVector.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumClockVector::Next

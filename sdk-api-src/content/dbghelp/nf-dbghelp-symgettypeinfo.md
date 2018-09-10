@@ -4,17 +4,16 @@ title: SymGetTypeInfo function
 author: windows-sdk-content
 description: Retrieves type information for the specified type index.
 old-location: base\symgettypeinfo.htm
-old-project: debug
+tech.root: debug
 ms.assetid: bc94a5b1-d49d-425a-89a8-c584c3979930
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymGetTypeInfo, SymGetTypeInfo function, _win32_symgettypeinfo, base.symgettypeinfo, dbghelp/SymGetTypeInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SymGetTypeInfo
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # SymGetTypeInfo function

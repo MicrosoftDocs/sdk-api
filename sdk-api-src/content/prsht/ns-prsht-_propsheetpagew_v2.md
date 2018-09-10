@@ -4,7 +4,7 @@ title: "_PROPSHEETPAGEW_V2"
 author: windows-sdk-content
 description: Defines a page in a property sheet.
 old-location: controls\PROPSHEETPAGE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPSHEETPAGEW_V2, *LPPROPSHEETPAGEW_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PROPSHEETPAGEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPSHEETPAGEW_V2, *LPPROPSHEETPAGEW_V2
+req.redist: 
 ---
 
 # _PROPSHEETPAGEW_V2 structure

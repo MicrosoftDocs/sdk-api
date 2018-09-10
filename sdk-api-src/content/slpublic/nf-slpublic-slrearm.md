@@ -4,17 +4,16 @@ title: SLReArm function
 author: windows-sdk-content
 description: This function is rearm application activation.
 old-location: security\slrearm.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLReArm
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLReArm function

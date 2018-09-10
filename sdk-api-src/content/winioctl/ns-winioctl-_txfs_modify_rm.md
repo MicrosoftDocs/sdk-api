@@ -4,7 +4,7 @@ title: "_TXFS_MODIFY_RM"
 author: windows-sdk-content
 description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
 old-location: fs\txfs_modify_rm.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TXFS_MODIFY_RM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
+req.redist: 
 ---
 
 # _TXFS_MODIFY_RM structure

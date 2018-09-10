@@ -4,7 +4,7 @@ title: USN_JOURNAL_DATA_V0
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity.
 old-location: fs\usn_journal_data_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 6b75eab2-aa10-4b48-8918-e4b03b5d8564
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USN_JOURNAL_DATA_V0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0
+req.redist: 
 ---
 
 # USN_JOURNAL_DATA_V0 structure

@@ -4,17 +4,16 @@ title: GetClusterFromGroup function
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a group.
 old-location: mscs\getclusterfromgroup.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 43e1a74f-3320-4b1a-a946-6485d380dda1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClusterFromGroup, GetClusterFromGroup function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP, PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster], _wolf_getclusterfromgroup, clusapi/GetClusterFromGroup, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP, mscs.getclusterfromgroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - GetClusterFromGroup
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # GetClusterFromGroup function

@@ -4,7 +4,7 @@ title: HSTRING_HEADER
 author: windows-sdk-content
 description: Represents a header for an HSTRING.
 old-location: winrt\hstring_header.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: hstring.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HSTRING_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HSTRING_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HSTRING_HEADER
+req.redist: 
 ---
 
 # HSTRING_HEADER structure

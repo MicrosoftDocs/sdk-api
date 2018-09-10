@@ -4,7 +4,7 @@ title: "_THERMAL_EVENT"
 author: windows-sdk-content
 description: Contains a thermal event.
 old-location: base\thermal_event.htm
-old-project: power
+tech.root: power
 ms.assetid: 80B6A494-AED6-4EF0-8B69-4AA5DA6BCBB3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - THERMAL_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
+req.redist: 
 ---
 
 # _THERMAL_EVENT structure

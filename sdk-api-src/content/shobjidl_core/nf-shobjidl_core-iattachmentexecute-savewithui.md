@@ -4,17 +4,16 @@ title: IAttachmentExecute::SaveWithUI
 author: windows-sdk-content
 description: Presents the user with explanatory error UI if the save action fails.
 old-location: shell\IAttachmentExecute_SaveWithUI.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6d5b2d02-98ee-4e46-826f-fa073ecff5c4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SaveWithUI method, IAttachmentExecute.SaveWithUI, IAttachmentExecute::SaveWithUI, SaveWithUI, SaveWithUI method [Windows Shell], SaveWithUI method [Windows Shell],IAttachmentExecute interface, shell.IAttachmentExecute_SaveWithUI, shell_IAttachmentExecute_savewithui, shobjidl_core/IAttachmentExecute::SaveWithUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shdocvw.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAttachmentExecute.SaveWithUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shdocvw.dll (version 6.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAttachmentExecute::SaveWithUI

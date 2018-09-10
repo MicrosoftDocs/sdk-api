@@ -4,17 +4,16 @@ title: IVdsSubSystemIscsi::CreateTarget
 author: windows-sdk-content
 description: Creates an iSCSI target.
 old-location: base\ivdssubsystemiscsi_createtarget.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 084a1f0e-0764-404a-bd9a-a724e4f12c5f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateTarget, CreateTarget method [VDS], CreateTarget method [VDS],IVdsSubSystemIscsi interface, IVdsSubSystemIscsi interface [VDS],CreateTarget method, IVdsSubSystemIscsi.CreateTarget, IVdsSubSystemIscsi::CreateTarget, base.ivdssubsystemiscsi_createtarget, vds/IVdsSubSystemIscsi::CreateTarget, vdshwprv/IVdsSubSystemIscsi::CreateTarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystemIscsi.CreateTarget
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsSubSystemIscsi::CreateTarget

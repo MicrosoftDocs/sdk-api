@@ -4,17 +4,16 @@ title: ICatalogObject::IsPropertyReadOnly
 author: windows-sdk-content
 description: Indicates whether the specified property can be modified using Value.
 old-location: cos\icatalogobject_ispropertyreadonly.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalogObject.IsPropertyReadOnly, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatalogObject.IsPropertyReadOnly
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatalogObject::IsPropertyReadOnly

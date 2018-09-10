@@ -4,17 +4,16 @@ title: IAzApplication::DeletePolicyAdministrator
 author: windows-sdk-content
 description: The DeletePolicyAdministrator method of IAzApplication removes the specified security identifier in text form from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministrator.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 240dbfbc-ae0f-4a8e-9cbc-b58efb258ad5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzApplication object, DeletePolicyAdministrator method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministrator method, IAzApplication.DeletePolicyAdministrator, IAzApplication::DeletePolicyAdministrator, azroles/IAzApplication::DeletePolicyAdministrator, security.iazapplication_deletepolicyadministrator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.DeletePolicyAdministrator
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::DeletePolicyAdministrator

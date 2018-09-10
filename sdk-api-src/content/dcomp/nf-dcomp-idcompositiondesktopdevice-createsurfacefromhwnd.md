@@ -4,17 +4,16 @@ title: IDCompositionDesktopDevice::CreateSurfaceFromHwnd
 author: windows-sdk-content
 description: Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
 old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhwnd.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 89A4F321-26BE-4175-A052-FE5734DDB524
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateSurfaceFromHwnd, CreateSurfaceFromHwnd method [DirectComposition], CreateSurfaceFromHwnd method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateSurfaceFromHwnd method, IDCompositionDesktopDevice.CreateSurfaceFromHwnd, IDCompositionDesktopDevice::CreateSurfaceFromHwnd, dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHwnd, directcomp.idcompositiondesktopdevice_createsurfacefromhwnd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDesktopDevice.CreateSurfaceFromHwnd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDesktopDevice::CreateSurfaceFromHwnd
@@ -61,7 +60,7 @@ Creates a wrapper object that represents the rasterization of a layered window, 
 
 ### -param hwnd
 
-
+TBD
 
 
 ### -param surface [out]

@@ -4,17 +4,16 @@ title: ITocParser::AddToc
 author: windows-sdk-content
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 old-location: mf\itocparser_addtoc.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoDSPMode
+req.lib: 
+req.dll: Wmvdspa.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITocParser.AddToc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmvdspa.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ITocParser::AddToc
@@ -60,9 +58,9 @@ The <b>AddToc</b> method adds a table of contents to the TOC Parser object and a
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param pToc [in]

@@ -4,7 +4,7 @@ title: "_FILESYSTEM_STATISTICS_EX"
 author: windows-sdk-content
 description: Contains statistical information from the file system.Support for this structure started with Windows 10.
 old-location: fs\filesystem_statistics_ex.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: E869CF11-E321-478A-948F-226B04D61492
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILESYSTEM_STATISTICS_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
+req.redist: 
 ---
 
 # _FILESYSTEM_STATISTICS_EX structure

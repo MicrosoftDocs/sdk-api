@@ -4,17 +4,16 @@ title: CM_Locate_DevNode_ExW function
 author: windows-sdk-content
 description: The CM_Locate_DevNode_Ex function obtains a device instance handle to the device node that is associated with a specified device instance ID, on a local machine or a remote machine.
 old-location: devinst\cm_locate_devnode_ex.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 255d828c-5a71-4d53-80ee-b0a0b3e97414
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Locate_DevNode_Ex, CM_Locate_DevNode_Ex function [Device and Driver Installation], CM_Locate_DevNode_ExW, cfgmgr32/CM_Locate_DevNode_Ex, cfgmgr32/CM_Locate_DevNode_ExW, cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml, devinst.cm_locate_devnode_ex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Locate_DevNode_ExW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Locate_DevNode_ExW function

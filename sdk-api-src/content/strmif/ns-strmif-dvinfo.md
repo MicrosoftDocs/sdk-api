@@ -4,7 +4,7 @@ title: DVINFO
 author: windows-sdk-content
 description: The DVINFO structure describes the format of a digital video (DV) stream.
 old-location: dshow\dvinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVINFO, *PDVINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: DVINFO, *PDVINFO
+req.redist: 
 ---
 
 # DVINFO structure

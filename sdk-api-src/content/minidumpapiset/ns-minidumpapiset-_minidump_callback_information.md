@@ -4,7 +4,7 @@ title: "_MINIDUMP_CALLBACK_INFORMATION"
 author: windows-sdk-content
 description: Contains a pointer to an optional callback function that can be used by the MiniDumpWriteDump function.
 old-location: base\minidump_callback_information_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 98caf4c3-8e6b-4f42-ae48-977a8392de1c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_CALLBACK_INFORMATION, *PMINIDUMP_CALLBACK_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_CALLBACK_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_CALLBACK_INFORMATION, *PMINIDUMP_CALLBACK_INFORMATION
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_CALLBACK_INFORMATION structure

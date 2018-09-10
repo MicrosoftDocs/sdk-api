@@ -4,7 +4,7 @@ title: "_MI_Value"
 author: windows-sdk-content
 description: A union of all CIM data types.
 old-location: wmi_v2\mi_value.htm
-old-project: wmi_v2
+tech.root: wmi_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MI_Value
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MI_Value
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MI_Value
+req.redist: 
 ---
 
 # _MI_Value structure

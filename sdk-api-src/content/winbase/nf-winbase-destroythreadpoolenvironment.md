@@ -4,17 +4,16 @@ title: DestroyThreadpoolEnvironment function
 author: windows-sdk-content
 description: Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.
 old-location: base\destroythreadpoolenvironment.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DestroyThreadpoolEnvironment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DestroyThreadpoolEnvironment function

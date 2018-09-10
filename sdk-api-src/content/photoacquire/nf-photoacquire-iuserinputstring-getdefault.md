@@ -4,17 +4,16 @@ title: IUserInputString::GetDefault
 author: windows-sdk-content
 description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).
 old-location: picacq\iuserinputstring_getdefault.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUserInputString.GetDefault
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IUserInputString::GetDefault

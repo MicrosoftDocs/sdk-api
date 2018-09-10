@@ -4,17 +4,16 @@ title: ICertEncodeCRLDistInfo::Encode
 author: windows-sdk-content
 description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
 old-location: security\icertencodecrldistinfo_encode.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 46520e3a-1f15-4d1c-9f44-b9b420fb4f25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509EnrollmentAuthFlags
+req.lib: Certidl.lib
+req.dll: Certenc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertEncodeCRLDistInfo.Encode
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertEncodeCRLDistInfo::Encode
@@ -67,7 +66,7 @@ The <b>Encode</b> method performs <a href="https://msdn.microsoft.com/0baaa937-f
 
 ### -param pstrBinary
 
-
+TBD
 
 
 

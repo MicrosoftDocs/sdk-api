@@ -4,17 +4,16 @@ title: GetProcessPriorityBoost function
 author: windows-sdk-content
 description: Retrieves the priority boost control state of the specified process.
 old-location: base\getprocesspriorityboost.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: b47944f2-b724-4eec-9dcf-2d14a7b77456
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: GetProcessPriorityBoost, GetProcessPriorityBoost function, _win32_getprocesspriorityboost, base.getprocesspriorityboost, processthreadsapi/GetProcessPriorityBoost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - GetProcessPriorityBoost
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetProcessPriorityBoost function

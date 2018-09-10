@@ -4,7 +4,7 @@ title: "_OCSP_CERT_ID"
 author: windows-sdk-content
 description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.
 old-location: security\ocsp_cert_id.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OCSP_CERT_ID, *POCSP_CERT_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OCSP_CERT_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: OCSP_CERT_ID, *POCSP_CERT_ID
+req.redist: 
 ---
 
 # _OCSP_CERT_ID structure

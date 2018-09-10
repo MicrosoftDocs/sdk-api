@@ -4,7 +4,7 @@ title: "_DD_COLORCONTROLCALLBACKS"
 author: windows-sdk-content
 description: The DD_COLORCONTROLCALLBACKS structure contains an entry pointer to the Microsoft DirectDraw color control callback that a device driver supports.
 old-location: display\dd_colorcontrolcallbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: fcf0e136-a7cc-4bb3-8af4-2478d4a2c055
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DD_COLORCONTROLCALLBACKS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DD_COLORCONTROLCALLBACKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DD_COLORCONTROLCALLBACKS
+req.redist: 
 ---
 
 # _DD_COLORCONTROLCALLBACKS structure

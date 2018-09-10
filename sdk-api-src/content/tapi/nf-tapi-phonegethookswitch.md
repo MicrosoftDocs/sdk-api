@@ -4,17 +4,16 @@ title: phoneGetHookSwitch function
 author: windows-sdk-content
 description: The phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 old-location: tapi2\phonegethookswitch.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: "_tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLICK_POINT
+req.lib: Tapi32.lib
+req.dll: Tapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - phoneGetHookSwitch
 product: Windows
 targetos: Windows
-req.lib: Tapi32.lib
-req.dll: Tapi32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # phoneGetHookSwitch function

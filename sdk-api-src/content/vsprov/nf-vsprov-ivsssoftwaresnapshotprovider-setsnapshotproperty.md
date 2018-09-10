@@ -4,17 +4,16 @@ title: IVssSoftwareSnapshotProvider::SetSnapshotProperty
 author: windows-sdk-content
 description: Sets a property for a shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_setsnapshotproperty.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 0f3dc027-9663-4b74-a9b5-a117c4f72a00
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,SetSnapshotProperty method, IVssSoftwareSnapshotProvider.SetSnapshotProperty, IVssSoftwareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method, SetSnapshotProperty method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_setsnapshotproperty, vsprov/IVssSoftwareSnapshotProvider::SetSnapshotProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssSoftwareSnapshotProvider.SetSnapshotProperty
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssSoftwareSnapshotProvider::SetSnapshotProperty

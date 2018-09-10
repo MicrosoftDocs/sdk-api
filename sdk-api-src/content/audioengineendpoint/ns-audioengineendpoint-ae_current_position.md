@@ -4,7 +4,7 @@ title: AE_CURRENT_POSITION
 author: windows-sdk-content
 description: Reports the current frame position from the device to the clients.
 old-location: termserv\ae_current_position.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 2e239114-1af7-455a-a60f-2054b05e1414
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AE_CURRENT_POSITION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
+req.redist: 
 ---
 
 # AE_CURRENT_POSITION structure

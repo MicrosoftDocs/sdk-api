@@ -4,17 +4,16 @@ title: ISCPSecureExchange::TransferContainerData
 author: windows-sdk-content
 description: The TransferContainerData method transfers container file data to the secure content provider. The secure content provider breaks down the container internally and reports which parts of the content are available as they are extracted from the container.
 old-location: wmdm\iscpsecureexchange_transfercontainerdata.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 97b55751-b45e-4204-87e2-1e653d55a718
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferContainerData method, ISCPSecureExchange.TransferContainerData, ISCPSecureExchange::TransferContainerData, ISCPSecureExchangeTransferContainerData, TransferContainerData, TransferContainerData method [windows Media Device Manager], TransferContainerData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferContainerData, wmdm.iscpsecureexchange_transfercontainerdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ISCPSecureExchange.TransferContainerData
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISCPSecureExchange::TransferContainerData

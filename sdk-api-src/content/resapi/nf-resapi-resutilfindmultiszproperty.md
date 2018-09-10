@@ -4,17 +4,16 @@ title: ResUtilFindMultiSzProperty function
 author: windows-sdk-content
 description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindmultiszproperty.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilFindMultiSzProperty, ResUtilFindMultiSzProperty function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY, resapi/ResUtilFindMultiSzProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilFindMultiSzProperty
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilFindMultiSzProperty function

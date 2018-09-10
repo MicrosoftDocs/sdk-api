@@ -4,17 +4,16 @@ title: IRegisteredSyncProvider::GetInstanceId
 author: windows-sdk-content
 description: Returns the synchronization provider's instance ID.
 old-location: winsync\iregisteredsyncprovider_getinstanceid.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: d8206138-92cc-4ed7-937e-baf2ed432b6b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],IRegisteredSyncProvider interface, IRegisteredSyncProvider interface [Windows Sync],GetInstanceId method, IRegisteredSyncProvider.GetInstanceId, IRegisteredSyncProvider::GetInstanceId, syncregistration/IRegisteredSyncProvider::GetInstanceId, winsync.iregisteredsyncprovider_getinstanceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRegisteredSyncProvider.GetInstanceId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRegisteredSyncProvider::GetInstanceId

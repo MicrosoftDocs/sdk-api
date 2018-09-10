@@ -4,7 +4,7 @@ title: "_MFNetCredentialRequirements"
 author: windows-sdk-content
 description: Specifies how the credential manager should obtain user credentials.
 old-location: mf\mfnetcredentialrequirements.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 9257d1d7-7ccb-4172-82f0-3694ebb9d487
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFNetCredentialRequirements
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFNetCredentialRequirements
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFNetCredentialRequirements
+req.redist: 
 ---
 
 # _MFNetCredentialRequirements enumeration

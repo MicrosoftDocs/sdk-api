@@ -4,17 +4,16 @@ title: WdsTransportProviderCompareContent function
 author: windows-sdk-content
 description: Compares a specified content name and instance to an open content stream to determine if they are the same.
 old-location: wds\wdstransportprovidercomparecontent.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 206b85e2-e139-4f62-9107-ed78893a7ad2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderCompareContent, WdsTransportProviderCompareContent callback, WdsTransportProviderCompareContent callback function [Windows Deployment Services], wds.wdstransportprovidercomparecontent, wdstpdi/WdsTransportProviderCompareContent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderCompareContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderCompareContent function

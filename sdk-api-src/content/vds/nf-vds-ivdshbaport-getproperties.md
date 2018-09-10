@@ -4,17 +4,16 @@ title: IVdsHbaPort::GetProperties
 author: windows-sdk-content
 description: Retrieves the properties of an HBA port.
 old-location: base\ivdshbaport_getproperties.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 5472534f-66c8-4a78-a351-92f59e50ae32
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsHbaPort interface, IVdsHbaPort interface [VDS],GetProperties method, IVdsHbaPort.GetProperties, IVdsHbaPort::GetProperties, base.ivdshbaport_getproperties, vds/IVdsHbaPort::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVdsHbaPort.GetProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHbaPort::GetProperties

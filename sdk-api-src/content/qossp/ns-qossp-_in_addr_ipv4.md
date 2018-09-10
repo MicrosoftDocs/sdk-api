@@ -4,7 +4,7 @@ title: "_IN_ADDR_IPV4"
 author: windows-sdk-content
 description: The IN_ADDR_IPV4 union stores an IPv4 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv4.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 7e10cc9c-7ed4-449d-aeb9-21e3d75d0224
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IN_ADDR_IPV4, *LPIN_ADDR_IPV4
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IN_ADDR_IPV4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IN_ADDR_IPV4, *LPIN_ADDR_IPV4
+req.redist: 
 ---
 
 # _IN_ADDR_IPV4 structure

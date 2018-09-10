@@ -4,7 +4,7 @@ title: "_SOURCEFILE"
 author: windows-sdk-content
 description: Contains source file information.
 old-location: base\sourcefile_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.3 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCEFILE, *PSOURCEFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - SOURCEFILEW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SOURCEFILE, *PSOURCEFILE
+req.redist: DbgHelp.dll 6.3 or later
 ---
 
 # _SOURCEFILE structure

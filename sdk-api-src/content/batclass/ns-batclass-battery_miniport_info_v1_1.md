@@ -4,7 +4,7 @@ title: BATTERY_MINIPORT_INFO_V1_1
 author: windows-sdk-content
 description: Battery miniclass drivers fill in the BATTERY_MINIPORT_INFO_V1_1 structure before calling the battery class driver's BatteryClassInitializeDevice routine. BATTERY_MINIPORT_INFO_V1_1 is an updated version of the previous structure BATTERY_MINIPORT_INFO.
 old-location: battery\battery_miniport_info_v1_1.htm
-old-project: battery
+tech.root: battery
 ms.assetid: 3266126A-AEFC-445C-89D3-736545101522
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BATTERY_MINIPORT_INFO_V1_1, *PBATTERY_MINIPORT_INFO_V1_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BATTERY_MINIPORT_INFO_V1_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BATTERY_MINIPORT_INFO_V1_1, *PBATTERY_MINIPORT_INFO_V1_1
+req.redist: 
 ---
 
 # BATTERY_MINIPORT_INFO_V1_1 structure

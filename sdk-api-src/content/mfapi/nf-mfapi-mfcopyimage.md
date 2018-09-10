@@ -4,17 +4,16 @@ title: MFCopyImage function
 author: windows-sdk-content
 description: Copies an image or image plane from one buffer to another.
 old-location: mf\mfcopyimage.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCopyImage
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCopyImage function

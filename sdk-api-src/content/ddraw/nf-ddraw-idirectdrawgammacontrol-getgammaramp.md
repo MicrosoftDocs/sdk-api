@@ -4,17 +4,16 @@ title: IDirectDrawGammaControl::GetGammaRamp
 author: windows-sdk-content
 description: Retrieves the red, green, and blue gamma ramps for the primary surface.
 old-location: directdraw\idirectdrawgammacontrol_getgammaramp.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: ba83605c-c388-42c0-9297-1666c80a278e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetGammaRamp, GetGammaRamp method [DirectDraw], GetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, IDirectDrawGammaControl interface [DirectDraw],GetGammaRamp method, IDirectDrawGammaControl.GetGammaRamp, IDirectDrawGammaControl::GetGammaRamp, ddraw/IDirectDrawGammaControl::GetGammaRamp, directdraw.idirectdrawgammacontrol_getgammaramp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawGammaControl.GetGammaRamp
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawGammaControl::GetGammaRamp
@@ -59,9 +58,14 @@ Retrieves the red, green, and blue gamma ramps for the primary surface.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

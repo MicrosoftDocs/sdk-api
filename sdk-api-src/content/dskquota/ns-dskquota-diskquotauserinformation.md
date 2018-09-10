@@ -4,7 +4,7 @@ title: DiskQuotaUserInformation
 author: windows-sdk-content
 description: Represents the per-user quota information.
 old-location: fs\diskquota_user_information_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dskquota.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISKQUOTA_USER_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
+req.redist: 
 ---
 
 # DiskQuotaUserInformation structure

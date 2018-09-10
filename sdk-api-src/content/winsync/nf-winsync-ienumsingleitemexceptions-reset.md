@@ -4,17 +4,16 @@ title: IEnumSingleItemExceptions::Reset
 author: windows-sdk-content
 description: Resets the enumerator to the beginning of the single-item exception set.
 old-location: winsync\ienumsingleitemexceptions_reset.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: cbd65da9-d5bb-463e-aec6-763be41079ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Reset method, IEnumSingleItemExceptions.Reset, IEnumSingleItemExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_reset, winsync/IEnumSingleItemExceptions::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSingleItemExceptions.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSingleItemExceptions::Reset

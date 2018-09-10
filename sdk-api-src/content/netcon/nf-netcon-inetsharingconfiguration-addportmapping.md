@@ -4,17 +4,16 @@ title: INetSharingConfiguration::AddPortMapping
 author: windows-sdk-content
 description: Adds a service port mapping for this connection.
 old-location: ics\inetsharingconfiguration_addportmapping.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 0d9e1520-6018-425c-a2f9-c408fa3025cf
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: AddPortMapping, AddPortMapping method [ICS/ICF], AddPortMapping method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],AddPortMapping method, INetSharingConfiguration.AddPortMapping, INetSharingConfiguration::AddPortMapping, _ics_inetsharingconfiguration_addportmapping, ics.inetsharingconfiguration_addportmapping, netcon/INetSharingConfiguration::AddPortMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INetSharingConfiguration.AddPortMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetSharingConfiguration::AddPortMapping
@@ -65,7 +63,7 @@ The
 
 ### -param bstrName
 
-
+TBD
 
 
 ### -param ucIPProtocol [in]
@@ -97,7 +95,7 @@ This parameter is reserved and not used at this time.
 
 ### -param bstrTargetNameOrIPAddress
 
-
+TBD
 
 
 ### -param eTargetType [in]

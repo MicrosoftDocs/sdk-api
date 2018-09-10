@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_rendezvoussession_0000_0000_0001"
 author: windows-sdk-content
 description: Provides the list of possible state codes of the session invitation.
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_STATE.htm
-old-project: remoteassist
+tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_state.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rendezvoussession.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RENDEZVOUS_SESSION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RENDEZVOUS_SESSION_STATE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rendezvoussession_0000_0000_0001 enumeration

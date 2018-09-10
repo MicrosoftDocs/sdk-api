@@ -4,7 +4,7 @@ title: "_PROJECTION_INFO"
 author: windows-sdk-content
 description: Is used in the RAS_CONNECTION_EX structure as a placeholder for the PPP_PROJECTION_INFO and IKEV2_PROJECTION_INFO structures.
 old-location: rras\projection_info.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROJECTION_INFO, *PPROJECTION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROJECTION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: PROJECTION_INFO, *PPROJECTION_INFO
+req.redist: 
 ---
 
 # _PROJECTION_INFO structure

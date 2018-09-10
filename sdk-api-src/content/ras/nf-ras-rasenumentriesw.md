@@ -4,17 +4,16 @@ title: RasEnumEntriesW function
 author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - RasEnumEntriesW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEnumEntriesW function

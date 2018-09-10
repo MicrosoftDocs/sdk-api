@@ -4,7 +4,7 @@ title: THUMBBUTTONMASK
 author: windows-sdk-content
 description: Used by the THUMBBUTTON structure to specify which members of that structure contain valid data.
 old-location: shell\THUMBBUTTONMASK.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 12c6a535-6a23-4b41-b4fd-4ed4e192d629
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THUMBBUTTONMASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - THUMBBUTTONMASK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: THUMBBUTTONMASK
+req.redist: 
 ---
 
 # THUMBBUTTONMASK enumeration

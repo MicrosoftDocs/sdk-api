@@ -4,17 +4,16 @@ title: SetupQueryInfOriginalFileInformationA function
 author: windows-sdk-content
 description: The SetupQueryInfOriginalFileInformation function returns the original name of an OEM INF file.
 old-location: setup\setupqueryinforiginalfileinformation.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: bc7c08ff-3d6b-4d45-b634-1358302f6fc6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupQueryInfOriginalFileInformation, SetupQueryInfOriginalFileInformation function [Setup API], SetupQueryInfOriginalFileInformationA, SetupQueryInfOriginalFileInformationW, _setupapi_setupqueryinforiginalfileinformation, setup.setupqueryinforiginalfileinformation, setupapi/SetupQueryInfOriginalFileInformation, setupapi/SetupQueryInfOriginalFileInformationA, setupapi/SetupQueryInfOriginalFileInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupQueryInfOriginalFileInformationW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupQueryInfOriginalFileInformationA function

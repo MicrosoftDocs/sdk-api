@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_SenderOfficePhone
 title: IFaxDoc::get_SenderOfficePhone
 author: windows-sdk-content
 description: Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_senderofficephone_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0mzp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],SenderOfficePhone property, FaxDoc.SenderOfficePhone, IFaxDoc.get_SenderOfficePhone, IFaxDoc::get_SenderOfficePhone, SenderOfficePhone property [Fax Service], SenderOfficePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone_vb, get_SenderOfficePhone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],SenderOfficePhone property, IFaxDoc.SenderOfficePhone, IFaxDoc.get_SenderOfficePhone, IFaxDoc::SenderOfficePhone, IFaxDoc::get_SenderOfficePhone, IFaxDoc::put_SenderOfficePhone, SenderOfficePhone property [Fax Service], SenderOfficePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderofficephone_cpp, faxcom/IFaxDoc::SenderOfficePhone, faxcom/IFaxDoc::get_SenderOfficePhone, faxcom/IFaxDoc::put_SenderOfficePhone, get_SenderOfficePhone
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.SenderOfficePhone
+ - IFaxDoc.SenderOfficePhone
+ - IFaxDoc.get_SenderOfficePhone
+ - IFaxDoc.put_SenderOfficePhone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_SenderOfficePhone
@@ -66,7 +66,7 @@ This property is read/write.
 
 The fax sender's office telephone number can appear on the cover page.
 
-The <b>SenderOfficePhone</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+The <b>IFaxDoc::get_SenderOfficePhone</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 
@@ -81,10 +81,6 @@ The <b>SenderOfficePhone</b> method allocates the memory required for the buffer
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

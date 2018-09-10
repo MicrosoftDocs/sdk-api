@@ -4,17 +4,16 @@ title: IAMAnalogVideoEncoder::put_CCEnable
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CCEnable method enables or disables closed captioning.
 old-location: dshow\iamanalogvideoencoder_put_ccenable.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6513cde7-2765-4225-814b-a619d6a6ab15
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CCEnable method, IAMAnalogVideoEncoder.put_CCEnable, IAMAnalogVideoEncoder::put_CCEnable, IAMAnalogVideoEncoderput_CCEnable, dshow.iamanalogvideoencoder_put_ccenable, put_CCEnable, put_CCEnable method [DirectShow], put_CCEnable method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CCEnable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMAnalogVideoEncoder.put_CCEnable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMAnalogVideoEncoder::put_CCEnable

@@ -4,7 +4,7 @@ title: CLUS_CSV_MAINTENANCE_MODE_INFO
 author: windows-sdk-content
 description: Enables or disables the maintenance mode on a cluster shared volume (CSV).
 old-location: mscs\clus_csv_maintenance_mode_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4DA05ADE-3C54-45A0-8A1C-911EB1ED1308
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_CSV_MAINTENANCE_MODE_INFO, *PCLUS_CSV_MAINTENANCE_MODE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_CSV_MAINTENANCE_MODE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_CSV_MAINTENANCE_MODE_INFO, *PCLUS_CSV_MAINTENANCE_MODE_INFO
+req.redist: 
 ---
 
 # CLUS_CSV_MAINTENANCE_MODE_INFO structure

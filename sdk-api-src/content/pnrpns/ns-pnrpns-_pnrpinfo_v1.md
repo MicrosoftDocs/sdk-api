@@ -4,7 +4,7 @@ title: "_PNRPINFO_V1"
 author: windows-sdk-content
 description: The PNRPINFO_V1 structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpinfo.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pnrpns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Pnpxassoc.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V1, *PPNRPINFO_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PNRPINFO_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PNRPINFO_V1, *PPNRPINFO_V1
+req.redist: 
 ---
 
 # _PNRPINFO_V1 structure

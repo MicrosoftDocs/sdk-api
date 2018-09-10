@@ -4,17 +4,16 @@ title: IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle
 author: windows-sdk-content
 description: Gets a handle from a random-access byte stream that the StorageFile.OpenAsync method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken.
 old-location: winrt\iunbufferedfilehandleprovider_openunbufferedfilehandle.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: D001CD90-A621-403C-B9BD-BE79471AF18F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUnbufferedFileHandleProvider interface [Windows Runtime],OpenUnbufferedFileHandle method, IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle, IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, OpenUnbufferedFileHandle, OpenUnbufferedFileHandle method [Windows Runtime], OpenUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, windowsstoragecom/IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_openunbufferedfilehandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: Windows.storage.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.storage.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle

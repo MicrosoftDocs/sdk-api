@@ -4,17 +4,16 @@ title: ITRendezvous::CreateDirectory
 author: windows-sdk-content
 description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
 old-location: tapi3\itrendezvous_createdirectory.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CreateDirectory, CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectory method, ITRendezvous.CreateDirectory, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITRendezvous.CreateDirectory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITRendezvous::CreateDirectory

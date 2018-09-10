@@ -4,7 +4,7 @@ title: "_WS_XML_QNAME"
 author: windows-sdk-content
 description: A structure used to specify an XML name (of an element or an attribute) as a local name, namespace pair.
 old-location: wsw\ws_xml_qname.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 54095ad5-e9ba-4fa8-92e2-87b3a8950d5c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_XML_QNAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_QNAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_XML_QNAME
+req.redist: 
 ---
 
 # _WS_XML_QNAME structure

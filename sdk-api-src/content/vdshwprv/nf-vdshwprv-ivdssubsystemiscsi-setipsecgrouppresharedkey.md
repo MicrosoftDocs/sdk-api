@@ -4,17 +4,16 @@ title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f4a06e2b-09c9-438b-ba5b-b12bb846743b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: VDS 1.1
 ---
 
 # IVdsSubSystemIscsi::SetIpsecGroupPresharedKey

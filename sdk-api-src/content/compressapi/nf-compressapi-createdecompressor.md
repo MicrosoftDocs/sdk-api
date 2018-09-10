@@ -4,17 +4,16 @@ title: CreateDecompressor function
 author: windows-sdk-content
 description: Generates a new DECOMPRESSOR_HANDLE.
 old-location: cmpapi\createdecompressor.htm
-old-project: cmpapi
+tech.root: cmpapi
 ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
 ms.author: windowssdkdev
 ms.date: 07/23/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateDecompressor, CreateDecompressor function [Compression API], cmpapi.createdecompressor, compressapi/CreateDecompressor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPRESS_INFORMATION_CLASS
+req.lib: Cabinet.lib
+req.dll: Cabinet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CreateDecompressor
 product: Windows
 targetos: Windows
-req.lib: Cabinet.lib
-req.dll: Cabinet.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CreateDecompressor function

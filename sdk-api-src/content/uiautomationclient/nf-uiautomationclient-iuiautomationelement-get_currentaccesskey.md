@@ -4,17 +4,16 @@ title: IUIAutomationElement::get_CurrentAccessKey
 author: windows-sdk-content
 description: Retrieves the access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAccessKey.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 0da10db5-a978-4575-86c4-12152691468f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentAccessKey property [Windows Accessibility], CurrentAccessKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAccessKey property, IUIAutomationElement.CurrentAccessKey, IUIAutomationElement.get_CurrentAccessKey, IUIAutomationElement::CurrentAccessKey, IUIAutomationElement::get_CurrentAccessKey, get_CurrentAccessKey, uiauto.uiauto_IUIAutomationElement_CurrentAccessKey, uiauto_IUIAutomationElement_CurrentAccessKey, uiautomationclient/IUIAutomationElement::CurrentAccessKey, uiautomationclient/IUIAutomationElement::get_CurrentAccessKey, winauto.uiauto_IUIAutomationElement_CurrentAccessKey
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationElement.get_CurrentAccessKey
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::get_CurrentAccessKey

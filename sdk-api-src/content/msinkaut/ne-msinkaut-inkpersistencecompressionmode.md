@@ -4,7 +4,7 @@ title: InkPersistenceCompressionMode
 author: windows-sdk-content
 description: Defines values for the compression modes that are used to save the InkDisp object to a serialized format.
 old-location: tablet\inkpersistencecompressionmode.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: dac49948-3977-4952-a6c0-f54c4a0a2e36
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkPersistenceCompressionMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkPersistenceCompressionMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkPersistenceCompressionMode
+req.redist: 
 ---
 
 # InkPersistenceCompressionMode enumeration

@@ -4,17 +4,16 @@ title: ID3D12Device::CreateDescriptorHeap
 author: windows-sdk-content
 description: Creates a descriptor heap object.
 old-location: direct3d12\id3d12device_createdescriptorheap.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 69EE75CB-7B3D-403D-9798-279A47754ADC
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: CreateDescriptorHeap, CreateDescriptorHeap method, CreateDescriptorHeap method,ID3D12Device interface, ID3D12Device interface,CreateDescriptorHeap method, ID3D12Device.CreateDescriptorHeap, ID3D12Device::CreateDescriptorHeap, d3d12/ID3D12Device::CreateDescriptorHeap, direct3d12.id3d12device_createdescriptorheap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device.CreateDescriptorHeap
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device::CreateDescriptorHeap

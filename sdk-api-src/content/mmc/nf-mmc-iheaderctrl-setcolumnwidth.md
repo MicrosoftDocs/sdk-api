@@ -4,17 +4,16 @@ title: IHeaderCtrl::SetColumnWidth
 author: windows-sdk-content
 description: Sets the width, in pixels, of a specific column.
 old-location: mmc\iheaderctrl_setcolumnwidth.htm
-old-project: mmc
+tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
 ms.author: windowssdkdev
 ms.date: 08/14/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MMC_VIEW_TYPE
+req.lib: 
+req.dll: Mmcndmgr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IHeaderCtrl.SetColumnWidth
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mmcndmgr.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IHeaderCtrl::SetColumnWidth

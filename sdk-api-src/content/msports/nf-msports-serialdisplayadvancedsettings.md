@@ -4,17 +4,16 @@ title: SerialDisplayAdvancedSettings function
 author: windows-sdk-content
 description: SerialDisplayAdvancedSettings displays the system-supplied advanced settings dialog box for a specified COM port device.
 old-location: serports\serialdisplayadvancedsettings.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 185c66e9-0c72-4aca-a99c-54995384e26e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SerialDisplayAdvancedSettings, SerialDisplayAdvancedSettings function [Serial Ports], comdb_6cace01c-3c22-4699-938d-9fb180d79f12.xml, msports/SerialDisplayAdvancedSettings, serports.serialdisplayadvancedsettings
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: Msports.lib
+req.dll: Msports.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SerialDisplayAdvancedSettings
 product: Windows
 targetos: Windows
-req.lib: Msports.lib
-req.dll: Msports.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # SerialDisplayAdvancedSettings function

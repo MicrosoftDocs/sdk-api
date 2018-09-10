@@ -4,17 +4,16 @@ title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAni
 author: windows-sdk-content
 description: Sets an element of the color matrix.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 4F78FA9F-8115-4D60-B119-F60968AAB1D4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionColorMatrixEffect.SetMatrixElement
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionColorMatrixEffect::SetMatrixElement(int,int,IDCompositionAnimation)
@@ -75,7 +74,7 @@ The column of the element.
 
 ### -param animation
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: CallNamedPipeA function
 author: windows-sdk-content
 description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
 old-location: base\callnamedpipe.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: 9cfcb608-a539-4eb6-866c-81dafdabbcdb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: CallNamedPipe, CallNamedPipe function, CallNamedPipeA, CallNamedPipeW, NMPWAIT_NOWAIT, NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, _win32_callnamedpipe, base.callnamedpipe, winbase/CallNamedPipe, winbase/CallNamedPipeA, winbase/CallNamedPipeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - CallNamedPipeW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CallNamedPipeA function

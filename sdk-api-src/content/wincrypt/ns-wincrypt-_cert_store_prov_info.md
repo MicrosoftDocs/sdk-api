@@ -4,7 +4,7 @@ title: "_CERT_STORE_PROV_INFO"
 author: windows-sdk-content
 description: Contains information returned by the installed CertDllOpenStoreProv function when a store is opened by using the CertOpenStore function.
 old-location: security\cert_store_prov_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: dc6789a7-09a5-467a-b2e4-16acfa25b5f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_STORE_PROV_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_STORE_PROV_INFO, *PCERT_STORE_PROV_INFO
+req.redist: 
 ---
 
 # _CERT_STORE_PROV_INFO structure

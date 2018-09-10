@@ -4,17 +4,16 @@ title: UpdateDebugInfoFileEx function
 author: windows-sdk-content
 description: Uses the specified extended information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofileex.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
+req.lib: Imagehlp.lib
+req.dll: Imagehlp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UpdateDebugInfoFileEx
 product: Windows
 targetos: Windows
-req.lib: Imagehlp.lib
-req.dll: Imagehlp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UpdateDebugInfoFileEx function

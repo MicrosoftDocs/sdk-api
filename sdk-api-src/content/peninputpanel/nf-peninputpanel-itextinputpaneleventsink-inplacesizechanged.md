@@ -4,17 +4,16 @@ title: ITextInputPanelEventSink::InPlaceSizeChanged
 author: windows-sdk-content
 description: Occurs when the in-place Input Panel size has changed due to a user resize, auto growth, or an input area change.
 old-location: tablet\itextinputpaneleventsink_inplacesizechanged.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: dd1f7cba-0a0f-49da-ad67-5c2e01830750
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceSizeChanged method, ITextInputPanelEventSink.InPlaceSizeChanged, ITextInputPanelEventSink::InPlaceSizeChanged, InPlaceSizeChanged, InPlaceSizeChanged method [Tablet PC], InPlaceSizeChanged method [Tablet PC],ITextInputPanelEventSink interface, dd1f7cba-0a0f-49da-ad67-5c2e01830750, peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanged, tablet.itextinputpaneleventsink_inplacesizechanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelEventSink.InPlaceSizeChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelEventSink::InPlaceSizeChanged

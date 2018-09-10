@@ -4,7 +4,7 @@ title: "__MIDL_ItsPubPlugin2_0001"
 author: windows-sdk-content
 description: Contains information about a file association in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource2fileassociation.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tspubplugin2com.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: pluginResource2FileAssociation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - pluginResource2FileAssociation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: pluginResource2FileAssociation
+req.redist: 
 ---
 
 # __MIDL_ItsPubPlugin2_0001 structure

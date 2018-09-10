@@ -4,17 +4,16 @@ title: IOleCache::Uncache
 author: windows-sdk-content
 description: Removes a cache connection created previously using IOleCache::Cache.
 old-location: com\iolecache_uncache.htm
-old-project: com
+tech.root: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERCLASSTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleCache.Uncache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleCache::Uncache

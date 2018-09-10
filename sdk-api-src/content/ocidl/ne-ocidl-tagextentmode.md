@@ -4,7 +4,7 @@ title: tagExtentMode
 author: windows-sdk-content
 description: Indicates whether the sizing mode is content or integral sizing.
 old-location: com\dvextentmode.htm
-old-project: com
+tech.root: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVEXTENTMODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVEXTENTMODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: DVEXTENTMODE
+req.redist: 
 ---
 
 # tagExtentMode enumeration

@@ -4,7 +4,7 @@ title: tagCRYPTUI_INITDIALOG_STRUCT
 author: windows-sdk-content
 description: Supports the CRYPTUI_VIEWCERTIFICATE_STRUCT structure.
 old-location: security\cryptui_initdialog_struct.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c6335c02-3b3e-45e2-bb58-b7213aea500b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPTUI_INITDIALOG_STRUCT, *PCRYPTUI_INITDIALOG_STRUCT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPTUI_INITDIALOG_STRUCT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPTUI_INITDIALOG_STRUCT, *PCRYPTUI_INITDIALOG_STRUCT
+req.redist: 
 ---
 
 # tagCRYPTUI_INITDIALOG_STRUCT structure

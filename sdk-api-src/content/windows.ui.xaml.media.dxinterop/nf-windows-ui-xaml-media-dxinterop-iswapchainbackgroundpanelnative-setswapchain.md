@@ -4,17 +4,16 @@ title: ISwapChainBackgroundPanelNative::xaml
 author: windows-sdk-content
 description: Sets the DirectX swap chain for SwapChainBackgroundPanel.
 old-location: winrt\iswapchainbackgroundpanelnative_setswapchain.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: EDAEA67F-78CD-49F8-84FC-A7037629239A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISwapChainBackgroundPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainBackgroundPanelNative.SetSwapChain, ISwapChainBackgroundPanelNative.xaml, ISwapChainBackgroundPanelNative::SetSwapChain, ISwapChainBackgroundPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainBackgroundPanelNative interface, windows/ISwapChainBackgroundPanelNative::SetSwapChain, winrt.iswapchainbackgroundpanelnative_setswapchain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISwapChainBackgroundPanelNative.SetSwapChain
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISwapChainBackgroundPanelNative::xaml
@@ -62,7 +60,7 @@ Sets the DirectX swap chain for <a href="https://msdn.microsoft.com/2f47fd2c-a0f
 
 ### -param swapChain
 
-
+TBD
 
 
 

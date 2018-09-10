@@ -4,7 +4,7 @@ title: "_avioldindex"
 author: windows-sdk-content
 description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
 old-location: dshow\avioldindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVIOLDINDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVIOLDINDEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AVIOLDINDEX
+req.redist: 
 ---
 
 # _avioldindex structure

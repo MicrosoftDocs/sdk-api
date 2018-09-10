@@ -4,17 +4,16 @@ title: ID2D1ComputeTransform::CalculateThreadgroups
 author: windows-sdk-content
 description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.
 old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 6B662297-3EBE-459F-8284-7A59F67DB025
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CalculateThreadgroups, CalculateThreadgroups method [Direct2D], CalculateThreadgroups method [Direct2D],ID2D1ComputeTransform interface, ID2D1ComputeTransform interface [Direct2D],CalculateThreadgroups method, ID2D1ComputeTransform.CalculateThreadgroups, ID2D1ComputeTransform::CalculateThreadgroups, d2d1effectauthor/ID2D1ComputeTransform::CalculateThreadgroups, direct2d.id2d1computetransform_calculatethreadgroups
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VERTEX_USAGE
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID2D1ComputeTransform.CalculateThreadgroups
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1ComputeTransform::CalculateThreadgroups

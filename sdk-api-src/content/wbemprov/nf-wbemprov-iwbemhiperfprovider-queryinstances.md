@@ -4,17 +4,16 @@ title: IWbemHiPerfProvider::QueryInstances
 author: windows-sdk-content
 description: Returns instances of the specified class using the supplied IWbemObjectSink instance.
 old-location: wmi\iwbemhiperfprovider_queryinstances.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8962fe9d-4b3e-469b-83e7-9c3f62a24308
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],QueryInstances method, IWbemHiPerfProvider.QueryInstances, IWbemHiPerfProvider::QueryInstances, QueryInstances, QueryInstances method [Windows Management Instrumentation], QueryInstances method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_queryinstances, wbemprov/IWbemHiPerfProvider::QueryInstances, wmi.iwbemhiperfprovider_queryinstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemHiPerfProvider.QueryInstances
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemHiPerfProvider::QueryInstances

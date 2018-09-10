@@ -4,17 +4,16 @@ title: ChangeWindowMessageFilterEx function
 author: windows-sdk-content
 description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
 old-location: winmsg\changewindowmessagefilterex.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - ChangeWindowMessageFilterEx
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ChangeWindowMessageFilterEx function

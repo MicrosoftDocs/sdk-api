@@ -4,7 +4,7 @@ title: "_MF_ATTRIBUTES_MATCH_TYPE"
 author: windows-sdk-content
 description: Specifies how to compare the attributes on two objects.
 old-location: mf\mf_attributes_match_type.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: cfa534c4-88c3-4170-b977-c24ea5593f6c
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_ATTRIBUTES_MATCH_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_ATTRIBUTES_MATCH_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_ATTRIBUTES_MATCH_TYPE
+req.redist: 
 ---
 
 # _MF_ATTRIBUTES_MATCH_TYPE enumeration

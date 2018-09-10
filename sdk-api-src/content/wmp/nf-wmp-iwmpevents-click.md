@@ -4,17 +4,16 @@ title: IWMPEvents::Click
 author: windows-sdk-content
 description: The Click event occurs when the user clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__click.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: Click, Click method [Windows Media Player], Click method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Click method, IWMPEvents.Click, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents.Click
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents::Click

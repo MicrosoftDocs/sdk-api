@@ -4,17 +4,16 @@ title: WaitNamedPipeA function
 author: windows-sdk-content
 description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
 old-location: base\waitnamedpipe.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -52,10 +52,8 @@ api_name:
  - WaitNamedPipeW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WaitNamedPipeA function

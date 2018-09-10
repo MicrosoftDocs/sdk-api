@@ -4,7 +4,7 @@ title: "_TOKEN_AUDIT_POLICY"
 author: windows-sdk-content
 description: Specifies the per user audit policy for a token.
 old-location: security\token_audit_policy.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKEN_AUDIT_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
+req.redist: 
 ---
 
 # _TOKEN_AUDIT_POLICY structure

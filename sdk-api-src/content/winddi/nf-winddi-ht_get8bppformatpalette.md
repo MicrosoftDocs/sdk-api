@@ -4,17 +4,16 @@ title: HT_Get8BPPFormatPalette function
 author: windows-sdk-content
 description: The HT_Get8BPPFormatPalette function returns a halftone palette for use on standard 8-bits per pixel device types.
 old-location: display\ht_get8bppformatpalette.htm
-old-project: display
+tech.root: display
 ms.assetid: 0f6d81b8-2ad2-4bcc-a5cc-5b2f396aaa75
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display Devices], display.ht_get8bppformatpalette, gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml, winddi/HT_Get8BPPFormatPalette
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HT_Get8BPPFormatPalette
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # HT_Get8BPPFormatPalette function

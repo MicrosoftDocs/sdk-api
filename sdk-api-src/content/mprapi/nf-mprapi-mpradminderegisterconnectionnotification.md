@@ -4,17 +4,16 @@ title: MprAdminDeregisterConnectionNotification function
 author: windows-sdk-content
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 old-location: rras\mpradminderegisterconnectionnotification.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminDeregisterConnectionNotification
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminDeregisterConnectionNotification function

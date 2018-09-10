@@ -4,17 +4,16 @@ title: WNDOBJ_cEnumStart function
 author: windows-sdk-content
 description: The WNDOBJ_cEnumStart function is a callback function that sets parameters for enumeration of rectangles in the visible region of a window.
 old-location: display\wndobj_cenumstart.htm
-old-project: display
+tech.root: display
 ms.assetid: 7d3951de-807f-4d54-a022-e2610987d965
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: WNDOBJ_cEnumStart, WNDOBJ_cEnumStart function [Display Devices], display.wndobj_cenumstart, gdifncs_25b715da-7083-4602-b503-0f3a36a2dc1f.xml, winddi/WNDOBJ_cEnumStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNDOBJ_cEnumStart
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNDOBJ_cEnumStart function

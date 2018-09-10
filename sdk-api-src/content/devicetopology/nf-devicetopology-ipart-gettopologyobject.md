@@ -4,17 +4,16 @@ title: IPart::GetTopologyObject
 author: windows-sdk-content
 description: The GetTopologyObject method gets a reference to the IDeviceTopology interface of the device-topology object that contains this part.
 old-location: coreaudio\ipart_gettopologyobject.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 5ad5fc66-6452-4d55-8c6a-a20a87431302
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetTopologyObject, GetTopologyObject method [Core Audio], GetTopologyObject method [Core Audio],IPart interface, IPart interface [Core Audio],GetTopologyObject method, IPart.GetTopologyObject, IPart::GetTopologyObject, IPartGetTopologyObject, coreaudio.ipart_gettopologyobject, devicetopology/IPart::GetTopologyObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPart.GetTopologyObject
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPart::GetTopologyObject

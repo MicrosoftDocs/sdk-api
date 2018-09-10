@@ -4,7 +4,7 @@ title: CLUSPROP_PARTITION_INFO
 author: windows-sdk-content
 description: Contains information relevant to storage class resources.
 old-location: mscs\clusprop_partition_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: cda1e334-dba8-4fe9-b035-4e475245869c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_PARTITION_INFO, *PCLUSPROP_PARTITION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_PARTITION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_PARTITION_INFO, *PCLUSPROP_PARTITION_INFO
+req.redist: 
 ---
 
 # CLUSPROP_PARTITION_INFO structure

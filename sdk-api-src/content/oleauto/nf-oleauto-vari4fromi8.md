@@ -4,17 +4,16 @@ title: VarI4FromI8 function
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a long value.
 old-location: automat\vari4fromi8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: baaa85e1-470c-4915-a7c6-76fc5c86ea2f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarI4FromI8, VarI4FromI8 function [Automation], _oa96_VarI4FromI8, automat.vari4fromi8, oleauto/VarI4FromI8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarI4FromI8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarI4FromI8 function

@@ -4,17 +4,16 @@ title: IGraphConfig::RemoveFilterFromCache
 author: windows-sdk-content
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
 old-location: dshow\igraphconfig_removefilterfromcache.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.RemoveFilterFromCache
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::RemoveFilterFromCache

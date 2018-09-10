@@ -4,17 +4,16 @@ title: IValueMap::AddRange
 author: windows-sdk-content
 description: Adds one or more items to the collection.
 old-location: pla\ivaluemap_addrange.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IValueMap interface, IValueMap interface [PLA],AddRange method, IValueMap.AddRange, IValueMap::AddRange, base.ivaluemap_addrange, pla.ivaluemap_addrange, pla/IValueMap::AddRange
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IValueMap.AddRange
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IValueMap::AddRange
@@ -62,7 +60,7 @@ Adds one or more items to the collection.
 
 ### -param map
 
-
+TBD
 
 
 

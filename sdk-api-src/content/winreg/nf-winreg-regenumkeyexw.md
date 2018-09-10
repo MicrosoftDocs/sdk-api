@@ -4,17 +4,16 @@ title: RegEnumKeyExW function
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
 old-location: base\regenumkeyex.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - RegEnumKeyExW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegEnumKeyExW function

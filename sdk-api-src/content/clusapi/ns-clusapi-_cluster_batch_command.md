@@ -4,7 +4,7 @@ title: "_CLUSTER_BATCH_COMMAND"
 author: windows-sdk-content
 description: Represents the order in which current batch command data is sent to the ClusterRegBatchReadCommand function.
 old-location: mscs\cluster_batch_command.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 31f8e255-80c8-4381-a8f3-0d48a3831a89
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_BATCH_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_BATCH_COMMAND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_BATCH_COMMAND
+req.redist: 
 ---
 
 # _CLUSTER_BATCH_COMMAND structure

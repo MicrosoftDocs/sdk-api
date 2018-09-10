@@ -4,7 +4,7 @@ title: "_SAFER_CODE_PROPERTIES_V1"
 author: windows-sdk-content
 description: Contains code image information and criteria to be checked on the code image.
 old-location: security\safer_code_properties_v1.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: E09D287B-7223-4CAF-B404-61FB6871B622
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_CODE_PROPERTIES_V1, *PSAFER_CODE_PROPERTIES_V1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAFER_CODE_PROPERTIES_V1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SAFER_CODE_PROPERTIES_V1, *PSAFER_CODE_PROPERTIES_V1
+req.redist: 
 ---
 
 # _SAFER_CODE_PROPERTIES_V1 structure

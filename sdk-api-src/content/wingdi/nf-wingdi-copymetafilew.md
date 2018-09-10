@@ -4,17 +4,16 @@ title: CopyMetaFileW function
 author: windows-sdk-content
 description: The CopyMetaFile function copies the content of a Windows-format metafile to the specified file.
 old-location: gdi\copymetafile.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - CopyMetaFileW
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CopyMetaFileW function

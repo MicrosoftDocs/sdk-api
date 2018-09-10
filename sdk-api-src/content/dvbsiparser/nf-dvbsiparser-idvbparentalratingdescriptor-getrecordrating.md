@@ -4,17 +4,16 @@ title: IDvbParentalRatingDescriptor::GetRecordRating
 author: windows-sdk-content
 description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordRating, GetRecordRating method [Microsoft TV Technologies], GetRecordRating method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetRecordRating method, IDvbParentalRatingDescriptor.GetRecordRating, IDvbParentalRatingDescriptor::GetRecordRating, dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating, mstv.idvbparentalratingdescriptor_getrecordrating
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbParentalRatingDescriptor.GetRecordRating
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbParentalRatingDescriptor::GetRecordRating

@@ -4,17 +4,16 @@ title: IRendezvousSession::Terminate
 author: windows-sdk-content
 description: Terminates the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_Terminate.htm
-old-project: remoteassist
+tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\terminate.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, IRendezvousSession.Terminate, IRendezvousSession::Terminate, Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RendezvousSession.tlb
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRendezvousSession.Terminate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRendezvousSession::Terminate
@@ -62,7 +60,7 @@ Terminates the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f
 
 ### -param hr
 
-
+TBD
 
 
 ### -param bstrAppData [in]

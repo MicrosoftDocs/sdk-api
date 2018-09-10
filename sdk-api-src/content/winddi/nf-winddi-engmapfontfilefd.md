@@ -4,17 +4,16 @@ title: EngMapFontFileFD function
 author: windows-sdk-content
 description: The EngMapFontFileFD function maps a font file into system memory, if necessary, and returns a pointer to the base location of the font data in the file.
 old-location: display\engmapfontfilefd.htm
-old-project: display
+tech.root: display
 ms.assetid: 582570b0-981f-4852-974f-cb6575c68717
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: EngMapFontFileFD, EngMapFontFileFD function [Display Devices], display.engmapfontfilefd, gdifncs_873b241c-9910-4699-8962-576e6083e1f0.xml, winddi/EngMapFontFileFD
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EngMapFontFileFD
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EngMapFontFileFD function

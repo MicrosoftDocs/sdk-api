@@ -4,17 +4,16 @@ title: IOfflineFilesCache2::RenameItemEx
 author: windows-sdk-content
 description: Renames an item in the cache. This method is identical to the IOfflineFilesCache::RenameItem method, except that it will attempt to do the rename operation right away.
 old-location: of\iofflinefilescache2_renameitemex.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 766ABFE7-4417-47BA-ADF2-AA876C3A868A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesCache2 interface [Offline Files],RenameItemEx method, IOfflineFilesCache2.RenameItemEx, IOfflineFilesCache2::RenameItemEx, RenameItemEx, RenameItemEx method [Offline Files], RenameItemEx method [Offline Files],IOfflineFilesCache2 interface, cscobj/IOfflineFilesCache2::RenameItemEx, of.iofflinefilescache2_renameitemex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1
 req.target-min-winversvr: Windows Server 2008 R2 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache2.RenameItemEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache2::RenameItemEx

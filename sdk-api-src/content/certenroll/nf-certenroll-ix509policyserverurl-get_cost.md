@@ -4,17 +4,16 @@ title: IX509PolicyServerUrl::get_Cost
 author: windows-sdk-content
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509policyserverurl_cost.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 8a188f11-6564-4d52-9b3d-ff7f14f9c127
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Cost property, IX509PolicyServerUrl.Cost, IX509PolicyServerUrl.get_Cost, IX509PolicyServerUrl::Cost, IX509PolicyServerUrl::get_Cost, IX509PolicyServerUrl::put_Cost, certenroll/IX509PolicyServerUrl::Cost, certenroll/IX509PolicyServerUrl::get_Cost, certenroll/IX509PolicyServerUrl::put_Cost, get_Cost, security.ix509policyserverurl_cost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PolicyServerUrl.put_Cost
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerUrl::get_Cost

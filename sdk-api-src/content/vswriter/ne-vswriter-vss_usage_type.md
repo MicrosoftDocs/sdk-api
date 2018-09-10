@@ -4,7 +4,7 @@ title: VSS_USAGE_TYPE
 author: windows-sdk-content
 description: Specifies how the host system uses the data managed by a writer involved in a VSS operation.
 old-location: base\vss_usage_type.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 31997417-d993-4f28-b108-ce1dd8239650
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_USAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_USAGE_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_USAGE_TYPE
+req.redist: 
 ---
 
 # VSS_USAGE_TYPE enumeration

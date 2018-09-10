@@ -4,17 +4,16 @@ title: IMFMediaSession::Shutdown
 author: windows-sdk-content
 description: Shuts down the Media Session and releases all the resources used by the Media Session.
 old-location: mf\imfmediasession_shutdown.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5b9663c2-e32e-4075-b397-59ae01558e15
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 5b9663c2-e32e-4075-b397-59ae01558e15, IMFMediaSession interface [Media Foundation],Shutdown method, IMFMediaSession.Shutdown, IMFMediaSession::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_shutdown, mfidl/IMFMediaSession::Shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSession.Shutdown
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSession::Shutdown

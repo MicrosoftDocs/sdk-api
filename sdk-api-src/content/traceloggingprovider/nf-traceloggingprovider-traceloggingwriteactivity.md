@@ -4,17 +4,16 @@ title: TraceLoggingWriteActivity macro
 author: windows-sdk-content
 description: Emits an event with specific activity IDs.
 old-location: tracelogging\traceloggingwriteactivity.htm
-old-project: tracelogging
+tech.root: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TraceLoggingWriteActivity, TraceLoggingWriteActivity macro, tracelogging.traceloggingwriteactivity, traceloggingprovider/TraceLoggingWriteActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TraceLoggingWriteActivity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TraceLoggingWriteActivity macro

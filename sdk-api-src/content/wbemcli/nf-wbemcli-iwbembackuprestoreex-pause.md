@@ -4,17 +4,16 @@ title: IWbemBackupRestoreEx::Pause
 author: windows-sdk-content
 description: The IWbemBackupRestoreEx::Pause method locks out write operations from the Windows Management Instrumentation (WMI) repository, and may cause read operations to be blocked.
 old-location: wmi\iwbembackuprestoreex_pause.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ce4f2637-cf30-4087-bd49-b26554f434ca
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Pause method, IWbemBackupRestoreEx.Pause, IWbemBackupRestoreEx::Pause, Pause, Pause method [Windows Management Instrumentation], Pause method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Pause, wmi.iwbembackuprestoreex_pause
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Wbemsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemBackupRestoreEx.Pause
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wbemsvc.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemBackupRestoreEx::Pause

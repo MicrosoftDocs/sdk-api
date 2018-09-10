@@ -4,17 +4,16 @@ title: ITaskService::get_ConnectedDomain
 author: windows-sdk-content
 description: Gets the name of the domain to which the TargetServer computer is connected.
 old-location: taskschd\itaskservice_connecteddomain.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 13a67d82-f239-450c-9490-02f07e672a64
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectedDomain property [Task Scheduler], ConnectedDomain property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedDomain property, ITaskService.ConnectedDomain, ITaskService.get_ConnectedDomain, ITaskService::ConnectedDomain, ITaskService::get_ConnectedDomain, get_ConnectedDomain, taskschd.itaskservice_connecteddomain, taskschd/ITaskService::ConnectedDomain, taskschd/ITaskService::get_ConnectedDomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITaskService.get_ConnectedDomain
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskService::get_ConnectedDomain

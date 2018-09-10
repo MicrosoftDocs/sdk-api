@@ -4,17 +4,16 @@ title: CryptUIWizFreeDigitalSignContext function
 author: windows-sdk-content
 description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
 old-location: security\cryptuiwizfreedigitalsigncontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
+req.lib: Cryptui.lib
+req.dll: Cryptui.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CryptUIWizFreeDigitalSignContext
 product: Windows
 targetos: Windows
-req.lib: Cryptui.lib
-req.dll: Cryptui.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CryptUIWizFreeDigitalSignContext function

@@ -4,17 +4,16 @@ title: IMSVidVideoRendererDevices::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidvideorendererdevices_get_count.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4308ed6a-b9c4-46f3-98eb-be23cd49c7dc
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidVideoRendererDevices.get_Count, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRendererDevices.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRendererDevices::get_Count
@@ -62,7 +60,7 @@ The <b>get_Count</b> method retrieves the number of items in the collection.
 
 ### -param lCount
 
-
+TBD
 
 
 

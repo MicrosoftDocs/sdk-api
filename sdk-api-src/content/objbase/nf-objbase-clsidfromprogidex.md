@@ -4,17 +4,16 @@ title: CLSIDFromProgIDEx function
 author: windows-sdk-content
 description: Triggers automatic installation if the COMClassStore policy is enabled.
 old-location: com\clsidfromprogidex.htm
-old-project: com
+tech.root: com
 ms.assetid: 2f937ac1-b214-482a-af4b-8cc8c0c585c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLSIDFromProgIDEx
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CLSIDFromProgIDEx function

@@ -4,7 +4,7 @@ title: "_MINIDUMP_CALLBACK_TYPE"
 author: windows-sdk-content
 description: Identifies the type of information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_type.htm
-old-project: debug
+tech.root: debug
 ms.assetid: c970564d-e1f0-4317-bf66-752b98767451
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_CALLBACK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_CALLBACK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_CALLBACK_TYPE
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_CALLBACK_TYPE enumeration

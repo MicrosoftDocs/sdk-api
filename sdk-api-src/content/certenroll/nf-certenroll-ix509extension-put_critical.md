@@ -4,17 +4,16 @@ title: IX509Extension::put_Critical
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
 old-location: security\ix509extension_critical_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Critical property [Security], Critical property [Security],IX509Extension interface, IX509Extension interface [Security],Critical property, IX509Extension.Critical, IX509Extension.put_Critical, IX509Extension::Critical, IX509Extension::get_Critical, IX509Extension::put_Critical, certenroll/IX509Extension::Critical, certenroll/IX509Extension::get_Critical, certenroll/IX509Extension::put_Critical, put_Critical, security.ix509extension_critical_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509Extension.put_Critical
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Extension::put_Critical

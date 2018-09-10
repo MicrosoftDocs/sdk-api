@@ -4,17 +4,16 @@ title: IImageRecompress::RecompressImage
 author: windows-sdk-content
 description: Recompresses an image. Implemented in an ImageRecompress object, this method accepts x and y dimensions with a designation of quality. The method creates a stream containing the new image that has been recompressed to the specified size.
 old-location: shell\IImageRecompress_RecompressImage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fc215b0-c670-4287-8b6d-9fd6345b6439
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IImageRecompress interface [Windows Shell],RecompressImage method, IImageRecompress.RecompressImage, IImageRecompress::RecompressImage, RecompressImage, RecompressImage method [Windows Shell], RecompressImage method [Windows Shell],IImageRecompress interface, _win32_IImageRecompress_RecompressImage, shell.IImageRecompress_RecompressImage, shobjidl/IImageRecompress::RecompressImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shimgvw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IImageRecompress.RecompressImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shimgvw.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IImageRecompress::RecompressImage

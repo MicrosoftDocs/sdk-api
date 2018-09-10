@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::CopyApplications
 author: windows-sdk-content
 description: Copies the specified COM+ applications from one partition to another.
 old-location: cos\icomadmincatalog2_copyapplications.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 4ddb9cab-2e02-4b96-9216-d6cb064f8107
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CopyApplications, CopyApplications method [COM+], CopyApplications method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyApplications method, ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.CopyApplications
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::CopyApplications

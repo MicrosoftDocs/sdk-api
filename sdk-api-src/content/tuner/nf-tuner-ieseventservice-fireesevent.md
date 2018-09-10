@@ -4,17 +4,16 @@ title: IESEventService::FireESEvent
 author: windows-sdk-content
 description: Raises an event derived from the IESEvent interface.
 old-location: mstv\ieseventservice_fireesevent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3781e50c-ab19-4bfa-86d6-af12223019ca
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: FireESEvent, FireESEvent method [Microsoft TV Technologies], FireESEvent method [Microsoft TV Technologies],IESEventService interface, IESEventService interface [Microsoft TV Technologies],FireESEvent method, IESEventService.FireESEvent, IESEventService::FireESEvent, mstv.ieseventservice_fireesevent, tuner/IESEventService::FireESEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESEventService.FireESEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESEventService::FireESEvent

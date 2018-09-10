@@ -4,17 +4,16 @@ title: PeerPnrpUnregister function
 author: windows-sdk-content
 description: Deregisters a peer from a PNRP cloud.
 old-location: p2p\peerpnrpunregister.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerPnrpUnregister
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerPnrpUnregister function

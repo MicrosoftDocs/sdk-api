@@ -4,7 +4,7 @@ title: linemonitortone_tag
 author: windows-sdk-content
 description: The LINEMONITORTONE structure describes a tone to be monitored. This is used as an entry in an array. The lineMonitorTones and TSPI_lineMonitorTones functions use this structure.
 old-location: tapi2\linemonitortone_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: f2d37591-2f1e-458f-b4d4-ab63eb31d33a
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEMONITORTONE, *LPLINEMONITORTONE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEMONITORTONE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEMONITORTONE, *LPLINEMONITORTONE
+req.redist: 
 ---
 
 # linemonitortone_tag structure

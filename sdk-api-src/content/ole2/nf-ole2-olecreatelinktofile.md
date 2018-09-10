@@ -4,17 +4,16 @@ title: OleCreateLinkToFile function
 author: windows-sdk-content
 description: Creates an object that is linked to a file.
 old-location: com\olecreatelinktofile.htm
-old-project: com
+tech.root: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OleCreateLinkToFile
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleCreateLinkToFile function

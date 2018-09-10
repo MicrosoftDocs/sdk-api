@@ -4,17 +4,16 @@ title: IUIAnimationTransition::SetInitialVelocity
 author: windows-sdk-content
 description: Sets the initial velocity for the transition.
 old-location: uianimation\iuianimationtransition_setinitialvelocity.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: adb5a173-6efa-4b1b-8e2f-1d69288653ae
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialVelocity method, IUIAnimationTransition.SetInitialVelocity, IUIAnimationTransition::SetInitialVelocity, SetInitialVelocity, SetInitialVelocity method [Windows Animation], SetInitialVelocity method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_setinitialvelocity, uianimation/IUIAnimationTransition::SetInitialVelocity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationTransition.SetInitialVelocity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationTransition::SetInitialVelocity

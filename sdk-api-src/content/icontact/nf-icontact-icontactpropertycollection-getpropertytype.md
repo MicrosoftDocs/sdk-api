@@ -4,17 +4,16 @@ title: IContactPropertyCollection::GetPropertyType
 author: windows-sdk-content
 description: Retrieves the type for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyType.htm
-old-project: wincontacts
+tech.root: wincontacts
 ms.assetid: 11977b0c-332a-415a-986f-7fb08246413f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CGD_ARRAY_NODE, CGD_BINARY_PROPERTY, CGD_DATE_PROPERTY, CGD_STRING_PROPERTY, CGD_UNKNOWN_PROPERTY, GetPropertyType, GetPropertyType method [Windows Contacts], GetPropertyType method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyType method, IContactPropertyCollection.GetPropertyType, IContactPropertyCollection::GetPropertyType, _wincontacts_IContactPropertyCollection_GetPropertyType, icontact/IContactPropertyCollection::GetPropertyType, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_FW_SERVICE_TYPE
+req.lib: 
+req.dll: Wab32.dll (Version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IContactPropertyCollection.GetPropertyType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wab32.dll (Version 6.0 or later)
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IContactPropertyCollection::GetPropertyType

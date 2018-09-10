@@ -4,7 +4,7 @@ title: PSET_RESOURCE_STATUS_ROUTINE_EX
 author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatusex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3733F912-9D43-489B-91D8-7128D0F5D1A4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RENDEZVOUS_SESSION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetResourceStatusEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE_EX callback function

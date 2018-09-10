@@ -4,17 +4,16 @@ title: InflateRect function
 author: windows-sdk-content
 description: The InflateRect function increases or decreases the width and height of the specified rectangle.
 old-location: gdi\inflaterect.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: 9a52fb7f-cd35-4426-8753-c26cebef30d5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect, gdi.inflaterect, winuser/InflateRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - InflateRect
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # InflateRect function

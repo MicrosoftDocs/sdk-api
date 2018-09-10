@@ -4,7 +4,7 @@ title: "_DEV_BROADCAST_PORT_A"
 author: windows-sdk-content
 description: Contains information about a modem, serial, or parallel port.
 old-location: base\dev_broadcast_port_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: b8789f1c-7d82-4637-bdb0-016a22b3bc8a
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEV_BROADCAST_PORT_A, *PDEV_BROADCAST_PORT_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DEV_BROADCAST_PORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DEV_BROADCAST_PORT_A, *PDEV_BROADCAST_PORT_A
+req.redist: 
 ---
 
 # _DEV_BROADCAST_PORT_A structure

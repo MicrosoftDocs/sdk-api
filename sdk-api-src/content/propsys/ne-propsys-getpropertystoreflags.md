@@ -4,7 +4,7 @@ title: GETPROPERTYSTOREFLAGS
 author: windows-sdk-content
 description: Indicates flags that modify the property store object retrieved by methods that create a property store, such as IShellItem2::GetPropertyStore or IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\GETPROPERTYSTOREFLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: d3fde1b9-b19f-431d-9cea-bffc289ee683
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GETPROPERTYSTOREFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GETPROPERTYSTOREFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: GETPROPERTYSTOREFLAGS
+req.redist: 
 ---
 
 # GETPROPERTYSTOREFLAGS enumeration

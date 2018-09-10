@@ -4,17 +4,16 @@ title: IWCNDevice::GetNetworkProfile
 author: windows-sdk-content
 description: The IWCNDevice::GetNetworkProfile method gets a network profile from the device.
 old-location: wcn\iwcndevice_getnetworkprofile.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: a4fb0fc3-a45e-444c-953a-fe4fdfb0b327
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNetworkProfile, GetNetworkProfile method [Windows Connect Now], GetNetworkProfile method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetNetworkProfile method, IWCNDevice.GetNetworkProfile, IWCNDevice::GetNetworkProfile, wcn.iwcndevice_getnetworkprofile, wcndevice/IWCNDevice::GetNetworkProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.GetNetworkProfile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::GetNetworkProfile

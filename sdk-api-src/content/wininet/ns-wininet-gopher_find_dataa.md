@@ -4,7 +4,7 @@ title: GOPHER_FIND_DATAA
 author: windows-sdk-content
 description: Contains information retrieved by the GopherFindFirstFile and InternetFindNextFile functions.
 old-location: wininet\gopher_find_data.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 53bcba70-2d6a-465a-86ec-4b11b1474ee1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GOPHER_FIND_DATAA, *LPGOPHER_FIND_DATAA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GOPHER_FIND_DATAW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: GOPHER_FIND_DATAA, *LPGOPHER_FIND_DATAA
+req.redist: 
 ---
 
 # GOPHER_FIND_DATAA structure

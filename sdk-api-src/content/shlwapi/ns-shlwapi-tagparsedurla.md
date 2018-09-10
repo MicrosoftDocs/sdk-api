@@ -4,7 +4,7 @@ title: tagPARSEDURLA
 author: windows-sdk-content
 description: Used by the ParseURL function to return the parsed URL.
 old-location: shell\PARSEDURL.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9092dd7a-ff5b-465f-a808-ef4e0067f540
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PARSEDURLA, *PPARSEDURLA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PARSEDURLW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: PARSEDURLA, *PPARSEDURLA
+req.redist: 
 ---
 
 # tagPARSEDURLA structure

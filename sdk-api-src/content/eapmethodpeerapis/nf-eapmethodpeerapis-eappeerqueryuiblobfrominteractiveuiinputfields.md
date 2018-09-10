@@ -4,17 +4,16 @@ title: EapPeerQueryUIBlobFromInteractiveUIInputFields function
 author: windows-sdk-content
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
 old-location: eaphost\eappeerqueryuiblobfrominteractiveuiinputfields.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: bfb8906e-7adb-4c69-bd13-7c5239d392af
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapPeerQueryUIBlobFromInteractiveUIInputFields
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapPeerQueryUIBlobFromInteractiveUIInputFields function

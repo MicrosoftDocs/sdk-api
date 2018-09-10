@@ -4,17 +4,16 @@ title: GetUrlCacheEntryInfoW function
 author: windows-sdk-content
 description: Retrieves information about a cache entry.
 old-location: wininet\geturlcacheentryinfo.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetUrlCacheEntryInfo, GetUrlCacheEntryInfo function [WinINet], GetUrlCacheEntryInfoA, GetUrlCacheEntryInfoW, _inet_geturlcacheentryinfo_function, wininet.geturlcacheentryinfo, wininet/GetUrlCacheEntryInfo, wininet/GetUrlCacheEntryInfoA, wininet/GetUrlCacheEntryInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetUrlCacheEntryInfoW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetUrlCacheEntryInfoW function

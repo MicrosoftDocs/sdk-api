@@ -4,17 +4,16 @@ title: BufferedPaintStopAllAnimations function
 author: windows-sdk-content
 description: Stops all buffered animations for the given window.
 old-location: controls\BufferedPaintStopAllAnimations.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintstopallanimations.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BufferedPaintStopAllAnimations, BufferedPaintStopAllAnimations function [Windows Controls], _shell_BufferedPaintStopAllAnimations, _shell_BufferedPaintStopAllAnimations_cpp, controls.BufferedPaintStopAllAnimations, controls._shell_BufferedPaintStopAllAnimations, uxtheme/BufferedPaintStopAllAnimations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: 
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - BufferedPaintStopAllAnimations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # BufferedPaintStopAllAnimations function

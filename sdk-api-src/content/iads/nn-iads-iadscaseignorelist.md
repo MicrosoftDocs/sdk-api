@@ -4,7 +4,7 @@ title: IADsCaseIgnoreList
 author: windows-sdk-content
 description: The IADsCaseIgnoreList interface provides methods for an ADSI client to access the Case Ignore List attribute. You can call the property methods of this interface to obtain and modify the attribute.
 old-location: adsi\iadscaseignorelist.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsCaseIgnoreList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsCaseIgnoreList interface

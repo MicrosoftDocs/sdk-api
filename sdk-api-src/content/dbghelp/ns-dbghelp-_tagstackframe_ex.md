@@ -4,7 +4,7 @@ title: "_tagSTACKFRAME_EX"
 author: windows-sdk-content
 description: Represents an extended stack frame.
 old-location: base\stackframe_ex.htm
-old-project: debug
+tech.root: debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.2 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STACKFRAME_EX, *LPSTACKFRAME_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - STACKFRAME_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: STACKFRAME_EX, *LPSTACKFRAME_EX
+req.redist: DbgHelp.dll 6.2 or later
 ---
 
 # _tagSTACKFRAME_EX structure

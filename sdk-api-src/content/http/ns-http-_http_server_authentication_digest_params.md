@@ -4,7 +4,7 @@ title: "_HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS"
 author: windows-sdk-content
 description: Contains the information for digest authentication on a URL Group.
 old-location: http\http_server_authentication_digest_params.htm
-old-project: http
+tech.root: http
 ms.assetid: 923d06ed-8f34-46b6-98d8-96828848dca8
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, *PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, *PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+req.redist: 
 ---
 
 # _HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure

@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::get_ApplicationFilter
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapiviewer_applicationfilter.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 984c7238-99ba-438f-b122-e952f95e018d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPIViewer interface, ApplicationFilter property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],ApplicationFilter property, IRDPSRAPIViewer.ApplicationFilter, IRDPSRAPIViewer.get_ApplicationFilter, IRDPSRAPIViewer::ApplicationFilter, IRDPSRAPIViewer::get_ApplicationFilter, RDPViewer object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapiviewer_applicationfilter, rdpencomapi/IRDPSRAPIViewer::ApplicationFilter, rdpencomapi/IRDPSRAPIViewer::get_ApplicationFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPViewer.ApplicationFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::get_ApplicationFilter

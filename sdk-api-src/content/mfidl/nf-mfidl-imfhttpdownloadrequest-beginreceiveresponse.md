@@ -4,17 +4,16 @@ title: IMFHttpDownloadRequest::BeginReceiveResponse
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.
 old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFHttpDownloadRequest.BeginReceiveResponse
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFHttpDownloadRequest::BeginReceiveResponse

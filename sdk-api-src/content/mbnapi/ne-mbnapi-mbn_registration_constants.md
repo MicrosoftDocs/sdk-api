@@ -4,7 +4,7 @@ title: MBN_REGISTRATION_CONSTANTS
 author: windows-sdk-content
 description: The MBN_REGISTRATION_CONSTANTS enumerated type contains specific values used by IMbnRegistration interface operations.
 old-location: mbn\mbn_registration_constants.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: d4b0aa6b-899c-493c-9822-92c2710006e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_REGISTRATION_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_REGISTRATION_CONSTANTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_REGISTRATION_CONSTANTS
+req.redist: 
 ---
 
 # MBN_REGISTRATION_CONSTANTS enumeration

@@ -4,17 +4,16 @@ title: IWSDHttpAuthParameters::GetClientAccessToken
 author: windows-sdk-content
 description: GetClientAccessToken method retrieves the client access token that can be used to either authenticate or impersonate the client.
 old-location: ncd\iwsdhttpauthparameters_getclientaccesstoken.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 8E214497-151C-486B-8FE9-7B481AD403F9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetClientAccessToken, GetClientAccessToken method, GetClientAccessToken method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetClientAccessToken method, IWSDHttpAuthParameters.GetClientAccessToken, IWSDHttpAuthParameters::GetClientAccessToken, ncd.iwsdhttpauthparameters_getclientaccesstoken, wsdbase/IWSDHttpAuthParameters::GetClientAccessToken
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDHttpAuthParameters.GetClientAccessToken
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDHttpAuthParameters::GetClientAccessToken

@@ -4,7 +4,7 @@ title: SAMPLE_PROTECTION_VERSION
 author: windows-sdk-content
 description: Defines the version number for sample protection.
 old-location: mf\sample_protection_version.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 5244ac44-5738-4d77-9dc5-371efe52ced9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAMPLE_PROTECTION_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAMPLE_PROTECTION_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: SAMPLE_PROTECTION_VERSION
+req.redist: 
 ---
 
 # SAMPLE_PROTECTION_VERSION enumeration

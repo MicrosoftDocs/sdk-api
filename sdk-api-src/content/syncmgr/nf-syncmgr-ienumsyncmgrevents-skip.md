@@ -4,17 +4,16 @@ title: IEnumSyncMgrEvents::Skip
 author: windows-sdk-content
 description: Skips forward the specified number of events in the enumeration.
 old-location: shell\IEnumSyncMgrEvents_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6e8257e8-fab3-407c-a6d0-26a7a9ca0961
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Skip method, IEnumSyncMgrEvents.Skip, IEnumSyncMgrEvents::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Skip, shell.IEnumSyncMgrEvents_Skip, syncmgr/IEnumSyncMgrEvents::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumSyncMgrEvents.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumSyncMgrEvents::Skip

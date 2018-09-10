@@ -4,17 +4,16 @@ title: IRDPSRAPIVirtualChannelManager::get__NewEnum
 author: windows-sdk-content
 description: An enumerator interface for the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager__newenum.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 791a7d27-b4c0-4476-b048-16bfee0eb7f4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],_NewEnum property, IRDPSRAPIVirtualChannelManager._NewEnum, IRDPSRAPIVirtualChannelManager.get__NewEnum, IRDPSRAPIVirtualChannelManager::_NewEnum, IRDPSRAPIVirtualChannelManager::get__NewEnum, RDPSRAPIVirtualChannelManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIVirtualChannelManager interface, _NewEnum property [RDP],RDPSRAPIVirtualChannelManager object, get__NewEnum, rdp.irdpsrapivirtualchannelmanager__newenum, rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum, rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPSRAPIVirtualChannelManager._NewEnum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIVirtualChannelManager::get__NewEnum

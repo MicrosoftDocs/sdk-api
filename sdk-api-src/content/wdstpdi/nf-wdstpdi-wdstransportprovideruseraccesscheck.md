@@ -4,17 +4,16 @@ title: WdsTransportProviderUserAccessCheck function
 author: windows-sdk-content
 description: Specifies access to a content stream based on a user's token.
 old-location: wds\wdstransportprovideruseraccesscheck.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsTransportProviderUserAccessCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsTransportProviderUserAccessCheck function

@@ -4,17 +4,16 @@ title: IBasicVideo::get_BitRate
 author: windows-sdk-content
 description: The get_BitRate method retrieves the approximate bit rate of the video stream.
 old-location: dshow\ibasicvideo_get_bitrate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: aae4c41d-4cab-4c49-9733-44ba5e0e03bb
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitRate method, IBasicVideo.get_BitRate, IBasicVideo::get_BitRate, IBasicVideoget_BitRate, control/IBasicVideo::get_BitRate, dshow.ibasicvideo_get_bitrate, get_BitRate, get_BitRate method [DirectShow], get_BitRate method [DirectShow],IBasicVideo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBasicVideo.get_BitRate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBasicVideo::get_BitRate

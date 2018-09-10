@@ -2,19 +2,18 @@
 UID: NF:mergemod.IMsmConfigurableItem.get_Type
 title: IMsmConfigurableItem::get_Type
 author: windows-sdk-content
-description: The Type property returns the value from the Type column of the ModuleConfiguration table .
-old-location: setup\configurableitem_type.htm
-old-project: msi
-ms.assetid: af2cb859-2e9d-4bca-867b-cdc61d9758cd
+description: The get_Type method retrieves the Type property of the ConfigurableItem object.
+old-location: setup\imsmconfigurableitem_get_type.htm
+tech.root: msi
+ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
-ms.keywords: ConfigurableItem object,Type property, ConfigurableItem.Type, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, Type property, Type property,ConfigurableItem object, _msi_type_property_configurableitem_object_, get_Type, setup.configurableitem_type
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Mergemod.dll 2.0 or later
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN32_MEMORY_REGION_INFORMATION
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - ConfigurableItem.Type
  - IMsmConfigurableItem.get_Type
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mergemod.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMsmConfigurableItem::get_Type
@@ -54,10 +51,116 @@ req.product: GDI+ 1.1
 
 
 The 
-<b>Type</b> property returns the value from the Type column of the ModuleConfiguration table .
-
-This property is read-only.
+<b>get_Type</b> method retrieves the 
+<a href="https://msdn.microsoft.com/af2cb859-2e9d-4bca-867b-cdc61d9758cd">Type</a> property of the 
+<a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object.
 
 
 ## -parameters
+
+
+
+
+### -param Type [out]
+
+A pointer to a location in memory with the format of a configurable item listed in the Type column of the 
+<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer needed.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+Invalid argument.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+No module is open.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Out of memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_FUNCTION_FAILED as HRESULT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function failed.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_INVALID_HANDLE as HRESULT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function failed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d10bfd31-22a8-4100-ac0b-dd0795622808">IMsmConfigurableItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
 

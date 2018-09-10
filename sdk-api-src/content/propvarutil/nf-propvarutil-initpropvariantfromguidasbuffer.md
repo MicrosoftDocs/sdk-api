@@ -4,17 +4,16 @@ title: InitPropVariantFromGUIDAsBuffer function
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_VECTOR | VT_UI1.
 old-location: properties\InitPropVariantFromGUIDAsBuffer.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 9ff3ec09-3314-4830-b970-b33f5a53d66c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitPropVariantFromGUIDAsBuffer, InitPropVariantFromGUIDAsBuffer function [Windows Properties], properties.InitPropVariantFromGUIDAsBuffer, propvarutil/InitPropVariantFromGUIDAsBuffer, shell.InitPropVariantFromGUIDAsBuffer, shell_InitPropVariantFromGUIDAsBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitPropVariantFromGUIDAsBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # InitPropVariantFromGUIDAsBuffer function

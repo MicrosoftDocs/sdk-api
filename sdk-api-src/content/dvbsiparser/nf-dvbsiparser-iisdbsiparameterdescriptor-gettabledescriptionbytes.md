@@ -4,17 +4,16 @@ title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes
 author: windows-sdk-content
 description: Gets description data from a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbSIParameterDescriptor.GetTableDescriptionBytes
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbSIParameterDescriptor::GetTableDescriptionBytes

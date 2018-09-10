@@ -4,17 +4,16 @@ title: GetNamedPipeHandleStateA function
 author: windows-sdk-content
 description: Retrieves information about a specified named pipe.
 old-location: base\getnamedpipehandlestate.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: a28003f0-f488-4ac3-91bf-dd7c5e87ea66
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - GetNamedPipeHandleStateW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNamedPipeHandleStateA function

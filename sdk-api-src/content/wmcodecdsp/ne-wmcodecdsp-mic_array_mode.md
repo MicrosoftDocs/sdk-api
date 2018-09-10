@@ -4,7 +4,7 @@ title: MIC_ARRAY_MODE
 author: windows-sdk-content
 description: Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_MICARR_MODE property.
 old-location: mf\mic_array_modeenumeration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 95335d2e-94f9-4e8d-b578-a4d08055bb56
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcodecdsp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIC_ARRAY_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIC_ARRAY_MODE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MIC_ARRAY_MODE
+req.redist: 
 ---
 
 # MIC_ARRAY_MODE enumeration

@@ -4,7 +4,7 @@ title: SHELLFLAGSTATE
 author: windows-sdk-content
 description: Contains a set of flags that indicate the current Shell settings. This structure is used with the SHGetSettings function.
 old-location: shell\SHELLFLAGSTATE.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9968c7c9-79d9-4fb1-bda2-d6a2504cd3a3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELLFLAGSTATE, *LPSHELLFLAGSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHELLFLAGSTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: SHELLFLAGSTATE, *LPSHELLFLAGSTATE
+req.redist: 
 ---
 
 # SHELLFLAGSTATE structure

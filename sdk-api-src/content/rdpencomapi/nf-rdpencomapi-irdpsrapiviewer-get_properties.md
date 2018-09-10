@@ -4,17 +4,16 @@ title: IRDPSRAPIViewer::get_Properties
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPISessionProperties interface.
 old-location: rdp\irdpsrapiviewer_properties.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 86930ad8-6389-47b9-9397-0662a0a36f04
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Properties property, IRDPSRAPIViewer.Properties, IRDPSRAPIViewer.get_Properties, IRDPSRAPIViewer::Properties, IRDPSRAPIViewer::get_Properties, Properties property [RDP], Properties property [RDP],IRDPSRAPIViewer interface, Properties property [RDP],RDPViewer object, RDPViewer object [RDP],Properties property, get_Properties, rdp.irdpsrapiviewer_properties, rdpencomapi/IRDPSRAPIViewer::Properties, rdpencomapi/IRDPSRAPIViewer::get_Properties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RDPViewer.Properties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPIViewer::get_Properties

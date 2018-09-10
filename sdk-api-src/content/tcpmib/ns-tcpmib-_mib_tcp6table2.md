@@ -4,7 +4,7 @@ title: "_MIB_TCP6TABLE2"
 author: windows-sdk-content
 description: Contains a table of IPv6 TCP connections on the local computer.
 old-location: mib\mib_tcp6table2.htm
-old-project: mib
+tech.root: mib
 ms.assetid: 3cb8568e-ce31-4ed1-aa9e-abcb826c0cea
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MIB_TCP6TABLE2, *PMIB_TCP6TABLE2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MIB_TCP6TABLE2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MIB_TCP6TABLE2, *PMIB_TCP6TABLE2
+req.redist: 
 ---
 
 # _MIB_TCP6TABLE2 structure

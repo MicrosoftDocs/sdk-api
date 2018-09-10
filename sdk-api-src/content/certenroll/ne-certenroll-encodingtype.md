@@ -4,7 +4,7 @@ title: EncodingType
 author: windows-sdk-content
 description: Specifies the type of encoding applied to a byte array for display purposes.
 old-location: security\encodingtype_enum.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b42628ae-deed-497b-a20f-d175843b79c2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EncodingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - EncodingType
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certenc.dll
-req.irql: 
+req.typenames: EncodingType
+req.redist: 
 ---
 
 # EncodingType enumeration

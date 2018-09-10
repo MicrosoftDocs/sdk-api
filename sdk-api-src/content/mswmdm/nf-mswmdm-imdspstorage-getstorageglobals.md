@@ -4,17 +4,16 @@ title: IMDSPStorage::GetStorageGlobals
 author: windows-sdk-content
 description: The GetStorageGlobals method retrieves the IMDSPStorageGlobals interface to provide access to global information about a storage medium.
 old-location: wmdm\imdspstorage_getstorageglobals.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 93c963ea-9b00-4897-838c-fdc06c781a2d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetStorageGlobals method, IMDSPStorage.GetStorageGlobals, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPStorage.GetStorageGlobals
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPStorage::GetStorageGlobals

@@ -4,17 +4,16 @@ title: IShellMenu::InvalidateItem
 author: windows-sdk-content
 description: Redraws an item in a menu band.
 old-location: shell\IShellMenu_InvalidateItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 694722f2-2030-4c85-bcc4-70f8a8b70161
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellMenu interface [Windows Shell],InvalidateItem method, IShellMenu.InvalidateItem, IShellMenu::InvalidateItem, InvalidateItem, InvalidateItem method [Windows Shell], InvalidateItem method [Windows Shell],IShellMenu interface, _shell_IShellMenu_InvalidateItem, shell.IShellMenu_InvalidateItem, shobjidl_core/IShellMenu::InvalidateItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.InvalidateItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::InvalidateItem

@@ -4,17 +4,16 @@ title: NetRenameMachineInDomain function
 author: windows-sdk-content
 description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
 old-location: netmgmt\netrenamemachineindomain.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetRenameMachineInDomain
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetRenameMachineInDomain function

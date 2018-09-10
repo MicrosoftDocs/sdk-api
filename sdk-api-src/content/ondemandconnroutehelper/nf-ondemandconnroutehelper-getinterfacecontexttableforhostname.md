@@ -4,17 +4,16 @@ title: GetInterfaceContextTableForHostName function
 author: windows-sdk-content
 description: This function retrieves an interface context table for the given hostname and connection profile filter.
 old-location: nla\getinterfacecontexttableforhostname.htm
-old-project: nla
+tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEVERB, *LPOLEVERB
+req.lib: OnDemandConnRouteHelper.lib
+req.dll: OnDemandConnRouteHelper.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetInterfaceContextTableForHostName
 product: Windows
 targetos: Windows
-req.lib: OnDemandConnRouteHelper.lib
-req.dll: OnDemandConnRouteHelper.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetInterfaceContextTableForHostName function

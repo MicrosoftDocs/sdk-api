@@ -4,7 +4,7 @@ title: FOLDERFLAGS
 author: windows-sdk-content
 description: A set of flags that specify folder view options. The flags are independent of each other and can be used in any combination.
 old-location: shell\FOLDERFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: e471b81a-da4d-48c0-8c7f-996b507d27a1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FOLDERFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FOLDERFLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: FOLDERFLAGS
+req.redist: 
 ---
 
 # FOLDERFLAGS enumeration

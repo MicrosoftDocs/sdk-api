@@ -4,17 +4,16 @@ title: INameSpaceTreeControl::Initialize
 author: windows-sdk-content
 description: Initializes an INameSpaceTreeControl object.
 old-location: shell\INameSpaceTreeControl_Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],Initialize method, INameSpaceTreeControl.Initialize, INameSpaceTreeControl::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_Initialize, shell.INameSpaceTreeControl_Initialize, shobjidl_core/INameSpaceTreeControl::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControl.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControl::Initialize

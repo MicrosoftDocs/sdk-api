@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_UIAnimation_0000_0010_0001"
 author: windows-sdk-content
 description: Defines which aspects of an interpolator depend on a given input.
 old-location: uianimation\ui_animation_dependencies.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 3620723e-5c9b-4d6a-8576-9017fa449a5d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and Platform Update for Windows Vista, Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_DEPENDENCIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_ANIMATION_DEPENDENCIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: UI_ANIMATION_DEPENDENCIES
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_UIAnimation_0000_0010_0001 enumeration

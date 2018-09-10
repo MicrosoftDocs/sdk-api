@@ -4,7 +4,7 @@ title: D3D11_FENCE_FLAG
 author: windows-sdk-content
 description: Specifies fence options.
 old-location: direct3d11\d3d11_fence_flag.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 745B72A2-628C-477E-8534-336E73B5268A
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_FENCE_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_FENCE_FLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_FENCE_FLAG
+req.redist: 
 ---
 
 # D3D11_FENCE_FLAG enumeration

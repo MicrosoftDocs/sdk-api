@@ -4,17 +4,16 @@ title: PSGetPropertyDescriptionByName function
 author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property name.
 old-location: properties\PSGetPropertyDescriptionByName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSGetPropertyDescriptionByName
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSGetPropertyDescriptionByName function

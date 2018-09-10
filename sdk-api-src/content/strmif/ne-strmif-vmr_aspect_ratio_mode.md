@@ -4,7 +4,7 @@ title: VMR_ASPECT_RATIO_MODE
 author: windows-sdk-content
 description: The VMR_ASPECT_RATIO_MODE enumeration type describes whether the Video Mixing Renderer Filter 7 preserves the aspect ratio of the source video.
 old-location: dshow\vmr_aspect_ratio_mode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: dd1d1d99-008b-4234-a38a-314ba02bb116
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR_ASPECT_RATIO_MODE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR_ASPECT_RATIO_MODE
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: VMR_ASPECT_RATIO_MODE
+req.redist: 
 ---
 
 # VMR_ASPECT_RATIO_MODE enumeration

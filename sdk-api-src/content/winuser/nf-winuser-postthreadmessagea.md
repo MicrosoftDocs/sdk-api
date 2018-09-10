@@ -4,17 +4,16 @@ title: PostThreadMessageA function
 author: windows-sdk-content
 description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
 old-location: winmsg\postthreadmessage.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PostThreadMessage, PostThreadMessage function [Windows and Messages], PostThreadMessageA, PostThreadMessageW, _win32_PostThreadMessage, _win32_postthreadmessage_cpp, winmsg.postthreadmessage, winui._win32_postthreadmessage, winuser/PostThreadMessage, winuser/PostThreadMessageA, winuser/PostThreadMessageW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,10 +51,8 @@ api_name:
  - PostThreadMessageW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # PostThreadMessageA function

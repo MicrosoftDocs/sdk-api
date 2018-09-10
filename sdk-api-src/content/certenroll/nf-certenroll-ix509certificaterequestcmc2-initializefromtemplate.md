@@ -4,17 +4,16 @@ title: IX509CertificateRequestCmc2::InitializeFromTemplate
 author: windows-sdk-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestcmc2_initializefromtemplate.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 576e3349-1da7-4f1e-9410-a72c30e22063
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCmc2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCmc2.InitializeFromTemplate, IX509CertificateRequestCmc2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromTemplate, security.ix509certificaterequestcmc2_initializefromtemplate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestCmc2.InitializeFromTemplate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestCmc2::InitializeFromTemplate
@@ -61,7 +60,7 @@ The <b>InitializeFromTemplate</b> method initializes the certificate request by 
 
 ### -param context
 
-
+TBD
 
 
 ### -param pPolicyServer [in]

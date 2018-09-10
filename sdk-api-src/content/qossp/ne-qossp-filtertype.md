@@ -4,7 +4,7 @@ title: FilterType
 author: windows-sdk-content
 description: The FilterType enumeration specifies the type of filter used for an RSVP FILTERSPEC.
 old-location: qos\filtertype.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: e9e961ed-80a8-4694-a11d-f6cd323ec2ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: qossp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FilterType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FilterType
+req.redist: 
 ---
 
 # FilterType enumeration

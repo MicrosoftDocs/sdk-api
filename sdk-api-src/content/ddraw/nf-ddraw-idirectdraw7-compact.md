@@ -4,17 +4,16 @@ title: IDirectDraw7::Compact
 author: windows-sdk-content
 description: This method is not currently implemented.
 old-location: directdraw\idirectdraw7_compact.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: ae417266-5c75-4f7f-b892-f99e5e25e5f4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Compact, Compact method [DirectDraw], Compact method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],Compact method, IDirectDraw7.Compact, IDirectDraw7::Compact, ddraw/IDirectDraw7::Compact, directdraw.idirectdraw7_compact
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDraw7.Compact
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDraw7::Compact

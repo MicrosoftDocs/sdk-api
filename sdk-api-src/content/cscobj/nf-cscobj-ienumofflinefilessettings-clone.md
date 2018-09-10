@@ -4,17 +4,16 @@ title: IEnumOfflineFilesSettings::Clone
 author: windows-sdk-content
 description: Creates a new instance of the enumerator with the same enumeration state as the current one.
 old-location: of\ienumofflinefilessettings_clone.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 85c2e5a3-4b1c-4a21-8693-804c088a7a56
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesSettings interface, IEnumOfflineFilesSettings interface [Offline Files],Clone method, IEnumOfflineFilesSettings.Clone, IEnumOfflineFilesSettings::Clone, cscobj/IEnumOfflineFilesSettings::Clone, of.ienumofflinefilessettings_clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumOfflineFilesSettings.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumOfflineFilesSettings::Clone

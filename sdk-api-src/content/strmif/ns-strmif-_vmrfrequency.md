@@ -4,7 +4,7 @@ title: "_VMRFrequency"
 author: windows-sdk-content
 description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmrfrequency.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMRFrequency
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - VMRFrequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: VMRFrequency
+req.redist: 
 req.product: Windows XP with SP1 and later
 ---
 

@@ -4,17 +4,16 @@ title: SetupSetSourceListA function
 author: windows-sdk-content
 description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users).
 old-location: setup\setupsetsourcelist.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupSetSourceListW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupSetSourceListA function

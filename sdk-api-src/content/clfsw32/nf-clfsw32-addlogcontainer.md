@@ -4,17 +4,16 @@ title: AddLogContainer function
 author: windows-sdk-content
 description: Adds a container to the physical log that is associated with the log handle&#8212;if the calling process has write access to the .blf file and the ability to create files in the target directory of the container.
 old-location: fs\addlogcontainer.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AddLogContainer
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AddLogContainer function

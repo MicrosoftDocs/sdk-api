@@ -4,17 +4,16 @@ title: IsVolumeSnapshotted function
 author: windows-sdk-content
 description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.
 old-location: base\isvolumesnapshotted.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: VssApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IsVolumeSnapshottedInternal
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: VssApi.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IsVolumeSnapshotted function

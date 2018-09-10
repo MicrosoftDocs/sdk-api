@@ -4,17 +4,16 @@ title: IUICollectionChangedEvent::OnChanged
 author: windows-sdk-content
 description: Called when an IUICollection changes.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUICollectionChangedEvent.OnChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

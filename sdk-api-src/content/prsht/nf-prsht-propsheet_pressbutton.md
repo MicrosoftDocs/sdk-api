@@ -4,17 +4,16 @@ title: PropSheet_PressButton macro
 author: windows-sdk-content
 description: Simulates the selection of a property sheet button. You can use this macro or send the PSM_PRESSBUTTON message explicitly.
 old-location: controls\PropSheet_PressButton.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pressbutton.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP, PSBTN_NEXT, PSBTN_OK, PropSheet_PressButton, PropSheet_PressButton macro [Windows Controls], _win32_PropSheet_PressButton, _win32_PropSheet_PressButton_cpp, controls.PropSheet_PressButton, controls._win32_PropSheet_PressButton, prsht/PropSheet_PressButton
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PropSheet_PressButton
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PropSheet_PressButton macro

@@ -4,7 +4,7 @@ title: IKEEXT_CERTIFICATE_CRITERIA0_
 author: windows-sdk-content
 description: Contains a set of criteria to applied to an authentication method.
 old-location: fwp\ikeext_certificate_criteria0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CERTIFICATE_CRITERIA0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CERTIFICATE_CRITERIA0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CERTIFICATE_CRITERIA0
+req.redist: 
 ---
 
 # IKEEXT_CERTIFICATE_CRITERIA0_ structure

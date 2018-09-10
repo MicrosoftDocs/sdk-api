@@ -4,7 +4,7 @@ title: CF_REGISTER_FLAGS
 author: windows-sdk-content
 description: Flags for registering and updating a sync root.
 old-location: cloudapi\cf_register_flags.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 043670D7-5908-40B5-82A8-EFF05FCB391B
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_REGISTER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_REGISTER_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_REGISTER_FLAGS
+req.redist: 
 ---
 
 # CF_REGISTER_FLAGS enumeration

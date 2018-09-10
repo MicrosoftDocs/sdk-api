@@ -4,7 +4,7 @@ title: "_EAP_INTERACTIVE_UI_DATA"
 author: windows-sdk-content
 description: Contains configuration information for interactive UI components raised on an EAP supplicant.
 old-location: eaphost\eap_interactive_ui_data.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 68141611-4a1c-409e-8ed2-3d21a76640c3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_INTERACTIVE_UI_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EAP_INTERACTIVE_UI_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EAP_INTERACTIVE_UI_DATA
+req.redist: 
 ---
 
 # _EAP_INTERACTIVE_UI_DATA structure

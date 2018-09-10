@@ -4,17 +4,16 @@ title: SetupGetFileCompressionInfoA function
 author: windows-sdk-content
 description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file.
 old-location: setup\setupgetfilecompressioninfo.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 68bcfbb3-f0ba-412b-9ed2-e2139099fcf2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupGetFileCompressionInfo, SetupGetFileCompressionInfo function [Setup API], SetupGetFileCompressionInfoA, SetupGetFileCompressionInfoW, _setupapi_setupgetfilecompressioninfo, setup.setupgetfilecompressioninfo, setupapi/SetupGetFileCompressionInfo, setupapi/SetupGetFileCompressionInfoA, setupapi/SetupGetFileCompressionInfoW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupGetFileCompressionInfoW
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupGetFileCompressionInfoA function

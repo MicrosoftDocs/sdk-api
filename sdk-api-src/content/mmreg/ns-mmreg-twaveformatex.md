@@ -4,7 +4,7 @@ title: tWAVEFORMATEX
 author: windows-sdk-content
 description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
 old-location: audio\waveformatex.htm
-old-project: audio
+tech.root: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WAVEFORMATEX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
+req.redist: 
 ---
 
 # tWAVEFORMATEX structure

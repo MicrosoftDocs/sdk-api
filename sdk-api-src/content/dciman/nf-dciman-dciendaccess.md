@@ -4,17 +4,16 @@ title: DCIEndAccess function
 author: windows-sdk-content
 description: Releases access to display frame buffer.
 old-location: winprog\_dciman_dciendaccess.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciendaccess.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DCIEndAccess, DCIEndAccess function [Windows API], _dciman_dciendaccess, dciman/DCIEndAccess, winprog._dciman_dciendaccess, winui._dciman_dciendaccess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEV_BROADCAST_VOLUME
+req.lib: Dciman32.lib
+req.dll: Dciman32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DCIEndAccess
 product: Windows
 targetos: Windows
-req.lib: Dciman32.lib
-req.dll: Dciman32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DCIEndAccess function

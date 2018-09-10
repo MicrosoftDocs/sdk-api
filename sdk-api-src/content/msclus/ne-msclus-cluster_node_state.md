@@ -4,7 +4,7 @@ title: CLUSTER_NODE_STATE
 author: windows-sdk-content
 description: Describes the state of a cluster node.
 old-location: mscs\cluster_node_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NODE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_NODE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_NODE_STATE
+req.redist: 
 ---
 
 # CLUSTER_NODE_STATE enumeration

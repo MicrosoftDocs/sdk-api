@@ -4,17 +4,16 @@ title: SetupDiSetDeviceInterfacePropertyW function
 author: windows-sdk-content
 description: The SetupDiSetDeviceInterfaceProperty function sets a device property of a device interface.
 old-location: devinst\setupdisetdeviceinterfaceproperty.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: DesktopFor universal, call CM_Set_Device_Interface_Property
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - SetupDiSetDeviceInterfaceProperty
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupDiSetDeviceInterfacePropertyW function

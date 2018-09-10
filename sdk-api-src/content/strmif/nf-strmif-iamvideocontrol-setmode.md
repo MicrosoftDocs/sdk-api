@@ -4,17 +4,16 @@ title: IAMVideoControl::SetMode
 author: windows-sdk-content
 description: The SetMode method sets the video control mode of operation.
 old-location: dshow\iamvideocontrol_setmode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 09fe5d3f-41d8-4a60-a770-64c628a6b82d
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVideoControl interface [DirectShow],SetMode method, IAMVideoControl.SetMode, IAMVideoControl::SetMode, IAMVideoControlSetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IAMVideoControl interface, dshow.iamvideocontrol_setmode, strmif/IAMVideoControl::SetMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoControl.SetMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoControl::SetMode

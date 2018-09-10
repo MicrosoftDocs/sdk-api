@@ -4,7 +4,7 @@ title: "_BCRYPT_DSA_KEY_BLOB_V2"
 author: windows-sdk-content
 description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
 old-location: security\bcrypt_dsa_key_blob_v2.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: E8240DE1-B65F-4DAC-92C9-45725435A0F7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_DSA_KEY_BLOB_V2, *PBCRYPT_DSA_KEY_BLOB_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_DSA_KEY_BLOB_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_DSA_KEY_BLOB_V2, *PBCRYPT_DSA_KEY_BLOB_V2
+req.redist: 
 ---
 
 # _BCRYPT_DSA_KEY_BLOB_V2 structure

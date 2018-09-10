@@ -4,17 +4,16 @@ title: IVdsOpenVDisk::Attach
 author: windows-sdk-content
 description: Attaches a virtual disk.
 old-location: base\ivdsopenvdisk_attach.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 02647fe6-b94c-43ac-939c-262cea2c49d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, Attach, Attach method, Attach method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Attach method, IVdsOpenVDisk.Attach, IVdsOpenVDisk::Attach, base.ivdsopenvdisk_attach, vds/IVdsOpenVDisk::Attach
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsOpenVDisk.Attach
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsOpenVDisk::Attach

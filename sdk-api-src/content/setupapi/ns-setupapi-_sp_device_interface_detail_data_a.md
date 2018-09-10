@@ -4,7 +4,7 @@ title: "_SP_DEVICE_INTERFACE_DETAIL_DATA_A"
 author: windows-sdk-content
 description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.
 old-location: devinst\sp_device_interface_detail_data.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 9dd44297-6e51-425d-a355-f2ea78757bf7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_DEVICE_INTERFACE_DETAIL_DATA_A, *PSP_DEVICE_INTERFACE_DETAIL_DATA_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_DEVICE_INTERFACE_DETAIL_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_DEVICE_INTERFACE_DETAIL_DATA_A, *PSP_DEVICE_INTERFACE_DETAIL_DATA_A
+req.redist: 
 ---
 
 # _SP_DEVICE_INTERFACE_DETAIL_DATA_A structure

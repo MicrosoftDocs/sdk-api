@@ -4,7 +4,7 @@ title: "_BLUETOOTH_GATT_VALUE_CHANGED_EVENT"
 author: windows-sdk-content
 description: The BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure describes a changed attribute value.
 old-location: bltooth\bluetooth_gatt_value_changed_event.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: EC6E5B85-495E-401B-ADE5-D51891A4BDFE
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_GATT_VALUE_CHANGED_EVENT, *PBLUETOOTH_GATT_VALUE_CHANGED_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BLUETOOTH_GATT_VALUE_CHANGED_EVENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BLUETOOTH_GATT_VALUE_CHANGED_EVENT, *PBLUETOOTH_GATT_VALUE_CHANGED_EVENT
+req.redist: 
 ---
 
 # _BLUETOOTH_GATT_VALUE_CHANGED_EVENT structure

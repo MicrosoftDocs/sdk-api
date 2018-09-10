@@ -4,7 +4,7 @@ title: "_SP_ORIGINAL_FILE_INFO_W"
 author: windows-sdk-content
 description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
 old-location: setup\sp_original_file_info.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: 9ce09717-7f01-4044-ad6b-edd04a2445f5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_ORIGINAL_FILE_INFO_W, *PSP_ORIGINAL_FILE_INFO_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SP_ORIGINAL_FILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SP_ORIGINAL_FILE_INFO_W, *PSP_ORIGINAL_FILE_INFO_W
+req.redist: 
 ---
 
 # _SP_ORIGINAL_FILE_INFO_W structure

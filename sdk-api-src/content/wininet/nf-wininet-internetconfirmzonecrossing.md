@@ -4,17 +4,16 @@ title: InternetConfirmZoneCrossing function
 author: windows-sdk-content
 description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
 old-location: wininet\internetconfirmzonecrossing.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetConfirmZoneCrossing, InternetConfirmZoneCrossing function [WinINet], InternetConfirmZoneCrossingA, InternetConfirmZoneCrossingW, _inet_internetconfirmzonecrossing_function, wininet.internetconfirmzonecrossing, wininet/InternetConfirmZoneCrossing, wininet/InternetConfirmZoneCrossingA, wininet/InternetConfirmZoneCrossingW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetConfirmZoneCrossingW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetConfirmZoneCrossing function

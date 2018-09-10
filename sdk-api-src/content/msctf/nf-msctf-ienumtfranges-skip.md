@@ -4,17 +4,16 @@ title: IEnumTfRanges::Skip
 author: windows-sdk-content
 description: IEnumTfRanges::Skip method
 old-location: tsf\ienumtfranges_skip.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumTfRanges.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IEnumTfRanges::Skip

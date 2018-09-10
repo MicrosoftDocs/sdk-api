@@ -4,17 +4,16 @@ title: ICspStatuses::get_ItemByOrdinal
 author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by ordinal number.
 old-location: security\icspstatuses_itembyordinal_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 94b5f741-eceb-4ef9-8010-5033ce042018
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOrdinal property, ICspStatuses.ItemByOrdinal, ICspStatuses.get_ItemByOrdinal, ICspStatuses::ItemByOrdinal, ICspStatuses::get_ItemByOrdinal, ItemByOrdinal property [Security], ItemByOrdinal property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOrdinal, certenroll/ICspStatuses::get_ItemByOrdinal, get_ItemByOrdinal, security.icspstatuses_itembyordinal_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspStatuses.get_ItemByOrdinal
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatuses::get_ItemByOrdinal

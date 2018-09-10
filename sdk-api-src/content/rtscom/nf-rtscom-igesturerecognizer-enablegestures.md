@@ -4,17 +4,16 @@ title: IGestureRecognizer::EnableGestures
 author: windows-sdk-content
 description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.
 old-location: tablet\igesturerecognizer_enablegestures.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],EnableGestures method, IGestureRecognizer.EnableGestures, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGestureRecognizer.EnableGestures
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IGestureRecognizer::EnableGestures

@@ -4,17 +4,16 @@ title: Process32NextW function
 author: windows-sdk-content
 description: Retrieves information about the next process recorded in a system snapshot.
 old-location: toolhelp\process32next.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 843a95fd-27ae-4215-83d0-82fc402b82b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Process32Next, Process32Next function [ToolHelp], Process32NextW, _win32_process32next, base.process32next, tlhelp32/Process32Next, tlhelp32/Process32NextW, toolhelp.process32next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - Process32NextW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # Process32NextW function

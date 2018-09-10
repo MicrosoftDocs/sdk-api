@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_msclus_0000_0000_0001"
 author: windows-sdk-content
 description: Specifies the type of cluster group to create.
 old-location: mscs\clusgroup_type.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: E3937C18-A0B6-44ED-AA75-69940ACCBFAA
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSGROUP_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSGROUP_TYPE, *PCLUSGROUP_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_msclus_0000_0000_0001 enumeration

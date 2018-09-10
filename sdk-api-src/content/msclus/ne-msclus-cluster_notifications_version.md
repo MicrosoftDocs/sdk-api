@@ -4,7 +4,7 @@ title: CLUSTER_NOTIFICATIONS_VERSION
 author: windows-sdk-content
 description: Defines the various versions of cluster notification enumerations.
 old-location: mscs\cluster_notifications_version.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_NOTIFICATIONS_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_NOTIFICATIONS_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_NOTIFICATIONS_VERSION
+req.redist: 
 ---
 
 # CLUSTER_NOTIFICATIONS_VERSION enumeration

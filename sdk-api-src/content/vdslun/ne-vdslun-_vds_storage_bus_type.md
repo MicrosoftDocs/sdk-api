@@ -4,7 +4,7 @@ title: "_VDS_STORAGE_BUS_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid bus types of a storage device.
 old-location: base\vds_storage_bus_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 4fa1bd7a-c675-4588-8753-2614be444c9c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_STORAGE_BUS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_STORAGE_BUS_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_STORAGE_BUS_TYPE
+req.redist: 
 ---
 
 # _VDS_STORAGE_BUS_TYPE enumeration

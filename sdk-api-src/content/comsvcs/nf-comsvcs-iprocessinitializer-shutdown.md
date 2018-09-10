@@ -4,17 +4,16 @@ title: IProcessInitializer::Shutdown
 author: windows-sdk-content
 description: Called when Dllhost.exe shuts down.
 old-location: cos\iprocessinitializer_shutdown.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e525ded0-971d-4711-b078-b2e6b28c313f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IProcessInitializer interface [COM+],Shutdown method, IProcessInitializer.Shutdown, IProcessInitializer::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IProcessInitializer.Shutdown
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IProcessInitializer::Shutdown

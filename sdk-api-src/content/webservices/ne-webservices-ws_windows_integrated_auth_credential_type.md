@@ -4,7 +4,7 @@ title: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 author: windows-sdk-content
 description: The type of the Windows Integrated Authentication credential, used as a selector for subtypes of WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL.
 old-location: wsw\ws_windows_integrated_auth_credential_type.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+req.redist: 
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration

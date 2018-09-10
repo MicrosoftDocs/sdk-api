@@ -4,17 +4,16 @@ title: ID3D11ShaderReflection::GetGSInputPrimitive
 author: windows-sdk-content
 description: Gets the geometry-shader input-primitive description.
 old-location: direct3d11\id3d11shaderreflection_getgsinputprimitive.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: df34dc7e-e6aa-442d-905e-4ae11b62a781
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 186739b6-e023-0b79-ed38-b3030b56e2ed, GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 11], GetGSInputPrimitive method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetGSInputPrimitive method, ID3D11ShaderReflection.GetGSInputPrimitive, ID3D11ShaderReflection::GetGSInputPrimitive, d3d11shader/ID3D11ShaderReflection::GetGSInputPrimitive, direct3d11.id3d11shaderreflection_getgsinputprimitive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflection.GetGSInputPrimitive
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflection::GetGSInputPrimitive

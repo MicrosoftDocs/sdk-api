@@ -4,17 +4,16 @@ title: IAMNetworkStatus::get_ReceptionQuality
 author: windows-sdk-content
 description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMNetworkStatus.get_ReceptionQuality
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMNetworkStatus::get_ReceptionQuality

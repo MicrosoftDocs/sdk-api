@@ -4,7 +4,7 @@ title: "_VSS_VOLUME_PROP"
 author: windows-sdk-content
 description: Contains the properties of a shadow copy source volume.
 old-location: base\vss_volume_prop.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: f17765d5-ccb4-4ede-86e4-36ac80022da0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_VOLUME_PROP, *PVSS_VOLUME_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_VOLUME_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_VOLUME_PROP, *PVSS_VOLUME_PROP
+req.redist: 
 ---
 
 # _VSS_VOLUME_PROP structure

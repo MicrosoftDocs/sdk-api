@@ -4,17 +4,16 @@ title: LsaDeregisterLogonProcess function
 author: windows-sdk-content
 description: Deletes the caller's logon application context and closes the connection to the LSA server.
 old-location: security\lsaderegisterlogonprocess.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 8a956469-9538-4d71-8158-af22aa26f840
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaDeregisterLogonProcess, LsaDeregisterLogonProcess function [Security], _lsa_lsaderegisterlogonprocess, ntsecapi/LsaDeregisterLogonProcess, security.lsaderegisterlogonprocess
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaDeregisterLogonProcess
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaDeregisterLogonProcess function

@@ -4,17 +4,16 @@ title: IDWriteTextLayout::GetFontWeight
 author: windows-sdk-content
 description: Gets the font weight of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontWeight.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: e1c86c8e-f6d2-4c72-9117-f8ae4334a71b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontWeight method, IDWriteTextLayout.GetFontWeight, IDWriteTextLayout::GetFontWeight, directwrite.IDWriteTextLayout_GetFontWeight, dwrite/IDWriteTextLayout::GetFontWeight
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout.GetFontWeight
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout::GetFontWeight

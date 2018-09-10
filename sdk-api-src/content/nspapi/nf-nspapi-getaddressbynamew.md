@@ -4,17 +4,16 @@ title: GetAddressByNameW function
 author: windows-sdk-content
 description: GetAddressByName is no longer available for use as of Windows Sockets 2.
 old-location: winsock\getaddressbyname_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: ea257b9e-5c5b-41fb-bcf0-7ac10b563b8c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAddressByName, GetAddressByName function [Winsock], GetAddressByNameA, GetAddressByNameW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, RES_FIND_MULTIPLE, RES_SERVICE, RES_SOFT_SEARCH, _win32_getaddressbyname_2, nspapi/GetAddressByName, nspapi/GetAddressByNameA, nspapi/GetAddressByNameW, winsock.getaddressbyname_2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
+req.lib: Mswsock.lib
+req.dll: Mswsock.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetAddressByNameW
 product: Windows
 targetos: Windows
-req.lib: Mswsock.lib
-req.dll: Mswsock.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetAddressByNameW function

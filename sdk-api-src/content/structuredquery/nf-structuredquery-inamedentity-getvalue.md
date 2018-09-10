@@ -4,17 +4,16 @@ title: INamedEntity::GetValue
 author: windows-sdk-content
 description: Retrieves the value of this named entity as a string.
 old-location: search\_search_INamedEntity_GetValue.htm
-old-project: search
+tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\getvalue.htm
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetValue, GetValue method [search], GetValue method [search],INamedEntity interface, INamedEntity interface [search],GetValue method, INamedEntity.GetValue, INamedEntity::GetValue, _search_INamedEntity_GetValue, search._search_INamedEntity_GetValue, structuredquery/INamedEntity::GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NAMED_ENTITY_CERTAINTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INamedEntity.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # INamedEntity::GetValue

@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions
 author: windows-sdk-content
 description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions.htm
-old-project: bits
+tech.root: bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: BitsPrx4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJobHttpOptions
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx4.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJobHttpOptions interface

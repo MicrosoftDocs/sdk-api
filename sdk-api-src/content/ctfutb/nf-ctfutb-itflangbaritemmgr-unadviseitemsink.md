@@ -4,17 +4,16 @@ title: ITfLangBarItemMgr::UnadviseItemSink
 author: windows-sdk-content
 description: ITfLangBarItemMgr::UnadviseItemSink method
 old-location: tsf\itflangbaritemmgr_unadviseitemsink.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 20a0f69b-950e-4ad7-9357-74f0b4a75c6b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemSink method, ITfLangBarItemMgr.UnadviseItemSink, ITfLangBarItemMgr::UnadviseItemSink, UnadviseItemSink, UnadviseItemSink method [Text Services Framework], UnadviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemsink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemSink, tsf.itflangbaritemmgr_unadviseitemsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemMgr.UnadviseItemSink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemMgr::UnadviseItemSink

@@ -4,17 +4,16 @@ title: ObjectDeleteAuditAlarmA function
 author: windows-sdk-content
 description: Generates audit messages when an object is deleted.
 old-location: security\objectdeleteauditalarm.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security], ObjectDeleteAuditAlarmA, ObjectDeleteAuditAlarmW, _win32_objectdeleteauditalarm, security.objectdeleteauditalarm, winbase/ObjectDeleteAuditAlarm, winbase/ObjectDeleteAuditAlarmA, winbase/ObjectDeleteAuditAlarmW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - ObjectDeleteAuditAlarmW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectDeleteAuditAlarmA function

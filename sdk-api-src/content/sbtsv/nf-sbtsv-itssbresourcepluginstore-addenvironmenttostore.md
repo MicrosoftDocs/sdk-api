@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::AddEnvironmentToStore
 author: windows-sdk-content
 description: Adds an environment to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addenvironmenttostore.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 5f1d995b-10de-4754-9160-fb93a9d8f263
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddEnvironmentToStore, AddEnvironmentToStore method [Remote Desktop Services], AddEnvironmentToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddEnvironmentToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddEnvironmentToStore method, ITsSbResourcePluginStore.AddEnvironmentToStore, ITsSbResourcePluginStore::AddEnvironmentToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddEnvironmentToStore method, ITsSbResourcePluginStoreEx::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStore::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStoreEx::AddEnvironmentToStore, termserv.itssbresourcepluginstore_addenvironmenttostore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.AddEnvironmentToStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::AddEnvironmentToStore

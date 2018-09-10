@@ -4,17 +4,16 @@ title: RtmGetMostSpecificDestination function
 author: windows-sdk-content
 description: The RtmGetMostSpecificDestination function searches the routing table for a destination with the exact match for a specified network address and subnet mask; if the exact match is not found, the best prefix is matched.
 old-location: rras\rtmgetmostspecificdestination.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 682a41bb-c623-4c01-856a-5f1923c6cab8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtmGetMostSpecificDestination, RtmGetMostSpecificDestination function [RAS], _rtmv2ref_rtmgetmostspecificdestination, rras.rtmgetmostspecificdestination, rtmv2/RtmGetMostSpecificDestination
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
+req.lib: Rtm.lib
+req.dll: Rtm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtmGetMostSpecificDestination
 product: Windows
 targetos: Windows
-req.lib: Rtm.lib
-req.dll: Rtm.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtmGetMostSpecificDestination function

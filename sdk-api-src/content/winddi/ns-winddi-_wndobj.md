@@ -4,7 +4,7 @@ title: "_WNDOBJ"
 author: windows-sdk-content
 description: The WNDOBJ structure allows the driver to keep track of the position, size, and visible client region changes of a window.
 old-location: display\wndobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 69c47add-82a7-48fd-ae91-7756a6a8d15b
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNDOBJ, *PWNDOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WNDOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WNDOBJ, *PWNDOBJ
+req.redist: 
 ---
 
 # _WNDOBJ structure

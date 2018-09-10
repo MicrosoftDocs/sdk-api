@@ -4,17 +4,16 @@ title: IPropertyDescription::GetTypeFlags
 author: windows-sdk-content
 description: Gets a set of flags that describe the uses and capabilities of the property.
 old-location: properties\IPropertyDescription_GetTypeFlags.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetTypeFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetTypeFlags
@@ -70,7 +68,7 @@ A mask that specifies which type flags to retrieve. A combination of values foun
 
 ### -param ppdtFlags
 
-
+TBD
 
 
 

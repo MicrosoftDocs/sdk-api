@@ -4,17 +4,16 @@ title: IVdsLun::SetStatus
 author: windows-sdk-content
 description: Sets the status of the LUN to the specified value.
 old-location: base\ivdslun_setstatus.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: a293f129-5238-405a-ba56-bf53ac4ab1d8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsLun interface [VDS],SetStatus method, IVdsLun.SetStatus, IVdsLun::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsLun interface, base.ivdslun_setstatus, vds/IVdsLun::SetStatus, vdshwprv/IVdsLun::SetStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.SetStatus
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::SetStatus

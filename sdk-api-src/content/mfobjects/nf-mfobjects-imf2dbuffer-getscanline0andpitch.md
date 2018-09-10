@@ -4,17 +4,16 @@ title: IMF2DBuffer::GetScanline0AndPitch
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer memory and the surface stride.
 old-location: mf\imf2dbuffer_getscanline0andpitch.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 08a5f659-609d-4a86-a24e-b30bb7f9e835
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 08a5f659-609d-4a86-a24e-b30bb7f9e835, GetScanline0AndPitch, GetScanline0AndPitch method [Media Foundation], GetScanline0AndPitch method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetScanline0AndPitch method, IMF2DBuffer.GetScanline0AndPitch, IMF2DBuffer::GetScanline0AndPitch, mf.imf2dbuffer_getscanline0andpitch, mfobjects/IMF2DBuffer::GetScanline0AndPitch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMF2DBuffer.GetScanline0AndPitch
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMF2DBuffer::GetScanline0AndPitch

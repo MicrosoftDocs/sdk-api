@@ -4,7 +4,7 @@ title: IMFTopologyServiceLookup
 author: windows-sdk-content
 description: Enables a custom video mixer or video presenter to get interface pointers from the Enhanced Video Renderer (EVR).
 old-location: mf\imftopologyservicelookup.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: a912c17a-40ef-441c-bfc9-7ef49d22070f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoMixPrefs
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyServiceLookup
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyServiceLookup interface

@@ -4,17 +4,16 @@ title: IX509EnrollmentPolicyServer::InitializeImport
 author: windows-sdk-content
 description: Initializes the certificate enrollment policy (CEP) server from a collection of templates and object identifiers.
 old-location: security\ix509enrollmentpolicyserver_initializeimport.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509EnrollmentPolicyServer.InitializeImport
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509EnrollmentPolicyServer::InitializeImport

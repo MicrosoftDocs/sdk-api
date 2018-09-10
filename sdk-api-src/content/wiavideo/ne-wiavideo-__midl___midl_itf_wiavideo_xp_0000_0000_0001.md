@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001"
 author: windows-sdk-content
 description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.
 old-location: wia\_wia_WIAVIDEO_STATE.htm
-old-project: wia
+tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wiavideo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WIAVIDEO_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WIAVIDEO_STATE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001 enumeration

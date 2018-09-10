@@ -4,17 +4,16 @@ title: IUPnPRemoteEndpointInfo::GetStringValue
 author: windows-sdk-content
 description: The GetStringValue method gets a string that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetStringValue method, IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnphost.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPRemoteEndpointInfo.GetStringValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnphost.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPRemoteEndpointInfo::GetStringValue

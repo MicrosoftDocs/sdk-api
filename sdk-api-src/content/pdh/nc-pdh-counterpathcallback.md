@@ -4,7 +4,7 @@ title: CounterPathCallBack
 author: windows-sdk-content
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
 old-location: perf\counterpathcallback.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CounterPathCallBack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CounterPathCallBack callback function

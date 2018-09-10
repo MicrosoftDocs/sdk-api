@@ -4,7 +4,7 @@ title: "_CERT_KEYGEN_REQUEST_INFO"
 author: windows-sdk-content
 description: Contains information stored in the Netscape key generation request. The subject and subject public key BLOBs are encoded.
 old-location: security\cert_keygen_request_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 44cbe4de-a9cc-48b2-ad04-9acd42fac07c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_KEYGEN_REQUEST_INFO, *PCERT_KEYGEN_REQUEST_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_KEYGEN_REQUEST_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_KEYGEN_REQUEST_INFO, *PCERT_KEYGEN_REQUEST_INFO
+req.redist: 
 ---
 
 # _CERT_KEYGEN_REQUEST_INFO structure

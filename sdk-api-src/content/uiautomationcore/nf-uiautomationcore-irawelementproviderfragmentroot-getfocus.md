@@ -4,17 +4,16 @@ title: IRawElementProviderFragmentRoot::GetFocus
 author: windows-sdk-content
 description: Retrieves the element in this fragment that has the input focus.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_GetFocus.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 73b5ffc8-1a24-4fa5-8bc4-ae09656a80df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFocus, GetFocus method [Windows Accessibility], GetFocus method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],GetFocus method, IRawElementProviderFragmentRoot.GetFocus, IRawElementProviderFragmentRoot::GetFocus, uiauto.uiauto_IRawElementProviderFragmentRoot_GetFocus, uiauto_IRawElementProviderFragmentRoot_GetFocus, uiautomationcore/IRawElementProviderFragmentRoot::GetFocus, winauto.uiauto_IRawElementProviderFragmentRoot_GetFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawElementProviderFragmentRoot.GetFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRawElementProviderFragmentRoot::GetFocus

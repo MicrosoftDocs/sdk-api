@@ -4,7 +4,7 @@ title: OLECMDF
 author: windows-sdk-content
 description: Specifies the type of support provided by an object for the command specified in an OLECMD structure.
 old-location: com\olecmdf.htm
-old-project: com
+tech.root: com
 ms.assetid: feb493da-0db2-4251-ba6f-ded1fbd3e430
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLECMDF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - OLECMDF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: OLECMDF
+req.redist: 
 ---
 
 # OLECMDF enumeration

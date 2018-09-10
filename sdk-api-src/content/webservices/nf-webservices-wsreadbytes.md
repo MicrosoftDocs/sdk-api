@@ -4,17 +4,16 @@ title: WsReadBytes function
 author: windows-sdk-content
 description: Reads text from the Reader and decodes the characters as bytes according to the base64 specification.
 old-location: wsw\wsreadbytes.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 02cff29c-7d39-4df2-8eb1-506f93959a1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadBytes, WsReadBytes function [Web Services for Windows], webservices/WsReadBytes, wsw.wsreadbytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadBytes
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadBytes function

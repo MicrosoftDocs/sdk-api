@@ -4,17 +4,16 @@ title: ITBasicAudioTerminal::get_Balance
 author: windows-sdk-content
 description: The get_Balance method gets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_get_balance.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 36aff613-6065-4d92-98e7-3e5b851bf544
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Balance method, ITBasicAudioTerminal.get_Balance, ITBasicAudioTerminal::get_Balance, _tapi3_itbasicaudioterminal_get_balance, get_Balance, get_Balance method [TAPI 2.2], get_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_balance, tapi3if/ITBasicAudioTerminal::get_Balance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITBasicAudioTerminal.get_Balance
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITBasicAudioTerminal::get_Balance

@@ -4,7 +4,7 @@ title: "_MPR_INTERFACE_1"
 author: windows-sdk-content
 description: The MPR_INTERFACE_1 structure contains configuration and status information for a particular router interface.
 old-location: rras\mpr_interface_1.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_INTERFACE_1, *PMPR_INTERFACE_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_INTERFACE_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_INTERFACE_1, *PMPR_INTERFACE_1
+req.redist: 
 ---
 
 # _MPR_INTERFACE_1 structure

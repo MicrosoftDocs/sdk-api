@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::SetOverlayPosition
 author: windows-sdk-content
 description: Changes the display coordinates of an overlay surface.
 old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition method, IDirectDrawSurface7.SetOverlayPosition, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.SetOverlayPosition
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::SetOverlayPosition
@@ -60,9 +59,14 @@ Changes the display coordinates of an overlay surface.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

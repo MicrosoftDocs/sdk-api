@@ -4,17 +4,16 @@ title: ITextInputPanelEventSink::CorrectionModeChanging
 author: windows-sdk-content
 description: Occurs when the correction comb on the Tablet PC Input Panel is about to change modes.
 old-location: tablet\itextinputpaneleventsink_correctionmodechanging.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CorrectionModeChanging, CorrectionModeChanging method [Tablet PC], CorrectionModeChanging method [Tablet PC],ITextInputPanelEventSink interface, ITextInputPanelEventSink interface [Tablet PC],CorrectionModeChanging method, ITextInputPanelEventSink.CorrectionModeChanging, ITextInputPanelEventSink::CorrectionModeChanging, f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanging, tablet.itextinputpaneleventsink_correctionmodechanging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EventMask
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextInputPanelEventSink.CorrectionModeChanging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITextInputPanelEventSink::CorrectionModeChanging

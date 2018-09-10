@@ -4,17 +4,16 @@ title: IAzTask2::RoleAssignments
 author: windows-sdk-content
 description: Returns a collection of the role assignments associated with this task.
 old-location: security\iaztask2_roleassignments_method.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 1c60b9e7-3d02-4dce-9c45-cf9bf9b83ace
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAzTask2 interface [Security],RoleAssignments method, IAzTask2.RoleAssignments, IAzTask2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzTask2 interface, azroles/IAzTask2::RoleAssignments, security.iaztask2_roleassignments_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzTask2.RoleAssignments
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzTask2::RoleAssignments

@@ -4,17 +4,16 @@ title: IMetaDataAssemblyImport::GetExportedTypeProps
 author: windows-sdk-content
 description: Gets the set of properties of the exported type with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: bbdd4f9c-f070-463e-91af-4a7c6c6a45d2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetExportedTypeProps, GetExportedTypeProps method [Windows Runtime], GetExportedTypeProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetExportedTypeProps method, IMetaDataAssemblyImport.GetExportedTypeProps, IMetaDataAssemblyImport::GetExportedTypeProps, rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps, winrt.imetadataassemblyimport_getexportedtypeprops
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataAssemblyImport.GetExportedTypeProps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataAssemblyImport::GetExportedTypeProps

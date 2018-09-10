@@ -4,17 +4,16 @@ title: IMMDevice::Activate
 author: windows-sdk-content
 description: The Activate method creates a COM object with the specified interface.
 old-location: coreaudio\immdevice_activate.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 12e4a117-1fa3-49c8-949b-8973edf7e12e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IMMDevice interface, IMMDevice interface [Core Audio],Activate method, IMMDevice.Activate, IMMDevice::Activate, IMMDeviceActivate, coreaudio.immdevice_activate, mmdeviceapi/IMMDevice::Activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EndpointFormFactor
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMMDevice.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMMDevice::Activate

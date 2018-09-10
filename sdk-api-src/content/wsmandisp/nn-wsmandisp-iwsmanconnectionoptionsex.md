@@ -4,7 +4,7 @@ title: IWSManConnectionOptionsEx
 author: windows-sdk-content
 description: The IWSManConnectionOptionsEx object is passed to the IWSMan::CreateSession method to provide the thumbprint of the client certificate used for authentication.
 old-location: winrm\iwsmanconnectionoptionsex.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManConnectionOptionsEx
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManConnectionOptionsEx interface

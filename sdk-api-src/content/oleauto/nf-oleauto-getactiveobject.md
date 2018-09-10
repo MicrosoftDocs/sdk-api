@@ -4,17 +4,16 @@ title: GetActiveObject function
 author: windows-sdk-content
 description: Retrieves a pointer to a running object that has been registered with OLE.
 old-location: automat\getactiveobject.htm
-old-project: automat
+tech.root: automat
 ms.assetid: a276e30c-6a7f-4cde-9639-21a9f5170b62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetActiveObject, GetActiveObject function [Automation], _oa96_GetActiveObject, automat.getactiveobject, oleauto/GetActiveObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetActiveObject
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetActiveObject function

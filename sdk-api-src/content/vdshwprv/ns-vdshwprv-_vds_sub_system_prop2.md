@@ -4,7 +4,7 @@ title: "_VDS_SUB_SYSTEM_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a subsystem object. This structure is identical to the VDS_SUB_SYSTEM_PROP structure, except that it includes the supported RAID types and number of enclosures as members.
 old-location: base\vds_sub_system_prop2.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 8eb743b5-26e6-42e5-b94b-0849b1280cdb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_SUB_SYSTEM_PROP2, *PVDS_SUB_SYSTEM_PROP2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_SUB_SYSTEM_PROP2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_SUB_SYSTEM_PROP2, *PVDS_SUB_SYSTEM_PROP2
+req.redist: 
 ---
 
 # _VDS_SUB_SYSTEM_PROP2 structure

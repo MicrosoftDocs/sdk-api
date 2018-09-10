@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4
 author: windows-sdk-content
 description: Use this interface to enable peer caching, restrict download time, and inspect user token characteristics.
 old-location: bits\ibackgroundcopyjob4.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 68909710-f749-487e-b064-9f8630929c53
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: BitsPrx4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyJob4
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx4.dll
-req.irql: 
+req.typenames: 
+req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP
 ---
 
 # IBackgroundCopyJob4 interface

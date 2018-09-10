@@ -4,17 +4,16 @@ title: ISensor::GetProperties
 author: windows-sdk-content
 description: Retrieves multiple sensor properties.
 old-location: winsensors_com_ref\isensor_getproperties.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::GetProperties

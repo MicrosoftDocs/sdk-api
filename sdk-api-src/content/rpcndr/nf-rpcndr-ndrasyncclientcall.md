@@ -4,17 +4,16 @@ title: NdrAsyncClientCall function
 author: windows-sdk-content
 description: The NdrAsyncClientCall function is the asynchronous client-side entry point for the /Oi and /Oic mode stub.
 old-location: rpc\ndrasyncclientcall.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrAsyncClientCall
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrAsyncClientCall function
@@ -52,7 +50,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a> and <b>/Oic</b> mode stub.
+The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://msdn.microsoft.com/">/Oi</a> and <b>/Oic</b> mode stub.
 
 
 ## -parameters

@@ -4,17 +4,16 @@ title: IFileDialogCustomize::EndVisualGroup
 author: windows-sdk-content
 description: Stops the addition of elements to a visual group in the dialog.
 old-location: shell\IFileDialogCustomize_EndVisualGroup.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 84aef9e1-2b70-4e8b-b261-cc49f8e65ead
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: EndVisualGroup, EndVisualGroup method [Windows Shell], EndVisualGroup method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EndVisualGroup method, IFileDialogCustomize.EndVisualGroup, IFileDialogCustomize::EndVisualGroup, shell.IFileDialogCustomize_EndVisualGroup, shell_IFileDialogCustomize_EndVisualGroup, shobjidl_core/IFileDialogCustomize::EndVisualGroup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.EndVisualGroup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::EndVisualGroup

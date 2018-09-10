@@ -4,17 +4,16 @@ title: RtlFirstEntrySList function
 author: windows-sdk-content
 description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlfirstentryslist.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: Ntdll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtlFirstEntrySList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Ntdll.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RtlFirstEntrySList function

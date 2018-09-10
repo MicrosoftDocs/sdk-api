@@ -4,7 +4,7 @@ title: "_CERT_LOGOTYPE_INFO"
 author: windows-sdk-content
 description: Contains information about logotype data.
 old-location: security\cert_logotype_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_LOGOTYPE_INFO, *PCERT_LOGOTYPE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_LOGOTYPE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_LOGOTYPE_INFO, *PCERT_LOGOTYPE_INFO
+req.redist: 
 ---
 
 # _CERT_LOGOTYPE_INFO structure

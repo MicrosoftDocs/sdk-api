@@ -4,7 +4,7 @@ title: tagSOLE_AUTHENTICATION_SERVICE
 author: windows-sdk-content
 description: Identifies an authentication service that a server is willing to use to communicate to a client.
 old-location: com\sole_authentication_service.htm
-old-project: com
+tech.root: com
 ms.assetid: 77fd15d7-54d4-4812-93d3-13a671e7afff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidlbase.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOLE_AUTHENTICATION_SERVICE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOLE_AUTHENTICATION_SERVICE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SOLE_AUTHENTICATION_SERVICE
+req.redist: 
 ---
 
 # tagSOLE_AUTHENTICATION_SERVICE structure

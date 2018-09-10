@@ -4,17 +4,16 @@ title: IUIAutomationElement::FindAllBuildCache
 author: windows-sdk-content
 description: Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindAllBuildCache, FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAllBuildCache method, IUIAutomationElement.FindAllBuildCache, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationElement.FindAllBuildCache
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationElement::FindAllBuildCache
@@ -60,9 +58,9 @@ Returns all UI Automation elements that satisfy the specified condition, prefetc
 
 
 
-### -param param
+### -param arg1
 
-
+TBD
 
 
 ### -param condition [in]

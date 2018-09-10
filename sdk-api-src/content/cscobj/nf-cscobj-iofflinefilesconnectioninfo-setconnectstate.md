@@ -4,17 +4,16 @@ title: IOfflineFilesConnectionInfo::SetConnectState
 author: windows-sdk-content
 description: Sets the connection state for an item.
 old-location: of\iofflinefilesconnectioninfo_setconnectstate.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 42412f42-7a70-4110-88ec-a38b3df7d2da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],SetConnectState method, IOfflineFilesConnectionInfo.SetConnectState, IOfflineFilesConnectionInfo::SetConnectState, OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, SetConnectState, SetConnectState method [Offline Files], SetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::SetConnectState, of.iofflinefilesconnectioninfo_setconnectstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesConnectionInfo.SetConnectState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesConnectionInfo::SetConnectState

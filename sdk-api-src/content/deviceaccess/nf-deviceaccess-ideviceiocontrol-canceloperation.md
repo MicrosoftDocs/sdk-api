@@ -4,17 +4,16 @@ title: IDeviceIoControl::CancelOperation
 author: windows-sdk-content
 description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm
-old-project: deviceaccess
+tech.root: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIDEOMEMORYINFO
+req.lib: Deviceaccess.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDeviceIoControl.CancelOperation
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceIoControl::CancelOperation

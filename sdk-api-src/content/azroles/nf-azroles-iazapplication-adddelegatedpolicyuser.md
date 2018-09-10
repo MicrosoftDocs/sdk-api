@@ -4,17 +4,16 @@ title: IAzApplication::AddDelegatedPolicyUser
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyuser.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 89c0e1b9-cf51-4f4f-b530-7982645a9d14
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzApplication object, AddDelegatedPolicyUser method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUser method, IAzApplication interface [Security],AddDelegatedPolicyUser method, IAzApplication.AddDelegatedPolicyUser, IAzApplication::AddDelegatedPolicyUser, azroles/IAzApplication::AddDelegatedPolicyUser, security.iazapplication_adddelegatedpolicyuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzApplication.AddDelegatedPolicyUser
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::AddDelegatedPolicyUser

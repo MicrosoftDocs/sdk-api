@@ -4,17 +4,16 @@ title: ResUtilGetSzProperty function
 author: windows-sdk-content
 description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetszproperty.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster], ResUtilGetSzProperty, ResUtilGetSzProperty function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY, resapi/ResUtilGetSzProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilGetSzProperty
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilGetSzProperty function

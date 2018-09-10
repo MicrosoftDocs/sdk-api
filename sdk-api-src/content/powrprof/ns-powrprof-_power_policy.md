@@ -4,7 +4,7 @@ title: "_POWER_POLICY"
 author: windows-sdk-content
 description: Contains power policy settings that are unique to each power scheme.
 old-location: base\power_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: ba49fca6-04b6-4627-a653-07c3fc0dab22
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_POLICY, *PPOWER_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POWER_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POWER_POLICY, *PPOWER_POLICY
+req.redist: 
 ---
 
 # _POWER_POLICY structure

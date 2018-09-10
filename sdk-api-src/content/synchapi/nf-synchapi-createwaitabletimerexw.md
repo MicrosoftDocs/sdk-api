@@ -4,17 +4,16 @@ title: CreateWaitableTimerExW function
 author: windows-sdk-content
 description: Creates or opens a waitable timer object and returns a handle to the object.
 old-location: base\createwaitabletimerex.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ITEMPROP, *LPITEMPROP
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - CreateWaitableTimerExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateWaitableTimerExW function

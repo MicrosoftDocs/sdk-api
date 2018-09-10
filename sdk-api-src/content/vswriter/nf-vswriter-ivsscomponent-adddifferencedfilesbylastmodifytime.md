@@ -4,17 +4,16 @@ title: IVssComponent::AddDifferencedFilesByLastModifyTime
 author: windows-sdk-content
 description: Used by a writer to indicate that a file set (a specified file or files) should be evaluated against a last modification time stamp for inclusion in a time stamped incremental or differential backup using entire files.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddDifferencedFilesByLastModifyTime, AddDifferencedFilesByLastModifyTime method [VSS], AddDifferencedFilesByLastModifyTime method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyTime method, IVssComponent.AddDifferencedFilesByLastModifyTime, IVssComponent::AddDifferencedFilesByLastModifyTime, _win32_ivsscomponent_adddifferencedfilesbylastmodifytime, base.ivsscomponent_adddifferencedfilesbylastmodifytime, vswriter/IVssComponent::AddDifferencedFilesByLastModifyTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.AddDifferencedFilesByLastModifyTime
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::AddDifferencedFilesByLastModifyTime

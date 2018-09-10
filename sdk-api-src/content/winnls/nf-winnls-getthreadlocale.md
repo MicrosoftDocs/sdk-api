@@ -4,17 +4,16 @@ title: GetThreadLocale function
 author: windows-sdk-content
 description: Returns the locale identifier of the current locale for the calling thread.Note  This function can retrieve data that changes between releases, for example, due to a custom locale.
 old-location: intl\getthreadlocale.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 4d77f78b-f059-40f3-b4ed-c3ffd09d9e9f
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetThreadLocale, GetThreadLocale function [Internationalization for Windows Applications], _win32_GetThreadLocale, intl.getthreadlocale, winnls/GetThreadLocale
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetThreadLocale
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetThreadLocale function

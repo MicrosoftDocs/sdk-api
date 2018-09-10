@@ -4,17 +4,16 @@ title: SfcIsFileProtected function
 author: windows-sdk-content
 description: Determines whether the specified file is protected.
 old-location: setup\sfcisfileprotected.htm
-old-project: Wfp
+tech.root: Wfp
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sfc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
+req.lib: Sfc.lib
+req.dll: Sfc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SfcIsFileProtected
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SfcIsFileProtected function

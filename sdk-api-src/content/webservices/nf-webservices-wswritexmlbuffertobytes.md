@@ -4,17 +4,16 @@ title: WsWriteXmlBufferToBytes function
 author: windows-sdk-content
 description: Uses a writer to convert a WS_XML_BUFFER to an encoded set of bytes.
 old-location: wsw\wswritexmlbuffertobytes.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: dea4bfa5-7cd0-440f-89fe-e46af116462e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsWriteXmlBufferToBytes, WsWriteXmlBufferToBytes function [Web Services for Windows], webservices/WsWriteXmlBufferToBytes, wsw.wswritexmlbuffertobytes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsWriteXmlBufferToBytes
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsWriteXmlBufferToBytes function

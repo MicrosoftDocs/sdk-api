@@ -4,17 +4,16 @@ title: SymEnumTypesByName function
 author: windows-sdk-content
 description: Enumerates all user-defined types.
 old-location: base\symenumtypesbyname.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 48acb588-23fa-44f3-8b8c-f3c76371d1fd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: SymEnumTypesByName, SymEnumTypesByName function, SymEnumTypesByNameW, base.symenumtypesbyname, dbghelp/SymEnumTypesByName, dbghelp/SymEnumTypesByNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 6.8 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - SymEnumTypesByNameW
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 6.8 or later
 ---
 
 # SymEnumTypesByName function

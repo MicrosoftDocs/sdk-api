@@ -4,17 +4,16 @@ title: IDsAdminNewObjPrimarySite::CreateNew
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite::CreateNew method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services.
 old-location: ad\idsadminnewobjprimarysite_createnew.htm
-old-project: ad
+tech.root: ad
 ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateNew, CreateNew method [Active Directory], CreateNew method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],CreateNew method, IDsAdminNewObjPrimarySite.CreateNew, IDsAdminNewObjPrimarySite::CreateNew, _glines_idsadminnewobjprimarysite_createnew, ad.idsadminnewobjprimarysite__createnew, ad.idsadminnewobjprimarysite_createnew, dsadmin/IDsAdminNewObjPrimarySite::CreateNew
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjPrimarySite.CreateNew
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjPrimarySite::CreateNew

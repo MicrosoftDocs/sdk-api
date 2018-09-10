@@ -4,7 +4,7 @@ title: SYNCMGR_CONFLICT_ID_INFO
 author: windows-sdk-content
 description: Describes conflict ID information structure.
 old-location: shell\SYNCMGR_CONFLICT_ID_INFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9a54ef7e-0b22-436e-891b-80610ddaef00
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_CONFLICT_ID_INFO, *PSYNCMGR_CONFLICT_ID_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYNCMGR_CONFLICT_ID_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: SYNCMGR_CONFLICT_ID_INFO, *PSYNCMGR_CONFLICT_ID_INFO
+req.redist: 
 ---
 
 # SYNCMGR_CONFLICT_ID_INFO structure

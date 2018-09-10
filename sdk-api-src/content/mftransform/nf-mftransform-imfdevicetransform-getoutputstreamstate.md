@@ -4,17 +4,16 @@ title: IMFDeviceTransform::GetOutputStreamState
 author: windows-sdk-content
 description: The GetOutputStreamState method gets the Device MFT’s output stream state.
 old-location: stream\imfdevicetransform_getoutputstreamstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: A79FC296-7D18-4C74-97E0-F37475AB90D5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetOutputStreamState, GetOutputStreamState method [Streaming Media Devices], GetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamState method, IMFDeviceTransform.GetOutputStreamState, IMFDeviceTransform::GetOutputStreamState, mftransform/IMFDeviceTransform::GetOutputStreamState, stream.imfdevicetransform_getoutputstreamstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.GetOutputStreamState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::GetOutputStreamState
@@ -67,7 +65,7 @@ Stream ID of the output stream whose state needs to be retrieved.
 
 ### -param value
 
-
+TBD
 
 
 

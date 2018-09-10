@@ -4,17 +4,16 @@ title: DeleteNtmsLibrary function
 author: windows-sdk-content
 description: The DeleteNtmsLibrary function deletes a library, and all the devices contained in the library, from the RSM database. All media in the library is moved to the offline library.
 old-location: fs\deletentmslibrary.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 2bbc1463-9fbb-49d9-84d0-7b8ea231b454
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeleteNtmsLibrary, DeleteNtmsLibrary function [Files], _zaw_deletentmslibrary, base.deletentmslibrary, fs.deletentmslibrary, ntmsapi/DeleteNtmsLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeleteNtmsLibrary
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DeleteNtmsLibrary function

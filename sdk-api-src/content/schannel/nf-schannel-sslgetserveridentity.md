@@ -4,17 +4,16 @@ title: SslGetServerIdentity function
 author: windows-sdk-content
 description: Gets the identity of the server.
 old-location: security\sslgetserveridentity.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
+req.lib: 
+req.dll: Schannel.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SslGetServerIdentity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Schannel.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SslGetServerIdentity function

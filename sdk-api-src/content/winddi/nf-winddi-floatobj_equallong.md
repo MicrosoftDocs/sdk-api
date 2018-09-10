@@ -4,17 +4,16 @@ title: FLOATOBJ_EqualLong function
 author: windows-sdk-content
 description: The FLOATOBJ_EqualLong function determines whether the FLOATOBJ and the value of type LONG are equal.
 old-location: display\floatobj_equallong.htm
-old-project: display
+tech.root: display
 ms.assetid: ab81a183-6517-4353-accb-425f02004577
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_EqualLong, FLOATOBJ_EqualLong function [Display Devices], display.floatobj_equallong, gdifncs_8c714f1b-6b6b-465c-a481-74e3f475338c.xml, winddi/FLOATOBJ_EqualLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_EqualLong
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_EqualLong function

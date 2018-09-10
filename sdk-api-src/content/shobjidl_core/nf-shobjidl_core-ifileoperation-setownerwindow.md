@@ -4,17 +4,16 @@ title: IFileOperation::SetOwnerWindow
 author: windows-sdk-content
 description: Sets the parent or owner window for progress and dialog windows.
 old-location: shell\IFileOperation_SetOwnerWindow.htm
-old-project: shell
+tech.root: shell
 ms.assetid: ad3276a5-409d-4a49-ac95-2c2a3eb3b864
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetOwnerWindow method, IFileOperation.SetOwnerWindow, IFileOperation::SetOwnerWindow, SetOwnerWindow, SetOwnerWindow method [Windows Shell], SetOwnerWindow method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetOwnerWindow, shell.IFileOperation_SetOwnerWindow, shobjidl_core/IFileOperation::SetOwnerWindow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileOperation.SetOwnerWindow
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileOperation::SetOwnerWindow

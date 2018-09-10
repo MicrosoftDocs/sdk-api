@@ -4,17 +4,16 @@ title: IVMRDeinterlaceControl::GetDeinterlaceModeCaps
 author: windows-sdk-content
 description: The GetDeinterlaceModeCaps method retrieves the capabilities of a specific deinterlacing mode supported by the graphics device driver.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemodecaps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e672f3d4-1009-4c4c-bb1a-08f78c128423
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDeinterlaceModeCaps, GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceModeCaps method, IVMRDeinterlaceControl.GetDeinterlaceModeCaps, IVMRDeinterlaceControl::GetDeinterlaceModeCaps, IVMRDeinterlaceControlGetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol_getdeinterlacemodecaps, strmif/IVMRDeinterlaceControl::GetDeinterlaceModeCaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRDeinterlaceControl.GetDeinterlaceModeCaps
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRDeinterlaceControl::GetDeinterlaceModeCaps

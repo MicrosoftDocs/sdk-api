@@ -4,17 +4,16 @@ title: IPropertySystem::EnumeratePropertyDescriptions
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain either the entire or a partial list of property descriptions in the system.
 old-location: properties\IPropertySystem_EnumeratePropertyDescriptions.htm
-old-project: properties
+tech.root: properties
 ms.assetid: eb87e6b6-2a48-497a-8a42-9c929a742502
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumeratePropertyDescriptions, EnumeratePropertyDescriptions method [Windows Properties], EnumeratePropertyDescriptions method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],EnumeratePropertyDescriptions method, IPropertySystem.EnumeratePropertyDescriptions, IPropertySystem::EnumeratePropertyDescriptions, properties.IPropertySystem_EnumeratePropertyDescriptions, propsys/IPropertySystem::EnumeratePropertyDescriptions, shell.IPropertySystem_EnumeratePropertyDescriptions, shell_IPropertySystem_EnumeratePropertyDescriptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.EnumeratePropertyDescriptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::EnumeratePropertyDescriptions

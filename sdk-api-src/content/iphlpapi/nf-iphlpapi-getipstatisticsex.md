@@ -4,17 +4,16 @@ title: GetIpStatisticsEx function
 author: windows-sdk-content
 description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
 old-location: iphlp\getipstatisticsex.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.author: windowssdkdev
 ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_ADDRESS_FORMAT
+req.lib: Iphlpapi.lib
+req.dll: Iphlpapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetIpStatisticsEx
 product: Windows
 targetos: Windows
-req.lib: Iphlpapi.lib
-req.dll: Iphlpapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # GetIpStatisticsEx function

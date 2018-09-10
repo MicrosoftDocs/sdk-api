@@ -4,17 +4,16 @@ title: MprAdminInterfaceQueryUpdateResult function
 author: windows-sdk-content
 description: The MprAdminInterfaceQueryUpdateResult function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see MprAdminInterfaceUpdateRoutes.
 old-location: rras\mpradmininterfacequeryupdateresult.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: df06d847-2448-4a64-bb1b-d60a3eb4f7a8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceQueryUpdateResult, MprAdminInterfaceQueryUpdateResult function [RAS], _mpr_mpradmininterfacequeryupdateresult, mprapi/MprAdminInterfaceQueryUpdateResult, rras.mpradmininterfacequeryupdateresult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ROUTER_INTERFACE_TYPE
+req.lib: Mprapi.lib
+req.dll: Mprapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MprAdminInterfaceQueryUpdateResult
 product: Windows
 targetos: Windows
-req.lib: Mprapi.lib
-req.dll: Mprapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MprAdminInterfaceQueryUpdateResult function

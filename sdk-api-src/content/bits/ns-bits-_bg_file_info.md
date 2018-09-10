@@ -4,7 +4,7 @@ title: "_BG_FILE_INFO"
 author: windows-sdk-content
 description: The BG_FILE_INFO structure provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
-old-project: bits
+tech.root: bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Bits.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_FILE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_FILE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_FILE_INFO
+req.redist: 
 ---
 
 # _BG_FILE_INFO structure

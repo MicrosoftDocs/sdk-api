@@ -4,17 +4,16 @@ title: IPortableDeviceManager::GetDeviceProperty
 author: windows-sdk-content
 description: Retrieves a property value stored by the device on the computer. (These are not standard properties that are defined by Windows Portable Devices.).
 old-location: wpdsdk\iportabledevicemanager_getdeviceproperty.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 805a2407-f476-4223-97d9-6d8753380b17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDeviceProperty, GetDeviceProperty method [Windows Portable Devices SDK], GetDeviceProperty method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceProperty method, IPortableDeviceManager.GetDeviceProperty, IPortableDeviceManager::GetDeviceProperty, IPortableDeviceManagerGetDeviceProperty, portabledeviceapi/IPortableDeviceManager::GetDeviceProperty, wpdsdk.iportabledevicemanager_getdeviceproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceManager.GetDeviceProperty
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceManager::GetDeviceProperty

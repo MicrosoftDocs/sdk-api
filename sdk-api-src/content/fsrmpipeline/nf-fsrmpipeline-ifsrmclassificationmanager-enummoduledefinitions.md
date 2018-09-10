@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::EnumModuleDefinitions
 author: windows-sdk-content
 description: Enumerates the module definitions of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enummoduledefinitions.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: eeda0802-e450-4a8b-a08c-135784540b17
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: EnumModuleDefinitions, EnumModuleDefinitions method [File Server Resource Manager], EnumModuleDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager.EnumModuleDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager2::EnumModuleDefinitions, IFsrmClassificationManager::EnumModuleDefinitions, fs.ifsrmclassificationmanager_enummoduledefinitions, fsrm.ifsrmclassificationmanager_enummoduledefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumModuleDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumModuleDefinitions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.EnumModuleDefinitions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::EnumModuleDefinitions

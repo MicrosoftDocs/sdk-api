@@ -4,17 +4,16 @@ title: SetIScsiInitiatorCHAPSharedSecret function
 author: windows-sdk-content
 description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.
 old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetIscsiInitiatorCHAPSharedSecret
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetIScsiInitiatorCHAPSharedSecret function

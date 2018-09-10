@@ -4,17 +4,16 @@ title: IIdleSettings::put_IdleDuration
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time that the computer must be in an idle state before the task is run.
 old-location: taskschd\iidlesettings_idleduration.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: c50a0fb5-053f-4941-ab10-67efefdcbe59
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],IdleDuration property, IIdleSettings.IdleDuration, IIdleSettings.put_IdleDuration, IIdleSettings::IdleDuration, IIdleSettings::get_IdleDuration, IIdleSettings::put_IdleDuration, IdleDuration property [Task Scheduler], IdleDuration property [Task Scheduler],IIdleSettings interface, put_IdleDuration, taskschd.iidlesettings_idleduration, taskschd/IIdleSettings::IdleDuration, taskschd/IIdleSettings::get_IdleDuration, taskschd/IIdleSettings::put_IdleDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IIdleSettings.put_IdleDuration
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IIdleSettings::put_IdleDuration

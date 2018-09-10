@@ -4,17 +4,16 @@ title: IIsdbComponentGroupDescriptor::GetCountOfRecords
 author: windows-sdk-content
 description: Gets the number of component records in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcountofrecords.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: b5b8334c-a3f1-42f7-81c9-d0c461e17f25
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbComponentGroupDescriptor.GetCountOfRecords, IIsdbComponentGroupDescriptor::GetCountOfRecords, dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords, mstv.iisdbcomponentgroupdescriptor_getcountofrecords
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IIsdbComponentGroupDescriptor.GetCountOfRecords
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IIsdbComponentGroupDescriptor::GetCountOfRecords

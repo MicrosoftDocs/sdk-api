@@ -4,17 +4,16 @@ title: IAMExtTransport::put_Rate
 author: windows-sdk-content
 description: The put_Rate method sets the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_put_rate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 165966f1-f826-4ce2-b520-4a420898eee4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_Rate method, IAMExtTransport.put_Rate, IAMExtTransport::put_Rate, IAMExtTransportput_Rate, dshow.iamexttransport_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Rate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMExtTransport.put_Rate
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMExtTransport::put_Rate

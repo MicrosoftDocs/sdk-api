@@ -4,17 +4,16 @@ title: IMFPMediaPlayer::InsertEffect
 author: windows-sdk-content
 description: Applies an audio or video effect to playback.
 old-location: mf\imfpmediaplayer_inserteffect.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaPlayer.InsertEffect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaPlayer::InsertEffect

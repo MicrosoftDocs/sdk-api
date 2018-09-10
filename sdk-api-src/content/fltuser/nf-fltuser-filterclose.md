@@ -4,17 +4,16 @@ title: FilterClose function
 author: windows-sdk-content
 description: The FilterClose function closes an open minifilter handle.
 old-location: ifsk\filterclose.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c5d3774e-6f57-4a6b-97a8-623268884859
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FilterClose, FilterClose function [Installable File System Drivers], FltWin32ApiRef_42f7f157-b74a-4856-ac99-bca1caac3493.xml, fltuser/FilterClose, ifsk.filterclose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILTERED_DATA_SOURCES
+req.lib: FltLib.lib
+req.dll: FltLib.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FilterClose
 product: Windows
 targetos: Windows
-req.lib: FltLib.lib
-req.dll: FltLib.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FilterClose function

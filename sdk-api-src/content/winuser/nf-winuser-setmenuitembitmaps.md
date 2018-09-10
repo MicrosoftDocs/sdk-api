@@ -4,17 +4,16 @@ title: SetMenuItemBitmaps function
 author: windows-sdk-content
 description: Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item.
 old-location: menurc\setmenuitembitmaps.htm
-old-project: menurc
+tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetMenuItemBitmaps
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetMenuItemBitmaps function

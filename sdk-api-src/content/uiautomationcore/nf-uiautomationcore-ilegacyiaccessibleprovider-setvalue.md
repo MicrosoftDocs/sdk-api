@@ -4,17 +4,16 @@ title: ILegacyIAccessibleProvider::SetValue
 author: windows-sdk-content
 description: Sets the string value of the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_SetValue.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ca0901af-8d79-4aed-876f-0d719657ef12
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],SetValue method, ILegacyIAccessibleProvider.SetValue, ILegacyIAccessibleProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_SetValue, uiauto_ILegacyIAccessibleProvider_SetValue, uiautomationcore/ILegacyIAccessibleProvider::SetValue, winauto.uiauto_ILegacyIAccessibleProvider_SetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILegacyIAccessibleProvider.SetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ILegacyIAccessibleProvider::SetValue

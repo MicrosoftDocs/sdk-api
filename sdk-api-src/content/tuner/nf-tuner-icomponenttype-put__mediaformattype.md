@@ -4,17 +4,16 @@ title: IComponentType::put__MediaFormatType
 author: windows-sdk-content
 description: The put__MediaFormatType method sets the DirectShow media format type.
 old-location: mstv\icomponenttype_put__mediaformattype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 37baa69e-d942-41d6-b497-bf37d6b0d57b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaFormatType method, IComponentType.put__MediaFormatType, IComponentType::put__MediaFormatType, IComponentTypeput__MediaFormatType, mstv.icomponenttype_put__mediaformattype, put__MediaFormatType, put__MediaFormatType method [Microsoft TV Technologies], put__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaFormatType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IComponentType.put__MediaFormatType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IComponentType::put__MediaFormatType
@@ -65,7 +63,7 @@ The <b>put__MediaFormatType</b> method sets the DirectShow media format type.
 
 ### -param MediaFormatTypeGuid
 
-
+TBD
 
 
 

@@ -4,7 +4,7 @@ title: IPortableDeviceWebControl
 author: windows-sdk-content
 description: Represents a factory that can instantiate a WPD Automation Device object in a Windows Store app.
 old-location: wpdauto\iportabledevicewebcontrol.htm
-old-project: wpdauto
+tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceWebControl
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceWebControl interface

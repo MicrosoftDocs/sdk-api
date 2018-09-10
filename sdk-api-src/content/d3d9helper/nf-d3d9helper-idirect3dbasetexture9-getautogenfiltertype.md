@@ -4,17 +4,16 @@ title: IDirect3DBaseTexture9::GetAutoGenFilterType
 author: windows-sdk-content
 description: Get the filter type that is used for automatically generated mipmap sublevels.
 old-location: direct3d9\idirect3dbasetexture9__getautogenfiltertype.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getautogenfiltertype.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 7a155e44-4ee7-ac87-0ef7-42daed0b87ba, GetAutoGenFilterType, GetAutoGenFilterType method [Direct3D 9], GetAutoGenFilterType method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetAutoGenFilterType method, IDirect3DBaseTexture9.GetAutoGenFilterType, IDirect3DBaseTexture9::GetAutoGenFilterType, d3d9helper/IDirect3DBaseTexture9::GetAutoGenFilterType, direct3d9.idirect3dbasetexture9__getautogenfiltertype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DBaseTexture9.GetAutoGenFilterType
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DBaseTexture9::GetAutoGenFilterType

@@ -4,17 +4,16 @@ title: IMDSPDevice::GetManufacturer
 author: windows-sdk-content
 description: The GetManufacturer method retrieves the name of the manufacturer of the device.
 old-location: wmdm\imdspdevice_getmanufacturer.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 5dc5abe8-f43b-4cff-baa1-cef9e2c1a7a4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetManufacturer method, IMDSPDevice.GetManufacturer, IMDSPDevice::GetManufacturer, IMDSPDeviceGetManufacturer, mswmdm/IMDSPDevice::GetManufacturer, wmdm.imdspdevice_getmanufacturer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice.GetManufacturer
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice::GetManufacturer

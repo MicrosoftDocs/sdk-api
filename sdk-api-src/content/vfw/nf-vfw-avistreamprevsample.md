@@ -4,17 +4,16 @@ title: AVIStreamPrevSample macro
 author: windows-sdk-content
 description: The AVIStreamPrevSample macro locates the nearest nonempty sample that precedes a specified position in a stream.
 old-location: multimedia\avistreamprevsample.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamPrevSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamPrevSample macro

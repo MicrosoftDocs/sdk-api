@@ -4,7 +4,7 @@ title: "_DSROLE_OPERATION_STATE"
 author: windows-sdk-content
 description: Used with the DSROLE_OPERATION_STATE_INFO structure to indicate the operational state of a computer.
 old-location: ad\dsrole_operation_state.htm
-old-project: ad
+tech.root: ad
 ms.assetid: de294893-e78a-4b51-9a48-0c71f91b6fde
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dsrole.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_OPERATION_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DSROLE_OPERATION_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DSROLE_OPERATION_STATE
+req.redist: 
 ---
 
 # _DSROLE_OPERATION_STATE enumeration

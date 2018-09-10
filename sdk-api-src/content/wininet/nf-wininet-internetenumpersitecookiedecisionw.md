@@ -4,17 +4,16 @@ title: InternetEnumPerSiteCookieDecisionW function
 author: windows-sdk-content
 description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
 old-location: wininet\internetenumpersitecookiedecision.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - InternetEnumPerSiteCookieDecisionW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetEnumPerSiteCookieDecisionW function

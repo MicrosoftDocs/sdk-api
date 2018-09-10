@@ -4,17 +4,16 @@ title: FNFCIWRITE macro
 author: windows-sdk-content
 description: The FNFCIWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
 old-location: winprog\fnfciwrite.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNFCIWRITE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNFCIWRITE macro

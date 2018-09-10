@@ -4,17 +4,16 @@ title: SCardSetAttrib function
 author: windows-sdk-content
 description: Sets the given reader attribute for the given handle.
 old-location: security\scardsetattrib.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCardSetAttrib
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardSetAttrib function

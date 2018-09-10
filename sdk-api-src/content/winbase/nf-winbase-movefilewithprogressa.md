@@ -4,17 +4,16 @@ title: MoveFileWithProgressA function
 author: windows-sdk-content
 description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.
 old-location: fs\movefilewithprogress.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileWithProgress, MoveFileWithProgress function [Files], MoveFileWithProgressA, MoveFileWithProgressW, Rename file [Files], _win32_movefilewithprogress, base.movefilewithprogress, fs.movefilewithprogress, winbase/MoveFileWithProgress, winbase/MoveFileWithProgressA, winbase/MoveFileWithProgressW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,10 +49,8 @@ api_name:
  - MoveFileWithProgressW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # MoveFileWithProgressA function

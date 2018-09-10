@@ -4,17 +4,16 @@ title: PeerCollabEnumPeopleNearMe function
 author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.
 old-location: p2p\peercollabenumpeoplenearme.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerCollabEnumPeopleNearMe
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerCollabEnumPeopleNearMe function

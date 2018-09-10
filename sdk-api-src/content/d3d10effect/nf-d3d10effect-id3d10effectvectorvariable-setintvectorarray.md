@@ -4,17 +4,16 @@ title: ID3D10EffectVectorVariable::SetIntVectorArray
 author: windows-sdk-content
 description: Set an array of four-component vectors that contain integer data.
 old-location: direct3d10\id3d10effectvectorvariable_setintvectorarray.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setintvectorarray.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ID3D10EffectVectorVariable interface [Direct3D 10],SetIntVectorArray method, ID3D10EffectVectorVariable.SetIntVectorArray, ID3D10EffectVectorVariable::SetIntVectorArray, SetIntVectorArray, SetIntVectorArray method [Direct3D 10], SetIntVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, c3a5fdc0-0b12-1092-5034-1af95e45a5cb, d3d10effect/ID3D10EffectVectorVariable::SetIntVectorArray, direct3d10.id3d10effectvectorvariable_setintvectorarray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10EffectVectorVariable.SetIntVectorArray
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10EffectVectorVariable::SetIntVectorArray

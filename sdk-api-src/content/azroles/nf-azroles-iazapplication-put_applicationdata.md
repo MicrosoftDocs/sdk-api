@@ -4,17 +4,16 @@ title: IAzApplication::put_ApplicationData
 author: windows-sdk-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazapplication_applicationdata.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 7d7ec5c8-8032-437a-92b5-5c578deda6f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzApplication object, ApplicationData property [Security],IAzApplication interface, AzApplication object [Security],ApplicationData property, IAzApplication interface [Security],ApplicationData property, IAzApplication.ApplicationData, IAzApplication.put_ApplicationData, IAzApplication::ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, put_ApplicationData, security.iazapplication_applicationdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - AzApplication.ApplicationData
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzApplication::put_ApplicationData

@@ -4,17 +4,16 @@ title: ISelectionItemProvider::AddToSelection
 author: windows-sdk-content
 description: Adds the current element to the collection of selected items.
 old-location: winauto\uiauto_ISelectionItemProvider_AddToSelection.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 7c54d57f-7cca-4068-80d9-995c46de1962
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],ISelectionItemProvider interface, ISelectionItemProvider interface [Windows Accessibility],AddToSelection method, ISelectionItemProvider.AddToSelection, ISelectionItemProvider::AddToSelection, uiauto.uiauto_ISelectionItemProvider_AddToSelection, uiauto_ISelectionItemProvider_AddToSelection, uiautomationcore/ISelectionItemProvider::AddToSelection, winauto.uiauto_ISelectionItemProvider_AddToSelection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISelectionItemProvider.AddToSelection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectionItemProvider::AddToSelection

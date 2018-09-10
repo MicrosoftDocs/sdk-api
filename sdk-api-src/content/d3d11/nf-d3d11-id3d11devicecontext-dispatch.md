@@ -4,17 +4,16 @@ title: ID3D11DeviceContext::Dispatch
 author: windows-sdk-content
 description: Execute a command list from a thread group.
 old-location: direct3d11\id3d11devicecontext_dispatch.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 7d3401bb-521f-4ab0-8833-e5caf712d0c9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: 4643b8d4-3b6b-6d21-52bd-96e849a3eba7, Dispatch, Dispatch method [Direct3D 11], Dispatch method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Dispatch method, ID3D11DeviceContext.Dispatch, ID3D11DeviceContext::Dispatch, d3d11/ID3D11DeviceContext::Dispatch, direct3d11.id3d11devicecontext_dispatch
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11DeviceContext.Dispatch
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11DeviceContext::Dispatch

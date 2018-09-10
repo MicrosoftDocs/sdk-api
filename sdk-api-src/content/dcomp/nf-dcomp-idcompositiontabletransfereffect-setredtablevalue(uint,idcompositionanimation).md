@@ -4,17 +4,16 @@ title: IDCompositionTableTransferEffect::SetRedTableValue(UINT,IDCompositionAnim
 author: windows-sdk-content
 description: Sets a value in the red table.
 old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 18FF3F25-3640-4779-AF23-265AF12C4BE1
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTableValue method, IDCompositionTableTransferEffect.SetRedTableValue, IDCompositionTableTransferEffect.SetRedTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetRedTableValue, IDCompositionTableTransferEffect::SetRedTableValue(UINT,IDCompositionAnimation), SetRedTableValue, SetRedTableValue method [DirectComposition], SetRedTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTableValue, directcomp.idcompositiontabletransfereffect_setredtablevalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionTableTransferEffect.SetRedTableValue
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionTableTransferEffect::SetRedTableValue(UINT,IDCompositionAnimation)
@@ -68,7 +67,7 @@ The index of the value to set.
 
 ### -param animation
 
-
+TBD
 
 
 

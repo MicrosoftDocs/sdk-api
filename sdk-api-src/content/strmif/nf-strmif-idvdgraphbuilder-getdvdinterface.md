@@ -4,17 +4,16 @@ title: IDvdGraphBuilder::GetDvdInterface
 author: windows-sdk-content
 description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
 old-location: dshow\idvdgraphbuilder_getdvdinterface.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetDvdInterface, GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetDvdInterface method, IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdGraphBuilder.GetDvdInterface
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdGraphBuilder::GetDvdInterface

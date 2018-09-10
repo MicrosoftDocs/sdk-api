@@ -4,17 +4,16 @@ title: IActiveDesktop::SetPattern
 author: windows-sdk-content
 description: Sets the Active Desktop pattern.
 old-location: lwef\iactivedesktop_setpattern.htm
-old-project: lwef
+tech.root: lwef
 ms.assetid: ca66a200-dd12-454b-b449-feeae26941b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetPattern method, IActiveDesktop.SetPattern, IActiveDesktop::SetPattern, SetPattern, SetPattern method [Legacy Windows Environment Features], SetPattern method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetPattern, lwef.iactivedesktop_setpattern, shell.iactivedesktop_setpattern, shlobj_core/IActiveDesktop::SetPattern
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 4.71 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IActiveDesktop.SetPattern
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.71 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IActiveDesktop::SetPattern

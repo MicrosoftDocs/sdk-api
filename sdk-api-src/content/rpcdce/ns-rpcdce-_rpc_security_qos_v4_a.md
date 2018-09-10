@@ -4,7 +4,7 @@ title: "_RPC_SECURITY_QOS_V4_A"
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS_V4 structure defines version 4 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos_v4.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 5d3579f0-0258-423b-8f25-ce3c6917713e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_SECURITY_QOS_V4_A, *PRPC_SECURITY_QOS_V4_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_SECURITY_QOS_V4
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_SECURITY_QOS_V4_A, *PRPC_SECURITY_QOS_V4_A
+req.redist: 
 ---
 
 # _RPC_SECURITY_QOS_V4_A structure
@@ -271,7 +269,7 @@ No additional credentials are passed in the <b>u</b> union.
 </dl>
 </td>
 <td width="60%">
-The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
+The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://msdn.microsoft.com/fdb7f42a-e545-4965-a44a-70d4631f1723">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
 
 </td>
 </tr>

@@ -4,17 +4,16 @@ title: IPersistQuery::WriteStruct
 author: windows-sdk-content
 description: Writes a structure to the query store.
 old-location: ad\ipersistquery_writestruct.htm
-old-project: ad
+tech.root: ad
 ms.assetid: c0acd6c7-96ee-4650-9cfc-3bad4fdffdcc
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteStruct method, IPersistQuery.WriteStruct, IPersistQuery::WriteStruct, WriteStruct, WriteStruct method [Active Directory], WriteStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestruct, ad.ipersistquery__writestruct, ad.ipersistquery_writestruct, cmnquery/IPersistQuery::WriteStruct
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cmnquery.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DBTEXT
+req.lib: Uuid.lib
+req.dll: Dsquery.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPersistQuery.WriteStruct
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Dsquery.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistQuery::WriteStruct

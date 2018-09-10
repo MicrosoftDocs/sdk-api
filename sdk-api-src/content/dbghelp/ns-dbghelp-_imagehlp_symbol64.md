@@ -4,7 +4,7 @@ title: "_IMAGEHLP_SYMBOL64"
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\imagehlp_symbol64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL64, *PIMAGEHLP_SYMBOL64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMAGEHLP_SYMBOL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_SYMBOL64, *PIMAGEHLP_SYMBOL64
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_SYMBOL64 structure

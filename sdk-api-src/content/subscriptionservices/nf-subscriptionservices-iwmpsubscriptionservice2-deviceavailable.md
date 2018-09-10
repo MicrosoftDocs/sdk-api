@@ -4,17 +4,16 @@ title: IWMPSubscriptionService2::deviceAvailable
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_deviceavailable.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: f3450e57-5e25-411c-8b21-b687021a6500
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],deviceAvailable method, IWMPSubscriptionService2.deviceAvailable, IWMPSubscriptionService2::deviceAvailable, IWMPSubscriptionService2doMetering, deviceAvailable, deviceAvailable method [Windows Media Player], deviceAvailable method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::deviceAvailable, wmp.iwmpsubscriptionservice2_deviceavailable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSubscriptionServiceEvent
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSubscriptionService2.deviceAvailable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSubscriptionService2::deviceAvailable

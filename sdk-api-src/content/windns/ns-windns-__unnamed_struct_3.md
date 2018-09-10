@@ -4,7 +4,7 @@ title: DNS_PTR_DATAW
 author: windows-sdk-content
 description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
 old-location: dns\dns_ptr_data.htm
-old-project: dns
+tech.root: dns
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DNS_PTR_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
+req.redist: 
 ---
 
 # DNS_PTR_DATAW structure

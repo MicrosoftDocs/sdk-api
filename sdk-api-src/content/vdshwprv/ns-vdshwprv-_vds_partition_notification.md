@@ -4,7 +4,7 @@ title: "_VDS_PARTITION_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of partition events.
 old-location: base\vds_partition_notification.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: f731d45d-e406-4a03-a604-c6ac001c341f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_NOTIFICATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PARTITION_NOTIFICATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_NOTIFICATION
+req.redist: 
 ---
 
 # _VDS_PARTITION_NOTIFICATION structure

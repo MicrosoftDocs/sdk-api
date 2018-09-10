@@ -4,17 +4,16 @@ title: ID2D1SvgGlyphStyle::SetStroke
 author: windows-sdk-content
 description: Provides values to an SVG glyph for stroke properties. The brush with opacity set to 1 is used as the 'context-stroke'. The opacity of the brush is used as the 'context-stroke-opacity' value.
 old-location: direct2d\id2d1svgglyphstyle_setstroke.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 3C7734DF-3EA6-43A8-8913-8D174ABAAA56
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetStroke method, ID2D1SvgGlyphStyle.SetStroke, ID2D1SvgGlyphStyle::SetStroke, SetStroke, SetStroke method [Direct2D], SetStroke method [Direct2D],ID2D1SvgGlyphStyle interface, d2d1_3/ID2D1SvgGlyphStyle::SetStroke, direct2d.id2d1svgglyphstyle_setstroke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgGlyphStyle.SetStroke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgGlyphStyle::SetStroke

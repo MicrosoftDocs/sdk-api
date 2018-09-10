@@ -4,17 +4,16 @@ title: AVIStreamPrevKeyFrame macro
 author: windows-sdk-content
 description: The AVIStreamPrevKeyFrame macro locates the key frame that precedes a specified position in a stream.
 old-location: multimedia\avistreamprevkeyframe.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 69933c8f-7e4e-45b2-aa72-ac127f3c8d05
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrame, multimedia.avistreamprevkeyframe, vfw/AVIStreamPrevKeyFrame
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AVIStreamPrevKeyFrame
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # AVIStreamPrevKeyFrame macro

@@ -4,17 +4,16 @@ title: IEnumConnections::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumconnections_next.htm
-old-project: com
+tech.root: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumConnections.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumConnections::Next
@@ -74,7 +72,7 @@ The enumerator is responsible for allocating any memory, and the caller is respo
 
 ### -param pcFetched
 
-
+TBD
 
 
 

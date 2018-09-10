@@ -4,17 +4,16 @@ title: IShellLibrary::Save
 author: windows-sdk-content
 description: Saves the library to a new Library Description (*.library-ms) file.
 old-location: shell\IShellLibrary_Save.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.Save, IShellLibrary::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_Save, shell.IShellLibrary_Save, shobjidl_core/IShellLibrary::Save
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellLibrary.Save
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellLibrary::Save

@@ -4,7 +4,7 @@ title: "_FsrmReportGenerationContext"
 author: windows-sdk-content
 description: Defines the context in which the report is initiated.
 old-location: fsrm\fsrmreportgenerationcontext.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: 02e18cc2-7c5e-473f-8a7f-e310bfb1c57d
 ms.author: windowssdkdev
 ms.date: 08/01/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: FsrmEnums.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmReportGenerationContext
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FsrmReportGenerationContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FsrmReportGenerationContext
+req.redist: 
 ---
 
 # _FsrmReportGenerationContext enumeration

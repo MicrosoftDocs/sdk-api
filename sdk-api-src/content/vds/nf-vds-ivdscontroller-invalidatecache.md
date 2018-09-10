@@ -4,17 +4,16 @@ title: IVdsController::InvalidateCache
 author: windows-sdk-content
 description: Invalidates the cache of the controller. All data in the cache is lost.
 old-location: base\ivdscontroller_invalidatecache.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsController.InvalidateCache
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsController::InvalidateCache

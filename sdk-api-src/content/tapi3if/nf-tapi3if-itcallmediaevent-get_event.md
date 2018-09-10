@@ -4,17 +4,16 @@ title: ITCallMediaEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the call media event indicator.
 old-location: tapi3\itcallmediaevent_get_event.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 3dd6210f-e904-46c5-8fc3-50a62b8754ed
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Event method, ITCallMediaEvent.get_Event, ITCallMediaEvent::get_Event, _tapi3_itcallmediaevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_event, tapi3if/ITCallMediaEvent::get_Event
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallMediaEvent.get_Event
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallMediaEvent::get_Event

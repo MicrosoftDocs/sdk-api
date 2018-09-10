@@ -4,17 +4,16 @@ title: IUIAutomationTreeWalker::GetFirstChildElement
 author: windows-sdk-content
 description: Retrieves the first child element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChild.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 2f1df27c-664b-451a-8a1f-e4dbc70b1845
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFirstChildElement, GetFirstChildElement method [Windows Accessibility], GetFirstChildElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElement method, IUIAutomationTreeWalker.GetFirstChildElement, IUIAutomationTreeWalker::GetFirstChildElement, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChild, uiauto_IUIAutomationTreeWalker_GetFirstChild, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElement, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationTreeWalker.GetFirstChildElement
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTreeWalker::GetFirstChildElement

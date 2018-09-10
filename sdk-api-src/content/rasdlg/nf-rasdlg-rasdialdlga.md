@@ -4,17 +4,16 @@ title: RasDialDlgA function
 author: windows-sdk-content
 description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 old-location: rras\rasdialdlg.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASNAPSTATE, *LPRASNAPSTATE
+req.lib: Rasdlg.lib
+req.dll: Rasdlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - RasDialDlgW
 product: Windows
 targetos: Windows
-req.lib: Rasdlg.lib
-req.dll: Rasdlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasDialDlgA function

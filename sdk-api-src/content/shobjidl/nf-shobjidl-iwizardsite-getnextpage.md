@@ -4,17 +4,16 @@ title: IWizardSite::GetNextPage
 author: windows-sdk-content
 description: Called when the user navigates forward past the wizard extension pages. Gets the handle of the PROPSHEETPAGE that represents the wizard page immediately following the wizard extension page.
 old-location: shell\IWizardSite_GetNextPage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetNextPage method, IWizardSite.GetNextPage, IWizardSite::GetNextPage, _shell_IWizardSite_GetNextPage, shell.IWizardSite_GetNextPage, shobjidl/IWizardSite::GetNextPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWizardSite.GetNextPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IWizardSite::GetNextPage
@@ -62,7 +60,7 @@ Called when the user navigates forward past the wizard extension pages. Gets the
 
 ### -param phpage
 
-
+TBD
 
 
 

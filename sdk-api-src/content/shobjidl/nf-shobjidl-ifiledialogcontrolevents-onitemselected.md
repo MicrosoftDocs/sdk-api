@@ -4,17 +4,16 @@ title: IFileDialogControlEvents::OnItemSelected
 author: windows-sdk-content
 description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
 old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnItemSelected method, IFileDialogControlEvents.OnItemSelected, IFileDialogControlEvents::OnItemSelected, OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogControlEvents.OnItemSelected
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogControlEvents::OnItemSelected

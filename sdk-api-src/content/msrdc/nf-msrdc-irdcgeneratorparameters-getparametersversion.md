@@ -4,17 +4,16 @@ title: IRdcGeneratorParameters::GetParametersVersion
 author: windows-sdk-content
 description: Returns information about the version of RDC used to serialize the parameters.
 old-location: rdc\irdcgeneratorparameters_getparametersversion.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 58050740-0508-4797-b1b5-7a1e2a6dc00b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetParametersVersion, GetParametersVersion method [Remote Differential Compression], GetParametersVersion method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetParametersVersion method, IRdcGeneratorParameters.GetParametersVersion, IRdcGeneratorParameters::GetParametersVersion, fs.irdcgeneratorparameters_getparametersversion, msrdc/IRdcGeneratorParameters::GetParametersVersion, rdc.irdcgeneratorparameters_getparametersversion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGeneratorParameters.GetParametersVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGeneratorParameters::GetParametersVersion

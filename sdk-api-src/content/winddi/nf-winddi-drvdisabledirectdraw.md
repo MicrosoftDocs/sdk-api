@@ -4,17 +4,16 @@ title: DrvDisableDirectDraw function
 author: windows-sdk-content
 description: The DrvDisableDirectDraw function disables hardware for DirectDraw use.
 old-location: display\drvdisabledirectdraw.htm
-old-project: display
+tech.root: display
 ms.assetid: 7675019e-ac05-40e8-a934-a0928800ebe3
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: DrvDisableDirectDraw, DrvDisableDirectDraw function [Display Devices], ddfncs_7abbe471-0671-4e98-8eba-ceb25216d961.xml, display.drvdisabledirectdraw, winddi/DrvDisableDirectDraw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DrvDisableDirectDraw
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # DrvDisableDirectDraw function

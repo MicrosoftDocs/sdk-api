@@ -4,7 +4,7 @@ title: WABOpen
 author: windows-sdk-content
 description: Do not use. Provides access to the address book through a number of object interfaces. The root interface is IAddrBook, which is a subset of the MAPI implementation of IAddrBook.
 old-location: wab\_wab_WABOpen.htm
-old-project: wab
+tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopen.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: wabapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UpdateAssessment
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - WABOpen
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.5
 ---
 

@@ -4,17 +4,16 @@ title: IPortableDevicePropertiesBulkCallback::OnProgress
 author: windows-sdk-content
 description: The OnProgress method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start has sent data to the device and received some information back.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onprogress.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: f357d7da-00cd-4439-af6d-5d3716a8443b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnProgress method, IPortableDevicePropertiesBulkCallback.OnProgress, IPortableDevicePropertiesBulkCallback::OnProgress, IPortableDevicePropertiesBulkCallbackOnProgress, OnProgress, OnProgress method [Windows Portable Devices SDK], OnProgress method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnProgress, wpdsdk.iportabledevicepropertiesbulkcallback_onprogress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevicePropertiesBulkCallback.OnProgress
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevicePropertiesBulkCallback::OnProgress

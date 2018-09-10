@@ -4,17 +4,16 @@ title: IShellMenu::GetShellFolder
 author: windows-sdk-content
 description: Gets the folder that the menu band is set to browse.
 old-location: shell\IShellMenu_GetShellFolder.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6f88e1ee-950f-41b8-ad53-3bd7e8772f42
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFolder method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetShellFolder method, IShellMenu.GetShellFolder, IShellMenu::GetShellFolder, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_GetShellFolder, shell.IShellMenu_GetShellFolder, shobjidl_core/IShellMenu::GetShellFolder
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellMenu.GetShellFolder
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellMenu::GetShellFolder
@@ -155,7 +153,7 @@ Specifies a horizontal band.
 
 ### -param ppidl
 
-
+TBD
 
 
 ### -param riid [in]

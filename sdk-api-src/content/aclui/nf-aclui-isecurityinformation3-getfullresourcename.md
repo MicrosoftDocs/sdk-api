@@ -4,17 +4,16 @@ title: ISecurityInformation3::GetFullResourceName
 author: windows-sdk-content
 description: Retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the OpenElevatedEditor method.
 old-location: security\isecurityinformation3_getfullresourcename.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: a22b9a75-6aa8-4b32-8d86-7fb21afd248f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFullResourceName, GetFullResourceName method [Security], GetFullResourceName method [Security],ISecurityInformation3 interface, ISecurityInformation3 interface [Security],GetFullResourceName method, ISecurityInformation3.GetFullResourceName, ISecurityInformation3::GetFullResourceName, aclui/ISecurityInformation3::GetFullResourceName, security.isecurityinformation3_getfullresourcename
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SI_PAGE_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISecurityInformation3.GetFullResourceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISecurityInformation3::GetFullResourceName

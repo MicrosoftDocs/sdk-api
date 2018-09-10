@@ -4,17 +4,16 @@ title: IOpcPartSet::PartExists
 author: windows-sdk-content
 description: Gets a value that indicates whether a specified part is represented as a part object in the set.
 old-location: opc\iopcpartset_partexists.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 721e0252-330a-4218-9267-b3dd0dea7598
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcPartSet interface [Open Packaging Conventions],PartExists method, IOpcPartSet.PartExists, IOpcPartSet::PartExists, PartExists, PartExists method [Open Packaging Conventions], PartExists method [Open Packaging Conventions],IOpcPartSet interface, msopc/IOpcPartSet::PartExists, opc.iopcpartset_partexists
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcPartSet.PartExists
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcPartSet::PartExists

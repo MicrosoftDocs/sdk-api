@@ -4,7 +4,7 @@ title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 author: windows-sdk-content
 description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.
 old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+req.redist: 
 ---
 
 # D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure

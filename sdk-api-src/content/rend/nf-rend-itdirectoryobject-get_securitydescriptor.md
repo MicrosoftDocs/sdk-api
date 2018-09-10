@@ -4,17 +4,16 @@ title: ITDirectoryObject::get_SecurityDescriptor
 author: windows-sdk-content
 description: The get_SecurityDescriptor method gets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_get_securitydescriptor.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 746367e1-4319-4903-843f-7a25d60f4223
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_SecurityDescriptor method, ITDirectoryObject.get_SecurityDescriptor, ITDirectoryObject::get_SecurityDescriptor, _tapi3_itdirectoryobject_get_securitydescriptor, get_SecurityDescriptor, get_SecurityDescriptor method [TAPI 2.2], get_SecurityDescriptor method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_SecurityDescriptor, tapi3.itdirectoryobject_get_securitydescriptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RND_ADVERTISING_SCOPE
+req.lib: 
+req.dll: Rend.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITDirectoryObject.get_SecurityDescriptor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Rend.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITDirectoryObject::get_SecurityDescriptor

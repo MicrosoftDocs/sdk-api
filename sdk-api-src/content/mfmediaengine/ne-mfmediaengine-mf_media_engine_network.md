@@ -4,7 +4,7 @@ title: MF_MEDIA_ENGINE_NETWORK
 author: windows-sdk-content
 description: Defines network status codes for the Media Engine.
 old-location: mf\mf_media_engine_network.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A2A73A54-C360-452C-8887-D3065274358A
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_MEDIA_ENGINE_NETWORK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_MEDIA_ENGINE_NETWORK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_MEDIA_ENGINE_NETWORK
+req.redist: 
 ---
 
 # MF_MEDIA_ENGINE_NETWORK enumeration

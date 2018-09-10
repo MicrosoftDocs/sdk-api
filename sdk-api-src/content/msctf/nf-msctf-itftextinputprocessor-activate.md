@@ -4,17 +4,16 @@ title: ITfTextInputProcessor::Activate
 author: windows-sdk-content
 description: ITfTextInputProcessor::Activate method
 old-location: tsf\itftextinputprocessor_activate.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: c5fd6b5c-0a78-4b5b-aad5-0c398798cf30
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Activate method, ITfTextInputProcessor.Activate, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Sptip.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfTextInputProcessor.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sptip.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfTextInputProcessor::Activate

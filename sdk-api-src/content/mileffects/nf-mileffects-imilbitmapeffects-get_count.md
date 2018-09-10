@@ -4,17 +4,16 @@ title: IMILBitmapEffects::get_Count
 author: windows-sdk-content
 description: Retrieves the number of items in the enumeration.
 old-location: wibe\_wibe_imilbitmapeffects_count.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\count.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Count method, IMILBitmapEffects.get_Count, IMILBitmapEffects::get_Count, _wibe_imilbitmapeffects_count, get_Count, get_Count method [WPF Bitmap Effects], get_Count method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Count, wibe._wibe_imilbitmapeffects_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffects.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffects::get_Count

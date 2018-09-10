@@ -4,17 +4,16 @@ title: IAMStats::AddValue
 author: windows-sdk-content
 description: The AddValue method records a new value.
 old-location: dshow\iamstats_addvalue.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: a408b106-702c-4ecc-a424-b4b3588ea58f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddValue, AddValue method [DirectShow], AddValue method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],AddValue method, IAMStats.AddValue, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMStats.AddValue
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStats::AddValue

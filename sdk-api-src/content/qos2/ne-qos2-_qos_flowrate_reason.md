@@ -4,7 +4,7 @@ title: "_QOS_FLOWRATE_REASON"
 author: windows-sdk-content
 description: The QOS_FLOWRATE_REASON enumeration indicates the reason for a change in a flow's bandwidth.
 old-location: qos\qos_flowrate_reason.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: bd2a1fec-d554-49e2-8803-624942455f74
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: qos2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QOS_FLOWRATE_REASON, *PQOS_FLOWRATE_REASON
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - QOS_FLOWRATE_REASON
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: QOS_FLOWRATE_REASON, *PQOS_FLOWRATE_REASON
+req.redist: 
 ---
 
 # _QOS_FLOWRATE_REASON enumeration

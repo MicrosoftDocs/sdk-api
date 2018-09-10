@@ -4,17 +4,16 @@ title: IPrincipal::get_DisplayName
 author: windows-sdk-content
 description: Gets or sets the name of the principal.
 old-location: taskschd\iprincipal_displayname.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.get_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, get_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPrincipal.put_DisplayName
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IPrincipal::get_DisplayName

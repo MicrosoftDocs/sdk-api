@@ -4,7 +4,7 @@ title: VSS_COMPONENT_TYPE
 author: windows-sdk-content
 description: Specify the type of component being used with a shadow copy backup operation.
 old-location: base\vss_component_type.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: ba3b726c-448a-46c0-8fa5-5793497aa385
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_COMPONENT_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_COMPONENT_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_COMPONENT_TYPE
+req.redist: 
 ---
 
 # VSS_COMPONENT_TYPE enumeration

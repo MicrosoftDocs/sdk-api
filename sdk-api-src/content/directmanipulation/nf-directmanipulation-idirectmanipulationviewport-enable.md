@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::Enable
 author: windows-sdk-content
 description: Starts or resumes input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_enable.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.Enable
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::Enable

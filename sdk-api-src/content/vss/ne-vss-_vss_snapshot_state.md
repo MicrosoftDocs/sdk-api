@@ -4,7 +4,7 @@ title: "_VSS_SNAPSHOT_STATE"
 author: windows-sdk-content
 description: Specify the state of a given shadow copy operation.
 old-location: base\vss_snapshot_state.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 0f9ce651-c9ad-454f-88a5-1f877c7c06ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_STATE, *PVSS_SNAPSHOT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_STATE
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_STATE, *PVSS_SNAPSHOT_STATE
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_STATE enumeration

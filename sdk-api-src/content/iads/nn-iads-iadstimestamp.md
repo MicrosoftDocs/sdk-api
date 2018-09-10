@@ -4,7 +4,7 @@ title: IADsTimestamp
 author: windows-sdk-content
 description: The IADsTimestamp interface provides methods for an ADSI client to access the Timestamp attribute.
 old-location: adsi\iadstimestamp.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - Timestamp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsTimestamp interface

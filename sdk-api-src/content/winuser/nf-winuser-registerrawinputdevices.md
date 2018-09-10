@@ -4,17 +4,16 @@ title: RegisterRawInputDevices function
 author: windows-sdk-content
 description: Registers the devices that supply the raw input data.
 old-location: inputdev\registerrawinputdevices.htm
-old-project: inputdev
+tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\registerrawinputdevices.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: RegisterRawInputDevices, RegisterRawInputDevices function [Keyboard and Mouse Input], _win32_RegisterRawInputDevices, _win32_registerrawinputdevices_cpp, inputdev.registerrawinputdevices, winui._win32_registerrawinputdevices, winuser/RegisterRawInputDevices
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - RegisterRawInputDevices
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterRawInputDevices function

@@ -4,17 +4,16 @@ title: ImageRvaToSection function
 author: windows-sdk-content
 description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns a pointer to the section table entry for that RVA.
 old-location: base\imagervatosection.htm
-old-project: debug
+tech.root: debug
 ms.assetid: a11df748-242b-4dd8-bf57-7ac02548b701
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: ImageRvaToSection, ImageRvaToSection function, _win32_imagervatosection, base.imagervatosection, dbghelp/ImageRvaToSection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ImageRvaToSection
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll
-req.irql: 
+req.typenames: 
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # ImageRvaToSection function

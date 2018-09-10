@@ -4,17 +4,16 @@ title: IUIAutomationLegacyIAccessiblePattern::get_CachedHelp
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility help string for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 66ce70ed-e76e-4a31-8dae-0ab4abd6c982
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedHelp property [Windows Accessibility], CachedHelp property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedHelp property, IUIAutomationLegacyIAccessiblePattern.CachedHelp, IUIAutomationLegacyIAccessiblePattern.get_CachedHelp, IUIAutomationLegacyIAccessiblePattern::CachedHelp, IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, get_CachedHelp, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationLegacyIAccessiblePattern.get_CachedHelp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedHelp

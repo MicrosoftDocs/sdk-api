@@ -4,7 +4,7 @@ title: "_SID_INFO_LIST"
 author: windows-sdk-content
 description: Contains a list of SID_INFO structures.
 old-location: security\sid_info_list.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SID_INFO_LIST, *PSID_INFO_LIST
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SID_INFO_LIST
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SID_INFO_LIST, *PSID_INFO_LIST
+req.redist: 
 ---
 
 # _SID_INFO_LIST structure

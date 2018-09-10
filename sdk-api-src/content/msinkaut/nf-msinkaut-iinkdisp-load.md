@@ -4,17 +4,16 @@ title: IInkDisp::Load
 author: windows-sdk-content
 description: Populates a new InkDisp object with known binary data.
 old-location: tablet\inkdisp_load.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 2e71e434-b055-4e45-b8fd-f9c1ac84d308
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 2e71e434-b055-4e45-b8fd-f9c1ac84d308, IInkDisp interface [Tablet PC],Load method, IInkDisp.Load, IInkDisp::Load, Load, Load method [Tablet PC], Load method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Load, tablet.inkdisp_load
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.Load
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::Load

@@ -4,17 +4,16 @@ title: IConfigAviMux::SetOutputCompatibilityIndex
 author: windows-sdk-content
 description: The SetOutputCompatibilityIndex method sets the AVI index format.
 old-location: dshow\iconfigavimux_setoutputcompatibilityindex.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3b9793e6-e5f4-432f-95f6-62053b955348
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IConfigAviMux interface [DirectShow],SetOutputCompatibilityIndex method, IConfigAviMux.SetOutputCompatibilityIndex, IConfigAviMux::SetOutputCompatibilityIndex, IConfigAviMuxSetOutputCompatibilityIndex, SetOutputCompatibilityIndex, SetOutputCompatibilityIndex method [DirectShow], SetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, dshow.iconfigavimux_setoutputcompatibilityindex, strmif/IConfigAviMux::SetOutputCompatibilityIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IConfigAviMux.SetOutputCompatibilityIndex
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IConfigAviMux::SetOutputCompatibilityIndex

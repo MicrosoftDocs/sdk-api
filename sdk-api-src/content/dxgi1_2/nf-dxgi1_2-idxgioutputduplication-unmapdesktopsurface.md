@@ -4,17 +4,16 @@ title: IDXGIOutputDuplication::UnMapDesktopSurface
 author: windows-sdk-content
 description: Invalidates the pointer to the desktop image that was retrieved by using IDXGIOutputDuplication::MapDesktopSurface.
 old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 1B9AF088-5856-4F1C-A794-6CF870D62A29
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],UnMapDesktopSurface method, IDXGIOutputDuplication.UnMapDesktopSurface, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIOutputDuplication.UnMapDesktopSurface
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIOutputDuplication::UnMapDesktopSurface

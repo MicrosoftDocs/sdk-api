@@ -4,7 +4,7 @@ title: STREAMBUFFER_ATTR_DATATYPE
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\streambuffer_attr_datatype.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: be478769-d9ac-4e42-b5f6-94b5656e2596
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - STREAMBUFFER_ATTR_DATATYPE
 product: Windows
 targetos: Windows
-req.lib: Sas.lib
-req.dll: Sas.dll
-req.irql: 
-req.product: ADAM
+req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.redist: 
 ---
 
 # STREAMBUFFER_ATTR_DATATYPE enumeration

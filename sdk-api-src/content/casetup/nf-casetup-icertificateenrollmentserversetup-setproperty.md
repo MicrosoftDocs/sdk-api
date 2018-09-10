@@ -4,17 +4,16 @@ title: ICertificateEnrollmentServerSetup::SetProperty
 author: windows-sdk-content
 description: Specifies a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 old-location: security\icertificateenrollmentserversetup_setproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentServerSetup.SetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentServerSetup::SetProperty

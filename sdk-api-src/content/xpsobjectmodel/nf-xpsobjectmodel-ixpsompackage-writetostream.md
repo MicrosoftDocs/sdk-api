@@ -4,17 +4,16 @@ title: IXpsOMPackage::WriteToStream
 author: windows-sdk-content
 description: Writes the XPS package to a specified stream.
 old-location: xps\ixpsompackage_writetostream.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: 5b729ac6-3f0e-4f24-b3f6-4b6d26844df1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToStream method, IXpsOMPackage.WriteToStream, IXpsOMPackage::WriteToStream, TRUE, WriteToStream, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMPackage.WriteToStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMPackage::WriteToStream

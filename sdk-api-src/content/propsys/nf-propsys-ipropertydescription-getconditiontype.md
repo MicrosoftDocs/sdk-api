@@ -4,17 +4,16 @@ title: IPropertyDescription::GetConditionType
 author: windows-sdk-content
 description: Gets the condition type and default condition operation to use when displaying the property in the query builder UI. This influences the list of predicate conditions (for example, equals, less than, and contains) that are shown for this property.
 old-location: properties\IPropertyDescription_GetConditionType.htm
-old-project: properties
+tech.root: properties
 ms.assetid: d71bfed8-22e4-4dde-ba88-4bedfe07af62
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetConditionType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetConditionType

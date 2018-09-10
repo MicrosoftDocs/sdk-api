@@ -4,17 +4,16 @@ title: IPublisherFilter::Initialize
 author: windows-sdk-content
 description: Associates an event method with a collection of subscription objects.
 old-location: cos\ipublisherfilter_initialize.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPublisherFilter interface [COM+],Initialize method, IPublisherFilter.Initialize, IPublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPublisherFilter.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IPublisherFilter::Initialize

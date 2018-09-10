@@ -4,17 +4,16 @@ title: IEnumNames::Next
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumnames_next.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: fa20453f-f170-442d-a927-6872ca75dbed
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumNames interface [COM+],Next method, IEnumNames.Next, IEnumNames::Next, Next, Next method [COM+], Next method [COM+],IEnumNames interface, _cos_IEnumNames_Next, comsvcs/IEnumNames::Next, cos.ienumnames_next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumNames.Next
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumNames::Next

@@ -4,17 +4,16 @@ title: ITextStoreAnchor::FindNextAttrTransition
 author: windows-sdk-content
 description: The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreanchor_findnextattrtransition.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 9bb21a4a-047e-4347-93b3-9c41cd2c20b7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],FindNextAttrTransition method, ITextStoreAnchor.FindNextAttrTransition, ITextStoreAnchor::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_UPDATESTART, TS_ATTR_FIND_WANT_OFFSET, textstor/ITextStoreAnchor::FindNextAttrTransition, tsf.itextstoreanchor_findnextattrtransition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextStoreAnchor.FindNextAttrTransition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITextStoreAnchor::FindNextAttrTransition

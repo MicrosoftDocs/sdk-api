@@ -4,17 +4,16 @@ title: IComCRMEvents::OnCRMDeliver
 author: windows-sdk-content
 description: Generated when a CRM clerk delivers a record to a CRM compensator.
 old-location: cos\icomcrmevents_oncrmdeliver.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e93e5548-b833-43a9-a73e-1ccad9d252b6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDeliver method, IComCRMEvents.OnCRMDeliver, IComCRMEvents::OnCRMDeliver, OnCRMDeliver, OnCRMDeliver method [COM+], OnCRMDeliver method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDeliver, comsvcs/IComCRMEvents::OnCRMDeliver, cos.icomcrmevents_oncrmdeliver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComCRMEvents.OnCRMDeliver
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComCRMEvents::OnCRMDeliver

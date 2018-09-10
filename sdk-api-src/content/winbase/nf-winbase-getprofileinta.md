@@ -4,17 +4,16 @@ title: GetProfileIntA function
 author: windows-sdk-content
 description: Retrieves an integer from a key in the specified section of the Win.ini file.
 old-location: base\getprofileint.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - GetProfileIntW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetProfileIntA function

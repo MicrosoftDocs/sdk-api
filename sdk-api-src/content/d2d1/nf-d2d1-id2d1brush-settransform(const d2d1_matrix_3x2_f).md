@@ -4,17 +4,16 @@ title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\id2d1brush_settransform.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID2D1Brush.SetTransform, ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F), ID2D1Brush::SetTransform, ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F), SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: D2d1.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_WINDOW_STATE
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1Brush::SetTransform
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)

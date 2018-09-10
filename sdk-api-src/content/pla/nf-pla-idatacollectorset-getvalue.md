@@ -4,17 +4,16 @@ title: IDataCollectorSet::GetValue
 author: windows-sdk-content
 description: Retrieves a user-defined value.
 old-location: pla\idatacollectorset_getvalue.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 0f82e154-7d3f-44c9-8bdd-cc1522499e85
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: GetValue, GetValue method [PLA], GetValue method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],GetValue method, IDataCollectorSet.GetValue, IDataCollectorSet::GetValue, base.idatacollectorset_getvalue, pla.idatacollectorset_getvalue, pla/IDataCollectorSet::GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDataCollectorSet.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IDataCollectorSet::GetValue

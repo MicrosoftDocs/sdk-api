@@ -4,17 +4,16 @@ title: ITextHost::TxGetScrollBars
 author: windows-sdk-content
 description: Requests information about the scroll bars supported by the text host.
 old-location: controls\ITextHost_TxGetScrollBars.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetscrollbars.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ES_AUTOHSCROLL, ES_AUTOVSCROLL, ES_DISABLENOSCROLL, ITextHost interface [Windows Controls],TxGetScrollBars method, ITextHost.TxGetScrollBars, ITextHost::TxGetScrollBars, TxGetScrollBars, TxGetScrollBars method [Windows Controls], TxGetScrollBars method [Windows Controls],ITextHost interface, WS_HSCROLL, WS_VSCROLL, _win32_ITextHost_TxGetScrollBars, _win32_ITextHost_TxGetScrollBars_cpp, controls.ITextHost_TxGetScrollBars, controls._win32_ITextHost_TxGetScrollBars, textserv/ITextHost::TxGetScrollBars
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextHost.TxGetScrollBars
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextHost::TxGetScrollBars

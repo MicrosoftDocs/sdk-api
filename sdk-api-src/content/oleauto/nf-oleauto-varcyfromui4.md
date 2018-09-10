@@ -4,17 +4,16 @@ title: VarCyFromUI4 function
 author: windows-sdk-content
 description: Converts an unsigned long value to a currency value.
 old-location: automat\varcyfromui4.htm
-old-project: automat
+tech.root: automat
 ms.assetid: aa5c74d1-050c-4036-a8b0-9518761f6c0d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyFromUI4, VarCyFromUI4 function [Automation], _oa96_VarCyFromUI4, automat.varcyfromui4, oleauto/VarCyFromUI4
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyFromUI4
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyFromUI4 function

@@ -4,17 +4,16 @@ title: IAzRole::AddMember
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of Windows accounts that belong to the role.
 old-location: security\iazrole_addmember.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: b2be62cb-7256-4031-8af9-24f3043a8430
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzRole object, AddMember method [Security],IAzRole interface, AzRole object [Security],AddMember method, IAzRole interface [Security],AddMember method, IAzRole.AddMember, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.AddMember
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::AddMember

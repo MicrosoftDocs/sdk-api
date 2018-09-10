@@ -4,7 +4,7 @@ title: CF_CALLBACK_TYPE
 author: windows-sdk-content
 description: Contains the various types of callbacks used on placeholder files or folders.
 old-location: cloudapi\cf_callback_type.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 0BA978D3-110C-47FC-8949-C5D98A59654C
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_CALLBACK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_CALLBACK_TYPE
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_CALLBACK_TYPE
+req.redist: 
 ---
 
 # CF_CALLBACK_TYPE enumeration

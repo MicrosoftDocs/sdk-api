@@ -4,7 +4,7 @@ title: IGetClusterResourceInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a resource.
 old-location: mscs\igetclusterresourceinfo.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterResourceInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterResourceInfo interface

@@ -4,17 +4,16 @@ title: CeipIsOptedIn function
 author: windows-sdk-content
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 old-location: base\ceipisoptedin.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: windowsceip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CeipIsOptedIn
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CeipIsOptedIn function

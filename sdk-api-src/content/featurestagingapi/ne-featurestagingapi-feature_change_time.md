@@ -4,7 +4,7 @@ title: FEATURE_CHANGE_TIME
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_change_time.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: BF4301FD-8F23-48EE-826C-2C4378F24CE1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: featurestagingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FEATURE_CHANGE_TIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FEATURE_CHANGE_TIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FEATURE_CHANGE_TIME
+req.redist: 
 ---
 
 # FEATURE_CHANGE_TIME enumeration

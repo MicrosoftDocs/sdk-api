@@ -4,17 +4,16 @@ title: IMetaDataDispenser::OpenScopeOnMemory
 author: windows-sdk-content
 description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.
 old-location: winrt\imetadatadispenser_openscopeonmemory.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 4558b229-0fe9-4ff7-a666-e69b47cb8170
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScopeOnMemory method, IMetaDataDispenser.OpenScopeOnMemory, IMetaDataDispenser::OpenScopeOnMemory, OpenScopeOnMemory, OpenScopeOnMemory method [Windows Runtime], OpenScopeOnMemory method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScopeOnMemory, winrt.imetadatadispenser_openscopeonmemory
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataDispenser.OpenScopeOnMemory
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataDispenser::OpenScopeOnMemory

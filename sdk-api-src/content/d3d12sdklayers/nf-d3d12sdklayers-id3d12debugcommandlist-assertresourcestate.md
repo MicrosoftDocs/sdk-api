@@ -4,17 +4,16 @@ title: ID3D12DebugCommandList::AssertResourceState
 author: windows-sdk-content
 description: Checks whether a resource, or subresource, is in a specified state, or not.
 old-location: direct3d12\id3d12debugcommandlist_assertresourcestate.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 9190760D-B624-4E3E-8C33-B5D888895499
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,AssertResourceState method, ID3D12DebugCommandList.AssertResourceState, ID3D12DebugCommandList::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList::AssertResourceState, direct3d12.id3d12debugcommandlist_assertresourcestate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_RLDO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12DebugCommandList.AssertResourceState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12DebugCommandList::AssertResourceState

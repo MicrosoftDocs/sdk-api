@@ -4,17 +4,16 @@ title: IInkGesture::GetHotPoint
 author: windows-sdk-content
 description: Gets the hot point of the gesture, in ink space coordinates.
 old-location: tablet\iinkgesture_gethotpoint.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6c047cf7-2162-4146-906b-47c4006daeeb
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint method [Tablet PC], GetHotPoint method [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],GetHotPoint method, IInkGesture.GetHotPoint, IInkGesture::GetHotPoint, msinkaut/IInkGesture::GetHotPoint, tablet.iinkgesture_gethotpoint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkGesture.GetHotPoint
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkGesture::GetHotPoint

@@ -4,17 +4,16 @@ title: CMSPAddress::GetDynamicTerminalClasses
 author: windows-sdk-content
 description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPAddress.GetDynamicTerminalClasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPAddress::GetDynamicTerminalClasses

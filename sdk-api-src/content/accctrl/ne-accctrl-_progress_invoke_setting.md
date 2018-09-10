@@ -4,7 +4,7 @@ title: "_PROGRESS_INVOKE_SETTING"
 author: windows-sdk-content
 description: Indicates the initial setting of the function used to track the progress of a call to the TreeSetNamedSecurityInfo or TreeResetNamedSecurityInfo function.
 old-location: security\prog_invoke_setting.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 3eee30d6-7d9d-468f-b6ba-e172da523169
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,6 +40,8 @@ api_name:
  - PROG_INVOKE_SETTING
 product: Windows
 targetos: Windows
+req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
+req.redist: 
 ---
 
 # _PROGRESS_INVOKE_SETTING enumeration

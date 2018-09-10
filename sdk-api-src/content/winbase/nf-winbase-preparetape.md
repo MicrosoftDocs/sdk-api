@@ -4,17 +4,16 @@ title: PrepareTape function
 author: windows-sdk-content
 description: Prepares the tape to be accessed or removed.
 old-location: backup\preparetape.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD, TAPE_LOCK, TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _win32_preparetape, backup.preparetape, base.preparetape, winbase/PrepareTape
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PrepareTape
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PrepareTape function

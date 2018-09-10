@@ -4,17 +4,16 @@ title: IWCNConnectNotify::ConnectSucceeded
 author: windows-sdk-content
 description: The IWCNConnectNotify::ConnectSucceeded callback method that indicates a successful IWCNDevice::Connect operation.
 old-location: wcn\iwcnconnectnotify_connectsucceeded.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNConnectNotify.ConnectSucceeded
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNConnectNotify::ConnectSucceeded

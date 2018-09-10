@@ -4,17 +4,16 @@ title: IEnumShellItems::Skip
 author: windows-sdk-content
 description: Skips a given number of IShellItem interfaces in the enumeration. Used when retrieving interfaces.
 old-location: shell\IEnumShellItems_Skip.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5359c9d2-715a-4949-8f40-a35d04423dba
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Skip method, IEnumShellItems.Skip, IEnumShellItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Skip, shell.IEnumShellItems_Skip, shobjidl_core/IEnumShellItems::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumShellItems.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumShellItems::Skip

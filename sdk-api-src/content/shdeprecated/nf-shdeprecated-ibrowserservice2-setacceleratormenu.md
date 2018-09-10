@@ -4,17 +4,16 @@ title: IBrowserService2::SetAcceleratorMenu
 author: windows-sdk-content
 description: Deprecated. Implemented by a derived class to define menu accelerators that can be used in a call to TranslateAcceleratorSB.
 old-location: shell\IBrowserService2_SetAcceleratorMenu.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 64c7ce89-c3c5-4a09-aff2-57103ade671a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAcceleratorMenu method, IBrowserService2.SetAcceleratorMenu, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.SetAcceleratorMenu
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

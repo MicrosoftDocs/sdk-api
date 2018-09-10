@@ -4,17 +4,16 @@ title: "_lwrite function"
 author: windows-sdk-content
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - _lwrite
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # _lwrite function

@@ -4,7 +4,7 @@ title: "_PERF_COUNTERSET_INSTANCE"
 author: windows-sdk-content
 description: Defines an instance of a counter set.
 old-location: perf\perf_counterset_instance.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 709d5339-cedd-4b03-9d8e-c125eb3bcac0
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PERF_COUNTERSET_INSTANCE, *PPERF_COUNTERSET_INSTANCE
+req.redist: 
 ---
 
 # _PERF_COUNTERSET_INSTANCE structure

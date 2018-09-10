@@ -4,17 +4,16 @@ title: IPropertyPage::IsPageDirty
 author: windows-sdk-content
 description: Indicates whether the property page has changed since it was activated or since the most recent call to Apply.
 old-location: com\ipropertypage_ispagedirty.htm
-old-project: com
+tech.root: com
 ms.assetid: 6a19a659-8fab-4218-bc5a-c53860f578f6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertyPage interface [COM],IsPageDirty method, IPropertyPage.IsPageDirty, IPropertyPage::IsPageDirty, IsPageDirty, IsPageDirty method [COM], IsPageDirty method [COM],IPropertyPage interface, _ctrl_ipropertypage_ispagedirty, com.ipropertypage_ispagedirty, ocidl/IPropertyPage::IsPageDirty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.IsPageDirty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::IsPageDirty

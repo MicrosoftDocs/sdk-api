@@ -4,7 +4,7 @@ title: ID3D11On12Device
 author: windows-sdk-content
 description: Handles the creation, wrapping and releasing of D3D11 resources for Direct3D 11on12.
 old-location: direct3d12\id3d11on12device.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11on12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_AES_CTR_IV
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11On12Device
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11On12Device interface

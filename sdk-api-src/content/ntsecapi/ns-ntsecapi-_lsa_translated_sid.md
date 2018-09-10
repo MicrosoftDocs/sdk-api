@@ -4,7 +4,7 @@ title: "_LSA_TRANSLATED_SID"
 author: windows-sdk-content
 description: Used with the LsaLookupNames function to return information about the SID that identifies an account.
 old-location: security\lsa_translated_sid.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LSA_TRANSLATED_SID, *PLSA_TRANSLATED_SID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LSA_TRANSLATED_SID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: LSA_TRANSLATED_SID, *PLSA_TRANSLATED_SID
+req.redist: 
 ---
 
 # _LSA_TRANSLATED_SID structure

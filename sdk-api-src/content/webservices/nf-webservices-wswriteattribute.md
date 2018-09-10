@@ -4,17 +4,16 @@ title: WsWriteAttribute function
 author: windows-sdk-content
 description: Write a typed value as an XML attribute.
 old-location: wsw\wswriteattribute.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d1c02344-f5b9-4a59-b1c2-2dfb41df5ce1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsWriteAttribute, WsWriteAttribute function [Web Services for Windows], webservices/WsWriteAttribute, wsw.wswriteattribute
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsWriteAttribute
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsWriteAttribute function

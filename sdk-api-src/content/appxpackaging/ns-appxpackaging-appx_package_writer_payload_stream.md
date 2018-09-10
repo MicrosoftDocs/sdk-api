@@ -4,7 +4,7 @@ title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 author: windows-sdk-content
 description: Contains the data and metadata of files to write into the app package.
 old-location: appxpkg\appx_package_writer_payload_stream.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 0AB54C4B-6982-49A3-BFD3-E46E75954B08
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+req.redist: 
 ---
 
 # APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure

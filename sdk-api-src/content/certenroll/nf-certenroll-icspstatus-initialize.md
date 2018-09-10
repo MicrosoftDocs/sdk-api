@@ -4,17 +4,16 @@ title: ICspStatus::Initialize
 author: windows-sdk-content
 description: Initializes the object from a cryptographic provider and an associated algorithm.
 old-location: security\icspstatus_initialize.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICspStatus.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspStatus::Initialize

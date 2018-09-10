@@ -4,17 +4,16 @@ title: ID3D11VideoContext::DecoderExtension
 author: windows-sdk-content
 description: Performs an extended function for decoding.
 old-location: mf\id3d11videocontext_decoderextension.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: B96FD793-C82A-4752-8F59-3CC9B86D1C2D
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: DecoderExtension, DecoderExtension method [Media Foundation], DecoderExtension method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderExtension method, ID3D11VideoContext.DecoderExtension, ID3D11VideoContext::DecoderExtension, d3d11/ID3D11VideoContext::DecoderExtension, mf.id3d11videocontext_decoderextension
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11VideoContext.DecoderExtension
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11VideoContext::DecoderExtension

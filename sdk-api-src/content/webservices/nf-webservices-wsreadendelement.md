@@ -4,17 +4,16 @@ title: WsReadEndElement function
 author: windows-sdk-content
 description: This function ensures that the current Reader node is an End elementand advances the reader to the next node.
 old-location: wsw\wsreadendelement.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: cd2e0e5a-9c73-4180-9c54-6742d87cb141
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsReadEndElement, WsReadEndElement function [Web Services for Windows], webservices/WsReadEndElement, wsw.wsreadendelement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsReadEndElement
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsReadEndElement function

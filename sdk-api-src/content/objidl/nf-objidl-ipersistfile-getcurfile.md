@@ -4,17 +4,16 @@ title: IPersistFile::GetCurFile
 author: windows-sdk-content
 description: Retrieves the current name of the file associated with the object. If there is no current working file, this method retrieves the default save prompt for the object.
 old-location: com\ipersistfile_getcurfile.htm
-old-project: com
+tech.root: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPersistFile.GetCurFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPersistFile::GetCurFile

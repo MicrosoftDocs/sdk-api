@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::RecycleApplicationInstances
 author: windows-sdk-content
 description: Recycles (shuts down and restarts) the specified application server processes.
 old-location: cos\icomadmincatalog2_recycleapplicationinstances.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 0d2d6255-54c7-4110-9ee0-7019e9c7cb83
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],RecycleApplicationInstances method, ICOMAdminCatalog2.RecycleApplicationInstances, ICOMAdminCatalog2::RecycleApplicationInstances, RecycleApplicationInstances, RecycleApplicationInstances method [COM+], RecycleApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_RecycleApplicationInstances, comadmin/ICOMAdminCatalog2::RecycleApplicationInstances, cos.icomadmincatalog2_recycleapplicationinstances
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.RecycleApplicationInstances
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::RecycleApplicationInstances

@@ -4,17 +4,16 @@ title: MFCreateMediaBufferWrapper function
 author: windows-sdk-content
 description: Creates a media buffer that wraps an existing media buffer.
 old-location: mf\mfcreatemediabufferwrapper.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateMediaBufferWrapper
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateMediaBufferWrapper function

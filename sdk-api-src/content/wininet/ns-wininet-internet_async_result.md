@@ -4,7 +4,7 @@ title: INTERNET_ASYNC_RESULT
 author: windows-sdk-content
 description: Contains the result of a call to an asynchronous function. This structure is used with InternetStatusCallback.
 old-location: wininet\internet_async_result.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: e86fb4fd-8601-42e1-8c8e-9747a24459f9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_ASYNC_RESULT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
+req.redist: 
 ---
 
 # INTERNET_ASYNC_RESULT structure

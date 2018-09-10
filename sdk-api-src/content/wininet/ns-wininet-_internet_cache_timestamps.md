@@ -4,7 +4,7 @@ title: "_INTERNET_CACHE_TIMESTAMPS"
 author: windows-sdk-content
 description: Contains the LastModified and Expire times for a resource stored in the Internet cache.
 old-location: wininet\internet_cache_timestamps.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: e0fc2d73-95b9-4466-8a80-ca3211fc58e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_CACHE_TIMESTAMPS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS
+req.redist: 
 ---
 
 # _INTERNET_CACHE_TIMESTAMPS structure

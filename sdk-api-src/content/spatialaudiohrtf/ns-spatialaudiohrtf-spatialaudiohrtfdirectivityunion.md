@@ -4,7 +4,7 @@ title: SpatialAudioHrtfDirectivityUnion
 author: windows-sdk-content
 description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfDirectivityUnion
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SpatialAudioHrtfDirectivityUnion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SpatialAudioHrtfDirectivityUnion
+req.redist: 
 ---
 
 # SpatialAudioHrtfDirectivityUnion structure

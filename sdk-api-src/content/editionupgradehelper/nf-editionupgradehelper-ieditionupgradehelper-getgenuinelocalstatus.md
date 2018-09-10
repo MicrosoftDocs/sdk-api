@@ -4,17 +4,16 @@ title: IEditionUpgradeHelper::GetGenuineLocalStatus
 author: windows-sdk-content
 description: Retrieves whether the currently installed operating system is activated.
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetGenuineLocalStatus, GetGenuineLocalStatus method [Windows API], GetGenuineLocalStatus method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetGenuineLocalStatus method, IEditionUpgradeHelper.GetGenuineLocalStatus, IEditionUpgradeHelper::GetGenuineLocalStatus, editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus, winprog.ieditionupgradehelper_getgenuinelocalstatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAP_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEditionUpgradeHelper.GetGenuineLocalStatus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEditionUpgradeHelper::GetGenuineLocalStatus

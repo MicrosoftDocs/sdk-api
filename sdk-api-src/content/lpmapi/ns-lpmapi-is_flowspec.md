@@ -4,7 +4,7 @@ title: IS_FLOWSPEC
 author: windows-sdk-content
 description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
 old-location: qos\is_flowspec.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IS_FLOWSPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IS_FLOWSPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IS_FLOWSPEC
+req.redist: 
 ---
 
 # IS_FLOWSPEC structure

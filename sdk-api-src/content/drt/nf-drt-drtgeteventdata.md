@@ -4,17 +4,16 @@ title: DrtGetEventData function
 author: windows-sdk-content
 description: DrtGetEventData function retrieves event data associated with a signaled event.
 old-location: p2p\drtgeteventdata.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
+req.lib: Drt.lib
+req.dll: Drt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DrtGetEventData
 product: Windows
 targetos: Windows
-req.lib: Drt.lib
-req.dll: Drt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DrtGetEventData function

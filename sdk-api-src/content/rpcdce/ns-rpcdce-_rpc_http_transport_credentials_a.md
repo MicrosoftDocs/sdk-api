@@ -4,7 +4,7 @@ title: "_RPC_HTTP_TRANSPORT_CREDENTIALS_A"
 author: windows-sdk-content
 description: The RPC_HTTP_TRANSPORT_CREDENTIALS structure defines additional credentials to authenticate to an RPC proxy server when using RPC/HTTP.
 old-location: rpc\rpc_http_transport_credentials.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: fdb7f42a-e545-4965-a44a-70d4631f1723
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_A
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RPC_HTTP_TRANSPORT_CREDENTIALS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_A
+req.redist: 
 ---
 
 # _RPC_HTTP_TRANSPORT_CREDENTIALS_A structure

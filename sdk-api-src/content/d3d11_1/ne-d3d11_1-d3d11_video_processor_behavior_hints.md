@@ -4,7 +4,7 @@ title: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 author: windows-sdk-content
 description: Specifies flags that indicate the most efficient methods for performing video processing operations.
 old-location: mf\d3d11_video_processor_behavior_hints.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0EB7F918-EA7A-4E7E-9B6D-53F582CC6B28
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+req.redist: 
 ---
 
 # D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS enumeration

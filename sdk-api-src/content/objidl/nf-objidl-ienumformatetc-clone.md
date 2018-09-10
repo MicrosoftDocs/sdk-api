@@ -4,17 +4,16 @@ title: IEnumFORMATETC::Clone
 author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumformatetc_clone.htm
-old-project: com
+tech.root: com
 ms.assetid: 637c3299-816f-4f3c-9758-b3200b5cf153
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumFORMATETC.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumFORMATETC::Clone

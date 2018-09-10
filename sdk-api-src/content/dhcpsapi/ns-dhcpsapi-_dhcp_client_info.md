@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_INFO"
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO structure defines a client information record used by the DHCP server.
 old-location: dhcp\dhcp_client_info.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: cc841dac-85d4-4250-a868-95c41731fe45
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_INFO, *LPDHCP_CLIENT_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_INFO, *LPDHCP_CLIENT_INFO
+req.redist: 
 ---
 
 # _DHCP_CLIENT_INFO structure

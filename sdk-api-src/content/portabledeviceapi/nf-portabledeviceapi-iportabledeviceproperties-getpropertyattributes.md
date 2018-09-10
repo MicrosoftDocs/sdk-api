@@ -4,17 +4,16 @@ title: IPortableDeviceProperties::GetPropertyAttributes
 author: windows-sdk-content
 description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
 old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: bb2206ff-e1d4-4bc5-819b-b008a293c43d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [Windows Portable Devices SDK], GetPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetPropertyAttributes method, IPortableDeviceProperties.GetPropertyAttributes, IPortableDeviceProperties::GetPropertyAttributes, IPortableDevicePropertiesGetPropertyAttributes, portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes, wpdsdk.iportabledeviceproperties_getpropertyattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDeviceProperties.GetPropertyAttributes
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceProperties::GetPropertyAttributes

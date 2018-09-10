@@ -4,7 +4,7 @@ title: CF_CALLBACK_PARAMETERS
 author: windows-sdk-content
 description: Contains callback specific parameters such as file offset, length, flags, etc.
 old-location: cloudapi\cf_callback_parameters.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: FA403E9E-5EFA-4285-9619-614DB0044FFB
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_CALLBACK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_CALLBACK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CF_CALLBACK_PARAMETERS
+req.redist: 
 ---
 
 # CF_CALLBACK_PARAMETERS structure

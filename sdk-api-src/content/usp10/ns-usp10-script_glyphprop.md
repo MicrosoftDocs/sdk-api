@@ -4,7 +4,7 @@ title: script_glyphprop
 author: windows-sdk-content
 description: Contains information about a glyph that is part of an output glyph array.
 old-location: intl\script_glyphprop.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 5d68c8b6-77dd-48f7-b05a-0c02c9271097
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 
-req.redist: Usp10.dll version 1.600 or greater onWindows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCRIPT_GLYPHPROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCRIPT_GLYPHPROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: SCRIPT_GLYPHPROP
+req.redist: Usp10.dll version 1.600 or greater onWindows XP
 ---
 
 # script_glyphprop structure

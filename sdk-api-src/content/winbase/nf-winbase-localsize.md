@@ -4,17 +4,16 @@ title: LocalSize function
 author: windows-sdk-content
 description: Retrieves the current size of the specified local memory object, in bytes.
 old-location: base\localsize.htm
-old-project: memory
+tech.root: memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LocalSize
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LocalSize function

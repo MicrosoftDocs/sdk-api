@@ -4,7 +4,7 @@ title: "_USB_UNICODE_NAME"
 author: windows-sdk-content
 description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.
 old-location: buses\usb_unicode_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USB_UNICODE_NAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.redist: 
 ---
 
 # _USB_UNICODE_NAME structure

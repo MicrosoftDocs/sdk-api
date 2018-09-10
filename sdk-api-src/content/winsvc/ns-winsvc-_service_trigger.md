@@ -4,7 +4,7 @@ title: "_SERVICE_TRIGGER"
 author: windows-sdk-content
 description: Represents a service trigger event. This structure is used by the SERVICE_TRIGGER_INFO structure.
 old-location: base\service_trigger.htm
-old-project: Services
+tech.root: Services
 ms.assetid: a57aa702-40a2-4880-80db-6c4f43c3e7ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SERVICE_TRIGGER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
+req.redist: 
 ---
 
 # _SERVICE_TRIGGER structure

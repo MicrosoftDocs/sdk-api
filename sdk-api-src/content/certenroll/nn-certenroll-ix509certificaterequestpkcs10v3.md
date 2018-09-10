@@ -4,7 +4,7 @@ title: IX509CertificateRequestPkcs10V3
 author: windows-sdk-content
 description: The IX509CertificateRequestPkcs10V3 interface represents a PKCS #10 certificate request.
 old-location: security\ix509certificaterequestpkcs10v3.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: e833d1dc-da0f-4f5e-9027-ebf7413ef8c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509CertificateRequestPkcs10V3
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateRequestPkcs10V3 interface

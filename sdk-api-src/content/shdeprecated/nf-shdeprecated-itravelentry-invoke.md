@@ -4,17 +4,16 @@ title: ITravelEntry::Invoke
 author: windows-sdk-content
 description: Deprecated. Invokes the travel entry, navigating to that page.
 old-location: shell\ITravelEntry_Invoke.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 21af8d98-f7b6-4204-b855-a4789492a882
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.Invoke, ITravelEntry::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Invoke, shell.ITravelEntry_Invoke, zone_ITravelEntry_Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITravelEntry.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 4.0
 ---
 

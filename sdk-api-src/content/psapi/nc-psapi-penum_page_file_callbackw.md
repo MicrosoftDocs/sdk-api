@@ -4,7 +4,7 @@ title: PENUM_PAGE_FILE_CALLBACKW
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumPageFiles function.
 old-location: psapi\enumpagefilesproc.htm
-old-project: psapi
+tech.root: psapi
 ms.assetid: eb3610fb-2c95-4f7b-973d-8dc41d2829f1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: psapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSHNOTIFY, *LPPSHNOTIFY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PENUM_PAGE_FILE_CALLBACKW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PENUM_PAGE_FILE_CALLBACKW callback function

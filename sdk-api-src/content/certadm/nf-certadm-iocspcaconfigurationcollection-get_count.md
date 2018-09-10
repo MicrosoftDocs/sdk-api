@@ -4,17 +4,16 @@ title: IOCSPCAConfigurationCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of certification authority (CA) configurations in the configuration set.
 old-location: security\iocspcaconfigurationcollection_count_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection.get_Count, IOCSPCAConfigurationCollection::Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count, security.iocspcaconfigurationcollection_count_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOCSPCAConfigurationCollection.get_Count
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfigurationCollection::get_Count

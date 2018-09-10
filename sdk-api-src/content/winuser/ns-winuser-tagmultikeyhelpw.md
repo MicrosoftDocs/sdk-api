@@ -4,7 +4,7 @@ title: tagMULTIKEYHELPW
 author: windows-sdk-content
 description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
 old-location: shell\MULTIKEYHELP_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MULTIKEYHELPW, *PMULTIKEYHELPW, *LPMULTIKEYHELPW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MULTIKEYHELP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: MULTIKEYHELPW, *PMULTIKEYHELPW, *LPMULTIKEYHELPW
+req.redist: 
 ---
 
 # tagMULTIKEYHELPW structure

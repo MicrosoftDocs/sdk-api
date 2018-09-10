@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::SetMaxThreads
 author: windows-sdk-content
 description: Sets the maximum number of threads to be allowed in the pool.
 old-location: cos\ithreadpoolknobs_setmaxthreads.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: abca2ec3-4dcd-4770-a500-1d46b87b4cda
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxThreads method, IThreadPoolKnobs.SetMaxThreads, IThreadPoolKnobs::SetMaxThreads, SetMaxThreads, SetMaxThreads method [COM+], SetMaxThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxThreads, comsvcs/IThreadPoolKnobs::SetMaxThreads, cos.ithreadpoolknobs_setmaxthreads
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.SetMaxThreads
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::SetMaxThreads

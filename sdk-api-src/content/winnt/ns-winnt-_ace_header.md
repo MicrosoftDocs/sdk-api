@@ -4,7 +4,7 @@ title: "_ACE_HEADER"
 author: windows-sdk-content
 description: Defines the type and size of an access control entry (ACE).
 old-location: security\ace_header.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: d23f15d6-0453-4aaf-a2db-7528b551a992
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ACE_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ACE_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ACE_HEADER
+req.redist: 
 ---
 
 # _ACE_HEADER structure

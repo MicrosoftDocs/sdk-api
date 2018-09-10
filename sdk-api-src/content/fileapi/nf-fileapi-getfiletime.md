@@ -4,17 +4,16 @@ title: GetFileTime function
 author: windows-sdk-content
 description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
 old-location: base\getfiletime.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAM_INFO_LEVELS
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetFileTime
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # GetFileTime function

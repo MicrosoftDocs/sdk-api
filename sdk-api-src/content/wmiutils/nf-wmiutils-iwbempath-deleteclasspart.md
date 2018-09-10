@@ -4,17 +4,16 @@ title: IWbemPath::DeleteClassPart
 author: windows-sdk-content
 description: The IWbemPath::DeleteClassPart method deletes the class portion of the path.
 old-location: wmi\iwbempath_deleteclasspart.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 4b79739b-b278-424f-ac3f-2bc769f3cf93
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DeleteClassPart, DeleteClassPart method [Windows Management Instrumentation], DeleteClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],DeleteClassPart method, IWbemPath.DeleteClassPart, IWbemPath::DeleteClassPart, _hmm_iwbempath_deleteclasspart, wmi.iwbempath_deleteclasspart, wmiutils/IWbemPath::DeleteClassPart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMIQ_ASSOCQ_FLAGS
+req.lib: Wbemuuid.lib
+req.dll: Wmiutils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemPath.DeleteClassPart
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiutils.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemPath::DeleteClassPart

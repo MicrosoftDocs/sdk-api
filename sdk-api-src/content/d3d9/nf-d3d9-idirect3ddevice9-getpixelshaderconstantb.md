@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetPixelShaderConstantB
 author: windows-sdk-content
 description: Gets a Boolean shader constant.
 old-location: direct3d9\idirect3ddevice9__getpixelshaderconstantb.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpixelshaderconstantb.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPixelShaderConstantB, GetPixelShaderConstantB method [Direct3D 9], GetPixelShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShaderConstantB method, IDirect3DDevice9.GetPixelShaderConstantB, IDirect3DDevice9::GetPixelShaderConstantB, b5063da2-ebe9-220a-5bcc-e8d602dff035, d3d9helper/IDirect3DDevice9::GetPixelShaderConstantB, direct3d9.idirect3ddevice9__getpixelshaderconstantb
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetPixelShaderConstantB
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetPixelShaderConstantB

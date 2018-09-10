@@ -4,17 +4,16 @@ title: ITfLangBarItemBalloon::OnClick
 author: windows-sdk-content
 description: ITfLangBarItemBalloon::OnClick method
 old-location: tsf\itflangbaritemballoon_onclick.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TfLBIClick
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ITfLangBarItemBalloon.OnClick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfLangBarItemBalloon::OnClick

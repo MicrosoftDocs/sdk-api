@@ -4,17 +4,16 @@ title: FhServiceOpenPipe function
 author: windows-sdk-content
 description: Opens a communication channel to the File History Service.
 old-location: winprog\fhserviceopenpipe.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.lib: FhSvcCtl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FhServiceOpenPipe
 product: Windows
 targetos: Windows
-req.lib: FhSvcCtl.lib
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FhServiceOpenPipe function

@@ -4,7 +4,7 @@ title: "_TAKE_SNAPSHOT_VHDSET_VERSION"
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the TakeSnapshotVhdSet function.
 old-location: vhd\take_snapshot_vhdset_version.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: E544AC22-6865-4ECF-92F8-B8027746C231
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TAKE_SNAPSHOT_VHDSET_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TAKE_SNAPSHOT_VHDSET_VERSION
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: TAKE_SNAPSHOT_VHDSET_VERSION
+req.redist: 
 ---
 
 # _TAKE_SNAPSHOT_VHDSET_VERSION enumeration

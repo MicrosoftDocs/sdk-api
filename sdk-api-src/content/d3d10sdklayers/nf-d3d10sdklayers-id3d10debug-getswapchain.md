@@ -4,17 +4,16 @@ title: ID3D10Debug::GetSwapChain
 author: windows-sdk-content
 description: Get the swap chain that the runtime will use for automatically calling Present.
 old-location: direct3d10\id3d10debug_getswapchain.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getswapchain.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 0701d3b1-1d64-2987-0b96-e4018a8313df, GetSwapChain, GetSwapChain method [Direct3D 10], GetSwapChain method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetSwapChain method, ID3D10Debug.GetSwapChain, ID3D10Debug::GetSwapChain, d3d10sdklayers/ID3D10Debug::GetSwapChain, direct3d10.id3d10debug_getswapchain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_MESSAGE_SEVERITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D10Debug.GetSwapChain
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D10Debug::GetSwapChain

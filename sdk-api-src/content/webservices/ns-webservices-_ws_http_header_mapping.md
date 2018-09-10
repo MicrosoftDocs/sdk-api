@@ -4,7 +4,7 @@ title: "_WS_HTTP_HEADER_MAPPING"
 author: windows-sdk-content
 description: Specifies an individual header that is mapped as part of WS_HTTP_MESSAGE_MAPPING.
 old-location: wsw\ws_http_header_mapping.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_HTTP_HEADER_MAPPING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_HTTP_HEADER_MAPPING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_HTTP_HEADER_MAPPING
+req.redist: 
 ---
 
 # _WS_HTTP_HEADER_MAPPING structure

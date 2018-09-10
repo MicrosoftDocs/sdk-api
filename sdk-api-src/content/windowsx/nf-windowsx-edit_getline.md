@@ -4,17 +4,16 @@ title: Edit_GetLine macro
 author: windows-sdk-content
 description: Retrieves a line of text from an edit or rich edit control. You can use this macro or send the EM_GETLINE message explicitly.
 old-location: controls\Edit_GetLine.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getline.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Edit_GetLine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Edit_GetLine macro

@@ -4,17 +4,16 @@ title: IAudioFrameNativeFactory::core
 author: windows-sdk-content
 description: Creates an IAudioFrameNative from the provided IMFSample.
 old-location: winrt\iaudioframenativefactory_createfrommfsample.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 331F6479-855E-459B-843F-B4FC4C88ED76
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IAudioFrameNativeFactory interface, IAudioFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IAudioFrameNativeFactory.CreateFromMFSample, IAudioFrameNativeFactory.core, IAudioFrameNativeFactory::CreateFromMFSample, IAudioFrameNativeFactory::core, windows/IAudioFrameNativeFactory::CreateFromMFSample, winrt.iaudioframenativefactory_createfrommfsample
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.core.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAudioFrameNativeFactory.CreateFromMFSample
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioFrameNativeFactory::core

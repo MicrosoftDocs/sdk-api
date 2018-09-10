@@ -4,7 +4,7 @@ title: "_MFPOLICYMANAGER_ACTION"
 author: windows-sdk-content
 description: Defines actions that can be performed on a stream.
 old-location: mf\mfpolicymanager_action.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 74cee983-e084-458b-b615-5447cca9abbc
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFPOLICYMANAGER_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFPOLICYMANAGER_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFPOLICYMANAGER_ACTION
+req.redist: 
 ---
 
 # _MFPOLICYMANAGER_ACTION enumeration

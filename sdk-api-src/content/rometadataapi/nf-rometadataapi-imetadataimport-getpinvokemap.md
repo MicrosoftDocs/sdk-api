@@ -4,17 +4,16 @@ title: IMetaDataImport::GetPinvokeMap
 author: windows-sdk-content
 description: Gets a ModuleRef token to represent the target assembly of a PInvoke call.
 old-location: winrt\imetadataimport_getpinvokemap.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: bf83785d-ba4f-4a11-84ee-92d010c8a1fc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetPinvokeMap, GetPinvokeMap method [Windows Runtime], GetPinvokeMap method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPinvokeMap method, IMetaDataImport.GetPinvokeMap, IMetaDataImport::GetPinvokeMap, rometadataapi/IMetaDataImport::GetPinvokeMap, winrt.imetadataimport_getpinvokemap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataImport.GetPinvokeMap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataImport::GetPinvokeMap

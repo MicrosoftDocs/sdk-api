@@ -4,7 +4,7 @@ title: WICJpegLuminanceProperties
 author: windows-sdk-content
 description: Specifies the JPEG luminance table property.
 old-location: wic\_wic_codec_wicjpegluminanceproperties.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 391e96a3-372e-43b9-a752-0234d0fd37e1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICJpegLuminanceProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WICJpegLuminanceProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WICJpegLuminanceProperties
+req.redist: 
 ---
 
 # WICJpegLuminanceProperties enumeration

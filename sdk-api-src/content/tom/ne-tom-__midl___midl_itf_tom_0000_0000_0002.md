@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_tom_0000_0000_0002"
 author: windows-sdk-content
 description: Defines values that identify object types in the Text Object Model (TOM)&#32; content.
 old-location: controls\objecttype.htm
-old-project: controls
+tech.root: controls
 ms.assetid: fbac082e-adf2-48f9-ae13-5ea1357fc428
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OBJECTTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OBJECTTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: OBJECTTYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_tom_0000_0000_0002 enumeration

@@ -4,17 +4,16 @@ title: EventAccessRemove function
 author: windows-sdk-content
 description: Removes the permissions defined in the registry for the specified provider or session.
 old-location: etw\eventaccessremove_func.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntcons.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENTSECURITYOPERATION
+req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
+req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - EventAccessRemove
 product: Windows
 targetos: Windows
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EventAccessRemove function

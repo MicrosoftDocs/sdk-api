@@ -4,17 +4,16 @@ title: SHGetFolderPathAndSubDirA function
 author: windows-sdk-content
 description: Gets the path of a folder and appends a user-provided subfolder path.
 old-location: shell\SHGetFolderPathAndSubDir.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.60 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - SHGetFolderPathAndSubDirW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.60 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHGetFolderPathAndSubDirA function

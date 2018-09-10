@@ -4,17 +4,16 @@ title: D3D10CreateDevice function
 author: windows-sdk-content
 description: Create a Direct3D 10.0 device that represents the display adapter.
 old-location: direct3d10\d3d10createdevice.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdevice.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 2a50ebc1-5169-2724-57d7-f5fe11b437c5, D3D10CreateDevice, D3D10CreateDevice function [Direct3D 10], d3d10misc/D3D10CreateDevice, direct3d10.d3d10createdevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10misc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DRIVER_TYPE
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10CreateDevice
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10CreateDevice function

@@ -4,17 +4,16 @@ title: IComResourceEvents::OnResourceTrack
 author: windows-sdk-content
 description: Generated when a resource is tracked.
 old-location: cos\icomresourceevents_onresourcetrack.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComResourceEvents.OnResourceTrack, IComResourceEvents::OnResourceTrack, OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComResourceEvents.OnResourceTrack
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComResourceEvents::OnResourceTrack

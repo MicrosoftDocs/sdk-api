@@ -4,17 +4,16 @@ title: ITuningSpace::put_DefaultLocator
 author: windows-sdk-content
 description: The put_DefaultLocator method sets the default locator for this tuning space.
 old-location: mstv\ituningspace_put_defaultlocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 59065cc9-8a11-4551-ad3d-e7963628aa20
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocator method, ITuningSpace.put_DefaultLocator, ITuningSpace::put_DefaultLocator, ITuningSpaceput_DefaultLocator, mstv.ituningspace_put_defaultlocator, put_DefaultLocator, put_DefaultLocator method [Microsoft TV Technologies], put_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultLocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITuningSpace.put_DefaultLocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITuningSpace::put_DefaultLocator
@@ -65,7 +63,7 @@ The <b>put_DefaultLocator</b> method sets the default locator for this tuning sp
 
 ### -param LocatorVal
 
-
+TBD
 
 
 

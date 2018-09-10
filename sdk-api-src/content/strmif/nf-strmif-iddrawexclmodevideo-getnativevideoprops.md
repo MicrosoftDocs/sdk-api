@@ -4,17 +4,16 @@ title: IDDrawExclModeVideo::GetNativeVideoProps
 author: windows-sdk-content
 description: The GetNativeVideoProps method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
 old-location: dshow\iddrawexclmodevideo_getnativevideoprops.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: cc6b3f73-bfb4-4a71-b3e9-53345abd1430
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetNativeVideoProps, GetNativeVideoProps method [DirectShow], GetNativeVideoProps method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetNativeVideoProps method, IDDrawExclModeVideo.GetNativeVideoProps, IDDrawExclModeVideo::GetNativeVideoProps, IDDrawExclModeVideoGetNativeVideoProps, dshow.iddrawexclmodevideo_getnativevideoprops, strmif/IDDrawExclModeVideo::GetNativeVideoProps
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDDrawExclModeVideo.GetNativeVideoProps
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDDrawExclModeVideo::GetNativeVideoProps

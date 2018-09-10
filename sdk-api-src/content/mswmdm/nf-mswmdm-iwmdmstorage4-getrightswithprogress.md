@@ -4,17 +4,16 @@ title: IWMDMStorage4::GetRightsWithProgress
 author: windows-sdk-content
 description: The GetRightsWithProgress method retrieves the rights information for the storage object, providing a callback mechanism for monitoring progress.
 old-location: wmdm\iwmdmstorage4_getrightswithprogress.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 63df4448-75f0-4152-a308-15f6f10e8564
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRightsWithProgress, GetRightsWithProgress method [windows Media Device Manager], GetRightsWithProgress method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetRightsWithProgress method, IWMDMStorage4.GetRightsWithProgress, IWMDMStorage4::GetRightsWithProgress, IWMDMStorage4GetRightsWithProgress, mswmdm/IWMDMStorage4::GetRightsWithProgress, wmdm.iwmdmstorage4_getrightswithprogress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorage4.GetRightsWithProgress
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorage4::GetRightsWithProgress

@@ -4,17 +4,16 @@ title: ContextInfo::GetTransaction
 author: windows-sdk-content
 description: Retrieves the object context's transaction object.
 old-location: cos\contextinfo_gettransaction.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9922f2a3-9b2e-4bfe-8a9a-a17c0628439e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ContextInfo interface [COM+],GetTransaction method, ContextInfo.GetTransaction, ContextInfo::GetTransaction, GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransaction, comsvcs/ContextInfo::GetTransaction, cos.contextinfo_gettransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ContextInfo.GetTransaction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ContextInfo::GetTransaction

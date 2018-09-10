@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_DiscountSend
 title: IFaxDoc::get_DiscountSend
 author: windows-sdk-content
 description: Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
-old-location: fax\_mfax_ifaxdoc_get_discountsend_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_discountsend_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DiscountSend property, FaxDoc.DiscountSend, IFaxDoc.get_DiscountSend, IFaxDoc::get_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend_vb, get_DiscountSend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],DiscountSend property, IFaxDoc.DiscountSend, IFaxDoc.get_DiscountSend, IFaxDoc::DiscountSend, IFaxDoc::get_DiscountSend, IFaxDoc::put_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_discountsend_cpp, faxcom/IFaxDoc::DiscountSend, faxcom/IFaxDoc::get_DiscountSend, faxcom/IFaxDoc::put_DiscountSend, get_DiscountSend
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.DiscountSend
+ - IFaxDoc.DiscountSend
+ - IFaxDoc.get_DiscountSend
+ - IFaxDoc.put_DiscountSend
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_DiscountSend
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-To determine the period during which the discount rate applies, you can call the following <a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a> methods: <a href="https://msdn.microsoft.com/5159eb01-d464-4cc3-8617-e785c97ff6ff">DiscountRateStartMinute</a>, <a href="https://msdn.microsoft.com/db9e206b-d398-4924-93b9-c7628043dd23">DiscountRateEndMinute</a>, <a href="https://msdn.microsoft.com/1ba6f885-08a2-4ee5-9120-c9da3e01c570">DiscountRateStartHour</a>, and <a href="https://msdn.microsoft.com/a953c003-3a0c-4d75-a86f-6397ce776c2f">DiscountRateEndHour</a>.
+To determine the period during which the discount rate applies, you can call the following <a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a> methods: <a href="https://msdn.microsoft.com/98355801-ad54-4b1e-a2f2-dcd22ede26e2">DiscountRateStartMinute</a>, <a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">DiscountRateEndMinute</a>, <a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">DiscountRateStartHour</a>, and <a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">DiscountRateEndHour</a>.
 
 
 
@@ -74,19 +74,19 @@ To determine the period during which the discount rate applies, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/a953c003-3a0c-4d75-a86f-6397ce776c2f">DiscountRateEndHour</a>
+<a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">DiscountRateEndHour</a>
 
 
 
-<a href="https://msdn.microsoft.com/db9e206b-d398-4924-93b9-c7628043dd23">DiscountRateEndMinute</a>
+<a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">DiscountRateEndMinute</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ba6f885-08a2-4ee5-9120-c9da3e01c570">DiscountRateStartHour</a>
+<a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">DiscountRateStartHour</a>
 
 
 
-<a href="https://msdn.microsoft.com/5159eb01-d464-4cc3-8617-e785c97ff6ff">DiscountRateStartMinute</a>
+<a href="https://msdn.microsoft.com/98355801-ad54-4b1e-a2f2-dcd22ede26e2">DiscountRateStartMinute</a>
 
 
 
@@ -95,10 +95,6 @@ To determine the period during which the discount rate applies, you can call the
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

@@ -4,17 +4,16 @@ title: IWMPMedia::getItemInfo
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_getiteminfo.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfo method, IWMPMedia.getItemInfo, IWMPMedia2 interface [Windows Media Player],getItemInfo method, IWMPMedia2::getItemInfo, IWMPMedia3 interface [Windows Media Player],getItemInfo method, IWMPMedia3::getItemInfo, IWMPMedia::getItemInfo, IWMPMediagetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPMedia interface, getItemInfo method [Windows Media Player],IWMPMedia2 interface, getItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfo, wmp/IWMPMedia2::getItemInfo, wmp/IWMPMedia3::getItemInfo, wmp/IWMPMedia::getItemInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWMPMedia3.getItemInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPMedia::getItemInfo

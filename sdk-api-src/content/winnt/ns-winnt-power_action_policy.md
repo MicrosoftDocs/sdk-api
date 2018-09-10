@@ -4,7 +4,7 @@ title: POWER_ACTION_POLICY
 author: windows-sdk-content
 description: Contains information used to set the system power state.
 old-location: base\power_action_policy_str.htm
-old-project: power
+tech.root: power
 ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POWER_ACTION_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
+req.redist: 
 ---
 
 # POWER_ACTION_POLICY structure

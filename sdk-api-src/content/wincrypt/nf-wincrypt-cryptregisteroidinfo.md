@@ -4,17 +4,16 @@ title: CryptRegisterOIDInfo function
 author: windows-sdk-content
 description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.
 old-location: security\cryptregisteroidinfo.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptRegisterOIDInfo
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CryptRegisterOIDInfo function

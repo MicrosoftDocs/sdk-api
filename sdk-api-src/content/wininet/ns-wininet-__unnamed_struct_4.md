@@ -4,7 +4,7 @@ title: INTERNET_AUTH_NOTIFY_DATA
 author: windows-sdk-content
 description: Contains the notification data for an authentication request.
 old-location: wininet\internet_auth_notify_data.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: d6f36cf7-7a54-4890-aa27-ffb40997cfd6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_AUTH_NOTIFY_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.redist: 
 ---
 
 # INTERNET_AUTH_NOTIFY_DATA structure

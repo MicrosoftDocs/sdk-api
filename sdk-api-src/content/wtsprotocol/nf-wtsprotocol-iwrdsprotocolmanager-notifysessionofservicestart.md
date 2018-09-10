@@ -4,17 +4,16 @@ title: IWRdsProtocolManager::NotifySessionOfServiceStart
 author: windows-sdk-content
 description: Notifies the protocol provider that the Remote Desktop Services service has started for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestart.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: b0beb07a-69a0-4cb8-adcb-f95d8fd721df
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStart method, IWRdsProtocolManager.NotifySessionOfServiceStart, IWRdsProtocolManager::NotifySessionOfServiceStart, NotifySessionOfServiceStart, NotifySessionOfServiceStart method [Remote Desktop Services], NotifySessionOfServiceStart method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestart, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsProtocolManager.NotifySessionOfServiceStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsProtocolManager::NotifySessionOfServiceStart

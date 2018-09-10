@@ -4,17 +4,16 @@ title: IMbnConnectionProfileEvents::OnProfileUpdate
 author: windows-sdk-content
 description: A notification method that indicates that profile update operation has completed.
 old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: eb113544-0c89-4b38-a2f4-c67c639fe8a3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],OnProfileUpdate method, IMbnConnectionProfileEvents.OnProfileUpdate, IMbnConnectionProfileEvents::OnProfileUpdate, OnProfileUpdate, OnProfileUpdate method [Microsoft Broadband Networks], OnProfileUpdate method [Microsoft Broadband Networks],IMbnConnectionProfileEvents interface, mbn.imbnconnectionprofileevents_onprofileupdatecomplete, mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionProfileEvents.OnProfileUpdate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionProfileEvents::OnProfileUpdate

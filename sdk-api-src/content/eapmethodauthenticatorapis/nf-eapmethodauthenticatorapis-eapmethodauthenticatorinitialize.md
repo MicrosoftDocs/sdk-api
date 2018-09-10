@@ -4,17 +4,16 @@ title: EapMethodAuthenticatorInitialize function
 author: windows-sdk-content
 description: Initializes an EAP authenticator method for the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorinitialize.htm
-old-project: eaphost
+tech.root: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize function [EAPHost], eaphost.eapmethodauthenticatorinitialize, eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EAPHOST_AUTH_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EapMethodAuthenticatorInitialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # EapMethodAuthenticatorInitialize function

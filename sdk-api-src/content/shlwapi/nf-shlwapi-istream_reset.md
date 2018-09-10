@@ -4,17 +4,16 @@ title: IStream_Reset function
 author: windows-sdk-content
 description: Moves the seek position in a specified stream to the beginning of the stream.
 old-location: shell\IStream_Reset.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1e7a881d-decb-4018-b2e8-e0cba454236d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server, Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - IStream_Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IStream_Reset function

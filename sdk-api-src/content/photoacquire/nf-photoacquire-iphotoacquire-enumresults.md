@@ -4,17 +4,16 @@ title: IPhotoAcquire::EnumResults
 author: windows-sdk-content
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
 old-location: picacq\iphotoacquire_enumresults.htm
-old-project: acquisition
+tech.root: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INPUT_STRING_TYPE
+req.lib: PhotoAcquireUID.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPhotoAcquire.EnumResults
 product: Windows
 targetos: Windows
-req.lib: PhotoAcquireUID.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPhotoAcquire::EnumResults

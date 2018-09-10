@@ -4,17 +4,16 @@ title: GetTapeStatus function
 author: windows-sdk-content
 description: Determines whether the tape device is ready to process tape commands.
 old-location: backup\gettapestatus.htm
-old-project: backup
+tech.root: backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetTapeStatus
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetTapeStatus function

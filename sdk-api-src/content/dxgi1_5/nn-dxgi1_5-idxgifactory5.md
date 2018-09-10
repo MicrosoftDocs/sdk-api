@@ -4,7 +4,7 @@ title: IDXGIFactory5
 author: windows-sdk-content
 description: This interface enables a single method to support variable refresh rate displays.
 old-location: direct3ddxgi\idxgifactory5.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: DB77E4DE-62FF-4AA3-BDA9-847ABB38973B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGIFactory5
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: Dxgi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactory5 interface

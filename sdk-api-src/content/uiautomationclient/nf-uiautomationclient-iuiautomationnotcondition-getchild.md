@@ -4,17 +4,16 @@ title: IUIAutomationNotCondition::GetChild
 author: windows-sdk-content
 description: Retrieves the condition of which this condition is the negative.
 old-location: winauto\uiauto_IUIAutomationNotCondition_GetChild.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista, Windows XP with SP3 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008, Windows Server 2003 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAutomationNotCondition.GetChild
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationNotCondition::GetChild

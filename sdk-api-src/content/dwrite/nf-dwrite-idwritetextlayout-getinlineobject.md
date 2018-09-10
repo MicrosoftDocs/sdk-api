@@ -4,17 +4,16 @@ title: IDWriteTextLayout::GetInlineObject
 author: windows-sdk-content
 description: Gets the inline object at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetInlineObject.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 0d86f2a4-d046-4d27-b128-40f2a3dd359a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetInlineObject, GetInlineObject method [Direct Write], GetInlineObject method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetInlineObject method, IDWriteTextLayout.GetInlineObject, IDWriteTextLayout::GetInlineObject, directwrite.IDWriteTextLayout_GetInlineObject, dwrite/IDWriteTextLayout::GetInlineObject
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextLayout.GetInlineObject
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextLayout::GetInlineObject

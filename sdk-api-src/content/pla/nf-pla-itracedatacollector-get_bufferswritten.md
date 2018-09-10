@@ -4,17 +4,16 @@ title: ITraceDataCollector::get_BuffersWritten
 author: windows-sdk-content
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: e150a68f-da6d-4ee1-9ac8-d19d0cae62cc
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector.get_BuffersWritten, ITraceDataCollector::BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITraceDataCollector.get_BuffersWritten
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceDataCollector::get_BuffersWritten

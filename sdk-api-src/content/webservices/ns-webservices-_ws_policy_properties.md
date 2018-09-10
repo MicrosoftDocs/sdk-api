@@ -4,7 +4,7 @@ title: "_WS_POLICY_PROPERTIES"
 author: windows-sdk-content
 description: Specifies a set of WS_POLICY_PROPERTY structures.
 old-location: wsw\ws_policy_properties.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: e03f94d9-aeeb-40df-a367-c80e831125e8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_POLICY_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_POLICY_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_POLICY_PROPERTIES
+req.redist: 
 ---
 
 # _WS_POLICY_PROPERTIES structure

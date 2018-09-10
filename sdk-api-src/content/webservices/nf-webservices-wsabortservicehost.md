@@ -4,17 +4,16 @@ title: WsAbortServiceHost function
 author: windows-sdk-content
 description: Aborts all current operations on the specified service host.
 old-location: wsw\wsabortservicehost.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsAbortServiceHost
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsAbortServiceHost function

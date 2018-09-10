@@ -4,7 +4,7 @@ title: "_WER_DUMP_CUSTOM_OPTIONS"
 author: windows-sdk-content
 description: Specifies custom minidump information to be collected by the WerReportAddDump function.
 old-location: wer\wer_dump_custom_options.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 6ea32573-ac1a-4f9b-b4ba-b5767927924f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WER_DUMP_CUSTOM_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
+req.redist: 
 ---
 
 # _WER_DUMP_CUSTOM_OPTIONS structure

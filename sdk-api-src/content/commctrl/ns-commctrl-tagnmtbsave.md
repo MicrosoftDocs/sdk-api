@@ -4,7 +4,7 @@ title: tagNMTBSAVE
 author: windows-sdk-content
 description: This structure is passed to applications when they receive a TBN_SAVE notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information.
 old-location: controls\NMTBSAVE.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbsave.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NMTBSAVE, *LPNMTBSAVE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - NMTBSAVE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: NMTBSAVE, *LPNMTBSAVE
+req.redist: 
 ---
 
 # tagNMTBSAVE structure

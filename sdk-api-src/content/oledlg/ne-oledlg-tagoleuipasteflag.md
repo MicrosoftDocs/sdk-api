@@ -4,7 +4,7 @@ title: tagOLEUIPASTEFLAG
 author: windows-sdk-content
 description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
 old-location: com\oleuipasteflag.htm
-old-project: com
+tech.root: com
 ms.assetid: 4467f82b-34be-4d10-816c-b3e4231c92a1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - OLEUIPASTEFLAG
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: OLEUIPASTEFLAG
+req.redist: 
 ---
 
 # tagOLEUIPASTEFLAG enumeration

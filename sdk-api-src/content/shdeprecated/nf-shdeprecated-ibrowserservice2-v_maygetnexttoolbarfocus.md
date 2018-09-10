@@ -4,17 +4,16 @@ title: IBrowserService2::v_MayGetNextToolbarFocus
 author: windows-sdk-content
 description: Deprecated. Used when translating accelerators through TranslateAcceleratorSB and in checking the cycle of focus between the view and the browser's toolbars.
 old-location: shell\IBrowserService2_v_MayGetNextToolbarFocus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a1c271b2-d567-43b4-966e-0eea597f004b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_MayGetNextToolbarFocus method, IBrowserService2.v_MayGetNextToolbarFocus, IBrowserService2::v_MayGetNextToolbarFocus, shdeprecated/IBrowserService2::v_MayGetNextToolbarFocus, shell.IBrowserService2_v_MayGetNextToolbarFocus, v_MayGetNextToolbarFocus, v_MayGetNextToolbarFocus method [Windows Shell], v_MayGetNextToolbarFocus method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayGetNextToolbarFocus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2.v_MayGetNextToolbarFocus
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

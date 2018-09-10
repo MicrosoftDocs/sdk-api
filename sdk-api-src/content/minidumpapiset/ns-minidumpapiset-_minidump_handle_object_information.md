@@ -4,7 +4,7 @@ title: "_MINIDUMP_HANDLE_OBJECT_INFORMATION"
 author: windows-sdk-content
 description: Contains object-specific information for a handle.
 old-location: base\minidump_handle_object_information.htm
-old-project: debug
+tech.root: debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll 6.5 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_HANDLE_OBJECT_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_HANDLE_OBJECT_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_HANDLE_OBJECT_INFORMATION
+req.redist: DbgHelp.dll 6.5 or later
 ---
 
 # _MINIDUMP_HANDLE_OBJECT_INFORMATION structure

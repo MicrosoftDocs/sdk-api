@@ -4,7 +4,7 @@ title: "_CLUSTER_MEMBERSHIP_INFO"
 author: windows-sdk-content
 description: Represents membership information for a cluster.
 old-location: mscs\cluster_membership_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 4E3F8DFF-6F32-4729-9AAC-56B3E2592393
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_MEMBERSHIP_INFO, *PCLUSTER_MEMBERSHIP_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSTER_MEMBERSHIP_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_MEMBERSHIP_INFO, *PCLUSTER_MEMBERSHIP_INFO
+req.redist: 
 ---
 
 # _CLUSTER_MEMBERSHIP_INFO structure

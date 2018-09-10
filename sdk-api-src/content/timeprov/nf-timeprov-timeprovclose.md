@@ -4,17 +4,16 @@ title: TimeProvClose function
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to shut down the time provider.
 old-location: base\timeprovclose.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: ca8f5c8b-8c46-46eb-8d15-4c0c8a8437dd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback function, _win32_timeprovclose, base.timeprovclose, timeprov/TimeProvClose
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: timeprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TimeProvClose
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TimeProvClose function

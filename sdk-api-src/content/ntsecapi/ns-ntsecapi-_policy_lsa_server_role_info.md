@@ -4,7 +4,7 @@ title: "_POLICY_LSA_SERVER_ROLE_INFO"
 author: windows-sdk-content
 description: Used to set and query the role of an LSA server.
 old-location: security\policy_lsa_server_role_info.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: f66abe33-d8c8-45b8-9b94-d6890d786aaa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_LSA_SERVER_ROLE_INFO, *PPOLICY_LSA_SERVER_ROLE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_LSA_SERVER_ROLE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_LSA_SERVER_ROLE_INFO, *PPOLICY_LSA_SERVER_ROLE_INFO
+req.redist: 
 ---
 
 # _POLICY_LSA_SERVER_ROLE_INFO structure

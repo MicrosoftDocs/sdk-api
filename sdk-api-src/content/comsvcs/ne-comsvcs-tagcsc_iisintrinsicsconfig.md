@@ -4,7 +4,7 @@ title: tagCSC_IISIntrinsicsConfig
 author: windows-sdk-content
 description: Indicates whether the current IIS intrinsics are propagated into the new context.
 old-location: cos\csc_iisintrinsicsconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 69a3989b-724c-4e32-8a6a-4892610b0118
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSC_IISIntrinsicsConfig
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CSC_IISIntrinsicsConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CSC_IISIntrinsicsConfig
+req.redist: 
 ---
 
 # tagCSC_IISIntrinsicsConfig enumeration

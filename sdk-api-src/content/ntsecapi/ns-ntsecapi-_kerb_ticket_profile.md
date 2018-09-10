@@ -4,7 +4,7 @@ title: "_KERB_TICKET_PROFILE"
 author: windows-sdk-content
 description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.
 old-location: security\kerb_ticket_profile.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 9db0f9ac-b469-4e62-a735-ca3c56086009
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KERB_TICKET_PROFILE, *PKERB_TICKET_PROFILE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - KERB_TICKET_PROFILE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: KERB_TICKET_PROFILE, *PKERB_TICKET_PROFILE
+req.redist: 
 ---
 
 # _KERB_TICKET_PROFILE structure

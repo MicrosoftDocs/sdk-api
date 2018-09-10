@@ -4,17 +4,16 @@ title: IBDA_Encoder::SetParameters
 author: windows-sdk-content
 description: Sets the parameters for the Encoder Service.
 old-location: mstv\ibda_encoder_setparameters.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0ee90121-b52b-47dc-b954-e7ba0b14f75c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],SetParameters method, IBDA_Encoder.SetParameters, IBDA_Encoder::SetParameters, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, SetParameters, SetParameters method [Microsoft TV Technologies], SetParameters method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::SetParameters, mstv.ibda_encoder_setparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_Encoder.SetParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_Encoder::SetParameters

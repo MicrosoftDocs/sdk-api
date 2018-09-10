@@ -4,17 +4,16 @@ title: IPortableDeviceServiceMethodCallback::OnComplete
 author: windows-sdk-content
 description: Indicates that a callback method has completed execution.
 old-location: wpdsdk\iportabledeviceservicemethodcallback_oncomplete.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: b04e7bf1-bad7-4e9a-b53a-ec064d323f94
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK],OnComplete method, IPortableDeviceServiceMethodCallback.OnComplete, IPortableDeviceServiceMethodCallback::OnComplete, OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK],IPortableDeviceServiceMethodCallback interface, portabledeviceapi/IPortableDeviceServiceMethodCallback::OnComplete, wpdsdk.iportabledeviceservicemethodcallback_oncomplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceServiceMethodCallback.OnComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceServiceMethodCallback::OnComplete

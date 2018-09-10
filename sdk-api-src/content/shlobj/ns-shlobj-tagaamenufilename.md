@@ -4,7 +4,7 @@ title: tagAAMENUFILENAME
 author: windows-sdk-content
 description: A variable-size structure that contains information about a menu file name.
 old-location: shell\AASHELLMENUFILENAME_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f84e837f-61b0-4df4-9ff7-dc2d3d898d99
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AASHELLMENUFILENAME, *LPAASHELLMENUFILENAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AASHELLMENUFILENAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: AASHELLMENUFILENAME, *LPAASHELLMENUFILENAME
+req.redist: 
 ---
 
 # tagAAMENUFILENAME structure

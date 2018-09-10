@@ -4,7 +4,7 @@ title: IAzBizRuleInterfaces
 author: windows-sdk-content
 description: Provides methods and properties used to manage a list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 96cc0e45-ddd5-4ab0-9243-5f2046e48f78
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: 
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAzBizRuleInterfaces
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAzBizRuleInterfaces interface

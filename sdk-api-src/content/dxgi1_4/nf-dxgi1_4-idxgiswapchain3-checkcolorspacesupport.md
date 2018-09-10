@@ -4,17 +4,16 @@ title: IDXGISwapChain3::CheckColorSpaceSupport
 author: windows-sdk-content
 description: Checks the swap chain's support for color space.
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 87AFB541-EC10-45E6-97CC-1B48084D00EE
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CheckColorSpaceSupport, CheckColorSpaceSupport method [DXGI], CheckColorSpaceSupport method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],CheckColorSpaceSupport method, IDXGISwapChain3.CheckColorSpaceSupport, IDXGISwapChain3::CheckColorSpaceSupport, direct3ddxgi.idxgiswapchain3_checkcolorspacesupport, dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain3.CheckColorSpaceSupport
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain3::CheckColorSpaceSupport

@@ -4,7 +4,7 @@ title: "_SPACTION"
 author: windows-sdk-content
 description: Describes an action being performed that requires progress to be shown to the user using an IActionProgress interface.
 old-location: shell\SPACTION.htm
-old-project: shell
+tech.root: shell
 ms.assetid: fc5a0f96-e8c2-483f-86b0-d8c870a9f77a
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SPACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SPACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: SPACTION
+req.redist: 
 ---
 
 # _SPACTION enumeration

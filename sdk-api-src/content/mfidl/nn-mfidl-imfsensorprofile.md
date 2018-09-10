@@ -4,7 +4,7 @@ title: IMFSensorProfile
 author: windows-sdk-content
 description: Describes a media foundation sensor profile.
 old-location: mf\imfsensorprofile.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfsensorgroup.lib
+req.dll: Mfsensorgroup.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFSensorProfile
 product: Windows
 targetos: Windows
-req.lib: Mfsensorgroup.lib
-req.dll: Mfsensorgroup.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorProfile interface

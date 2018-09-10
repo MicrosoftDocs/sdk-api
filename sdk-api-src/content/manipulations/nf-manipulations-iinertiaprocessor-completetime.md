@@ -4,17 +4,16 @@ title: IInertiaProcessor::CompleteTime
 author: windows-sdk-content
 description: Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the ManipulationCompleted event.
 old-location: wintouch\iinertiaprocessor_completetime.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 325e04c2-a477-43c7-9513-36a2a92eef8e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CompleteTime, CompleteTime method [Windows Touch], CompleteTime method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],CompleteTime method, IInertiaProcessor.CompleteTime, IInertiaProcessor::CompleteTime, manipulations/IInertiaProcessor::CompleteTime, wintouch.iinertiaprocessor_completetime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInertiaProcessor.CompleteTime
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInertiaProcessor::CompleteTime

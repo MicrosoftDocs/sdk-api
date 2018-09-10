@@ -4,17 +4,16 @@ title: CreateUrlCacheContainerW function
 author: windows-sdk-content
 description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
 old-location: wininet\createurlcachecontainer.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winineti.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_AUTH_NOTIFY_DATA
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CreateUrlCacheContainer
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateUrlCacheContainerW function

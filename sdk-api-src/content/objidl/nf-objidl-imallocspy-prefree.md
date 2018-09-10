@@ -4,17 +4,16 @@ title: IMallocSpy::PreFree
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::Free. This method ensures that the pointer passed to Free points to the beginning of the actual allocation.
 old-location: com\imallocspy_prefree.htm
-old-project: com
+tech.root: com
 ms.assetid: 528eedac-e8cc-4dc7-8287-c023ebefb72c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMallocSpy interface [COM],PreFree method, IMallocSpy.PreFree, IMallocSpy::PreFree, PreFree, PreFree method [COM], PreFree method [COM],IMallocSpy interface, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMallocSpy.PreFree
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMallocSpy::PreFree

@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxConfiguration.put_SizeQuotaWarning
 title: IFaxConfiguration::put_SizeQuotaWarning
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
-old-location: fax\_mfax_FaxConfiguration_SizeQuotaWarning_vb.htm
-old-project: Fax
+old-location: fax\_mfax_IFaxConfiguration_SizeQuotaWarning.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequotawarning.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxConfiguration object [Fax Service],SizeQuotaWarning property, FaxConfiguration.SizeQuotaWarning, IFaxConfiguration.put_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_FaxConfiguration_SizeQuotaWarning_vb, put_SizeQuotaWarning
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxConfiguration interface [Fax Service],SizeQuotaWarning property, IFaxConfiguration.SizeQuotaWarning, IFaxConfiguration.put_SizeQuotaWarning, IFaxConfiguration::SizeQuotaWarning, IFaxConfiguration::get_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_IFaxConfiguration_SizeQuotaWarning, faxcomex/IFaxConfiguration::SizeQuotaWarning, faxcomex/IFaxConfiguration::get_SizeQuotaWarning, faxcomex/IFaxConfiguration::put_SizeQuotaWarning, put_SizeQuotaWarning
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Faxcomex.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxConfiguration.SizeQuotaWarning
+ - IFaxConfiguration.SizeQuotaWarning
+ - IFaxConfiguration.get_SizeQuotaWarning
+ - IFaxConfiguration.put_SizeQuotaWarning
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxConfiguration::put_SizeQuotaWarning
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
  
 
  

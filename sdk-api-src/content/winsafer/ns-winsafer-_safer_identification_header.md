@@ -4,7 +4,7 @@ title: "_SAFER_IDENTIFICATION_HEADER"
 author: windows-sdk-content
 description: SAFER_IDENTIFICATION_HEADER structure is used as the header for the SAFER_PATHNAME_IDENTIFICATION, SAFER_HASH_IDENTIFICATION, and SAFER_URLZONE_IDENTIFICATION structures.
 old-location: security\safer_identification_header.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 9bcb7d22-2360-4146-9972-118ba8822aa7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsafer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SAFER_IDENTIFICATION_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
+req.redist: 
 ---
 
 # _SAFER_IDENTIFICATION_HEADER structure

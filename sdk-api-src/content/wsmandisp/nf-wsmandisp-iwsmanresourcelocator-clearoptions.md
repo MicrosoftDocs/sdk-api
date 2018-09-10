@@ -4,17 +4,16 @@ title: IWSManResourceLocator::ClearOptions
 author: windows-sdk-content
 description: Removes any options from the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_clearoptions.htm
-old-project: WinRM
+tech.root: WinRM
 ms.assetid: 4c71948d-2321-41b5-b961-c4a514830b26
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClearOptions, ClearOptions method [Windows Remote Management], ClearOptions method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearOptions method, IWSManResourceLocator.ClearOptions, IWSManResourceLocator::ClearOptions, winrm.iwsmanresourcelocator_clearoptions, wsmandisp/IWSManResourceLocator::ClearOptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSManProxyAuthenticationFlags
+req.lib: WSManDisp.tlb
+req.dll: WSMAuto.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSManResourceLocator.ClearOptions
 product: Windows
 targetos: Windows
-req.lib: WSManDisp.tlb
-req.dll: WSMAuto.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSManResourceLocator::ClearOptions

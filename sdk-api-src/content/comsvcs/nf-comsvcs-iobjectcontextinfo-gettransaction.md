@@ -4,17 +4,16 @@ title: IObjectContextInfo::GetTransaction
 author: windows-sdk-content
 description: Retrieves a reference to the current transaction.
 old-location: cos\iobjectcontextinfo_gettransaction.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: e3a19d49-740a-436c-be6b-c98b5a14dc93
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransaction method, IObjectContextInfo.GetTransaction, IObjectContextInfo::GetTransaction, _cos_IObjectContextInfo_GetTransaction, comsvcs/IObjectContextInfo::GetTransaction, cos.iobjectcontextinfo_gettransaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IObjectContextInfo.GetTransaction
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectContextInfo::GetTransaction

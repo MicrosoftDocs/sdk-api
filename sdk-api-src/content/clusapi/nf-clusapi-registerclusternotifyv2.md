@@ -4,17 +4,16 @@ title: RegisterClusterNotifyV2 function
 author: windows-sdk-content
 description: Registers an event type with a notification port by adding the notification key to the event type.
 old-location: mscs\registerclusternotifyv2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 function [Failover Cluster], RegisterClusterNotifyV2, RegisterClusterNotifyV2 function [Failover Cluster], clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, clusapi/RegisterClusterNotifyV2, mscs.registerclusternotifyv2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RegisterClusterNotifyV2
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RegisterClusterNotifyV2 function

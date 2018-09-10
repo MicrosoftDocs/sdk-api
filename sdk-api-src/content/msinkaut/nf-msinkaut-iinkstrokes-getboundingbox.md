@@ -4,17 +4,16 @@ title: IInkStrokes::GetBoundingBox
 author: windows-sdk-content
 description: Gets the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or an InkStrokes collection.
 old-location: tablet\inkstrokes_getboundingbox.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 33641615-c2dc-43ee-b7be-8f24c38bac6b
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],GetBoundingBox method, IInkStrokes.GetBoundingBox, IInkStrokes::GetBoundingBox, msinkaut/IInkStrokes::GetBoundingBox, tablet.inkstrokes_getboundingbox
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkStrokes.GetBoundingBox
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkStrokes::GetBoundingBox

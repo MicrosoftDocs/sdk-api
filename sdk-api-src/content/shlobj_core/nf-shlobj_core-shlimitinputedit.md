@@ -4,17 +4,16 @@ title: SHLimitInputEdit function
 author: windows-sdk-content
 description: Sets limits on valid characters for an edit control.
 old-location: shell\SHLimitInputEdit.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SHLimitInputEdit
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHLimitInputEdit function

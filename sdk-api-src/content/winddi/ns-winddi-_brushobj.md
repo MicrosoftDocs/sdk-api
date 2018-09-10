@@ -4,7 +4,7 @@ title: "_BRUSHOBJ"
 author: windows-sdk-content
 description: The BRUSHOBJ structure contains three public members that describe a brush object.
 old-location: display\brushobj.htm
-old-project: display
+tech.root: display
 ms.assetid: 81216bee-d13f-4880-a839-337a247a6c82
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BRUSHOBJ
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - BRUSHOBJ
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: BRUSHOBJ
+req.redist: 
 ---
 
 # _BRUSHOBJ structure

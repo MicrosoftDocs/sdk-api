@@ -4,17 +4,16 @@ title: FNWRITE macro
 author: windows-sdk-content
 description: The FNWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.
 old-location: winprog\fnwrite.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNWRITE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNWRITE macro

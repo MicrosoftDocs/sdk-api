@@ -4,17 +4,16 @@ title: IWbemHiPerfProvider::CreateRefreshableEnum
 author: windows-sdk-content
 description: Creates a new refreshable enumeration.
 old-location: wmi\iwbemhiperfprovider_createrefreshableenum.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 086a1717-b6e8-45c1-9397-ec894ee900a0
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableEnum method, IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmiprvsd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWbemHiPerfProvider.CreateRefreshableEnum
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmiprvsd.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemHiPerfProvider::CreateRefreshableEnum
@@ -89,7 +87,7 @@ Reserved. This parameter must be 0 (zero).
 
 ### -param pContext
 
-
+TBD
 
 
 ### -param pHiPerfEnum [in]

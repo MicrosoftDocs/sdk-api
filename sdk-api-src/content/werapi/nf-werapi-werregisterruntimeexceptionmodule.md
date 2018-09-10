@@ -4,17 +4,16 @@ title: WerRegisterRuntimeExceptionModule function
 author: windows-sdk-content
 description: Registers a custom runtime exception handler that is used to provide custom error reporting for crashes.
 old-location: wer\werregisterruntimeexceptionmodule.htm
-old-project: wer
+tech.root: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WerRegisterRuntimeExceptionModule
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerRegisterRuntimeExceptionModule function

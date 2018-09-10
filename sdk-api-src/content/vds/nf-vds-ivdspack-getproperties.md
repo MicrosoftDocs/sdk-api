@@ -4,17 +4,16 @@ title: IVdsPack::GetProperties
 author: windows-sdk-content
 description: Returns the property details of a pack object.
 old-location: base\ivdspack_getproperties.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 0793642c-1905-470c-a69f-8bf5f8bbe90d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProperties method, IVdsPack.GetProperties, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsPack.GetProperties
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsPack::GetProperties

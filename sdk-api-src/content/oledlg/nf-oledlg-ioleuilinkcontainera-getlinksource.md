@@ -4,17 +4,16 @@ title: IOleUILinkContainerA::GetLinkSource
 author: windows-sdk-content
 description: Retrieves information about a link that can be displayed in the Links dialog box.
 old-location: com\ioleuilinkcontainer_getlinksource.htm
-old-project: com
+tech.root: com
 ms.assetid: 10f1bc84-cc09-4a41-8f55-21314338f636
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLinkSource, GetLinkSource method [COM], GetLinkSource method [COM],IOleUILinkContainer interface, GetLinkSource method [COM],IOleUILinkContainerA interface, GetLinkSource method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA interface [COM],GetLinkSource method, IOleUILinkContainerA.GetLinkSource, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM],GetLinkSource method, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUILinkContainerW.GetLinkSource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUILinkContainerA::GetLinkSource

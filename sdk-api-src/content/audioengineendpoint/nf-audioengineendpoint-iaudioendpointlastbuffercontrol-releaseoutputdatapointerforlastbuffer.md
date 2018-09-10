@@ -4,17 +4,16 @@ title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
 author: windows-sdk-content
 description: Releases the output data pointer for the last buffer.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9ff0232d-acf6-44e7-933a-b5ac91c3acc8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AE_POSITION_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer

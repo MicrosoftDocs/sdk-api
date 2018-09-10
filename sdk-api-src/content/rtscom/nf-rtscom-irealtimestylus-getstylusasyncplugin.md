@@ -4,17 +4,16 @@ title: IRealTimeStylus::GetStylusAsyncPlugin
 author: windows-sdk-content
 description: Retrieves the plug-in at the specified index in the asynchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylusasyncplugin.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f, GetStylusAsyncPlugin, GetStylusAsyncPlugin method [Tablet PC], GetStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusAsyncPlugin method, IRealTimeStylus.GetStylusAsyncPlugin, IRealTimeStylus::GetStylusAsyncPlugin, rtscom/IRealTimeStylus::GetStylusAsyncPlugin, tablet.irealtimestylus_getstylusasyncplugin
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: StylusQueue
+req.lib: 
+req.dll: RTSCom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRealTimeStylus.GetStylusAsyncPlugin
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RTSCom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRealTimeStylus::GetStylusAsyncPlugin
@@ -70,7 +68,7 @@ The index for the plug-in that is in the asynchronous plug-in collection.
 
 ### -param ppiPlugin
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: AssocGetPerceivedType function
 author: windows-sdk-content
 description: Retrieves a file's perceived type based on its extension.
 old-location: shell\AssocGetPerceivedType.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d37f1574-b261-43bf-9712-05a569ab4246
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: AssocGetPerceivedType, AssocGetPerceivedType function [Windows Shell], PERCEIVEDFLAG_GDIPLUS, PERCEIVEDFLAG_HARDCODED, PERCEIVEDFLAG_NATIVESUPPORT, PERCEIVEDFLAG_SOFTCODED, PERCEIVEDFLAG_UNDEFINED, PERCEIVEDFLAG_WMSDK, PERCEIVEDFLAG_ZIPFOLDER, _shell_AssocGetPerceivedType, shell.AssocGetPerceivedType, shlwapi/AssocGetPerceivedType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - AssocGetPerceivedType
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # AssocGetPerceivedType function

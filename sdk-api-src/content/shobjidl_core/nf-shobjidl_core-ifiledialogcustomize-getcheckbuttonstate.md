@@ -4,17 +4,16 @@ title: IFileDialogCustomize::GetCheckButtonState
 author: windows-sdk-content
 description: Gets the current state of a check button (check box) in the dialog.
 old-location: shell\IFileDialogCustomize_GetCheckButtonState.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c16643e5-a711-455a-8967-2c810e28ea60
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCheckButtonState, GetCheckButtonState method [Windows Shell], GetCheckButtonState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetCheckButtonState method, IFileDialogCustomize.GetCheckButtonState, IFileDialogCustomize::GetCheckButtonState, shell.IFileDialogCustomize_GetCheckButtonState, shell_IFileDialogCustomize_GetCheckButtonState, shobjidl_core/IFileDialogCustomize::GetCheckButtonState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialogCustomize.GetCheckButtonState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialogCustomize::GetCheckButtonState

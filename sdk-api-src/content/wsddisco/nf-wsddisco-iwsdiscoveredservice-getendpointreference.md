@@ -4,17 +4,16 @@ title: IWSDiscoveredService::GetEndpointReference
 author: windows-sdk-content
 description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveredService.GetEndpointReference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveredService::GetEndpointReference
@@ -62,7 +60,7 @@ Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 
 ### -param ppEndpointReference
 
-
+TBD
 
 
 

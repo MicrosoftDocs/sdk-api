@@ -4,17 +4,16 @@ title: LayerParameters function
 author: windows-sdk-content
 description: Creates a D2D1_LAYER_PARAMETERS structure.
 old-location: direct2d\layerparameters.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: c6a9ebca-5d60-4013-b35b-547b7f4600da
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LayerParameters, LayerParameters function [Direct2D], d2d1helper/LayerParameters, direct2d.layerparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_VIGNETTE_PROP
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LayerParameters
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LayerParameters function

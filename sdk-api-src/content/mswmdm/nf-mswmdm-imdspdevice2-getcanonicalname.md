@@ -4,17 +4,16 @@ title: IMDSPDevice2::GetCanonicalName
 author: windows-sdk-content
 description: The GetCanonicalPName method gets the canonical name of a device.
 old-location: wmdm\imdspdevice2_getcanonicalname.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 0888c780-e358-45ae-809b-34a19d496059
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetCanonicalName method, IMDSPDevice2.GetCanonicalName, IMDSPDevice2::GetCanonicalName, IMDSPDevice2GetPnPName, mswmdm/IMDSPDevice2::GetCanonicalName, wmdm.imdspdevice2_getcanonicalname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMDSPDevice2.GetCanonicalName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPDevice2::GetCanonicalName

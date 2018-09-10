@@ -4,7 +4,7 @@ title: "_FILEDESCRIPTORA"
 author: windows-sdk-content
 description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
 old-location: shell\FILEDESCRIPTOR.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILEDESCRIPTORA, *LPFILEDESCRIPTORA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEDESCRIPTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: FILEDESCRIPTORA, *LPFILEDESCRIPTORA
+req.redist: 
 ---
 
 # _FILEDESCRIPTORA structure

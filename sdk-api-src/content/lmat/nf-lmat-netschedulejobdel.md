@@ -4,17 +4,16 @@ title: NetScheduleJobDel function
 author: windows-sdk-content
 description: The NetScheduleJobDel function deletes a range of jobs queued to run at a computer. This function requires that the schedule service be started at the computer to which the job deletion request is being sent.
 old-location: netmgmt\netschedulejobdel.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: lmat.h
 req.include-header: Lmat.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NetScheduleJobDel
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # NetScheduleJobDel function

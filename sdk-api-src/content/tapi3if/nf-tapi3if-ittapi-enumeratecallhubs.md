@@ -4,17 +4,16 @@ title: ITTAPI::EnumerateCallHubs
 author: windows-sdk-content
 description: The EnumerateCallHubs method enumerates the currently available call hubs. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Callhubs method.
 old-location: tapi3\ittapi_enumeratecallhubs.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 98d20aa3-6d4c-4971-aa4a-5b9632038eb1
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumerateCallHubs, EnumerateCallHubs method [TAPI 2.2], EnumerateCallHubs method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateCallHubs method, ITTAPI.EnumerateCallHubs, ITTAPI::EnumerateCallHubs, _tapi3_ittapi_enumeratecallhubs, tapi3.ittapi_enumeratecallhubs, tapi3if/ITTAPI::EnumerateCallHubs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.EnumerateCallHubs
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::EnumerateCallHubs

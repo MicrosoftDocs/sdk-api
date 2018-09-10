@@ -4,17 +4,16 @@ title: TreeView_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 old-location: controls\TreeView_CreateDragImage.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows Controls], _win32_TreeView_CreateDragImage, _win32_TreeView_CreateDragImage_cpp, commctrl/TreeView_CreateDragImage, controls.TreeView_CreateDragImage, controls._win32_TreeView_CreateDragImage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_CreateDragImage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_CreateDragImage macro

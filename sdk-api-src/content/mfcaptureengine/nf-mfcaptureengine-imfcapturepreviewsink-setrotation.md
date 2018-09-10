@@ -4,17 +4,16 @@ title: IMFCapturePreviewSink::SetRotation
 author: windows-sdk-content
 description: Rotates the video preview stream.
 old-location: mf\imfcapturepreviewsink_setrotation.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 84C53A34-B2FB-4D13-9A45-5172E9E3CEE8
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRotation method, IMFCapturePreviewSink.SetRotation, IMFCapturePreviewSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrotation, mfcaptureengine/IMFCapturePreviewSink::SetRotation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFCapturePreviewSink.SetRotation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFCapturePreviewSink::SetRotation

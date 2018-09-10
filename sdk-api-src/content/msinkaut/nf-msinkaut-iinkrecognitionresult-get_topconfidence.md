@@ -4,17 +4,16 @@ title: IInkRecognitionResult::get_TopConfidence
 author: windows-sdk-content
 description: Gets the top alternate of the recognition result.
 old-location: tablet\iinkrecognitionresult_topconfidence.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 286283ca-a8ad-4fc5-ae46-09a3e6382e2a, IInkRecognitionResult interface [Tablet PC],TopConfidence property, IInkRecognitionResult.TopConfidence, IInkRecognitionResult.get_TopConfidence, IInkRecognitionResult::TopConfidence, IInkRecognitionResult::get_TopConfidence, TopConfidence property [Tablet PC], TopConfidence property [Tablet PC],IInkRecognitionResult interface, get_TopConfidence, msinkaut/IInkRecognitionResult::TopConfidence, msinkaut/IInkRecognitionResult::get_TopConfidence, tablet.iinkrecognitionresult_topconfidence
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionResult.get_TopConfidence
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionResult::get_TopConfidence

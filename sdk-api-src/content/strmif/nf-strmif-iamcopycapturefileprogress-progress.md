@@ -4,17 +4,16 @@ title: IAMCopyCaptureFileProgress::Progress
 author: windows-sdk-content
 description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.
 old-location: dshow\iamcopycapturefileprogress_progress.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMCopyCaptureFileProgress.Progress
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMCopyCaptureFileProgress::Progress

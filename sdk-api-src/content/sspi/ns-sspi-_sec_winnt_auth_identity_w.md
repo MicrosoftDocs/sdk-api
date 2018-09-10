@@ -4,7 +4,7 @@ title: "_SEC_WINNT_AUTH_IDENTITY_W"
 author: windows-sdk-content
 description: Allows you to pass a particular user name and password to the run-time library for the purpose of authentication.
 old-location: security\sec_winnt_auth_identity.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a9c9471b-2134-4173-af86-18b277627d2a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_IDENTITY_W, *PSEC_WINNT_AUTH_IDENTITY_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_IDENTITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_IDENTITY_W, *PSEC_WINNT_AUTH_IDENTITY_W
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_W structure

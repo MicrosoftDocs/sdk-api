@@ -4,17 +4,16 @@ title: LPSAFEARRAY_UserMarshal function
 author: windows-sdk-content
 description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
 old-location: automat\lpsafearray_usermarshal.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIAVIDEO_STATE
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LPSAFEARRAY_UserMarshal
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LPSAFEARRAY_UserMarshal function

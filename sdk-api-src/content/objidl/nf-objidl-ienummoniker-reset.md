@@ -4,17 +4,16 @@ title: IEnumMoniker::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienummoniker_reset.htm
-old-project: com
+tech.root: com
 ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumMoniker.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumMoniker::Reset

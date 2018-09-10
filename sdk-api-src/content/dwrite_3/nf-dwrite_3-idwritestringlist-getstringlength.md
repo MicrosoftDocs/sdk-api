@@ -4,17 +4,16 @@ title: IDWriteStringList::GetStringLength
 author: windows-sdk-content
 description: Gets the length in characters (not including the null terminator) of the string with the specified index.
 old-location: directwrite\idwritestringlist_getstringlength.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 5511DD28-22B1-4006-A724-13C2C4A17E6C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetStringLength, GetStringLength method [Direct Write], GetStringLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetStringLength method, IDWriteStringList.GetStringLength, IDWriteStringList::GetStringLength, directwrite.idwritestringlist_getstringlength, dwrite_3/IDWriteStringList::GetStringLength
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteStringList.GetStringLength
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteStringList::GetStringLength

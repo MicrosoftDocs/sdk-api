@@ -4,17 +4,16 @@ title: IFont::get_Bold
 author: windows-sdk-content
 description: Gets the font's current Bold property.
 old-location: com\ifont_get_bold.htm
-old-project: com
+tech.root: com
 ms.assetid: bc0a8353-852b-4314-83b1-a07321159945
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],get_Bold method, IFont.get_Bold, IFont::get_Bold, _ctrl_ifont_get_bold, com.ifont_get_bold, get_Bold, get_Bold method [COM], get_Bold method [COM],IFont interface, ocidl/IFont::get_Bold
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFont.get_Bold
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IFont::get_Bold

@@ -4,17 +4,16 @@ title: LsaAddAccountRights function
 author: windows-sdk-content
 description: Assigns one or more privileges to an account.
 old-location: security\lsaaddaccountrights.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - LsaAddAccountRights
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaAddAccountRights function

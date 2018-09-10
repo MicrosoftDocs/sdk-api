@@ -4,17 +4,16 @@ title: AddProperty function
 author: windows-sdk-content
 description: The AddProperty function adds one property to the parser property database.
 old-location: netmon\addproperty.htm
-old-project: NetMon2
+tech.root: NetMon2
 ms.assetid: 7aa9af0a-2434-4331-a244-a743dd430dcf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: AddProperty, AddProperty function [Network Monitor], _netmon_addproperty, netmon.addproperty, sql_1/AddProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sql_1.h
 req.include-header: Netmon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: Nmapi.lib
+req.dll: Nmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AddProperty
 product: Windows
 targetos: Windows
-req.lib: Nmapi.lib
-req.dll: Nmapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # AddProperty function

@@ -4,17 +4,16 @@ title: IInkDisp::CanPaste
 author: windows-sdk-content
 description: Indicates whether the IDataObject can be converted to an InkDisp object.
 old-location: tablet\inkdisp_canpaste.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 755c74c4-417a-49b5-9f3d-9348c05ac850
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 755c74c4-417a-49b5-9f3d-9348c05ac850, CanPaste, CanPaste method [Tablet PC], CanPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CanPaste method, IInkDisp.CanPaste, IInkDisp::CanPaste, msinkaut/IInkDisp::CanPaste, tablet.inkdisp_canpaste
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkDisp.CanPaste
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkDisp::CanPaste

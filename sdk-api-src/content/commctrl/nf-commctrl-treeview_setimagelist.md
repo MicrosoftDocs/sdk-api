@@ -4,17 +4,16 @@ title: TreeView_SetImageList macro
 author: windows-sdk-content
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the TVM_SETIMAGELIST message explicitly.
 old-location: controls\TreeView_SetImageList.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setimagelist.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_SetImageList, TreeView_SetImageList macro [Windows Controls], _win32_TreeView_SetImageList, _win32_TreeView_SetImageList_cpp, commctrl/TreeView_SetImageList, controls.TreeView_SetImageList, controls._win32_TreeView_SetImageList
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - TreeView_SetImageList
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # TreeView_SetImageList macro

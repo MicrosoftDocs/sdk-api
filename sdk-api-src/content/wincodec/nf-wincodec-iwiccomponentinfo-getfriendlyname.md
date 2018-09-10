@@ -4,17 +4,16 @@ title: IWICComponentInfo::GetFriendlyName
 author: windows-sdk-content
 description: Retrieves the component's friendly name, which is a human-readable display name for the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getfriendlyname.htm
-old-project: wic
+tech.root: wic
 ms.assetid: c67e7a30-8bd5-427b-8a67-c77e3cf86e78
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Windows Imaging Component], GetFriendlyName method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetFriendlyName method, IWICComponentInfo.GetFriendlyName, IWICComponentInfo::GetFriendlyName, _wic_codec_iwiccomponentinfo_getfriendlyname, wic._wic_codec_iwiccomponentinfo_getfriendlyname, wincodec/IWICComponentInfo::GetFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICComponentInfo.GetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICComponentInfo::GetFriendlyName

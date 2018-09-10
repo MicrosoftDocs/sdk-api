@@ -4,17 +4,16 @@ title: ICameraControl::get_RollRelative
 author: windows-sdk-content
 description: The get_RollRelative method returns the camera's relative roll. The relative roll is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_rollrelative.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 28fa7e55-8e43-40fc-ac6c-e19f91621405
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_RollRelative method, ICameraControl.get_RollRelative, ICameraControl::get_RollRelative, ICameraControlget_RollRelative, dshow.icameracontrol_get_rollrelative, get_RollRelative, get_RollRelative method [DirectShow], get_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_RollRelative
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICameraControl.get_RollRelative
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICameraControl::get_RollRelative

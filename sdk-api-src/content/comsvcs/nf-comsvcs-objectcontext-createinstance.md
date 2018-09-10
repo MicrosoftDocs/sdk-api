@@ -4,17 +4,16 @@ title: ObjectContext::CreateInstance
 author: windows-sdk-content
 description: Creates an object using current object's context.
 old-location: cos\objectcontext_createinstance.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 9719f672-d706-44e3-b976-28d0d0feacd1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ObjectContext interface, ObjectContext interface [COM+],CreateInstance method, ObjectContext.CreateInstance, ObjectContext::CreateInstance, _cos_ObjectContext_CreateInstance, comsvcs/ObjectContext::CreateInstance, cos.objectcontext_createinstance
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ObjectContext.CreateInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectContext::CreateInstance

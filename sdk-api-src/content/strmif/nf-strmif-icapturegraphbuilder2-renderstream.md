@@ -4,17 +4,16 @@ title: ICaptureGraphBuilder2::RenderStream
 author: windows-sdk-content
 description: The RenderStream method connects an output pin on a source filter to a sink filter, optionally through an intermediate filter.
 old-location: dshow\icapturegraphbuilder2_renderstream.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ICaptureGraphBuilder2.RenderStream
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # ICaptureGraphBuilder2::RenderStream
@@ -86,12 +84,12 @@ Specifies a pointer to the starting filter for the connection, or to an output p
 
 ### -param pfCompressor
 
-
+TBD
 
 
 ### -param pfRenderer
 
-
+TBD
 
 
 

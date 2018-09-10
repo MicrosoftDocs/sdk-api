@@ -4,7 +4,7 @@ title: "_DHCP_IP_RESERVATION_V6"
 author: windows-sdk-content
 description: Defines an IPv6 reservation for a DHCPv6 client in a specific IPv6 prefix.
 old-location: dhcp\dhcp_ip_reservation_v6.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: f1595632-018b-4626-b3c6-49f0e5b3752c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_IP_RESERVATION_V6, *LPDHCP_IP_RESERVATION_V6
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_IP_RESERVATION_V6
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_IP_RESERVATION_V6, *LPDHCP_IP_RESERVATION_V6
+req.redist: 
 ---
 
 # _DHCP_IP_RESERVATION_V6 structure

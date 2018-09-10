@@ -4,7 +4,7 @@ title: IVirtualDesktopManager
 author: windows-sdk-content
 description: Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
 old-location: shell\ivirtualdesktopmanager.htm
-old-project: shell
+tech.root: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVirtualDesktopManager
 product: Windows
 targetos: Windows
-req.lib: Explorerframe.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IVirtualDesktopManager interface

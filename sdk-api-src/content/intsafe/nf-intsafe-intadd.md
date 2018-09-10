@@ -4,17 +4,16 @@ title: IntAdd function
 author: windows-sdk-content
 description: Adds two values of type INT.
 old-location: shell\IntAdd.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntAdd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntAdd function

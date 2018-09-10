@@ -4,17 +4,16 @@ title: BluetoothEnableIncomingConnections function
 author: windows-sdk-content
 description: The BluetoothEnableIncomingConnections function modifies whether a local Bluetooth radio accepts incoming connections.
 old-location: bluetooth\bluetoothenableincomingconnections.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BluetoothEnableIncomingConnections, BluetoothEnableIncomingConnections function [Bluetooth], bluetooth.bluetoothenableincomingconnections, bluetoothapis/BluetoothEnableIncomingConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BLUETOOTH_IO_CAPABILITY
+req.lib: Bthprops.lib
+req.dll: Bthprops.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - BluetoothEnableIncomingConnections
 product: Windows
 targetos: Windows
-req.lib: Bthprops.lib
-req.dll: Bthprops.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BluetoothEnableIncomingConnections function

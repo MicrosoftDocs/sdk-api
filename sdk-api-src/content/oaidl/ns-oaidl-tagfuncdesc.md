@@ -4,7 +4,7 @@ title: tagFUNCDESC
 author: windows-sdk-content
 description: Describes a function.
 old-location: automat\funcdesc.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 9998e0cb-5aa3-4cd8-86eb-34760eb1164e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: OaIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FUNCDESC, *LPFUNCDESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FUNCDESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: FUNCDESC, *LPFUNCDESC
+req.redist: 
 ---
 
 # tagFUNCDESC structure

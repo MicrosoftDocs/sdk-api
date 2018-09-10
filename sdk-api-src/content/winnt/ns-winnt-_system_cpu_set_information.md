@@ -4,7 +4,7 @@ title: "_SYSTEM_CPU_SET_INFORMATION"
 author: windows-sdk-content
 description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
 old-location: base\system_cpu_set_information.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_CPU_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_CPU_SET_INFORMATION, *PSYSTEM_CPU_SET_INFORMATION
+req.redist: 
 ---
 
 # _SYSTEM_CPU_SET_INFORMATION structure

@@ -4,7 +4,7 @@ title: "_SCHANNEL_CLIENT_SIGNATURE"
 author: windows-sdk-content
 description: Specifies a client signature when a call to the InitializeSecurityContext (Schannel) function cannot access the private key for a client certificate (in this case, the function returns SEC_I_SIGNATURE_NEEDED).
 old-location: security\schannel_client_signature.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2549a287-bee3-457b-86e3-3330bf23169a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SCHANNEL_CLIENT_SIGNATURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
+req.redist: 
 ---
 
 # _SCHANNEL_CLIENT_SIGNATURE structure

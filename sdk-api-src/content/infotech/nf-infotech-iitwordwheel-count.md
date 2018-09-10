@@ -4,17 +4,16 @@ title: IITWordWheel::Count
 author: windows-sdk-content
 description: Returns the number of entries in a word wheel.
 old-location: htmlhelp\iitwordwheel_count.htm
-old-project: htmlhelp
+tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IITWordWheel.Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IITWordWheel::Count

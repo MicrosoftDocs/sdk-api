@@ -4,17 +4,16 @@ title: PTGetPrintDeviceCapabilities function
 author: windows-sdk-content
 description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.
 old-location: xps\ptgetprintdevicecapabilities.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EDefaultDevmodeType
+req.lib: Prntvpt.lib
+req.dll: Prntvpt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PTGetPrintDeviceCapabilities
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PTGetPrintDeviceCapabilities function

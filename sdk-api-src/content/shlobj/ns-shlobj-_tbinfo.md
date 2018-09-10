@@ -4,7 +4,7 @@ title: "_TBINFO"
 author: windows-sdk-content
 description: Used with the SFVM_GETBUTTONINFO notification to specify the number of buttons to add to the toolbar, as well as how they're added.
 old-location: shell\TBINFO_str.htm
-old-project: shell
+tech.root: shell
 ms.assetid: da82e861-129b-4536-b036-2238c9e4c84c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TBINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TBINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: TBINFO
+req.redist: 
 ---
 
 # _TBINFO structure

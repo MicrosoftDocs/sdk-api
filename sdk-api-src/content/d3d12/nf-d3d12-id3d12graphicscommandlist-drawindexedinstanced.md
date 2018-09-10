@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList::DrawIndexedInstanced
 author: windows-sdk-content
 description: Draws indexed, instanced primitives.
 old-location: direct3d12\id3d12graphicscommandlist_drawindexedinstanced.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 16333C88-81B7-44D8-A226-D707C8A9CCF4
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced method, DrawIndexedInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawIndexedInstanced method, ID3D12GraphicsCommandList.DrawIndexedInstanced, ID3D12GraphicsCommandList::DrawIndexedInstanced, d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced, direct3d12.id3d12graphicscommandlist_drawindexedinstanced
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3d12.lib
+req.dll: D3d12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList.DrawIndexedInstanced
 product: Windows
 targetos: Windows
-req.lib: D3d12.lib
-req.dll: D3d12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList::DrawIndexedInstanced

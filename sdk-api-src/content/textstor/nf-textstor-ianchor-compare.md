@@ -4,17 +4,16 @@ title: IAnchor::Compare
 author: windows-sdk-content
 description: The IAnchor::Compare method compares the relative position of two anchors within a text stream.
 old-location: tsf\ianchor_compare.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TsRunType
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAnchor.Compare
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # IAnchor::Compare

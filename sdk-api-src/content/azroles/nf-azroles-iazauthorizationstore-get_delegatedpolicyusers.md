@@ -4,17 +4,16 @@ title: IAzAuthorizationStore::get_DelegatedPolicyUsers
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as delegated policy users in text form.
 old-location: security\azauthorizationstore_delegatedpolicyusers.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: cc1268d5-d386-4888-a987-e40896a096e4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzAuthorizationStore object, DelegatedPolicyUsers property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsers property, IAzAuthorizationStore.DelegatedPolicyUsers, IAzAuthorizationStore.get_DelegatedPolicyUsers, IAzAuthorizationStore::DelegatedPolicyUsers, IAzAuthorizationStore::get_DelegatedPolicyUsers, azroles/IAzAuthorizationStore::DelegatedPolicyUsers, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.azauthorizationstore_delegatedpolicyusers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - AzAuthorizationStore.DelegatedPolicyUsers
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzAuthorizationStore::get_DelegatedPolicyUsers

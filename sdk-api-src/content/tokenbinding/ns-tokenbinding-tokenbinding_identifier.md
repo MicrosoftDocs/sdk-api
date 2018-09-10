@@ -4,7 +4,7 @@ title: TOKENBINDING_IDENTIFIER
 author: windows-sdk-content
 description: Contains the information for representing a token binding identifier that results from a token binding message exchange.
 old-location: security\tokenbinding_identifier.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tokenbinding.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOKENBINDING_IDENTIFIER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOKENBINDING_IDENTIFIER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TOKENBINDING_IDENTIFIER
+req.redist: 
 ---
 
 # TOKENBINDING_IDENTIFIER structure

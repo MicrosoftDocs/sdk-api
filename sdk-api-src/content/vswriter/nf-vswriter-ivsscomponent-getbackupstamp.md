@@ -4,17 +4,16 @@ title: IVssComponent::GetBackupStamp
 author: windows-sdk-content
 description: The GetBackupStamp method returns the backup stamp string stored by a writer for a given component.
 old-location: base\ivsscomponent_getbackupstamp.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: a8f272d8-4024-46bf-a0e6-77d870615fc0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetBackupStamp, GetBackupStamp method [VSS], GetBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupStamp method, IVssComponent.GetBackupStamp, IVssComponent::GetBackupStamp, _win32_ivsscomponent_getbackupstamp, base.ivsscomponent_getbackupstamp, vswriter/IVssComponent::GetBackupStamp
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetBackupStamp
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetBackupStamp

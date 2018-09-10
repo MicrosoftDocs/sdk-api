@@ -4,17 +4,16 @@ title: IDiscRecorder2Ex::SendCommandSendDataToDevice
 author: windows-sdk-content
 description: Sends a MMC command and its associated data buffer to the recording device.
 old-location: imapi\idiscrecorder2ex_sendcommandsenddatatodevice.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: e893c3d8-1bf8-461e-9792-3b7d6d3beebb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandSendDataToDevice method, IDiscRecorder2Ex.SendCommandSendDataToDevice, IDiscRecorder2Ex::SendCommandSendDataToDevice, SendCommandSendDataToDevice, SendCommandSendDataToDevice method [IMAPI], SendCommandSendDataToDevice method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandsenddatatodevice, imapi2/IDiscRecorder2Ex::SendCommandSendDataToDevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscRecorder2Ex.SendCommandSendDataToDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscRecorder2Ex::SendCommandSendDataToDevice

@@ -4,7 +4,7 @@ title: tagMetadataTimeStamps
 author: windows-sdk-content
 description: The MetadataTimeStamps structure describes the blob format for the MF_CAPTURE_METADATA_FACEROITIMESTAMPS attribute.
 old-location: stream\metadatatimestamps.htm
-old-project: stream
+tech.root: stream
 ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MetadataTimeStamps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MetadataTimeStamps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MetadataTimeStamps
+req.redist: 
 ---
 
 # tagMetadataTimeStamps structure

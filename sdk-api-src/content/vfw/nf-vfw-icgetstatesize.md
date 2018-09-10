@@ -4,17 +4,16 @@ title: ICGetStateSize macro
 author: windows-sdk-content
 description: The ICGetStateSize macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the ICM_GETSTATE message.
 old-location: multimedia\icgetstatesize.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 386761e8-9234-4541-b593-ce8e323714bf
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VS_FIXEDFILEINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICGetStateSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ICGetStateSize macro

@@ -4,17 +4,16 @@ title: ITAgentSession::get_LongestTimeToAnswer
 author: windows-sdk-content
 description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: aca11b6d-7656-4162-9bf7-1b8ffaa487de
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_LongestTimeToAnswer method, ITAgentSession.get_LongestTimeToAnswer, ITAgentSession::get_LongestTimeToAnswer, _tapi3_itagentsession_get_longesttimetoanswer, get_LongestTimeToAnswer, get_LongestTimeToAnswer method [TAPI 2.2], get_LongestTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_longesttimetoanswer, tapi3cc/ITAgentSession::get_LongestTimeToAnswer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSP_EVENT
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAgentSession.get_LongestTimeToAnswer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAgentSession::get_LongestTimeToAnswer

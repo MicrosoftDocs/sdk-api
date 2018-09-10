@@ -4,17 +4,16 @@ title: NCryptIsAlgSupported function
 author: windows-sdk-content
 description: Determines if a CNG key storage provider supports a specific cryptographic algorithm.
 old-location: security\ncryptisalgsupported_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SESSION_HEADER, *PSESSION_HEADER
+req.lib: Ncrypt.lib
+req.dll: Ncrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NCryptIsAlgSupported
 product: Windows
 targetos: Windows
-req.lib: Ncrypt.lib
-req.dll: Ncrypt.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # NCryptIsAlgSupported function

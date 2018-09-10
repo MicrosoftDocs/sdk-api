@@ -4,17 +4,16 @@ title: IOCSPCAConfiguration::put_SigningFlags
 author: windows-sdk-content
 description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_signingflags_method.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.put_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, put_SigningFlags, security.iocspcaconfiguration_signingflags_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IOCSPCAConfiguration.put_SigningFlags
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOCSPCAConfiguration::put_SigningFlags

@@ -4,17 +4,16 @@ title: ILoadFilter::LoadIFilterFromStream
 author: windows-sdk-content
 description: Do not use:\_this method is not implemented.
 old-location: search\iloadfilter_loadifilterfromstream.htm
-old-project: search
+tech.root: search
 ms.assetid: 6a577306-d5ff-43c1-ab9f-3a7437661d2a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStream method, ILoadFilter.LoadIFilterFromStream, ILoadFilter::LoadIFilterFromStream, LoadIFilterFromStream, LoadIFilterFromStream method [search], LoadIFilterFromStream method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStream, search.iloadfilter_loadifilterfromstream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: filtereg.h
 req.include-header: Filtereg.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STAT_CHUNK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILoadFilter.LoadIFilterFromStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # ILoadFilter::LoadIFilterFromStream
@@ -85,7 +83,7 @@ Do not use: this method is not implemented.
 
 ### -param ppIFilt
 
-
+TBD
 
 
 

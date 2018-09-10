@@ -4,17 +4,16 @@ title: IESLicenseRenewalResultEvent::GetFileName
 author: windows-sdk-content
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IESLicenseRenewalResultEvent.GetFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IESLicenseRenewalResultEvent::GetFileName

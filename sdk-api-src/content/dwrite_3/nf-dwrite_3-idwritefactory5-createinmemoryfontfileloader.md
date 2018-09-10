@@ -4,17 +4,16 @@ title: IDWriteFactory5::CreateInMemoryFontFileLoader
 author: windows-sdk-content
 description: Creates a loader object that can be used to create font file references to in-memory fonts. The caller is responsible for registering and unregistering the loader.
 old-location: directwrite\idwritefactory5_createinmemoryfontfileloader.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateInMemoryFontFileLoader, CreateInMemoryFontFileLoader method [Direct Write], CreateInMemoryFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateInMemoryFontFileLoader method, IDWriteFactory5.CreateInMemoryFontFileLoader, IDWriteFactory5::CreateInMemoryFontFileLoader, directwrite.idwritefactory5_createinmemoryfontfileloader, dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDWriteFactory5.CreateInMemoryFontFileLoader
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory5::CreateInMemoryFontFileLoader

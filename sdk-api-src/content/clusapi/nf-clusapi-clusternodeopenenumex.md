@@ -4,17 +4,16 @@ title: ClusterNodeOpenEnumEx function
 author: windows-sdk-content
 description: Opens an enumerator that can iterate through the network interfaces or groups that are installed on a node.
 old-location: mscs\clusternodeopenenumex.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ClusterNodeOpenEnumEx, ClusterNodeOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - kbSyntax
 api_type:
@@ -39,9 +39,8 @@ api_name:
  - ClusterNodeOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterNodeOpenEnumEx function

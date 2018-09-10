@@ -4,17 +4,16 @@ title: DismountNtmsDrive function
 author: windows-sdk-content
 description: The DismountNtmsDrive function queues a command to move the media in the specified drive to its storage slot. This function should be paired with the MountNtmsMedia function.
 old-location: fs\dismountntmsdrive.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: dbec501c-a7bc-4679-afe1-df833dcb932d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DismountNtmsDrive, DismountNtmsDrive function [Files], _zaw_dismountntmsdrive, base.dismountntmsdrive, fs.dismountntmsdrive, ntmsapi/DismountNtmsDrive
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Ntmsapi.lib
+req.dll: Ntmsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DismountNtmsDrive
 product: Windows
 targetos: Windows
-req.lib: Ntmsapi.lib
-req.dll: Ntmsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DismountNtmsDrive function

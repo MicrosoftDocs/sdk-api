@@ -4,7 +4,7 @@ title: INTERNET_SCHEME
 author: windows-sdk-content
 description: Defines the flags used with the nScheme member of the URL_COMPONENTS structure.
 old-location: wininet\internet_scheme_enumerated_type.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 640d0b62-a44f-4115-be27-9976da4bc73a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INTERNET_SCHEME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: INTERNET_SCHEME, *LPINTERNET_SCHEME
+req.redist: 
 ---
 
 # INTERNET_SCHEME enumeration

@@ -4,17 +4,16 @@ title: FindExecutableW function
 author: windows-sdk-content
 description: Retrieves the name of and handle to the executable (.exe) file associated with a specific document file.
 old-location: shell\FindExecutable.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecutableA, FindExecutableW, _win32_FindExecutable, shell.FindExecutable, shellapi/FindExecutable, shellapi/FindExecutableA, shellapi/FindExecutableW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHSTOCKICONID
+req.lib: Shell32.lib
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FindExecutableW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FindExecutableW function

@@ -4,17 +4,16 @@ title: IVssEnumObject::Next
 author: windows-sdk-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenumobject_next.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 9bfaba94-802f-47f5-9843-acc05b32f1b2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssEnumObject interface [VSS],Next method, IVssEnumObject.Next, IVssEnumObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumObject interface, _win32_ivssenumobject_next, base.ivssenumobject_next, vss/IVssEnumObject::Next
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssEnumObject.Next
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumObject::Next

@@ -4,17 +4,16 @@ title: CoUnmarshalInterface function
 author: windows-sdk-content
 description: Initializes a newly created proxy using data written into the stream by a previous call to the CoMarshalInterface function, and returns an interface pointer to that proxy.
 old-location: com\counmarshalinterface.htm
-old-project: com
+tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoUnmarshalInterface, CoUnmarshalInterface function [COM], _com_CoUnmarshalInterface, com.counmarshalinterface, combaseapi/CoUnmarshalInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoUnmarshalInterface
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoUnmarshalInterface function

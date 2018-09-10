@@ -4,7 +4,7 @@ title: DXGI_DEBUG_RLO_FLAGS
 author: windows-sdk-content
 description: Flags used with ReportLiveObjects to specify the amount of info to report about an object's lifetime.
 old-location: direct3ddxgi\dxgi_debug_rlo_flags.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 8A4B4139-42FC-4983-9699-ABCDBF5783E7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgidebug.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_DEBUG_RLO_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXGI_DEBUG_RLO_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXGI_DEBUG_RLO_FLAGS
+req.redist: 
 ---
 
 # DXGI_DEBUG_RLO_FLAGS enumeration

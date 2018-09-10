@@ -4,17 +4,16 @@ title: CInstance::SetNull
 author: windows-sdk-content
 description: The SetNull method sets a property to NULL.
 old-location: wmi\cinstance_setnull.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?SetNull@CInstance@@QAE_NPBG@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetNull

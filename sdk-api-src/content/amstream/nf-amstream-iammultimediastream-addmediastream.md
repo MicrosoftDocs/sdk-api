@@ -4,17 +4,16 @@ title: IAMMultiMediaStream::AddMediaStream
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.
 old-location: dshow\iammultimediastream_addmediastream.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMSI_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAMMultiMediaStream.AddMediaStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMultiMediaStream::AddMediaStream
@@ -71,7 +70,7 @@ Pointer to the <b>IUnknown</b> interface of an object that is used to create the
 
 ### -param PurposeId
 
-
+TBD
 
 
 ### -param dwFlags [in]

@@ -4,17 +4,16 @@ title: TcModifyFlow function
 author: windows-sdk-content
 description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.
 old-location: qos\tcmodifyflow.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TPMVSCMGR_ERROR
+req.lib: Traffic.lib
+req.dll: Traffic.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TcModifyFlow
 product: Windows
 targetos: Windows
-req.lib: Traffic.lib
-req.dll: Traffic.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TcModifyFlow function

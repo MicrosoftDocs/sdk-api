@@ -4,17 +4,16 @@ title: WdsBpCloseHandle function
 author: windows-sdk-content
 description: Closes the specified handle.
 old-location: wds\wdsbpclosehandle.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
+req.lib: Wdsbp.lib
+req.dll: Wdsbp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WdsBpCloseHandle
 product: Windows
 targetos: Windows
-req.lib: Wdsbp.lib
-req.dll: Wdsbp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WdsBpCloseHandle function

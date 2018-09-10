@@ -4,17 +4,16 @@ title: CoGetInterceptor function
 author: windows-sdk-content
 description: Instantiates the appropriate interceptor for the specified interface to be intercepted and returns the newly created interceptor.
 old-location: com\cogetinterceptor.htm
-old-project: com
+tech.root: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAME_COPY
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CoGetInterceptor
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetInterceptor function

@@ -4,17 +4,16 @@ title: IWICBitmapDecoder::GetColorContexts
 author: windows-sdk-content
 description: Retrieves the IWICColorContext objects of the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getcolorcontexts.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 55fdf9c0-5fa4-46e2-b4d2-42b8d4c90887
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetColorContexts method, IWICBitmapDecoder.GetColorContexts, IWICBitmapDecoder::GetColorContexts, _wic_codec_iwicbitmapdecoder_getcolorcontexts, wic._wic_codec_iwicbitmapdecoder_getcolorcontexts, wincodec/IWICBitmapDecoder::GetColorContexts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICTiffCompressionOption
+req.lib: Windowscodecs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWICBitmapDecoder.GetColorContexts
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICBitmapDecoder::GetColorContexts

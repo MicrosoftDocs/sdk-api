@@ -4,17 +4,16 @@ title: FreePropVariantArray function
 author: windows-sdk-content
 description: Frees the memory and references used by an array of PROPVARIANT structures.
 old-location: properties\FreePropVariantArray.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propidl.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROFILEINFOW, *LPPROFILEINFOW
+req.lib: Ole32.lib
+req.dll: Ole32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - FreePropVariantArray
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # FreePropVariantArray function

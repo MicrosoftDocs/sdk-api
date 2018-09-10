@@ -4,17 +4,16 @@ title: IEnroll::AddCertTypeToRequestWStr
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
 old-location: security\ienroll4_addcerttypetorequestwstr.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll.AddCertTypeToRequestWStr
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::AddCertTypeToRequestWStr

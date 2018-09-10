@@ -4,17 +4,16 @@ title: IFiringControl::FireSubscription
 author: windows-sdk-content
 description: Fires an event to a single subscriber.
 old-location: cos\ifiringcontrol_firesubscription.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 64aaa99c-70e0-4a96-ab16-2f5b5666d1c4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription method [COM+],IFiringControl interface, IFiringControl interface [COM+],FireSubscription method, IFiringControl.FireSubscription, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFiringControl.FireSubscription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IFiringControl::FireSubscription

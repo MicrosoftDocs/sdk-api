@@ -4,17 +4,16 @@ title: WofWimAddEntry function
 author: windows-sdk-content
 description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
 old-location: fs\wofwimaddentry.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
+req.lib: Wofutil.lib
+req.dll: Wofutil.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WofWimAddEntry
 product: Windows
 targetos: Windows
-req.lib: Wofutil.lib
-req.dll: Wofutil.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WofWimAddEntry function

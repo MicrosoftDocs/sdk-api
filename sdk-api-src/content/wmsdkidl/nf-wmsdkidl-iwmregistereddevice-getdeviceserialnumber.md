@@ -4,17 +4,16 @@ title: IWMRegisteredDevice::GetDeviceSerialNumber
 author: windows-sdk-content
 description: The GetDeviceID method retrieves the 128-bit value that identifies the device.
 old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only],Windows Media Format 9.5 SDK
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: WMStubDRM.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMRegisteredDevice.GetDeviceSerialNumber
 product: Windows
 targetos: Windows
-req.lib: WMStubDRM.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMRegisteredDevice::GetDeviceSerialNumber

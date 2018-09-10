@@ -4,17 +4,16 @@ title: ISyncChange::GetLearnedKnowledge
 author: windows-sdk-content
 description: Gets the knowledge that a replica will learn when this change is applied to its item store.
 old-location: winsync\isyncchange_getlearnedknowledge.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncChange.GetLearnedKnowledge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncChange::GetLearnedKnowledge
@@ -62,7 +60,7 @@ Gets the knowledge that a replica will learn when this change is applied to its 
 
 ### -param ppLearnedKnowledge
 
-
+TBD
 
 
 

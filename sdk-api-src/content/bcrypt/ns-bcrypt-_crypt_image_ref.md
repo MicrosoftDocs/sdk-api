@@ -4,7 +4,7 @@ title: "_CRYPT_IMAGE_REF"
 author: windows-sdk-content
 description: Contains information about a CNG provider module.
 old-location: security\crypt_image_ref.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_IMAGE_REF, *PCRYPT_IMAGE_REF
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CRYPT_IMAGE_REF
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CRYPT_IMAGE_REF, *PCRYPT_IMAGE_REF
+req.redist: 
 ---
 
 # _CRYPT_IMAGE_REF structure

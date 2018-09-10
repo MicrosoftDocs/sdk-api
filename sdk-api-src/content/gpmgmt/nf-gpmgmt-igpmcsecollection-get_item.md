@@ -4,17 +4,16 @@ title: IGPMCSECollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a client-side extension from the collection.
 old-location: gpmc\igpmcsecollection_get_item.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 537ec04c-cea4-4878-a03d-131c1bac4155
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPMCSECollection object [GPMC],Item property, IGPMCSECollection interface [GPMC],Item property, IGPMCSECollection.Item, IGPMCSECollection.get_Item, IGPMCSECollection::Item, IGPMCSECollection::get_Item, Item property [GPMC], Item property [GPMC],GPMCSECollection object, Item property [GPMC],IGPMCSECollection interface, _win32_igpmcsecollection_get_item, get_Item, gpmc.igpmcsecollection_get_item, gpmgmt/IGPMCSECollection::Item, gpmgmt/IGPMCSECollection::get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GPMCSECollection.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMCSECollection::get_Item

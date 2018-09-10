@@ -4,17 +4,16 @@ title: CM_Disconnect_Machine function
 author: windows-sdk-content
 description: The CM_Disconnect_Machine function removes a connection to a remote machine.
 old-location: devinst\cm_disconnect_machine.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 8318eb7e-f0fa-4b2a-b82d-e8f830665c9d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Disconnect_Machine, CM_Disconnect_Machine function [Device and Driver Installation], cfgmgr32/CM_Disconnect_Machine, cfgmgrfn_e3549f15-0066-4ace-9b50-45ecf20cce87.xml, devinst.cm_disconnect_machine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CM_Disconnect_Machine
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Disconnect_Machine function

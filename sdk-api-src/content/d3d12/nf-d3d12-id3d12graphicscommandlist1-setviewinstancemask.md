@@ -4,17 +4,16 @@ title: ID3D12GraphicsCommandList1::SetViewInstanceMask
 author: windows-sdk-content
 description: Set a mask that controls which view instances are enabled for subsequent draws.
 old-location: direct3d12\id3d12graphicscommandlist1_setviewinstancemask_uint.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 0AE16797-6F9E-4387-A810-EF59DDC771E6
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetViewInstanceMask method, ID3D12GraphicsCommandList1.SetViewInstanceMask, ID3D12GraphicsCommandList1::SetViewInstanceMask, SetViewInstanceMask, SetViewInstanceMask method, SetViewInstanceMask method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetViewInstanceMask, direct3d12.id3d12graphicscommandlist1_setviewinstancemask_uint
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12GraphicsCommandList1.SetViewInstanceMask
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12GraphicsCommandList1::SetViewInstanceMask

@@ -4,7 +4,7 @@ title: CThreadBase
 author: windows-sdk-content
 description: The CThreadBase class is a base class that supplies the internal thread safety mechanisms for the WMI Provider Framework. This class is called internally.
 old-location: wmi\cthreadbase.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: class
 req.header: thrdbase.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ??1CThreadBase@@UAE@XZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CThreadBase class

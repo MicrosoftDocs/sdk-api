@@ -4,17 +4,16 @@ title: IAppxBlockMapReader::GetFile
 author: windows-sdk-content
 description: Retrieves data corresponding to a file in the block map with the specified file name.
 old-location: appxpkg\iappxblockmapreader_getfile.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 3F38BC3A-9CFD-4FB3-A744-612E25DF0F0F
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetFile, GetFile method [App packaging and management], GetFile method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFile method, IAppxBlockMapReader.GetFile, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxBlockMapReader.GetFile
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxBlockMapReader::GetFile
@@ -61,7 +60,7 @@ Retrieves data corresponding to a file in the block map with the specified file 
 
 ### -param filename
 
-
+TBD
 
 
 ### -param file [out, retval]

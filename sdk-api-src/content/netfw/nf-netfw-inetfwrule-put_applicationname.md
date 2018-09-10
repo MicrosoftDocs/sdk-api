@@ -4,17 +4,16 @@ title: INetFwRule::put_ApplicationName
 author: windows-sdk-content
 description: Specifies the friendly name of the application to which this rule applies.
 old-location: ics\inetfwrule_applicationname.htm
-old-project: ics
+tech.root: ics
 ms.assetid: 2ab808fc-39ec-4d3a-9343-4d06f3faa563
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: ApplicationName property [ICS/ICF], ApplicationName property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],ApplicationName property, INetFwRule.ApplicationName, INetFwRule.put_ApplicationName, INetFwRule::ApplicationName, INetFwRule::get_ApplicationName, INetFwRule::put_ApplicationName, ics.inetfwrule_applicationname, netfw/INetFwRule::ApplicationName, netfw/INetFwRule::get_ApplicationName, netfw/INetFwRule::put_ApplicationName, put_ApplicationName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NETISO_ERROR_TYPE
+req.lib: 
+req.dll: FirewallAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - INetFwRule.put_ApplicationName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FirewallAPI.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # INetFwRule::put_ApplicationName

@@ -4,7 +4,7 @@ title: IComTrackingInfoProperties
 author: windows-sdk-content
 description: Retrieves the total number of properties associated with a tracking information object and their names.
 old-location: cos\icomtrackinginfoproperties.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 1964b04e-7146-4d08-a08f-a85393d07592
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IComTrackingInfoProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IComTrackingInfoProperties interface

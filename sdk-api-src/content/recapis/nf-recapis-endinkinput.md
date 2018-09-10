@@ -4,17 +4,16 @@ title: EndInkInput function
 author: windows-sdk-content
 description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.
 old-location: tablet\endinkinput.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EndInkInput
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # EndInkInput function

@@ -4,17 +4,16 @@ title: SetRestrictedErrorInfo function
 author: windows-sdk-content
 description: Sets the restricted error information object for the current thread.
 old-location: winrt\setrestrictederrorinfo.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 3F4A62EF-ECD3-45FA-836D-77C510C43C5E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetRestrictedErrorInfo, SetRestrictedErrorInfo function [Windows Runtime], roerrorapi/SetRestrictedErrorInfo, winrt.setrestrictederrorinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: RuntimeObject.lib
+req.dll: ComBase.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetRestrictedErrorInfo
 product: Windows
 targetos: Windows
-req.lib: RuntimeObject.lib
-req.dll: ComBase.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetRestrictedErrorInfo function

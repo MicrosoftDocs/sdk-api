@@ -4,17 +4,16 @@ title: IVideoProcAmp::getRange_Saturation
 author: windows-sdk-content
 description: The getRange_Saturation method returns the range of saturation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_saturation.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 7c3d99a4-fc23-4d5e-907e-72272599a684
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Saturation method, IVideoProcAmp.getRange_Saturation, IVideoProcAmp::getRange_Saturation, IVideoProcAmpgetRange_Saturation, dshow.ivideoprocamp_getrange_saturation, getRange_Saturation, getRange_Saturation method [DirectShow], getRange_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Saturation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVideoProcAmp.getRange_Saturation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVideoProcAmp::getRange_Saturation

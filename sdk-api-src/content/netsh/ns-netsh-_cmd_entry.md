@@ -4,7 +4,7 @@ title: "_CMD_ENTRY"
 author: windows-sdk-content
 description: Defines a helper command.
 old-location: netshell\cmd_entry.htm
-old-project: netshell
+tech.root: netshell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: netsh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMD_ENTRY, *PCMD_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMD_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: CMD_ENTRY, *PCMD_ENTRY
+req.redist: 
 ---
 
 # _CMD_ENTRY structure

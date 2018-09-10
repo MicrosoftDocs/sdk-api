@@ -4,17 +4,16 @@ title: LsaLogonUser function
 author: windows-sdk-content
 description: Authenticates a security principal's logon data by using stored credentials information.
 old-location: security\lsalogonuser.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_INTERACTIVE_LOGON, KERB_S4U_LOGON, KERB_SMARTCARD_LOGON, KERB_SMARTCARD_UNLOCK_LOGON, KERB_TICKET_LOGON, KERB_TICKET_PROFILE, KERB_TICKET_UNLOCK_LOGON, LsaLogonUser, LsaLogonUser function [Security], MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_SUBAUTH_LOGON, STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsalogonuser, ntsecapi/LsaLogonUser, security.lsalogonuser
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
+req.lib: Secur32.lib
+req.dll: Secur32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LsaLogonUser
 product: Windows
 targetos: Windows
-req.lib: Secur32.lib
-req.dll: Secur32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # LsaLogonUser function

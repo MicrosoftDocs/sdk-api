@@ -4,17 +4,16 @@ title: WS_XML_STRING_DICTIONARY_VALUE macro
 author: windows-sdk-content
 description: Provides an initializer for a WS_XML_STRING structure when there is an associated dictionary ID.
 old-location: wsw\ws_xml_string_dictionary_value.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1e2045c0-11c5-4369-9b82-dc759eb1412e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WS_XML_STRING_DICTIONARY_VALUE, WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows], webservices/WS_XML_STRING_DICTIONARY_VALUE, wsw.ws_xml_string_dictionary_value
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_XML_STRING_DICTIONARY_VALUE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WS_XML_STRING_DICTIONARY_VALUE macro

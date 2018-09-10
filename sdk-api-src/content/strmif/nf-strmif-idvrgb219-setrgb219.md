@@ -4,17 +4,16 @@ title: IDVRGB219::SetRGB219
 author: windows-sdk-content
 description: The SetRGB219 method controls the dynamic range for DV encoding and decoding.
 old-location: dshow\idvrgb219_setrgb219.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: d203158b-4c15-4fde-9bc2-6d0ba04af504
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB219, IDVRGB219::SetRGB219, IDVRGB219SetRGB219, SetRGB219, SetRGB219 method [DirectShow], SetRGB219 method [DirectShow],IDVRGB219 interface, dshow.idvrgb219_setrgb219, strmif/IDVRGB219::SetRGB219
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDVRGB219.SetRGB219
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDVRGB219::SetRGB219

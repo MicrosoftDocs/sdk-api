@@ -4,17 +4,16 @@ title: BCryptDuplicateKey function
 author: windows-sdk-content
 description: Creates a duplicate of a symmetric key.
 old-location: security\bcryptduplicatekey_func.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: Bcrypt.lib
+req.dll: Bcrypt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - BCryptDuplicateKey
 product: Windows
 targetos: Windows
-req.lib: Bcrypt.lib
-req.dll: Bcrypt.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # BCryptDuplicateKey function

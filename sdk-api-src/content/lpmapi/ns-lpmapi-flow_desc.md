@@ -4,7 +4,7 @@ title: flow_desc
 author: windows-sdk-content
 description: The FLOW_DESC structure contains flow descriptor information for RSVP.
 old-location: qos\flow_desc.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 11ecd7ac-13c4-4f55-9700-105153b4fead
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FLOW_DESC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOW_DESC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: FLOW_DESC
+req.redist: 
 ---
 
 # flow_desc structure

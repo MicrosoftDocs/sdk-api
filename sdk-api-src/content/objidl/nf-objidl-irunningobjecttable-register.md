@@ -4,17 +4,16 @@ title: IRunningObjectTable::Register
 author: windows-sdk-content
 description: Registers an object and its identifying moniker in the running object table (ROT).
 old-location: com\irunningobjecttable_register.htm
-old-project: com
+tech.root: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRunningObjectTable.Register
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningObjectTable::Register

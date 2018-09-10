@@ -4,17 +4,16 @@ title: GetDurationFormat function
 author: windows-sdk-content
 description: Formats a duration of time as a time string for a locale specified by identifier.
 old-location: intl\getdurationformat.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: bd3e1256-8f0c-488b-9b2f-ca93ffcbad84
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: GetDurationFormat, GetDurationFormat function [Internationalization for Windows Applications], _win32_GetDurationFormat, intl.getdurationformat, winnls/GetDurationFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetDurationFormat
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetDurationFormat function

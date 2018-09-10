@@ -4,17 +4,16 @@ title: CMSPCallMultiGraph::HandleGraphEvent
 author: windows-sdk-content
 description: The HandleGraphEvent method is called by the DispatchGraphEvent static method to let the call object instance handle the event.
 old-location: tapi3\cmspcallmultigraph_handlegraphevent.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 6c661341-6ae6-4a0a-88e5-b661a09ec9fe
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],HandleGraphEvent method, CMSPCallMultiGraph.HandleGraphEvent, CMSPCallMultiGraph::HandleGraphEvent, HandleGraphEvent, HandleGraphEvent method [TAPI 2.2], HandleGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_handlegraphevent, mspcall/CMSPCallMultiGraph::HandleGraphEvent, tapi3.cmspcallmultigraph_handlegraphevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSPCallMultiGraph.HandleGraphEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CMSPCallMultiGraph::HandleGraphEvent

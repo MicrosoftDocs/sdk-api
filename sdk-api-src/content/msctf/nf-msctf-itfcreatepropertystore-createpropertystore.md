@@ -4,17 +4,16 @@ title: ITfCreatePropertyStore::CreatePropertyStore
 author: windows-sdk-content
 description: ITfCreatePropertyStore::CreatePropertyStore method
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Framework], CreatePropertyStore method [Text Services Framework],ITfCreatePropertyStore interface, ITfCreatePropertyStore interface [Text Services Framework],CreatePropertyStore method, ITfCreatePropertyStore.CreatePropertyStore, ITfCreatePropertyStore::CreatePropertyStore, _tsf_itfcreatepropertystore_createpropertystore_ref, msctf/ITfCreatePropertyStore::CreatePropertyStore, tsf.itfcreatepropertystore_createpropertystore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Tiptsf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITfCreatePropertyStore.CreatePropertyStore
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Tiptsf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows 2000 Professional
 ---
 
 # ITfCreatePropertyStore::CreatePropertyStore

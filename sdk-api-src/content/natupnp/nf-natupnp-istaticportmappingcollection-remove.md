@@ -4,17 +4,16 @@ title: IStaticPortMappingCollection::Remove
 author: windows-sdk-content
 description: The Remove method removes the specified port mapping from the collection.
 old-location: ics\istaticportmappingcollection_remove.htm
-old-project: ics
+tech.root: ics
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],Remove method, IStaticPortMappingCollection.Remove, IStaticPortMappingCollection::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],IStaticPortMappingCollection interface, _ics_istaticportmappingcollection_remove, ics.istaticportmappingcollection_remove, natupnp/IStaticPortMappingCollection::Remove
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemHealthAgentState
+req.lib: 
+req.dll: Hnetcfg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IStaticPortMappingCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Hnetcfg.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IStaticPortMappingCollection::Remove

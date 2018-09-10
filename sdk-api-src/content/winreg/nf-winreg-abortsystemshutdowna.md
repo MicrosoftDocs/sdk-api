@@ -4,17 +4,16 @@ title: AbortSystemShutdownA function
 author: windows-sdk-content
 description: Stops a system shutdown that has been initiated.
 old-location: base\abortsystemshutdown.htm
-old-project: Shutdown
+tech.root: Shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - AbortSystemShutdownW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # AbortSystemShutdownA function

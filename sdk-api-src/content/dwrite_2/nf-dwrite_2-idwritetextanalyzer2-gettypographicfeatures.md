@@ -4,17 +4,16 @@ title: IDWriteTextAnalyzer2::GetTypographicFeatures
 author: windows-sdk-content
 description: Returns a complete list of OpenType features available for a script or font.
 old-location: directwrite\idwritetextanalyzer2_gettypographicfeatures.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 36CAC2F8-9065-4FD9-8EFD-529B97CE94D8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetTypographicFeatures, GetTypographicFeatures method [Direct Write], GetTypographicFeatures method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],GetTypographicFeatures method, IDWriteTextAnalyzer2.GetTypographicFeatures, IDWriteTextAnalyzer2::GetTypographicFeatures, directwrite.idwritetextanalyzer2_gettypographicfeatures, dwrite_2/IDWriteTextAnalyzer2::GetTypographicFeatures
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteTextAnalyzer2.GetTypographicFeatures
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteTextAnalyzer2::GetTypographicFeatures

@@ -4,7 +4,7 @@ title: DIALOG_DPI_CHANGE_BEHAVIORS
 author: windows-sdk-content
 description: In Per Monitor v2 contexts, dialogs will automatically respond to DPI changes by resizing themselves and re-computing the positions of their child windows (here referred to as re-layouting).
 old-location: hidpi\dialog_dpi_change_behaviors.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: 26248777-E95F-49BE-82D6-7237FAEE0627
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DIALOG_DPI_CHANGE_BEHAVIORS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
+req.redist: 
 ---
 
 # DIALOG_DPI_CHANGE_BEHAVIORS enumeration

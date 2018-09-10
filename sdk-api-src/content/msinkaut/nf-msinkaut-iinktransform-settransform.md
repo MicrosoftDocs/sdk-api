@@ -4,17 +4,16 @@ title: IInkTransform::SetTransform
 author: windows-sdk-content
 description: Modifies the InkTransform member data.
 old-location: tablet\inktransform_settransform.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 5b734703-4117-4668-b881-4ba4e1c65189
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 5b734703-4117-4668-b881-4ba4e1c65189, IInkTransform interface [Tablet PC],SetTransform method, IInkTransform.SetTransform, IInkTransform::SetTransform, SetTransform, SetTransform method [Tablet PC], SetTransform method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::SetTransform, tablet.inktransform_settransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.SetTransform
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::SetTransform

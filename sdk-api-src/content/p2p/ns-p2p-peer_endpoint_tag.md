@@ -4,7 +4,7 @@ title: peer_endpoint_tag
 author: windows-sdk-content
 description: The PEER_ENDPOINT structure contains the address and friendly name of a peer endpoint.
 old-location: p2p\peer_endpoint.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 9687b332-14ed-4023-b8c2-437d75fd0298
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_ENDPOINT, *PPEER_ENDPOINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_ENDPOINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_ENDPOINT, *PPEER_ENDPOINT
+req.redist: 
 ---
 
 # peer_endpoint_tag structure

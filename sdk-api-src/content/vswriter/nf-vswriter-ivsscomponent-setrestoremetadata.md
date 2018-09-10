@@ -4,17 +4,16 @@ title: IVssComponent::SetRestoreMetadata
 author: windows-sdk-content
 description: The SetRestoreMetadata method sets writer-specific metadata for the current component.
 old-location: base\ivsscomponent_setrestoremetadata.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 2b329fa8-21ad-4de9-9857-52e14d51d429
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreMetadata method, IVssComponent.SetRestoreMetadata, IVssComponent::SetRestoreMetadata, SetRestoreMetadata, SetRestoreMetadata method [VSS], SetRestoreMetadata method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoremetadata, base.ivsscomponent_setrestoremetadata, vswriter/IVssComponent::SetRestoreMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.SetRestoreMetadata
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::SetRestoreMetadata

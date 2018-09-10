@@ -4,17 +4,16 @@ title: DwmIsCompositionEnabled function
 author: windows-sdk-content
 description: Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the WM_DWMCOMPOSITIONCHANGED notification.
 old-location: dwm\dwmiscompositionenabled.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmiscompositionenabled.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmIsCompositionEnabled, DwmIsCompositionEnabled function [Desktop Window Manager], _udwm_dwmiscompositionenabled, _udwm_dwmiscompositionenabled_cpp, dwm.dwmiscompositionenabled, dwmapi/DwmIsCompositionEnabled, winui._udwm_dwmiscompositionenabled
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DwmIsCompositionEnabled
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmIsCompositionEnabled function

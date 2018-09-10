@@ -4,17 +4,16 @@ title: ClusterResourceTypeOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeopenenum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: fa05875a-26c7-401d-ae81-1d204bfd7df1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeOpenEnum, ClusterResourceTypeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourcetypeopenenum, clusapi/ClusterResourceTypeOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, mscs.clusterresourcetypeopenenum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - ClusterResourceTypeOpenEnum
 product: Windows
 targetos: Windows
-req.lib: ClusAPI.lib
-req.dll: ClusAPI.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ClusterResourceTypeOpenEnum function

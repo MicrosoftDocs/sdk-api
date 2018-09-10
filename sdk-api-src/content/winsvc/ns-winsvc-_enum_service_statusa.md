@@ -4,7 +4,7 @@ title: "_ENUM_SERVICE_STATUSA"
 author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
 old-location: base\enum_service_status_str.htm
-old-project: Services
+tech.root: Services
 ms.assetid: b088bd94-5d25-44a7-93c0-80ce6588b811
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_SERVICE_STATUSA, *LPENUM_SERVICE_STATUSA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ENUM_SERVICE_STATUSW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: ENUM_SERVICE_STATUSA, *LPENUM_SERVICE_STATUSA
+req.redist: 
 ---
 
 # _ENUM_SERVICE_STATUSA structure

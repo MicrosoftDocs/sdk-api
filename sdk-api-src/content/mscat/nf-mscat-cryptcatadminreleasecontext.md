@@ -4,17 +4,16 @@ title: CryptCATAdminReleaseContext function
 author: windows-sdk-content
 description: Releases the handle previously assigned by the CryptCATAdminAcquireContext function.
 old-location: security\cryptcatadminreleasecontext.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSP_PINMODE, *PKSP_PINMODE
+req.lib: Wintrust.lib
+req.dll: Wintrust.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptCATAdminReleaseContext
 product: Windows
 targetos: Windows
-req.lib: Wintrust.lib
-req.dll: Wintrust.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CryptCATAdminReleaseContext function

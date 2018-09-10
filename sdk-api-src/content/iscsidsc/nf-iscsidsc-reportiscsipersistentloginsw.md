@@ -4,17 +4,16 @@ title: ReportIScsiPersistentLoginsW function
 author: windows-sdk-content
 description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets.
 old-location: iscsidisc\reportiscsipersistentlogins.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ReportIScsiPersistentLoginsW, ReportIscsiPersistentLogins, ReportIscsiPersistentLogins function [iSCSI Discovery Library API], ReportIscsiPersistentLoginsA, ReportIscsiPersistentLoginsW, iscsidisc.reportiscsipersistentlogins, iscsidsc/ReportIscsiPersistentLogins, iscsidsc/ReportIscsiPersistentLoginsA, iscsidsc/ReportIscsiPersistentLoginsW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
+req.lib: Iscsidsc.lib
+req.dll: Iscsidsc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ReportIscsiPersistentLoginsW
 product: Windows
 targetos: Windows
-req.lib: Iscsidsc.lib
-req.dll: Iscsidsc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ReportIScsiPersistentLoginsW function

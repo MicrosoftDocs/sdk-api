@@ -4,17 +4,16 @@ title: Button_GetCheck macro
 author: windows-sdk-content
 description: Gets the check state of a radio button or check box. You can use this macro or send the BM_GETCHECK message explicitly.
 old-location: controls\Button_GetCheck.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getcheck.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - Button_GetCheck
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Button_GetCheck macro

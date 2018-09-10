@@ -4,17 +4,16 @@ title: SafeArrayCreateEx function
 author: windows-sdk-content
 description: Creates and returns a safe array descriptor from the specified VARTYPE, number of dimensions and bounds.
 old-location: automat\safearraycreateex.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 63117428-6676-4fb5-a0ae-7e3b22546d77
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SafeArrayCreateEx, SafeArrayCreateEx function [Automation], _oa96_SafeArrayCreateEx, automat.safearraycreateex, oleauto/SafeArrayCreateEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SafeArrayCreateEx
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SafeArrayCreateEx function

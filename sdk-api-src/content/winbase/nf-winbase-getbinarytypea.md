@@ -4,17 +4,16 @@ title: GetBinaryTypeA function
 author: windows-sdk-content
 description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
 old-location: fs\getbinarytype.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetBinaryType, GetBinaryType function [Files], GetBinaryTypeA, GetBinaryTypeW, SCS_32BIT_BINARY, SCS_64BIT_BINARY, SCS_DOS_BINARY, SCS_OS216_BINARY, SCS_PIF_BINARY, SCS_POSIX_BINARY, SCS_WOW_BINARY, _win32_getbinarytype, base.getbinarytype, fs.getbinarytype, winbase/GetBinaryType, winbase/GetBinaryTypeA, winbase/GetBinaryTypeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - GetBinaryTypeW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetBinaryTypeA function

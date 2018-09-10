@@ -4,17 +4,16 @@ title: IMSVidRect::put_Top
 author: windows-sdk-content
 description: The put_Top method specifies the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_top.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: ee3dbbd2-a8b4-496b-84e6-b0d7615f6a1e
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Top method, IMSVidRect.put_Top, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Top
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidRect.put_Top
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidRect::put_Top

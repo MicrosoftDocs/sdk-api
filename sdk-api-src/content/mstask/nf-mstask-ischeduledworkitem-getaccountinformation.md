@@ -4,17 +4,16 @@ title: IScheduledWorkItem::GetAccountInformation
 author: windows-sdk-content
 description: Retrieves the account name for the work item.
 old-location: taskschd\ischeduledworkitem_getaccountinformation.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: d5f279ac-bf03-4af5-9bad-58eadaba0ca1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAccountInformation, GetAccountInformation method [Task Scheduler], GetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetAccountInformation method, IScheduledWorkItem.GetAccountInformation, IScheduledWorkItem::GetAccountInformation, _msb_ischeduledworkitem_getaccountinformation, mstask/IScheduledWorkItem::GetAccountInformation, taskschd.ischeduledworkitem_getaccountinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
+req.lib: Mstask.lib
+req.dll: Mstask.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IScheduledWorkItem.GetAccountInformation
 product: Windows
 targetos: Windows
-req.lib: Mstask.lib
-req.dll: Mstask.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IScheduledWorkItem::GetAccountInformation

@@ -4,17 +4,16 @@ title: IAMCrossbar::get_IsRoutedTo
 author: windows-sdk-content
 description: The get_IsRoutedTo method retrieves the input pin that is currently routed to the specified output pin.
 old-location: dshow\iamcrossbar_get_isroutedto.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: fbd59205-ef0a-4e1c-b9d3-63a083c0a7f6
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_IsRoutedTo method, IAMCrossbar.get_IsRoutedTo, IAMCrossbar::get_IsRoutedTo, IAMCrossbarget_IsRoutedTo, dshow.iamcrossbar_get_isroutedto, get_IsRoutedTo, get_IsRoutedTo method [DirectShow], get_IsRoutedTo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_IsRoutedTo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMCrossbar.get_IsRoutedTo
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMCrossbar::get_IsRoutedTo

@@ -4,17 +4,16 @@ title: ISynchronizeContainer::WaitMultiple
 author: windows-sdk-content
 description: Waits for any synchronization object in the container to be signaled or for a specified timeout period to elapse, whichever comes first.
 old-location: com\isynchronizecontainer_waitmultiple.htm
-old-project: com
+tech.root: com
 ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISynchronizeContainer.WaitMultiple
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISynchronizeContainer::WaitMultiple

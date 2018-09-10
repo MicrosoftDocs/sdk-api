@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::CopyComponents
 author: windows-sdk-content
 description: Copies the specified components from one partition to another.
 old-location: cos\icomadmincatalog2_copycomponents.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 931f4929-b99b-4c4f-8980-eaceacc0e7fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CopyComponents, CopyComponents method [COM+], CopyComponents method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyComponents method, ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.CopyComponents
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::CopyComponents

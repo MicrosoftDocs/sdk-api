@@ -4,17 +4,16 @@ title: IFsrmPropertyBag::GetFileStreamInterface
 author: windows-sdk-content
 description: Retrieves a file stream interface that you can use to access the contents of the file.
 old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileStreamInterface method, IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsrmPropertyBag.GetFileStreamInterface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmPropertyBag::GetFileStreamInterface
@@ -75,7 +73,7 @@ The type of streaming interface to use. For possible interface types, see the
 
 ### -param pStreamInterface
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWMMutualExclusion2::GetName
 author: windows-sdk-content
 description: The GetName method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the IWMMutualExclusion2::SetName method.
 old-location: wmformat\iwmmutualexclusion2_getname.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetName method, IWMMutualExclusion2.GetName, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMMutualExclusion2.GetName
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMMutualExclusion2::GetName

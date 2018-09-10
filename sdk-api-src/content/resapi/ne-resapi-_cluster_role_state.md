@@ -4,7 +4,7 @@ title: "_CLUSTER_ROLE_STATE"
 author: windows-sdk-content
 description: Defines the potential return values for the ResUtilGetClusterRoleState function.
 old-location: mscs\cluster_role_state.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 21424e31-4eba-4ff9-95c1-0908827936df
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_ROLE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLUSTER_ROLE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLUSTER_ROLE_STATE
+req.redist: 
 ---
 
 # _CLUSTER_ROLE_STATE enumeration

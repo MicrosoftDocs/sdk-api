@@ -4,7 +4,7 @@ title: IX509SCEPEnrollment
 author: windows-sdk-content
 description: X.509 Simple Computer Enrollment Protocol Interface
 old-location: security\ix509scepenrollment.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509SCEPEnrollment
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment interface

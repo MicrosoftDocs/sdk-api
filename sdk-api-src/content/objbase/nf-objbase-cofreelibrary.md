@@ -4,17 +4,16 @@ title: CoFreeLibrary function
 author: windows-sdk-content
 description: Frees a library that, when loaded, was specified to be freed explicitly.
 old-location: com\cofreelibrary.htm
-old-project: com
+tech.root: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoFreeLibrary, CoFreeLibrary function [COM], _com_CoFreeLibrary, com.cofreelibrary, objbase/CoFreeLibrary
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CoFreeLibrary
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CoFreeLibrary function

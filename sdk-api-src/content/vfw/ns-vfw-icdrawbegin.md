@@ -4,7 +4,7 @@ title: ICDRAWBEGIN
 author: windows-sdk-content
 description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
 old-location: multimedia\icdrawbegin_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICDRAWBEGIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDRAWBEGIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ICDRAWBEGIN
+req.redist: 
 ---
 
 # ICDRAWBEGIN structure

@@ -4,17 +4,16 @@ title: IUIApplication::OnViewChanged
 author: windows-sdk-content
 description: Called when the state of a View changes.
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUIApplication.OnViewChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

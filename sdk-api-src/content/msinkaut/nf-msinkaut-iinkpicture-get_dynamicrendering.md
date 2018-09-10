@@ -4,17 +4,16 @@ title: IInkPicture::get_DynamicRendering
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
 old-location: tablet\inkpicture_dynamicrendering.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: e1200e66-d2d7-4c82-b243-53618a3699ae
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DynamicRendering property, IInkPicture.DynamicRendering, IInkPicture.get_DynamicRendering, IInkPicture::DynamicRendering, IInkPicture::get_DynamicRendering, IInkPicture::put_DynamicRendering, InkPicture.get_DynamicRendering, InkPicture.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkPicture::DynamicRendering, msinkaut/IInkPicture::get_DynamicRendering, msinkaut/IInkPicture::put_DynamicRendering, put_DynamicRendering, tablet.inkpicture_dynamicrendering
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkPicture.put_DynamicRendering
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkPicture::get_DynamicRendering

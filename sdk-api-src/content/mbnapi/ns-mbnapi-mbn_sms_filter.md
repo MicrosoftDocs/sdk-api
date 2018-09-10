@@ -4,7 +4,7 @@ title: MBN_SMS_FILTER
 author: windows-sdk-content
 description: The MBN_SMS_FILTER structure contains the values that describe a set of SMS messages.
 old-location: mbn\mbn_sms_filter.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: f8dffd7b-3c12-43da-b61c-3c9aa8f1136f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_FILTER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_FILTER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_FILTER
+req.redist: 
 ---
 
 # MBN_SMS_FILTER structure

@@ -4,17 +4,16 @@ title: PerfIncrementULongCounterValue function
 author: windows-sdk-content
 description: Increments the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfincrementulongcountervalue.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: 002162a0-d782-4648-949e-178985fd1d44
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: PerfIncrementULongCounterValue, PerfIncrementULongCounterValue function [Perf], perf.perfincrementulongcountervalue, perflib/PerfIncrementULongCounterValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PerfRegInfoType
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PerfIncrementULongCounterValue
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PerfIncrementULongCounterValue function

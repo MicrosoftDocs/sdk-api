@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_devicetopology_0000_0000_0010"
 author: windows-sdk-content
 description: The KSJACK_SINK_CONNECTIONTYPE enumeration defines constants that specify the type of connection. These values are used in the KSJACK_SINK_INFORMATION structure that stores information about an audio jack sink.
 old-location: coreaudio\ksjack_sink_connectiontype.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: a1a9b0cf-b1bf-49df-a976-62f44fcf70ae
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Deviceaccess.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KSJACK_SINK_CONNECTIONTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - KSJACK_SINK_CONNECTIONTYPE
 product: Windows
 targetos: Windows
-req.lib: Deviceaccess.lib
-req.dll: 
-req.irql: 
+req.typenames: KSJACK_SINK_CONNECTIONTYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_devicetopology_0000_0000_0010 enumeration

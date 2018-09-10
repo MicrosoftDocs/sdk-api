@@ -4,17 +4,16 @@ title: IMFDeviceTransform::GetStreamIDs
 author: windows-sdk-content
 description: The GetStreamIDs method gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getstreamids.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 378A8E3F-8B1E-4C0B-9C30-FE78E1939422
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStreamIDs method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamIDs method, IMFDeviceTransform.GetStreamIDs, IMFDeviceTransform::GetStreamIDs, mftransform/IMFDeviceTransform::GetStreamIDs, stream.imfdevicetransform_getstreamids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.GetStreamIDs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::GetStreamIDs
@@ -62,22 +60,22 @@ The  <b>GetStreamIDs</b> method gets the stream identifiers for the input and ou
 
 ### -param dwInputIDArraySize
 
-
+TBD
 
 
 ### -param pdwInputStreamIds
 
-
+TBD
 
 
 ### -param dwOutputIDArraySize
 
-
+TBD
 
 
 ### -param pdwOutputStreamIds
 
-
+TBD
 
 
 

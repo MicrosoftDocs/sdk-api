@@ -4,7 +4,7 @@ title: "_USER_INFO_1008"
 author: windows-sdk-content
 description: The USER_INFO_1008 structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1008_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: 142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USER_INFO_1008
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008
+req.redist: 
 ---
 
 # _USER_INFO_1008 structure

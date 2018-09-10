@@ -4,17 +4,16 @@ title: ID3D12CommandQueue::ExecuteCommandLists
 author: windows-sdk-content
 description: Submits an array of command lists for execution.
 old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ExecuteCommandLists, ExecuteCommandLists method, ExecuteCommandLists method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,ExecuteCommandLists method, ID3D12CommandQueue.ExecuteCommandLists, ID3D12CommandQueue::ExecuteCommandLists, d3d12/ID3D12CommandQueue::ExecuteCommandLists, direct3d12.id3d12commandqueue_executecommandlists
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12CommandQueue.ExecuteCommandLists
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12CommandQueue::ExecuteCommandLists

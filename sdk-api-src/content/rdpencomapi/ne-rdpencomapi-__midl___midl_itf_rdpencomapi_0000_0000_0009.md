@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0009"
 author: windows-sdk-content
 description: Defines values for the type of mouse buttons.
 old-location: rdp\rdpsrapi_mouse_button_type.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: BB024C8D-50F5-4584-8644-CEA33B1BC05A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPSRAPI_MOUSE_BUTTON_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RDPSRAPI_MOUSE_BUTTON_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsTscAx.dll
-req.irql: 
-req.product: ADAM
+req.typenames: RDPSRAPI_MOUSE_BUTTON_TYPE
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0009 enumeration

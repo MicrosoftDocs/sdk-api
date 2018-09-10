@@ -4,17 +4,16 @@ title: IPropertyPage::SetObjects
 author: windows-sdk-content
 description: Provides the property page with an array of pointers to objects associated with this property page.
 old-location: com\ipropertypage_setobjects.htm
-old-project: com
+tech.root: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.SetObjects
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::SetObjects

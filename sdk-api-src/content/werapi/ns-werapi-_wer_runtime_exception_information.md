@@ -4,7 +4,7 @@ title: "_WER_RUNTIME_EXCEPTION_INFORMATION"
 author: windows-sdk-content
 description: Contains the exception information that you use to determine whether you want to claim the crash.
 old-location: wer\wer_runtime_exception_information.htm
-old-project: wer
+tech.root: wer
 ms.assetid: fcf956ac-6015-439c-aec6-8f6a826ff269
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WER_RUNTIME_EXCEPTION_INFORMATION, *PWER_RUNTIME_EXCEPTION_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WER_RUNTIME_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WER_RUNTIME_EXCEPTION_INFORMATION, *PWER_RUNTIME_EXCEPTION_INFORMATION
+req.redist: 
 ---
 
 # _WER_RUNTIME_EXCEPTION_INFORMATION structure

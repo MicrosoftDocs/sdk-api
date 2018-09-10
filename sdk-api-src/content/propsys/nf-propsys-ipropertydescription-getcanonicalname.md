@@ -4,17 +4,16 @@ title: IPropertyDescription::GetCanonicalName
 author: windows-sdk-content
 description: Gets the case-sensitive name by which a property is known to the system, regardless of its localized name.
 old-location: properties\IPropertyDescription_GetCanonicalName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 861c3b48-77cf-4f72-b85f-a6f921571dd7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Properties], GetCanonicalName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetCanonicalName method, IPropertyDescription.GetCanonicalName, IPropertyDescription::GetCanonicalName, properties.IPropertyDescription_GetCanonicalName, propsys/IPropertyDescription::GetCanonicalName, shell.IPropertyDescription_GetCanonicalName, shell_IPropertyDescription_GetCanonicalName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.GetCanonicalName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::GetCanonicalName

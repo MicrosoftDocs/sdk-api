@@ -4,17 +4,16 @@ title: IEnumCERTVIEWCOLUMN::GetValue
 author: windows-sdk-content
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ENUM_CATYPES
+req.lib: Certidl.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IEnumCERTVIEWCOLUMN.GetValue
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumCERTVIEWCOLUMN::GetValue

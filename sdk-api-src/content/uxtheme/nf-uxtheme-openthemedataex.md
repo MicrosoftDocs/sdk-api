@@ -4,17 +4,16 @@ title: OpenThemeDataEx function
 author: windows-sdk-content
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BP_BUFFERFORMAT
+req.lib: UxTheme.lib
+req.dll: UxTheme.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - OpenThemeDataEx
 product: Windows
 targetos: Windows
-req.lib: UxTheme.lib
-req.dll: UxTheme.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # OpenThemeDataEx function

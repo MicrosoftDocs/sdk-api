@@ -4,17 +4,16 @@ title: IFunctionInstanceCollection::Item
 author: windows-sdk-content
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm
-old-project: fundisc
+tech.root: fundisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanceCollection.Item, IFunctionInstanceCollection::Item, Item, Item method, Item method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SystemVisibilityFlags
+req.lib: 
+req.dll: FunDisc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFunctionInstanceCollection.Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FunDisc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFunctionInstanceCollection::Item
@@ -69,7 +67,7 @@ The zero-based index of the function instance to be retrieved.
 
 ### -param ppIFunctionInstance
 
-
+TBD
 
 
 

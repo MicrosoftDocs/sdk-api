@@ -4,17 +4,16 @@ title: MFTEnum2 function
 author: windows-sdk-content
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
 old-location: mf\mftenum2.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFTEnum2
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFTEnum2 function

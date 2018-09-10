@@ -4,7 +4,7 @@ title: "_DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
 author: windows-sdk-content
 description: Contains an array of information elements for DHCPv4 clients.
 old-location: dhcp\dhcp_client_filter_status_info_array.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: 3145befc-9274-4719-9cd7-1f6426a86fba
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, *LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, *LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+req.redist: 
 ---
 
 # _DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure

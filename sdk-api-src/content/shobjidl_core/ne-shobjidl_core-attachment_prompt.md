@@ -4,7 +4,7 @@ title: ATTACHMENT_PROMPT
 author: windows-sdk-content
 description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the type of prompt UI to display.
 old-location: shell\ATTACHMENT_PROMPT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a19bdff0-3b02-44f4-906a-2e1b85685c52
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ATTACHMENT_PROMPT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ATTACHMENT_PROMPT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: ATTACHMENT_PROMPT
+req.redist: 
 ---
 
 # ATTACHMENT_PROMPT enumeration

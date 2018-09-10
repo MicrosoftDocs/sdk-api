@@ -4,17 +4,16 @@ title: ISimpleFrameSite::PostMessageFilter
 author: windows-sdk-content
 description: Sends the simple frame site a message that is received by a control's own window after the control has processed the message.
 old-location: com\isimpleframesite_postmessagefilter.htm
-old-project: com
+tech.root: com
 ms.assetid: b9725ef9-16e0-4574-9b94-826814a396be
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleFrameSite.PostMessageFilter, ISimpleFrameSite::PostMessageFilter, PostMessageFilter, PostMessageFilter method [COM], PostMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_postmessagefilter, com.isimpleframesite_postmessagefilter, ocidl/ISimpleFrameSite::PostMessageFilter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimpleFrameSite.PostMessageFilter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISimpleFrameSite::PostMessageFilter

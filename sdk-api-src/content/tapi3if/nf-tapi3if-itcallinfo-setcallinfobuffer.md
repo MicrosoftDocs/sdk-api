@@ -4,17 +4,16 @@ title: ITCallInfo::SetCallInfoBuffer
 author: windows-sdk-content
 description: The SetCallInfoBuffer method sets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::put_CallInfoBuffer method.
 old-location: tapi3\itcallinfo_setcallinfobuffer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fafe3c99-4584-43eb-b446-a9f2b9308097
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],SetCallInfoBuffer method, ITCallInfo.SetCallInfoBuffer, ITCallInfo::SetCallInfoBuffer, SetCallInfoBuffer, SetCallInfoBuffer method [TAPI 2.2], SetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_setcallinfobuffer, tapi3.itcallinfo_setcallinfobuffer, tapi3if/ITCallInfo::SetCallInfoBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallInfo.SetCallInfoBuffer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallInfo::SetCallInfoBuffer

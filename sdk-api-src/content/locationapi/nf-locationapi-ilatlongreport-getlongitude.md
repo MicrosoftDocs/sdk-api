@@ -4,17 +4,16 @@ title: ILatLongReport::GetLongitude
 author: windows-sdk-content
 description: Retrieves the longitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlongitude.htm
-old-project: locationapi
+tech.root: locationapi
 ms.assetid: 77fa407b-109c-45aa-bbdb-0b8a40d222e5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetLongitude, GetLongitude method [WinLocation], GetLongitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLongitude method, ILatLongReport.GetLongitude, ILatLongReport::GetLongitude, WinLocation_COM_Ref.ilatlongreport_getlongitude, locationapi/ILatLongReport::GetLongitude
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only],Windows 7
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOCATION_REPORT_STATUS
+req.lib: 
+req.dll: LocationAPI.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILatLongReport.GetLongitude
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: LocationAPI.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ILatLongReport::GetLongitude

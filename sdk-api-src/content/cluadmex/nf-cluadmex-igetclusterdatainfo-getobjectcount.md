@@ -4,17 +4,16 @@ title: IGetClusterDataInfo::GetObjectCount
 author: windows-sdk-content
 description: Returns a count of the number of selected cluster objects.
 old-location: mscs\igetclusterdatainfo_getobjectcount.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Failover Cluster], GetObjectCount method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetObjectCount method, IGetClusterDataInfo.GetObjectCount, IGetClusterDataInfo::GetObjectCount, _wolf_igetclusterdatainfo_getobjectcount, cluadmex/IGetClusterDataInfo::GetObjectCount, mscs.igetclusterdatainfo_getobjectcount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 Enterprise, Windows Server 2003 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: Sources
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetClusterDataInfo.GetObjectCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetClusterDataInfo::GetObjectCount

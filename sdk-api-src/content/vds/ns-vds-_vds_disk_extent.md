@@ -4,7 +4,7 @@ title: "_VDS_DISK_EXTENT"
 author: windows-sdk-content
 description: Defines the properties of a disk extent.
 old-location: base\vds_disk_extent.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 79fa7b8a-9d24-49ab-8e5d-1471b023c459
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_DISK_EXTENT, *PVDS_DISK_EXTENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_DISK_EXTENT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_DISK_EXTENT, *PVDS_DISK_EXTENT
+req.redist: 
 ---
 
 # _VDS_DISK_EXTENT structure

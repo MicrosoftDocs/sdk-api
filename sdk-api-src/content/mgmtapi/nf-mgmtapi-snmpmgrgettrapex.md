@@ -4,17 +4,16 @@ title: SnmpMgrGetTrapEx function
 author: windows-sdk-content
 description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.
 old-location: snmp\snmpmgrgettrapex.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 1dc4b432-8418-46a7-9ea8-5025799c8ec9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrapEx, SnmpMgrGetTrapEx function [SNMP], _snmp_snmpmgrgettrapex, mgmtapi/SnmpMgrGetTrapEx, snmp.snmpmgrgettrapex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
+req.lib: Mgmtapi.lib
+req.dll: Mgmtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpMgrGetTrapEx
 product: Windows
 targetos: Windows
-req.lib: Mgmtapi.lib
-req.dll: Mgmtapi.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpMgrGetTrapEx function

@@ -4,7 +4,7 @@ title: "_VDS_PARTITION_STYLE"
 author: windows-sdk-content
 description: Defines the set of partition style values.
 old-location: base\vds_partition_style.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PARTITION_STYLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VDS_PARTITION_STYLE
 product: Windows
 targetos: Windows
-req.lib: VdmDbg.lib
-req.dll: VdmDbg.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PARTITION_STYLE
+req.redist: 
 ---
 
 # _VDS_PARTITION_STYLE enumeration

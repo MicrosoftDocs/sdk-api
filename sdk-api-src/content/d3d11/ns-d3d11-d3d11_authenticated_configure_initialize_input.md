@@ -4,7 +4,7 @@ title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
+req.redist: 
 ---
 
 # D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure

@@ -4,17 +4,16 @@ title: EvtOpenSession function
 author: windows-sdk-content
 description: Establishes a connection to a remote computer that you can use when calling the other Windows Event Log functions.
 old-location: wes\evtopensession.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 26f1745c-dcca-4452-872e-1fffe20f049c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_VARIANT_TYPE
+req.lib: Wevtapi.lib
+req.dll: Wevtapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - EvtOpenSession
 product: Windows
 targetos: Windows
-req.lib: Wevtapi.lib
-req.dll: Wevtapi.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # EvtOpenSession function

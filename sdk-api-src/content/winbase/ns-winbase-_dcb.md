@@ -4,7 +4,7 @@ title: "_DCB"
 author: windows-sdk-content
 description: Defines the control setting for a serial communications device.
 old-location: base\dcb_str.htm
-old-project: devio
+tech.root: devio
 ms.assetid: 9dccd2c6-44b7-4609-a2b9-9815430bf3c7
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DCB, *LPDCB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DCB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DCB, *LPDCB
+req.redist: 
 ---
 
 # _DCB structure

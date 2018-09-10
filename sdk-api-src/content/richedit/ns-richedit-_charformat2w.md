@@ -4,7 +4,7 @@ title: "_charformat2w"
 author: windows-sdk-content
 description: Contains information about character formatting in a rich edit control.
 old-location: controls\CHARFORMAT2.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CHARFORMAT2W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CHARFORMAT2W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CHARFORMAT2W
+req.redist: 
 ---
 
 # _charformat2w structure
@@ -62,14 +60,14 @@ Contains information about character formatting in a rich edit control.<b>CHARFO
 
 
 
-#### - cbSize
+### -field cbSize
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
 
 
-#### - dwMask
+### -field dwMask
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -551,7 +549,7 @@ The <b>wWeight</b> member is valid.
  
 
 
-#### - dwEffects
+### -field dwEffects
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
@@ -822,42 +820,42 @@ Characters are underlined.
  
 
 
-#### - yHeight
+### -field yHeight
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Specifies the character height, in twips (1/1440 of an inch, or 1/20 of a printer's point). To use this member, set the <b>CFM_SIZE</b> flag in the <b>dwMask</b> member. 
 
 
-#### - yOffset
+### -field yOffset
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
 Character offset from the baseline, in twips. If the value of this member is positive, the character is a superscript; if the value is negative, the character is a subscript. To use this member, set the <b>CFM_OFFSET</b> flag in the <b>dwMask</b> member. 
 
 
-#### - crTextColor
+### -field crTextColor
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro. 
 
 
-#### - bCharSet
+### -field bCharSet
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
 
 
-#### - bPitchAndFamily
+### -field bPitchAndFamily
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. 
 
 
-#### - szFaceName
+### -field szFaceName
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a>[LF_FACESIZE]</b>
 

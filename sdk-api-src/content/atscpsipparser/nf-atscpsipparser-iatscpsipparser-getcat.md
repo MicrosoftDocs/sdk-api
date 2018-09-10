@@ -4,17 +4,16 @@ title: IAtscPsipParser::GetCAT
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getcat.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 9da30d7d-4536-4753-9687-b2c16b560f2d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetCAT method, IAtscPsipParser.GetCAT, IAtscPsipParser::GetCAT, IAtscPsipParserGetCAT, atscpsipparser/IAtscPsipParser::GetCAT, mstv.iatscpsipparser_getcat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAtscPsipParser.GetCAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAtscPsipParser::GetCAT

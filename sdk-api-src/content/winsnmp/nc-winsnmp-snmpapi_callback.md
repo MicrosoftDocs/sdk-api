@@ -4,7 +4,7 @@ title: SNMPAPI_CALLBACK
 author: windows-sdk-content
 description: The Microsoft WinSNMP implementation calls the SNMPAPI_CALLBACK function to notify a WinSNMP session that an SNMP message or asynchronous event is available.
 old-location: snmp\snmpapi_callback.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 9871b4a8-c96c-48a7-9e7e-7fe1c259545e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SNMPAPI_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SNMPAPI_CALLBACK callback function

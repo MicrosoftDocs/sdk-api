@@ -4,17 +4,16 @@ title: IDWriteFontFileStream::GetLastWriteTime
 author: windows-sdk-content
 description: Obtains the last modified time of the file.
 old-location: directwrite\IDWriteFontFileStream_GetLastWriteTime.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: eb4045c0-a333-40aa-8ec3-b89cfd835be3
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetLastWriteTime, GetLastWriteTime method [Direct Write], GetLastWriteTime method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetLastWriteTime method, IDWriteFontFileStream.GetLastWriteTime, IDWriteFontFileStream::GetLastWriteTime, directwrite.IDWriteFontFileStream_GetLastWriteTime, dwrite/IDWriteFontFileStream::GetLastWriteTime
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFontFileStream.GetLastWriteTime
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFontFileStream::GetLastWriteTime

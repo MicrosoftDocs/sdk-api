@@ -4,17 +4,16 @@ title: IVssComponent::GetNewTargetCount
 author: windows-sdk-content
 description: The GetNewTargetCount method returns the number of new target restore locations associated with a given component.
 old-location: base\ivsscomponent_getnewtargetcount.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: b41afed9-2689-469e-b3c4-83cf18c5f8a9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetNewTargetCount, GetNewTargetCount method [VSS], GetNewTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTargetCount method, IVssComponent.GetNewTargetCount, IVssComponent::GetNewTargetCount, _win32_ivsscomponent_getnewtargetcount, base.ivsscomponent_getnewtargetcount, vswriter/IVssComponent::GetNewTargetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssComponent.GetNewTargetCount
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssComponent::GetNewTargetCount

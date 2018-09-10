@@ -4,17 +4,16 @@ title: IMFSample::GetSampleFlags
 author: windows-sdk-content
 description: Retrieves flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_getsampleflags.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 98e3ed97-cefc-40c2-acda-8b3da74d0d03
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 98e3ed97-cefc-40c2-acda-8b3da74d0d03, GetSampleFlags, GetSampleFlags method [Media Foundation], GetSampleFlags method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleFlags method, IMFSample.GetSampleFlags, IMFSample::GetSampleFlags, mf.imfsample_getsampleflags, mfobjects/IMFSample::GetSampleFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_FILE_FLAGS
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFSample.GetSampleFlags
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSample::GetSampleFlags

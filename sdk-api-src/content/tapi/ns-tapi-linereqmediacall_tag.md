@@ -4,7 +4,7 @@ title: linereqmediacall_tag
 author: windows-sdk-content
 description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
 old-location: tapi2\linereqmediacall_str.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LINEREQMEDIACALL, *LPLINEREQMEDIACALL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LINEREQMEDIACALL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: LINEREQMEDIACALL, *LPLINEREQMEDIACALL
+req.redist: 
 ---
 
 # linereqmediacall_tag structure

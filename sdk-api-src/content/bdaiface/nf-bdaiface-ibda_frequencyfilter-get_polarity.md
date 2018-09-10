@@ -4,17 +4,16 @@ title: IBDA_FrequencyFilter::get_Polarity
 author: windows-sdk-content
 description: The get_Polarity method retrieves the polarity.
 old-location: mstv\ibda_frequencyfilter_get_polarity.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c1f787f6-5d52-44a0-90d7-c905b7e8b8b1
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Polarity method, IBDA_FrequencyFilter.get_Polarity, IBDA_FrequencyFilter::get_Polarity, IBDA_FrequencyFilterget_Polarity, bdaiface/IBDA_FrequencyFilter::get_Polarity, get_Polarity, get_Polarity method [Microsoft TV Technologies], get_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_polarity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FrequencyFilter.get_Polarity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FrequencyFilter::get_Polarity

@@ -4,7 +4,7 @@ title: "_USBUSER_GET_DRIVER_VERSION"
 author: windows-sdk-content
 description: The USBUSER_GET_DRIVER_VERSION structure is used with the IOCTL_USB_USER_REQUEST I/O control request to read driver and interface version information.
 old-location: buses\usbuser_get_driver_version.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 415eefbb-e39a-43fa-9fff-49799f74fbd6
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - USBUSER_GET_DRIVER_VERSION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
+req.redist: 
 ---
 
 # _USBUSER_GET_DRIVER_VERSION structure

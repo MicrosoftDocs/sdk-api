@@ -4,17 +4,16 @@ title: IDXGISwapChain2::GetMaximumFrameLatency
 author: windows-sdk-content
 description: Gets the number of frames that the swap chain is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgiswapchain2_getmaximumframelatency.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: F0A07900-8F10-475B-B13F-E0F49B50C2EB
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMaximumFrameLatency method, IDXGISwapChain2.GetMaximumFrameLatency, IDXGISwapChain2::GetMaximumFrameLatency, direct3ddxgi.idxgiswapchain2_getmaximumframelatency, dxgi1_3/IDXGISwapChain2::GetMaximumFrameLatency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: Dxgi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDXGISwapChain2.GetMaximumFrameLatency
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGISwapChain2::GetMaximumFrameLatency

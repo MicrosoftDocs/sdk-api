@@ -4,7 +4,7 @@ title: "_SECPKG_CRED_CLASS"
 author: windows-sdk-content
 description: Indicates the type of credential used in a client context. The SECPKG_CRED_CLASS enumeration is used in the SecPkgContext_CredInfo structure.
 old-location: security\secpkg_cred_class.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 2f5f9be2-e7b5-4d34-a2ad-89a99db78ad0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_CRED_CLASS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
+req.redist: 
 ---
 
 # _SECPKG_CRED_CLASS enumeration

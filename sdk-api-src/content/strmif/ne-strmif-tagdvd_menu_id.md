@@ -4,7 +4,7 @@ title: tagDVD_MENU_ID
 author: windows-sdk-content
 description: Specifies the DVD menu in a call to IDvdControl2::ShowMenu.
 old-location: dshow\dvd_menu_id.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 2fd107d7-7531-4bce-89b9-b44388b47b91
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_MENU_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DVD_MENU_ID
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: DVD_MENU_ID
+req.redist: 
 ---
 
 # tagDVD_MENU_ID enumeration

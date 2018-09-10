@@ -4,17 +4,16 @@ title: CObjectPathParser::CObjectPathParser
 author: windows-sdk-content
 description: Constructs and initializes an instance of a CObjectPathParser object that requires a full object path. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_cobjectpathparser.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 8aeb162a-8e93-4a2f-9609-693a26027a44
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z, ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z, CObjectPathParser, CObjectPathParser interface [Windows Management Instrumentation],CObjectPathParser method, CObjectPathParser method [Windows Management Instrumentation], CObjectPathParser method [Windows Management Instrumentation],CObjectPathParser interface, CObjectPathParser.CObjectPathParser, CObjectPathParser::CObjectPathParser, objpath/CObjectPathParser::CObjectPathParser, wmi.cobjectpathparser_cobjectpathparser"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objpath.h
 req.include-header: ObjPath.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ObjectParserFlags
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # CObjectPathParser::CObjectPathParser
@@ -71,7 +69,7 @@ Constructs and initializes an instance of a <a href="https://msdn.microsoft.com/
 
 ### -param eFlags
 
-
+TBD
 
 
 

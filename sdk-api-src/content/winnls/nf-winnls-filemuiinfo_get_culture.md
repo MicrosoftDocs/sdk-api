@@ -4,17 +4,16 @@ title: FILEMUIINFO_GET_CULTURE macro
 author: windows-sdk-content
 description: Gets the locale name associated with the language name offset information in the dwLanguageNameOffset member of a FILEMUIINFO structure.
 old-location: intl\filemuiinfo_get_culture.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NORM_FORM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FILEMUIINFO_GET_CULTURE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FILEMUIINFO_GET_CULTURE macro

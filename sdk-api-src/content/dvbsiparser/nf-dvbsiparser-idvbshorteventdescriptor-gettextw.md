@@ -4,17 +4,16 @@ title: IDvbShortEventDescriptor::GetTextW
 author: windows-sdk-content
 description: Gets the text that describes the event in Unicode string format from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_gettextw.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0770d24f-b421-4b00-809c-04fa53ca038c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbShortEventDescriptor.GetTextW, IDvbShortEventDescriptor::GetTextW, dvbsiparser/IDvbShortEventDescriptor::GetTextW, mstv.idvbshorteventdescriptor_gettextw
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDvbShortEventDescriptor.GetTextW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDvbShortEventDescriptor::GetTextW

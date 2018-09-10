@@ -4,17 +4,16 @@ title: IOleControlSite::OnControlInfoChanged
 author: windows-sdk-content
 description: Informs the container that the control's CONTROLINFO structure has changed and that the container should call the control's IOleControl::GetControlInfo for an update.
 old-location: com\iolecontrolsite_oncontrolinfochanged.htm
-old-project: com
+tech.root: com
 ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleControlSite interface [COM],OnControlInfoChanged method, IOleControlSite.OnControlInfoChanged, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleControlSite.OnControlInfoChanged
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleControlSite::OnControlInfoChanged

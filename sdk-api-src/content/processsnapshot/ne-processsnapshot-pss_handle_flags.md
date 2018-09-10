@@ -4,7 +4,7 @@ title: PSS_HANDLE_FLAGS
 author: windows-sdk-content
 description: Flags to specify what parts of a PSS_HANDLE_ENTRY structure are valid.
 old-location: proc_snap\pss_handle_flags.htm
-old-project: proc_snap
+tech.root: proc_snap
 ms.assetid: A4A604A9-0210-413C-BCAC-F8458B371D42
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: processsnapshot.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSS_HANDLE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSS_HANDLE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Prntvpt.lib
-req.dll: Prntvpt.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PSS_HANDLE_FLAGS
+req.redist: 
 ---
 
 # PSS_HANDLE_FLAGS enumeration

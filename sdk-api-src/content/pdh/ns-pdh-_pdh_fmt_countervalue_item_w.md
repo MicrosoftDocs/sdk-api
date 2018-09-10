@@ -4,7 +4,7 @@ title: "_PDH_FMT_COUNTERVALUE_ITEM_W"
 author: windows-sdk-content
 description: The PDH_FMT_COUNTERVALUE_ITEM structure contains the instance name and formatted value of a counter.
 old-location: perf\pdh_fmt_countervalue_item_str.htm
-old-project: perfctrs
+tech.root: perfctrs
 ms.assetid: d3bc6ad3-0cab-4843-ae1d-5f384948a1ea
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDH_FMT_COUNTERVALUE_ITEM_W, *PPDH_FMT_COUNTERVALUE_ITEM_W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PDH_FMT_COUNTERVALUE_ITEM_W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PDH_FMT_COUNTERVALUE_ITEM_W, *PPDH_FMT_COUNTERVALUE_ITEM_W
+req.redist: 
 ---
 
 # _PDH_FMT_COUNTERVALUE_ITEM_W structure

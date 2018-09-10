@@ -4,17 +4,16 @@ title: RtwqSetDeadline2 function
 author: windows-sdk-content
 description: Sets a deadline by which the work in a work queue must be completed.
 old-location: base\rtwqsetdeadline2.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: A259C9D2-9700-4FE8-81D6-7AD14476AA9C
 ms.author: windowssdkdev
 ms.date: 08/10/2018
 ms.keywords: RtwqSetDeadline2, RtwqSetDeadline2 function, base.rtwqsetdeadline2, rtworkq/RtwqSetDeadline2
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RTWQ_WORKQUEUE_TYPE
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RtwqSetDeadline2
 product: Windows
 targetos: Windows
-req.lib: Rtworkq.lib
-req.dll: RTWorkQ.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RtwqSetDeadline2 function

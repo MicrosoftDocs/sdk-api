@@ -4,7 +4,7 @@ title: ISCSI_CONNECTION_INFOA
 author: windows-sdk-content
 description: ISCSI_CONNECTION_INFO structure contains information about a connection.
 old-location: iscsidisc\iscsi_connection_info.htm
-old-project: iSCSIDisc
+tech.root: iSCSIDisc
 ms.assetid: 4bfe2f36-2e68-4093-9660-b0140baeea80
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ISCSI_CONNECTION_INFOA, *PISCSI_CONNECTION_INFOA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ISCSI_CONNECTION_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: ISCSI_CONNECTION_INFOA, *PISCSI_CONNECTION_INFOA
+req.redist: 
 ---
 
 # ISCSI_CONNECTION_INFOA structure

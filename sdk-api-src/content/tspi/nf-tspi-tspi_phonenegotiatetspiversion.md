@@ -4,17 +4,16 @@ title: TSPI_phoneNegotiateTSPIVersion function
 author: windows-sdk-content
 description: The TSPI_phoneNegotiateTSPIVersion function returns the highest SPI version the service provider can operate under for this device, given the range of possible SPI versions.
 old-location: tspi\tspi_phonenegotiatetspiversion.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_phoneNegotiateTSPIVersion, TSPI_phoneNegotiateTSPIVersion function [TAPI 2.2], _tspi_tspi_phonenegotiatetspiversion, tspi.tspi_phonenegotiatetspiversion, tspi/TSPI_phoneNegotiateTSPIVersion
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_phoneNegotiateTSPIVersion
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_phoneNegotiateTSPIVersion function

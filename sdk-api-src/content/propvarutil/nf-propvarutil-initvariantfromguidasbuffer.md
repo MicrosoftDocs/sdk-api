@@ -4,17 +4,16 @@ title: InitVariantFromGUIDAsBuffer function
 author: windows-sdk-content
 description: Initializes a VARIANT structure based on a GUID. The structure is initialized as VT_ARRAY | VT_UI1.
 old-location: properties\InitVariantFromGUIDAsBuffer.htm
-old-project: properties
+tech.root: properties
 ms.assetid: c46c1263-527a-4a64-b4c9-4c4779b271c7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InitVariantFromGUIDAsBuffer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # InitVariantFromGUIDAsBuffer function

@@ -4,17 +4,16 @@ title: IMFTopologyNode::GetInputPrefType
 author: windows-sdk-content
 description: Retrieves the preferred media type for an input stream on this node.
 old-location: mf\imftopologynode_getinputpreftype.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 34849803-2b56-457a-920b-b5f2e208ce2e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 34849803-2b56-457a-920b-b5f2e208ce2e, GetInputPrefType, GetInputPrefType method [Media Foundation], GetInputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInputPrefType method, IMFTopologyNode.GetInputPrefType, IMFTopologyNode::GetInputPrefType, mf.imftopologynode_getinputpreftype, mfidl/IMFTopologyNode::GetInputPrefType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFTopologyNode.GetInputPrefType
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTopologyNode::GetInputPrefType

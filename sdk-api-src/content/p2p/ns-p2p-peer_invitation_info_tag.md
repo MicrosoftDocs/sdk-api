@@ -4,7 +4,7 @@ title: peer_invitation_info_tag
 author: windows-sdk-content
 description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.
 old-location: p2p\peer_invitation_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: 215df4ed-83e3-40c3-a38e-89d92ce38707
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack forWindows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_INVITATION_INFO, *PPEER_INVITATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_INVITATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_INVITATION_INFO, *PPEER_INVITATION_INFO
+req.redist: 
 ---
 
 # peer_invitation_info_tag structure

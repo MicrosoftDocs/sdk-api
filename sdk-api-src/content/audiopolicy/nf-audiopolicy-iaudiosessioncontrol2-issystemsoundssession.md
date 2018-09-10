@@ -4,17 +4,16 @@ title: IAudioSessionControl2::IsSystemSoundsSession
 author: windows-sdk-content
 description: The IsSystemSoundsSession method indicates whether the session is a system sounds session.
 old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],IsSystemSoundsSession method, IAudioSessionControl2.IsSystemSoundsSession, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UNCOMPRESSEDAUDIOFORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAudioSessionControl2.IsSystemSoundsSession
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAudioSessionControl2::IsSystemSoundsSession

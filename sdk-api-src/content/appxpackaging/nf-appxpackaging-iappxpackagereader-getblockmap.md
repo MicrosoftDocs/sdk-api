@@ -4,17 +4,16 @@ title: IAppxPackageReader::GetBlockMap
 author: windows-sdk-content
 description: Retrieves the block map object model of the package.
 old-location: appxpkg\iappxpackagereader_getblockmap.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: FEBCA2E4-9B32-499B-AD31-9D90525A42DB
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetBlockMap method, IAppxPackageReader.GetBlockMap, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxPackageReader.GetBlockMap
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxPackageReader::GetBlockMap

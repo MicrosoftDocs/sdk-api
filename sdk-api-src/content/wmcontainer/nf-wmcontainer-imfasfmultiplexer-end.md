@@ -4,17 +4,16 @@ title: IMFASFMultiplexer::End
 author: windows-sdk-content
 description: Collects data from the multiplexer and updates the ASF ContentInfo object to include that information in the ASF Header Object.
 old-location: mf\imfasfmultiplexer_end.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 2a106ea5-976a-40df-a554-1b76d9a07286
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Foundation], End method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],End method, IMFASFMultiplexer.End, IMFASFMultiplexer::End, mf.imfasfmultiplexer_end, wmcontainer/IMFASFMultiplexer::End
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFMultiplexer.End
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFMultiplexer::End

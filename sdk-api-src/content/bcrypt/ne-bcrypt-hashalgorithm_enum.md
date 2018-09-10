@@ -4,7 +4,7 @@ title: HASHALGORITHM_ENUM
 author: windows-sdk-content
 description: Specifies signing and hashing algorithms.
 old-location: security\hashalgorithm_enum.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 482DA4B6-EC1C-4E88-95C0-62ED1356DC3B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HASHALGORITHM_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - HASHALGORITHM_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: HASHALGORITHM_ENUM
+req.redist: 
 ---
 
 # HASHALGORITHM_ENUM enumeration

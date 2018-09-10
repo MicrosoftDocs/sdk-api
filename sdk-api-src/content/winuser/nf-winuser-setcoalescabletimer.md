@@ -4,17 +4,16 @@ title: SetCoalescableTimer function
 author: windows-sdk-content
 description: Creates a timer with the specified time-out value and coalescing tolerance delay.
 old-location: winmsg\setcoalescabletimer.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SetCoalescableTimer
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetCoalescableTimer function

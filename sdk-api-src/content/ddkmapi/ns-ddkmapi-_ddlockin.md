@@ -4,7 +4,7 @@ title: "_DDLOCKIN"
 author: windows-sdk-content
 description: The DDLOCKIN structure contains the Microsoft DirectDraw object and DirectDraw surface handle information.
 old-location: display\ddlockin.htm
-old-project: display
+tech.root: display
 ms.assetid: 47bc1879-80a5-4850-a303-dbbebbd83de6
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DDLOCKIN, *LPDDLOCKIN
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DDLOCKIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DDLOCKIN, *LPDDLOCKIN
+req.redist: 
 ---
 
 # _DDLOCKIN structure

@@ -4,17 +4,16 @@ title: ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
 author: windows-sdk-content
 description: Returns an IEnumSyncProviderConfigUIInfos enumeration interface that enumerates all registered ISyncProviderConfigUIInfo objects for the specified criteria.
 old-location: winsync\isyncproviderregistration_enumeratesyncproviderconfiguis.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: e3f87fc7-f123-454e-851c-92dbad605600
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumerateSyncProviderConfigUIs, EnumerateSyncProviderConfigUIs method [Windows Sync], EnumerateSyncProviderConfigUIs method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviderConfigUIs method, ISyncProviderRegistration.EnumerateSyncProviderConfigUIs, ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, winsync.isyncproviderregistration_enumeratesyncproviderconfiguis
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNC_REGISTRATION_EVENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
@@ -78,7 +76,7 @@ If this parameter is set to zero, synchronization providers for all architecture
 
 ### -param ppEnumSyncProviderConfigUIInfos
 
-
+TBD
 
 
 

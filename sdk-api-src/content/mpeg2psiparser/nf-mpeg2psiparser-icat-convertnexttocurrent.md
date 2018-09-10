@@ -4,17 +4,16 @@ title: ICAT::ConvertNextToCurrent
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_convertnexttocurrent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICAT.ConvertNextToCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ICAT::ConvertNextToCurrent

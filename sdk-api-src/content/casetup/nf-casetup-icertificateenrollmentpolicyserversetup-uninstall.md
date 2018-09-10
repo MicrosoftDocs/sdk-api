@@ -4,17 +4,16 @@ title: ICertificateEnrollmentPolicyServerSetup::UnInstall
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Policy (CEP) Web Service.
 old-location: security\icertificateenrollmentpolicyserversetup_uninstall.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],UnInstall method, ICertificateEnrollmentPolicyServerSetup.UnInstall, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CEPSetupProperty
+req.lib: 
+req.dll: Certocm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertificateEnrollmentPolicyServerSetup.UnInstall
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certocm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::UnInstall

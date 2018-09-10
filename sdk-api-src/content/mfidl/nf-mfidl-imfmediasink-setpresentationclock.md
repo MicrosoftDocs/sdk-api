@@ -4,17 +4,16 @@ title: IMFMediaSink::SetPresentationClock
 author: windows-sdk-content
 description: Sets the presentation clock on the media sink.
 old-location: mf\imfmediasink_setpresentationclock.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media Foundation],SetPresentationClock method, IMFMediaSink.SetPresentationClock, IMFMediaSink::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFMediaSink interface, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFMediaSink.SetPresentationClock
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFMediaSink::SetPresentationClock

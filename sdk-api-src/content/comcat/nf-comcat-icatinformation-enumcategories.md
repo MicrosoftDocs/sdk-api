@@ -4,17 +4,16 @@ title: ICatInformation::EnumCategories
 author: windows-sdk-content
 description: Retrieves an enumerator for the component categories registered on the system.
 old-location: com\icatinformation_enumcategories.htm
-old-project: com
+tech.root: com
 ms.assetid: d8e744f0-6e50-4260-89df-e2cc59937398
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumCategories, EnumCategories method [COM], EnumCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumCategories method, ICatInformation.EnumCategories, ICatInformation::EnumCategories, _com_icatinformation_enumcategories, com.icatinformation_enumcategories, comcat/ICatInformation::EnumCategories
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ServerInformation, *PServerInformation
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICatInformation.EnumCategories
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICatInformation::EnumCategories

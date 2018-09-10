@@ -4,17 +4,16 @@ title: IDirectInputJoyConfig8::SetTypeInfo
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetTypeInfo method creates a new joystick type or redefines information about an existing joystick type.
 old-location: hid\idirectinputjoyconfig8_settypeinfo.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 5649ff3d-b7af-489b-b6d0-1252ee4ceb76
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetTypeInfo method, IDirectInputJoyConfig8.SetTypeInfo, IDirectInputJoyConfig8::SetTypeInfo, SetTypeInfo, SetTypeInfo method [Human Input Devices], SetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_7cfc73ae-57b7-45a0-8466-c52fe481b980.xml, dinputd/IDirectInputJoyConfig8::SetTypeInfo, hid.idirectinputjoyconfig8_settypeinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectInputJoyConfig8.SetTypeInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectInputJoyConfig8::SetTypeInfo
@@ -59,9 +58,24 @@ The <b>IDirectInputJoyConfig8::SetTypeInfo </b>method creates a new joystick typ
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: ILaunchSourceViewSizePreference::GetSourceViewSizePreference
 author: windows-sdk-content
 description: Retrieves the view size preference of the application after the application has launched.
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewSizePreference.htm
-old-project: shell
+tech.root: shell
 ms.assetid: A151EA3D-42EE-4F22-B2A8-C696F582F81C
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSourceViewSizePreference, GetSourceViewSizePreference method [Windows Shell], GetSourceViewSizePreference method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewSizePreference method, ILaunchSourceViewSizePreference.GetSourceViewSizePreference, ILaunchSourceViewSizePreference::GetSourceViewSizePreference, shell.ILaunchSourceViewSizePreference_GetSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewSizePreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILaunchSourceViewSizePreference.GetSourceViewSizePreference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ILaunchSourceViewSizePreference::GetSourceViewSizePreference

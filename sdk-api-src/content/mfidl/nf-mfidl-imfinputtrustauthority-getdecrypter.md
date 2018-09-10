@@ -4,17 +4,16 @@ title: IMFInputTrustAuthority::GetDecrypter
 author: windows-sdk-content
 description: Retrieves a decrypter transform.
 old-location: mf\imfinputtrustauthority_getdecrypter.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFInputTrustAuthority.GetDecrypter
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFInputTrustAuthority::GetDecrypter

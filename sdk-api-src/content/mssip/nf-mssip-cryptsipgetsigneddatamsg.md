@@ -4,17 +4,16 @@ title: CryptSIPGetSignedDataMsg function
 author: windows-sdk-content
 description: Retrieves an Authenticode signature from the file.
 old-location: security\cryptsipgetsigneddatamsg.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityFileId
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSIPGetSignedDataMsg
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSIPGetSignedDataMsg function

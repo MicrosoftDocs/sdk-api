@@ -4,17 +4,16 @@ title: IThumbnailStreamCache::GetThumbnailStream
 author: windows-sdk-content
 description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 66A89AF9-DEBE-485C-B8E9-519F63386F7D
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetThumbnailStream, GetThumbnailStream method [Windows Shell], GetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, IThumbnailStreamCache interface [Windows Shell],GetThumbnailStream method, IThumbnailStreamCache.GetThumbnailStream, IThumbnailStreamCache::GetThumbnailStream, shell.ithumbnailstreamcache_getthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::GetThumbnailStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thumbnailstreamcache.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThumbnailStreamCacheOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IThumbnailStreamCache.GetThumbnailStream
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IThumbnailStreamCache::GetThumbnailStream

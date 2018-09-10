@@ -4,17 +4,16 @@ title: IDsAdminNewObjExt::GetSummaryInfo
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::GetSummaryInfo method obtains a string that contains a summary of the data gathered by the new object wizard extension page. This string is displayed in the wizard Finish page.
 old-location: ad\idsadminnewobjext_getsummaryinfo.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 61d97253-360a-4e35-a05a-33315d153c0f
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetSummaryInfo, GetSummaryInfo method [Active Directory], GetSummaryInfo method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],GetSummaryInfo method, IDsAdminNewObjExt.GetSummaryInfo, IDsAdminNewObjExt::GetSummaryInfo, _glines_idsadminnewobjext_getsummaryinfo, ad.idsadminnewobjext__getsummaryinfo, ad.idsadminnewobjext_getsummaryinfo, dsadmin/IDsAdminNewObjExt::GetSummaryInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt.GetSummaryInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt::GetSummaryInfo

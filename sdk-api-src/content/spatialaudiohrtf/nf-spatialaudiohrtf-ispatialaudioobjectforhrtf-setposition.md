@@ -4,17 +4,16 @@ title: ISpatialAudioObjectForHrtf::SetPosition
 author: windows-sdk-content
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setposition.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 4FB6852D-A793-43A1-A58F-E7DCFDB5BBDD
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetPosition method, ISpatialAudioObjectForHrtf.SetPosition, ISpatialAudioObjectForHrtf::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setposition, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SpatialAudioHrtfEnvironmentType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioObjectForHrtf.SetPosition
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioObjectForHrtf::SetPosition

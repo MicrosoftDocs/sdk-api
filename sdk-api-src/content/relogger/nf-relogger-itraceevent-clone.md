@@ -4,17 +4,16 @@ title: ITraceEvent::Clone
 author: windows-sdk-content
 description: Creates a duplicate copy of an event.
 old-location: etw\ievent_clone.htm
-old-project: etw
+tech.root: etw
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITraceEvent.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITraceEvent::Clone

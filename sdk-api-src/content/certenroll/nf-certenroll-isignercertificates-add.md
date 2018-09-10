@@ -4,17 +4,16 @@ title: ISignerCertificates::Add
 author: windows-sdk-content
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISignerCertificates.Add
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISignerCertificates::Add

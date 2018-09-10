@@ -4,7 +4,7 @@ title: PIBIO_STORAGE_QUERY_BY_CONTENT_FN
 author: windows-sdk-content
 description: Queries the database that is currently open for templates associated with a specified index vector.
 old-location: secbiomet\storageadapterquerybycontent.htm
-old-project: SecBioMet
+tech.root: SecBioMet
 ms.assetid: 773aacd1-a34a-4c5a-b615-2a5485f13ca1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINBIO_ASYNC_RESULT, *PWINBIO_ASYNC_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - StorageAdapterQueryByContent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PIBIO_STORAGE_QUERY_BY_CONTENT_FN callback function

@@ -4,7 +4,7 @@ title: "_BCRYPT_PSS_PADDING_INFO"
 author: windows-sdk-content
 description: Used to provide options for the Probabilistic Signature Scheme (PSS) padding scheme.
 old-location: security\bcrypt_pss_padding_info.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: 28605b34-b1e1-4460-a8f0-b0fe9f9b94d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_PSS_PADDING_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_PSS_PADDING_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_PSS_PADDING_INFO
+req.redist: 
 ---
 
 # _BCRYPT_PSS_PADDING_INFO structure

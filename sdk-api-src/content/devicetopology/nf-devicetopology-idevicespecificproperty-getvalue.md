@@ -4,17 +4,16 @@ title: IDeviceSpecificProperty::GetValue
 author: windows-sdk-content
 description: The GetValue method gets the current value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_getvalue.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 07608b42-972c-4d5a-9e1c-5d9060f16644
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetValue method, IDeviceSpecificProperty.GetValue, IDeviceSpecificProperty::GetValue, IDeviceSpecificPropertyGetValue, coreaudio.idevicespecificproperty_getvalue, devicetopology/IDeviceSpecificProperty::GetValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDeviceSpecificProperty.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDeviceSpecificProperty::GetValue

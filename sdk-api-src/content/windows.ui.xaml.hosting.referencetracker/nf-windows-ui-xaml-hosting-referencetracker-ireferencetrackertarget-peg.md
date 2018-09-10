@@ -4,17 +4,16 @@ title: IReferenceTrackerTarget::xaml
 author: windows-sdk-content
 description: Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 old-location: winrt\ireferencetrackertarget_peg.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2750e8b1-eeeb-411a-89a8-b63b26f731ac
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Peg method, IReferenceTrackerTarget.Peg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Peg, IReferenceTrackerTarget::xaml, Peg, Peg method [Windows Runtime], Peg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IReferenceTrackerTarget.Peg
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IReferenceTrackerTarget::xaml

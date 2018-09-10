@@ -4,7 +4,7 @@ title: IPSEC_TUNNEL_ENDPOINT0_
 author: windows-sdk-content
 description: Used to store address information for an end point of a tunnel mode SA.
 old-location: fwp\ipsec_tunnel_endpoint0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e536e9b0-1128-4548-9461-3cdeba509873
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPSEC_TUNNEL_ENDPOINT0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPSEC_TUNNEL_ENDPOINT0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IPSEC_TUNNEL_ENDPOINT0
+req.redist: 
 ---
 
 # IPSEC_TUNNEL_ENDPOINT0_ structure

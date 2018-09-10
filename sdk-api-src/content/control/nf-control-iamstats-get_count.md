@@ -4,17 +4,16 @@ title: IAMStats::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of statistics.
 old-location: dshow\iamstats_get_count.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMStats interface [DirectShow],get_Count method, IAMStats.get_Count, IAMStats::get_Count, IAMStatsget_Count, control/IAMStats::get_Count, dshow.iamstats_get_count, get_Count, get_Count method [DirectShow], get_Count method [DirectShow],IAMStats interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPContextMenuInfo
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IAMStats.get_Count
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAMStats::get_Count

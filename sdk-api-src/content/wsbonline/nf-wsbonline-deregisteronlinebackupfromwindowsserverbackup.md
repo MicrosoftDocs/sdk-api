@@ -4,17 +4,16 @@ title: DeregisterOnlineBackupFromWindowsServerBackup function
 author: windows-sdk-content
 description: De-registers an already registered Cloud backup provider.
 old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm
-old-project: wsb
+tech.root: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wsbonline.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+req.lib: 
+req.dll: WsbOnline.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DeregisterOnlineBackupFromWindowsServerBackup
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: WsbOnline.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # DeregisterOnlineBackupFromWindowsServerBackup function

@@ -4,17 +4,16 @@ title: ListView_GetGroupRect macro
 author: windows-sdk-content
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
 old-location: controls\ListView_GetGroupRect.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STGOPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ListView_GetGroupRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ListView_GetGroupRect macro

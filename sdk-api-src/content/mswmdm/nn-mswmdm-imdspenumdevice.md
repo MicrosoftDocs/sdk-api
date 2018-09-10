@@ -4,7 +4,7 @@ title: IMDSPEnumDevice
 author: windows-sdk-content
 description: The IMDSPEnumDevice interface is used to enumerate the media devices.
 old-location: wmdm\imdspenumdevice.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 9a296937-6f8b-4f04-989f-3a5d4c6f7b85
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMDSPEnumDevice
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMDSPEnumDevice interface

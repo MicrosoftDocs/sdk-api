@@ -4,7 +4,7 @@ title: peer_presence_info_tag
 author: windows-sdk-content
 description: The PEER_PRESENCE_INFO structure contains specific peer presence information.
 old-location: p2p\peer_presence_info.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: e8f83ba8-81a3-4083-bc15-e00b2bec1cd4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_PRESENCE_INFO, *PPEER_PRESENCE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PEER_PRESENCE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PEER_PRESENCE_INFO, *PPEER_PRESENCE_INFO
+req.redist: 
 ---
 
 # peer_presence_info_tag structure

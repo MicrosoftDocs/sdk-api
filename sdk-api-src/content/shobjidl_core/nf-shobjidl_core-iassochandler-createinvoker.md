@@ -4,17 +4,16 @@ title: IAssocHandler::CreateInvoker
 author: windows-sdk-content
 description: Retrieves an object that enables the invocation of the associated handler on the current selection. The invoker includes the ability to verify whether the current selection is supported.
 old-location: shell\IAssocHandler_CreateInvoker.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 12ffd2f1-e041-41f1-9b57-282a166ccbf7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateInvoker, CreateInvoker method [Windows Shell], CreateInvoker method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],CreateInvoker method, IAssocHandler.CreateInvoker, IAssocHandler::CreateInvoker, _shell_IAssocHandler_CreateInvoker, shell.IAssocHandler_CreateInvoker, shobjidl_core/IAssocHandler::CreateInvoker
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.CreateInvoker
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::CreateInvoker

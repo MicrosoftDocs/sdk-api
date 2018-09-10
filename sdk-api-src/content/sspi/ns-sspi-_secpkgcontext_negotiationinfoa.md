@@ -4,7 +4,7 @@ title: "_SecPkgContext_NegotiationInfoA"
 author: windows-sdk-content
 description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 old-location: security\secpkgcontext_negotiationinfo.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SecPkgContext_NegotiationInfoA, *PSecPkgContext_NegotiationInfoA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SecPkgContext_NegotiationInfoW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SecPkgContext_NegotiationInfoA, *PSecPkgContext_NegotiationInfoA
+req.redist: 
 ---
 
 # _SecPkgContext_NegotiationInfoA structure

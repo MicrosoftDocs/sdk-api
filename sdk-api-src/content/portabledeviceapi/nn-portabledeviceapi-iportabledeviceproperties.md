@@ -4,7 +4,7 @@ title: IPortableDeviceProperties
 author: windows-sdk-content
 description: The IPortableDeviceProperties interface retrieves, adds, or deletes properties from an object on a device, or the device itself.
 old-location: wpdsdk\iportabledeviceproperties.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: 4555e85b-c667-466c-a527-cc29ca7a6aee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPortableDeviceProperties
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDeviceProperties interface

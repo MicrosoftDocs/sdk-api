@@ -4,17 +4,16 @@ title: CreateToolhelp32Snapshot function
 author: windows-sdk-content
 description: Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
 old-location: toolhelp\createtoolhelp32snapshot.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: df643c25-7558-424c-b187-b3f86ba51358
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHelp], TH32CS_INHERIT, TH32CS_SNAPALL, TH32CS_SNAPHEAPLIST, TH32CS_SNAPMODULE, TH32CS_SNAPMODULE32, TH32CS_SNAPPROCESS, TH32CS_SNAPTHREAD, _win32_createtoolhelp32snapshot, base.createtoolhelp32snapshot, tlhelp32/CreateToolhelp32Snapshot, toolhelp.createtoolhelp32snapshot
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TpcGetSamplesArgs
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - CreateToolhelp32Snapshot
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CreateToolhelp32Snapshot function

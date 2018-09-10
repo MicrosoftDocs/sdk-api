@@ -4,17 +4,16 @@ title: WinHttpWebSocketQueryCloseStatus function
 author: windows-sdk-content
 description: Retrieves the close status sent by a server.
 old-location: http\winhttpwebsocketqueryclosestatus.htm
-old-project: WinHttp
+tech.root: WinHttp
 ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINHTTP_WEB_SOCKET_OPERATION
+req.lib: Winhttp.lib
+req.dll: Winhttp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinHttpWebSocketQueryCloseStatus
 product: Windows
 targetos: Windows
-req.lib: Winhttp.lib
-req.dll: Winhttp.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WinHttpWebSocketQueryCloseStatus function

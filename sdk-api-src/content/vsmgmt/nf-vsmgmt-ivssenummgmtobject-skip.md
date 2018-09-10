@@ -4,17 +4,16 @@ title: IVssEnumMgmtObject::Skip
 author: windows-sdk-content
 description: Skips the specified number of objects.
 old-location: base\ivssenummgmtobject_skip.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: ec53ac62-deb3-46f3-947a-1f6a4add4db2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Skip method, IVssEnumMgmtObject.Skip, IVssEnumMgmtObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_skip, vsmgmt/IVssEnumMgmtObject::Skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssEnumMgmtObject.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssEnumMgmtObject::Skip

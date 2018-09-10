@@ -4,17 +4,16 @@ title: IDCompositionDevice::GetFrameStatistics
 author: windows-sdk-content
 description: Retrieves information from the composition engine about composition times and the frame rate.
 old-location: directcomp\idcompositiondevice_getframestatistics.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetFrameStatistics, GetFrameStatistics method [DirectComposition], GetFrameStatistics method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],GetFrameStatistics method, IDCompositionDevice.GetFrameStatistics, IDCompositionDevice::GetFrameStatistics, dcomp/IDCompositionDevice::GetFrameStatistics, directcomp.idcompositiondevice_getframestatistics
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionDevice.GetFrameStatistics
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionDevice::GetFrameStatistics

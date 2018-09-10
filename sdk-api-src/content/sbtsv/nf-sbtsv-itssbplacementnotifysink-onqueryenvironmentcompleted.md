@@ -4,17 +4,16 @@ title: ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the environment specified by the ITsSbClientConnection object is already hosting the correct target.
 old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 937982aa-7655-4681-ba6c-94201743c90c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbPlacementNotifySink interface [Remote Desktop Services],OnQueryEnvironmentCompleted method, ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted, ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted method [Remote Desktop Services], OnQueryEnvironmentCompleted method [Remote Desktop Services],ITsSbPlacementNotifySink interface, sbtsv/ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, termserv.itssbplacementnotifysink_onqueryenvironmentcompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted

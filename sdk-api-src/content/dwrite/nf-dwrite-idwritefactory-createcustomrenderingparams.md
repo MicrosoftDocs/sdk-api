@@ -4,17 +4,16 @@ title: IDWriteFactory::CreateCustomRenderingParams
 author: windows-sdk-content
 description: Creates a rendering parameters object with the specified properties.
 old-location: directwrite\IDWriteFactory_CreateCustomRenderingParams.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 1bfba2c4-755e-4bcf-82e7-610fc6b30be4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory.CreateCustomRenderingParams, IDWriteFactory::CreateCustomRenderingParams, directwrite.IDWriteFactory_CreateCustomRenderingParams, dwrite/IDWriteFactory::CreateCustomRenderingParams
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteFactory.CreateCustomRenderingParams
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteFactory::CreateCustomRenderingParams

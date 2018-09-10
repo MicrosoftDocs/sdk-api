@@ -4,7 +4,7 @@ title: MBN_SMS_CDMA_ENCODING
 author: windows-sdk-content
 description: The MBN_SMS_CDMA_ENCODING enumerated type specifies character encoding types for CDMA.
 old-location: mbn\mbn_sms_cdma_encoding.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c556d615-de98-4d05-86e4-88df84e98258
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_SMS_CDMA_ENCODING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_SMS_CDMA_ENCODING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_SMS_CDMA_ENCODING
+req.redist: 
 ---
 
 # MBN_SMS_CDMA_ENCODING enumeration

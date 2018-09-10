@@ -4,17 +4,16 @@ title: WBEMTimeSpan::IsOk
 author: windows-sdk-content
 description: The IsOk method indicates whether the WBEMTimeSpan object represents a valid time span.
 old-location: wmi\wbemtimespan_isok.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 855b4c2f-5379-4dd9-9638-072e256e955a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],IsOk method, WBEMTimeSpan.IsOk, WBEMTimeSpan::IsOk, _hmm_wbemtimespan_isok, wbemtime/WBEMTimeSpan::IsOk, wmi.wbemtimespan_isok
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: 
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WBEMTimeSpan.IsOk
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WBEMTimeSpan::IsOk

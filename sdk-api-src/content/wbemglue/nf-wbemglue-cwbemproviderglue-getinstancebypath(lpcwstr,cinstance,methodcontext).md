@@ -4,17 +4,16 @@ title: CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext)
 author: windows-sdk-content
 description: The GetInstanceByPath method retrieves the instance identified by a particular object path by calling the provider GetObject method.
 old-location: wmi\cwbemproviderglue_getinstancebypath.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext), CWbemProviderGlue::GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext), GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext)
@@ -73,7 +71,7 @@ The <b>GetInstanceByPath</b> method
 
 ### -param pszObjectPath
 
-
+TBD
 
 
 ### -param ppInstance

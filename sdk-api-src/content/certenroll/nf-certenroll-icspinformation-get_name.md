@@ -4,17 +4,16 @@ title: ICspInformation::get_Name
 author: windows-sdk-content
 description: Retrieves the name.
 old-location: security\icspinformation_name_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ICspInformation.get_Name
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICspInformation::get_Name

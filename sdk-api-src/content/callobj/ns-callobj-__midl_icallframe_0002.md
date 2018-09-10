@@ -4,7 +4,7 @@ title: "__MIDL_ICallFrame_0002"
 author: windows-sdk-content
 description: Provides information about the parameter on the stack.
 old-location: com\callframeparaminfo.htm
-old-project: com
+tech.root: com
 ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Callobj.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CALLFRAMEPARAMINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CALLFRAMEPARAMINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CALLFRAMEPARAMINFO
+req.redist: 
 ---
 
 # __MIDL_ICallFrame_0002 structure

@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::SaveTarget
 author: windows-sdk-content
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStore.SaveTarget, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - ITsSbResourcePluginStoreEx.SaveTarget
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::SaveTarget

@@ -4,7 +4,7 @@ title: NLM_INTERNET_CONNECTIVITY
 author: windows-sdk-content
 description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
 old-location: nla\nlm_internet_connectivity.htm
-old-project: nla
+tech.root: nla
 ms.assetid: 5B1DB4D5-6F69-4628-AEAF-E280E9B4E71C
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NLM_INTERNET_CONNECTIVITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NLM_INTERNET_CONNECTIVITY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: NLM_INTERNET_CONNECTIVITY
+req.redist: 
 ---
 
 # NLM_INTERNET_CONNECTIVITY enumeration

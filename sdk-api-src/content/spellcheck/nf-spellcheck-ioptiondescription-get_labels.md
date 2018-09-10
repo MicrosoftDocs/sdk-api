@@ -4,17 +4,16 @@ title: IOptionDescription::get_Labels
 author: windows-sdk-content
 description: Gets the label enumerator for the spell checker option.
 old-location: intl\ioptiondescription_labels.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: cead418f-2c89-4b7c-a52e-604f5d8685d1
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Labels property, IOptionDescription.Labels, IOptionDescription.get_Labels, IOptionDescription::Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications],IOptionDescription interface, get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WORDLIST_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IOptionDescription.get_Labels
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IOptionDescription::get_Labels

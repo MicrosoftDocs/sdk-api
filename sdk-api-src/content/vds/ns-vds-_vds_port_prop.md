@@ -4,7 +4,7 @@ title: "_VDS_PORT_PROP"
 author: windows-sdk-content
 description: Defines the properties of a port on a controller object.
 old-location: base\vds_port_prop.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_PORT_PROP, *PVDS_PORT_PROP
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_PORT_PROP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_PORT_PROP, *PVDS_PORT_PROP
+req.redist: 
 ---
 
 # _VDS_PORT_PROP structure

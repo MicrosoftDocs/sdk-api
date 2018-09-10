@@ -4,17 +4,16 @@ title: ISelectCOMLBServer::GetLBServer
 author: windows-sdk-content
 description: Retrieves the name of the load balancing server.
 old-location: cos\iselectcomlbserver_getlbserver.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 90b33e42-b26f-4dd8-bd91-939f452b7872
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetLBServer, GetLBServer method [COM+], GetLBServer method [COM+],ISelectCOMLBServer interface, ISelectCOMLBServer interface [COM+],GetLBServer method, ISelectCOMLBServer.GetLBServer, ISelectCOMLBServer::GetLBServer, _cos_ISelectCOMLBServer_GetLBServer, comsvcs/ISelectCOMLBServer::GetLBServer, cos.iselectcomlbserver_getlbserver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ISelectCOMLBServer.GetLBServer
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ISelectCOMLBServer::GetLBServer

@@ -4,7 +4,7 @@ title: WS_FAULT_ERROR_PROPERTY_ID
 author: windows-sdk-content
 description: Information about a fault.
 old-location: wsw\ws_fault_error_property_id.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: f5ae9ee9-18de-428d-9367-aa4a554577ea
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_FAULT_ERROR_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_FAULT_ERROR_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_FAULT_ERROR_PROPERTY_ID
+req.redist: 
 ---
 
 # WS_FAULT_ERROR_PROPERTY_ID enumeration

@@ -4,7 +4,7 @@ title: "_NTMS_LMIDINFORMATION"
 author: windows-sdk-content
 description: The NTMS_LMIDINFORMATION structure defines the properties specific to a logical media object.
 old-location: fs\ntms_lmidinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: f1a003af-101a-4f1f-b644-392e5542e8dd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_LMIDINFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_LMIDINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_LMIDINFORMATION
+req.redist: 
 ---
 
 # _NTMS_LMIDINFORMATION structure

@@ -4,17 +4,16 @@ title: GetComputerNameExA function
 author: windows-sdk-content
 description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 old-location: base\getcomputernameex.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMPUTER_NAME_FORMAT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetComputerNameExW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # GetComputerNameExA function

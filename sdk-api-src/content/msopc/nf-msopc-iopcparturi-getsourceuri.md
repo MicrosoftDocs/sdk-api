@@ -4,17 +4,16 @@ title: IOpcPartUri::GetSourceUri
 author: windows-sdk-content
 description: Gets the source URI of the relationships that are stored in a Relationships part. The current part URI object represents the part name of that Relationships part.
 old-location: opc\iopcparturi_getsourceuri.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],GetSourceUri method, IOpcPartUri.GetSourceUri, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcPartUri.GetSourceUri
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcPartUri::GetSourceUri

@@ -4,17 +4,16 @@ title: RpcErrorSaveErrorInfo function
 author: windows-sdk-content
 description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.
 old-location: rpc\rpcerrorsaveerrorinfo.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_rpcerrorsaveerrorinfo, rpc.rpcerrorsaveerrorinfo, rpcasync/RpcErrorSaveErrorInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_NOTIFICATION_TYPES
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RpcErrorSaveErrorInfo
 product: Windows
 targetos: Windows
-req.lib: Rpcrt4.lib
-req.dll: Rpcrt4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcErrorSaveErrorInfo function

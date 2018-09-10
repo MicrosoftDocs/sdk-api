@@ -4,7 +4,7 @@ title: MF_PLUGIN_CONTROL_POLICY
 author: windows-sdk-content
 description: Defines policy settings for the IMFPluginControl2::SetPolicy method.
 old-location: mf\mf_plugin_control_policy.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: AEA55D69-B3F1-463E-9DEC-B6BF7B9859D6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_PLUGIN_CONTROL_POLICY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_PLUGIN_CONTROL_POLICY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_PLUGIN_CONTROL_POLICY
+req.redist: 
 ---
 
 # MF_PLUGIN_CONTROL_POLICY enumeration

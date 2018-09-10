@@ -4,17 +4,16 @@ title: IMessageDispatcher::PumpMessages
 author: windows-sdk-content
 description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
 old-location: com\imessagedispatcher_pumpmessages.htm
-old-project: com
+tech.root: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDispatcher.PumpMessages, IMessageDispatcher::PumpMessages, PumpMessages, PumpMessages method [COM], PumpMessages method [COM],IMessageDispatcher interface, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imessagedispatcher.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMessageDispatcher.PumpMessages
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMessageDispatcher::PumpMessages

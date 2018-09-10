@@ -4,17 +4,16 @@ title: IXpsOMObjectFactory::CreateGlyphs
 author: windows-sdk-content
 description: Creates an IXpsOMGlyphs interface, which specifies text that appears on a page.
 old-location: xps\ixpsomobjectfactory_createglyphs.htm
-old-project: printdocs
+tech.root: printdocs
 ms.assetid: b97005dc-a79b-4234-b1a9-8fe705aea518
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateGlyphs, CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGlyphs method, IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XPS_INTERLEAVING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXpsOMObjectFactory.CreateGlyphs
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXpsOMObjectFactory::CreateGlyphs

@@ -4,17 +4,16 @@ title: IDCompositionBlendEffect::SetMode
 author: windows-sdk-content
 description: Sets the blend mode to use when the blend effect combines the two images.
 old-location: directcomp\idcompositionblendeffect_setmode.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 61D64543-565B-4E64-B20E-03B1CD0F8FCA
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionBlendEffect interface [DirectComposition],SetMode method, IDCompositionBlendEffect.SetMode, IDCompositionBlendEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionBlendEffect interface, dcomp/IDCompositionBlendEffect::SetMode, directcomp.idcompositionblendeffect_setmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionBlendEffect.SetMode
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionBlendEffect::SetMode

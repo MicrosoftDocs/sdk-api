@@ -4,7 +4,7 @@ title: InkExtractFlags
 author: windows-sdk-content
 description: Determines how a stroke is removed from an InkDisp object.
 old-location: tablet\inkextractflags.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 22dd44bb-2175-420f-b5fd-4648ebe489a5
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InkExtractFlags
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InkExtractFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: InkExtractFlags
+req.redist: 
 ---
 
 # InkExtractFlags enumeration

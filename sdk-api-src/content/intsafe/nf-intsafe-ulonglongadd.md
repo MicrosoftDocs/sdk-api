@@ -4,17 +4,16 @@ title: ULongLongAdd function
 author: windows-sdk-content
 description: Adds two values of type SIZE_T.
 old-location: shell\SIZETAdd_1.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 50acd1fa-fc4b-4e7a-8e88-71fb15eaa3c7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_SIZETAdd, intsafe/SIZETAdd, shell.SIZETAdd, shell.SIZETAdd_1
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SIZETAdd
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ULongLongAdd function

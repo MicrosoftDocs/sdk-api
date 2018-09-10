@@ -4,17 +4,16 @@ title: ldap_get_next_page function
 author: windows-sdk-content
 description: Returns the next page in a sequence of asynchronous paged search results.
 old-location: ldap\ldap_get_next_page.htm
-old-project: ldap
+tech.root: ldap
 ms.assetid: 34ddf4d4-3a89-42e0-850d-fcc1c942cb3b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: "_ldap_ldap_get_next_page, ldap.ldap__get__next__page, ldap.ldap_get_next_page, ldap_get_next_page, ldap_get_next_page function [LDAP], winldap/ldap_get_next_page"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+req.lib: Wldap32.lib
+req.dll: Wldap32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ldap_get_next_page
 product: Windows
 targetos: Windows
-req.lib: Wldap32.lib
-req.dll: Wldap32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ldap_get_next_page function

@@ -4,17 +4,16 @@ title: IVssBackupComponents::AddAlternativeLocationMapping
 author: windows-sdk-content
 description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.AddAlternativeLocationMapping
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::AddAlternativeLocationMapping

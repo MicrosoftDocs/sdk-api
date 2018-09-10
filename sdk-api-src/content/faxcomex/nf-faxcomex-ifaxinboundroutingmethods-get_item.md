@@ -2,19 +2,18 @@
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Item
 title: IFaxInboundRoutingMethods::get_Item
 author: windows-sdk-content
-description: The Item property returns a FaxInboundRoutingMethod object from the FaxInboundRoutingMethods collection.
-old-location: fax\_mfax_faxinboundroutingmethods_item.htm
-old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_6m5p.htm
+description: The IFaxInboundRoutingMethods::get_Item method returns a IFaxInboundRoutingMethod object from the IFaxInboundRoutingMethods collection.
+old-location: fax\_mfax_faxinboundroutingmethods_item_cpp.htm
+tech.root: Fax
+ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxInboundRoutingMethods object [Fax Service],Item property, FaxInboundRoutingMethods.Item, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, Item property [Fax Service], Item property [Fax Service],FaxInboundRoutingMethods object, _mfax_faxinboundroutingmethods.item, fax._mfax_faxinboundroutingmethods_item, get_Item
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get_Item method, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingMethods interface
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,14 +37,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxInboundRoutingMethods.Item
  - IFaxInboundRoutingMethods.get_Item
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxInboundRoutingMethods::get_Item
@@ -53,12 +50,41 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/8eb68201-4c87-41ce-a401-a039b5ad454d">FaxInboundRoutingMethod</a> object from the <a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a> collection.
-
-This property is read-only.
+The <b>IFaxInboundRoutingMethods::get_Item</b> method returns a <a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a> object from the <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> collection.
 
 
 ## -parameters
+
+
+
+
+### -param vIndex [in]
+
+Type: <b>VARIANT</b>
+
+<b>VARIANT</b> that specifies the item to retrieve from the collection. 
+
+                    
+
+If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of the item to retrieve from the collection. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a GUID that identifies the fax routing method to retrieve. Other types are not supported.
+
+
+### -param pFaxInboundRoutingMethod [out, retval]
+
+Type: <b><a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a>**</b>
+
+Address of a pointer to an <a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a> interface.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
 
 
 ## -see-also
@@ -66,7 +92,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>
 
 
 

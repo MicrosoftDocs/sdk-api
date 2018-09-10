@@ -4,17 +4,16 @@ title: ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_B
 author: windows-sdk-content
 description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
 old-location: direct2d\id2d1devicecontext_createbitmapfromdxgisurface.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 76d49be7-b0ac-44a7-aeaf-a7b18346a2bf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CreateBitmapFromDxgiSurface, CreateBitmapFromDxgiSurface method [Direct2D], CreateBitmapFromDxgiSurface method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapFromDxgiSurface method, ID2D1DeviceContext.CreateBitmapFromDxgiSurface, ID2D1DeviceContext.CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromDxgiSurface, ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmapFromDxgiSurface, direct2d.id2d1devicecontext_createbitmapfromdxgisurface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_UNIT_MODE
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1DeviceContext.CreateBitmapFromDxgiSurface
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1)

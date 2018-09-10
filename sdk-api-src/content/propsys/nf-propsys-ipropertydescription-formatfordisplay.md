@@ -4,17 +4,16 @@ title: IPropertyDescription::FormatForDisplay
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertyDescription_FormatForDisplay.htm
-old-project: properties
+tech.root: properties
 ms.assetid: c900fce9-4462-4429-a5a1-9f0d1e73c681
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],FormatForDisplay method, IPropertyDescription.FormatForDisplay, IPropertyDescription::FormatForDisplay, properties.IPropertyDescription_FormatForDisplay, propsys/IPropertyDescription::FormatForDisplay, shell.IPropertyDescription_FormatForDisplay, shell_IPropertyDescription_FormatForDisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyDescription.FormatForDisplay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyDescription::FormatForDisplay
@@ -76,7 +74,7 @@ One or more of the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</
 
 ### -param ppszDisplay
 
-
+TBD
 
 
 

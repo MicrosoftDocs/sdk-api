@@ -4,7 +4,7 @@ title: "_SEC_WINNT_AUTH_IDENTITY_EX2"
 author: windows-sdk-content
 description: Contains information about an authentication identity.
 old-location: security\sec_winnt_auth_identity_ex2.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: a6083d76-1774-428c-85ca-fea817827d6a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SEC_WINNT_AUTH_IDENTITY_EX2, *PSEC_WINNT_AUTH_IDENTITY_EX2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SEC_WINNT_AUTH_IDENTITY_EX2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: SEC_WINNT_AUTH_IDENTITY_EX2, *PSEC_WINNT_AUTH_IDENTITY_EX2
+req.redist: 
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_EX2 structure

@@ -4,17 +4,16 @@ title: ISensLogon::Logon
 author: windows-sdk-content
 description: The Logon method notifies an application that a user is logged on.
 old-location: sens\isenslogon_logon.htm
-old-project: Sens
+tech.root: Sens
 ms.assetid: 76a811a2-70c4-4dda-99c0-1578e9402a3b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensLogon interface [SENS],Logon method, ISensLogon.Logon, ISensLogon::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon interface, _zaw_isenslogon_logon, sens.isenslogon_logon, sensevts/ISensLogon::Logon, syncmgr.isenslogon_logon
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: Sensevts.tlb
-tech.root: 
-req.typenames: QOCINFO, *LPQOCINFO
+req.lib: 
+req.dll: Sens.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensLogon.Logon
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sens.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensLogon::Logon

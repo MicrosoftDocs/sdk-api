@@ -4,17 +4,16 @@ title: InterlockedIncrement function
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockedincrement.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - InterlockedIncrement
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedIncrement function

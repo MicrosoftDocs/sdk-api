@@ -4,7 +4,7 @@ title: HANDLE_SHARING_OPTIONS
 author: windows-sdk-content
 description: Defines the requested sharing mode of the file handle.
 old-location: winrt\handle_sharing_options.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 2CF1B6A9-6B6F-4413-8D76-B2F7A9D6D02E
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: windowsstoragecom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: HANDLE_SHARING_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - HANDLE_SHARING_OPTIONS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MpClient.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: HANDLE_SHARING_OPTIONS
+req.redist: 
 ---
 
 # HANDLE_SHARING_OPTIONS enumeration

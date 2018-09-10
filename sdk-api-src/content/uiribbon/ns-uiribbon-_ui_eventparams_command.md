@@ -4,7 +4,7 @@ title: "_UI_EVENTPARAMS_COMMAND"
 author: windows-sdk-content
 description: Contains information about a Command associated with a event.
 old-location: windowsribbon\ui_eventparams_command_.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: 7B1E92E2-DFFE-4B4F-87F1-1BFBD8E06D08
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Uiribbon.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UI_EVENTPARAMS_COMMAND
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: UI_EVENTPARAMS_COMMAND
+req.redist: 
 ---
 
 # _UI_EVENTPARAMS_COMMAND structure

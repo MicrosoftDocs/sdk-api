@@ -4,17 +4,16 @@ title: ITTAPI::SetAssistedTelephonyPriority
 author: windows-sdk-content
 description: The SetAssistedTelephonyPriority method sets the application priority to handle assisted telephony requests.
 old-location: tapi3\ittapi_setassistedtelephonypriority.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 446fd541-30af-45de-85fa-d6655317362c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetAssistedTelephonyPriority method, ITTAPI.SetAssistedTelephonyPriority, ITTAPI::SetAssistedTelephonyPriority, SetAssistedTelephonyPriority, SetAssistedTelephonyPriority method [TAPI 2.2], SetAssistedTelephonyPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setassistedtelephonypriority, tapi3.ittapi_setassistedtelephonypriority, tapi3if/ITTAPI::SetAssistedTelephonyPriority
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTAPI.SetAssistedTelephonyPriority
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTAPI::SetAssistedTelephonyPriority

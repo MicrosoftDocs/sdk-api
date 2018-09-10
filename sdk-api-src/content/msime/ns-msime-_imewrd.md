@@ -4,7 +4,7 @@ title: "_IMEWRD"
 author: windows-sdk-content
 description: Contains data about a word in the Word data of the Microsoft IME dictionary.
 old-location: intl\imewrd.htm
-old-project: Intl
+tech.root: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMEWRD, *PIMEWRD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMEWRD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: IMEWRD, *PIMEWRD
+req.redist: 
 ---
 
 # _IMEWRD structure

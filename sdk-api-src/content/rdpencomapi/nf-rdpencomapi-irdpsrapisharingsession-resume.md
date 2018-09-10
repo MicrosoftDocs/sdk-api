@@ -4,17 +4,16 @@ title: IRDPSRAPISharingSession::Resume
 author: windows-sdk-content
 description: Causes the graphics stream that is sent to all viewers from the sharer to resume until either IRDPSRAPISharingSession::Pause or IRDPSRAPISharingSession::Close is called.
 old-location: rdp\irdpsrapisharingsession_resume.htm
-old-project: Rdp
+tech.root: Rdp
 ms.assetid: 3e99d514-a6fe-4855-99ab-9ab2b5cbcc9b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Resume method, IRDPSRAPISharingSession.Resume, IRDPSRAPISharingSession2 interface [RDP],Resume method, IRDPSRAPISharingSession2::Resume, IRDPSRAPISharingSession::Resume, Resume, Resume method [RDP], Resume method [RDP],IRDPSRAPISharingSession interface, Resume method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_resume, rdpencomapi/IRDPSRAPISharingSession2::Resume, rdpencomapi/IRDPSRAPISharingSession::Resume
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: RdpEncomAPI.tlb
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: RdpEncom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRDPSRAPISharingSession.Resume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: RdpEncom.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IRDPSRAPISharingSession::Resume

@@ -4,17 +4,16 @@ title: ResUtilFindLongProperty function
 author: windows-sdk-content
 description: Locates a signed long property value in a property list. The PRESUTIL_FIND_LONG_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindlongproperty.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 6f75be85-37ef-4e2b-a588-bc1238cd8760
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY function [Failover Cluster], ResUtilFindLongProperty, ResUtilFindLongProperty function [Failover Cluster], _wolf_resutilfindlongproperty, mscs.resutilfindlongproperty, resapi/PRESUTIL_FIND_LONG_PROPERTY, resapi/ResUtilFindLongProperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RESOURCE_EXIT_STATE
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResUtilFindLongProperty
 product: Windows
 targetos: Windows
-req.lib: ResUtils.lib
-req.dll: ResUtils.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResUtilFindLongProperty function

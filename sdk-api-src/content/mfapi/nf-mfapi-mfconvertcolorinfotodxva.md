@@ -4,17 +4,16 @@ title: MFConvertColorInfoToDXVA function
 author: windows-sdk-content
 description: Converts the extended color information from an MFVIDEOFORMAT to the equivalent DirectX Video Acceleration (DXVA) color information.
 old-location: mf\mfconvertcolorinfotodxva.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 52a3be2b-f715-4e12-9f69-6a832153ff5e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFConvertColorInfoToDXVA function [Media Foundation], mf.mfconvertcolorinfotodxva, mfapi/MFConvertColorInfoToDXVA
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Evr.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFConvertColorInfoToDXVA
 product: Windows
 targetos: Windows
-req.lib: Evr.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFConvertColorInfoToDXVA function

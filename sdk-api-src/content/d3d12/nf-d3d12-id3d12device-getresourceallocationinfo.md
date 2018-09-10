@@ -4,17 +4,16 @@ title: ID3D12Device::GetResourceAllocationInfo
 author: windows-sdk-content
 description: Gets the size and alignment of memory required for a collection of resources on this adapter.
 old-location: direct3d12\id3d12device_getresourceallocationinfo.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 43467E09-835B-4DB9-B0A4-F75868DE4609
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetResourceAllocationInfo, GetResourceAllocationInfo method, GetResourceAllocationInfo method,ID3D12Device interface, ID3D12Device interface,GetResourceAllocationInfo method, ID3D12Device.GetResourceAllocationInfo, ID3D12Device::GetResourceAllocationInfo, d3d12/ID3D12Device::GetResourceAllocationInfo, direct3d12.id3d12device_getresourceallocationinfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D_SHADER_MODEL
+req.lib: D3D12.lib
+req.dll: D3D12.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D12Device.GetResourceAllocationInfo
 product: Windows
 targetos: Windows
-req.lib: D3D12.lib
-req.dll: D3D12.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D12Device::GetResourceAllocationInfo

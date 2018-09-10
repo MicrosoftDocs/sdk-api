@@ -4,7 +4,7 @@ title: PROPDESC_FORMAT_FLAGS
 author: windows-sdk-content
 description: Used by property description helper functions, such as PSFormatForDisplay, to indicate the format of a property string.
 old-location: properties\PROPDESC_FORMAT_FLAGS.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 4425d97f-2530-40d4-ba1a-06bc85f2f567
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPDESC_FORMAT_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPDESC_FORMAT_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: PROPDESC_FORMAT_FLAGS
+req.redist: 
 ---
 
 # PROPDESC_FORMAT_FLAGS enumeration

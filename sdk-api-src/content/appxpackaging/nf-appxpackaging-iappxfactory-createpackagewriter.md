@@ -4,17 +4,16 @@ title: IAppxFactory::CreatePackageWriter
 author: windows-sdk-content
 description: Creates a write-only package object to which files can be added.
 old-location: appxpkg\iappxfactory_createpackagewriter.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 10E9250E-7A64-4FB0-ACB9-10CB144A0FBE
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: CreatePackageWriter, CreatePackageWriter method [App packaging and management], CreatePackageWriter method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageWriter method, IAppxFactory.CreatePackageWriter, IAppxFactory::CreatePackageWriter, appxpackaging/IAppxFactory::CreatePackageWriter, appxpkg.iappxfactory_createpackagewriter
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxFactory.CreatePackageWriter
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxFactory::CreatePackageWriter

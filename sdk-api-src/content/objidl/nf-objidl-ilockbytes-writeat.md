@@ -4,17 +4,16 @@ title: ILockBytes::WriteAt
 author: windows-sdk-content
 description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
 old-location: stg\ilockbytes_writeat.htm
-old-project: Stg
+tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: Uuid.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ILockBytes.WriteAt
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Ole32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ILockBytes::WriteAt

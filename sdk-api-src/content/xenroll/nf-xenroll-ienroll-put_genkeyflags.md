@@ -4,17 +4,16 @@ title: IEnroll::put_GenKeyFlags
 author: windows-sdk-content
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GenKeyFlags property [Security], GenKeyFlags property [Security],IEnroll interface, IEnroll interface [Security],GenKeyFlags property, IEnroll.GenKeyFlags, IEnroll.put_GenKeyFlags, IEnroll::GenKeyFlags, IEnroll::get_GenKeyFlags, IEnroll::put_GenKeyFlags, put_GenKeyFlags, security.ienroll4_genkeyflags, xenroll/IEnroll::GenKeyFlags, xenroll/IEnroll::get_GenKeyFlags, xenroll/IEnroll::put_GenKeyFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEnroll.put_GenKeyFlags
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll::put_GenKeyFlags

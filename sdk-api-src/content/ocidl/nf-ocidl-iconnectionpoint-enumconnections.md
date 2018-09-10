@@ -4,17 +4,16 @@ title: IConnectionPoint::EnumConnections
 author: windows-sdk-content
 description: Creates an enumerator object to iterate through the current connections for this connection point.
 old-location: com\iconnectionpoint_enumconnections.htm
-old-project: com
+tech.root: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IConnectionPoint.EnumConnections
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IConnectionPoint::EnumConnections

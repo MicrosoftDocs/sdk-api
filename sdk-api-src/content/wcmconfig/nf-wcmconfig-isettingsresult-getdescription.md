@@ -4,17 +4,16 @@ title: ISettingsResult::GetDescription
 author: windows-sdk-content
 description: Returns the description of the error.
 old-location: smi\isettingsresult_getdescription.htm
-old-project: SMI
+tech.root: SMI
 ms.assetid: d020bd46-8967-4105-856d-ee448b527852
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetDescription, GetDescription method [SMI], GetDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetDescription method, ISettingsResult.GetDescription, ISettingsResult::GetDescription, smi.isettingsresult_getdescription, wcmconfig/ISettingsResult::GetDescription
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WcmNamespaceAccess
+req.lib: 
+req.dll: SMIEngine.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISettingsResult.GetDescription
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SMIEngine.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISettingsResult::GetDescription

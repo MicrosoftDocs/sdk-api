@@ -4,17 +4,16 @@ title: SnmpEncodeMsg function
 author: windows-sdk-content
 description: The Microsoft WinSNMP implementation uses the parameters passed in the WinSNMP SnmpEncodeMsg function to encode an SNMP message.
 old-location: snmp\snmpencodemsg.htm
-old-project: SNMP
+tech.root: SNMP
 ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SnmpEncodeMsg, SnmpEncodeMsg function [SNMP], _snmp_snmpencodemsg, snmp.snmpencodemsg, winsnmp/SnmpEncodeMsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
+req.lib: Wsnmp32.lib
+req.dll: Wsnmp32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SnmpEncodeMsg
 product: Windows
 targetos: Windows
-req.lib: Wsnmp32.lib
-req.dll: Wsnmp32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SnmpEncodeMsg function

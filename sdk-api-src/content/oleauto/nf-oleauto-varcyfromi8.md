@@ -4,17 +4,16 @@ title: VarCyFromI8 function
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a currency value.
 old-location: automat\varcyfromi8.htm
-old-project: automat
+tech.root: automat
 ms.assetid: 2018dd99-a581-4d9f-a8de-e877970bc27e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: VarCyFromI8, VarCyFromI8 function [Automation], _oa96_VarCyFromI8, automat.varcyfromi8, oleauto/VarCyFromI8
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGKIND
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VarCyFromI8
 product: Windows
 targetos: Windows
-req.lib: OleAut32.lib
-req.dll: OleAut32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # VarCyFromI8 function

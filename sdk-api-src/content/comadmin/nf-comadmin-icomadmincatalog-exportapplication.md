@@ -4,17 +4,16 @@ title: ICOMAdminCatalog::ExportApplication
 author: windows-sdk-content
 description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
 old-location: cos\icomadmincatalog_exportapplication.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication, ExportApplication method [COM+], ExportApplication method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],ExportApplication method, ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog.ExportApplication
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog::ExportApplication

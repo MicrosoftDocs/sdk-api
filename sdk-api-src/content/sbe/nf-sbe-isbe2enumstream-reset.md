@@ -4,17 +4,16 @@ title: ISBE2EnumStream::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: mstv\isbe2enumstream_reset.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: db74d4b5-6564-4fbe-9ea3-0c373be4af44
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Reset method, ISBE2EnumStream.Reset, ISBE2EnumStream::Reset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_reset, sbe/ISBE2EnumStream::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: STREAMBUFFER_ATTR_DATATYPE
+req.lib: 
+req.dll: Sbe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISBE2EnumStream.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Sbe.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISBE2EnumStream::Reset

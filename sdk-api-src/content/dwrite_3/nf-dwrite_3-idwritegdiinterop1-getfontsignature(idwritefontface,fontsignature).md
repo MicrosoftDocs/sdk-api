@@ -4,17 +4,16 @@ title: IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE)
 author: windows-sdk-content
 description: Reads the font signature from the given font.
 old-location: directwrite\idwritegdiinterop1_getfontsignature.htm
-old-project: DirectWrite
+tech.root: DirectWrite
 ms.assetid: 205EC8E6-233B-4ADB-B6B5-E052CF75277A
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFontSignature, GetFontSignature method [Direct Write], GetFontSignature method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetFontSignature method, IDWriteGdiInterop1.GetFontSignature, IDWriteGdiInterop1.GetFontSignature(IDWriteFontFace,FONTSIGNATURE), IDWriteGdiInterop1::GetFontSignature, IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE), directwrite.idwritegdiinterop1_getfontsignature, dwrite_3/IDWriteGdiInterop1::GetFontSignature
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDWriteGdiInterop1.GetFontSignature
 product: Windows
 targetos: Windows
-req.lib: Dwrite.lib
-req.dll: Dwrite.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDWriteGdiInterop1::GetFontSignature(IDWriteFontFace,FONTSIGNATURE)
@@ -62,7 +60,7 @@ Reads the font signature from the given font.
 
 ### -param fontFace
 
-
+TBD
 
 
 ### -param fontSignature [out]

@@ -4,17 +4,16 @@ title: IVMRAspectRatioControl9::SetAspectRatioMode
 author: windows-sdk-content
 description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_setaspectratiomode.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: adc34013-a349-4cf6-b5c2-58b7b212d630
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl9.SetAspectRatioMode, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceTech
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRAspectRatioControl9.SetAspectRatioMode
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRAspectRatioControl9::SetAspectRatioMode
@@ -66,7 +64,7 @@ The <code>SetAspectRatioMode</code> method specifies whether the VMR preserves t
 
 ### -param dwARMode
 
-
+TBD
 
 
 

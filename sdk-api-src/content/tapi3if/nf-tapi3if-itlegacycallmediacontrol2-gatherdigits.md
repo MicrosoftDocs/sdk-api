@@ -4,17 +4,16 @@ title: ITLegacyCallMediaControl2::GatherDigits
 author: windows-sdk-content
 description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.
 old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: GatherDigits, GatherDigits method [TAPI 2.2], GatherDigits method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GatherDigits method, ITLegacyCallMediaControl2.GatherDigits, ITLegacyCallMediaControl2::GatherDigits, _tapi3_itlegacycallmediacontrol2_gatherdigits, tapi3.itlegacycallmediacontrol2_gatherdigits, tapi3if/ITLegacyCallMediaControl2::GatherDigits
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITLegacyCallMediaControl2.GatherDigits
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITLegacyCallMediaControl2::GatherDigits

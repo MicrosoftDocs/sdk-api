@@ -4,7 +4,7 @@ title: "_CRYPT_X942_OTHER_INFO"
 author: windows-sdk-content
 description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
 old-location: security\crypt_x942_other_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRYPT_X942_OTHER_INFO, *PCRYPT_X942_OTHER_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRYPT_X942_OTHER_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRYPT_X942_OTHER_INFO, *PCRYPT_X942_OTHER_INFO
+req.redist: 
 ---
 
 # _CRYPT_X942_OTHER_INFO structure

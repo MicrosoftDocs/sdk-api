@@ -4,17 +4,16 @@ title: SCardGetStatusChangeW function
 author: windows-sdk-content
 description: Blocks execution until the current availability of the cards in a specific set of readers changes.
 old-location: security\scardgetstatuschange.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Winscard.lib
+req.dll: Winscard.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - SCardGetStatusChangeW
 product: Windows
 targetos: Windows
-req.lib: Winscard.lib
-req.dll: Winscard.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SCardGetStatusChangeW function

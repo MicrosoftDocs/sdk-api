@@ -4,17 +4,16 @@ title: IPropertyPage::Activate
 author: windows-sdk-content
 description: Creates the dialog box window for the property page.
 old-location: com\ipropertypage_activate.htm
-old-project: com
+tech.root: com
 ms.assetid: 4756d06d-0ffc-4214-9c2b-d9cb169b4337
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Activate, Activate method [COM], Activate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Activate method, IPropertyPage.Activate, IPropertyPage::Activate, _ctrl_ipropertypage_activate, com.ipropertypage_activate, ocidl/IPropertyPage::Activate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertyPage.Activate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPropertyPage::Activate

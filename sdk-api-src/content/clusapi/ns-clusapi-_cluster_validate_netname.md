@@ -4,7 +4,7 @@ title: "_CLUSTER_VALIDATE_NETNAME"
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_netname.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: c524d6cf-85f7-451b-b7d4-9497a2c2f0b0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_VALIDATE_NETNAME, *PCLUSTER_VALIDATE_NETNAME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSTER_VALIDATE_NETNAME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSTER_VALIDATE_NETNAME, *PCLUSTER_VALIDATE_NETNAME
+req.redist: 
 ---
 
 # _CLUSTER_VALIDATE_NETNAME structure

@@ -4,17 +4,16 @@ title: ITCallingCard::get_CardName
 author: windows-sdk-content
 description: The get_CardName method gets the friendly name for the calling card.
 old-location: tapi3\itcallingcard_get_cardname.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: d971d5ef-30d0-42a4-9a23-5b1388a0cb26
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_CardName method, ITCallingCard.get_CardName, ITCallingCard::get_CardName, _tapi3_itcallingcard_get_cardname, get_CardName, get_CardName method [TAPI 2.2], get_CardName method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_cardname, tapi3if/ITCallingCard::get_CardName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITCallingCard.get_CardName
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITCallingCard::get_CardName

@@ -4,17 +4,16 @@ title: IMbnRegistration::GetRegisterState
 author: windows-sdk-content
 description: Gets the registration state.
 old-location: mbn\imbnregistration_getregisterstate.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 19488f2e-0cec-4e87-a32a-274e82cd8766
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetRegisterState, GetRegisterState method [Microsoft Broadband Networks], GetRegisterState method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterState method, IMbnRegistration.GetRegisterState, IMbnRegistration::GetRegisterState, mbn.imbnregistration_getregisterstate, mbnapi/IMbnRegistration::GetRegisterState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnRegistration.GetRegisterState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnRegistration::GetRegisterState

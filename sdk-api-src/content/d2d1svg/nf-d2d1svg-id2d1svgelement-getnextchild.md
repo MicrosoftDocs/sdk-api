@@ -4,17 +4,16 @@ title: ID2D1SvgElement::GetNextChild
 author: windows-sdk-content
 description: Gets the next sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getnextchild.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 41D48F64-3C90-4CB1-91F5-32FC04042471
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetNextChild, GetNextChild method [Direct2D], GetNextChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetNextChild method, ID2D1SvgElement.GetNextChild, ID2D1SvgElement::GetNextChild, d2d1svg/ID2D1SvgElement::GetNextChild, direct2d.id2d1svgelement_getnextchild
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_SVG_VISIBILITY
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID2D1SvgElement.GetNextChild
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Direct2d.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID2D1SvgElement::GetNextChild

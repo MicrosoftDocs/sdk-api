@@ -4,17 +4,16 @@ title: IPMT::GetProgramNumber
 author: windows-sdk-content
 description: The GetProgramNumber method returns the program number for the PMT.
 old-location: mstv\ipmt_getprogramnumber.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 39006f8b-7dd4-4f19-badc-3a288a7b6520
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetProgramNumber method, IPMT.GetProgramNumber, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPMT.GetProgramNumber
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IPMT::GetProgramNumber

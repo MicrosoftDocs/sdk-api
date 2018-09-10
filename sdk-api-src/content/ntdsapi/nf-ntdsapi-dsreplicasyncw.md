@@ -4,17 +4,16 @@ title: DsReplicaSyncW function
 author: windows-sdk-content
 description: Synchronizes a destination naming context (NC) with one of its sources.
 old-location: ad\dsreplicasync.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 20c7f96d-f298-4321-a6f5-910c25e418db
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DS_REPSYNC_ADD_REFERENCE, DS_REPSYNC_ALL_SOURCES, DS_REPSYNC_ASYNCHRONOUS_OPERATION, DS_REPSYNC_FORCE, DS_REPSYNC_FULL, DS_REPSYNC_INTERSITE_MESSAGING, DS_REPSYNC_NO_DISCARD, DS_REPSYNC_PERIODIC, DS_REPSYNC_URGENT, DS_REPSYNC_WRITEABLE, DsReplicaSync, DsReplicaSync function [Active Directory], DsReplicaSyncA, DsReplicaSyncW, _glines_dsreplicasync, ad.dsreplicasync, ntdsapi/DsReplicaSync, ntdsapi/DsReplicaSyncA, ntdsapi/DsReplicaSyncW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_REPL_OP_TYPE
+req.lib: Ntdsapi.lib
+req.dll: Ntdsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DsReplicaSyncW
 product: Windows
 targetos: Windows
-req.lib: Ntdsapi.lib
-req.dll: Ntdsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # DsReplicaSyncW function

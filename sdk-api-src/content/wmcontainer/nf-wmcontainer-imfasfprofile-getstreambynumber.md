@@ -4,17 +4,16 @@ title: IMFASFProfile::GetStreamByNumber
 author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
 old-location: mf\imfasfprofile_getstreambynumber.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamByNumber method, IMFASFProfile.GetStreamByNumber, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSINK_WMDRMACTION
+req.lib: Mfuuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFASFProfile.GetStreamByNumber
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IMFASFProfile::GetStreamByNumber

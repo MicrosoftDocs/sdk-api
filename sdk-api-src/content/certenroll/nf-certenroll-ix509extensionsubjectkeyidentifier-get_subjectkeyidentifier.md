@@ -4,17 +4,16 @@ title: IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier
 author: windows-sdk-content
 description: Retrieves a byte array that contains the key identifier.
 old-location: security\ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: b055197c-d659-4b92-92b2-b7955beac08a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],SubjectKeyIdentifier property, IX509ExtensionSubjectKeyIdentifier.SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, SubjectKeyIdentifier property [Security], SubjectKeyIdentifier property [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, certenroll/IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, get_SubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier

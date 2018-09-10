@@ -4,17 +4,16 @@ title: CInstance::SetDWORD
 author: windows-sdk-content
 description: The SetDWORD method sets a DWORD property.
 old-location: wmi\cinstance_setdword.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 06b2ab13-b42d-4dfe-83f2-ecc526977b92
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?SetDWORD@CInstance@@QAE_NPBGK@Z, ?SetDWORD@CInstance@@QEAA_NPEBGK@Z, CInstance interface [Windows Management Instrumentation],SetDWORD method, CInstance.SetDWORD, CInstance::SetDWORD, SetDWORD, SetDWORD method [Windows Management Instrumentation], SetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdword, instance/CInstance::SetDWORD, wmi.cinstance_setdword"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?SetDWORD@CInstance@@QEAA_NPEBGK@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetDWORD

@@ -4,17 +4,16 @@ title: IBackgroundCopyCallback2::FileTransferred
 author: windows-sdk-content
 description: BITS calls your implementation of the FileTransferred method when BITS successfully finishes transferring a file.
 old-location: bits\ibackgroundcopycallback2_filetransferred.htm
-old-project: bits
+tech.root: bits
 ms.assetid: c7e22911-9c14-48ef-8283-f0787b089432
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred method [BITS],IBackgroundCopyCallback2 interface, IBackgroundCopyCallback2 interface [BITS],FileTransferred method, IBackgroundCopyCallback2.FileTransferred, IBackgroundCopyCallback2::FileTransferred, bits.ibackgroundcopycallback2_filetransferred, bits3_0/IBackgroundCopyCallback2::FileTransferred
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyCallback2.FileTransferred
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyCallback2::FileTransferred

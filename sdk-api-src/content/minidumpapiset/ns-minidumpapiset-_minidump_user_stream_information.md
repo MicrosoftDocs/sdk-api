@@ -4,7 +4,7 @@ title: "_MINIDUMP_USER_STREAM_INFORMATION"
 author: windows-sdk-content
 description: Contains a list of user data streams used by the MiniDumpWriteDump function.
 old-location: base\minidump_user_stream_information_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 2a6b20ee-83cb-4000-b00a-61c4ab513205
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_USER_STREAM_INFORMATION, *PMINIDUMP_USER_STREAM_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_USER_STREAM_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_USER_STREAM_INFORMATION, *PMINIDUMP_USER_STREAM_INFORMATION
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_USER_STREAM_INFORMATION structure

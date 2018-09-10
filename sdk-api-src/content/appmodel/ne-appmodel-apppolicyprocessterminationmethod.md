@@ -4,7 +4,7 @@ title: AppPolicyProcessTerminationMethod
 author: windows-sdk-content
 description: The AppPolicyProcessTerminationMethod enumeration indicates the method used to end a process.
 old-location: appxpkg\apppolicyprocessterminationmethod_enumeration.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 874B576A-1AB5-4712-BF04-0406E5FE4923
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmodel.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AppPolicyProcessTerminationMethod
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AppPolicyProcessTerminationMethod
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AppPolicyProcessTerminationMethod
+req.redist: 
 ---
 
 # AppPolicyProcessTerminationMethod enumeration

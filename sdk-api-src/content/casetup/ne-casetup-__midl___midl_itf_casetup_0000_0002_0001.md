@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_casetup_0000_0002_0001"
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a certification authority (CA) role when using the ICertSrvSetup interface.
 old-location: security\icertsrvsetup_casetupproperty.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 2245ad2f-89ca-4478-91d0-cbd7a0648479
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: casetup.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CameraUIControl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CASetupProperty
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CASetupProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CASetupProperty
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_casetup_0000_0002_0001 enumeration

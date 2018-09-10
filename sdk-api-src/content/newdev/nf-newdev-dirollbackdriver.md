@@ -4,17 +4,16 @@ title: DiRollbackDriver function
 author: windows-sdk-content
 description: The DiRollbackDriver function rolls back the driver that is installed on a specified device.
 old-location: devinst\dirollbackdriver.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 12296991-cbf9-421e-a16e-ca8a22fc29a1
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: DiRollbackDriver, DiRollbackDriver function [Device and Driver Installation], devinst.dirollbackdriver, di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml, newdev/DiRollbackDriver
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
+req.lib: Newdev.lib
+req.dll: Newdev.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DiRollbackDriver
 product: Windows
 targetos: Windows
-req.lib: Newdev.lib
-req.dll: Newdev.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # DiRollbackDriver function

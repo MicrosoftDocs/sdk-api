@@ -4,17 +4,16 @@ title: IMSVidVideoRenderer2::SetAllocator
 author: windows-sdk-content
 description: The SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.
 old-location: mstv\imsvidvideorenderer2_setallocator.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: c73edfea-bafd-4640-9be6-45e5a2bb81ef
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVideoRenderer2.SetAllocator, IMSVidVideoRenderer2::SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_setallocator, segment/IMSVidVideoRenderer2::SetAllocator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidVideoRenderer2.SetAllocator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidVideoRenderer2::SetAllocator
@@ -62,7 +60,7 @@ The <b>SetAllocator</b> method specifies an allocator-presenter for the VMR. App
 
 ### -param AllocPresent
 
-
+TBD
 
 
 ### -param ID [in]

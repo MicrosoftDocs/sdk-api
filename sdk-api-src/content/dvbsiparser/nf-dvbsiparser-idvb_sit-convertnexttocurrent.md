@@ -4,17 +4,16 @@ title: IDVB_SIT::ConvertNextToCurrent
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_convertnexttocurrent.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: d1f3fcd9-e386-4a7d-aa46-2c8628d3f71f
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_SIT.ConvertNextToCurrent, IDVB_SIT::ConvertNextToCurrent, IDVB_SITConvertNextToCurrent, dvbsiparser/IDVB_SIT::ConvertNextToCurrent, mstv.idvb_sit_convertnexttocurrent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_SIT.ConvertNextToCurrent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_SIT::ConvertNextToCurrent

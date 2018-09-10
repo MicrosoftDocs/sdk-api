@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxDoc.get_SenderTitle
 title: IFaxDoc::get_SenderTitle
 author: windows-sdk-content
 description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.
-old-location: fax\_mfax_ifaxdoc_get_sendertitle_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3obp.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: FaxDoc object [Fax Service],SenderTitle property, FaxDoc.SenderTitle, IFaxDoc.get_SenderTitle, IFaxDoc::get_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle_vb, get_SenderTitle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: IFaxDoc interface [Fax Service],SenderTitle property, IFaxDoc.SenderTitle, IFaxDoc.get_SenderTitle, IFaxDoc::SenderTitle, IFaxDoc::get_SenderTitle, IFaxDoc::put_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendertitle_cpp, faxcom/IFaxDoc::SenderTitle, faxcom/IFaxDoc::get_SenderTitle, faxcom/IFaxDoc::put_SenderTitle, get_SenderTitle
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxDoc.SenderTitle
+ - IFaxDoc.SenderTitle
+ - IFaxDoc.get_SenderTitle
+ - IFaxDoc.put_SenderTitle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxDoc::get_SenderTitle
@@ -81,10 +81,6 @@ The <b>get_SenderTitle</b> method allocates the memory required for the buffer p
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/6bf5be89-efc8-41e7-bde9-0c0ba7f0e61c">FaxDoc</a>
 
 
 

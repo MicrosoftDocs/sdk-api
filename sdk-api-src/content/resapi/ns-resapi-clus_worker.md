@@ -4,7 +4,7 @@ title: CLUS_WORKER
 author: windows-sdk-content
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_WORKER, *PCLUS_WORKER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CLUS_WORKER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: CLUS_WORKER, *PCLUS_WORKER
+req.redist: 
 ---
 
 # CLUS_WORKER structure

@@ -4,17 +4,16 @@ title: SLGetGenuineInformation function
 author: windows-sdk-content
 description: Gets information about the genuine state of a Windows computer.
 old-location: security\slgetgenuineinformation.htm
-old-project: SecSLApi
+tech.root: SecSLApi
 ms.assetid: 8dcc6ef1-1839-49c6-8119-1e3a8135fce2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SLGetGenuineInformation, SLGetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, SL_GENUINE_RESULT, SL_NONGENUINE_GRACE_FLAG, security.slgetgenuineinformation, slpublic/SLGetGenuineInformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SL_ACTIVATION_TYPE
+req.lib: Slc.lib
+req.dll: Slc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SLGetGenuineInformation
 product: Windows
 targetos: Windows
-req.lib: Slc.lib
-req.dll: Slc.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # SLGetGenuineInformation function

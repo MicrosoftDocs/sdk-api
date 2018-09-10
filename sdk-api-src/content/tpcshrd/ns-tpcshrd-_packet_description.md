@@ -4,7 +4,7 @@ title: "_PACKET_DESCRIPTION"
 author: windows-sdk-content
 description: Describes the content of the packet for a particular tablet recognizer context.Do not use this structure to access the data contained in a packet. This structure describes the content of the packet.
 old-location: tablet\packet_description.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 6823f2c6-2c99-4b9a-8208-041fc1f7bf82
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PACKET_DESCRIPTION, *PPACKET_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PACKET_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PACKET_DESCRIPTION, *PPACKET_DESCRIPTION
+req.redist: 
 ---
 
 # _PACKET_DESCRIPTION structure

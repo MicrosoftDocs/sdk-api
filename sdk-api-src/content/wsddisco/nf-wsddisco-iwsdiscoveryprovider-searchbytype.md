@@ -4,17 +4,16 @@ title: IWSDiscoveryProvider::SearchByType
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device type.
 old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDiscoveryProvider.SearchByType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDiscoveryProvider::SearchByType

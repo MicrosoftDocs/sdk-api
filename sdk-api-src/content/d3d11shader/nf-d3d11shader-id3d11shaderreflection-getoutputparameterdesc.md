@@ -4,17 +4,16 @@ title: ID3D11ShaderReflection::GetOutputParameterDesc
 author: windows-sdk-content
 description: Get an output-parameter description for a shader.
 old-location: direct3d11\id3d11shaderreflection_getoutputparameterdesc.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 7fc27fae-d17a-4247-bd79-e02956890efd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method [Direct3D 11], GetOutputParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetOutputParameterDesc method, ID3D11ShaderReflection.GetOutputParameterDesc, ID3D11ShaderReflection::GetOutputParameterDesc, c79e62b5-e5fb-6a0f-07c6-439fa953073b, d3d11shader/ID3D11ShaderReflection::GetOutputParameterDesc, direct3d11.id3d11shaderreflection_getoutputparameterdesc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_SHADER_VERSION_TYPE
+req.lib: D3DCompiler.lib
+req.dll: D3DCompiler_47.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11ShaderReflection.GetOutputParameterDesc
 product: Windows
 targetos: Windows
-req.lib: D3DCompiler.lib
-req.dll: D3DCompiler_47.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11ShaderReflection::GetOutputParameterDesc

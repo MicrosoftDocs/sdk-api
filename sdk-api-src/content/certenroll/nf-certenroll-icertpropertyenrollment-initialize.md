@@ -4,17 +4,16 @@ title: ICertPropertyEnrollment::Initialize
 author: windows-sdk-content
 description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
 old-location: security\icertpropertyenrollment_initialize_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICertPropertyEnrollment.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPropertyEnrollment::Initialize

@@ -4,7 +4,7 @@ title: IKEEXT_CERT_EKUS0_
 author: windows-sdk-content
 description: Contains information about the extended key usage (EKU) properties of a certificate.
 old-location: fwp\ikeext_cert_ekus0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CERT_EKUS0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CERT_EKUS0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CERT_EKUS0
+req.redist: 
 ---
 
 # IKEEXT_CERT_EKUS0_ structure

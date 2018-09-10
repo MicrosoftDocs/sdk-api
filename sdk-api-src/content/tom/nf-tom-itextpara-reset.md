@@ -4,17 +4,16 @@ title: ITextPara::Reset
 author: windows-sdk-content
 description: Resets the paragraph formatting to a choice of default values.
 old-location: controls\ITextPara_Reset.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparareset.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextPara interface [Windows Controls],Reset method, ITextPara.Reset, ITextPara::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextPara interface, _win32_ITextPara_Reset, _win32_ITextPara_Reset_cpp, controls.ITextPara_Reset, controls._win32_ITextPara_Reset, tom/ITextPara::Reset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextPara.Reset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextPara::Reset

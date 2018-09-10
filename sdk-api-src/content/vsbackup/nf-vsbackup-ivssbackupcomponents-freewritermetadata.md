@@ -4,17 +4,16 @@ title: IVssBackupComponents::FreeWriterMetadata
 author: windows-sdk-content
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
 old-location: base\ivssbackupcomponents_freewritermetadata.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.FreeWriterMetadata
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::FreeWriterMetadata

@@ -4,17 +4,16 @@ title: SHRegGetPathW function
 author: windows-sdk-content
 description: Retrieves a file path from the registry, expanding environment variables as needed.
 old-location: shell\SHRegGetPath.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2874b868-33f9-4f20-9e0b-136125cf268c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHRegGetPath, SHRegGetPath function [Windows Shell], SHRegGetPathA, SHRegGetPathW, _win32_SHRegGetPath, shell.SHRegGetPath, shlwapi/SHRegGetPath, shlwapi/SHRegGetPathA, shlwapi/SHRegGetPathW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Shlwapi.lib
+req.dll: Shlwapi.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - SHRegGetPathW
 product: Windows
 targetos: Windows
-req.lib: Shlwapi.lib
-req.dll: Shlwapi.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # SHRegGetPathW function

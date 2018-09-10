@@ -4,7 +4,7 @@ title: "_EC_SUBSCRIPTION_PROPERTY_ID"
 author: windows-sdk-content
 description: Defines values to identify event subscription properties used for subscription configuration.
 old-location: wec\ec_subscription_property_id.htm
-old-project: WEC
+tech.root: WEC
 ms.assetid: c70dca98-1c14-4c0c-9f2e-6241c463fe4e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EC_SUBSCRIPTION_PROPERTY_ID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EC_SUBSCRIPTION_PROPERTY_ID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EC_SUBSCRIPTION_PROPERTY_ID
+req.redist: 
 ---
 
 # _EC_SUBSCRIPTION_PROPERTY_ID enumeration

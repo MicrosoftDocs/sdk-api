@@ -4,17 +4,16 @@ title: DwmEnableMMCSS function
 author: windows-sdk-content
 description: Notifies the Desktop Window Manager (DWM) to opt in to or out of Multimedia Class Schedule Service (MMCSS) scheduling while the calling process is alive.
 old-location: dwm\dwmenablemmcss.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablemmcss.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmEnableMMCSS, DwmEnableMMCSS function [Desktop Window Manager], _udwm_dwmenablemmcss, _udwm_dwmenablemmcss_cpp, dwm.dwmenablemmcss, dwmapi/DwmEnableMMCSS, winui._udwm_dwmenablemmcss
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - DwmEnableMMCSS
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmEnableMMCSS function

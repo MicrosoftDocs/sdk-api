@@ -4,17 +4,16 @@ title: ITPluggableTerminalSuperclassRegistration::put_Name
 author: windows-sdk-content
 description: The put_Name method sets the friendly name for the terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_name.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: fe9b569b-bfb7-401b-98a8-5db7f3739d41
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_Name method, ITPluggableTerminalSuperclassRegistration.put_Name, ITPluggableTerminalSuperclassRegistration::put_Name, _tapi3_itpluggableterminalsuperclassregistration_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_name, termmgr/ITPluggableTerminalSuperclassRegistration::put_Name
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TMGR_DIRECTION
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITPluggableTerminalSuperclassRegistration.put_Name
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITPluggableTerminalSuperclassRegistration::put_Name

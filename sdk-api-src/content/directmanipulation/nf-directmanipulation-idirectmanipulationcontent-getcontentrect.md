@@ -4,17 +4,16 @@ title: IDirectManipulationContent::GetContentRect
 author: windows-sdk-content
 description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
 old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetContentRect method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentRect method, IDirectManipulationContent.GetContentRect, IDirectManipulationContent::GetContentRect, directmanipulation.idirectmanipulationcontent_getcontentrect, directmanipulation/IDirectManipulationContent::GetContentRect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationContent.GetContentRect
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationContent::GetContentRect

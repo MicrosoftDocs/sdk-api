@@ -4,7 +4,7 @@ title: GenTspecParms
 author: windows-sdk-content
 description: The GenTspecParms structure stores generic Tspec parameters.
 old-location: qos\gentspecparms.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GenTspecParms
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GenTspecParms
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: GenTspecParms
+req.redist: 
 ---
 
 # GenTspecParms structure

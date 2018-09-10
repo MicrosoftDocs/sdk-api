@@ -4,17 +4,16 @@ title: ID3D11Device::SetExceptionMode
 author: windows-sdk-content
 description: Get the exception-mode flags.
 old-location: direct3d11\id3d11device_setexceptionmode.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: a442a5dc-7931-4464-a6e7-76441e61da5b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetExceptionMode method, ID3D11Device.SetExceptionMode, ID3D11Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 11], SetExceptionMode method [Direct3D 11],ID3D11Device interface, a5c01332-6f00-24e5-1424-e59e0f7353bd, d3d11/ID3D11Device::SetExceptionMode, direct3d11.id3d11device_setexceptionmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_VPOV_DIMENSION
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Device.SetExceptionMode
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Device::SetExceptionMode

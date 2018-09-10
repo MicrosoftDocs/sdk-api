@@ -4,7 +4,7 @@ title: "_VDS_HWPROVIDER_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a hardware provider.
 old-location: base\vds_hwprovider_type.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: b16cc14b-4aef-43ec-9232-a95de06f1194
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: VDS 1.1
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_HWPROVIDER_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - VDS_HWPROVIDER_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VDS_HWPROVIDER_TYPE
+req.redist: VDS 1.1
 ---
 
 # _VDS_HWPROVIDER_TYPE enumeration

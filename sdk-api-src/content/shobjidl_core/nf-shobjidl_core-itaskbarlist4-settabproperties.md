@@ -4,17 +4,16 @@ title: ITaskbarList4::SetTabProperties
 author: windows-sdk-content
 description: Allows a tab to specify whether the main application frame window or the tab window should be used as a thumbnail or in the peek feature under certain circumstances.
 old-location: shell\ITaskbarList4_SetTabProperties.htm
-old-project: shell
+tech.root: shell
 ms.assetid: cc3fec4b-7770-44af-9892-239a17dd96b8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, ITaskbarList4.SetTabProperties, ITaskbarList4::SetTabProperties, SetTabProperties, SetTabProperties method [Windows Shell], SetTabProperties method [Windows Shell],ITaskbarList4 interface, _shell_ITaskbarList4_SetTabProperties, shell.ITaskbarList4_SetTabProperties, shobjidl_core/ITaskbarList4::SetTabProperties
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskbarList4.SetTabProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskbarList4::SetTabProperties

@@ -4,17 +4,16 @@ title: IAMMediaContent::get_LogoIconURL
 author: windows-sdk-content
 description: The get_LogoIconURL method retrieves a URL for the logo icon.
 old-location: dshow\iammediacontent_get_logoiconurl.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 249f06ad-1571-4259-aaae-d0bc8208b9e5
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_LogoIconURL method, IAMMediaContent.get_LogoIconURL, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoIconURL
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMExtendedSeekingCapabilities
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAMMediaContent.get_LogoIconURL
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IAMMediaContent::get_LogoIconURL

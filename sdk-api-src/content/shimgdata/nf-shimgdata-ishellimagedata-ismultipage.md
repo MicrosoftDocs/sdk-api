@@ -4,17 +4,16 @@ title: IShellImageData::IsMultipage
 author: windows-sdk-content
 description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
 old-location: shell\IShellImageData_IsMultipage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a9c86f0e-5237-432c-a2bb-4054a23d707e
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsMultipage method, IShellImageData.IsMultipage, IShellImageData::IsMultipage, IsMultipage, IsMultipage method [Windows Shell], IsMultipage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsMultipage, shell.IShellImageData_IsMultipage, shimgdata/IShellImageData::IsMultipage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellImageData.IsMultipage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellImageData::IsMultipage

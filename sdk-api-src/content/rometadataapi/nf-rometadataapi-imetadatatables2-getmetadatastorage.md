@@ -4,17 +4,16 @@ title: IMetaDataTables2::GetMetaDataStorage
 author: windows-sdk-content
 description: Gets the size and contents of the metadata stored in the specified section.
 old-location: winrt\imetadatatables2_getmetadatastorage.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 7de4fccb-9cd6-443d-bbd3-ba545e040ca6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetMetaDataStorage, GetMetaDataStorage method [Windows Runtime], GetMetaDataStorage method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStorage method, IMetaDataTables2.GetMetaDataStorage, IMetaDataTables2::GetMetaDataStorage, rometadataapi/IMetaDataTables2::GetMetaDataStorage, winrt.imetadatatables2_getmetadatastorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMetaDataTables2.GetMetaDataStorage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMetaDataTables2::GetMetaDataStorage

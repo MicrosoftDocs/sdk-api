@@ -4,17 +4,16 @@ title: CM_WaitNoPendingInstallEvents function
 author: windows-sdk-content
 description: The CMP_WaitNoPendingInstallEvents (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.
 old-location: devinst\cmp_waitnopendinginstallevents.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CM_WaitNoPendingInstallEvents
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: Cfgmgr32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_WaitNoPendingInstallEvents function

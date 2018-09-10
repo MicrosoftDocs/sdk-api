@@ -4,17 +4,16 @@ title: CVssWriter::OnVSSApplicationStartup
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssapplicationstartup.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: bec4ea32-e150-468e-9b4d-2405125e5250
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],OnVSSApplicationStartup method, CVssWriter.OnVSSApplicationStartup, CVssWriter::OnVSSApplicationStartup, OnVSSApplicationStartup, OnVSSApplicationStartup method [VSS], OnVSSApplicationStartup method [VSS],CVssWriter interface, _win32_cvsswriter_onvssapplicationstartup, base.cvsswriter_onvssapplicationstartup, vswriter/CVssWriter::OnVSSApplicationStartup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.OnVSSApplicationStartup
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::OnVSSApplicationStartup

@@ -4,17 +4,16 @@ title: ICertPolicy2::GetManageModule
 author: windows-sdk-content
 description: Retrieves the ICertManageModule interface associated with the ICertPolicy2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertpolicy2_getmanagemodule.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509SCEPFailInfo
+req.lib: Certidl.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CCertPolicy.GetManageModule
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertPolicy2::GetManageModule

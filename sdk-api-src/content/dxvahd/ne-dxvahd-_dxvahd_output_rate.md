@@ -4,7 +4,7 @@ title: "_DXVAHD_OUTPUT_RATE"
 author: windows-sdk-content
 description: Specifies the output frame rates for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_output_rate.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: f96184d8-c5c2-4767-899f-323935fa9e89
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVAHD_OUTPUT_RATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DXVAHD_OUTPUT_RATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: DXVAHD_OUTPUT_RATE
+req.redist: 
 ---
 
 # _DXVAHD_OUTPUT_RATE enumeration

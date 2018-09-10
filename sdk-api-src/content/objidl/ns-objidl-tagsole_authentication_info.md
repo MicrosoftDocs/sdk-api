@@ -4,7 +4,7 @@ title: tagSOLE_AUTHENTICATION_INFO
 author: windows-sdk-content
 description: Identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
 old-location: com\sole_authentication_info.htm
-old-project: com
+tech.root: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: ObjIdl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SOLE_AUTHENTICATION_INFO, *PSOLE_AUTHENTICATION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SOLE_AUTHENTICATION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SOLE_AUTHENTICATION_INFO, *PSOLE_AUTHENTICATION_INFO
+req.redist: 
 ---
 
 # tagSOLE_AUTHENTICATION_INFO structure

@@ -4,17 +4,16 @@ title: IWMDMStorageControl::Move
 author: windows-sdk-content
 description: The Move method moves the current storage to a new location on the device.
 old-location: wmdm\iwmdmstoragecontrol_move.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Move method, IWMDMStorageControl.Move, IWMDMStorageControl::Move, IWMDMStorageControlMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Move, wmdm.iwmdmstoragecontrol_move
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMStorageControl.Move
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMStorageControl::Move

@@ -4,17 +4,16 @@ title: acmStreamOpen function
 author: windows-sdk-content
 description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.
 old-location: multimedia\acmstreamopen.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
 ms.author: windowssdkdev
 ms.date: 08/17/2018
 ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
+req.lib: Msacm32.lib
+req.dll: Msacm32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - acmStreamOpen
 product: Windows
 targetos: Windows
-req.lib: Msacm32.lib
-req.dll: Msacm32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # acmStreamOpen function

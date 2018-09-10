@@ -4,17 +4,16 @@ title: PxeProviderEnumNext function
 author: windows-sdk-content
 description: Enumerates registered providers.
 old-location: wds\pxeproviderenumnext.htm
-old-project: Wds
+tech.root: Wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
+req.lib: WdsPxe.lib
+req.dll: WdsPxe.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PxeProviderEnumNext
 product: Windows
 targetos: Windows
-req.lib: WdsPxe.lib
-req.dll: WdsPxe.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # PxeProviderEnumNext function

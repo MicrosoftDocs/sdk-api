@@ -4,7 +4,7 @@ title: "_TRACE_PROVIDER_INSTANCE_INFO"
 author: windows-sdk-content
 description: Defines an instance of the provider GUID.
 old-location: etw\trace_provider_instance_info.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 49c11cd5-2cb1-474a-8b51-2d86b4501da1
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_PROVIDER_INSTANCE_INFO, *PTRACE_PROVIDER_INSTANCE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACE_PROVIDER_INSTANCE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: TRACE_PROVIDER_INSTANCE_INFO, *PTRACE_PROVIDER_INSTANCE_INFO
+req.redist: 
 ---
 
 # _TRACE_PROVIDER_INSTANCE_INFO structure

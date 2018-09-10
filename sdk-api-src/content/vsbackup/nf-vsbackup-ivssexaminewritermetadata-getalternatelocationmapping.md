@@ -4,17 +4,16 @@ title: IVssExamineWriterMetadata::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssExamineWriterMetadata.GetAlternateLocationMapping
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssExamineWriterMetadata::GetAlternateLocationMapping
@@ -71,7 +69,7 @@ Index of a particular mapping. The value of this parameter is an integer from 0
 
 ### -param ppFiledesc
 
-
+TBD
 
 
 

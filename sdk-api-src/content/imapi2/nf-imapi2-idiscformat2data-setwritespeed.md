@@ -4,17 +4,16 @@ title: IDiscFormat2Data::SetWriteSpeed
 author: windows-sdk-content
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2data_setwritespeed.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: a3e03af5-bda2-49a3-80d9-52acfe390708
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],SetWriteSpeed method, IDiscFormat2Data.SetWriteSpeed, IDiscFormat2Data::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_setwritespeed, imapi2/IDiscFormat2Data::SetWriteSpeed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDiscFormat2Data.SetWriteSpeed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDiscFormat2Data::SetWriteSpeed

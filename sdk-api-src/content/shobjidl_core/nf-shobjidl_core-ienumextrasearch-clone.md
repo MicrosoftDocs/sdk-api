@@ -4,17 +4,16 @@ title: IEnumExtraSearch::Clone
 author: windows-sdk-content
 description: Used to request a duplicate of the enumerator object to preserve its current state.
 old-location: shell\IEnumExtraSearch_Clone.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExtraSearch interface, IEnumExtraSearch interface [Windows Shell],Clone method, IEnumExtraSearch.Clone, IEnumExtraSearch::Clone, _win32_IEnumExtraSearch_Clone, shell.IEnumExtraSearch_Clone, shobjidl_core/IEnumExtraSearch::Clone
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnumExtraSearch.Clone
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumExtraSearch::Clone
@@ -62,7 +60,7 @@ Used to request a duplicate of the enumerator object to preserve its current sta
 
 ### -param ppenum
 
-
+TBD
 
 
 

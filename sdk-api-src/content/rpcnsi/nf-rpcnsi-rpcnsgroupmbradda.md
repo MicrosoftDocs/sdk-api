@@ -4,17 +4,16 @@ title: RpcNsGroupMbrAddA function
 author: windows-sdk-content
 description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
 old-location: rpc\rpcnsgroupmbradd.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsGroupMbrAdd, RpcNsGroupMbrAdd function [RPC], RpcNsGroupMbrAddA, RpcNsGroupMbrAddW, _rpc_rpcnsgroupmbradd, rpc.rpcnsgroupmbradd, rpcnsi/RpcNsGroupMbrAdd, rpcnsi/RpcNsGroupMbrAddA, rpcnsi/RpcNsGroupMbrAddW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsGroupMbrAddW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsGroupMbrAddA function

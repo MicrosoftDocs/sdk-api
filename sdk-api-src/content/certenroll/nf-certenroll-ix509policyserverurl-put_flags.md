@@ -4,17 +4,16 @@ title: IX509PolicyServerUrl::put_Flags
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates whether the certificate enrollment policy (CEP) server policy information can be loaded from group policy, from the registry, or both.
 old-location: security\ix509policyserverurl_flags.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 60a9dee9-6311-45b6-8fe9-f916878a64dd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Flags property [Security], Flags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Flags property, IX509PolicyServerUrl.Flags, IX509PolicyServerUrl.put_Flags, IX509PolicyServerUrl::Flags, IX509PolicyServerUrl::get_Flags, IX509PolicyServerUrl::put_Flags, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerUrl::Flags, certenroll/IX509PolicyServerUrl::get_Flags, certenroll/IX509PolicyServerUrl::put_Flags, put_Flags, security.ix509policyserverurl_flags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - IX509PolicyServerUrl.put_Flags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509PolicyServerUrl::put_Flags

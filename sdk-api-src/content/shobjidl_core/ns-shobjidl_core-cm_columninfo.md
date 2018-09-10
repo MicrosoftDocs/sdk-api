@@ -4,7 +4,7 @@ title: CM_COLUMNINFO
 author: windows-sdk-content
 description: Defines column information. Used by members of the IColumnManager interface.
 old-location: shell\CM_COLUMNINFO.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b4437aa7-9682-4819-a353-936179e84005
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_COLUMNINFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CM_COLUMNINFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: CM_COLUMNINFO
+req.redist: 
 ---
 
 # CM_COLUMNINFO structure

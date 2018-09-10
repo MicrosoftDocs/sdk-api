@@ -4,17 +4,16 @@ title: IProgressDialog::SetLine
 author: windows-sdk-content
 description: Displays a message in the progress dialog.
 old-location: shell\IProgressDialog_SetLine.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2c4441a8-3bb6-4cd8-8f96-423ee8d26113
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetLine method, IProgressDialog.SetLine, IProgressDialog::SetLine, SetLine, SetLine method [Windows Shell], SetLine method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetLine, shell.IProgressDialog_SetLine, shlobj_core/IProgressDialog::SetLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IProgressDialog.SetLine
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IProgressDialog::SetLine
@@ -83,7 +81,7 @@ Type: <b>BOOL</b>
 
 ### -param pvResevered
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IWRdsGraphicsChannel::Close
 author: windows-sdk-content
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WRdsGraphicsChannelType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWRdsGraphicsChannel.Close
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWRdsGraphicsChannel::Close

@@ -4,17 +4,16 @@ title: IWizardExtension::GetFirstPage
 author: windows-sdk-content
 description: Gets a handle to the first page of the wizard extension.
 old-location: shell\IWizardExtension_GetFirstPage.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWizardExtension.GetFirstPage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # IWizardExtension::GetFirstPage
@@ -62,7 +60,7 @@ Gets a handle to the first page of the wizard extension.
 
 ### -param phpage
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: MiniDumpWriteDump function
 author: windows-sdk-content
 description: Writes user-mode minidump information to the specified file.
 old-location: base\minidumpwritedump.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
-req.redist: DbgHelp.dll and Dbgcore.dll
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THREAD_WRITE_FLAGS
+req.lib: Dbghelp.lib
+req.dll: Dbghelp.dll; Dbgcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - MiniDumpWriteDump
 product: Windows
 targetos: Windows
-req.lib: Dbghelp.lib
-req.dll: Dbghelp.dll; Dbgcore.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: DbgHelp.dll and Dbgcore.dll
 ---
 
 # MiniDumpWriteDump function

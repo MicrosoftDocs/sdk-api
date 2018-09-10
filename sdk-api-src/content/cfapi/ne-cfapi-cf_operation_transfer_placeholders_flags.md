@@ -4,7 +4,7 @@ title: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
 author: windows-sdk-content
 description: Flags to specify the behavior when transferring a placeholder file or directory.
 old-location: cloudapi\cf_operation_transfer_placeholders_flags.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 6C75030D-A5CF-423D-A931-3D2ED6113BD1
 ms.author: windowssdkdev
 ms.date: 02/27/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS
+req.redist: 
 ---
 
 # CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS enumeration

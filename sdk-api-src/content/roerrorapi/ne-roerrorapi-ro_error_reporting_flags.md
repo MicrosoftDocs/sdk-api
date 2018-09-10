@@ -4,7 +4,7 @@ title: RO_ERROR_REPORTING_FLAGS
 author: windows-sdk-content
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 old-location: winrt\ro_error_reporting_flags.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 345E1C4D-4A2F-4E18-9E70-4B8AE25FE8FD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: roerrorapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RO_ERROR_REPORTING_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RO_ERROR_REPORTING_FLAGS
+req.redist: 
 ---
 
 # RO_ERROR_REPORTING_FLAGS enumeration

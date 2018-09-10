@@ -4,17 +4,16 @@ title: MFCreateAsyncResult function
 author: windows-sdk-content
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: mf\mfcreateasyncresult.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
+req.lib: Mfplat.lib
+req.dll: Mfplat.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFCreateAsyncResult
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MFCreateAsyncResult function

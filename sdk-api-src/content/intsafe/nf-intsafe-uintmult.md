@@ -4,17 +4,16 @@ title: UIntMult function
 author: windows-sdk-content
 description: Multiplies one value of type UINT by another.
 old-location: shell\UIntMult.htm
-old-project: shell
+tech.root: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - UIntMult
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # UIntMult function

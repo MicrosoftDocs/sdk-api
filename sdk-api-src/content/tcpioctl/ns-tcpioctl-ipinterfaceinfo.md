@@ -4,7 +4,7 @@ title: IPInterfaceInfo
 author: windows-sdk-content
 description: The IPInterfaceInfo structure contains information about a specific IP interface, returned by the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\ipinterfaceinfo.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IPInterfaceInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPInterfaceInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: IPInterfaceInfo
+req.redist: 
 ---
 
 # IPInterfaceInfo structure

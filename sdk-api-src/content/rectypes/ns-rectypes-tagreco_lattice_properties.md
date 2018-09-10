@@ -4,7 +4,7 @@ title: tagRECO_LATTICE_PROPERTIES
 author: windows-sdk-content
 description: Contains an array of pointers to property structures.
 old-location: tablet\reco_lattice_properties.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 1c3501a9-398d-4db1-82b2-82908e132a4a
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_LATTICE_PROPERTIES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - RECO_LATTICE_PROPERTIES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: RECO_LATTICE_PROPERTIES
+req.redist: 
 ---
 
 # tagRECO_LATTICE_PROPERTIES structure

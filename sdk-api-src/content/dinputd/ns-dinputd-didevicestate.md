@@ -4,7 +4,7 @@ title: DIDEVICESTATE
 author: windows-sdk-content
 description: The DIDEVICESTATE structure returns information about the state of a force feedback device.
 old-location: hid\didevicestate.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 86885ca6-0b1f-42cb-8d6e-d5140e579905
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIDEVICESTATE, *LPDIDEVICESTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DIDEVICESTATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DIDEVICESTATE, *LPDIDEVICESTATE
+req.redist: 
 ---
 
 # DIDEVICESTATE structure

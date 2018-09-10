@@ -4,7 +4,7 @@ title: tagCSC_SxsConfig
 author: windows-sdk-content
 description: Indicates how side-by-side assemblies are configured for CServiceConfig.
 old-location: cos\csc_sxsconfig.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 8c114e9e-b201-4317-8a45-d5b0964c6ff8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CSC_SxsConfig
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CSC_SxsConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CSC_SxsConfig
+req.redist: 
 ---
 
 # tagCSC_SxsConfig enumeration

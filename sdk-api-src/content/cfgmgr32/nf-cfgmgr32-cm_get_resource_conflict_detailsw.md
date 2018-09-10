@@ -4,17 +4,16 @@ title: CM_Get_Resource_Conflict_DetailsW function
 author: windows-sdk-content
 description: The CM_Get_Resource_Conflict_Details function obtains the details about one of the resource conflicts in a conflict list.
 old-location: devinst\cm_get_resource_conflict_details.htm
-old-project: devinst
+tech.root: devinst
 ms.assetid: ce4691e2-4a0e-48bf-b085-ac0cb7665725
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CM_Get_Resource_Conflict_Details, CM_Get_Resource_Conflict_Details function [Device and Driver Installation], CM_Get_Resource_Conflict_DetailsW, cfgmgr32/CM_Get_Resource_Conflict_Details, cfgmgr32/CM_Get_Resource_Conflict_DetailsW, cfgmgrfn_c646fbb1-7baa-4429-b3c6-02e2aced8ddc.xml, devinst.cm_get_resource_conflict_details
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - CM_Get_Resource_Conflict_DetailsW
 product: Windows
 targetos: Windows
-req.lib: Cfgmgr32.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CM_Get_Resource_Conflict_DetailsW function

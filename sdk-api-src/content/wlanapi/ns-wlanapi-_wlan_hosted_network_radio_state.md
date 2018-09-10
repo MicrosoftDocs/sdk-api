@@ -4,7 +4,7 @@ title: "_WLAN_HOSTED_NETWORK_RADIO_STATE"
 author: windows-sdk-content
 description: Contains information about the radio state on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_radio_state.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: a84db78d-f6fd-48c4-80e8-a0d16f4dc3ed
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_HOSTED_NETWORK_RADIO_STATE, *PWLAN_HOSTED_NETWORK_RADIO_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_HOSTED_NETWORK_RADIO_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_HOSTED_NETWORK_RADIO_STATE, *PWLAN_HOSTED_NETWORK_RADIO_STATE
+req.redist: 
 ---
 
 # _WLAN_HOSTED_NETWORK_RADIO_STATE structure

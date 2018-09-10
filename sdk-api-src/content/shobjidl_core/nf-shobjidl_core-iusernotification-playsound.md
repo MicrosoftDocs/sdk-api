@@ -4,17 +4,16 @@ title: IUserNotification::PlaySound
 author: windows-sdk-content
 description: Plays a sound in conjunction with the notification.
 old-location: shell\IUserNotification_PlaySound.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3d7533c8-3b52-42dd-bfaa-2305bf3b0b18
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],PlaySound method, IUserNotification.PlaySound, IUserNotification::PlaySound, PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell],IUserNotification interface, inet_IUserNotification_PlaySound, shell.IUserNotification_PlaySound, shobjidl_core/IUserNotification::PlaySound
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUserNotification.PlaySound
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IUserNotification::PlaySound
@@ -62,7 +60,7 @@ Plays a sound in conjunction with the notification.
 
 ### -param pszSoundName
 
-
+TBD
 
 
 

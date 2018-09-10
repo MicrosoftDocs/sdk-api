@@ -4,17 +4,16 @@ title: CertUnregisterSystemStore function
 author: windows-sdk-content
 description: The CertUnregisterSystemStore function unregisters a specified system store.
 old-location: security\certunregistersystemstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CertUnregisterSystemStore
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertUnregisterSystemStore function

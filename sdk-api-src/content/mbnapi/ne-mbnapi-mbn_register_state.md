@@ -4,7 +4,7 @@ title: MBN_REGISTER_STATE
 author: windows-sdk-content
 description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
 old-location: mbn\mbn_register_state.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_REGISTER_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MBN_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mapi32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MBN_REGISTER_STATE
+req.redist: 
 ---
 
 # MBN_REGISTER_STATE enumeration

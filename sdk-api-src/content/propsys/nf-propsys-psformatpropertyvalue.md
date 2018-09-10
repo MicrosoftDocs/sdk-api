@@ -4,17 +4,16 @@ title: PSFormatPropertyValue function
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a property store. This function allocates memory for the output string.
 old-location: properties\PSFormatPropertyValue.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 35c2b424-05bd-4d7d-8365-5900e165e2e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSFormatPropertyValue, PSFormatPropertyValue function [Windows Properties], _shell_PSFormatPropertyValue, properties.PSFormatPropertyValue, propsys/PSFormatPropertyValue, shell.PSFormatPropertyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSFormatPropertyValue
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSFormatPropertyValue function

@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_NETWORK_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster network.
 old-location: mscs\cluster_change_network_v2.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 1FEB810F-C289-4615-8BCB-B1343200CBF1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_CHANGE_NETWORK_V2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_CHANGE_NETWORK_V2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_CHANGE_NETWORK_V2
+req.redist: 
 ---
 
 # CLUSTER_CHANGE_NETWORK_V2 enumeration

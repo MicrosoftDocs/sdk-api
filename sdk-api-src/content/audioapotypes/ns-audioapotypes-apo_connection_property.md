@@ -4,7 +4,7 @@ title: APO_CONNECTION_PROPERTY
 author: windows-sdk-content
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioapotypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APO_CONNECTION_PROPERTY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - APO_CONNECTION_PROPERTY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: APO_CONNECTION_PROPERTY
+req.redist: 
 ---
 
 # APO_CONNECTION_PROPERTY structure

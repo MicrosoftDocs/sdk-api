@@ -4,17 +4,16 @@ title: WerReportCreate function
 author: windows-sdk-content
 description: Creates a problem report that describes an application event.
 old-location: wer\werreportcreate.htm
-old-project: wer
+tech.root: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
+req.lib: Wer.lib
+req.dll: Wer.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - WerReportCreate
 product: Windows
 targetos: Windows
-req.lib: Wer.lib
-req.dll: Wer.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WerReportCreate function

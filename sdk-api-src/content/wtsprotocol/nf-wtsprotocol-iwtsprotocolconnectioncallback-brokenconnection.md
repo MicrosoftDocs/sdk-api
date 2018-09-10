@@ -4,17 +4,16 @@ title: IWTSProtocolConnectionCallback::BrokenConnection
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::BrokenConnection is no longer available. Instead, use IWRdsProtocolConnectionCallback::BrokenConnection.
 old-location: termserv\iwtsprotocolconnectioncallback_brokenconnection.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: a5878289-9335-4b3b-b66a-4c168b868f87
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWTSProtocolConnectionCallback.BrokenConnection, IWTSProtocolConnectionCallback::BrokenConnection, termserv.iwtsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWTSProtocolConnectionCallback::BrokenConnection
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWTSProtocolConnectionCallback.BrokenConnection
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWTSProtocolConnectionCallback::BrokenConnection

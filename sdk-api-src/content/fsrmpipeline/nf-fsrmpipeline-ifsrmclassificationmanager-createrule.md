@@ -4,17 +4,16 @@ title: IFsrmClassificationManager::CreateRule
 author: windows-sdk-content
 description: Creates a rule of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createrule.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: ca9a97b7-eadd-4f57-8f3a-afa439222f21
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: CreateRule, CreateRule method [File Server Resource Manager], CreateRule method [File Server Resource Manager],FsrmClassificationManager class, CreateRule method [File Server Resource Manager],IFsrmClassificationManager interface, CreateRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateRule method, IFsrmClassificationManager interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager.CreateRule, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager2::CreateRule, IFsrmClassificationManager::CreateRule, fs.ifsrmclassificationmanager_createrule, fsrm.ifsrmclassificationmanager_createrule, fsrmpipeline/IFsrmClassificationManager2::CreateRule, fsrmpipeline/IFsrmClassificationManager::CreateRule
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FsrmClassificationManager.CreateRule
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmClassificationManager::CreateRule
@@ -74,7 +72,7 @@ The type of rule to create, set this parameter to <b>FsrmRuleType_Classification
 
 ### -param Rule
 
-
+TBD
 
 
 

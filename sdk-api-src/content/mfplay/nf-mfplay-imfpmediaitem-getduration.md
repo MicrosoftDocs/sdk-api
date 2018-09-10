@@ -4,17 +4,16 @@ title: IMFPMediaItem::GetDuration
 author: windows-sdk-content
 description: Gets the duration of the media item.
 old-location: mf\imfpmediaitem_getduration.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetDuration method, IMFPMediaItem.GetDuration, IMFPMediaItem::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaitem_getduration, mfplay/IMFPMediaItem::GetDuration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFPMediaItem.GetDuration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFPMediaItem::GetDuration

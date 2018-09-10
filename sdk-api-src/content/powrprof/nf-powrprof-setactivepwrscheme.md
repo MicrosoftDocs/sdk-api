@@ -4,17 +4,16 @@ title: SetActivePwrScheme function
 author: windows-sdk-content
 description: Sets the active power scheme.
 old-location: base\setactivepwrscheme.htm
-old-project: power
+tech.root: power
 ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepwrscheme, base.setactivepwrscheme, powrprof/SetActivePwrScheme
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetActivePwrScheme
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetActivePwrScheme function

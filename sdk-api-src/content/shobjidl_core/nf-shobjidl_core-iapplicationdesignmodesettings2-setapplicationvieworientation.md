@@ -4,17 +4,16 @@ title: IApplicationDesignModeSettings2::SetApplicationViewOrientation
 author: windows-sdk-content
 description: Sets the window orientation used for the design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewOrientation.htm
-old-project: shell
+tech.root: shell
 ms.assetid: FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetApplicationViewOrientation method, IApplicationDesignModeSettings2.SetApplicationViewOrientation, IApplicationDesignModeSettings2::SetApplicationViewOrientation, SetApplicationViewOrientation, SetApplicationViewOrientation method [Windows Shell], SetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewOrientation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Twinapi.lib
+req.dll: Twinapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IApplicationDesignModeSettings2.SetApplicationViewOrientation
 product: Windows
 targetos: Windows
-req.lib: Twinapi.lib
-req.dll: Twinapi.dll
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IApplicationDesignModeSettings2::SetApplicationViewOrientation

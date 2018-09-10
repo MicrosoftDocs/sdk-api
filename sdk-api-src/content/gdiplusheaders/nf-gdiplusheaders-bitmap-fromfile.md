@@ -4,17 +4,16 @@ title: Bitmap::FromFile
 author: windows-sdk-content
 description: The Bitmap::FromFile method creates a Bitmap object based on an image file.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromfile.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: Bitmap class [GDI+],FromFile method, Bitmap.FromFile, Bitmap::FromFile, FromFile, FromFile method [GDI+], FromFile method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromFile_filename_useEmbeddedColorManagement_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Bitmap.FromFile
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

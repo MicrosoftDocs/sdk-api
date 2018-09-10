@@ -4,17 +4,16 @@ title: ITextDocument2::SetIMEInProgress
 author: windows-sdk-content
 description: Sets the state of the Input Method Editor (IME) in-progress flag.
 old-location: controls\itextdocument2_setimeinprogress.htm
-old-project: controls
+tech.root: controls
 ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetIMEInProgress method, ITextDocument2.SetIMEInProgress, ITextDocument2::SetIMEInProgress, SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextDocument2.SetIMEInProgress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextDocument2::SetIMEInProgress

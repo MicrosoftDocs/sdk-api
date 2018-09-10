@@ -4,17 +4,16 @@ title: IWICMetadataWriter::RemoveValueByIndex
 author: windows-sdk-content
 description: Removes the metadata item at the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm
-old-project: wic
+tech.root: wic
 ms.assetid: 65cf7e21-e474-4652-9ee1-0802362f65ca
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WICPersistOptions
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWICMetadataWriter.RemoveValueByIndex
 product: Windows
 targetos: Windows
-req.lib: Windowscodecs.lib
-req.dll: Windowscodecs.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWICMetadataWriter::RemoveValueByIndex

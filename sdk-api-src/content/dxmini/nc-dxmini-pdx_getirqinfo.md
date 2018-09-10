@@ -4,7 +4,7 @@ title: PDX_GETIRQINFO
 author: windows-sdk-content
 description: The DxGetIRQInfo callback function indicates that the driver manages the interrupt request.
 old-location: display\dxgetirqinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: bc7463ab-1cb1-4ce5-a929-1513507a16ff
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h
-req.redist: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DxGetIRQInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # PDX_GETIRQINFO callback function

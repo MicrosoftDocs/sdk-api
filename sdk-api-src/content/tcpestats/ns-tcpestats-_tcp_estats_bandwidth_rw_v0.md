@@ -4,7 +4,7 @@ title: "_TCP_ESTATS_BANDWIDTH_RW_v0"
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on bandwidth estimation for a TCP connection.
 old-location: iphlp\tcp_estats_bandwidth_rw_v0.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: a9bf5ad3-a8db-4194-8e47-5a7409391f4c
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCP_ESTATS_BANDWIDTH_RW_v0, *PTCP_ESTATS_BANDWIDTH_RW_v0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TCP_ESTATS_BANDWIDTH_RW_v0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: TCP_ESTATS_BANDWIDTH_RW_v0, *PTCP_ESTATS_BANDWIDTH_RW_v0
+req.redist: 
 ---
 
 # _TCP_ESTATS_BANDWIDTH_RW_v0 structure

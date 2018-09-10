@@ -4,17 +4,16 @@ title: IUISimplePropertySet::GetValue
 author: windows-sdk-content
 description: Retrieves the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm
-old-project: windowsribbon
+tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\getvalue.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_VIEWVERB
+req.lib: 
+req.dll: Mshtml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IUISimplePropertySet.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mshtml.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Windows UI
 ---
 

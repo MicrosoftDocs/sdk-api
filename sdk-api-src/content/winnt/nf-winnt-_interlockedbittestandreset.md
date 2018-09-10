@@ -4,17 +4,16 @@ title: "_interlockedbittestandreset function"
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG value and sets it to 0. The operation is atomic.
 old-location: base\interlockedbittestandreset.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 620bc56b-e85a-403f-94b8-14c838f046f0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedBitTestAndReset, InterlockedBitTestAndReset function, _interlockedbittestandreset, base.interlockedbittestandreset, winnt/InterlockedBitTestAndReset
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedBitTestAndReset
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # _interlockedbittestandreset function

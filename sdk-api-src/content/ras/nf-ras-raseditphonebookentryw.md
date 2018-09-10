@@ -4,17 +4,16 @@ title: RasEditPhonebookEntryW function
 author: windows-sdk-content
 description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
 old-location: rras\raseditphonebookentry.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RASPROJECTION_INFO_TYPE
+req.lib: Rasapi32.lib
+req.dll: Rasapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RasEditPhonebookEntryW
 product: Windows
 targetos: Windows
-req.lib: Rasapi32.lib
-req.dll: Rasapi32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RasEditPhonebookEntryW function

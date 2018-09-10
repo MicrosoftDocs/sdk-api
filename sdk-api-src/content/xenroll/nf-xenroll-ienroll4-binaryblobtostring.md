@@ -4,17 +4,16 @@ title: IEnroll4::binaryBlobToString
 author: windows-sdk-content
 description: Converts a binary data BLOB to a string. This method uses the CryptBinaryToString function to perform the conversion. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_binaryblobtostring.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 0ce10b31-29f4-4fda-a488-7bc124e9461e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll4 interface [Security],binaryBlobToString method, IEnroll4.binaryBlobToString, IEnroll4::binaryBlobToString, binaryBlobToString, binaryBlobToString method [Security], binaryBlobToString method [Security],IEnroll4 interface, security.ienroll4_binaryblobtostring, xenroll/IEnroll4::binaryBlobToString
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll4.binaryBlobToString
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll4::binaryBlobToString

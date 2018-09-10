@@ -4,7 +4,7 @@ title: CLUSCTL_RESOURCE_TYPE_CODES
 author: windows-sdk-content
 description: Enumerates resource type control codes.
 old-location: mscs\clusctl_resource_type_codes.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: c34eda93-9389-4bf0-9e8f-7a80f10a1081
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSCTL_RESOURCE_TYPE_CODES
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CLUSCTL_RESOURCE_TYPE_CODES
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSCTL_RESOURCE_TYPE_CODES
+req.redist: 
 ---
 
 # CLUSCTL_RESOURCE_TYPE_CODES enumeration

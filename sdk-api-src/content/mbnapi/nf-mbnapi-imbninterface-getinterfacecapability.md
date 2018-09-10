@@ -4,17 +4,16 @@ title: IMbnInterface::GetInterfaceCapability
 author: windows-sdk-content
 description: Gets the capabilities of the device.
 old-location: mbn\imbninterface_getinterfacecapability.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: cfe8f638-ad17-4118-9c79-b7ebc81c726a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetInterfaceCapability, GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetInterfaceCapability method, IMbnInterface.GetInterfaceCapability, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnInterface.GetInterfaceCapability
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnInterface::GetInterfaceCapability

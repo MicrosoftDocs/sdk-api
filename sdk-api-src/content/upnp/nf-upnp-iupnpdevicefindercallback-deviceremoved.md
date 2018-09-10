@@ -4,17 +4,16 @@ title: IUPnPDeviceFinderCallback::DeviceRemoved
 author: windows-sdk-content
 description: The DeviceRemoved method is invoked by the UPnP framework to notify the application that a device has been removed from the network.
 old-location: upnp\iupnpdevicefindercallback_deviceremoved.htm
-old-project: UPnP
+tech.root: UPnP
 ms.assetid: d6ff7bdd-3fdf-4ee4-84c9-e3527988fea2
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: DeviceRemoved, DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceRemoved method, IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_EVENTPARAMS_COMMAND
+req.lib: 
+req.dll: Upnp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUPnPDeviceFinderCallback.DeviceRemoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Upnp.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IUPnPDeviceFinderCallback::DeviceRemoved

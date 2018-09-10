@@ -4,17 +4,16 @@ title: IRawCDImageTrackInfo::put_ISRC
 author: windows-sdk-content
 description: Sets the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.
 old-location: imapi\irawcdimagetrackinfo_put_isrc.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: c94357dc-9d9f-40a7-8709-51f8d5bc09e5
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_ISRC method, IRawCDImageTrackInfo.put_ISRC, IRawCDImageTrackInfo::put_ISRC, imapi.irawcdimagetrackinfo_put_isrc, imapi2/IRawCDImageTrackInfo::put_ISRC, put_ISRC, put_ISRC method [IMAPI], put_ISRC method [IMAPI],IRawCDImageTrackInfo interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRawCDImageTrackInfo.put_ISRC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IRawCDImageTrackInfo::put_ISRC

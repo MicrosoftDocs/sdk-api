@@ -4,7 +4,7 @@ title: CLUS_STARTING_PARAMS
 author: windows-sdk-content
 description: Indicates whether a node's attempt to start the Cluster service represents an attempt to form or join a cluster, and whether the node has attempted to start this version of the Cluster service before.
 old-location: mscs\clus_starting_params.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 255c68ff-0ca0-4718-b7fe-c689c93d0203
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_STARTING_PARAMS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
+req.redist: 
 ---
 
 # CLUS_STARTING_PARAMS structure

@@ -4,17 +4,16 @@ title: ITaskFolder::GetTask
 author: windows-sdk-content
 description: Gets a task at a specified location in a folder.
 old-location: taskschd\itaskfolder_gettask.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 01c32103-d65a-49ed-b12e-af2e865456e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTask, GetTask method [Task Scheduler], GetTask method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetTask method, ITaskFolder.GetTask, ITaskFolder::GetTask, taskschd.itaskfolder_gettask, taskschd/ITaskFolder::GetTask
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITaskFolder.GetTask
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITaskFolder::GetTask

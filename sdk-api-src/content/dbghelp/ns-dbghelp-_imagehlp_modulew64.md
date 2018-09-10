@@ -4,7 +4,7 @@ title: "_IMAGEHLP_MODULEW64"
 author: windows-sdk-content
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMAGEHLP_MODULE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _IMAGEHLP_MODULEW64 structure

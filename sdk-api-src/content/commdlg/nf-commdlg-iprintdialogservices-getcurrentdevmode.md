@@ -4,17 +4,16 @@ title: IPrintDialogServices::GetCurrentDevMode
 author: windows-sdk-content
 description: Fills a DEVMODE structure with information about the currently selected printer for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm
-old-project: dlgbox
+tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentdevmode.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCurrentDevMode, GetCurrentDevMode function, GetCurrentDevMode method [Dialog Boxes], GetCurrentDevMode method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentDevMode method, IPrintDialogServices.GetCurrentDevMode, IPrintDialogServices::GetCurrentDevMode, _win32_IPrintDialogServices_GetCurrentDevMode, _win32_iprintdialogservices_getcurrentdevmode_cpp, commdlg/IPrintDialogServices::GetCurrentDevMode, dlgbox.iprintdialogservices_getcurrentdevmode, winui._win32_iprintdialogservices_getcurrentdevmode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: commdlg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UDACCEL, *LPUDACCEL
+req.lib: 
+req.dll: Comdlg32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPrintDialogServices.GetCurrentDevMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Comdlg32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPrintDialogServices::GetCurrentDevMode

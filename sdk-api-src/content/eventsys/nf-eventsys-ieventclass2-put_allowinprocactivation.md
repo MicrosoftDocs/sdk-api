@@ -4,17 +4,16 @@ title: IEventClass2::put_AllowInprocActivation
 author: windows-sdk-content
 description: Indicates whether the event class can be activated in-process.
 old-location: cos\ieventclass2_allowinprocactivation.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: ac043e5c-4f63-4f01-bc60-8c7a6bd08640
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],AllowInprocActivation property, IEventClass2.AllowInprocActivation, IEventClass2.put_AllowInprocActivation, IEventClass2::AllowInprocActivation, IEventClass2::get_AllowInprocActivation, IEventClass2::put_AllowInprocActivation, _cos_IEventClass2_get_AllowInprocActivation, _cos_IEventClass2_put_AllowInprocActivation, cos.ieventclass2_allowinprocactivation, eventsys/IEventClass2::AllowInprocActivation, eventsys/IEventClass2::get_AllowInprocActivation, eventsys/IEventClass2::put_AllowInprocActivation, put_AllowInprocActivation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EOC_ChangeType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IEventClass2.put_AllowInprocActivation
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IEventClass2::put_AllowInprocActivation

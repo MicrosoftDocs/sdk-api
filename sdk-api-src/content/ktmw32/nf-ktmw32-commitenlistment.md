@@ -4,17 +4,16 @@ title: CommitEnlistment function
 author: windows-sdk-content
 description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\commitenlistment.htm
-old-project: ktm
+tech.root: ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista with SP1
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+req.lib: KtmW32.lib
+req.dll: KtmW32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CommitEnlistment
 product: Windows
 targetos: Windows
-req.lib: KtmW32.lib
-req.dll: KtmW32.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CommitEnlistment function

@@ -4,7 +4,7 @@ title: tagCapturedMetadataISOGains
 author: windows-sdk-content
 description: The CapturedMetadataISOGains structure describes the blob format for MF_CAPTURE_METADATA_ISO_GAINS.
 old-location: stream\capturedmetadataisogains.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6B87BDFB-EAD5-496D-BE6A-9AE709119515
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CapturedMetadataISOGains
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CapturedMetadataISOGains
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CapturedMetadataISOGains
+req.redist: 
 ---
 
 # tagCapturedMetadataISOGains structure

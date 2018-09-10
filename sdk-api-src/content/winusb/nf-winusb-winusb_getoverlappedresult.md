@@ -4,17 +4,16 @@ title: WinUsb_GetOverlappedResult function
 author: windows-sdk-content
 description: The WinUsb_GetOverlappedResult function retrieves the results of an overlapped operation on the specified file.
 old-location: buses\winusb_getoverlappedresult.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: e6078b1f-0921-4e1f-a444-f8a1481c8f8a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WinUsb_GetOverlappedResult, WinUsb_GetOverlappedResult function [Buses], buses.winusb_getoverlappedresult, winusb/WinUsb_GetOverlappedResult, winusbfunc_197c2ea2-c5fd-4a19-b4e5-00c373231606.xml
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
+req.lib: Winusb.lib
+req.dll: Winusb.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WinUsb_GetOverlappedResult
 product: Windows
 targetos: Windows
-req.lib: Winusb.lib
-req.dll: Winusb.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WinUsb_GetOverlappedResult function

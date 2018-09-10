@@ -4,7 +4,7 @@ title: "_JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
 author: windows-sdk-content
 description: Contains basic accounting and I/O accounting information for a job object.
 old-location: base\jobobject_basic_and_io_accounting_information_str.htm
-old-project: procthread
+tech.root: procthread
 ms.assetid: 5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a
 ms.author: windowssdkdev
 ms.date: 08/10/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, *PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, *PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
+req.redist: 
 ---
 
 # _JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure

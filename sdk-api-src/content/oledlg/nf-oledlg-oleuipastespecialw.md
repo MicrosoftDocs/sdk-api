@@ -4,17 +4,16 @@ title: OleUIPasteSpecialW function
 author: windows-sdk-content
 description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
 old-location: com\oleuipastespecial.htm
-old-project: com
+tech.root: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: OleDlg.lib
+req.dll: OleDlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - OleUIPasteSpecialW
 product: Windows
 targetos: Windows
-req.lib: OleDlg.lib
-req.dll: OleDlg.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # OleUIPasteSpecialW function

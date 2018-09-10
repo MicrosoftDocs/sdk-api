@@ -4,17 +4,16 @@ title: IGPMDomain::CreateGPO
 author: windows-sdk-content
 description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.
 old-location: gpmc\igpmdomain_creategpo.htm
-old-project: GPMC
+tech.root: GPMC
 ms.assetid: 00e83637-820b-488e-abf4-4210ac3b98b6
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: CreateGPO, CreateGPO method [GPMC], CreateGPO method [GPMC],GPMDomain object, CreateGPO method [GPMC],IGPMDomain interface, GPMDomain object [GPMC],CreateGPO method, IGPMDomain interface [GPMC],CreateGPO method, IGPMDomain.CreateGPO, IGPMDomain::CreateGPO, _win32_igpmdomain_creategpo, gpmc.igpmdomain_creategpo, gpmgmt/IGPMDomain::CreateGPO
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: GPMStarterGPOType
+req.lib: 
+req.dll: Gpmgmt.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GPMDomain.CreateGPO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpmgmt.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPMDomain::CreateGPO
@@ -64,7 +62,7 @@ Creates and retrieves a
 
 ### -param ppNewGPO
 
-
+TBD
 
 
 

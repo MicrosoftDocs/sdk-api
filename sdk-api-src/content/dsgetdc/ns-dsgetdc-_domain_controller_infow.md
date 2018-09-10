@@ -4,7 +4,7 @@ title: "_DOMAIN_CONTROLLER_INFOW"
 author: windows-sdk-content
 description: Used with the DsGetDcName function to receive data about a domain controller.
 old-location: ad\domain_controller_info.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DOMAIN_CONTROLLER_INFOW, *PDOMAIN_CONTROLLER_INFOW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - DOMAIN_CONTROLLER_INFOW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DOMAIN_CONTROLLER_INFOW, *PDOMAIN_CONTROLLER_INFOW
+req.redist: 
 ---
 
 # _DOMAIN_CONTROLLER_INFOW structure

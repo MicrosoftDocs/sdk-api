@@ -4,7 +4,7 @@ title: "_MPR_CREDENTIALSEX_1"
 author: windows-sdk-content
 description: The MPR_CREDENTIALSEX_1 structure contains a pre-shared key used by a demand-dial interface.
 old-location: rras\mpr_credentialsex_1.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: b37b9589-5c25-44ac-954a-c9fb2c2ee503
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPR_CREDENTIALSEX_1, *PMPR_CREDENTIALSEX_1
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MPR_CREDENTIALSEX_1
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MPR_CREDENTIALSEX_1, *PMPR_CREDENTIALSEX_1
+req.redist: 
 ---
 
 # _MPR_CREDENTIALSEX_1 structure

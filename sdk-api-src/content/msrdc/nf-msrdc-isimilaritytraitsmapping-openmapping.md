@@ -4,17 +4,16 @@ title: ISimilarityTraitsMapping::OpenMapping
 author: windows-sdk-content
 description: Opens the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_openmapping.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: 278d7b78-28c6-41ee-9060-5f7d757ef494
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],OpenMapping method, ISimilarityTraitsMapping.OpenMapping, ISimilarityTraitsMapping::OpenMapping, OpenMapping, OpenMapping method [Remote Differential Compression], OpenMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_openmapping, msrdc/ISimilarityTraitsMapping::OpenMapping, rdc.isimilaritytraitsmapping_openmapping
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISimilarityTraitsMapping.OpenMapping
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # ISimilarityTraitsMapping::OpenMapping

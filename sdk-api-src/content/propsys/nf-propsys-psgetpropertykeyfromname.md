@@ -4,17 +4,16 @@ title: PSGetPropertyKeyFromName function
 author: windows-sdk-content
 description: Gets the property key for a canonical property name.
 old-location: properties\PSGetPropertyKeyFromName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: Propsys.lib
+req.dll: Propsys.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PSGetPropertyKeyFromName
 product: Windows
 targetos: Windows
-req.lib: Propsys.lib
-req.dll: Propsys.dll (version 6.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # PSGetPropertyKeyFromName function

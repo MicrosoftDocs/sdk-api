@@ -4,17 +4,16 @@ title: ObjectPrivilegeAuditAlarmA function
 author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\objectprivilegeauditalarm.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - ObjectPrivilegeAuditAlarmW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ObjectPrivilegeAuditAlarmA function

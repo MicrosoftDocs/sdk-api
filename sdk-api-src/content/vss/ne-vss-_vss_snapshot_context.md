@@ -4,7 +4,7 @@ title: "_VSS_SNAPSHOT_CONTEXT"
 author: windows-sdk-content
 description: Specify how a shadow copy is to be created, queried, or deleted and the degree of writer involvement.
 old-location: base\_vss_snapshot_context.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 2efe3066-4b91-4501-bacb-4211b222e0c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VSS_SNAPSHOT_CONTEXT
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
+req.redist: 
 ---
 
 # _VSS_SNAPSHOT_CONTEXT enumeration

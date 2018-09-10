@@ -4,17 +4,16 @@ title: IXAPOParameters::SetParameters
 author: windows-sdk-content
 description: Sets effect-specific parameters.
 old-location: xaudio2\ixapoparameters_interface_setparameters.htm
-old-project: xaudio2
+tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.SetParameters(const void,UINT32)
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IXAPOParameters interface [XAudio2 Audio Mixing APIs],SetParameters method, IXAPOParameters.SetParameters, IXAPOParameters::SetParameters, SetParameters, SetParameters method [XAudio2 Audio Mixing APIs], SetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, xapo/IXAPOParameters::SetParameters, xaudio2.ixapoparameters_interface_setparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xapo.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XAPO_BUFFER_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IXAPOParameters.SetParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IXAPOParameters::SetParameters

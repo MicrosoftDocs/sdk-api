@@ -4,17 +4,16 @@ title: IThreadPoolKnobs::SetMaxQueuedRequests
 author: windows-sdk-content
 description: Sets the maximum number of asynchronous execution requests that can be simultaneously queued.
 old-location: cos\ithreadpoolknobs_setmaxqueuedrequests.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 63f579a0-853e-484b-bc49-1c0f4c76d889
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThreadPoolKnobs.SetMaxQueuedRequests, IThreadPoolKnobs::SetMaxQueuedRequests, SetMaxQueuedRequests, SetMaxQueuedRequests method [COM+], SetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests, cos.ithreadpoolknobs_setmaxqueuedrequests
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IThreadPoolKnobs.SetMaxQueuedRequests
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IThreadPoolKnobs::SetMaxQueuedRequests

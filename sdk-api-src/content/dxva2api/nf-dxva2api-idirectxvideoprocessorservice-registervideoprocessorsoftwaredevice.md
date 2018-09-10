@@ -4,17 +4,16 @@ title: IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice
 author: windows-sdk-content
 description: Registers a software video processing device.
 old-location: mf\idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 3d0bdd60-6cc7-4229-aed9-40b407167456
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService interface [Media Foundation],RegisterVideoProcessorSoftwareDevice method, IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice, IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice method [Media Foundation], RegisterVideoProcessorSoftwareDevice method [Media Foundation],IDirectXVideoProcessorService interface, dxva2api/IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, mf.idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXVA2_SurfaceType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice
@@ -65,7 +63,7 @@ Registers a software video processing device.
 
 ### -param pCallbacks
 
-
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMFVideoMixerBitmap::GetAlphaBitmapParameters
 author: windows-sdk-content
 description: Retrieves the current settings that the enhanced video renderer (EVR) uses to alpha-blend the bitmap with the video.
 old-location: mf\imfvideomixerbitmap_getalphabitmapparameters.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 0361e340-9de7-47f3-80fd-61d5e914d44e
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: 0361e340-9de7-47f3-80fd-61d5e914d44e, GetAlphaBitmapParameters, GetAlphaBitmapParameters method [Media Foundation], GetAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],GetAlphaBitmapParameters method, IMFVideoMixerBitmap.GetAlphaBitmapParameters, IMFVideoMixerBitmap::GetAlphaBitmapParameters, evr9/IMFVideoMixerBitmap::GetAlphaBitmapParameters, mf.imfvideomixerbitmap_getalphabitmapparameters
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoAlphaBitmapFlags
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMFVideoMixerBitmap.GetAlphaBitmapParameters
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IMFVideoMixerBitmap::GetAlphaBitmapParameters

@@ -4,17 +4,16 @@ title: IInspectable::GetIids
 author: windows-sdk-content
 description: Gets the interfaces that are implemented by the current Windows Runtime class.
 old-location: winrt\iinspectable_getiids.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 560094E6-3ED2-4BF3-85C7-07736ECBACC8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetIids, GetIids method [Windows Runtime], GetIids method [Windows Runtime],IInputPaneInterop interface, GetIids method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetIids method, IInputPaneInterop::GetIids, IInspectable interface [Windows Runtime],GetIids method, IInspectable.GetIids, IInspectable::GetIids, inspectable/IInputPaneInterop::GetIids, inspectable/IInspectable::GetIids, winrt.iinspectable_getiids
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inspectable.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInputPaneInterop.GetIids
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInspectable::GetIids

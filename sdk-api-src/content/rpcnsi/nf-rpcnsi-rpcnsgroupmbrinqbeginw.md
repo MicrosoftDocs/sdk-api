@@ -4,17 +4,16 @@ title: RpcNsGroupMbrInqBeginW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members.
 old-location: rpc\rpcnsgroupmbrinqbegin.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
+req.lib: Rpcns4.lib
+req.dll: Rpcns4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - RpcNsGroupMbrInqBeginW
 product: Windows
 targetos: Windows
-req.lib: Rpcns4.lib
-req.dll: Rpcns4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # RpcNsGroupMbrInqBeginW function

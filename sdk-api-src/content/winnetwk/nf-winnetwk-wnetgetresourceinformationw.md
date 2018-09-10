@@ -4,17 +4,16 @@ title: WNetGetResourceInformationW function
 author: windows-sdk-content
 description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
 old-location: wnet\wnetgetresourceinformation.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINML_VARIABLE_DESC
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WNetGetResourceInformationW
 product: Windows
 targetos: Windows
-req.lib: Mpr.lib
-req.dll: Mpr.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WNetGetResourceInformationW function

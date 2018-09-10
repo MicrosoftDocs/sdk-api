@@ -4,7 +4,7 @@ title: AutomationIdentifierType
 author: windows-sdk-content
 description: Contains values used in the UiaLookupId function.
 old-location: winauto\uiauto_AutomationIdTypeEnum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 798afc92-73bc-4a76-a8bb-afa804038205
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - AutomationIdentifierType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # AutomationIdentifierType enumeration

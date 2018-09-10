@@ -4,17 +4,16 @@ title: ISyncMgrEventStore::GetEvent
 author: windows-sdk-content
 description: Gets a specified event object.
 old-location: shell\ISyncMgrEventStore_GetEvent.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncMgrEventStore.GetEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncMgrEventStore::GetEvent

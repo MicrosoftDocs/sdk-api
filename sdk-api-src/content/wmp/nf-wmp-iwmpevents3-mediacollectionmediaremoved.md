@@ -4,17 +4,16 @@ title: IWMPEvents3::MediaCollectionMediaRemoved
 author: windows-sdk-content
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaremoved.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: c142a5ab-deed-41d0-8ddd-1d2f8a7b9d69
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaRemoved method, IWMPEvents3.MediaCollectionMediaRemoved, IWMPEvents3::MediaCollectionMediaRemoved, IWMPEvents3MediaCollectionMediaRemoved, MediaCollectionMediaRemoved, MediaCollectionMediaRemoved method [Windows Media Player], MediaCollectionMediaRemoved method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaremoved, wmp/IWMPEvents3::MediaCollectionMediaRemoved
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 11.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPEvents3.MediaCollectionMediaRemoved
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPEvents3::MediaCollectionMediaRemoved

@@ -4,17 +4,16 @@ title: DeregisterManageableLogClient function
 author: windows-sdk-content
 description: Deregisters a client with the log manager.
 old-location: fs\deregistermanageablelogclient.htm
-old-project: Clfs
+tech.root: Clfs
 ms.assetid: 293a4856-62d4-49a3-9177-4d09a0897200
 ms.author: windowssdkdev
 ms.date: 08/03/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
+req.lib: Clfsw32.lib
+req.dll: Clfsw32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DeregisterManageableLogClient
 product: Windows
 targetos: Windows
-req.lib: Clfsw32.lib
-req.dll: Clfsw32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DeregisterManageableLogClient function

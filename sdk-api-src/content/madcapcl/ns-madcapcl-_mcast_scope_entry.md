@@ -4,7 +4,7 @@ title: "_MCAST_SCOPE_ENTRY"
 author: windows-sdk-content
 description: The MCAST_SCOPE_ENTRY structure provides a complete set of information about a given multicast scope.
 old-location: madcap\mcast_scope_entry.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: d275e78b-ddf3-4f92-a76f-463aec2f6c95
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCAST_SCOPE_ENTRY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
+req.redist: 
 ---
 
 # _MCAST_SCOPE_ENTRY structure

@@ -4,17 +4,16 @@ title: IOpcDigitalSignatureManager::Sign
 author: windows-sdk-content
 description: Signs the package by generating a signature by using the specified certificate and IOpcSigningOptions interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_sign.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignatureManager.Sign
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignatureManager::Sign

@@ -4,17 +4,16 @@ title: IVMRVideoStreamControl::GetStreamActiveState
 author: windows-sdk-content
 description: The GetStreamActiveState method retrieves the state of the stream.
 old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 619ba669-c2a0-46fe-9c12-52105b107351
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [DirectShow], GetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetStreamActiveState method, IVMRVideoStreamControl.GetStreamActiveState, IVMRVideoStreamControl::GetStreamActiveState, IVMRVideoStreamControlGetStreamActiveState, dshow.ivmrvideostreamcontrol_getstreamactivestate, strmif/IVMRVideoStreamControl::GetStreamActiveState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRVideoStreamControl.GetStreamActiveState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRVideoStreamControl::GetStreamActiveState

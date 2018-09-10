@@ -4,7 +4,7 @@ title: IKEEXT_CERTIFICATE_AUTHENTICATION0_
 author: windows-sdk-content
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: e9f9625d-b68b-4b7d-a587-39dac04dd991
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEEXT_CERTIFICATE_AUTHENTICATION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION0
+req.redist: 
 ---
 
 # IKEEXT_CERTIFICATE_AUTHENTICATION0_ structure

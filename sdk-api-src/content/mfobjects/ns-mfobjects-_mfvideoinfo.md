@@ -4,7 +4,7 @@ title: "_MFVideoInfo"
 author: windows-sdk-content
 description: Contains video format information that applies to both compressed and uncompressed formats.This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideoinfo.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFVideoInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MFVideoInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MFVideoInfo
+req.redist: 
 ---
 
 # _MFVideoInfo structure

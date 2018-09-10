@@ -4,17 +4,16 @@ title: IShellView::SelectItem
 author: windows-sdk-content
 description: Changes the selection state of one or more items within the Shell view window.
 old-location: shell\IShellView_SelectItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 5c34c05e-175c-43cb-9fbb-2eb3e2b39f6f
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IShellView interface [Windows Shell],SelectItem method, IShellView.SelectItem, IShellView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellView interface, _win32_IShellView_SelectItem, shell.IShellView_SelectItem, shobjidl_core/IShellView::SelectItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellView.SelectItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellView::SelectItem

@@ -4,17 +4,16 @@ title: Graphics::GetPageScale
 author: windows-sdk-content
 description: The Graphics::GetPageScale method gets the scaling factor currently set for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageScale_.htm
-old-project: gdiplus
+tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpagescale.htm
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetPageScale, GetPageScale method [GDI+], GetPageScale method [GDI+],Graphics class, Graphics class [GDI+],GetPageScale method, Graphics.GetPageScale, Graphics::GetPageScale, _gdiplus_CLASS_Graphics_GetPageScale_, gdiplus._gdiplus_CLASS_Graphics_GetPageScale_
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Gdiplus.lib
+req.dll: Gdiplus.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - Graphics.GetPageScale
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: GDI+ 1.0
 ---
 

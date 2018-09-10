@@ -4,17 +4,16 @@ title: PeerIdentityGetFriendlyName function
 author: windows-sdk-content
 description: The PeerIdentityGetFriendlyName function returns the friendly name of the peer identity.
 old-location: p2p\peeridentitygetfriendlyname.htm
-old-project: p2psdk
+tech.root: p2psdk
 ms.assetid: c0d823db-9c2c-46c1-99b8-87fe7fdc9343
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: PeerIdentityGetFriendlyName, PeerIdentityGetFriendlyName function [Peer Networking], p2p.peeridentitygetfriendlyname, p2p/PeerIdentityGetFriendlyName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only],Windows XP with SP1 with the Advanced Networking Pack for Windows XP
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_WATCH_PERMISSION
+req.lib: P2P.lib
+req.dll: P2P.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PeerIdentityGetFriendlyName
 product: Windows
 targetos: Windows
-req.lib: P2P.lib
-req.dll: P2P.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PeerIdentityGetFriendlyName function

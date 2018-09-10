@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::get_Request
 author: windows-sdk-content
 description: Gets the inner PKCS10 request.
 old-location: security\ix509scepenrollment_request.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 9446cd62-5a02-4701-8b13-9e46508fbfaa
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Request property, IX509SCEPEnrollment.Request, IX509SCEPEnrollment.get_Request, IX509SCEPEnrollment::Request, IX509SCEPEnrollment::get_Request, Request property [Security], Request property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Request, certenroll/IX509SCEPEnrollment::get_Request, get_Request, security.ix509scepenrollment_request
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509SCEPEnrollment.get_Request
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::get_Request

@@ -4,17 +4,16 @@ title: IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
 author: windows-sdk-content
 description: Cancels a collection of subscriptions to notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_unsubscribetomultipleoperations.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 2f542dc1-639c-4201-9274-8aa5cc238482
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWSDServiceProxyEventing interface,UnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.UnsubscribeToMultipleOperations, IWSDServiceProxyEventing::UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations method, UnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_unsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDServiceProxyEventing.UnsubscribeToMultipleOperations
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDServiceProxyEventing::UnsubscribeToMultipleOperations

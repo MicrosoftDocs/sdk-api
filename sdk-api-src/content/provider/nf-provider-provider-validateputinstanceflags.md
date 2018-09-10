@@ -4,17 +4,16 @@ title: Provider::ValidatePutInstanceFlags
 author: windows-sdk-content
 description: The ValidatePutInstanceFlags method determines whether a set of flags is valid for an instance update operation.
 old-location: wmi\provider_validateputinstanceflags.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: dd7a480e-9569-45ed-a46d-218c1a9cf2db
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidatePutInstanceFlags method, Provider.ValidatePutInstanceFlags, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPVAR_COMPARE_UNIT
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # Provider::ValidatePutInstanceFlags

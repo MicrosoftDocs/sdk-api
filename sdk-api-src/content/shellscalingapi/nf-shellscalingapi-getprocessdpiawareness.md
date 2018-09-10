@@ -4,17 +4,16 @@ title: GetProcessDpiAwareness function
 author: windows-sdk-content
 description: Retrieves the dots per inch (dpi) awareness of the specified process.
 old-location: hidpi\getprocessdpiawareness.htm
-old-project: hidpi
+tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: Shcore.lib
+req.dll: Shcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetProcessDpiAwareness
 product: Windows
 targetos: Windows
-req.lib: Shcore.lib
-req.dll: Shcore.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetProcessDpiAwareness function

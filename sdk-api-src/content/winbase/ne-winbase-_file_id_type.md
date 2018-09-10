@@ -4,7 +4,7 @@ title: "_FILE_ID_TYPE"
 author: windows-sdk-content
 description: Discriminator for the union in the FILE_ID_DESCRIPTOR structure.
 old-location: fs\file_id_type.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 7e46ba94-e3cd-4d6c-962f-5d5bd55d45a1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: Windows SDK on Windows Server 2003     and Windows XP.
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FILE_ID_TYPE, *PFILE_ID_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - FILE_ID_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: FILE_ID_TYPE, *PFILE_ID_TYPE
+req.redist: Windows SDK on Windows Server 2003     and Windows XP.
 ---
 
 # _FILE_ID_TYPE enumeration

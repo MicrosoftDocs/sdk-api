@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_dimm_0000_0000_0004"
 author: windows-sdk-content
 description: Defines the attributes of a font.
 old-location: shell\LOGFONT.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dimm.h
 req.include-header: Shtypes.h, Dimm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: LOGFONTW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,9 +42,8 @@ api_name:
  - LOGFONTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: LOGFONTW
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_dimm_0000_0000_0004 structure

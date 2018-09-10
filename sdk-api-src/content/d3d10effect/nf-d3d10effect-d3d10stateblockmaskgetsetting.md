@@ -4,17 +4,16 @@ title: D3D10StateBlockMaskGetSetting function
 author: windows-sdk-content
 description: Get an element in a state-block mask; determine if an element is allowed by the mask for capturing and applying.
 old-location: direct3d10\d3d10stateblockmaskgetsetting.htm
-old-project: direct3d10
+tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskgetsetting.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 6309c42d-db39-eb28-25e5-ba740c57a969, D3D10StateBlockMaskGetSetting, D3D10StateBlockMaskGetSetting function [Direct3D 10], d3d10effect/D3D10StateBlockMaskGetSetting, direct3d10.d3d10stateblockmaskgetsetting
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D10_DEVICE_STATE_TYPES
+req.lib: D3D10.lib
+req.dll: D3D10.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D10StateBlockMaskGetSetting
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
-req.dll: D3D10.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # D3D10StateBlockMaskGetSetting function

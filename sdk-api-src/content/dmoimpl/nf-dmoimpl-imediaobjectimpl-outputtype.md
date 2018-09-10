@@ -4,17 +4,16 @@ title: IMediaObjectImpl::OutputType
 author: windows-sdk-content
 description: The OutputType method retrieves the current media type for a specified output stream.
 old-location: dshow\imediaobjectimpl_outputtype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMEMHEAP
+req.lib: Dmoguids.lib; Msdmo.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,9 +43,8 @@ api_name:
  - IMediaObjectImpl.OutputType
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib; Msdmo.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaObjectImpl::OutputType

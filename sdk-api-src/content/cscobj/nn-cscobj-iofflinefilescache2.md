@@ -4,7 +4,7 @@ title: IOfflineFilesCache2
 author: windows-sdk-content
 description: Implements the RenameItemEx method.
 old-location: of\iofflinefilescache2.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: B4E2C2B0-AA6B-4657-8711-E5057720AF15
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 with SP1
 req.target-min-winversvr: Windows Server 2008 R2 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesCache2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesCache2 interface

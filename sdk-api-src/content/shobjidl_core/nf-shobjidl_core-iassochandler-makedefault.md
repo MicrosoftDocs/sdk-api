@@ -4,17 +4,16 @@ title: IAssocHandler::MakeDefault
 author: windows-sdk-content
 description: Sets an application as the default application for this file type.
 old-location: shell\IAssocHandler_MakeDefault.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 106ac493-bde6-4327-b3be-3132bfd47415
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocHandler.MakeDefault, IAssocHandler::MakeDefault, MakeDefault, MakeDefault method [Windows Shell], MakeDefault method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_MakeDefault, shell.IAssocHandler_MakeDefault, shobjidl_core/IAssocHandler::MakeDefault
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAssocHandler.MakeDefault
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IAssocHandler::MakeDefault

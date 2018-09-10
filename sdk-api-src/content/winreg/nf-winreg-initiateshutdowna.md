@@ -4,17 +4,16 @@ title: InitiateShutdownA function
 author: windows-sdk-content
 description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
 old-location: base\initiateshutdown.htm
-old-project: Shutdown
+tech.root: Shutdown
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, InitiateShutdownW, SHUTDOWN_FORCE_OTHERS, SHUTDOWN_FORCE_SELF, SHUTDOWN_GRACE_OVERRIDE, SHUTDOWN_HYBRID, SHUTDOWN_INSTALL_UPDATES, SHUTDOWN_NOREBOOT, SHUTDOWN_POWEROFF, SHUTDOWN_RESTART, SHUTDOWN_RESTARTAPPS, base.initiateshutdown, security.initiateshutdown, winreg/InitiateShutdown, winreg/InitiateShutdownA, winreg/InitiateShutdownW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InitiateShutdownW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # InitiateShutdownA function

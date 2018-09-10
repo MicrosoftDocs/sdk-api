@@ -4,17 +4,16 @@ title: CThreadBase::EndRead
 author: windows-sdk-content
 description: The EndRead method provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework. CThreadBase is called internally.
 old-location: wmi\cthreadbase_endread.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: e34fa8bc-f667-4fca-9282-9ca8038f3e75
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?EndRead@CThreadBase@@QAEXXZ, CThreadBase interface [Windows Management Instrumentation],EndRead method, CThreadBase.EndRead, CThreadBase::EndRead, EndRead, EndRead method [Windows Management Instrumentation], EndRead method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndRead, wmi.cthreadbase_endread"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: thrdbase.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_TEXTCHANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?EndRead@CThreadBase@@QAEXXZ
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # CThreadBase::EndRead

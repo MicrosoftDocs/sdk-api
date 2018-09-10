@@ -4,17 +4,16 @@ title: ITsSbResourcePluginStore::GetServerState
 author: windows-sdk-content
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetServerState, GetServerState method [Remote Desktop Services], GetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetServerState method, ITsSbResourcePluginStore.GetServerState, ITsSbResourcePluginStore::GetServerState, sbtsv/ITsSbResourcePluginStore::GetServerState, termserv.itssbresourcepluginstore_getserverstate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TS_SB_SORT_BY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITsSbResourcePluginStore.GetServerState
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITsSbResourcePluginStore::GetServerState

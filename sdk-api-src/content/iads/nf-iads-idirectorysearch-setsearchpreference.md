@@ -4,17 +4,16 @@ title: IDirectorySearch::SetSearchPreference
 author: windows-sdk-content
 description: Specifies a search preference for obtaining data in a subsequent search.
 old-location: adsi\idirectorysearch_setsearchpreference.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IDirectorySearch interface [ADSI],SetSearchPreference method, IDirectorySearch.SetSearchPreference, IDirectorySearch::SetSearchPreference, SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI],IDirectorySearch interface, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IDirectorySearch.SetSearchPreference
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectorySearch::SetSearchPreference

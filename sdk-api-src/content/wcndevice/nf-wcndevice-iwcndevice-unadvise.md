@@ -4,17 +4,16 @@ title: IWCNDevice::Unadvise
 author: windows-sdk-content
 description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.
 old-location: wcn\iwcndevice_unadvise.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: d76ebc9e-8adc-4640-a377-f69cef43afca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDevice.Unadvise, IWCNDevice::Unadvise, Unadvise, Unadvise method [Windows Connect Now], Unadvise method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_unadvise, wcndevice/IWCNDevice::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_SESSION_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWCNDevice.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWCNDevice::Unadvise

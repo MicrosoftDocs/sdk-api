@@ -3,18 +3,17 @@ UID: NF:faxcomex.IFaxIncomingArchive.get_AgeLimit
 title: IFaxIncomingArchive::get_AgeLimit
 author: windows-sdk-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of inbound faxes.
-old-location: fax\_mfax_faxincomingarchive_agelimit_vb.htm
-old-project: Fax
+old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_agelimit_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6vjo.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxIncomingArchive object, FaxIncomingArchive object [Fax Service],AgeLimit property, FaxIncomingArchive.AgeLimit, IFaxIncomingArchive.get_AgeLimit, IFaxIncomingArchive::get_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_agelimit_vb, get_AgeLimit
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],AgeLimit property, IFaxIncomingArchive.AgeLimit, IFaxIncomingArchive.get_AgeLimit, IFaxIncomingArchive::AgeLimit, IFaxIncomingArchive::get_AgeLimit, IFaxIncomingArchive::put_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_agelimit_cpp, faxcomex/IFaxIncomingArchive::AgeLimit, faxcomex/IFaxIncomingArchive::get_AgeLimit, faxcomex/IFaxIncomingArchive::put_AgeLimit, get_AgeLimit
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: Fxscomex.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,13 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - FaxIncomingArchive.AgeLimit
+ - IFaxIncomingArchive.AgeLimit
+ - IFaxIncomingArchive.get_AgeLimit
+ - IFaxIncomingArchive.put_AgeLimit
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Fxscomex.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxIncomingArchive::get_AgeLimit
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows, get the  <a href="https://msdn.microsoft.com/a8fcdfca-1989-408b-919b-086a15345b4e">FaxConfiguration.ArchiveAgeLimit</a> property from the <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object.</div>
+<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/2672f0e3-e412-4263-b3d1-b5b6c9cae708">IFaxConfiguration::put_ArchiveAgeLimit</a>   or <a href="https://msdn.microsoft.com/2672f0e3-e412-4263-b3d1-b5b6c9cae708">IFaxConfiguration::get_ArchiveAgeLimit</a> method.</div>
 <div> </div>
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 

@@ -4,7 +4,7 @@ title: "_CLUS_PROVIDER_STATE_CHANGE_INFO"
 author: windows-sdk-content
 description: Contains data about the state of a provider resource.
 old-location: mscs\clus_provider_state_change_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 53e25d02-6dfa-4a74-8ff3-01c868d2fd44
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_PROVIDER_STATE_CHANGE_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
+req.redist: 
 ---
 
 # _CLUS_PROVIDER_STATE_CHANGE_INFO structure

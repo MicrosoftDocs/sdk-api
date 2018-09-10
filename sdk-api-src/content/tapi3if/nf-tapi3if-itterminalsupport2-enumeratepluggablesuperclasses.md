@@ -4,17 +4,16 @@ title: ITTerminalSupport2::EnumeratePluggableSuperclasses
 author: windows-sdk-content
 description: The EnumeratePluggableSuperclasses method enumerates the pluggable terminal superclasses registered on the current system.
 old-location: tapi3\itterminalsupport2_enumeratepluggablesuperclasses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 5f1e8490-1b26-45e6-9f9a-e7ddcc840e90
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: EnumeratePluggableSuperclasses, EnumeratePluggableSuperclasses method [TAPI 2.2], EnumeratePluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableSuperclasses method, ITTerminalSupport2.EnumeratePluggableSuperclasses, ITTerminalSupport2::EnumeratePluggableSuperclasses, _tapi3_itterminalsupport2_enumeratepluggablesuperclasses, tapi3.itterminalsupport2_enumeratepluggablesuperclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableSuperclasses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITTerminalSupport2.EnumeratePluggableSuperclasses
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITTerminalSupport2::EnumeratePluggableSuperclasses

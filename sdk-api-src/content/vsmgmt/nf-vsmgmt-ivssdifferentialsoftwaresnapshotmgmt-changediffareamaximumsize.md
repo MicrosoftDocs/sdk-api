@@ -4,17 +4,16 @@ title: IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
 author: windows-sdk-content
 description: Updates the shadow copy storage area maximum size for a certain volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: c7773fa8-6b43-46bf-b644-0016b261c080
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ChangeDiffAreaMaximumSize, ChangeDiffAreaMaximumSize method [VSS], ChangeDiffAreaMaximumSize method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],ChangeDiffAreaMaximumSize method, IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize, IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize, base.ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize

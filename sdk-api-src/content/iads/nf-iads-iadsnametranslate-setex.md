@@ -4,17 +4,16 @@ title: IADsNameTranslate::SetEx
 author: windows-sdk-content
 description: Establishes an array of objects for name translation.
 old-location: adsi\iadsnametranslate_setex.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADsNameTranslate.SetEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADsNameTranslate::SetEx
@@ -67,7 +65,7 @@ The format type of the input names. For more information, see  <a href="https://
 
 ### -param pvar
 
-
+TBD
 
 
 

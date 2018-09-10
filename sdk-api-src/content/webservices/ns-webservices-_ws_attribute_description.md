@@ -4,7 +4,7 @@ title: "_WS_ATTRIBUTE_DESCRIPTION"
 author: windows-sdk-content
 description: Represents a mapping between a C data type and an XML attribute.
 old-location: wsw\ws_attribute_description.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 23a97842-2d9f-438a-89a7-2dd0e381a019
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_ATTRIBUTE_DESCRIPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_ATTRIBUTE_DESCRIPTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_ATTRIBUTE_DESCRIPTION
+req.redist: 
 ---
 
 # _WS_ATTRIBUTE_DESCRIPTION structure

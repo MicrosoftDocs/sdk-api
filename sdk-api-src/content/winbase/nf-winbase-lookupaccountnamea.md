@@ -4,17 +4,16 @@ title: LookupAccountNameA function
 author: windows-sdk-content
 description: Accepts the name of a system and an account as input. It retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
 old-location: security\lookupaccountname.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - LookupAccountNameW
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # LookupAccountNameA function

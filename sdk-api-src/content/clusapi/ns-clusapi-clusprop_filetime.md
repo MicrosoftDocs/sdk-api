@@ -4,7 +4,7 @@ title: CLUSPROP_FILETIME
 author: windows-sdk-content
 description: Describes a date and time stamp for a file.
 old-location: mscs\clusprop_filetime.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUSPROP_FILETIME
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
+req.redist: 
 ---
 
 # CLUSPROP_FILETIME structure

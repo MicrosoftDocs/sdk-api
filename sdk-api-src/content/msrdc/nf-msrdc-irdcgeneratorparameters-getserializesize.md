@@ -4,17 +4,16 @@ title: IRdcGeneratorParameters::GetSerializeSize
 author: windows-sdk-content
 description: Returns the size, in bytes, of the serialized parameter data.
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm
-old-project: Rdc
+tech.root: Rdc
 ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetSerializeSize method, IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: MsRdc.dll
-tech.root: 
-req.typenames: RdcMappingAccessMode
+req.lib: 
+req.dll: MsRdc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IRdcGeneratorParameters.GetSerializeSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: MsRdc.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IRdcGeneratorParameters::GetSerializeSize

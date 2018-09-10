@@ -4,17 +4,16 @@ title: IAMVideoCompression::put_WindowSize
 author: windows-sdk-content
 description: The put_WindowSize method sets the number of frames over which the compressor must maintain an average data rate.
 old-location: dshow\iamvideocompression_put_windowsize.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 744cd32d-5f61-4069-82c4-50bc1b800f24
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_WindowSize method, IAMVideoCompression.put_WindowSize, IAMVideoCompression::put_WindowSize, IAMVideoCompressionput_WindowSize, dshow.iamvideocompression_put_windowsize, put_WindowSize, put_WindowSize method [DirectShow], put_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_WindowSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVideoCompression.put_WindowSize
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVideoCompression::put_WindowSize

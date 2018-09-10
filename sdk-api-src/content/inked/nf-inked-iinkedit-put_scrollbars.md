@@ -4,17 +4,16 @@ title: IInkEdit::put_ScrollBars
 author: windows-sdk-content
 description: Gets or sets the type of scroll bars, if any, to display in the InkEdit control.
 old-location: tablet\inkedit_scrollbars.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d6b798dc-6e8f-4c89-b5a8-c4a189ebe6cd
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: IInkEdit interface [Tablet PC],ScrollBars property, IInkEdit.ScrollBars, IInkEdit.put_ScrollBars, IInkEdit::ScrollBars, IInkEdit::get_ScrollBars, IInkEdit::put_ScrollBars, InkEdit.get_ScrollBars, InkEdit.put_ScrollBars, ScrollBars property [Tablet PC], ScrollBars property [Tablet PC],IInkEdit interface, get_ScrollBars, inked/IInkEdit::ScrollBars, inked/IInkEdit::get_ScrollBars, inked/IInkEdit::put_ScrollBars, put_ScrollBars, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.inkedit_scrollbars
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SelAlignmentConstants
+req.lib: InkEd.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,10 +45,8 @@ api_name:
  - InkEdit.put_ScrollBars
 product: Windows
 targetos: Windows
-req.lib: InkEd.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IInkEdit::put_ScrollBars

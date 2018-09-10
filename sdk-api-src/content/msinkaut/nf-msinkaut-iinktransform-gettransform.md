@@ -4,17 +4,16 @@ title: IInkTransform::GetTransform
 author: windows-sdk-content
 description: Gets the InkTransform member data.
 old-location: tablet\inktransform_gettransform.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: d6aec579-7fa4-4cfb-8f63-2810b0c40103
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetTransform, GetTransform method [Tablet PC], GetTransform method [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],GetTransform method, IInkTransform.GetTransform, IInkTransform::GetTransform, d6aec579-7fa4-4cfb-8f63-2810b0c40103, msinkaut/IInkTransform::GetTransform, tablet.inktransform_gettransform
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IInkTransform.GetTransform
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkTransform::GetTransform

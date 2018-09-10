@@ -4,17 +4,16 @@ title: IRunningTask::get_State
 author: windows-sdk-content
 description: Gets an identifier for the state of the running task.
 old-location: taskschd\irunningtask_state.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: 50a1d81d-9762-4d1f-801a-b2c54ad9c5bc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IRunningTask interface [Task Scheduler],State property, IRunningTask.State, IRunningTask.get_State, IRunningTask::State, IRunningTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRunningTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.irunningtask_state, taskschd/IRunningTask::State, taskschd/IRunningTask::get_State
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IRunningTask.get_State
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IRunningTask::get_State

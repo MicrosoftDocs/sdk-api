@@ -4,17 +4,16 @@ title: ITScriptableAudioFormat::put_BlockAlign
 author: windows-sdk-content
 description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_blockalign.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: bc037229-4c5f-4778-af59-02e07d03a180
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BlockAlign method, ITScriptableAudioFormat.put_BlockAlign, ITScriptableAudioFormat::put_BlockAlign, _tapi3_itscriptableaudioformat_put_blockalign, put_BlockAlign, put_BlockAlign method [TAPI 2.2], put_BlockAlign method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_blockalign, tapi3if/ITScriptableAudioFormat::put_BlockAlign
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITScriptableAudioFormat.put_BlockAlign
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITScriptableAudioFormat::put_BlockAlign

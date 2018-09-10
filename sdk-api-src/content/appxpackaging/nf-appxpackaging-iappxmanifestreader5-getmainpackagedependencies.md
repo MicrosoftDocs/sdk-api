@@ -4,17 +4,16 @@ title: IAppxManifestReader5::GetMainPackageDependencies
 author: windows-sdk-content
 description: Gets a main package dependencies enumerator.
 old-location: appxpkg\iappxmanifestreader5_getmainpackagedependencies.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: E89A6A43-28F6-4A9A-A8B7-3450B68E3DB1
 ms.author: windowssdkdev
 ms.date: 08/16/2018
 ms.keywords: GetMainPackageDependencies, GetMainPackageDependencies method [App packaging and management], GetMainPackageDependencies method [App packaging and management],IAppxManifestReader5 interface, IAppxManifestReader5 interface [App packaging and management],GetMainPackageDependencies method, IAppxManifestReader5.GetMainPackageDependencies, IAppxManifestReader5::GetMainPackageDependencies, appxpackaging/IAppxManifestReader5::GetMainPackageDependencies, appxpkg.iappxmanifestreader5_getmainpackagedependencies
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxManifestReader5.GetMainPackageDependencies
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxManifestReader5::GetMainPackageDependencies

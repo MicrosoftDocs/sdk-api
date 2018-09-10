@@ -4,17 +4,16 @@ title: IUIAutomationTransformPattern2::get_CurrentZoomMaximum
 author: windows-sdk-content
 description: Retrieves the maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoommaximum.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 600A6FCC-7B67-435A-B162-BC0EC8D609B0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CurrentZoomMaximum property [Windows Accessibility], CurrentZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomMaximum property, IUIAutomationTransformPattern2.CurrentZoomMaximum, IUIAutomationTransformPattern2.get_CurrentZoomMaximum, IUIAutomationTransformPattern2::CurrentZoomMaximum, IUIAutomationTransformPattern2::get_CurrentZoomMaximum, get_CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_currentzoommaximum
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationTransformPattern2.get_CurrentZoomMaximum
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationTransformPattern2::get_CurrentZoomMaximum

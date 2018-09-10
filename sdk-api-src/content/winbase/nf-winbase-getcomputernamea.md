@@ -4,17 +4,16 @@ title: GetComputerNameA function
 author: windows-sdk-content
 description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 old-location: base\getcomputername.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,10 +50,8 @@ api_name:
  - GetComputerNameW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetComputerNameA function

@@ -4,7 +4,7 @@ title: "_COPP_BusType"
 author: windows-sdk-content
 description: Specifies the type of I/O bus used by the graphics adapter.
 old-location: dshow\copp_bustype.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: eb3666bd-1987-419f-8d48-0dbca147bf7e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxva9typ.h
 req.include-header: Dxva.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COPP_BusType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - COPP_BusType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: COPP_BusType
+req.redist: 
 ---
 
 # _COPP_BusType enumeration

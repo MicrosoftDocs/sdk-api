@@ -4,17 +4,16 @@ title: ISceSvcAttachmentData::Initialize
 author: windows-sdk-content
 description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
 old-location: security\iscesvcattachmentdata_initialize.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISceSvcAttachmentData interface [Security],Initialize method, ISceSvcAttachmentData.Initialize, ISceSvcAttachmentData::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISceSvcAttachmentData interface, _config_iscesvcattachmentdata_initialize, scesvc/ISceSvcAttachmentData::Initialize, security.iscesvcattachmentdata_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCESVC_INFO_TYPE
+req.lib: 
+req.dll: Wsecedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISceSvcAttachmentData.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsecedit.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISceSvcAttachmentData::Initialize
@@ -62,12 +60,12 @@ The <b>Initialize</b> method informs the Security Configuration snap-in that the
 
 ### -param lpServiceName
 
-
+TBD
 
 
 ### -param lpTemplateName
 
-
+TBD
 
 
 ### -param lpSceSvcPersistInfo [in]
@@ -78,7 +76,7 @@ Pointer to the
 
 ### -param pscesvcHandle
 
-
+TBD
 
 
 

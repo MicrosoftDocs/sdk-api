@@ -4,17 +4,16 @@ title: IDsAdminNewObjExt::OnError
 author: windows-sdk-content
 description: Called when an error has occurred in the wizard pages.
 old-location: ad\idsadminnewobjext_onerror.htm
-old-project: ad
+tech.root: ad
 ms.assetid: d1bb1eb6-db96-4322-8beb-0b9a3c6b0318
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_COMMIT, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],OnError method, IDsAdminNewObjExt.OnError, IDsAdminNewObjExt::OnError, OnError, OnError method [Active Directory], OnError method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_onerror, ad.idsadminnewobjext__onerror, ad.idsadminnewobjext_onerror, dsadmin/IDsAdminNewObjExt::OnError
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
+req.lib: 
+req.dll: DSAdmin.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDsAdminNewObjExt.OnError
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: DSAdmin.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDsAdminNewObjExt::OnError

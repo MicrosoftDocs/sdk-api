@@ -4,17 +4,16 @@ title: GetCommTimeouts function
 author: windows-sdk-content
 description: Retrieves the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\getcommtimeouts.htm
-old-project: devio
+tech.root: devio
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetCommTimeouts
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetCommTimeouts function

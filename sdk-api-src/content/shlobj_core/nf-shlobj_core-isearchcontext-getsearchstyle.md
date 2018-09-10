@@ -4,17 +4,16 @@ title: ISearchContext::GetSearchStyle
 author: windows-sdk-content
 description: Overrides the registry settings that determine how an autosearch is performed.
 old-location: shell\ISearchContext_GetSearchStyle.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d2ea6201-fd70-46de-8270-c0cc34c728aa
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetSearchStyle, GetSearchStyle method [Windows Shell], GetSearchStyle method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchStyle method, ISearchContext.GetSearchStyle, ISearchContext::GetSearchStyle, _shell_ISearchContext_GetSearchStyle, shell.ISearchContext_GetSearchStyle, shlobj_core/ISearchContext::GetSearchStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISearchContext.GetSearchStyle
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISearchContext::GetSearchStyle

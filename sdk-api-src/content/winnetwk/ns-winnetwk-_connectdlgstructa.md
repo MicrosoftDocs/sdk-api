@@ -4,7 +4,7 @@ title: "_CONNECTDLGSTRUCTA"
 author: windows-sdk-content
 description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
 old-location: wnet\connectdlgstruct_str.htm
-old-project: WNet
+tech.root: WNet
 ms.assetid: fb2a4b5a-ad8a-4ebf-8430-349d821eee20
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnetwk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONNECTDLGSTRUCTA, *LPCONNECTDLGSTRUCTA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CONNECTDLGSTRUCTW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CONNECTDLGSTRUCTA, *LPCONNECTDLGSTRUCTA
+req.redist: 
 ---
 
 # _CONNECTDLGSTRUCTA structure

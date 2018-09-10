@@ -4,7 +4,7 @@ title: CLUS_DNN_SODAFS_CLONE_STATUS
 author: windows-sdk-content
 description: Represents the status of a Scale-Out File Server clone.
 old-location: mscs\clus_dnn_sodafs_clone_status.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CLUS_DNN_SODAFS_CLONE_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
+req.redist: 
 ---
 
 # CLUS_DNN_SODAFS_CLONE_STATUS structure

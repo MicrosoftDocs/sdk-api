@@ -4,17 +4,16 @@ title: CVssWriter::OnAbort
 author: windows-sdk-content
 description: The OnAbort method is called by a writer following an Abort event issued by VSS indicating that a shadow copy operation has terminated prematurely. The writer uses this method to clean up from its attempt to participate in that operation.
 old-location: base\cvsswriter_onabort.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: 56ba5f08-4803-4137-9edd-ce05bc19773b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CVssWriter interface [VSS],OnAbort method, CVssWriter.OnAbort, CVssWriter::OnAbort, OnAbort, OnAbort method [VSS], OnAbort method [VSS],CVssWriter interface, _win32_cvsswriter_onabort, base.cvsswriter_onabort, vswriter/CVssWriter::OnAbort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VSS_WRITERRESTORE_ENUM
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CVssWriter.OnAbort
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # CVssWriter::OnAbort

@@ -4,17 +4,16 @@ title: CertOpenSystemStoreW function
 author: windows-sdk-content
 description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
 old-location: security\certopensystemstore.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], CertOpenSystemStoreA, CertOpenSystemStoreW, MY, ROOT, SPC, _crypto2_certopensystemstore, security.certopensystemstore, wincrypt/CertOpenSystemStore, wincrypt/CertOpenSystemStoreA, wincrypt/CertOpenSystemStoreW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CertOpenSystemStoreW
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CertOpenSystemStoreW function

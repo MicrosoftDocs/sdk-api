@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::get_Ringer
 author: windows-sdk-content
 description: The get_Ringer method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the StartRinger method on this interface.
 old-location: tapi3\itautomatedphonecontrol_get_ringer.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: cc4daec0-7f55-4c76-b8a0-19307c7046dc
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Ringer method, ITAutomatedPhoneControl.get_Ringer, ITAutomatedPhoneControl::get_Ringer, _tapi3_itautomatedphonecontrol_get_ringer, get_Ringer, get_Ringer method [TAPI 2.2], get_Ringer method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_ringer, tapi3if/ITAutomatedPhoneControl::get_Ringer
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.get_Ringer
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::get_Ringer

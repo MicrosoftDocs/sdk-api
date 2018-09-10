@@ -4,7 +4,7 @@ title: IWebApplicationUIEvents
 author: windows-sdk-content
 description: Enables a debugging or authoring app to receive notification of user interface events and respond to events that require user interaction.
 old-location: debug\iwebapplicationuievents.htm
-old-project: debug_wwahost
+tech.root: debug_wwahost
 ms.assetid: e7cfc572-f727-41f4-b4a5-b15f3f3cd4e1
 ms.author: windowssdkdev
 ms.date: 06/05/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebApplicationUIEvents
 product: Windows
 targetos: Windows
-req.lib: WWAHost.exe
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWebApplicationUIEvents interface

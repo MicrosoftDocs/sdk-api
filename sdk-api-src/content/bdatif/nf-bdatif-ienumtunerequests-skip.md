@@ -4,17 +4,16 @@ title: IEnumTuneRequests::Skip
 author: windows-sdk-content
 description: The Skip method skips over the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_skip.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SmartCardApplication
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IEnumTuneRequests.Skip
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IEnumTuneRequests::Skip

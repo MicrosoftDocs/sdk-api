@@ -4,17 +4,16 @@ title: IQueryRecentWinSATAssessment::get_Info
 author: windows-sdk-content
 description: Retrieves an interface that provides information about the results of the most recent formal assessment, for example, the base score and the date that the assessment was run.
 old-location: winsat\iqueryrecentwinsatassessment_info.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: 11697416-aa4d-4724-bd63-8d123e2b32cb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],Info property, IQueryRecentWinSATAssessment.Info, IQueryRecentWinSATAssessment.get_Info, IQueryRecentWinSATAssessment::Info, IQueryRecentWinSATAssessment::get_Info, Info property [WinSAT], Info property [WinSAT],IQueryRecentWinSATAssessment interface, get_Info, winsat.iqueryrecentwinsatassessment_info, winsatcominterfacei/IQueryRecentWinSATAssessment::Info, winsatcominterfacei/IQueryRecentWinSATAssessment::get_Info
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IQueryRecentWinSATAssessment.get_Info
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IQueryRecentWinSATAssessment::get_Info

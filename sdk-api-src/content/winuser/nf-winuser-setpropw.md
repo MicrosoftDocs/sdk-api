@@ -4,17 +4,16 @@ title: SetPropW function
 author: windows-sdk-content
 description: Adds a new entry or changes an existing entry in the property list of the specified window.
 old-location: winmsg\setprop.htm
-old-project: winmsg
+tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\setprop.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetProp, SetProp function [Windows and Messages], SetPropA, SetPropW, _win32_SetProp, _win32_setprop_cpp, winmsg.setprop, winui._win32_setprop, winuser/SetProp, winuser/SetPropA, winuser/SetPropW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -52,10 +52,8 @@ api_name:
  - SetPropW
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetPropW function

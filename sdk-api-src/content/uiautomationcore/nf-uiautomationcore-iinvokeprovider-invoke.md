@@ -4,17 +4,16 @@ title: IInvokeProvider::Invoke
 author: windows-sdk-content
 description: Sends a request to activate a control and initiate its single, unambiguous action.
 old-location: winauto\uiauto_IInvokeProvider_Invoke.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 9bd2aba1-0751-412c-a6fe-0c10b9baa01e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IInvokeProvider interface [Windows Accessibility],Invoke method, IInvokeProvider.Invoke, IInvokeProvider::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IInvokeProvider interface, uiauto.uiauto_IInvokeProvider_Invoke, uiauto_IInvokeProvider_Invoke, uiautomationcore/IInvokeProvider::Invoke, winauto.uiauto_IInvokeProvider_Invoke
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IInvokeProvider.Invoke
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IInvokeProvider::Invoke

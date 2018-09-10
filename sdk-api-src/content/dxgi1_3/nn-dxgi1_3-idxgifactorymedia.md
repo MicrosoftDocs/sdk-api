@@ -4,7 +4,7 @@ title: IDXGIFactoryMedia
 author: windows-sdk-content
 description: Creates swap chains for desktop media apps that use DirectComposition surfaces to decode and display video.
 old-location: direct3ddxgi\idxgifactorymedia.htm
-old-project: direct3ddxgi
+tech.root: direct3ddxgi
 ms.assetid: 5646B34D-EB2C-4161-8FF0-67F96254AFBC
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDXGIFactoryMedia
 product: Windows
 targetos: Windows
-req.lib: Dxgi.lib
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDXGIFactoryMedia interface

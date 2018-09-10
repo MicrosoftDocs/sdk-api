@@ -4,17 +4,16 @@ title: IX509CertificateTemplates::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IX509CertificateTemplate objects in the collection.
 old-location: security\ix509certificatetemplates_count.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 92183bf8-fa1a-4377-a659-cc7ab3e2ca41
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Count property, IX509CertificateTemplates.Count, IX509CertificateTemplates.get_Count, IX509CertificateTemplates::Count, IX509CertificateTemplates::get_Count, certenroll/IX509CertificateTemplates::Count, certenroll/IX509CertificateTemplates::get_Count, get_Count, security.ix509certificatetemplates_count
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509CertificateTemplates.get_Count
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509CertificateTemplates::get_Count

@@ -4,17 +4,16 @@ title: IEnroll4::acceptResponseBlob
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequestWStr and places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptresponseblob.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 4a28bf6b-ad3d-414b-8740-ce7d4301a05b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IEnroll4 interface [Security],acceptResponseBlob method, IEnroll4.acceptResponseBlob, IEnroll4::acceptResponseBlob, acceptResponseBlob, acceptResponseBlob method [Security], acceptResponseBlob method [Security],IEnroll4 interface, security.ienroll4_acceptresponseblob, xenroll/IEnroll4::acceptResponseBlob
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEnroll4.acceptResponseBlob
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # IEnroll4::acceptResponseBlob

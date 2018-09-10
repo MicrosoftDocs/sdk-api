@@ -4,7 +4,7 @@ title: "_WTS_SOCKADDR"
 author: windows-sdk-content
 description: Contains a socket address.
 old-location: termserv\wts_sockaddr.htm
-old-project: termserv
+tech.root: termserv
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WTS_SOCKADDR, *PWTS_SOCKADDR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WTS_SOCKADDR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WTS_SOCKADDR, *PWTS_SOCKADDR
+req.redist: 
 ---
 
 # _WTS_SOCKADDR structure

@@ -4,7 +4,7 @@ title: "_TRUSTED_DOMAIN_INFORMATION_EX"
 author: windows-sdk-content
 description: Used to retrieve extended information about a trusted domain.
 old-location: security\trusted_domain_information_ex.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: acf9a2b5-f301-4e6a-a515-df338658ad56
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRUSTED_DOMAIN_INFORMATION_EX, *PTRUSTED_DOMAIN_INFORMATION_EX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRUSTED_DOMAIN_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: TRUSTED_DOMAIN_INFORMATION_EX, *PTRUSTED_DOMAIN_INFORMATION_EX
+req.redist: 
 ---
 
 # _TRUSTED_DOMAIN_INFORMATION_EX structure

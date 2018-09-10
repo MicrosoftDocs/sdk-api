@@ -4,17 +4,16 @@ title: CHString::SetAt
 author: windows-sdk-content
 description: Overwrites one character specified by an index number.
 old-location: wmi\chstring_setat.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CHString.SetAt
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CHString::SetAt

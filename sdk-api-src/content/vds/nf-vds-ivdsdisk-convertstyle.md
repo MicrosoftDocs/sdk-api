@@ -4,17 +4,16 @@ title: IVdsDisk::ConvertStyle
 author: windows-sdk-content
 description: Converts the partition style of an empty disk from one style to another.
 old-location: base\ivdsdisk_convertstyle.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 38c129cd-8e60-4e4a-b22b-26c69c68fe89
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ConvertStyle, ConvertStyle method [VDS], ConvertStyle method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],ConvertStyle method, IVdsDisk.ConvertStyle, IVdsDisk::ConvertStyle, base.ivdsdisk_convertstyle, vds/IVdsDisk::ConvertStyle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VOLUME_TYPE
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsDisk.ConvertStyle
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsDisk::ConvertStyle

@@ -4,17 +4,16 @@ title: IPortableDevice::Content
 author: windows-sdk-content
 description: The Content method retrieves an interface that you can use to access objects on a device.
 old-location: wpdsdk\iportabledevice_content.htm
-old-project: wpd_sdk
+tech.root: wpd_sdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Content method, IPortableDevice.Content, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PortableDeviceGUIDs.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IPortableDevice.Content
 product: Windows
 targetos: Windows
-req.lib: PortableDeviceGUIDs.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPortableDevice::Content

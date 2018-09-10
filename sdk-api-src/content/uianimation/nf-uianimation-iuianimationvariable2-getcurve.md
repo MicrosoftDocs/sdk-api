@@ -4,17 +4,16 @@ title: IUIAnimationVariable2::GetCurve
 author: windows-sdk-content
 description: Gets the animation curve of the animation variable.
 old-location: uianimation\iuianimationvariable2_getcurve.htm
-old-project: UIAnimation
+tech.root: UIAnimation
 ms.assetid: 59E7C7A1-2461-487C-A263-A9DFC851B720
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetCurve, GetCurve method [Windows Animation], GetCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetCurve method, IUIAnimationVariable2.GetCurve, IUIAnimationVariable2::GetCurve, uianimation.iuianimationvariable2_getcurve, uianimation/IUIAnimationVariable2::GetCurve
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8, Windows 7 and Platform Update for Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
+req.lib: 
+req.dll: UIAnimation.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IUIAnimationVariable2.GetCurve
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: UIAnimation.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAnimationVariable2::GetCurve

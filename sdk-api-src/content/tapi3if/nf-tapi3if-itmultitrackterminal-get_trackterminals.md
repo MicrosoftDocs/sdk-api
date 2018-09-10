@@ -4,17 +4,16 @@ title: ITMultiTrackTerminal::get_TrackTerminals
 author: windows-sdk-content
 description: The get_TrackTerminals method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_get_trackterminals.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2bedefe8-6b84-48c0-8a7b-719d017baf24
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_TrackTerminals method, ITMultiTrackTerminal.get_TrackTerminals, ITMultiTrackTerminal::get_TrackTerminals, _tapi3_itmultitrackterminal_get_trackterminals, get_TrackTerminals, get_TrackTerminals method [TAPI 2.2], get_TrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_trackterminals, tapi3if/ITMultiTrackTerminal::get_TrackTerminals
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITMultiTrackTerminal.get_TrackTerminals
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITMultiTrackTerminal::get_TrackTerminals

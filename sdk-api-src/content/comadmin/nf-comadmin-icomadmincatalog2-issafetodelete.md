@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::IsSafeToDelete
 author: windows-sdk-content
 description: Determines whether the specified DLL is in use by the COM+ catalog or the registry.
 old-location: cos\icomadmincatalog2_issafetodelete.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 293644a2-e400-47fc-803d-cf86ba97eb7d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: COMAdminInUseByCatalog, COMAdminInUseByRegistryClsid, COMAdminInUseByRegistryProxyStub, COMAdminInUseByRegistryTypeLib, COMAdminInUseByRegistryUnknown, COMAdminNotInUse, ICOMAdminCatalog2 interface [COM+],IsSafeToDelete method, ICOMAdminCatalog2.IsSafeToDelete, ICOMAdminCatalog2::IsSafeToDelete, IsSafeToDelete, IsSafeToDelete method [COM+], IsSafeToDelete method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_IsSafeToDelete, comadmin/ICOMAdminCatalog2::IsSafeToDelete, cos.icomadmincatalog2_issafetodelete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.IsSafeToDelete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::IsSafeToDelete

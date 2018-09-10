@@ -4,17 +4,16 @@ title: WidenPath function
 author: windows-sdk-content
 description: The WidenPath function redefines the current path as the area that would be painted if the path were stroked using the pen currently selected into the given device context.
 old-location: gdi\widenpath.htm
-old-project: gdi
+tech.root: gdi
 ms.assetid: c994bd1b-c5e8-46e6-a6a6-59e2d9106d75
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.widenpath, wingdi/WidenPath
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WidenPath
 product: Windows
 targetos: Windows
-req.lib: Gdi32.lib
-req.dll: Gdi32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WidenPath function

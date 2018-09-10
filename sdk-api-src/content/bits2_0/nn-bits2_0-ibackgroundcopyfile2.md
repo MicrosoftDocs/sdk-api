@@ -4,7 +4,7 @@ title: IBackgroundCopyFile2
 author: windows-sdk-content
 description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.
 old-location: bits\ibackgroundcopyfile2.htm
-old-project: bits
+tech.root: bits
 ms.assetid: facff24d-56a3-4a1f-a726-3442c17fe869
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits2_0.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2,KB842773 on  Windows Server 2003, and  Windows XP
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_AUTH_CREDENTIALS
+req.lib: Bits.lib
+req.dll: BitsPrx3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBackgroundCopyFile2
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: BitsPrx3.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyFile2 interface

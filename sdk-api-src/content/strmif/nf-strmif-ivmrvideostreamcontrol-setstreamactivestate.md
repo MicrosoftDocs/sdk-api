@@ -4,17 +4,16 @@ title: IVMRVideoStreamControl::SetStreamActiveState
 author: windows-sdk-content
 description: The SetStreamActiveState method activates or inactivates an input stream.
 old-location: dshow\ivmrvideostreamcontrol_setstreamactivestate.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 060a95a4-b984-40c6-afe8-136df96c353e
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl.SetStreamActiveState, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVMRVideoStreamControl.SetStreamActiveState
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IVMRVideoStreamControl::SetStreamActiveState

@@ -4,17 +4,16 @@ title: WsGetOperationContextProperty function
 author: windows-sdk-content
 description: Returns a property of the specified operation context. It should be noted that the validity of these property is limited to the lifetime of the operation context itself.
 old-location: wsw\wsgetoperationcontextproperty.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 9ab843ff-8f2c-424e-8bb9-ba71f9355728
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsGetOperationContextProperty, WsGetOperationContextProperty function [Web Services for Windows], webservices/WsGetOperationContextProperty, wsw.wsgetoperationcontextproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsGetOperationContextProperty
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsGetOperationContextProperty function

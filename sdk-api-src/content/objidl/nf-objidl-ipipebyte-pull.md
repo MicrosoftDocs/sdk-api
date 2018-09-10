@@ -4,17 +4,16 @@ title: IPipeByte::Pull
 author: windows-sdk-content
 description: Retrieves data of the byte type from the pipe source.
 old-location: com\ipipebyte_pull.htm
-old-project: com
+tech.root: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPipeByte.Pull
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPipeByte::Pull

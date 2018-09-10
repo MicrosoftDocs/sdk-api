@@ -4,7 +4,7 @@ title: "_tag_AMVACompBufferInfo"
 author: windows-sdk-content
 description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
 old-location: dshow\amvacompbufferinfo.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVACompBufferInfo, *LPAMVACompBufferInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AMVACompBufferInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AMVACompBufferInfo, *LPAMVACompBufferInfo
+req.redist: 
 ---
 
 # _tag_AMVACompBufferInfo structure

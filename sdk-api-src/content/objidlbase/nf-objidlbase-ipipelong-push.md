@@ -4,17 +4,16 @@ title: IPipeLong::Push
 author: windows-sdk-content
 description: Sends data of the long integer type to the pipe source.
 old-location: com\ipipelong_push.htm
-old-project: com
+tech.root: com
 ms.assetid: 16389e32-74f9-419b-bcc5-63fe43b3e456
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPipeLong interface [COM],Push method, IPipeLong.Push, IPipeLong::Push, Push, Push method [COM], Push method [COM],IPipeLong interface, _com_ipipelong_push, com.ipipelong_push, objidlbase/IPipeLong::Push
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: THDTYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPipeLong.Push
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPipeLong::Push

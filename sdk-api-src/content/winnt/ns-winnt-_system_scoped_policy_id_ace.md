@@ -4,7 +4,7 @@ title: "_SYSTEM_SCOPED_POLICY_ID_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the scoped policy identifier for a securable object.
 old-location: security\system_scoped_policy_id_ace.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 6B678A48-E024-4C67-A60C-5224868C04A5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SYSTEM_SCOPED_POLICY_ID_ACE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE
+req.redist: 
 ---
 
 # _SYSTEM_SCOPED_POLICY_ID_ACE structure

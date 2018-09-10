@@ -4,17 +4,16 @@ title: ITypeInfo2::GetFuncIndexOfMemId
 author: windows-sdk-content
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getfuncindexofmemid.htm
-old-project: automat
+tech.root: automat
 ms.assetid: dad5fd34-9322-46aa-9ae3-d5ff9d1639b1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetFuncIndexOfMemId, GetFuncIndexOfMemId method [Automation], GetFuncIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncIndexOfMemId method, ITypeInfo2.GetFuncIndexOfMemId, ITypeInfo2::GetFuncIndexOfMemId, _oa96_ITypeInfo2_GetFuncIndexOfMemId, automat.itypeinfo2_getfuncindexofmemid, oaidl/ITypeInfo2::GetFuncIndexOfMemId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VARKIND
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITypeInfo2.GetFuncIndexOfMemId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ITypeInfo2::GetFuncIndexOfMemId

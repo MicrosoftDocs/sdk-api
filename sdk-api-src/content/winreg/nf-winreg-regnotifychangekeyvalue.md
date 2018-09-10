@@ -4,17 +4,16 @@ title: RegNotifyChangeKeyValue function
 author: windows-sdk-content
 description: Notifies the caller about changes to the attributes or contents of a specified registry key.
 old-location: base\regnotifychangekeyvalue.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -48,10 +48,8 @@ api_name:
  - RegNotifyChangeKeyValue
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # RegNotifyChangeKeyValue function

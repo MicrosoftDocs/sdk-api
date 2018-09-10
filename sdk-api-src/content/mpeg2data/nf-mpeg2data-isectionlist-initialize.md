@@ -4,17 +4,16 @@ title: ISectionList::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes the object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetSection and IMpeg2Data::GetTable methods call this method internally, so typically an application will not call it.
 old-location: mstv\isectionlist_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 196abb62-97f6-4961-b843-895ae35fedc4
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],Initialize method, ISectionList.Initialize, ISectionList::Initialize, ISectionListInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::Initialize, mstv.isectionlist_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISectionList.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # ISectionList::Initialize

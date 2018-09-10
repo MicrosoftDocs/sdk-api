@@ -4,17 +4,16 @@ title: IMFDeviceTransform::ProcessEvent
 author: windows-sdk-content
 description: The ProcessEvent method sends an event to an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6E8B208C-A492-41C8-9A86-34B11375053B
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessEvent method, IMFDeviceTransform.ProcessEvent, IMFDeviceTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Streaming Media Devices], ProcessEvent method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessEvent, stream.imfdevicetransform_processevent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFDeviceTransform.ProcessEvent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFDeviceTransform::ProcessEvent
@@ -62,7 +60,7 @@ The <b>ProcessEvent</b> method sends an event to an input stream on this Media F
 
 ### -param dwInputStreamID
 
-
+TBD
 
 
 ### -param pEvent [in]

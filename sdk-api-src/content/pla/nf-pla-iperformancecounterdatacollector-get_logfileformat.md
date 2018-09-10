@@ -4,17 +4,16 @@ title: IPerformanceCounterDataCollector::get_LogFileFormat
 author: windows-sdk-content
 description: Retrieves or sets the format of the log file.
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm
-old-project: PLA
+tech.root: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f
 ms.author: windowssdkdev
 ms.date: 02/15/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector.get_LogFileFormat, IPerformanceCounterDataCollector::LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, get_LogFileFormat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FolderActionSteps
+req.lib: 
+req.dll: Pla.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IPerformanceCounterDataCollector.put_LogFileFormat
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Pla.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPerformanceCounterDataCollector::get_LogFileFormat

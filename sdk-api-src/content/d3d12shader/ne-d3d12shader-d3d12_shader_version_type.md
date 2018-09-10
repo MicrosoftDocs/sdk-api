@@ -4,7 +4,7 @@ title: D3D12_SHADER_VERSION_TYPE
 author: windows-sdk-content
 description: Enumerates the types of shaders that Direct3D recognizes. Used to encode the Version member of the D3D12_SHADER_DESC structure.
 old-location: direct3d12\d3d12_shader_version_type.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 4691452D-3A7B-4890-AE41-B6AF5C541A3B
 ms.author: windowssdkdev
 ms.date: 07/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12shader.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SHADER_VERSION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D3D12_SHADER_VERSION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: D3D12_SHADER_VERSION_TYPE
+req.redist: 
 ---
 
 # D3D12_SHADER_VERSION_TYPE enumeration

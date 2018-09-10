@@ -4,7 +4,7 @@ title: pollfd
 author: windows-sdk-content
 description: Stores socket information used by the WSAPoll function.
 old-location: winsock\pollfd.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAPOLLFD, *PWSAPOLLFD, *LPWSAPOLLFD
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WSAPOLLFD
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WSAPOLLFD, *PWSAPOLLFD, *LPWSAPOLLFD
+req.redist: 
 ---
 
 # pollfd structure

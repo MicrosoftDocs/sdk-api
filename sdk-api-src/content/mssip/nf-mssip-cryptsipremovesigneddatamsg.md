@@ -4,17 +4,16 @@ title: CryptSIPRemoveSignedDataMsg function
 author: windows-sdk-content
 description: Removes a specified Authenticode signature.
 old-location: security\cryptsipremovesigneddatamsg.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: mssip.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SimilarityFileId
+req.lib: Crypt32.lib
+req.dll: Crypt32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CryptSIPRemoveSignedDataMsg
 product: Windows
 targetos: Windows
-req.lib: Crypt32.lib
-req.dll: Crypt32.dll
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # CryptSIPRemoveSignedDataMsg function

@@ -4,7 +4,7 @@ title: "_NET_IF_MEDIA_CONNECT_STATE"
 author: windows-sdk-content
 description: The NET_IF_MEDIA_CONNECT_STATE enumeration type specifies the NDIS network interface connection state.
 old-location: netvista\net_if_media_connect_state.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5af5e050-4b2b-45a9-8549-3a3818d7b06f
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_IF_MEDIA_CONNECT_STATE, *PNET_IF_MEDIA_CONNECT_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_IF_MEDIA_CONNECT_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_IF_MEDIA_CONNECT_STATE, *PNET_IF_MEDIA_CONNECT_STATE
+req.redist: 
 ---
 
 # _NET_IF_MEDIA_CONNECT_STATE enumeration

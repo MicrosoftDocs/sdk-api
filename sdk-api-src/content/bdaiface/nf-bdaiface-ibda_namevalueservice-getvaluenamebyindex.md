@@ -4,17 +4,16 @@ title: IBDA_NameValueService::GetValueNameByIndex
 author: windows-sdk-content
 description: Gets a name, specified by index, from the device's list of name/value pairs.
 old-location: mstv\ibda_namevalueservice_getvaluenamebyindex.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 4a860535-db03-4db7-912c-16b7e920151a
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetValueNameByIndex, GetValueNameByIndex method [Microsoft TV Technologies], GetValueNameByIndex method [Microsoft TV Technologies],IBDA_NameValueService interface, IBDA_NameValueService interface [Microsoft TV Technologies],GetValueNameByIndex method, IBDA_NameValueService.GetValueNameByIndex, IBDA_NameValueService::GetValueNameByIndex, bdaiface/IBDA_NameValueService::GetValueNameByIndex, mstv.ibda_namevalueservice_getvaluenamebyindex
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_NameValueService.GetValueNameByIndex
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_NameValueService::GetValueNameByIndex

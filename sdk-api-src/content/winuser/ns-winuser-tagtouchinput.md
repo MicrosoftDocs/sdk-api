@@ -4,7 +4,7 @@ title: tagTOUCHINPUT
 author: windows-sdk-content
 description: Encapsulates data for touch input.
 old-location: wintouch\touchinput.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TOUCHINPUT, *PTOUCHINPUT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TOUCHINPUT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: TOUCHINPUT, *PTOUCHINPUT
+req.redist: 
 ---
 
 # tagTOUCHINPUT structure

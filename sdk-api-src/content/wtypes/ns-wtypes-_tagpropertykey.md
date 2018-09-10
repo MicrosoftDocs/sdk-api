@@ -4,7 +4,7 @@ title: "_tagpropertykey"
 author: windows-sdk-content
 description: Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces SHCOLUMNID.
 old-location: properties\PROPERTYKEY.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 3f5f31af-f040-443b-9045-9761055381ea
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROPERTYKEY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROPERTYKEY
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: PROPERTYKEY
+req.redist: 
 ---
 
 # _tagpropertykey structure

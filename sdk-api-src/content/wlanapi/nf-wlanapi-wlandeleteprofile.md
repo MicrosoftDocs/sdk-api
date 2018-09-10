@@ -4,17 +4,16 @@ title: WlanDeleteProfile function
 author: windows-sdk-content
 description: Deletes a wireless profile for a wireless interface on the local computer.
 old-location: nwifi\wlandeleteprofile.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
-req.redist: Wireless LAN API for Windows XP with SP2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP3 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
+req.lib: Wlanapi.lib
+req.dll: Wlanapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WlanDeleteProfile
 product: Windows
 targetos: Windows
-req.lib: Wlanapi.lib
-req.dll: Wlanapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: Wireless LAN API for Windows XP with SP2
 ---
 
 # WlanDeleteProfile function

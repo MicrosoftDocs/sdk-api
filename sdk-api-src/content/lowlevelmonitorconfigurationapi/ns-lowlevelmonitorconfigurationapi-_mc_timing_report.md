@@ -4,7 +4,7 @@ title: "_MC_TIMING_REPORT"
 author: windows-sdk-content
 description: Contains information from a monitor's timing report.
 old-location: monitor\mc_timing_report.htm
-old-project: Monitor
+tech.root: Monitor
 ms.assetid: dfad2277-4f0d-4a92-a332-2c6c2bbac138
 ms.author: windowssdkdev
 ms.date: 07/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MC_TIMING_REPORT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
+req.redist: 
 ---
 
 # _MC_TIMING_REPORT structure

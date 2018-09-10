@@ -4,7 +4,7 @@ title: "_CERT_STRONG_SIGN_SERIALIZED_INFO"
 author: windows-sdk-content
 description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
 old-location: security\cert_strong_sign_serialized_info.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CERT_STRONG_SIGN_SERIALIZED_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
+req.redist: 
 ---
 
 # _CERT_STRONG_SIGN_SERIALIZED_INFO structure

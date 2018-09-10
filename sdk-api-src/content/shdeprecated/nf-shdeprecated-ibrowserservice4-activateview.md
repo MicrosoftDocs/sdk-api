@@ -4,17 +4,16 @@ title: IBrowserService4::ActivateView
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4_ActivateView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4a20e0b8-8fe5-4d5b-b263-3ad8416ad4da
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView method [Windows Shell],IBrowserService4 interface, IBrowserService4 interface [Windows Shell],ActivateView method, IBrowserService4.ActivateView, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IBrowserService4.ActivateView
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IBrowserService4::ActivateView

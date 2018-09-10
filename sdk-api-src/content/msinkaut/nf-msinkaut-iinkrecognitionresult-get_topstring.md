@@ -4,17 +4,16 @@ title: IInkRecognitionResult::get_TopString
 author: windows-sdk-content
 description: Gets the result text for the TopAlternate property.
 old-location: tablet\iinkrecognitionresult_topstring.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 9f345372-0208-4c78-9da7-9b334c0f281e
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 9f345372-0208-4c78-9da7-9b334c0f281e, IInkRecognitionResult interface [Tablet PC],TopString property, IInkRecognitionResult.TopString, IInkRecognitionResult.get_TopString, IInkRecognitionResult::TopString, IInkRecognitionResult::get_TopString, TopString property [Tablet PC], TopString property [Tablet PC],IInkRecognitionResult interface, get_TopString, msinkaut/IInkRecognitionResult::TopString, msinkaut/IInkRecognitionResult::get_TopString, tablet.iinkrecognitionresult_topstring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TabletPropertyMetricUnit
+req.lib: InkObj.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IInkRecognitionResult.get_TopString
 product: Windows
 targetos: Windows
-req.lib: InkObj.dll
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IInkRecognitionResult::get_TopString

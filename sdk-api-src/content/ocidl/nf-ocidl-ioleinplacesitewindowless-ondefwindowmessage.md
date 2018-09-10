@@ -4,17 +4,16 @@ title: IOleInPlaceSiteWindowless::OnDefWindowMessage
 author: windows-sdk-content
 description: Invokes the default processing for all messages passed to an object.
 old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm
-old-project: com
+tech.root: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VIEWSTATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOleInPlaceSiteWindowless.OnDefWindowMessage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleInPlaceSiteWindowless::OnDefWindowMessage

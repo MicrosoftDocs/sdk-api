@@ -4,7 +4,7 @@ title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 author: windows-sdk-content
 description: Receives information related to heap allocations.
 old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: avrfsdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AVISUPERINDEX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function

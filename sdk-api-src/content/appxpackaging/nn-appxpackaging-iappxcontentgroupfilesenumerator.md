@@ -4,7 +4,7 @@ title: IAppxContentGroupFilesEnumerator
 author: windows-sdk-content
 description: Enumerates files in content groups from a content group map.
 old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
-old-project: appxpkg
+tech.root: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA
 ms.author: windowssdkdev
 ms.date: 08/16/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IAppxContentGroupFilesEnumerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IAppxContentGroupFilesEnumerator interface

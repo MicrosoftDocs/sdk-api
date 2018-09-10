@@ -4,7 +4,7 @@ title: "_VMR9DeinterlaceCaps"
 author: windows-sdk-content
 description: The VMR9DeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmr9deinterlacecaps.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: ae71c9d6-2540-4679-927c-e1d759df7009
 ms.author: windowssdkdev
 ms.date: 08/20/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VMR9DeinterlaceCaps
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - VMR9DeinterlaceCaps
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: VMR9DeinterlaceCaps
+req.redist: 
 ---
 
 # _VMR9DeinterlaceCaps structure

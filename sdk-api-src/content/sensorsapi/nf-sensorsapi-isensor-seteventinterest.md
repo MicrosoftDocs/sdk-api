@@ -4,17 +4,16 @@ title: ISensor::SetEventInterest
 author: windows-sdk-content
 description: Specifies the list of sensor events to receive.
 old-location: winsensors_com_ref\isensor_seteventinterest.htm
-old-project: SensorsAPI
+tech.root: SensorsAPI
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SensorConnectionType
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISensor.SetEventInterest
 product: Windows
 targetos: Windows
-req.lib: Sensorsapi.lib
-req.dll: Sensorsapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ISensor::SetEventInterest

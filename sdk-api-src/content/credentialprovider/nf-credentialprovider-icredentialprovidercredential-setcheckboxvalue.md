@@ -4,17 +4,16 @@ title: ICredentialProviderCredential::SetCheckboxValue
 author: windows-sdk-content
 description: Enables a Logon UI and Credential UI to indicate that a checkbox value has changed.
 old-location: shell\ICredentialProviderCredential_SetCheckboxValue.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetCheckboxValue method, ICredentialProviderCredential.SetCheckboxValue, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICredentialProviderCredential.SetCheckboxValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICredentialProviderCredential::SetCheckboxValue

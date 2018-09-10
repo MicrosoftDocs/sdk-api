@@ -4,17 +4,16 @@ title: IPerChannelDbLevel::GetLevel
 author: windows-sdk-content
 description: The GetLevel method gets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevel.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: afc76c80-1656-4f06-8024-c9b041f52e64
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevel method, IPerChannelDbLevel.GetLevel, IPerChannelDbLevel::GetLevel, IPerChannelDbLevelGetLevel, coreaudio.iperchanneldblevel_getlevel, devicetopology/IPerChannelDbLevel::GetLevel
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ConnectorType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IPerChannelDbLevel.GetLevel
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IPerChannelDbLevel::GetLevel

@@ -4,17 +4,16 @@ title: ICOMAdminCatalog2::AliasComponent
 author: windows-sdk-content
 description: Creates an alias for an existing COM+ component.
 old-location: cos\icomadmincatalog2_aliascomponent.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 99d43ef5-f117-4307-aa44-f149b4986cda
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AliasComponent method, ICOMAdminCatalog2.AliasComponent, ICOMAdminCatalog2::AliasComponent, _cos_icomadmincatalog2_AliasComponent, comadmin/ICOMAdminCatalog2::AliasComponent, cos.icomadmincatalog2_aliascomponent
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMAdminTxIsolationLevelOptions
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ICOMAdminCatalog2.AliasComponent
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICOMAdminCatalog2::AliasComponent

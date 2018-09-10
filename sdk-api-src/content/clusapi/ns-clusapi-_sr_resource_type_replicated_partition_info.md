@@ -4,7 +4,7 @@ title: "_SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO"
 author: windows-sdk-content
 description: Describes a replicated partition.
 old-location: mscs\sr_resource_type_replicated_partition_info.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
+req.redist: 
 ---
 
 # _SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure

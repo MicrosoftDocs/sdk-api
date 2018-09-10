@@ -4,17 +4,16 @@ title: GetOpenCardNameA function
 author: windows-sdk-content
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: Scarddlg.lib
+req.dll: Scarddlg.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - GetOpenCardNameW
 product: Windows
 targetos: Windows
-req.lib: Scarddlg.lib
-req.dll: Scarddlg.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # GetOpenCardNameA function

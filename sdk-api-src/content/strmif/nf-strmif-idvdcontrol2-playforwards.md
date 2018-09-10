@@ -4,17 +4,16 @@ title: IDvdControl2::PlayForwards
 author: windows-sdk-content
 description: The PlayForwards method plays forward at the specified speed from the current location.
 old-location: dshow\idvdcontrol2_playforwards.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayForwards method, IDvdControl2.PlayForwards, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IDvdControl2.PlayForwards
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IDvdControl2::PlayForwards
@@ -66,7 +64,7 @@ The <code>PlayForwards</code> method plays forward at the specified speed from t
 
 ### -param dSpeed
 
-
+TBD
 
 
 ### -param dwFlags [in]

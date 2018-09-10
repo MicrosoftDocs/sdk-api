@@ -4,17 +4,16 @@ title: Shell_MergeMenus function
 author: windows-sdk-content
 description: Shell_MergeMenus may be altered or unavailable.
 old-location: shell\Shell_MergeMenus.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f9e005fd-b1f2-4a5f-ad36-9c44998dc4eb
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_MergeMenus, Shell_MergeMenus function [Windows Shell], _win32_Shell_MergeMenus, shell.Shell_MergeMenus, shlobj_core/Shell_MergeMenus
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - Shell_MergeMenus
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 6.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # Shell_MergeMenus function

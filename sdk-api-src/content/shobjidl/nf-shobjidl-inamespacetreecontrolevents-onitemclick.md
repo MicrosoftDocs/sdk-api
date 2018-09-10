@@ -4,17 +4,16 @@ title: INameSpaceTreeControlEvents::OnItemClick
 author: windows-sdk-content
 description: Called when the user clicks a button on the mouse.
 old-location: shell\INameSpaceTreeControlEvents_OnItemClick.htm
-old-project: shell
+tech.root: shell
 ms.assetid: a595ffd0-edc6-4726-b7b2-ad1aed9e9701
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemClick method, INameSpaceTreeControlEvents.OnItemClick, INameSpaceTreeControlEvents::OnItemClick, NSTCECT_BUTTON, NSTCECT_DBLCLICK, NSTCECT_LBUTTON, NSTCECT_MBUTTON, NSTCECT_RBUTTON, NSTCEHT_NOWHERE, NSTCEHT_ONITEM, NSTCEHT_ONITEMBUTTON, NSTCEHT_ONITEMICON, NSTCEHT_ONITEMINDENT, NSTCEHT_ONITEMLABEL, NSTCEHT_ONITEMRIGHT, NSTCEHT_ONITEMSTATEICON, NSTCEHT_ONITEMTABBUTTON, OnItemClick, OnItemClick method [Windows Shell], OnItemClick method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemClick, shell.INameSpaceTreeControlEvents_OnItemClick, shobjidl/INameSpaceTreeControlEvents::OnItemClick
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VPWATERMARKFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - INameSpaceTreeControlEvents.OnItemClick
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 6.01
+req.typenames: 
+req.redist: 
 ---
 
 # INameSpaceTreeControlEvents::OnItemClick
@@ -130,7 +128,7 @@ The click was on the tab button of the <a href="https://msdn.microsoft.com/599b9
 
 ### -param nstceClickType
 
-
+TBD
 
 
 

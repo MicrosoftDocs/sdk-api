@@ -4,7 +4,7 @@ title: tagWCN_VENDOR_EXTENSION_SPEC
 author: windows-sdk-content
 description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
 old-location: wcn\wcn_vendor_extension_spec.htm
-old-project: wcn
+tech.root: wcn
 ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcndevice.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WCN_VENDOR_EXTENSION_SPEC
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WCN_VENDOR_EXTENSION_SPEC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WCN_VENDOR_EXTENSION_SPEC
+req.redist: 
 ---
 
 # tagWCN_VENDOR_EXTENSION_SPEC structure

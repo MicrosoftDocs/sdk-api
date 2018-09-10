@@ -4,17 +4,16 @@ title: ITAutomatedPhoneControl::get_SelectedCalls
 author: windows-sdk-content
 description: The get_SelectedCalls method retrieves a VARIANT containing a pointer to a collection object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_get_selectedcalls.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 50196789-c243-4279-8748-960898323992
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_SelectedCalls method, ITAutomatedPhoneControl.get_SelectedCalls, ITAutomatedPhoneControl::get_SelectedCalls, _tapi3_itautomatedphonecontrol_get_selectedcalls, get_SelectedCalls, get_SelectedCalls method [TAPI 2.2], get_SelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_selectedcalls, tapi3if/ITAutomatedPhoneControl::get_SelectedCalls
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TERMINAL_TYPE
+req.lib: Uuid.lib
+req.dll: Tapi3.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITAutomatedPhoneControl.get_SelectedCalls
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Tapi3.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITAutomatedPhoneControl::get_SelectedCalls

@@ -4,17 +4,16 @@ title: GetNamedPipeClientSessionId function
 author: windows-sdk-content
 description: Retrieves the client session identifier for the specified named pipe.
 old-location: base\getnamedpipeclientsessionid.htm
-old-project: ipc
+tech.root: ipc
 ms.assetid: b3ea0b7f-fead-4369-b87a-2f522a2a1984
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetNamedPipeClientSessionId, GetNamedPipeClientSessionId function, base.getnamedpipeclientsessionid, winbase/GetNamedPipeClientSessionId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - GetNamedPipeClientSessionId
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # GetNamedPipeClientSessionId function

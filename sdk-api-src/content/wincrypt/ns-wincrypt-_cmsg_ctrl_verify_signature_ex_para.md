@@ -4,7 +4,7 @@ title: "_CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
 author: windows-sdk-content
 description: Contains information used to verify a message signature. It contains the signer index and signer public key.
 old-location: security\cmsg_ctrl_verify_signature_ex_para.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 56b73de8-c170-46f6-b488-096475b59c15
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, *PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, *PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+req.redist: 
 ---
 
 # _CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure

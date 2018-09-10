@@ -4,7 +4,7 @@ title: "_EXPAND_VIRTUAL_DISK_PARAMETERS"
 author: windows-sdk-content
 description: Contains virtual disk expansion request parameters.
 old-location: vhd\expand_virtual_disk_parameters.htm
-old-project: VStor
+tech.root: VStor
 ms.assetid: 8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - EXPAND_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS
+req.redist: 
 ---
 
 # _EXPAND_VIRTUAL_DISK_PARAMETERS structure

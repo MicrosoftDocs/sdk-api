@@ -4,7 +4,7 @@ title: IMFFieldOfUseMFTUnlock
 author: windows-sdk-content
 description: Enables an application to use a Media Foundation transform (MFT) that has restrictions on its use.
 old-location: mf\imffieldofusemftunlock.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: b144589b-d559-4686-b617-0e3c393380e9
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFFieldOfUseMFTUnlock
 product: Windows
 targetos: Windows
-req.lib: Mfuuid.lib
-req.dll: Mfplat.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFFieldOfUseMFTUnlock interface

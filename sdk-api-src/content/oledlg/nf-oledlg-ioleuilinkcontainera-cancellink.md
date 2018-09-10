@@ -4,17 +4,16 @@ title: IOleUILinkContainerA::CancelLink
 author: windows-sdk-content
 description: Disconnects the selected links.
 old-location: com\ioleuilinkcontainer_cancellink.htm
-old-project: com
+tech.root: com
 ms.assetid: 97099e4d-20ea-47fb-8ca8-27330f980038
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CancelLink, CancelLink method [COM], CancelLink method [COM],IOleUILinkContainer interface, CancelLink method [COM],IOleUILinkContainerA interface, CancelLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],CancelLink method, IOleUILinkContainer::CancelLink, IOleUILinkContainerA interface [COM],CancelLink method, IOleUILinkContainerA.CancelLink, IOleUILinkContainerA::CancelLink, IOleUILinkContainerW interface [COM],CancelLink method, IOleUILinkContainerW::CancelLink, _ole_IOleUILinkContainer_CancelLink, com.ioleuilinkcontainer_cancellink, oledlg/IOleUILinkContainer::CancelLink, oledlg/IOleUILinkContainerA::CancelLink, oledlg/IOleUILinkContainerW::CancelLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OLEUIPASTEFLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IOleUILinkContainerW.CancelLink
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IOleUILinkContainerA::CancelLink

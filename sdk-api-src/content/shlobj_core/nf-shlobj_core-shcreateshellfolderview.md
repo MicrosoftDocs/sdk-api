@@ -4,17 +4,16 @@ title: SHCreateShellFolderView function
 author: windows-sdk-content
 description: Creates a new instance of the default Shell folder view object (DefView).
 old-location: shell\SHCreateShellFolderView.htm
-old-project: shell
+tech.root: shell
 ms.assetid: f2948a6d-84a5-456b-b328-ba76dba46e9d
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHCreateShellFolderView
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHCreateShellFolderView function

@@ -4,17 +4,16 @@ title: IGetContextProperties::GetProperty
 author: windows-sdk-content
 description: Retrieves the value of the specified context property.
 old-location: cos\igetcontextproperties_getproperty.htm
-old-project: cossdk
+tech.root: cossdk
 ms.assetid: 920938a9-44b1-4473-8204-1129b9599a72
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],GetProperty method, IGetContextProperties.GetProperty, IGetContextProperties::GetProperty, _cos_IGetContextProperties_GetProperty, comsvcs/IGetContextProperties::GetProperty, cos.igetcontextproperties_getproperty
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACKING_COLL_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IGetContextProperties.GetProperty
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IGetContextProperties::GetProperty

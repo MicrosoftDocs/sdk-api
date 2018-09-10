@@ -4,7 +4,7 @@ title: AudioClientProperties
 author: windows-sdk-content
 description: The AudioClientProperties structure is used to set the parameters that describe the properties of the client's audio stream.
 old-location: coreaudio\audioclientproperties.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: 5BCCD581-DB66-4939-A62A-2236B9E49AA7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioClientProperties
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - AudioClientProperties
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: AudioClientProperties
+req.redist: 
 ---
 
 # AudioClientProperties structure

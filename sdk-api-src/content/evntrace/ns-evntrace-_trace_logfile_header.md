@@ -4,7 +4,7 @@ title: "_TRACE_LOGFILE_HEADER"
 author: windows-sdk-content
 description: The TRACE_LOGFILE_HEADER structure contains information about an event tracing session and its events.
 old-location: etw\trace_logfile_header.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_LOGFILE_HEADER, *PTRACE_LOGFILE_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TRACE_LOGFILE_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: TRACE_LOGFILE_HEADER, *PTRACE_LOGFILE_HEADER
+req.redist: 
 ---
 
 # _TRACE_LOGFILE_HEADER structure

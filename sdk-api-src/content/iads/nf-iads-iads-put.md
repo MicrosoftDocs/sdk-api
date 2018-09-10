@@ -4,17 +4,16 @@ title: IADs::Put
 author: windows-sdk-content
 description: Sets the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_put.htm
-old-project: ADSI
+tech.root: ADSI
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ADS_SD_FORMAT_ENUM
+req.lib: 
+req.dll: Activeds.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IADs.Put
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Activeds.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IADs::Put

@@ -4,7 +4,7 @@ title: "_PROVIDER_FIELD_INFO"
 author: windows-sdk-content
 description: Defines the field information.
 old-location: etw\provider_field_info_struct.htm
-old-project: etw
+tech.root: etw
 ms.assetid: a7c88c25-3acc-42aa-bf2b-bc7651e84f8c
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PROVIDER_FIELD_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PROVIDER_FIELD_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: PROVIDER_FIELD_INFO
+req.redist: 
 ---
 
 # _PROVIDER_FIELD_INFO structure

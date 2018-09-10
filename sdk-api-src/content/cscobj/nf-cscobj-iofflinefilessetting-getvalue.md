@@ -4,17 +4,16 @@ title: IOfflineFilesSetting::GetValue
 author: windows-sdk-content
 description: Retrieves the value of a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getvalue.htm
-old-project: offlinefiles
+tech.root: offlinefiles
 ms.assetid: 39560ca6-62d7-467b-bc52-1dd769e7e860
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetValue, GetValue method [Offline Files], GetValue method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValue method, IOfflineFilesSetting.GetValue, IOfflineFilesSetting::GetValue, cscobj/IOfflineFilesSetting::GetValue, of.iofflinefilessetting_getvalue
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OFFLINEFILES_SYNC_STATE
+req.lib: 
+req.dll: CscSvc.dll; CscObj.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IOfflineFilesSetting.GetValue
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CscSvc.dll; CscObj.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IOfflineFilesSetting::GetValue

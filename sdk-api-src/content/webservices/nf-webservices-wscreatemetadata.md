@@ -4,17 +4,16 @@ title: WsCreateMetadata function
 author: windows-sdk-content
 description: Creates a metadata object that is used to collect and process metadata documents.
 old-location: wsw\wscreatemetadata.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: c3b6f926-331b-46a7-8180-36762abf63d7
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WsCreateMetadata, WsCreateMetadata function [Web Services for Windows], webservices/WsCreateMetadata, wsw.wscreatemetadata
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
+req.lib: WebServices.lib
+req.dll: WebServices.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WsCreateMetadata
 product: Windows
 targetos: Windows
-req.lib: WebServices.lib
-req.dll: WebServices.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WsCreateMetadata function

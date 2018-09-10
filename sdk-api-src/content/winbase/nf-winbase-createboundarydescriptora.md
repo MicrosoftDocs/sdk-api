@@ -4,17 +4,16 @@ title: CreateBoundaryDescriptorA function
 author: windows-sdk-content
 description: Creates a boundary descriptor.
 old-location: base\createboundarydescriptor.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,10 +47,8 @@ api_name:
  - CreateBoundaryDescriptorW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CreateBoundaryDescriptorA function

@@ -4,7 +4,7 @@ title: DS_KCC_TASKID
 author: windows-sdk-content
 description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
 old-location: ad\ds_kcc_taskid.htm
-old-project: ad
+tech.root: ad
 ms.assetid: 61A2BB61-E3AE-4530-96CA-E7F85CB82DB2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntdsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DS_KCC_TASKID
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DS_KCC_TASKID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: Any level
-req.product: Rights Management Services client 1.0 or later
+req.typenames: DS_KCC_TASKID
+req.redist: 
 ---
 
 # DS_KCC_TASKID enumeration

@@ -4,17 +4,16 @@ title: TSPI_lineGetDevConfig function
 author: windows-sdk-content
 description: The TSPI_lineGetDevConfig function returns a data structure object, the contents of which are specific to the line (service provider) and device class, giving the current configuration of a device associated one-to-one with the line device.
 old-location: tspi\tspi_linegetdevconfig.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 87307bc6-0c0e-41d0-bc88-2d806214c13e
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: TSPI_lineGetDevConfig, TSPI_lineGetDevConfig function [TAPI 2.2], _tspi_tspi_linegetdevconfig, tspi.tspi_linegetdevconfig, tspi/TSPI_lineGetDevConfig
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TSPI_lineGetDevConfig
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TSPI_lineGetDevConfig function

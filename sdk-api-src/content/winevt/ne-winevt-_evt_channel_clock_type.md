@@ -4,7 +4,7 @@ title: "_EVT_CHANNEL_CLOCK_TYPE"
 author: windows-sdk-content
 description: Defines the values that specify the type of time stamp to use when logging events channel.
 old-location: wes\evt_channel_clock_type.htm
-old-project: WES
+tech.root: WES
 ms.assetid: 575a6667-b832-46e8-8704-0612e04b8669
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVT_CHANNEL_CLOCK_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVT_CHANNEL_CLOCK_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: EVT_CHANNEL_CLOCK_TYPE
+req.redist: 
 ---
 
 # _EVT_CHANNEL_CLOCK_TYPE enumeration

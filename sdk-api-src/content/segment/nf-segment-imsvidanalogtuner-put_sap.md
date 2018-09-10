@@ -4,17 +4,16 @@ title: IMSVidAnalogTuner::put_SAP
 author: windows-sdk-content
 description: The put_SAP method specifies the tuner's SAP setting to enable secondary audio components.
 old-location: mstv\imsvidanalogtuner_put_sap.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e27efb36-de0c-4255-a5d8-6357f283cd12
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_SAP method, IMSVidAnalogTuner.put_SAP, IMSVidAnalogTuner::put_SAP, IMSVidAnalogTunerput_SAP, mstv.imsvidanalogtuner_put_sap, put_SAP, put_SAP method [Microsoft TV Technologies], put_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_SAP
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SourceSizeList
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMSVidAnalogTuner.put_SAP
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IMSVidAnalogTuner::put_SAP

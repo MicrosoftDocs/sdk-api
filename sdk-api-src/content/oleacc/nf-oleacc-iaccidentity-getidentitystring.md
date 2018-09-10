@@ -4,17 +4,16 @@ title: IAccIdentity::GetIdentityString
 author: windows-sdk-content
 description: Retrieves a string of bytes (an identity string) that uniquely identifies an accessible element.
 old-location: winauto\iaccidentity_iaccidentity__getidentitystring.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 38467491-c432-456a-9128-723fc7dde189
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetIdentityString, GetIdentityString method [Windows Accessibility], GetIdentityString method [Windows Accessibility],IAccIdentity interface, IAccIdentity interface [Windows Accessibility],GetIdentityString method, IAccIdentity.GetIdentityString, IAccIdentity::GetIdentityString, _msaa_IAccIdentity_GetIdentityString, msaa.iaccidentity_iaccidentity__getidentitystring, oleacc/IAccIdentity::GetIdentityString, winauto.iaccidentity_iaccidentity__getidentitystring
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
-req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista or Windows XP
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: 
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccIdentity.GetIdentityString
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98
 ---
 
 # IAccIdentity::GetIdentityString

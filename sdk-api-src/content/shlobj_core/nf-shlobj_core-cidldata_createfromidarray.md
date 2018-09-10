@@ -4,17 +4,16 @@ title: CIDLData_CreateFromIDArray function
 author: windows-sdk-content
 description: CIDLData_CreateFromIDArray may be altered or unavailable.
 old-location: shell\CIDLData_CreateFromIDArray.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4949c701-a375-450a-89a3-3fd146557d11
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Windows Shell], _shell_CIDLData_CreateFromIDArray, shell.CIDLData_CreateFromIDArray, shlobj_core/CIDLData_CreateFromIDArray
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - CIDLData_CreateFromIDArray
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 5.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CIDLData_CreateFromIDArray function

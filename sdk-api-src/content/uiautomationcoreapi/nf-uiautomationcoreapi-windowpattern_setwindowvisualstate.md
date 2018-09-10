@@ -4,17 +4,16 @@ title: WindowPattern_SetWindowVisualState function
 author: windows-sdk-content
 description: Sets the visual state of a window; for example, to maximize a window.
 old-location: winauto\uiauto_WindowPattern_SetVisualStateConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: ccd06650-9d37-42b7-bca5-29267c993a40
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: WindowPattern_SetWindowVisualState, WindowPattern_SetWindowVisualState function [Windows Accessibility], uiauto.uiauto_WindowPattern_SetVisualStateConPat, uiauto_WindowPattern_SetVisualStateConPat, uiautomationcoreapi/WindowPattern_SetWindowVisualState, winauto.uiauto_WindowPattern_SetVisualStateConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WindowPattern_SetWindowVisualState
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # WindowPattern_SetWindowVisualState function

@@ -4,17 +4,16 @@ title: SetInertiaParameterInteractionContext function
 author: windows-sdk-content
 description: Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted.
 old-location: input_intcontext\setinertiaparameterinteractioncontext.htm
-old-project: Input_IntContext
+tech.root: Input_IntContext
 ms.assetid: 5b228339-3830-407f-a8ea-55f40156cc32
 ms.author: windowssdkdev
 ms.date: 05/09/2018
 ms.keywords: SetInertiaParameterInteractionContext, SetInertiaParameterInteractionContext function, input_intcontext.setinertiaparameterinteractioncontext, interactioncontext.setinertiaparameterinteractioncontext, interactioncontext/SetInertiaParameterInteractionContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MOUSE_WHEEL_PARAMETER
+req.lib: Ninput.lib
+req.dll: Ninput.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetInertiaParameterInteractionContext
 product: Windows
 targetos: Windows
-req.lib: Ninput.lib
-req.dll: Ninput.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # SetInertiaParameterInteractionContext function

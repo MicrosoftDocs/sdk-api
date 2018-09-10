@@ -4,17 +4,16 @@ title: SetupFindNextLine function
 author: windows-sdk-content
 description: The SetupFindNextLine returns the location of the next line in an INF file section relative to ContextIn.Line.
 old-location: setup\setupfindnextline.htm
-old-project: SetupApi
+tech.root: SetupApi
 ms.assetid: ba5b3c62-c6b7-4ec1-83e2-45cdc910a34d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: SetupFindNextLine, SetupFindNextLine function [Setup API], _setupapi_setupfindnextline, setup.setupfindnextline, setupapi/SetupFindNextLine
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
+req.lib: Setupapi.lib
+req.dll: Setupapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - SetupFindNextLine
 product: Windows
 targetos: Windows
-req.lib: Setupapi.lib
-req.dll: Setupapi.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # SetupFindNextLine function

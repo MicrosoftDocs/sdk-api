@@ -4,7 +4,7 @@ title: "_RADIUS_VSA_FORMAT"
 author: windows-sdk-content
 description: The RADIUS_VSA_FORMAT structure represents the format of the string portion of a RADIUS vendor-specific attribute.
 old-location: nps\IAS_radius_vsa_format.htm
-old-project: nps
+tech.root: nps
 ms.assetid: 6f883a2f-84f1-44f5-8b15-c7e55fae4289
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_VSA_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_VSA_FORMAT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_VSA_FORMAT
+req.redist: 
 ---
 
 # _RADIUS_VSA_FORMAT structure

@@ -4,17 +4,16 @@ title: ICertServerPolicy::EnumerateAttributes
 author: windows-sdk-content
 description: Retrieves the name of the current attribute and moves the internal enumeration pointer to the next attribute.
 old-location: security\icertserverpolicy_enumerateattributes.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 5db05ed9-ab17-462b-9a76-34458489771a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerPolicy object, EnumerateAttributes method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributes method, ICertServerPolicy.EnumerateAttributes, ICertServerPolicy::EnumerateAttributes, _certsrv_icertserverpolicy_enumerateattributes, certif/ICertServerPolicy::EnumerateAttributes, security.icertserverpolicy_enumerateattributes
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: Certidl.lib
+req.dll: Certcli.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - CCertServerPolicy.EnumerateAttributes
 product: Windows
 targetos: Windows
-req.lib: Certidl.lib
-req.dll: Certcli.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ICertServerPolicy::EnumerateAttributes

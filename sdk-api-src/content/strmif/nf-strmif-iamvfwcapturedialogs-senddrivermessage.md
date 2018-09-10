@@ -4,17 +4,16 @@ title: IAMVfwCaptureDialogs::SendDriverMessage
 author: windows-sdk-content
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 0a8ba932-0f31-4768-b5e3-15ec8533a574
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCaptureDialogs.SendDriverMessage, IAMVfwCaptureDialogs::SendDriverMessage, IAMVfwCaptureDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_senddrivermessage, strmif/IAMVfwCaptureDialogs::SendDriverMessage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMVfwCaptureDialogs.SendDriverMessage
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMVfwCaptureDialogs::SendDriverMessage

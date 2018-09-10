@@ -4,17 +4,16 @@ title: ISpatialAudioClient::GetMaxFrameCount
 author: windows-sdk-content
 description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.
 old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm
-old-project: CoreAudio
+tech.root: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxFrameCount method, ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AudioObjectType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISpatialAudioClient.GetMaxFrameCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISpatialAudioClient::GetMaxFrameCount

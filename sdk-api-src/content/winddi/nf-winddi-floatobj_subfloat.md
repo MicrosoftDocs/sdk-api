@@ -4,17 +4,16 @@ title: FLOATOBJ_SubFloat function
 author: windows-sdk-content
 description: The FLOATOBJ_SubFloat function subtracts the value of type FLOATL from the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_subfloat.htm
-old-project: display
+tech.root: display
 ms.assetid: 0fa69283-3236-43bc-9c16-6bd220ad4e0c
 ms.author: windowssdkdev
 ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_SubFloat, FLOATOBJ_SubFloat function [Display Devices], display.floatobj_subfloat, gdifncs_9f655d6e-8ef0-45e5-9d0e-963a30460920.xml, winddi/FLOATOBJ_SubFloat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h
-req.redist: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+req.lib: Win32k.lib
+req.dll: Win32k.sys
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FLOATOBJ_SubFloat
 product: Windows
 targetos: Windows
-req.lib: Win32k.lib
-req.dll: Win32k.sys
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FLOATOBJ_SubFloat function

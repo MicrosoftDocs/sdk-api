@@ -4,17 +4,16 @@ title: IDirect3DDevice9::CreateAdditionalSwapChain
 author: windows-sdk-content
 description: Creates an additional swap chain for rendering multiple views.
 old-location: direct3d9\idirect3ddevice9__createadditionalswapchain.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createadditionalswapchain.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CreateAdditionalSwapChain, CreateAdditionalSwapChain method [Direct3D 9], CreateAdditionalSwapChain method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateAdditionalSwapChain method, IDirect3DDevice9.CreateAdditionalSwapChain, IDirect3DDevice9::CreateAdditionalSwapChain, d3d9helper/IDirect3DDevice9::CreateAdditionalSwapChain, dfcccfc0-344b-6e23-2c24-36b11bf7c90b, direct3d9.idirect3ddevice9__createadditionalswapchain
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.CreateAdditionalSwapChain
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::CreateAdditionalSwapChain
@@ -75,7 +74,7 @@ Calling this method changes the value of members of the D3DPRESENT_PARAMETERS st
 
 ### -param pSwapChain
 
-
+TBD
 
 
 

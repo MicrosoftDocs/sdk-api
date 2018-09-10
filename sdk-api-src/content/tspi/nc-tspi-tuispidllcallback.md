@@ -4,7 +4,7 @@ title: TUISPIDLLCALLBACK
 author: windows-sdk-content
 description: The DllCallbackProc function is called by the UI DLL to send a private parameter block to the service provider.
 old-location: tspi\dllcallbackproc.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 2f4ec748-26ff-49c5-bd88-6c6e64e5bc89
 ms.author: windowssdkdev
 ms.date: 07/31/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: tspi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AAAccountingData
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DllCallbackProc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # TUISPIDLLCALLBACK callback function

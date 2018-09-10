@@ -4,7 +4,7 @@ title: LPDHCP_ENTRY_POINT_FUNC
 author: windows-sdk-content
 description: The DhcpServerCalloutEntry function is called by Microsoft DHCP Server to initialize a third-party DLL, and to discover for which events the third-party DLL wants notification. The DhcpServerCalloutEntry function is implemented by third-party DLLs.
 old-location: dhcp\dhcpservercalloutentry.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: a80c2cd3-291d-4646-9dba-20a42e78dee5
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - LPDHCP_ENTRY_POINT_FUNC
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # LPDHCP_ENTRY_POINT_FUNC callback function

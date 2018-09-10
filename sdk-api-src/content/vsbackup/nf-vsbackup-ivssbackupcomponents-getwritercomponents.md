@@ -4,17 +4,16 @@ title: IVssBackupComponents::GetWriterComponents
 author: windows-sdk-content
 description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponents.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: VssApi.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVssBackupComponents.GetWriterComponents
 product: Windows
 targetos: Windows
-req.lib: VssApi.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponents::GetWriterComponents
@@ -70,7 +68,7 @@ The index of the writer being queried. It is a number between 0 and <i>n</i>-1, 
 
 ### -param ppWriter
 
-
+TBD
 
 
 

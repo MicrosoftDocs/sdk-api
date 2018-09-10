@@ -4,7 +4,7 @@ title: "_EVENT_FILTER_HEADER"
 author: windows-sdk-content
 description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.
 old-location: etw\event_filter_header.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.author: windowssdkdev
 ms.date: 08/08/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: EVENT_FILTER_HEADER, *PEVENT_FILTER_HEADER
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - EVENT_FILTER_HEADER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: EVENT_FILTER_HEADER, *PEVENT_FILTER_HEADER
+req.redist: 
 ---
 
 # _EVENT_FILTER_HEADER structure

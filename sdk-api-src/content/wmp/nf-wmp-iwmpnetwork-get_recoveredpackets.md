@@ -4,17 +4,16 @@ title: IWMPNetwork::get_recoveredPackets
 author: windows-sdk-content
 description: The get_recoveredPackets method retrieves the number of recovered packets.
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 9 Series or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPNetwork.get_recoveredPackets
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPNetwork::get_recoveredPackets

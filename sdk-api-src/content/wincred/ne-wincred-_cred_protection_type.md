@@ -4,7 +4,7 @@ title: "_CRED_PROTECTION_TYPE"
 author: windows-sdk-content
 description: Specifies the security context in which credentials are encrypted when using the CredProtect function.
 old-location: security\cred_protection_type.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: 6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincred.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wincodecsdk.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CRED_PROTECTION_TYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
+req.redist: 
 ---
 
 # _CRED_PROTECTION_TYPE enumeration

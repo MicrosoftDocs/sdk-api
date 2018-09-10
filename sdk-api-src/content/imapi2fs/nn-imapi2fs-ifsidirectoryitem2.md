@@ -4,7 +4,7 @@ title: IFsiDirectoryItem2
 author: windows-sdk-content
 description: Use this interface to add a directory tree, which includes all sub-directories, files, and associated named streams to a file system image.
 old-location: imapi\ifsidirectoryitem2.htm
-old-project: imapi
+tech.root: imapi
 ms.assetid: fed2a858-d710-46be-a05b-dce7ef484636
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PlatformId
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFsiDirectoryItem2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IFsiDirectoryItem2 interface

@@ -4,17 +4,16 @@ title: McastApiStartup function
 author: windows-sdk-content
 description: The McastApiStartup function facilitates MADCAP-version negotiation between requesting clients and the version of MADCAP implemented on the system.
 old-location: madcap\mcastapistartup.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: edb7d666-cbd0-46f7-b63e-2a09ffc9e9e2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: McastApiStartup, McastApiStartup function [MADCAP], _mdhcp_mcastapistartup, madcap.mcastapistartup, madcapcl/McastApiStartup
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
+req.lib: Dhcpcsvc.lib
+req.dll: Dhcpcsvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - McastApiStartup
 product: Windows
 targetos: Windows
-req.lib: Dhcpcsvc.lib
-req.dll: Dhcpcsvc.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # McastApiStartup function

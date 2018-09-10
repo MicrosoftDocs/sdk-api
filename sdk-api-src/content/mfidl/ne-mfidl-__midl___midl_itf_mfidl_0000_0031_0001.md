@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_mfidl_0000_0031_0001"
 author: windows-sdk-content
 description: Indicates whether the URL is from a trusted source.
 old-location: mf\mf_url_trust_status.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: fd008a23-71f7-4718-a51a-ee88453b6fdd
 ms.author: windowssdkdev
 ms.date: 08/07/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -22,13 +21,14 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Mfidl.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MF_URL_TRUST_STATUS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MF_URL_TRUST_STATUS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MF_URL_TRUST_STATUS
+req.redist: 
 ---
 
 # __MIDL___MIDL_itf_mfidl_0000_0031_0001 enumeration

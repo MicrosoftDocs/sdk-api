@@ -4,17 +4,16 @@ title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float)
 author: windows-sdk-content
 description: Changes the value of one element of the matrix of this 3D transform.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_float.htm
-old-project: directcomp
+tech.root: directcomp
 ms.assetid: 5AB88C3B-7901-413E-929A-8A80EDD8962F
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform3D.SetMatrixElement, IDCompositionMatrixTransform3D.SetMatrixElement(int,int,float), IDCompositionMatrixTransform3D::SetMatrixElement, IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrixElement, directcomp.idcompositionmatrixtransform3d_setmatrixelement_float
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D_VECTOR_4F
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDCompositionMatrixTransform3D.SetMatrixElement
 product: Windows
 targetos: Windows
-req.lib: Dcomp.lib
-req.dll: Dcomp.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float)

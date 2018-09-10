@@ -4,17 +4,16 @@ title: AuthzFreeResourceManager function
 author: windows-sdk-content
 description: Frees a resource manager object.
 old-location: security\authzfreeresourcemanager.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
+req.lib: Authz.lib
+req.dll: Authz.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AuthzFreeResourceManager
 product: Windows
 targetos: Windows
-req.lib: Authz.lib
-req.dll: Authz.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # AuthzFreeResourceManager function

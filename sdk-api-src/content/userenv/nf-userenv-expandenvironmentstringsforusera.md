@@ -4,17 +4,16 @@ title: ExpandEnvironmentStringsForUserA function
 author: windows-sdk-content
 description: Expands the source string by using the environment block established for the specified user.
 old-location: shell\ExpandEnvironmentStringsForUser.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d32fa6c8-035a-4c84-b210-5366f21b6c17
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
+req.lib: Userenv.lib
+req.dll: Userenv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ExpandEnvironmentStringsForUserW
 product: Windows
 targetos: Windows
-req.lib: Userenv.lib
-req.dll: Userenv.dll
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # ExpandEnvironmentStringsForUserA function

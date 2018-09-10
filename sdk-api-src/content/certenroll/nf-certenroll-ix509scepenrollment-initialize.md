@@ -4,17 +4,16 @@ title: IX509SCEPEnrollment::Initialize
 author: windows-sdk-content
 description: Initialize the instance in preparation for a new request.
 old-location: security\ix509scepenrollment_initialize.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: Certenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509SCEPEnrollment.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Certenroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509SCEPEnrollment::Initialize

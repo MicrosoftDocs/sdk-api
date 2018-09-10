@@ -4,7 +4,7 @@ title: "_WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT"
 author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_SSL_TRANSPORT_SECURITY_BINDING.
 old-location: wsw\ws_ssl_transport_security_binding_constraint.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 1f547d95-0a9a-44c5-81db-b92880238b1d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
+req.redist: 
 ---
 
 # _WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure

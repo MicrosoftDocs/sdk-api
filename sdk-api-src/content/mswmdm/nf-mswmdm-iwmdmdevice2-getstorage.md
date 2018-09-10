@@ -4,17 +4,16 @@ title: IWMDMDevice2::GetStorage
 author: windows-sdk-content
 description: The GetStorage method searches the immediate children of the root storage for a storage with the given name.
 old-location: wmdm\iwmdmdevice2_getstorage.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: 17c7bb90-4c8c-4f1f-9b4c-41f31c5c5310
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetStorage method, IWMDMDevice2.GetStorage, IWMDMDevice2::GetStorage, IWMDMDevice2GetStorage, mswmdm/IWMDMDevice2::GetStorage, wmdm.iwmdmdevice2_getstorage
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMDevice2.GetStorage
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMDevice2::GetStorage

@@ -4,7 +4,7 @@ title: "_SR_DISK_REPLICATION_ELIGIBLE"
 author: windows-sdk-content
 description: Specifies the various reasons a disk on a cluster node can be eligible or ineligible for replication.
 old-location: mscs\sr_disk_replication_eligible.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: 3B38E2C8-CF41-4630-8AA8-72581D1DC264
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2016
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - SR_DISK_REPLICATION_ELIGIBLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
+req.redist: 
 ---
 
 # _SR_DISK_REPLICATION_ELIGIBLE enumeration

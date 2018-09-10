@@ -4,17 +4,16 @@ title: IX509ExtensionKeyUsage::get_KeyUsage
 author: windows-sdk-content
 description: Retrieves the restrictions placed on the public key.
 old-location: security\ix509extensionkeyusage_keyusage_property.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: ddb23d36-342f-4bd1-9936-72b025c4a03b
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],KeyUsage property, IX509ExtensionKeyUsage.KeyUsage, IX509ExtensionKeyUsage.get_KeyUsage, IX509ExtensionKeyUsage::KeyUsage, IX509ExtensionKeyUsage::get_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::KeyUsage, certenroll/IX509ExtensionKeyUsage::get_KeyUsage, get_KeyUsage, security.ix509extensionkeyusage_keyusage_property
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IX509ExtensionKeyUsage.get_KeyUsage
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509ExtensionKeyUsage::get_KeyUsage

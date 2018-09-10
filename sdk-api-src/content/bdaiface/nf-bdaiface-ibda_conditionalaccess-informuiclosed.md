@@ -4,17 +4,16 @@ title: IBDA_ConditionalAccess::InformUIClosed
 author: windows-sdk-content
 description: The InformUIClosed method informs the device that the user-interface dialog is closed.
 old-location: mstv\ibda_conditionalaccess_informuiclosed.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8f9dcd29-ccd9-4154-bf11-932a3635c156
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],InformUIClosed method, IBDA_ConditionalAccess.InformUIClosed, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_ConditionalAccess.InformUIClosed
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_ConditionalAccess::InformUIClosed

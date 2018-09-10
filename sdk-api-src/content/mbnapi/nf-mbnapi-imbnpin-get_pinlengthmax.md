@@ -4,17 +4,16 @@ title: IMbnPin::get_PinLengthMax
 author: windows-sdk-content
 description: The maximum length of the PIN.
 old-location: mbn\imbnpin_pinlengthmax.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: c6918ada-4141-4b5e-88d8-c201a2b4a8a5
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinLengthMax property, IMbnPin.PinLengthMax, IMbnPin.get_PinLengthMax, IMbnPin::PinLengthMax, IMbnPin::get_PinLengthMax, PinLengthMax property [Microsoft Broadband Networks], PinLengthMax property [Microsoft Broadband Networks],IMbnPin interface, get_PinLengthMax, mbn.imbnpin_pinlengthmax, mbnapi/IMbnPin::PinLengthMax, mbnapi/IMbnPin::get_PinLengthMax
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMbnPin.get_PinLengthMax
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnPin::get_PinLengthMax

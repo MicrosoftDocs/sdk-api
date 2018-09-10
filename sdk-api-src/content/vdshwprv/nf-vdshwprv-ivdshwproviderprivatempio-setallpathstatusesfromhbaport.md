@@ -4,17 +4,16 @@ title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 author: windows-sdk-content
 description: Sets the statuses of paths originating from a particular HBA port to a specified status.
 old-location: base\ivdshwproviderprivatempio_setallpathstatusesfromhbaport.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 1fc25ca9-7cb4-438c-b9da-4bf93bd18a0c
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsHwProviderPrivateMpio interface [VDS],SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS],IVdsHwProviderPrivateMpio interface, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort

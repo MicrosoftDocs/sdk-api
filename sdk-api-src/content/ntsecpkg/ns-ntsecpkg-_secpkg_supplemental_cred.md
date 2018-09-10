@@ -4,7 +4,7 @@ title: "_SECPKG_SUPPLEMENTAL_CRED"
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED structure contains supplemental credentials recognized by the security package.
 old-location: security\secpkg_supplemental_cred.htm
-old-project: SecAuthN
+tech.root: SecAuthN
 ms.assetid: d5a1a986-5343-420d-8553-f1078bbd0e00
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SECPKG_SUPPLEMENTAL_CRED, *PSECPKG_SUPPLEMENTAL_CRED
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SECPKG_SUPPLEMENTAL_CRED
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: SECPKG_SUPPLEMENTAL_CRED, *PSECPKG_SUPPLEMENTAL_CRED
+req.redist: 
 ---
 
 # _SECPKG_SUPPLEMENTAL_CRED structure

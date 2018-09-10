@@ -4,17 +4,16 @@ title: IBrowserService2::_Initialize
 author: windows-sdk-content
 description: Deprecated. Coordinates the initializing of state between the base and the derived classes.
 old-location: shell\IBrowserService2__Initialize.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 990f7456-dce3-4c67-9a1e-97c8772e4332
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_Initialize method, IBrowserService2._Initialize, IBrowserService2::_Initialize, _Initialize, _Initialize method [Windows Shell], _Initialize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_Initialize, shell.IBrowserService2__Initialize, zone_IBrowserService2__Initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BNSTATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBrowserService2._Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 req.product: Internet Explorer 5.0
 ---
 

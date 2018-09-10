@@ -4,7 +4,7 @@ title: "_IKEV2_TUNNEL_CONFIG_PARAMS2"
 author: windows-sdk-content
 description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params2.htm
-old-project: RRAS
+tech.root: RRAS
 ms.assetid: 916e70d9-b103-4e72-a9b3-a34063b3641e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS2, *PIKEV2_TUNNEL_CONFIG_PARAMS2
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IKEV2_TUNNEL_CONFIG_PARAMS2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS2, *PIKEV2_TUNNEL_CONFIG_PARAMS2
+req.redist: 
 ---
 
 # _IKEV2_TUNNEL_CONFIG_PARAMS2 structure

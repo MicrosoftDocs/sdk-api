@@ -4,7 +4,7 @@ title: "_RADIUS_ACTION"
 author: windows-sdk-content
 description: The RADIUS_ACTION type enumerates the responses that a NPS Extension DLL can generate in response to an Access-Request.
 old-location: nps\IAS_radius_action.htm
-old-project: nps
+tech.root: nps
 ms.assetid: c0bd58ca-24e5-4cee-95e9-521d15c44814
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RADIUS_ACTION, *PRADIUS_ACTION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RADIUS_ACTION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: RADIUS_ACTION, *PRADIUS_ACTION
+req.redist: 
 ---
 
 # _RADIUS_ACTION enumeration

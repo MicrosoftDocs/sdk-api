@@ -4,17 +4,16 @@ title: CoGetInterfaceAndReleaseStream function
 author: windows-sdk-content
 description: Unmarshals a buffer containing an interface pointer and releases the stream when an interface pointer has been marshaled from another thread to the calling thread.
 old-location: com\cogetinterfaceandreleasestream.htm
-old-project: com
+tech.root: com
 ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoGetInterfaceAndReleaseStream, CoGetInterfaceAndReleaseStream function [COM], _com_CoGetInterfaceAndReleaseStream, com.cogetinterfaceandreleasestream, combaseapi/CoGetInterfaceAndReleaseStream
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,9 +45,8 @@ api_name:
  - CoGetInterfaceAndReleaseStream
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoGetInterfaceAndReleaseStream function

@@ -4,17 +4,16 @@ title: IExeServerRegistration::get_Identity
 author: windows-sdk-content
 description: Gets the identity of the out-of-process server.
 old-location: winrt\iexeserverregistration_identity.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: DA667D7C-323B-412D-AF9E-03402223292A
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Identity method, IExeServerRegistration.get_Identity, IExeServerRegistration::get_Identity, activationregistration/IExeServerRegistration::get_Identity, get_Identity, get_Identity method [Windows Runtime], get_Identity method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_identity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ThreadingType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IExeServerRegistration.get_Identity
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IExeServerRegistration::get_Identity

@@ -4,17 +4,16 @@ title: SHLoadInProc function
 author: windows-sdk-content
 description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.
 old-location: shell\SHLoadInProc.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AUTOCOMPLETELISTOPTIONS
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SHLoadInProc
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # SHLoadInProc function

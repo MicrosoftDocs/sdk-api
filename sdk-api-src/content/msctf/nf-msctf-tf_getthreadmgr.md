@@ -4,17 +4,16 @@ title: TF_GetThreadMgr function
 author: windows-sdk-content
 description: The TF_GetThreadMgr function obtains a copy of a thread manager object previously created within the calling thread.
 old-location: tsf\tf_getthreadmgr.htm
-old-project: TSF
+tech.root: TSF
 ms.assetid: f8e3ed16-7a4f-424a-ae6d-4f81ab344af0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: msctf.h
 req.include-header: 
-req.redist: TSF 1.0 on Windows XPWindows 2000 Professional
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TF_DA_ATTR_INFO
+req.lib: 
+req.dll: Msctf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - TF_GetThreadMgr
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msctf.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: TSF 1.0 on Windows XPWindows 2000 Professional
 ---
 
 # TF_GetThreadMgr function

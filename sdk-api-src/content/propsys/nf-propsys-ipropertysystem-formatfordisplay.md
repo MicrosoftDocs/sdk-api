@@ -4,17 +4,16 @@ title: IPropertySystem::FormatForDisplay
 author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertySystem_FormatForDisplay.htm
-old-project: properties
+tech.root: properties
 ms.assetid: 674b1651-6354-4995-abeb-271df3748e1b
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplay method, IPropertySystem.FormatForDisplay, IPropertySystem::FormatForDisplay, properties.IPropertySystem_FormatForDisplay, propsys/IPropertySystem::FormatForDisplay, shell.IPropertySystem_FormatForDisplay, shell_IPropertySystem_FormatForDisplay
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.FormatForDisplay
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::FormatForDisplay

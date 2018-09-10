@@ -4,17 +4,16 @@ title: CfGetWin32HandleFromProtectedHandle function
 author: windows-sdk-content
 description: Converts a protected handle to a Win32 handle so that it can be used with all handle-based Win32 APIs.
 old-location: cloudapi\cfgetwin32handlefromprotectedhandle.htm
-old-project: cfApi
+tech.root: cfApi
 ms.assetid: 8C54B6F3-7709-4021-8965-E96B74DD3319
 ms.author: windowssdkdev
 ms.date: 02/27/2018
 ms.keywords: CfGetWin32HandleFromProtectedHandle, CfGetWin32HandleFromProtectedHandle function, cfapi/CfGetWin32HandleFromProtectedHandle, cloudApi.cfgetwin32handlefromprotectedhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CF_UPDATE_FLAGS
+req.lib: CldApi.lib
+req.dll: CldApi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CfGetWin32HandleFromProtectedHandle
 product: Windows
 targetos: Windows
-req.lib: CldApi.lib
-req.dll: CldApi.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CfGetWin32HandleFromProtectedHandle function

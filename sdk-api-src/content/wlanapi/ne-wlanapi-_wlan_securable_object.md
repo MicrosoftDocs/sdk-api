@@ -4,7 +4,7 @@ title: "_WLAN_SECURABLE_OBJECT"
 author: windows-sdk-content
 description: Defines the securable objects used by Native Wifi Functions.
 old-location: nwifi\wlan_securable_object.htm
-old-project: nativewifi
+tech.root: nativewifi
 ms.assetid: 1f6e1460-d27f-4800-8a32-6f9f509753cf
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WLAN_SECURABLE_OBJECT
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
+req.redist: 
 ---
 
 # _WLAN_SECURABLE_OBJECT enumeration

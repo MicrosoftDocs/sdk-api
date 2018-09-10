@@ -4,7 +4,7 @@ title: "_TCPIP_OWNER_MODULE_BASIC_INFO"
 author: windows-sdk-content
 description: Contains pointers to the module name and module path values associated with a TCP connection. The TCPIP_OWNER_MODULE_BASIC_INFO structure is returned by the GetOwnerModuleFromTcpEntry and GetOwnerModuleFromTcp6Entry functions.
 old-location: iphlp\tcpip_owner_module_basic_info.htm
-old-project: iphlp
+tech.root: iphlp
 ms.assetid: cce3e0ff-31f2-454b-8aae-3b35f72f47ed
 ms.author: windowssdkdev
 ms.date: 08/15/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TCPIP_OWNER_MODULE_BASIC_INFO
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
+req.redist: 
 ---
 
 # _TCPIP_OWNER_MODULE_BASIC_INFO structure

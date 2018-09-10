@@ -4,7 +4,7 @@ title: "_MINIDUMP_STRING"
 author: windows-sdk-content
 description: Describes a string.
 old-location: base\minidump_string_str.htm
-old-project: debug
+tech.root: debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
-req.redist: DbgHelp.dll 5.1 or later
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MINIDUMP_STRING, *PMINIDUMP_STRING
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MINIDUMP_STRING
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MINIDUMP_STRING, *PMINIDUMP_STRING
+req.redist: DbgHelp.dll 5.1 or later
 ---
 
 # _MINIDUMP_STRING structure

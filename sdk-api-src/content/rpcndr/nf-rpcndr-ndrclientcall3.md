@@ -4,17 +4,16 @@ title: NdrClientCall3 function
 author: windows-sdk-content
 description: NdrClientCall3 may be altered or unavailable.
 old-location: rpc\ndrclientcall3.htm
-old-project: Rpc
+tech.root: Rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
+req.lib: RpcRT4.lib
+req.dll: RpcRT4.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NdrClientCall3
 product: Windows
 targetos: Windows
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # NdrClientCall3 function

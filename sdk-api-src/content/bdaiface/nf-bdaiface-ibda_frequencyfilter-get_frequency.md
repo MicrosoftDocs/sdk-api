@@ -4,17 +4,16 @@ title: IBDA_FrequencyFilter::get_Frequency
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency.
 old-location: mstv\ibda_frequencyfilter_get_frequency.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 0eba0f92-45a7-4c5e-9450-f3c7a176288c
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Frequency method, IBDA_FrequencyFilter.get_Frequency, IBDA_FrequencyFilter::get_Frequency, IBDA_FrequencyFilterget_Frequency, bdaiface/IBDA_FrequencyFilter::get_Frequency, get_Frequency, get_Frequency method [Microsoft TV Technologies], get_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_frequency
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_FrequencyFilter.get_Frequency
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_FrequencyFilter::get_Frequency

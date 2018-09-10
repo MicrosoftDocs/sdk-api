@@ -4,17 +4,16 @@ title: FtpSetCurrentDirectoryW function
 author: windows-sdk-content
 description: Changes to a different working directory on the FTP server.
 old-location: wininet\ftpsetcurrentdirectory.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FtpSetCurrentDirectory, FtpSetCurrentDirectory function [WinINet], FtpSetCurrentDirectoryA, FtpSetCurrentDirectoryW, _inet_ftpsetcurrentdirectory_function, wininet.ftpsetcurrentdirectory, wininet/FtpSetCurrentDirectory, wininet/FtpSetCurrentDirectoryA, wininet/FtpSetCurrentDirectoryW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - FtpSetCurrentDirectoryW
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # FtpSetCurrentDirectoryW function

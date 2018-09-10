@@ -4,17 +4,16 @@ title: GetPwrCapabilities function
 author: windows-sdk-content
 description: Retrieves information about the system power capabilities.
 old-location: base\getpwrcapabilities.htm
-old-project: power
+tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
+req.lib: PowrProf.lib
+req.dll: PowrProf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - GetPwrCapabilities
 product: Windows
 targetos: Windows
-req.lib: PowrProf.lib
-req.dll: PowrProf.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # GetPwrCapabilities function

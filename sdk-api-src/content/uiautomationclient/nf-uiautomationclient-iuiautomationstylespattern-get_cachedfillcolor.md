@@ -4,17 +4,16 @@ title: IUIAutomationStylesPattern::get_CachedFillColor
 author: windows-sdk-content
 description: Retrieves the cached fill color of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillColor.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 6623D66E-E79C-4E50-BC5F-B2B226B1FC65
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: CachedFillColor property [Windows Accessibility], CachedFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedFillColor property, IUIAutomationStylesPattern.CachedFillColor, IUIAutomationStylesPattern.get_CachedFillColor, IUIAutomationStylesPattern::CachedFillColor, IUIAutomationStylesPattern::get_CachedFillColor, get_CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillColor
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IUIAutomationStylesPattern.get_CachedFillColor
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # IUIAutomationStylesPattern::get_CachedFillColor

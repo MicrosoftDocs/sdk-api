@@ -4,17 +4,16 @@ title: IFsrmFileManagementJob::put_Logging
 author: windows-sdk-content
 description: The types of logging to perform.
 old-location: fsrm\ifsrmfilemanagementjob_logging.htm
-old-project: fsrm
+tech.root: fsrm
 ms.assetid: a1bed6bf-9c34-40ab-b5fc-ba870e1f084a
 ms.author: windowssdkdev
 ms.date: 08/01/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Logging property, IFsrmFileManagementJob.Logging, IFsrmFileManagementJob.put_Logging, IFsrmFileManagementJob::Logging, IFsrmFileManagementJob::get_Logging, IFsrmFileManagementJob::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_logging, fsrm.ifsrmfilemanagementjob_logging, fsrmreports/IFsrmFileManagementJob::Logging, fsrmreports/IFsrmFileManagementJob::get_Logging, fsrmreports/IFsrmFileManagementJob::put_Logging, put_Logging
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 R2
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FsrmTemplateApplyOptions
+req.lib: 
+req.dll: SrmSvc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IFsrmFileManagementJob.put_Logging
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: SrmSvc.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFsrmFileManagementJob::put_Logging

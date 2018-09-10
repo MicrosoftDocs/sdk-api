@@ -4,17 +4,16 @@ title: RESET_MASKS macro
 author: windows-sdk-content
 description: The RESET_MASKS macro fills the color mask fields in a VIDEOINFO structure with zeroes.
 old-location: dshow\reset_masks.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - RESET_MASKS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # RESET_MASKS macro

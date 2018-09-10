@@ -4,17 +4,16 @@ title: SetWindowContextHelpId function
 author: windows-sdk-content
 description: Associates a Help context identifier with the specified window.
 old-location: shell\SetWindowContextHelpId.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Shell], _win32_SetWindowContextHelpId, shell.SetWindowContextHelpId, winuser/SetWindowContextHelpId
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - SetWindowContextHelpId
 product: Windows
 targetos: Windows
-req.lib: User32.lib
-req.dll: User32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # SetWindowContextHelpId function

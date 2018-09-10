@@ -4,17 +4,16 @@ title: ResumeSuspendedDownload function
 author: windows-sdk-content
 description: The ResumeSuspendedDownload function resumes a request that is suspended by a user interface dialog box.
 old-location: wininet\resumesuspendeddownload.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: 72b5511a-872d-4058-9f38-9b1bdf6784c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResumeSuspendedDownload
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ResumeSuspendedDownload function

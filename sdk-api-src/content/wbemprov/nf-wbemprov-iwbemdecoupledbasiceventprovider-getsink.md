@@ -4,17 +4,16 @@ title: IWbemDecoupledBasicEventProvider::GetSink
 author: windows-sdk-content
 description: The IWbemDecoupledBasicEventProvider::GetSink method retrieves an IWbemObjectSink object for event forwarding to WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getsink.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 2b33e441-4bc4-47ed-b09b-7af859127b06
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetSink, GetSink method [Windows Management Instrumentation], GetSink method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetSink method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetSink method, IWbemDecoupledBasicEventProvider.GetSink, IWbemDecoupledBasicEventProvider::GetSink, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetSink method, _hmm_iwbemdecoupledbasiceventprovider_getsink, wbemprov/IWbemDecoupledBasicEventProvider::GetSink, wmi.iwbemdecoupledbasiceventprovider_getsink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WbemTimeout
+req.lib: Wbemuuid.lib
+req.dll: Wmidcprv.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - WbemDecoupledBasicEventProvider.GetSink
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Wmidcprv.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemDecoupledBasicEventProvider::GetSink
@@ -65,17 +63,17 @@ The
 
 ### -param a_Flags
 
-
+TBD
 
 
 ### -param a_Context
 
-
+TBD
 
 
 ### -param a_Sink
 
-
+TBD
 
 
 

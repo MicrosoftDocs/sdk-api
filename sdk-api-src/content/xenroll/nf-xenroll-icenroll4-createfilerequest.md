@@ -4,17 +4,16 @@ title: ICEnroll4::createFileRequest
 author: windows-sdk-content
 description: Creates a PKCS #10 certificate request, a PKCS #7 request, or a full Certificate Management over CMS (CMC) request and stores it in a file.
 old-location: security\icenroll4_createfilerequest.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8902eb8e-c597-42a6-8836-6a24181da4d4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],createFileRequest method, ICEnroll4 interface [Security],createFileRequest method, ICEnroll4.createFileRequest, ICEnroll4::createFileRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createfilerequest, createFileRequest, createFileRequest method [Security], createFileRequest method [Security],CEnroll object, createFileRequest method [Security],ICEnroll4 interface, security.icenroll4_createfilerequest, xenroll/ICEnroll4::createFileRequest
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
+req.lib: Uuid.lib
+req.dll: Xenroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CEnroll.createFileRequest
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Xenroll.dll
-req.irql: 
-req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
+req.typenames: 
+req.redist: 
 ---
 
 # ICEnroll4::createFileRequest

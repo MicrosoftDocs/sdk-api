@@ -4,7 +4,7 @@ title: "_tagPublishedAppInfoFlags"
 author: windows-sdk-content
 description: Specifies which members in the PUBAPPINFO structure are valid. These flags are bitmasks set in the dwMask member and passed to IPublishedApp::GetPublishedAppInfo.
 old-location: shell\PUBAPPINFOFLAGS.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 9fcb93a5-24b5-4bc3-9f20-0088affb183b
 ms.author: windowssdkdev
 ms.date: 08/24/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - PUBAPPINFOFLAGS
 product: Windows
 targetos: Windows
-req.lib: Sfc.lib
-req.dll: Sfc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: PUBAPPINFOFLAGS
+req.redist: 
 ---
 
 # _tagPublishedAppInfoFlags enumeration

@@ -4,17 +4,16 @@ title: IATSC_STT::Initialize
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_initialize.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 8a887c78-a1ea-4b81-b933-f95bd33f13c5
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IATSC_STT interface [Microsoft TV Technologies],Initialize method, IATSC_STT.Initialize, IATSC_STT::Initialize, IATSC_STTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_STT interface, atscpsipparser/IATSC_STT::Initialize, mstv.iatsc_stt_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AsyncStatus
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IATSC_STT.Initialize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IATSC_STT::Initialize

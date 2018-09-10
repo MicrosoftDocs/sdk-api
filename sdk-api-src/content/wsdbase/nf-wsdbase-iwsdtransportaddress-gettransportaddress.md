@@ -4,17 +4,16 @@ title: IWSDTransportAddress::GetTransportAddress
 author: windows-sdk-content
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
-old-project: WsdApi
+tech.root: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSD_CONFIG_PARAM_TYPE
+req.lib: 
+req.dll: Wsdapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWSDTransportAddress.GetTransportAddress
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wsdapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWSDTransportAddress::GetTransportAddress

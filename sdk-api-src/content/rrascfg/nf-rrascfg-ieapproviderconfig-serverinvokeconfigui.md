@@ -4,17 +4,16 @@ title: IEAPProviderConfig::ServerInvokeConfigUI
 author: windows-sdk-content
 description: The system calls the ServerInvokeConfigUI method to invoke the configuration user interface for EAP authentication between a remote access client and server.
 old-location: eap\ieapproviderconfig_serverinvokeconfigui.htm
-old-project: eap
+tech.root: eap
 ms.assetid: 95d98664-e108-41d5-8ed0-49867563df43
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IEAPProviderConfig interface [EAP],ServerInvokeConfigUI method, IEAPProviderConfig.ServerInvokeConfigUI, IEAPProviderConfig::ServerInvokeConfigUI, ServerInvokeConfigUI, ServerInvokeConfigUI method [EAP], ServerInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_serverinvokeconfigui, eap.ieapproviderconfig_serverinvokeconfigui, rrascfg/IEAPProviderConfig::ServerInvokeConfigUI
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: rrascfg.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProxyFileInfo
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IEAPProviderConfig.ServerInvokeConfigUI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IEAPProviderConfig::ServerInvokeConfigUI

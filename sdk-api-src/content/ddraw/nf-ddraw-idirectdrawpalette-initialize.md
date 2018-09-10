@@ -4,17 +4,16 @@ title: IDirectDrawPalette::Initialize
 author: windows-sdk-content
 description: Initializes the DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_initialize.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirectDrawPalette.Initialize, IDirectDrawPalette::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawPalette.Initialize
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawPalette::Initialize
@@ -59,9 +58,19 @@ Initializes the DirectDrawPalette object.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
 
 
 

@@ -4,17 +4,16 @@ title: IMFSensorDevice::GetSymbolicLink
 author: windows-sdk-content
 description: Gets the symbolic link name of the sensor device.
 old-location: mf\imfsensordevice_getsymboliclink.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: F9244454-DF1D-4A3D-8A63-830A8422AFA2
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSymbolicLink method, IMFSensorDevice.GetSymbolicLink, IMFSensorDevice::GetSymbolicLink, mf.imfsensordevice_getsymboliclink, mfidl/IMFSensorDevice::GetSymbolicLink
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorDevice.GetSymbolicLink
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorDevice::GetSymbolicLink

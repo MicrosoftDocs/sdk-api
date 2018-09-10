@@ -4,17 +4,16 @@ title: IMcastLeaseInfo::get_Addresses
 author: windows-sdk-content
 description: The get_Addresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for Visual Basic and other scripting languages; C++ programmers use EnumerateAddresses instead.
 old-location: tapi3\imcastleaseinfo_get_addresses.htm
-old-project: tapi
+tech.root: tapi
 ms.assetid: 37dc1bc8-b3d9-4c84-8d37-89d50570d95c
 ms.author: windowssdkdev
 ms.date: 07/31/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_Addresses method, IMcastLeaseInfo.get_Addresses, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
+req.lib: Uuid.lib
+req.dll: Mdhcp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMcastLeaseInfo.get_Addresses
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMcastLeaseInfo::get_Addresses

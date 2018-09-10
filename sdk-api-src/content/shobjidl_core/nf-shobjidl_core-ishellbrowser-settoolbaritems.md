@@ -4,17 +4,16 @@ title: IShellBrowser::SetToolbarItems
 author: windows-sdk-content
 description: Adds toolbar items to Windows Explorer's toolbar.
 old-location: shell\IShellBrowser_SetToolbarItems.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4ff141d3-e175-464a-9869-317d547e7489
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: FCT_ADDTOEND, FCT_CONFIGABLE, FCT_MERGE, IShellBrowser interface [Windows Shell],SetToolbarItems method, IShellBrowser.SetToolbarItems, IShellBrowser::SetToolbarItems, SetToolbarItems, SetToolbarItems method [Windows Shell], SetToolbarItems method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetToolbarItems, shell.IShellBrowser_SetToolbarItems, shobjidl_core/IShellBrowser::SetToolbarItems
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IShellBrowser.SetToolbarItems
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IShellBrowser::SetToolbarItems

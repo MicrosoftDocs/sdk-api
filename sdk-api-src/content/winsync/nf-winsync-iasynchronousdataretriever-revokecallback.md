@@ -4,17 +4,16 @@ title: IAsynchronousDataRetriever::RevokeCallback
 author: windows-sdk-content
 description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.
 old-location: winsync\iasynchronousdataretriever_revokecallback.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAsynchronousDataRetriever.RevokeCallback
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IAsynchronousDataRetriever::RevokeCallback

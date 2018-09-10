@@ -4,17 +4,16 @@ title: CInstance::SetVariant
 author: windows-sdk-content
 description: The SetVariant method sets a VARIANT property.
 old-location: wmi\cinstance_setvariant.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 45201e64-2ecc-4a18-9f41-2392dfe50caf
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: "?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],SetVariant method, CInstance.SetVariant, CInstance::SetVariant, SetVariant, SetVariant method [Windows Management Instrumentation], SetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setvariant, instance/CInstance::SetVariant, wmi.cinstance_setvariant"
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TrustLevel
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - ?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # CInstance::SetVariant

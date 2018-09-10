@@ -4,17 +4,16 @@ title: IProvideWinSATAssessmentInfo::get_Description
 author: windows-sdk-content
 description: Retrieves the description of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_description.htm
-old-project: WinSAT
+tech.root: WinSAT
 ms.assetid: e598ad5e-e0b9-494a-ba87-0ae7c960deee
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo interface [WinSAT],Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo.get_Description, IProvideWinSATAssessmentInfo::Description, IProvideWinSATAssessmentInfo::get_Description, get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WINSAT_BITMAP_SIZE
+req.lib: 
+req.dll: Winsatapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IProvideWinSATAssessmentInfo.get_Description
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Winsatapi.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IProvideWinSATAssessmentInfo::get_Description

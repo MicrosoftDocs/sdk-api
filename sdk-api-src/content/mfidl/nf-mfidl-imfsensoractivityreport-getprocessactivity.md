@@ -4,17 +4,16 @@ title: IMFSensorActivityReport::GetProcessActivity
 author: windows-sdk-content
 description: Gets an IMFSensorProcessActivity object representing the current process activity of a sensor.
 old-location: mf\imfsensoractivityreport_getprocessactivity.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: A9E18EC3-83E4-430B-B7A4-49FC9736A94E
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: GetProcessActivity, GetProcessActivity method [Media Foundation], GetProcessActivity method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessActivity method, IMFSensorActivityReport.GetProcessActivity, IMFSensorActivityReport::GetProcessActivity, mf.imfsensoractivityreport_getprocessactivity, mfidl/IMFSensorActivityReport::GetProcessActivity
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: Mfplat.lib; Mfplat.dll
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IMFSensorActivityReport.GetProcessActivity
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib; Mfplat.dll
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFSensorActivityReport::GetProcessActivity

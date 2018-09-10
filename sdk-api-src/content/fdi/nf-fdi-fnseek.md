@@ -4,17 +4,16 @@ title: FNSEEK macro
 author: windows-sdk-content
 description: The FNSEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FDI context.
 old-location: winprog\fnseek.htm
-old-project: DevNotes
+tech.root: DevNotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CCAB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FNSEEK
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # FNSEEK macro

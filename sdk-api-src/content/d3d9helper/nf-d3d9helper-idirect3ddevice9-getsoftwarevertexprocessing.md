@@ -4,17 +4,16 @@ title: IDirect3DDevice9::GetSoftwareVertexProcessing
 author: windows-sdk-content
 description: Gets the vertex processing (hardware or software) mode.
 old-location: direct3d9\idirect3ddevice9__getsoftwarevertexprocessing.htm
-old-project: direct3d9
+tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getsoftwarevertexprocessing.htm
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: 17efcf07-7357-cfad-13db-c6391873f457, GetSoftwareVertexProcessing, GetSoftwareVertexProcessing method [Direct3D 9], GetSoftwareVertexProcessing method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSoftwareVertexProcessing method, IDirect3DDevice9.GetSoftwareVertexProcessing, IDirect3DDevice9::GetSoftwareVertexProcessing, d3d9helper/IDirect3DDevice9::GetSoftwareVertexProcessing, direct3d9.idirect3ddevice9__getsoftwarevertexprocessing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3DVSHADERCAPS2_0
+req.lib: D3D9.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IDirect3DDevice9.GetSoftwareVertexProcessing
 product: Windows
 targetos: Windows
-req.lib: D3D9.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirect3DDevice9::GetSoftwareVertexProcessing

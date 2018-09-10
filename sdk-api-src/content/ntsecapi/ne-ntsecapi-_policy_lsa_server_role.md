@@ -4,7 +4,7 @@ title: "_POLICY_LSA_SERVER_ROLE"
 author: windows-sdk-content
 description: Defines values that indicate the role of an LSA server.
 old-location: security\policy_lsa_server_role.htm
-old-project: SecMgmt
+tech.root: SecMgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: POLICY_LSA_SERVER_ROLE, *PPOLICY_LSA_SERVER_ROLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - POLICY_LSA_SERVER_ROLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: POLICY_LSA_SERVER_ROLE, *PPOLICY_LSA_SERVER_ROLE
+req.redist: 
 ---
 
 # _POLICY_LSA_SERVER_ROLE enumeration

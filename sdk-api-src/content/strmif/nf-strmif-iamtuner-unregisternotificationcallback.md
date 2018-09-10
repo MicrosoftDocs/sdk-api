@@ -4,17 +4,16 @@ title: IAMTuner::UnRegisterNotificationCallBack
 author: windows-sdk-content
 description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
 old-location: dshow\iamtuner_unregisternotificationcallback.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: b46a925b-b4a7-4e2f-aa1b-c98d0f56b33a
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IAMTuner interface [DirectShow],UnRegisterNotificationCallBack method, IAMTuner.UnRegisterNotificationCallBack, IAMTuner::UnRegisterNotificationCallBack, IAMTunerUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_unregisternotificationcallback, strmif/IAMTuner::UnRegisterNotificationCallBack
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IAMTuner.UnRegisterNotificationCallBack
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IAMTuner::UnRegisterNotificationCallBack

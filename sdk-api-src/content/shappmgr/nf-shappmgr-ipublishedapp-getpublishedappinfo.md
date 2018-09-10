@@ -4,17 +4,16 @@ title: IPublishedApp::GetPublishedAppInfo
 author: windows-sdk-content
 description: Gets publishing-related information about an application published by an application publisher.
 old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PUBAPPINFOFLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPublishedApp.GetPublishedAppInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IPublishedApp::GetPublishedAppInfo
@@ -63,7 +61,7 @@ Gets publishing-related information about an application published by an applica
 
 ### -param ppai
 
-
+TBD
 
 
 

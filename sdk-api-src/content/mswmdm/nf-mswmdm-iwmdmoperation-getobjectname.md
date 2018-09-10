@@ -4,17 +4,16 @@ title: IWMDMOperation::GetObjectName
 author: windows-sdk-content
 description: Windows Media Device Manager calls GetObjectName before an object is written to the device in order to know what it should be named on the device.
 old-location: wmdm\iwmdmoperation_getobjectname.htm
-old-project: WMDM
+tech.root: WMDM
 ms.assetid: e66882ec-2fcf-44c7-b78a-a3b55d9e9ec4
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetObjectName, GetObjectName method [windows Media Device Manager], GetObjectName method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectName method, IWMDMOperation.GetObjectName, IWMDMOperation::GetObjectName, IWMDMOperationGetObjectName, mswmdm/IWMDMOperation::GetObjectName, wmdm.iwmdmoperation_getobjectname
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MSVidCtlStateList
+req.lib: Mssachlp.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IWMDMOperation.GetObjectName
 product: Windows
 targetos: Windows
-req.lib: Mssachlp.lib
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IWMDMOperation::GetObjectName

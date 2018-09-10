@@ -4,7 +4,7 @@ title: ID3D11Texture3D1
 author: windows-sdk-content
 description: A 3D texture interface represents texel data, which is structured memory.
 old-location: direct3d11\id3d11texture3d1.htm
-old-project: direct3d11
+tech.root: direct3d11
 ms.assetid: 8ADF6845-BC62-4FCC-946E-7DE676C250B0
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_TEXTURE_LAYOUT
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - ID3D11Texture3D1
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11Texture3D1 interface

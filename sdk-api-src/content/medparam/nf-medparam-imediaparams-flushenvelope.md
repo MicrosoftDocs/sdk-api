@@ -4,17 +4,16 @@ title: IMediaParams::FlushEnvelope
 author: windows-sdk-content
 description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
 old-location: dshow\imediaparams_flushenvelope.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MP_TYPE
+req.lib: Dmoguids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IMediaParams.FlushEnvelope
 product: Windows
 targetos: Windows
-req.lib: Dmoguids.lib
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMediaParams::FlushEnvelope

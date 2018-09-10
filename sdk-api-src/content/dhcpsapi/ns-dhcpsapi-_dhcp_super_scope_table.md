@@ -4,7 +4,7 @@ title: "_DHCP_SUPER_SCOPE_TABLE"
 author: windows-sdk-content
 description: Defines the superscope of a DHCP server.
 old-location: dhcp\dhcp_super_scope_table.htm
-old-project: dhcp
+tech.root: dhcp
 ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DHCP_SUPER_SCOPE_TABLE, *LPDHCP_SUPER_SCOPE_TABLE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DHCP_SUPER_SCOPE_TABLE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DHCP_SUPER_SCOPE_TABLE, *LPDHCP_SUPER_SCOPE_TABLE
+req.redist: 
 ---
 
 # _DHCP_SUPER_SCOPE_TABLE structure

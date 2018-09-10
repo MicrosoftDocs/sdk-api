@@ -4,17 +4,16 @@ title: IWbemObjectAccess::GetPropertyHandle
 author: windows-sdk-content
 description: The GetPropertyHandle method returns a unique handle that identifies a property. You can use this handle to identify properties when using IWbemObjectAccess methods to read or write property values.
 old-location: wmi\iwbemobjectaccess_getpropertyhandle.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 889d90cd-f53f-460e-b1c2-ed2b87863d58
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetPropertyHandle, GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyHandle method, IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMI_OBJ_TEXT
+req.lib: Wbemuuid.lib
+req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - IWbemObjectAccess.GetPropertyHandle
 product: Windows
 targetos: Windows
-req.lib: Wbemuuid.lib
-req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWbemObjectAccess::GetPropertyHandle

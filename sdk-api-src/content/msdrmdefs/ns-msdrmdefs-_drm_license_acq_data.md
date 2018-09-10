@@ -4,7 +4,7 @@ title: "_DRM_LICENSE_ACQ_DATA"
 author: windows-sdk-content
 description: Holds license acquisition data during nonsilent license acquisition.
 old-location: rm\drm_license_acq_data.htm
-old-project: adrms_sdk
+tech.root: adrms_sdk
 ms.assetid: c8f4ba99-5711-495f-9820-f604cc9e20f7
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DRM_LICENSE_ACQ_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DRM_LICENSE_ACQ_DATA
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: DRM_LICENSE_ACQ_DATA
+req.redist: 
 req.product: Rights Management Services client 1.0 or later
 ---
 

@@ -4,17 +4,16 @@ title: IDTFilter2::GetCurrLicenseExpDate
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter2_getcurrlicenseexpdate.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: 3c9b9aa5-62b7-4b3a-abc1-2e0af7e65b18
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IDTFilter2.GetCurrLicenseExpDate, IDTFilter2::GetCurrLicenseExpDate, IDTFilter2GetCurrLicenseExpDate, encdec/IDTFilter2::GetCurrLicenseExpDate, mstv.idtfilter2_getcurrlicenseexpdate
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ProtType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDTFilter2.GetCurrLicenseExpDate
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDTFilter2::GetCurrLicenseExpDate
@@ -62,7 +60,7 @@ Not implemented in this release.
 
 ### -param protType
 
-
+TBD
 
 
 ### -param lpDateTime

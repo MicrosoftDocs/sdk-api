@@ -4,17 +4,16 @@ title: DsMergeForestTrustInformationW function
 author: windows-sdk-content
 description: Merges the changes from a new forest trust data structure with an old forest trust data structure.
 old-location: ad\dsmergeforesttrustinformationw.htm
-old-project: ad
+tech.root: ad
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
+req.lib: Netapi32.lib
+req.dll: Netapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - DsMergeForestTrustInformationW
 product: Windows
 targetos: Windows
-req.lib: Netapi32.lib
-req.dll: Netapi32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # DsMergeForestTrustInformationW function

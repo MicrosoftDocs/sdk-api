@@ -3,18 +3,17 @@ UID: NF:faxcom.IFaxStatus.get_DocumentSize
 title: IFaxStatus::get_DocumentSize
 author: windows-sdk-content
 description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.
-old-location: fax\_mfax_ifaxstatus_get_documentsize_vb.htm
-old-project: Fax
+old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp.htm
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5d5x.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
-ms.keywords: DocumentSize property [Fax Service], DocumentSize property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DocumentSize property, FaxStatus.DocumentSize, IFaxStatus.get_DocumentSize, IFaxStatus::get_DocumentSize, _mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize_vb, get_DocumentSize
-ms.prod: windows
-ms.technology: windows-sdk
+ms.keywords: DocumentSize property [Fax Service], DocumentSize property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DocumentSize property, IFaxStatus.DocumentSize, IFaxStatus.get_DocumentSize, IFaxStatus::DocumentSize, IFaxStatus::get_DocumentSize, _mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_get_documentsize, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp, faxcom/IFaxStatus::DocumentSize, faxcom/IFaxStatus::get_DocumentSize, get_DocumentSize
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ShellWindowTypeConstants
+req.lib: 
+req.dll: Faxcom.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,13 +37,12 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - FaxStatus.DocumentSize
+ - IFaxStatus.DocumentSize
+ - IFaxStatus.get_DocumentSize
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: 
+req.redist: 
 ---
 
 # IFaxStatus::get_DocumentSize
@@ -64,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/02222b39-c9b9-459a-989c-80e8d5d4636b">DocumentName</a> property of the object to inform users about the size of outbound jobs.
+You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsoft.com/88f02cb1-df32-4fb8-9fe7-6c3abe1948dc">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">DocumentName</a> property of the object to inform users about the size of outbound jobs.
 
 
 
@@ -74,19 +73,11 @@ You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/02222b39-c9b9-459a-989c-80e8d5d4636b">DocumentName</a>
-
-
-
 <a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
 <a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
-
-
-
-<a href="https://msdn.microsoft.com/ce382d4d-aeaf-4254-9bc7-74b7d1d7f1a4">FaxStatus</a>
 
 
 
@@ -99,6 +90,10 @@ You can use the <b>DocumentSize</b> property of a <a href="https://msdn.microsof
 
 
 <a href="https://msdn.microsoft.com/823cbedb-052a-4ac1-a73c-4bbafeac2523">IFaxStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/fefbba54-e4c7-4d26-a75e-49d3f3dc4f78">IFaxStatus::get_DocumentName</a>
  
 
  

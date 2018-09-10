@@ -4,17 +4,16 @@ title: IMILBitmapEffectRenderContext::GetOutputDPI
 author: windows-sdk-content
 description: Gets the output dots per inch (dpi).
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputdpi.htm
-old-project: wibe
+tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputdpi.htm
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetOutputDPI, GetOutputDPI method [WPF Bitmap Effects], GetOutputDPI method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputDPI method, IMILBitmapEffectRenderContext.GetOutputDPI, IMILBitmapEffectRenderContext::GetOutputDPI, _wibe_imilbitmapeffectrendercontext_getoutputdpi, mileffects/IMILBitmapEffectRenderContext::GetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_getoutputdpi
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 
-req.redist: Microsoft .Net 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MICUIELEMENTSTATE
+req.lib: 
+req.dll: Mileffects.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMILBitmapEffectRenderContext.GetOutputDPI
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Mileffects.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: Microsoft .Net 3.0
 ---
 
 # IMILBitmapEffectRenderContext::GetOutputDPI

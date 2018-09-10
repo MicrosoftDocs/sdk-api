@@ -4,7 +4,7 @@ title: tagMODULEENTRY32W
 author: windows-sdk-content
 description: Describes an entry from a list of the modules belonging to the specified process.
 old-location: toolhelp\moduleentry32_str.htm
-old-project: ToolHelp
+tech.root: ToolHelp
 ms.assetid: 305fab35-625c-42e3-a434-e2513e4c8870
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MODULEENTRY32W
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - MODULEENTRY32W
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: MODULEENTRY32W
+req.redist: 
 ---
 
 # tagMODULEENTRY32W structure

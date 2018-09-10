@@ -4,17 +4,16 @@ title: CertSrvBackupTruncateLogs function
 author: windows-sdk-content
 description: Eliminates redundant records and reduces the disk storage space used by log files.
 old-location: security\certsrvbackuptruncatelogs.htm
-old-project: seccrypto
+tech.root: seccrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Certadm.lib
+req.dll: Certadm.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - CertSrvBackupTruncateLogs
 product: Windows
 targetos: Windows
-req.lib: Certadm.lib
-req.dll: Certadm.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CertSrvBackupTruncateLogs function

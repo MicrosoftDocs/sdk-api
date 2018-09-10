@@ -4,17 +4,16 @@ title: IDirectManipulationDragDropBehavior::SetConfiguration
 author: windows-sdk-content
 description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_setconfiguration.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 972EF04E-B14C-4EF9-B40A-EAF0458F2947
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationDragDropBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationDragDropBehavior.SetConfiguration, IDirectManipulationDragDropBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration, directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationDragDropBehavior.SetConfiguration
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationDragDropBehavior::SetConfiguration

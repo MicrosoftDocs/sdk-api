@@ -4,17 +4,16 @@ title: IMFTimecodeTranslate::BeginConvertTimecodeToHNS
 author: windows-sdk-content
 description: Starts an asynchronous call to convert Society of Motion Picture and Television Engineers (SMPTE) time code to 100-nanosecond units.
 old-location: mf\imftimecodetranslate_beginconverttimecodetohns.htm
-old-project: medfound
+tech.root: medfound
 ms.assetid: 4e25d5e4-b4d7-4ca4-81c9-12c6d712322d
 ms.author: windowssdkdev
 ms.date: 08/07/2018
 ms.keywords: BeginConvertTimecodeToHNS, BeginConvertTimecodeToHNS method [Media Foundation], BeginConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertTimecodeToHNS method, IMFTimecodeTranslate.BeginConvertTimecodeToHNS, IMFTimecodeTranslate::BeginConvertTimecodeToHNS, mf.imftimecodetranslate_beginconverttimecodetohns, mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MFSensorDeviceMode
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMFTimecodeTranslate.BeginConvertTimecodeToHNS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMFTimecodeTranslate::BeginConvertTimecodeToHNS

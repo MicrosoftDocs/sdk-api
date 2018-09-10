@@ -4,7 +4,7 @@ title: "_IDPE_ATTR"
 author: windows-sdk-content
 description: The IDPE_ATTR structure contains identity policy element attribute information.
 old-location: qos\idpe_attr.htm
-old-project: QOS
+tech.root: QOS
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: qospol.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IDPE_ATTR, *LPIDPE_ATTR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDPE_ATTR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: IDPE_ATTR, *LPIDPE_ATTR
+req.redist: 
 ---
 
 # _IDPE_ATTR structure

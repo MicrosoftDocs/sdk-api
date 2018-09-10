@@ -4,17 +4,16 @@ title: IFileSystemBindData2::SetFileID
 author: windows-sdk-content
 description: Sets the unique file identifier for the current file.
 old-location: shell\IFileSystemBindData2_SetFileID.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d3da2a22-cd45-4f3f-afcc-183a20f60f15
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetFileID method, IFileSystemBindData2.SetFileID, IFileSystemBindData2::SetFileID, SetFileID, SetFileID method [Windows Shell], SetFileID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetFileID, shell.IFileSystemBindData2_SetFileID, shobjidl_core/IFileSystemBindData2::SetFileID
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileSystemBindData2.SetFileID
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileSystemBindData2::SetFileID

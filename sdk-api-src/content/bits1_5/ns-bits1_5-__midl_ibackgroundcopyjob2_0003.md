@@ -4,7 +4,7 @@ title: "__MIDL_IBackgroundCopyJob2_0003"
 author: windows-sdk-content
 description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.
 old-location: bits\bg_basic_credentials.htm
-old-project: bits
+tech.root: bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h
-req.redist: BITS 1.5 on  Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2003
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_BASIC_CREDENTIALS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BG_BASIC_CREDENTIALS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BG_BASIC_CREDENTIALS
+req.redist: BITS 1.5 on  Windows XP
 ---
 
 # __MIDL_IBackgroundCopyJob2_0003 structure

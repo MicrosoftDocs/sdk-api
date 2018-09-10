@@ -4,17 +4,16 @@ title: IOpcRelationship::GetId
 author: windows-sdk-content
 description: Gets the unique identifier of the relationship.
 old-location: opc\iopcrelationship_getid.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcRelationship.GetId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcRelationship::GetId

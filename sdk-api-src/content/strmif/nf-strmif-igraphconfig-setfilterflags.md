@@ -4,17 +4,16 @@ title: IGraphConfig::SetFilterFlags
 author: windows-sdk-content
 description: The SetFilterFlags method sets a filter's configuration information.
 old-location: dshow\igraphconfig_setfilterflags.htm
-old-project: DirectShow
+tech.root: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
 ms.author: windowssdkdev
 ms.date: 08/20/2018
 ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphConfig.SetFilterFlags, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow],IGraphConfig interface, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DVD_RELATIVE_BUTTON
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IGraphConfig.SetFilterFlags
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
-req.dll: 
-req.irql: 
-req.product: Windows XP with SP1
+req.typenames: 
+req.redist: 
 ---
 
 # IGraphConfig::SetFilterFlags

@@ -4,17 +4,16 @@ title: GetTraceLoggerHandle function
 author: windows-sdk-content
 description: The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceloggerhandle.htm
-old-project: etw
+tech.root: etw
 ms.assetid: 050d3a01-0087-40f1-af35-b9ceeaf47813
 ms.author: windowssdkdev
 ms.date: 08/08/2018
 ms.keywords: GetTraceLoggerHandle, GetTraceLoggerHandle function [ETW], _evt_gettraceloggerhandle, base.gettraceloggerhandle, etw.gettraceloggerhandle, evntrace/GetTraceLoggerHandle
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRACE_QUERY_INFO_CLASS, TRACE_INFO_CLASS
+req.lib: Advapi32.lib
+req.dll: Advapi32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,10 +44,8 @@ api_name:
  - GetTraceLoggerHandle
 product: Windows
 targetos: Windows
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # GetTraceLoggerHandle function

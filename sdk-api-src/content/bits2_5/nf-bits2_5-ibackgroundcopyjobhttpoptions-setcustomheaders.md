@@ -4,17 +4,16 @@ title: IBackgroundCopyJobHttpOptions::SetCustomHeaders
 author: windows-sdk-content
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
-old-project: bits
+tech.root: bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BG_CERT_STORE_LOCATION
+req.lib: Bits.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - IBackgroundCopyJobHttpOptions.SetCustomHeaders
 product: Windows
 targetos: Windows
-req.lib: Bits.lib
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBackgroundCopyJobHttpOptions::SetCustomHeaders

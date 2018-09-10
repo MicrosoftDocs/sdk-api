@@ -4,7 +4,7 @@ title: ICDRAW
 author: windows-sdk-content
 description: The ICDRAW structure contains parameters for drawing video data to the screen. This structure is used with the ICM_DRAW message.
 old-location: multimedia\icdraw_struct.htm
-old-project: Multimedia
+tech.root: Multimedia
 ms.assetid: 9b3e2788-176c-41be-8ae3-244ed93ff4f8
 ms.author: windowssdkdev
 ms.date: 08/17/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: ICDRAW
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ICDRAW
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: ICDRAW
+req.redist: 
 ---
 
 # ICDRAW structure

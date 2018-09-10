@@ -4,17 +4,16 @@ title: WSASetServiceW function
 author: windows-sdk-content
 description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
 old-location: winsock\wsasetservice_2.htm
-old-project: WinSock
+tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
+req.lib: Ws2_32.lib
+req.dll: Ws2_32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - WSASetServiceW
 product: Windows
 targetos: Windows
-req.lib: Ws2_32.lib
-req.dll: Ws2_32.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # WSASetServiceW function

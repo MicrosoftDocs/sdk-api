@@ -4,17 +4,16 @@ title: ITextRange::MoveStart
 author: windows-sdk-content
 description: Moves the start postion of the range the specified number of units in the specified direction.
 old-location: controls\ITextRange_MoveStart.htm
-old-project: controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestart.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStart method, ITextRange.MoveStart, ITextRange::MoveStart, MoveStart, MoveStart method [Windows Controls], MoveStart method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStart, _win32_ITextRange_MoveStart_cpp, controls.ITextRange_MoveStart, controls._win32_ITextRange_MoveStart, tom/ITextRange::MoveStart
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANCODE
+req.lib: 
+req.dll: Msftedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITextRange.MoveStart
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Msftedit.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITextRange::MoveStart

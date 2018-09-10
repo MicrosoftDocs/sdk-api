@@ -4,17 +4,16 @@ title: IWMStreamConfig2::GetDataUnitExtensionCount
 author: windows-sdk-content
 description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.
 old-location: wmformat\iwmstreamconfig2_getdataunitextensioncount.htm
-old-project: wmformat
+tech.root: wmformat
 ms.assetid: f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetDataUnitExtensionCount, GetDataUnitExtensionCount method [windows Media Format], GetDataUnitExtensionCount method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtensionCount method, IWMStreamConfig2.GetDataUnitExtensionCount, IWMStreamConfig2::GetDataUnitExtensionCount, IWMStreamConfig2GetDataUnitExtensionCount, wmformat.iwmstreamconfig2_getdataunitextensioncount, wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only],Windows Media Format 9 Series SDK, or later versions of the SDK
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WM_AETYPE
+req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,10 +43,8 @@ api_name:
  - IWMStreamConfig2.GetDataUnitExtensionCount
 product: Windows
 targetos: Windows
-req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMStreamConfig2::GetDataUnitExtensionCount

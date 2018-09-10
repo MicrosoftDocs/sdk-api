@@ -4,7 +4,7 @@ title: "_REGISTRATION_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Contains information about the device registration.
 old-location: mdmreg\registration_information_class.htm
-old-project: MDMReg
+tech.root: MDMReg
 ms.assetid: B19B2E8F-6F1C-4648-97B2-C8D0DB296370
 ms.author: windowssdkdev
 ms.date: 02/21/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: mdmregistration.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - REGISTRATION_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: Mdhcp.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
+req.redist: 
 ---
 
 # _REGISTRATION_INFORMATION_CLASS enumeration

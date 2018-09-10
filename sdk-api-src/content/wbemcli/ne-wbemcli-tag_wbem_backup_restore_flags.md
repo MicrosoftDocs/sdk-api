@@ -4,7 +4,7 @@ title: tag_WBEM_BACKUP_RESTORE_FLAGS
 author: windows-sdk-content
 description: Contains flags used for the IWbemBackupRestore::Restore method and the IWbemBackupRestoreEx::Restore method.
 old-location: wmi\wbem_backup_restore_flags.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: 00072B9F-B4AE-4308-9E8C-F61D982525B3
 ms.author: windowssdkdev
 ms.date: 08/28/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WBEM_BACKUP_RESTORE_FLAGS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WBEM_BACKUP_RESTORE_FLAGS
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WBEM_BACKUP_RESTORE_FLAGS
+req.redist: 
 ---
 
 # tag_WBEM_BACKUP_RESTORE_FLAGS enumeration

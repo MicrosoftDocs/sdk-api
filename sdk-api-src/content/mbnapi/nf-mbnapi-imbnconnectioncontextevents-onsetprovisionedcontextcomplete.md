@@ -4,17 +4,16 @@ title: IMbnConnectionContextEvents::OnSetProvisionedContextComplete
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that the provisioned context in the device has been set.
 old-location: mbn\imbnconnectioncontextevents_onsetprovisionedcontextcomplete.htm
-old-project: mbn
+tech.root: mbn
 ms.assetid: 06e1071d-c541-4824-9b56-f2d18f41e972
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), HRESULT_FROM_WIN32(ERROR_WRITE_FAULT), IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnSetProvisionedContextComplete method, IMbnConnectionContextEvents.OnSetProvisionedContextComplete, IMbnConnectionContextEvents::OnSetProvisionedContextComplete, OnSetProvisionedContextComplete, OnSetProvisionedContextComplete method [Microsoft Broadband Networks], OnSetProvisionedContextComplete method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, S_OK, mbn.imbnconnectioncontextevents_onsetprovisionedcontextcomplete, mbnapi/IMbnConnectionContextEvents::OnSetProvisionedContextComplete
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MBN_VOICE_CLASS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IMbnConnectionContextEvents.OnSetProvisionedContextComplete
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IMbnConnectionContextEvents::OnSetProvisionedContextComplete

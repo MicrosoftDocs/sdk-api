@@ -4,17 +4,16 @@ title: InterlockedAnd16 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified SHORT values.
 old-location: base\interlockedand16.htm
-old-project: Sync
+tech.root: Sync
 ms.assetid: 2fadfee3-929e-4087-a1c9-789a881c7a25
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InterlockedAnd16, InterlockedAnd16 function, base.interlockedand16, winnt/InterlockedAnd16
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TRANSACTION_OUTCOME
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InterlockedAnd16
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InterlockedAnd16 function

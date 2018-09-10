@@ -4,17 +4,16 @@ title: ITransferSource::MoveItem
 author: windows-sdk-content
 description: Moves the item within the volume/namespace, returning the IShellItem in its new location.
 old-location: shell\ITransferSource_MoveItem.htm
-old-project: shell
+tech.root: shell
 ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransferSource.MoveItem, ITransferSource::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_MoveItem, shell.ITransferSource_MoveItem, shobjidl_core/ITransferSource::MoveItem
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITransferSource.MoveItem
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # ITransferSource::MoveItem
@@ -83,7 +81,7 @@ Pointer to a null-terminated buffer that contains the destination path.
 
 ### -param flags
 
-
+TBD
 
 
 ### -param ppsiNew [out]

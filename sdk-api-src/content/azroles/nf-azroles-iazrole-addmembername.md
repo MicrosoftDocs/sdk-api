@@ -4,17 +4,16 @@ title: IAzRole::AddMemberName
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that belong to the role.
 old-location: security\iazrole_addmembername.htm
-old-project: SecAuthZ
+tech.root: SecAuthZ
 ms.assetid: fc2ca62e-40b1-4b09-a129-50d6162c6807
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzRole object, AddMemberName method [Security],IAzRole interface, AzRole object [Security],AddMemberName method, IAzRole interface [Security],AddMemberName method, IAzRole.AddMemberName, IAzRole::AddMemberName, azroles/IAzRole::AddMemberName, security.iazrole_addmembername
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
-req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AZ_PROP_CONSTANTS
+req.lib: Azroles.lib
+req.dll: Azroles.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,9 +41,8 @@ api_name:
  - AzRole.AddMemberName
 product: Windows
 targetos: Windows
-req.lib: Azroles.lib
-req.dll: Azroles.dll
-req.irql: 
+req.typenames: 
+req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ---
 
 # IAzRole::AddMemberName

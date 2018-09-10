@@ -4,7 +4,7 @@ title: DISPLAYCONFIG_ROTATION
 author: windows-sdk-content
 description: The DISPLAYCONFIG_ROTATION enumeration specifies the clockwise rotation of the display.
 old-location: display\displayconfig_rotation.htm
-old-project: display
+tech.root: display
 ms.assetid: 82709d44-45e6-47ec-9caa-5a947a568c52
 ms.author: windowssdkdev
 ms.date: 08/13/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 Client.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DISPLAYCONFIG_ROTATION
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DISPLAYCONFIG_ROTATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: DISPLAYCONFIG_ROTATION
+req.redist: 
 ---
 
 # DISPLAYCONFIG_ROTATION enumeration

@@ -4,17 +4,16 @@ title: ITriggerCollection::Remove
 author: windows-sdk-content
 description: Removes the specified trigger from the collection of triggers used by the task.
 old-location: taskschd\itriggercollection_remove.htm
-old-project: TaskSchd
+tech.root: TaskSchd
 ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Remove method, ITriggerCollection.Remove, ITriggerCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITriggerCollection interface, taskschd.itriggercollection_remove, taskschd/ITriggerCollection::Remove, triggers [Task Scheduler],removing
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: TASK_TRIGGER_TYPE2
+req.lib: Taskschd.lib
+req.dll: Taskschd.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ITriggerCollection.Remove
 product: Windows
 targetos: Windows
-req.lib: Taskschd.lib
-req.dll: Taskschd.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ITriggerCollection::Remove

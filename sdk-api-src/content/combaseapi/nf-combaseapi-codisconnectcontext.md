@@ -4,17 +4,16 @@ title: CoDisconnectContext function
 author: windows-sdk-content
 description: Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 old-location: com\codisconnectcontext.htm
-old-project: com
+tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoDisconnectContext
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoDisconnectContext function

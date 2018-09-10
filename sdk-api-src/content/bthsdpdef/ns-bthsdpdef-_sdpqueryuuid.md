@@ -4,7 +4,7 @@ title: "_SdpQueryUuid"
 author: windows-sdk-content
 description: The SdpQueryUuid structure facilitates searching for UUIDs.
 old-location: bluetooth\sdpqueryuuid.htm
-old-project: bluetooth
+tech.root: bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SdpQueryUuid
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - SdpQueryUuid
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: SdpQueryUuid
+req.redist: 
 ---
 
 # _SdpQueryUuid structure

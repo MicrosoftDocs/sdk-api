@@ -4,17 +4,16 @@ title: DwmModifyPreviousDxFrameDuration function
 author: windows-sdk-content
 description: Changes the number of monitor refreshes through which the previous frame will be displayed. DwmModifyPreviousDxFrameDuration is no longer supported. Starting with Windows 8.1, calls to DwmModifyPreviousDxFrameDuration always return E_NOTIMPL.
 old-location: dwm\dwmmodifypreviousdxframeduration.htm
-old-project: dwm
+tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmmodifypreviousdxframeduration.htm
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: DwmModifyPreviousDxFrameDuration, DwmModifyPreviousDxFrameDuration function [Desktop Window Manager], _udwm_dwmmodifypreviousdxframeduration, _udwm_dwmmodifypreviousdxframeduration_cpp, dwm.dwmmodifypreviousdxframeduration, dwmapi/DwmModifyPreviousDxFrameDuration, winui._udwm_dwmmodifypreviousdxframeduration
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Dwmapi.lib
+req.dll: Dwmapi.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - DwmModifyPreviousDxFrameDuration
 product: Windows
 targetos: Windows
-req.lib: Dwmapi.lib
-req.dll: Dwmapi.dll
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # DwmModifyPreviousDxFrameDuration function

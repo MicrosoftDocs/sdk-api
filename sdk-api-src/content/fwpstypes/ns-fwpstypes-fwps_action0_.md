@@ -4,7 +4,7 @@ title: FWPS_ACTION0_
 author: windows-sdk-content
 description: The FWPS_ACTION0 structure specifies the run-time action that the filter engine takes if all of the filter's filtering conditions are true.Note  FWPS_ACTION0 is a specific version of FWPS_ACTION.
 old-location: netvista\fwps_action0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 1b192efc-e685-48bf-bf61-1419ce03a77a
 ms.author: windowssdkdev
 ms.date: 07/30/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPS_ACTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPS_ACTION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPS_ACTION0
+req.redist: 
 ---
 
 # FWPS_ACTION0_ structure

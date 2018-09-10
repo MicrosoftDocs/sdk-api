@@ -4,7 +4,7 @@ title: ISwapChainPanelNative
 author: windows-sdk-content
 description: Provides interoperation between XAML and a DirectX swap chain. Unlike SwapChainBackgroundPanel, a SwapChainPanel can appear at any level in the XAML display tree, and more than 1 can be present in any given tree.
 old-location: winrt\iswapchainpanelnative.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: B36147C7-1304-4175-8AD3-CD5FCA17B4AE
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PDF_RENDER_PARAMS
+req.lib: 
+req.dll: Windows.UI.Xaml.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISwapChainPanelNative
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Windows.UI.Xaml.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # ISwapChainPanelNative interface

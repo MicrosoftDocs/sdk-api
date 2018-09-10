@@ -4,7 +4,7 @@ title: NTFS_EXTENDED_VOLUME_DATA
 author: windows-sdk-content
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm
-old-project: fileio
+tech.root: fileio
 ms.assetid: 9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTFS_VOLUME_DATA_BUFFER
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA
+req.redist: 
 ---
 
 # NTFS_EXTENDED_VOLUME_DATA structure

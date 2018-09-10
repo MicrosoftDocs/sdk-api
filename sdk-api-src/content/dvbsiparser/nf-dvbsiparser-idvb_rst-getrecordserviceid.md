@@ -4,17 +4,16 @@ title: IDVB_RST::GetRecordServiceId
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getrecordserviceid.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: f9592e18-5cf6-4359-9654-2535070cdce9
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordServiceId method, IDVB_RST.GetRecordServiceId, IDVB_RST::GetRecordServiceId, IDVB_RSTGetRecordServiceId, dvbsiparser/IDVB_RST::GetRecordServiceId, mstv.idvb_rst_getrecordserviceid
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IDVB_RST.GetRecordServiceId
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Media Format 9 Series or later
+req.typenames: 
+req.redist: 
 ---
 
 # IDVB_RST::GetRecordServiceId

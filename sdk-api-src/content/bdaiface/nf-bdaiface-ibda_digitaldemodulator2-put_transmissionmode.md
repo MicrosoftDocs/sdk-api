@@ -4,17 +4,16 @@ title: IBDA_DigitalDemodulator2::put_TransmissionMode
 author: windows-sdk-content
 description: Sets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_put_transmissionmode.htm
-old-project: mstv
+tech.root: mstv
 ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_TransmissionMode method, IBDA_DigitalDemodulator2.put_TransmissionMode, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: UICloseReasonType
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IBDA_DigitalDemodulator2.put_TransmissionMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IBDA_DigitalDemodulator2::put_TransmissionMode

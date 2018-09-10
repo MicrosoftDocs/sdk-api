@@ -4,17 +4,16 @@ title: ExpandCollapsePattern_Collapse function
 author: windows-sdk-content
 description: Hides all descendant nodes, controls, or content of the UI Automation element.
 old-location: winauto\uiauto_ExpandCollapsePattern_CollapseConPat.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 71423347-bfae-4223-8215-d4f8d9226b63
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: ExpandCollapsePattern_Collapse, ExpandCollapsePattern_Collapse function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_CollapseConPat, uiauto_ExpandCollapsePattern_CollapseConPat, uiautomationcoreapi/ExpandCollapsePattern_Collapse, winauto.uiauto_ExpandCollapsePattern_CollapseConPat
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: Uiautomationcore.lib
+req.dll: Uiautomationcore.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ExpandCollapsePattern_Collapse
 product: Windows
 targetos: Windows
-req.lib: Uiautomationcore.lib
-req.dll: Uiautomationcore.dll
-req.irql: 
-req.product: Windows XP with SP1 and later
+req.typenames: 
+req.redist: 
 ---
 
 # ExpandCollapsePattern_Collapse function

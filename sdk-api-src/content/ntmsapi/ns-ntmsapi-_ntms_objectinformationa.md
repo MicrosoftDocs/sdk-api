@@ -4,7 +4,7 @@ title: "_NTMS_OBJECTINFORMATIONA"
 author: windows-sdk-content
 description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
 old-location: fs\ntms_objectinformation.htm
-old-project: Rsm
+tech.root: Rsm
 ms.assetid: 56e3380b-47c7-4861-bb2b-31d67ac10fe1
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NTMS_OBJECTINFORMATIONA, *LPNTMS_OBJECTINFORMATIONA
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NTMS_OBJECTINFORMATION
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: NTMS_OBJECTINFORMATIONA, *LPNTMS_OBJECTINFORMATIONA
+req.redist: 
 ---
 
 # _NTMS_OBJECTINFORMATIONA structure

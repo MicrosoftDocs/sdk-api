@@ -4,7 +4,7 @@ title: "_NET_DISPLAY_MACHINE"
 author: windows-sdk-content
 description: The NET_DISPLAY_MACHINE structure contains information that an account manager can access to determine information about computers and their attributes.
 old-location: netmgmt\net_display_machine_str.htm
-old-project: netmgmt
+tech.root: netmgmt
 ms.assetid: bdb1bef0-51f1-41d7-97fb-bda4ad24e386
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: NET_DISPLAY_MACHINE, *PNET_DISPLAY_MACHINE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - NET_DISPLAY_MACHINE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: NET_DISPLAY_MACHINE, *PNET_DISPLAY_MACHINE
+req.redist: 
 ---
 
 # _NET_DISPLAY_MACHINE structure

@@ -4,7 +4,7 @@ title: "_MCAST_SCOPE_CTX"
 author: windows-sdk-content
 description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.
 old-location: madcap\mcast_scope_ctx.htm
-old-project: madcap
+tech.root: madcap
 ms.assetid: 164d8f73-f5f5-4cc6-85ca-8e249192c202
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MCAST_SCOPE_CTX
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
+req.redist: 
 ---
 
 # _MCAST_SCOPE_CTX structure

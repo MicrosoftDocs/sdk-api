@@ -4,17 +4,16 @@ title: IVdsLun::QueryActiveControllers
 author: windows-sdk-content
 description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.
 old-location: base\ivdslun_queryactivecontrollers.htm
-old-project: VDS
+tech.root: VDS
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: VDS_VERSION_SUPPORT_FLAG
+req.lib: Uuid.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - IVdsLun.QueryActiveControllers
 product: Windows
 targetos: Windows
-req.lib: Uuid.lib
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVdsLun::QueryActiveControllers

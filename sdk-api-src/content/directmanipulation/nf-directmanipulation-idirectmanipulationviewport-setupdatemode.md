@@ -4,17 +4,16 @@ title: IDirectManipulationViewport::SetUpdateMode
 author: windows-sdk-content
 description: Specifies whether a viewport updates content manually instead of during an input event.
 old-location: directmanipulation\idirectmanipulationviewport_setupdatemode.htm
-old-project: directmanipulation
+tech.root: directmanipulation
 ms.assetid: 10516474-f3ef-4de7-a5b5-aabaa5c65cf5
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpdateMode method, IDirectManipulationViewport.SetUpdateMode, IDirectManipulationViewport::SetUpdateMode, SetUpdateMode, SetUpdateMode method [Direct Manipulation], SetUpdateMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setupdatemode, directmanipulation/IDirectManipulationViewport::SetUpdateMode
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectManipulationViewport.SetUpdateMode
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectManipulationViewport::SetUpdateMode

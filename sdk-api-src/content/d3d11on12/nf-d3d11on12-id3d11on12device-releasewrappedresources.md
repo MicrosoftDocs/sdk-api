@@ -4,17 +4,16 @@ title: ID3D11On12Device::ReleaseWrappedResources
 author: windows-sdk-content
 description: Releases D3D11 resources that were wrapped for D3D 11on12.
 old-location: direct3d12\id3d11on12device_releasewrappedresources.htm
-old-project: direct3d12
+tech.root: direct3d12
 ms.assetid: 6591D7D4-9B8D-4837-9DCF-0502CC26E725
 ms.author: windowssdkdev
 ms.date: 07/24/2018
 ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On12Device.ReleaseWrappedResources, ID3D11On12Device::ReleaseWrappedResources, ReleaseWrappedResources, ReleaseWrappedResources method, ReleaseWrappedResources method,ID3D11On12Device interface, d3d11on12/ID3D11On12Device::ReleaseWrappedResources, direct3d12.id3d11on12device_releasewrappedresources
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11on12.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D3D11_AES_CTR_IV
+req.lib: D3D11.lib
+req.dll: D3D11.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - ID3D11On12Device.ReleaseWrappedResources
 product: Windows
 targetos: Windows
-req.lib: D3D11.lib
-req.dll: D3D11.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # ID3D11On12Device::ReleaseWrappedResources

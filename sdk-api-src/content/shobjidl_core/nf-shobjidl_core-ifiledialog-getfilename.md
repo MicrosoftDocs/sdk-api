@@ -4,17 +4,16 @@ title: IFileDialog::GetFileName
 author: windows-sdk-content
 description: Retrieves the text currently entered in the dialog's File name edit box.
 old-location: shell\IFileDialog_GetFileName.htm
-old-project: shell
+tech.root: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetFileName, GetFileName method [Windows Shell], GetFileName method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileName method, IFileDialog.GetFileName, IFileDialog::GetFileName, shell.IFileDialog_GetFileName, shell_IFileDialog_GetFileName, shobjidl_core/IFileDialog::GetFileName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IFileDialog.GetFileName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
+req.typenames: 
+req.redist: 
 ---
 
 # IFileDialog::GetFileName

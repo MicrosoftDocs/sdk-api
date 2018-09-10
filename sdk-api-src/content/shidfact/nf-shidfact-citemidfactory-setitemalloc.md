@@ -4,17 +4,16 @@ title: CItemIDFactory::SetItemAlloc
 author: windows-sdk-content
 description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
 old-location: shell\citemidfactory_setitemalloc.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: SHELL_UI_COMPONENT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - CItemIDFactory.SetItemAlloc
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # CItemIDFactory::SetItemAlloc

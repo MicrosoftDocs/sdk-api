@@ -4,17 +4,16 @@ title: IGPEInformation::GetType
 author: windows-sdk-content
 description: The GetType method retrieves type information for the GPO being edited.
 old-location: policy\igpeinformation_gettype.htm
-old-project: Policy
+tech.root: Policy
 ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848
 ms.author: windowssdkdev
 ms.date: 07/29/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetType method, IGPEInformation.GetType, IGPEInformation::GetType, _win32_igpeinformation_gettype, gpedit/IGPEInformation::GetType, policy.igpeinformation_gettype
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: 
+req.lib: 
+req.dll: Gpedit.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IGPEInformation.GetType
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Gpedit.dll
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IGPEInformation::GetType

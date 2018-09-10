@@ -4,17 +4,16 @@ title: ISyncKnowledge2::IntersectsWithKnowledge
 author: windows-sdk-content
 description: Indicates whether the specified knowledge intersects with this knowledge.
 old-location: winsync\isyncknowledge2_intersectswithknowledge.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: 8d2ce743-7827-4ee4-a800-3ba706d4a7a6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],IntersectsWithKnowledge method, ISyncKnowledge2.IntersectsWithKnowledge, ISyncKnowledge2::IntersectsWithKnowledge, IntersectsWithKnowledge, IntersectsWithKnowledge method [Windows Sync], IntersectsWithKnowledge method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_intersectswithknowledge, winsync/ISyncKnowledge2::IntersectsWithKnowledge
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge2.IntersectsWithKnowledge
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge2::IntersectsWithKnowledge

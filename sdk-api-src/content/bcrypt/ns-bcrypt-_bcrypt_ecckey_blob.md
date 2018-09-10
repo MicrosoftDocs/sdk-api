@@ -4,7 +4,7 @@ title: "_BCRYPT_ECCKEY_BLOB"
 author: windows-sdk-content
 description: Used as a header for an elliptic curve public key or private key BLOB in memory.
 old-location: security\bcrypt_ecckey_blob.htm
-old-project: SecCNG
+tech.root: SecCNG
 ms.assetid: e60f6630-e4b0-4f35-a3cf-95dbcb007124
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - BCRYPT_ECCKEY_BLOB
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
+req.typenames: BCRYPT_ECCKEY_BLOB, *PBCRYPT_ECCKEY_BLOB
+req.redist: 
 ---
 
 # _BCRYPT_ECCKEY_BLOB structure

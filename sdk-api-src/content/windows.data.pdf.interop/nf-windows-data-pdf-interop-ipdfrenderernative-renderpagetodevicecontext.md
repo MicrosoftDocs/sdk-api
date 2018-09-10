@@ -4,17 +4,16 @@ title: IPdfRendererNative::pdf
 author: windows-sdk-content
 description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
 old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
-old-project: WinRT
+tech.root: WinRT
 ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToDeviceContext method, IPdfRendererNative.RenderPageToDeviceContext, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToDeviceContext, IPdfRendererNative::pdf, RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: windows.data.pdf.interop.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [UWP apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [UWP apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
+req.lib: Windows.data.pdf.lib
+req.dll: Windows.Data.Pdf.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPdfRendererNative.RenderPageToDeviceContext
 product: Windows
 targetos: Windows
-req.lib: Windows.data.pdf.lib
-req.dll: Windows.Data.Pdf.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IPdfRendererNative::pdf

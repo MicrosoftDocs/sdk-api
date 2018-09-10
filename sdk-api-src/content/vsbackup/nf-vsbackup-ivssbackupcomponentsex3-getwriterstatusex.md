@@ -4,17 +4,16 @@ title: IVssBackupComponentsEx3::GetWriterStatusEx
 author: windows-sdk-content
 description: Returns extended status information for the specified writer.
 old-location: base\ivssbackupcomponentsex3_getwriterstatusex.htm
-old-project: VSS
+tech.root: VSS
 ms.assetid: ab2be2c0-04bb-4a56-a636-ebd2c06e844a
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetWriterStatusEx, GetWriterStatusEx method, GetWriterStatusEx method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetWriterStatusEx method, IVssBackupComponentsEx3.GetWriterStatusEx, IVssBackupComponentsEx3::GetWriterStatusEx, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivssbackupcomponentsex3_getwriterstatusex, vsbackup/IVssBackupComponentsEx3::GetWriterStatusEx
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: AMVPSIZE, *LPAMVPSIZE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IVssBackupComponentsEx3.GetWriterStatusEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows UI
+req.typenames: 
+req.redist: 
 ---
 
 # IVssBackupComponentsEx3::GetWriterStatusEx

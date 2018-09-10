@@ -4,17 +4,16 @@ title: IX509Enrollment::InitializeFromRequest
 author: windows-sdk-content
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 old-location: security\ix509enrollment_initializefromrequest_method.htm
-old-project: SecCertEnroll
+tech.root: SecCertEnroll
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: X509RequestType
+req.lib: 
+req.dll: CertEnroll.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IX509Enrollment.InitializeFromRequest
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: CertEnroll.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IX509Enrollment::InitializeFromRequest

@@ -4,17 +4,16 @@ title: IOpcDigitalSignature::GetCustomReferenceEnumerator
 author: windows-sdk-content
 description: Gets an enumerator of the IOpcSignatureReference interface pointers that represent references to application-specific XML elements that have been signed.
 old-location: opc\iopcdigitalsignature_getcustomreferenceenumerator.htm
-old-project: OPC
+tech.root: OPC
 ms.assetid: 8cc5ae5d-faef-451d-8ad8-db4b8b5c0e22
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: GetCustomReferenceEnumerator, GetCustomReferenceEnumerator method [Open Packaging Conventions], GetCustomReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomReferenceEnumerator method, IOpcDigitalSignature.GetCustomReferenceEnumerator, IOpcDigitalSignature::GetCustomReferenceEnumerator, msopc/IOpcDigitalSignature::GetCustomReferenceEnumerator, opc.iopcdigitalsignature_getcustomreferenceenumerator
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: OPC_SIGNATURE_TIME_FORMAT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IOpcDigitalSignature.GetCustomReferenceEnumerator
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.typenames: 
+req.redist: 
 ---
 
 # IOpcDigitalSignature::GetCustomReferenceEnumerator

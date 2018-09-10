@@ -4,17 +4,16 @@ title: IntPtrToLong function
 author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type LONG.
 old-location: shell\IntPtrToLong.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 43ccfd9b-6bef-4870-ad7a-f207443cf5cf
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: IntPtrToLong, IntPtrToLong function [Windows Shell], _shell_IntPtrToLong, intsafe/IntPtrToLong, shell.IntPtrToLong
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IntPtrToLong
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # IntPtrToLong function

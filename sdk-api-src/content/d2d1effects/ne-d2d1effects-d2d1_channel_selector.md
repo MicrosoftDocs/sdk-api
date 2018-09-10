@@ -4,7 +4,7 @@ title: D2D1_CHANNEL_SELECTOR
 author: windows-sdk-content
 description: Specifies the color channel the Displacement map effectextracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 old-location: direct2d\d2d1_channel_selector.htm
-old-project: direct2d
+tech.root: direct2d
 ms.assetid: 92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: D2D1_CHANNEL_SELECTOR
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - D2D1_CHANNEL_SELECTOR
 product: Windows
 targetos: Windows
-req.lib: D2d1.lib
-req.dll: D2d1.dll
-req.irql: 
+req.typenames: D2D1_CHANNEL_SELECTOR
+req.redist: 
 ---
 
 # D2D1_CHANNEL_SELECTOR enumeration

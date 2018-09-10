@@ -4,7 +4,7 @@ title: FWPM_CONNECTION_SUBSCRIPTION0_
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a connection object.
 old-location: fwp\fwpm_connection_subscription0.htm
-old-project: fwp
+tech.root: fwp
 ms.assetid: 020490f1-ccbe-41aa-b6ad-022be9c9bef4
 ms.author: windowssdkdev
 ms.date: 08/06/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FWPM_CONNECTION_SUBSCRIPTION0
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FWPM_CONNECTION_SUBSCRIPTION0
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FWPM_CONNECTION_SUBSCRIPTION0
+req.redist: 
 ---
 
 # FWPM_CONNECTION_SUBSCRIPTION0_ structure

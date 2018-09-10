@@ -4,17 +4,16 @@ title: WritePrivateProfileStringA function
 author: windows-sdk-content
 description: Copies a string into the specified section of an initialization file.
 old-location: base\writeprivateprofilestring.htm
-old-project: SysInfo
+tech.root: SysInfo
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PRIORITY_HINT
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,10 +46,8 @@ api_name:
  - WritePrivateProfileStringW
 product: Windows
 targetos: Windows
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # WritePrivateProfileStringA function

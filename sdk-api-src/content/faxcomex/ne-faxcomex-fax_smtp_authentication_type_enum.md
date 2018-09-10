@@ -4,7 +4,7 @@ title: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 author: windows-sdk-content
 description: The FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration defines the configuration options for delivery receipts sent through email.
 old-location: fax\_mfax_fax_smtp_authentication_type_enum.htm
-old-project: Fax
+tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1vot.htm
 ms.author: windowssdkdev
 ms.date: 08/03/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Faxcom.dll
-req.irql: 
-req.product: Internet Explorer 5
+req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+req.redist: 
 ---
 
 # FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration

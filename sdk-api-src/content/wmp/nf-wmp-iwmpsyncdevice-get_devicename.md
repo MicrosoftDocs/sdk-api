@@ -4,17 +4,16 @@ title: IWMPSyncDevice::get_deviceName
 author: windows-sdk-content
 description: The get_deviceName method retrieves the name of the device.
 old-location: wmp\iwmpsyncdevice_get_devicename.htm
-old-project: WMP
+tech.root: WMP
 ms.assetid: daa490a9-d7b8-4162-a4e2-f88b8f091fa3
 ms.author: windowssdkdev
 ms.date: 07/30/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceName method, IWMPSyncDevice.get_deviceName, IWMPSyncDevice::get_deviceName, IWMPSyncDeviceget_deviceName, get_deviceName, get_deviceName method [Windows Media Player], get_deviceName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_devicename, wmp/IWMPSyncDevice::get_deviceName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Media Player 10 or later.
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WMPSyncState
+req.lib: 
+req.dll: Wmp.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWMPSyncDevice.get_deviceName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Wmp.dll
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # IWMPSyncDevice::get_deviceName

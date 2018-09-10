@@ -4,17 +4,16 @@ title: IDirectDrawSurface7::EnumAttachedSurfaces
 author: windows-sdk-content
 description: Enumerates all the surfaces that are attached to this surface.
 old-location: directdraw\idirectdrawsurface7_enumattachedsurfaces.htm
-old-project: directdraw
+tech.root: directdraw
 ms.assetid: 7f8e9b53-3aff-491c-ab0c-2f414d1ddb27
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: EnumAttachedSurfaces, EnumAttachedSurfaces method [DirectDraw], EnumAttachedSurfaces method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumAttachedSurfaces method, IDirectDrawSurface7.EnumAttachedSurfaces, IDirectDrawSurface7::EnumAttachedSurfaces, ddraw/IDirectDrawSurface7::EnumAttachedSurfaces, directdraw.idirectdrawsurface7_enumattachedsurfaces
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: DEDUP_CONTAINER_EXTENT
+req.lib: Ddraw.lib
+req.dll: Ddraw.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,9 +40,8 @@ api_name:
  - IDirectDrawSurface7.EnumAttachedSurfaces
 product: Windows
 targetos: Windows
-req.lib: Ddraw.lib
-req.dll: Ddraw.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # IDirectDrawSurface7::EnumAttachedSurfaces
@@ -59,9 +58,14 @@ Enumerates all the surfaces that are attached to this surface.
 
 
 
-### -param
+### -param arg1
+
+TBD
 
 
+### -param arg2
+
+TBD
 
 
 

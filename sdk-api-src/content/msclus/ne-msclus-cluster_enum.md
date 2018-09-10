@@ -4,7 +4,7 @@ title: CLUSTER_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster objects being enumerated.
 old-location: mscs\cluster_enum.htm
-old-project: mscs
+tech.root: mscs
 ms.assetid: e3d5a207-d30e-4935-be95-0957e68d4fe6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
 req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: CLUSTER_ENUM
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - CLUSTER_ENUM
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: CLUSTER_ENUM
+req.redist: 
 ---
 
 # CLUSTER_ENUM enumeration

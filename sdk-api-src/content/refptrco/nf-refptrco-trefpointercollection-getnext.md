@@ -4,17 +4,16 @@ title: TRefPointerCollection::GetNext
 author: windows-sdk-content
 description: The GetNext method gets a pointer to the next instance in the collection.
 old-location: wmi\trefpointercollection_getnext.htm
-old-project: WmiSdk
+tech.root: WmiSdk
 ms.assetid: c0dfb2c7-71f6-4870-8018-145e890d4928
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: GetNext, GetNext method [Windows Management Instrumentation], GetNext method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetNext method, TRefPointerCollection.GetNext, TRefPointerCollection::GetNext, _hmm_trefpointercollection_getnext, refptrco/TRefPointerCollection::GetNext, wmi.trefpointercollection_getnext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2008
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RECO_RANGE
+req.lib: FrameDyn.lib
+req.dll: FrameDynOS.dll; FrameDyn.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,10 +41,8 @@ api_name:
  - TRefPointerCollection.GetNext
 product: Windows
 targetos: Windows
-req.lib: FrameDyn.lib
-req.dll: FrameDynOS.dll; FrameDyn.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # TRefPointerCollection::GetNext

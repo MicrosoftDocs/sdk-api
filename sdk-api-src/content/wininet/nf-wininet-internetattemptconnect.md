@@ -4,17 +4,16 @@ title: InternetAttemptConnect function
 author: windows-sdk-content
 description: Attempts to make a connection to the Internet.
 old-location: wininet\internetattemptconnect.htm
-old-project: WinInet
+tech.root: WinInet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: InternetCookieState
+req.lib: Wininet.lib
+req.dll: Wininet.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - InternetAttemptConnect
 product: Windows
 targetos: Windows
-req.lib: Wininet.lib
-req.dll: Wininet.dll
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # InternetAttemptConnect function

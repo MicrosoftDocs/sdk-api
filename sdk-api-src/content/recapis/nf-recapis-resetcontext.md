@@ -4,17 +4,16 @@ title: ResetContext function
 author: windows-sdk-content
 description: Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.
 old-location: tablet\resetcontext.htm
-old-project: tablet
+tech.root: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
 ms.author: windowssdkdev
 ms.date: 08/28/2018
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps only]
 req.target-min-winversvr: None supported
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: RDPENCOMAPI_CONSTANTS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ResetContext
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # ResetContext function

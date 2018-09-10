@@ -4,17 +4,16 @@ title: IAccessible::get_accDefaultAction
 author: windows-sdk-content
 description: The IAccessible::get_accDefaultAction method retrieves a string that indicates the object's default action. Not all objects have a default action.
 old-location: winauto\iaccessible_iaccessible__get_accdefaultaction.htm
-old-project: WinAuto
+tech.root: WinAuto
 ms.assetid: 1261ff7c-7822-47c1-ac39-536b5ea09f31
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDefaultAction method, IAccessible.get_accDefaultAction, IAccessible::get_accDefaultAction, _msaa_IAccessible_get_accDefaultAction, get_accDefaultAction, get_accDefaultAction method [Windows Accessibility], get_accDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdefaultaction, oleacc/IAccessible::get_accDefaultAction, winauto.iaccessible_iaccessible__get_accdefaultaction
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 
-req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: QACONTROL
+req.lib: Oleacc.lib
+req.dll: Oleacc.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IAccessible.get_accDefaultAction
 product: Windows
 targetos: Windows
-req.lib: Oleacc.lib
-req.dll: Oleacc.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ---
 
 # IAccessible::get_accDefaultAction
@@ -62,7 +60,7 @@ The <b>IAccessible::get_accDefaultAction</b> method retrieves a string that indi
 
 ### -param varChild
 
-
+TBD
 
 
 ### -param pszDefaultAction [out, retval]

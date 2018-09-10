@@ -4,17 +4,16 @@ title: LongToUShort function
 author: windows-sdk-content
 description: Converts a value of type LONG to a value of type USHORT.
 old-location: shell\LongToUShort.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 45f9f7b0-a090-4162-8afc-ceaa85d3d848
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: LongToUShort, LongToUShort function [Windows Shell], LongToWord, _shell_LongToUShort, intsafe/LongToUShort, shell.LongToUShort
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_VELOCITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - LongToUShort
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # LongToUShort function

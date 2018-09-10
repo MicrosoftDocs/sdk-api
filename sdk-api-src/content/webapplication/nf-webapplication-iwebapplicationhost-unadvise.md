@@ -4,17 +4,16 @@ title: IWebApplicationHost::Unadvise
 author: windows-sdk-content
 description: Removes a previously established connection.
 old-location: debug\iwebapplicationhost_unadvise.htm
-old-project: debug_wwahost
+tech.root: debug_wwahost
 ms.assetid: daab1a3f-1f84-4559-bdc0-be8f1fb28904
 ms.author: windowssdkdev
 ms.date: 06/05/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Unadvise method, IWebApplicationHost.Unadvise, IWebApplicationHost::Unadvise, Unadvise, Unadvise method [Debugging Windows Store apps], Unadvise method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_unadvise, webapplication/IWebApplicationHost::Unadvise
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IWebApplicationHost.Unadvise
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: 
+req.redist: 
 ---
 
 # IWebApplicationHost::Unadvise

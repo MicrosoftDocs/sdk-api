@@ -4,7 +4,7 @@ title: WS_MESSAGE_STATE
 author: windows-sdk-content
 description: The different states that a message can be in.
 old-location: wsw\ws_message_state.htm
-old-project: wsw
+tech.root: wsw
 ms.assetid: 2c5ddedd-b0b4-4c26-a5c0-a5851f0408de
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: WS_MESSAGE_STATE
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - WS_MESSAGE_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows Address Book 5.0
+req.typenames: WS_MESSAGE_STATE
+req.redist: 
 ---
 
 # WS_MESSAGE_STATE enumeration

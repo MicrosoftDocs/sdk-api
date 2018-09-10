@@ -4,17 +4,16 @@ title: "_IManipulationEvents::ManipulationCompleted"
 author: windows-sdk-content
 description: Handles the event when manipulation or inertia finishes.
 old-location: wintouch\_imanipulationevents_manipulationcompleted.htm
-old-project: wintouch
+tech.root: wintouch
 ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationCompleted method, _IManipulationEvents.ManipulationCompleted, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - _IManipulationEvents.ManipulationCompleted
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # _IManipulationEvents::ManipulationCompleted

@@ -4,17 +4,16 @@ title: IPropertySystem::GetPropertyDescriptionByName
 author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given canonical name.
 old-location: properties\IPropertySystem_GetPropertyDescriptionByName.htm
-old-project: properties
+tech.root: properties
 ms.assetid: ec1b3ded-ad7f-4830-92a2-35ad5691aa10
 ms.author: windowssdkdev
 ms.date: 08/06/2018
 ms.keywords: GetPropertyDescriptionByName, GetPropertyDescriptionByName method [Windows Properties], GetPropertyDescriptionByName method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionByName method, IPropertySystem.GetPropertyDescriptionByName, IPropertySystem::GetPropertyDescriptionByName, properties.IPropertySystem_GetPropertyDescriptionByName, propsys/IPropertySystem::GetPropertyDescriptionByName, shell.IPropertySystem_GetPropertyDescriptionByName, shell_IPropertySystem_GetPropertyDescriptionByName
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
-req.redist: Windows Desktop Search (WDS) 3.0
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PSC_STATE
+req.lib: 
+req.dll: Propsys.dll (version 5.0 or later)
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IPropertySystem.GetPropertyDescriptionByName
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Propsys.dll (version 5.0 or later)
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: Windows Desktop Search (WDS) 3.0
 ---
 
 # IPropertySystem::GetPropertyDescriptionByName

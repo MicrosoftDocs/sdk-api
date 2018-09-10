@@ -4,17 +4,16 @@ title: CoIsHandlerConnected function
 author: windows-sdk-content
 description: Determines whether a remote object is connected to the corresponding in-process object.
 old-location: com\coishandlerconnected.htm
-old-project: com
+tech.root: com
 ms.assetid: f58bdec6-3709-439d-9867-0022a069c53d
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoIsHandlerConnected, com.coishandlerconnected, combaseapi/CoIsHandlerConnected
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: REGCLS
+req.lib: Ole32.lib
+req.dll: Ole32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,9 +44,8 @@ api_name:
  - CoIsHandlerConnected
 product: Windows
 targetos: Windows
-req.lib: Ole32.lib
-req.dll: Ole32.dll
-req.irql: 
+req.typenames: 
+req.redist: 
 ---
 
 # CoIsHandlerConnected function

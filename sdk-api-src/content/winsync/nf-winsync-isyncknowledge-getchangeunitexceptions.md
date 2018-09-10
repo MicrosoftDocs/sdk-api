@@ -4,17 +4,16 @@ title: ISyncKnowledge::GetChangeUnitExceptions
 author: windows-sdk-content
 description: Gets an object that can enumerate the IChangeUnitException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getchangeunitexceptions.htm
-old-project: winsync
+tech.root: winsync
 ms.assetid: f8d12e76-82f3-4291-8c95-757d4838639e
 ms.author: windowssdkdev
 ms.date: 08/29/2018
 ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetChangeUnitExceptions method, ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - ISyncKnowledge.GetChangeUnitExceptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+req.typenames: 
+req.redist: 
 ---
 
 # ISyncKnowledge::GetChangeUnitExceptions

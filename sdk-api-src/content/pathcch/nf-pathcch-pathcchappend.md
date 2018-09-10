@@ -4,17 +4,16 @@ title: PathCchAppend function
 author: windows-sdk-content
 description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAppend.htm
-old-project: shell
+tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
+req.lib: Pathcch.lib
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -42,10 +42,8 @@ api_name:
  - PathCchAppend
 product: Windows
 targetos: Windows
-req.lib: Pathcch.lib
-req.dll: 
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # PathCchAppend function

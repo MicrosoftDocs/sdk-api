@@ -4,17 +4,16 @@ title: IObjectArray::GetCount
 author: windows-sdk-content
 description: Provides a count of the objects in the collection.
 old-location: shell\IObjectArray_GetCount.htm
-old-project: shell
+tech.root: shell
 ms.assetid: 2803d8b1-7fc2-499b-a16b-b82b420cba66
 ms.author: windowssdkdev
 ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetCount method, IObjectArray.GetCount, IObjectArray::GetCount, _shell_IObjectArray_GetCount, objectarray/IObjectArray::GetCount, shell.IObjectArray_GetCount
-ms.prod: windows
-ms.technology: windows-sdk
+ms.prod: windows-hardware
+ms.technology: windows-devices
 ms.topic: method
 req.header: objectarray.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: COMSD
+req.lib: 
+req.dll: Shell32.dll
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - IObjectArray.GetCount
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll
-req.irql: 
-req.product: ADAM
+req.typenames: 
+req.redist: 
 ---
 
 # IObjectArray::GetCount

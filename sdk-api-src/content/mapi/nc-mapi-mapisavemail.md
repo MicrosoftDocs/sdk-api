@@ -4,7 +4,7 @@ title: MAPISAVEMAIL
 author: windows-sdk-content
 description: The MAPISaveMail function saves a message into the message store.
 old-location: mapi\mapisavemail.htm
-old-project: WindowsMAPI
+tech.root: WindowsMAPI
 ms.assetid: 995bf2cd-6ee6-46a3-a6d9-f28dc42e0e78
 ms.author: windowssdkdev
 ms.date: 08/29/2018
@@ -14,7 +14,6 @@ ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
-req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,8 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-tech.root: 
-req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,10 +40,8 @@ api_name:
  - MAPISaveMail
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: GDI+ 1.1
+req.typenames: 
+req.redist: 
 ---
 
 # MAPISAVEMAIL callback function
